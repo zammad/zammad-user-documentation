@@ -69,5 +69,5 @@ Wilkommen zur Zammad User Dokumentation
    :maxdepth: 2
    :caption: Good2Know
 
-   ticket-search
+   good2know
 
