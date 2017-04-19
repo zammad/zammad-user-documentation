@@ -1,7 +1,6 @@
 Wilkommen zur Zammad User Dokumentation
 ==================================
 
-* :ref:`about-docs`
 * :ref:`interface-docs`
 * :ref:`ticket-docs`
 * :ref:`working-with-zammad-docs`
