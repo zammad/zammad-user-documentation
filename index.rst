@@ -25,7 +25,7 @@ Wilkommen zur Zammad User Dokumentation
 .. toctree::
    :maxdepth: 2
    :caption: Ticket-Informationen
-
+   
    ticket-information
    ticket-submenu
    ticket-cutomer-information
