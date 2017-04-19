@@ -11,7 +11,7 @@ Diese bietet folgende Aktionen zur Ticketbearbeitung an:
 
 *Antwort-Email versenden
 
-.. image:: images/gettingstarted/Abb13-Antwort-Email versenden.jpg
+.. image:: images/gettingstarted/Abb13-Antwort-Email_versenden.jpg
 
 Unter einer Email befinden sich die Buttons „antworten“ und bei mehreren Empfängern „allen antworten“. Drückt man „antworten“ gelangt man automatisch in eine Antwort-Email-Maske, in der der Absender des Artikels als Empfänger eingetragen wird. Wurde der Artikel an mehrere Personen gesendet, können durch den Klick „allen antworten“ alle Empfänger aus dem CC in das aktuelle übernommen werden.
 Auch hier können Anhänge hinzugefügt werden.
@@ -21,7 +21,7 @@ Auch hier können Anhänge hinzugefügt werden.
 
 *Notiz anlegen
 
-.. image:: images/gettingstarted/Abb14-Notiz erstellen.jpg
+.. image:: images/gettingstarted/Abb14-Notiz_erstellen.jpg
 
 Indem man auf das orange umrandete Kästchen unter dem letzen Artikel des Tickets drückt, erstellt man eine interne Notiz. Dies ist im Standard so eingestellt, damit man sich ggf. bewusst für eine andere Aktion entscheiden muss und nicht z.B. ausversehen eine E-Mail versendet. Das Notizblock-Symbol links neben dem Eingabefeld zeigt an, dass es sich um eine Notiz handelt.
 Notizen können ebenfalls Anhänge beigefügt werden.
