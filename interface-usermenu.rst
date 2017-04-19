@@ -13,4 +13,4 @@ Ctrl +h bzw. für Mac-Nutzer: cmd ctrl + alt + h
 
 Durch die Nutzung von Tastenkürzeln lassen sich Texte formatieren, man kann sich durch das System navigieren, Ticket-Dialoge steuern, ...
 
-.. image:: images/gettingstarted/Abb6-ListeTastenkuerzel.jpg
+.. image:: images/gettingstarted/Abb6-ListeTastenkuerzel.png

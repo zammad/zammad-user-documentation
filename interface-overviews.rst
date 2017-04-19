@@ -1,6 +1,6 @@
 **Ticket - Übersichten
 
-.. image:: images/gettingstarted/Abb2-Ticket-Übersichten.jpg
+.. image:: images/gettingstarted/Abb2-Ticket-Uebersichten.jpg
 
 Zammad stellt per Default folgende Ansichten zur Verfügung:
 1)	Meine zugewiesenen Tickets

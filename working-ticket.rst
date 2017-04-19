@@ -6,7 +6,7 @@ Möchte man ein Ticket bearbeiten, hat man die Möglichkeit in der Ticketmaske f
 •	Telefon-Anruf (intern / extern)
 Um auszuwählen, welche Art von Artikel man erstellen möchte, klickt man zuerst in das leere Feld unterhalb des letzten Artikels. Bereits jetzt kann man anfangen zu schreiben oder Dateien einzufügen. Alle Inhalte bleiben gespeichert. Dabei ist es egal, ob man zwischen Tickets wechselt, das Fenster schließt oder die Artikel-Art auswählt. Diese Auswahl erhält man durch einen Klick auf den Notizblock links neben dem Textfeld, wie im folgenden Bild dargestellt:
 
-.. image:: images/Abb30-AuswahlArtikel-Typen.png
+.. image:: images/gettingstarted/Abb30-AuswahlArtikel-Typen.png
 
 Nun können Artikel, wie bereits in bisherigen Kapiteln beschrieben, erstellt werden.
 
