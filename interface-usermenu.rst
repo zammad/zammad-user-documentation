@@ -1,6 +1,6 @@
 **Menüleiste
 
-.. image:: images/gettingstarted/Abb5-Menüleiste.jpg
+.. image:: images/gettingstarted/Abb5-Menuleiste.jpg
 
 Durch einen Klick auf Ihr Avatar-Bild (unten links) gelangt man in sein Agenten-Menü. Hier kann man neben den Tastenkürzeln sich abmelden und seine Einstellungen (Profil) verwalten.
 
