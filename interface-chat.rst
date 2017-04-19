@@ -1,4 +1,5 @@
-**Kunden-Chat
+Kunden-Chat
+===========
 
 .. image:: images/gettingstarted/Abb3-Kunden-Chat.jpg
 

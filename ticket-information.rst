@@ -1,5 +1,5 @@
-**Ticket-Informationen
-
+Ticket-Informationen
+====================
 Innerhalb jedes Tickets können Informationen zum Ticket, Kunden oder der Organisation hinterlegt und bearbeitet werden. Dies wird in den folgenden Abschnitten erklärt.
 
 .. image:: images/gettingstarted/Abb20-Ticket-Informationen.jpg

@@ -1,4 +1,5 @@
-**Suche
+Suche
+=====
 
 Die Suchmaske befindet sich (egal in welchem Fenster man sich befindet) im Fenster links oben:
 

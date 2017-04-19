@@ -1,4 +1,5 @@
-**Ticket - Übersichten
+Ticket - Übersichten
+===========================
 
 .. image:: images/gettingstarted/Abb2-Ticket-Uebersichten.jpg
 

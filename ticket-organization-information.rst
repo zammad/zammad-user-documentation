@@ -1,4 +1,5 @@
-**Organisations-Informationen
+Organisations-Informationen
+===========================
 
 .. image:: images/gettingstarted/Abb27-OrganisationBearbeiten.png
 

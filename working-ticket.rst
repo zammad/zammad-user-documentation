@@ -1,9 +1,10 @@
-**Arbeiten mit Tickets
+Arbeiten mit Tickets
+********************
 
 Möchte man ein Ticket bearbeiten, hat man die Möglichkeit in der Ticketmaske folgende Artikel zu erstellen:
-•	Notiz (intern / extern)
-•	E-Mail (intern / extern)
-•	Telefon-Anruf (intern / extern)
+* Notiz (intern / extern)
+* E-Mail (intern / extern)
+* Telefon-Anruf (intern / extern)
 Um auszuwählen, welche Art von Artikel man erstellen möchte, klickt man zuerst in das leere Feld unterhalb des letzten Artikels. Bereits jetzt kann man anfangen zu schreiben oder Dateien einzufügen. Alle Inhalte bleiben gespeichert. Dabei ist es egal, ob man zwischen Tickets wechselt, das Fenster schließt oder die Artikel-Art auswählt. Diese Auswahl erhält man durch einen Klick auf den Notizblock links neben dem Textfeld, wie im folgenden Bild dargestellt:
 
 .. image:: images/gettingstarted/Abb30-AuswahlArtikel-Typen.png

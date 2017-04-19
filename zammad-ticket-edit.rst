@@ -1,4 +1,5 @@
-**Ticketmaske
+Ticketmaske
+===========
 
 Nach Klick auf ein Ticket in einer Ticketliste (z.B. über das Dashboard-Widget ‚Neue Tickets’) gelangt man zur Ticket -Maske:
 
@@ -9,7 +10,8 @@ Diese bietet folgende Aktionen zur Ticketbearbeitung an:
 
 
 
-*Antwort-Email versenden
+Antwort-Email versenden
+=======================
 
 .. image:: images/gettingstarted/Abb13-Antwort-Email_versenden.jpg
 
@@ -19,7 +21,8 @@ Auch hier können Anhänge hinzugefügt werden.
 
 
 
-*Notiz anlegen
+Notiz anlegen
+=============
 
 .. image:: images/gettingstarted/Abb14-Notiz_erstellen.jpg
 
@@ -28,7 +31,8 @@ Notizen können ebenfalls Anhänge beigefügt werden.
 
 
 
-*Weiterleiten eines Artikels
+Weiterleiten eines Artikels
+===========================
 
 .. image:: images/gettingstarted/Abb15-Weiterleiten_eines_Artikels.jpg
 
@@ -36,7 +40,8 @@ Durch den Klick auf „abspalten“ unter einem Artikel kann eine Notiz, Anrufer
 
 
 
-*Vermerken eingehender und ausgehender Anrufe
+Vermerken eingehender und ausgehender Anrufe
+============================================
 
 Möchte man einen neuen Anruf im Ticketsystem einstellen, wird zunächst ein neues Ticket erstellt und die entsprechende Kategorie gewählt (siehe3.1 Neues Ticket anlegen).
 Möche man innerhalb eines bestehenden Tickets einen Anruf vermerken, wählt man links neben dem Eingabefeld die Kategorie „Anruf“ (Telefonhörer) aus (vgl. 3.3 Arbeiten mit Tickets), wie in der folgenden Abbildung zu sehen:
@@ -47,7 +52,8 @@ Nun können die Informationen des geführten Gespräches eingetragen werden. Der
 
 
 
-*Artikel intern oder öffentlich setzen
+Artikel intern oder öffentlich setzen
+=====================================
 
 .. image:: images/gettingstarted/Abb17-Artikel_intern_markieren.jpg
 
@@ -61,7 +67,8 @@ Zu beachten ist hierbei, dass eine versandte Email, die nachträglich als intern
 
 
 
-*Ticket-Betreff ändern
+Ticket-Betreff ändern
+=====================
 
 .. image:: images/gettingstarted/Abb19-Betreff_aendern.jpg
 

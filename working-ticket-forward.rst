@@ -1,4 +1,5 @@
-*Variante 1 – Weiterreichen von Tickets
+Variante 1 – Weiterreichen von Tickets
+======================================
 
 Ein Ticket trifft im Kundenservice ein und wird durch einen Mitarbeiter bearbeitet/ kategorisiert. Eine weitere Bearbeitung durch einen anderen Kollegen bzw. die Beschaffung von detaillierteren Informationen ist notwendig.
 

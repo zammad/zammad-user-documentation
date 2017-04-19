@@ -1,4 +1,5 @@
-*Ticket-Vorlagen
+Ticket-Vorlagen
+===============
 
 Werden oft Tickets mit ähnlichem Inhalt erstellt, kann man diese als Ticket-Vorlage speichern, um so den Ticketerstellungsvorgang zukünftig zu beschleunigen. Durch diese Funktion werden folgende Ticketinfos vordefiniert: Ticket-Typ, Kunde, Titel, Test, Gruppe, Besitzer, Status, Priorität und Tags.
 

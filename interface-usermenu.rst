@@ -1,4 +1,5 @@
-**Menüleiste
+Menüleiste
+===========================
 
 .. image:: images/gettingstarted/Abb5-Menuleiste.jpg
 
@@ -6,7 +7,9 @@ Durch einen Klick auf Ihr Avatar-Bild (unten links) gelangt man in sein Agenten-
 
 
 
-*Tastenkürzel
+Tastenkürzel
+===========================
+
 Durch Klick auf das Avatar-Bild (unten links) gelangt man zu den Tastenkürzeln. Hier erfährt man auch den einfachen Weg um zu diesem Hilfe-Fenster zu gelangen:
 
 Ctrl +h bzw. für Mac-Nutzer: cmd ctrl + alt + h

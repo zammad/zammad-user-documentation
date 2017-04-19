@@ -1,4 +1,6 @@
-**Neues Ticket anlegen
+Neues Ticket anlegen
+====================
+
 Um ein neues Ticket anzulegen, klicken Sie auf das Plus-Symbol unten links und anschließend auf ‚Neues Ticket“.
 
 Man gelangt auf folgende Maske:

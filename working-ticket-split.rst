@@ -1,4 +1,6 @@
-*Variante 2 - Ticket abspalten
+Variante 2 - Ticket abspalten
+=============================
+
 Müssen Teile eines Tickets von mehreren Personen / Abteilungen bearbeitet werden, ist die Teilung des Tickets sinnvoll. Speziell für Prozesse, die unterschiedliche Laufzeiten haben, bieten sich diese Variante an.
 Unterhalb des Artikels muss dafür auf „abspalten“ geklickt werden:
 

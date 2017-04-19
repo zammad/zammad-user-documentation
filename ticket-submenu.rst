@@ -1,8 +1,11 @@
-*Historie:
+Historie
+=========
+
 Zeigt die vergangenen Aktionen an, die (von allen Personen) am Ticket geändert wurden.
 
 
-*Zusammenfassen:
+Zusammenfassen
+===============
 
 .. image:: images/gettingstarted/Abb22-Zusammenfassen-Maske.jpg
 
@@ -11,8 +14,8 @@ In das obere Feld wird das „Mutter-Ticket“ eingetragen. Also das Ticket, zu 
 Das aktuell ausgewählte Ticket existiert nach der Übermittlung nicht mehr als eigenständiges Ticket. Daher ist die Zusammenfassen-Funktion mit Vorsicht zu genießen, da die Teilung nach diesem Vorgang nicht ohne Weiteres möglich ist.
 
 
-*Kunden ändern
-
+Kunden ändern
+=============
 .. image:: images/gettingstarted/Abb23-Kunden_aendern.jpg
 
 In diesem Schritt kann der Kunde, der für dieses Ticket hinterlegt wurde geändert werden. Dabei können nur Personen oder Organisationen eingetragen werden, die im Zammad bereits angelegt wurden. Bei der Eingabe der Organisation, werden dieser zugewiesene Mitarbeiter vorgeschlagen und können somit ausgewählt werden.

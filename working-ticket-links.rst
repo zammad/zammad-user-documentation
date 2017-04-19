@@ -1,4 +1,5 @@
-*Tickets verknüpfen
+Tickets verknüpfen
+==================
 
 Tickets können untereinander verlinkt werden. Dies ist eine Möglichkeit, um eine Parent-Child-Verknüpfung herzustellen oder Tickets „normal“ zu verlinken.
 

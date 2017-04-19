@@ -1,4 +1,5 @@
-**Kunden-Information
+Kunden-Information
+==================
 
 .. image:: images/gettingstarted/Abb24-Kunden-Informationen_am_Ticket.jpg
 
@@ -11,7 +12,7 @@ Dafür wählt man nach Klick auf den Pfeil der neben „Kunde“ steht, das Feld
 .. image:: images/gettingstarted/Abb26-Fenster-KundenbenutzerBearbeiten.png
 
 In dieser Maske können nicht nur Kontaktinformationen eingetragen, es können für den Kundenbenutzer ebenfalls folgende Aktionen vorgenommen werden:
-•	Organisation zuweisen
-•	ein Passwort festsetzen
-•	einen VIP- Status zuweisen
-•	ihn aktiv/nicht aktiv setzen
+* Organisation zuweisen
+* ein Passwort festsetzen
+* einen VIP- Status zuweisen
+* ihn aktiv/nicht aktiv setzen
