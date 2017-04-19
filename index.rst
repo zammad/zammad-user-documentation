@@ -9,7 +9,7 @@ Wilkommen zur Zammad User Dokumentation
 * :ref:`good2know-docs`
 
 
-.. _ticket-docs:
+.. _interface-docs:
 
 .. toctree::
    :maxdepth: 2
@@ -20,7 +20,7 @@ Wilkommen zur Zammad User Dokumentation
    interface-telephone
    interface-usermenu
 
-.. _interface-docs:
+.. _ticket-docs:
 
 .. toctree::
    :maxdepth: 2
