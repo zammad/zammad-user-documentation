@@ -5,7 +5,7 @@ Kunden-Chat
 
 Durch die Chat-Funktion können Kunden mit angemeldeten Agenten direkt in Kontakt treten. Nicht jedem Agenten steht die Chat-Funktion zur Verfügung.
 
- In der Chat-Übersicht gibt es folgende Bereiche:
+In der Chat-Übersicht gibt es folgende Bereiche:
 1.)	An-/ Aus-Schalter
 Ist der Chat bei mindestens einem Agenten eingeschaltet, wird dem Kunden dies angezeigt und man bekommt Meldungen sobald ein Kunde den Chat aktiviert.
 Ist der Chat ausgeschaltet, bekommt man keine Meldungen über aktive Chats.

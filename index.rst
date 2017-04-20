@@ -1,5 +1,5 @@
 Wilkommen zur Zammad User Dokumentation
-==================================
+=======================================
 
 * :ref:`interface-docs`
 * :ref:`ticket-docs`
@@ -16,6 +16,7 @@ Wilkommen zur Zammad User Dokumentation
    :caption: Interface
 
    interface-dashboard
+   interface-overviews
    interface-chat
    interface-telephone
    interface-usermenu
@@ -28,9 +29,9 @@ Wilkommen zur Zammad User Dokumentation
    
    ticket-information
    ticket-submenu
-   ticket-cutomer-information
+   ticket-customer-information
    ticket-organization-information
-
+   
 .. _working-with-zammad-docs:
 
 .. toctree::
@@ -42,7 +43,7 @@ Wilkommen zur Zammad User Dokumentation
    zammad-ticket-states
    zammad-ticket-tags
    zammad-ticket-templates
-   zammad-timeaccounting
+   zammad-ticket-timeaccounting
 
 .. _working-with-ticket-docs:
 
