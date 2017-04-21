@@ -1,19 +1,17 @@
 Variante 2 - Ticket abspalten
 =============================
 
-Müssen Teile eines Tickets von mehreren Personen / Abteilungen bearbeitet werden, ist die Teilung des Tickets sinnvoll. Speziell für Prozesse, die unterschiedliche Laufzeiten haben, bieten sich diese Variante an.
+Müssen Teile eines Tickets von mehreren Personen/Abteilungen bearbeitet werden, ist die Teilung des Tickets sinnvoll. Speziell für Prozesse, die unterschiedliche Laufzeiten haben, bietet sich dies an.
 Unterhalb des Artikels muss dafür auf „abspalten“ geklickt werden:
 
 .. image:: images/gettingstarted/Abb32-ArtikelAbspalten.png
 
-Nun gelangt man in die „normale“ Ticket-Erstell-Maske, hat jedoch alle Informationen, die am Ticket gespeichert waren, also auch den Inhalt des jeweiligen Artikels bereits übernommen:
+Dies führt zum "normalen" Ticket-Erstellungsdialog. Dieser enthält dann jedoch bereits alle Informationen, die am Ticket gespeichert waren, also auch den Inhalt des jeweiligen Artikels.
 
 .. image:: images/gettingstarted/Abb33-abgespalteter-Artikel.png
 
-Es kann nun ausgewählt werden, ob dies als eingehender/ausgehender Anruf oder E-Mail-Ticket erstellt wird (wie bei der Erstellung eines komplett neuen Tickets). Die Informationen des Kunden können ebenfalls angepasst werden bevor das neue Ticket erstellt wird.
+Es kann nun ausgewählt werden, ob das neue Ticket als eingehender/ausgehender Anruf oder als E-Mail erstellt werden soll. Die Informationen des Kunden können ebenfalls angepasst werden bevor das neue Ticket erstellt wird.
 
-Das abgespaltene Ticket enthält die Information von welchem Ticket es stammt (Eltern Ticket). Informationen über Eltern- und Kind-Verlinkung können unter den Ticket-Informationen eingesehen werden:
+Das abgespaltene Ticket enthält die Information, von welchem Ticket es abgespalten wurde (Eltern-Ticket). Informationen über Eltern- und Kind-Verlinkung können unter den Ticket-Informationen eingesehen werden. Die Verlinkungen können durch Klick auf das Kreuz rechts neben der Verlinkung entfernt werden.
 
 .. image:: images/gettingstarted/Abb34-Parent-Child-Verknuepfung.jpg
-
-Zwischen den Verknüpfungen kann einfach hin- und her-geklickt werden. Die Verknüpfung kann über das Kreuz recht daneben gelöscht werden.

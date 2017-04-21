@@ -1,9 +1,7 @@
 Tickets taggen
 ==============
 
-Es können den Tickets Tags zugewiesen werden. Durch diese Funktion können verschiedene Tickets kategorisiert und später in einer Suchmaske aufgelistet werden.
-Um ein Ticket zu taggen trägt man den gewünschten Tag unterhalb der Ticketinformationen ein. Nach der Eingabe von zwei treffenden Buchstaben werden bereits verwendete Tags vorgeschlagen.
-
-Die Tags können innerhalb der Ticketmaske an folgender Stelle eingetragen werden:
+Um Tickets besser suchen und zuordnen zu können, können diese mit Tags versehen werden.
+Tags können auf der rechten Seite unter den Ticketinformationen zugeordnet werden. Bei der Eingabe eines zuzuordnenden Tags werden Vorschläge auf Basis bisher verwendeter Tags bereitgestellt.
 
 .. image:: images/gettingstarted/Abb9-TicketTags.png

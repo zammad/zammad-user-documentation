@@ -1,14 +1,14 @@
-Tickets verknüpfen
+Tickets verlinken
 ==================
 
-Tickets können untereinander verlinkt werden. Dies ist eine Möglichkeit, um eine Parent-Child-Verknüpfung herzustellen oder Tickets „normal“ zu verlinken.
+Tickets können untereinander verlinkt werden.
 
 .. image:: images/gettingstarted/Abb35-TicketsVerlinken.png
 
-Um eine Verlinkung zwischen zwei Tickets herzustellen, klickt man im Ticket unter den Ticket-Informationen auf das Feld „Link hinzufügen“ und gelangt in folgende Maske:
+Der Dialog zur Verlinkung zwischen zwei Tickets öffnet sich nach einem Klick auf "Link hinzufügen" unter den Ticket-Informationen.
 
 .. image:: images/gettingstarted/Abb36-Verlinkung_hinzufuegen.png
 
-In dieser Maske werden Tickets für eine Verlinkung vorgeschlagen. Dabei kann ausgewählt werden aus zuletzt geöffneten Tickets oder den letzten Tickets des Kunden. Es kann natürlich auch eine Ticketnummer in das obere Textfeld eingetragen werden.
-Im nächsten Schritt wählt man aus, welche Art von Verknüpfung erstellt werden soll. Dabei muss überlegt werden, ob eine Verlinkung als Eltern-Kind- oder als normale Verlinkung eingestellt werden soll.
-Durch das Übermitteln ist die Verlinkung aktiv und ist nun in beiden Tickets sichtbar.
+In diesem Dialog werden Tickets für eine Verlinkung vorgeschlagen. Dabei kann zwischen zuletzt geöffneten Tickets oder den letzten Tickets des Kunden gewählt werden. Es kann auch eine Ticketnummer in das obere Textfeld eingetragen werden.
+Des Weiteren wird noch die Art der Verlinkung ausgewählt: Eltern, Kind oder "normal".
+

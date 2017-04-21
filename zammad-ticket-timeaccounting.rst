@@ -1,8 +1,8 @@
 Zeiterfassung
 =============
 
-Man hat die Möglichkeit seine benötigte Bearbeitungszeit pro Ticket zu vermerken. Dafür erscheint automatisch beim Absenden eines neuen Artikels folgende Maske, in die man die entsprechende Zeit einträgt:
+Die Bearbeitungszeit kann je Artikel vermerkt werden. Nach dem Speichern eines Artikel erscheint dazu ein Dialog, in den die Zeit eingetragen wird:
 
 .. image:: images/gettingstarted/Abb11-Zeiterfassung.png
 
-Ihre Admins haben die Möglichkeit in einer Übersicht sich die Bearbeitungszeit pro Kunde, Ticket und der Organisation anzusehen.
+Administratoren können diese Bearbeitungszeiten in einer Übersicht je Kunde, Ticket und Organisation einsehen.
