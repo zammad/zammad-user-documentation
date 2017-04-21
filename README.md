@@ -22,8 +22,7 @@ Thanks! ❤ ❤ ❤
 
   Zammad Team
 
-
-[![Documentation Status](https://zammad-user-documentation.readthedocs.io/de/latest/)](https://docs.zammad.org)
+[![Documentation Status](https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest)](https://zammad-user-documentation.readthedocs.io/de/latest/)
 
 ## Local tests (mostly internal stuff)
 
