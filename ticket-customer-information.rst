@@ -1,18 +1,20 @@
-Kunden-Information
+Kundeninformation
 ==================
 
 .. image:: images/gettingstarted/Abb24-Kunden-Informationen_am_Ticket.jpg
 
-Durch den Klick auf das „Männchen-Symbol“ auf der rechten Seite (siehe Abb. 21) werden Informationen zum derzeit eingetragenen Kunden angezeigt. Diese können systemweit geändert werden.
+Durch einen Klick auf das einzelne Personen-Icon auf der rechten Seite werden Informationen des dem Ticket zugewiesenen Kunden angezeigt. Diese können systemweit geändert werden.
 
 .. image:: images/gettingstarted/Abb25-Kunden_bearbeiten.jpg
 
-Dafür wählt man nach Klick auf den Pfeil der neben „Kunde“ steht, das Feld „Kunden bearbeiten“ (siehe Abb. 22). Somit gelangt man in ein Fenster, indem alle Informationen zu dem Kundenbenutzer entsprechend angepasst werden können (Abb. 24).
+Nach einem Klick auf "Kunde" und anschließend "Kunde bearbeiten" öffnet sich ein Dialog zur Bearbeitung der Kundendaten.
 
 .. image:: images/gettingstarted/Abb26-Fenster-KundenbenutzerBearbeiten.png
 
-In dieser Maske können nicht nur Kontaktinformationen eingetragen, es können für den Kundenbenutzer ebenfalls folgende Aktionen vorgenommen werden:
+In diesem Dialog können folgende Daten angepast werden:
+
+* Kontaktinformationen
 * Organisation zuweisen
-* ein Passwort festsetzen
-* einen VIP- Status zuweisen
-* ihn aktiv/nicht aktiv setzen
+* Passwort ändern
+* VIP-Status zuweisen
+* Aktiv/inaktiv setzen
