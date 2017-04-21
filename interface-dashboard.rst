@@ -1,32 +1,31 @@
 Dashboard
 =========
 
-Das Dashboard verleiht den Agenten einen Überblick über die aktuelle Lage zu den Tickets.
+Das Dashboard verschafft den Agenten einen Überblick über die aktuelle Lage der Tickets.
 
 .. image:: images/gettingstarted/Abb1-Dashboard.jpg
 
-Das Dashboard ist in sieben verschiedene Bereiche geteilt:
+Das Dashboard ist in sieben verschiedene Bereiche unterteilt:
 
-1.)	Wartezeit/ Bearbeitungszeit
-Anzeige der durchschnittlichen Zeit, die am aktuellen Tag für die Bearbeitung/ Antwort der eigenen Tickets benötigt wurde.
-Grau hinterlegt steht die durchschnittliche Bearbeitungszeit des gesamten Teams.
+1.)	Wartezeit/Bearbeitungszeit
+Anzeige der durchschnittlichen Zeit, die am aktuellen Tag für die Bearbeitung/Antwort der eigenen Tickets benötigt wurde.
+Die durchschnittliche Bearbeitungszeit des gesamten Teams wird grau dargestellt.
 
-2.)	Stimmung/ Eskalierte Tickets
-Der Smiley zeigt, wieviele der einem zugewiesenen Tickets eskaliert sind – ist er grün und lacht sind keine deir eigenen Tickets eskaliert. Je böser der Smiley, desto mehr Tickets sind eskaliert.
-Grau hinterlegt steht die Gesamtzahl der eskalierten Tickets von allen Agenten, die deinen Gruppen zugewiesen sind.
+2.)	Stimmung/Eskalierte Tickets
+Der Smiley zeigt, wie viele der eigenen Tickets eskaliert sind. Ist er grün und lacht sind keine eigenen Tickets eskaliert. Je "böser" der Smiley, desto mehr Tickets sind eskaliert.
+Die Gesamtzahl der eskalierten Tickets aller Agenten in denselben Gruppen wird grau dargestellt.
 
 3.)	Kanalverteilung
-Zegit eine prozentuale Verteilung der geöffneten und geschlossenen Tickets, die über die einzelnen Kanäle eingetroffen sind.
+Zeigt eine prozentuale Verteilung der geöffneten und geschlossenen Tickets, die über die einzelnen Kanäle eingetroffen sind.
 
-4.)	Mir zugewiesene Tickets
-Zeigt die absolute Anzahl der einem zugewiesenen Tickets im Vergleich zu den aller anderen Agenten.
-Grau hinterlegt steht die durchschnittliche Anzahl der einem zugewiesenen Tickets.
+4.)	Zugewiesene Tickets
+Zeigt die absolute Anzahl der zugewiesenen Tickets im Vergleich zu den Tickets aller anderen Agenten.
+Die durchschnittliche Anzahl der zugewiesenen Tickets werden grau dargestellt.
 
-5.)	Meine Tickets in Bearbeitung
+5.)	Eigene Tickets in Bearbeitung
 
 6.)	Wiedereröffnungsrate
 
 7.)	Aktivitätsstream
-
-Eine Liste der letzten Aktivitäten aller Agenten.
+Zeigt eine Liste der letzten Aktivitäten aller Agenten.
 

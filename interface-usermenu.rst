@@ -3,17 +3,15 @@ Menüleiste
 
 .. image:: images/gettingstarted/Abb5-Menuleiste.jpg
 
-Durch einen Klick auf Ihr Avatar-Bild (unten links) gelangt man in sein Agenten-Menü. Hier kann man neben den Tastenkürzeln sich abmelden und seine Einstellungen (Profil) verwalten.
-
+Ein Klick auf den Avatar (Bild unten links) führt zum persönlichen Agenten-Menü. Hier sind Tastenkürzel, Profil-Einstellungen und die Abmeldung zu finden.
 
 
 Tastenkürzel
 ===========================
 
-Durch Klick auf das Avatar-Bild (unten links) gelangt man zu den Tastenkürzeln. Hier erfährt man auch den einfachen Weg um zu diesem Hilfe-Fenster zu gelangen:
+Durch Klick auf den Avatar (Bild unten links) können die Tastaturkürzel eingesehen werden. Alternativ können diese über folgende Tastenkombination eingesehen werden:
+Strg + H bzw. für Mac-Nutzer Cmd + Ctrl + Alt + H
 
-Ctrl +h bzw. für Mac-Nutzer: cmd ctrl + alt + h
-
-Durch die Nutzung von Tastenkürzeln lassen sich Texte formatieren, man kann sich durch das System navigieren, Ticket-Dialoge steuern, ...
+Über Tastaturkürzel sind folgende Funktionen erreichbar: Textformatierung, Navigation, Ticketfunktionen.
 
 .. image:: images/gettingstarted/Abb6-ListeTastenkuerzel.png
