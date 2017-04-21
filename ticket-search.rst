@@ -1,18 +1,18 @@
 Suche
 =====
 
-Die Suchmaske befindet sich (egal in welchem Fenster man sich befindet) im Fenster links oben:
+Das Eingabefeld für die Suche befindet sich immer links oben:
 
 .. image:: images/gettingstarted/Abb37-Suchfeld.png
 
-Es kann nach allen Ticketinhalten gesucht werden. Die Suche beinhaltet Texte innerhalb der Artikel, Kundennamen, Organisationen, Ticketnummern aber auch Namen der Anhänge von Artikeln.
-Bei der Eingabe des Suchbegriffes werden darunter automatisch einige Tickets, Kunden, Organisationen und Projekte, die den Begriff beinhalten aufgelistet, wie in der Abbildung zu sehen:
+Die Suche steht für Tickets, Artikel, Kunden und Organisationen zur Verfügung und startet mit der Eingabe eines Suchbegriffs.
+Die Ergebnisse werden in Kurzform unterhalb des Eingabefelds aufgelistet.
 
 .. image:: images/gettingstarted/Abb38-dynamischeSuche.png
 
-Eine vollständige Auflistung der Suche erhält man, indem man auf „Suchdetails anzeigen“ klickt. Man gelangt auf folgende Übersicht:
+Über "Suchdetails anzeigen" ist das vollständige Suchergebnis erreichbar:
 
 .. image:: images/gettingstarted/Abb39-Suchdetails.png
 
-In der Suchdetail-Ansicht können die Suchergebnisse nach Organisations-, Benutzer- und Ticket-Treffern gefiltert werden.
-Die einzelnen Ticket-Spalten können durch einen Klick auf den Spaltennamen sortiert angezeigt werden.
+In der Such-Detailansicht können die Suchergebnisse nach Organisations-, Benutzer- und Ticket-Treffern gefiltert werden.
+Die einzelnen Ticketspalten können durch einen Klick auf den Spaltennamen sortiert werden.
