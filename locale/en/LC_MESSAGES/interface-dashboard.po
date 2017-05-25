@@ -1,139 +1,91 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2017, Zammad
+# This file is distributed under the same license as the Zammad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  Python\n"
+"Project-Id-Version: Zammad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-28 12:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
-"Language-Team: English (https://www.transifex.com/zammad/teams/73964/en/)"
-"\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Last-Translator: Johanna Kiefer <hannakiefer@googlemail.com>, 2017\n"
+"Language-Team: English (https://www.transifex.com/zammad/teams/73964/en/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../interface-dashboard.rst:2
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard"
 
 #: ../../interface-dashboard.rst:4
 msgid ""
-"Das Dashboard verschafft den Agenten einen Überblick über die aktuelle "
-"Lage der Tickets."
+"Das Dashboard verschafft den Agenten einen Überblick über die aktuelle Lage "
+"der Tickets."
 msgstr ""
+"The dashboard provides agents with an overview of the current tickets."
 
 #: ../../interface-dashboard.rst:8
 msgid "Das Dashboard ist in sieben verschiedene Bereiche unterteilt:"
-msgstr ""
+msgstr "The dashboard is divided into seven different parts:"
 
 #: ../../interface-dashboard.rst:10
 msgid ""
-"1.)     Wartezeit/Bearbeitungszeit Anzeige der durchschnittlichen Zeit, "
-"die am aktuellen Tag für die Bearbeitung/Antwort der eigenen Tickets "
-"benötigt wurde. Die durchschnittliche Bearbeitungszeit des gesamten Teams"
-" wird grau dargestellt."
+"1.)     Wartezeit/Bearbeitungszeit Anzeige der durchschnittlichen Zeit, die "
+"am aktuellen Tag für die Bearbeitung/Antwort der eigenen Tickets benötigt "
+"wurde. Die durchschnittliche Bearbeitungszeit des gesamten Teams wird grau "
+"dargestellt."
 msgstr ""
+"1.) Waiting time/handling time\n"
+"Displays the average time needed to handle and reply to your own tickets on the current day.\n"
+"The average processing time of the entire team is being shown in gray."
 
 #: ../../interface-dashboard.rst:14
 msgid ""
-"2.)     Stimmung/Eskalierte Tickets Der Smiley zeigt, wie viele der "
-"eigenen Tickets eskaliert sind. Ist er grün und lacht sind keine eigenen "
-"Tickets eskaliert. Je \"böser\" der Smiley, desto mehr Tickets sind "
-"eskaliert. Die Gesamtzahl der eskalierten Tickets aller Agenten in "
-"denselben Gruppen wird grau dargestellt."
+"2.)     Stimmung/Eskalierte Tickets Der Smiley zeigt, wie viele der eigenen "
+"Tickets eskaliert sind. Ist er grün und lacht sind keine eigenen Tickets "
+"eskaliert. Je \"böser\" der Smiley, desto mehr Tickets sind eskaliert. Die "
+"Gesamtzahl der eskalierten Tickets aller Agenten in denselben Gruppen wird "
+"grau dargestellt."
 msgstr ""
+"2.) Mood/escalated tickets\n"
+"The Smiley shows how many of the tickets have escalated. Your own tickets are not escalated if it's green and laughs. The more angry the smiley face, the more tickets are escalated.\n"
+"Gray is the total number of escalated tickets from all the agents assigned to your group."
 
 #: ../../interface-dashboard.rst:18
 msgid ""
-"3.)     Kanalverteilung Zeigt eine prozentuale Verteilung der geöffneten "
-"und geschlossenen Tickets, die über die einzelnen Kanäle eingetroffen "
-"sind."
+"3.)     Kanalverteilung Zeigt eine prozentuale Verteilung der geöffneten und"
+" geschlossenen Tickets, die über die einzelnen Kanäle eingetroffen sind."
 msgstr ""
+"3.) Channel distribution\n"
+"Shows a percentaged distribution of the opened and closed tickets that have arrived via the different channels."
 
 #: ../../interface-dashboard.rst:21
 msgid ""
 "4.)     Zugewiesene Tickets Zeigt die absolute Anzahl der zugewiesenen "
 "Tickets im Vergleich zu den Tickets aller anderen Agenten. Die "
-"durchschnittliche Anzahl der zugewiesenen Tickets werden grau "
-"dargestellt."
+"durchschnittliche Anzahl der zugewiesenen Tickets werden grau dargestellt."
 msgstr ""
+"4.) Assigned tickets\n"
+"Shows the absolute number of tickets assigned to an agent compared to all other agents.\n"
+"Gray is the average number of tickets assigned."
 
 #: ../../interface-dashboard.rst:25
 msgid "5.)     Eigene Tickets in Bearbeitung"
-msgstr ""
+msgstr "5.) My own tickets in process"
 
 #: ../../interface-dashboard.rst:27
 msgid "6.)     Wiedereröffnungsrate"
-msgstr ""
+msgstr "6.) Reopening rate"
 
 #: ../../interface-dashboard.rst:29
 msgid ""
 "7.)     Aktivitätsstream Zeigt eine Liste der letzten Aktivitäten aller "
 "Agenten."
 msgstr ""
-
-#~ msgid ""
-#~ "Das Dashboard verleiht den Agenten einen"
-#~ " Überblick über die aktuelle Lage zu"
-#~ " den Tickets."
-#~ msgstr ""
-
-#~ msgid "Das Dashboard ist in sieben verschiedene Bereiche geteilt:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "1.)     Wartezeit/ Bearbeitungszeit Anzeige "
-#~ "der durchschnittlichen Zeit, die am "
-#~ "aktuellen Tag für die Bearbeitung/ "
-#~ "Antwort der eigenen Tickets benötigt "
-#~ "wurde. Grau hinterlegt steht die "
-#~ "durchschnittliche Bearbeitungszeit des gesamten "
-#~ "Teams."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "2.)     Stimmung/ Eskalierte Tickets Der "
-#~ "Smiley zeigt, wieviele der einem "
-#~ "zugewiesenen Tickets eskaliert sind – "
-#~ "ist er grün und lacht sind keine"
-#~ " deir eigenen Tickets eskaliert. Je "
-#~ "böser der Smiley, desto mehr Tickets "
-#~ "sind eskaliert. Grau hinterlegt steht "
-#~ "die Gesamtzahl der eskalierten Tickets "
-#~ "von allen Agenten, die deinen Gruppen"
-#~ " zugewiesen sind."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "3.)     Kanalverteilung Zegit eine prozentuale"
-#~ " Verteilung der geöffneten und "
-#~ "geschlossenen Tickets, die über die "
-#~ "einzelnen Kanäle eingetroffen sind."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "4.)     Mir zugewiesene Tickets Zeigt "
-#~ "die absolute Anzahl der einem "
-#~ "zugewiesenen Tickets im Vergleich zu den"
-#~ " aller anderen Agenten. Grau hinterlegt "
-#~ "steht die durchschnittliche Anzahl der "
-#~ "einem zugewiesenen Tickets."
-#~ msgstr ""
-
-#~ msgid "5.)     Meine Tickets in Bearbeitung"
-#~ msgstr ""
-
-#~ msgid "7.)     Aktivitätsstream"
-#~ msgstr ""
-
-#~ msgid "Eine Liste der letzten Aktivitäten aller Agenten."
-#~ msgstr ""
-
+"7.) Activity Stream\n"
+"Shows a list of the last activities of all agents."
