@@ -47,51 +47,51 @@ brew install gettext
 
 The workflow itself
 
-# create .tx config
+### create .tx config
 ```
 tx init
 ```
 
-# or if you just want to update a ressource
+### or if you just want to update a ressource
 ```
 tx set --source -r <project_slug.resource_slug> -l <lang> <file>
 
 make clean
 ```
 
-# this will generate the strings from the *.rst files
+### this will generate the strings from the *.rst files
 ```
 make gettext
 ```
 
-# this will generate the locales (DE|EN)
+### this will generate the locales (DE|EN)
 ```
 sphinx-intl update -p _build/locale/ -l de -l en
 ```
 
-# this will update the resource files from the pot dir
+### this will update the resource files from the pot dir
 ```
 sphinx-intl update-txconfig-resources --pot-dir _build/locale --transifex-project-name zammad-user-documentation
 ```
 
-# push to transifex (if configured)
+### push to transifex (if configured)
 ```
 tx push -s
 ```
 
-# after translation pull needed languages from transifex
+### after translation pull needed languages from transifex
 ```
 tx pull -l en
 ```
 
-# build the .MO files for use with readthedocs
+### build the .MO files for use with readthedocs
 ```
 sh build_mo.sh
 ```
 
 After a successful build, push to this repo and readthedocs will update itself.
 
-# manual language-based build (_build/html/) (for testing)
+### manual language-based build (_build/html/) (for testing)
 
 ```
 make -e SPHINXOPTS="-D language='de'" html
