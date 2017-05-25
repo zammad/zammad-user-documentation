@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 for langfile in `find locale -name "*.po"`
 do
     subdir=`dirname $langfile`
