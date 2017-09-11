@@ -56,3 +56,17 @@ Ticket-Betreff ändern
 .. image:: images/gettingstarted/Abb19-Betreff_aendern.jpg
 
 Ein Klick in den Betreff eines Tickets ermöglicht die direkte Änderung des Betreffs.
+
+
+Ticket-Einstellungen
+=====================
+Es gibt seit der Version Zammad 2.0 verschiedene Ticket-Einstellungen, die von jedem Agenten individuell getroffen werden können. Diese Einstellungen sind in jedem Ticket oben, rechts neben dem Betreff:
+
+.. image:: images/gettingstarted/zammad-ticket-edit--Ticket-Settings.jpg
+
+Folgende Möglichkeiten können pro Ticket eingestellt werden:
+
+- Notiz - Standard-Sichtbarkeit: Wird eine Notiz im Standard als intern oder extern angelegt? (diese Einstellung kann individuell an jedem Artikel geändert werden)
+- E-Mail - Betreff: Ist diese Einstellung deaktiviert, wird der E-Mail-Betreff anhand des Ticket-Betreffs regeneriert. Bei der Eingabe "ja" kann für jeden Artikel ein eigener Betreff eingetragen werden.
+- E-Mail - gesamtes zitieren: Ist diese Einstellung aktiviert, wird der Inhalt aller vorherigen Artikel
+- Twitter - Tweet Initialen: Hinzufügen der Sender- Initialen an das Ende eines Tweets.
