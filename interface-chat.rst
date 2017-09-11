@@ -16,3 +16,5 @@ Ist der Chat ausgeschaltet, bekommt der jeweilige Agent keine Meldungen über ge
 5. In den Einstellungen können die maximale Anzahl an gleichzeitigen Chatfenstern und eine automatische Antwort festgelegt werden.
 6. Anzahl der Agenten/Kunden
 7. Informationen zu den Kunden/Agenten
+
+Im Chat können Textbausteine zur schnellen Beantwortung von Standardfragen angewendet werden. Eine Liste aller Textbausteine kann mit der Eingabe "::" (zwei Doppelpunkte) angezeigt werden. Mit den Pfeiltasten können die Textbausteine durchgeblättert werden. Eingefügt werden sie mit "Enter". Durch die Eingabe von Stichwörtern kann die Suche eingeschränkt werden.
