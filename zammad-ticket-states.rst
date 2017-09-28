@@ -1,6 +1,22 @@
 Ticket-Status
 =============
 
-Folgende Status stehen für Tickets zur Verfügung:
+Status zeigen den aktuellen Bearbeitungs-Stand der Tickets an. 
+
+Folgende Status stehen Tickets zur Verfügung:
 
 .. image:: images/gettingstarted/Tabelle2-Statusauspraegungen.jpg
+
+Eingestellt werden die Status direkt im Ticket, in den Ticket-Informationen. Mehr Infos dazu hier: 
+
+http://zammad-user-documentation.readthedocs.io/de/latest/ticket-information.html 
+
+Zur besseren Überwsich werden im Zammad die Status mit Hilfe eines "Ampelsystems" angezeigt:
+
+.. image:: images/gettingstarted/Tabelle2-Ampel.jpg
+
+Diese Ampelzeichen werden in der linken Ticket-Liste und in den Übersichen angezeigt.
+
+
+*kleiner Hinweis*
+Sieht man in der Ticket-Liste auf der linken Seite des Bildschirmes das Ampelzeichen pulsieren heißt das, dass eine neue Aktion am Ticket durchgeführt wurde. Dieses Pulsieren hört auf, sobald man in das Ticket hinein geklickt hat.
