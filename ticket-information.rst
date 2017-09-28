@@ -1,11 +1,12 @@
 Ticketinformationen
 ====================
-Innerhalb jedes Tickets können Informationen zum Ticket, Kunden und der Organisation hinterlegt werden.
+Innerhalb jedes Tickets können Informationen zum Ticket, Kunden und der Organisation hinterlegt und bearbeitet werden. 
+
+Nach Klick auf das Nachrichten-Icon auf der rechten Seite werden Detailinformationen des Tickets eingeblendet:
 
 .. image:: images/gettingstarted/Abb20-Ticket-Informationen.jpg
 
-
-Nach Klick auf das Nachrichten-Icon auf der rechten Seite werden Detailinformationen des Tickets eingeblendet. Bei entsprechenden Benutzerrechten können in diesem Schritt die Gruppe, der Besitzer, der Status und die Priorität geändert werden. Doch was bedeuten diese Eingaben?
+Bei entsprechenden Benutzerrechten können in diesem Schritt die Gruppe, der Besitzer, der Status und die Priorität geändert werden. Doch was bedeuten diese Eingaben?
 
 Gruppe
 ----------
