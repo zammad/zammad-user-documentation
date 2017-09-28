@@ -21,17 +21,19 @@ Ein Agent sieht im Zammad nur die Tickets der Gruppen, für die er verantwortlic
 
 Besitzer
 ----------
-Wenn wir mit der eben genannten Metapher weiterarbeiten, dann haben wir eine Mappe (Ticket) in einem Schrank, für den ich verantwortlich bin (meine zugewiesene Gruppe) und diese möchte ich bearbeiten. In diesem Fall nehme ich mir die Mappe und arbeite den Fall ab, dadurch steht den Kollegen diese Mappe nicht mehr zur Bearbeitung zur Verfügung. Genau das gleiche erreicht man im Zammd, indem man sich selbst als Besitzer des Tickets einträgt. Stellt man fest, dass der Kollege vom Nachbarraum für das Ticket verantwortlich sein müsste, gibt man ihm die Mappe auf den Schreibtisch, bzw. trägt man ihn in unserem Fall als Besitzer des Tickets ein. Er bekommt nun eine Benachrichtigung darüber bzw. kann er diese Tickets in der Übersicht "Meine zugewiesenen Tickets" finden.
+Wenn wir mit der eben genannten Metapher weiterarbeiten, dann haben wir eine Mappe (Ticket) in einem Schrank, für den ich verantwortlich bin (meine zugewiesene Gruppe) und diese möchte ich bearbeiten. In diesem Fall nehme ich mir die Mappe und arbeite den Fall ab. Dadurch steht den Kollegen diese Mappe nicht mehr zur Bearbeitung zur Verfügung. Genau das gleiche erreicht man im Zammad, indem man sich selbst als Besitzer des Tickets einträgt. Stellt man fest, dass der Kollege vom Nachbarraum für das Ticket verantwortlich ist, gibt man ihm die Mappe auf den Schreibtisch, trägt ihn also in unserem Fall als Besitzer des Tickets ein. Er kann diese Tickets in der Übersicht "Meine zugewiesenen Tickets" finden und sich über diese Aktion informieren lassen. (Benachrichtigungs-Einstellungen im Profil)
 
 Status
 ----------
 Dazu gibt es hier mehr zu erfahren:
 http://zammad-user-documentation.readthedocs.io/de/latest/zammad-ticket-states.html?highlight=status
 
-
 Priorität
 ----------
-Prioritäten am Ticket ermöglichen es unterschiedliche Service-Zeiten zu realisieren. Sofern vom Administrator eine Unterscheidung der Tickets in Prioritäten eingerichtet wurde, gelten für höher priorisierte Tickets andere Regelungen wie z.B. kürzere Bearbeitungszeiten.
+Prioritäten am Ticket ermöglichen es diese "Ticket-Kategorien" individuell zu bearbeiten. So können dadurch zum Beispiel unterschiedliche Service-Zeiten realisiert werden. Sofern vom Administrator eine Unterscheidung der Tickets in Prioritäten eingerichtet wurde, gelten für höher priorisierte Tickets andere Regelungen wie z.B. kürzere Bearbeitungszeiten.
+
+Für unterschiedlich priorisierte Tickets können vom Admin verschiedene Automatismen eingestellt werden. Das sind zum Beispiel automatische Nachrichten, Zuweisung zu Gruppen/ Besitzern, Setzen von Status ... 
+
 
 Tags und Verknüpfungen
 ----------
