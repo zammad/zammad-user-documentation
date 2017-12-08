@@ -15,6 +15,16 @@ Antwort-E-Mail versenden
 Unter einer E-Mail befinden sich die Buttons "antworten" und bei mehreren Empfängern "allen antworten". "antworten" führt automatisch zum Antwort-Email-Dialog, in dem der Absender des Artikels als Empfänger vorausgefüllt wird. Wurde der Artikel an mehrere Personen gesendet, können durch Klick auf "allen antworten" alle Empfänger aus dem CC übernommen werden.
 Auch hier können Anhänge hinzugefügt werden.
 
+Weiterleiten
+========================
+
+Die gesamte E-Mail (inkl. Anhänge) eines Kunden kann an einen Dritten (welcher nicht Zammad verwendet, z. B. ein Lieferant) weitergeleitet werden.
+
+Dies wird direkt ohne lästiges Herunter- und Hochladen von Anhängen unterstützt. Durch Drücken der "Weiterleiten-Buttons" unterhalb des Artikels wird der Inhalt (mitsamt Anhängen) in einer neuen Email im Ticket zitiert. Vor dem Absenden kann diese Nachricht nach Belieben bearbeitet werden.
+
+.. image:: images/gettingstarted/Abb42-weiterleiten.jpg
+
+
 Notiz anlegen
 =============
 
