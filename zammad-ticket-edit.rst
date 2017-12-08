@@ -32,7 +32,7 @@ Notiz anlegen
 
 Ein Klick auf das orange umrandete Eingabefeld unter dem letzen Artikel des Tickets erstellt eine interne Notiz.
 
-Weiterleiten eines Artikels
+Abspalten eines Artikels
 ===========================
 
 .. image:: images/gettingstarted/Abb15-Weiterleiten_eines_Artikels.jpg
