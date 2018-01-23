@@ -20,7 +20,7 @@ Weiterleiten
 
 Die gesamte E-Mail (inkl. Anhänge) eines Kunden kann an einen Dritten (welcher nicht Zammad verwendet, z. B. ein Lieferant) weitergeleitet werden.
 
-Dies wird direkt ohne lästiges Herunter- und Hochladen von Anhängen unterstützt. Durch Drücken der "Weiterleiten-Buttons" unterhalb des Artikels wird der Inhalt (mitsamt Anhängen) in einer neuen Email im Ticket zitiert. 
+Dies wird direkt ohne lästiges Herunter- und Hochladen von Anhängen unterstützt. Durch Drücken der "Weiterleiten-Buttons" unterhalb des Artikels wird der Inhalt (mitsamt Anhängen) in einer neuen Email im Ticket zitiert.
 
 .. image:: images/gettingstarted/Abb42-weiterleiten.jpg
 
@@ -76,7 +76,7 @@ Ticket-Einstellungen
 =====================
 Es gibt seit der Version Zammad 2.0 verschiedene Ticket-Einstellungen, die von jedem Agenten individuell getroffen werden können. Diese Einstellungen sind in jedem Ticket oben, rechts neben dem Betreff:
 
-.. image:: images/gettingstarted/zammad-ticket-edit--Ticket-Settings.jpg
+.. image:: images/gettingstarted/Abb44-Ticketeinstellungen.jpg
 
 Folgende Möglichkeiten können pro Ticket eingestellt werden:
 
