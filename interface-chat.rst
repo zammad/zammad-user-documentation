@@ -18,3 +18,20 @@ Durch die Chat-Funktion können Kunden mit angemeldeten Agenten direkt in Kontak
 Im Chat können Textbausteine zur schnellen Beantwortung von Standardfragen angewendet werden. Eine Liste aller Textbausteine kann mit der Eingabe "::" (zwei Doppelpunkte) angezeigt werden. Mit den Pfeiltasten können die Textbausteine durchgeblättert werden. Eingefügt werden sie mit "Enter". Durch die Eingabe von Stichwörtern kann die Suche eingeschränkt werden.
 
 Durch Copy & Paste können Dokumente und Bilder im Chat gesendet und empfangen werden.
+
+
+***Chat in ein Ticket überführen***
+
+Es gibt häufig den Fall, dass ein Chat nachträglich weiter bearbeitet werden muss. Dazu kann man per Klick einen abgeschlossenen Chat in ein Ticket überführen:
+
+.. image:: images/gettingstarted/Abb55User-Chat_1.jpg
+
+ Das Ticket kann wie gewohnt in der Organisation mit allen vorhanden Ticket-Funktionen weiter bearbeitet werden. Der Chat ist am Ticket hinterlegt und kann jederzeit von Agenten eingesehen werden.
+
+
+***Chat-Archiv***
+
+Sie können geschlossene Chats über die globale Zammad-Suche finden und wiedereröffnen. Somit können Sie auch im Nachhinein über Informationen recherchieren und ggf. aus einem Chat ein Ticket erstellen:
+
+
+.. image:: images/gettingstarted/Abb55User-Chat_2.jpg
