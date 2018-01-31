@@ -20,7 +20,8 @@ Im Chat können Textbausteine zur schnellen Beantwortung von Standardfragen ange
 Durch Copy & Paste können Dokumente und Bilder im Chat gesendet und empfangen werden.
 
 
-***Chat in ein Ticket überführen***
+Chat in ein Ticket überführen
+=====================
 
 Es gibt häufig den Fall, dass ein Chat nachträglich weiter bearbeitet werden muss. Dazu kann man per Klick einen abgeschlossenen Chat in ein Ticket überführen:
 
@@ -29,9 +30,10 @@ Es gibt häufig den Fall, dass ein Chat nachträglich weiter bearbeitet werden m
  Das Ticket kann wie gewohnt in der Organisation mit allen vorhanden Ticket-Funktionen weiter bearbeitet werden. Der Chat ist am Ticket hinterlegt und kann jederzeit von Agenten eingesehen werden.
 
 
-***Chat-Archiv***
+Chat-Archiv
+=====================
 
 Sie können geschlossene Chats über die globale Zammad-Suche finden und wiedereröffnen. Somit können Sie auch im Nachhinein über Informationen recherchieren und ggf. aus einem Chat ein Ticket erstellen:
 
 
-.. image:: images/gettingstarted/Abb55User-Chat_2.jpg
+.. image:: images/gettingstarted/Abb56User-Chat_2.jpg
