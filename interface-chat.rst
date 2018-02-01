@@ -27,6 +27,10 @@ Es gibt häufig den Fall, dass ein Chat nachträglich weiter bearbeitet werden m
 
 .. image:: images/gettingstarted/Abb55User-Chat_1.jpg
 
+Nach dem Klick auf den Button gelangt man wie gewohnt in die Ticket-Erstellmaske mit einem Link zum Chatfenster:
+
+.. image:: images/gettingstarted/Abb57Zammad_-_Anruf_eingehend__Chat.jpg
+
 Das Ticket kann wie gewohnt in der Organisation mit allen vorhanden Ticket-Funktionen weiter bearbeitet werden. Der Chat ist am Ticket hinterlegt und kann jederzeit von Agenten eingesehen werden.
 
 
