@@ -33,6 +33,14 @@ Nach dem Klick auf den Button gelangt man wie gewohnt in die Ticket-Erstellmaske
 
 Das Ticket kann wie gewohnt in der Organisation mit allen vorhanden Ticket-Funktionen weiter bearbeitet werden. Der Chat ist am Ticket hinterlegt und kann jederzeit von Agenten eingesehen werden.
 
+Durch einen Klick auf das Chat-Kürzel oben in der Mitte gelangt man in die Detail-Ansicht des Chats:
+
+.. image:: images/gettingstarted/Abb58Zammad_-_Kunden_Chat_2.jpg
+
+Zusätzlich kann man hier Namen des Chat-Partners sowie Tags eintragen:
+
+.. image:: images/gettingstarted/Abb59Zammad_-_Kunden_Chat_3.jpg
+
 
 Chat-Archiv
 ----------
