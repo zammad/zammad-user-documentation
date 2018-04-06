@@ -1,31 +1,35 @@
 Dashboard
 =========
 
-Das Dashboard verschafft den Agenten einen Überblick über die aktuelle Lage der Tickets.
+The dashboard provides the agents with an overview of the current situation of the tickets.
 
 .. image:: images/gettingstarted/Abb1-Dashboard.jpg
 
-Das Dashboard ist in sieben verschiedene Bereiche unterteilt:
+The dashboard is divided into seven different areas:
 
-1.)	Wartezeit/Bearbeitungszeit
-Anzeige der durchschnittlichen Zeit, die am aktuellen Tag für die Bearbeitung/Antwort der eigenen Tickets benötigt wurde.
-Die durchschnittliche Bearbeitungszeit des gesamten Teams wird grau dargestellt.
+1.)	Waiting time/processing time:
+Display of the average time that was needed on the current day to process/answer your own tickets.
+The average processing time of the entire team is displayed in gray.
 
-2.)	Stimmung/Eskalierte Tickets
-Der Smiley zeigt, wie viele der eigenen Tickets eskaliert sind. Ist er grün und lacht sind keine eigenen Tickets eskaliert. Je "böser" der Smiley, desto mehr Tickets sind eskaliert.
-Die Gesamtzahl der eskalierten Tickets aller Agenten in denselben Gruppen wird grau dargestellt.
+2.)	Mood / Escalated tickets
+The smiley shows how many of your own tickets escalated. If he's green and laughing, no tickets escalated. The "bad" the smiley, the more tickets escalated.
+The total number of escalated tickets of all agents in the same groups is grayed out.
 
-3.)	Kanalverteilung
-Zeigt eine prozentuale Verteilung der geöffneten und geschlossenen Tickets, die über die einzelnen Kanäle eingetroffen sind.
+3.)	Channel distribution
+Shows a percentage distribution of the open and closed tickets that have arrived via the different channels.
 
-4.)	Zugewiesene Tickets
-Zeigt die absolute Anzahl der zugewiesenen Tickets im Vergleich zu den Tickets aller anderen Agenten.
-Die durchschnittliche Anzahl der zugewiesenen Tickets werden grau dargestellt.
+4.)	Assigned tickets
+Shows the absolute number of assigned tickets compared to the tickets of all other agents.
+The average number of assigned tickets is shown in gray.
 
-5.)	Eigene Tickets in Bearbeitung
+5.)	Your tickets in process
+Shows how many percent of your own tickets are currently being processed.
+The average percentages is shown in grey.
 
-6.)	Wiedereröffnungsrate
+6.)	Reopening rate
+Shows how many of your own already closed tickets have been reopened.
+The average percentages is shown in grey.
 
-7.)	Aktivitätsstream
-Zeigt eine Liste der letzten Aktivitäten aller Agenten.
+7.)	Activity Stream
+Shows a list of the latest activities of all agents in the groups to which you are authorized.
 
