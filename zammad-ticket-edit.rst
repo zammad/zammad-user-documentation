@@ -5,7 +5,12 @@ Ein Klick auf ein Ticket in einer Ticketliste (z. B. über das Dashboard-Widget 
 
 .. image:: images/gettingstarted/Abb12-Ticketmaske-Uebersicht.jpg
 
-Dieser bietet folgende Aktionen zur Ticketbearbeitung an:
+Um zu verhindern, dass Agenten parallel an einem Ticket arbeiten, gibt es im Zammad eine "Kollisionserkennung". Damit kann ein Agent in Echtzeit sehen, wer das aktuell geöffnete Ticket offen hat und welcher Agent bereits eine Bearbeitung vornimmt.
+
+.. image:: images/gettingstarted/Zammad–_Helpdesk___Kollisionserkennung.pdf
+
+
+Der Ticketdialog bietet folgende Aktionen zur Ticketbearbeitung an:
 
 Antwort-E-Mail versenden
 ========================
