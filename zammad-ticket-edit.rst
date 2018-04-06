@@ -7,7 +7,7 @@ Ein Klick auf ein Ticket in einer Ticketliste (z. B. über das Dashboard-Widget 
 
 Um zu verhindern, dass Agenten parallel an einem Ticket arbeiten, gibt es im Zammad eine "Kollisionserkennung". Damit kann ein Agent in Echtzeit sehen, wer das aktuell geöffnete Ticket offen hat und welcher Agent bereits eine Bearbeitung vornimmt.
 
-.. image:: images/gettingstarted/Zammad–_Helpdesk___Kollisionserkennung.pdf
+.. image:: images/gettingstarted/Kollisionserkennung.jpg
 
 
 Der Ticketdialog bietet folgende Aktionen zur Ticketbearbeitung an:
