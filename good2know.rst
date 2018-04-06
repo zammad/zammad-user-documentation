@@ -1,4 +1,4 @@
-Gut zu wissen
+good to know
 *************
 
 Textteile markieren
