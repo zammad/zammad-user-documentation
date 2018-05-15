@@ -1,50 +1,50 @@
-Ticket-Übersichten
+Ticket Overviews
 ==================
 
-.. image:: images/gettingstarted/Abb2-Ticket-Uebersichten.jpg
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_Overview.jpg
 
-Zammad stellt standardmäßig folgende Ansichten zur Verfügung:
+Zammad provides the following overviews by default:
 
-1)	Meine zugewiesenen Tickets
-2)	Nicht zugewiesen und offen
-3)	Meine "warten erreicht"-Tickets
-4)	Offen
-5)	Warten erreicht
-6)	Eskaliert
+1)	My assigned tickets
+2)	Unassigned & Open
+3)	My pending reached Tickets
+4)	Open
+5)	Pending reached
+6)	Escalated
 
-Ansichten 1 und 3 beziehen sich auf die Tickets, die dem angemeldeten Agenten zugewiesen sind. Alle anderen Übersichten zeigen Tickets aller Agenten.
-Durch Klick auf die Spaltenüberschriften können diese sortiert angezeigt werden.
+Views 1 and 3 refer to the tickets assigned to the current agent. All other overviews show tickets of all agents.
+By clicking on the column headings these can be displayed in an order.
 
-Sie können die Spaltenbreite beliebig anpassen, indem Sie die Spalte auf die gewünschte Breite ziehen. Diese Anpassung bleibt  für den angemeldeten User so gespeichert
+You can adjust the column width as required by dragging the column to the desired width. This adjustment remains saved for the logged in user in this way.
 
-Tableiste
+Tab bar
 --------------
 
-Auf der linken Seite, unterhalb des Dashboards, der Suche und Funktionen wie Chat oder Telefon, befindet sich die sogenannte Tableiste:
+On the left side, below the dashboard, the search and features such as chat or phone, is the so-called tab bar:
 
 .. image:: images/gettingstarted/Zammad_Helpdesk_-_Tableiste.jpg
 
-Diese ermöglicht es, mehrere Tabs gleichzeitig zu öffnen und zu bearbeiten.
+This allows you to open and edit several tabs at the same time.
 
-Was kann alles als Tab geöffnet werden?:
+What can be opened as a tab?
 
-- bestehende Tickets (1)
-- Ticketerstell-Maske (2)
-- User Detailansicht (3)
-- Organisations Detailansicht (4)
-- eingegebene Suchen (5)
+- Existing tickets (1)
+- Ticket creation mask (2)
+- User detail view (3)
+- Organization detail view (4)
+- Searches submitted (5)
 
-An allen geöffneten Tabs kann gleichzeitig gearbeitet werden. Die Änderungen werden automatisch (auf dem Server) gespeichert. Die Reihenfolge der Tabs kann beliebig durch Drag & Drop geändert werden. Der (ungespeicherte!) Inhalt und die Reihenfolge der Tabs bleibt, auch nach Ab- und  Anmeldung, bestehen.
+You can work on all open tabs at the same time. The changes are saved automatically (on the server). The order of the tabs can be changed via drag & drop. The (unsaved!) ticket content and order of the tabs remains unchanged, even after logging off and on.
 
-Durch das "Pulsieren" der Kreissymbole wird angezeigt, dass es seit dem letzten Aufruf des Tickets eine Änderung gab.
+The "pulsing" of the circle symbols indicates that there has been a change since the ticket was last called.
 
 
-Die Farben der Symbole sind am Ampelsystem angelehnt:
+The colors of the symbols are based on the traffic light system:
 
-:grün:  Das Ticket ist geschlossen - es ist keine weitere Bearbeitung notwendig
+:green:  The ticket is closed - no further work necessary.
 
-:schwarz: Eine Erinnerungszeit wurde eingestellt, ist jedoch nicht erreicht - aktuell ist keine Bearbeitung notwendig
+:black: A reminder has been set but has not been reached - currently no work necessary.
 
-:gelb:  Das Ticket ist neu/offen oder die Erinnerungszeit ist erreicht - das Ticket muss bearbeitet werden
+:yellow:  The ticket is new/open or the reminder time has been reached - the ticket must be worked on.
 
-:rot: Das Ticket ist eskaliert - das Ticket muss dringend bearbeitet werden um die Eskalation zu stoppen
+:red: The ticket has escalated - the ticket needs urgent work to stop the escalation.
