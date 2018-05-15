@@ -38,12 +38,13 @@ An allen geöffneten Tabs kann gleichzeitig gearbeitet werden. Die Änderungen w
 
 Durch das "Pulsieren" der Kreissymbole wird angezeigt, dass es seit dem letzten Aufruf des Tickets eine Änderung gab.
 
+
 Die Farben der Symbole sind am Ampelsystem angelehnt:
 
-**grün**  Das Ticket ist geschlossen - es ist keine weitere Bearbeitung notwendig
+:grün:  Das Ticket ist geschlossen - es ist keine weitere Bearbeitung notwendig
 
-**schwarz** Eine Erinnerungszeit wurde eingestellt, ist jedoch nicht erreicht - aktuell ist keine Bearbeitung notwendig
+:schwarz: Eine Erinnerungszeit wurde eingestellt, ist jedoch nicht erreicht - aktuell ist keine Bearbeitung notwendig
 
-**gelb**  Das Ticket ist neu/offen oder die Erinnerungszeit ist erreicht - das Ticket muss bearbeitet werden
+:gelb:  Das Ticket ist neu/offen oder die Erinnerungszeit ist erreicht - das Ticket muss bearbeitet werden
 
-**rot** Das Ticket ist eskaliert - das Ticket muss dringend bearbeitet werden um die Eskalation zu stoppen
+:rot: Das Ticket ist eskaliert - das Ticket muss dringend bearbeitet werden um die Eskalation zu stoppen
