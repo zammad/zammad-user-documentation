@@ -1,64 +1,61 @@
-Menüleiste
+Menubar
 ===========================
 
-Ein Klick auf den Avatar (Bild unten links) führt zum persönlichen Agenten-Menü:
+A click on the avatar (picture below left) leads to the personal agent menu:
 
-.. image:: images/gettingstarted/Abb5-Menuleiste.jpg
+.. image:: images/gettingstarted/Menubar.jpg
 
-Hier sind Hinweise zu Tastenkürzeln, Profil-Einstellungen und die Abmeldung zu finden.
+Here you will find information about keyboard shortcuts, profile settings and logging off.
 
-
-Tastenkürzel
+Keyboard Shortcuts
 ----------
 
-Durch Klick auf den Avatar (Bild unten links) können die Tastaturkürzel eingesehen werden. Alternativ können diese über folgende Tastenkombination eingesehen werden:
-Strg + H bzw. für Mac-Nutzer Cmd + Ctrl + Alt + H
+By clicking on the avatar (picture below left) you can see the keyboard shortcuts. Alternatively, these can be viewed using the following key combination:
+Ctrl + H or for Mac users Cmd + Ctrl + Alt + H
 
-Über Tastaturkürzel können folgende Funktionen umgesetzt werden: Textformatierung, Übersetzungen und Navigation innerhalb des Ticket-Systems und Ticketaktionen:
+The following functions can be implemented using keyboard shortcuts: Text formatting, translations and navigation within the ticket system and ticket actions:
 
-.. image:: images/gettingstarted/Abb6-ListeTastenkuerzel.png
+.. image:: images/gettingstarted/keyboard-shortcuts.jpg
 
-Für die Textformatierung muss der zu formatierende Text zuerst markiert werden, bevor die entsprechende Kombination gedrückt wird.
+For text formatting, the text to be formatted must be selected before the corresponding combination is pressed.
 
-
-Profil-Einstellungen
+Profile Settings
 ----------
 
-Folgende persönliche Einstellungen können hier definiert werden:
+The following personal settings can be defined here:
 
-:Sprache: Hier kann eingestellt werden, in welcher Sprache das System genutzt werden soll. Diese Einstellung betrifft nur die "System-eigenen Wörter", nicht aber Ticketinhalte.
+:Language: Here you can set the language in which the system is to be used. This setting only affects the "system's own words", but not ticket content.
 
-:Avatar: Hier kann das eigene Avater-Bild ausgewählt werden.
+:Avatar: Here you can select your own avatar image.
 
-:Passwort: Sofern dieser Punkt vom Admin freigeschaltet ist, kann hier das eigene Anmelde-Passwort geändert werden.
+:Password: If this option is enabled by the admin, you can change your own login password here.
 
-:Benachrichtigungen: Hier wird eingestellt, bei welchen Ticket-Ereignissen man auf welche Weise benachrichtigt wird.
+:Notifications: Here you can set for which ticket events you will be notified in which way.
 
 .. image:: images/gettingstarted/Zammad_Helpdesk_-_Notifications1.jpg
 
-Die Einstellungen auf der linken Seite beziehen sich auf die Zammad-eigenen Benachrichtigungen durch den Zammad-Phönix:
+The settings on the left refer to Zammad's own notifications by the Zammad Phoenix:
 
 .. image:: images/gettingstarted/Phoenix.jpg
 
-Durch zusätzliches Ankreuzen auf der rechten Seite, werden zusätzlich (!) E-Mail-Benachrichtigungen über die Aktivität im Zammad verschickt. (Der Inhalt dieser System-Nachricht ist nicht über die Oberfläche konfigurierbar)
+By checking the box on the right side, you will receive additional (!) e-mail notifications about the activity in Zammad (The content of this system message cannot be configured via the interface).
 
-Es kann eine Einschränkung auf Tickets innerhalb bestimmter Gruppen getroffen werden. Möchte man über Tickets einer Gruppe nicht informiert werden, kann der Haken entsprechend entfernt werden.
+A restriction to ticket-notofications within certain groups can be made. If you do not want to be informed about tickets of a group, the check mark can be removed accordingly.
 
-Außerdem kann der Klang bei einer eingehenden Benachrichtigung definiert werden.
+In addition, the sound can be defined for an incoming notification.
 
-:Abwesenheit: Für die Zeit, in der man keine Tickets bearbeiten kann, kann eine Vertretung eingetragen werden. Die Vertretung erhält in der definierten Zeit Benachrichtigungen über Änderungen der Dir zugewiesenen Tickets. Zusätzlich werden alle Tickets, bei denen Du Besitzer bist, in einer separaten Übersicht aufgelistet.
+:Out of Office: A replacement can be entered for the time you cannot process tickets. The deputy receives notifications about changes of the tickets assigned to you within the defined time. In addition, all tickets you own are listed in a separate overview for that person.
 
-:Kalender: Um die eigenen Tickets in der eigenen Kalender-App anzeigen zu lassen, kann hier der entsprechende Link eingesehen werden.
+:Calendar: To display your own tickets in your own calendar app, the corresponding link can be viewed here.
 
-:Geräte: Alle Computer und Browser die Zugriff auf Ihr Zammad haben/ hatten, werden hier angezeigt.
+:Devices: All computers and browsers that have/have access to your Zammad are displayed here.
 
-:Token Access: Generiere hier einen persönlichen Access Token für jede Anwendung welche auf die Zammad API zugreifen soll.
+:Token Access: Generate a personal access token for each application that should access the Zammad API.
 
-:Verknüpfte Accounts: Hier können mit Zammad verknüpfte Accounts (Facebook, Twitter, ...) angezeigt werden.
+:Linked Accounts: Accounts linked to Zammad (Facebook, Twitter,...) can be displayed here.
 
 
-
-Abmeldung
+Sign out
 ----------
 
-Durch Klick auf den Abmelden-Button ist man sofort abgemeldet und gelangt auf den Anmelde-/Start-Bildschirm.
+By clicking on the Logout button you are immediately logged out and you will be redirected to the login/start screen.
