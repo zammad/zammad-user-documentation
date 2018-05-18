@@ -1,4 +1,4 @@
-customer-Chat
+Customer-Chat
 ===========
 
 .. image:: images/gettingstarted/Zammad_Helpdesk_-_Customer_Chat.jpg
