@@ -3,7 +3,7 @@ Dashboard
 
 The dashboard provides the agents with an overview of the current situation of the tickets.
 
-.. image:: images/gettingstarted/Abb1-Dashboard.jpg
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_Dashboard.jpg
 
 The dashboard is divided into seven different areas:
 
@@ -32,4 +32,3 @@ The average percentages is shown in grey.
 
 7.)	Activity Stream
 Shows a list of the latest activities of all agents in the groups to which you are authorized.
-
