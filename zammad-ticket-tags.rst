@@ -1,7 +1,7 @@
-Tickets taggen
+Tag Tickets
 ==============
 
-Um Tickets besser suchen und zuordnen zu können, können diese mit Tags versehen werden.
-Tags können auf der rechten Seite unter den Ticketinformationen zugeordnet werden. Bei der Eingabe eines zuzuordnenden Tags werden Vorschläge auf Basis bisher verwendeter Tags bereitgestellt.
+To be able to search and allocate tickets better, they can be tagged.
 
-.. image:: images/gettingstarted/Abb9-TicketTags.png
+Tags can be assigned on the right side under the ticket information. When you enter an appropriate tag, suggestions are provided on the basis of tags used so far.
+.. image:: images/gettingstarted/Tags_eng.jpg
