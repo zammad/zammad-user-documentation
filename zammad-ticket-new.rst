@@ -1,18 +1,23 @@
-Neues Ticket anlegen
+Create new tickets
 ====================
 
-Ein neues Ticket wird durch einen Klick auf das Plus-Icon unten links erstellt. Dies führt zu folgendem Dialog:
+A new ticket is created by clicking on the plus icon at the bottom left. This leads to the following dialog:
 
-.. image:: images/gettingstarted/Abb7-Ansicht_Neues_Tel-Ticket_anlegen.jpg
-
-Nun kann der Kanal/Artikeltyp ausgewählt werden. Im Beispiel ist ein eingehender Anruf ausgewählt. Nun können Titel, Kundenname sowie weitere Informationen eingegeben werden. Durch einen Klick auf "Dateien wählen" können Anhänge hochgeladen werden. Es ist möglich, Bilder entweder direkt in den Text „hineinzuziehen“ oder als Anhang anzufügen („Datei auswählen“). Außerdem können vorformatierte Texte aus z. B. Word markiert und in das Textfeld hineingezogen werden. Die Formatierung wird dabei beibehalten.
-
-Unter dem Textfeld wird die Gruppe ausgewählt, die das Ticket bearbeiten/sehen soll. Abhängig davon wird automatisch eine Signatur eingetragen. Zusätzlich können der Besitzer, der das Ticket direkt bearbeiten soll, ein Status sowie die Priorität ausgewählt werden.
-
-Wird als Kanal "E-Mail" ausgewählt, besteht zusätzlich die Möglichkeit eine CC-Adresse einzutragen.
+.. image:: images/gettingstarted/create-screen.jpg
 
 
-.. image:: images/gettingstarted/Abb8-Ticket-Erstellmaske_mit_Kundeninfos.jpg
+The channel or article type can be selected in the upper part. In this example, an incoming call is selected. You can also specify the title, which is the title of the ticket as well as the subject for email tickets. When you select the customer name, the system proposes possible customers that are stored in Zammad when you make an entry. After selecting the customer user, customer information is available in the right-hand window on the Customer-Icon:
 
-Bei Eingabe im Feld "Kundenbenutzer" zeigt Zammad Auto-Complete-Vorschläge an. Nach der Auswahl des Kundenbenutzers stehen Kundeninformationen im rechten Fenster zur Verfügung.
-Das Ticket muss bei der Erstellung einer Gruppe zugeordnet werden, muss aber keinen Besitzer haben. Dies kann von den Gruppenmitgliedern später nachgepflegt werden.
+.. image:: images/gettingstarted/New-Phone-Customer-Info.jpg
+
+If the customer does not yet exist in the customer database, this can be created by "Create customer":
+
+.. image:: images/gettingstarted/Create-New-Customer.jpg
+
+The corresponding content is entered in the text field. It is possible to "drag" images directly into the text and also to copy and paste preformatted texts from e.g. Word into the text field. The formatting (as far as it can be displayed in Zammad) is retained. You can also upload attachments by clicking on "Select files".
+
+Below the text field, the group to process the ticket is selected. If this field is displayed (for a possible selection of at least 2 groups), it must always be selected as mandatory field. Depending on the group, a signature is automatically stored for email tickets (if this is maintained).
+Additionally, the owner of the ticket can be defined. This field is optional. This allows the agents of the selected group to subsequently define the responsible owner.
+In the standard system there is also the field "status" (mandatory) as well as a ticket "priority" which can be selected.
+
+If "E-Mail" is selected as channel, it is also possible to enter a CC address.
