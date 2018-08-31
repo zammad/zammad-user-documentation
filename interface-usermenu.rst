@@ -1,5 +1,5 @@
 Menubar
-===========================
+========
 
 A click on the avatar (picture below left) leads to the personal agent menu:
 
@@ -8,19 +8,30 @@ A click on the avatar (picture below left) leads to the personal agent menu:
 Here you will find information about keyboard shortcuts, profile settings and logging off.
 
 Keyboard Shortcuts
-----------
+------------------
 
 By clicking on the avatar (picture below left) you can see the keyboard shortcuts. Alternatively, these can be viewed using the following key combination:
-Ctrl + H or for Mac users Cmd + Ctrl + Alt + H
+Ctrl + H (Windows, Linux) or Cmd + Ctrl + Alt + H (Mac OS).
 
-The following functions can be implemented using keyboard shortcuts: Text formatting, translations and navigation within the ticket system and ticket actions:
-
+The following actions can be done using keyboard shortcuts: Text formatting, translations and navigation within the ticket system and ticket actions:
+ 
 .. image:: images/gettingstarted/keyboard-shortcuts.jpg
 
-For text formatting, the text to be formatted must be selected before the corresponding combination is pressed.
+*Screenshot for Windows-Version*
+
+You can format text in two ways: 
+
+ - Selecting the text to format
+    - the text you want to format has to be chosen
+    - you'll format the text by pressing the key combination you need
+ - writing the next while using the formatting
+    - press the key combination you need for the desired text formatting
+    - Type the text
+    - press the key combination again in order to disable the text formatting
+
 
 Profile Settings
-----------
+----------------
 
 The following personal settings can be defined here:
 
@@ -44,7 +55,10 @@ A restriction to ticket-notofications within certain groups can be made. If you 
 
 In addition, the sound can be defined for an incoming notification.
 
-:Out of Office: A replacement can be entered for the time you cannot process tickets. The deputy receives notifications about changes of the tickets assigned to you within the defined time. In addition, all tickets you own are listed in a separate overview for that person.
+:Out of Office: 
+    A replacement can be entered for the time you cannot process tickets. The deputy receives notifications about changes of the tickets assigned to you within the defined time. In addition, all tickets you own are listed in a separate overview for that person. 
+	
+    **Please note:**  The Out of Office function does **not** disable notifications for the original agent!
 
 :Calendar: To display your own tickets in your own calendar app, the corresponding link can be viewed here.
 

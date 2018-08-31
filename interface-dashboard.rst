@@ -12,7 +12,7 @@ Display of the average time that was needed on the current day to process/answer
 The average processing time of the entire team is displayed in gray.
 
 2.)	Mood / Escalated tickets
-The smiley shows how many of your own tickets escalated. If he's green and laughing, no tickets escalated. The "bad" the smiley, the more tickets escalated.
+The smiley shows how many of your own tickets escalated. If he's green and laughing, no tickets escalated. The worse the mood of the smiley, the more tickets escalated.
 The total number of escalated tickets of all agents in the same groups is grayed out.
 
 3.)	Channel distribution
