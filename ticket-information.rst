@@ -40,7 +40,7 @@ State
 -----
 You can learn more about states within Zammad here_.
 
-.. _here: https://zammad-user-documentation.readthedocs.io/de/latest/zammad-ticket-states.html
+.. _here: zammad-ticket-states.html
 
 Priority
 --------
@@ -72,9 +72,9 @@ After clicking on "Ticket" you'll get further actions you can do inside the tick
 * Merge_ tickets (in case you have two Tickets from a customer that belong together, simply merge them into one!)
 * Change_ customer (e.g. when your customer changed his E-Mail-Address or Zammad might have chosen the wrong customer)
 
-.. _History: https://zammad-user-documentation.readthedocs.io/en/latest/ticket-submenu.html
-.. _Merge: https://zammad-user-documentation.readthedocs.io/en/latest/ticket-submenu.html#merge
-.. _Change: https://zammad-user-documentation.readthedocs.io/en/latest/ticket-submenu.html#change-customer
+.. _History: ticket-submenu.html#history
+.. _Merge: ticket-submenu.html#merging
+.. _Change: ticket-submenu.html#change-customer
 
 .. image:: images/ticket/ticket-information-2.jpg
 

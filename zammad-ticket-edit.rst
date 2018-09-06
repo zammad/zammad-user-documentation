@@ -1,5 +1,5 @@
-Ticketdialog
-============
+Ticket dialog
+=============
 
 Ein Klick auf ein Ticket in einer Ticketliste (z. B. über das Dashboard-Widget "Neue Tickets") führt zum Ticketdialog:
 
