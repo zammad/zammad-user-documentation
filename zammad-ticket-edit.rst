@@ -1,4 +1,4 @@
-Ticket dialog
+Ticket Dialog
 =============
 
 Clicking on a ticket within the ticket list (e.g. using the overview "New Tickets") will lead to the ticket dialog:
