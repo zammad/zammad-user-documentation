@@ -1,27 +1,28 @@
-good to know
+Good to know
 *************
 
-Textteile markieren
+Highlighting text
 ===================
 
-Innerhalb eines Tickets besteht die Möglichkeit, beliebig Textteile mit mehreren Farben zu markieren.
+Within a ticket it is possible to mark any text parts with several colors.
 
-.. image:: images/gettingstarted/Abb40-farblicheMarkierungTextteile.png
+.. image:: images/good-to-know/highlighting-text.jpg
 
-Mehrere Textteile können wie folgt gleichzeitig markiert werden:
+Multiple text parts can be selected simultaneously as follows:
 
-1. Ersten Textteil markieren
-2. Klick auf Stift-Symbol
-3. Alle weiteren Textteile markieren
-4. Farbe auswählen
+#. mark the first part of the text
+#. click the pen icon
+#. mark all other parts of the text
+#. select the desired color
 
-Um eine Markierung zu löschen, muss die farbige Stelle mit dem Mauszeiger ausgewählt werden. Durch nochmaligen Klick auf die Farbe, mit der markiert wurde, wird die farbliche Hinterlegung entfernt.
+To delete a marker, select the colored spot with the mouse pointer. Now click again on the color with which it was marked and thus clears the color deposit
 
-Artikel-Informationen ansehen
+
+View article information
 =============================
 
-Durch einen Klick auf die jeweiligen Artikel können Informationen zum Typ, Absender und ggf. Empfänger angezeigt werden. Beispiel:
+By clicking on the respective articles, information about the type, sender and possibly recipient can be displayed. As can be seen in the following picture:
 
-.. image:: images/gettingstarted/Abb41-ArtikelInformationen.png
+.. image:: images/good-to-know/view-article-information.jpg
 
-Über dem Ticket-Artikel erscheint der Ersteller und bei einer E-Mail der Empfänger und ggf. alle in CC stehenden Empfänger. Unterhalb des Artikels wird der jeweilige Kanal angezeigt.
+Above the article you can see the article creator. If it’s an email, the recipient (including CC) will be shown. The channel is being displayed below the article.
