@@ -5,15 +5,15 @@ Welcome to the Zammad user documentation
 
 .. toctree::
    :maxdepth: 1
-   :caption: The Left Pane
+   :caption: The Main Menu
 
-   interface-search
-   interface-dashboard
-   interface-overviews
-   interface-chat
-   interface-telephone
-   interface-tabs
-   interface-usermenu
+   main-menu-search
+   main-menu-dashboard
+   main-menu-overviews
+   main-menu-customer-chat
+   main-menu-phone
+   main-menu-tabs
+   main-menu-user-menu
 
 .. _ticket-docs:
 

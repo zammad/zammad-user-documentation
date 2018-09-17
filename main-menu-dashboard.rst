@@ -5,10 +5,10 @@ The **dashboard** is the first thing you’ll see after logging in. Monitor your
 productivity at a glance, compare it to the company average (in gray at the
 bottom of each pane), and see what everyone else is up to.
 
-.. figure:: images/gettingstarted/Zammad_Helpdesk_-_Dashboard.jpg
+.. figure:: images/main-menu/dashboard.jpg
    :alt: Sample view of Dashboard
 
-   Dashboard view
+   Check the dashboard for a quick summary of your stats.
 
    +---------------------------------------------------------------------------+
    | Legend                                                                    |
@@ -29,7 +29,7 @@ bottom of each pane), and see what everyone else is up to.
    | **4. Assigned**                | Out of all open tickets (company-wide),  |
    |                                | how many are assigned to you?            |
    +--------------------------------+------------------------------------------+
-   | **5. Your Tickets in process** | What percentage of your tickets have you |
+   | **5. Your Tickets in Process** | What percentage of your tickets have you |
    |                                | responded to, updated, or modified in    |
    |                                | some way today?                          |
    +--------------------------------+------------------------------------------+

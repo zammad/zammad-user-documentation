@@ -1,13 +1,12 @@
 Overviews
 =========
 
-The **overviews** menu features different filters to help you find tickets that
-need attention fast.
+Find tickets that need attention fast in the **overviews** menu.
 
-.. figure:: images/gettingstarted/Zammad_Helpdesk_-_Overview.jpg
+.. figure:: images/main-menu/overviews.jpg
    :alt: Sample view of Overviews
 
-   Overview list
+   Overviews are filtered lists of tickets.
 
    +---------------------------------------------------------------------------+
    | Built-in filters                                                          |
@@ -16,8 +15,8 @@ need attention fast.
    +--------------------------------+------------------------------------------+
    | **Unassigned & Open**          | All open tickets without an owner.       |
    +--------------------------------+------------------------------------------+
-   | **My pending reached tickets** | All tickets owned by the current user,   |
-   |                                | previously marked “pending”, and         |
+   | **My pending reached tickets** | All open tickets owned by the current    |
+   |                                | user, previously marked “pending”, and   |
    |                                | currently due.                           |
    +--------------------------------+------------------------------------------+
    | **Open**                       | All open tickets owned by **any** agent. |
@@ -32,10 +31,9 @@ need attention fast.
 
 Admin users may create additional, custom overviews. Consult the `admin documentation`_ for more details.
 
-UI Tips
--------
+.. tip:: **🖱️ UI Protip**
 
-* Click on column headings to change the display order.
-* Click-and-drag column dividers to adjust their width.
+   * Click on column headings to change the display order.
+   * Click-and-drag column dividers to adjust their width.
 
 .. _admin documentation: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-overviews.html
