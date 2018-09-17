@@ -1,34 +1,40 @@
 Dashboard
 =========
 
-The dashboard provides the agents with an overview of the current situation of the tickets.
+The **dashboard** is the first thing you’ll see after logging in. Monitor your
+productivity at a glance, compare it to the company average (in gray at the
+bottom of each pane), and see what everyone else is up to.
 
-.. image:: images/gettingstarted/Zammad_Helpdesk_-_Dashboard.jpg
+.. figure:: images/gettingstarted/Zammad_Helpdesk_-_Dashboard.jpg
+   :alt: Sample view of Dashboard
 
-The dashboard is divided into seven different areas:
+   Dashboard view
 
-1.)	Waiting time/processing time:
-Display of the average time that was needed on the current day to process/answer your own tickets.
-The average processing time of the entire team is displayed in gray.
-
-2.)	Mood / Escalated tickets
-The smiley shows how many of your own tickets escalated. If he's green and laughing, no tickets escalated. The worse the mood of the smiley, the more tickets escalated.
-The total number of escalated tickets of all agents in the same groups is grayed out.
-
-3.)	Channel distribution
-Shows a percentage distribution of the open and closed tickets that have arrived via the different channels.
-
-4.)	Assigned tickets
-Shows the absolute number of assigned tickets compared to the tickets of all other agents.
-The average number of assigned tickets is shown in gray.
-
-5.)	Your tickets in process
-Shows how many percent of your own tickets are currently being processed.
-The average percentages is shown in grey.
-
-6.)	Reopening rate
-Shows how many of your own already closed tickets have been reopened.
-The average percentages is shown in grey.
-
-7.)	Activity Stream
-Shows a list of the latest activities of all agents in the groups to which you are authorized.
+   +---------------------------------------------------------------------------+
+   | Legend                                                                    |
+   +================================+==========================================+
+   | **1. Waiting Time Today**      | How long has each customer had to wait,  |
+   |                                | on average, to get a response from you   |
+   |                                | today?                                   |
+   +--------------------------------+------------------------------------------+
+   | **2. Mood**                    | How many escalated tickets do you have   |
+   |                                | open? (Mr. Bubbles gets grumpy if you    |
+   |                                | have too many...)                        |
+   +--------------------------------+------------------------------------------+
+   | **3. Channel Distribution**    | How many of your tickets are coming from |
+   |                                | email, phone, Twitter, or Facebook?      |
+   |                                | (Shows percentages for both **inbound**  |
+   |                                | and **outbound** tickets.)               |
+   +--------------------------------+------------------------------------------+
+   | **4. Assigned**                | Out of all open tickets (company-wide),  |
+   |                                | how many are assigned to you?            |
+   +--------------------------------+------------------------------------------+
+   | **5. Your Tickets in process** | What percentage of your tickets have you |
+   |                                | responded to, updated, or modified in    |
+   |                                | some way today?                          |
+   +--------------------------------+------------------------------------------+
+   | **6. Reopening Rate**          | How many of your tickets have been       |
+   |                                | re-opened after being marked “closed”?   |
+   +--------------------------------+------------------------------------------+
+   | **7. Activity Stream**         | What’s everyone else on your team up to? |
+   +--------------------------------+------------------------------------------+

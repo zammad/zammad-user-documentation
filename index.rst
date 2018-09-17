@@ -1,24 +1,18 @@
 Welcome to the Zammad user documentation
 ========================================
 
-* :ref:`interface-docs`
-* :ref:`ticket-docs`
-* :ref:`working-with-zammad-docs`
-* :ref:`working-with-ticket-docs`
-* :ref:`ticket-search-docs`
-* :ref:`good2know-docs`
-
-
 .. _interface-docs:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Interface
+   :maxdepth: 1
+   :caption: The Left Pane
 
+   interface-search
    interface-dashboard
    interface-overviews
    interface-chat
    interface-telephone
+   interface-tabs
    interface-usermenu
 
 .. _ticket-docs:
@@ -58,12 +52,6 @@ Welcome to the Zammad user documentation
 
 .. _ticket-search-docs:
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Ticket search
-
-   ticket-search
-
 .. _good2know-docs:
 
 .. toctree::
@@ -71,4 +59,3 @@ Welcome to the Zammad user documentation
    :caption: Good to know
 
    good2know
-
