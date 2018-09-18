@@ -9,7 +9,7 @@ Source files for [Zammad’s user documentation][docs].
 If you would like to improve the docs, simply:
 
 1. fork the repo,
-2. edit the appropriate `.rst` files (see [Markup Format][#markup-format] below), and
+2. edit the appropriate `.rst` files (see [Markup Format](#markup-format) below), and
 3. submit a pull request.
 
 > **🌍 Note on localization:** Translations are prepared and stored on
