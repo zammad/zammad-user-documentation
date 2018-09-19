@@ -1,24 +1,53 @@
 Customer View
 =============
 
-.. image:: /images/ticket-pane/customer-view.jpg
+View and manage customer profiles from the ticket pane’s **customer view**.
 
-By clicking on the “person” icon on the right side, information about the ticket’s customer will be displayed. These can be changed system-wide:
+.. figure:: /images/ticket-pane/customer-view.jpg
+   :alt: Ticket pane: Customer view
+   :align: center
 
-.. image:: /images/ticket-pane/customer-view-submenu.jpg
+   Click the 🚶 tab to access the customer view.
 
-After clicking “Customer” and then “Edit customer”, a dialog to edit customer data opens up:
+.. tip:: **🖱️ UI Protip**
 
-.. image:: /images/ticket-pane/customer-view-edit.jpg
+   Hover over the **Tickets** heading to see a summary of the customer’s other tickets.
 
-The following data can be changed within this dialog:
+More Actions
+------------
 
-* Contact information
-* Assign to an / another organization
-* Change password
-* Assign a VIP status (*)
-* Activate/deactivate
+Additional actions are available via the **customer submenu**:
 
+.. figure:: /images/ticket-pane/customer-view-submenu.jpg
+   :alt: Customer submenu
+   :align: center
 
-(*) Hint for setting the VIP-State for customer:
-Defining VIP-status has several advantages for using Zammad. For example, overviews of tickets of VIP customers can be used, certain VIP SLA's defined or VIP triggers can be generated.
+   Click the **Customer ▾** heading to access additional actions.
+
+Change Customer
+^^^^^^^^^^^^^^^
+
+Reassign the ticket to another customer.
+
+.. figure:: /images/ticket-pane/ticket-view-change-customer.png
+   :alt: Change Customer dialog
+   :align: center
+   :scale: 70%
+
+   Search for a customer by name or by organization, or use the shortcut to create a new customer on the fly.
+
+Edit Customer
+^^^^^^^^^^^^^
+
+The **edit customer** action will present the dialog below:
+
+.. figure:: /images/ticket-pane/customer-view-edit.jpg
+   :alt: Customer edit dialog
+   :align: center
+
+.. caution:: Yes, you can change a customer’s password from this dialog.
+   Remember: **with great power comes great responsibility**.
+
+.. hint:: VIP status has several advantages for using Zammad. For
+   example, overviews of tickets of VIP customers can be used, certain VIP
+   SLA's defined or VIP triggers can be generated.

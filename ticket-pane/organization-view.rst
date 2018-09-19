@@ -1,22 +1,41 @@
 Organization View
 =================
 
-Within a ticket you can click on the group icon to get information about the organization to which the customer of the ticket is assigned:
+View and manage customer organizations from the ticket pane’s **organization view**.
 
-.. image:: /images/ticket-pane/organization-view.jpg
+.. figure:: /images/ticket-pane/organization-view.jpg
+   :alt: Ticket pane: Organization view
+   :align: center
 
-In this information-part you can see general information about the organization the customer is assigned to as well as other assigned agents. Information about these agents is displayed by moving the mouse over them.
+   Click the 👬 tab to access the organization view.
 
-The customer-informations can be updated any time, making it available system-wide when saved. You can edit them by clicking on "Organization":
+.. tip:: **🖱️ UI Protip**
 
-.. image:: /images/ticket-pane/organization-view-submenu.jpg
+   * Hover over organization **members** to see their profiles.
+   * Click the 🏢 button to go to the organization’s profile page:
 
-Further detailed information on the organisation can be accessed via the icon to the right of the name of the organisation:
+   .. figure:: /images/ticket-pane/organization-view-link.jpg
+      :align: center
+      :scale: 40%
 
-.. image:: /images/ticket-pane/organization-view-link.jpg
+More Actions
+------------
 
-This detail view contains information about open and closed tickets of all members of the organization (if it is a sharing organization). In addition, a statistic of open and closed tickets of the past 12 months is shown.
+Additional actions are available via the **organization submenu**:
 
-.. image:: /images/ticket-pane/organization-view-stats.jpg
+.. figure:: /images/ticket-pane/organization-view-submenu.jpg
+   :alt: Organization submenu
+   :align: center
+   :scale: 50%
 
-By clicking "Action" on the upper right, you can edit organization-details and show the history of previous changes in the organization-details.
+   Click the **Organization ▾** heading to access additional actions.
+
+Edit Organization
+^^^^^^^^^^^^^^^^^
+
+The **edit organization** action will present the dialog below:
+
+.. figure:: /images/ticket-pane/organization-view-edit.png
+   :alt: Customer edit dialog
+   :align: center
+   :scale: 70%
