@@ -7,7 +7,7 @@ menu area. These are your **open tabs.**
 .. note:: You can freely switch between open tabs without losing your work –
           all unsaved changes are automatically backed up to the server.
 
-.. figure:: images/main-menu/tabs-list.jpg
+.. figure:: /images/main-menu/tabs-list.jpg
    :alt: Sample view of Tabs
 
    Tabs appear in the main menu as you visit different parts of the

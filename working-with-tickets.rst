@@ -1,5 +1,13 @@
-Arbeiten mit Tickets
+Working with Tickets
 ====================
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   working-with-tickets/forward
+   working-with-tickets/split
+   working-with-tickets/links
 
 Tickets bestehen aus Artikeln. Fgolende Artikeltypen stehen zur Auswahl:
 
@@ -10,7 +18,7 @@ Tickets bestehen aus Artikeln. Fgolende Artikeltypen stehen zur Auswahl:
 Um auszuwählen, welche Art von Artikel erstellt werden soll, wird zunächst das leere Eingabefeld unterhalb des letzten Artikels angeklickt. Bereits jetzt ist die Eingabe von Text und der Upload von Anhängen möglich. Alle Inhalte werden automatisch zwischengespeichert, auch wenn man diesen Dialog kurzzeitig verlässt. Dabei ist es egal, ob man zwischen Tickets wechselt, das Fenster schließt oder den Artikeltyp auswählt.
 Der Artikeltyp wird durch einen Klick auf den Notizblock links neben dem Textfeld ausgewählt:
 
-.. image:: images/gettingstarted/Abb30-AuswahlArtikel-Typen.png
+.. image:: /images/gettingstarted/Abb30-AuswahlArtikel-Typen.png
 
 Für die Zusammenarbeit der Mitarbeiter in Zammad werden zwei Varianten als sinnvoll betrachtet.
 

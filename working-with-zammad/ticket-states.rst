@@ -61,10 +61,10 @@ To improve the overview of Zammad tickets, the ticket states are shown in differ
 |          |                                                    | work/attention                                     |
 +----------+----------------------------------------------------+----------------------------------------------------+
 
-.. |orange| image:: images/rings/orange.png
-.. |grey| image:: images/rings/grey.png
-.. |red| image:: images/rings/red.png
-.. |green| image:: images/rings/green.png
+.. |orange| image:: /images/rings/orange.png
+.. |grey| image:: /images/rings/grey.png
+.. |red| image:: /images/rings/red.png
+.. |green| image:: /images/rings/green.png
 
 Those colored rings for tickets will be shown on overviews and on the left side of the tab list.
 

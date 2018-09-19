@@ -3,18 +3,18 @@ Search
 
 Use Zammad’s powerful omnisearch to pull up tickets, users, organizations, and chat logs in a snap.
 
-.. figure:: images/main-menu/search.jpg
+.. figure:: /images/main-menu/search.jpg
    :align: center
 
    The search bar is located in the upper-lefthand corner.
 
-.. figure:: images/main-menu/search-autocomplete.jpg
+.. figure:: /images/main-menu/search-autocomplete.jpg
    :align: center
    :scale: 50%
 
    Results appear immediately under the search bar as you type.
 
-.. figure:: images/main-menu/search-details.jpg
+.. figure:: /images/main-menu/search-details.jpg
    :align: center
 
    For detailed results, click the **Show Search Details →** link just above the autocomplete list.

@@ -3,7 +3,7 @@ Overviews
 
 Find tickets that need attention fast in the **overviews** menu.
 
-.. figure:: images/main-menu/overviews.jpg
+.. figure:: /images/main-menu/overviews.jpg
    :alt: Sample view of Overviews
 
    Overviews are filtered lists of tickets.

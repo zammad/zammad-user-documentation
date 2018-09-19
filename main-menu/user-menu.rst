@@ -3,7 +3,7 @@ User Menu
 
 Click on your avatar at the bottom of the main menu to summon the **user submenu**.
 
-.. figure:: images/main-menu/user-menu.jpg
+.. figure:: /images/main-menu/user-menu.jpg
    :align: center
    :scale: 50%
 
@@ -14,7 +14,7 @@ Recently Viewed
 
 The user submenu includes a list of recently opened items.
 
-.. figure:: images/main-menu/user-menu-recently-viewed.png
+.. figure:: /images/main-menu/user-menu-recently-viewed.png
    :align: center
    :scale: 70%
 
@@ -23,7 +23,7 @@ The user submenu includes a list of recently opened items.
 Keyboard Shortcuts
 ------------------
 
-.. figure:: images/main-menu/user-menu-keyboard-shortcuts.jpg
+.. figure:: /images/main-menu/user-menu-keyboard-shortcuts.jpg
    :align: center
    :scale: 50%
 
@@ -57,14 +57,14 @@ Profile Settings
    Select where, when, and for which groups you want to receive notifications,
    or choose a new notification sound.
 
-   .. figure:: images/main-menu/user-menu-notifications-settings.jpg
+   .. figure:: /images/main-menu/user-menu-notifications-settings.jpg
       :align: center
 
       Use the first three columns to choose when to receive **internal
       notifications** (below). The rightmost column enables email notification
       as well.
 
-   .. figure:: images/main-menu/user-menu-notifications-center.jpg
+   .. figure:: /images/main-menu/user-menu-notifications-center.jpg
       :align: center
 
       Internal notifications cannot be disabled.
@@ -78,7 +78,7 @@ Profile Settings
     handle your tickets while you’re gone.
     
     Your substitute will receive all your ticket notifications during your
-    absence, and have a custom :doc:`overview </main-menu-overviews>` created
+    absence, and have a custom :doc:`overview <overviews>` created
     to help keep track of your tickets.
 	
     .. note:: 🔔 You **will** continue to receive notifications while you are

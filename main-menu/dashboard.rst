@@ -5,7 +5,7 @@ The **dashboard** is the first thing you’ll see after logging in. Monitor your
 productivity at a glance, compare it to the company average (in gray at the
 bottom of each pane), and see what everyone else is up to.
 
-.. figure:: images/main-menu/dashboard.jpg
+.. figure:: /images/main-menu/dashboard.jpg
    :alt: Sample view of Dashboard
 
    Check the dashboard for a quick summary of your stats.
