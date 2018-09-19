@@ -1,15 +1,15 @@
-Customer information
-==================
+Customer View
+=============
 
-.. image:: images/gettingstarted/Customer-information.jpg
+.. image:: images/ticket-pane/customer-view.jpg
 
 By clicking on the “person” icon on the right side, information about the ticket’s customer will be displayed. These can be changed system-wide:
 
-.. image:: images/gettingstarted/Edit-customer.jpg
+.. image:: images/ticket-pane/customer-view-submenu.jpg
 
 After clicking “Customer” and then “Edit customer”, a dialog to edit customer data opens up:
 
-.. image:: images/gettingstarted/customer-edit-mask.jpg
+.. image:: images/ticket-pane/customer-view-edit.jpg
 
 The following data can be changed within this dialog:
 

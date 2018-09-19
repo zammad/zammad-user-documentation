@@ -1,12 +1,11 @@
-Ticket information
-==================
-
+Ticket View
+===========
 
 Within every ticket you can add and update information for tickets, customers and their organisations.
 
 After clicking on the message-icon on the right site, you'll get details about the ticket.
 
-.. image:: images/ticket/ticket-information-1.jpg
+.. image:: images/ticket-pane/ticket-view.jpg
 
 If you have the necessary rights, you can change the group, owner, state and priority of the ticket. But what are those information about?
 
@@ -38,9 +37,7 @@ He'll find the ticket within the overview "my assigned Tickets" and also get not
 
 State
 -----
-You can learn more about states within Zammad here_.
-
-.. _here: zammad-ticket-states.html
+You can learn more about states within Zammad :doc:`here </zammad-ticket-states>`.
 
 Priority
 --------
@@ -76,6 +73,32 @@ After clicking on "Ticket" you'll get further actions you can do inside the tick
 .. _Merge: ticket-submenu.html#merging
 .. _Change: ticket-submenu.html#change-customer
 
-.. image:: images/ticket/ticket-information-2.jpg
+.. image:: images/ticket-pane/ticket-view-submenu.jpg
 
 We'll get further into detail on the next pages.
+
+History
+-------
+
+Shows all changes that have been made to the ticket - for every user.
+
+
+Merging
+-------
+
+.. image:: images/ticket-pane/ticket-view-merge.jpg
+
+You can use this function to merge multiple tickets into one.
+You can enter the ticket number of the ticket you want to merge into another ticket in the text field (1) of the merge mask.
+Below, Zammad shows you ticket that may match the topic - with selecting (2) one of those, you can also merge tickets.
+The merge process will be done with pressing "Submit". Please note that after merging, the old ticket is no longer available stand alone.
+
+
+Change Customer
+---------------
+
+.. image:: images/ticket-pane/ticket-view-change-customer.jpg
+
+With this option, you can change the customer that has been applied to the ticket.
+Zammad needs to know the customer before you can change the tickets customer.
+If you search for a organisation, you'll get the member of the organisation.

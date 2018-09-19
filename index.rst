@@ -1,11 +1,10 @@
-Welcome to the Zammad user documentation
-========================================
-
-.. _interface-docs:
+User Documentation: Home
+========================
 
 .. toctree::
    :maxdepth: 1
    :caption: The Main Menu
+   :name: main-menu
 
    main-menu-search
    main-menu-dashboard
@@ -15,22 +14,19 @@ Welcome to the Zammad user documentation
    main-menu-tabs
    main-menu-user-menu
 
-.. _ticket-docs:
-
 .. toctree::
-   :maxdepth: 2
-   :caption: Ticket information
+   :maxdepth: 1
+   :caption: The Ticket Pane
+   :name: ticket-pane
 
-   ticket-information
-   ticket-submenu
-   ticket-customer-information
-   ticket-organization-information
-
-.. _working-with-zammad-docs:
+   ticket-pane-ticket-view
+   ticket-pane-customer-view
+   ticket-pane-organization-view
 
 .. toctree::
    :maxdepth: 2
    :caption: Working with Zammad
+   :name: working-with-zammad-docs
 
    zammad-ticket-new
    zammad-ticket-edit
@@ -39,23 +35,19 @@ Welcome to the Zammad user documentation
    zammad-ticket-templates
    zammad-ticket-timeaccounting
 
-.. _working-with-ticket-docs:
-
 .. toctree::
    :maxdepth: 2
    :caption: Working with tickets
+   :name: working-with-ticket-docs
 
    working-ticket
    working-ticket-forward
    working-ticket-split
    working-ticket-links
 
-.. _ticket-search-docs:
-
-.. _good2know-docs:
-
 .. toctree::
    :maxdepth: 2
    :caption: Good to know
+   :name: good2know-docs
 
    good2know
