@@ -1,8 +1,10 @@
 Good to know
-************
+============
+
+.. warning:: 🚧 This page is still undergoing revision.
 
 Highlighting text
-=================
+-----------------
 
 Within a ticket it is possible to mark any text parts with several colors.
 
@@ -19,7 +21,7 @@ To delete a marker, select the colored spot with the mouse pointer. Now click ag
 
 
 View article information
-========================
+------------------------
 
 By clicking on the respective articles, information about the type, sender and possibly recipient can be displayed. As can be seen in the following picture:
 

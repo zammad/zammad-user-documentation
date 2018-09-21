@@ -22,7 +22,9 @@ Looking for an archived ticket? Use the **search bar**.
 .. figure:: /images/basics/find-ticket/search-details.jpg
    :align: center
 
-   For detailed results, click the **Show Search Details →** link just above the autocomplete list.
+   For detailed results,
+   click the **Show Search Details →** link
+   just above the autocomplete list.
 
 .. tip:: **🖱️ UI Protip**
 

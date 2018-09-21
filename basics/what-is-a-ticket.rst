@@ -1,103 +1,44 @@
 What is a Ticket?
 =================
 
-Tickets consist of articles. The following article types are available for selection:
+In Zammad, **tickets** are used to track customer service requests.
+The first time a customer emails you (or the company) about something,
+Zammad creates a new ticket.
+Each message sent between you and the customer is added to that ticket
+until the issue is resolved,
+the customer is happy,
+and the ticket is finally **closed**.
 
-* Note
-* E-Mail
-* Telephone call
+So in a basic sense, a ticket is
+**a thread of messages between you and a customer
+about a single issue**.
 
-..
-   INCLUDE ILLUSTRATIONS
+.. figure:: /images/basics/what-is-a-ticket.jpg
+   :alt: Ticket thread view
+   :align: center
 
-.. _ticket-owner:
+   A ticket is a thread of messages between a customer and an agent.
 
-Owner
------
+Ticket Settings
+---------------
 
-Let's stick with the metaphor from before: We have a file (Ticket) in our cupboard that I'm responsible for - I want to work on that file.
-In this case I'll take the care and I'll work on it. My colleagues can't work on this case.
-With Zammad, you can assign yourself as an owner of the ticket and you'll get a similar result. 
-*(Side note: Zammad doesn't show the Ticket as "unassigned" - other agents can always take a look into the case and add notes or answers if they have the needed rights to do so)*
+Tickets also have metadata attached to them to make them easier to manage.
+For instance, tickets have a customer and (optionally) an agent;
+they can be open or closed (or even be scheduled for later);
+they can be organized into groups;
+and they can even be flagged for high or low priority.
 
-Let's say you notice that you can't process the ticket further, because your colleague is responsible for this. You can then change the owner to them and the ticket shows up in his overview.
-This is similar to handing him over your file / putting it onto his desk.
-He'll find the ticket within the overview "my assigned Tickets" and also get notified about this action. (please see noification settings within profile)
+For the sake of simplicity,
+we’ll refer to this metadata as the **settings** of a ticket.
+All of these settings can be changed at any time.
+Each setting is explained in detail in the *Manage Ticket Settings* section,
+but for the time being, let’s go over the two most important ones:
 
-.. _ticket-state:
+Owner *(optional)*
+   The **agent currently assigned to** (*i.e.,* responsible for) the ticket.
 
 State
------
+   Is the customer still waiting on an answer (**open**), or has the ticket
+   been resolved (**closed**)?
 
-.. |br| raw:: html
-
-   <br />
-
-A Ticket state shows the current working state of a ticket.
-
-The following states can be used:
-
-
-+------------------+-------------------------------------------------------------------------------------------------+
-| State            | Explanation                                                                                     |
-+==================+=================================================================================================+
-| New              | Ticket hasn't been worked on yet. First reacion time is running on the ticket, as  |br|\        |
-|                  | soon asit gets created (if configured). You can't change a ticket state to "new",  |br|\        |
-|                  | because the state has to be "open" as soon as somebody worked on the ticket.                    |
-+------------------+-------------------------------------------------------------------------------------------------+
-| Open             | This ticket needs further work on (or the agent didn't change it's state. |br|\                 |
-|                  | The second reaction time (SLA) is running now.                                                  |
-+------------------+-------------------------------------------------------------------------------------------------+
-| Pending close    | Can be used if the ticket can't be closed just yet, as you may expect a further action |br|\    |
-|                  | (e.g. customer response) within the next time. |br|\                                            |
-|                  | No reaction times (SLA) will be applied to the ticket. You have to define a date and |br|\      |
-|                  | time. The ticket state will change to "closed" automatically when reaching the set |br|\        |
-|                  | time.                                                                                           |
-+------------------+-------------------------------------------------------------------------------------------------+
-| Pending reminder | This state can be used for situation where you await further actions / reactions to |br|\       |
-|                  | the ticket (e.g. customer response or feedback of a colleague). At this moment  |br|\           |
-|                  | further work on this ticket is not necessary.                                           |br|\   |
-|                  | You have to define a date and time. The ticket state will change to "open"  |br|\               |
-|                  | automatically when the set time is reached. The ticket owner will get notified if the |br|\     |
-|                  | reminder is reached.                                                                            |
-+------------------+-------------------------------------------------------------------------------------------------+
-| closed           | No escalation times will be applied further. No further work on the ticket is  |br|\            |
-|                  | necessary. The ticket will not be shown within the default overviews, you might   |br|\         |
-|                  | need to search for the ticket via search function. If enabled, the ticket can be  |br|\         |
-|                  | reopened by agents or customer.                                                                 |
-+------------------+-------------------------------------------------------------------------------------------------+
-
-The state can be set directly within the ticket information. You can find further information here_ .
-
-.. _here: ticket-information.html 
-
-
-To improve the overview of Zammad tickets, the ticket states are shown in different colors as follows:
-
-+----------+----------------------------------------------------+----------------------------------------------------+
-| |orange| | Ticket is new, open or the reminder |br|\          | The agent has to work on this ticket.              |
-|          | time has been reached.                             |                                                    |
-+----------+----------------------------------------------------+----------------------------------------------------+
-| |grey|   | A pending state is set, but the time |br|\         | The ticket doesn't need any work at the |br|\      |
-|          | hasn't been reached yet. |br|\                     | moment.                                            |
-|          | (pending close / reminder)                         |                                                    |
-+----------+----------------------------------------------------+----------------------------------------------------+
-| |red|    | This ticket has escalated (the agent  |br|\        | This ticket needs attention asap |br|\             |
-|          | did not work on the ticket according to SLAs.      | (to end the escalation                             |
-+----------+----------------------------------------------------+----------------------------------------------------+
-| |green|  | The ticket has been closed.                        | The ticket doesn't need any further |br|\          |
-|          |                                                    | work/attention                                     |
-+----------+----------------------------------------------------+----------------------------------------------------+
-
-.. |orange| image:: /images/rings/orange.png
-.. |grey| image:: /images/rings/grey.png
-.. |red| image:: /images/rings/red.png
-.. |green| image:: /images/rings/green.png
-
-Those colored rings for tickets will be shown on overviews and on the left side of the tab list.
-
-
-**Hint**
-
-If you see the ticket indicators pulsating, this means that the ticket has been changed and needs attention.
-The Pulsating stops as soon as you open the ticket.
+.. include:: /snippets/ticket-settings-link-list.rst

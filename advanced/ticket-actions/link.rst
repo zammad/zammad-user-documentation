@@ -1,6 +1,8 @@
 Linking Tickets
 ===============
 
+.. warning:: 🚧 This page is still undergoing revision.
+
 Tickets can be linked to each other.
 
 .. image:: /images/gettingstarted/Ticket-Link-eng.jpg

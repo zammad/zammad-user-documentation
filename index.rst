@@ -17,7 +17,6 @@ Zammad Agent Documentation
    :caption: Advanced Topics
    :name: advanced-topics
 
-   /advanced/ticket-settings
    /advanced/ticket-actions
    /advanced/ticket-templates
    /advanced/time-accounting

@@ -1,6 +1,8 @@
 Collaborating on a Ticket
 =========================
 
+.. warning:: 🚧 This page is still undergoing revision.
+
 There are two common approaches for agents to share work on the same ticket in
 Zammad: **tag-teaming tickets** and **splitting tickets**.
 

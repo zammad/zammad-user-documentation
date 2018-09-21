@@ -1,7 +1,11 @@
 Creating a Ticket
 =================
 
-Zammad does its best to create tickets automatically when new customer issues come your way. But sometimes, there’s just no way for Zammad to know when an issue arrives – like when a customer calls on the phone.
+Zammad does its best to create tickets automatically
+when new customer issues come your way.
+But sometimes,
+there’s just no way for Zammad to know when an issue arrives –
+like when a customer calls on the phone.
 
 In these cases, Zammad needs your help to **create a new ticket**.
 
@@ -21,12 +25,13 @@ Input Fields
 ------------
 
 Title
-   The title of the ticket will be used as the **subject line** for all
-   email correspondences.
+   The title of the ticket will be used as the **subject line**
+   for all email correspondences.
 
 Customer
-   When entering a customer, the autocomplete menu searches for **email
-   addresses only**. You **must** select an option from the autocomplete menu,
+   When entering a customer,
+   the autocomplete menu searches for **email addresses only**.
+   You **must** select an option from the autocomplete menu,
    or else create a new customer.
    
    .. figure:: /images/basics/service-ticket/create-customer-autocomplete.gif
@@ -37,7 +42,8 @@ Customer
 
    .. tip:: **🖱️ UI Protip**
 
-      Once a customer has been selected, her profile will be accessible from the **ticket pane**.
+      Once a customer has been selected,
+      her profile will be accessible from the **ticket pane**.
 
       .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.jpg
          :alt: Ticket pane (Customer view)
@@ -47,10 +53,4 @@ Text
    .. include:: /snippets/ui-protip-message-editor-features.rst
 
 Ticket Settings
-   Consult the articles below for details on the various ticket settings:
-
-   * :doc:`Group </advanced/ticket-settings/group>`
-   * :ref:`Owner <ticket-owner>`
-   * :ref:`State <ticket-state>`
-   * :doc:`Priority </advanced/ticket-settings/priority>`
-   * :doc:`Tags </advanced/ticket-settings/tags>`
+   .. include:: /snippets/ticket-settings-link-list.rst

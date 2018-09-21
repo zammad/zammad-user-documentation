@@ -1,6 +1,8 @@
 Merging Tickets
 ===============
 
+.. warning:: 🚧 This page is still undergoing revision.
+
 Merge multiple tickets into one.
 
 .. note:: Merging a ticket migrates all messages and notes **out of the original**

@@ -12,8 +12,8 @@ Looking for a ticket to work on? Check the **overviews** menu.
 .. hint:: 📥 Think of overviews as **inboxes**, each with a different filter
    for the tickets it displays.
 
-There are **six built-in overviews** (Zammad admin may `create more`_ with
-custom-defined filters):
+There are **six built-in overviews**
+(Zammad admin may `create more`_ with custom-defined filters):
 
 * **My assigned tickets** (open/pending only)
 * **Unassigned & Open**

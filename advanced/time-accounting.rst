@@ -1,6 +1,8 @@
 Time Accounting
 ===============
 
+.. warning:: 🚧 This page is still undergoing revision.
+
 The working time can be recorded per article. After updating an article, a dialog appears in which the time is entered:
 
 .. image:: /images/gettingstarted/Abb11-Zeiterfassung.png

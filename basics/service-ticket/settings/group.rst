@@ -1,6 +1,8 @@
 Group
 =====
 
+.. warning:: 🚧 This page is still undergoing revision.
+
 Tickets can get into Zammad via different Channels and can be sorted into different groups each by different criteria.
 Within Zammad, you can see groups like working groups or departments within a company that can work on different topics.
 
