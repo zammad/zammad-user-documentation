@@ -1,21 +1,37 @@
-Zammad User Documentation
-=========================
+Zammad Agent Documentation
+==========================
 
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-   :includehidden:
-   :caption: UI Manual
+   :caption: Basics
+   :name: basics
 
-   The Main Menu <main-menu>
-   The Ticket Pane <ticket-pane>
+   /basics/what-is-a-ticket
+   /basics/find-ticket
+   /basics/service-ticket
 
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-   :includehidden:
-   :caption: Workflow
+   :caption: Advanced Topics
+   :name: advanced-topics
 
-   working-with-zammad
-   working-with-tickets
-   good2know
+   /advanced/ticket-settings
+   /advanced/ticket-actions
+   /advanced/ticket-templates
+   /advanced/time-accounting
+   /advanced/collaboration
+   /advanced/good2know
+   /advanced/customers-and-organizations
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Extras
+   :name: extras
+
+   /extras/dashboard
+   /extras/chat
+   /extras/caller-log
+   /extras/profile-and-settings

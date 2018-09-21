@@ -6,7 +6,7 @@ import sphinx_rtd_theme
 
 html_logo = "images/zammad_logo_70x61.png"
 html_favicon = "images/favicon.ico"
-project = u'Zammad (for Users)'
+project = u'Zammad (for Agents)'
 copyright = u'%s, The Zammad Foundation' % time.strftime("%Y")
 author = u'The Zammad Foundation'
 
