@@ -2,7 +2,7 @@ Zammad Agent Documentation
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :titlesonly:
    :caption: Basics
    :name: basics
