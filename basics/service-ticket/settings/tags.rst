@@ -1,10 +1,11 @@
 Tags
 ====
 
-.. warning:: 🚧 This page is still undergoing revision.
+**Tags** are custom-defined labels that can be applied to tickets
+to make it easier to find them in the future.
 
-To be able to search and allocate tickets better, they can be tagged.
+.. figure:: /images/basics/service-ticket/settings-tags.jpg
+   :alt: Ticket pane (tags)
+   :align: center
 
-Tags can be assigned on the right side under the ticket information. When you enter an appropriate tag, suggestions are provided on the basis of tags used so far.
-
-.. image:: /images/gettingstarted/Tags_eng.jpg
+   Click on a tag name to view other tickets with the same tag.

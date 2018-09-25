@@ -8,7 +8,7 @@ View and manage call logs from the **phone** panel.
    This feature is **optional**; if you don’t see it in the main menu, that
    means it’s not enabled yet. See the `admin documentation`_ for details.
 
-.. figure:: /images/main-menu/phone.jpg
+.. figure:: /images/extras/phone.jpg
    :alt: Sample view of Caller Log
    :align: center
 

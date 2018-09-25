@@ -3,7 +3,7 @@ Profile & Settings
 
 Click on your avatar at the bottom of the main menu to access your **profile and settings**.
 
-.. figure:: /images/main-menu/user-menu.jpg
+.. figure:: /images/extras/profile-and-settings.jpg
    :alt: User submenu
    :align: center
    :scale: 50%
@@ -15,7 +15,7 @@ Recently Viewed
 
 The user submenu includes a list of recently opened items.
 
-.. figure:: /images/main-menu/user-menu-recently-viewed.png
+.. figure:: /images/extras/profile-and-settings-recently-viewed.png
    :align: center
    :scale: 70%
 
@@ -41,14 +41,14 @@ Profile Settings
    Select where, when, and for which groups you want to receive notifications,
    or choose a new notification sound.
 
-   .. figure:: /images/main-menu/user-menu-notifications-settings.jpg
+   .. figure:: /images/extras/profile-and-settings-notifications-settings.jpg
       :align: center
 
       Use the first three columns to choose when to receive **internal
       notifications** (below). The rightmost column enables email notification
       as well.
 
-   .. figure:: /images/main-menu/user-menu-notifications-center.jpg
+   .. figure:: /images/extras/profile-and-settings-notifications-center.jpg
       :align: center
 
       Internal notifications cannot be disabled.

@@ -28,4 +28,4 @@ Looking for an archived ticket? Use the **search bar**.
 
 .. tip:: **🖱️ UI Protip**
 
-   * Click on column headings to change the display order.
+   Click on column headings to change the display order.

@@ -5,8 +5,8 @@ Generally, “working on existing tickets” means
 keeping up with a customer correspondence in the **thread view**.
 You can do this by:
 
-* 📝 adding a message/note to the **whole ticket**, or
-* 📧 responding to an **individual message**.
+* 📧 responding to an **individual message**, or
+* 📝 adding a message/note to the **whole ticket**.
 
 Read on to learn more,
 or skip ahead to find out about :doc:`managing ticket settings <settings>`
@@ -24,6 +24,44 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
    :doc:`tab list</advanced/tabs>` in the main menu.
 
    Zammad **automatically backs up your unsaved changes** in all open tabs.
+
+Responding to Individual Messages
+---------------------------------
+
+.. note:: 💡 When taking action on a new ticket,
+   remember to :ref:`change the state from new to open <new-vs-open>`.
+
+Use the **⮪ reply** button under a message to reply to it directly.
+
+.. figure:: /images/basics/service-ticket/follow-up-reply-button.jpg
+   :alt: Reply button
+   :align: center
+
+   An additional **⮪ reply all** option will appear
+   for email messages with multiple recipients.
+
+Like with new messages,
+your response will appear at the end of the thread.
+Outside of Zammad, however,
+it will be **delivered on the same channel** as the original message
+(*i.e.,* if the message you replied to was originally a tweet,
+the customer will receive your response in a Twitter DM).
+
+.. hint:: ⏩ You can also **forward messages**,
+   just as you would in any email client
+   (attachments are included automatically).
+
+   This way, you can share correspondences
+   with people who don’t have Zammad
+   (like a third-party supplier).
+
+.. tip:: **🖱️ UI Protip**
+
+   Click on a message to see detailed information about it.
+
+   .. figure:: /images/basics/service-ticket/follow-up-message-details.gif
+      :alt: Message details view
+      :align: center
 
 Adding New Messages/Notes
 -------------------------
@@ -58,49 +96,14 @@ There are three types of follow-ups:
    .. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
       :align: center
 
-      “Internal” messages are outlined with an orange border,
+      “Internal” messages are outlined with a salmon border,
       and **can only be viewed by other agents**.
 
 .. include:: /snippets/ui-protip-message-editor-features.rst
 
-Responding to Individual Messages
----------------------------------
-
-Use the **⮪ reply** button under a message to reply to it directly.
-
-.. figure:: /images/basics/service-ticket/follow-up-reply-button.jpg
-   :alt: Reply button
-   :align: center
-
-   An additional **⮪ reply all** option will appear
-   for email messages with multiple recipients.
-
-Like with new messages,
-your response will appear at the end of the thread.
-Outside of Zammad, however,
-it will be **delivered on the same channel** as the original message
-(*i.e.,* if the message you replied to was originally a tweet,
-the customer will receive your response in a Twitter DM).
-
-.. hint:: ⏩ You can also **forward messages**,
-   just as you would in any email client
-   (attachments are included automatically).
-
-   This way, you can share correspondences
-   with people who don’t have Zammad
-   (like a third-party supplier).
-
-.. tip:: **🖱️ UI Protip**
-
-   Click on a message to see detailed information about it.
-
-   .. figure:: /images/basics/service-ticket/follow-up-message-details.gif
-      :alt: Message details view
-      :align: center
-
 ----
 
-.. caution::
+.. caution:: **🙅 I’m working here!**
 
    Every once in a while,
    two agents may have the same ticket open at the same time.
@@ -116,9 +119,11 @@ the customer will receive your response in a Twitter DM).
    by displaying an avatar in the lower-lefthand corner
    for every agent that has that ticket open.
 
-   .. figure:: /images/gettingstarted/Kollisionserkennung.jpg
+   Be sure to communicate with your colleagues
+   to prevent these problems before they arise.
+
+   .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.jpg
       :alt: Ticket conflict alert
       :align: center
 
-      A ✏️ icon will appear
-      if the agent has made changes of any kind to the ticket.
+      A ✏️ icon will appear if the agent has made any unsaved changes to the ticket.

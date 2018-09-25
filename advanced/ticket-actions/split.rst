@@ -1,29 +1,29 @@
 Splitting Tickets
 =================
 
-.. warning:: 🚧 This page is still undergoing revision.
+Some tickets may actually encompass more than one issue,
+or require attention separately from two different departments
+(*e.g.,* sales and customer service).
 
-If parts of a ticket must be processed by different persons/departments, it is
-useful to split the ticket. Especially for processes which have different
-durations this method is recommended. 
+In such cases, you can **split off a single message into its own ticket**.
+(Alternately, it may make more sense to
+:ref:`simply take turns on a single ticket <sharing-work>` instead.)
 
-.. figure:: /images/ticket/splitting-tickets.jpg
+.. figure:: /images/advanced/ticket-actions/split.jpg
    :alt: Split ticket button
    :align: center
 
    Click the “split” button to take a message and use it as the starting point
    for a new ticket.
 
-This leads to the “normal” ticket creation dialog. 
-In addition, all the information that was stored in the ticket, including the content of the respective article, is also included:.
+.. figure:: /images/advanced/ticket-actions/split-dialog.jpg
+   :alt: Split ticket dialog
+   :align: center
 
-.. image:: /images/ticket/splitting-tickets-2.jpg
+   When splitting a ticket, the target message is imported into the new ticket dialog. As usual, remember to select the **type** (call/email).
 
-You can now select whether this ticket will be created as an inbound/outbound phone call or email. 
-The customer’s information can also be customized before creating a new ticket.
+.. figure:: /images/advanced/ticket-actions/split-links.jpg
+   :alt: Ticket pane: Links
+   :align: center
 
-The split ticket contains the information about the original ‘parent’ ticket it was split from. 
-Information about parent and child links can be viewed in the ticket information. 
-Links can be removed by clicking the cross icon next to the link.
-
-.. image:: /images/ticket/splitting-tickets-3.jpg
+   The original ticket is :doc:`linked <link>` to the new one, as seen in the ticket pane.

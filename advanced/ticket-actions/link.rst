@@ -1,15 +1,21 @@
 Linking Tickets
 ===============
 
-.. warning:: 🚧 This page is still undergoing revision.
+When tickets about related issues arise
+(*e.g.,* multiple customer complaints about the same botched shipment),
+they can be **linked to each other** for easier reference.
 
-Tickets can be linked to each other.
+.. figure:: /images/advanced/ticket-actions/link.jpg
+   :alt: Ticket pane: Links
+   :align: center
 
-.. image:: /images/gettingstarted/Ticket-Link-eng.jpg
+   Click the *➕ Add Link* button to access the link dialog.
 
-The dialog for linking between two tickets opens after clicking on "Add link" under the ticket information.
+.. figure:: /images/advanced/ticket-actions/link-dialog.jpg
+   :alt: Link dialog
+   :align: center
 
-.. image:: /images/gettingstarted/Ticket-link-dialog.jpg
+   The link dialog. Specify a ticket to merge into by ID (1),
+   or select one from the list (2).
 
-In this dialog suitable tickets are suggested for linking. You can choose between recently opened tickets or the last tickets of the customer. You can also enter a ticket number in the upper text field.
-Furthermore, the type of linking is selected: Parents, child or "normal".
+.. tip:: Linked tickets may optionally be organized into a parent-child hierarchy.

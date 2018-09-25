@@ -21,8 +21,10 @@ An agent can create three types of tickets:
 :Outbound Call: for issues **initiated by an agent** over the phone.
 :Send Email:    for issues **initiated by an agent** over email.
 
-Input Fields
-------------
+Filling Out the Form
+--------------------
+
+Here’s a quick run-down of each input field in the New Ticket form:
 
 Title
    The title of the ticket will be used as the **subject line**
@@ -33,6 +35,8 @@ Customer
    the autocomplete menu searches for **email addresses only**.
    You **must** select an option from the autocomplete menu,
    or else create a new customer.
+
+   You may **not** assign a ticket to more than one customer.
    
    .. figure:: /images/basics/service-ticket/create-customer-autocomplete.gif
       :alt: Customer autocomplete menu
@@ -50,6 +54,12 @@ Customer
          :align: center
 
 Text
+   📞 For phone calls, record the details of your conversation.
+   These notes will not be sent to the customer
+   (though he may be able to see them if he has a Zammad account).
+
+   📧 For emails, this is the body of your outgoing message.
+
    .. include:: /snippets/ui-protip-message-editor-features.rst
 
 Ticket Settings

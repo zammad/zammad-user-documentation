@@ -1,10 +1,21 @@
 Time Accounting
 ===============
 
-.. warning:: 🚧 This page is still undergoing revision.
+.. note:: **🤔 Huh? I don’t see a “Time Accounting” dialog...** 
 
-The working time can be recorded per article. After updating an article, a dialog appears in which the time is entered:
+   This feature is **optional**; if you don’t see it in the main menu, that
+   means it’s not enabled yet. See the `admin documentation`_ for details.
 
-.. image:: /images/gettingstarted/Abb11-Zeiterfassung.png
+Zammad supports detailed time accounting
+to help administrators keep track of how much time you spend
+on any given ticket, customer or client organization.
 
-Administrators can view these work times in an overview per customer, ticket and organization.
+.. figure:: /images/advanced/time-accounting.png
+   :alt: Time accounting dialog
+   :align: center
+
+   If time accounting is enabled,
+   this dialog will appear each time you update a ticket.
+   Enter how much time (in minutes) you spent on it.
+
+.. _admin documentation: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-time-accounting.html

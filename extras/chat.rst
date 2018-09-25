@@ -8,7 +8,7 @@ Talk to customers in real time from the **customer chat** panel.
    This feature is **optional**; if you don’t see it in the main menu, that
    means it’s not enabled yet. See the `admin documentation`_ for details.
 
-.. figure:: /images/main-menu/customer-chat.jpg
+.. figure:: /images/extras/chat.jpg
    :alt: Sample view of Customer Chat
 
    Enable the chat panel to be notified when customers are waiting to chat.
@@ -47,7 +47,7 @@ Talk to customers in real time from the **customer chat** panel.
    * 📝 Chats can be **renamed** or **tagged**, and record technical details about
      the customer’s connection.
      
-     .. figure:: /images/main-menu/customer-chat-details.png
+     .. figure:: /images/extras/chat-details.png
         :alt: Chat details view
         :align: center
         :scale: 30%
@@ -59,13 +59,13 @@ Creating a Ticket from a Chat
 
 Once your chat is over, you can create a ticket for it with a single click:
 
-.. figure:: /images/main-menu/customer-chat-create-ticket.jpg
+.. figure:: /images/extras/chat-create-ticket.jpg
    :alt: Completed chat window
    :align: center
 
    The **Turn chat into ticket** button appears as soon as the chat is finished.
 
-.. figure:: /images/main-menu/customer-chat-new-ticket-dialog.jpg
+.. figure:: /images/extras/chat-new-ticket-dialog.jpg
    :alt: New ticket view
    :align: center
 

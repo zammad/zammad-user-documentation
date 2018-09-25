@@ -1,18 +1,49 @@
 Group
 =====
 
-.. warning:: 🚧 This page is still undergoing revision.
+**Groups** are a form of access control
+that allows you to dictate *which agents are allowed to do what*
+to a given ticket.
 
-Tickets can get into Zammad via different Channels and can be sorted into different groups each by different criteria.
-Within Zammad, you can see groups like working groups or departments within a company that can work on different topics.
+What?
+^^^^^
 
-**As example:** All Tickets for the Sales-Team can be found within the group "Sales", while the Support-Devision (e.g. for your IT) can find their tickets within the group "Support".
-By dividing your departments, your agents only can see what they need and won't get distracted by other tickets.
-This can also come in handy in case you have departments like legal or accounting that work on information the Sales-Team or Support-Team are not supposed to see.
+Suppose your organization uses Zammad for both sales and customer support.
+You’ve got ten different agents spread across two teams,
+handling dozens of tickets a day.
 
-You can compare a group to a big cupboard where you sort all your records (Tickets) you need to work on.
-Every Agent of the Team (Group) has access to this cupboard and can work on your cases (Tickets).
+Without groups,
+all ten agents can see (and respond to) every single ticket that comes in,
+regardless of which department it’s for.
+This isn’t problematic *per se,*
+but it does lead to a lot of unnecessary clutter
+in the :doc:`overviews menu </basics/find-ticket>`.
+(It can be much worse when, for example,
+a customer service rep sees tickets meant for your HR department,
+and finds out how much their colleagues in sales are making! 💸💸💸)
 
-You can use Roles within Zammad to ensure that your agents can only see groups contents that they are responsible for. 
-An agent can have different rights on groups: You can determine if the agents shall only have read-, move- or creation-rights on a group.
+If, instead, each agent were assigned to an appropriate group,
+then they’d only ever see the tickets that belong to their own group.
 
+.. note:: **So how do I manage which team I’m on?**
+
+   You don’t – that’s the `administrator’s job <https://zammad-admin-documentation.readthedocs.io/en/latest/manage-groups.html>`_.
+
+   However, you can *check* which teams you’re on
+   in the Notifications section of
+   your :doc:`user settings </extras/profile-and-settings>`:
+
+   .. figure:: /images/basics/service-ticket/settings/group-user-list.png
+      :alt: Profile > Notifications menu
+      :align: center
+      :scale: 70%
+
+      This user belongs to only one group (“Users”).
+
+So where do I come in?
+^^^^^^^^^^^^^^^^^^^^^^
+
+If you belong to more than one group,
+you may re-assign a ticket from one of your groups to another.
+In general, though, you won’t need to do this unless you’re an admin,
+or an admin has discussed the procedure with you beforehand.

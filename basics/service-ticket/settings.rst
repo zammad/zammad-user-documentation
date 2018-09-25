@@ -1,9 +1,7 @@
-Managing Ticket Settings
-========================
+Ticket Settings
+===============
 
-.. warning:: 🚧 This page is still undergoing revision.
-
-Use the **ticket pane** to manage a ticket’s settings.
+Use the **ticket pane** to manage a ticket’s settings:
 
 .. toctree::
    :maxdepth: 1
@@ -15,14 +13,14 @@ Use the **ticket pane** to manage a ticket’s settings.
    settings/priority
    settings/tags
 
-.. figure:: /images/ticket-pane/ticket-view.jpg
+.. figure:: /images/basics/service-ticket/settings-ticket-pane.jpg
    :alt: Default ticket pane view
    :align: center
 
    Click the **→** button in the corner to hide the ticket pane. Click the 💬
-   tab to bring it back. Click another tab to switch **view modes**.
+   tab to bring it back.
 
-.. note:: Some options may not be available to you if you have insufficient permissions.
+.. note:: 🚫 Some options may not be available if you have the required privileges for them.
 
 .. _rename-ticket:
 
@@ -31,28 +29,40 @@ Renaming a Ticket
 
 To rename a ticket, simply click on the title and start typing.
 
-.. image:: /images/ticket/ticket-change-subject.gif
+.. image:: /images/basics/service-ticket/settings-rename-ticket.gif
    :align: center
 
-More Actions
-------------
+Highlighting Ticket Text
+------------------------
 
-Additional actions are available via the **submenu**:
+Use the highlighter tool in the upper-righthand corner to mark up important text. (Your highlights are **not** visible to other agents.)
 
-.. figure:: /images/ticket-pane/ticket-view-submenu.jpg
-   :alt: Ticket submenu
+.. figure:: /images/basics/service-ticket/settings-highlight-text.jpg
+   :alt: Ticket highlighter
    :align: center
 
-   Click the **Ticket ▾** heading to access additional actions.
+   Select a color first. Highlight by selecting text, then clicking the highlighter. Click again to undo.
 
-:History:
+----
 
-   View a comprehensive list of updates to the ticket, performed by any user, since its creation.
+.. tip:: **🖱️ UI Protip**
 
-:Merge:
+   Additional actions are available via the **submenu**:
 
-   See the :doc:`Merge </advanced/ticket-actions/merge>` article for details.
+   .. figure:: /images/basics/service-ticket/settings-ticket-submenu.jpg
+      :alt: Ticket submenu
+      :align: center
 
-:Change Customer:
+      Click the **Ticket ▾** heading to access additional actions.
 
-   Reassign the ticket to another customer.
+   History
+      See a comprehensive list of updates to the ticket,
+      performed by any user,
+      since its creation.
+
+   Merge
+      Migrate all messages/notes to another ticket
+      (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details).
+
+   Change Customer
+      Reassign the ticket to another customer.

@@ -19,6 +19,13 @@ about a single issue**.
 
    A ticket is a thread of messages between a customer and an agent.
 
+.. hint:: You know you’re doing a great job when you
+   1) respond to tickets quickly and
+   2) get them closed in a timely manner.
+
+   👀 :doc:`Keep an eye on your dashboard </extras/dashboard>`
+   to see how well you’re keeping up.
+
 Ticket Settings
 ---------------
 

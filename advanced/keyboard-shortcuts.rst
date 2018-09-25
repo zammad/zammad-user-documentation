@@ -5,7 +5,7 @@ Keyboard Shortcuts
 
 Zammad supports a wide array of keyboard shortcuts to expedite your workflow as an expert user.
 
-.. figure:: /images/main-menu/user-menu-keyboard-shortcuts.jpg
+.. figure:: /images/advanced/keyboard-shortcuts.jpg
    :alt: Keyboard shortcut cheat sheet
    :align: center
    :scale: 50%
@@ -17,7 +17,7 @@ Zammad supports a wide array of keyboard shortcuts to expedite your workflow as 
    Click on your avatar at the bottom of the main menu to access the **keyboard
    shortcuts cheat sheet**.
  
-   .. figure:: /images/main-menu/user-menu.jpg
+   .. figure:: /images/extras/profile-and-settings.jpg
       :alt: User submenu
       :align: center
       :scale: 50%
@@ -28,3 +28,20 @@ Zammad supports a wide array of keyboard shortcuts to expedite your workflow as 
       * ``Ctrl`` + ``H`` (on Windows)
       * ``Ctrl`` + ``Shift`` + ``H`` (on Linux)
       * ``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)
+
+Formatting Text
+---------------
+
+Keyboard shortcuts can be used to apply rich-text formatting in one of two ways:
+
+:As-you-type:
+
+   * Press ``Cmd`` + ``I`` to enter Italics mode,
+   * enter your desired text, and
+   * press ``Cmd`` + ``I`` again to return to normal text mode.
+
+:All-at-once:
+
+   * Enter your desired text,
+   * click-and-drag with the mouse to select it, and
+   * press ``Cmd`` + ``I`` to italicize.

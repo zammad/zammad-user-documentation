@@ -19,10 +19,8 @@ Zammad Agent Documentation
 
    /advanced/ticket-actions
    /advanced/ticket-templates
+   /advanced/suggested-workflows
    /advanced/time-accounting
-   /advanced/collaboration
-   /advanced/good2know
-   /advanced/customers-and-organizations
 
 .. toctree::
    :maxdepth: 1

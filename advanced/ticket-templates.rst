@@ -1,30 +1,22 @@
 Ticket Templates
 ================
 
-.. warning:: 🚧 This page is still undergoing revision.
+If you find yourself creating lots of tickets with the same basic attributes,
+use **ticket templates** to fill them in next time with a single click.
 
-If agents need to create tickets with similar content, they can be stored as ticket templates, in order to accelerate the ticketing process in the future. 
-The following ticket information can be put into a template: ticket type, customer, title, text, group, owner, status, priority and tags.
+.. figure:: /images/advanced/ticket-templates.jpg
+   :alt: Ticket template dialog
+   :align: center
 
-You can access the templates by clicking on the paper icon, as shown in the following figure:
+   Use the ticket pane to load or create ticket templates.
 
-.. image:: /images/ticket/template-save-and-load.jpg
+To create a new template, start by filling in a new ticket as usual.
+Then, instead of submitting the ticket form,
+use the **template dialog** in the ticket pane
+to enter a name for your new template, and click “Save”.
 
-In order to create a new template just enter the required information and choose a matching name, which can be entered in the field “save as template”. 
-Now you can simply choose the template when creating a ticket.
+The next time you create a ticket,
+you’ll find your new template in the “Select template” dropdown.
+Click it to apply your saved attributes to the new ticket.
 
-Email-Templates
----------------
-
-If entire tickets with similar content are often created, ticket templates can be created. This speeds up ticket creation. Ticket templates can contain the 
-following information: ticket type, customer, title, test, group, owner, status, priority and tags.
-The templates can be accessed via the letter icon as shown in the following picture:
-
-.. image:: /images/ticket/template-save-new.jpg
-
-Here you can either select an already created template or save the current one under a desired name.
-When you create a new template, all the required information is entered in the ticket and an appropriate name is selected, which is entered in the field "Save as template". After clicking on "Save", the template can be selected during the future ticketing process.
-
-.. image:: /images/ticket/template-dialog-detail.jpg
-
-The templates are available for all agents.
+.. hint:: Any template created by any agent will be available to **all** agents.
