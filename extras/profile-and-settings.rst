@@ -1,25 +1,17 @@
 Profile & Settings
 ==================
 
-Click on your avatar at the bottom of the main menu to access your **profile and settings**.
+Click on your avatar at the bottom of the main menu
+to access your **profile and settings**.
 
 .. figure:: /images/extras/profile-and-settings.jpg
    :alt: User submenu
    :align: center
    :scale: 50%
 
-   Find user-specific actions, a list of recently opened items, and useful reference information.
-
-Recently Viewed
----------------
-
-The user submenu includes a list of recently opened items.
-
-.. figure:: /images/extras/profile-and-settings-recently-viewed.png
-   :align: center
-   :scale: 70%
-
-   The recently viewed list displays **tickets**, **users**, and **organizations**.
+   Find user-specific actions,
+   a list of recently opened items,
+   and useful reference information.
 
 Profile Settings
 ----------------

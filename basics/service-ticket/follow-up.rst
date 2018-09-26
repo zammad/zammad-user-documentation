@@ -29,7 +29,7 @@ Responding to Individual Messages
 ---------------------------------
 
 .. note:: 💡 When taking action on a new ticket,
-   remember to :ref:`change the state from new to open <new-vs-open>`.
+   remember to :ref:`change the state from “new” to “open” <new-vs-open>`.
 
 Use the **⮪ reply** button under a message to reply to it directly.
 

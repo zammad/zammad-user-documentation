@@ -31,9 +31,9 @@ On an *open* ticket,
 the customer has received an initial response,
 but the issue still hasn’t been resolved.
 
-.. note:: ⏱️ Tickets in a “pending” state do not accumulate time toward their SLA limits.
+.. note:: ⏱️ Tickets in a *pending* state do not accumulate time toward their SLA limits.
 
-   So, for instance, a ticket may be marked “pending reminder”
+   So, for instance, a ticket may be marked *pending reminder*
    if it’s waiting on feedback from a third-party supplier
    who’s out of town until next week.
 

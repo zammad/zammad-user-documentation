@@ -20,7 +20,8 @@ Use the **ticket pane** to manage a ticket’s settings:
    Click the **→** button in the corner to hide the ticket pane. Click the 💬
    tab to bring it back.
 
-.. note:: 🚫 Some options may not be available if you have the required privileges for them.
+.. note:: 🚫 Some options may not be available
+   if do not you have the required privileges.
 
 .. _rename-ticket:
 
@@ -41,7 +42,7 @@ Use the highlighter tool in the upper-righthand corner to mark up important text
    :alt: Ticket highlighter
    :align: center
 
-   Select a color first. Highlight by selecting text, then clicking the highlighter. Click again to undo.
+   Highlight by selecting text, then clicking the highlighter. Click again to undo.
 
 ----
 

@@ -15,7 +15,7 @@ they can be **linked to each other** for easier reference.
    :alt: Link dialog
    :align: center
 
-   The link dialog. Specify a ticket to merge into by ID (1),
+   The link dialog. Specify a ticket to link with by ID (1),
    or select one from the list (2).
 
 .. tip:: Linked tickets may optionally be organized into a parent-child hierarchy.

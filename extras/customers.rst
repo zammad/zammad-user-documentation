@@ -42,7 +42,7 @@ but here are a couple that might confuse you:
 :Organization:
 
    Customers may (optionally) belong to **organizations** –
-   :doc:`read on <organizations>` to learn more.
+   :doc:`skip ahead <organizations>` to learn more.
 
 :VIP:
 

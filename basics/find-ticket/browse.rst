@@ -15,11 +15,11 @@ Looking for a ticket to work on? Check the **overviews** menu.
 There are **six built-in overviews**
 (Zammad admin may `create more`_ with custom-defined filters):
 
-* **My assigned tickets** (open/pending only)
+* **My assigned tickets** (*open/pending* only)
 * **Unassigned & Open**
-* **My pending reached tickets** (previously marked “pending” and currently due)
+* **My pending reached tickets** (previously marked *pending* and currently due)
 * **Open** (system-wide)
-* **Pending reached** (system-wide, previously marked “pending” and currently due)
+* **Pending reached** (system-wide, previously marked *pending* and currently due)
 * **Escalated** (system-wide, failing to meet a `service-level agreement`_)
 
 .. tip:: **🖱️ UI Protip**

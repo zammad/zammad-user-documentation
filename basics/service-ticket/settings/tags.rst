@@ -9,3 +9,8 @@ to make it easier to find them in the future.
    :align: center
 
    Click on a tag name to view other tickets with the same tag.
+
+.. hint:: :doc:`Search for tickets with a given tag </basics/find-ticket/search>`
+   with the ``tag:`` search filter.
+   For instance, find all tickets with the **order** tag
+   by searching for ``tag:order``.
