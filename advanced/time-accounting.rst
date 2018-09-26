@@ -16,6 +16,7 @@ on any given ticket, customer or client organization.
 
    If time accounting is enabled,
    this dialog will appear each time you update a ticket.
-   Enter how much time (in minutes) you spent on it.
+   Enter how much time you spent on it
+   (in minutes, or whichever unit of time your administrator prefers).
 
 .. _admin documentation: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-time-accounting.html
