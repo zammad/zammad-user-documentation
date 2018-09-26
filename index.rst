@@ -28,6 +28,8 @@ Zammad Agent Documentation
    :caption: Extras
    :name: extras
 
+   /extras/customers
+   /extras/organizations
    /extras/dashboard
    /extras/chat
    /extras/caller-log
