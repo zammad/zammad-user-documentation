@@ -1,6 +1,6 @@
 .. note:: **📖 See Also**
 
-   For an detailed discussion of each ticket setting, see the articles below:
+   For an in-depth discussion of each ticket setting, see the articles below:
 
    * :doc:`Owner </basics/service-ticket/settings/owner>`
    * :doc:`State </basics/service-ticket/settings/state>`
