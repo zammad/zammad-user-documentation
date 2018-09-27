@@ -28,9 +28,6 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
 Responding to Individual Messages
 ---------------------------------
 
-.. note:: 💡 When taking action on a new ticket,
-   remember to :ref:`change the state from “new” to “open” <new-vs-open>`.
-
 Use the **⮪ reply** button under a message to reply to it directly.
 
 .. figure:: /images/basics/service-ticket/follow-up-reply-button.jpg
