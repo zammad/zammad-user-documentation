@@ -1,63 +1,110 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017, Zammad
 # This file is distributed under the same license as the Zammad package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad\n"
+"Project-Id-Version:  Zammad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 12:10+0200\n"
+"POT-Creation-Date: 2018-10-23 22:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jens Pfeifer <mail@jenspfeifer.de>, 2017\n"
-"Language-Team: English (https://www.transifex.com/zammad/teams/73964/en/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: English (https://www.transifex.com/zammad/teams/73964/en/)"
+"\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../../ticket-submenu.rst:2
-msgid "Historie"
+#, fuzzy
+msgid "History"
 msgstr "History"
 
-#: ../../ticket-submenu.rst:4
-msgid ""
-"Zeigt alle Änderungen, die am Ticket vorgenommen wurden - auch die anderer "
-"Benutzer."
-msgstr "Shows all changes made to the ticket - even those of other users."
-
-#: ../../ticket-submenu.rst:8
-msgid "Zusammenfassen"
-msgstr "Merge"
-
-#: ../../ticket-submenu.rst:12
-msgid ""
-"Diese Funktion wird verwendet, um mehrere Tickets zu einem zusammenzufassen."
-" Im Eingabefeld wird das Ziel-Ticket eingegeben, mit dem das aktuelle Ticket"
-" zusammengeführt werden soll. Im unteren Teil des Dialogs werden Vorschläge "
-"zu verwandten Tickets angezeigt. Das aktuell ausgewählte Ticket existiert "
-"nach der Zusammenfassung nicht mehr als eigenständiges Ticket."
+#: ../../ticket-submenu.rst:6
+msgid "Shows all changes that have been made to the ticket - for every user."
 msgstr ""
-"This function is used to merge multiple tickets into one. The destination "
-"ticket with which the current ticket will be merged is being entered into "
-"the input field. Suggestions with similar tickets will be shown In the lower"
-" part of this dialog. After merging, the current ticket does not exist "
-"anymore as a separate ticket."
 
-#: ../../ticket-submenu.rst:18
-msgid "Kunde ändern"
-msgstr "Change customer"
-
-#: ../../ticket-submenu.rst:21
-msgid ""
-"Hiermit kann der Kunde geändert werden, der für das Ticket hinterlegt wurde."
-" Dabei können nur Personen oder Organisationen eingetragen werden, die in "
-"Zammad bereits angelegt wurden. Bei der Eingabe der Organisation werden "
-"dieser zugewiesene Mitarbeiter vorgeschlagen und können somit ausgewählt "
-"werden."
+#: ../../ticket-submenu.rst:10
+msgid "Merging"
 msgstr ""
-"You can change the customer assigned to the ticket, whereby you can enter "
-"persons or organizations already stored in Zammad. If you enter an "
-"organization, Zammad shows a list of organization members to choose from."
+
+#: ../../ticket-submenu.rst:15
+msgid ""
+"You can use this function to merge multiple tickets into one. You can "
+"enter the ticket number of the ticket you want to merge into another "
+"ticket in the text field (1) of the merge mask. Below, Zammad shows you "
+"ticket that may match the topic - with selecting (2) one of those, you "
+"can also merge tickets. The merge process will be done with pressing "
+"\"Submit\". Please note that after merging, the old ticket is no longer "
+"available stand alone."
+msgstr ""
+
+#: ../../ticket-submenu.rst:22
+msgid "Change Customer"
+msgstr ""
+
+#: ../../ticket-submenu.rst:27
+msgid ""
+"With this option, you can change the customer that has been applied to "
+"the ticket. Zammad needs to know the customer before you can change the "
+"tickets customer. If you search for a organisation, you'll get the member"
+" of the organisation."
+msgstr ""
+
+#~ msgid ""
+#~ "Zeigt alle Änderungen, die am Ticket "
+#~ "vorgenommen wurden - auch die anderer"
+#~ " Benutzer."
+#~ msgstr "Shows all changes made to the ticket - even those of other users."
+
+#~ msgid "Zusammenfassen"
+#~ msgstr "Merge"
+
+#~ msgid ""
+#~ "Diese Funktion wird verwendet, um "
+#~ "mehrere Tickets zu einem zusammenzufassen. "
+#~ "Im Eingabefeld wird das Ziel-Ticket "
+#~ "eingegeben, mit dem das aktuelle Ticket"
+#~ " zusammengeführt werden soll. Im unteren"
+#~ " Teil des Dialogs werden Vorschläge "
+#~ "zu verwandten Tickets angezeigt. Das "
+#~ "aktuell ausgewählte Ticket existiert nach "
+#~ "der Zusammenfassung nicht mehr als "
+#~ "eigenständiges Ticket."
+#~ msgstr ""
+#~ "This function is used to merge "
+#~ "multiple tickets into one. The "
+#~ "destination ticket with which the "
+#~ "current ticket will be merged is "
+#~ "being entered into the input field. "
+#~ "Suggestions with similar tickets will be"
+#~ " shown In the lower part of "
+#~ "this dialog. After merging, the current"
+#~ " ticket does not exist anymore as "
+#~ "a separate ticket."
+
+#~ msgid "Kunde ändern"
+#~ msgstr "Change customer"
+
+#~ msgid ""
+#~ "Hiermit kann der Kunde geändert werden,"
+#~ " der für das Ticket hinterlegt wurde."
+#~ " Dabei können nur Personen oder "
+#~ "Organisationen eingetragen werden, die in "
+#~ "Zammad bereits angelegt wurden. Bei der"
+#~ " Eingabe der Organisation werden dieser "
+#~ "zugewiesene Mitarbeiter vorgeschlagen und "
+#~ "können somit ausgewählt werden."
+#~ msgstr ""
+#~ "You can change the customer assigned "
+#~ "to the ticket, whereby you can "
+#~ "enter persons or organizations already "
+#~ "stored in Zammad. If you enter an"
+#~ " organization, Zammad shows a list of"
+#~ " organization members to choose from."
+
