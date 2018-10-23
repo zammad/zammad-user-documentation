@@ -1,5 +1,5 @@
 Customer information
-==================
+====================
 
 .. image:: images/gettingstarted/Customer-information.jpg
 

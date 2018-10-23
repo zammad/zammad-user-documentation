@@ -1,5 +1,5 @@
 Ticket-Templates
-===============
+================
 
 If agents need to create tickets with similar content, they can be stored as ticket templates, in order to accelerate the ticketing process in the future. 
 The following ticket information can be put into a template: ticket type, customer, title, text, group, owner, status, priority and tags.
@@ -15,7 +15,7 @@ Now you can simply choose the template when creating a ticket.
 
 
 Email-Templates
--------------
+---------------
 If entire tickets with similar content are often created, ticket templates can be created. This speeds up ticket creation. Ticket templates can contain the 
 following information: ticket type, customer, title, test, group, owner, status, priority and tags.
 The templates can be accessed via the letter icon as shown in the following picture:

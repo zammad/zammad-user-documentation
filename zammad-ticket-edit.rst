@@ -57,7 +57,7 @@ Zammad will automatically create a new ticket with the provided information.
 
 
 Take note of incoming and outgoing calls
-==================================
+========================================
 
 Soll ein Anruf in Zammad eingestellt werden, wird zunächst ein neues Ticket erstellt und der entsprechende Artikeltyp gewählt.
 Bei bestehenden Tickets, wird links neben dem Eingabefeld für einen neuen Artikel der Typ "Anruf" (Telefonhörer) ausgewählt:

@@ -1,5 +1,5 @@
 Customer-Chat
-===========
+=============
 
 .. image:: images/gettingstarted/Zammad_Helpdesk_-_Customer_Chat.jpg
 
@@ -29,7 +29,7 @@ By clicking on the chat shortcut you get to a mask in which you can enter the na
 
 
 Converting Chat to a Ticket
-----------
+---------------------------
 
 There is the case that a chat has to be edited later. You can convert a completed chat into a ticket by clicking on it:
 
@@ -42,7 +42,7 @@ After clicking on the button "turn chat into ticket" you will get to the ticket 
 The ticket can now be processed as usual with all standard ticket functions. The chat is stored on the ticket and can be viewed by agents at any time.
 
 Chat-Archive
-----------
+------------
 
 You can find and reopen closed chats via the global Zammad search. This allows you to search for information afterwards and, if necessary, create a ticket from a chat:
 

@@ -1,5 +1,5 @@
 Time Accounting
-=============
+===============
 
 The working time can be recorded per article. After updating an article, a dialog appears in which the time is entered:
 

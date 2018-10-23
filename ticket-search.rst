@@ -1,5 +1,5 @@
 Search
-=====
+======
 
 In Zammad you can search for everything that has ever been stored in Zammad - message content, -subject, -recipients, information stored in customer- and organization-details and even content in attachments.
 The input field for the all-inclusive search is (always) located at the top left:
