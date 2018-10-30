@@ -3,6 +3,7 @@ import os
 import time
 
 import sphinx_rtd_theme
+import time
 
 html_logo = "images/zammad_logo_70x61.png"
 html_favicon = "images/favicon.ico"

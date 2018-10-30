@@ -5,7 +5,6 @@ A new ticket is created by clicking on the plus icon at the bottom left. This le
 
 .. image:: images/ticket/ticket-create-new.jpg
 
-
 The channel or article type can be selected in the upper part. In this example, an incoming call is selected. You can also specify the title, which is the title of the ticket as well as the subject for email tickets. When you select the customer name, the system proposes possible customers that are stored in Zammad when you make an entry. After selecting the customer user, customer information is available in the right-hand window on the Customer-Icon:
 
 .. image:: images/gettingstarted/New-Phone-Customer-Info.jpg

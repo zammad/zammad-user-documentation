@@ -11,7 +11,6 @@ Zammad will display the edit (as pen) as soon as you change **anything** to the 
 
 .. image:: images/gettingstarted/Kollisionserkennung.jpg
 
-
 The ticket dialog offers the following options for the ticket:
 
 Reply to an E-Mail
@@ -58,28 +57,3 @@ Zammad will automatically create a new ticket with the provided information.
 
 Take note of incoming and outgoing calls
 ========================================
-
-Soll ein Anruf in Zammad eingestellt werden, wird zunächst ein neues Ticket erstellt und der entsprechende Artikeltyp gewählt.
-Bei bestehenden Tickets, wird links neben dem Eingabefeld für einen neuen Artikel der Typ "Anruf" (Telefonhörer) ausgewählt:
-
-.. image:: images/gettingstarted/Abb16-Anruf_vermerken.jpg
-
-Nun können die Informationen des geführten Gespräches eingetragen werden. Der Kunde kann diese Information nur sehen, wenn der Artikel als öffentlich markiert wurde und er Zugriff auf das System hat. Andernfalls nützt diese Funktion nur dem internen Wissenstransfer.
-
-Artikel intern oder öffentlich setzen
-=====================================
-
-.. image:: images/gettingstarted/Abb17-Artikel_intern_markieren.jpg
-
-Über einen Klick auf das Schloss-Icon kann ein Artikel als intern oder extern markiert werden. Interne Einträge sind für den Kunden nicht sichtbar.
-Interne Artikel werden durch einen orangen Rand hervorgehoben.
-
-.. image:: images/ticket/ticket-note-type.jpg
-
-
-Ticket-Betreff ändern
-=====================
-
-.. image:: images/ticket/ticket-change-subject.gif
-
-Ein Klick in den Betreff eines Tickets ermöglicht die direkte Änderung des Betreffs.
