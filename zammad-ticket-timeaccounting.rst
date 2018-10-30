@@ -1,8 +1,8 @@
-Zeiterfassung
-=============
+Time Accounting
+===============
 
-Die Bearbeitungszeit kann je Artikel vermerkt werden. Nach dem Speichern eines Artikel erscheint dazu ein Dialog, in den die Zeit eingetragen wird:
+The working time can be recorded per article. After updating an article, a dialog appears in which the time is entered:
 
 .. image:: images/gettingstarted/Abb11-Zeiterfassung.png
 
-Administratoren können diese Bearbeitungszeiten in einer Übersicht je Kunde, Ticket und Organisation einsehen.
+Administrators can view these work times in an overview per customer, ticket and organization.

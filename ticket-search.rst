@@ -1,19 +1,20 @@
-Suche
-=====
+Search
+======
 
-Im Zammad kann nach allem gesucht werden, was im Zammad je gespeichert wurde - Nachrichteninhalte, -Betreffs, -Empfänger, Infos die in den Kunden- und Organisations-Details gespeichert sind und sogar nach Inhalten in Anhängen.
-Das Eingabefeld für die allumfassende Suche befindet sich (immer) links oben:
+In Zammad you can search for everything that has ever been stored in Zammad - message content, -subject, -recipients, information stored in customer- and organization-details and even content in attachments.
+The input field for the all-inclusive search is (always) located at the top left:
 
-.. image:: images/gettingstarted/Abb37-Suchfeld.png
 
-Die Suche startet mit der Eingabe eines Suchbegriffs.
-Die Ergebnisse werden in Kurzform unterhalb des Eingabefelds in der Reihenfolge aufgelistet, dass oben Tickets aufgelistet werden, die den Suchbegriff in irgendeiner Form beinhalten, danach Kunden und ganz unten Organisationen.
+.. image:: images/gettingstarted/search-location.jpg
 
-.. image:: images/gettingstarted/Abb38-dynamischeSuche.png
+The search starts by entering a search term.
+The results are listed in short form below the input field in the order that tickets which contain the search term in some form are listed above, followed by customers and organizations at the very bottom.
 
-Über "Suchdetails anzeigen" (zwischen dem Eingabefeld und den Ergebnissen) ist das vollständige Suchergebnis erreichbar:
+.. image:: images/gettingstarted/search-order.jpg
 
-.. image:: images/gettingstarted/Abb39-Suchdetails.png
+The complete search result can be accessed via "Show search details" (between the input field and the results):
 
-In der Such-Detailansicht können die Suchergebnisse nach Organisations-, Benutzer- und Ticket-Treffern gefiltert werden.
-Die einzelnen Ticketspalten können durch einen Klick auf den Spaltennamen sortiert werden.
+.. image:: images/gettingstarted/fulltext-searchlist.jpg
+
+In the search detail view, the search results can be filtered by organization, user and ticket hits.
+The individual ticket columns can be sorted by clicking on the column name.

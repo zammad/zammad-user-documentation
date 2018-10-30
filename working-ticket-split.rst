@@ -1,17 +1,22 @@
-Variante 2 - Ticket abspalten
+Method 2 - Splitting tickets
 =============================
 
-Müssen Teile eines Tickets von mehreren Personen/Abteilungen bearbeitet werden, ist die Teilung des Tickets sinnvoll. Speziell für Prozesse, die unterschiedliche Laufzeiten haben, bietet sich dies an.
-Unterhalb des Artikels muss dafür auf „abspalten“ geklickt werden:
+If parts of a ticket must be processed by different persons/departments, it is useful to split the ticket. 
+Especially for processes which have different durations this method is recommended. 
+Click the “split” button below the article:
 
-.. image:: images/gettingstarted/Abb32-ArtikelAbspalten.png
+.. image:: images/ticket/splitting-tickets.jpg
 
-Dies führt zum "normalen" Ticket-Erstellungsdialog. Dieser enthält dann jedoch bereits alle Informationen, die am Ticket gespeichert waren, also auch den Inhalt des jeweiligen Artikels.
+This leads to the “normal” ticket creation dialog. 
+In addition, all the information that was stored in the ticket, including the content of the respective article, is also included:.
 
-.. image:: images/gettingstarted/Abb33-abgespalteter-Artikel.png
+.. image:: images/ticket/splitting-tickets-2.jpg
 
-Es kann nun ausgewählt werden, ob das neue Ticket als eingehender/ausgehender Anruf oder als E-Mail erstellt werden soll. Die Informationen des Kunden können ebenfalls angepasst werden bevor das neue Ticket erstellt wird.
+You can now select whether this ticket will be created as an inbound/outbound phone call or email. 
+The customer’s information can also be customized before creating a new ticket.
 
-Das abgespaltene Ticket enthält die Information, von welchem Ticket es abgespalten wurde (Eltern-Ticket). Informationen über Eltern- und Kind-Verlinkung können unter den Ticket-Informationen eingesehen werden. Die Verlinkungen können durch Klick auf das Kreuz rechts neben der Verlinkung entfernt werden.
+The split ticket contains the information about the original ‘parent’ ticket it was split from. 
+Information about parent and child links can be viewed in the ticket information. 
+Links can be removed by clicking the cross icon next to the link.
 
-.. image:: images/gettingstarted/Abb34-Parent-Child-Verknuepfung.jpg
+.. image:: images/ticket/splitting-tickets-3.jpg

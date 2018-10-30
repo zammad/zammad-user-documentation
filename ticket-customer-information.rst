@@ -1,20 +1,24 @@
-Kundeninformation
-==================
+Customer information
+====================
 
-.. image:: images/gettingstarted/Abb24-Kunden-Informationen_am_Ticket.jpg
+.. image:: images/gettingstarted/Customer-information.jpg
 
-Durch einen Klick auf das einzelne Personen-Icon auf der rechten Seite werden Informationen des dem Ticket zugewiesenen Kunden angezeigt. Diese können systemweit geändert werden.
+By clicking on the “person” icon on the right side, information about the ticket’s customer will be displayed. These can be changed system-wide:
 
-.. image:: images/gettingstarted/Abb25-Kunden_bearbeiten.jpg
+.. image:: images/gettingstarted/Edit-customer.jpg
 
-Nach einem Klick auf "Kunde" und anschließend "Kunde bearbeiten" öffnet sich ein Dialog zur Bearbeitung der Kundendaten.
+After clicking “Customer” and then “Edit customer”, a dialog to edit customer data opens up:
 
-.. image:: images/gettingstarted/Abb26-Fenster-KundenbenutzerBearbeiten.png
+.. image:: images/gettingstarted/customer-edit-mask.jpg
 
-In diesem Dialog können folgende Daten angepast werden:
+The following data can be changed within this dialog:
 
-* Kontaktinformationen
-* Organisation zuweisen
-* Passwort ändern
-* VIP-Status zuweisen
-* Aktiv/inaktiv setzen
+* Contact information
+* Assign to an / another organization
+* Change password
+* Assign a VIP status (*)
+* Activate/deactivate
+
+
+(*) Hint for setting the VIP-State for customer:
+Defining VIP-status has several advantages for using Zammad. For example, overviews of tickets of VIP customers can be used, certain VIP SLA's defined or VIP triggers can be generated.

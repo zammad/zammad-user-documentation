@@ -1,18 +1,50 @@
-Ticket-Übersichten
+Ticket Overviews
 ==================
 
-.. image:: images/gettingstarted/Abb2-Ticket-Uebersichten.jpg
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_Overview.jpg
 
-Zammad stellt standardmäßig folgende Ansichten zur Verfügung:
+Zammad provides the following overviews by default:
 
-1)	Meine zugewiesenen Tickets
-2)	Nicht zugewiesen und offen
-3)	Meine "warten erreicht"-Tickets
-4)	Offen
-5)	Warten erreicht
-6)	Eskaliert
+1)	My assigned tickets
+2)	Unassigned & Open
+3)	My pending reached Tickets
+4)	Open
+5)	Pending reached
+6)	Escalated
 
-Ansichten 1 und 3 beziehen sich auf die Tickets, die dem angemeldeten Agenten zugewiesen sind. Alle anderen Übersichten zeigen Tickets aller Agenten.
-Durch Klick auf die Spaltenüberschriften können diese sortiert angezeigt werden.
+Views 1 and 3 refer to the tickets assigned to the current agent. All other overviews show tickets of all agents.
+By clicking on the column headings these can be displayed in an order.
 
-Sie können die Spaltenbreite beliebig anpassen, indem Sie die Spalte auf die gewünschte Breite ziehen. Diese Anpassung bleibt  für den angemeldeten User so gespeichert
+You can adjust the column width as required by dragging the column to the desired width. This adjustment remains saved for the logged in user in this way.
+
+Tab bar
+--------------
+
+On the left side, below the dashboard, the search and features such as chat or phone, is the so-called tab bar:
+
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_Tableiste.jpg
+
+This allows you to open and edit several tabs at the same time.
+
+What can be opened as a tab?
+
+- Existing tickets (1)
+- Ticket creation mask (2)
+- User detail view (3)
+- Organization detail view (4)
+- Searches submitted (5)
+
+You can work on all open tabs at the same time. The changes are saved automatically (on the server). The order of the tabs can be changed via drag & drop. The (unsaved!) ticket content and order of the tabs remains unchanged, even after logging off and on.
+
+The "pulsing" of the circle symbols indicates that there has been a change since the ticket was last called.
+
+
+The colors of the symbols are based on the traffic light system:
+
+:green:  The ticket is closed - no further work necessary.
+
+:black: A reminder has been set but has not been reached - currently no work necessary.
+
+:yellow:  The ticket is new/open or the reminder time has been reached - the ticket must be worked on.
+
+:red: The ticket has escalated - the ticket needs urgent work to stop the escalation.

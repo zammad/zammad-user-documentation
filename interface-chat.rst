@@ -1,51 +1,49 @@
-Kunden-Chat
-===========
+Customer-Chat
+=============
 
-.. image:: images/gettingstarted/Abb3-Kunden-Chat.jpg
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_Customer_Chat.jpg
 
-Durch die Chat-Funktion können Kunden mit angemeldeten Agenten direkt in Kontakt treten. (Nicht jedem Agenten steht die Chat-Funktion zur Verfügung.)
+The chat function allows customers to contact registered agents directly. Not every agent has access to the chat function, though.
 
-**In der Chat-Übersicht gibt es folgende Bereiche:**
+**In the chat overview you will find the following areas:**
 
-1. An-/Aus-Schalter: Ist der Chat bei mindestens einem Agenten eingeschaltet, wird dies den Kunden angezeigt. Die Agenten mit aktiviertem Chat werden informiert, sobald ein Kunde den Chat startet. Ist der Chat ausgeschaltet, bekommt der jeweilige Agent keine Meldungen über gestartete Chats.
-2. Hier werden die Kunden angezeigt, deren Chat noch kein Agent angenommen hat. Dieses Feld blinkt blau, sobald sich ein Kunde in der „Warteschlange“ befindet. Sobald man auf dieses Feld klickt, wird das Chatfenster des wartenden Kunden geöffnet und der Chat kann starten.
-3. Zeigt Kunden, die bereits in Chats aufgenommen wurden
-4. Zeigt Agenten, die den Chat aktiviert haben
-5. In den Einstellungen können die maximale Anzahl an gleichzeitigen Chatfenstern und automatische Antworten festgelegt werden.
-6. Anzahl der Agenten bzw. Kunden
-7. Informationen zu den Kunden bzw. Agenten
+1. On/Off switch: If the chat is activated for at least one agent, the chat is made available to the customer. The agents with activated chat are informed as soon as a customer starts the chat (by clicking on the chat window on the website). If the chat is switched off, the respective agent does not receive any messages about started chats.
+2. The customers whose chat has not yet been accepted by an agent are displayed here. This field flashes blue as soon as a customer is in the "queue". As soon as you click on this field, the chat window of the waiting customer is opened and the chat can start.
+3. shows customers who have already been included in chats.
+4. shows agents who have activated the chat.
+5. The maximum number of concurrent chat windows and automatic replies can be set in the settings.
+6. number of agents or customers in the respective selection.
+7. further information about the customers or agents in the respective selection.
 
-Im Chat können Textbausteine zur schnellen Beantwortung von Standardfragen angewendet werden. Eine Liste aller Textbausteine kann mit der Eingabe "::" (zwei Doppelpunkte) angezeigt werden. Mit den Pfeiltasten können die Textbausteine durchgeblättert werden. Eingefügt werden sie mit "Enter". Durch die Eingabe von Stichwörtern kann die Suche eingeschränkt werden.
+In the chat, text modules can be used to quickly answer standard questions. A list of all text modules can be displayed by entering"::" (= two colons). Use the arrow keys to scroll through the text modules. They are inserted with "Enter". The search can be restricted by entering keywords.
 
-Durch Copy & Paste können Dokumente und Bilder im Chat gesendet und empfangen werden.
+Copy & Paste can also be used to send and receive documents and images in the chat.
+
+By clicking on the chat shortcut at the top in the middle you get to the detailed view of the chat:
+
+.. image:: images/gettingstarted/Zammad_-_Customer_Chat-infos.jpg
+
+By clicking on the chat shortcut you get to a mask in which you can enter the name of the chat partner as well as tags:
+
+.. image:: images/gettingstarted/Zammad_-_Customer_Chat-insert-infos.jpg
 
 
-Chat in ein Ticket überführen
-----------
+Converting Chat to a Ticket
+---------------------------
 
-Es gibt häufig den Fall, dass ein Chat nachträglich weiter bearbeitet werden muss. Dazu kann man per Klick einen abgeschlossenen Chat in ein Ticket überführen:
+There is the case that a chat has to be edited later. You can convert a completed chat into a ticket by clicking on it:
 
 .. image:: images/gettingstarted/Abb55User-Chat_1.jpg
 
-Nach dem Klick auf den Button gelangt man wie gewohnt in die Ticket-Erstellmaske mit einem Link zum Chatfenster:
+After clicking on the button "turn chat into ticket" you will get to the ticket creation screen with a link to the chat window:
 
-.. image:: images/gettingstarted/Abb57Zammad_-_Anruf_eingehend__Chat.jpg
+.. image:: images/gettingstarted/Zammad-New-Ticket_Chat.jpg
 
-Das Ticket kann wie gewohnt in der Organisation mit allen vorhanden Ticket-Funktionen weiter bearbeitet werden. Der Chat ist am Ticket hinterlegt und kann jederzeit von Agenten eingesehen werden.
+The ticket can now be processed as usual with all standard ticket functions. The chat is stored on the ticket and can be viewed by agents at any time.
 
-Durch einen Klick auf das Chat-Kürzel oben in der Mitte gelangt man in die Detail-Ansicht des Chats:
+Chat-Archive
+------------
 
-.. image:: images/gettingstarted/Abb58Zammad_-_Kunden_Chat_2.jpg
-
-Zusätzlich kann man hier Namen des Chat-Partners sowie Tags eintragen:
-
-.. image:: images/gettingstarted/Abb59Zammad_-_Kunden_Chat_3.jpg
-
-
-Chat-Archiv
-----------
-
-Sie können geschlossene Chats über die globale Zammad-Suche finden und wiedereröffnen. Somit können Sie auch im Nachhinein über Informationen recherchieren und ggf. aus einem Chat ein Ticket erstellen:
-
+You can find and reopen closed chats via the global Zammad search. This allows you to search for information afterwards and, if necessary, create a ticket from a chat:
 
 .. image:: images/gettingstarted/Abb56User-Chat_2.jpg

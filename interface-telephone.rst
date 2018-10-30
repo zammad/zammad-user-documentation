@@ -1,10 +1,11 @@
-Telefon
+Phone
 ===========================
 
-.. image:: images/gettingstarted/Abb4-Callerlog.jpg
+.. image:: images/gettingstarted/Zammad_Helpdesk_-_CTI.jpg
 
-Ist eine Telefonanlage an Zammad angebunden, lässt sich das angebundene Telefon an- und ausschalten. 
+If a telephone system is connected to Zammad, the connected telephone can be switched on and off.
 
-Im Caller-Log (Anrufer-Liste) werden Informationen zu vergangenen und aktiven Anrufen angezeigt.
+The caller log displays information on previous and active calls. By clicking on the number (and/or customer name), you can get further information about the customer 
+and even create new tickets for the user if needed.
 
-Nicht jedem Agenten steht die Telefon-Funktion zur Verfügung.
+Not all agents have access to the telephone function.

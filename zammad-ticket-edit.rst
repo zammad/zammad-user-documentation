@@ -1,77 +1,59 @@
-Ticketdialog
-============
+Ticket Dialog
+=============
 
-Ein Klick auf ein Ticket in einer Ticketliste (z. B. über das Dashboard-Widget "Neue Tickets") führt zum Ticketdialog:
+Clicking on a ticket within the ticket list (e.g. using the overview "New Tickets") will lead to the ticket dialog:
 
-.. image:: images/gettingstarted/Abb12-Ticketmaske-Uebersicht.jpg
+.. image:: images/ticket/ticket-overview.jpg
 
-Um zu verhindern, dass Agenten parallel an einem Ticket arbeiten, gibt es im Zammad eine "Kollisionserkennung". Damit kann ein Agent in Echtzeit sehen, wer das aktuell geöffnete Ticket offen hat und welcher Agent bereits eine Bearbeitung vornimmt.
+In order to prevent two agents from working on a ticket at the same time, Zammad has a collision detection.
+With this function, the agents can see who's actually taking a look on the ticket and also who is editing the ticket.
+Zammad will display the edit (as pen) as soon as you change **anything** to the ticket (group, text - doesn't matter).
 
 .. image:: images/gettingstarted/Kollisionserkennung.jpg
 
+The ticket dialog offers the following options for the ticket:
 
-Der Ticketdialog bietet folgende Aktionen zur Ticketbearbeitung an:
+Reply to an E-Mail
+==================
 
-Antwort-E-Mail versenden
-========================
+.. image:: images/ticket/ticket-reply-to-email.jpg
 
-.. image:: images/gettingstarted/Abb13-Antwort-Email_versenden.jpg
-
-Unter einer E-Mail befinden sich die Buttons "antworten" und bei mehreren Empfängern "allen antworten". "antworten" führt automatisch zum Antwort-Email-Dialog, in dem der Absender des Artikels als Empfänger vorausgefüllt wird. Wurde der Artikel an mehrere Personen gesendet, können durch Klick auf "allen antworten" alle Empfänger aus dem CC übernommen werden.
-Auch hier können Anhänge hinzugefügt werden.
-
-Weiterleiten
-========================
-
-Die gesamte E-Mail (inkl. Anhänge) eines Kunden kann an einen Dritten (welcher nicht Zammad verwendet, z. B. ein Lieferant) weitergeleitet werden.
-
-Dies wird direkt ohne lästiges Herunter- und Hochladen von Anhängen unterstützt. Durch Drücken der "Weiterleiten-Buttons" unterhalb des Artikels wird der Inhalt (mitsamt Anhängen) in einer neuen Email im Ticket zitiert.
-
-.. image:: images/gettingstarted/Abb42-weiterleiten.jpg
-
-Vor dem Absenden kann diese Nachricht nach Belieben bearbeitet werden:
-
-.. image:: images/gettingstarted/Abb43-weiterleiten2.jpg
+Below E-Mail-Articles you'll find the button "reply". If the article has several recipients, Zammad will also display "reply all". 
+Both buttons will automatically open the E-Mail-Dialog (prefilled to (and CC if recipients were in the article) and subject).
+You can add attachments and inline images to your answer.
 
 
-Notiz anlegen
-=============
+Forwarding
+==========
+
+You can forward a complete E-Mail (including attachments) or a customer to a third party (that doesn't have to use Zammad, e.g. a supplier).
+
+This simply works without any down- or uploading of the attachments. By pressing "forward" below the article, the whole content (including attachments) will be quoted in a new E-Mail within the same ticket.
+
+.. image:: images/ticket/ticket-forwarding.jpg
+
+You can edit the E-Mail as you desire before sending the E-Mail.
+
+.. image:: images/ticket/ticket-forwarding2.jpg
+
+
+Creating a Note
+===============
 
 .. image:: images/gettingstarted/Abb14-Notiz_erstellen.jpg
 
-Ein Klick auf das orange umrandete Eingabefeld unter dem letzen Artikel des Tickets erstellt eine interne Notiz.
-
-Abspalten eines Artikels
-===========================
-
-.. image:: images/gettingstarted/Abb15-Weiterleiten_eines_Artikels.jpg
-
-Durch einen Klick auf "abspalten" unter einem Artikel kann eine Notiz, Anrufer-Info oder E-Mail weitergeleitet werden. Es wird automatisch ein neues Ticket mit den vorgegebenen Ticket-Infos erstellt.
-
-Vermerken eingehender und ausgehender Anrufe
-============================================
-
-Soll ein Anruf in Zammad eingestellt werden, wird zunächst ein neues Ticket erstellt und der entsprechende Artikeltyp gewählt.
-Bei bestehenden Tickets, wird links neben dem Eingabefeld für einen neuen Artikel der Typ "Anruf" (Telefonhörer) ausgewählt:
-
-.. image:: images/gettingstarted/Abb16-Anruf_vermerken.jpg
-
-Nun können die Informationen des geführten Gespräches eingetragen werden. Der Kunde kann diese Information nur sehen, wenn der Artikel als öffentlich markiert wurde und er Zugriff auf das System hat. Andernfalls nützt diese Funktion nur dem internen Wissenstransfer.
-
-Artikel intern oder öffentlich setzen
-=====================================
-
-.. image:: images/gettingstarted/Abb17-Artikel_intern_markieren.jpg
-
-Über einen Klick auf das Schloss-Icon kann ein Artikel als intern oder extern markiert werden. Interne Einträge sind für den Kunden nicht sichtbar.
-Interne Artikel werden durch einen orangen Rand hervorgehoben.
-
-.. image:: images/gettingstarted/Abb18-int-ext_Artikel.png
+With a click into the orange bordered text field, you can add a new internal note to the ticket.
+**Note:** This is the default - you can change the note field to be a public note by default, if you want to.
 
 
-Ticket-Betreff ändern
-=====================
+Splitting an article
+====================
 
-.. image:: images/gettingstarted/Abb19-Betreff_aendern.jpg
+.. image:: images/ticket/ticket-splitting.jpg
 
-Ein Klick in den Betreff eines Tickets ermöglicht die direkte Änderung des Betreffs.
+By clicking on "split" below an article, you can forward a note, call-information or E-Mail.
+Zammad will automatically create a new ticket with the provided information.
+
+
+Take note of incoming and outgoing calls
+========================================

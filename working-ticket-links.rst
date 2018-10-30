@@ -1,14 +1,13 @@
-Tickets verlinken
+Link Tickets
 ==================
 
-Tickets können untereinander verlinkt werden.
+Tickets can be linked to each other.
 
-.. image:: images/gettingstarted/Abb35-TicketsVerlinken.png
+.. image:: images/gettingstarted/Ticket-Link-eng.jpg
 
-Der Dialog zur Verlinkung zwischen zwei Tickets öffnet sich nach einem Klick auf "Link hinzufügen" unter den Ticket-Informationen.
+The dialog for linking between two tickets opens after clicking on "Add link" under the ticket information.
 
-.. image:: images/gettingstarted/Abb36-Verlinkung_hinzufuegen.png
+.. image:: images/gettingstarted/Ticket-link-dialog.jpg
 
-In diesem Dialog werden Tickets für eine Verlinkung vorgeschlagen. Dabei kann zwischen zuletzt geöffneten Tickets oder den letzten Tickets des Kunden gewählt werden. Es kann auch eine Ticketnummer in das obere Textfeld eingetragen werden.
-Des Weiteren wird noch die Art der Verlinkung ausgewählt: Eltern, Kind oder "normal".
-
+In this dialog suitable tickets are suggested for linking. You can choose between recently opened tickets or the last tickets of the customer. You can also enter a ticket number in the upper text field.
+Furthermore, the type of linking is selected: Parents, child or "normal".

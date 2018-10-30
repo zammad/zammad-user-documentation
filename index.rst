@@ -1,5 +1,5 @@
-Wilkommen zur Zammad-Dokumentation für Anwender
-===============================================
+Welcome to the Zammad user documentation
+========================================
 
 * :ref:`interface-docs`
 * :ref:`ticket-docs`
@@ -25,7 +25,7 @@ Wilkommen zur Zammad-Dokumentation für Anwender
 
 .. toctree::
    :maxdepth: 2
-   :caption: Ticket-Informationen
+   :caption: Ticket information
 
    ticket-information
    ticket-submenu
@@ -36,7 +36,7 @@ Wilkommen zur Zammad-Dokumentation für Anwender
 
 .. toctree::
    :maxdepth: 2
-   :caption: Arbeiten mit Zammad
+   :caption: Working with Zammad
 
    zammad-ticket-new
    zammad-ticket-edit
@@ -49,7 +49,7 @@ Wilkommen zur Zammad-Dokumentation für Anwender
 
 .. toctree::
    :maxdepth: 2
-   :caption: Arbeiten mit Tickets
+   :caption: Working with tickets
 
    working-ticket
    working-ticket-forward
@@ -60,7 +60,7 @@ Wilkommen zur Zammad-Dokumentation für Anwender
 
 .. toctree::
    :maxdepth: 2
-   :caption: Ticket-Suche
+   :caption: Ticket search
 
    ticket-search
 
@@ -68,7 +68,7 @@ Wilkommen zur Zammad-Dokumentation für Anwender
 
 .. toctree::
    :maxdepth: 2
-   :caption: Gut zu wissen
+   :caption: Good to know
 
    good2know
 
