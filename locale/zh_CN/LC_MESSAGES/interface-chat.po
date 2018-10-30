@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Zammad
+# This file is distributed under the same license as the Zammad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 22:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 文浩坚 <never.min@gmail.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/zammad/teams/73964/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../interface-chat.rst:2
+msgid "Customer-Chat"
+msgstr ""
+
+#: ../../interface-chat.rst:6
+msgid ""
+"The chat function allows customers to contact registered agents directly. "
+"Not every agent has access to the chat function, though."
+msgstr "对话功能提供客人直接与服务人员通过网页消息进行交互. (服务人员如需要使用对话功能, 需要在系统管理里设置对应的权限.)"
+
+#: ../../interface-chat.rst:8
+msgid "**In the chat overview you will find the following areas:**"
+msgstr ""
+
+#: ../../interface-chat.rst:10
+msgid ""
+"On/Off switch: If the chat is activated for at least one agent, the chat is "
+"made available to the customer. The agents with activated chat are informed "
+"as soon as a customer starts the chat (by clicking on the chat window on the"
+" website). If the chat is switched off, the respective agent does not "
+"receive any messages about started chats."
+msgstr ""
+"网页对话在线/离线切换开关: 至少有一位服务人员在线, 客户才会在集成网页对话的网站看到对话功能. 一旦客户点开对话窗口, "
+"在线的服务人员将会收到浏览器通知消息, 如果离线将不会收到通知消息. 如果在线的服务人员长时间未响应客户的对话请求, 网页对话也会自动切换为离线."
+
+#: ../../interface-chat.rst:11
+msgid ""
+"The customers whose chat has not yet been accepted by an agent are displayed"
+" here. This field flashes blue as soon as a customer is in the \"queue\". As"
+" soon as you click on this field, the chat window of the waiting customer is"
+" opened and the chat can start."
+msgstr "这里显示正在等候的客人, 如果尚未响应的对话请求, 这里将闪烁蓝色, 点击该字段可应答该客户的对话请求, 双方进入网页消息交互中."
+
+#: ../../interface-chat.rst:12
+msgid "shows customers who have already been included in chats."
+msgstr "正在进行交谈的清单, 鼠标悬停将显示清单明细."
+
+#: ../../interface-chat.rst:13
+msgid "shows agents who have activated the chat."
+msgstr "显示当前在线的服务人员."
+
+#: ../../interface-chat.rst:14
+msgid ""
+"The maximum number of concurrent chat windows and automatic replies can be "
+"set in the settings."
+msgstr "点击设置, 可以设置自动回复的问候语及最大可接入的客户数量."
+
+#: ../../interface-chat.rst:15
+msgid "number of agents or customers in the respective selection."
+msgstr "服务人员或客户的人数."
+
+#: ../../interface-chat.rst:16
+msgid ""
+"further information about the customers or agents in the respective "
+"selection."
+msgstr "服务人员及客户的额外信息."
+
+#: ../../interface-chat.rst:18
+msgid ""
+"In the chat, text modules can be used to quickly answer standard questions. "
+"A list of all text modules can be displayed by entering\"::\" (= two "
+"colons). Use the arrow keys to scroll through the text modules. They are "
+"inserted with \"Enter\". The search can be restricted by entering keywords."
+msgstr ""
+"可在对话中引用文本片段以快速使用标准答案回复客户. 通过输入 :: (两个英文字符的冒号)可以调出完整的文本片段列表, 通过上下箭头浏览, "
+"以”回车”确认使用. 可以通过输入关键缩小列表结果."
+
+#: ../../interface-chat.rst:20
+msgid ""
+"Copy & Paste can also be used to send and receive documents and images in "
+"the chat."
+msgstr "通过复制和粘贴, 可以在对话消息中发送和接收文件和图片等."
+
+#: ../../interface-chat.rst:22
+msgid ""
+"By clicking on the chat shortcut at the top in the middle you get to the "
+"detailed view of the chat:"
+msgstr "点击对话的顶部, 查看更详细的对话信息:"
+
+#: ../../interface-chat.rst:26
+msgid ""
+"By clicking on the chat shortcut you get to a mask in which you can enter "
+"the name of the chat partner as well as tags:"
+msgstr "另外, 也可以对该会话进行标记, 或添加对话的主题:"
+
+#: ../../interface-chat.rst:32
+msgid "Converting Chat to a Ticket"
+msgstr "转换对话消息为工单"
+
+#: ../../interface-chat.rst:34
+msgid ""
+"There is the case that a chat has to be edited later. You can convert a "
+"completed chat into a ticket by clicking on it:"
+msgstr "点击按钮后, 将显示创建新工单的介面, 并附上对话消息的连接, 如图:"
+
+#: ../../interface-chat.rst:38
+msgid ""
+"After clicking on the button \"turn chat into ticket\" you will get to the "
+"ticket creation screen with a link to the chat window:"
+msgstr ""
+
+#: ../../interface-chat.rst:42
+msgid ""
+"The ticket can now be processed as usual with all standard ticket functions."
+" The chat is stored on the ticket and can be viewed by agents at any time."
+msgstr ""
+
+#: ../../interface-chat.rst:45
+msgid "Chat-Archive"
+msgstr "对话存档"
+
+#: ../../interface-chat.rst:47
+msgid ""
+"You can find and reopen closed chats via the global Zammad search. This "
+"allows you to search for information afterwards and, if necessary, create a "
+"ticket from a chat:"
+msgstr "可以搜索已结束的对话会话, 并在有需要时候为一个已结束的对话创建一笔工单:"

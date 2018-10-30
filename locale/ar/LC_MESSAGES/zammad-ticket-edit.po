@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Zammad
+# This file is distributed under the same license as the Zammad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 22:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Arabic (https://www.transifex.com/zammad/teams/73964/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../../zammad-ticket-edit.rst:2
+msgid "Ticket Dialog"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:4
+msgid ""
+"Clicking on a ticket within the ticket list (e.g. using the overview \"New "
+"Tickets\") will lead to the ticket dialog:"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:8
+msgid ""
+"In order to prevent two agents from working on a ticket at the same time, "
+"Zammad has a collision detection. With this function, the agents can see "
+"who's actually taking a look on the ticket and also who is editing the "
+"ticket. Zammad will display the edit (as pen) as soon as you change "
+"**anything** to the ticket (group, text - doesn't matter)."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:15
+msgid "The ticket dialog offers the following options for the ticket:"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:18
+msgid "Reply to an E-Mail"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:22
+msgid ""
+"Below E-Mail-Articles you'll find the button \"reply\". If the article has "
+"several recipients, Zammad will also display \"reply all\". Both buttons "
+"will automatically open the E-Mail-Dialog (prefilled to (and CC if "
+"recipients were in the article) and subject). You can add attachments and "
+"inline images to your answer."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:28
+msgid "Forwarding"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:30
+msgid ""
+"You can forward a complete E-Mail (including attachments) or a customer to a"
+" third party (that doesn't have to use Zammad, e.g. a supplier)."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:32
+msgid ""
+"This simply works without any down- or uploading of the attachments. By "
+"pressing \"forward\" below the article, the whole content (including "
+"attachments) will be quoted in a new E-Mail within the same ticket."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:36
+msgid "You can edit the E-Mail as you desire before sending the E-Mail."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:42
+msgid "Creating a Note"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:46
+msgid ""
+"With a click into the orange bordered text field, you can add a new internal"
+" note to the ticket. **Note:** This is the default - you can change the note"
+" field to be a public note by default, if you want to."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:51
+msgid "Splitting an article"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:55
+msgid ""
+"By clicking on \"split\" below an article, you can forward a note, call-"
+"information or E-Mail. Zammad will automatically create a new ticket with "
+"the provided information."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:60
+msgid "Take note of incoming and outgoing calls"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:62
+msgid ""
+"Soll ein Anruf in Zammad eingestellt werden, wird zunächst ein neues Ticket "
+"erstellt und der entsprechende Artikeltyp gewählt. Bei bestehenden Tickets, "
+"wird links neben dem Eingabefeld für einen neuen Artikel der Typ \"Anruf\" "
+"(Telefonhörer) ausgewählt:"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:67
+msgid ""
+"Nun können die Informationen des geführten Gespräches eingetragen werden. "
+"Der Kunde kann diese Information nur sehen, wenn der Artikel als öffentlich "
+"markiert wurde und er Zugriff auf das System hat. Andernfalls nützt diese "
+"Funktion nur dem internen Wissenstransfer."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:70
+msgid "Artikel intern oder öffentlich setzen"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:74
+msgid ""
+"Über einen Klick auf das Schloss-Icon kann ein Artikel als intern oder "
+"extern markiert werden. Interne Einträge sind für den Kunden nicht sichtbar."
+" Interne Artikel werden durch einen orangen Rand hervorgehoben."
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:81
+msgid "Ticket-Betreff ändern"
+msgstr ""
+
+#: ../../zammad-ticket-edit.rst:85
+msgid ""
+"Ein Klick in den Betreff eines Tickets ermöglicht die direkte Änderung des "
+"Betreffs."
+msgstr ""
