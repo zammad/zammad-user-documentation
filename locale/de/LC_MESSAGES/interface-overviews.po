@@ -1,213 +1,180 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2018, Zammad
+# This file is distributed under the same license as the Zammad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Zammad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-23 22:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Johannes Nickel <r6@lotb.de>, 2018\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../interface-overviews.rst:2
 msgid "Ticket Overviews"
-msgstr ""
+msgstr "Ticket Übersichten"
 
 #: ../../interface-overviews.rst:6
 msgid "Zammad provides the following overviews by default:"
-msgstr ""
+msgstr "Zammad unterstützt standardmäßig die folgenden Übersichten:"
 
 #: ../../interface-overviews.rst:8
 msgid "My assigned tickets"
-msgstr ""
+msgstr "Meine zugeteilten Tickets"
 
 #: ../../interface-overviews.rst:9
 msgid "Unassigned & Open"
-msgstr ""
+msgstr "Nicht zugeordnet & offen"
 
 #: ../../interface-overviews.rst:10
 msgid "My pending reached Tickets"
-msgstr ""
+msgstr "Meine Tickets mit erreichter Erinnerungszeit"
 
 #: ../../interface-overviews.rst:11
 msgid "Open"
-msgstr ""
+msgstr "Offen"
 
 #: ../../interface-overviews.rst:12
 msgid "Pending reached"
-msgstr ""
+msgstr "Erinnnerungszeit erreicht"
 
 #: ../../interface-overviews.rst:13
 msgid "Escalated"
-msgstr ""
+msgstr "Eskaliert"
 
 #: ../../interface-overviews.rst:15
 msgid ""
-"Views 1 and 3 refer to the tickets assigned to the current agent. All "
-"other overviews show tickets of all agents. By clicking on the column "
-"headings these can be displayed in an order."
+"Views 1 and 3 refer to the tickets assigned to the current agent. All other "
+"overviews show tickets of all agents. By clicking on the column headings "
+"these can be displayed in an order."
 msgstr ""
+"Die Übersichten 1 und 3 zeigen die zugeordneten Tickets des aktuellen "
+"Agenten. Alle anderen Übersichten zeigen Tickets von allen Agenten. Eine "
+"Sortierung kann über einen Klick auf die Spaltentitel der Tabelle ausgelöst "
+"werden."
 
 #: ../../interface-overviews.rst:18
 msgid ""
-"You can adjust the column width as required by dragging the column to the"
-" desired width. This adjustment remains saved for the logged in user in "
-"this way."
+"You can adjust the column width as required by dragging the column to the "
+"desired width. This adjustment remains saved for the logged in user in this "
+"way."
 msgstr ""
+"Du kannst die Spaltenbreite nach Bedarf anpassen, indem du die Spalte auf "
+"die gewünschte Breite ziehst. Diese Einstellung bleibt auf diese Weise für "
+"den angemeldeten Benutzer gespeichert."
 
 #: ../../interface-overviews.rst:21
 msgid "Tab bar"
-msgstr ""
+msgstr "Tab-Leiste"
 
 #: ../../interface-overviews.rst:23
 msgid ""
-"On the left side, below the dashboard, the search and features such as "
-"chat or phone, is the so-called tab bar:"
+"On the left side, below the dashboard, the search and features such as chat "
+"or phone, is the so-called tab bar:"
 msgstr ""
+"Die Tab-Leiste befindet sich auf der linken Seite unterhalb des Dashboards "
+"mit den Such-, Chat- und Telefon-Funktionen."
 
 #: ../../interface-overviews.rst:27
 msgid "This allows you to open and edit several tabs at the same time."
-msgstr ""
+msgstr "Dies ermöglicht das gleichzeitige Öffnen und Editieren mehrerer Tabs."
 
 #: ../../interface-overviews.rst:29
 msgid "What can be opened as a tab?"
-msgstr ""
+msgstr "Was kann als Tab geöffnet werden?"
 
 #: ../../interface-overviews.rst:31
 msgid "Existing tickets (1)"
-msgstr ""
+msgstr "Existierende Tickets (1)"
 
 #: ../../interface-overviews.rst:32
 msgid "Ticket creation mask (2)"
-msgstr ""
+msgstr "Ticket-Erstellmaske (2)"
 
 #: ../../interface-overviews.rst:33
 msgid "User detail view (3)"
-msgstr ""
+msgstr "Benutzer-Detailansicht (3)"
 
 #: ../../interface-overviews.rst:34
 msgid "Organization detail view (4)"
-msgstr ""
+msgstr "Detailansicht für Organisation (4)"
 
 #: ../../interface-overviews.rst:35
 msgid "Searches submitted (5)"
-msgstr ""
+msgstr "Gestartete Suchanfragen (5)"
 
 #: ../../interface-overviews.rst:37
 msgid ""
 "You can work on all open tabs at the same time. The changes are saved "
-"automatically (on the server). The order of the tabs can be changed via "
-"drag & drop. The (unsaved!) ticket content and order of the tabs remains "
+"automatically (on the server). The order of the tabs can be changed via drag"
+" & drop. The (unsaved!) ticket content and order of the tabs remains "
 "unchanged, even after logging off and on."
 msgstr ""
+"Alle Tabs können zur gleichen Zeit bearbeitet werden. Die Änderungen werden "
+"automatisch auf dem Server gespeichert. Die Sortierung der Tabs kann per "
+"Drag & Drop verändert werden. Nicht gespeicherte Ticketinhalte und die "
+"Sortierung der Tabs bleiben erhalten, auch nach erneuten Login."
 
 #: ../../interface-overviews.rst:39
 msgid ""
-"The \"pulsing\" of the circle symbols indicates that there has been a "
-"change since the ticket was last called."
+"The \"pulsing\" of the circle symbols indicates that there has been a change"
+" since the ticket was last called."
 msgstr ""
+"Die \"pulsierenden\" Kreise deuten auf eine Änderung des Tickets hin, seit "
+"es zuletzt geöffnet wurde."
 
 #: ../../interface-overviews.rst:42
 msgid "The colors of the symbols are based on the traffic light system:"
-msgstr ""
+msgstr "Die Farben der Symbole verändern sich je nach Änderung wie folgt:"
 
-#: ../../interface-overviews.rst
+#: ../../interface-overviews.rst:0
 msgid "green"
-msgstr ""
+msgstr "grün"
 
 #: ../../interface-overviews.rst:44
 msgid "The ticket is closed - no further work necessary."
-msgstr ""
+msgstr "Das Ticket wurde geschlossen - Keine Aktion notwendig."
 
-#: ../../interface-overviews.rst
+#: ../../interface-overviews.rst:0
 msgid "black"
-msgstr ""
+msgstr "schwarz"
 
 #: ../../interface-overviews.rst:46
 msgid ""
 "A reminder has been set but has not been reached - currently no work "
 "necessary."
 msgstr ""
+"Die Erinnerungszeit wurde gesetzt aber nicht erreicht - Keine Aktion "
+"notwendig."
 
-#: ../../interface-overviews.rst
+#: ../../interface-overviews.rst:0
 msgid "yellow"
-msgstr ""
+msgstr "gelb"
 
 #: ../../interface-overviews.rst:48
 msgid ""
-"The ticket is new/open or the reminder time has been reached - the ticket"
-" must be worked on."
+"The ticket is new/open or the reminder time has been reached - the ticket "
+"must be worked on."
 msgstr ""
+"Das Ticket is neu/offen oder die Erinnerungszeit wurde erreicht - Es ist "
+"eine Aktion notwendig."
 
-#: ../../interface-overviews.rst
+#: ../../interface-overviews.rst:0
 msgid "red"
-msgstr ""
+msgstr "rot"
 
 #: ../../interface-overviews.rst:50
 msgid ""
 "The ticket has escalated - the ticket needs urgent work to stop the "
 "escalation."
 msgstr ""
-
-#~ msgid "Ticket - Übersichten"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Zammad stellt per Default folgende "
-#~ "Ansichten zur Verfügung: 1)      Meine "
-#~ "zugewiesenen Tickets 2)      Nicht zugewiesen"
-#~ " & Offen 3)      Meine warten "
-#~ "erreicht Tickets 4)      Offen 5)      "
-#~ "Warten erreicht 6)      Eskaliert"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ansichten 1 und 3 beziehen sich "
-#~ "auf die Tickets, die einem selbst "
-#~ "zugewiesen sind. Alle anderen Übersichten "
-#~ "zeigen Tickets aller Agenten. Durch "
-#~ "Klcik auf die Spaltenüberschriften können "
-#~ "diese sortiert angezeigt werden."
-#~ msgstr ""
-
-#~ msgid "Ticket-Übersichten"
-#~ msgstr ""
-
-#~ msgid "Zammad stellt standardmäßig folgende Ansichten zur Verfügung:"
-#~ msgstr ""
-
-#~ msgid "Meine zugewiesenen Tickets"
-#~ msgstr ""
-
-#~ msgid "Nicht zugewiesen und offen"
-#~ msgstr ""
-
-#~ msgid "Meine \"warten erreicht\"-Tickets"
-#~ msgstr ""
-
-#~ msgid "Offen"
-#~ msgstr ""
-
-#~ msgid "Warten erreicht"
-#~ msgstr ""
-
-#~ msgid "Eskaliert"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ansichten 1 und 3 beziehen sich "
-#~ "auf die Tickets, die dem angemeldeten"
-#~ " Agenten zugewiesen sind. Alle anderen "
-#~ "Übersichten zeigen Tickets aller Agenten. "
-#~ "Durch Klick auf die Spaltenüberschriften "
-#~ "können diese sortiert angezeigt werden."
-#~ msgstr ""
-
+"Das Ticket ist eskaliert - Es ist dringend eine Aktion notwendig, um die "
+"Eskalation zu stoppen."
