@@ -1,41 +1,47 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# Copyright (C) 2018, Zammad
+# This file is distributed under the same license as the Zammad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: Zammad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-28 12:10+0200\n"
+"POT-Creation-Date: 2018-10-23 22:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Johannes Nickel <r6@lotb.de>, 2018\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../interface-telephone.rst:2
-msgid "Telefon"
-msgstr ""
+msgid "Phone"
+msgstr "Telefon"
 
 #: ../../interface-telephone.rst:6
 msgid ""
-"Ist eine Telefonanlage an Zammad angebunden, lässt sich das angebundene "
-"Telefon an- und ausschalten. Im Caller-Log (Anrufer-Liste) werden "
-"Informationen zu vergangenen und aktiven Anrufen angezeigt. Nicht jedem "
-"Agenten steht die Telefon-Funktion zur Verfügung."
+"If a telephone system is connected to Zammad, the connected telephone can be"
+" switched on and off."
 msgstr ""
+"Wenn ein Telefonsystem mit Zammad verbunden ist, kann es ein- und "
+"ausgeschaltet werden."
 
-#~ msgid ""
-#~ "Ist eine Telefonanlage im Zammad "
-#~ "angebunden, lässt sich das angebundene "
-#~ "Telefon an und ausschalten. Im "
-#~ "Caller-Log (Anrufer-Liste) sieht man "
-#~ "Informationen zu vergangenen und aktiven "
-#~ "Anrufen. Nicht jedem Agenten steht die"
-#~ " Telefon-Funktion zur Verfügung."
-#~ msgstr ""
+#: ../../interface-telephone.rst:8
+msgid ""
+"The caller log displays information on previous and active calls. By "
+"clicking on the number (and/or customer name), you can get further "
+"information about the customer and even create new tickets for the user if "
+"needed."
+msgstr ""
+"Das Protokoll der Anrufliste zeigt Informationen über vergangene und aktive "
+"Anrufe. Über einen Klick auf die Telefonnummer (und/oder den Kundennamen) "
+"können weitere Informationen über den Kunden eingesehen und neue Tickets für"
+" den Benutzer erstellt werden."
 
+#: ../../interface-telephone.rst:11
+msgid "Not all agents have access to the telephone function."
+msgstr "Nicht alle Agenten haben Zugriff auf die Telefonfunktion."
