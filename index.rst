@@ -1,74 +1,36 @@
-Welcome to the Zammad user documentation
-========================================
+Zammad Agent Documentation
+==========================
 
-* :ref:`interface-docs`
-* :ref:`ticket-docs`
-* :ref:`working-with-zammad-docs`
-* :ref:`working-with-ticket-docs`
-* :ref:`ticket-search-docs`
-* :ref:`good2know-docs`
+.. toctree::
+   :maxdepth: 3
+   :titlesonly:
+   :caption: Basics
+   :name: basics
 
-
-.. _interface-docs:
+   /basics/what-is-a-ticket
+   /basics/find-ticket
+   /basics/service-ticket
 
 .. toctree::
    :maxdepth: 2
-   :caption: Interface
+   :titlesonly:
+   :caption: Advanced Topics
+   :name: advanced-topics
 
-   interface-dashboard
-   interface-overviews
-   interface-chat
-   interface-telephone
-   interface-usermenu
-
-.. _ticket-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Ticket information
-
-   ticket-information
-   ticket-submenu
-   ticket-customer-information
-   ticket-organization-information
-
-.. _working-with-zammad-docs:
+   /advanced/ticket-actions
+   /advanced/ticket-templates
+   /advanced/suggested-workflows
+   /advanced/time-accounting
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Working with Zammad
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Extras
+   :name: extras
 
-   zammad-ticket-new
-   zammad-ticket-edit
-   zammad-ticket-states
-   zammad-ticket-tags
-   zammad-ticket-templates
-   zammad-ticket-timeaccounting
-
-.. _working-with-ticket-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Working with tickets
-
-   working-ticket
-   working-ticket-forward
-   working-ticket-split
-   working-ticket-links
-
-.. _ticket-search-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Ticket search
-
-   ticket-search
-
-.. _good2know-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Good to know
-
-   good2know
-
+   /extras/customers
+   /extras/organizations
+   /extras/dashboard
+   /extras/chat
+   /extras/caller-log
+   /extras/profile-and-settings
