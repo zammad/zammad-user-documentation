@@ -19,6 +19,7 @@ Zammad Agent Documentation
 
    /advanced/ticket-actions
    /advanced/ticket-templates
+   /advanced/search
    /advanced/suggested-workflows
    /advanced/time-accounting
 
