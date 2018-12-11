@@ -37,7 +37,7 @@ Available attributes
    
 .. hint:: Combining search phrases
   You can combine search phrases by using `AND`, `OR` and `TO`, depending on the situation and phrases you use.
-  If needed, you can parts of your search phrase for complex searches with `()`. This allows you to combine several phrases with different dependencies (AND/OR). In case you receive search results that you want to exclude, you can use negoation `!`. Below are some examples that you could use with this:
+  If needed, you can parts of your search phrase for complex searches with `()`. This allows you to combine several phrases with different dependencies (AND/OR). In case you receive search results that you want to exclude, you can use negation `!`. Below are some examples that you could use with this:
   
   .. csv-table:: Examples for search phrase combinations
    :header: "Search phrase", "Description"
