@@ -25,7 +25,7 @@ Zammad supports a wide array of keyboard shortcuts to expedite your workflow as 
    Alternately, bring it up with one of the shortcuts below
    (shortcut-ception!)
  
-      * ``Ctrl`` + ``H`` (on Windows)
+      * ``Ctrl`` + ``Shift`` + ``H`` (on Windows)
       * ``Ctrl`` + ``Shift`` + ``H`` (on Linux)
       * ``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)
 
