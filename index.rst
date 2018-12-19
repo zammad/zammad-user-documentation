@@ -18,11 +18,13 @@ Zammad Agent Documentation
    :name: advanced-topics
 
    /advanced/ticket-actions
+   /advanced/tabs
    /advanced/text-modules
    /advanced/ticket-templates
    /advanced/search
    /advanced/suggested-workflows
    /advanced/time-accounting
+   /advanced/keyboard-shortcuts
 
 .. toctree::
    :maxdepth: 1
