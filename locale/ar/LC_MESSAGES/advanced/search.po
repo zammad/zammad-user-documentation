@@ -1,0 +1,389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents)
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents) \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-19 17:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../advanced/search.rst:2
+msgid "Advanced Search"
+msgstr ""
+
+#: ../../advanced/search.rst:4
+msgid ""
+"With Zammad, you can limit your search to specific Information. With this"
+" you're able to search tickets with specific key words and states, "
+"enabling you to improve your search results."
+msgstr ""
+
+#: ../../advanced/search.rst:6
+msgid "For instance, you can search for a specific customer by using::"
+msgstr ""
+
+#: ../../advanced/search.rst:10
+msgid ""
+"If you want to search more complex, you can use conditions with () and "
+"AND/OR options::"
+msgstr ""
+
+#: ../../advanced/search.rst:15
+msgid "Available attributes"
+msgstr ""
+
+#: ../../advanced/search.rst:18
+msgid ""
+"For a more detailed list of available attributes please take a look into "
+"our Zammad-Admin-Documentation_"
+msgstr ""
+
+#: ../../advanced/search.rst:26
+msgid "Attributes and their usuage"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Attribute"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "possible Values"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Example"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "number"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "1118566"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "number:1118566 |br|\\ number:11185*"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Search for a Ticketnumber"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "title"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "some title"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"If you need to use spacings in the search phrase, use quotes. Zammad will"
+" do a AND-Search over the given words. You can also use a single keyword "
+"without quotation."
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "created_at"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "2018-11-18"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"created_at:2018-11-18 |br|\\ created_at:[2018-11-15 TO 2018-11-18] |br|\\"
+" created_at:>now-1h"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"You can either use a simple date, a date-range or >now-xh. Please note "
+"that the date format needs to be YYYY-MM-DD"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "state"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "new |br|\\ open |br|\\ closed"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "state: new |br|\\ state:new OR open"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"You can filter for specific ticket states (and even combine them with an "
+"OR). Please note that you need to use the english namings for states, "
+"unless you have custom ticket states defined in your instance."
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "article_count"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "5 |br|\\ [5 TO 10] |br|\\ [5 TO \\*] |br|\\ [\\* TO 5]"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 "
+"TO \\*] |br|\\ article_count:[\\* TO 5]"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"You can search for Tickets with a specific number of articles (you can "
+"even search for everything with 5 or more articles or even up to 5 "
+"articles, if needed)."
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "article.from"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "\\*bob\\*"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "article.from:\\*bob\\*"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Show all tickets that contain articles from \"Bob\""
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "article.body"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "heat |br|\\ heat~ |br|\\ /joh?n(ath[oa]n)/"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"article.body:heat |br|\\ article.body:heat~ |br|\\ "
+"articlebody:/joh?n(ath[oa]n)/"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"First example shows every ticket containing the word \"heat\" - you can "
+"also use the fuzzy operator \"~\" to search for similar words like e.g. "
+"like \"head\". Zammad will also allow you to use regular expressions, "
+"where ever the attributes allows it."
+msgstr ""
+
+#: ../../advanced/search.rst:38
+msgid ""
+"Combining search phrases You can combine search phrases by using ``AND``,"
+" ``OR`` and ``TO``, depending on the situation and phrases you use. If "
+"needed, you can parts of your search phrase for complex searches with "
+"``()``. This allows you to combine several phrases with different "
+"dependencies (AND/OR). In case you receive search results that you want "
+"to exclude, you can use negation ``!``. Below are some examples that you "
+"could use with this:"
+msgstr ""
+
+#: ../../advanced/search.rst:42
+msgid "Examples for search phrase combinations"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Search phrase"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "state:(closed OR open) AND (priority:\"2 normal\" OR tag:feedback)"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"Show every ticket that state is either closed or open and has priority "
+"normal or the tag feedback."
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"state:(closed OR open) AND (priority:\"2 normal\" OR tag:feedback) AND "
+"!(*Zammad*)"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid ""
+"This gets the same result as above, expect that we don't want the ticket "
+"to contain anything matching to \"Zammad\""
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "owner.email:bob@example.net AND state:(open OR new)"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Show Tickets from bob@example.net that are either open or new"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "state:pending* AND article_count:[1 TO 5]"
+msgstr ""
+
+#: ../../advanced/search.rst:1
+msgid "Show everything with any pending state and an article count of 1 to 5."
+msgstr ""
+
+#: ../../advanced/search.rst:53
+msgid "Some Ticket attributes and their type"
+msgstr ""
+
+#: ../../advanced/search.rst:55
+msgid ""
+"Below you can find the most important attributes sorted by ticket and "
+"article."
+msgstr ""
+
+#: ../../advanced/search.rst:58
+msgid "Ticket attributes"
+msgstr ""
+
+#: ../../advanced/search.rst:60
+msgid "number: string"
+msgstr ""
+
+#: ../../advanced/search.rst:61
+msgid "title: string"
+msgstr ""
+
+#: ../../advanced/search.rst:62
+msgid "group: string"
+msgstr ""
+
+#: ../../advanced/search.rst:63
+msgid "priority: string"
+msgstr ""
+
+#: ../../advanced/search.rst:64
+msgid "state: string"
+msgstr ""
+
+#: ../../advanced/search.rst:65
+msgid "organization: string"
+msgstr ""
+
+#: ../../advanced/search.rst:66
+msgid "owner: object (owner.firstname, owner.lastname, owner.email, ...)"
+msgstr ""
+
+#: ../../advanced/search.rst:67
+msgid ""
+"customer: object (customer.firstname, customer.lastname, customer.email, "
+"...)"
+msgstr ""
+
+#: ../../advanced/search.rst:68
+msgid "first_response_at: timestamp"
+msgstr ""
+
+#: ../../advanced/search.rst:69
+msgid "first_response_in_min: integer (business min till first response)"
+msgstr ""
+
+#: ../../advanced/search.rst:70
+msgid "close_at: timestamp"
+msgstr ""
+
+#: ../../advanced/search.rst:71
+msgid "close_in_min: integer (business min till close)"
+msgstr ""
+
+#: ../../advanced/search.rst:72
+msgid "last_contact_at: timestamp (last contact by customer or agent)"
+msgstr ""
+
+#: ../../advanced/search.rst:73
+msgid "last_contact_agent_at: timestamp (last contact by agent)"
+msgstr ""
+
+#: ../../advanced/search.rst:74
+msgid "last_contact_customer_at: timestamp (last contact by customer)"
+msgstr ""
+
+#: ../../advanced/search.rst:75
+msgid "create_article_type: string (email|phone|web|...)"
+msgstr ""
+
+#: ../../advanced/search.rst:76
+msgid "create_article_sender: string (Customer|Agent|System)"
+msgstr ""
+
+#: ../../advanced/search.rst:77
+msgid "article_count: integer"
+msgstr ""
+
+#: ../../advanced/search.rst:78
+msgid "escalation_at: timestamp"
+msgstr ""
+
+#: ../../advanced/search.rst:79
+msgid "pending_time: timestamp"
+msgstr ""
+
+#: ../../advanced/search.rst:82
+msgid "Article attributes"
+msgstr ""
+
+#: ../../advanced/search.rst:84
+msgid "article.from: string"
+msgstr ""
+
+#: ../../advanced/search.rst:85
+msgid "article.to: string"
+msgstr ""
+
+#: ../../advanced/search.rst:86
+msgid "article.cc: string"
+msgstr ""
+
+#: ../../advanced/search.rst:87
+msgid "article.subject: string"
+msgstr ""
+
+#: ../../advanced/search.rst:88
+msgid "article.body: string"
+msgstr ""
+
+#: ../../advanced/search.rst:89
+msgid "article.attachment._name: string (filename of attachment)"
+msgstr ""
+
+#: ../../advanced/search.rst:90
+msgid "article.attachment._content: string (content of attachment)"
+msgstr ""
+
