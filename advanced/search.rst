@@ -9,7 +9,7 @@ For instance, you can search for a specific customer by using::
   
 If you want to search more complex, you can use conditions with () and AND/OR options::
 
-  state: open and 8from:me OR from:somebody)
+  state: open and (from:me OR from:somebody)
   
 Available attributes
 --------------------
@@ -36,8 +36,8 @@ Available attributes
    "article.body", "heat |br|\ heat~ |br|\ /joh?n(ath[oa]n)/", "article.body:heat |br|\ article.body:heat~ |br|\ articlebody:/joh?n(ath[oa]n)/", "First example shows every ticket containing the word ""heat"" - you can also use the fuzzy operator ""~"" to search for similar words like e.g. like ""head"". Zammad will also allow you to use regular expressions, where ever the attributes allows it."
    
 .. hint:: Combining search phrases
-  You can combine search phrases by using `AND`, `OR` and `TO`, depending on the situation and phrases you use.
-  If needed, you can parts of your search phrase for complex searches with `()`. This allows you to combine several phrases with different dependencies (AND/OR). In case you receive search results that you want to exclude, you can use negation `!`. Below are some examples that you could use with this:
+  You can combine search phrases by using ``AND``, ``OR`` and ``TO``, depending on the situation and phrases you use.
+  If needed, you can parts of your search phrase for complex searches with ``()``. This allows you to combine several phrases with different dependencies (AND/OR). In case you receive search results that you want to exclude, you can use negation ``!``. Below are some examples that you could use with this:
   
   .. csv-table:: Examples for search phrase combinations
    :header: "Search phrase", "Description"
