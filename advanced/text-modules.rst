@@ -25,7 +25,7 @@ Changing text modules
 ^^^^^^^^^^^^^^^^^^^^^
 
 For changing text modules, you need to have the right to do so. 
-Please refer to our `Admin-Documentation <https://zammad-admin-documentation.readthedocs.io/en/latest/manage-text-modules.html>`_ for further information.
+Please refer to our `Admin-Documentation <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_ for further information.
 
 
 
