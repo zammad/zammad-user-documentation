@@ -2,8 +2,8 @@ Working with Text Modules
 =========================
 
 Zammad offers so called text modules.
-Text modules will help you to improve your workflow, as you don't have to answer 
-on every ticket by hand. You can simply choose a fitting module and insert it to the E-Mail.
+Text modules will help you to improve your workflow, as you don't have to type your answer 
+on every ticket by hand. You can simply choose a fitting text module and insert it into the E-Mail.
 
 To access available text modules, simply type ``::`` within an article body. 
 If you found the right text module, just press enter or click with your left mouse and Zammad will insert the modules Text at the place your cursor is.
@@ -18,13 +18,13 @@ If you found the right text module, just press enter or click with your left mou
 Text modules on ticket creation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can use text modules on ticket creation as well, but on ticket creation, our :ref:`ticket_templates` might get handy.
+You can use text modules on ticket creation as well. On ticket creation, our :ref:`ticket_templates` might get handy too.
 
 
 Changing text modules
 ^^^^^^^^^^^^^^^^^^^^^
 
-For changing text modules, you need to have the right to do so. 
+For changing text modules, you need to have the permission to do so. 
 Please refer to our `Admin-Documentation <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_ for further information.
 
 
