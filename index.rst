@@ -18,6 +18,7 @@ Zammad Agent Documentation
    :name: advanced-topics
 
    /advanced/ticket-actions
+   /advanced/text-modules
    /advanced/ticket-templates
    /advanced/search
    /advanced/suggested-workflows
