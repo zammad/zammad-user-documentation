@@ -1,4 +1,4 @@
-Profile & Settings
+﻿Profile & Settings
 ==================
 
 Click on your avatar at the bottom of the main menu
@@ -45,7 +45,7 @@ Profile Settings
 
       Internal notifications cannot be disabled.
 
-   Consult the `admin documentation <https://zammad-admin-documentation.readthedocs.io/en/latest/manage-trigger.html#other-notifications>`_
+   Consult the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_
    for details on how to customize these email notifications.
 
 :Out of Office: 

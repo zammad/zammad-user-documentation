@@ -1,4 +1,4 @@
-Caller Log
+﻿Caller Log
 ==========
 
 View and manage call logs from the **phone** panel.
@@ -23,4 +23,4 @@ View and manage call logs from the **phone** panel.
    customer and ticket**. (Unrecognized phone numbers cannot be added to
    existing customers in this way.)
 
-.. _admin documentation: https://zammad-admin-documentation.readthedocs.io/en/latest/system-integrations.html#cti-generic
+.. _admin documentation: https://admin-docs.zammad.org/en/latest/system-integrations.html#cti-generic

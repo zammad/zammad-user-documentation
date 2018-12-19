@@ -1,4 +1,4 @@
-Live Chat
+﻿Live Chat
 =========
 
 Talk to customers in real time from the **customer chat** panel.
@@ -71,5 +71,5 @@ Once your chat is over, you can create a ticket for it with a single click:
 
    A link to the chat is automatically included in the first note on the ticket.
 
-.. _admin documentation: https://zammad-admin-documentation.readthedocs.io/en/latest/channels-chat.html
-.. _text modules: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-text-modules.html
+.. _admin documentation: https://admin-docs.zammad.org/en/latest/channels-chat.html
+.. _text modules: https://admin-docs.zammad.org/en/latest/manage-text-modules.html
