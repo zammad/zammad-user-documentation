@@ -1,4 +1,4 @@
-Browse for Tickets
+﻿Browse for Tickets
 ==================
 
 Looking for a ticket to work on? Check the **overviews** menu.
@@ -13,14 +13,14 @@ Looking for a ticket to work on? Check the **overviews** menu.
    for the tickets it displays.
 
 There are **six built-in overviews**
-(Zammad admin may `create more`_ with custom-defined filters):
+(Zammad admin may `create more <https://admin-docs.zammad.org/en/latest/manage-overviews.html>`_ with custom-defined filters):
 
 * **My assigned tickets** (*open/pending* only)
 * **Unassigned & Open**
 * **My pending reached tickets** (previously marked *pending* and currently due)
 * **Open** (system-wide)
 * **Pending reached** (system-wide, previously marked *pending* and currently due)
-* **Escalated** (system-wide, failing to meet a `service-level agreement`_)
+* **Escalated** (system-wide, failing to meet a `service-level agreement <https://admin-docs.zammad.org/en/latest/manage-slas.html>`_)
 
 .. tip:: **🖱️ UI Protip**
 
@@ -56,5 +56,4 @@ There are **six built-in overviews**
 
         <div style="width: 1em; height: 1em; border-radius: 50%; border: 3px solid #f45801; margin: 0 auto"></div>
 
-.. _create more: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-overviews.html
-.. _service-level agreement: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-slas.html
+

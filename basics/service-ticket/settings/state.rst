@@ -19,7 +19,7 @@ What’s the difference between “new” and “open”?
 
 States do more than just indicate progress:
 Zammad has a fine-grained time tracking feature
-(so-called “\ `service-level agreements`_\ ”, or SLAs)
+(so-called “\ `service-level agreements <https://admin-docs.zammad.org/en/latest/manage-slas.html>`_\ ”, or SLAs)
 that uses state information to measure how long it takes
 for customers to get a response on a new ticket
 or get their issues resolved entirely.
@@ -37,4 +37,3 @@ but the issue still hasn’t been resolved.
    if it’s waiting on feedback from a third-party supplier
    who’s out of town until next week.
 
-.. _service-level agreements: https://zammad-admin-documentation.readthedocs.io/en/latest/manage-slas.html

@@ -6,7 +6,7 @@ Talk to customers in real time from the **customer chat** panel.
 .. note:: **🤔 Huh? I don’t see “Customer Chat” in the menu...** 
 
    This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation`_ for details.
+   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_ for details.
 
 .. figure:: /images/extras/chat.jpg
    :alt: Sample view of Customer Chat
@@ -43,7 +43,7 @@ Talk to customers in real time from the **customer chat** panel.
 
    * 🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime.
    * 📋 Copy & paste **supports 🌄 images and 📄 documents** as well as plain text.
-   * ⌨️ Live chat supports `text modules`_.
+   * ⌨️ Live chat supports `text modules <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_.
    * 📝 Chats can be **renamed** or **tagged**, and record technical details about
      the customer’s connection.
      
@@ -71,5 +71,3 @@ Once your chat is over, you can create a ticket for it with a single click:
 
    A link to the chat is automatically included in the first note on the ticket.
 
-.. _admin documentation: https://admin-docs.zammad.org/en/latest/channels-chat.html
-.. _text modules: https://admin-docs.zammad.org/en/latest/manage-text-modules.html

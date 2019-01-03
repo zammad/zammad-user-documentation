@@ -27,7 +27,7 @@ then they’d only ever see the tickets that belong to their own group.
 
 .. note:: **So how do I manage which team I’m on?**
 
-   You don’t – that’s the `administrator’s job <https://zammad-admin-documentation.readthedocs.io/en/latest/manage-groups.html>`_.
+   You don’t – that’s the `administrator’s job <https://admin-docs.zammad.org/en/latest/manage-groups.html>`_.
 
    However, you can *check* which teams you’re on
    in the Notifications section of

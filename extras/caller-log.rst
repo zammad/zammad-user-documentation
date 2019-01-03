@@ -6,7 +6,7 @@ View and manage call logs from the **phone** panel.
 .. note:: **🤔 Huh? I don’t see “Phone” in the menu...** 
 
    This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation`_ for details.
+   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-systems>`_ for details.
 
 .. figure:: /images/extras/phone.jpg
    :alt: Sample view of Caller Log
@@ -23,4 +23,3 @@ View and manage call logs from the **phone** panel.
    customer and ticket**. (Unrecognized phone numbers cannot be added to
    existing customers in this way.)
 
-.. _admin documentation: https://admin-docs.zammad.org/en/latest/system-integrations.html#cti-generic

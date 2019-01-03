@@ -1,4 +1,4 @@
-Search for Tickets
+﻿Search for Tickets
 ==================
 
 Looking for an archived ticket? Use the **search bar**.
@@ -19,9 +19,8 @@ Looking for an archived ticket? Use the **search bar**.
    * 📎 text in file attachments (really!)
    * 🏷️ user/organization metadata (*e.g.,* notes stored on customer profiles)
    
-   You can find a detailed search document in our `Advanced Search`_ page.
+   You can find a detailed search document in our `Advanced Search <../../advanced/search.html>`_ page.
    
-.. _`Advanced Search`: ../../advanced/search.html
 
 .. figure:: /images/basics/find-ticket/search-details.jpg
    :align: center
