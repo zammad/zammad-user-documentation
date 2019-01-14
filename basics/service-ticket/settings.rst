@@ -21,7 +21,7 @@ Use the **ticket pane** to manage a ticket’s settings:
    tab to bring it back.
 
 .. note:: 🚫 Some options may not be available
-   if do not you have the required privileges.
+   if you do not have the required privileges.
 
 .. _rename-ticket:
 
