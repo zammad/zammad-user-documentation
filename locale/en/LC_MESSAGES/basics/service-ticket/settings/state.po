@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents)
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents) \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-08 14:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../basics/service-ticket/settings/state.rst:2
+msgid "State"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:4
+msgid ""
+"The **state** of a ticket refers to *its progress toward completion,* and"
+" may be one of the following:"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:7
+msgid "new"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:8
+msgid "open"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:9
+msgid "closed"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:10
+msgid "pending close (*i.e.,* scheduled to automatically close at a later date)"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:12
+msgid ""
+"pending reminder (*i.e.,* hidden, but scheduled to reappear at a later "
+"date)"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:18
+msgid "What’s the difference between “new” and “open”?"
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:20
+msgid ""
+"States do more than just indicate progress: Zammad has a fine-grained "
+"time tracking feature (so-called “\\ `service-level agreements`_\\ ”, or "
+"SLAs) that uses state information to measure how long it takes for "
+"customers to get a response on a new ticket or get their issues resolved "
+"entirely."
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:27
+msgid ""
+"On a *new* ticket, the customer still hasn’t received her first response "
+"on the issue."
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:30
+msgid ""
+"On an *open* ticket, the customer has received an initial response, but "
+"the issue still hasn’t been resolved."
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:34
+msgid ""
+"⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
+"limits."
+msgstr ""
+
+#: ../../basics/service-ticket/settings/state.rst:36
+msgid ""
+"So, for instance, a ticket may be marked *pending reminder* if it’s "
+"waiting on feedback from a third-party supplier who’s out of town until "
+"next week."
+msgstr ""
+
