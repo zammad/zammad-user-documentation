@@ -1,90 +1,113 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, The Zammad Foundation
-# This file is distributed under the same license as the Zammad (for Agents)
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# Copyright (C) 2019, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Marcel Herrguth <mh@zammad.com>, 2018
+# Natascha Kasun <nk@znuny.com>, 2018
+# J K <jk@znuny.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad (for Agents) \n"
+"Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 14:33+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: J K <jk@znuny.com>, 2019\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../basics/service-ticket/settings/state.rst:2
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #: ../../basics/service-ticket/settings/state.rst:4
 msgid ""
-"The **state** of a ticket refers to *its progress toward completion,* and"
-" may be one of the following:"
+"The **state** of a ticket refers to *its progress toward completion,* and "
+"may be one of the following:"
 msgstr ""
+"Der **Status** eines Tickets bezieht sich auf *sämtliche Schritte bis zur "
+"Fertigstellung* und kann wie folgt heißen:"
 
 #: ../../basics/service-ticket/settings/state.rst:7
 msgid "new"
-msgstr ""
+msgstr "neu"
 
 #: ../../basics/service-ticket/settings/state.rst:8
 msgid "open"
-msgstr ""
+msgstr "offen"
 
 #: ../../basics/service-ticket/settings/state.rst:9
 msgid "closed"
-msgstr ""
+msgstr "geschlossen"
 
 #: ../../basics/service-ticket/settings/state.rst:10
-msgid "pending close (*i.e.,* scheduled to automatically close at a later date)"
+msgid ""
+"pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
+"warten auf schließen (*d.h.* das Ticket soll zu einem späteren Zeitpunkt "
+"automatisch geschlossen werden)"
 
 #: ../../basics/service-ticket/settings/state.rst:12
 msgid ""
-"pending reminder (*i.e.,* hidden, but scheduled to reappear at a later "
-"date)"
+"pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
+"warten auf Erinnerung (*d.h.* das Ticket ist ausgeblendet, wird aber später "
+"zum geplanten Zeitpunkt wieder erscheinen)"
 
 #: ../../basics/service-ticket/settings/state.rst:18
 msgid "What’s the difference between “new” and “open”?"
-msgstr ""
+msgstr "Worin besteht der Unterschied zwischen \"neu\" und \"offen\"?"
 
 #: ../../basics/service-ticket/settings/state.rst:20
 msgid ""
-"States do more than just indicate progress: Zammad has a fine-grained "
-"time tracking feature (so-called “\\ `service-level agreements`_\\ ”, or "
-"SLAs) that uses state information to measure how long it takes for "
-"customers to get a response on a new ticket or get their issues resolved "
-"entirely."
+"States do more than just indicate progress: Zammad has a fine-grained time "
+"tracking feature (so-called “\\ `service-level agreements <https://admin-"
+"docs.zammad.org/en/latest/manage-slas.html>`_\\ ”, or SLAs) that uses state "
+"information to measure how long it takes for customers to get a response on "
+"a new ticket or get their issues resolved entirely."
 msgstr ""
+"Stati machen mehr, als nur den Fortschritt anzuzeigen: Zammad hat ein "
+"Eskalationsmanagement (sogenannte “\\ `Service-Level-Vereinbarungen <https"
+"://admin-docs.zammad.org/en/latest/manage-slas.html>`_\\ ”, bzw. SLAs). Die "
+"SLA nutzt Ticket-Stati, um errechnen zu können, wie lang es dauert, dass ein"
+" Kunde eine Antwort erhält oder das Problem komplett gelöst wurde."
 
 #: ../../basics/service-ticket/settings/state.rst:27
 msgid ""
-"On a *new* ticket, the customer still hasn’t received her first response "
-"on the issue."
+"On a *new* ticket, the customer still hasn’t received her first response on "
+"the issue."
 msgstr ""
+"Bei einem *neuen* Ticket hat der Kunde seine erste Antwort zu diesem Thema "
+"noch nicht erhalten."
 
 #: ../../basics/service-ticket/settings/state.rst:30
 msgid ""
-"On an *open* ticket, the customer has received an initial response, but "
-"the issue still hasn’t been resolved."
+"On an *open* ticket, the customer has received an initial response, but the "
+"issue still hasn’t been resolved."
 msgstr ""
+"Bei einem *offenen* Ticket hat der Kunde eine erste Antwort erhalten aber "
+"das Problem ist noch nicht gelöst."
 
 #: ../../basics/service-ticket/settings/state.rst:34
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
 msgstr ""
+"⏱️ Tickets mit einem *warten* Status haben keine zeitlichen Auswirkungen auf"
+" die SLA-Limits."
 
 #: ../../basics/service-ticket/settings/state.rst:36
 msgid ""
-"So, for instance, a ticket may be marked *pending reminder* if it’s "
-"waiting on feedback from a third-party supplier who’s out of town until "
-"next week."
+"So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
+"on feedback from a third-party supplier who’s out of town until next week."
 msgstr ""
-
+"Ein Ticket kann auf *warten auf Erinnerung* gesetzt werden, wenn Sie zum "
+"Beispiel auf eine Rückmeldung eines Drittanbieters warten, der bis nächste "
+"Woche nicht verfügbar ist."

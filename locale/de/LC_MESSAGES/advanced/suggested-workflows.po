@@ -1,76 +1,99 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, The Zammad Foundation
-# This file is distributed under the same license as the Zammad (for Agents)
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# Copyright (C) 2019, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Natascha Kasun <nk@znuny.com>, 2018
+# J K <jk@znuny.com>, 2018
+# Marcel Herrguth <mh@zammad.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad (for Agents) \n"
+"Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 14:33+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2018\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../advanced/suggested-workflows.rst:2
 msgid "Suggested Workflows"
-msgstr ""
+msgstr "Empfohlener Arbeitsablauf"
 
 #: ../../advanced/suggested-workflows.rst:7
 msgid "Sharing Work on a Ticket"
-msgstr ""
+msgstr "Teilen der Arbeit an einem Ticket"
 
 #: ../../advanced/suggested-workflows.rst:9
 msgid ""
-"When a ticket is complex enough, it may require attention from more than "
-"one agent (or even more than one department!)."
+"When a ticket is complex enough, it may require attention from more than one"
+" agent (or even more than one department!)."
 msgstr ""
+"Wenn ein Ticket komplexer ist, kann es die Aufmerksamkeit von mehr als einem"
+" Agent (oder gar einer anderen Abteilung) erfordern."
 
 #: ../../advanced/suggested-workflows.rst:13
 msgid ""
 "In these cases, the simplest thing to do is usually just to **take turns "
 "working on the ticket**. (:doc:`Splitting tickets </advanced/ticket-"
-"actions/split>` is another option, best reserved for when a ticket really"
-" encompasses multiple problems, or when taking turns would needlessly "
-"block one agent’s progress.)"
+"actions/split>` is another option, best reserved for when a ticket really "
+"encompasses multiple problems, or when taking turns would needlessly block "
+"one agent’s progress.)"
 msgstr ""
+"In diesen Fällen ist es am leichtesten, sich **beim Arbeiten abzuwechseln**."
+" (:doc:`Tickets zu splitten </advanced/ticket-actions/split>` ist eine "
+"andere Option, besonders wenn es mehrere verschiedene Probleme auf einmal "
+"gibt oder das abwechselnde Arbeiten den Fortschritt des einen Agenten "
+"blockieren würde.)"
 
 #: ../../advanced/suggested-workflows.rst:23
 msgid ""
-"Reassign a ticket (via the *Group* and *Owner* settings) to let "
-"colleagues know you’re done with your part."
+"Reassign a ticket (via the *Group* and *Owner* settings) to let colleagues "
+"know you’re done with your part."
 msgstr ""
+"Ordnen ein Ticket neu zu (über die Einstellungen *Gruppe* und *Besitzer*), "
+"um die Kollegen zu informieren, was Du bereits erledigt hast."
 
 #: ../../advanced/suggested-workflows.rst:27
 msgid "How it works"
-msgstr ""
+msgstr "So funktioniert es"
 
 #: ../../advanced/suggested-workflows.rst:29
 msgid ""
-"Suppose a call comes into the sales department. A sales rep takes the "
-"call, creates a ticket, and looks up some prices for the customer. After "
-"recording his notes, the rep then decides that this ticket needs to be "
-"passed onto customer service."
+"Suppose a call comes into the sales department. A sales rep takes the call, "
+"creates a ticket, and looks up some prices for the customer. After recording"
+" his notes, the rep then decides that this ticket needs to be passed onto "
+"customer service."
 msgstr ""
+"Angenommen, ein Anruf kommt in der Verkaufsabteilung an. Ein "
+"Vertriebsmitarbeiter nimmt den Anruf entgegen, erstellt ein Ticket und sucht"
+" einige Preise für den Kunden heraus. Nach der Aufnahme seiner Notizen "
+"entscheidet der Mitarbeiter, dass dieses Ticket an den Kundenservice "
+"weitergeleitet werden muss."
 
 #: ../../advanced/suggested-workflows.rst:35
 msgid ""
-"Our sales rep can simply un-assign himself has the **owner** of the "
-"ticket and re-assign the ticket to the Customer Service **group**. *All "
-"customer service agents will be notified of the incoming ticket*, and the"
-" first available agent can assign herself to pick up where the sales rep "
-"left off."
+"Our sales rep can simply un-assign himself has the **owner** of the ticket "
+"and re-assign the ticket to the Customer Service **group**. *All customer "
+"service agents will be notified of the incoming ticket*, and the first "
+"available agent can assign herself to pick up where the sales rep left off."
 msgstr ""
+"Unser Vertriebsmitarbeiter kann sich einfach als **Besitzer** austragen und "
+"dann Ticket in die **Gruppe** des Kundensupports verschieben. *Alle Agenten "
+"des Kundensupports werden über das eingehende Ticket informiert* und der "
+"erste verfügbare Agent kann das Ticket übernehmen."
 
 #: ../../advanced/suggested-workflows.rst:41
 msgid ""
 "Be sure to leave notes with as much information as possible for the next "
 "agent!"
 msgstr ""
-
+"Achte darauf, dass die Notizen mit so vielen Informationen wie möglich für "
+"den nächsten Agenten hinterlassen werden!"
