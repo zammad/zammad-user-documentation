@@ -85,5 +85,6 @@ Article attributes
 * article.cc: string
 * article.subject: string
 * article.body: string
-* article.attachment._name: string (filename of attachment)
-* article.attachment._content: string (content of attachment)
+* article.attachment.title: string (filename of attachment)
+* article.attachment.content: string (content of attachment)
+* article.attachment.content_type: string (File type e.g. PDF)
