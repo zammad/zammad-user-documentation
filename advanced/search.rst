@@ -42,8 +42,8 @@ Available attributes
    :header: "Search phrase", "Description"
    :widths: 10, 20
    
-   "state:(closed OR open) AND (priority:""2 normal"" OR tag:feedback)", "Show every ticket that state is either closed or open and has priority normal or the tag feedback."
-   "state:(closed OR open) AND (priority:""2 normal"" OR tag:feedback) AND !(*Zammad*)", "This gets the same result as above, expect that we don't want the ticket to contain anything matching to ""Zammad"""
+   "state:(closed OR open) AND (priority:""2 normal"" OR tags:feedback)", "Show every ticket that state is either closed or open and has priority normal or the tag feedback."
+   "state:(closed OR open) AND (priority:""2 normal"" OR tags:feedback) AND !(*Zammad*)", "This gets the same result as above, expect that we don't want the ticket to contain anything matching to ""Zammad"""
    "owner.email:bob@example.net AND state:(open OR new)", "Show Tickets from bob@example.net that are either open or new"
    "state:pending* AND article_count:[1 TO 5]", "Show everything with any pending state and an article count of 1 to 5."
    
