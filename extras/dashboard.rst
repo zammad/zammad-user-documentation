@@ -2,13 +2,14 @@ Checking Your Stats
 ===================
 
 The **dashboard** is the first thing you’ll see after logging in. Monitor your
-productivity at a glance, compare it to the company average (in gray at the
-bottom of each pane), and see what everyone else is up to.
+productivity at a glance, compare your stats to the company average (in gray
+below your own), and see what everyone else is up to.
 
 .. figure:: /images/extras/dashboard.jpg
    :alt: Sample view of Dashboard
 
-   Check the dashboard for a quick summary of your stats.
+   Check the dashboard for a quick summary of your stats
+   (updated every 30 minutes).
 
    +---------------------------------------------------------------------------+
    | Legend                                                                    |
@@ -18,23 +19,23 @@ bottom of each pane), and see what everyone else is up to.
    |                                | today?                                   |
    +--------------------------------+------------------------------------------+
    | **2. Mood**                    | How many escalated tickets do you have   |
-   |                                | open? (Mr. Bubbles gets grumpy if you    |
-   |                                | have too many...)                        |
+   |                                | open right now? (Mr. Bubbles gets grumpy |
+   |                                | if you have too many...)                 |
    +--------------------------------+------------------------------------------+
-   | **3. Channel Distribution**    | How many of your tickets are coming from |
-   |                                | email, phone, Twitter, or Facebook?      |
-   |                                | (Shows percentages for both **inbound**  |
-   |                                | and **outbound** tickets.)               |
+   | **3. Channel Distribution**    | Where are all your tickets coming from?  |
+   |                                | (Shows tickets created in the last seven |
+   |                                | days, also sorted by **inbound** vs.     |
+   |                                | **outbound**.)                           |
    +--------------------------------+------------------------------------------+
    | **4. Assigned**                | Out of all open tickets (company-wide),  |
-   |                                | how many are assigned to you?            |
+   |                                | how many are currently assigned to you?  |
    +--------------------------------+------------------------------------------+
    | **5. Your Tickets in Process** | What percentage of your tickets have you |
-   |                                | responded to, updated, or modified in    |
-   |                                | some way today?                          |
+   |                                | responded to or updated in the last 24   |
+   |                                | hours?                                   |
    +--------------------------------+------------------------------------------+
-   | **6. Reopening Rate**          | How many of your tickets have been       |
-   |                                | re-opened after being marked “closed”?   |
+   | **6. Reopening Rate**          | How many of your closed tickets have     |
+   |                                | been re-opened in the last seven days?   |
    +--------------------------------+------------------------------------------+
    | **7. Activity Stream**         | What’s everyone else on your team up to? |
    +--------------------------------+------------------------------------------+
