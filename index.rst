@@ -38,3 +38,4 @@ Zammad Agent Documentation
    /extras/chat
    /extras/caller-log
    /extras/profile-and-settings
+   /extras/knowledge-base
