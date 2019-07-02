@@ -20,8 +20,8 @@ With some small exceptions,
 Preview Mode shows what the published knowledge base will look like.
 
 .. figure:: /images/extras/knowledge-base-link-to-public.png
-  :alt: Knowledge Base Link to published knowledge base
-  :align: center
+   :alt: Knowledge Base Link to published knowledge base
+   :align: center
 
 Use the **↗️ button** in the top toolbar to see the published knowledge base.
 
