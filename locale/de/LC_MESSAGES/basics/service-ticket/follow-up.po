@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marcel Herrguth <mh@zammad.com>, 2018
 # Natascha Kasun <nk@znuny.com>, 2018
-# J K <jk@znuny.com>, 2018
+# Marcel Herrguth <mh@zammad.com>, 2019
+# KieJo <jk@znuny.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:12+0100\n"
 "PO-Revision-Date: 2018-11-08 13:40+0000\n"
-"Last-Translator: J K <jk@znuny.com>, 2018\n"
+"Last-Translator: KieJo <jk@znuny.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,8 +32,8 @@ msgid ""
 "Generally, “working on existing tickets” means keeping up with a customer "
 "correspondence in the **thread view**. You can do this by:"
 msgstr ""
-"Generell bedeutet \"Arbeiten an bestehenden Tickets\", dann man über die "
-"Ticket-Maske Kontakt mit einem Kunden Kontakt hält. Das geht wie folgt:"
+"Generell bedeutet \"Arbeiten an bestehenden Tickets\", dass man über die "
+"Ticket-Maske Kontakt mit einem Kunden hält. Das geht wie folgt:"
 
 #: ../../basics/service-ticket/follow-up.rst:8
 msgid "📧 responding to an **individual message**, or"
@@ -41,7 +41,7 @@ msgstr "📧 Antwort auf eine **individuelle Nachricht** oder"
 
 #: ../../basics/service-ticket/follow-up.rst:9
 msgid "📝 adding a message/note to the **whole ticket**."
-msgstr "📝 eine Nachricht/Notiz zum Ticket hinzufügen."
+msgstr "📝 eine **Nachricht/Notiz** zum Ticket hinzufügen."
 
 #: ../../basics/service-ticket/follow-up.rst:11
 msgid ""
@@ -49,9 +49,9 @@ msgid ""
 " settings <settings>` (which is the other half of “working on existing "
 "tickets”)."
 msgstr ""
-"Um mehr zu erfahren lies weiter oder überspring die Informationen "
-":doc:`Ticket Einstellungen <settings>` (das ist die andere Möglichkeit an "
-"bestehenden Tickets zu arbeiten)."
+"Um mehr zu erfahren lies weiter oder überspring die Informationen und gehe "
+"direkt zu den :doc:`Ticket Einstellungen <settings>` (das ist die andere "
+"Möglichkeit an bestehenden Tickets zu arbeiten)."
 
 #: ../../basics/service-ticket/follow-up.rst:19
 msgid ""
@@ -69,7 +69,7 @@ msgid ""
 "list</advanced/tabs>` in the main menu."
 msgstr ""
 "📇 Jedes Mal, wenn Du ein Ticket öffnest, erscheint ein neuer Eintrag in "
-"Ihrer :doc:`Tabliste</advanced/tabs>` im Hauptmenü."
+"Deiner :doc:`Tabliste</advanced/tabs>` im Hauptmenü."
 
 #: ../../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -104,8 +104,8 @@ msgid ""
 " tweet, the customer will receive your response in a Twitter DM)."
 msgstr ""
 "Wie bei neuen Nachrichten erscheint Deine Antwort am Ende des Threads. "
-"Außerhalb von Zammad wird sie jedoch **auf dem gleichen Kanal**, wie die "
-"ursprüngliche Nachricht, geliefert (*D.h. wenn die Nachricht, auf die Du "
+"Außerhalb von Zammad wird sie jedoch **auf dem gleichen Kanal** , wie die "
+"ursprüngliche Nachricht, geliefert (*D.h.* wenn die Nachricht, auf die Du "
 "geantwortet hast, ursprünglich ein Tweet war, erhält der Kunde Deine Antwort"
 " als Twitter DM)."
 
@@ -128,12 +128,13 @@ msgstr ""
 #: ../../basics/service-ticket/follow-up.rst:55
 #: ../../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
-msgstr "**🖱️ UI Protip**"
+msgstr "**🖱️ Tipp für Profi-Benutzer**"
 
 #: ../../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
 msgstr ""
-"Klicke auf einen Eintrag, um detaillierte Informationen dazu zu erhalten."
+"Klicke direkt auf einen Ticket-Eintrag, um detaillierte Informationen dazu "
+"zu erhalten."
 
 #: ../../basics/service-ticket/follow-up.rst:64
 msgid "Adding New Messages/Notes"
@@ -149,8 +150,8 @@ msgstr ""
 msgid ""
 "The default follow-up type is “note”. Click the 📝 to select another type."
 msgstr ""
-"Die voreingestellte Follow-up-Art ist eine \"Notiz\". Klicke auf 📝, um "
-"einen anderen Artikel-Typ auszuwählen."
+"Die voreingestellte Follow-up-Art ist eine \"Notiz\". Klicke auf 📝, um einen"
+" anderen Artikel-Typ auszuwählen."
 
 #: ../../basics/service-ticket/follow-up.rst:73
 msgid "There are three types of follow-ups:"
@@ -165,8 +166,8 @@ msgid ""
 "Jot down a reminder for yourself and other agents when new information comes"
 " in (hidden from the customer by default)."
 msgstr ""
-"Notier dir selbst und anderen Agenten eine Gedächtnisstütze, wenn es "
-"Informationen zum Thema gibt (standardmäßig sind diese vorm Kunden "
+"Notiere Dir selbst und anderen Agenten eine Gedächtnisstütze, wenn es "
+"weitere Informationen zum Thema gibt (standardmäßig sind diese vorm Kunden "
 "verborgen)."
 
 #: ../../basics/service-ticket/follow-up.rst:0
@@ -177,7 +178,7 @@ msgstr "📞 Anruf"
 msgid "Record a summary of a phone call you had with the customer."
 msgstr ""
 "Protokolliere eine Zusammenfassung eines Telefonats, welches Du mit dem "
-"Kunden geführt hast."
+"Kunden geführt hast (ein- und ausgehend)."
 
 #: ../../basics/service-ticket/follow-up.rst:0
 msgid "📧 Email"
@@ -209,10 +210,10 @@ msgstr ""
 
 #: ../../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
-"The message editor supports 📋 copying-and-pasting (or dragging-and-"
-"dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+"The message editor supports 📋 copying-and-pasting (or dragging-and-dropping)"
+" of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
-"Der Text-Editor ermöglicht 📋 das Kopieren und Einfügen (oder Drag & Drop) "
+"Der Text-Editor ermöglicht das 📋 Kopieren und Einfügen (oder Drag & Drop) "
 "von **🔤 Rich Text**, **🌄 Bildern** und **📎Dateianhängen**."
 
 #: ../../snippets/ui-protip-message-editor-features.rst:6
@@ -220,8 +221,8 @@ msgid ""
 "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to"
 " apply rich text formatting."
 msgstr ""
-"Verwende die integrierten Tastenkombinationen :doc:`Tastaturkürzel "
-"</advanced/keyboard-shortcuts>`, um die Rich-Text-Formatierung zu nutzen."
+"Verwende die integrierten Tastenkombinationen ( :doc:`Tastaturkürzel "
+"</advanced/keyboard-shortcuts>` ), um die Rich-Text-Formatierung zu nutzen."
 
 #: ../../basics/service-ticket/follow-up.rst:103
 msgid "**🙅 I’m working here!**"
@@ -248,15 +249,15 @@ msgid ""
 msgstr ""
 "Um diese Situationen zu kontrollieren, informiert Zammad über mögliche "
 "Konflikte, indem in der unteren linken Ecke der Avatar jedes Agenten "
-"angezeigt wird, der dieses Ticket geöffnet hat."
+"angezeigt wird, die dieses Ticket aktuell geöffnet haben."
 
 #: ../../basics/service-ticket/follow-up.rst:119
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before"
 " they arise."
 msgstr ""
-"Am besten bespricht man das Thema mit den Kollegen, damit solche Probleme "
-"vermieden werden, bevor sie auftreten."
+"Am besten bespricht man dieses Thema mit den Kollegen, damit solche Probleme"
+" vermieden werden, bevor sie auftreten."
 
 #: ../../basics/service-ticket/follow-up.rst:126
 msgid ""
@@ -264,4 +265,4 @@ msgid ""
 "ticket."
 msgstr ""
 "Wenn der Agent nicht gespeicherte Änderungen am Ticket vorgenommen hat wird "
-"ein Symbol ✏️ angezeigt."
+"zusätzlich im Avatarbild das Symbol ✏️ angezeigt."
