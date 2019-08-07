@@ -1,104 +1,123 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, The Zammad Foundation
-# This file is distributed under the same license as the Zammad (for Agents)
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# Copyright (C) 2019, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edney Matias <edneymatias@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad (for Agents) \n"
+"Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 17:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Edney Matias <edneymatias@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/zammad/teams/73964/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../extras/profile-and-settings.rst:2
 msgid "Profile & Settings"
-msgstr ""
+msgstr "Perfil e configurações"
 
 #: ../../extras/profile-and-settings.rst:4
 msgid ""
-"Click on your avatar at the bottom of the main menu to access your "
-"**profile and settings**."
+"Click on your avatar at the bottom of the main menu to access your **profile"
+" and settings**."
 msgstr ""
+"Clique no seu avatar na parte inferior do menu principal par acessar seu "
+"**perfil e configurações**."
 
 #: ../../extras/profile-and-settings.rst:12
 msgid ""
 "Find user-specific actions, a list of recently opened items, and useful "
 "reference information."
 msgstr ""
+"Encontre ações específica do usuário, uma lista de itens abertos "
+"recentemente e informações de referência úteis."
 
 #: ../../extras/profile-and-settings.rst:17
 msgid "Profile Settings"
-msgstr ""
+msgstr "Configurações de perfil"
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: ../../extras/profile-and-settings.rst:21
 msgid "Set the system display language."
-msgstr ""
+msgstr "Determina a linguagem de exibição do sistema."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: ../../extras/profile-and-settings.rst:25
 msgid "Upload an avatar."
-msgstr ""
+msgstr "Carrega uma imagem de avatar."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: ../../extras/profile-and-settings.rst:29
 msgid "Change your login password (may be disabled by system admin)."
 msgstr ""
+"Altera a sua senha de entrada (pode ser desabilitado por administradores do "
+"sistema)."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Notifications"
-msgstr ""
+msgstr "Notificações"
 
 #: ../../extras/profile-and-settings.rst:33
 msgid ""
-"Select where, when, and for which groups you want to receive "
-"notifications, or choose a new notification sound."
+"Select where, when, and for which groups you want to receive notifications, "
+"or choose a new notification sound."
 msgstr ""
+"Determina onde, quando e para quais grupos você quer receber notificações ou"
+" altere o som de notificação."
 
 #: ../../extras/profile-and-settings.rst:39
 msgid ""
 "Use the first three columns to choose when to receive **internal "
-"notifications** (below). The rightmost column enables email notification "
-"as well."
+"notifications** (below). The rightmost column enables email notification as "
+"well."
 msgstr ""
+"Utilize as três primeiras colunas para escolher quando receberá "
+"**notificações interns** (abaixo). A coluna mais à direita habilita "
+"notificações por e-mail, também."
 
 #: ../../extras/profile-and-settings.rst:46
 msgid "Internal notifications cannot be disabled."
-msgstr ""
+msgstr "Notificações internas não podem ser desabilitadas."
 
 #: ../../extras/profile-and-settings.rst:48
 msgid ""
 "Consult the `admin documentation <https://admin-docs.zammad.org/en/latest"
-"/manage-trigger.html#other-notifications>`_ for details on how to "
-"customize these email notifications."
+"/manage-trigger.html#other-notifications>`_ for details on how to customize "
+"these email notifications."
 msgstr ""
+"Consulte a `documentação de administrador <https://admin-"
+"docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_ para "
+"detalhes de como personalizar estas notificações por e-mail."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Out of Office"
-msgstr ""
+msgstr "Fora do escritório"
 
 #: ../../extras/profile-and-settings.rst:53
 msgid ""
 "Schedule out-of-office periods in advance, and designate a substitute to "
 "handle your tickets while you’re gone."
 msgstr ""
+"Agente com antecedência períodos em que estará fora do escritório e atribua "
+"um substituto que irá conduzir os seus chamados enquanto estiver ausente."
 
 #: ../../extras/profile-and-settings.rst:56
 msgid ""
@@ -106,42 +125,53 @@ msgid ""
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
 "created to help keep track of your tickets."
 msgstr ""
+"O seu substituto irá receber todas as suas notificações durante a sua "
+"ausência e terá uma personalizada :doc:`visão </basics/find-ticket/browse>` "
+"criada para ajudar a cuidar dos seus chamados."
 
 #: ../../extras/profile-and-settings.rst:60
 msgid ""
 "🔔 You **will** continue to receive notifications while you are out-of-"
 "office!"
 msgstr ""
+"🔔 Você **continuará** recebendo as notificações enquanto estiver fora do "
+"escritório!"
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Calendar"
-msgstr ""
+msgstr "Calendário"
 
 #: ../../extras/profile-and-settings.rst:65
 msgid ""
-"Add your ticket deadlines to your own favorite calendar app with the ICAL"
-" link listed at this settings panel."
+"Add your ticket deadlines to your own favorite calendar app with the ICAL "
+"link listed at this settings panel."
 msgstr ""
+"Adicione os prazos de vencimento dos seus chamados ao seu aplicativo de "
+"calendário favorito com atalho de iCal nesta tela."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: ../../extras/profile-and-settings.rst:70
 msgid ""
 "See a list of all devices logged in to your Zammad account (and revoke "
 "access, if necessary)."
 msgstr ""
+"Veja uma lista de todos os dispositivos que estão conectado a sua conta "
+"Zammad (e revogue os acessos, se necessário)."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Token Access"
-msgstr ""
+msgstr "Acesso por token"
 
 #: ../../extras/profile-and-settings.rst:75
 msgid ""
 "Generate personal access tokens for third-party applications to use the "
 "Zammad API."
 msgstr ""
+"Gere tokens de acesso pessoais para que aplicações de terceiros possam "
+"utilizar a API do Zammad."
 
 #: ../../extras/profile-and-settings.rst:78
 msgid ""
@@ -149,14 +179,18 @@ msgid ""
 "(This makes it possible to revoke access one application at a time if a "
 "token is ever compromised.)"
 msgstr ""
+"Sempre gere um novo token para cada aplicação que você desejar conectar ao "
+"Zammad! (Isso torna possível revogar o acesso de uma aplicação por vez se um"
+" token for comprometido)."
 
-#: ../../extras/profile-and-settings.rst
+#: ../../extras/profile-and-settings.rst:0
 msgid "Linked Accounts"
-msgstr ""
+msgstr "Contas vinculadas"
 
 #: ../../extras/profile-and-settings.rst:84
 msgid ""
-"See a list of third-party services (*e.g.,* Facebook or Twitter) linked "
-"to your Zammad account."
+"See a list of third-party services (*e.g.,* Facebook or Twitter) linked to "
+"your Zammad account."
 msgstr ""
-
+"Veja uma lista de serviços de terceiros (por exemplo, Facebook ou Twiiter) "
+"ligados a sua conta Zammad."

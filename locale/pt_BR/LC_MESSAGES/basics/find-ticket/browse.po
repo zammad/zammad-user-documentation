@@ -1,122 +1,144 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, The Zammad Foundation
-# This file is distributed under the same license as the Zammad (for Agents)
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# Copyright (C) 2019, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edney Matias <edneymatias@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad (for Agents) \n"
+"Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 14:33+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Edney Matias <edneymatias@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/zammad/teams/73964/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../basics/find-ticket/browse.rst:2
 msgid "Browse for Tickets"
-msgstr ""
+msgstr "Navegar pelos chamados"
 
 #: ../../basics/find-ticket/browse.rst:4
 msgid "Looking for a ticket to work on? Check the **overviews** menu."
 msgstr ""
+"Procurando por um chamado para resolver? Dê uma olhada na aba **Visões** no "
+"menu."
 
 #: ../../basics/find-ticket/browse.rst:10
 msgid "Click **Overviews** in the main menu to browse tickets."
-msgstr ""
+msgstr "Clique na aba **Visões** no menu para procurar por chamados."
 
 #: ../../basics/find-ticket/browse.rst:12
 msgid ""
-"📥 Think of overviews as **inboxes**, each with a different filter for "
-"the tickets it displays."
+"📥 Think of overviews as **inboxes**, each with a different filter for the "
+"tickets it displays."
 msgstr ""
+"📥 Pense nas visões como **caixas de entrada**, cada uma exibindo um conjunto"
+" de chamados de acordo com filtros diferentes."
 
 #: ../../basics/find-ticket/browse.rst:15
 msgid ""
-"There are **six built-in overviews** (Zammad admin may `create more`_ "
-"with custom-defined filters):"
+"There are **six built-in overviews** (Zammad admin may `create more <https"
+"://admin-docs.zammad.org/en/latest/manage-overviews.html>`_ with custom-"
+"defined filters):"
 msgstr ""
+"O Zammad disponibiliza **seis visões**, porém o administrador do sistema "
+"poderá `criar mais <https://admin-docs.zammad.org/en/latest/manage-"
+"overviews.html>`_ com filtros específicos:"
 
 #: ../../basics/find-ticket/browse.rst:18
 msgid "**My assigned tickets** (*open/pending* only)"
-msgstr ""
+msgstr "**Meus chamados** (*apenas chamados atribuídos abertos ou suspensos*)"
 
 #: ../../basics/find-ticket/browse.rst:19
 msgid "**Unassigned & Open**"
-msgstr ""
+msgstr "**Não atribuídos e abertos**"
 
 #: ../../basics/find-ticket/browse.rst:20
 msgid ""
-"**My pending reached tickets** (previously marked *pending* and currently"
-" due)"
+"**My pending reached tickets** (previously marked *pending* and currently "
+"due)"
 msgstr ""
+"**Meus chamados suspensos vencidos** (chamados marcados como suspensos e "
+"atualmente vencidos)"
 
 #: ../../basics/find-ticket/browse.rst:21
 msgid "**Open** (system-wide)"
-msgstr ""
+msgstr "**Abertos** (todos os chamados abertos do sistema)"
 
 #: ../../basics/find-ticket/browse.rst:22
 msgid ""
-"**Pending reached** (system-wide, previously marked *pending* and "
-"currently due)"
+"**Pending reached** (system-wide, previously marked *pending* and currently "
+"due)"
 msgstr ""
+"**Chamados suspensos vencidos** (todos os chamados *suspensos* do sistema e "
+"atualmente vencidos)"
 
 #: ../../basics/find-ticket/browse.rst:23
-msgid "**Escalated** (system-wide, failing to meet a `service-level agreement`_)"
+msgid ""
+"**Escalated** (system-wide, failing to meet a `service-level agreement "
+"<https://admin-docs.zammad.org/en/latest/manage-slas.html>`_)"
 msgstr ""
+"**Escalonados** (todos os chamados do sistema que falharam em atender um "
+"`acordo de nível de serviço <https://admin-docs.zammad.org/en/latest/manage-"
+"slas.html>`_)"
 
 #: ../../basics/find-ticket/browse.rst:25
 msgid "**🖱️ UI Protip**"
-msgstr ""
+msgstr "**🖱️ Dica profissional da interface de usuário**"
 
 #: ../../basics/find-ticket/browse.rst:27
 msgid "Click on column headings to change the display order."
-msgstr ""
+msgstr "Clique no cabeçalho das colunas para alterar a ordenação exibida."
 
 #: ../../basics/find-ticket/browse.rst:28
 msgid "Click-and-drag column dividers to adjust their width."
-msgstr ""
+msgstr "Clique e arraste os divisores das colunas para ajustar a sua largura."
 
 #: ../../basics/find-ticket/browse.rst:29
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
 msgstr ""
+":doc:`As situações dos chamados </basics/service-ticket/settings/state>` são"
+" **representadas por cores:**"
 
 #: ../../basics/find-ticket/browse.rst:32
 msgid "|grn|"
-msgstr ""
+msgstr "|grn|"
 
 #: ../../basics/find-ticket/browse.rst:32
 msgid "**Closed**"
-msgstr ""
+msgstr "**Fechado**"
 
 #: ../../basics/find-ticket/browse.rst:34
 msgid "|blk|"
-msgstr ""
+msgstr "|blk|"
 
 #: ../../basics/find-ticket/browse.rst:34
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
+"**Adiado** (marcado como suspenso; nenhuma ação imediata é requerida)."
 
 #: ../../basics/find-ticket/browse.rst:37
 msgid "|ylw|"
-msgstr ""
+msgstr "|ylw|"
 
 #: ../../basics/find-ticket/browse.rst:37
 msgid "**New / Open** (Ready for action.)"
-msgstr ""
+msgstr "**Novo / Aberto** (pronto para ação)."
 
 #: ../../basics/find-ticket/browse.rst:39
 msgid "|red|"
-msgstr ""
+msgstr "|red|"
 
 #: ../../basics/find-ticket/browse.rst:39
 msgid "**Escalated** (Requires urgent attention.)"
-msgstr ""
-
+msgstr "**Escalonado** (demanda ação imediata)."

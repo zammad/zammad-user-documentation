@@ -1,204 +1,260 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018, The Zammad Foundation
-# This file is distributed under the same license as the Zammad (for Agents)
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# Copyright (C) 2019, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edney Matias <edneymatias@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zammad (for Agents) \n"
+"Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 14:33+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Edney Matias <edneymatias@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/zammad/teams/73964/pt_BR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../basics/service-ticket/follow-up.rst:2
 msgid "Following Up"
-msgstr ""
+msgstr "Atualizando chamados"
 
 #: ../../basics/service-ticket/follow-up.rst:4
 msgid ""
-"Generally, “working on existing tickets” means keeping up with a customer"
-" correspondence in the **thread view**. You can do this by:"
+"Generally, “working on existing tickets” means keeping up with a customer "
+"correspondence in the **thread view**. You can do this by:"
 msgstr ""
+"Normalmente, \"trabalhar em um chamados\" significa acompanhar as mensagens "
+"do cliente na \"visão de discussão**. Você pode fazer isso ao:"
 
 #: ../../basics/service-ticket/follow-up.rst:8
 msgid "📧 responding to an **individual message**, or"
-msgstr ""
+msgstr "📧 responder uma **mensagem individual**, ou"
 
 #: ../../basics/service-ticket/follow-up.rst:9
 msgid "📝 adding a message/note to the **whole ticket**."
-msgstr ""
+msgstr "📝 adicionar uma mensagem/nota para **todo o chamado**."
 
 #: ../../basics/service-ticket/follow-up.rst:11
 msgid ""
-"Read on to learn more, or skip ahead to find out about :doc:`managing "
-"ticket settings <settings>` (which is the other half of “working on "
-"existing tickets”)."
+"Read on to learn more, or skip ahead to find out about :doc:`managing ticket"
+" settings <settings>` (which is the other half of “working on existing "
+"tickets”)."
 msgstr ""
+"Continue lendo para aprender mais ou avance para conhecer :doc:`as "
+"configurações de um chamado <settings>` (que é a outra metade da tarefa de "
+"\"trabalhar em chamados existentes\")."
 
 #: ../../basics/service-ticket/follow-up.rst:19
 msgid ""
 "Tickets are threads of messages & notes about a customer service issue. "
-":doc:`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on"
-" the right."
+":doc:`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on "
+"the right."
 msgstr ""
+"Chamados são um fluxo de mensagens e notas sobre uma demanda de um cliente. "
+":doc:`⚙️ gerencie a configuração de um chamado <settings>` no **painel do "
+"chamado** no lado direito da tela."
 
 #: ../../basics/service-ticket/follow-up.rst:23
 msgid ""
 "📇 Any time you open a ticket, a new entry will appear in your :doc:`tab "
 "list</advanced/tabs>` in the main menu."
 msgstr ""
+"📇 A qualquer momento que acessar um chamado, uma nova entrada aparecerá na "
+":doc:`lista de abas </advanced/tabs>` no menu principal."
 
 #: ../../basics/service-ticket/follow-up.rst:26
-msgid "Zammad **automatically backs up your unsaved changes** in all open tabs."
+msgid ""
+"Zammad **automatically backs up your unsaved changes** in all open tabs."
 msgstr ""
+"O Zammad **salva automaticamente suas alterações** em todas as abas abertas."
 
 #: ../../basics/service-ticket/follow-up.rst:29
 msgid "Responding to Individual Messages"
-msgstr ""
+msgstr "Respondendo mensagens individuais"
 
 #: ../../basics/service-ticket/follow-up.rst:31
 msgid "Use the **⮪ reply** button under a message to reply to it directly."
 msgstr ""
+"Use o botão **⮪ responder** debaixo de uma mensagem para respondê-la "
+"diretamente."
 
 #: ../../basics/service-ticket/follow-up.rst:37
 msgid ""
 "An additional **⮪ reply all** option will appear for email messages with "
 "multiple recipients."
 msgstr ""
+"Um opção adicionado para **⮪ responder a todos** aparecerá para as mensagens"
+" com mais de um destinatário."
 
 #: ../../basics/service-ticket/follow-up.rst:40
 msgid ""
-"Like with new messages, your response will appear at the end of the "
-"thread. Outside of Zammad, however, it will be **delivered on the same "
-"channel** as the original message (*i.e.,* if the message you replied to "
-"was originally a tweet, the customer will receive your response in a "
-"Twitter DM)."
+"Like with new messages, your response will appear at the end of the thread. "
+"Outside of Zammad, however, it will be **delivered on the same channel** as "
+"the original message (*i.e.,* if the message you replied to was originally a"
+" tweet, the customer will receive your response in a Twitter DM)."
 msgstr ""
+"Assim como acontece com novas mensagens, sua resposta aparecer no final do "
+"histórico de mensagens. Fora do Zammad, no entanto, ela será **entre no "
+"mesmo canal** da mensagem original (por exemplo, se a mensagem original "
+"respondida era originalmente um tweet, o cliente irá receber sua resposta em"
+" mensagem direta do Twitter)."
 
 #: ../../basics/service-ticket/follow-up.rst:47
 msgid ""
-"⏩ You can also **forward messages**, just as you would in any email "
-"client (attachments are included automatically)."
+"⏩ You can also **forward messages**, just as you would in any email client "
+"(attachments are included automatically)."
 msgstr ""
+"⏩ Você pode, também, **encaminhar mensagens**, da mesma forma como faria em "
+"qualquer cliente de e-mail (anexos serão incluídos automaticamente)."
 
 #: ../../basics/service-ticket/follow-up.rst:51
 msgid ""
-"This way, you can share correspondences with people who don’t have Zammad"
-" (like a third-party supplier)."
+"This way, you can share correspondences with people who don’t have Zammad "
+"(like a third-party supplier)."
 msgstr ""
+"Desta forma, você pode compartilhar chamados com outras pessoas que não "
+"possuem acesso ao Zammad (como um fornecedor, por exemplo)."
 
 #: ../../basics/service-ticket/follow-up.rst:55
 #: ../../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
-msgstr ""
+msgstr "**🖱️ Dica profissional da interface de usuário**"
 
 #: ../../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
-msgstr ""
+msgstr "Clique na mensagem para ver informações detalhadas sobre ela."
 
 #: ../../basics/service-ticket/follow-up.rst:64
 msgid "Adding New Messages/Notes"
-msgstr ""
+msgstr "Adicionando novas mensagens / notas"
 
 #: ../../basics/service-ticket/follow-up.rst:66
 msgid "Click on the text field at the end of the thread to add a follow-up."
 msgstr ""
+"Clique no campo de texto no final do fluxo de mensagem para adicionar uma "
+"atualização."
 
 #: ../../basics/service-ticket/follow-up.rst:71
-msgid "The default follow-up type is “note”. Click the 📝 to select another type."
+msgid ""
+"The default follow-up type is “note”. Click the 📝 to select another type."
 msgstr ""
+"O tipo padrão de uma nova atualização é \"nota\". Clique no botão 📝 para "
+"selecionar outro tipo."
 
 #: ../../basics/service-ticket/follow-up.rst:73
 msgid "There are three types of follow-ups:"
-msgstr ""
+msgstr "Há três tipos diferentes de atualizações:"
 
-#: ../../basics/service-ticket/follow-up.rst
+#: ../../basics/service-ticket/follow-up.rst:0
 msgid "📝 Note"
-msgstr ""
+msgstr "📝 Notas"
 
 #: ../../basics/service-ticket/follow-up.rst:77
 msgid ""
-"Jot down a reminder for yourself and other agents when new information "
-"comes in (hidden from the customer by default)."
+"Jot down a reminder for yourself and other agents when new information comes"
+" in (hidden from the customer by default)."
 msgstr ""
+"Anote uma observação para você mesmo ou outros agentes quando uma nova "
+"informação for importante (notas não aparecem para clientes por padrão)."
 
-#: ../../basics/service-ticket/follow-up.rst
+#: ../../basics/service-ticket/follow-up.rst:0
 msgid "📞 Call"
-msgstr ""
+msgstr "📞 Ligação telefônica"
 
 #: ../../basics/service-ticket/follow-up.rst:83
 msgid "Record a summary of a phone call you had with the customer."
 msgstr ""
+"Registre o resumo de uma ligação telefônica que você teve com um cliente."
 
-#: ../../basics/service-ticket/follow-up.rst
+#: ../../basics/service-ticket/follow-up.rst:0
 msgid "📧 Email"
-msgstr ""
+msgstr "📧 E-mail"
 
 #: ../../basics/service-ticket/follow-up.rst:87
 msgid ""
-"Send an email *to anyone* about the ticket. The name of the ticket will "
-"be used for the subject line (:ref:`click on the title to rename it "
-"<rename-ticket>`)."
+"Send an email *to anyone* about the ticket. The name of the ticket will be "
+"used for the subject line (:ref:`click on the title to rename it <rename-"
+"ticket>`)."
 msgstr ""
+"Envie um e-mail *para qualquer um* sobre o chamado. O nome do chamado será "
+"usada como assunto da mensagem (:ref:`clique no título para editá-lo "
+"<rename-ticket>`)."
 
 #: ../../basics/service-ticket/follow-up.rst:91
 msgid "Click the 🔒 button to change the visibility of a note or message."
 msgstr ""
+"Clique no botão 🔒 para alterar a visibilidade de uma nota ou mensagem."
 
 #: ../../basics/service-ticket/follow-up.rst:96
 msgid ""
 "“Internal” messages are outlined with a salmon border, and **can only be "
 "viewed by other agents**."
 msgstr ""
+"\"Interno:\" mensagens são marcadas com uma borda de cor salmão e **podem "
+"ser visualizadas apenas por agentes*."
 
 #: ../../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
-"The message editor supports 📋 copying-and-pasting (or dragging-and-"
-"dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+"The message editor supports 📋 copying-and-pasting (or dragging-and-dropping)"
+" of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
+"O editor de mensagens suporta 📋 copiar e colar (ou arrastar e soltar) **🔤 "
+"texto formatado**, **🌄 imagens** e **📎 arquivos anexados**."
 
 #: ../../snippets/ui-protip-message-editor-features.rst:6
 msgid ""
-"Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>`"
-" to apply rich text formatting."
+"Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to"
+" apply rich text formatting."
 msgstr ""
+"Utilize os :doc;`atalhos de teclado </advanced/keyboard-shortcuts>` para "
+"aplicar formação ao texto."
 
 #: ../../basics/service-ticket/follow-up.rst:103
 msgid "**🙅 I’m working here!**"
-msgstr ""
+msgstr "**🙅 Estou trabalhando aqui!**"
 
 #: ../../basics/service-ticket/follow-up.rst:105
 msgid ""
-"Every once in a while, two agents may have the same ticket open at the "
-"same time. When this happens, things can get messy fast: customers may "
-"receive conflicting responses on the same issue from both agents; or, "
-"changes made by one agent may be accidentally undone by the other."
+"Every once in a while, two agents may have the same ticket open at the same "
+"time. When this happens, things can get messy fast: customers may receive "
+"conflicting responses on the same issue from both agents; or, changes made "
+"by one agent may be accidentally undone by the other."
 msgstr ""
+"De vez em quando, dois agentes podem acessar o mesmo chamado ao mesmo tempo."
+" Quando isto acontece, coisas estranhas podem a qualquer momento: clientes "
+"podem receber respostas conflitantes de agentes diferentes para a mesma "
+"demanda ou mudanças feitas por um agente podem acidentalmente serem "
+"desfeitas por outro."
 
 #: ../../basics/service-ticket/follow-up.rst:114
 msgid ""
-"To keep things under control, Zammad will alert you to potential "
-"conflicts by displaying an avatar in the lower-lefthand corner for every "
-"agent that has that ticket open."
+"To keep things under control, Zammad will alert you to potential conflicts "
+"by displaying an avatar in the lower-lefthand corner for every agent that "
+"has that ticket open."
 msgstr ""
+"Para manter as coisas sob controle, Zammad irá avisá-lo de conflitos "
+"potenciais exibindo avatares na parte inferior esquerda para cada agente que"
+" estiver acessando o mesmo chamado"
 
 #: ../../basics/service-ticket/follow-up.rst:119
 msgid ""
-"Be sure to communicate with your colleagues to prevent these problems "
-"before they arise."
+"Be sure to communicate with your colleagues to prevent these problems before"
+" they arise."
 msgstr ""
+"Tenha certeza de se comunicar com seus colegas para prevenir que os "
+"problemas descritos aconteçam."
 
 #: ../../basics/service-ticket/follow-up.rst:126
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the "
 "ticket."
 msgstr ""
-
+"Um ícone ✏️ aparecerá se um agente tiver feito alterações que ainda não "
+"foram salvas no chamado"
