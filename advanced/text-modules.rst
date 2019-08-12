@@ -15,6 +15,16 @@ If you found the right text module, just press enter or click with your left mou
 
 .. image :: /images/advanced/text-modules/using-text-modules.gif
 
+.. Note:: **🤔 Huh? Some text modules are missing in some groups...?**
+  
+  Zammad allows group-dependent Text Modules which will only display group specific Text Modules if the group is selected.
+  You don't have to update the tickets group to use group-dependent Text Modules, changing the group without udpating is enough.
+
+  .. figure:: /images/advanced/text-modules/group-dependent-textmodules.gif
+    :alt: Example how group-dependent Text Modules work.
+    
+    Example how group-dependent Text Modules work.
+
 Text modules on ticket creation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
