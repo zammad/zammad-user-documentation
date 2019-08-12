@@ -48,9 +48,14 @@ Profile Settings
    Consult the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_
    for details on how to customize these email notifications.
    
-   The following *Limit Groups* box allows to skip email notifications for the unchecked 
-   groups. That is, if a group is not checked, a group ticket will not trigger an email notification. 
+   The following *Limit Groups* box allows you to disable notifications for the unchecked 
+   groups. If a group is not checked, a group ticket will not trigger a notification. 
    You will still get desktop notifications, and email notifications for tickets directly assigned to you.
+
+   .. figure:: /images/extras/profile-limit-notifications-to-specific-groups.png
+     :align: center
+
+     In this example Zammad will ignore updates from the sales-group.
 
 :Out of Office: 
 
