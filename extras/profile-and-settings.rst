@@ -52,7 +52,7 @@ Profile Settings
    groups. If a group is not checked, a group ticket will not trigger a notification. 
    You will still get desktop notifications, and email notifications for tickets directly assigned to you.
 
-   .. figure:: /images/extras/profile-limit-notifications-to-specific-groups.png
+   .. figure:: /images/extras/profile-and-settings-notifications-limit-groups.png
      :align: center
 
      In this example Zammad will ignore updates from the sales-group.
