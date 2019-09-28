@@ -27,6 +27,8 @@ If you found the right text module, just press enter or click with your left mou
       Text modules are updated immediately when a new group has been
       selected—no need to click **Update**.
 
+   How do you which groups go with which text modules? Ask your administrator!
+
 
 Text modules on ticket creation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
