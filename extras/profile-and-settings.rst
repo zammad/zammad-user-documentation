@@ -45,7 +45,7 @@ Profile Settings
 
       Internal notifications cannot be disabled.
 
-   .. figure:: /images/extras/profile-limit-notifications-to-specific-groups.png
+   .. figure:: /images/extras/profile-and-settings-notifications-limit-groups.png
       :align: center
 
       By default, you will receive notifications for all tickets on every group
