@@ -45,17 +45,16 @@ Profile Settings
 
       Internal notifications cannot be disabled.
 
+   .. figure:: /images/extras/profile-limit-notifications-to-specific-groups.png
+      :align: center
+
+      By default, you will receive notifications for all tickets on every group
+      you belong to—even for tickets that are assigned to other agents. Use the
+      **Limit Groups** box to disable such notifications on a per-group basis.
+      (You will continue to receive notifications for your own tickets.)
+
    Consult the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_
    for details on how to customize these email notifications.
-   
-   The following *Limit Groups* box allows you to disable notifications for the unchecked 
-   groups. If a group is not checked, a group ticket will not trigger a notification. 
-   You will still get desktop notifications, and email notifications for tickets directly assigned to you.
-
-   .. figure:: /images/extras/profile-and-settings-notifications-limit-groups.png
-     :align: center
-
-     In this example Zammad will ignore updates from the sales-group.
 
 :Out of Office: 
 
