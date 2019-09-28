@@ -1,7 +1,7 @@
 Working with Text Modules
 =========================
 
-Zammad offers so called text modules.
+Zammad offers so-called text modules.
 Text modules will help you to improve your workflow, as you don't have to type your answer 
 on every ticket by hand. You can simply choose a fitting text module and insert it into the E-Mail.
 
@@ -15,15 +15,18 @@ If you found the right text module, just press enter or click with your left mou
 
 .. image :: /images/advanced/text-modules/using-text-modules.gif
 
-.. Note:: **🤔 Huh? Some text modules are missing in some groups...?**
+.. note:: **🤔 How come some text modules don’t always appear?**
   
-  Zammad allows group-dependent Text Modules which will only display group specific Text Modules if the group is selected.
-  You don't have to update the tickets group to use group-dependent Text Modules, changing the group without udpating is enough.
+   Text modules can be tied to **groups**: that is, they only become active
+   once the ticket you’re working on has been assigned to the appropriate
+   group.
+ 
+   .. figure:: /images/advanced/text-modules/group-dependent-textmodules.gif
+      :alt: Group-dependent text modules
 
-  .. figure:: /images/advanced/text-modules/group-dependent-textmodules.gif
-    :alt: Example how group-dependent Text Modules work.
-    
-    Example how group-dependent Text Modules work.
+      Text modules are updated immediately when a new group has been
+      selected—no need to click **Update**.
+
 
 Text modules on ticket creation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
