@@ -38,7 +38,7 @@ and they can even be flagged for high or low priority.
 For the sake of simplicity,
 we’ll refer to this metadata as the **settings** of a ticket.
 All of these settings can be changed at any time.
-Each setting is explained in detail in the *Manage Ticket Settings* section,
+Each setting is explained in detail :doc:`here </basics/service-ticket/settings>`,
 but for the time being, let’s go over the two most important ones:
 
 Owner *(optional)*
