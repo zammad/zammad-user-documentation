@@ -16,6 +16,9 @@ If you would like to improve the docs, simply:
 > [Transifex][tfx], a third-party cloud platform. Do **NOT** manually edit the
 > `.po` and `.mo` localization files, as any such changes will be overwritten
 > in the compilation process.
+> 
+> If you want to help on translation, you can find the [find the Transifex project here][tfxtranslate]. 
+> You can also request to translate new languages. 💪
 
 Thanks! ❤ ❤ ❤  
 The Zammad Team
@@ -96,3 +99,4 @@ $ make -e SPHINXOPTS="-D language='en'" html
 [badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
 [docs]: https://zammad-user-documentation.readthedocs.io/en/latest/
 [tfx]: https://www.transifex.com/
+[tfxtranslate]: https://www.transifex.com/zammad/zammad-user-documentation/
