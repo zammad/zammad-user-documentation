@@ -58,3 +58,42 @@ you'll see in detail which certificates or CAs have been used for verification.
 .. figure:: /images/advanced/smime/checking-security-mata-information.gif
    :alt: Screencast showing on how to verify used certificates
    :align: center
+
+Icons explained
+^^^^^^^^^^^^^^^
+
+To help you understanding the used icons, we listed them below. 
+Those icons will help you to see on a first glimpse what state the article has.
+
+.. list-table:: S/MIME related icons on top of articles
+   :header-rows: 1
+   :widths: 5 45
+   
+   * - icon
+     - description
+   * - |lock|
+     - The message is encrypted (and verified). If you're writing a new article, this means that Zammad will 
+       send the message as a signed message.
+   * - |open-lock|
+     - The message is encrypted and couldn't get verified successfully. If you're writing a new article, this 
+       means the message is not sent as a signed message.
+   * - |signed|
+     - The message is encrypted and was decrypted by Zammad. If you're writing a new article, this means the 
+       message is going to be encrypted during sendout.
+   * - |not-signed|
+     - The message can't be decrypted by Zammad. If you're writing a new article, this means the message 
+       is not going to be encrypted during sendout.
+
+.. |lock| image:: /images/advanced/smime/icon_lock.png
+   :width: 24px
+   :height: 24px
+   :align: top
+.. |open-lock| image:: /images/advanced/smime/icon_open-lock.png
+   :width: 24px
+   :height: 24px
+.. |signed| image:: /images/advanced/smime/icon_signed.png
+   :width: 24px
+   :height: 24px
+.. |not-signed| image:: /images/advanced/smime/icon_not-signed.png
+   :width: 24px
+   :height: 24px
