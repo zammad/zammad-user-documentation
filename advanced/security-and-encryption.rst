@@ -1,4 +1,4 @@
-Security & Encryption
+﻿Security & Encryption
 =====================
 
 Sign, Encrypt and check the state of incoming mails (is it signed or encrypted?) 
@@ -57,6 +57,30 @@ you'll see in detail which certificates or CAs have been used for verification.
 
 .. figure:: /images/advanced/smime/checking-security-mata-information.gif
    :alt: Screencast showing on how to verify used certificates
+   :align: center
+
+Sending messages that are signed & encrypted
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: Signing emails is *always* dependent on the email address of a group.
+   This means that you technically could even just encrypt a mail without the need to sign it.
+
+By default Zammad will always send out an encrypted and signed mail. 
+That is if it could find fitting certificates (and keys) for that task. 
+You can, at any time, deactivate either signing, encryption or both temporary per article you're creating. 
+
+If you can't activate signing or encryption please contact your Zammad administrator.
+
+No matter if creating a new ticket (email out) or you're just answering an existing ticket as with an email 
+article, your workflow will not change at all! If S/MIME is activated, Zammad will not just show new icons, 
+but also introduces two new buttons.
+
+The buttons will allow you to either activate or deactivate encryption or signing on demand basis. 
+If you hover your mouse over one of the buttons, it will also tell you which certificates Zammad will use 
+if you press "Update" on the lower right. Zammad will handle the rest automatically for you! 🙌
+
+.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
+   :alt: Screencast showing both ticket creation and normal ticket answers with S/MIME enabled
    :align: center
 
 Icons explained
