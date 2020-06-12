@@ -62,12 +62,14 @@ you'll see in detail which certificates or CAs have been used for verification.
 Sending messages that are signed & encrypted
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note:: Signing emails is *always* dependent on the email address of a group.
+.. hint:: Signing emails is *always* dependent on the email address of a group.
    This means that you technically could even just encrypt a mail without the need to sign it.
 
-By default Zammad will always send out an encrypted and signed mail. 
+.. note:: By default Zammad will always send out an encrypted and signed mail. 
+   However, your administrator can choose to disable this default behavior on specific groups.
+
 That is if it could find fitting certificates (and keys) for that task. 
-You can, at any time, deactivate either signing, encryption or both temporary per article you're creating. 
+You can, at any time, activate or deactivate either signing, encryption or both temporary per article you're creating. 
 
 If you can't activate signing or encryption please contact your Zammad administrator.
 
