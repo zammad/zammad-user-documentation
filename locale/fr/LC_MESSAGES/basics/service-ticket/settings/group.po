@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edouard <madko77@gmail.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 15:52+0200\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2020\n"
+"Language-Team: French (https://www.transifex.com/zammad/teams/73964/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../basics/service-ticket/settings/group.rst:2
+msgid "Group"
+msgstr "Groupe"
+
+#: ../../basics/service-ticket/settings/group.rst:4
+msgid ""
+"**Groups** are a form of access control that allows you to dictate *which "
+"agents are allowed to do what* to a given ticket."
+msgstr ""
+"Les **Groupes** sont une sorte de contrôle d'accès qui vous permettent de "
+"définir *quels  opérateurs sont autorisés à faire quoi* sur un ticket donné."
+
+#: ../../basics/service-ticket/settings/group.rst:9
+msgid "What?"
+msgstr "Quoi?"
+
+#: ../../basics/service-ticket/settings/group.rst:11
+msgid ""
+"Suppose your organization uses Zammad for both sales and customer support. "
+"You’ve got ten different agents spread across two teams, handling dozens of "
+"tickets a day."
+msgstr ""
+"Supposons que votre société utilise Zammad pour les ventes et le support "
+"client. Vous avez une dizaine d'opérateurs différents sur deux équipes, "
+"gérant des douzaines de tickets par jours."
+
+#: ../../basics/service-ticket/settings/group.rst:15
+msgid ""
+"Without groups, all ten agents can see (and respond to) every single ticket "
+"that comes in, regardless of which department it’s for. This isn’t "
+"problematic *per se,* but it does lead to a lot of unnecessary clutter in "
+"the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when,"
+" for example, a customer service rep sees tickets meant for your HR "
+"department, and finds out how much their colleagues in sales are making! "
+"💸💸💸)"
+msgstr ""
+"Sans les groupes, vos dix opérateurs pourraient voir (et répondre) à chaque "
+"ticket qui arrive, peu importe pour quel service ils sont. Ce n'est pas en "
+"soi problématique, mais cela peut engendrer un encombrement inutile dans le "
+":doc:`menu aperçus </basics/find-ticket>`. (cela peut être pire encore "
+"quand, par exemple, un responsable du service client voit des tickets pour "
+"le service RH, et trouve combien gagnent ses collègues du service des "
+"ventes! 💸💸💸)"
+
+#: ../../basics/service-ticket/settings/group.rst:25
+msgid ""
+"If, instead, each agent were assigned to an appropriate group, then they’d "
+"only ever see the tickets that belong to their own group."
+msgstr ""
+"Si, à la place, chaque agent est assigné à un groupe approprié, alors ils ne"
+" pourront seulement voir les tickets qui appartiennent à leur propre groupe."
+
+#: ../../basics/service-ticket/settings/group.rst:28
+msgid "**So how do I manage which team I’m on?**"
+msgstr "**Alors comment je gère dans quelle équipe je suis?**"
+
+#: ../../basics/service-ticket/settings/group.rst:30
+msgid ""
+"You don’t – that’s the `administrator’s job <https://admin-"
+"docs.zammad.org/en/latest/manage-groups.html>`_."
+msgstr ""
+"Vous ne faites rien - C'est le travail `de l'administrateur <https://admin-"
+"docs.zammad.org/fr/latest/manage-groups.html>`_."
+
+#: ../../basics/service-ticket/settings/group.rst:32
+msgid ""
+"However, you can *check* which teams you’re on in the Notifications section "
+"of your :doc:`user settings </extras/profile-and-settings>`:"
+msgstr ""
+"Malgré cela, vous pouvez *vérifier* dans quelles équipes vous etes dans la "
+"section Notifications de vos :doc:`réglages utilisateur </extras/profile-"
+"and-settings>`:"
+
+#: ../../basics/service-ticket/settings/group.rst:41
+msgid "This user belongs to only one group (“Users”)."
+msgstr "Cet utilisateur appartient à seulement un groupe (“Utilisateurs”)"
+
+#: ../../basics/service-ticket/settings/group.rst:44
+msgid "So where do I come in?"
+msgstr "Alors où dois-je intervenir?"
+
+#: ../../basics/service-ticket/settings/group.rst:46
+msgid ""
+"If you belong to more than one group, you may re-assign a ticket from one of"
+" your groups to another. In general, though, you won’t need to do this "
+"unless you’re an admin, or an admin has discussed the procedure with you "
+"beforehand."
+msgstr ""
+"Si vous appartenez à plus d'un groupe, vous pouvez réassigner un ticket d'un"
+" de vos groupes vers un autre. En général, bien sûr, vous ne devez pas faire"
+" ça sauf si vous êtes un administrateur, ou qu'un administrateur a discuté "
+"de la procédure avec vous auparavant."

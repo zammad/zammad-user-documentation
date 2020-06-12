@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edouard <madko77@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 15:52+0200\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Edouard <madko77@gmail.com>, 2020\n"
+"Language-Team: French (https://www.transifex.com/zammad/teams/73964/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../advanced/ticket-actions/merge.rst:2
+msgid "Merging Tickets"
+msgstr "Fusionner des tickets"
+
+#: ../../advanced/ticket-actions/merge.rst:4
+msgid ""
+"Sometimes, you may end up with two tickets for the same issue (*e.g.,* "
+"because a customer sent you a brand new email instead of replying to an "
+"existing thread)."
+msgstr ""
+"Des fois, vous pouvez avoir deux tickets pour le même problème (*par ex*, "
+"parce qu'un client vous a envoyé un nouveau courriel plutôt que de répondre "
+"à un sujet existant)."
+
+#: ../../advanced/ticket-actions/merge.rst:8
+msgid "In such cases, you may want to **merge those tickets into one**."
+msgstr ""
+"Dans de tels cas, vous pouvez vouloir **fusionner ces tickets en un**."
+
+#: ../../advanced/ticket-actions/merge.rst:14
+msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+msgstr ""
+"Pour fusionner un ticket, accédez au sous-menu **Ticket ▾** dans le panneau "
+"du ticket."
+
+#: ../../advanced/ticket-actions/merge.rst:16
+msgid ""
+"Merging a ticket migrates all messages and notes **out of the original** and"
+" into the selected one."
+msgstr ""
+"Fusionner un ticket va déplacer tous les messages et notes **en dehors du "
+"ticket original** vers le nouveau ticket."
+
+#: ../../advanced/ticket-actions/merge.rst:19
+msgid ""
+"That is, if you 1) access the merge dialog from Ticket A, and then 2) select"
+" Ticket B in the merge dialog (see below), then Ticket A will be emptied, "
+"closed, and :doc:`linked as a child <link>` of Ticket B."
+msgstr ""
+"C'est à dire, si vous 1) accédez au dialogue de fusion depuis le Ticket A, "
+"et qu'ensuite 2) vous choisissez le Ticket B dans le dialogue de fusion "
+"(voir ci-dessous), alors le Ticket A sera vidé, fermé, et and :doc:`linked "
+"as a child <link>` du Ticket B."
+
+#: ../../advanced/ticket-actions/merge.rst:28
+msgid ""
+"The merge dialog. Specify a ticket to merge into by ID (1), or select one "
+"from the list (2)."
+msgstr ""
+"Le dialogue de fusion. Indique un ticket cible à fusionner par ID (1), ou en"
+" le choisissant dans la liste (2)."
