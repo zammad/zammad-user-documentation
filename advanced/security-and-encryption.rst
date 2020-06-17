@@ -9,8 +9,11 @@ S/MIME (Sign & Encrypt E-Mails)
 
 .. note:: **🤔 Huh? I don’t see “Sign” or “Encrypt” options within Tickets...** 
 
-   This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/system/integrations/smime.html>`_ for details.
+   This feature is **optional**;
+   if you don’t see it in the ticket composer,
+   that means your administrator hasn’t enabled it yet.
+   Administrators can learn more
+   `here <https://admin-docs.zammad.org/en/latest/system/integrations/smime.html>`_.
 
 **But what's S/MIME?**
 

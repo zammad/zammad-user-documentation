@@ -3,8 +3,11 @@
 
 .. note:: **🤔 Huh? I don’t see a “Time Accounting” dialog...** 
 
-   This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-time-accounting.html>`_ for details.
+   This feature is **optional**;
+   if you don’t see it whenever you update a ticket,
+   that means your administrator hasn’t enabled it yet.
+   Administrators can learn more
+   `here <https://admin-docs.zammad.org/en/latest/manage-time-accounting.html>`_.
 
 Zammad supports detailed time accounting
 to help administrators keep track of how much time you spend

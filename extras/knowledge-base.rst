@@ -5,8 +5,11 @@ Manage, edit, and reorganize knowledge base articles from the **knowledge base**
 
 .. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...** 
 
-   This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-knowledge-base.html>`_ for details.
+   This feature is **optional**;
+   if you don’t see it in the main menu,
+   that means your administrator hasn’t enabled it yet.
+   Administrators can learn more
+   `here <https://admin-docs.zammad.org/en/latest/manage-knowledge-base.html>`_.
 
 Getting Started
 ---------------

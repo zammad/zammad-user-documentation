@@ -53,8 +53,10 @@ Profile Settings
       **Limit Groups** box to disable such notifications on a per-group basis.
       (You will continue to receive notifications for your own tickets.)
 
-   Consult the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_
-   for details on how to customize these email notifications.
+   .. hint:: The contents of these email notifications
+      can be customized on self-hosted installations.
+      Administrators can learn more
+      `here <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_.
 
 :Out of Office: 
 
