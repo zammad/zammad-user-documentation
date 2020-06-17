@@ -3,6 +3,14 @@
 
 Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel.
 
+.. figure:: /images/extras/knowledge-base-preview.png
+   :alt: Knowledge Base Preview Mode
+   :align: center
+
+   The knowledge base panel begins in **Preview Mode**.
+   With some small exceptions,
+   Preview Mode shows what the published knowledge base will look like.
+
 .. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...** 
 
    This feature is **optional**;
@@ -13,14 +21,6 @@ Manage, edit, and reorganize knowledge base articles from the **knowledge base**
 
 Getting Started
 ---------------
-
-.. figure:: /images/extras/knowledge-base-preview.png
-   :alt: Knowledge Base Preview Mode
-   :align: center
-
-The knowledge base panel begins in **Preview Mode**.
-With some small exceptions,
-Preview Mode shows what the published knowledge base will look like.
 
 .. figure:: /images/extras/knowledge-base-link-to-public.png
    :alt: Knowledge Base Link to published knowledge base
