@@ -56,7 +56,7 @@ Profile Settings
    .. hint:: The contents of these email notifications
       can be customized on self-hosted installations.
       Administrators can learn more
-      `here <https://admin-docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_.
+      `here <https://admin-docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_.
 
 :Out of Office: 
 
