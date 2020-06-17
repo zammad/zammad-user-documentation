@@ -25,7 +25,6 @@ Zammad Agent Documentation
    /advanced/suggested-workflows
    /advanced/time-accounting
    /advanced/keyboard-shortcuts
-   /advanced/security-and-encryption
 
 .. toctree::
    :maxdepth: 1
@@ -36,6 +35,7 @@ Zammad Agent Documentation
    /extras/customers
    /extras/organizations
    /extras/dashboard
+   /extras/secure-email
    /extras/chat
    /extras/caller-log
    /extras/profile-and-settings

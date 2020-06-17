@@ -1,5 +1,5 @@
-﻿Security & Encryption
-=====================
+﻿Secure Email
+============
 
 Sign, Encrypt and check the state of incoming mails (is it signed or encrypted?) 
 within the ticket details and it's articles.
