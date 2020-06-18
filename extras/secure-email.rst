@@ -1,13 +1,16 @@
 ﻿Secure Email
 ============
 
-Sign, Encrypt and check the state of incoming mails (is it signed or encrypted?) 
-within the ticket details and it's articles.
+Zammad supports S/MIME for high-security email communication. 
 
-S/MIME (Sign & Encrypt E-Mails)
--------------------------------
+.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
+   :alt: Screencast demo of S/MIME features for both new tickets and replies
+   :scale: 50%
+   :align: center
 
-.. note:: **🤔 Huh? I don’t see “Sign” or “Encrypt” options within Tickets...** 
+   Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing for outgoing emails.
+
+.. note:: **🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...** 
 
    This feature is **optional**;
    if you don’t see it in the ticket composer,
@@ -15,103 +18,94 @@ S/MIME (Sign & Encrypt E-Mails)
    Administrators can learn more
    `here <https://admin-docs.zammad.org/en/latest/system/integrations/smime.html>`_.
 
-**But what's S/MIME?**
+What is S/MIME?
+---------------
 
-S/MIME uses certificates that, in the case of the integration, need to be uploaded to Zammad. 
-This is a task for your administrator. The key functions of S/MIME are:
+S/MIME is the most widely-supported method for secure email communication.
+With S/MIME, you can exchange **signed** and **encrypted** messages with others.
 
-   * Authentication
-   * Message integrity
-   * Privacy
-   * Data security (when using encryption)
+Signing
+   is proof that a message hasn’t been tampered with or sent by an impersonator.
 
-Receiving signed & encrypted messages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   In other words, it guarantees a message’s **integrity** and **authenticity**.
 
-If S/MIME is enabled and Zammad is missing a certificate or private key, it may confront you with a warning. 
-There are two situations where this might happen:
+Encryption
+   scrambles a message so that it can only be unscrambled by the intended recipient.
 
-The public certificate of the sender is missing
-   In this case Zammad will not be able to verify if the message has been changed during transmission. 
+   In other words, it guarantees **privacy** and **data security**.
 
-   As soon as your administrator added the certificate, you can press "retry security process" to check the message again. 
-   This option is only available for messages that have been received during enabled S/MIME integration.
+Overview
+--------
 
-   .. figure:: /images/advanced/smime/verification-not-possible-due-to-missing-certificates.png
-      :alt: Ticket article shows a warning for failed verification of a signed message
-      :align: center
+.. note:: 🤝 **S/MIME only works if the other party is using it, too.**
 
-The certificate and key are not available for decryption
-   In order to decrypt S/MIME encrypted messages, your sender will encrypt the message with your public certificate. 
-   To decrypt the message, Zammad needs this certificate together with its key - otherwise the mail can't be decrypted.
+   Your administrator is responsible for
+   adding all the necessary certificates in Zammad’s admin panel.
 
-   As soon as your administrator added the certificate and key, you can press "retry security process" to check the 
-   message again. This option is only available for messages that have been received during enabled S/MIME integration. 
+📬 Incoming
+^^^^^^^^^^^
 
-   .. hint:: This issue could also appear if the sender used the wrong certificate for encryption.
-
-   .. figure:: /images/advanced/smime/decryption-not-possible-due-to-missing-certificates.png
-      :alt: Ticket article shows a warning for failed verification of a signed message
-      :align: center
-
-If there are no issues with the message received, Zammad will display a closed lock and/or lock. 
-By clicking on the article body you can expand the meta information of the article. By hovering the icons, 
-you'll see in detail which certificates or CAs have been used for verification.
+The 🔒 and ✅ icons at the top of a message indicate its S/MIME status.
 
 .. figure:: /images/advanced/smime/checking-security-mata-information.gif
    :alt: Screencast showing on how to verify used certificates
+   :scale: 50%
    :align: center
 
-Sending messages that are signed & encrypted
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   Click on an incoming message to expand its details.
+   Hover over the security status to show a certificate/CA summary.
 
-.. hint:: Signing emails is *always* dependent on the email address of a group.
-   This means that you technically could even just encrypt a mail without the need to sign it.
-
-.. note:: By default Zammad will always send out an encrypted and signed mail. 
-   However, your administrator can choose to disable this default behavior on specific groups.
-
-That is if it could find fitting certificates (and keys) for that task. 
-You can, at any time, activate or deactivate either signing, encryption or both temporary per article you're creating. 
-
-If you can't activate signing or encryption please contact your Zammad administrator.
-
-No matter if creating a new ticket (email out) or you're just answering an existing ticket as with an email 
-article, your workflow will not change at all! If S/MIME is activated, Zammad will not just show new icons, 
-but also introduces two new buttons.
-
-The buttons will allow you to either activate or deactivate encryption or signing on demand basis. 
-If you hover your mouse over one of the buttons, it will also tell you which certificates Zammad will use 
-if you press "Update" on the lower right. Zammad will handle the rest automatically for you! 🙌
-
-.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
-   :alt: Screencast showing both ticket creation and normal ticket answers with S/MIME enabled
-   :align: center
-
-Icons explained
-^^^^^^^^^^^^^^^
-
-To help you understanding the used icons, we listed them below. 
-Those icons will help you to see on a first glimpse what state the article has.
-
-.. list-table:: S/MIME related icons on top of articles
-   :header-rows: 1
+.. list-table:: Status Icons (Incoming)
    :widths: 5 45
    
-   * - icon
-     - description
    * - |lock|
-     - The message is encrypted (and verified). If you're writing a new article, this means that Zammad will 
-       send the message as a signed message.
+     - This message was **encrypted for you**.
+
+       Even if it was intercepted by a third party (hacker, gov’t agency, etc.),
+       they won’t be able to read it.
    * - |open-lock|
-     - The message is encrypted and couldn't get verified successfully. If you're writing a new article, this 
-       means the message is not sent as a signed message.
+     - This message is **not encrypted**.
    * - |signed|
-     - The message is encrypted and was decrypted by Zammad. If you're writing a new article, this means the 
-       message is going to be encrypted during sendout.
+     - This message’s signature has been **successfully verified**.
+
+       You can be confident that it’s authentic
+       and that the contents have not been modified.
    * - |not-signed|
-     - The message can't be decrypted by Zammad. If you're writing a new article, this means the message 
-       is not going to be encrypted during sendout.
+     - This message is **not signed**.
+
+📮 Outgoing
+^^^^^^^^^^^
+
+Use the 🔒 **Encrypt** and ✅ **Sign** buttons
+to turn on encryption and signing for outgoing emails.
+
+.. note:: Outgoing emails can only be encrypted for *a single recipient*.
+
+.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
+   :alt: Screencast demo of S/MIME features for both new tickets and replies
+   :scale: 50%
+   :align: center
+
+   🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and replies.
+   Hover over the buttons to show a certificate/CA summary.
+
+.. list-table:: Status Icons (Outgoing)
+   :widths: 5 45
+   
+   * - |lock|
+     - This message **will be encrypted**.
+
+       Even if it’s intercepted by a third party (hacker, gov’t agency, etc.),
+       they won’t be able to read it.
+   * - |open-lock|
+     - This message **will not be encrypted**.
+   * - |signed|
+     - This message **will be signed**.
+
+       Recipients using S/MIME can verify that it came from you
+       and that the contents have not been modified.
+   * - |not-signed|
+     - This message **will not be signed**.
 
 .. |lock| image:: /images/advanced/smime/icon_lock.png
    :width: 24px
@@ -126,3 +120,49 @@ Those icons will help you to see on a first glimpse what state the article has.
 .. |not-signed| image:: /images/advanced/smime/icon_not-signed.png
    :width: 24px
    :height: 24px
+
+Troubleshooting
+---------------
+
+📬 Incoming
+^^^^^^^^^^^
+
+“Sign: Unable to find certificate for validation”
+   .. figure:: /images/advanced/smime/verification-not-possible-due-to-missing-certificates.png
+      :alt: Ticket article shows a warning for failed verification of a signed message
+      :align: center
+
+   Without the sender’s certificate, Zammad cannot verify the message signature.
+
+   Ask your administrator to add the sender’s certificate to Zammad’s certificate store.
+
+   .. warning:: 🕵️ **ALWAYS verify certificates in-person or over the phone!**
+
+      The whole point of signature verification is to alert you
+      when someone is trying to pretend to be someone they’re not.
+      Never accept a certificate from someone online without verifying it first.
+
+“Encryption: Unable to find private key to decrypt”
+   .. figure:: /images/advanced/smime/decryption-not-possible-due-to-missing-certificates.png
+      :alt: Ticket article shows a warning for failed verification of a signed message
+      :align: center
+
+   This message was encrypted with a certificate that does not match any on file.
+   Without a matching private key, Zammad cannot decrypt the message.
+
+   Ask your administrator to verify your organization’s private key in Zammad’s certificate store,
+   and ask the sender to double-check the public key they used to encrypt the message.
+
+   .. hint:: 📢 **Your public key can be safely shared with anyone.**
+
+      (But if they’re smart, they’ll take extra precautions
+      to make sure it really belongs to you.)
+
+📮 Outgoing
+^^^^^^^^^^^
+
+The 🔒 **Encrypt** button is disabled
+   Ask your administrator to add the recipient’s certificate to Zammad’s certificate store.
+
+The ✅ **Sign** button is disabled
+   Ask your administrator to verify your organization’s private key in Zammad’s certificate store.
