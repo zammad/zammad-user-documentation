@@ -3,16 +3,19 @@
 
 View and manage call logs from the **phone** panel.
 
-.. note:: **🤔 Huh? I don’t see “Phone” in the menu...** 
-
-   This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-systems>`_ for details.
-
 .. figure:: /images/extras/phone.jpg
    :alt: Sample view of Caller Log
    :align: center
 
    Enable the **Phone** panel to receive notifications for incoming calls.
+
+.. note:: **🤔 Huh? I don’t see “Phone” in the menu...** 
+
+   This feature is **optional**;
+   if you don’t see it in the main menu,
+   that means your administrator hasn’t enabled it yet.
+   Administrators can learn more
+   `here <https://admin-docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-systems>`_.
 
 .. hint::
    🏢 The caller log shows all incoming and outgoing calls **for the entire team**.

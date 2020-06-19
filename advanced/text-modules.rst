@@ -36,11 +36,8 @@ Text modules on ticket creation
 You can use text modules on ticket creation as well. On ticket creation, our :ref:`ticket_templates` might get handy too.
 
 
-Changing text modules
-^^^^^^^^^^^^^^^^^^^^^
+Customizing text modules
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-For changing text modules, you need to have the permission to do so. 
-Please refer to our `Admin-Documentation <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_ for further information.
-
-
-
+Administrators can learn more about customizing text modules
+`here <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_.

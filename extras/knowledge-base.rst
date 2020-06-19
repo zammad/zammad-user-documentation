@@ -3,21 +3,24 @@
 
 Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel.
 
-.. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...** 
-
-   This feature is **optional**; if you don’t see it in the main menu, that
-   means it’s not enabled yet. See the `admin documentation <https://admin-docs.zammad.org/en/latest/manage-knowledge-base.html>`_ for details.
-
-Getting Started
----------------
-
 .. figure:: /images/extras/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
    :align: center
 
-The knowledge base panel begins in **Preview Mode**.
-With some small exceptions,
-Preview Mode shows what the published knowledge base will look like.
+   The knowledge base panel begins in **Preview Mode**.
+   With some small exceptions,
+   Preview Mode shows what the published knowledge base will look like.
+
+.. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...** 
+
+   This feature is **optional**;
+   if you don’t see it in the main menu,
+   that means your administrator hasn’t enabled it yet.
+   Administrators can learn more
+   `here <https://admin-docs.zammad.org/en/latest/manage-knowledge-base.html>`_.
+
+Getting Started
+---------------
 
 .. figure:: /images/extras/knowledge-base-link-to-public.png
    :alt: Knowledge Base Link to published knowledge base
