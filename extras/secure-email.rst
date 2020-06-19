@@ -47,7 +47,7 @@ Overview
 
 The 🔒 and ✅ icons at the top of a message indicate its S/MIME status.
 
-.. figure:: /images/extras/secure-email/checking-security-mata-information.gif
+.. figure:: /images/extras/secure-email/checking-security-metadata.gif
    :alt: Screencast showing on how to verify used certificates
    :scale: 50%
    :align: center
