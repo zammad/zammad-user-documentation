@@ -3,7 +3,7 @@
 
 Zammad supports S/MIME for high-security email communication. 
 
-.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
+.. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
    :alt: Screencast demo of S/MIME features for both new tickets and replies
    :scale: 50%
    :align: center
@@ -47,7 +47,7 @@ Overview
 
 The 🔒 and ✅ icons at the top of a message indicate its S/MIME status.
 
-.. figure:: /images/advanced/smime/checking-security-mata-information.gif
+.. figure:: /images/extras/secure-email/checking-security-mata-information.gif
    :alt: Screencast showing on how to verify used certificates
    :scale: 50%
    :align: center
@@ -81,7 +81,7 @@ to turn on encryption and signing for outgoing emails.
 
 .. note:: Outgoing emails can only be encrypted for *a single recipient*.
 
-.. figure:: /images/advanced/smime/creating-articles_signed-and-encrypted.gif
+.. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
    :alt: Screencast demo of S/MIME features for both new tickets and replies
    :scale: 50%
    :align: center
@@ -107,17 +107,17 @@ to turn on encryption and signing for outgoing emails.
    * - |not-signed|
      - This message **will not be signed**.
 
-.. |lock| image:: /images/advanced/smime/icon_lock.png
+.. |lock| image:: /images/extras/secure-email/icon_lock.png
    :width: 24px
    :height: 24px
    :align: top
-.. |open-lock| image:: /images/advanced/smime/icon_open-lock.png
+.. |open-lock| image:: /images/extras/secure-email/icon_open-lock.png
    :width: 24px
    :height: 24px
-.. |signed| image:: /images/advanced/smime/icon_signed.png
+.. |signed| image:: /images/extras/secure-email/icon_signed.png
    :width: 24px
    :height: 24px
-.. |not-signed| image:: /images/advanced/smime/icon_not-signed.png
+.. |not-signed| image:: /images/extras/secure-email/icon_not-signed.png
    :width: 24px
    :height: 24px
 
@@ -128,7 +128,7 @@ Troubleshooting
 ^^^^^^^^^^^
 
 “Sign: Unable to find certificate for validation”
-   .. figure:: /images/advanced/smime/verification-not-possible-due-to-missing-certificates.png
+   .. figure:: /images/extras/secure-email/verification-not-possible-due-to-missing-certificates.png
       :alt: Ticket article shows a warning for failed verification of a signed message
       :align: center
 
@@ -143,7 +143,7 @@ Troubleshooting
       Never accept a certificate from someone online without verifying it first.
 
 “Encryption: Unable to find private key to decrypt”
-   .. figure:: /images/advanced/smime/decryption-not-possible-due-to-missing-certificates.png
+   .. figure:: /images/extras/secure-email/decryption-not-possible-due-to-missing-certificates.png
       :alt: Ticket article shows a warning for failed verification of a signed message
       :align: center
 
