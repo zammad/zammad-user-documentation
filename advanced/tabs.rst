@@ -47,19 +47,19 @@ menu area. These are your **open tabs.**
 
      .. |grn| raw:: html
 
-        <div class="zammad-state-circle" style="border-color: #31af68;"></div>
+        <div class="zammad-state-circle border-green"></div>
 
      .. |blk| raw:: html
 
-        <div class="zammad-state-circle" style="border-color: #43484c;"></div>
+        <div class="zammad-state-circle border-charcoal"></div>
 
      .. |ylw| raw:: html
 
-        <div class="zammad-state-circle" style="border-color: #fcac01;"></div>
+        <div class="zammad-state-circle border-yellow"></div>
 
      .. |red| raw:: html
 
-        <div class="zammad-state-circle" style="border-color: #f45801;"></div>
+        <div class="zammad-state-circle border-red"></div>
 
    * A **pulsing dot** means that a ticket has new activity since you last viewed it.
    * Drag and drop tabs to rearrange them.

@@ -1,5 +1,5 @@
 .wy-table-responsive table td {
-	white-space: normal !important;
+    white-space: normal !important;
 }
 
 .wy-table-responsive table td img {
@@ -10,10 +10,26 @@
 }
 
 .zammad-state-circle {
-	width: 1em;
-	height: 1em;
-	border-radius: 50%;
-	border-width: 3px;
-	border-style: solid;
-	margin: -18px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    margin: -18px auto;
+}
+
+.border-green {
+    border-color: #31af68;
+}
+
+.border-charcoal {
+    border-color: #43484c;
+}
+
+.border-yellow {
+    border-color: #fcac01;
+}
+
+.border-red {
+    border-color: #f45801;
 }
