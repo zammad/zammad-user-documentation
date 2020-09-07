@@ -40,4 +40,4 @@ Zammad Agent Documentation
    /extras/caller-log
    /extras/profile-and-settings
    /extras/knowledge-base
-   /extras/i-doit-assets-on-tickets
+   /extras/i-doit-track-company-property
