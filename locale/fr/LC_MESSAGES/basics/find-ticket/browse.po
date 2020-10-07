@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edouard <madko77@gmail.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 15:52+0200\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2020\n"
+"Language-Team: French (https://www.transifex.com/zammad/teams/73964/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../basics/find-ticket/browse.rst:2
+msgid "Browse for Tickets"
+msgstr "Parcourir les tickets"
+
+#: ../../basics/find-ticket/browse.rst:4
+msgid "Looking for a ticket to work on? Check the **overviews** menu."
+msgstr ""
+"Vous recherchez un ticket sur lequel vous avez travaillé? Vérifier le menu "
+"**aperçus**."
+
+#: ../../basics/find-ticket/browse.rst:10
+msgid "Click **Overviews** in the main menu to browse tickets."
+msgstr ""
+"Cliquez sur **Aperçus** dans le menu principal pour parcourir les tickets."
+
+#: ../../basics/find-ticket/browse.rst:12
+msgid ""
+"📥 Think of overviews as **inboxes**, each with a different filter for the "
+"tickets it displays."
+msgstr ""
+"📥 Pensez aux aperçus comme des **boîtes à lettres**, chacune avec un filtre "
+"différent pour afficher les tickets."
+
+#: ../../basics/find-ticket/browse.rst:15
+msgid ""
+"There are **six built-in overviews** (Zammad admin may `create more <https"
+"://admin-docs.zammad.org/en/latest/manage-overviews.html>`_ with custom-"
+"defined filters):"
+msgstr ""
+"Il y a **six aperçus intégrés** (un administrateur Zammad peut en `creer "
+"plus <https://admin-docs.zammad.org/en/latest/manage-overviews.html>`_ avec "
+"des filtres personnalisés):"
+
+#: ../../basics/find-ticket/browse.rst:18
+msgid "**My assigned tickets** (*open/pending* only)"
+msgstr "**Mes tickets assignés** (*ouverts/en attente* seulement)"
+
+#: ../../basics/find-ticket/browse.rst:19
+msgid "**Unassigned & Open**"
+msgstr "**Non-assignés & ouverts**"
+
+#: ../../basics/find-ticket/browse.rst:20
+msgid ""
+"**My pending reached tickets** (previously marked *pending* and currently "
+"due)"
+msgstr ""
+"**Mes tickets en attente expirés** (précédemment marqués *en attente* et "
+"actuellement expirés)"
+
+#: ../../basics/find-ticket/browse.rst:21
+msgid "**Open** (system-wide)"
+msgstr "**Ouverts** (de manière globale)"
+
+#: ../../basics/find-ticket/browse.rst:22
+msgid ""
+"**Pending reached** (system-wide, previously marked *pending* and currently "
+"due)"
+msgstr ""
+"**Attente expirée** (de manière globale, précédemment marqués *en attente* "
+"et actuellement expirés)\""
+
+#: ../../basics/find-ticket/browse.rst:23
+msgid ""
+"**Escalated** (system-wide, failing to meet a `service-level agreement "
+"<https://admin-docs.zammad.org/en/latest/manage-slas.html>`_)"
+msgstr ""
+"**Escaladés** (de manière globale, n'ont pas respecté un `contrat de service"
+" <https://admin-docs.zammad.org/en/latest/manage-slas.html>`_)"
+
+#: ../../basics/find-ticket/browse.rst:25
+msgid "**🖱️ UI Protip**"
+msgstr "**🖱️ UI Protip**"
+
+#: ../../basics/find-ticket/browse.rst:27
+msgid "Click on column headings to change the display order."
+msgstr "Cliquez sur l'entête d'une colonne pour changer l'ordre d'affichage."
+
+#: ../../basics/find-ticket/browse.rst:28
+msgid "Click-and-drag column dividers to adjust their width."
+msgstr ""
+"Cliquez-Déposez les séparateurs des colonnes pour ajuster leur largeur."
+
+#: ../../basics/find-ticket/browse.rst:29
+msgid ""
+":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
+"coded:**"
+msgstr ""
+":doc:`Les statuts des tickets </basics/service-ticket/settings/state>` sont "
+"**codés par couleur:**"
+
+#: ../../basics/find-ticket/browse.rst:32
+msgid "|grn|"
+msgstr "|grn|"
+
+#: ../../basics/find-ticket/browse.rst:32
+msgid "**Closed**"
+msgstr "**Fermé**"
+
+#: ../../basics/find-ticket/browse.rst:34
+msgid "|blk|"
+msgstr "|blk|"
+
+#: ../../basics/find-ticket/browse.rst:34
+msgid "**Postponed** (Marked as pending; no immediate action required.)"
+msgstr ""
+"**En attente** (marqué en attente; aucune action immédiate nécessaire.)"
+
+#: ../../basics/find-ticket/browse.rst:37
+msgid "|ylw|"
+msgstr "|ylw|"
+
+#: ../../basics/find-ticket/browse.rst:37
+msgid "**New / Open** (Ready for action.)"
+msgstr "**Nouveau / ouverts** (Prêt pour action.)"
+
+#: ../../basics/find-ticket/browse.rst:39
+msgid "|red|"
+msgstr "|red|"
+
+#: ../../basics/find-ticket/browse.rst:39
+msgid "**Escalated** (Requires urgent attention.)"
+msgstr "**Escaladé** (Nécessite de l'attention en urgence.)"

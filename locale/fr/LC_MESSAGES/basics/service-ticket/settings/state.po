@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Edouard <madko77@gmail.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 15:52+0200\n"
+"PO-Revision-Date: 2018-11-08 13:40+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2020\n"
+"Language-Team: French (https://www.transifex.com/zammad/teams/73964/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../basics/service-ticket/settings/state.rst:2
+msgid "State"
+msgstr "État"
+
+#: ../../basics/service-ticket/settings/state.rst:4
+msgid ""
+"The **state** of a ticket refers to *its progress toward completion,* and "
+"may be one of the following:"
+msgstr ""
+"L'**état** d'un ticket s'apparente à *son progrès vers son achèvement,* et "
+"peut être un des suivants:"
+
+#: ../../basics/service-ticket/settings/state.rst:7
+msgid "new"
+msgstr "nouveau"
+
+#: ../../basics/service-ticket/settings/state.rst:8
+msgid "open"
+msgstr "ouvert"
+
+#: ../../basics/service-ticket/settings/state.rst:9
+msgid "closed"
+msgstr "fermé"
+
+#: ../../basics/service-ticket/settings/state.rst:10
+msgid ""
+"pending close (*i.e.,* scheduled to automatically close at a later date)"
+msgstr ""
+"en attente de fermeture (*i.e.,* planifié pour être automatiquement fermé à "
+"une date ultérieure)"
+
+#: ../../basics/service-ticket/settings/state.rst:12
+msgid ""
+"pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
+msgstr ""
+"rappel en attente (*i.e.,* caché, mais planifié pour réapparaître à une date"
+" ultérieure)"
+
+#: ../../basics/service-ticket/settings/state.rst:18
+msgid "What’s the difference between “new” and “open”?"
+msgstr "Quelle est la différence entre “nouveau” et “ouvert”?"
+
+#: ../../basics/service-ticket/settings/state.rst:20
+msgid ""
+"States do more than just indicate progress: Zammad has a fine-grained time "
+"tracking feature (so-called “\\ `service-level agreements <https://admin-"
+"docs.zammad.org/en/latest/manage-slas.html>`_\\ ”, or SLAs) that uses state "
+"information to measure how long it takes for customers to get a response on "
+"a new ticket or get their issues resolved entirely."
+msgstr ""
+"Les états font plus qu'indiquer une progression: Zammad possède une "
+"fonctionnalité de suivi précis du temps passé (appelé “\\ `contrats de "
+"niveau de service <https://admin-docs.zammad.org/en/latest/manage-"
+"slas.html>`_\\ ”, ou SLAs) qui utilisent l'information sur l'état pour "
+"mesurer combien de temps il faut pour qu'un client reçoive une réponse sur "
+"un nouveau ticket ou pour voir leurs demandes traitées complètement."
+
+#: ../../basics/service-ticket/settings/state.rst:27
+msgid ""
+"On a *new* ticket, the customer still hasn’t received her first response on "
+"the issue."
+msgstr ""
+"Sur un *nouveau* ticket, le client n'a pas encore reçu de première réponse "
+"concernant sa demande."
+
+#: ../../basics/service-ticket/settings/state.rst:30
+msgid ""
+"On an *open* ticket, the customer has received an initial response, but the "
+"issue still hasn’t been resolved."
+msgstr ""
+"Sur un ticket *ouvert*, le client a déjà reçu une réponse initiale, mais la "
+"demande n'a pas encore été traitée."
+
+#: ../../basics/service-ticket/settings/state.rst:34
+msgid ""
+"⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
+"limits."
+msgstr ""
+"⏱️ Les tickets dans un état d'**attente** ne consomme pas de temps dans "
+"leurs limites du SLA"
+
+#: ../../basics/service-ticket/settings/state.rst:36
+msgid ""
+"So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
+"on feedback from a third-party supplier who’s out of town until next week."
+msgstr ""
+"Donc, par exemple, un ticket peut être marqué *rappel en attente* si il "
+"attend un retour d'un fournisseur tiers qui est actuellement absent jusqu'à "
+"la semaine prochaine."
