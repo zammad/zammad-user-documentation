@@ -64,15 +64,14 @@ $ make html
 # create .tx config
 $ tx init
 
-# or if you just want to update a resource
-$ tx set --source -r <project_slug.resource_slug> -l <lang> <file>
+# ensure clean enviroment
 $ make clean
 
 # generate the strings from the *.rst files
 $ make gettext
 
-# generate the locales (DE|EN)
-$ sphinx-intl update -p _build/locale/ -l de -l en
+# OPTIONAL: if you have to adapt a new locale, run
+sphinx-intl update -p _build/locale/ -l de
 
 # update the resource files from the pot dir
 $ sphinx-intl update-txconfig-resources --pot-dir _build/locale --transifex-project-name zammad-user-documentation
@@ -80,6 +79,7 @@ $ sphinx-intl update-txconfig-resources --pot-dir _build/locale --transifex-proj
 # push to transifex (if configured)
 $ tx push -s
 
+# Below pull options by default ignore unreviewed (see https://docs.transifex.com/client/pull#getting-different-file-variants )
 # after translation pull needed languages from transifex
 $ tx pull -l en
 
