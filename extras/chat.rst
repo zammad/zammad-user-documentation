@@ -46,7 +46,7 @@ Talk to customers in real time from the **customer chat** panel.
 .. tip::
 
    * 🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime.
-   * 📋 Copy & paste **supports 🌄 images** as well as plain text.
+   * 📋 Copy & paste **supports 🌄 inline images** as well as plain text.
    * ⌨️ Live chat supports `text modules <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_.
    * 📝 Chats can be **renamed** or **tagged**, and record technical details about
      the customer’s connection.
