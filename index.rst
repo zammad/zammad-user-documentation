@@ -22,6 +22,7 @@ Zammad Agent Documentation
    /advanced/text-modules
    /advanced/ticket-templates
    /advanced/search
+   /advanced/macros
    /advanced/suggested-workflows
    /advanced/time-accounting
    /advanced/keyboard-shortcuts
