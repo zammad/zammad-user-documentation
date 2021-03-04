@@ -1,64 +1,63 @@
 Macros
 ======
 
-Macros are a great way to reduce your workload by automating specific actions 
-with less clicks. 
+Macros are **🖱️ one-click shortcuts** for applying changes to a ticket.
 
-.. note:: 🤔 **Huh? I can't configure Macros ...**
+If you find yourself making the same changes to lots of tickets
+(*e.g.,* close-and-tag-as-spam or reassign-to-another-group),
+macros can make the job a whole lot easier.
 
-   Macros are globally configured by administrators. 
-   If you're an administrator, you can learn more in our 
-   `Admin-Documentation <https://admin-docs.zammad.org/en/latest/manage/macros.html>`_.
+.. note:: 🤔 **How do I make macros?**
 
-... within a ticket view
-------------------------
+   You don’t – that’s the `administrator’s job
+   <https://admin-docs.zammad.org/en/latest/manage/macros.html>`_.
+   If you have an idea for a macro you’d like to use,
+   your Zammad admin can probably make it happen.
 
-You can run macros from within a ticket view. To do so, click on the △ Arrow 
-to open the macro list. After clicking on the desired macro, Zammad will 
-automatically run it.
+Macros can be applied in one of two ways:
+on a single ticket, or in bulk.
 
-   .. figure:: /images/advanced/macros/macro-run-via-ticket-view.gif
-      :width: 90%
+On a Single Ticket
+------------------
+
+The simplest way to apply a macro is to select it
+from the **Update ᐱ** submenu in the Ticket View:
+
+.. figure:: /images/advanced/macros/macro-run-via-ticket-view.gif
+   :width: 90%
+   :align: center
+   :alt: Screencast showing how to run a macro within a ticket view.
+
+.. tip:: 💾 **Macro = Update**
+
+   If you’ve made changes to any other
+   :ref:`settings on the ticket <ticket_settings>`
+   (including typing up a reply to the customer),
+   applying a macro will save them, too.
+
+   ⚠️ **But beware:** in the event of a conflict,
+   the macro’s actions override any manual changes –
+   including messages to the customer!
+   When in doubt, apply your macro and your manual changes *separately.*
+
+   .. figure:: /images/advanced/macros/macro-overwriting-article-sample.gif
+      :width: 80%
       :align: center
-      :alt: Screencast showing how to run a macro within a ticket view.
+      :alt: Screencast showing above described effect that overwrites articles.
 
+      If the selected macro adds a note to the ticket, any text entered in the message composer will be lost.
 
-.. tip:: 🤓 **Running a macro does count as "updating".**
+In Bulk
+-------
 
-   This means: You can always set more :ref:`ticket_settings` *before* running 
-   the macro. This allows you to update tickets once, not twice. This also 
-   works for articles. 🤟
+To apply a macro to many tickets at the same time:
 
-   | **However, keep in mind...**
-   | Macros will always overwrite manual settings. 
+1. open a ticket overview;
+2. select your desired tickets;
+3. click-and-drag to open the “Run Macro” drawer; and
+4. drop the tickets on your target macro.
 
-   This means: If you're going to write an email article but your macro 
-   also adds a note article, the email article will be lost!
-
-      .. figure:: /images/advanced/macros/macro-overwriting-article-sample.gif
-         :width: 80%
-         :align: center
-         :alt: Screencast showing above described effect that overwrites articles.
-
-... within an overview (bulk operation)
----------------------------------------
-
-.. note:: ⚠ **Bulk operations come with a trade...**
-
-   Not for your soul, but some actions will not work. 
-   This affects the creation of articles and the "stay on tab" behavior. 
-
-Some operations do not require any deeper checking of tickets in detail. 
-This can apply to spam tickets or workflows that are always the same.
-
-In these situations you can run macros on one or more tickets within the 
-overviews. To do so, select the tickets in questions and hold your left mouse 
-button down. Pull the mouse into any direction. Zammad will now provide bulk 
-operation options (running a macro or direct assignment) - in this case we'll 
-move up the the macros. As soon as you let go of your mouse button, the macros 
-will run.
-
-   .. figure:: /images/advanced/macros/macro-usage-via-overview.gif
-      :width: 90%
-      :align: center
-      :alt: Screencast showing how to run macros via overviews.
+.. figure:: /images/advanced/macros/macro-usage-via-overview.gif
+   :width: 90%
+   :align: center
+   :alt: Screencast showing how to run macros via overviews.
