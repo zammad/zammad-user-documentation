@@ -61,3 +61,11 @@ To apply a macro to many tickets at the same time:
    :width: 90%
    :align: center
    :alt: Screencast showing how to run macros via overviews.
+
+.. note:: ☝️ **There's just one difference...**
+   When running a macro from the ticket view, Zammad may automatically open the
+   next ticket (or close the current one, or just stay on it), depending on how
+   the macro was set up.
+   
+   When running it from the overviews page, Zammad will always stay on the
+   overviews page.
