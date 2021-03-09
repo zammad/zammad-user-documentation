@@ -26,6 +26,8 @@ about a single issue**.
    👀 :doc:`Keep an eye on your dashboard </extras/dashboard>`
    to see how well you’re keeping up.
 
+.. _ticket_settings:
+
 Ticket Settings
 ---------------
 
