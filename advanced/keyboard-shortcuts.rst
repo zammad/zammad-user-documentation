@@ -5,12 +5,12 @@ Keyboard Shortcuts
 
 Zammad supports a wide array of keyboard shortcuts to expedite your workflow as an expert user.
 
-.. figure:: /images/advanced/keyboard-shortcuts.jpg
+.. figure:: /images/advanced/keyboard-shortcuts.png
    :alt: Keyboard shortcut cheat sheet
    :align: center
    :scale: 50%
 
-   The keyboard shortcut cheat sheet on macOS.
+   The keyboard shortcut cheat sheet on Windows.
 
 .. tip:: **🖱️ UI Protip**
 
