@@ -98,6 +98,47 @@ There are three types of follow-ups:
 
 .. include:: /snippets/ui-protip-message-editor-features.rst
 
+Subscribe and Mention
+---------------------
+
+.. note:: 
+
+   Please note that mentions and subscriptions rely on your 
+   :doc:`notification settings </extras/profile-and-settings>`. 
+   By default Zammad will provide an overview in case you don't want 
+   notifications at all.
+
+.. hint:: **😖 A colleague mentioned me, I can't find the ticket.**
+
+   Mentions and subscriptions are bond to your group permission. 
+   If the ticket moves into a group you can't access, Zammad will not 
+   notify you on updates.
+
+When working in different departments you may have to re-assign a ticket 
+to an agent. If you're first level, this may sometimes be trouble some because 
+you may loose track of changes you may want to tell the customer about. 
+
+In order to not miss anything out, use the **Subscribe** button within the 
+ticket settings. You'll be notified on any ticket update.
+
+   .. figure:: /images/basics/service-ticket/mention-other-agents.gif
+      :alt: Screencast showing Chris mentioning Emma and Jacob.
+      :width: 90%
+      :align: center
+
+Working on a ticket and need John to be aware of some facts? 
+Instead of writing him a mail, private message or even splitting the ticket, 
+you can simply mention him by typing ``@@`` in the article. 
+
+Zammad will then provide a list of all available agents. 
+After submitting, John and any other mentioned agent will be notified and 
+automatically subscribed to the ticket in question.
+
+   .. figure:: /images/basics/service-ticket/mention-subscribe-yourself-to-a-ticket.gif
+      :alt: Chris subscribes a ticket he wants to keep an eye on.
+      :width: 90%
+      :align: center
+
 ----
 
 .. caution:: **🙅 I’m working here!**
