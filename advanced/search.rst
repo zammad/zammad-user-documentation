@@ -1,23 +1,23 @@
 Advanced Search
 ===============
 
-With Zammad, you can limit your search to specific Information. With this you're able to search tickets with specific key words and states, enabling you to improve your search results.
+With Zammad, you can limit your search to specific Information. 
+With this you're able to search tickets with specific key words and states, 
+enabling you to improve your search results.
 
-For instance, you can search for a specific customer by using customer.attribute::
+For instance, you can search for a specific customer 
+by using ``customer.attribute``::
 
-  customer.firstname: some firstname name
+   customer.firstname: some firstname name
 
 or::
 
-  customer.lastname: some lastname name
+   customer.lastname: some lastname name
 
 
 If you want to search more complex, you can use conditions with () and AND/OR options::
 
-
-  state.name: open AND (article.from:me OR article.from:somebody)
-
-
+   state.name: open AND (article.from:me OR article.from:somebody)
 
 .. note:: **🤓 Search phrases changed for Zammad 4.0**
 
@@ -26,7 +26,7 @@ If you want to search more complex, you can use conditions with () and AND/OR op
       * group
       * priority
       * state
-      * organization. 
+      * organization
 
    With Zammad >=4.0 these keys contain the whole object. This means you 
    now have to add ``.name`` (e. g. ``group.name`` or ``priority.name``) 
@@ -36,8 +36,10 @@ If you want to search more complex, you can use conditions with () and AND/OR op
 Available attributes
 --------------------
 
+.. hint:: 
 
-.. hint:: For a more detailed list of available attributes please take a look into our `Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install-elasticsearch.html#list-of-values-which-are-stored-in-elasticsearch>`_ 
+   For a more detailed list of available attributes please take a look into our 
+   `Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install-elasticsearch.html#list-of-values-which-are-stored-in-elasticsearch>`_ 
 
 
 .. |br| raw:: html
@@ -56,9 +58,14 @@ Available attributes
    "article.from", "\*bob\*", "article.from:\*bob\*", "Show all tickets that contain articles from ""Bob"""
    "article.body", "heat |br|\ heat~ |br|\ /joh?n(ath[oa]n)/", "article.body:heat |br|\ article.body:heat~ |br|\ articlebody:/joh?n(ath[oa]n)/", "First example shows every ticket containing the word ""heat"" - you can also use the fuzzy operator ""~"" to search for similar words like e.g. like ""head"". Zammad will also allow you to use regular expressions, where ever the attributes allows it."
    
-.. hint:: Combining search phrases
-  You can combine search phrases by using ``AND``, ``OR`` and ``TO``, depending on the situation and phrases you use.
-  If needed, you can parts of your search phrase for complex searches with ``()``. This allows you to combine several phrases with different dependencies (AND/OR). In case you receive search results that you want to exclude, you can use negation ``!``. Below are some examples that you could use with this:
+.. hint:: **Combining search phrases**
+
+  You can combine search phrases by using ``AND``, ``OR`` and ``TO``, 
+  depending on the situation and phrases you use. If needed, you can parts of 
+  your search phrase for complex searches with ``()``. This allows you to 
+  combine several phrases with different dependencies (AND/OR). In case you 
+  receive search results that you want to exclude, you can use negation ``!``. 
+  Below are some examples that you could use with this:
   
   .. csv-table:: Examples for search phrase combinations
    :header: "Search phrase", "Description"
@@ -69,7 +76,6 @@ Available attributes
    "owner.email:bob@example.net AND state.name:(open OR new)", "Show Tickets from bob@example.net that are either open or new"
    "state.name:pending* AND article_count:[1 TO 5]", "Show everything with any pending state and an article count of 1 to 5."
 
-
 Some Ticket attributes and their type
 -------------------------------------
 
@@ -78,35 +84,36 @@ Below you can find the most important attributes sorted by ticket and article.
 Ticket attributes
 ^^^^^^^^^^^^^^^^^
 
-* number: string
-* title: string
-* group: object (group.name, ...)
-* priority: object (priority.name, ...)
-* state: object (state.name, ...)
-* organization: object (organization.name, ...)
-* owner: object (owner.firstname, owner.lastname, owner.email, ...)
-* customer: object (customer.firstname, customer.lastname, customer.email, ...)
-* first_response_at: timestamp
-* first_response_in_min: integer (business min till first response)
-* close_at: timestamp
-* close_in_min: integer (business min till close)
-* last_contact_at: timestamp (last contact by customer or agent)
-* last_contact_agent_at: timestamp (last contact by agent)
-* last_contact_customer_at: timestamp (last contact by customer)
-* create_article_type: string (email|phone|web|...)
-* create_article_sender: string (Customer|Agent|System)
-* article_count: integer
-* escalation_at: timestamp
-* pending_time: timestamp
+   * number: string
+   * title: string
+   * group: object (group.name, ...)
+   * priority: object (priority.name, ...)
+   * state: object (state.name, ...)
+   * organization: object (organization.name, ...)
+   * owner: object (owner.firstname, owner.lastname, owner.email, ...)
+   * customer: object 
+     (customer.firstname, customer.lastname, customer.email, ...)
+   * first_response_at: timestamp
+   * first_response_in_min: integer (business min till first response)
+   * close_at: timestamp
+   * close_in_min: integer (business min till close)
+   * last_contact_at: timestamp (last contact by customer or agent)
+   * last_contact_agent_at: timestamp (last contact by agent)
+   * last_contact_customer_at: timestamp (last contact by customer)
+   * create_article_type: string (email|phone|web|...)
+   * create_article_sender: string (Customer|Agent|System)
+   * article_count: integer
+   * escalation_at: timestamp
+   * pending_time: timestamp
 
 Article attributes
 ^^^^^^^^^^^^^^^^^^
 
-* article.from: string
-* article.to: string
-* article.cc: string
-* article.subject: string
-* article.body: string
-* article.attachment.title: string (filename of attachment)
-* article.attachment.content: string (content of attachment)
-* article.attachment.content_type: string (File type e.g. PDF)
+   * article.from: string
+   * article.to: string
+   * article.cc: string
+   * article.subject: string
+   * article.body: string
+   * article.attachment.title: string (filename of attachment)
+   * article.attachment.content: string (content of attachment)
+   * article.attachment.content_type: string (File type e.g. PDF)
