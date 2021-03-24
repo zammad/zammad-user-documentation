@@ -2,20 +2,21 @@ Advanced Search
 ===============
 
 With Zammad, you can limit your search to specific Information. 
-With this you're able to search tickets with specific key words and states, 
-enabling you to improve your search results.
+This allows you to find e.g. Tickets with specific key words and states. 
+Below information will help you to improve your search results.
 
-For instance, you can search for a specific customer 
+For instance you can search for a specific customer 
 by using ``customer.attribute``::
 
-   customer.firstname: some firstname name
+   customer.firstname: John
 
 or::
 
-   customer.lastname: some lastname name
+   customer.lastname: Doe
 
 
-If you want to search more complex, you can use conditions with () and AND/OR options::
+If you want to run a more complex search you can use conditions 
+with ``()`` and ``AND``/``OR`` options::
 
    state.name: open AND (article.from:me OR article.from:somebody)
 
