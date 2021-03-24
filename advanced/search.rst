@@ -19,12 +19,18 @@ If you want to search more complex, you can use conditions with () and AND/OR op
 
 
 
-.. hint::  Zammad <=3.6 vs. Zammad >= 4.0
+.. note:: **🤓 Search phrases changed for Zammad 4.0**
 
-   With Zammad <=3.6 the following keys contained only a string: group, priority, state and organization. 
-   With Zammad >=4.0 group, priority, state and organization will contain the whole object. 
-   This means you need to use add ".name", e. g. group.name, priority.name, state.name and organization.name to get 
-   the same results as it was in Zammad 3.6.
+   With Zammad <=3.6 the following keys contained a string only: 
+
+      * group
+      * priority
+      * state
+      * organization. 
+
+   With Zammad >=4.0 these keys contain the whole object. This means you 
+   now have to add ``.name`` (e. g. ``group.name`` or ``priority.name``) 
+   to receive the same search results.
 
 
 Available attributes
