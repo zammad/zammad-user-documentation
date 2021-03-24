@@ -16,8 +16,8 @@ In these cases, there are three ways to assign the work to the right people:
 2. If you’ve done all you can on a ticket
    and it’s now another agent’s (or department’s) responsibility,
    **reassign it** to a new owner (or group).
-3. If you just need another agent’s input on something, you can **@mention** them.
-   (And if *you* want to get notifications for *someone else’s* ticket,
+3. If you just need another agent’s input on something, you can **@mention** 
+   them. (And if *you* want to get notifications for *someone else’s* ticket,
    use the **subscribe button**.)
 
 Reassigning tickets
