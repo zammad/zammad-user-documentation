@@ -7,7 +7,7 @@ For instance, you can search for a specific customer by using customer.attribute
 
   customer.firstname: some firstname name
 
-or
+or::
 
   customer.lastname: some lastname name
 
@@ -21,7 +21,10 @@ If you want to search more complex, you can use conditions with () and AND/OR op
 
 .. hint::  Zammad <=3.6 vs. Zammad >= 4.0
 
-With Zammad <=3.6 the folling keys contained only a string: group, priority, state and organization. With Zammad >=4.0 group, priority, state and organization will contain the whole object. This means you need to use add ".name", e. g. group.name, priority.name, state.name and organization.name to get the same results as it was in Zammad 3.6.
+   With Zammad <=3.6 the following keys contained only a string: group, priority, state and organization. 
+   With Zammad >=4.0 group, priority, state and organization will contain the whole object. 
+   This means you need to use add ".name", e. g. group.name, priority.name, state.name and organization.name to get 
+   the same results as it was in Zammad 3.6.
 
 
 Available attributes
