@@ -39,8 +39,8 @@ Use the **⮪ reply** button under a message to reply to it directly.
 
 Like with new messages,
 your response will appear at the end of the thread.
-Outside of Zammad, however,
-it will be **delivered on the same channel** as the original message
+Under the hood, responses are sent
+**via the same channel as the original message**
 (*i.e.,* if the message you replied to was originally a tweet,
 the customer will receive your response in a Twitter DM).
 
