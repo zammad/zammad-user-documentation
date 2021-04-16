@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, The Zammad Foundation
+# Copyright (C) 2021, The Zammad Foundation
 # This file is distributed under the same license as the Zammad (for Agents) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Natascha Kasun <nk@znuny.com>, 2018
-# Marcel Herrguth <mh@zammad.com>, 2019
 # KieJo <jk@znuny.com>, 2019
+# Marcel Herrguth <mh@zammad.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
 "PO-Revision-Date: 2018-11-08 13:40+0000\n"
-"Last-Translator: KieJo <jk@znuny.com>, 2019\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,15 +99,14 @@ msgstr ""
 #: ../../basics/service-ticket/follow-up.rst:40
 msgid ""
 "Like with new messages, your response will appear at the end of the thread. "
-"Outside of Zammad, however, it will be **delivered on the same channel** as "
-"the original message (*i.e.,* if the message you replied to was originally a"
-" tweet, the customer will receive your response in a Twitter DM)."
+"Under the hood, responses are sent **via the same channel as the original "
+"message** (*i.e.,* if the message you replied to was originally a tweet, the"
+" customer will receive your response in a Twitter DM)."
 msgstr ""
-"Wie bei neuen Nachrichten erscheint Deine Antwort am Ende des Threads. "
-"Außerhalb von Zammad wird sie jedoch **auf dem gleichen Kanal** , wie die "
-"ursprüngliche Nachricht, geliefert (*D.h.* wenn die Nachricht, auf die Du "
-"geantwortet hast, ursprünglich ein Tweet war, erhält der Kunde Deine Antwort"
-" als Twitter DM)."
+"Genau wie bei neuen Nachrichten, erscheint deine Antwort unten im Thread. "
+"Unter der Haube werden Antworten **über den gleichen Kanal wie die originale"
+" Nachricht gesendet** (*z.B.* wenn die ursprüngliche Nachricht ein Tweet "
+"war, erhält er die Antwort auch als Tweet)."
 
 #: ../../basics/service-ticket/follow-up.rst:47
 msgid ""
@@ -143,8 +142,8 @@ msgstr "Hinzufügen neuer Nachrichten/Notizen"
 #: ../../basics/service-ticket/follow-up.rst:66
 msgid "Click on the text field at the end of the thread to add a follow-up."
 msgstr ""
-"Um einen weiteren Artikel (Notiz, externe Nachricht) hinzuzufügen, klicke "
-"auf das Textfeld am Ende des Threads."
+"Um einen weiteren Artikel hinzuzufügen, klicke auf das Textfeld am Ende des "
+"Threads."
 
 #: ../../basics/service-ticket/follow-up.rst:71
 msgid ""
@@ -178,7 +177,7 @@ msgstr "📞 Anruf"
 msgid "Record a summary of a phone call you had with the customer."
 msgstr ""
 "Protokolliere eine Zusammenfassung eines Telefonats, welches Du mit dem "
-"Kunden geführt hast (ein- und ausgehend)."
+"Kunden geführt hast."
 
 #: ../../basics/service-ticket/follow-up.rst:0
 msgid "📧 Email"
