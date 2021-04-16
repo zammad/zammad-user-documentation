@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, The Zammad Foundation
+# Copyright (C) 2021, The Zammad Foundation
 # This file is distributed under the same license as the Zammad (for Agents) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Natascha Kasun <nk@znuny.com>, 2018
-# J K <jk@znuny.com>, 2018
-# Marcel Herrguth <mh@zammad.com>, 2018
+# KieJo <jk@znuny.com>, 2019
+# Marcel Herrguth <mh@zammad.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
 "PO-Revision-Date: 2018-11-08 13:40+0000\n"
-"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2018\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,52 +33,69 @@ msgstr "Teilen der Arbeit an einem Ticket"
 
 #: ../../advanced/suggested-workflows.rst:9
 msgid ""
-"When a ticket is complex enough, it may require attention from more than one"
-" agent (or even more than one department!)."
+"Some tickets require attention from more than one agent (or even more than "
+"one department!). In these cases, there are three ways to assign the work to"
+" the right people:"
 msgstr ""
-"Wenn ein Ticket komplexer ist, kann es die Aufmerksamkeit von mehr als einem"
-" Agent (oder gar einer anderen Abteilung) erfordern."
+"Manche Tickets benötigen die Aufmerksamkeit von mehr als einen Agenten (oder"
+" gar einer ganzen Abteilung!). In diesen Fällen gibt es 3 Möglichkeiten die "
+"Arbeit an die richtigen Personen zu verteilen:"
 
 #: ../../advanced/suggested-workflows.rst:13
 msgid ""
-"In these cases, the simplest thing to do is usually just to **take turns "
-"working on the ticket**. (:doc:`Splitting tickets </advanced/ticket-"
-"actions/split>` is another option, best reserved for when a ticket really "
-"encompasses multiple problems, or when taking turns would needlessly block "
-"one agent’s progress.)"
+"If a ticket is really about two different problems, you can :doc:`split it "
+"in two </advanced/ticket-actions/split>`, then assign each ticket to its "
+"respective “group” (department)."
 msgstr ""
-"In diesen Fällen ist es am leichtesten, sich **beim Arbeiten abzuwechseln**."
-" (:doc:`Tickets zu splitten </advanced/ticket-actions/split>` ist eine "
-"andere Option, besonders wenn es mehrere verschiedene Probleme auf einmal "
-"gibt oder das abwechselnde Arbeiten den Fortschritt des einen Agenten "
-"blockieren würde.)"
+"Wenn ein Ticket 2 verschiedene Probleme behandelt, kannst du es :doc:`in "
+"zwei Tickets splitten </advanced/ticket-actions/split>`, und dann das "
+"jeweilige Ticket an die richtige “Gruppe” (Abteilung) zuweisen."
 
-#: ../../advanced/suggested-workflows.rst:23
+#: ../../advanced/suggested-workflows.rst:16
+msgid ""
+"If you’ve done all you can on a ticket and it’s now another agent’s (or "
+"department’s) responsibility, **reassign it** to a new owner (or group)."
+msgstr ""
+"Wenn dein Part am Ticket abgeschlossen ist und nun ein anderer Agent (oder "
+"Abteilung) verantwortlich ist, kannst du es einem Besitzer (oder Gruppe) "
+"**neu zuweisen**."
+
+#: ../../advanced/suggested-workflows.rst:19
+msgid ""
+"If you just need another agent’s input on something, you can **@mention** "
+"them. (And if *you* want to get notifications for *someone else’s* ticket, "
+"use the **subscribe button**.)"
+msgstr ""
+"Wenn du Unterstützung eines anderen Agenten benötigst, kannst du ihn "
+"**@erwähnen**. (Und wenn *du*  Benachrichtigungen über Tickets von *anderen "
+"Nutzern* haben möchtest, kannst du den **abonnieren Button** nutzen.)"
+
+#: ../../advanced/suggested-workflows.rst:24
+msgid "Reassigning tickets"
+msgstr "Neuzuweisen von Tickets"
+
+#: ../../advanced/suggested-workflows.rst:30
 msgid ""
 "Reassign a ticket (via the *Group* and *Owner* settings) to let colleagues "
 "know you’re done with your part."
 msgstr ""
-"Ordnen ein Ticket neu zu (über die Einstellungen *Gruppe* und *Besitzer*), "
-"um die Kollegen zu informieren, was Du bereits erledigt hast."
+"Ordne ein Ticket neu zu (über die Einstellungen *Gruppe* und *Besitzer*), um"
+" die Kollegen zu informieren, was Du bereits erledigt hast."
 
-#: ../../advanced/suggested-workflows.rst:27
-msgid "How it works"
-msgstr "So funktioniert es"
-
-#: ../../advanced/suggested-workflows.rst:29
+#: ../../advanced/suggested-workflows.rst:33
 msgid ""
 "Suppose a call comes into the sales department. A sales rep takes the call, "
 "creates a ticket, and looks up some prices for the customer. After recording"
 " his notes, the rep then decides that this ticket needs to be passed onto "
 "customer service."
 msgstr ""
-"Angenommen, ein Anruf kommt in der Verkaufsabteilung an. Ein "
+"Angenommen, ein Anruf geht in der Verkaufsabteilung ein. Ein "
 "Vertriebsmitarbeiter nimmt den Anruf entgegen, erstellt ein Ticket und sucht"
-" einige Preise für den Kunden heraus. Nach der Aufnahme seiner Notizen "
-"entscheidet der Mitarbeiter, dass dieses Ticket an den Kundenservice "
-"weitergeleitet werden muss."
+" bereits einige Preise für den Kunden heraus. Nach der Aufnahme seiner "
+"Notizen entscheidet der Mitarbeiter, dass dieses Ticket an den Kundenservice"
+" weitergeleitet werden muss."
 
-#: ../../advanced/suggested-workflows.rst:35
+#: ../../advanced/suggested-workflows.rst:39
 msgid ""
 "Our sales rep can simply un-assign himself has the **owner** of the ticket "
 "and re-assign the ticket to the Customer Service **group**. *All customer "
@@ -86,14 +103,92 @@ msgid ""
 "available agent can assign herself to pick up where the sales rep left off."
 msgstr ""
 "Unser Vertriebsmitarbeiter kann sich einfach als **Besitzer** austragen und "
-"dann das Ticket in die **Gruppe** des Kundensupports verschieben. *Alle Agenten "
-"des Kundensupports werden über das eingehende Ticket informiert* und der "
-"erste verfügbare Agent kann das Ticket übernehmen."
+"dann das Ticket in die **Gruppe** des Kundensupports verschieben. *Nun "
+"werden alle Agenten des Kundensupports über das eingehende Ticket "
+"informiert* und der erste verfügbare Agent kann sich dem Ticket annehmen."
 
-#: ../../advanced/suggested-workflows.rst:41
+#: ../../advanced/suggested-workflows.rst:45
 msgid ""
 "Be sure to leave notes with as much information as possible for the next "
 "agent!"
 msgstr ""
 "Achte darauf, dass die Notizen mit so vielen Informationen wie möglich für "
 "den nächsten Agenten hinterlassen werden!"
+
+#: ../../advanced/suggested-workflows.rst:48
+msgid "@mentions & the Subscribe Button"
+msgstr "@Erwähnungen und die Abonnieren Schaltfläche"
+
+#: ../../advanced/suggested-workflows.rst:50
+msgid ""
+"Now suppose you’ve reassigned the ticket to customer service. You won’t "
+"receive notifications for this ticket anymore, but maybe this is a really "
+"important contract, and you want to make sure they have an A+ experience "
+"from start to finish."
+msgstr ""
+"Nehmen wir an, du hast das Ticket an den Kunden-Service zugewiesen. Du "
+"erhältst nun keine weiteren Benachrichtigungen mehr, unter Umständen handelt"
+" es sich aber um einen sehr wichtigen Vertrag und du möchtest eine "
+"erstklassige Erfahrung für den Kunden sicherstellen."
+
+#: ../../advanced/suggested-workflows.rst:55
+msgid ""
+"To enable notifications for a ticket that doesn’t belong to you, simply "
+"click the **Subscribe** button at the bottom of the ticket pane:"
+msgstr ""
+"Um Benachrichtigungen zu Tickets zu aktivieren, die nicht länger dir "
+"gehören, kannst du ganz einfach die **Abonnieren** Schaltfläche unten in den"
+" Ticket-Einstellungen verwenden:"
+
+#: ../../advanced/suggested-workflows.rst:63
+msgid ""
+"A list of all tickets you’re subscribed to can be found in the **My "
+"mentioned Tickets** overview."
+msgstr ""
+"Alle abonnierten Tickets kannst du in der Übersicht **Meine abonnierten "
+"Tickets** finden."
+
+#: ../../advanced/suggested-workflows.rst:66
+msgid ""
+"Or, suppose you *don’t* want to reassign the ticket to customer service—you "
+"just have one quick question for them, and then you can take it from there."
+msgstr ""
+"Oder nehmen wir an, du möchtest das Ticket *nicht* an den Kunden-Service "
+"zuweisen—du hast nur eine kurze Rückfrage und machst dann weiter."
+
+#: ../../advanced/suggested-workflows.rst:69
+msgid ""
+"To start sending someone else notifications for your own ticket, type ``@@``"
+" in the message composer and select their name from the pop-up menu:"
+msgstr ""
+"Um anderen Benachrichtigungen für deine eigenen Tickets senden zu können, "
+"tippe ``@@`` im Artikel-Editor und wähle den Namen des betroffenen Agenten "
+"im Auswahlmenü:"
+
+#: ../../advanced/suggested-workflows.rst:77
+msgid ""
+"@mentioning a colleague in a message will automatically subscribe them to "
+"your ticket."
+msgstr ""
+"Das @Erwähnen von Kollegen in einer Nachricht abonniert diese automatisch am"
+" Ticket."
+
+#: ../../advanced/suggested-workflows.rst:80
+msgid ""
+"⚙️ Check your :doc:`/extras/profile-and-settings` to customize how you "
+"receive notifications."
+msgstr ""
+"⚙️ Prüfe deine :doc:`/extras/profile-and-settings` um Benachrichtigungen für"
+" Abonnements zu verwalten."
+
+#: ../../advanced/suggested-workflows.rst:83
+msgid "😖 **A colleague @mentioned me, but I don’t see the ticket!**"
+msgstr "😖 **Ein Kollege hat mich @erwähnt, ich sehe aber kein Ticket!**"
+
+#: ../../advanced/suggested-workflows.rst:85
+msgid ""
+"Is the ticket assigned to a group that you don’t belong to? @mentions and "
+"subscriptions only work for tickets that you already have access to."
+msgstr ""
+"Ist das Ticket einer Gruppe zugewiesen auf die du kein Zugriffsrecht hast? "
+"@Erwähnen und Abonnieren funktioniert nur bei Tickets die du lesen darfst."

@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, The Zammad Foundation
+# Copyright (C) 2021, The Zammad Foundation
 # This file is distributed under the same license as the Zammad (for Agents) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Natascha Kasun <nk@znuny.com>, 2018
-# Marcel Herrguth <mh@zammad.com>, 2019
 # KieJo <jk@znuny.com>, 2019
+# Arturo Sánchez Herrero <ash@zammad.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
 "PO-Revision-Date: 2018-11-08 13:39+0000\n"
-"Last-Translator: KieJo <jk@znuny.com>, 2019\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +39,7 @@ msgstr ""
 "In Zammad werden **Tickets** verwendet, um Anfragen von Kunden zu verfolgen."
 " Wenn ein Kunde Dir (oder Deiner Firma) zum ersten Mal eine E-Mail schickt, "
 "erstellt Zammad ein neues Ticket. Jede Nachricht zwischen Dir und dem Kunden"
-" wird diesem Ticket gespeichert, bis das Problem gelöst oder der Kunde "
+" wird in diesem Ticket gespeichert, bis das Problem gelöst oder der Kunde "
 "zufrieden ist und das Ticket schließlich **geschlossen** werden kann."
 
 #: ../../basics/what-is-a-ticket.rst:12
@@ -47,7 +48,7 @@ msgid ""
 "customer about a single issue**."
 msgstr ""
 "Im Grunde genommen ist ein Ticket also **eine Ansammlung von Nachrichten "
-"zwischen Dir und einem Kunden zu einem einzelnen Thema**."
+"zwischen Dir und einem Kunden zu einem einzelnen Vorgang**."
 
 #: ../../basics/what-is-a-ticket.rst:20
 msgid "A ticket is a thread of messages between a customer and an agent."
@@ -72,11 +73,11 @@ msgstr ""
 "👀 :doc:`Behalte das Dashboard im Auge </extras/dashboard>`, um zu sehen wie "
 "gut Du mithalten kannst."
 
-#: ../../basics/what-is-a-ticket.rst:30
+#: ../../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr "Ticket-Einstellungen"
 
-#: ../../basics/what-is-a-ticket.rst:32
+#: ../../basics/what-is-a-ticket.rst:34
 msgid ""
 "Tickets also have metadata attached to them to make them easier to manage. "
 "For instance, tickets have a customer and (optionally) an agent; they can be"
@@ -88,35 +89,35 @@ msgstr ""
 "offen oder geschlossen (oder für später markiert) sein; in Gruppen "
 "organisiert werden; und verschiedene Prioritäten besitzen."
 
-#: ../../basics/what-is-a-ticket.rst:38
+#: ../../basics/what-is-a-ticket.rst:40
 msgid ""
 "For the sake of simplicity, we’ll refer to this metadata as the **settings**"
 " of a ticket. All of these settings can be changed at any time. Each setting"
-" is explained in detail in the *Manage Ticket Settings* section, but for the"
-" time being, let’s go over the two most important ones:"
+" is explained in detail :doc:`here </basics/service-ticket/settings>`, but "
+"for the time being, let’s go over the two most important ones:"
 msgstr ""
-"Der Einfachheit halber bezeichnen wir die Metadaten als **Einstellungen** "
-"eines Tickets. Alle diese Einstellungen können jederzeit geändert werden. "
-"Jede Einstellung wird im Abschnitt **Ticketeinstellungen verwalten** "
-"ausführlich erläutert. Aber vorerst gehen wir auf die beiden wichtigsten "
-"ein:"
+"Der Einfachheit halber bezeichnen wir diese Metadaten als die "
+"**Einstellungen** eines Tickets. Alle diese Einstellungen können jederzeit "
+"geändert werden. Jede Einstellung wird :doc:`hier</basics/service-"
+"ticket/settings>` ausführlich erläutert. Aber gehen wir vorerst auf die "
+"Beiden wichtigsten ein: "
 
-#: ../../basics/what-is-a-ticket.rst:45
+#: ../../basics/what-is-a-ticket.rst:47
 msgid "Owner *(optional)*"
 msgstr "Besitzer *(optional)*"
 
-#: ../../basics/what-is-a-ticket.rst:45
+#: ../../basics/what-is-a-ticket.rst:47
 msgid ""
 "The **agent currently assigned to** (*i.e.,* responsible for) the ticket."
 msgstr ""
 "Der Agent, **der derzeit dem Ticket zugeordnet ist** (*d.h.* der dafür "
 "verantwortlich ist)"
 
-#: ../../basics/what-is-a-ticket.rst:49
+#: ../../basics/what-is-a-ticket.rst:51
 msgid "State"
 msgstr "Status"
 
-#: ../../basics/what-is-a-ticket.rst:48
+#: ../../basics/what-is-a-ticket.rst:50
 msgid ""
 "Is the customer still waiting on an answer (**open**), or has the ticket "
 "been resolved (**closed**)?"

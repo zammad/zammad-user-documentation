@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Arturo Sánchez Herrero <ash@zammad.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
+"PO-Revision-Date: 2020-06-19 11:45+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../extras/secure-email.rst:2
+msgid "Secure Email"
+msgstr "Sichere E-Mail"
+
+#: ../../extras/secure-email.rst:4
+msgid "Zammad supports S/MIME for high-security email communication."
+msgstr ""
+"Zammad unterstützt S/MIME für besonders sichere E-Mail Kommunikation. "
+
+#: ../../extras/secure-email.rst:11 ../../extras/secure-email.rst:79
+msgid ""
+"Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and "
+"signing for outgoing emails."
+msgstr ""
+"Verwende die 🔒 **Verschlüsseln** und ✅ **Signieren** Schaltflächen um die "
+"Verschlüsselung und das Signieren von ausgehenden Mails einzuschalten. "
+
+#: ../../extras/secure-email.rst:13
+msgid ""
+"**🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...**"
+msgstr ""
+"**🤔 Hm? Ich sehe keine “Signieren” oder “Verschlüsseln” -Schaltflächen in "
+"der Ticket-Ansicht...**"
+
+#: ../../extras/secure-email.rst:15
+msgid ""
+"This feature is **optional**; if you don’t see it in the ticket composer, "
+"that means your administrator hasn’t enabled it yet. Administrators can "
+"learn more `here <https://admin-"
+"docs.zammad.org/en/latest/system/integrations/smime.html>`_."
+msgstr ""
+"Diese Funktion ist **optional**; wenn du sie bei der Ticket Bearbeitung "
+"nicht siehst, bedeutet das, dass dein Administrator sie noch nicht aktiviert"
+" hat. Administratoren können `hier <https://admin-"
+"docs.zammad.org/en/latest/system/integrations/smime.html>`_ mehr erfahren. "
+
+#: ../../extras/secure-email.rst:22
+msgid "What is S/MIME?"
+msgstr "Was ist S/MIME?"
+
+#: ../../extras/secure-email.rst:24
+msgid ""
+"S/MIME is the most widely-supported method for secure email communication. "
+"With S/MIME, you can exchange **signed** and **encrypted** messages with "
+"others."
+msgstr ""
+"S/MIME ist die am weitesten verbreitete Methode für sichere E-Mail-"
+"Kommunikation. Mit S/MIME kannst du **signierte** und **verschlüsselte** "
+"Nachrichten mit anderen austauschen. "
+
+#: ../../extras/secure-email.rst:30
+msgid "Signing"
+msgstr "Signieren"
+
+#: ../../extras/secure-email.rst:28
+msgid ""
+"is proof that a message hasn’t been tampered with or sent by an "
+"impersonator."
+msgstr ""
+"beweist dass eine Nachricht nicht manipuliert oder von einem Imitator "
+"gesendet wurde. "
+
+#: ../../extras/secure-email.rst:30
+msgid ""
+"In other words, it guarantees a message’s **integrity** and "
+"**authenticity**."
+msgstr ""
+"Mit anderen Worten, es garantiert die **Integrität** und **Authentizität** "
+"einer Nachricht. "
+
+#: ../../extras/secure-email.rst:35
+msgid "Encryption"
+msgstr "Verschlüsselung"
+
+#: ../../extras/secure-email.rst:33
+msgid ""
+"scrambles a message so that it can only be unscrambled by the intended "
+"recipient."
+msgstr ""
+"verschlüsselt eine Nachricht so, dass sie nur vom gewünschten Empfänger "
+"entschlüsselt werden kann. "
+
+#: ../../extras/secure-email.rst:35
+msgid "In other words, it guarantees **privacy** and **data security**."
+msgstr ""
+"Mit anderen Worten, es garantiert **Privatsphäre** und **Datensicherheit**. "
+
+#: ../../extras/secure-email.rst:38
+msgid "Overview"
+msgstr "Übersicht"
+
+#: ../../extras/secure-email.rst:40
+msgid "🤝 **S/MIME only works if the other party is using it, too.**"
+msgstr "🤝 **S/MIME funktioniert nur, wenn das Gegenüber es auch benutzt.** "
+
+#: ../../extras/secure-email.rst:42
+msgid ""
+"Your administrator is responsible for adding all the necessary certificates "
+"in Zammad’s admin panel."
+msgstr ""
+"Dein Administrator ist für das Hinzufügen aller erforderlichen Zertifikate "
+"in Zammads Admin-Oberfläche verantwortlich. "
+
+#: ../../extras/secure-email.rst:46 ../../extras/secure-email.rst:128
+msgid "📬 Incoming"
+msgstr "📬 Eingehend"
+
+#: ../../extras/secure-email.rst:48
+msgid "The 🔒 and ✅ icons at the top of a message indicate its S/MIME status."
+msgstr ""
+"Die Symbole 🔒 und ✅ am oberen Rand einer Nachricht zeigen ihren S/MIME "
+"Status an."
+
+#: ../../extras/secure-email.rst:55
+msgid ""
+"Click on an incoming message to expand its details. Hover over the security "
+"status to show a certificate/CA summary."
+msgstr ""
+"Klicke auf eine eingehende Nachricht, um ihre Details sichtbar zu machen. "
+"Fahre mit der Maus über den Sicherheitsstatus, um eine Zusammenfassung des "
+"Zertifikates/CA zu sehen. "
+
+#: ../../extras/secure-email.rst:58
+msgid "Status Icons (Incoming)"
+msgstr "Status Symbole (Eingehend)"
+
+#: ../../extras/secure-email.rst:61 ../../extras/secure-email.rst:95
+msgid "|lock|"
+msgstr "|lock|"
+
+#: ../../extras/secure-email.rst:62
+msgid "This message was **encrypted for you**."
+msgstr "Diese Nachricht wurde **für Dich verschlüsselt**."
+
+#: ../../extras/secure-email.rst:64
+msgid ""
+"Even if it was intercepted by a third party (hacker, gov’t agency, etc.), "
+"they won’t be able to read it."
+msgstr ""
+"Selbst wenn sie von einer dritten Partei (Hacker, Regierungsbehörde usw.) "
+"abgefangen würde, würden diese sie nicht lesen können. "
+
+#: ../../extras/secure-email.rst:66 ../../extras/secure-email.rst:100
+msgid "|open-lock|"
+msgstr "|open-lock|"
+
+#: ../../extras/secure-email.rst:67
+msgid "This message is **not encrypted**."
+msgstr "Diese Nachricht ist **nicht verschlüsselt**. "
+
+#: ../../extras/secure-email.rst:68 ../../extras/secure-email.rst:102
+msgid "|signed|"
+msgstr "|signed|"
+
+#: ../../extras/secure-email.rst:69
+msgid "This message’s signature has been **successfully verified**."
+msgstr "Die Signatur dieser Nachricht wurde **erfolgreich verifiziert**."
+
+#: ../../extras/secure-email.rst:71
+msgid ""
+"You can be confident that it’s authentic and that the contents have not been"
+" modified."
+msgstr ""
+"Du kannst sicher sein, dass dies authentisch ist und dass der Inhalt nicht "
+"verändert wurde. "
+
+#: ../../extras/secure-email.rst:73 ../../extras/secure-email.rst:107
+msgid "|not-signed|"
+msgstr "|not-signed|"
+
+#: ../../extras/secure-email.rst:74
+msgid "This message is **not signed**."
+msgstr "Diese Nachricht ist **nicht signiert**."
+
+#: ../../extras/secure-email.rst:77 ../../extras/secure-email.rst:162
+msgid "📮 Outgoing"
+msgstr "📮 Ausgehend"
+
+#: ../../extras/secure-email.rst:82
+msgid "Outgoing emails can only be encrypted for *a single recipient*."
+msgstr ""
+"Ausgehende E-Mails können nur für *einen einzelnen Empfänger* verschlüsselt "
+"werden. "
+
+#: ../../extras/secure-email.rst:89
+msgid ""
+"🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
+"replies. Hover over the buttons to show a certificate/CA summary."
+msgstr ""
+"🔒 **Verschlüsseln** und ✅ **Signieren** sind sowohl bei neuen Tickets, als "
+"auch Antworten auf Tickets vorhanden. Fahre mit der Maus über die "
+"Schaltflächen, um ein Zertifikat/eine CA-Zusammenfassung anzuzeigen. "
+
+#: ../../extras/secure-email.rst:92
+msgid "Status Icons (Outgoing)"
+msgstr "Status-Symbole (Ausgehend)"
+
+#: ../../extras/secure-email.rst:96
+msgid "This message **will be encrypted**."
+msgstr "Diese Nachricht **wird verschlüsselt**."
+
+#: ../../extras/secure-email.rst:98
+msgid ""
+"Even if it’s intercepted by a third party (hacker, gov’t agency, etc.), they"
+" won’t be able to read it."
+msgstr ""
+"Selbst wenn die Nachricht von einer dritten Partei (Hacker, "
+"Regierungsbehörde usw.) abgefangen wird, werden sie nicht in der Lage sein "
+"sie zu lesen. "
+
+#: ../../extras/secure-email.rst:101
+msgid "This message **will not be encrypted**."
+msgstr "Diese Nachricht **wird nicht verschlüsselt**. "
+
+#: ../../extras/secure-email.rst:103
+msgid "This message **will be signed**."
+msgstr "Diese Nachricht **wird signiert**."
+
+#: ../../extras/secure-email.rst:105
+msgid ""
+"Recipients using S/MIME can verify that it came from you and that the "
+"contents have not been modified."
+msgstr ""
+"Empfänger, die S/MIME verwenden, können bestätigen, dass sie von dir stammt "
+"und dass der Inhalt nicht verändert wurde. "
+
+#: ../../extras/secure-email.rst:108
+msgid "This message **will not be signed**."
+msgstr "Diese Nachricht **wird nicht signiert**. "
+
+#: ../../extras/secure-email.rst:125
+msgid "Troubleshooting"
+msgstr "Fehlerbehebung"
+
+#: ../../extras/secure-email.rst:143
+msgid "“Sign: Unable to find certificate for validation”"
+msgstr "\"Signieren: Zertifikat für Validierung nicht auffindbar\""
+
+#: ../../extras/secure-email.rst:135
+msgid ""
+"Without the sender’s certificate, Zammad cannot verify the message "
+"signature."
+msgstr ""
+"Ohne das Zertifikat des Absenders kann Zammad die Signatur der Nachricht "
+"nicht überprüfen. "
+
+#: ../../extras/secure-email.rst:137
+msgid ""
+"Ask your administrator to add the sender’s certificate to Zammad’s "
+"certificate store."
+msgstr ""
+"Bitte Deinen Administrator, das Zertifikat des Absenders zu Zammads "
+"Zertifikatsspeicher hinzuzufügen. "
+
+#: ../../extras/secure-email.rst:139
+msgid "🕵️ **ALWAYS verify certificates in-person or over the phone!**"
+msgstr "🕵️ **IMMER die Zertifikate persönlich oder telefonisch überprüfen!** "
+
+#: ../../extras/secure-email.rst:141
+msgid ""
+"The whole point of signature verification is to alert you when someone is "
+"trying to pretend to be someone they’re not. Never accept a certificate from"
+" someone online without verifying it first."
+msgstr ""
+"Der ganze Sinn der Signaturprüfung besteht darin, dich zu warnen, wenn "
+"jemand versucht, sich als jemand auszugeben, der er nicht ist. Akzeptiere "
+"niemals ein Zertifikat von jemandem online, ohne es vorher zu verifizieren. "
+
+#: ../../extras/secure-email.rst:159
+msgid "“Encryption: Unable to find private key to decrypt”"
+msgstr ""
+"\"Verschlüsselung: Kann keinen privaten Schlüssel zum Entschlüsseln finden\""
+
+#: ../../extras/secure-email.rst:150
+msgid ""
+"This message was encrypted with a certificate that does not match any on "
+"file. Without a matching private key, Zammad cannot decrypt the message."
+msgstr ""
+"Diese Nachricht wurde mit einem Zertifikat verschlüsselt, das mit keinem der"
+" hinterlegten übereinstimmt. Ohne einen passenden privaten Schlüssel, kann "
+"Zammad die Nachricht nicht entschlüsseln. "
+
+#: ../../extras/secure-email.rst:153
+msgid ""
+"Ask your administrator to verify your organization’s private key in Zammad’s"
+" certificate store, and ask the sender to double-check the public key they "
+"used to encrypt the message."
+msgstr ""
+"Bitte deinen Administrator, den privaten Schlüssel deiner Organisation im "
+"Zertifikatsspeicher von Zammad zu verifizieren, und bitte den Absender, den "
+"öffentlichen Schlüssel, den er zur Verschlüsselung der Nachricht verwendet "
+"hat, doppelt zu überprüfen. "
+
+#: ../../extras/secure-email.rst:156
+msgid "📢 **Your public key can be safely shared with anyone.**"
+msgstr "📢 **Du kannst Deinen öffentlichen Schüssel sicher mit jedem teilen.**"
+
+#: ../../extras/secure-email.rst:158
+msgid ""
+"(But if they’re smart, they’ll take extra precautions to make sure it really"
+" belongs to you.)"
+msgstr ""
+"(Aber wenn sie klug sind, treffen sie zusätzliche Vorkehrungen um sicher zu "
+"stellen, dass er wirklich dir gehört)."
+
+#: ../../extras/secure-email.rst:165
+msgid "The 🔒 **Encrypt** button is disabled"
+msgstr "Die 🔒 **Verschlüsseln**-Schaltfläche ist deaktiviert"
+
+#: ../../extras/secure-email.rst:165
+msgid ""
+"Ask your administrator to add the recipient’s certificate to Zammad’s "
+"certificate store."
+msgstr ""
+"Bitte Deinen Administrator, das Zertifikat des Empfängers dem "
+"Zertifikatsspeicher von Zammad hinzuzufügen.  "
+
+#: ../../extras/secure-email.rst:167
+msgid "The ✅ **Sign** button is disabled"
+msgstr "Die ✅ **Signieren**-Schaltfläche ist deaktiviert. "
+
+#: ../../extras/secure-email.rst:168
+msgid ""
+"Ask your administrator to verify your organization’s private key in Zammad’s"
+" certificate store."
+msgstr ""
+"Bitte Deinen Administrator, den privaten Schlüssel Deiner Organisation im "
+"Zertifikatsspeicher von Zammad zu überprüfen. "

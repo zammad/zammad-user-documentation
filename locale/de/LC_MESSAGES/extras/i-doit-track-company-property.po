@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, The Zammad Foundation
+# This file is distributed under the same license as the Zammad (for Agents) package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Marcel Herrguth <mh@zammad.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zammad (for Agents)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
+"PO-Revision-Date: 2020-10-07 14:44+0000\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
+"Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../extras/i-doit-track-company-property.rst:2
+msgid "i-doit: Use Tickets to Track Company Property"
+msgstr "i-doit: Benutzer Tickets um Unternehmen-Assets zu tracken"
+
+#: ../../extras/i-doit-track-company-property.rst:4
+msgid ""
+"With `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
+"pieces of your company’s property are related to any given ticket. That "
+"includes both physical and digital infrastructure, from servers to meeting "
+"rooms to virtual machines to software licenses."
+msgstr ""
+"Mit der `i-doit <https://www.i-doit.com/>`_ Integration kannst du "
+"Zusammenhänge zwischen Tickets und deinen Assets schaffen. Das betrifft "
+"beides, physische und digitale Infrastruktur: Von Servern über Meeting-Räume"
+" über virtuelle Maschinen bis hin zu Software-Lizenzen."
+
+#: ../../extras/i-doit-track-company-property.rst:15
+msgid ""
+"Use the 🖨 **printer** tab to view or manage a ticket’s assets from i-doit."
+msgstr ""
+"Benutze das 🖨 **Drucker** Tab um Ticket Assets von i-doit sehen oder "
+"verwalten zu können."
+
+#: ../../extras/i-doit-track-company-property.rst:17
+msgid "**🤔 Huh? I don’t see a 🖨 printer tab...**"
+msgstr "**🤔 Hm? Ich sehe kein 🖨 Drucker Tab...**"
+
+#: ../../extras/i-doit-track-company-property.rst:19
+msgid ""
+"This feature is **optional**; if you don’t see it in the ticket view, that "
+"means your administrator hasn’t enabled it yet. Administrators can learn "
+"more `here <https://admin-"
+"docs.zammad.org/en/latest/system/integrations/i-doit.html>`_."
+msgstr ""
+"Diese Funktion ist **optional**; wenn du sie in der Ticket-Ansicht nicht "
+"sehen kannst bedeutet das, dass dein Administrator sie noch nicht aktiviert "
+"hat. Administratoren können `hier <https://admin-"
+"docs.zammad.org/en/latest/system/integrations/i-doit.html>`_ mehr erfahren."
+
+#: ../../extras/i-doit-track-company-property.rst:26
+msgid "Why?"
+msgstr "Warum?"
+
+#: ../../extras/i-doit-track-company-property.rst:28
+msgid ""
+"i-doit can help you keep track of troublesome equipment and find previous "
+"tickets from the last time something went wrong with it."
+msgstr ""
+"i-doit kann dir helfen problematisches Equipment im Blick zu haben und "
+"vorhergehende Tickets zu finden, als das letzte Mal etwas nicht damit "
+"stimmte."
+
+#: ../../extras/i-doit-track-company-property.rst:31
+msgid ""
+"It’s also a great way to document quirks in the company’s belongings: Why "
+"haven’t we upgraded this system from Windows Vista yet? What did we decide "
+"to do about that faulty network switch? And why does the coffee maker keep "
+"shutting off before it’s finished? 🤬"
+msgstr ""
+"Es ist außerdem eine gute Art \"Macken\" vom Hab und Gut des Unternehmens zu"
+" dokumentieren: Warum haben wir das Windows Vista-System noch nicht "
+"aktualisiert? Wie haben wir uns bzgl. des defekten Network-Switches "
+"entschieden? Und warum schaltet die Kaffeemaschine laufend ab, bevor sie "
+"fertig ist? 🤬"
+
+#: ../../extras/i-doit-track-company-property.rst:37
+msgid "So How Does It Work?"
+msgstr "Wie es funktioniert?"
+
+#: ../../extras/i-doit-track-company-property.rst:39
+msgid "👨‍💻 **New to i-doit?**"
+msgstr "👨‍💻 **i-doit ist neu für dich?**"
+
+#: ../../extras/i-doit-track-company-property.rst:41
+msgid ""
+"Ask your administrator / IT personnel to give you a tour—otherwise, the "
+"directions below might not make much sense. (And if your organization isn’t "
+"already using i-doit, this guide is not for you.)"
+msgstr ""
+"Bitte deinen Administrator / Kollegen der IT um eine Tour—andernfalls kannst"
+" du mit den Schritten unten unter Umständen nicht viel anfangen. (Wenn dein "
+"Unternehmen i-doit noch nicht einsetzt, hilft dir dieser Guide nicht "
+"weiter.)"
+
+#: ../../extras/i-doit-track-company-property.rst:47
+msgid "In Zammad: Link i-doit assets to tickets"
+msgstr "In Zammad: i-doit Assets mit Tickets verknüpfen"
+
+#: ../../extras/i-doit-track-company-property.rst:49
+msgid "First, add i-doit assets to a ticket in the ticket pane:"
+msgstr ""
+"Verknüpfe zuerst ein Asset mit dem Ticket über die Ticket-Einstellungen:"
+
+#: ../../extras/i-doit-track-company-property.rst:55
+msgid ""
+"Select **🖨 > i-doit > Change Objects**, then filter by category and/or name."
+msgstr ""
+"Wähle **🖨 > i-doit > Objekte ändern**, filtere anschließend nach Kategorie "
+"und/oder Name."
+
+#: ../../extras/i-doit-track-company-property.rst:57
+msgid ""
+"Once assets have been linked to a ticket, they can be accessed directly from"
+" the ticket view:"
+msgstr ""
+"Sobald ein Asset mit dem Ticket verknüpft wurde, kann es direkt in den "
+"Ticket-Einstellungen genutzt werden:"
+
+#: ../../extras/i-doit-track-company-property.rst:63
+msgid "Click on a linked asset in the ticket pane to open its page in i-doit."
+msgstr ""
+"Klicke auf ein verknüpftes Asset in den Ticket-Einstellungen, um es direkt "
+"in i-doit zu öffnen."
+
+#: ../../extras/i-doit-track-company-property.rst:66
+msgid "In i-doit: List & create tickets for a given asset"
+msgstr ""
+"In i-doit: Auflisten und erstellen von Tickets für das betroffene Asset"
+
+#: ../../extras/i-doit-track-company-property.rst:68
+msgid ""
+"Your i-doit control panel should contain a list of all the tickets "
+"associated with each asset:"
+msgstr ""
+"Deine i-doit Oberfläche sollte eine Liste von allen verknüpften Tickets je "
+"Asset anzeigen:"
+
+#: ../../extras/i-doit-track-company-property.rst:75
+msgid ""
+"Click the 💬 in the toolbar to list an asset’s tickets. Use the **🔗 Open in "
+"ticketsystem** button to open the ticket in Zammad."
+msgstr ""
+"Klicke in der Toolbar auf 💬 um die Tickets des Assets auflisten zu können. "
+"Benutze die **🔗 Im Ticketsystem öffnen** Schaltfläche, um das Ticket in "
+"Zammad zu öffnen."
+
+#: ../../extras/i-doit-track-company-property.rst:78
+msgid ""
+"You can even launch Zammad’s new ticket dialog directly from i-doit, with "
+"the asset already linked for you:"
+msgstr ""
+"Du kannst außerdem den \"Neues Ticket\" Dialog von Zammad direkt aus i-doit "
+"heraus auslösen, das Asset wird automatisch für dich verlinkt:"
+
+#: ../../extras/i-doit-track-company-property.rst:85
+msgid ""
+"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
+"pre-linked ticket dialog."
+msgstr ""
+"Benutze die **📄 Ticket erstellen** Schaltfläche in der Asset-Liste, um einen"
+" neuen, vor-verknüpften Ticket-Dialog zu starten."

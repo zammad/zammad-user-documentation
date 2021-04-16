@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, The Zammad Foundation
+# Copyright (C) 2021, The Zammad Foundation
 # This file is distributed under the same license as the Zammad (for Agents) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marcel Herrguth <mh@zammad.com>, 2018
-# J K <jk@znuny.com>, 2019
+# KieJo <jk@znuny.com>, 2019
+# Marcel Herrguth <mh@zammad.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
 "PO-Revision-Date: 2018-11-08 13:40+0000\n"
-"Last-Translator: J K <jk@znuny.com>, 2019\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,31 +31,31 @@ msgid "View and manage call logs from the **phone** panel."
 msgstr ""
 "Anzeigen und Verwalten von Anrufprotokollen über das **Telefon**-Fenster."
 
-#: ../../extras/caller-log.rst:6
-msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
-msgstr "**🤔 Huch? Ich sehe \"Telefon\" nicht im Menü...**"
-
-#: ../../extras/caller-log.rst:8
-msgid ""
-"This feature is **optional**; if you don’t see it in the main menu, that "
-"means it’s not enabled yet. See the `admin documentation <https://admin-"
-"docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-"
-"systems>`_ for details."
-msgstr ""
-"Diese Funktion ist **optional**, wenn Du dies nicht im Menü sehen kannst, "
-"bedeutet das, dass es noch nicht aktiviert wurde. Konsultiere unsere `Admin "
-"Dokumentation <https://admin-docs.zammad.org/en/latest/system-"
-"integrations.html#integrations-for-phone-systems>`_ für weitere "
-"Informationen."
-
-#: ../../extras/caller-log.rst:15
+#: ../../extras/caller-log.rst:10
 msgid ""
 "Enable the **Phone** panel to receive notifications for incoming calls."
 msgstr ""
 "Aktiviere das Feld **Telefon** , um Benachrichtigungen über eingehende "
 "Anrufe zu erhalten."
 
-#: ../../extras/caller-log.rst:18
+#: ../../extras/caller-log.rst:12
+msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
+msgstr "**🤔 Huch? Ich sehe \"Telefon\" nicht im Menü...**"
+
+#: ../../extras/caller-log.rst:14
+msgid ""
+"This feature is **optional**; if you don’t see it in the main menu, that "
+"means your administrator hasn’t enabled it yet. Administrators can learn "
+"more `here <https://admin-docs.zammad.org/en/latest/system-integrations.html"
+"#integrations-for-phone-systems>`_."
+msgstr ""
+"Diese Funktion ist **optional**. Wenn Du Sie nicht sehe in der Navigation "
+"nicht sehen kanns, bedeutet das, dass Dein Administrator diese noch nicht "
+"aktiviert hat. Administratoren können `hier <https://admin-"
+"docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-"
+"systems>`_ mehr erfahren."
+
+#: ../../extras/caller-log.rst:21
 msgid ""
 "🏢 The caller log shows all incoming and outgoing calls **for the entire "
 "team**."
@@ -63,11 +63,11 @@ msgstr ""
 "🏢 Das Anrufprotokoll zeigt alle ein- und ausgehenden Anrufe **des gesamten "
 "Teams** an."
 
-#: ../../extras/caller-log.rst:22
+#: ../../extras/caller-log.rst:25
 msgid ""
-"👤 Click on unrecognized numbers in the caller log to **create a new "
-"customer and ticket**. (Unrecognized phone numbers cannot be added to "
-"existing customers in this way.)"
+"👤 Click on unrecognized numbers in the caller log to **create a new customer"
+" and ticket**. (Unrecognized phone numbers cannot be added to existing "
+"customers in this way.)"
 msgstr ""
 "👤 Klicke auf nicht erfasste Nummern im Anruferprotokoll, um **einen neuen "
 "Kunden und ein neues Ticket anzulegen**. (Nicht erfasste Telefonnummern "

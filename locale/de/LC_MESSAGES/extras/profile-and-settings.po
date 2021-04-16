@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, The Zammad Foundation
+# Copyright (C) 2021, The Zammad Foundation
 # This file is distributed under the same license as the Zammad (for Agents) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marcel Herrguth <mh@zammad.com>, 2019
 # KieJo <jk@znuny.com>, 2019
+# Arturo Sánchez Herrero <ash@zammad.com>, 2020
+# Marcel Herrguth <mh@zammad.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-03 15:12+0100\n"
+"POT-Creation-Date: 2021-04-13 16:02+0200\n"
 "PO-Revision-Date: 2018-11-08 13:40+0000\n"
-"Last-Translator: KieJo <jk@znuny.com>, 2019\n"
+"Last-Translator: Marcel Herrguth <mh@zammad.com>, 2021\n"
 "Language-Team: German (https://www.transifex.com/zammad/teams/73964/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,21 +99,35 @@ msgstr ""
 msgid "Internal notifications cannot be disabled."
 msgstr "Interne Benachrichtigungen können nicht deaktiviert werden."
 
-#: ../../extras/profile-and-settings.rst:48
+#: ../../extras/profile-and-settings.rst:51
 msgid ""
-"Consult the `admin documentation <https://admin-docs.zammad.org/en/latest"
-"/manage-trigger.html#other-notifications>`_ for details on how to customize "
-"these email notifications."
+"By default, you will receive notifications for all tickets on every group "
+"you belong to—even for tickets that are assigned to other agents. Use the "
+"**Limit Groups** box to disable such notifications on a per-group basis. "
+"(You will continue to receive notifications for your own tickets.)"
 msgstr ""
-"Konsultiere die `Admin-Dokumentation <https://admin-"
-"docs.zammad.org/en/latest/manage-trigger.html#other-notifications>`_ für "
-"weitere Details zur Anpassung dieser E-Mail-Benachrichtigungen."
+"Standardmäßig erhältst Du Benachrichtigungen für alle Tickets für jede "
+"Gruppe, der Du angehörst - auch für Tickets, die anderen Agenten zugewiesen "
+"sind. Verwende as Feld **Gruppen einschränken**, um Benachrichtigungen für "
+"Gruppen einzeln zu deaktivieren. (Du wirst weiterhin Benachrichtigungen für "
+"Deine eigenen Tickets erhalten)."
+
+#: ../../extras/profile-and-settings.rst:56
+msgid ""
+"The contents of these email notifications can be customized on self-hosted "
+"installations. Administrators can learn more `here <https://admin-"
+"docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_."
+msgstr ""
+"Der Inhalt dieser E-Mail-Benachrichtigungen kann bei selbst gehosteten "
+"Installationen angepasst werden. Administratoren können `hier <https"
+"://admin-docs.zammad.org/en/latest/manage/trigger/system-"
+"notifications.html>`_ mehr erfahren. "
 
 #: ../../extras/profile-and-settings.rst:0
 msgid "Out of Office"
 msgstr "Abwesenheit"
 
-#: ../../extras/profile-and-settings.rst:53
+#: ../../extras/profile-and-settings.rst:63
 msgid ""
 "Schedule out-of-office periods in advance, and designate a substitute to "
 "handle your tickets while you’re gone."
@@ -120,7 +135,7 @@ msgstr ""
 "Plane Abwesenheiten im Voraus und benenne einen Vertreter, der Deine Tickets"
 " bearbeitet, während Du weg bist."
 
-#: ../../extras/profile-and-settings.rst:56
+#: ../../extras/profile-and-settings.rst:66
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
@@ -131,7 +146,7 @@ msgstr ""
 ":doc:`Übersicht</basics/find-ticket/browse>`, um den Überblick über Deine "
 "Tickets zu behalten."
 
-#: ../../extras/profile-and-settings.rst:60
+#: ../../extras/profile-and-settings.rst:70
 msgid ""
 "🔔 You **will** continue to receive notifications while you are out-of-"
 "office!"
@@ -143,7 +158,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Kalender"
 
-#: ../../extras/profile-and-settings.rst:65
+#: ../../extras/profile-and-settings.rst:75
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this settings panel."
@@ -155,7 +170,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Geräte"
 
-#: ../../extras/profile-and-settings.rst:70
+#: ../../extras/profile-and-settings.rst:80
 msgid ""
 "See a list of all devices logged in to your Zammad account (and revoke "
 "access, if necessary)."
@@ -167,7 +182,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token Zugriff"
 
-#: ../../extras/profile-and-settings.rst:75
+#: ../../extras/profile-and-settings.rst:85
 msgid ""
 "Generate personal access tokens for third-party applications to use the "
 "Zammad API."
@@ -175,7 +190,7 @@ msgstr ""
 "Generiere einen persönlichen Access Token für jede Anwendung welche auf die "
 "Zammad API zugreifen soll."
 
-#: ../../extras/profile-and-settings.rst:78
+#: ../../extras/profile-and-settings.rst:88
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -189,7 +204,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
-#: ../../extras/profile-and-settings.rst:84
+#: ../../extras/profile-and-settings.rst:94
 msgid ""
 "See a list of third-party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
