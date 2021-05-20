@@ -42,4 +42,3 @@ Zammad Agent Documentation
    /extras/profile-and-settings
    /extras/knowledge-base
    /extras/i-doit-track-company-property
-   /extras/github-gitlab-integration

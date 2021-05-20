@@ -20,19 +20,6 @@ with ``()`` and ``AND``/``OR`` options::
 
    state.name: open AND (article.from:me OR article.from:somebody)
 
-.. note:: **🤓 Search phrases changed for Zammad 4.0**
-
-   With Zammad <=3.6 the following keys contained a string only: 
-
-      * group
-      * priority
-      * state
-      * organization
-
-   With Zammad >=4.0 these keys contain the whole object. This means you 
-   now have to add ``.name`` (e. g. ``group.name`` or ``priority.name``) 
-   to receive the same search results.
-
 
 Available attributes
 --------------------
