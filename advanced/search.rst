@@ -40,7 +40,8 @@ Available attributes
 .. hint:: 
 
    For a more detailed list of available attributes please take a look into our 
-   `Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install-elasticsearch.html#list-of-values-which-are-stored-in-elasticsearch>`_ 
+   `Zammad Admin-Documentation 
+   <https://docs.zammad.org/en/latest/install/elasticsearch/indexed-attributes.html>`_ 
 
 
 .. |br| raw:: html
