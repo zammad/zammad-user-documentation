@@ -12,6 +12,7 @@ author = u'The Zammad Foundation'
 source_suffix = '.rst'
 master_doc = 'index'
 exclude_patterns = ['_build', 'html', 'doctrees']
+extensions = ['versionwarning.extension']
 
 locale_dirs = ['locale/']
 gettext_compact = False
@@ -23,15 +24,53 @@ html_static_path = ['_static']
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:  # only import and set the theme if we're building docs locally
-    # Override default css to solve issues (e.g. width, overflows)
-    def setup(app):
-        app.add_css_file('theme/theme_overrides.css')
+   # Override default css to solve issues (e.g. width, overflows)
+   def setup(app):
+      app.add_css_file('theme/theme_overrides.css')
+
+   # We're running outside of readthedocs and expect the compiled version to 
+   # be a pre release
+   branch = 'pre-release'
+
 else:
-    # Override default css to solve issues (e.g. width, overflows)
-    html_context = {
-        'css_files': [
-            'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
-            'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-            '_static/theme/theme_overrides.css'
-        ],
-    }
+   # Override default css to solve issues (e.g. width, overflows)
+   html_context = {
+      'css_files': [
+         'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
+         'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
+         '_static/theme/theme_overrides.css'
+      ],
+   }
+
+   # Get current version we're on for possible version warning
+   version = os.environ.get('READTHEDOCS_VERSION')
+
+   # If we're **not on latest**, we'll display a deprecation warning.
+   if version == 'latest':
+      branch = version
+   else:
+      branch = "old-version"
+
+# Default definitions for this documentations version warnings if applicable
+# https://sphinx-version-warning.readthedocs.io/en/latest/configuration.html
+versionwarning_project_slug = "zammad-admin-documentation"
+versionwarning_admonition_type = "warning"
+versionwarning_project_version = branch
+versionwarning_body_selector = "div.document"
+
+versionwarning_messages = {
+   "pre-release": (
+      "You're viewing a <strong>pre-release</strong> version of this "
+      "documentation! If you want to see the stable, current version of "
+      "this documentation, please see "
+      '<a href="https://user-docs.zammad.org/en/latest/" '
+      'title="current documentation version">here</a>.'
+   ),
+   "old-version": (
+      "You're viewing a <strong>deprecated</strong> version of Zammads "
+      "documentation. If you're still running that version, please consider "
+      '<a href="https://docs.zammad.org/en/latest/install/update.html" '
+      'title="Updating Zammad">Updating Zammad</a> asap.'
+      "If you're a hosted user, please contact support."
+   ),
+}
