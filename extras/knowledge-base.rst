@@ -17,7 +17,7 @@ Manage, edit, and reorganize knowledge base articles from the **knowledge base**
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
    Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/manage-knowledge-base.html>`_.
+   `here <https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html>`_.
 
 Getting Started
 ---------------
