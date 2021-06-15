@@ -69,3 +69,7 @@ To apply a macro to many tickets at the same time:
    
    When running it from the overviews page, Zammad will always stay on the
    overviews page.
+
+   ⚠️ **Macro limit:** In the overview page, the macros that shows up have limit
+   depending on the screen size, however, as much as 20 macros could show no
+   matter the screen size.
