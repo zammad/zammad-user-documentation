@@ -26,33 +26,7 @@ menu area. These are your **open tabs.**
 
    * :doc:`Ticket states </basics/service-ticket/settings/state>` are **color-coded:**
 
-     +-------+----------------------------------------------------+
-     | |grn| | **Closed**                                         |
-     +-------+----------------------------------------------------+
-     | |blk| | **Postponed**                                      |
-     |       | (Marked as pending; no immediate action required.) |
-     +-------+----------------------------------------------------+
-     | |ylw| | **New / Open** (Ready for action.)                 |
-     +-------+----------------------------------------------------+
-     | |red| | **Escalated**                                      |
-     |       | (Requires urgent attention.)                       |
-     +-------+----------------------------------------------------+
-
-     .. |grn| raw:: html
-
-        <div class="zammad-state-circle border-green"></div>
-
-     .. |blk| raw:: html
-
-        <div class="zammad-state-circle border-charcoal"></div>
-
-     .. |ylw| raw:: html
-
-        <div class="zammad-state-circle border-yellow"></div>
-
-     .. |red| raw:: html
-
-        <div class="zammad-state-circle border-red"></div>
+     .. include:: /snippets/ticket-state-type-circles.rst
 
    * A **pulsing dot** means that a ticket has new activity since you last viewed it.
    * Drag and drop tabs to rearrange them.

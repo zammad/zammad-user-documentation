@@ -13,47 +13,33 @@ Looking for a ticket to work on? Check the **overviews** menu.
    for the tickets it displays.
 
 There are **six built-in overviews**
-(Zammad admin may `create more <https://admin-docs.zammad.org/en/latest/manage-overviews.html>`_ with custom-defined filters):
+(Zammad admin may `create more`_ with custom-defined filters):
 
 * **My assigned tickets** (*open/pending* only)
 * **Unassigned & Open**
 * **My pending reached tickets** (previously marked *pending* and currently due)
 * **Open** (system-wide)
 * **Pending reached** (system-wide, previously marked *pending* and currently due)
-* **Escalated** (system-wide, failing to meet a `service-level agreement <https://admin-docs.zammad.org/en/latest/manage-slas.html>`_)
+* **Escalated** (system-wide, failing to meet a `service-level agreement`_)
+
+.. _create more: https://admin-docs.zammad.org/en/latest/manage/overviews.html
+.. _service-level agreement:
+   https://admin-docs.zammad.org/en/latest/manage/slas.html
 
 .. tip:: **🖱️ UI Protip**
 
    * Click on column headings to change the display order.
    * Click-and-drag column dividers to adjust their width.
-   * :doc:`Ticket states </basics/service-ticket/settings/state>` are **color-coded:**
+   * :doc:`Ticket states </basics/service-ticket/settings/state>` are
+     **color-coded:**
 
-     +-------+----------------------------------------------------+
-     | |grn| | **Closed**                                         |
-     +-------+----------------------------------------------------+
-     | |blk| | **Postponed**                                      |
-     |       | (Marked as pending; no immediate action required.) |
-     +-------+----------------------------------------------------+
-     | |ylw| | **New / Open** (Ready for action.)                 |
-     +-------+----------------------------------------------------+
-     | |red| | **Escalated**                                      |
-     |       | (Requires urgent attention.)                       |
-     +-------+----------------------------------------------------+
+     .. include:: /snippets/ticket-state-type-circles.rst
+   * :doc:`Ticket priorities </basics/service-ticket/settings/priority>` are
+     **color-coded:**
 
-     .. |grn| raw:: html
+     .. figure:: /images/basics/service-ticket/settings/priority-colors.png
+        :alt: Overview showing 3 tickets with different priorities
+        :align: center
 
-        <div style="width: 1em; height: 1em; border-radius: 50%; border: 3px solid #31af68; margin: 0 auto"></div>
-
-     .. |blk| raw:: html
-
-        <div style="width: 1em; height: 1em; border-radius: 50%; border: 3px solid #43484c; margin: 0 auto"></div>
-
-     .. |ylw| raw:: html
-
-        <div style="width: 1em; height: 1em; border-radius: 50%; border: 3px solid #fcac01; margin: 0 auto"></div>
-
-     .. |red| raw:: html
-
-        <div style="width: 1em; height: 1em; border-radius: 50%; border: 3px solid #f45801; margin: 0 auto"></div>
-
-
+        Zammad's 3 default priorities allow you to see the importance of
+        your tickets better.
