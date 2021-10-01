@@ -1,4 +1,4 @@
-﻿Knowledge Base
+Knowledge Base
 ==============
 
 Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel.
@@ -32,14 +32,16 @@ Use the **↗️ button** in the top toolbar to see the published knowledge base
    :alt: Knowledge Base Edit Mode
    :align: center
 
-   👆 In Edit Mode, use the righthand menu to navigate through the knowledge base.
+   👆 In Edit Mode, use the righthand menu to navigate through the
+   knowledge base.
 
-Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** (and back again).
+Use the **“Edit” button** in the top toolbar to switch into **Edit Mode**
+(and back again).
 
 .. note:: **🤔 Huh? I don’t see an “Edit” button...** 
 
-   By default, agents are **not permitted to create, edit, or manage knowledge base articles**.
-   If you wish to edit the knowledge base,
+   By default, agents are **not permitted to create, edit, or manage knowledge
+   base articles**. If you wish to edit the knowledge base,
    talk to your administrator about granting you the appropriate permissions.
 
 Switching Languages
@@ -53,26 +55,27 @@ Use the language menu to view or edit translations of the current page.
 
 .. hint:: 🚧 **What happens when a page hasn’t been translated into the selected language yet?**
 
-          in Edit Mode
-              Untranslated pages are marked with a ⚠️ **warning sign**:
+   in Edit Mode
+      Untranslated pages are marked with a ⚠️ **warning sign**:
 
-              .. figure:: /images/extras/knowledge-base-missing-translation-edit.png
-                 :alt: Missing translation warning
-                 :align: center
+      .. figure:: /images/extras/knowledge-base-missing-translation-edit.png
+         :alt: Missing translation warning
+         :align: center
 
-          in Preview Mode
-              Untranslated pages are only visible to users with **edit permissions**:
+   in Preview Mode
+      Untranslated pages are only visible to users with
+      **edit permissions**:
 
-              .. figure:: /images/extras/knowledge-base-missing-translation-preview.png
-                 :alt: Missing translation warning
-                 :align: center
+      .. figure:: /images/extras/knowledge-base-missing-translation-preview.png
+         :alt: Missing translation warning
+         :align: center
 
-          in the published knowledge base
-              Untranslated pages are **always hidden**:
+   in the published knowledge base
+      Untranslated pages are **always hidden**:
 
-              .. figure:: /images/extras/knowledge-base-missing-translation-published.png
-                 :alt: Missing translation warning
-                 :align: center
+      .. figure:: /images/extras/knowledge-base-missing-translation-published.png
+         :alt: Missing translation warning
+         :align: center
 
 Editing Categories
 ------------------
@@ -82,10 +85,10 @@ Editing Categories
    :align: center
 
 .. hint:: 📁 If you relocate a category using the **Parent** menu,
-          all of its articles and sub-categories will be relocated with it.
+   all of its articles and sub-categories will be relocated with it.
 
 .. note:: 🗑️ Categories can only be deleted once **all of their articles and
-          sub-categories** have been deleted or relocated.
+   sub-categories** have been deleted or relocated.
 
 Editing Answers
 ---------------
@@ -94,21 +97,24 @@ Editing Answers
    :alt: Edit answer
    :align: center
 
-The knowledge base editor comes equipped with the same **rich text editing capabilities**
-available in the Zammad ticket composer. That means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted text, bullet lists, and more. You can even add file attachments and links!
+The knowledge base editor comes equipped with the same
+**rich text editing capabilities** available in the Zammad ticket composer.
+That means you can use the same
+:doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted
+text, bullet lists, and more. You can even add file attachments and links!
 
 .. tip:: 🤷 **Why are there three kinds of links?**
 
    🔗 **Weblink**
-       URLs pointing to other websites.
+      URLs pointing to other websites.
 
    💡 **Link Answer**
-       | Internal references to other knowledge base answers.
-       | (Will not break if destination URL changes.)
+      | Internal references to other knowledge base answers.
+      | (Will not break if destination URL changes.)
 
    📋 **Linked Tickets**
-       | Internal references to Zammad tickets.
-       | (Visible only in Preview and Edit Modes.)
+      | Internal references to Zammad tickets.
+      | (Visible only in Preview and Edit Modes.)
 
 .. hint::
 
