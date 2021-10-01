@@ -1,7 +1,8 @@
-Knowledge Base
+﻿Knowledge Base
 ==============
 
-Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel.
+Manage, edit, and reorganize knowledge base articles from the
+**knowledge base** panel.
 
 .. figure:: /images/extras/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
@@ -103,7 +104,7 @@ That means you can use the same
 :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted
 text, bullet lists, and more. You can even add file attachments and links!
 
-.. tip:: 🤷 **Why are there three kinds of links?**
+.. tip:: 🤷 **Why are there four kinds of links?**
 
    🔗 **Weblink**
       URLs pointing to other websites.
@@ -115,6 +116,14 @@ text, bullet lists, and more. You can even add file attachments and links!
    📋 **Linked Tickets**
       | Internal references to Zammad tickets.
       | (Visible only in Preview and Edit Modes.)
+
+   🏷️ **Tags**
+      | Tags can help categorize or spice answers with further words to find.
+      | Please note that tags are visible public and can be the same like those
+        in your tickets.
+
+      .. figure:: /images/extras/tags-in-kb-answers.gif
+         :alt: Screencast showing tags on answers
 
 .. hint::
 
@@ -141,3 +150,23 @@ text, bullet lists, and more. You can even add file attachments and links!
    .. |gry| raw:: html
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="30 30 40 40" width="25" height="25" style="fill: #adadad"><path d="M57,36.39c0-.55.32-.69.71-.3L61,39.3c.39.38.26.7-.29.7H58a1,1,0,0,1-1-1ZM37,63V37a3,3,0,0,1,3-3H53a1,1,0,0,1,1,1v5a3,3,0,0,0,3,3h5a1,1,0,0,1,1,1V63a3,3,0,0,1-3,3H40A3,3,0,0,1,37,63Z"/></svg>
+
+Using answers in ticket articles
+--------------------------------
+
+As soon as the knowledge base contains one or more answers, you can use these
+just like text modules. Instead of ``::`` just use ``??`` to open the search
+modal. The search is done full text on both, answer body and title in all
+languages available.
+
+If you've found what you've been looking for, simply hit your ENTER-Key
+to load the answer into the ticket article. By this you don't have to throw
+URLs at your customer and provide the answer right away.
+
+Loading answers into articles *does not* replace article content.
+
+.. figure:: /images/extras/load-kb-answer-into-article.gif
+   :alt: Screencast showing how to insert KB answers into articles
+   :align: center
+
+   Use ``??`` to find and load knowledge base answers into ticket articles
