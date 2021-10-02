@@ -119,8 +119,8 @@ text, bullet lists, and more. You can even add file attachments and links!
 
    🏷️ **Tags**
       | Tags can help categorize or spice answers with further words to find.
-      | Please note that tags are visible public and can be the same like those
-        in your tickets.
+      | Please note that tags are visible publicly and can be the same like
+        those in your tickets.
 
       .. figure:: /images/extras/tags-in-kb-answers.gif
          :alt: Screencast showing tags on answers
@@ -156,11 +156,11 @@ Using answers in ticket articles
 
 As soon as the knowledge base contains one or more answers, you can use these
 just like text modules. Instead of ``::`` just use ``??`` to open the search
-modal. The search is done full text on both, answer body and title in all
+modal. The search is done full text on both answer body and title in all
 languages available.
 
 If you've found what you've been looking for, simply hit your ENTER-Key
-to load the answer into the ticket article. By this you don't have to throw
+to load the answer into the ticket article. This way you don't have to throw
 URLs at your customer and provide the answer right away.
 
 Loading answers into articles *does not* replace article content.

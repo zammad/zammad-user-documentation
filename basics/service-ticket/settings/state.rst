@@ -15,7 +15,7 @@ and may be one of the following:
 State colors
 ^^^^^^^^^^^^
 
-Zammad states are color coded. This helps you understanding the state of
+Zammad states are color-coded. This helps you to understanding the state of
 the ticket much faster in general – without having a look into details.
 
 .. include:: /snippets/ticket-state-type-circles.rst

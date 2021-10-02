@@ -47,7 +47,7 @@ right already.
       :width: 80%
       :alt: Tab behavior can be adjusted in tickets manually
 
-To overrule your administrators settings, simply choose the action
+To overrule your administrator's settings, simply choose the action
 you prefer. Zammad will remember this preference until you change its setting.
 
 Close tab
@@ -55,8 +55,8 @@ Close tab
    You'll be returned to the last view that was open.
 
 Close tab on ticket close
-   Ticket tabs will be closed only if you the state to "closed" upon ticket
-   update.
+   Ticket tabs will be closed only if you change the state to "closed" upon
+   ticket update.
 
       .. note::
 

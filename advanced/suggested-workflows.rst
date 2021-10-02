@@ -121,8 +121,8 @@ public note of why you adjusted the settings.
       :align: center
 
       Instead of using the drop-downs on the bottom of Zammad, you can also
-      drag tickets. A new modal will appear allow you to drop your selection
-      on either just a group or agents. This operation allows you to
+      drag tickets. A new modal will appear and allow you to drop your
+      selection on either just a group or agents. This operation allows you to
       quickly change the group and owner without further hassle!
 
    .. note::
