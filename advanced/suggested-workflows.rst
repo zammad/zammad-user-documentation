@@ -84,3 +84,47 @@ type ``@@`` in the message composer and select their name from the pop-up menu:
 
    Is the ticket assigned to a group that you don’t belong to?
    @mentions and subscriptions only work for tickets that you already have access to.
+
+Quickly assign in ticket listings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Within overviews and detailed searches you can run bulk operations on tickets.
+This means you can adjust the following ticket information:
+
+   * group
+   * owner
+   * state (with pending time if applicable)
+   * priority
+
+After pressing "Confirm" Zammad also allows you to provide an internal or
+public note of why you adjusted the settings.
+
+   .. note::
+
+      Zammad *will not* ask for
+      :doc:`time accounting values </advanced/time-accounting>`
+      in these situations.
+
+.. figure:: /images/advanced/suggested-workflows/bulk-operations-on-ticket-lists.gif
+   :alt: Bulk operations in overviews and detailed searches
+   :align: center
+
+   Use the check boxes in ticket listings to select a bunch of tickets.
+   Now use below drop-downs to change ticket settings, press confirm and
+   provide a note if you'd like.
+
+.. tip:: **🤓 You can change owners and groups even faster 🚀**
+
+   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.gif
+      :alt: Drag selected tickets and drop then on a group or agent to change
+            ticket group / owner
+      :align: center
+
+      Instead of using the drop-downs on the bottom of Zammad, you can also
+      drag tickets. A new modal will appear and allow you to drop your
+      selection on either just a group or agents. This operation allows you to
+      quickly change the group and owner without further hassle!
+
+   .. note::
+
+      This functionality is only available in ticket overviews.

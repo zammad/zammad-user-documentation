@@ -12,6 +12,14 @@ and may be one of the following:
 * pending reminder
   (*i.e.,* hidden, but scheduled to reappear at a later date)
 
+State colors
+^^^^^^^^^^^^
+
+Zammad states are color-coded. This helps you to understanding the state of
+the ticket much faster in general – without having a look into details.
+
+.. include:: /snippets/ticket-state-type-circles.rst
+
 .. _new-vs-open:
 
 What’s the difference between “new” and “open”?
