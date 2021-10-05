@@ -186,11 +186,11 @@ gettext:
 LIST = $(shell dir locale/.)
 intl:
 	@echo "Ensure current gettext ..."
-	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
+	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) locale
 	@echo "Cycling through available languages ..."
 	@echo $(LIST)
 	for lang in $(LIST); do \
-			sphinx-intl update -p $(BUILDDIR)/locale -l $$lang ; \
+			[ -d locale/$$lang ] && sphinx-intl update -p locale -l $$lang ; \
 		done
 	@echo
 	@echo "Created or updated PO files in locale."
