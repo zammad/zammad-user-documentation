@@ -36,6 +36,7 @@ help:
 	@echo "  texinfo    to make Texinfo files"
 	@echo "  info       to make Texinfo files and run them through makeinfo"
 	@echo "  gettext    to make PO message catalogs"
+	@echo "  intl    	  to create po files for weblate"
 	@echo "  changes    to make an overview of all changed/added/deprecated items"
 	@echo "  xml        to make Docutils-native XML files"
 	@echo "  pseudoxml  to make pseudoxml-XML files for display purposes"
@@ -181,9 +182,22 @@ gettext:
 	@echo
 	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
 
+.PHONY: intl
+LIST = $(shell dir locale/.)
+intl:
+	@echo "Ensure current gettext ..."
+	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
+	@echo "Cycling through available languages ..."
+	@echo $(LIST)
+	for lang in $(LIST); do \
+			sphinx-intl update -p $(BUILDDIR)/locale -l $$lang ; \
+		done
+	@echo
+	@echo "Created or updated PO files in locale."
+
 .PHONY: changes
 changes:
-	$(SPHINXBUILD) -b changes $(ALLSPHINXOPTS) $(BUILDDIR)/changes
+	sphinx-intl update -p $(BUILDDIR)/locale/ -l de changes
 	@echo
 	@echo "The overview file is in $(BUILDDIR)/changes."
 
