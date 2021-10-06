@@ -178,22 +178,9 @@ info:
 
 .PHONY: gettext
 gettext:
-	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
-	@echo
-	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
-
-.PHONY: intl
-LIST = $(shell dir locale/.)
-intl:
-	@echo "Ensure current gettext ..."
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) locale
-	@echo "Cycling through available languages ..."
-	@echo $(LIST)
-	for lang in $(LIST); do \
-			[ -d locale/$$lang ] && sphinx-intl update -p locale -l $$lang ; \
-		done
 	@echo
-	@echo "Created or updated PO files in locale."
+	@echo "Created or updated POT file in locale."
 
 .PHONY: changes
 changes:
