@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-06 12:26+0200\n"
-"PO-Revision-Date: 2021-10-05 17:07+0000\n"
+"PO-Revision-Date: 2021-10-09 14:26+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/test_user-documentation/de/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:0 ../extras/profile-and-settings.rst:12
 msgid "User submenu"
-msgstr ""
+msgstr "Benutzer Untermenü"
 
 #: ../advanced/keyboard-shortcuts.rst:25
 msgid ""
@@ -105,7 +105,7 @@ msgstr "gib den gewünschten Text ein und"
 #: ../advanced/keyboard-shortcuts.rst:41
 msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
 msgstr ""
-"drücke erneut ``Cmd`` + ``I``,  um zum normalen Textmodus zurückzukehren."
+"drücke erneut ``Cmd`` + ``I``, um zum normalen Textmodus zurückzukehren."
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "All-at-once"
@@ -181,6 +181,8 @@ msgstr ""
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
 msgstr ""
+"Screencast zeigt, wie Makros innerhalb der Ticket-Ansicht ausgeführt werden "
+"kann."
 
 #: ../advanced/macros.rst:31
 msgid "💾 **Macro = Update**"
@@ -192,7 +194,7 @@ msgid ""
 "<ticket_settings>` (including typing up a reply to the customer), applying a "
 "macro will save them, too."
 msgstr ""
-"Wenn du Änderungen an  :ref:`Ticket-Einstellungen <ticket_settings>`  "
+"Wenn du Änderungen an :ref:`Ticket-Einstellungen <ticket_settings>` "
 "vorgenommen hast (einschließlich dem Tippen einer Antwort an den Kunden), "
 "übernimmt das Ausführen des Makros auch diese Änderungen."
 
@@ -209,7 +211,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:0
 msgid "Screencast showing above described effect that overwrites articles."
-msgstr ""
+msgstr "Screencast zeigt, oben beschriebenen Effekt der Artikel überschreibt."
 
 #: ../advanced/macros.rst:48
 msgid ""
@@ -247,7 +249,7 @@ msgstr "lass die Maustaste über dem gewünschten Makro los."
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
-msgstr ""
+msgstr "Screencast der zeigt, wie Makros über Übersichten ausgeführt werden."
 
 #: ../advanced/macros.rst:65
 msgid ""
@@ -313,11 +315,11 @@ msgstr "Mit Zammad <=3.6 haben die folgenden Attribute nur Strings enthalten:"
 
 #: ../advanced/search.rst:27 ../advanced/suggested-workflows.rst:94
 msgid "group"
-msgstr "group"
+msgstr "Gruppe"
 
 #: ../advanced/search.rst:28 ../advanced/suggested-workflows.rst:97
 msgid "priority"
-msgstr "priority"
+msgstr "Priorität"
 
 #: ../advanced/search.rst:29
 msgid "state"
@@ -347,6 +349,9 @@ msgid ""
 "`Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install/"
 "elasticsearch/indexed-attributes.html>`_"
 msgstr ""
+"Eine detailliertere Liste der verfügbaren Attribute findest du in der `"
+"Zammad Admin-Dokumentation <https://docs.zammad.org/en/latest/install/"
+"elasticsearch/indexed-attributes.html>`_"
 
 #: ../advanced/search.rst:51
 msgid "Attributes and their usuage"
@@ -430,7 +435,7 @@ msgid ""
 "the date format needs to be YYYY-MM-DD"
 msgstr ""
 "Du kannst entweder ein einfaches Datum, einen Datumszeitraum oder >now-xh "
-"nutzen. Bitte beachte dabei, dass das Format YYYY-MM-DD lauten muss."
+"nutzen. Bitte beachte dabei, dass das Format YYYY-MM-DD lauten muss"
 
 #: ../advanced/search.rst:1
 msgid "state.name"
@@ -494,7 +499,7 @@ msgstr "article.from:\\*bob\\*"
 
 #: ../advanced/search.rst:1
 msgid "Show all tickets that contain articles from \"Bob\""
-msgstr "Zeigt alle Tickets an, in denen Artikel von \"Bob\" enthalten sind."
+msgstr "Zeigt alle Tickets an, in denen Artikel von \"Bob\" enthalten sind"
 
 #: ../advanced/search.rst:1
 msgid "article.body"
@@ -581,7 +586,7 @@ msgid ""
 "contain anything matching to \"Zammad\""
 msgstr ""
 "Diese Suche ergibt das gleiche Ergebnis wie das darüber, mit dem "
-"Unterschied, dass das Ergebnis nichts mit \"Zammad\" enthält."
+"Unterschied, dass das Ergebnis nichts mit \"Zammad\" enthält"
 
 #: ../advanced/search.rst:1
 msgid "owner.email:bob@example.net AND state.name:(open OR new)"
@@ -589,7 +594,7 @@ msgstr "owner.email:bob@example.net AND state.name:(open OR new)"
 
 #: ../advanced/search.rst:1
 msgid "Show Tickets from bob@example.net that are either open or new"
-msgstr "Zeige Tickets von bob@example.net die entweder offen oder neu sind."
+msgstr "Zeige Tickets von bob@example.net die entweder offen oder neu sind"
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -781,7 +786,7 @@ msgid ""
 "use the **subscribe button**.)"
 msgstr ""
 "Wenn du Unterstützung eines anderen Agenten benötigst, kannst du ihn "
-"**@erwähnen**. (Und wenn *du*  Benachrichtigungen über Tickets von *anderen "
+"**@erwähnen**. (Und wenn *du* Benachrichtigungen über Tickets von *anderen "
 "Nutzern* haben möchtest, kannst du den **abonnieren Button** nutzen.)"
 
 #: ../advanced/suggested-workflows.rst:24
@@ -790,7 +795,7 @@ msgstr "Neuzuweisen von Tickets"
 
 #: ../advanced/suggested-workflows.rst:30
 msgid "Reassigning tickets in the ticket pane"
-msgstr ""
+msgstr "Neuzuweisung von Tickets in Ticketspalte"
 
 #: ../advanced/suggested-workflows.rst:30
 msgid ""
@@ -860,7 +865,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:63
 msgid "Screencast of the Subscribe button feature"
-msgstr ""
+msgstr "Screencast für die Abonnier-Button Funktion"
 
 #: ../advanced/suggested-workflows.rst:63
 msgid ""
@@ -889,7 +894,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:77
 msgid "Screencast of the @mention feature"
-msgstr ""
+msgstr "Screencast für die @erwähnen Funktion"
 
 #: ../advanced/suggested-workflows.rst:77
 msgid ""
@@ -931,23 +936,27 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:95
 msgid "owner"
-msgstr ""
+msgstr "Besitzer"
 
 #: ../advanced/suggested-workflows.rst:96
 msgid "state (with pending time if applicable)"
-msgstr ""
+msgstr "Status (mit warten bis Zeit, sofern zutreffend)"
 
 #: ../advanced/suggested-workflows.rst:99
 msgid ""
 "After pressing \"Confirm\" Zammad also allows you to provide an internal or "
 "public note of why you adjusted the settings."
 msgstr ""
+"Nach dem drücken von \"Bestätigen\" erlaubt Zammad dir das Hinzufügen einer "
+"internen oder öffentlichen Notiz für den Grund der Änderung."
 
 #: ../advanced/suggested-workflows.rst:104
 msgid ""
 "Zammad *will not* ask for :doc:`time accounting values </advanced/time-"
 "accounting>` in these situations."
 msgstr ""
+"Zammad fragt in diesen Situationen*nicht* nach :doc:`Zeiterfassungs-Werten</"
+"advanced/time-accounting>`."
 
 #: ../advanced/suggested-workflows.rst:112
 msgid "Bulk operations in overviews and detailed searches"
@@ -962,7 +971,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:116
 msgid "**🤓 You can change owners and groups even faster 🚀**"
-msgstr ""
+msgstr "**🤓 Das Ändern von Besitzern und Gruppen geht noch viel schneller 🚀**"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid ""
@@ -980,7 +989,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:130
 msgid "This functionality is only available in ticket overviews."
-msgstr ""
+msgstr "Diese Funktion ist nur in Ticket-Übersichten verfügbar."
 
 #: ../advanced/tabs.rst:4
 msgid "Tabs"
@@ -1005,7 +1014,7 @@ msgstr ""
 
 #: ../advanced/tabs.rst:0
 msgid "Sample view of Tabs"
-msgstr ""
+msgstr "Beispielansicht von Tabs"
 
 #: ../advanced/tabs.rst:15
 msgid ""
@@ -1094,7 +1103,7 @@ msgstr "Mit Drag & Drop kannst Du die Tabs neu anordnen."
 
 #: ../advanced/tabs.rst:35
 msgid "Tab behavior in ticket zooms"
-msgstr ""
+msgstr "Tab-Verhalten in Ticket-Zooms"
 
 #: ../advanced/tabs.rst:37
 msgid ""
@@ -1120,7 +1129,7 @@ msgstr ""
 
 #: ../advanced/tabs.rst:55
 msgid "Close tab"
-msgstr ""
+msgstr "Tab schließen"
 
 #: ../advanced/tabs.rst:54
 msgid ""
@@ -1574,7 +1583,7 @@ msgstr ""
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Sample view of Overviews"
-msgstr ""
+msgstr "Beispiel von Übersichten"
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Click **Overviews** in the main menu to browse tickets."
@@ -1593,6 +1602,8 @@ msgid ""
 "There are **six built-in overviews** (Zammad admin may `create more`_ with "
 "custom-defined filters):"
 msgstr ""
+"Es gibt **sechs Standard-Übersichten** (Zammad-Administratoren können mit "
+"eigenen Filtern `weitere erstellen`_):"
 
 #: ../basics/find-ticket/browse.rst:18
 msgid "**My assigned tickets** (*open/pending* only)"
@@ -1644,11 +1655,13 @@ msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
 msgstr ""
+":doc:`Ticket-Prioritäten </basics/service-ticket/settings/priority>` sind "
+"**farbkodiert:**"
 
 #: ../basics/find-ticket/browse.rst:0
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid "Overview showing 3 tickets with different priorities"
-msgstr ""
+msgstr "Übersicht die 3 Tickets mit verschiedenen Prioritäten zeigt"
 
 #: ../basics/find-ticket/browse.rst:44
 #: ../basics/service-ticket/settings/priority.rst:11
@@ -1656,57 +1669,69 @@ msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
 "tickets better."
 msgstr ""
+"Zammad's 3 Standard-Prioritäten erlauben es dir die Wichtigkeit auf einen "
+"Blick zu sehen."
 
 #: ../basics/find-ticket/search.rst:2
 msgid "Search for Tickets"
-msgstr ""
+msgstr "Suche nach Tickets"
 
 #: ../basics/find-ticket/search.rst:4
 msgid "Looking for an archived ticket? Use the **search bar**."
-msgstr ""
+msgstr "Du suchst nach einem archivierten Ticket? Benutze die **Suchleiste**."
 
 #: ../basics/find-ticket/search.rst:10
 msgid "Results appear immediately under the search bar as you type."
-msgstr ""
+msgstr "Ergebnisse erscheinen sofort unter der Suchleiste während du tippst."
 
 #: ../basics/find-ticket/search.rst:12
 msgid ""
 "It’s not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, "
 "and 🏢 **organizations**, too."
 msgstr ""
+"Gilt nicht nur für Tickets! Ergebnisse decken auch 💬 **Chat-Verläufe**, 👨 "
+"**Kunden**, und🏢 **Organisationen** ab."
 
 #: ../basics/find-ticket/search.rst:15
 msgid "**🔍 Here are just a few of the places the search engine will look:**"
 msgstr ""
+"**🔍 Hier ist nur eine kleine Auswahl der Bereiche, die die Suchmaschine "
+"durchsucht:**"
 
 #: ../basics/find-ticket/search.rst:17
 msgid "📝 message subject/content"
-msgstr ""
+msgstr "📝 Betreff der Nachricht / Inhalt"
 
 #: ../basics/find-ticket/search.rst:18
 msgid "👩 recipient names & email addresses"
-msgstr ""
+msgstr "👩 Empfängernamen & E-Mail-Adressen"
 
 #: ../basics/find-ticket/search.rst:19
 msgid "📎 text in file attachments (really!)"
-msgstr ""
+msgstr "📎 Text in Dateianhängen (wirklich!)"
 
 #: ../basics/find-ticket/search.rst:20
 msgid ""
 "🏷️ user/organization metadata (*e.g.,* notes stored on customer profiles)"
 msgstr ""
+"🏷️ Benutzer-/Organisations-Informationen (z.B. Notizen, die in "
+"Kundenprofilen gespeichert sind)"
 
 #: ../basics/find-ticket/search.rst:22
 msgid ""
 "You can find a detailed search document in our `Advanced Search <../../"
 "advanced/search.html>`_ page."
 msgstr ""
+"Eine deutlich detailliertere Ausführung für mögliche Suchen findest Du auf "
+"unserer Seite für die `Erweiterte Suche <../../advanced/search.html>`_."
 
 #: ../basics/find-ticket/search.rst:28
 msgid ""
 "For detailed results, click the **Show Search Details →** link just above "
 "the autocomplete list."
 msgstr ""
+"Für detaillierte Ergebnisse klicke auf den Link **Suchdetails anzeigen →** "
+"direkt über der automatischen Vervollständigungs-Liste."
 
 #: ../basics/service-ticket.rst:8
 msgid "Managing Ticket Settings"
@@ -1749,7 +1774,7 @@ msgstr ""
 
 #: ../basics/service-ticket/create.rst:16
 msgid "New ticket dialog"
-msgstr ""
+msgstr "Neues Ticket-Dialog"
 
 #: ../basics/service-ticket/create.rst:16
 msgid ""
@@ -1829,7 +1854,7 @@ msgstr "Es ist **nicht** möglich, ein Ticket mehr als einem Kunden zuzuordnen."
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Customer autocomplete menu"
-msgstr ""
+msgstr "Kunden Autovervollständigungs-Menü"
 
 #: ../basics/service-ticket/create.rst:45
 msgid "Autocomplete can’t find customers by name."
@@ -1846,7 +1871,7 @@ msgstr ""
 
 #: ../basics/service-ticket/create.rst:0
 msgid "Ticket pane (Customer view)"
-msgstr ""
+msgstr "Ticketfenster (Kundenansicht)"
 
 #: ../basics/service-ticket/create.rst:63
 msgid "Text"
@@ -1950,7 +1975,7 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid "Ticket summary view"
-msgstr ""
+msgstr "Ticket-Zusammenfassung"
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
@@ -1989,7 +2014,7 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:37
 msgid "Reply button"
-msgstr ""
+msgstr "Antworten-Button"
 
 #: ../basics/service-ticket/follow-up.rst:37
 msgid ""
@@ -2441,17 +2466,19 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:22
 msgid "`triggers`_, and"
-msgstr ""
+msgstr "`Trigger`_, und"
 
 #: ../basics/service-ticket/settings/priority.rst:23
 msgid "`scheduled events`_."
-msgstr ""
+msgstr "`geplante Aktionen`_."
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
 "Priority can also be used as a ticket filter when creating `custom "
 "overviews`_."
 msgstr ""
+"Prioritäten können auch als Ticket-Filter beim Erstellen von `eigenen "
+"Übersichten`_. genutzt werden."
 
 #: ../basics/service-ticket/settings/priority.rst:35
 msgid ""
@@ -2502,7 +2529,7 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:16
 msgid "State colors"
-msgstr ""
+msgstr "Status-Farben"
 
 #: ../basics/service-ticket/settings/state.rst:18
 msgid ""
@@ -4180,7 +4207,7 @@ msgstr "|not-signed|"
 
 #: ../extras/secure-email.rst:120
 msgid "not-signed"
-msgstr ""
+msgstr "nicht signiert"
 
 #: ../extras/secure-email.rst:74
 msgid "This message is **not signed**."
@@ -4254,6 +4281,8 @@ msgstr "\"Signieren: Zertifikat für Validierung nicht auffindbar\""
 msgid ""
 "Ticket article shows a warning for failed verification of a signed message"
 msgstr ""
+"Ticket Artikel zeigen eine Warnung für die fehlgeschlagene Prüfung einer "
+"signierten Nachricht"
 
 #: ../extras/secure-email.rst:135
 msgid ""
