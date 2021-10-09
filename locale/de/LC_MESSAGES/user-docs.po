@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-06 12:26+0200\n"
-"PO-Revision-Date: 2021-10-09 14:26+0000\n"
+"PO-Revision-Date: 2021-10-11 13:33+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/test_user-documentation/de/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:13
 msgid "Keyboard shortcut cheat sheet"
-msgstr ""
+msgstr "Tastaturkürzel Spickzettel"
 
 #: ../advanced/keyboard-shortcuts.rst:13
 msgid "The keyboard shortcut cheat sheet on Windows."
@@ -933,6 +933,9 @@ msgid ""
 "Within overviews and detailed searches you can run bulk operations on "
 "tickets. This means you can adjust the following ticket information:"
 msgstr ""
+"Innerhalb von Übersichten und Detailsuchen kannst du Massenoperationen auf "
+"Tickets anwenden. Das bedeutet, dass du folgende Ticket-Informationen "
+"bearbeiten kannst:"
 
 #: ../advanced/suggested-workflows.rst:95
 msgid "owner"
@@ -960,7 +963,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:112
 msgid "Bulk operations in overviews and detailed searches"
-msgstr ""
+msgstr "Massenoperationen in Übersichten und Detailsuchen"
 
 #: ../advanced/suggested-workflows.rst:112
 msgid ""
@@ -968,6 +971,9 @@ msgid ""
 "below drop-downs to change ticket settings, press confirm and provide a note "
 "if you'd like."
 msgstr ""
+"Benutze die Checkboxen in Ticketauflistungen, um die gewünschten Tickets zu "
+"selektieren. Nutze nun die Dropdowns unten in der Auflistung, um Ticket-"
+"Einstellungen zu ändern, bestätige und tippe eine Notiz – wenn nötig."
 
 #: ../advanced/suggested-workflows.rst:116
 msgid "**🤓 You can change owners and groups even faster 🚀**"
@@ -978,6 +984,9 @@ msgid ""
 "Drag selected tickets and drop then on a group or agent to change\n"
 "ticket group / owner"
 msgstr ""
+"Ziehe die ausgewählten Tickets und lasse sie auf eine Gruppe oder Agenten "
+"fallen,\n"
+"um die Ticket-Gruppe / -Besitze zu ändern"
 
 #: ../advanced/suggested-workflows.rst:123
 msgid ""
@@ -986,6 +995,10 @@ msgid ""
 "either just a group or agents. This operation allows you to quickly change "
 "the group and owner without further hassle!"
 msgstr ""
+"Anstelle der Dropdowns unten in Zammad kannst du die Tickets außerdem "
+"ziehen. Ein neuer Dialog erscheint, der das Ziehen der Selektion auf "
+"entweder nur eine Gruppe oder Agenten zulässt. Das erlaubt es dir Gruppe und "
+"Besitzer schnell und komfortable zu ändern!"
 
 #: ../advanced/suggested-workflows.rst:130
 msgid "This functionality is only available in ticket overviews."
@@ -1110,6 +1123,8 @@ msgid ""
 "You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
 "lower right already."
 msgstr ""
+"Vielleicht hast du den \"In Tab bleiben\" Button neben \"Update\" unten "
+"rechts bereits bemerkt."
 
 #: ../advanced/tabs.rst:42
 msgid ""
@@ -1119,13 +1134,16 @@ msgstr ""
 
 #: ../advanced/tabs.rst:0
 msgid "Tab behavior can be adjusted in tickets manually"
-msgstr ""
+msgstr "Das Tab-Verhalten kann in Tickets manuell beeinflusst werden"
 
 #: ../advanced/tabs.rst:50
 msgid ""
 "To overrule your administrator's settings, simply choose the action you "
 "prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
+"Wähle einfach das Verhalten aus das du bevorzugst, um die Voreinstellung "
+"deines Administrators zu übergehen. Zammad erinnert sich an deine Auswahl "
+"bis du die Auswahl änderst."
 
 #: ../advanced/tabs.rst:55
 msgid "Close tab"
@@ -1139,21 +1157,25 @@ msgstr ""
 
 #: ../advanced/tabs.rst:63
 msgid "Close tab on ticket close"
-msgstr ""
+msgstr "Tab bei Ticketabschluss schließen"
 
 #: ../advanced/tabs.rst:58
 msgid ""
 "Ticket tabs will be closed only if you change the state to \"closed\" upon "
 "ticket update."
 msgstr ""
+"Ticket tabs werden nur dann geschlossen, wenn du den Status zu \"geschlossen"
+"\" änderst und das Ticket aktualisierst."
 
 #: ../advanced/tabs.rst:63
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
+"Diese Einstellung hat keinen Einfluss warten Status die in geschlossenen "
+"Status enden."
 
 #: ../advanced/tabs.rst:73
 msgid "Next in overview"
-msgstr ""
+msgstr "Nächste in Übersicht"
 
 #: ../advanced/tabs.rst:66
 msgid ""
@@ -1170,7 +1192,7 @@ msgstr ""
 
 #: ../advanced/tabs.rst:77
 msgid "Stay on tab"
-msgstr ""
+msgstr "In Tab bleiben"
 
 #: ../advanced/tabs.rst:76
 msgid "Updating the ticket doesn't have any effect on the tab."
@@ -1178,7 +1200,7 @@ msgstr ""
 
 #: ../advanced/tabs.rst:78
 msgid "*This is the default setting in Zammad installations.*"
-msgstr ""
+msgstr "*Das ist die Standardeinstellung in Zammad-Installationen.*"
 
 #: ../advanced/text-modules.rst:2
 msgid "Working with Text Modules"
@@ -1231,7 +1253,7 @@ msgstr ""
 
 #: ../advanced/text-modules.rst:0
 msgid "Group-dependent text modules"
-msgstr ""
+msgstr "Gruppen-abhängige Textbausteine"
 
 #: ../advanced/text-modules.rst:27
 msgid ""
@@ -1315,7 +1337,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:18
 msgid "Link dialog"
-msgstr ""
+msgstr "Verlinkungs-Dialog"
 
 #: ../advanced/ticket-actions/link.rst:18
 msgid ""
@@ -1384,7 +1406,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:28
 msgid "Merge ticket dialog"
-msgstr ""
+msgstr "Dialog zum Zusammenführen von Tickets"
 
 #: ../advanced/ticket-actions/merge.rst:28
 msgid ""
@@ -1420,7 +1442,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:16
 msgid "Split ticket button"
-msgstr ""
+msgstr "Ticket abspalten Button"
 
 #: ../advanced/ticket-actions/split.rst:16
 msgid ""
@@ -1432,7 +1454,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid "Split ticket dialog"
-msgstr ""
+msgstr "Ticket abspalten Dialog"
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid ""
@@ -1467,7 +1489,7 @@ msgstr ""
 
 #: ../advanced/ticket-templates.rst:13
 msgid "Ticket template dialog"
-msgstr ""
+msgstr "Ticket template Dialog"
 
 #: ../advanced/ticket-templates.rst:13
 msgid "Use the ticket pane to load or create ticket templates."
@@ -1518,7 +1540,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:12
 msgid "Time accounting dialog"
-msgstr ""
+msgstr "Zeiterfassungs-Dialog"
 
 #: ../advanced/time-accounting.rst:12
 msgid ""
@@ -2009,7 +2031,7 @@ msgstr "Auf individuelle Nachrichten antworten"
 #: ../basics/service-ticket/follow-up.rst:31
 msgid "Use the **⮪ reply** button under a message to reply to it directly."
 msgstr ""
-"Verwende die Schaltfläche **⮪  antworten** unter einer Nachricht, um direkt "
+"Verwende die Schaltfläche **⮪ antworten** unter einer Nachricht, um direkt "
 "darauf zu antworten."
 
 #: ../basics/service-ticket/follow-up.rst:37
@@ -2022,7 +2044,7 @@ msgid ""
 "multiple recipients."
 msgstr ""
 "Als zusätzliche Option wird für E-Mail-Nachrichten mit mehreren Empfängern "
-"**⮪  Alle antworten** angezeigt."
+"**⮪ Alle antworten** angezeigt."
 
 #: ../basics/service-ticket/follow-up.rst:40
 msgid ""
@@ -2325,8 +2347,8 @@ msgid ""
 msgstr ""
 "Ohne Gruppen könnten alle zehn Agenten jedes Ticket sehen (und beantworten), "
 "unabhängig für welche Abteilung es ist. Das muss nicht *per se* "
-"problematisch sein, führt aber zu unnötiger Unordnung in den :doc:"
-"`Übersichten </basics/find-ticket>` .  (Ein kritischeres Beispiel wäre es, "
+"problematisch sein, führt aber zu unnötiger Unordnung in den :doc:`"
+"Übersichten </basics/find-ticket>` . (Ein kritischeres Beispiel wäre es, "
 "wenn Mitarbeiter z.B. des Supports Nachrichten sehen könnten, die an die "
 "Geschäftsführung gehen sollten und so z.B. einsehen können, wie viel die "
 "Kollegen im Sales-Team verdienen 💸💸💸)"
@@ -2462,7 +2484,7 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:21
 msgid "`service-level agreements`_,"
-msgstr ""
+msgstr "`Service-Level Vereinbarung`_,"
 
 #: ../basics/service-ticket/settings/priority.rst:22
 msgid "`triggers`_, and"
@@ -2536,6 +2558,8 @@ msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
 msgstr ""
+"Zammad Status sind farbkodiert. Das hilft dir den Zustand eines Tickets viel "
+"schneller zu verstehen – ohne einen Blick in den Verlauf zu werfen."
 
 #: ../basics/service-ticket/settings/state.rst:26
 msgid "What’s the difference between “new” and “open”?"
@@ -2602,7 +2626,7 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/tags.rst:11
 msgid "Ticket pane (tags)"
-msgstr ""
+msgstr "Ticketfenster (Schlagwörter)"
 
 #: ../basics/service-ticket/settings/tags.rst:11
 msgid "Click on a tag name to view other tickets with the same tag."
@@ -2728,7 +2752,7 @@ msgstr ""
 
 #: ../extras/caller-log.rst:10
 msgid "Sample view of Caller Log"
-msgstr ""
+msgstr "Beispiel-Ansicht des Anrufprotokolls"
 
 #: ../extras/caller-log.rst:10
 msgid "Enable the **Phone** panel to receive notifications for incoming calls."
@@ -2781,7 +2805,7 @@ msgstr "Unterhalte dich mit Kunden in Echtzeit über den **Kunden-Chat** ."
 
 #: ../extras/chat.rst:None
 msgid "Sample view of Customer Chat"
-msgstr ""
+msgstr "Beispiel-Ansicht des Kunden-Chats"
 
 #: ../extras/chat.rst:11
 msgid "Chat controls"
@@ -2913,7 +2937,7 @@ msgstr ""
 
 #: ../extras/chat.rst:0
 msgid "Chat details view"
-msgstr ""
+msgstr "Ansicht für Chat-Details"
 
 #: ../extras/chat.rst:59
 msgid "Click on the title at the top of the chat window to edit chat details."
@@ -2934,7 +2958,7 @@ msgstr ""
 
 #: ../extras/chat.rst:70
 msgid "Completed chat window"
-msgstr ""
+msgstr "Abgeschlossenen Chat-Fenster"
 
 #: ../extras/chat.rst:70
 msgid ""
@@ -2945,7 +2969,7 @@ msgstr ""
 
 #: ../extras/chat.rst:76
 msgid "New ticket view"
-msgstr ""
+msgstr "Neues Ticket-Ansicht"
 
 #: ../extras/chat.rst:76
 msgid ""
@@ -2963,7 +2987,7 @@ msgstr "Nutze das **Ticket Fenster**, um Kunden-Profile zu bearbeiten."
 
 #: ../extras/customers.rst:10
 msgid "Ticket pane (customer view)"
-msgstr ""
+msgstr "Ticket-Fenster (Kundenansicht)"
 
 #: ../extras/customers.rst:10
 msgid "Click the 👨 tab in the ticket pane to see the customer’s profile."
@@ -2993,7 +3017,7 @@ msgstr "Um das Kundenprofil zu bearbeiten, verwende das **Kunden Untermenü**:"
 
 #: ../extras/customers.rst:30
 msgid "Customer submenu"
-msgstr ""
+msgstr "Kunden Untermenü"
 
 #: ../extras/customers.rst:30
 msgid "Click the **Customer ▾** heading to access additional actions."
@@ -3003,7 +3027,7 @@ msgstr ""
 
 #: ../extras/customers.rst:37
 msgid "Edit customer dialog"
-msgstr ""
+msgstr "Dialog zum Kunden bearbeiten"
 
 #: ../extras/customers.rst:37
 msgid "The edit customer dialog."
@@ -3026,7 +3050,7 @@ msgid ""
 "Customers may (optionally) belong to **organizations** – :doc:`skip ahead "
 "<organizations>` to learn more."
 msgstr ""
-"Kunden können  zu einer **Organisation** gehören (optional) – :doc:`klicke "
+"Kunden können zu einer **Organisation** gehören (optional) – :doc:`klicke "
 "hier <organizations>`, um mehr erfahren."
 
 #: ../extras/customers.rst:0
@@ -3071,7 +3095,7 @@ msgstr ""
 
 #: ../extras/dashboard.rst:None
 msgid "Sample view of Dashboard"
-msgstr ""
+msgstr "Beispiel-Ansicht des Dashboards"
 
 #: ../extras/dashboard.rst:11
 msgid ""
@@ -3182,7 +3206,7 @@ msgstr "🤔 **Hm? Ich sehe keine** |github| **oder** |gitlab| **Tabs...**"
 
 #: ../extras/github-gitlab-integration.rst:45
 msgid "GitHub logo"
-msgstr ""
+msgstr "GitHub Logo"
 
 #: ../extras/github-gitlab-integration.rst:49
 msgid "GitLub logo"
@@ -3204,6 +3228,7 @@ msgstr ""
 #: ../extras/github-gitlab-integration.rst:18
 msgid "Ticket detail view showing activated GitHub & GitLab function"
 msgstr ""
+"Die Detailansicht im Ticket zeigt die aktivierte GitHub- & GitLab-Funktion"
 
 #: ../extras/github-gitlab-integration.rst:18
 msgid ""
@@ -3477,6 +3502,10 @@ msgid ""
 "more `here <https://admin-docs.zammad.org/en/latest/manage/knowledge-base."
 "html>`_."
 msgstr ""
+"Diese Funktion ist **optional**; wenn du sie bei der Ticket Bearbeitung "
+"nicht siehst, bedeutet das, dass dein Administrator sie noch nicht aktiviert "
+"hat. Administratoren können `hier <https://admin-docs.zammad.org/en/latest/"
+"manage/knowledge-base.html>`_ mehr erfahren."
 
 #: ../extras/knowledge-base.rst:24
 msgid "Getting Started"
@@ -3534,7 +3563,7 @@ msgstr "Sprachen wechseln"
 
 #: ../extras/knowledge-base.rst:None
 msgid "Switch languages"
-msgstr ""
+msgstr "Sprachen wechseln"
 
 #: ../extras/knowledge-base.rst:55
 msgid "Use the language menu to view or edit translations of the current page."
@@ -3561,7 +3590,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid "Missing translation warning"
-msgstr ""
+msgstr "Warnung zu einer fehlenden Übersetzung"
 
 #: ../extras/knowledge-base.rst:72
 msgid "in Preview Mode"
@@ -3587,7 +3616,7 @@ msgstr "Kategorien bearbeiten"
 
 #: ../extras/knowledge-base.rst:None
 msgid "Edit category"
-msgstr ""
+msgstr "Kategorie editieren"
 
 #: ../extras/knowledge-base.rst:88
 msgid ""
@@ -3611,7 +3640,7 @@ msgstr "Antworten bearbeiten"
 
 #: ../extras/knowledge-base.rst:None
 msgid "Edit answer"
-msgstr ""
+msgstr "Antwort editieren"
 
 #: ../extras/knowledge-base.rst:101
 msgid ""
@@ -3630,7 +3659,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:107
 msgid "🤷 **Why are there four kinds of links?**"
-msgstr ""
+msgstr "🤷 **Warum gibt es vier Arten von Links?**"
 
 #: ../extras/knowledge-base.rst:110
 msgid "🔗 **Weblink**"
@@ -3666,17 +3695,21 @@ msgstr "(Nur im Vorschau- und Bearbeitungsmodus sichtbar)."
 
 #: ../extras/knowledge-base.rst:125
 msgid "🏷️ **Tags**"
-msgstr ""
+msgstr "🏷️ **Schlagworte**"
 
 #: ../extras/knowledge-base.rst:0
 msgid "Tags can help categorize or spice answers with further words to find."
 msgstr ""
+"Schlagworte können beim Kategorisieren helfen oder Antworten mit weiteren "
+"auffindbaren Wörtern versehen."
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
 "Please note that tags are visible publicly and can be the same like those in "
 "your tickets."
 msgstr ""
+"Bitte beachte, dass Schlagwörter öffentlich sichtbar sind und die gleichen "
+"wie in deinen Tickets sein können."
 
 #: ../extras/knowledge-base.rst:0
 msgid "Screencast showing tags on answers"
@@ -3715,7 +3748,7 @@ msgstr "**Entwurf / geplant / archiviert** (sichtbar nur für Bearbeiter)"
 
 #: ../extras/knowledge-base.rst:155
 msgid "Using answers in ticket articles"
-msgstr ""
+msgstr "Antworten in Ticket-Artikeln benutzen"
 
 #: ../extras/knowledge-base.rst:157
 msgid ""
@@ -3724,6 +3757,10 @@ msgid ""
 "search modal. The search is done full text on both answer body and title in "
 "all languages available."
 msgstr ""
+"Sobald deine Knowledge Base eine oder mehr Antworten enthält, kannst du "
+"diese wie Textbausteine benutzen. Anstelle von ``::`` benutze einfach ``??`` "
+"um den Suchdialog zu öffnen. Die Suche sucht Volltext in dem Body und Titel "
+"aller verfügbaren Sprachen der Antwort."
 
 #: ../extras/knowledge-base.rst:162
 msgid ""
@@ -3734,7 +3771,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:166
 msgid "Loading answers into articles *does not* replace article content."
-msgstr ""
+msgstr "Das Laden von Antworten in Artikel *ersetzt nicht* den Artikel-Inhalt."
 
 #: ../extras/knowledge-base.rst:172
 msgid "Screencast showing how to insert KB answers into articles"
@@ -3743,6 +3780,7 @@ msgstr ""
 #: ../extras/knowledge-base.rst:172
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
+"Benutze ``??`` um Knowledge Base Antworten zu finden und in Artikel zu laden"
 
 #: ../extras/organizations.rst:4
 msgid ""
@@ -3782,7 +3820,7 @@ msgstr ""
 
 #: ../extras/organizations.rst:26
 msgid "Organization submenu"
-msgstr ""
+msgstr "Organisations-Untermenü"
 
 #: ../extras/organizations.rst:26
 msgid "Click the **Organization ▾** heading to access additional actions."
@@ -3792,7 +3830,7 @@ msgstr ""
 
 #: ../extras/organizations.rst:33
 msgid "Edit organization dialog"
-msgstr ""
+msgstr "Dialog zum Bearbeiten einer Organisation"
 
 #: ../extras/organizations.rst:33
 msgid "The edit organization dialog."
@@ -4155,7 +4193,7 @@ msgstr "|lock|"
 
 #: ../extras/secure-email.rst:110
 msgid "lock"
-msgstr ""
+msgstr "sperren"
 
 #: ../extras/secure-email.rst:62
 msgid "This message was **encrypted for you**."
@@ -4175,7 +4213,7 @@ msgstr "|open-lock|"
 
 #: ../extras/secure-email.rst:114
 msgid "open-lock"
-msgstr ""
+msgstr "entsperren"
 
 #: ../extras/secure-email.rst:67
 msgid "This message is **not encrypted**."
@@ -4187,7 +4225,7 @@ msgstr "|signed|"
 
 #: ../extras/secure-email.rst:117
 msgid "signed"
-msgstr ""
+msgstr "signiert"
 
 #: ../extras/secure-email.rst:69
 msgid "This message’s signature has been **successfully verified**."
