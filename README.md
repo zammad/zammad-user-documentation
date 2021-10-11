@@ -1,4 +1,4 @@
-[![Documentation Status][badge]][docs]
+[![Documentation Status][badge]][docs] [![Translation Status][tbadge]][wbetranslate]
 
 # Zammad User Documentation
 
@@ -9,11 +9,12 @@ Source files for [Zammad’s user documentation][docs].
 If you would like to improve the docs, simply:
 
 1. fork the repo,
-2. edit the appropriate `.rst` files (see [Markup Format](#markup-format) below), and
+2. edit the appropriate `.rst` files (see [Markup Format](#markup-format) below),
+   and
 3. submit a pull request.
 
 > 🌍 **Wanna help translate?** Submit your contributions
-> (or request additional languages) [here][tfxtranslate].
+> (or request additional languages) [here][wbetranslate].
 > Do **NOT** submit a PR with changes to the contents of the `locale/` directory.
 
 Thanks! ❤ ❤ ❤  
@@ -34,7 +35,7 @@ this markup language can be found at:
 * sphinx
 
   ```
-  $ pip install sphinx sphinx-autobuild sphinx-intl sphinx_rtd_theme
+  $ pip install sphinx sphinx-autobuild sphinx-intl sphinx_rtd_theme sphinx-tabs
   ```
 
 * gettext
@@ -46,52 +47,40 @@ this markup language can be found at:
   ...
   ```
 
-* transifex-client (optional)
-
-  ```
-  $ pip install transifex-client
-  ```
-
 ### Local HTML build
 
 ```
 $ make html
 ```
 
-### Localization using transifex
+### Localization using Weblate
+
+This documentation is translated via Weblate.
+After changing or adding text in this documentation, updating the POT file
+is required. (This is usually done by us after QA *before* merging the PR)
+
+Weblate will automatically provide the translation parts in in its UI for
+all available languages. If there's translation progress it will automatically
+provide pull requests on this repository. 🎉
 
 ```
-# create .tx config
-$ tx init
-
 # ensure clean enviroment
 $ make clean
 
 # generate the strings from the *.rst files
 $ make gettext
 
-# OPTIONAL: if you have to adapt a new locale, run
-sphinx-intl update -p _build/locale/ -l de
-
-# update the resource files from the pot dir
-$ sphinx-intl update-txconfig-resources --pot-dir _build/locale --transifex-project-name zammad-user-documentation
-
-# push to transifex (if configured)
-$ tx push -s
-
-# Below pull options by default ignore unreviewed (see https://docs.transifex.com/client/pull#getting-different-file-variants )
-# after translation pull needed languages from transifex
-$ tx pull -l en
-
-# build the .MO files for use with readthedocs
-# (After a successful build, push to this repo and readthedocs will update itself.)
-$ sh build_mo.sh
-
 # manual language-based build (`_build/html/`) (for testing)
 $ make -e SPHINXOPTS="-D language='de'" html
 $ make -e SPHINXOPTS="-D language='en'" html
 ```
 
+### Localization process
+
+[![Translation progress][tprogress]][wbetranslate]
+
 [badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
-[docs]: https://zammad-user-documentation.readthedocs.io/en/latest/
-[tfxtranslate]: https://www.transifex.com/zammad/zammad-user-documentation/
+[docs]: https://user-docs.zammad.org/en/latest/
+[tbadge]: https://translations.zammad.org/widgets/documentations/-/test_user-documentation/svg-badge.svg
+[wbetranslate]: https://translations.zammad.org/projects/documentations/test_user-documentation/
+[tprogress]: https://translations.zammad.org/widgets/documentations/-/test_user-documentation/multi-auto.svg
