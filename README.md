@@ -81,6 +81,6 @@ $ make -e SPHINXOPTS="-D language='en'" html
 
 [badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
 [docs]: https://user-docs.zammad.org/en/latest/
-[tbadge]: https://translations.zammad.org/widgets/documentations/-/test_user-documentation/svg-badge.svg
-[wbetranslate]: https://translations.zammad.org/projects/documentations/test_user-documentation/
-[tprogress]: https://translations.zammad.org/widgets/documentations/-/test_user-documentation/multi-auto.svg
+[tbadge]: https://translations.zammad.org/widgets/documentations/-/user-documentation/svg-badge.svg
+[wbetranslate]: https://translations.zammad.org/projects/documentations/user-documentation/
+[tprogress]: https://translations.zammad.org/widgets/documentations/-/user-documentation/multi-auto.svg
