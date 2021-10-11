@@ -7,13 +7,17 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-06 12:26+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-10-11 14:21+0000\n"
+"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"Language-Team: Russian <https://translations.zammad.org/projects/"
+"documentations/test_user-documentation/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -60,19 +64,19 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:28
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
-msgstr ""
+msgstr "``Ctrl`` + ``Shift`` + ``H`` (в Windows)"
 
 #: ../advanced/keyboard-shortcuts.rst:29
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
-msgstr ""
+msgstr "``Ctrl`` + ``Shift`` + ``H`` (в Linux)"
 
 #: ../advanced/keyboard-shortcuts.rst:30
 msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
-msgstr ""
+msgstr "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (в macOS)"
 
 #: ../advanced/keyboard-shortcuts.rst:33
 msgid "Formatting Text"
-msgstr ""
+msgstr "Форматирование текста"
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid "Keyboard shortcuts can be used to apply rich-text formatting in one of two ways:"
@@ -93,6 +97,7 @@ msgstr ""
 #: ../advanced/keyboard-shortcuts.rst:41
 msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
 msgstr ""
+"нажмите ``Cmd`` + ``I`` снова, чтобы вернуть текст обратно в нормальный вид."
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "All-at-once"
@@ -108,7 +113,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:47
 msgid "press ``Cmd`` + ``I`` to italicize."
-msgstr ""
+msgstr "нажмите ``Cmd`` + ``I``, чтобы выделить курсивом."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -204,7 +209,7 @@ msgstr ""
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
-msgstr ""
+msgstr "Расширенный поиск"
 
 #: ../advanced/search.rst:4
 msgid "With Zammad, you can limit your search to specific Information. This allows you to find e.g. Tickets with specific key words and states. Below information will help you to improve your search results."
@@ -242,7 +247,7 @@ msgstr ""
 
 #: ../advanced/search.rst:29
 msgid "state"
-msgstr ""
+msgstr "state"
 
 #: ../advanced/search.rst:30
 msgid "organization"
@@ -274,56 +279,61 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "Example"
-msgstr ""
+msgstr "Пример"
 
 #: ../advanced/search.rst:1
 #: ../advanced/search.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../advanced/search.rst:1
 msgid "number"
-msgstr ""
+msgstr "number"
 
 #: ../advanced/search.rst:1
 msgid "1118566"
-msgstr ""
+msgstr "1118566"
 
 #: ../advanced/search.rst:1
 msgid "number:1118566 |br|\\ number:11185*"
-msgstr ""
+msgstr "number:1118566 |br|\\ number:11185*"
 
 #: ../advanced/search.rst:1
 msgid "Search for a Ticketnumber"
-msgstr ""
+msgstr "Поиск по номеру Тикета"
 
 #: ../advanced/search.rst:1
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../advanced/search.rst:1
 msgid "some title"
-msgstr ""
+msgstr "некий заголовок"
 
 #: ../advanced/search.rst:1
 msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
-msgstr ""
+msgstr "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
 
 #: ../advanced/search.rst:1
 msgid "If you need to use spacings in the search phrase, use quotes. Zammad will do a AND-Search over the given words. You can also use a single keyword without quotation."
 msgstr ""
+"Если вам нужно использовать пробелы в поисковой фразе, используйте кавычки. "
+"Zammad использует логическое И (AND) между словами в кавычках. Ключевой "
+"фразе без пробелов кавычки не нужны."
 
 #: ../advanced/search.rst:1
 msgid "created_at"
-msgstr ""
+msgstr "created_at"
 
 #: ../advanced/search.rst:1
 msgid "2018-11-18"
-msgstr ""
+msgstr "2018-11-18"
 
 #: ../advanced/search.rst:1
 msgid "created_at:2018-11-18 |br|\\ created_at:[2018-11-15 TO 2018-11-18] |br|\\ created_at:>now-1h"
 msgstr ""
+"created_at:2018-11-18 |br|\\ created_at:[2018-11-15 TO 2018-11-18] |br|\\ "
+"created_at:>now-1h"
 
 #: ../advanced/search.rst:1
 msgid "You can either use a simple date, a date-range or >now-xh. Please note that the date format needs to be YYYY-MM-DD"
@@ -335,7 +345,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "new |br|\\ open |br|\\ closed"
-msgstr ""
+msgstr "new |br|\\ open |br|\\ closed"
 
 #: ../advanced/search.rst:1
 msgid "state.name: new |br|\\ state.name:new OR open"
@@ -347,15 +357,17 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "article_count"
-msgstr ""
+msgstr "article_count"
 
 #: ../advanced/search.rst:1
 msgid "5 |br|\\ [5 TO 10] |br|\\ [5 TO \\*] |br|\\ [\\* TO 5]"
-msgstr ""
+msgstr "5 |br|\\ [5 TO 10] |br|\\ [5 TO \\*] |br|\\ [\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
+"*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid "You can search for Tickets with a specific number of articles (you can even search for everything with 5 or more articles or even up to 5 articles, if needed)."
@@ -363,15 +375,15 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "article.from"
-msgstr ""
+msgstr "article.from"
 
 #: ../advanced/search.rst:1
 msgid "\\*bob\\*"
-msgstr ""
+msgstr "\\*bob\\*"
 
 #: ../advanced/search.rst:1
 msgid "article.from:\\*bob\\*"
-msgstr ""
+msgstr "article.from:\\*bob\\*"
 
 #: ../advanced/search.rst:1
 msgid "Show all tickets that contain articles from \"Bob\""
@@ -379,15 +391,17 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "article.body"
-msgstr ""
+msgstr "article.body"
 
 #: ../advanced/search.rst:1
 msgid "heat |br|\\ heat~ |br|\\ /joh?n(ath[oa]n)/"
-msgstr ""
+msgstr "heat |br|\\ heat~ |br|\\ /joh?n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n(ath[oa]n)/"
 msgstr ""
+"article.body:heat |br|\\ article.body:heat~ |br|\\ "
+"articlebody:/joh?n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid "First example shows every ticket containing the word \"heat\" - you can also use the fuzzy operator \"~\" to search for similar words like e.g. like \"head\". Zammad will also allow you to use regular expressions, where ever the attributes allows it."
@@ -770,21 +784,21 @@ msgstr ""
 #: ../extras/knowledge-base.rst:135
 #: ../snippets/ticket-state-type-circles.rst:4
 msgid "|grn|"
-msgstr ""
+msgstr "|grn|"
 
 #: ../snippets/ticket-state-type-circles.rst:5
 #: ../snippets/ticket-state-type-circles.rst:5
 #: ../snippets/ticket-state-type-circles.rst:5
 #: ../snippets/ticket-state-type-circles.rst:5
 msgid "**Closed**"
-msgstr ""
+msgstr "**Closed**"
 
 #: ../snippets/ticket-state-type-circles.rst:6
 #: ../snippets/ticket-state-type-circles.rst:6
 #: ../snippets/ticket-state-type-circles.rst:6
 #: ../snippets/ticket-state-type-circles.rst:6
 msgid "|blk|"
-msgstr ""
+msgstr "|blk|"
 
 #: ../snippets/ticket-state-type-circles.rst:7
 #: ../snippets/ticket-state-type-circles.rst:7
@@ -798,7 +812,7 @@ msgstr ""
 #: ../snippets/ticket-state-type-circles.rst:9
 #: ../snippets/ticket-state-type-circles.rst:9
 msgid "|ylw|"
-msgstr ""
+msgstr "|ylw|"
 
 #: ../snippets/ticket-state-type-circles.rst:10
 #: ../snippets/ticket-state-type-circles.rst:10
@@ -1112,15 +1126,15 @@ msgstr ""
 
 #: ../basics/find-ticket.rst:2
 msgid "Finding Tickets"
-msgstr ""
+msgstr "Поиск Тикетов"
 
 #: ../basics/find-ticket.rst:4
 msgid "If you plan to work on tickets, you’d better know how to find ’em first."
-msgstr ""
+msgstr "Прежде чем начать работу с Тикетами, вам стоит прежде"
 
 #: ../basics/find-ticket.rst:6
 msgid "Read on to learn how to check for new tickets, and dig up old ones."
-msgstr ""
+msgstr "Прочтите прежде, чем создавать новый Тикет"
 
 #: ../basics/find-ticket/browse.rst:2
 msgid "Browse for Tickets"
