@@ -15,7 +15,7 @@ exclude_patterns = ['_build', 'html', 'doctrees']
 extensions = ['versionwarning.extension']
 
 locale_dirs = ['locale/']
-gettext_compact = False
+gettext_compact = "user-docs"
 language = "en"
 
 html_theme = 'sphinx_rtd_theme'
