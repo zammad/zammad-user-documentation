@@ -100,6 +100,8 @@ There are three types of follow-ups:
 
 ----
 
+.. _caution-im-working-here:
+
 .. caution:: **🙅 I’m working here!**
 
    Every once in a while,
