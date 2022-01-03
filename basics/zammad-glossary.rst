@@ -393,7 +393,7 @@ i-doit
 Icinga
    Icinga is a monitoring system that supervises the availability of an
    organization's entire system infrastructure.
-   It can be intergrated into Zammad so that it triggers a ticket in case
+   It can be integrated into Zammad so that it triggers a ticket in case
    of a warning situation.
 
    `Learn more about Icinga on our landing page`_.
