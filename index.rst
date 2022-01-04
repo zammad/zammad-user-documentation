@@ -7,6 +7,7 @@ Zammad Agent Documentation
    :caption: Basics
    :name: basics
 
+   /basics/zammad-glossary
    /basics/what-is-a-ticket
    /basics/find-ticket
    /basics/service-ticket

@@ -44,6 +44,8 @@ to pick up where the sales rep left off.
 
 .. tip:: Be sure to leave notes with as much information as possible for the next agent!
 
+.. _mentions:
+
 @mentions & the Subscribe Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
