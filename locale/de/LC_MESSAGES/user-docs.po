@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-04 11:18+0100\n"
-"PO-Revision-Date: 2022-01-05 15:17+0000\n"
+"PO-Revision-Date: 2022-01-09 16:17+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
@@ -942,7 +942,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:97
 msgid "owner"
-msgstr "owner"
+msgstr "Besitzer"
 
 #: ../advanced/suggested-workflows.rst:98
 msgid "state (with pending time if applicable)"
@@ -2818,6 +2818,13 @@ msgid ""
 "work, find an admin in your organization and ask them – chances are, they "
 "can help."
 msgstr ""
+"Ein Admin(inistrator) ist ein Benutzer, der in Zammad spezielle "
+"Berechtigungen hat. Admins können Zugriffe für Benutzer, "
+"Zeiterfassungskonfigurationen, Templates und Textbausteine - auf höheren "
+"Level Integrationen, Reporting und so weitere konfigurieren. Wenn Sie also "
+"eine Änderung in Zammad vornehmen wollen aber nicht können, fragen Sie den "
+"Administrator Ihrer Organisation. Die Chancen stehen gut, dass dieser helfen "
+"kann."
 
 #: ../basics/zammad-glossary.rst:33
 msgid "Agent"
@@ -2830,6 +2837,11 @@ msgid ""
 "sometimes even consider it their main tool. Some of them are admins, meaning "
 "that they can change settings, user rights, and so on (see above)."
 msgstr ""
+"Einen Benutzer der Tickets/Anfragen bearbeitet nennen wir Administrator. Für "
+"gewöhnlich gibt es mehrere Agenten, die Zammad regelmäßig nutzen und "
+"zeitweilig als Ihr Hauptwerkzeug ansehen. Manche von Ihnen sind "
+"Administratoren, was bedeutet, dass Sie Einstellungen, Benutzer-"
+"Berechtigungen und weiteres (siehe oben) anpassen können."
 
 #: ../basics/zammad-glossary.rst:42
 msgid "API"
@@ -2842,14 +2854,19 @@ msgid ""
 "State Transfer`_) API that allows our users, among other things, to connect "
 "third-party systems to their instance (such as social media or messengers)."
 msgstr ""
+"Eine API (Application Programming Interface) ist eine Schnittstelle, die das "
+"Erstellen und Bearbeiten von Geschäfts-Objekten erlaubt. Zammad besitzt eine "
+"REST (`Representational State Transfer`_) API, die es unseren Benutzern "
+"erlaubt, neben anderen Dingen, Drittanbieter-Systeme an ihre Instanz "
+"anzubinden (z.B. Social Media oder Messenger)."
 
 #: ../basics/zammad-glossary.rst:42
 msgid "You can learn more on our `API landing page`_."
-msgstr ""
+msgstr "Weiteres können Sie auf unserer `API Landing Page`_ lernen."
 
 #: ../basics/zammad-glossary.rst:54
 msgid "Automation"
-msgstr ""
+msgstr "Automatisierung"
 
 #: ../basics/zammad-glossary.rst:51
 msgid ""
@@ -2858,6 +2875,11 @@ msgid ""
 "is required from the agents. One example would be the weekly deletion of "
 "tickets at a pre-defined time."
 msgstr ""
+"Es gibt einige Prozesse die sich in Zammad automatisieren lassen. Das "
+"bedeutet, dass bestimmte Schritte oder Aktionen automatisch ausgeführt "
+"werden und damit keine weitere Agenten-Interaktion erfordert. Ein Beispiel "
+"wäre die wöchentliche Löschung von Tickets aus einem vorher definierten "
+"Zeitraum."
 
 #: ../basics/zammad-glossary.rst:59
 #, fuzzy
@@ -2871,10 +2893,13 @@ msgid ""
 "can be internal (so only agents can see them) or public (e.g. emails to your "
 "customers, which they receive, too)."
 msgstr ""
+"Jede Korrespondenz innerhalb eines Tickets wird Artikel genannt. Ticket-"
+"Artikel können intern (also nur für Agenten sichtbar) oder öffentlich (z.B. "
+"E-Mails mit Ihren Kunden, die diese auch erhalten) sein."
 
 #: ../basics/zammad-glossary.rst:66
 msgid "Autosave"
-msgstr ""
+msgstr "Automatische Sicherung"
 
 #: ../basics/zammad-glossary.rst:62
 msgid ""
@@ -2882,10 +2907,16 @@ msgid ""
 "work as you go along, so if you ever log out unexpectedly or your browser "
 "crashes (we’ve all been there…) none of your work gets lost!"
 msgstr ""
+"Die Automatische Sicherung ist wahrscheinlich eine der coolsten Funktionen "
+"in Zammad: Sie speichert alle Ihre Änderungen während des Arbeitens – wenn "
+"Sie sich also versehentlich ausloggen oder Ihr Browser abstürzt (wir kennen "
+"es alle...), geht Ihre Arbeit nicht verloren!"
 
 #: ../basics/zammad-glossary.rst:66
 msgid "You can learn more on our `Autosave landing page`_."
 msgstr ""
+"Dazu können Sie mehr auf unserer `Landing Page der Automatischen Sicherung`_ "
+"lernen."
 
 #: ../basics/zammad-glossary.rst:72
 msgid "B"
@@ -2893,7 +2924,7 @@ msgstr "B"
 
 #: ../basics/zammad-glossary.rst:79
 msgid "Branding"
-msgstr ""
+msgstr "Branding (Markenzeichen)"
 
 #: ../basics/zammad-glossary.rst:75
 msgid ""
@@ -2901,10 +2932,13 @@ msgid ""
 "various ways, e.g. by letting you design your signatures freely and add your "
 "company logo to the platform."
 msgstr ""
+"Jedes Unternehmen hat eine andere Identität birgt hierzu verschiedene "
+"Möglichkeiten – z.B. beim freien Bestimmen Ihrer Signaturen und dem "
+"Hinzufügen Ihres Firmenlogos zur Plattform."
 
 #: ../basics/zammad-glossary.rst:79
 msgid "`Learn more about branding options in the admin documentation`_."
-msgstr ""
+msgstr "`Lernen Sie mehr zu den Branding-Optionen in der Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:85
 msgid "C"
@@ -2912,7 +2946,7 @@ msgstr "C"
 
 #: ../basics/zammad-glossary.rst:94
 msgid "Custom Development (CD)"
-msgstr ""
+msgstr "Eigene Entwicklungen (CD)"
 
 #: ../basics/zammad-glossary.rst:88
 msgid ""
@@ -2970,7 +3004,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:144
 msgid "CTI"
-msgstr ""
+msgstr "CTI"
 
 #: ../basics/zammad-glossary.rst:133
 msgid ""
@@ -2979,30 +3013,35 @@ msgid ""
 "for example, a call log, an overview of which agent is currently on a call, "
 "a caller ID search, and even a Do-Not-Disturb-Mode."
 msgstr ""
+"CTI steht für Computer Telephony Integration und erlaubt es Ihnen "
+"detaillierte Informationen zu Ihren eingehenden und ausgehenden Anrufen zu "
+"sammeln. Das beinhaltet zum Beispiel ein Anrufprotokoll – einer Übersicht "
+"die zeigt welche Agenten aktuell telefonieren, eine Rufnummern-Suche und "
+"einen Do not Disturb-Modus."
 
 #: ../basics/zammad-glossary.rst:138
 msgid "`Learn more on our CTI landing page`_."
-msgstr ""
+msgstr "`Lernen Sie mir auf unserer CTI Landing Page zum Thema`_."
 
 #: ../basics/zammad-glossary.rst:140
 msgid "Here's the fitting documentation pages:"
-msgstr ""
+msgstr "Hier gibt finden Sie noch die passenden Dokumentationsseiten:"
 
 #: ../basics/zammad-glossary.rst:142
 msgid "`generic CTI`_"
-msgstr ""
+msgstr "`generische CTI`_"
 
 #: ../basics/zammad-glossary.rst:143
 msgid "`placetel CTI`_"
-msgstr ""
+msgstr "`placetel CTI`_"
 
 #: ../basics/zammad-glossary.rst:144
 msgid "`sipgate CTI`_"
-msgstr ""
+msgstr "`sipgate CTI`_"
 
 #: ../basics/zammad-glossary.rst:164
 msgid "Checkmk"
-msgstr ""
+msgstr "Checkmk"
 
 #: ../basics/zammad-glossary.rst:159
 msgid ""
@@ -3011,10 +3050,16 @@ msgid ""
 "Zammad will automatically create, update, and close tickets based on the "
 "health of your system."
 msgstr ""
+"Checkmk ist ein mächtiges IT-Tool für Monitoring das Echtzeit-Alarme an "
+"Zammad via E-Mail oder REST-API senden kann. Konfigurieren Sie die Alarme in "
+"Checkmk und Zammad wird automatisch Tickets basierend auf der "
+"Systemgesundheit erstellen, aktualisieren und schließen."
 
 #: ../basics/zammad-glossary.rst:164
 msgid "`Learn more about checkmk integration in the admin documentation`_."
 msgstr ""
+"`Lernen Sie in unserer Admin-Dokumentation mehr über die Checkmk-"
+"Integration`_."
 
 #: ../basics/zammad-glossary.rst:175
 msgid "Clearbit"
@@ -3051,7 +3096,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:190
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: ../basics/zammad-glossary.rst:200
 msgid "Dashboard"
@@ -3092,7 +3137,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:222
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../basics/zammad-glossary.rst:230
 #, fuzzy
@@ -3175,7 +3220,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:274
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../basics/zammad-glossary.rst:279
 msgid "Feature"
@@ -3212,14 +3257,13 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:297
+#, fuzzy
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: ../basics/zammad-glossary.rst:311
-#, fuzzy
-#| msgid "Group"
 msgid "Groups"
-msgstr "Gruppe"
+msgstr "Gruppen"
 
 #: ../basics/zammad-glossary.rst:300
 msgid ""
@@ -3270,10 +3314,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:347
-#, fuzzy
-#| msgid "GitHub logo"
 msgid "GitHub"
-msgstr "GitHub Logo"
+msgstr "GitHub"
 
 #: ../basics/zammad-glossary.rst:332
 msgid ""
@@ -3333,11 +3375,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:371
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: ../basics/zammad-glossary.rst:376
 msgid "I"
-msgstr ""
+msgstr "I"
 
 #: ../basics/zammad-glossary.rst:388
 msgid "i-doit"
@@ -3394,11 +3436,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:413
 msgid "J"
-msgstr ""
+msgstr "J"
 
 #: ../basics/zammad-glossary.rst:418
 msgid "K"
-msgstr ""
+msgstr "K"
 
 #: ../basics/zammad-glossary.rst:432 ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
@@ -3453,7 +3495,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:453
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: ../basics/zammad-glossary.rst:460
 msgid "LDAP"
@@ -3472,13 +3514,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:466
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: ../basics/zammad-glossary.rst:482
-#, fuzzy
-#| msgid "Macros"
 msgid "Macro"
-msgstr "Makros"
+msgstr "Makro"
 
 #: ../basics/zammad-glossary.rst:469
 msgid ""
@@ -3547,7 +3587,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:511
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: ../basics/zammad-glossary.rst:519
 msgid "Nagios"
@@ -3567,7 +3607,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:525
 msgid "O"
-msgstr ""
+msgstr "O"
 
 #: ../basics/zammad-glossary.rst:528
 msgid ""
@@ -3598,7 +3638,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:544
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: ../basics/zammad-glossary.rst:553
 msgid "Parent/Child Relationship"
@@ -3652,11 +3692,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:576
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: ../basics/zammad-glossary.rst:581
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: ../basics/zammad-glossary.rst:594
 msgid "Role"
@@ -3705,8 +3745,9 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:607
+#, fuzzy
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../basics/zammad-glossary.rst:616
 msgid "SSO"
@@ -3729,7 +3770,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:628
 msgid "S/MIME"
-msgstr ""
+msgstr "S/MIME"
 
 #: ../basics/zammad-glossary.rst:622
 #, fuzzy
@@ -3795,8 +3836,6 @@ msgid "`Learn more about SLAs on our landing page`_."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:666
-#, fuzzy
-#| msgid "State"
 msgid "Status"
 msgstr "Status"
 
@@ -3814,7 +3853,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:669
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: ../basics/zammad-glossary.rst:682
 msgid "Text module"
@@ -3847,10 +3886,8 @@ msgstr ""
 "text-modules.html>`_ mehr über die Anpassung von Textbausteinen erfahren."
 
 #: ../basics/zammad-glossary.rst:692
-#, fuzzy
-#| msgid "Ticket Templates"
 msgid "(Ticket) Template"
-msgstr "Ticket-Vorlagen"
+msgstr "(Ticket) Vorlagen"
 
 #: ../basics/zammad-glossary.rst:688
 msgid ""
@@ -3880,11 +3917,9 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:710
 msgid "U"
-msgstr ""
+msgstr "U"
 
 #: ../basics/zammad-glossary.rst:716
-#, fuzzy
-#| msgid "Users"
 msgid "User"
 msgstr "Benutzer"
 
@@ -3898,11 +3933,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:719
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #: ../basics/zammad-glossary.rst:724
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: ../basics/zammad-glossary.rst:732
 msgid "Webhooks"
@@ -3922,15 +3957,15 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:739
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../basics/zammad-glossary.rst:744
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../basics/zammad-glossary.rst:749
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #: ../basics/zammad-glossary.rst:751
 msgid "Zammad"
