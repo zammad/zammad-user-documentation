@@ -3738,10 +3738,6 @@ msgstr "**🤔 Hum? Eu não vejo nenhuma aba **Telefone** no menu...**"
 
 #: ../extras/caller-log.rst:14
 #, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don’t see it in the main menu, that "
-#| "means your administrator hasn’t enabled it yet. Administrators can learn "
-#| "more `here <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
 msgid ""
 "This feature is **optional**; if you don’t see it in the main menu, that "
 "means your administrator hasn’t enabled it yet. Administrators can learn "
@@ -3753,9 +3749,6 @@ msgstr ""
 
 #: ../extras/caller-log.rst:23
 #, fuzzy
-#| msgid ""
-#| "🏢 The caller log shows all incoming and outgoing calls **for the entire "
-#| "team**."
 msgid ""
 "🏢 The caller log shows all incoming and outgoing calls **for the entire "
 "instance**. The number of entries shown depends on the configuration your "
@@ -3773,7 +3766,6 @@ msgstr ""
 
 #: ../extras/caller-log.rst:39
 #, fuzzy
-#| msgid "New tickets"
 msgid "New Ticket dialogue"
 msgstr "Novos chamados"
 
@@ -3850,10 +3842,6 @@ msgstr ""
 
 #: ../extras/caller-log.rst:71
 #, fuzzy
-#| msgid ""
-#| "👤 Click on unrecognized numbers in the caller log to **create a new "
-#| "customer and ticket**. (Unrecognized phone numbers cannot be added to "
-#| "existing customers in this way.)"
 msgid ""
 "👤 Click on unrecognized numbers to **create a new customer** or maybe "
 "entries to **update an existing customer**."
@@ -5308,13 +5296,32 @@ msgstr "Extras"
 msgid "Zammad Agent Documentation"
 msgstr "Documentação do Agente Zammad"
 
-#~ msgid ""
-#~ "This feature is **optional**; if you don’t see it in the main menu, that "
-#~ "means your administrator hasn’t enabled it yet. Administrators can learn "
-#~ "more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
-#~ "html#integrations-for-phone-systems>`_."
-#~ msgstr ""
-#~ "Este recurso é **opcional**; Se você não o vê no menu, significa que o "
-#~ "administrador ainda não o ativou. Administradores podem ver mais `aqui "
-#~ "<https://admin-docs.zammad.org/en/latest/system-integrations."
-#~ "html#integrations-for-phone-systems>`_."
+#: ../extras/caller-log.rst:14
+msgid ""
+"This feature is **optional**; if you don’t see it in the main menu, that "
+"means your administrator hasn’t enabled it yet. Administrators can learn "
+"more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
+"html#integrations-for-phone-systems>`_."
+msgstr ""
+"Este recurso é **opcional**; Se você não o vê no menu, significa que o "
+"administrador ainda não o ativou. Administradores podem ver mais `aqui "
+"<https://admin-docs.zammad.org/en/latest/system-integrations."
+"html#integrations-for-phone-systems>`_."
+
+#: ../extras/caller-log.rst:21
+msgid ""
+"🏢 The caller log shows all incoming and outgoing calls **for the entire "
+"team**."
+msgstr ""
+"🏢 O registro de chamadas exibe todas as chamadas de entrada e de saída **de "
+"todo do time**."
+
+#: ../extras/caller-log.rst:25
+msgid ""
+"👤 Click on unrecognized numbers in the caller log to **create a new customer "
+"and ticket**. (Unrecognized phone numbers cannot be added to existing "
+"customers in this way.)"
+msgstr ""
+"👤 Clique nos números desconhecidos no registro de ligações para **criar um "
+"novo cliente e um ticket**. Números de telefones desconhecidos não podem ser "
+"adicionados a clientes existentes desta forma"
