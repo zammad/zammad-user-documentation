@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 23:13+0100\n"
-"PO-Revision-Date: 2022-01-13 22:14+0000\n"
+"PO-Revision-Date: 2022-01-15 18:02+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
@@ -3010,13 +3010,16 @@ msgid ""
 "dependencies, as in, if one field is filled in, another one opens up or "
 "becomes mandatory."
 msgstr ""
+"Diese Funktion erlaubt jeder Organisation eigene dynamische Felder und "
+"Ticketmasken, basierend auf ihren spezifischen Workflows, zu definieren. "
+"Damit können bestimmte Gruppen nur bestimmte (oder alle) Felder. Sie können "
+"sogar Abhängigkeiten einrichten, z. B. wenn ein Feld ausgefüllt ist, taucht "
+"ein anderes auf oder wird obligatorisch."
 
 #: ../basics/zammad-glossary.rst:127
-#, fuzzy
-#| msgid "`Learn more about branding options in the admin documentation`_."
 msgid "`Learn more about Core Workflows in the admin documentation`_."
 msgstr ""
-"`Lernen Sie mehr zu den Branding-Optionen in der Admin-Dokumentation`_."
+"`In der Admin-Dokumentation können Sie mehr über Core Workflows erfahren`_."
 
 #: ../basics/zammad-glossary.rst:144
 msgid "CTI"
@@ -3041,7 +3044,7 @@ msgstr "`Lernen Sie mir auf unserer CTI Landing Page zum Thema`_."
 
 #: ../basics/zammad-glossary.rst:140
 msgid "Here's the fitting documentation pages:"
-msgstr "Hier gibt finden Sie noch die passenden Dokumentationsseiten:"
+msgstr "Hier finden Sie noch die passenden Dokumentationsseiten:"
 
 #: ../basics/zammad-glossary.rst:142
 msgid "`generic CTI`_"
@@ -3088,10 +3091,14 @@ msgid ""
 "automatically enriched with information such as company, number of "
 "employees, annual turnover, industry, and much more."
 msgstr ""
+"Clearbit ist eine Marketingdaten-Engine, die entwickelt wurde, um "
+"Informationen über Ihre Kontakte zu sammeln. So lassen sich neue Anfragen "
+"von unbekannten Nutzern in Zammad automatisch mit Informationen wie Firma, "
+"Mitarbeiterzahl, Jahresumsatz, Branche und vielem mehr anreichern."
 
 #: ../basics/zammad-glossary.rst:175
 msgid "`Learn more about clearbit integration in the admin documentation`_."
-msgstr ""
+msgstr "`Lernen Sie mehr zur clearbit-Integration in der Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:187
 msgid "Conflict Warning"
@@ -3105,10 +3112,17 @@ msgid ""
 "avatar and a little pen at the bottom of your ticket, it means they are "
 "currently editing it."
 msgstr ""
+"Wenn zwei Agenten zeitgleich am gleichen Ticket arbeiten, kann eine Menge "
+"schiefgehen – von doppelten Antworten zu überschriebenen Nachrichten. Zammad "
+"hilft Ihnen diese Situation mit der integrierten Konfliktwarnung zu "
+"vermeiden. Wenn Sie also den Avatar eines anderen Agenten mit einem Stift "
+"unten am Ticket sehen bedeutet das, dass dieser aktuell am Ticket arbeitet."
 
 #: ../basics/zammad-glossary.rst:187
 msgid ":ref:`Learn more on our following up page <caution-im-working-here>`."
 msgstr ""
+":ref:`Lernen Sie mehr auf der Tickets nachgehen-Seite <caution-im-working-"
+"here>`."
 
 #: ../basics/zammad-glossary.rst:190
 msgid "D"
@@ -3126,10 +3140,16 @@ msgid ""
 "tickets, the average waiting time, or the reopening rate. You can also see "
 "what your colleagues are doing by checking the Activity Stream."
 msgstr ""
+"Das Dashboard ist die individuelle Willkommensseite eines jeden Agenten in "
+"Zammad und gibt Ihnen Feedback zu Ihrer Situation, indem es Informationen "
+"und Statistiken zu Ihrer Arbeit sammelt. Sie finden hier allerlei "
+"Übersichten wie die offenen Tickets, die durchschnittliche Wartezeit oder "
+"Wiedereröffnungsrate. Sie können außerdem im Aktivitätenstream sehen, was "
+"Ihre Kollegen gerade bearbeiten."
 
 #: ../basics/zammad-glossary.rst:200
 msgid "Learn more on :doc:`/extras/dashboard`."
-msgstr ""
+msgstr "Lernen Sie mehr unter :doc:`/extras/dashboard`."
 
 #: ../basics/zammad-glossary.rst:210
 msgid "Documentation"
@@ -3142,12 +3162,18 @@ msgid ""
 "especially when it comes to the more technical aspects, such as settings or "
 "installations."
 msgstr ""
+"Wenn dieses Glossar nicht bereits ausreicht, ist unsere Dokumentation der "
+"Beste Ort um weitere Informationen zu Zammad zu suchen – besonders wenn es "
+"um die technischen Aspekte wie Installation und Konfiguration geht."
 
 #: ../basics/zammad-glossary.rst:208
 msgid ""
 "We have three different ones: `Zammad for Agents`_, `Zammad for Admins`_, "
 "and the `general Zammad Documentation`_ (System Administrators, API)."
 msgstr ""
+"Wir haben drei verschiedene: `Zammad für Agenten`_, `Zammad für "
+"Administratoren`_ und die `generelle Zammad-Dokumentation`_ (System "
+"Administratoren, API)."
 
 #: ../basics/zammad-glossary.rst:222
 msgid "E"
@@ -3183,6 +3209,8 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:239
 msgid "`See our admin documentation for all third party authenticators`_."
 msgstr ""
+"`In unserer Admin-Dokumentation können Sie alle Methoden zur "
+"Authentifizierung mit Drittanbietern finden`_."
 
 #: ../basics/zammad-glossary.rst:250
 msgid "Exchange Integration"
@@ -3200,6 +3228,7 @@ msgstr ""
 msgid ""
 "`Learn more about the exchange integration in our admin documentation`_."
 msgstr ""
+"`Erfahren Sie mehr zur Exchange-Integration in unserer Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:271
 msgid "Elasticsearch"
@@ -3211,12 +3240,17 @@ msgid ""
 "that makes the search process within Zammad super fast (even for data sets "
 "of several terra bytes!)."
 msgstr ""
+"Zammad bietet eine Elasticsearch-Integration (eine freie Opensearch-Engine), "
+"die Suchprozesse in Zammad extrem schnell macht (auch bei Datensätzen von "
+"mehreren Terrabytes!)."
 
 #: ../basics/zammad-glossary.rst:260
 msgid ""
 "Spoiler: Zammad is currently the only helpdesk system with a search function "
 "that combs attachments, too!"
 msgstr ""
+"Spoiler: Zammad ist aktuell das einzige Helpdesk-System, das auch "
+"Attachments in die Suche einschließt!"
 
 #: ../basics/zammad-glossary.rst:263
 msgid "**🤓 This affects hosted environments only!**"
@@ -3227,6 +3261,8 @@ msgid ""
 "Via a read-only user in Elasticsearch, you can also integrate your favorite "
 "reporting tool (e.g. like Grafana)."
 msgstr ""
+"Mit Hilfe eines 'read-only'-Benutzers in Elasticsearch, können Sie außerdem "
+"Ihr liebstes Reporting-Tool (wie z.B.: Grafana) verwenden."
 
 #: ../basics/zammad-glossary.rst:274
 msgid "F"
@@ -3234,7 +3270,7 @@ msgstr "F"
 
 #: ../basics/zammad-glossary.rst:279
 msgid "Feature"
-msgstr ""
+msgstr "Feature"
 
 #: ../basics/zammad-glossary.rst:277
 msgid ""
@@ -3242,10 +3278,13 @@ msgid ""
 "our integrations, productivity tools, or time-saving aspects. We keep adding "
 "new features with every release."
 msgstr ""
+"Feature nennen wir die verschiedenen Funktionalitäten von Zammad, wie unsere "
+"Integrationen, Produktivitätstools oder zeitsparende Aspekte. Wir fügen "
+"immer weitere Funktionen mit jedem Release hinzu."
 
 #: ../basics/zammad-glossary.rst:286
 msgid "Feature request"
-msgstr ""
+msgstr "Feature-Request"
 
 #: ../basics/zammad-glossary.rst:282
 msgid ""
@@ -3267,7 +3306,6 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:297
-#, fuzzy
 msgid "G"
 msgstr "G"
 
@@ -3295,10 +3333,11 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:311
 msgid "`Learn more on our group landing page`_."
 msgstr ""
+"`Auf unserer Landing-Page für Gruppen finden Sie weitere Informationen`_."
 
 #: ../basics/zammad-glossary.rst:326
 msgid "Grafana"
-msgstr ""
+msgstr "Grafana"
 
 #: ../basics/zammad-glossary.rst:317
 msgid ""
@@ -3306,22 +3345,29 @@ msgid ""
 "integrate it into their instance and receive detailed analytics on their "
 "performance."
 msgstr ""
+"Grafana ist ein Open-Source Reporting-Tool. Zammad-Kunden im Pluspaket "
+"können dieses an ihre Instanz anbinden und damit detaillierte Informationen "
+"zur eigenen Performance erhalten."
 
 #: ../basics/zammad-glossary.rst:321
 msgid "**🤓 Self Hosted users**"
-msgstr ""
+msgstr "**🤓 Selbst gehostete Benutzer**"
 
 #: ../basics/zammad-glossary.rst:323
 msgid ""
 "Hooking up Grafana to Elasticsearch is an possibility you can do on your own "
 "as well."
 msgstr ""
+"Grafana an Elasticsearch anzubinden ist eine Option die Sie auch "
+"selbstständig durchführen können."
 
 #: ../basics/zammad-glossary.rst:326
 msgid ""
 "`Learn more on how to add Grafana dashboards for Zammad on our "
 "documentation`_."
 msgstr ""
+"`In unserer Dokumentation lernen Sie, wie Sie Grafana-Dashboards für Zammad "
+"hinzufügen können`_."
 
 #: ../basics/zammad-glossary.rst:347
 msgid "GitHub"
@@ -3343,7 +3389,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:339
 msgid "`You can find the repository here`_."
-msgstr ""
+msgstr "`Das Repository können Sie hier finden`_."
 
 #: ../basics/zammad-glossary.rst:341
 msgid ""
@@ -3361,7 +3407,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:365
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../basics/zammad-glossary.rst:356
 msgid ""
@@ -3393,7 +3439,7 @@ msgstr "I"
 
 #: ../basics/zammad-glossary.rst:388
 msgid "i-doit"
-msgstr ""
+msgstr "i-doit"
 
 #: ../basics/zammad-glossary.rst:379
 msgid ""
@@ -3414,7 +3460,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:399
 msgid "Icinga"
-msgstr ""
+msgstr "Icinga"
 
 #: ../basics/zammad-glossary.rst:394
 msgid ""
@@ -3425,17 +3471,20 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:399
 msgid "`Learn more about Icinga on our landing page`_."
-msgstr ""
+msgstr "`Erfahren Sie auf unserer Landing-Page für Icinga mehr`_."
 
 #: ../basics/zammad-glossary.rst:410
 msgid "Issue-tracking system"
-msgstr ""
+msgstr "Issue-Tracking-System"
 
 #: ../basics/zammad-glossary.rst:405
 msgid ""
 "Issue trackers are usually systems that track processes on a technical "
 "level. Two of the best-known examples are GitHub and GitLab."
 msgstr ""
+"Issue Tracker sind für gewöhnlich Systeme, die Prozesse auf einem "
+"technischen Level verwalten. Zwei Beispiele der bekanntesten sind GitHub und "
+"GitLab."
 
 #: ../basics/zammad-glossary.rst:408
 msgid ""
@@ -3443,6 +3492,9 @@ msgid ""
 "helpdesk, it focuses on communication at the customer level rather than the "
 "technical level."
 msgstr ""
+"Zammad wird auch öfter als Issue-Tracking-System benannt. Als ein Helpdesk-"
+"System fokussiert es jedoch die Kommunikation auf einem Kunden-Level "
+"anstelle des technischen Levels."
 
 #: ../basics/zammad-glossary.rst:413
 msgid "J"
@@ -3480,7 +3532,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:447
 msgid "Kibana"
-msgstr ""
+msgstr "Kibana"
 
 #: ../basics/zammad-glossary.rst:438
 msgid ""
@@ -3497,11 +3549,11 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:445
 msgid "**🤓 This does not apply to SaaS Zammad instances.**"
-msgstr ""
+msgstr "**🤓 Das trifft nicht auf SaaS Zammad-Instanzen zu.**"
 
 #: ../basics/zammad-glossary.rst:447
 msgid "`Learn more about Kibana on our landing page`_."
-msgstr ""
+msgstr "`Auf unserer Landing Page zu Kibana können Sie mehr erfahren`_."
 
 #: ../basics/zammad-glossary.rst:453
 msgid "L"
@@ -3509,7 +3561,7 @@ msgstr "L"
 
 #: ../basics/zammad-glossary.rst:460
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: ../basics/zammad-glossary.rst:456
 msgid ""
@@ -3555,7 +3607,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:491
 msgid "Migrator / Migration Wizard"
-msgstr ""
+msgstr "Migrator / Migrationsassistent"
 
 #: ../basics/zammad-glossary.rst:488
 msgid ""
@@ -3567,7 +3619,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:498
 msgid "Monit"
-msgstr ""
+msgstr "Monit"
 
 #: ../basics/zammad-glossary.rst:494
 msgid ""
@@ -3601,7 +3653,7 @@ msgstr "N"
 
 #: ../basics/zammad-glossary.rst:519
 msgid "Nagios"
-msgstr ""
+msgstr "Nagios"
 
 #: ../basics/zammad-glossary.rst:514
 msgid ""
@@ -3670,7 +3722,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:568
 msgid "Placetel"
-msgstr ""
+msgstr "Placetel"
 
 #: ../basics/zammad-glossary.rst:556
 msgid ""
@@ -3738,7 +3790,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:604
 msgid "Release"
-msgstr ""
+msgstr "Release"
 
 #: ../basics/zammad-glossary.rst:597
 msgid ""
@@ -3761,7 +3813,7 @@ msgstr "S"
 
 #: ../basics/zammad-glossary.rst:616
 msgid "SSO"
-msgstr ""
+msgstr "SSO"
 
 #: ../basics/zammad-glossary.rst:610
 msgid ""
@@ -3806,7 +3858,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:641
 msgid "Sipgate"
-msgstr ""
+msgstr "Sipgate"
 
 #: ../basics/zammad-glossary.rst:634
 msgid ""
@@ -3824,7 +3876,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:656
 msgid "SLA"
-msgstr ""
+msgstr "SLA"
 
 #: ../basics/zammad-glossary.rst:646
 msgid ""
