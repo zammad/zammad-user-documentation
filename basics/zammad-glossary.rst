@@ -124,9 +124,9 @@ Core Workflows
    You can even set up dependencies, as in, if one field is filled in,
    another one opens up or becomes mandatory.
    
-   `Learn more about Core Worklows in the admin documentation`_.
+   `Learn more about Core Workflows in the admin documentation`_.
 
-.. _Learn more about Core Worklows in the admin documentation:
+.. _Learn more about Core Workflows in the admin documentation:
    https://admin-docs.zammad.org/en/latest/system/core-workflows.html
 
 CTI
