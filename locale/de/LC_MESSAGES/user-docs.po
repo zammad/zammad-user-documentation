@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 23:13+0100\n"
-"PO-Revision-Date: 2022-01-15 18:02+0000\n"
+"PO-Revision-Date: 2022-01-19 12:02+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
@@ -1388,7 +1388,7 @@ msgstr ""
 msgid "In such cases, you may want to **merge those tickets into one**."
 msgstr ""
 "In diesen Fällen kann es sein, dass Sie diese **beiden Tickets zu einem "
-"zusammenfassen möchten.**"
+"zusammenfassen möchten**."
 
 #: ../advanced/ticket-actions/merge.rst:14
 msgid "Ticket pane submenu"
@@ -2758,7 +2758,7 @@ msgid ""
 "The **agent currently assigned to** (*i.e.,* responsible for) the ticket."
 msgstr ""
 "Der Agent, **der derzeit dem Ticket zugeordnet ist** (*d.h.* der dafür "
-"verantwortlich ist)"
+"verantwortlich ist)."
 
 #: ../basics/what-is-a-ticket.rst:50
 msgid ""
@@ -3192,6 +3192,12 @@ msgid ""
 "in order to prevent escalations, you can use our SLAs (see :ref:`SLAs "
 "<glossary-sla>`)."
 msgstr ""
+"Eine Eskalation tritt ein, nachdem die Fristen für ein Ticket abgelaufen "
+"sind und dem Kunden z.B. keine Neuigkeiten mitgeteilt wurden. Das Ticket "
+"wird in Ihrer Taskbar und Übersichten rot dargestellt und betrifft alle "
+"beteiligten ggf. negativ. Lassen Sie Ihre Tickets daher nicht eskalieren! Um "
+"Eskalationen zu vermeiden, können Sie unsere SLAs (siehe :ref:`SLAs "
+"<glossary-sla>`) nutzen."
 
 #: ../basics/zammad-glossary.rst:239
 msgid "External Authentication"
@@ -3205,6 +3211,12 @@ msgid ""
 "currently supports more than ten login providers, such as Facebook, GitHub, "
 "GitLab, Google, or Microsoft / Office365."
 msgstr ""
+"Externe Authentifizierungen sind ein einfacher Weg, um Benutzern den Login "
+"mit einem Klick zu erlauben. Das hat verschiedene Vorteile: Es ist nicht nur "
+"schneller, sondern erlaubt es Ihren Benutzern auch sich an weniger "
+"Kennwörter erinnern zu müssen. Zammad unterstützt mehr als 10 verschiedene "
+"Login-Anbieter - darunter Facebook, GitHub, GitLab, Google und Microsoft / "
+"Office 365."
 
 #: ../basics/zammad-glossary.rst:239
 msgid "`See our admin documentation for all third party authenticators`_."
@@ -3223,6 +3235,10 @@ msgid ""
 "in Exchange, the iteration will be reflected in Zammad, giving you direct "
 "access to all your Exchange contacts from within your helpdesk."
 msgstr ""
+"Die Exchange-Integration erlaubt es Ihnen die Kontakte Ihres persönlichen "
+"Exchange-Adressbuches mit Zammad zu synchronisieren. So können Sie zentrale "
+"Adressbücher in Exchange pflegen und müssen nicht zusätzlich Zammad-Kontakte "
+"aktualisieren."
 
 #: ../basics/zammad-glossary.rst:250
 msgid ""
@@ -3293,10 +3309,15 @@ msgid ""
 "category`_. If a request comes in regularly and we feel that it would be a "
 "great addition, we'll put it on our roadmap and start working on it."
 msgstr ""
+"Benutzer können uns wissen lassen, wenn ihnen eine bestimmte Funktion in "
+"Zammad fehlt. Wir sammeln diese Wünsche `in der Feature Request-Kategorie "
+"unserer Community`_. Wenn ein Feature sich höherem Interesse erfreut und wir "
+"finden, dass es eine großartige Ergänzung von Zammad ist, kommt die Funktion "
+"auf unsere Roadmap und wird implementiert."
 
 #: ../basics/zammad-glossary.rst:294
 msgid "Feature sponsoring"
-msgstr ""
+msgstr "Feature Sponsoring"
 
 #: ../basics/zammad-glossary.rst:292
 msgid ""
@@ -3304,6 +3325,10 @@ msgid ""
 "can fast-forward the development and put it on top of the list by sponsoring "
 "it, which means that they cover the costs for the development."
 msgstr ""
+"Wenn eine Organisation eine bestimmte Funktion von der Roadmap benötigt, "
+"kann diese die Entwicklung beschleunigen und, durch das Sponsoring, ganz "
+"oben auf unserer Liste verschieben. Das bedeutet, dass diese die Kosten für "
+"die Entwicklung tragen."
 
 #: ../basics/zammad-glossary.rst:297
 msgid "G"
@@ -3322,6 +3347,12 @@ msgid ""
 "via the groups. The possible permissions are \"full access\", \"read-only\" "
 "and \"no access\"."
 msgstr ""
+"Gruppen sind ein Synonym für Abteilungen oder Bearbeitungsgruppen. "
+"Eingehende Tickets werden ihnen zugewiesen. Die jeweilige Gruppe ist für das "
+"Bearbeiten zuständig. Innerhalb der Gruppe können Besitzer definiert werden, "
+"die für das Ticket verantwortlich sind. Berechtigungen auf Tickets werden "
+"außerdem über die Gruppen gesteuert. Die möglichen Zugriffsrechte sind "
+"\"voller Zugriff\", \"lesend\" und \"kein Zugriff\"."
 
 #: ../basics/zammad-glossary.rst:307
 msgid ""
@@ -3329,6 +3360,9 @@ msgid ""
 "principle of \"queues\". The groups in Zammad are the same as the queues in "
 "OTRS."
 msgstr ""
+"Wenn Sie in der Vergangenheit bereits mit OTRS gearbeitet haben, erinnern "
+"Sie sich vielleicht an \"Queues\". Gruppen sind in Zammad das selbe wie "
+"queues in OTRS."
 
 #: ../basics/zammad-glossary.rst:311
 msgid "`Learn more on our group landing page`_."
@@ -3379,6 +3413,9 @@ msgid ""
 "projects. It uses Git, a software that tracks changes in file sets. Here at "
 "Zammad, we use it to maintain our repository."
 msgstr ""
+"GitHub ist ein Dienst zum Versionsmanagement für Softwareprojekte. Es "
+"benutzt Git, eine Software die Änderungen an Dateien trackt. Bei Zammad "
+"nutzen wir es um unser Repository zu verwalten."
 
 #: ../basics/zammad-glossary.rst:336
 msgid ""
@@ -3397,6 +3434,9 @@ msgid ""
 "a data exchange that shows you all relevant information about your issues "
 "directly in the helpdesk, such as status or assignees."
 msgstr ""
+"Neben unserem Repository besitzt Zammad auch eine GitHub-Integration. Es "
+"ermöglicht das darstellen aller relevanten Informationen Ihrer Issues (wie "
+"Status oder Zuständige) direkt im Helpdesk."
 
 #: ../basics/zammad-glossary.rst:345
 msgid ""
@@ -3404,6 +3444,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/github-gitlab-integration`."
 msgstr ""
+"`In der Admin-Dokumentation können Administratoren mehr über GitHub erfahren`"
+"_, wenn Sie ein Agent sind, können Sie mehr zur Funktion auf dieser Seite "
+"erfahren: :doc:`/extras/github-gitlab-integration`."
 
 #: ../basics/zammad-glossary.rst:365
 msgid "GitLab"
@@ -3414,6 +3457,8 @@ msgid ""
 "GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
 "development."
 msgstr ""
+"GitLab ähnelt sich GitHub. Bei Zammad nutzen wir es für interne "
+"Entwicklungen."
 
 #: ../basics/zammad-glossary.rst:359
 msgid ""
@@ -3421,6 +3466,9 @@ msgid ""
 "so that all their issues and their corresponding changes are reflected in "
 "both systems."
 msgstr ""
+"Es gibt außerdem eine Integration, die es Ihnen erlaubt GitLab an Zammad "
+"anzubinden. Damit können Sie alle Issues und die dazugehörigen Änderungen in "
+"beiden Systemen darstellen."
 
 #: ../basics/zammad-glossary.rst:363
 msgid ""
@@ -3428,6 +3476,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/github-gitlab-integration`."
 msgstr ""
+"`In unserer Admin-Dokumentation können Administratoren mehr zu GitLab "
+"erfahren`_, wenn Sie ein Agent sind, können Sie auf der folgenden Seite mehr "
+"zur Funktionalität erfahren: :doc:`/extras/github-gitlab-integration`."
 
 #: ../basics/zammad-glossary.rst:371
 msgid "H"
@@ -3468,6 +3519,9 @@ msgid ""
 "organization's entire system infrastructure. It can be integrated into "
 "Zammad so that it triggers a ticket in case of a warning situation."
 msgstr ""
+"Icinga ist ein Monitoring-System, das die Verfügbarkeit der gesamten System-"
+"Infrastruktur Ihrer Organisation überwachen kann. Es kann mit Zammad "
+"verbunden werden, um Tickets in Problemfällen erstellen zu können."
 
 #: ../basics/zammad-glossary.rst:399
 msgid "`Learn more about Icinga on our landing page`_."
@@ -3514,6 +3568,9 @@ msgid ""
 "knowledge base is. It collects all important information: definitions, "
 "processes, how-to’s, organigrams, etc."
 msgstr ""
+"Denken Sie an eine Sammlung von sehr detaillierten FAQs – das ist das, was "
+"die Zammad Knowledge Base ist. Sie kann alle wichtigen Informationen wie "
+"Definitionen, Prozesse, Anleitungen, Organigramme, und so weiter enthalten."
 
 #: ../basics/zammad-glossary.rst:425
 msgid ""
@@ -3522,6 +3579,10 @@ msgid ""
 "service, for example) or keep them for your team (e.g. for internal "
 "processes or team info)."
 msgstr ""
+"Knowledge Base-Artikel können entweder intern oder extern sein. Sie können "
+"somit entweder die Informationen mit der Welt teilen (gut für z.B. "
+"Informationen zu ihrem Produkt oder Selbsthilfe) oder innerhalb Ihres Teams "
+"halten (für interne Prozesse oder Informationen für Teams)."
 
 #: ../basics/zammad-glossary.rst:430
 msgid ""
@@ -3529,6 +3590,9 @@ msgid ""
 "documentation`_, if you're an agent you can learn more about the "
 "functionality on this page: :doc:`/extras/knowledge-base`."
 msgstr ""
+"`In der Admin-Dokumentation können Administratoren mehr zur Knowledge Base "
+"erfahren`_, wenn Sie ein Agent sind, können Sie mehr zur Funktionalität auf "
+"dieser Seite erfahren: :doc:`/extras/knowledge-base`."
 
 #: ../basics/zammad-glossary.rst:447
 msgid "Kibana"
@@ -3540,12 +3604,17 @@ msgid ""
 "evaluation. It was developed by Elastic, which is why it is not a surprise "
 "that it uses data from Elasticsearch for its analytics."
 msgstr ""
+"Kibana ist ein browserbasiertes Open Source Reporting-Tool mit Fokus auf "
+"Datenevaluierung. Es wurde von Elastic entwickelt. Es ist daher keine "
+"Überraschung, dass es die Daten zur Analyse aus Elasticsearch bezieht."
 
 #: ../basics/zammad-glossary.rst:442
 msgid ""
 "Kibana can be integrated with Zammad, allowing for helpdesk data to be "
 "mapped in the reporting tool."
 msgstr ""
+"Kibana kann an Zammad angebunden werden, was die Nutzung der Helpdesk-Daten "
+"im Reporting-Tool erlaubt."
 
 #: ../basics/zammad-glossary.rst:445
 msgid "**🤓 This does not apply to SaaS Zammad instances.**"
@@ -3589,6 +3658,10 @@ msgid ""
 "individual step separately. It saves an enormous amount of time and ensures "
 "that no step is forgotten."
 msgstr ""
+"Ein Makro ist eine Reihe von Aktionen. Bei der Nutzung von Makros werden "
+"Aktionen auch getriggert (wie ein Dominoeffekt), damit Benutzer keine "
+"weiteren individuellen Schritte durchführen müssen. Das spart eine Menge an "
+"Zeit und stellt sicher, dass kein Schritt vergessen wird."
 
 #: ../basics/zammad-glossary.rst:474
 msgid ""
@@ -3597,6 +3670,11 @@ msgid ""
 "macro, all this can be done in just one action. Macros can be used in the "
 "ticket zoom or within an overview (using multiple selection)."
 msgstr ""
+"Ein Beispiel ist das markieren eines Tickets als \"Spam\". Manuell müsste "
+"der ein Tag hinzugefügt und ein Besitzer und Status gesetzt werden. Mit "
+"einem Makro können all diese Schritte mit nur einer Aktion durchgeführt "
+"werden. Makros sind in Ticket-Zooms und Übersichten (über die "
+"Mehrfachauswahl) verfügbar."
 
 #: ../basics/zammad-glossary.rst:480
 msgid ""
@@ -3604,6 +3682,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/advanced/macros`."
 msgstr ""
+"`In der Admin-Dokumentation können Administratoren mehr über Makros erfahren`"
+"_, wenn Sie ein Agent sind, finden Sie weitere Informationen zur Nutzung auf "
+"dieser Seite: :doc:`/advanced/macros`."
 
 #: ../basics/zammad-glossary.rst:491
 msgid "Migrator / Migration Wizard"
@@ -3616,6 +3697,10 @@ msgid ""
 "built our migration wizards that help with migrating all data at the touch "
 "of a button."
 msgstr ""
+"Beim Wechsel von einem anderen Helpdesk zu Zammad, gibt es meist eine Sorge: "
+"Was ist mit den bereits existierenden Daten? Deshalb haben wir unsere "
+"integrierten Migrations-Assistenten, die mit einem Buttonklick bei der "
+"Datenmigration helfen."
 
 #: ../basics/zammad-glossary.rst:498
 msgid "Monit"
@@ -3627,14 +3712,18 @@ msgid ""
 "strong community. You can integrate it with Zammad – this way, a ticket is "
 "created every time you receive an email in Monit."
 msgstr ""
+"Monit ist ein Open Source Monitoring-Tool das von einer starken Community "
+"und einem simplen Setup profitiert. Es kann außerdem an Zammad angebunden "
+"werden – so erhalten Sie neue Tickets, jedes Mal wenn Monit eine E-Mail "
+"sendet."
 
 #: ../basics/zammad-glossary.rst:498
 msgid "`Learn more about Monit on our landing page`_."
-msgstr ""
+msgstr "`Auf unserer Landing Page können Sie mehr zu Monit erfahren`_."
 
 #: ../basics/zammad-glossary.rst:508
 msgid "Mentions"
-msgstr ""
+msgstr "Erwähnungen"
 
 #: ../basics/zammad-glossary.rst:504
 msgid ""
@@ -3642,10 +3731,14 @@ msgid ""
 "ticket. Just type ``@@`` and the name. The selected person will be notified "
 "and will be watching the ticket from now on."
 msgstr ""
+"Erwähnungen sind eine Zammad-Funktion, die es Ihnen erlaubt andere Agenten "
+"innerhalb von Tickets zu erwähnen. Tippen Sie dazu einfach ``@@`` und den "
+"Namen. Die ausgewählte Person wird Benachrichtigung und abonniert das Ticket "
+"ab diesem Zeitpunkt."
 
 #: ../basics/zammad-glossary.rst:508
 msgid "Learn more on this page: :ref:`mentions`."
-msgstr ""
+msgstr "Weiteres erfahren Sie hier: :ref:`mentions`."
 
 #: ../basics/zammad-glossary.rst:511
 msgid "N"
@@ -3762,31 +3855,39 @@ msgstr "R"
 
 #: ../basics/zammad-glossary.rst:594
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: ../basics/zammad-glossary.rst:584
 msgid ""
 "Everyone who logs into Zammad has a predefined role. There are three types: "
 "admin, agent, and customer."
 msgstr ""
+"Jeder Benutzer der sich in Zammad anmeldet, hat eine bestimmte Rolle. Es "
+"gibt drei Arten: Admin, Agent und Kunde."
 
 #: ../basics/zammad-glossary.rst:587
 msgid ""
 "Admins have the most rights: they can define roles, permissions, and "
 "settings for the entire team and instance."
 msgstr ""
+"Admins haben die meisten Berechtigungen: Sie können Rollen, Berechtigungen "
+"und Einstellungen für das gesamte Team und der Instanz ändern."
 
 #: ../basics/zammad-glossary.rst:590
 msgid ""
 "Agents can view and edit tickets, but not change any settings other than "
 "those of their own profiles."
 msgstr ""
+"Agenten können Tickets einsehen und bearbeiten, jedoch keine Änderungen am "
+"System -außer die eigenen Profileinstellungen- vornehmen."
 
 #: ../basics/zammad-glossary.rst:593
 msgid ""
 "Customers can view their tickets’ processing status in their individual "
 "Customer Interface."
 msgstr ""
+"Kunden können ihre eigenen Tickets und deren aktuellen Stand im "
+"individuellen Kundeninterface einsehen."
 
 #: ../basics/zammad-glossary.rst:604
 msgid "Release"
@@ -3797,6 +3898,8 @@ msgid ""
 "Every few months, we bring a new version of Zammad into the world, which is "
 "called a release. It all started with Zammad 1.0."
 msgstr ""
+"Alle paar Monate veröffentlichen wir eine neue Zammad-Version – das ist eine "
+"Release. Alles hat mit Zammad 1.0 angefangen."
 
 #: ../basics/zammad-glossary.rst:600
 msgid ""
@@ -3805,9 +3908,12 @@ msgid ""
 "changes. Minor releases are installed on top of them (such as 1.1, 2.1, "
 "etc.) and bring smaller updates."
 msgstr ""
+"Jede Release fügt neue Funktion zu unserer Software hinzu. Es gibt Major und "
+"Minor Releases: Major Releases (wie Zammad 1.0, 2.0, ...) bringen größere "
+"Änderungen mit sich. minor Releases werden auf diese installiert (wie 1.1, "
+"2.1, ...) und bringen kleinere Änderungen."
 
 #: ../basics/zammad-glossary.rst:607
-#, fuzzy
 msgid "S"
 msgstr "S"
 
@@ -3835,19 +3941,14 @@ msgid "S/MIME"
 msgstr "S/MIME"
 
 #: ../basics/zammad-glossary.rst:622
-#, fuzzy
-#| msgid ""
-#| "S/MIME is the most widely-supported method for secure email "
-#| "communication. With S/MIME, you can exchange **signed** and **encrypted** "
-#| "messages with others."
 msgid ""
 "S/MIME is the most widely-supported method for secure email communication. "
 "By activating it in Zammad, all messages sent from Zammad will be signed and "
 "encrypted."
 msgstr ""
 "S/MIME ist die am weitesten verbreitete Methode für sichere E-Mail-"
-"Kommunikation. Mit S/MIME können Sie **signierte** und **verschlüsselte** "
-"Nachrichten mit anderen austauschen."
+"Kommunikation. Mit dem Aktivieren in Zammad, werden alle gesendeten "
+"Nachrichten von Zammad signiert und verschlüsselt."
 
 #: ../basics/zammad-glossary.rst:626
 msgid ""
@@ -3906,12 +4007,16 @@ msgid ""
 "Every ticket has a status. You can change it once you've updated the ticket. "
 "There are four types of status, and they are all color-coded."
 msgstr ""
+"Jedes Ticket hat einen Status. Sie können diese mit dem Update eines Tickets "
+"ändern. Es gibt für Statustypen, diese sind farbkodiert."
 
 #: ../basics/zammad-glossary.rst:665
 msgid ""
 "Learn more about states and they color coding on this page: :doc:`/basics/"
 "service-ticket/settings/state`"
 msgstr ""
+"Zu Farbkodierungen und Status erfahren Sie mehr auf dieser Seite: :doc:`/"
+"basics/service-ticket/settings/state`"
 
 #: ../basics/zammad-glossary.rst:669
 msgid "T"
@@ -3919,7 +4024,7 @@ msgstr "T"
 
 #: ../basics/zammad-glossary.rst:682
 msgid "Text module"
-msgstr ""
+msgstr "Textbaustein"
 
 #: ../basics/zammad-glossary.rst:672
 msgid ""
@@ -5257,7 +5362,7 @@ msgstr ""
 "Gruppe, der Sie angehören - auch für Tickets, die anderen Agenten zugewiesen "
 "sind. Verwenden Sie das Feld **Gruppen einschränken**, um Benachrichtigungen "
 "für Gruppen einzeln zu deaktivieren. (Sie werden weiterhin "
-"Benachrichtigungen für Ihre eigenen Tickets erhalten)."
+"Benachrichtigungen für Ihre eigenen Tickets erhalten.)"
 
 #: ../extras/profile-and-settings.rst:56
 msgid ""
@@ -5688,7 +5793,7 @@ msgid ""
 "belongs to you.)"
 msgstr ""
 "(Aber wenn sie klug sind, treffen sie zusätzliche Vorkehrungen um sicher zu "
-"stellen, dass er wirklich Ihnen gehört)."
+"stellen, dass er wirklich Ihnen gehört.)"
 
 #: ../extras/secure-email.rst:165
 msgid "The 🔒 **Encrypt** button is disabled"
@@ -5704,7 +5809,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:167
 msgid "The ✅ **Sign** button is disabled"
-msgstr "Die ✅ **Signieren**-Schaltfläche ist deaktiviert."
+msgstr "Die ✅ **Signieren**-Schaltfläche ist deaktiviert"
 
 #: ../extras/secure-email.rst:168
 msgid ""
