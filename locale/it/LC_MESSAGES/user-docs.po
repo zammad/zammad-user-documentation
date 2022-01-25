@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-13 23:13+0100\n"
-"PO-Revision-Date: 2022-01-04 12:21+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"PO-Revision-Date: 2022-01-26 08:02+0000\n"
+"Last-Translator: crnfpp <crnfpp@unife.it>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
 "documentations/user-documentation/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -1267,10 +1267,12 @@ msgstr ""
 #: ../advanced/ticket-templates.rst:24
 msgid "Any template created by any agent will be available to **all** agents."
 msgstr ""
+"Tutti i template creati da tutti gli agenti saranno disponibili per **tutti**"
+" gli agenti."
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
-msgstr ""
+msgstr "Gestione del tempo"
 
 #: ../advanced/time-accounting.rst:4
 msgid ""
@@ -1278,10 +1280,13 @@ msgid ""
 "of how much time you spend on any given ticket, customer or client "
 "organization."
 msgstr ""
+"Zammad supporta una dettagliata gestione del tempo per aiutare gli "
+"amministratori a tenere traccia di quanto tempo viene speso su ogni ticket, "
+"cliente singolo o organizzazione affiliata."
 
 #: ../advanced/time-accounting.rst:12
 msgid "Time accounting dialog"
-msgstr ""
+msgstr "Finestra di dialogo per la Gestione del tempo"
 
 #: ../advanced/time-accounting.rst:12
 msgid ""
@@ -1289,10 +1294,14 @@ msgid ""
 "a ticket. Enter how much time you spent on it (in minutes, or whichever unit "
 "of time all your other colleagues are using)."
 msgstr ""
+"Se la gestione del tempo è abilitata, questa finestra apparirà ogni volta "
+"che un ticket viene aggiornato. Inserisci qui quanto tempo hai impiegato (in "
+"minuti o in qualunque altra unità di misura tu e i/le tuoi/e colleghi/e "
+"avete stabilito di usare)."
 
 #: ../advanced/time-accounting.rst:17
 msgid "**🤔 Huh? I don’t see a “Time Accounting” dialog...**"
-msgstr ""
+msgstr "**🤔 Uhm? Non vedo la finestra “Gestione del tempo”...**"
 
 #: ../advanced/time-accounting.rst:19
 msgid ""
@@ -1335,7 +1344,7 @@ msgstr "Per trovare un ticket, controlla il menu **Panoramiche**."
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Sample view of Overviews"
-msgstr ""
+msgstr "Visualizzazione d'esempio delle Panoramiche"
 
 #: ../basics/find-ticket/browse.rst:10
 msgid "Click **Overviews** in the main menu to browse tickets."
