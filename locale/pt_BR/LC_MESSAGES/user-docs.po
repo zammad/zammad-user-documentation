@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-04 11:18+0100\n"
-"PO-Revision-Date: 2022-01-04 12:21+0000\n"
-"Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
+"POT-Creation-Date: 2022-01-13 23:13+0100\n"
+"PO-Revision-Date: 2022-02-04 23:03+0000\n"
+"Last-Translator: Marcos Aurélio Silvério <maureliosilverio@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -63,7 +63,7 @@ msgstr ""
 #: ../advanced/keyboard-shortcuts.rst:25
 msgid ""
 "Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
-msgstr "Alternativamente, você pode usar um dos atalhos abaixo (muito fácil!):"
+msgstr "Alternativamente, você pode usar um dos atalhos abaixo (muito fácil!)"
 
 #: ../advanced/keyboard-shortcuts.rst:28
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../advanced/search.rst:29
 msgid "state"
-msgstr "state"
+msgstr "estado"
 
 #: ../advanced/search.rst:30
 msgid "organization"
@@ -342,7 +342,7 @@ msgstr "Procura pelo número do chamado"
 
 #: ../advanced/search.rst:1
 msgid "title"
-msgstr "title"
+msgstr "título"
 
 #: ../advanced/search.rst:1
 msgid "some title"
@@ -385,7 +385,7 @@ msgid ""
 "the date format needs to be YYYY-MM-DD"
 msgstr ""
 "Você pode tanto utilizar uma data simples, como uma faixa ou >now-xh (agora "
-"menos x horas). Note que o formato de data precisa ser AAAA-MM-DDD."
+"menos x horas). Note que o formato de data precisa ser AAAA-MM-DDD"
 
 #: ../advanced/search.rst:1
 msgid "state.name"
@@ -393,7 +393,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "new |br|\\ open |br|\\ closed"
-msgstr "novo lbrl\\ aberto lbrl\\ fechado etc."
+msgstr "novo lbrl\\ aberto lbrl\\ fechado etc"
 
 #: ../advanced/search.rst:1
 msgid "state.name: new |br|\\ state.name:new OR open"
@@ -449,8 +449,7 @@ msgstr "article.from:\\*silva\\*"
 
 #: ../advanced/search.rst:1
 msgid "Show all tickets that contain articles from \"Bob\""
-msgstr ""
-"Procura por todos os chamados que contai um artigo criado por \"Silva\"."
+msgstr "Procura por todos os chamados que contai um artigo criado por \"Silva\""
 
 #: ../advanced/search.rst:1
 msgid "article.body"
@@ -477,7 +476,7 @@ msgid ""
 msgstr ""
 "O primeiro exemplo procura por todos os chamados que contenham um artigo com "
 "a palavra \"serviço\" - você também pode utilizar o operador \"~\" para "
-"fazer pesquisa por palavras similares como \"serviçal\".  Zammad também "
+"fazer pesquisa por palavras similares como \"serviçal\". Zammad também "
 "permite a busca utilizando expressões regulares, sempre que o atributo "
 "permitir, como no terceiro exemplo."
 
@@ -528,7 +527,7 @@ msgid ""
 "contain anything matching to \"Zammad\""
 msgstr ""
 "Apresenta o mesmo resultado acima, mas exclui os chamados que contenham a "
-"palavra \"Zammad\"."
+"palavra \"Zammad\""
 
 #: ../advanced/search.rst:1
 msgid "owner.email:bob@example.net AND state.name:(open OR new)"
@@ -537,7 +536,7 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid "Show Tickets from bob@example.net that are either open or new"
 msgstr ""
-"Apresenta todos os chamados de silva@example.net que estão abertos ou novos."
+"Apresenta todos os chamados de silva@example.net que estão abertos ou novos"
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -561,7 +560,7 @@ msgstr ""
 
 #: ../advanced/search.rst:87
 msgid "Ticket attributes"
-msgstr "Atributos dos chamados"
+msgstr "Atributos do ticket"
 
 #: ../advanced/search.rst:89
 msgid "number: string"
@@ -659,7 +658,7 @@ msgstr ""
 
 #: ../advanced/search.rst:112
 msgid "Article attributes"
-msgstr "Atributos dos artigos"
+msgstr "Atributos do artigo"
 
 #: ../advanced/search.rst:114
 msgid "article.from: string"
@@ -916,7 +915,7 @@ msgid ""
 "main menu area. These are your **open tabs.**"
 msgstr ""
 "A media que você navega pelo Zammad, você verá uma lista aparecer na área do "
-"menu principal. Estas são as suas **abas abertas**."
+"menu principal. Estas são as suas **abas abertas.**"
 
 #: ../advanced/tabs.rst:9
 msgid ""
@@ -983,7 +982,7 @@ msgstr "|blk|"
 
 #: ../snippets/ticket-state-type-circles.rst:7
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
-msgstr "**Adiado** (marcado como suspenso; nenhuma ação imediata é requerida)."
+msgstr "**Adiado** (marcado como suspenso; nenhuma ação imediata é requerida)"
 
 #: ../snippets/ticket-state-type-circles.rst:9
 msgid "|ylw|"
@@ -991,7 +990,7 @@ msgstr "|ylw|"
 
 #: ../snippets/ticket-state-type-circles.rst:10
 msgid "**New / Open** (Ready for action.)"
-msgstr "**Novo / Aberto** (pronto para ação)."
+msgstr "**Novo / Aberto** (pronto para ação)"
 
 #: ../snippets/ticket-state-type-circles.rst:12
 msgid "|red|"
@@ -999,7 +998,7 @@ msgstr "|red|"
 
 #: ../snippets/ticket-state-type-circles.rst:13
 msgid "**Escalated** (Requires urgent attention.)"
-msgstr "**Escalonado** (demanda ação imediata)."
+msgstr "**Escalonado** (demanda ação imediata)"
 
 #: ../advanced/tabs.rst:31
 msgid ""
@@ -1323,7 +1322,7 @@ msgid ""
 "Click the “split” button to take a message and use it as the starting point "
 "for a new ticket."
 msgstr ""
-"Clique no  botão \"dividir\" para usar uma mensagem como ponto de partida "
+"Clique no botão \"dividir\" para usar uma mensagem como ponto de partida "
 "para um novo chamado."
 
 #: ../advanced/ticket-actions/split.rst:23
@@ -1397,7 +1396,7 @@ msgstr "Qualquer modelo criado estará disponível para **todos** os agentes."
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
-msgstr "Contagem de tempo"
+msgstr "Gestão de Tempo"
 
 #: ../advanced/time-accounting.rst:4
 msgid ""
@@ -1698,7 +1697,7 @@ msgstr "Enviar e-mail"
 #: ../basics/service-ticket/create.rst:22
 msgid "for issues **initiated by an agent** over email."
 msgstr ""
-"Para demandas **iniciadas por um agente**  a partir de um e-mail enviado."
+"Para demandas **iniciadas por um agente** a partir de um e-mail enviado."
 
 #: ../basics/service-ticket/create.rst:25
 msgid "Filling Out the Form"
@@ -1707,8 +1706,8 @@ msgstr "Preenchendo o formulário"
 #: ../basics/service-ticket/create.rst:27
 msgid "Here’s a quick run-down of each input field in the New Ticket form:"
 msgstr ""
-"Abaixo, uma explicação rápida de cada campo de entrada do formulário de "
-"Chamado novo."
+"Abaixo, uma explicação rápida de cada campo de entrada no formulário de "
+"Chamado novo:"
 
 #: ../basics/service-ticket/create.rst:31
 msgid "Title"
@@ -2035,7 +2034,7 @@ msgid ""
 msgstr ""
 "Para manter as coisas sob controle, Zammad irá avisá-lo de conflitos "
 "potenciais exibindo avatares na parte inferior esquerda para cada agente que "
-"estiver acessando o mesmo chamado"
+"estiver acessando o mesmo chamado."
 
 #: ../basics/service-ticket/follow-up.rst:121
 msgid ""
@@ -2053,8 +2052,8 @@ msgstr ""
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
-"Um ícone ✏️ aparecerá se um agente tiver feito alterações que ainda não foram "
-"salvas no chamado"
+"Um ícone ✏️ aparecerá se um agente tiver feito alterações que ainda não "
+"foram salvas no chamado."
 
 #: ../basics/service-ticket/settings.rst:4
 msgid "Use the **ticket pane** to manage a ticket’s settings:"
@@ -2158,7 +2157,7 @@ msgstr "Reatribui o chamado a outro cliente."
 
 #: ../basics/service-ticket/settings/group.rst:2
 msgid "Group"
-msgstr "Grupos"
+msgstr "Grupo"
 
 #: ../basics/service-ticket/settings/group.rst:4
 msgid ""
@@ -2191,13 +2190,13 @@ msgid ""
 "for example, a customer service rep sees tickets meant for your HR "
 "department, and finds out how much their colleagues in sales are making! 💸💸💸)"
 msgstr ""
-"Sem grupos, todo os os agentes podem ver (e responder) qualquer chamado que "
+"Sem grupos, todo os agentes podem ver (e responder) qualquer chamado que "
 "chegar, independentemente, de qual departamento é o responsável. De fato, "
 "isso não é um problema em si, mas essa configuração leva a uma complicação "
 "desnecessária no :doc`menu de visões </basics/find-ticket>`. Pode ser que "
 "fique muito ruim quando, por exemplo, um representante do suporte ao cliente "
 "tem acesso a um chamado direcionado ao recursos humanos e descobre, sem "
-"querer, quanto seus colegas recebem!  💸💸💸"
+"querer, quanto seus colegas recebem! 💸💸💸"
 
 #: ../basics/service-ticket/settings/group.rst:25
 msgid ""
@@ -2359,7 +2358,7 @@ msgstr ""
 #: ../basics/service-ticket/settings/state.rst:2
 #: ../basics/what-is-a-ticket.rst:51
 msgid "State"
-msgstr "Situação"
+msgstr "Estado"
 
 #: ../basics/service-ticket/settings/state.rst:4
 msgid ""
@@ -2460,7 +2459,7 @@ msgstr ""
 #: ../basics/service-ticket/settings/tags.rst:2
 #: ../basics/zammad-glossary.rst:704
 msgid "Tags"
-msgstr "Rótulos"
+msgstr "Tags"
 
 #: ../basics/service-ticket/settings/tags.rst:4
 msgid ""
@@ -2559,8 +2558,8 @@ msgid ""
 msgstr ""
 "Por uma questão de simplicidade, nos referiremos a esses metadados como as "
 "**configurações** de um chamado. Todas essas configurações podem ser "
-"alteradas a qualquer momento. Cada configuração é explicada em detalhes na :"
-"doc:`aqui </basics/service-ticket/settings>`,  mas, por enquanto, vamos "
+"alteradas a qualquer momento. Cada configuração é explicada em detalhes na "
+":doc:`aqui </basics/service-ticket/settings>`, mas, por enquanto, vamos "
 "examinar as duas mais importantes:"
 
 #: ../basics/what-is-a-ticket.rst:47
@@ -2756,10 +2755,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:127
-#, fuzzy
-#| msgid "Suggested Workflows"
 msgid "Core Workflows"
-msgstr "Fluxos de trabalho sugeridos"
+msgstr "Fluxos de Trabalho"
 
 #: ../basics/zammad-glossary.rst:121
 msgid ""
@@ -2771,7 +2768,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:127
-msgid "`Learn more about Core Worklows in the admin documentation`_."
+msgid "`Learn more about Core Workflows in the admin documentation`_."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:144
@@ -3111,7 +3108,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:365
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../basics/zammad-glossary.rst:356
 msgid ""
@@ -3164,7 +3161,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:399
 msgid "Icinga"
-msgstr ""
+msgstr "Icinga"
 
 #: ../basics/zammad-glossary.rst:394
 msgid ""
@@ -3317,7 +3314,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:498
 msgid "Monit"
-msgstr ""
+msgstr "Monit"
 
 #: ../basics/zammad-glossary.rst:494
 msgid ""
@@ -3351,7 +3348,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:519
 msgid "Nagios"
-msgstr ""
+msgstr "Nagios"
 
 #: ../basics/zammad-glossary.rst:514
 msgid ""
@@ -3547,7 +3544,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:641
 msgid "Sipgate"
-msgstr ""
+msgstr "Sipgate"
 
 #: ../basics/zammad-glossary.rst:634
 msgid ""
@@ -3587,10 +3584,8 @@ msgid "`Learn more about SLAs on our landing page`_."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:666
-#, fuzzy
-#| msgid "State"
 msgid "Status"
-msgstr "Situação"
+msgstr "Status"
 
 #: ../basics/zammad-glossary.rst:662
 msgid ""
@@ -3669,10 +3664,8 @@ msgid "U"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
-#, fuzzy
-#| msgid "Users"
 msgid "User"
-msgstr "Usuários"
+msgstr "Usuário"
 
 #: ../basics/zammad-glossary.rst:713
 msgid ""
@@ -3775,7 +3768,7 @@ msgid ""
 msgstr ""
 "👤 Clique nos números desconhecidos no registro de ligações para **criar um "
 "novo cliente e um ticket**. Números de telefones desconhecidos não podem ser "
-"adicionados a clientes existentes desta forma."
+"adicionados a clientes existentes desta forma"
 
 #: ../extras/chat.rst:2
 msgid "Live Chat"
@@ -4085,7 +4078,7 @@ msgid ""
 "you today?"
 msgstr ""
 "Quanto cada cliente tem que esperar, na média, para obter uma resposta sua "
-"hoje."
+"hoje?"
 
 #: ../extras/dashboard.rst:21
 msgid "**2. Mood**"
@@ -4158,7 +4151,7 @@ msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:7
 msgid "🤔 **Huh? I don’t see** |github| **or** |gitlab| **tabs...**"
-msgstr "🤔 **Oops? Não encontrei as guias** |github| **ou** |gitlab| ..."
+msgstr "🤔 **Oops? Não encontrei as guias** |github| **ou** |gitlab|"
 
 #: ../extras/github-gitlab-integration.rst:45
 msgid "GitHub logo"
@@ -4889,7 +4882,7 @@ msgid ""
 msgstr ""
 "Sempre gere um novo token para cada aplicação que você desejar conectar ao "
 "Zammad! (Isso torna possível revogar o acesso de uma aplicação por vez se um "
-"token for comprometido)."
+"token for comprometido)"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Linked Accounts"
