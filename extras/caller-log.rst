@@ -1,9 +1,9 @@
-﻿Caller Log
+Caller Log
 ==========
 
 View and manage call logs from the **phone** panel.
 
-.. figure:: /images/extras/phone.jpg
+.. figure:: /images/extras/caller-log/call-entries.png
    :alt: Sample view of Caller Log
    :align: center
 
