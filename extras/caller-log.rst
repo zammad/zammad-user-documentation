@@ -31,7 +31,7 @@ will also help you during answering calls.
    New Ticket dialogue
       Zammad will open a new ticket dialogue if:
 
-         * it's able to either guess a single user (see "maybe" entries below)
+         * it's able to either guess a single user (see `maybe entries`_)
          * the callers number belongs to a user known to Zammad
          * the callers number is yet unknown
 
@@ -52,6 +52,8 @@ will also help you during answering calls.
 
             This requires either a soft phone client or CTI client on your
             computer that supports this action.
+
+.. _maybe entries:
 
 .. note:: **😕 What are these "maybe" entries?**
 
