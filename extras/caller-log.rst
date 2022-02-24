@@ -61,18 +61,18 @@ will also help you during answering calls.
    Usually business users send their phone numbers in their signature.
 
    Zammad collects and aggregates these information and tries to guess the
-   user in case it receives a call from an unknown number.
+   customer in case it receives a call from an unknown number.
 
    .. figure:: /images/extras/caller-log/maybe-entries.png
       :alt: Screenshot showing a caller log entry that's classified with "maybe:"
 
 .. tip::
 
-   👤 Click on unrecognized numbers or maybe entries in the caller log to
-   **create a new customer** or **update an existing customer**.
+   👤 Click on unrecognized numbers to **create a new customer** or maybe
+   entries to **update an existing customer**.
 
    (Unrecognized phone numbers cannot be added to existing customers in
-   this way. Copy and pasting is required)
+   this way. Copy and pasting is required.)
 
       .. note::
 
