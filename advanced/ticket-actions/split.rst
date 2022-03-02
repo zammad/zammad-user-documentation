@@ -20,10 +20,12 @@ In such cases, you can **split off a single message into its own ticket**.
    :alt: Split ticket dialog
    :align: center
 
-   When splitting a ticket, the target message is imported into the new ticket dialog. As usual, remember to select the **type** (call/email).
+   When splitting a ticket, the target message is imported into the new ticket
+   dialog. As usual, remember to select the **type** (call/email).
 
-.. figure:: /images/advanced/ticket-actions/split-links.jpg
+.. figure:: /images/advanced/ticket-actions/split-links.png
    :alt: Ticket pane: Links
    :align: center
 
-   The original ticket is :doc:`linked <link>` to the new one, as seen in the ticket pane.
+   The original ticket is :doc:`linked <link>` to the new one, as seen in the
+   ticket pane.

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-24 15:03+0100\n"
+"POT-Creation-Date: 2022-03-02 18:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,29 +24,29 @@ msgstr ""
 msgid "Zammad supports a wide array of keyboard shortcuts to expedite your workflow as an expert user."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:13
+#: ../advanced/keyboard-shortcuts.rst:14
 msgid "Keyboard shortcut cheat sheet"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:13
+#: ../advanced/keyboard-shortcuts.rst:14
 msgid "The keyboard shortcut cheat sheet on Windows."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:15
+#: ../advanced/keyboard-shortcuts.rst:16
 #: ../advanced/tabs.rst:25
 #: ../basics/find-ticket/browse.rst:29
-#: ../basics/find-ticket/search.rst:32
-#: ../basics/service-ticket/create.rst:47
+#: ../basics/find-ticket/search.rst:33
+#: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
 #: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/settings.rst:49
+#: ../basics/service-ticket/settings.rst:51
 #: ../extras/customers.rst:12
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:17
+#: ../advanced/keyboard-shortcuts.rst:18
 msgid "Click on your avatar at the bottom of the main menu to access the **keyboard shortcuts cheat sheet**."
 msgstr ""
 
@@ -55,27 +55,27 @@ msgstr ""
 msgid "User submenu"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:25
+#: ../advanced/keyboard-shortcuts.rst:26
 msgid "Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:28
+#: ../advanced/keyboard-shortcuts.rst:29
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:29
+#: ../advanced/keyboard-shortcuts.rst:30
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:30
+#: ../advanced/keyboard-shortcuts.rst:31
 msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:33
+#: ../advanced/keyboard-shortcuts.rst:34
 msgid "Formatting Text"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:35
+#: ../advanced/keyboard-shortcuts.rst:36
 msgid "Keyboard shortcuts can be used to apply rich-text formatting in one of two ways:"
 msgstr ""
 
@@ -83,15 +83,15 @@ msgstr ""
 msgid "As-you-type"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:39
+#: ../advanced/keyboard-shortcuts.rst:40
 msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:40
+#: ../advanced/keyboard-shortcuts.rst:41
 msgid "enter your desired text, and"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:41
+#: ../advanced/keyboard-shortcuts.rst:42
 msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
 msgstr ""
 
@@ -99,15 +99,15 @@ msgstr ""
 msgid "All-at-once"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:45
+#: ../advanced/keyboard-shortcuts.rst:46
 msgid "Enter your desired text,"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:46
+#: ../advanced/keyboard-shortcuts.rst:47
 msgid "click-and-drag with the mouse to select it, and"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:47
+#: ../advanced/keyboard-shortcuts.rst:48
 msgid "press ``Cmd`` + ``I`` to italicize."
 msgstr ""
 
@@ -167,27 +167,27 @@ msgstr ""
 msgid "If the selected macro adds a note to the ticket, any text entered in the message composer will be lost."
 msgstr ""
 
-#: ../advanced/macros.rst:51
+#: ../advanced/macros.rst:52
 msgid "In Bulk"
 msgstr ""
 
-#: ../advanced/macros.rst:53
+#: ../advanced/macros.rst:54
 msgid "To apply a macro to many tickets at the same time:"
 msgstr ""
 
-#: ../advanced/macros.rst:55
+#: ../advanced/macros.rst:56
 msgid "open a ticket overview;"
 msgstr ""
 
-#: ../advanced/macros.rst:56
+#: ../advanced/macros.rst:57
 msgid "select your desired tickets;"
 msgstr ""
 
-#: ../advanced/macros.rst:57
+#: ../advanced/macros.rst:58
 msgid "click-and-drag to open the “Run Macro” drawer; and"
 msgstr ""
 
-#: ../advanced/macros.rst:58
+#: ../advanced/macros.rst:59
 msgid "drop the tickets on your target macro."
 msgstr ""
 
@@ -195,11 +195,11 @@ msgstr ""
 msgid "Screencast showing how to run macros via overviews."
 msgstr ""
 
-#: ../advanced/macros.rst:65
+#: ../advanced/macros.rst:66
 msgid "☝️ **There's just one difference...** When running a macro from the ticket view, Zammad may automatically open the next ticket (or close the current one, or just stay on it), depending on how the macro was set up."
 msgstr ""
 
-#: ../advanced/macros.rst:70
+#: ../advanced/macros.rst:71
 msgid "When running it from the overviews page, Zammad will always stay on the overviews page."
 msgstr ""
 
@@ -822,23 +822,23 @@ msgstr ""
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr ""
 
-#: ../advanced/tabs.rst:31
+#: ../advanced/tabs.rst:32
 msgid "A **pulsing dot** means that a ticket has new activity since you last viewed it."
 msgstr ""
 
-#: ../advanced/tabs.rst:32
+#: ../advanced/tabs.rst:34
 msgid "Drag and drop tabs to rearrange them."
 msgstr ""
 
-#: ../advanced/tabs.rst:35
+#: ../advanced/tabs.rst:37
 msgid "Tab behavior in ticket zooms"
 msgstr ""
 
-#: ../advanced/tabs.rst:37
+#: ../advanced/tabs.rst:39
 msgid "You may have noticed the \"Stay on tab\" button next to \"Update\" on the lower right already."
 msgstr ""
 
-#: ../advanced/tabs.rst:42
+#: ../advanced/tabs.rst:44
 msgid "The behavior of a tab can be configured by your administrator globally. You can overrule this setting based on your personal preference."
 msgstr ""
 
@@ -846,51 +846,51 @@ msgstr ""
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 
-#: ../advanced/tabs.rst:50
+#: ../advanced/tabs.rst:52
 msgid "To overrule your administrator's settings, simply choose the action you prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
 
-#: ../advanced/tabs.rst:55
+#: ../advanced/tabs.rst:57
 msgid "Close tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:54
+#: ../advanced/tabs.rst:56
 msgid "Upon updating the ticket, Zammad will automatically close the tab. You'll be returned to the last view that was open."
 msgstr ""
 
-#: ../advanced/tabs.rst:63
+#: ../advanced/tabs.rst:65
 msgid "Close tab on ticket close"
 msgstr ""
 
-#: ../advanced/tabs.rst:58
+#: ../advanced/tabs.rst:60
 msgid "Ticket tabs will be closed only if you change the state to \"closed\" upon ticket update."
 msgstr ""
 
-#: ../advanced/tabs.rst:63
+#: ../advanced/tabs.rst:65
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 
-#: ../advanced/tabs.rst:73
+#: ../advanced/tabs.rst:75
 msgid "Next in overview"
 msgstr ""
 
-#: ../advanced/tabs.rst:66
+#: ../advanced/tabs.rst:68
 msgid "If you opened a ticket from any overview, Zammad will jump to the next ticket in said overview. Zammad recycles the open tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:71
+#: ../advanced/tabs.rst:73
 msgid "This option is only available if you open the ticket from an overview. Zammad will ignore the setting if you opened the ticket directly and fall back to ``Stay on tab``."
 msgstr ""
 
-#: ../advanced/tabs.rst:77
+#: ../advanced/tabs.rst:79
 msgid "Stay on tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:76
+#: ../advanced/tabs.rst:78
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:78
+#: ../advanced/tabs.rst:80
 msgid "*This is the default setting in Zammad installations.*"
 msgstr ""
 
@@ -963,7 +963,7 @@ msgid "When tickets about related issues arise (*e.g.,* multiple customer compla
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:12
-#: ../advanced/ticket-actions/split.rst:29
+#: ../advanced/ticket-actions/split.rst:30
 msgid "Ticket pane: Links"
 msgstr ""
 
@@ -1047,7 +1047,7 @@ msgstr ""
 msgid "When splitting a ticket, the target message is imported into the new ticket dialog. As usual, remember to select the **type** (call/email)."
 msgstr ""
 
-#: ../advanced/ticket-actions/split.rst:29
+#: ../advanced/ticket-actions/split.rst:30
 msgid "The original ticket is :doc:`linked <link>` to the new one, as seen in the ticket pane."
 msgstr ""
 
@@ -1172,7 +1172,7 @@ msgid "**Escalated** (system-wide, failing to meet a `service-level agreement`_)
 msgstr ""
 
 #: ../basics/find-ticket/browse.rst:31
-#: ../basics/find-ticket/search.rst:34
+#: ../basics/find-ticket/search.rst:35
 msgid "Click on column headings to change the display order."
 msgstr ""
 
@@ -1234,7 +1234,7 @@ msgstr ""
 msgid "You can find a detailed search document in our `Advanced Search <../../advanced/search.html>`_ page."
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:28
+#: ../basics/find-ticket/search.rst:29
 msgid "For detailed results, click the **Show Search Details →** link just above the autocomplete list."
 msgstr ""
 
@@ -1271,10 +1271,10 @@ msgid "New ticket dialog"
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:16
-msgid "Click the **➕ button** to create a new ticket. The default ticket type is **received call**."
+msgid "Click the **➕ button** to create a new ticket. The default ticket type is **Received Call**."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:18
+#: ../basics/service-ticket/create.rst:19
 msgid "An agent can create three types of tickets:"
 msgstr ""
 
@@ -1282,7 +1282,7 @@ msgstr ""
 msgid "Received Call"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:20
+#: ../basics/service-ticket/create.rst:21
 msgid "for issues **initiated by a customer** over the phone."
 msgstr ""
 
@@ -1290,7 +1290,7 @@ msgstr ""
 msgid "Outbound Call"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:21
+#: ../basics/service-ticket/create.rst:22
 msgid "for issues **initiated by an agent** over the phone."
 msgstr ""
 
@@ -1298,36 +1298,36 @@ msgstr ""
 msgid "Send Email"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:22
+#: ../basics/service-ticket/create.rst:23
 msgid "for issues **initiated by an agent** over email."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:25
+#: ../basics/service-ticket/create.rst:26
 msgid "Filling Out the Form"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:27
+#: ../basics/service-ticket/create.rst:28
 msgid "Here’s a quick run-down of each input field in the New Ticket form:"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:31
+#: ../basics/service-ticket/create.rst:32
 msgid "Title"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:30
+#: ../basics/service-ticket/create.rst:31
 msgid "The title of the ticket will be used as the **subject line** for all email correspondences."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:54
+#: ../basics/service-ticket/create.rst:55
 #: ../basics/zammad-glossary.rst:112
 msgid "Customer"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:34
+#: ../basics/service-ticket/create.rst:35
 msgid "When entering a customer, the autocomplete menu searches for **email addresses only**. You **must** select an option from the autocomplete menu, or else create a new customer."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:39
+#: ../basics/service-ticket/create.rst:40
 msgid "You may **not** assign a ticket to more than one customer."
 msgstr ""
 
@@ -1335,11 +1335,11 @@ msgstr ""
 msgid "Customer autocomplete menu"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:45
+#: ../basics/service-ticket/create.rst:46
 msgid "Autocomplete can’t find customers by name."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:49
+#: ../basics/service-ticket/create.rst:50
 msgid "Once a customer has been selected, her profile will be accessible from the **ticket pane**."
 msgstr ""
 
@@ -1347,15 +1347,15 @@ msgstr ""
 msgid "Ticket pane (Customer view)"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:63
+#: ../basics/service-ticket/create.rst:64
 msgid "Text"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:57
+#: ../basics/service-ticket/create.rst:58
 msgid "📞 For phone calls, record the details of your conversation. These notes will not be sent to the customer (though he may be able to see them if he has a Zammad account)."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:61
+#: ../basics/service-ticket/create.rst:62
 msgid "📧 For emails, this is the body of your outgoing message."
 msgstr ""
 
@@ -1371,7 +1371,7 @@ msgstr ""
 msgid "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to apply rich text formatting."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:65
+#: ../basics/service-ticket/create.rst:66
 #: ../basics/service-ticket/settings.rst:2
 #: ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
@@ -1595,15 +1595,15 @@ msgstr ""
 msgid "Use the highlighter tool in the upper-righthand corner to mark up important text. (Your highlights are **not** visible to other agents.)"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:45
+#: ../basics/service-ticket/settings.rst:46
 msgid "Ticket highlighter"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:45
+#: ../basics/service-ticket/settings.rst:46
 msgid "Highlight by selecting text, then clicking the highlighter. Click again to undo."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:51
+#: ../basics/service-ticket/settings.rst:53
 msgid "Additional actions are available via the **submenu**:"
 msgstr ""
 
@@ -1611,31 +1611,31 @@ msgstr ""
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:57
+#: ../basics/service-ticket/settings.rst:59
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid "History"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:60
+#: ../basics/service-ticket/settings.rst:62
 msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:66
+#: ../basics/service-ticket/settings.rst:68
 msgid "Merge"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:65
+#: ../basics/service-ticket/settings.rst:67
 msgid "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details)."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Change Customer"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:69
+#: ../basics/service-ticket/settings.rst:71
 msgid "Reassign the ticket to another customer."
 msgstr ""
 
@@ -3025,7 +3025,7 @@ msgstr ""
 msgid "The **dashboard** is the first thing you’ll see after logging in. Monitor your productivity at a glance, compare your stats to the company average (in gray below your own), and see what everyone else is up to."
 msgstr ""
 
-#: ../extras/dashboard.rst:None
+#: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr ""
 
@@ -3033,15 +3033,15 @@ msgstr ""
 msgid "Check the dashboard for a quick summary of your stats (updated every 30 minutes)."
 msgstr ""
 
-#: ../extras/dashboard.rst:15
+#: ../extras/dashboard.rst:14
 msgid "Legend"
 msgstr ""
 
-#: ../extras/dashboard.rst:17
-msgid "**1. Waiting Time Today**"
+#: ../extras/dashboard.rst:18
+msgid "**1. ∅ Waiting Time Today**"
 msgstr ""
 
-#: ../extras/dashboard.rst:17
+#: ../extras/dashboard.rst:19
 msgid "How long has each customer had to wait, on average, to get a response from you today?"
 msgstr ""
 
@@ -3049,11 +3049,11 @@ msgstr ""
 msgid "**2. Mood**"
 msgstr ""
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:22
 msgid "How many escalated tickets do you have open right now? (Mr. Bubbles gets grumpy if you have too many...)"
 msgstr ""
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:24
 msgid "**3. Channel Distribution**"
 msgstr ""
 
@@ -3061,35 +3061,35 @@ msgstr ""
 msgid "Where are all your tickets coming from? (Shows tickets created in the last seven days, also sorted by **inbound** vs. **outbound**.)"
 msgstr ""
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:27
 msgid "**4. Assigned**"
 msgstr ""
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:28
 msgid "Out of all open tickets (company-wide), how many are currently assigned to you?"
 msgstr ""
 
-#: ../extras/dashboard.rst:33
-msgid "**5. Your Tickets in Process**"
+#: ../extras/dashboard.rst:30
+msgid "**5. My Tickets in Process**"
 msgstr ""
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:31
 msgid "What percentage of your tickets have you responded to or updated in the last 24 hours?"
 msgstr ""
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:33
 msgid "**6. Reopening Rate**"
 msgstr ""
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:34
 msgid "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 
-#: ../extras/dashboard.rst:40
+#: ../extras/dashboard.rst:36
 msgid "**7. Activity Stream**"
 msgstr ""
 
-#: ../extras/dashboard.rst:40
+#: ../extras/dashboard.rst:37
 msgid "What’s everyone else on your team up to?"
 msgstr ""
 

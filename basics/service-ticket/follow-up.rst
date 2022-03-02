@@ -12,7 +12,7 @@ Read on to learn more,
 or skip ahead to find out about :doc:`managing ticket settings <settings>`
 (which is the other half of “working on existing tickets”).
 
-.. figure:: /images/basics/what-is-a-ticket.jpg
+.. figure:: /images/basics/what-is-a-ticket.png
    :alt: Ticket summary view
    :align: center
 
@@ -121,8 +121,9 @@ There are three types of follow-ups:
    Be sure to communicate with your colleagues
    to prevent these problems before they arise.
 
-   .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.jpg
+   .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
       :alt: Ticket conflict alert
       :align: center
 
-      A ✏️ icon will appear if the agent has made any unsaved changes to the ticket.
+      A ✏️ icon will appear if the agent has made any unsaved changes to
+      the ticket.

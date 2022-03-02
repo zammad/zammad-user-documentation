@@ -3,24 +3,25 @@
 Keyboard Shortcuts
 ==================
 
-Zammad supports a wide array of keyboard shortcuts to expedite your workflow as an expert user.
+Zammad supports a wide array of keyboard shortcuts to expedite your workflow as
+an expert user.
 
 .. figure:: /images/advanced/keyboard-shortcuts.png
    :alt: Keyboard shortcut cheat sheet
    :align: center
-   :scale: 50%
+   :scale: 85%
 
    The keyboard shortcut cheat sheet on Windows.
 
 .. tip:: **🖱️ UI Protip**
 
-   Click on your avatar at the bottom of the main menu to access the **keyboard
-   shortcuts cheat sheet**.
+   Click on your avatar at the bottom of the main menu to access the
+   **keyboard shortcuts cheat sheet**.
  
-   .. figure:: /images/extras/profile-and-settings.jpg
+   .. figure:: /images/extras/profile-and-settings.png
       :alt: User submenu
       :align: center
-      :scale: 50%
+      :scale: 85%
  
    Alternately, bring it up with one of the shortcuts below
    (shortcut-ception!)

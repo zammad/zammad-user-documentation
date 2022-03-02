@@ -9,11 +9,12 @@ like when a customer calls on the phone.
 
 In these cases, Zammad needs your help to **create a new ticket**.
 
-.. figure:: /images/basics/service-ticket/create.jpg
+.. figure:: /images/basics/service-ticket/create.png
    :alt: New ticket dialog
    :align: center
 
-   Click the **➕ button** to create a new ticket. The default ticket type is **received call**.
+   Click the **➕ button** to create a new ticket. The default ticket type is
+   **Received Call**.
 
 An agent can create three types of tickets:
 
@@ -49,7 +50,7 @@ Customer
       Once a customer has been selected,
       her profile will be accessible from the **ticket pane**.
 
-      .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.jpg
+      .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.png
          :alt: Ticket pane (Customer view)
          :align: center
 

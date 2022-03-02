@@ -19,10 +19,11 @@ Looking for an archived ticket? Use the **search bar**.
    * 📎 text in file attachments (really!)
    * 🏷️ user/organization metadata (*e.g.,* notes stored on customer profiles)
    
-   You can find a detailed search document in our `Advanced Search <../../advanced/search.html>`_ page.
+   You can find a detailed search document in our
+   `Advanced Search <../../advanced/search.html>`_ page.
    
 
-.. figure:: /images/basics/find-ticket/search-details.jpg
+.. figure:: /images/basics/find-ticket/search-details.png
    :align: center
 
    For detailed results,

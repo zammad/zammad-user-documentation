@@ -45,7 +45,8 @@ from the **Update ᐱ** submenu in the Ticket View:
       :align: center
       :alt: Screencast showing above described effect that overwrites articles.
 
-      If the selected macro adds a note to the ticket, any text entered in the message composer will be lost.
+      If the selected macro adds a note to the ticket, any text entered in the
+      message composer will be lost.
 
 In Bulk
 -------

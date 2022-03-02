@@ -11,7 +11,7 @@ Organization Profiles
 
 Use the **ticket pane** to manage organization profiles.
 
-.. figure:: /images/extras/organizations.jpg
+.. figure:: /images/extras/organizations.png
    :alt: Ticket pane (organization view)
    :align: center
 
@@ -41,10 +41,10 @@ With organizations, you can answer questions like:
 * “How many tickets does this company have open right now?”
 * “How old is the oldest open ticket from this company?”
 
-.. figure:: /images/extras/organizations-stats.jpg
+.. figure:: /images/extras/organizations-stats.png
    :alt: Ticket pane (organization view)
    :align: center
-   :scale: 50%
+   :scale: 75%
 
    Click the 🏢 button in the ticket pane
    to see a detailed breakdown of the organization’s stats.

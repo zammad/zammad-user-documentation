@@ -9,7 +9,7 @@ menu area. These are your **open tabs.**
 .. note:: You can freely switch between open tabs without losing your work –
           all unsaved changes are automatically backed up to the server.
 
-.. figure:: /images/advanced/tabs/tabs-list.jpg
+.. figure:: /images/advanced/tabs/tabs-list.png
    :alt: Sample view of Tabs
 
    Tabs appear in the main menu as you visit different parts of the
@@ -24,11 +24,13 @@ menu area. These are your **open tabs.**
 
 .. tip:: **🖱️ UI Protip**
 
-   * :doc:`Ticket states </basics/service-ticket/settings/state>` are **color-coded:**
+   * :doc:`Ticket states </basics/service-ticket/settings/state>` are
+     **color-coded:**
 
      .. include:: /snippets/ticket-state-type-circles.rst
 
-   * A **pulsing dot** means that a ticket has new activity since you last viewed it.
+   * A **pulsing dot** means that a ticket has new activity since you last
+     viewed it.
    * Drag and drop tabs to rearrange them.
 
 Tab behavior in ticket zooms

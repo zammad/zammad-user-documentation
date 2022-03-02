@@ -5,7 +5,7 @@ When tickets about related issues arise
 (*e.g.,* multiple customer complaints about the same botched shipment),
 they can be **linked to each other** for easier reference.
 
-.. figure:: /images/advanced/ticket-actions/link.jpg
+.. figure:: /images/advanced/ticket-actions/link.png
    :alt: Ticket pane: Links
    :align: center
 
