@@ -17,8 +17,10 @@ Manage, edit, and reorganize knowledge base articles from the
    This feature is **optional**;
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
-   Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html>`_.
+   Administrators can learn more on our `admin documentation`_.
+
+.. _admin documentation:
+   https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html
 
 Getting Started
 ---------------
@@ -54,7 +56,10 @@ Switching Languages
 
 Use the language menu to view or edit translations of the current page.
 
-.. hint:: 🚧 **What happens when a page hasn’t been translated into the selected language yet?**
+.. hint:: 
+
+   🚧 **What happens when a page hasn’t been translated into the
+   selected language yet?**
 
    in Edit Mode
       Untranslated pages are marked with a ⚠️ **warning sign**:
