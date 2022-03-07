@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 18:52+0100\n"
+"POT-Creation-Date: 2022-03-07 14:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,12 +232,12 @@ msgid "With Zammad <=3.6 the following keys contained a string only:"
 msgstr ""
 
 #: ../advanced/search.rst:27
-#: ../advanced/suggested-workflows.rst:96
+#: ../advanced/suggested-workflows.rst:100
 msgid "group"
 msgstr ""
 
 #: ../advanced/search.rst:28
-#: ../advanced/suggested-workflows.rst:99
+#: ../advanced/suggested-workflows.rst:103
 msgid "priority"
 msgstr ""
 
@@ -614,91 +614,91 @@ msgstr ""
 msgid "Our sales rep can simply un-assign himself has the **owner** of the ticket and re-assign the ticket to the Customer Service **group**. *All customer service agents will be notified of the incoming ticket*, and the first available agent can assign herself to pick up where the sales rep left off."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:45
+#: ../advanced/suggested-workflows.rst:47
 msgid "Be sure to leave notes with as much information as possible for the next agent!"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:50
+#: ../advanced/suggested-workflows.rst:53
 msgid "@mentions & the Subscribe Button"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:52
+#: ../advanced/suggested-workflows.rst:55
 msgid "Now suppose you’ve reassigned the ticket to customer service. You won’t receive notifications for this ticket anymore, but maybe this is a really important contract, and you want to make sure they have an A+ experience from start to finish."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:57
+#: ../advanced/suggested-workflows.rst:60
 msgid "To enable notifications for a ticket that doesn’t belong to you, simply click the **Subscribe** button at the bottom of the ticket pane:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:65
+#: ../advanced/suggested-workflows.rst:68
 msgid "Screencast of the Subscribe button feature"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:65
+#: ../advanced/suggested-workflows.rst:68
 msgid "A list of all tickets you’re subscribed to can be found in the **My mentioned Tickets** overview."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:68
+#: ../advanced/suggested-workflows.rst:71
 msgid "Or, suppose you *don’t* want to reassign the ticket to customer service—you just have one quick question for them, and then you can take it from there."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:71
+#: ../advanced/suggested-workflows.rst:74
 msgid "To start sending someone else notifications for your own ticket, type ``@@`` in the message composer and select their name from the pop-up menu:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:79
+#: ../advanced/suggested-workflows.rst:82
 msgid "Screencast of the @mention feature"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:79
+#: ../advanced/suggested-workflows.rst:82
 msgid "@mentioning a colleague in a message will automatically subscribe them to your ticket."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:82
+#: ../advanced/suggested-workflows.rst:85
 msgid "⚙️ Check your :doc:`/extras/profile-and-settings` to customize how you receive notifications."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:85
+#: ../advanced/suggested-workflows.rst:88
 msgid "😖 **A colleague @mentioned me, but I don’t see the ticket!**"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:87
+#: ../advanced/suggested-workflows.rst:90
 msgid "Is the ticket assigned to a group that you don’t belong to? @mentions and subscriptions only work for tickets that you already have access to."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:91
+#: ../advanced/suggested-workflows.rst:95
 msgid "Quickly assign in ticket listings"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:93
+#: ../advanced/suggested-workflows.rst:97
 msgid "Within overviews and detailed searches you can run bulk operations on tickets. This means you can adjust the following ticket information:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:97
+#: ../advanced/suggested-workflows.rst:101
 msgid "owner"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:98
+#: ../advanced/suggested-workflows.rst:102
 msgid "state (with pending time if applicable)"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:101
+#: ../advanced/suggested-workflows.rst:105
 msgid "After pressing \"Confirm\" Zammad also allows you to provide an internal or public note of why you adjusted the settings."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:106
+#: ../advanced/suggested-workflows.rst:110
 msgid "Zammad *will not* ask for :doc:`time accounting values </advanced/time-accounting>` in these situations."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:114
+#: ../advanced/suggested-workflows.rst:118
 msgid "Bulk operations in overviews and detailed searches"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:114
+#: ../advanced/suggested-workflows.rst:118
 msgid "Use the check boxes in ticket listings to select a bunch of tickets. Now use below drop-downs to change ticket settings, press confirm and provide a note if you'd like."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:118
+#: ../advanced/suggested-workflows.rst:122
 msgid "**🤓 You can change owners and groups even faster 🚀**"
 msgstr ""
 
@@ -707,11 +707,11 @@ msgid "Drag selected tickets and drop then on a group or agent to change\n"
 "ticket group / owner"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:125
+#: ../advanced/suggested-workflows.rst:129
 msgid "Instead of using the drop-downs on the bottom of Zammad, you can also drag tickets. A new modal will appear and allow you to drop your selection on either just a group or agents. This operation allows you to quickly change the group and owner without further hassle!"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:132
+#: ../advanced/suggested-workflows.rst:136
 msgid "This functionality is only available in ticket overviews."
 msgstr ""
 
