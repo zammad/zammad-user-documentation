@@ -97,7 +97,7 @@ Editing Categories
    sub-categories** have been deleted or relocated.
 
 Granular Category Permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Granular category permissions are great to have individual access levels
 on a role level. Using the granular permissions of a category deactivates
@@ -107,9 +107,14 @@ instead.
 This allows you to divide user groups on a e.g. subscription level to
 reduce the information load for users that don't need the information.
 
-   .. figure:: images/extras/knowledge-base-granular-category-permissions.gif
+   .. figure:: /images/extras/knowledge-base-granular-category-permissions.gif
       :alt: Screencast showing the visibility option for categories for granular access permissions
       :align: center
+
+.. hint::
+
+   | Permissions of a parent category are inherited!
+   | Public answers are always available!
 
 .. note:: **⚙️ Roles require knowledge base reader permission**
 
