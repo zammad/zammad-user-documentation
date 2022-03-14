@@ -17,8 +17,10 @@ Manage, edit, and reorganize knowledge base articles from the
    This feature is **optional**;
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
-   Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html>`_.
+   Administrators can learn more on our `admin documentation`_.
+
+.. _admin documentation:
+   https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html
 
 Getting Started
 ---------------
@@ -54,7 +56,10 @@ Switching Languages
 
 Use the language menu to view or edit translations of the current page.
 
-.. hint:: 🚧 **What happens when a page hasn’t been translated into the selected language yet?**
+.. hint:: 
+
+   🚧 **What happens when a page hasn’t been translated into the
+   selected language yet?**
 
    in Edit Mode
       Untranslated pages are marked with a ⚠️ **warning sign**:
@@ -90,6 +95,43 @@ Editing Categories
 
 .. note:: 🗑️ Categories can only be deleted once **all of their articles and
    sub-categories** have been deleted or relocated.
+
+Granular Category Permissions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Granular category permissions are great to have individual access levels
+on a role level. Using the granular permissions of a category deactivates
+the default visibility behavior and applies the permissions you've chosen
+instead.
+
+This allows you to divide user groups on a e.g. subscription level to
+reduce the information load for users that don't need the information.
+
+   .. figure:: /images/extras/knowledge-base-granular-category-permissions.gif
+      :alt: Screencast showing the visibility option for categories for granular access permissions
+      :align: center
+
+.. hint::
+
+   | Permissions of a parent category are inherited!
+   | Public answers are always available!
+
+.. note:: **⚙️ Roles require knowledge base reader permission**
+
+   Your administrator has to provide the relevant groups with reader
+   permissions for the knowledge base.
+
+   .. danger:: **🥵 Beware of visibility levels**
+
+      Knowledge base reader permission means that affected users can see
+      **internal answers**. This is a potential issue if you're not dividing
+      carefully!
+
+   If you're unsure, please ask your administrator to configure the
+   `role permissions`_ accordingly.
+
+.. _role permissions:
+   https://admin-docs.zammad.org/en/latest/manage/roles/agent-permissions.html
 
 Editing Answers
 ---------------

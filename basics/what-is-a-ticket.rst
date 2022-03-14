@@ -13,7 +13,7 @@ So in a basic sense, a ticket is
 **a thread of messages between you and a customer
 about a single issue**.
 
-.. figure:: /images/basics/what-is-a-ticket.jpg
+.. figure:: /images/basics/what-is-a-ticket.png
    :alt: Ticket thread view
    :align: center
 

@@ -3,7 +3,7 @@ Customers
 
 Use the **ticket pane** to manage customer profiles.
 
-.. figure:: /images/extras/customers.jpg
+.. figure:: /images/extras/customers.png
    :alt: Ticket pane (customer view)
    :align: center
 

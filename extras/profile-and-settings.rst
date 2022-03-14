@@ -4,7 +4,7 @@
 Click on your avatar at the bottom of the main menu
 to access your **profile and settings**.
 
-.. figure:: /images/extras/profile-and-settings.jpg
+.. figure:: /images/extras/profile-and-settings.png
    :alt: User submenu
    :align: center
    :scale: 50%

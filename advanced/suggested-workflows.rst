@@ -23,7 +23,7 @@ In these cases, there are three ways to assign the work to the right people:
 Reassigning tickets
 ^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/advanced/suggested-workflows/sharing-work.jpg
+.. figure:: /images/advanced/suggested-workflows/sharing-work.png
    :alt: Reassigning tickets in the ticket pane
    :align: center
 
@@ -42,7 +42,10 @@ and re-assign the ticket to the Customer Service **group**.
 and the first available agent can assign herself
 to pick up where the sales rep left off.
 
-.. tip:: Be sure to leave notes with as much information as possible for the next agent!
+.. tip::
+
+   Be sure to leave notes with as much information as possible for the
+   next agent!
 
 .. _mentions:
 
@@ -85,7 +88,8 @@ type ``@@`` in the message composer and select their name from the pop-up menu:
 .. note:: 😖 **A colleague @mentioned me, but I don’t see the ticket!**
 
    Is the ticket assigned to a group that you don’t belong to?
-   @mentions and subscriptions only work for tickets that you already have access to.
+   @mentions and subscriptions only work for tickets that you already have
+   access to.
 
 Quickly assign in ticket listings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

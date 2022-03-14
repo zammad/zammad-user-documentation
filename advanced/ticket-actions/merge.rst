@@ -7,7 +7,7 @@ instead of replying to an existing thread).
 
 In such cases, you may want to **merge those tickets into one**.
 
-.. figure:: /images/basics/service-ticket/settings-ticket-submenu.jpg
+.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
    :alt: Ticket pane submenu
    :align: center
 
