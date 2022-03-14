@@ -44,7 +44,7 @@ Load a draft
       :alt: Screencast showing how to open the shared draft load dialogue within
             the ticket zoom
 
-   Loading a draft works the same from the point of draft previews.
+   Loading a draft works the same starting from draft previews.
 
       .. include:: /extras/includes/shared-drafts-overwriting-drafts-warning.include.rst
 
