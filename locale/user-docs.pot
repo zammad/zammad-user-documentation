@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 14:42+0100\n"
+"POT-Creation-Date: 2022-03-14 11:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -768,7 +768,7 @@ msgstr ""
 #: ../snippets/ticket-state-type-circles.rst:4
 #: ../snippets/ticket-state-type-circles.rst:4
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:177
 #: ../snippets/ticket-state-type-circles.rst:4
 msgid "|grn|"
 msgstr ""
@@ -2734,6 +2734,7 @@ msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
 msgstr ""
 
 #: ../extras/caller-log.rst:14
+#: ../extras/knowledge-base.rst:17
 msgid "This feature is **optional**; if you don’t see it in the main menu, that means your administrator hasn’t enabled it yet. Administrators can learn more on our `admin documentation`_."
 msgstr ""
 
@@ -2746,6 +2747,7 @@ msgid "The caller log offers a lot more than just the last call entries. If your
 msgstr ""
 
 #: ../extras/caller-log.rst:39
+#: ../extras/shared-drafts.rst:61
 msgid "New Ticket dialogue"
 msgstr ""
 
@@ -3275,6 +3277,18 @@ msgstr ""
 msgid "Use the **📄 Create ticket** button in the asset ticket list to start a new, pre-linked ticket dialog."
 msgstr ""
 
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
+msgid "**☠️ Overwriting drafts is final**"
+msgstr ""
+
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
+msgid "Zammad will warn you in case you're going to overwrite an existing draft. This also applies to your personal draft in case you're loading a shared draft."
+msgstr ""
+
 #: ../extras/knowledge-base.rst:4
 msgid "Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel."
 msgstr ""
@@ -3291,11 +3305,7 @@ msgstr ""
 msgid "**🤔 Huh? I don’t see “Knowledge Base” in the menu...**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:17
-msgid "This feature is **optional**; if you don’t see it in the main menu, that means your administrator hasn’t enabled it yet. Administrators can learn more `here <https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html>`_."
-msgstr ""
-
-#: ../extras/knowledge-base.rst:24
+#: ../extras/knowledge-base.rst:26
 msgid "Getting Started"
 msgstr ""
 
@@ -3303,31 +3313,31 @@ msgstr ""
 msgid "Knowledge Base Link to published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:30
+#: ../extras/knowledge-base.rst:32
 msgid "Use the **↗️ button** in the top toolbar to see the published knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:36
+#: ../extras/knowledge-base.rst:38
 msgid "Knowledge Base Edit Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:36
+#: ../extras/knowledge-base.rst:38
 msgid "👆 In Edit Mode, use the righthand menu to navigate through the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:39
+#: ../extras/knowledge-base.rst:41
 msgid "Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** (and back again)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:42
+#: ../extras/knowledge-base.rst:44
 msgid "**🤔 Huh? I don’t see an “Edit” button...**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:44
+#: ../extras/knowledge-base.rst:46
 msgid "By default, agents are **not permitted to create, edit, or manage knowledge base articles**. If you wish to edit the knowledge base, talk to your administrator about granting you the appropriate permissions."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:49
+#: ../extras/knowledge-base.rst:51
 msgid "Switching Languages"
 msgstr ""
 
@@ -3335,19 +3345,19 @@ msgstr ""
 msgid "Switch languages"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:55
+#: ../extras/knowledge-base.rst:57
 msgid "Use the language menu to view or edit translations of the current page."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:57
+#: ../extras/knowledge-base.rst:61
 msgid "🚧 **What happens when a page hasn’t been translated into the selected language yet?**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:64
+#: ../extras/knowledge-base.rst:69
 msgid "in Edit Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:60
+#: ../extras/knowledge-base.rst:65
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
 msgstr ""
 
@@ -3357,23 +3367,23 @@ msgstr ""
 msgid "Missing translation warning"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:72
+#: ../extras/knowledge-base.rst:77
 msgid "in Preview Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:67
+#: ../extras/knowledge-base.rst:72
 msgid "Untranslated pages are only visible to users with **edit permissions**:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:78
+#: ../extras/knowledge-base.rst:83
 msgid "in the published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:75
+#: ../extras/knowledge-base.rst:80
 msgid "Untranslated pages are **always hidden**:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:82
+#: ../extras/knowledge-base.rst:87
 msgid "Editing Categories"
 msgstr ""
 
@@ -3381,15 +3391,59 @@ msgstr ""
 msgid "Edit category"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:88
+#: ../extras/knowledge-base.rst:93
 msgid "📁 If you relocate a category using the **Parent** menu, all of its articles and sub-categories will be relocated with it."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:91
+#: ../extras/knowledge-base.rst:96
 msgid "🗑️ Categories can only be deleted once **all of their articles and sub-categories** have been deleted or relocated."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:95
+#: ../extras/knowledge-base.rst:100
+msgid "Granular Category Permissions"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:102
+msgid "Granular category permissions are great to have individual access levels on a role level. Using the granular permissions of a category deactivates the default visibility behavior and applies the permissions you've chosen instead."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:107
+msgid "This allows you to divide user groups on a e.g. subscription level to reduce the information load for users that don't need the information."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid "Screencast showing the visibility option for categories for granular access permissions"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid "Permissions of a parent category are inherited!"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid "Public answers are always available!"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:119
+msgid "**⚙️ Roles require knowledge base reader permission**"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:121
+msgid "Your administrator has to provide the relevant groups with reader permissions for the knowledge base."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:124
+msgid "**🥵 Beware of visibility levels**"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:126
+msgid "Knowledge base reader permission means that affected users can see **internal answers**. This is a potential issue if you're not dividing carefully!"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:130
+msgid "If you're unsure, please ask your administrator to configure the `role permissions`_ accordingly."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:137
 msgid "Editing Answers"
 msgstr ""
 
@@ -3397,23 +3451,23 @@ msgstr ""
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:101
+#: ../extras/knowledge-base.rst:143
 msgid "The knowledge base editor comes equipped with the same **rich text editing capabilities** available in the Zammad ticket composer. That means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted text, bullet lists, and more. You can even add file attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:107
+#: ../extras/knowledge-base.rst:149
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:110
+#: ../extras/knowledge-base.rst:152
 msgid "🔗 **Weblink**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:110
+#: ../extras/knowledge-base.rst:152
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:114
+#: ../extras/knowledge-base.rst:156
 msgid "💡 **Link Answer**"
 msgstr ""
 
@@ -3425,7 +3479,7 @@ msgstr ""
 msgid "(Will not break if destination URL changes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:118
+#: ../extras/knowledge-base.rst:160
 msgid "📋 **Linked Tickets**"
 msgstr ""
 
@@ -3437,7 +3491,7 @@ msgstr ""
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:167
 msgid "🏷️ **Tags**"
 msgstr ""
 
@@ -3453,51 +3507,51 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:130
+#: ../extras/knowledge-base.rst:172
 msgid "🙈 Set the **visibility** of an answer to control who can see an article, or schedule it to be published at a later date. Articles are **color-coded** according to their visibility:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:177
 msgid "**Public** (visible to everyone)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:137
+#: ../extras/knowledge-base.rst:179
 msgid "|blu|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:137
+#: ../extras/knowledge-base.rst:179
 msgid "**Internal** (visible to agents & editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:139
+#: ../extras/knowledge-base.rst:181
 msgid "|gry|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:139
+#: ../extras/knowledge-base.rst:181
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:155
+#: ../extras/knowledge-base.rst:197
 msgid "Using answers in ticket articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:157
+#: ../extras/knowledge-base.rst:199
 msgid "As soon as the knowledge base contains one or more answers, you can use these just like text modules. Instead of ``::`` just use ``??`` to open the search modal. The search is done full text on both answer body and title in all languages available."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:162
+#: ../extras/knowledge-base.rst:204
 msgid "If you've found what you've been looking for, simply hit your ENTER-Key to load the answer into the ticket article. This way you don't have to throw URLs at your customer and provide the answer right away."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:166
+#: ../extras/knowledge-base.rst:208
 msgid "Loading answers into articles *does not* replace article content."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:214
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:214
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
@@ -3945,6 +3999,191 @@ msgstr ""
 
 #: ../extras/secure-email.rst:168
 msgid "Ask your administrator to verify your organization’s private key in Zammad’s certificate store."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:2
+msgid "Shared Drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:4
+msgid "Share drafts for new or existing tickets with other agents of your group. Load, modify and safe an existing draft e.g. as QA process with colleagues."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:12
+msgid "Screenshot showing the sub menu of the Update button with macros and an\n"
+"option to save the draft"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:12
+msgid "By using ᐱ next to the \"Update\" button Zammad will provide you with an option to save your draft (and thus share it) if the option is enabled."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:15
+msgid "**🤔 Huh? I don’t see “Share Draft” option...**"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:17
+msgid "This feature is **optional**; if you don’t see it in the menu, that means your administrator disabled this function. Administrators can learn more in our `admin documentation`_."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:24
+msgid "**🤓 Let's be clear up front**"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:26
+msgid "Zammad technically has two draft functions:"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:28
+msgid "shared draft (allow others to load the draft), and"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:29
+msgid "user drafts."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Every time you change a tickets field, Zammad will safe this in your personal draft. You then can share this as a shared draft if you want to."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "User drafts are *always* available!"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:36
+msgid "Handling drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:40
+msgid "Shared draft handling is the same for existing tickets and new tickets. 🙏"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:81
+msgid "Load a draft"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screencast showing how to open the shared draft load dialogue within\n"
+"the ticket zoom"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:47
+msgid "Loading a draft works the same starting from draft previews."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:52
+msgid "If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 button will indicate the shared drafts function to be available."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:57
+msgid "The shared drafts tab is *always* hidden if no group is selected!"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screenshot highlighting the shared draft pane for new\n"
+"ticket dialogues"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:71
+msgid "Existing tickets (Ticket zoom)"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:64
+msgid "Within ticket zooms a button \"📝 Draft available\" will be shown if a draft has been shared by either you or another agent on the ticket."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:67
+msgid "Hovering over the button will tell you who has changed the draft last."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screenshot highlighting the Draft available button within\n"
+"Ticket zoom"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:75
+msgid "Loading a shared draft, (adjusting and) updating the ticket with an article will cause Zammad to *remove* the shared draft."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:80
+msgid "This also applies if you're sharing the draft before submitting! Zammad expects that the draft is no longer needed."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:93
+msgid "Remove draft"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:84
+msgid "You can remove any draft (no matter if for new or existing tickets) from within the draft preview screen. Use the \"Delete\" link on the lower end of the dialogue."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:90
+msgid "This has no effect on local drafts agents may have loaded already."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screenshot highlighting the removal option in shared draft preview"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:96
+msgid "Saving drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:125
+msgid "New ticket"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:111
+msgid "Adding new drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:102
+msgid "To save a new shared draft, set the ticket settings, customer, ticket title and article as desired. Make sure to select a group that supports shared drafts."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:106
+msgid "If you're ready to save the draft, click on 📝 on the left ticket pane, enter a meaning full name and click on the \"Create\" button."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screencast showing how to save new ticket dialogues as a\n"
+"shared draft"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:125
+msgid "Update existing drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:114
+msgid "In order to update or rename existing shared drafts for new tickets, simply load the draft in question. Change the information (e.g. ticket settings or content) needed and, if needed, update the drafts name on the right hand side of the ticket."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:121
+msgid "This way you can not just update existing drafts, but also use existing drafts to create another copy!"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screencast showing how to rename / update existing shared drafts"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:137
+msgid "Existing ticket"
+msgstr ""
+
+#: ../extras/shared-drafts.rst:128
+msgid "Use the ᐱ button next to the update button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option \"Save Draft\"."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:132
+msgid "All current changes on the ticket (ticket settings, article and it's attachments) will be saved to the shared draft."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:135
+msgid "When saving was successful, the button \"📝 Draft available\" will be shown."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:0
+msgid "Screencast showing how to save a shared draft within ticket zoom"
 msgstr ""
 
 #: ../index.rst:4
