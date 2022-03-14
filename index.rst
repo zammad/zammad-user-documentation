@@ -38,6 +38,7 @@ Zammad Agent Documentation
    /extras/organizations
    /extras/dashboard
    /extras/secure-email
+   /extras/shared-drafts
    /extras/chat
    /extras/caller-log
    /extras/profile-and-settings
