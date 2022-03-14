@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 23:13+0100\n"
+"POT-Creation-Date: 2022-02-24 15:03+0100\n"
 "PO-Revision-Date: 2022-01-04 12:21+0000\n"
 "Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -3832,32 +3832,139 @@ msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
 msgstr "**🤔 Pardon? \"Telefon\" menüsünü göremedim...**"
 
 #: ../extras/caller-log.rst:14
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don’t see it in the main menu, that "
+#| "means your administrator hasn’t enabled it yet. Administrators can learn "
+#| "more `here <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
 msgid ""
 "This feature is **optional**; if you don’t see it in the main menu, that "
 "means your administrator hasn’t enabled it yet. Administrators can learn "
-"more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
-"html#integrations-for-phone-systems>`_."
+"more on our `admin documentation`_."
 msgstr ""
 "Bu özellik **isteğe bağlıdır**; ana menüde görmüyorsanız, bu yöneticiniz "
 "tarafından etkinleştirilmediği anlamına gelir. Yöneticiler daha fazla bilgi "
-"için `buraya <https://admin-docs.zammad.org/en/latest/system-integrations."
-"html#integrations-for-phone-systems>`_ bakabilir."
+"için `buraya <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_ "
+"bakabilir."
 
-#: ../extras/caller-log.rst:21
+#: ../extras/caller-log.rst:23
+#, fuzzy
+#| msgid ""
+#| "🏢 The caller log shows all incoming and outgoing calls **for the entire "
+#| "team**."
 msgid ""
 "🏢 The caller log shows all incoming and outgoing calls **for the entire "
-"team**."
+"instance**. The number of entries shown depends on the configuration your "
+"admin chose."
 msgstr "🏢 Arama kaydı **tüm ekip için** gelen ve giden aramaları gösterir."
 
-#: ../extras/caller-log.rst:25
+#: ../extras/caller-log.rst:27
 msgid ""
-"👤 Click on unrecognized numbers in the caller log to **create a new customer "
-"and ticket**. (Unrecognized phone numbers cannot be added to existing "
-"customers in this way.)"
+"The caller log offers a lot more than just the last call entries. If your "
+"administrator configured \"Phone Extension to Agent Mapping\", Zammad will "
+"also help you during answering calls."
+msgstr ""
+
+#: ../extras/caller-log.rst:39
+#, fuzzy
+#| msgid "New tickets"
+msgid "New Ticket dialogue"
+msgstr "Yeni biletler"
+
+#: ../extras/caller-log.rst:32
+msgid "Zammad will open a new ticket dialogue if:"
+msgstr ""
+
+#: ../extras/caller-log.rst:34
+msgid "it's able to either guess a single user (see `maybe entries`_)"
+msgstr ""
+
+#: ../extras/caller-log.rst:35
+msgid "the callers number belongs to a user known to Zammad"
+msgstr ""
+
+#: ../extras/caller-log.rst:36
+msgid "the callers number is yet unknown"
+msgstr ""
+
+#: ../extras/caller-log.rst:38
+msgid ""
+"If the user is known to Zammad it will automatically set the ticket customer "
+"for you. You can correct this at any time if needed."
+msgstr ""
+
+#: ../extras/caller-log.rst:45
+msgid "User profile"
+msgstr ""
+
+#: ../extras/caller-log.rst:42
+msgid ""
+"Zammad will open the users profile if your user had a customer ticket that "
+"has been updated within the last 30 days. This also applies for calling "
+"users that Zammad guesses are a specific user (only if it's one guessed "
+"user)."
+msgstr ""
+
+#: ../extras/caller-log.rst:54
+msgid "Quick dial"
+msgstr ""
+
+#: ../extras/caller-log.rst:48
+msgid ""
+"You can click on phone numbers (user profiles and caller log) to dial the "
+"number in question quickly."
+msgstr ""
+
+#: ../extras/caller-log.rst:53
+msgid ""
+"This requires either a soft phone client or CTI client on your computer that "
+"supports this action."
+msgstr ""
+
+#: ../extras/caller-log.rst:58
+msgid "**😕 What are these \"maybe\" entries?**"
+msgstr ""
+
+#: ../extras/caller-log.rst:60
+msgid ""
+"During your day by day communication you may also stumble over new "
+"customers. Usually business users send their phone numbers in their "
+"signature."
+msgstr ""
+
+#: ../extras/caller-log.rst:63
+msgid ""
+"Zammad collects and aggregates these information and tries to guess the "
+"customer in case it receives a call from an unknown number."
+msgstr ""
+
+#: ../extras/caller-log.rst:0
+msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
+msgstr ""
+
+#: ../extras/caller-log.rst:71
+#, fuzzy
+#| msgid ""
+#| "👤 Click on unrecognized numbers in the caller log to **create a new "
+#| "customer and ticket**. (Unrecognized phone numbers cannot be added to "
+#| "existing customers in this way.)"
+msgid ""
+"👤 Click on unrecognized numbers to **create a new customer** or maybe "
+"entries to **update an existing customer**."
 msgstr ""
 "**Yeni bir müşteri ve çağrı oluşturmak** için arama kaydındaki tanınmayan "
 "numaralara tıklayın. (Tanınmayan telefon numaraları bu şekilde mevcut "
 "müşterilere eklenemez.)"
+
+#: ../extras/caller-log.rst:74
+msgid ""
+"(Unrecognized phone numbers cannot be added to existing customers in this "
+"way. Copy and pasting is required.)"
+msgstr ""
+
+#: ../extras/caller-log.rst:79
+msgid "Existing caller log entries *are not* updated."
+msgstr ""
 
 #: ../extras/chat.rst:2
 msgid "Live Chat"
@@ -5425,3 +5532,14 @@ msgstr "Ekstralar"
 #: ../index.rst:2
 msgid "Zammad Agent Documentation"
 msgstr "Zammad Aracı Dokümantasyonu"
+
+#~ msgid ""
+#~ "This feature is **optional**; if you don’t see it in the main menu, that "
+#~ "means your administrator hasn’t enabled it yet. Administrators can learn "
+#~ "more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
+#~ "html#integrations-for-phone-systems>`_."
+#~ msgstr ""
+#~ "Bu özellik **isteğe bağlıdır**; ana menüde görmüyorsanız, bu yöneticiniz "
+#~ "tarafından etkinleştirilmediği anlamına gelir. Yöneticiler daha fazla "
+#~ "bilgi için `buraya <https://admin-docs.zammad.org/en/latest/system-"
+#~ "integrations.html#integrations-for-phone-systems>`_ bakabilir."

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-13 23:13+0100\n"
-"PO-Revision-Date: 2022-01-19 12:02+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"POT-Creation-Date: 2022-02-24 15:03+0100\n"
+"PO-Revision-Date: 2022-02-19 20:51+0000\n"
+"Last-Translator: Ben Biber <ben.david.wallner@gmail.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -3098,7 +3098,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:175
 msgid "`Learn more about clearbit integration in the admin documentation`_."
-msgstr "`Lernen Sie mehr zur clearbit-Integration in der Admin-Dokumentation`_."
+msgstr ""
+"`Lernen Sie mehr zur clearbit-Integration in der Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:187
 msgid "Conflict Warning"
@@ -3423,6 +3424,9 @@ msgid ""
 "all over the world contribute to it. GitHub is where we coordinate all of "
 "this."
 msgstr ""
+"Da Zammad ein Open-Source-Projekt ist, tragen viele Entwickler und "
+"Technikbegeisterte aus der ganzen Welt dazu bei. GitHub ist der Ort, an dem "
+"wir all dies koordinieren."
 
 #: ../basics/zammad-glossary.rst:339
 msgid "`You can find the repository here`_."
@@ -3444,9 +3448,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/github-gitlab-integration`."
 msgstr ""
-"`In der Admin-Dokumentation können Administratoren mehr über GitHub erfahren`"
-"_, wenn Sie ein Agent sind, können Sie mehr zur Funktion auf dieser Seite "
-"erfahren: :doc:`/extras/github-gitlab-integration`."
+"`In der Admin-Dokumentation können Administratoren mehr über GitHub "
+"erfahren`_, wenn Sie ein Agent sind, können Sie mehr zur Funktion auf dieser "
+"Seite erfahren: :doc:`/extras/github-gitlab-integration`."
 
 #: ../basics/zammad-glossary.rst:365
 msgid "GitLab"
@@ -3682,9 +3686,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/advanced/macros`."
 msgstr ""
-"`In der Admin-Dokumentation können Administratoren mehr über Makros erfahren`"
-"_, wenn Sie ein Agent sind, finden Sie weitere Informationen zur Nutzung auf "
-"dieser Seite: :doc:`/advanced/macros`."
+"`In der Admin-Dokumentation können Administratoren mehr über Makros "
+"erfahren`_, wenn Sie ein Agent sind, finden Sie weitere Informationen zur "
+"Nutzung auf dieser Seite: :doc:`/advanced/macros`."
 
 #: ../basics/zammad-glossary.rst:491
 msgid "Migrator / Migration Wizard"
@@ -4163,36 +4167,144 @@ msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
 msgstr "**🤔 Huch? Ich sehe \"Telefon\" nicht im Menü...**"
 
 #: ../extras/caller-log.rst:14
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don’t see it in the main menu, that "
+#| "means your administrator hasn’t enabled it yet. Administrators can learn "
+#| "more `here <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
 msgid ""
 "This feature is **optional**; if you don’t see it in the main menu, that "
 "means your administrator hasn’t enabled it yet. Administrators can learn "
-"more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
-"html#integrations-for-phone-systems>`_."
+"more on our `admin documentation`_."
 msgstr ""
-"Diese Funktion ist **optional**. Wenn Sie diese nicht in der Navigation "
+"Diese Funktion ist **optional**. Wenn Sie diese in der Navigation nicht "
 "sehen können, bedeutet das, dass Ihr Administrator diese noch nicht "
 "aktiviert hat. Administratoren können `hier <https://admin-docs.zammad.org/"
-"en/latest/system-integrations.html#integrations-for-phone-systems>`_ mehr "
-"erfahren."
+"en/latest/channels-chat.html>`_ mehr erfahren."
 
-#: ../extras/caller-log.rst:21
+#: ../extras/caller-log.rst:23
+#, fuzzy
+#| msgid ""
+#| "🏢 The caller log shows all incoming and outgoing calls **for the entire "
+#| "team**."
 msgid ""
 "🏢 The caller log shows all incoming and outgoing calls **for the entire "
-"team**."
+"instance**. The number of entries shown depends on the configuration your "
+"admin chose."
 msgstr ""
 "🏢 Das Anrufprotokoll zeigt alle ein- und ausgehenden Anrufe **des gesamten "
 "Teams** an."
 
-#: ../extras/caller-log.rst:25
+#: ../extras/caller-log.rst:27
 msgid ""
-"👤 Click on unrecognized numbers in the caller log to **create a new customer "
-"and ticket**. (Unrecognized phone numbers cannot be added to existing "
-"customers in this way.)"
+"The caller log offers a lot more than just the last call entries. If your "
+"administrator configured \"Phone Extension to Agent Mapping\", Zammad will "
+"also help you during answering calls."
+msgstr ""
+
+#: ../extras/caller-log.rst:39
+#, fuzzy
+#| msgid "New ticket dialog"
+msgid "New Ticket dialogue"
+msgstr "Neues Ticket-Dialog"
+
+#: ../extras/caller-log.rst:32
+msgid "Zammad will open a new ticket dialogue if:"
+msgstr ""
+
+#: ../extras/caller-log.rst:34
+msgid "it's able to either guess a single user (see `maybe entries`_)"
+msgstr ""
+
+#: ../extras/caller-log.rst:35
+msgid "the callers number belongs to a user known to Zammad"
+msgstr ""
+
+#: ../extras/caller-log.rst:36
+msgid "the callers number is yet unknown"
+msgstr ""
+
+#: ../extras/caller-log.rst:38
+msgid ""
+"If the user is known to Zammad it will automatically set the ticket customer "
+"for you. You can correct this at any time if needed."
+msgstr ""
+
+#: ../extras/caller-log.rst:45
+msgid "User profile"
+msgstr ""
+
+#: ../extras/caller-log.rst:42
+msgid ""
+"Zammad will open the users profile if your user had a customer ticket that "
+"has been updated within the last 30 days. This also applies for calling "
+"users that Zammad guesses are a specific user (only if it's one guessed "
+"user)."
+msgstr ""
+
+#: ../extras/caller-log.rst:54
+#, fuzzy
+#| msgid "Link dialog"
+msgid "Quick dial"
+msgstr "Verlinkungs-Dialog"
+
+#: ../extras/caller-log.rst:48
+msgid ""
+"You can click on phone numbers (user profiles and caller log) to dial the "
+"number in question quickly."
+msgstr ""
+
+#: ../extras/caller-log.rst:53
+msgid ""
+"This requires either a soft phone client or CTI client on your computer that "
+"supports this action."
+msgstr ""
+
+#: ../extras/caller-log.rst:58
+msgid "**😕 What are these \"maybe\" entries?**"
+msgstr ""
+
+#: ../extras/caller-log.rst:60
+msgid ""
+"During your day by day communication you may also stumble over new "
+"customers. Usually business users send their phone numbers in their "
+"signature."
+msgstr ""
+
+#: ../extras/caller-log.rst:63
+msgid ""
+"Zammad collects and aggregates these information and tries to guess the "
+"customer in case it receives a call from an unknown number."
+msgstr ""
+
+#: ../extras/caller-log.rst:0
+msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
+msgstr ""
+
+#: ../extras/caller-log.rst:71
+#, fuzzy
+#| msgid ""
+#| "👤 Click on unrecognized numbers in the caller log to **create a new "
+#| "customer and ticket**. (Unrecognized phone numbers cannot be added to "
+#| "existing customers in this way.)"
+msgid ""
+"👤 Click on unrecognized numbers to **create a new customer** or maybe "
+"entries to **update an existing customer**."
 msgstr ""
 "👤 Klicken Sie auf nicht erfasste Nummern im Anrufer-Protokoll, um **einen "
 "neuen Kunden und ein neues Ticket anzulegen**. (Nicht erfasste "
 "Telefonnummern können auf diese Weise nicht zu bestehenden Kunden "
 "hinzugefügt werden.)"
+
+#: ../extras/caller-log.rst:74
+msgid ""
+"(Unrecognized phone numbers cannot be added to existing customers in this "
+"way. Copy and pasting is required.)"
+msgstr ""
+
+#: ../extras/caller-log.rst:79
+msgid "Existing caller log entries *are not* updated."
+msgstr ""
 
 #: ../extras/chat.rst:2
 msgid "Live Chat"
@@ -5834,3 +5946,15 @@ msgstr "Extras"
 #: ../index.rst:2
 msgid "Zammad Agent Documentation"
 msgstr "Zammad Agenten Dokumentation"
+
+#~ msgid ""
+#~ "This feature is **optional**; if you don’t see it in the main menu, that "
+#~ "means your administrator hasn’t enabled it yet. Administrators can learn "
+#~ "more `here <https://admin-docs.zammad.org/en/latest/system-integrations."
+#~ "html#integrations-for-phone-systems>`_."
+#~ msgstr ""
+#~ "Diese Funktion ist **optional**. Wenn Sie diese nicht in der Navigation "
+#~ "sehen können, bedeutet das, dass Ihr Administrator diese noch nicht "
+#~ "aktiviert hat. Administratoren können `hier <https://admin-docs.zammad."
+#~ "org/en/latest/system-integrations.html#integrations-for-phone-systems>`_ "
+#~ "mehr erfahren."
