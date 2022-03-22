@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-14 11:43+0100\n"
-"PO-Revision-Date: 2022-02-19 20:51+0000\n"
-"Last-Translator: Ben Biber <ben.david.wallner@gmail.com>\n"
+"PO-Revision-Date: 2022-03-23 12:16+0000\n"
+"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -1822,10 +1822,6 @@ msgid "New ticket dialog"
 msgstr "Neues Ticket-Dialog"
 
 #: ../basics/service-ticket/create.rst:16
-#, fuzzy
-#| msgid ""
-#| "Click the **➕ button** to create a new ticket. The default ticket type is "
-#| "**received call**."
 msgid ""
 "Click the **➕ button** to create a new ticket. The default ticket type is "
 "**Received Call**."
@@ -4171,7 +4167,6 @@ msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
 msgstr "**🤔 Huch? Ich sehe \"Telefon\" nicht im Menü...**"
 
 #: ../extras/caller-log.rst:14 ../extras/knowledge-base.rst:17
-#, fuzzy
 msgid ""
 "This feature is **optional**; if you don’t see it in the main menu, that "
 "means your administrator hasn’t enabled it yet. Administrators can learn "
@@ -4179,18 +4174,18 @@ msgid ""
 msgstr ""
 "Diese Funktion ist **optional**. Wenn Sie diese in der Navigation nicht "
 "sehen können, bedeutet das, dass Ihr Administrator diese noch nicht "
-"aktiviert hat. Administratoren können `hier <https://admin-docs.zammad.org/"
-"en/latest/channels-chat.html>`_ mehr erfahren."
+"aktiviert hat. Administratoren können in unserer `Admin-Dokumentation`_ mehr "
+"erfahren."
 
 #: ../extras/caller-log.rst:23
-#, fuzzy
 msgid ""
 "🏢 The caller log shows all incoming and outgoing calls **for the entire "
 "instance**. The number of entries shown depends on the configuration your "
 "admin chose."
 msgstr ""
-"🏢 Das Anrufprotokoll zeigt alle ein- und ausgehenden Anrufe **des gesamten "
-"Teams** an."
+"🏢 Das Anrufprotokoll zeigt alle ein- und ausgehenden Anrufe **der gesamten "
+"Instanz** an. Die Anzahl der angezeigten Einträge hängt von der Einstellung "
+"Ihres Administrators ab."
 
 #: ../extras/caller-log.rst:27
 msgid ""
@@ -4200,7 +4195,6 @@ msgid ""
 msgstr ""
 
 #: ../extras/caller-log.rst:39 ../extras/shared-drafts.rst:61
-#, fuzzy
 msgid "New Ticket dialogue"
 msgstr "Neues Ticket-Dialog"
 
@@ -4239,9 +4233,8 @@ msgid ""
 msgstr ""
 
 #: ../extras/caller-log.rst:54
-#, fuzzy
 msgid "Quick dial"
-msgstr "Verlinkungs-Dialog"
+msgstr "Schnellwahl"
 
 #: ../extras/caller-log.rst:48
 msgid ""
