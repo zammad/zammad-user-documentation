@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-14 11:43+0100\n"
-"PO-Revision-Date: 2022-03-29 16:16+0000\n"
+"PO-Revision-Date: 2022-04-02 09:16+0000\n"
 "Last-Translator: Gerrit <github@gmail.arghs.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
@@ -3578,6 +3578,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/i-doit-track-company-property`."
 msgstr ""
+"`Administratoren erfahren mehr über i-doit in der Admin-Dokumentation`_, "
+"falls Sie Agent sind, erfahren Sie mehr über die Funktionalitäten auf der "
+"folgenden Seite: :doc:`/extras/i-doit-track-company-property`."
 
 #: ../basics/zammad-glossary.rst:399
 msgid "Icinga"
@@ -3708,10 +3711,15 @@ msgid ""
 "about your users within Zammad. Authentication of users against the LDAP and "
 "LDAP role mapping to Zammad roles are also possible."
 msgstr ""
+"Ein LDAP-Server (Lightweight Directory Access Protocol) stellt zusätzliche "
+"Informationen über Ihre Benutzer in Zammad zur Verfügung. Eine "
+"Authentifizierung gegen den LDAP und die Zuordnung von LDAP-Rollen zu Zammad-"
+"Rollen ist ebenfalls möglich."
 
 #: ../basics/zammad-glossary.rst:460
 msgid "`Learn more about LDAP integration in the admin documentation`_."
 msgstr ""
+"`Erfahren Sie mehr über die LDAP-Integration in der Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:466
 msgid "M"
@@ -3825,10 +3833,13 @@ msgid ""
 "Nagios can be integrated with Zammad so that a ticket is created in case of "
 "an alert."
 msgstr ""
+"Nagios ist ein weiteres Monitoring-Programm das IT-Teams benachrichtigt, "
+"wenn z.B. ein Server nicht erreichbar ist, oder eine Festplatte droht voll "
+"zu laufen. Die Integration erstellt in solchen Fällen Tickets in Zammad."
 
 #: ../basics/zammad-glossary.rst:519
 msgid "`Learn more about Nagios on our landing page`_."
-msgstr ""
+msgstr "`Erfahren Sie mehr über Nagios auf unserer Startseite`_."
 
 #: ../basics/zammad-glossary.rst:525
 msgid "O"
@@ -3842,12 +3853,19 @@ msgid ""
 "handover note on the ticket so that the new owner knows what is expected of "
 "them."
 msgstr ""
+"Der Besitzer eines Tickets ist verantwortlich für die bestmögliche "
+"Abarbeitung eines Tickets. Natürlich kann der Besitz auf einen anderen "
+"Agenten übertragen werden. In diesem Fall wird empfohlen, eine Übergabenotiz "
+"im Ticket zu verfassen, sodass man als neuer Besitzer weis, was als nächstes "
+"erwartet wird."
 
 #: ../basics/zammad-glossary.rst:534
 msgid ""
 "Learn more about ticket owners on this page: :doc:`/basics/service-ticket/"
 "settings`"
 msgstr ""
+"Erfahren Sie mehr über Ticket-Besitzer auf dieser Seite: :doc:`/basics/"
+"service-ticket/settings`"
 
 #: ../basics/zammad-glossary.rst:541 ../extras/customers.rst:0
 msgid "Organization"
@@ -3860,6 +3878,10 @@ msgid ""
 "organization is \"sharing\" logs in to the customer interface, this user has "
 "access to all tickets of his organization."
 msgstr ""
+"Eine Organisation repräsentiert eine Gruppe von Kunden, die unter gleichem "
+"Dach arbeiten oder einer gemeinsamen Typisierung entsprechen. Falls sich ein "
+"Kunde, dessen Organisation auf \"Teilend\" gestellt ist, bei Zammad "
+"anmeldet, besteht Zugriff auf alle Tickets der Organisation."
 
 #: ../basics/zammad-glossary.rst:544
 msgid "P"
@@ -3867,7 +3889,7 @@ msgstr "P"
 
 #: ../basics/zammad-glossary.rst:553
 msgid "Parent/Child Relationship"
-msgstr ""
+msgstr "Eltern/Kind-Beziehung"
 
 #: ../basics/zammad-glossary.rst:547
 msgid ""
@@ -3876,12 +3898,18 @@ msgid ""
 "ticket and the tickets with related subtopics are children. By the way: in "
 "the same way, you can also merge two tickets into one."
 msgstr ""
+"Falls ein Ticket sich in verschiedene Unteraufgaben, Sachthemen oder "
+"Ansprechpartner entwickelt, kann es in Untertickets aufgeteilt werden. Das "
+"Hauptticket wird dann \"Eltern\" genannt und die resultierenden Untertickets "
+"\"Kinder\"."
 
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Learn more about this function on this page: :doc:`/advanced/ticket-actions/"
 "link`."
 msgstr ""
+"Erfahren Sie mehr über diese Funktion auf dieser Seite: :doc:`/advanced/"
+"ticket-actions/link`."
 
 #: ../basics/zammad-glossary.rst:568
 msgid "Placetel"
@@ -3894,6 +3922,10 @@ msgid ""
 "mobile or landline while still having all communication in one place (aka "
 "Zammad)."
 msgstr ""
+"Placetel ist eine Cloud-Telefonanlage, die Nutzern erlaubt Telefonanrufe via "
+"VoIP zu tätigen. Nutzen Sie Ihre reguläre Telefonnummer und rufen Sie "
+"jemanden direkt auf Festnetz- oder Mobilfunknummern an und haben Sie "
+"trotzdem alle Kommunikation an einem Ort (a.k.a. Zammad)."
 
 #: ../basics/zammad-glossary.rst:561
 msgid ""
