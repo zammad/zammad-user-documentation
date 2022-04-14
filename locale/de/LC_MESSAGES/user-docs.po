@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-14 11:43+0100\n"
-"PO-Revision-Date: 2022-03-23 12:16+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"PO-Revision-Date: 2022-04-12 15:16+0000\n"
+"Last-Translator: Gerrit <github@gmail.arghs.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -2922,7 +2922,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:42
 msgid "You can learn more on our `API landing page`_."
-msgstr "Weiteres können Sie auf unserer `API Landing Page`_ lernen."
+msgstr "Erfahren Sie mehr auf unserer `API Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:54
 msgid "Automation"
@@ -2973,8 +2973,7 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:66
 msgid "You can learn more on our `Autosave landing page`_."
 msgstr ""
-"Dazu können Sie mehr auf unserer `Landing Page der Automatischen Sicherung`_ "
-"lernen."
+"Erfahren Sie mehr auf unserer `Funktionsseite zur Automatischen Sicherung`_."
 
 #: ../basics/zammad-glossary.rst:72
 msgid "B"
@@ -3100,7 +3099,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:138
 msgid "`Learn more on our CTI landing page`_."
-msgstr "`Lernen Sie mir auf unserer CTI Landing Page zum Thema`_."
+msgstr "`Erfahren Sie mehr zum Thema auf unserer CTI-Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:140
 msgid "Here's the fitting documentation pages:"
@@ -3427,8 +3426,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:311
 msgid "`Learn more on our group landing page`_."
-msgstr ""
-"`Auf unserer Landing-Page für Gruppen finden Sie weitere Informationen`_."
+msgstr "`Erfahren Sie mehr auf unserer Funktionsseite für Gruppen`_."
 
 #: ../basics/zammad-glossary.rst:326
 msgid "Grafana"
@@ -3565,6 +3563,12 @@ msgid ""
 "doit objects for easy reference. It also allows you to create Zammad tickets "
 "in i-doit."
 msgstr ""
+"i-doit ist eine CMDB (Configuration Management Data Base). Es hilft alle "
+"Bestandteile einer physischen und digitalen Infrastruktur im Auge zu "
+"behalten. Eine entsprechende Integration ermöglicht es i-doit mit Zammad zu "
+"verbinden, indem sie einen neuen Reiter in Zammads Ticket-Seitenleiste "
+"hinzufügt, sodass diese mit existierenden i-doit Objekten verknüpft werden "
+"können. Sie erlaubt außerdem das Erstellen von Zammad-Tickets in i-doit."
 
 #: ../basics/zammad-glossary.rst:386
 msgid ""
@@ -3572,6 +3576,9 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/i-doit-track-company-property`."
 msgstr ""
+"`Administratoren erfahren mehr über i-doit in der Admin-Dokumentation`_, "
+"falls Sie Agent sind, erfahren Sie mehr über die Funktionalitäten auf der "
+"folgenden Seite: :doc:`/extras/i-doit-track-company-property`."
 
 #: ../basics/zammad-glossary.rst:399
 msgid "Icinga"
@@ -3589,7 +3596,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:399
 msgid "`Learn more about Icinga on our landing page`_."
-msgstr "`Erfahren Sie auf unserer Landing-Page für Icinga mehr`_."
+msgstr "`Erfahren Sie mehr auf unserer Incinga-Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:410
 msgid "Issue-tracking system"
@@ -3686,7 +3693,7 @@ msgstr "**🤓 Das trifft nicht auf SaaS Zammad-Instanzen zu.**"
 
 #: ../basics/zammad-glossary.rst:447
 msgid "`Learn more about Kibana on our landing page`_."
-msgstr "`Auf unserer Landing Page zu Kibana können Sie mehr erfahren`_."
+msgstr "`Erfahren Sie mehr über Kibana auf unserer Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:453
 msgid "L"
@@ -3702,10 +3709,15 @@ msgid ""
 "about your users within Zammad. Authentication of users against the LDAP and "
 "LDAP role mapping to Zammad roles are also possible."
 msgstr ""
+"Ein LDAP-Server (Lightweight Directory Access Protocol) stellt zusätzliche "
+"Informationen über Ihre Benutzer in Zammad zur Verfügung. Eine "
+"Authentifizierung gegen den LDAP und die Zuordnung von LDAP-Rollen zu Zammad-"
+"Rollen ist ebenfalls möglich."
 
 #: ../basics/zammad-glossary.rst:460
 msgid "`Learn more about LDAP integration in the admin documentation`_."
 msgstr ""
+"`Erfahren Sie mehr über die LDAP-Integration in der Admin-Dokumentation`_."
 
 #: ../basics/zammad-glossary.rst:466
 msgid "M"
@@ -3783,7 +3795,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:498
 msgid "`Learn more about Monit on our landing page`_."
-msgstr "`Auf unserer Landing Page können Sie mehr zu Monit erfahren`_."
+msgstr "`Erfahren Sie mehr über Monit auf unserer Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:508
 msgid "Mentions"
@@ -3819,10 +3831,13 @@ msgid ""
 "Nagios can be integrated with Zammad so that a ticket is created in case of "
 "an alert."
 msgstr ""
+"Nagios ist ein weiteres Monitoring-Programm das IT-Teams benachrichtigt, "
+"wenn z.B. ein Server nicht erreichbar ist, oder eine Festplatte droht voll "
+"zu laufen. Die Integration erstellt in solchen Fällen Tickets in Zammad."
 
 #: ../basics/zammad-glossary.rst:519
 msgid "`Learn more about Nagios on our landing page`_."
-msgstr ""
+msgstr "`Erfahren Sie mehr über Nagios auf unserer Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:525
 msgid "O"
@@ -3836,12 +3851,19 @@ msgid ""
 "handover note on the ticket so that the new owner knows what is expected of "
 "them."
 msgstr ""
+"Der Besitzer eines Tickets ist verantwortlich für die bestmögliche "
+"Abarbeitung eines Tickets. Natürlich kann der Besitz auf einen anderen "
+"Agenten übertragen werden. In diesem Fall wird empfohlen, eine Übergabenotiz "
+"im Ticket zu verfassen, sodass man als neuer Besitzer weis, was als nächstes "
+"erwartet wird."
 
 #: ../basics/zammad-glossary.rst:534
 msgid ""
 "Learn more about ticket owners on this page: :doc:`/basics/service-ticket/"
 "settings`"
 msgstr ""
+"Erfahren Sie mehr über Ticket-Besitzer auf dieser Seite: :doc:`/basics/"
+"service-ticket/settings`"
 
 #: ../basics/zammad-glossary.rst:541 ../extras/customers.rst:0
 msgid "Organization"
@@ -3854,6 +3876,10 @@ msgid ""
 "organization is \"sharing\" logs in to the customer interface, this user has "
 "access to all tickets of his organization."
 msgstr ""
+"Eine Organisation repräsentiert eine Gruppe von Kunden, die unter gleichem "
+"Dach arbeiten oder einer gemeinsamen Typisierung entsprechen. Falls sich ein "
+"Kunde, dessen Organisation auf \"Teilend\" gestellt ist, bei Zammad "
+"anmeldet, besteht Zugriff auf alle Tickets der Organisation."
 
 #: ../basics/zammad-glossary.rst:544
 msgid "P"
@@ -3861,7 +3887,7 @@ msgstr "P"
 
 #: ../basics/zammad-glossary.rst:553
 msgid "Parent/Child Relationship"
-msgstr ""
+msgstr "Eltern/Kind-Beziehung"
 
 #: ../basics/zammad-glossary.rst:547
 msgid ""
@@ -3870,12 +3896,18 @@ msgid ""
 "ticket and the tickets with related subtopics are children. By the way: in "
 "the same way, you can also merge two tickets into one."
 msgstr ""
+"Falls ein Ticket sich in verschiedene Unteraufgaben, Sachthemen oder "
+"Ansprechpartner entwickelt, kann es in Untertickets aufgeteilt werden. Das "
+"Hauptticket wird dann \"Eltern\" genannt und die resultierenden Untertickets "
+"\"Kinder\"."
 
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Learn more about this function on this page: :doc:`/advanced/ticket-actions/"
 "link`."
 msgstr ""
+"Erfahren Sie mehr über diese Funktion auf dieser Seite: :doc:`/advanced/"
+"ticket-actions/link`."
 
 #: ../basics/zammad-glossary.rst:568
 msgid "Placetel"
@@ -3888,6 +3920,10 @@ msgid ""
 "mobile or landline while still having all communication in one place (aka "
 "Zammad)."
 msgstr ""
+"Placetel ist eine Cloud-Telefonanlage, die Nutzern erlaubt Telefonanrufe via "
+"VoIP zu tätigen. Nutzen Sie Ihre reguläre Telefonnummer und rufen Sie "
+"jemanden direkt auf Festnetz- oder Mobilfunknummern an und haben Sie "
+"trotzdem alle Kommunikation an einem Ort (a.k.a. Zammad)."
 
 #: ../basics/zammad-glossary.rst:561
 msgid ""
@@ -3896,18 +3932,27 @@ msgid ""
 "identified directly by their caller ID - a key function that saves agents a "
 "lot of time when assigning callers."
 msgstr ""
+"Die Integration eines Placetel-Accounts in Zammad stellt Benutzern eine "
+"Anruf-Historie zur Verfügung, welche den Verlauf ihrer Korrespondenz noch "
+"genauer macht. Anrufer werden direkt über ihre Nummer identifiziert - eine "
+"Schlüsselfunktion die Agenten viel Zeit beim zuweisen von Anrufern spart."
 
 #: ../basics/zammad-glossary.rst:566
 msgid ""
 "Administrators can learn more on the `placetel CTI` integration page. Agents "
 "can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
+"Administratoren erfahren mehr auf der `placetel CTI`-Integrationsseite. "
+"Agenten erfahren mehr über diese Funktion auf dieser Seite: :doc:`/extras/"
+"caller-log`"
 
 #: ../basics/zammad-glossary.rst:571
 msgid ""
 "Every ticket gets assigned a priority. By default, the priority is 2 "
 "(normal). But it can be changed to either 1 (low) or 3 (high)."
 msgstr ""
+"Jedes Ticket erhält eine Priorität zugewiesen. Die Standardpriorität ist \"2 "
+"(normal)\". Sie kann auf \"1 (niedrig)\" oder \"3 (hoch)\" geändert werden."
 
 #: ../basics/zammad-glossary.rst:576
 msgid "Q"
@@ -3991,14 +4036,18 @@ msgid ""
 "just one login. There are various providers that make this process easy and "
 "secure. Zammad currently supports SSO via SAML and Shibboleth."
 msgstr ""
+"Single-sign-on (SSO) erlaubt Zugriff auf alle Ihre Systeme und Geräte mit "
+"nur einem Login. Es gibt verschiedene Anbieter die diesen Prozess einfach "
+"und sicher machen. Zammad unterstützt aktuell SSO mittels SAML und "
+"Shibboleth."
 
 #: ../basics/zammad-glossary.rst:614
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
-msgstr ""
+msgstr "🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
 
 #: ../basics/zammad-glossary.rst:616
 msgid "`You can learn more about SSO on our landing page`_."
-msgstr ""
+msgstr "`Sie können mehr über SSO auf unserer Funktionsseite erfahren`_."
 
 #: ../basics/zammad-glossary.rst:628
 msgid "S/MIME"
@@ -4020,24 +4069,36 @@ msgid ""
 "you're an agent you can learn more about the functionality on this page: :"
 "doc:`/extras/secure-email`."
 msgstr ""
+"`Administratoren können mehr über S/MIME in der Admin-Dokumentation erfahren`"
+"_, Agenten finden weitere Informationen über diese Funktionalität auf "
+"folgender Seite: :doc:`/extras/secure-email`."
 
 #: ../basics/zammad-glossary.rst:641
 msgid "Sipgate"
 msgstr "Sipgate"
 
 #: ../basics/zammad-glossary.rst:634
+#, fuzzy
 msgid ""
 "Sipgate is a SaaS solution for internet telephony. The Zammad integration "
 "for Sipgate provides users with a detailed call overview. If you have a "
 "customer that wants to get connected to a certain agent, the caller log will "
 "tell you if this colleague is currently available."
 msgstr ""
+"Sipgate ist eine SaaS-Lösung für Internettelefonie. Die Zammadintegration "
+"für Sipgate stellt Benutzern eine detaillierte Anrufübersicht zur Verfügung. "
+"Falls Sie einen Kunden haben, der zu einem speziellen Agenten verbunden "
+"werden möchte, zeigt die Anrufübersicht an, ob der Kollege aktuell verfügbar "
+"ist."
 
 #: ../basics/zammad-glossary.rst:639
 msgid ""
 "Administrators can learn more on the `sipgate CTI` integration page. Agents "
 "can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
+"Administratoren erfahren mehr über die `Sipgate CTI`-Integrationsseite. "
+"Agenten erfahren mehr über diese Funktionalität auf der folgenden Seite: "
+":doc:`/extras/caller-log`"
 
 #: ../basics/zammad-glossary.rst:656
 msgid "SLA"
@@ -4050,6 +4111,11 @@ msgid ""
 "quality, availability, and punctuality. They are used to set expectations "
 "and hold companies accountable for keeping their promises."
 msgstr ""
+"Ein SLA (Service Level Agreement) ist ein Vertrag zwischen einem Endnutzer "
+"und einer Firma, der ein Mindestmaß an Serviceanforderungen bezüglich "
+"Qualität, Verfügbarkeit und Pünktlichkeit definiert. Sie werden verwendet um "
+"Erwartungen zu definieren und Firmen verantwortlich für die Einhaltung Ihrer "
+"Versprechen zu machen."
 
 #: ../basics/zammad-glossary.rst:652
 msgid ""
@@ -4057,10 +4123,13 @@ msgid ""
 "for the first response, an update, and a solution. Once the deadline has "
 "been reached, the ticket will escalate."
 msgstr ""
+"Sie können in Zammad einfach SLAs einrichten und Fristen definieren für "
+"Antworten, Updates und Lösungen. Sobald Fristen erreicht sind, werden "
+"Tickets eskalieren."
 
 #: ../basics/zammad-glossary.rst:656
 msgid "`Learn more about SLAs on our landing page`_."
-msgstr ""
+msgstr "`Erfahren Sie mehr über SLAs auf unserer Funktionsseite`_."
 
 #: ../basics/zammad-glossary.rst:666
 msgid "Status"
@@ -4097,12 +4166,18 @@ msgid ""
 "you just need to type ``::`` shortcut and the pre-defined paragraph will "
 "automatically appear in your article."
 msgstr ""
+"Falls Sie feststellen, dass Sie die gleichen Antworten oder Phrasen immer "
+"wieder verwenden, können Sie sich Ihr Leben vereinfachen, indem Sie "
+"Textbausteine erstellen. Damit müssen Sie lediglich ``::`` eintippen und die "
+"vorgeschriebenen Textabschnitte erscheinen automatisch in Ihrem Artikel."
 
 #: ../basics/zammad-glossary.rst:677
 msgid ""
 "For example, here at Zammad, we have a text module with the shortcut ``::"
 "ilff``, which turns into ``I look forward to your feedback``."
 msgstr ""
+"Zum Beispiel, wir bei Zammad, haben einen Textbaustein mit der Abkürzung "
+"``::üff``, welcher anwächst auf ``Über Feedback würde ich mich freuen``."
 
 #: ../basics/zammad-glossary.rst:680
 msgid ""
@@ -4123,10 +4198,15 @@ msgid ""
 "create a template for them. This is helpful for introductions to your "
 "product/service or for drawing up an offer. It's a real time-saver!"
 msgstr ""
+"Falls Sie viele ähnliche Tickets oder ähnliche Texte schreiben, können Sie "
+"eine Vorlage dafür erstellen. Das ist hilfreich für Produkt-/ "
+"Servicebeschreibungen oder um ein Angebot zu skizzieren. Das ist "
+"Zeitersparnis!"
 
 #: ../basics/zammad-glossary.rst:692
 msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
 msgstr ""
+"Erfahren Sie mehr auf der folgenden Seite: :doc:`/advanced/ticket-templates`."
 
 #: ../basics/zammad-glossary.rst:695
 msgid ""
@@ -4136,12 +4216,20 @@ msgid ""
 "they refer to. But they could also be based on the type of request, e.g. "
 "refund, delivery issue, missing…"
 msgstr ""
+"Tags helfen beim Kategorisieren von Tickets. Sie können Sie nach "
+"Anwendungsfall definieren. Zum Beispiel, falls Sie einen Versandhandel "
+"betreiben, können die Tags auf ihren Produktkategorien basieren, um die "
+"Tickets anhand dieser zu organisieren. Oder sie vergeben Sie basierend auf "
+"dem Anfragetyp, z.B. Reklamation, Versandvorfall, Verlustmeldung…"
 
 #: ../basics/zammad-glossary.rst:702
 msgid ""
 "`Administrators can learn more about tags here`_. Agents can learn more "
 "about this function on this page: :doc:`/basics/service-ticket/settings/tags`"
 msgstr ""
+"`Administratoren erfahren mehr über Tags hier`_. Agenten erfahren mehr über "
+"diese Funktion auf der folgenden Seite: :doc:`/basics/service-ticket/"
+"settings/tags`"
 
 #: ../basics/zammad-glossary.rst:710
 msgid "U"
@@ -4158,6 +4246,10 @@ msgid ""
 "can have various roles, with the standard options being agent, admin, and "
 "customer."
 msgstr ""
+"Ein Benutzer ist jeder Nutzer des Ticketsystems. Jedem Benutzer werden "
+"bestimmten Rechte zugewiesen, welche Zugriff auf bestimmte Bereich und "
+"Informationen gewähren. Benutzer können verschiedene Rollen inne haben, mit "
+"den Standardoptionen Admin, Agent und Kunde."
 
 #: ../basics/zammad-glossary.rst:719
 msgid "V"
@@ -4178,10 +4270,14 @@ msgid ""
 "them to allow our users to inform a third-party system about new information "
 "in Zammad."
 msgstr ""
+"Zusammengefasst, Webhooks sind eine einfache Möglichkeit für Systeme um "
+"miteinander zu kommunizieren und erlaubt Daten in Echtzeit an andere "
+"Anwendungen zu übertragen. Wir nutzen sie um Nutzern zu ermöglichen, externe "
+"Anwendungen mit neuen Informationen aus Zammad zu füttern."
 
 #: ../basics/zammad-glossary.rst:732
 msgid "`Learn more about webhooks on this page`_."
-msgstr ""
+msgstr "`Erfahren Sie mehr über Webhooks auf der folgenden Seite`_."
 
 #: ../basics/zammad-glossary.rst:739
 msgid "X"
@@ -4253,6 +4349,9 @@ msgid ""
 "administrator configured \"Phone Extension to Agent Mapping\", Zammad will "
 "also help you during answering calls."
 msgstr ""
+"Das Anrufprotokoll bietet weit mehr als die Einträge der letzten Anrufe. "
+"Falls Ihr Administrator \"Telefon-Extension zu Agent Zuordnung\" "
+"konfiguriert hat, hilft Zammad auch während beim Entgegennehmen von Anrufen."
 
 #: ../extras/caller-log.rst:39 ../extras/shared-drafts.rst:61
 msgid "New Ticket dialogue"
@@ -4260,29 +4359,34 @@ msgstr "Neues Ticket-Dialog"
 
 #: ../extras/caller-log.rst:32
 msgid "Zammad will open a new ticket dialogue if:"
-msgstr ""
+msgstr "Zammad öffnet einen neuen Ticket-Dialog falls:"
 
 #: ../extras/caller-log.rst:34
 msgid "it's able to either guess a single user (see `maybe entries`_)"
 msgstr ""
+"es in der Lage ist einen einzelnen Benutzer zu erraten (siehe `maybe "
+"entries`_)"
 
 #: ../extras/caller-log.rst:35
 msgid "the callers number belongs to a user known to Zammad"
 msgstr ""
+"die Nummer des Anrufers zu einem Benutzer gehört, der in Zammad bekannt ist"
 
 #: ../extras/caller-log.rst:36
 msgid "the callers number is yet unknown"
-msgstr ""
+msgstr "die Nummer des Anrufern noch unbekannt ist"
 
 #: ../extras/caller-log.rst:38
 msgid ""
 "If the user is known to Zammad it will automatically set the ticket customer "
 "for you. You can correct this at any time if needed."
 msgstr ""
+"Falls der Benutzer Zammad bekannt ist, wird er automatisch für Sie als "
+"Ticketkunde gesetzt. Sie können das jederzeit korrigieren."
 
 #: ../extras/caller-log.rst:45
 msgid "User profile"
-msgstr ""
+msgstr "Benutzerprofil"
 
 #: ../extras/caller-log.rst:42
 msgid ""
@@ -4291,6 +4395,10 @@ msgid ""
 "users that Zammad guesses are a specific user (only if it's one guessed "
 "user)."
 msgstr ""
+"Zammad öffnet das Benutzerprofil falls der Benutzer ein Kundenticket hat, "
+"das in den letzten 30 Tagen aktualisiert wurde. Das gilt auch für Anrufer "
+"bei denen Zammad erraten hat, welcher Benutzer das sein könnte ("
+"ausschließlich, falls das eindeutig geschieht)."
 
 #: ../extras/caller-log.rst:54
 msgid "Quick dial"
@@ -4301,16 +4409,20 @@ msgid ""
 "You can click on phone numbers (user profiles and caller log) to dial the "
 "number in question quickly."
 msgstr ""
+"Sie können auf Telefonnummern klicken (Benutzerprofile und Anrufprotokoll) "
+"um die betreffende Nummer schnell zu wählen."
 
 #: ../extras/caller-log.rst:53
 msgid ""
 "This requires either a soft phone client or CTI client on your computer that "
 "supports this action."
 msgstr ""
+"Das erfordert entweder ein Softwaretelefon oder eine CTI-App auf Ihrem "
+"Computer, die diese Aktion unterstützt."
 
 #: ../extras/caller-log.rst:58
 msgid "**😕 What are these \"maybe\" entries?**"
-msgstr ""
+msgstr "**😕 Was bedeuten diese \"vielleicht\" Einträge?**"
 
 #: ../extras/caller-log.rst:60
 msgid ""
@@ -4318,37 +4430,44 @@ msgid ""
 "customers. Usually business users send their phone numbers in their "
 "signature."
 msgstr ""
+"In Ihrer alltäglichen Kommunikation tauchen immer wieder neue Kunden auf. "
+"Üblicherweise haben Firmenkunden ihre Telefonnummer in der E-Mail-Signatur."
 
 #: ../extras/caller-log.rst:63
 msgid ""
 "Zammad collects and aggregates these information and tries to guess the "
 "customer in case it receives a call from an unknown number."
 msgstr ""
+"Zammad sammelt und akkreditiert diese Informationen und versucht darauf "
+"basierend den Kunden zu erraten falls Sie einen Anruf von einer unbekannten "
+"Nummer erhalten."
 
 #: ../extras/caller-log.rst:0
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
+"Bildschirmaufnahmen zeigen ein Anrufprotokoll mit Einträgen, die als "
+"\"vielleicht:\" klassifiziert sind"
 
 #: ../extras/caller-log.rst:71
-#, fuzzy
 msgid ""
 "👤 Click on unrecognized numbers to **create a new customer** or maybe "
 "entries to **update an existing customer**."
 msgstr ""
-"👤 Klicken Sie auf nicht erfasste Nummern im Anrufer-Protokoll, um **einen "
-"neuen Kunden und ein neues Ticket anzulegen**. (Nicht erfasste "
-"Telefonnummern können auf diese Weise nicht zu bestehenden Kunden "
-"hinzugefügt werden.)"
+"👤 Klicken Sie auf unbekannte Nummern um einen **neuen Kunden anzulegen** "
+"oder auf \"vielleicht\"Einträge um einen **vorhanden Kunden zu "
+"aktualisieren**."
 
 #: ../extras/caller-log.rst:74
 msgid ""
 "(Unrecognized phone numbers cannot be added to existing customers in this "
 "way. Copy and pasting is required.)"
 msgstr ""
+"(Unbekannte Nummern können auf diesem Weg nicht zu bestehenden Kunden "
+"hinzugefügt werden. Bitte nutzen Sie Kopieren & Einfügen dafür.)"
 
 #: ../extras/caller-log.rst:79
 msgid "Existing caller log entries *are not* updated."
-msgstr ""
+msgstr "Existierende Anrufprotokolle werden *nicht* aktualisiert."
 
 #: ../extras/chat.rst:2
 msgid "Live Chat"
@@ -4662,9 +4781,8 @@ msgid "Legend"
 msgstr "Legende"
 
 #: ../extras/dashboard.rst:18
-#, fuzzy
 msgid "**1. ∅ Waiting Time Today**"
-msgstr "**1. Wartezeit heute**"
+msgstr "**1. Durchschnittliche Wartezeit heute**"
 
 #: ../extras/dashboard.rst:19 ../extras/dashboard.rst:17
 msgid ""
@@ -4711,9 +4829,8 @@ msgstr ""
 "zugeordnet?"
 
 #: ../extras/dashboard.rst:30
-#, fuzzy
 msgid "**5. My Tickets in Process**"
-msgstr "**5. Ihre Tickets in Bearbeitung**"
+msgstr "**5. Meine Tickets in Bearbeitung**"
 
 #: ../extras/dashboard.rst:31 ../extras/dashboard.rst:33
 msgid ""
@@ -5031,7 +5148,7 @@ msgstr ""
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
-msgstr ""
+msgstr "**☠️ Das Überschreiben von Vorlagen ist endgültig**"
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
 msgid ""
@@ -5039,6 +5156,8 @@ msgid ""
 "This also applies to your personal draft in case you're loading a shared "
 "draft."
 msgstr ""
+"Zammad warnt Sie, falls Sie eine Vorlage überschreiben möchten. Das gilt "
+"auch für persönliche Vorlage, falls Sie eine geteilte Vorlage laden."
 
 #: ../extras/knowledge-base.rst:4
 msgid ""
@@ -5195,7 +5314,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:100
 msgid "Granular Category Permissions"
-msgstr ""
+msgstr "Differenzierte Kategorieberechtigungen"
 
 #: ../extras/knowledge-base.rst:102
 msgid ""
@@ -5204,40 +5323,50 @@ msgid ""
 "default visibility behavior and applies the permissions you've chosen "
 "instead."
 msgstr ""
+"Differenzierte Kategorieberechtigungen sind großartig um Zugriffsrechte "
+"basierend auf Rollen zu definieren. Differenzierte Kategorieberechtigungen "
+"deaktivieren die Standardsichtbarkeit und ersetzt sie stattdessen durch die "
+"gewählten Rechte."
 
 #: ../extras/knowledge-base.rst:107
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
 msgstr ""
+"Das erlaubt Ihnen beispielsweise Benutzergruppen nach Vertragstyp zu trennen "
+"um die Informationsflut auf das Relevante zu beschränken."
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
 "Screencast showing the visibility option for categories for granular access "
 "permissions"
 msgstr ""
+"Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
+"für differenzierte Kategorieberechtigungen"
 
 #: ../extras/knowledge-base.rst:0
 msgid "Permissions of a parent category are inherited!"
-msgstr ""
+msgstr "Zugriffsrechte für Eltern-Kategorien werden vererbt!"
 
 #: ../extras/knowledge-base.rst:0
 msgid "Public answers are always available!"
-msgstr ""
+msgstr "Öffentliche Antworten sind immer verfügbar!"
 
 #: ../extras/knowledge-base.rst:119
 msgid "**⚙️ Roles require knowledge base reader permission**"
-msgstr ""
+msgstr "**⚙️ Rollen erfordern Wissensdatenbank-Reader-Rechte**"
 
 #: ../extras/knowledge-base.rst:121
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
 msgstr ""
+"Ihr Administrator muss die relevanten Gruppen mit Reader-Rechten für die "
+"Wissensdatenbank versehen."
 
 #: ../extras/knowledge-base.rst:124
 msgid "**🥵 Beware of visibility levels**"
-msgstr ""
+msgstr "**🥵 Beachten Sie Sichtbarkeitsebenen**"
 
 #: ../extras/knowledge-base.rst:126
 msgid ""
@@ -5245,12 +5374,16 @@ msgid ""
 "**internal answers**. This is a potential issue if you're not dividing "
 "carefully!"
 msgstr ""
+"Wissensdatenbank-Reader-Rechte ermöglichen Zugriff auf **interne Antworten**"
+". Das ist ein mögliches Risiko falls Sie nicht umsichtig aufteilen!"
 
 #: ../extras/knowledge-base.rst:130
 msgid ""
 "If you're unsure, please ask your administrator to configure the `role "
 "permissions`_ accordingly."
 msgstr ""
+"Falls Sie unsicher sind, bitten Sie Ihren Administrator die `role "
+"permissions`_ entsprechend zu konfigurieren."
 
 #: ../extras/knowledge-base.rst:137 ../extras/knowledge-base.rst:95
 msgid "Editing Answers"
@@ -5397,6 +5530,8 @@ msgstr "Das Laden von Antworten in Artikel *ersetzt nicht* den Artikel-Inhalt."
 #: ../extras/knowledge-base.rst:214 ../extras/knowledge-base.rst:172
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
+"Bildschirmaufzeichnung zeigt wie man Wissensdatenbankantworten in Artikeln "
+"einfügt"
 
 #: ../extras/knowledge-base.rst:214 ../extras/knowledge-base.rst:172
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
@@ -5427,7 +5562,7 @@ msgstr ""
 
 #: ../extras/organizations.rst:18 ../extras/organizations.rst:49
 msgid "Ticket pane (organization view)"
-msgstr ""
+msgstr "Ticketspalte (Organisationsansicht)"
 
 #: ../extras/organizations.rst:18
 msgid "Click the 👪 tab in the ticket pane to see the organization’s profile."
@@ -5690,6 +5825,7 @@ msgstr "Zammad unterstützt S/MIME für besonders sichere E-Mail Kommunikation."
 #: ../extras/secure-email.rst:11 ../extras/secure-email.rst:89
 msgid "Screencast demo of S/MIME features for both new tickets and replies"
 msgstr ""
+"Bildschirmaufzeichnung von S/MIME-Funktionen für neue Tickets und Antworten"
 
 #: ../extras/secure-email.rst:11 ../extras/secure-email.rst:79
 msgid ""
@@ -5795,7 +5931,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:55
 msgid "Screencast showing on how to verify used certificates"
-msgstr ""
+msgstr "Bildschirmaufnahme zeigt wie man genutzte Zertifikate verifiziert"
 
 #: ../extras/secure-email.rst:55
 msgid ""
@@ -6037,13 +6173,16 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:2
 msgid "Shared Drafts"
-msgstr ""
+msgstr "Geteilte Vorlagen"
 
 #: ../extras/shared-drafts.rst:4
 msgid ""
 "Share drafts for new or existing tickets with other agents of your group. "
 "Load, modify and safe an existing draft e.g. as QA process with colleagues."
 msgstr ""
+"Teile Vorlagen für neue oder bestehende Tickets mit weiteren Agenten aus "
+"deiner Gruppe. Lade, bearbeite und speichere eine existierende Vorlage z.B. "
+"für eine Qualitätsprüfung durch einen Kollegen."
 
 #: ../extras/shared-drafts.rst:12
 msgid ""
