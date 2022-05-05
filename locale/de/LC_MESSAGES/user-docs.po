@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-14 11:43+0100\n"
-"PO-Revision-Date: 2022-04-16 15:56+0000\n"
-"Last-Translator: Ben Biber <ben.david.wallner@gmail.com>\n"
+"PO-Revision-Date: 2022-04-30 13:24+0000\n"
+"Last-Translator: Gerrit <github@gmail.arghs.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -6184,118 +6184,138 @@ msgid ""
 "Screenshot showing the sub menu of the Update button with macros and an\n"
 "option to save the draft"
 msgstr ""
+"Bildschirmaufnahme zeigt das Untermenü des Aktualisieren-Knopfs mit Makros "
+"und einer\n"
+"Möglichkeit den Entwurf zu speichern"
 
 #: ../extras/shared-drafts.rst:12
 msgid ""
 "By using ᐱ next to the \"Update\" button Zammad will provide you with an "
 "option to save your draft (and thus share it) if the option is enabled."
 msgstr ""
+"Mit ᐱ neben dem \"Aktualisieren\"-Knopf bietet Zammad eine Möglichkeit den "
+"Entwurf zu speichern (und dann zu teilen), falls die Einstellung aktiviert "
+"ist."
 
 #: ../extras/shared-drafts.rst:15
-#, fuzzy
 msgid "**🤔 Huh? I don’t see “Share Draft” option...**"
-msgstr "**🤔 Huch? Ich sehe keine “Bearbeiten” Schaltfläche...**"
+msgstr "**🤔 Huch? Ich sehe keine “Entwurf teilen” Schaltfläche...**"
 
 #: ../extras/shared-drafts.rst:17
-#, fuzzy
 msgid ""
 "This feature is **optional**; if you don’t see it in the menu, that means "
 "your administrator disabled this function. Administrators can learn more in "
 "our `admin documentation`_."
 msgstr ""
 "Diese Funktion ist **optional**. Wenn Sie diese in der Navigation nicht "
-"sehen können, bedeutet das, dass Ihr Administrator diese noch nicht "
-"aktiviert hat. Administratoren können `hier <https://admin-docs.zammad.org/"
-"en/latest/channels-chat.html>`_ mehr erfahren."
+"sehen können, bedeutet das, dass Ihr Administrator diese deaktiviert hat. "
+"Administratoren erfahren mehr in unserer `admin documentation`_."
 
 #: ../extras/shared-drafts.rst:24
 msgid "**🤓 Let's be clear up front**"
-msgstr ""
+msgstr "**🤓 Vorab sei erwähnt**"
 
 #: ../extras/shared-drafts.rst:26
 msgid "Zammad technically has two draft functions:"
-msgstr ""
+msgstr "Zammad hat technisch zwei Entwurfs-Funktionen:"
 
 #: ../extras/shared-drafts.rst:28
 msgid "shared draft (allow others to load the draft), and"
-msgstr ""
+msgstr "Geteilte Entwürfe (erlaubt anderen einen Entwurf zu laden), und"
 
 #: ../extras/shared-drafts.rst:29
 msgid "user drafts."
-msgstr ""
+msgstr "Benutzerentwürfe."
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
 "Every time you change a tickets field, Zammad will safe this in your "
 "personal draft. You then can share this as a shared draft if you want to."
 msgstr ""
+"Jedesmal, wenn Sie ein Ticketfeld ändern, speichern Zammad in Ihrem "
+"persönlichen Entwurf. Sie können Diesen als \"Geteilten Entwurf\" teilen, "
+"falls Sie möchten."
 
 #: ../extras/shared-drafts.rst:0
 msgid "User drafts are *always* available!"
-msgstr ""
+msgstr "Benutzerentwürfe sind *immer* verfügbar!"
 
 #: ../extras/shared-drafts.rst:36
 msgid "Handling drafts"
-msgstr ""
+msgstr "Entwürfe nutzen"
 
 #: ../extras/shared-drafts.rst:40
 msgid ""
 "Shared draft handling is the same for existing tickets and new tickets. 🙏"
 msgstr ""
+"Geteilte Entwürfe zu nutzen funktioniert identisch bei vorhandenen Tickets "
+"und neuen Tickets. 🙏"
 
 #: ../extras/shared-drafts.rst:81
 msgid "Load a draft"
-msgstr ""
+msgstr "Einen Entwurf laden"
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
 msgid ""
 "Screencast showing how to open the shared draft load dialogue within\n"
 "the ticket zoom"
 msgstr ""
-"Screencast zeigt, wie Makros innerhalb der Ticket-Ansicht ausgeführt werden "
-"kann."
+"Bildschirmaufnahme zeigt wie der Dialog für geteilte Entwürfe in\n"
+"der Ticketansicht geöffnet werden kann"
 
 #: ../extras/shared-drafts.rst:47
 msgid "Loading a draft works the same starting from draft previews."
-msgstr ""
+msgstr "Einen Entwurf zu laden funktioniert genauso bei der Entwurfsvorschau."
 
 #: ../extras/shared-drafts.rst:52
 msgid ""
 "If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 "
 "button will indicate the shared drafts function to be available."
 msgstr ""
+"Falls Sie in einem Dialog für neue Tickets sind, nachdem Sie die "
+"Ticketgruppe ausgewählt haben, der 📝-Knopf zeigt, dass die Funktion für "
+"Geteilte Entwürfe verfügbar ist."
 
 #: ../extras/shared-drafts.rst:57
 msgid "The shared drafts tab is *always* hidden if no group is selected!"
 msgstr ""
+"Der Reiter für Geteilte Entwürfe ist *immer* verborgen, falls keine Gruppe "
+"ausgewählt ist!"
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
 "Screenshot highlighting the shared draft pane for new\n"
 "ticket dialogues"
 msgstr ""
+"Bildschirmaufnahme zeigt den Geteilten Entwurf-Bereich im Dialog\n"
+"für neue Tickets"
 
 #: ../extras/shared-drafts.rst:71
-#, fuzzy
 msgid "Existing tickets (Ticket zoom)"
-msgstr "Vorhandene Tickets"
+msgstr "Vorhandene Tickets (Ticketansicht)"
 
 #: ../extras/shared-drafts.rst:64
 msgid ""
 "Within ticket zooms a button \"📝 Draft available\" will be shown if a draft "
 "has been shared by either you or another agent on the ticket."
 msgstr ""
+"Innerhalb der Ticketansicht wird ein Knopf \"📝 Entwurf verfügbar\" "
+"angezeigt, falls ein Entwurf von Ihnen oder anderen Agenten für dieses "
+"Ticket geteilt wurde."
 
 #: ../extras/shared-drafts.rst:67
 msgid "Hovering over the button will tell you who has changed the draft last."
 msgstr ""
+"Wenn Sie den Mauszeiger über dem Knopf belassen wird angezeigt, wer den "
+"Entwurf zuletzt verändert hat."
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
 "Screenshot highlighting the Draft available button within\n"
 "Ticket zoom"
 msgstr ""
+"Bildschirmaufnahme zeigt den \"Entwurf verfügbar\"-Knopf in der\n"
+"Ticketansicht"
 
 #: ../extras/shared-drafts.rst:75
 msgid ""
