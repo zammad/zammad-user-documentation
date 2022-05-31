@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-14 11:43+0100\n"
+"POT-Creation-Date: 2022-05-31 15:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1539,19 +1539,40 @@ msgstr ""
 msgid "“Internal” messages are outlined with a salmon border, and **can only be viewed by other agents**."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:105
+#: ../basics/service-ticket/follow-up.rst:102
+msgid "🔥 Keeping an eye on escalations"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:104
+msgid "**🧐 Huh? I can't see escalation timestamps!**"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:106
+msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more `about SLAs in our admin documentation`_."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:112
+msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:None
+msgid "Screencast showing agent hovering the escalation time and receiving\n"
+"a more detailed escalation information"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:124
 msgid "**🙅 I’m working here!**"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:107
+#: ../basics/service-ticket/follow-up.rst:126
 msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:116
+#: ../basics/service-ticket/follow-up.rst:135
 msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the lower-lefthand corner for every agent that has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:121
+#: ../basics/service-ticket/follow-up.rst:140
 msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
 msgstr ""
 
@@ -1559,7 +1580,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:128
+#: ../basics/service-ticket/follow-up.rst:147
 msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
 
