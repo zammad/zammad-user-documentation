@@ -44,6 +44,11 @@ but here are a couple that might confuse you:
    Customers may (optionally) belong to **organizations** –
    :doc:`skip ahead <organizations>` to learn more.
 
+:Secondary Organizations:
+
+   Unlike organizations, you can add several organizations here that are not
+   as highlighted. Still, the same behavior applies.
+
 :VIP:
 
    Like :doc:`ticket priority </basics/service-ticket/settings/priority>`,
