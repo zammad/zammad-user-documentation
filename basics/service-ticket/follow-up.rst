@@ -98,6 +98,34 @@ There are three types of follow-ups:
 
 .. include:: /snippets/ui-protip-message-editor-features.rst
 
+Using quotation
+---------------
+
+In many cases you'll want to quote earlier text of your customer. This is
+important because especially on long conversations your opponent will easily
+loose track.
+
+Referencing on earlier written text helps greatly to keep context and track
+of things. By default Zammad adds no whole quote body (this can be changed
+by your administrator).
+
+No matter if the whole quotation is active or not, you can always mark the text
+you want to reference and press *reply* or *reply all* after. This will cause
+Zammad to add the marked text as quote to the editor. You can break up
+quotations by using enter.
+
+.. note::
+
+   This function is limited to one article per operation.
+   The article has to be of type *communication* (thus have a *reply* button)
+   to function.
+
+.. figure:: /images/basics/service-ticket/mark-to-quote.gif
+   :align: center
+   :alt: Screencast showing text being marked and quoted after pressing reply
+
+   Mark, press reply and work with quoted text!
+
 ----
 
 .. _caution-im-working-here:
