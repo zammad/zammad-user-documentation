@@ -37,7 +37,7 @@ Highlighting Ticket Text
 ------------------------
 
 Use the highlighter tool in the upper-righthand corner to mark up important
-text. (Your highlights are **not** visible to other agents.)
+text. (Your highlights are visible to other agents.)
 
 .. figure:: /images/basics/service-ticket/settings-highlight-text.png
    :alt: Ticket highlighter
