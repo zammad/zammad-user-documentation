@@ -103,7 +103,7 @@ New ticket
       title and article as desired. Make sure to select a group that supports
       shared drafts.
 
-      If you're ready to save the draft, click on 📝 on the left ticket pane,
+      If you're ready to save the draft, click on 📝 on the right ticket pane,
       enter a meaning full name and click on the "Create" button.
 
       .. figure:: /images/extras/shared-drafts/saving-current-new-ticket-dialogue-as-shared-draft.gif
