@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-09 13:17+0200\n"
-"PO-Revision-Date: 2022-05-31 13:55+0000\n"
+"PO-Revision-Date: 2022-06-09 14:14+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
@@ -2181,7 +2181,7 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:102
 msgid "Using quotation"
-msgstr ""
+msgstr "Zitieren"
 
 #: ../basics/service-ticket/follow-up.rst:104
 msgid ""
@@ -2189,6 +2189,9 @@ msgid ""
 "important because especially on long conversations your opponent will easily "
 "loose track."
 msgstr ""
+"In vielen Fällen wollen Sie vorhergehenden Text Ihres Kunden zitieren. Das "
+"ist deshalb wichtig, weil besonders bei langen Konversationen das Gegenüber "
+"den Überblick verlieren kann."
 
 #: ../basics/service-ticket/follow-up.rst:108
 msgid ""
@@ -2196,6 +2199,9 @@ msgid ""
 "of things. By default Zammad adds no whole quote body (this can be changed "
 "by your administrator)."
 msgstr ""
+"Das Referenzieren von vorherig geschriebenen Text hilft es den Kontext und "
+"Überblick zu wahren. Standardmäßig fügt Zammad nicht ein volles Zitat des "
+"vorherigen Artikels hinzu (das kann von Ihrem Administrator geändert werden)."
 
 #: ../basics/service-ticket/follow-up.rst:112
 msgid ""
@@ -2204,45 +2210,47 @@ msgid ""
 "cause Zammad to add the marked text as quote to the editor. You can break up "
 "quotations by using enter."
 msgstr ""
+"Unabhängig davon, ob das volle Zitieren aktiv ist oder nicht, können Sie "
+"immer den relevanten Text zum Referenzieren markieren und anschließend auf "
+"*antworten* oder *allen antworten* klicken. Zammad fügt daraufhin den "
+"markierten Text als Zitat dem Editor hinzu. Zitate können mit der Enter-"
+"Taste aufgebrochen werden."
 
 #: ../basics/service-ticket/follow-up.rst:119
 msgid ""
 "This function is limited to one article per operation. The article has to be "
 "of type *communication* (thus have a *reply* button) to function."
 msgstr ""
+"Diese Funktion ist auf einen Artikel pro Operation beschränkt. Der "
+"Artikeltyp muss dabei einer *Kommunikation* (und damit einen *antworten*-"
+"Button haben) entsprechen."
 
 #: ../basics/service-ticket/follow-up.rst:127
-#, fuzzy
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
-"Screencast zeigt, wie Makros innerhalb der Ticket-Ansicht ausgeführt werden "
-"kann."
+"Screencast der zeigt wie Text markiert wird und nach dem klicken auf "
+"antworten zitiert wird"
 
 #: ../basics/service-ticket/follow-up.rst:127
 msgid "Mark, press reply and work with quoted text!"
-msgstr ""
+msgstr "Markieren, auf antworten klicken und mit dem zitierten Text arbeiten!"
 
 #: ../basics/service-ticket/follow-up.rst:130
 msgid "🔥 Keeping an eye on escalations"
-msgstr ""
+msgstr "🔥 Eskalationen im Blick behalten"
 
 #: ../basics/service-ticket/follow-up.rst:132
 msgid "**🧐 Huh? I can't see escalation timestamps!**"
-msgstr ""
+msgstr "**🧐 Huch? Ich kann keine Eskalationszeiten sehen!**"
 
 #: ../basics/service-ticket/follow-up.rst:134
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don’t see it in the menu, that means "
-#| "your administrator disabled this function. Administrators can learn more "
-#| "in our `admin documentation`_."
 msgid ""
 "SLAs are optional and require configuration by your instance administrator. "
 "Administrators can learn more `about SLAs in our admin documentation`_."
 msgstr ""
-"Diese Funktion ist **optional**. Wenn Sie diese in der Navigation nicht "
-"sehen können, bedeutet das, dass Ihr Administrator diese deaktiviert hat. "
-"Administratoren erfahren mehr in unserer `admin documentation`_."
+"SLAs sind optional und erfordern die Konfiguration Ihres Instanz-"
+"Administrators. Administratoren können mehr über `SLAs in unserer Admin-"
+"Dokumentation`_ erfahren."
 
 #: ../basics/service-ticket/follow-up.rst:140
 msgid ""
@@ -2250,12 +2258,19 @@ msgid ""
 "two dates next to the ticket number. By hovering the escalation date, Zammad "
 "will display all upcoming escalation times based on the SLA configuration."
 msgstr ""
+"Sie finden zwei Zeitstempel neben der Ticketnummer oben an jedem Ticket, das "
+"von der SLA-Berechnung betroffen ist. Mit dem Halten Ihrer Maus über dem "
+"Eskalationszeitpunkt zeigt Zammad automatisch alle bevorstehenden "
+"Eskalationszeitpunkte, basierend auf der SLA-Konfiguration, an."
 
 #: ../basics/service-ticket/follow-up.rst:None
 msgid ""
 "Screencast showing agent hovering the escalation time and receiving\n"
 "a more detailed escalation information"
 msgstr ""
+"Screencast der zeigt, wie ein Agent die Maus über die Eskalationszeit hält "
+"und\n"
+"weitere Details zu Eskalationen erhält"
 
 #: ../basics/service-ticket/follow-up.rst:152
 msgid "**🙅 I’m working here!**"
@@ -2344,17 +2359,13 @@ msgid "Highlighting Ticket Text"
 msgstr "Hervorheben von Ticket-Texten"
 
 #: ../basics/service-ticket/settings.rst:39
-#, fuzzy
-#| msgid ""
-#| "Use the highlighter tool in the upper-righthand corner to mark up "
-#| "important text. (Your highlights are **not** visible to other agents.)"
 msgid ""
 "Use the highlighter tool in the upper-righthand corner to mark up important "
 "text. (Your highlights are visible to other agents.)"
 msgstr ""
 "Verwenden Sie das Textmarker-Symbol in der oberen rechten Ecke, um wichtige "
-"Textpassagen im Ticket zu markieren. (Ihre Markierungen sind **nicht** "
-"sichtbar für andere Agenten.)"
+"Textpassagen im Ticket zu markieren. (Ihre Markierungen sind für andere "
+"Agenten sichtbar.)"
 
 #: ../basics/service-ticket/settings.rst:46
 msgid "Ticket highlighter"
@@ -6350,16 +6361,20 @@ msgid ""
 "Loading a shared draft, (adjusting and) updating the ticket with an article "
 "will cause Zammad to *remove* the shared draft."
 msgstr ""
+"Das Laden eines geteilten Entwurfs, (anpassen und) aktualisieren des Tickets "
+"mit einem Artikel lässt Zammad den geteilten Entwurf *entfernen*."
 
 #: ../extras/shared-drafts.rst:80
 msgid ""
 "This also applies if you're sharing the draft before submitting! Zammad "
 "expects that the draft is no longer needed."
 msgstr ""
+"Das trifft auch auf das Teilen von Entwürfen vor dem Absenden zu! Zammad "
+"erwartet, dass der Entwurf nicht länger notwendig ist."
 
 #: ../extras/shared-drafts.rst:93
 msgid "Remove draft"
-msgstr ""
+msgstr "Entwurf entfernen"
 
 #: ../extras/shared-drafts.rst:84
 msgid ""
@@ -6367,30 +6382,33 @@ msgid ""
 "within the draft preview screen. Use the \"Delete\" link on the lower end of "
 "the dialogue."
 msgstr ""
+"Sie können jeden Entwurf (unabhängig ob für neue oder existierende Tickets) "
+"innerhalb der Entwurfs-Vorschau entfernen. Benutzen Sie den \"Löschen\"-Link "
+"am unteren Ende des Dialogs."
 
 #: ../extras/shared-drafts.rst:90
 msgid "This has no effect on local drafts agents may have loaded already."
 msgstr ""
+"Das hat keine Auswirkung auf lokale Entwürfe die Agenten möglicherweise "
+"bereits geladen haben."
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
 msgid "Screenshot highlighting the removal option in shared draft preview"
 msgstr ""
-"(Screenshot) Das Menü der i-doit Integration in den Ticket-Einstellungen"
+"Screenshot der die Entfernen-Option im der Vorschau von geteilten Entwürfen "
+"hervorhebt"
 
 #: ../extras/shared-drafts.rst:96
 msgid "Saving drafts"
-msgstr ""
+msgstr "Entwürfe speichern"
 
 #: ../extras/shared-drafts.rst:125
-#, fuzzy
 msgid "New ticket"
-msgstr "Neue Tickets"
+msgstr "Neues Ticket"
 
 #: ../extras/shared-drafts.rst:111
-#, fuzzy
 msgid "Adding new drafts"
-msgstr "Hinzufügen neuer Nachrichten/Notizen"
+msgstr "Hinzufügen neuer Entwürfe"
 
 #: ../extras/shared-drafts.rst:102
 msgid ""
@@ -6398,6 +6416,10 @@ msgid ""
 "and article as desired. Make sure to select a group that supports shared "
 "drafts."
 msgstr ""
+"Um einen neuen geteilten Entwurf zu speichern, setzen Sie die "
+"Ticketeinstellungen, den Kunden, Ticket-Titel und Artikel wie gewünscht. "
+"Stellen Sie sicher, dass die ausgewählte Gruppe die Nutzung von geteilten "
+"Entwürfen unterstützt."
 
 #: ../extras/shared-drafts.rst:106
 msgid ""
@@ -6406,17 +6428,16 @@ msgid ""
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
 msgid ""
 "Screencast showing how to save new ticket dialogues as a\n"
 "shared draft"
 msgstr ""
-"Screencast zeigt wie Issues aufgelistet und zu Tickets hinzugefügt werden "
-"können"
+"Screencast der zeigt, wie geteilte Entwürfe in neuen Ticket-Dialogen\n"
+"gespeichert werden können"
 
 #: ../extras/shared-drafts.rst:125
 msgid "Update existing drafts"
-msgstr ""
+msgstr "Existierende Entwürfe aktualisieren"
 
 #: ../extras/shared-drafts.rst:114
 msgid ""
@@ -6440,9 +6461,8 @@ msgstr ""
 "kann."
 
 #: ../extras/shared-drafts.rst:137
-#, fuzzy
 msgid "Existing ticket"
-msgstr "Vorhandene Tickets"
+msgstr "Vorhandenes Ticket"
 
 #: ../extras/shared-drafts.rst:128
 msgid ""
@@ -6463,11 +6483,9 @@ msgid ""
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
 msgid "Screencast showing how to save a shared draft within ticket zoom"
 msgstr ""
-"Screencast zeigt, wie Makros innerhalb der Ticket-Ansicht ausgeführt werden "
-"kann."
+"Screencast der zeigt, wie geteilte Entwürfe im Ticket-Zoom gespeichert werden"
 
 #: ../index.rst:4
 msgid "Basics"
