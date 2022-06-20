@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-14 11:43+0100\n"
+"POT-Creation-Date: 2022-06-09 16:15+0200\n"
 "PO-Revision-Date: 2022-04-16 15:56+0000\n"
 "Last-Translator: LAO <sumonchai@gmail.com>\n"
 "Language-Team: Thai <https://translations.zammad.org/projects/documentations/"
@@ -1782,11 +1782,78 @@ msgid ""
 "viewed by other agents**."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:105
+#: ../basics/service-ticket/follow-up.rst:102
+msgid "Using quotation"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:104
+msgid ""
+"In many cases you'll want to quote earlier text of your customer. This is "
+"important because especially on long conversations your opponent will easily "
+"loose track."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:108
+msgid ""
+"Referencing on earlier written text helps greatly to keep context and track "
+"of things. By default Zammad adds no whole quote body (this can be changed "
+"by your administrator)."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:112
+msgid ""
+"No matter if the whole quotation is active or not, you can always mark the "
+"text you want to reference and press *reply* or *reply all* after. This will "
+"cause Zammad to add the marked text as quote to the editor. You can break up "
+"quotations by using enter."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:119
+msgid ""
+"This function is limited to one article per operation. The article has to be "
+"of type *communication* (thus have a *reply* button) to function."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Screencast showing text being marked and quoted after pressing reply"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Mark, press reply and work with quoted text!"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:130
+msgid "🔥 Keeping an eye on escalations"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:132
+msgid "**🧐 Huh? I can't see escalation timestamps!**"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:134
+msgid ""
+"SLAs are optional and require configuration by your instance administrator. "
+"Administrators can learn more `about SLAs in our admin documentation`_."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:140
+msgid ""
+"On the top of every ticket being applicable for SLA escalations, you'll find "
+"two dates next to the ticket number. By hovering the escalation date, Zammad "
+"will display all upcoming escalation times based on the SLA configuration."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:None
+msgid ""
+"Screencast showing agent hovering the escalation time and receiving\n"
+"a more detailed escalation information"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:152
 msgid "**🙅 I’m working here!**"
 msgstr "**🙅 เจ้าหน้าที่ กำลังแก้ไข!**"
 
-#: ../basics/service-ticket/follow-up.rst:107
+#: ../basics/service-ticket/follow-up.rst:154
 msgid ""
 "Every once in a while, two agents may have the same ticket open at the same "
 "time. When this happens, things can get messy fast: customers may receive "
@@ -1794,14 +1861,14 @@ msgid ""
 "by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:116
+#: ../basics/service-ticket/follow-up.rst:163
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the lower-lefthand corner for every agent that "
 "has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:121
+#: ../basics/service-ticket/follow-up.rst:168
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
@@ -1811,7 +1878,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:128
+#: ../basics/service-ticket/follow-up.rst:175
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -1851,7 +1918,7 @@ msgstr ""
 #: ../basics/service-ticket/settings.rst:39
 msgid ""
 "Use the highlighter tool in the upper-righthand corner to mark up important "
-"text. (Your highlights are **not** visible to other agents.)"
+"text. (Your highlights are visible to other agents.)"
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:46
@@ -5062,8 +5129,8 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:106
 msgid ""
-"If you're ready to save the draft, click on 📝 on the left ticket pane, enter "
-"a meaning full name and click on the \"Create\" button."
+"If you're ready to save the draft, click on 📝 on the right ticket pane, "
+"enter a meaning full name and click on the \"Create\" button."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
