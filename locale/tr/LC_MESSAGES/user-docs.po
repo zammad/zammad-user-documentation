@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-14 11:43+0100\n"
+"POT-Creation-Date: 2022-06-09 16:15+0200\n"
 "PO-Revision-Date: 2022-04-16 15:57+0000\n"
 "Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -173,8 +173,8 @@ msgid ""
 "The simplest way to apply a macro is to select it from the **Update ᐱ** "
 "submenu in the Ticket View:"
 msgstr ""
-"Bir makroyu uygulamanın en basit yolu, onu Bilet Görünümündeki **Güncelle ᐱ**"
-" alt menüsünden seçmektir:"
+"Bir makroyu uygulamanın en basit yolu, onu Bilet Görünümündeki **Güncelle "
+"ᐱ** alt menüsünden seçmektir:"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
@@ -392,7 +392,8 @@ msgstr "örnek başlık"
 
 #: ../advanced/search.rst:1
 msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
-msgstr "title:\"örnek başlık\" |br|\\ title:Printer |br|\\ title: \"örnek ba*\""
+msgstr ""
+"title:\"örnek başlık\" |br|\\ title:Printer |br|\\ title: \"örnek ba*\""
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -464,8 +465,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -506,8 +507,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ "
-"articlebody:/joh?n(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -554,8 +555,8 @@ msgstr "İfadeyi ara"
 msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:feedback)"
 msgstr ""
-"state.name:(kapalı VEYA açık) VE (priority.name:\"2 normal\" VEYA "
-"tags:feedback)"
+"state.name:(kapalı VEYA açık) VE (priority.name:\"2 normal\" VEYA tags:"
+"feedback)"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -570,8 +571,8 @@ msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
 "feedback) AND !(*Zammad*)"
 msgstr ""
-"state.name:(kapalı VEYA açık) VE (priority.name:\"2 normal\" VEYA "
-"tags:feedback) VE !(*Zammad*)"
+"state.name:(kapalı VEYA açık) VE (priority.name:\"2 normal\" VEYA tags:"
+"feedback) VE !(*Zammad*)"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -758,8 +759,8 @@ msgid ""
 "respective “group” (department)."
 msgstr ""
 "Bir bilet gerçekten iki farklı sorunla ilgiliyse, :doc:`ikiye bölebilir </"
-"advanced/ticket-actions/split>`, ardından her bileti ilgili “grubuna” "
-"(departmana) atayabilirsiniz."
+"advanced/ticket-actions/split>`, ardından her bileti ilgili "
+"“grubuna” (departmana) atayabilirsiniz."
 
 #: ../advanced/suggested-workflows.rst:16
 msgid ""
@@ -898,8 +899,8 @@ msgid ""
 "⚙️ Check your :doc:`/extras/profile-and-settings` to customize how you "
 "receive notifications."
 msgstr ""
-"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-"
-"and-settings` sayfasına göz atın."
+"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-and-"
+"settings` sayfasına göz atın."
 
 #: ../advanced/suggested-workflows.rst:88
 msgid "😖 **A colleague @mentioned me, but I don’t see the ticket!**"
@@ -1219,8 +1220,8 @@ msgid ""
 "Text modules are updated immediately when a new group has been selected—no "
 "need to click **Update**."
 msgstr ""
-"Metin modülleri, yeni bir grup seçildiğinde hemen güncellenir —  **Güncelle**"
-"'ye tıklamanıza gerek yoktur."
+"Metin modülleri, yeni bir grup seçildiğinde hemen güncellenir —  "
+"**Güncelle**'ye tıklamanıza gerek yoktur."
 
 #: ../advanced/text-modules.rst:30
 msgid ""
@@ -1353,9 +1354,10 @@ msgid ""
 "Ticket B in the merge dialog (see below), then Ticket A will be emptied, "
 "closed, and :doc:`linked as a child <link>` of Ticket B."
 msgstr ""
-"Yani, 1) Bilet A'dan birleştirme iletişim kutusuna erişirseniz ve ardından 2)"
-" birleştirme iletişim kutusunda Bilet B'yi seçerseniz (aşağıya bakın), Bilet "
-"A boşaltılır, kapatılır ve Bilet B'ye :doc:`çocuk olarak bağlanır <link>`."
+"Yani, 1) Bilet A'dan birleştirme iletişim kutusuna erişirseniz ve ardından "
+"2) birleştirme iletişim kutusunda Bilet B'yi seçerseniz (aşağıya bakın), "
+"Bilet A boşaltılır, kapatılır ve Bilet B'ye :doc:`çocuk olarak bağlanır "
+"<link>`."
 
 #: ../advanced/ticket-actions/merge.rst:28
 msgid "Merge ticket dialog"
@@ -1389,8 +1391,8 @@ msgid ""
 "(Alternately, it may make more sense to :ref:`simply take turns on a single "
 "ticket <sharing-work>` instead.)"
 msgstr ""
-"Bu gibi durumlarda, **tek bir mesajı kendi biletine bölebilirsiniz**. ("
-"Alternatif olarak, bunun yerine :ref:`sadece sırayla tek bir bilet almak "
+"Bu gibi durumlarda, **tek bir mesajı kendi biletine bölebilirsiniz**. "
+"(Alternatif olarak, bunun yerine :ref:`sadece sırayla tek bir bilet almak "
 "<sharing-work>` daha mantıklı olabilir.)"
 
 #: ../advanced/ticket-actions/split.rst:16
@@ -1465,8 +1467,8 @@ msgid ""
 "“Select template” dropdown. Click it to apply your saved attributes to the "
 "new ticket."
 msgstr ""
-"Bir dahaki sefere bir bilet oluşturduğunuzda, yeni şablonunuzu \"Şablon "
-"seçin\" açılır menüsünde bulacaksınız. Kayıtlı özelliklerinizi yeni bilete "
+"Bir dahaki sefere bir bilet oluşturduğunuzda, yeni şablonunuzu \"Şablon seçin"
+"\" açılır menüsünde bulacaksınız. Kayıtlı özelliklerinizi yeni bilete "
 "uygulamak için tıklayın."
 
 #: ../advanced/ticket-templates.rst:24
@@ -1500,8 +1502,8 @@ msgid ""
 "of time all your other colleagues are using)."
 msgstr ""
 "Zaman hesaplaması etkinleştirildiyse, bir bileti her güncellediğinizde bu "
-"iletişim kutusu görünecektir. Bunun için ne kadar zaman harcadığınızı girin ("
-"dakika olarak veya diğer tüm meslektaşlarınızın kullandığı zaman birimi)."
+"iletişim kutusu görünecektir. Bunun için ne kadar zaman harcadığınızı girin "
+"(dakika olarak veya diğer tüm meslektaşlarınızın kullandığı zaman birimi)."
 
 #: ../advanced/time-accounting.rst:17
 msgid "**🤔 Huh? I don’t see a “Time Accounting” dialog...**"
@@ -1615,7 +1617,8 @@ msgstr "Görüntüleme sırasını değiştirmek için sütun başlıklarına t�
 
 #: ../basics/find-ticket/browse.rst:32
 msgid "Click-and-drag column dividers to adjust their width."
-msgstr "Genişliklerini ayarlamak için sütun ayırıcılara tıklayın ve sürükleyin."
+msgstr ""
+"Genişliklerini ayarlamak için sütun ayırıcılara tıklayın ve sürükleyin."
 
 #: ../basics/find-ticket/browse.rst:37
 msgid ""
@@ -1782,7 +1785,8 @@ msgstr "Form Doldurmak"
 
 #: ../basics/service-ticket/create.rst:28
 msgid "Here’s a quick run-down of each input field in the New Ticket form:"
-msgstr "İşte Yeni Bilet formundaki her bir giriş alanının hızlı bir incelemesi:"
+msgstr ""
+"İşte Yeni Bilet formundaki her bir giriş alanının hızlı bir incelemesi:"
 
 #: ../basics/service-ticket/create.rst:32
 msgid "Title"
@@ -1930,8 +1934,8 @@ msgid ""
 "tickets”)."
 msgstr ""
 "Daha fazlasını öğrenmek için okumaya devam edin veya :doc:`bilet ayarlarını "
-"yönetme <settings>` (\"mevcut biletler üzerinde çalışmanın\" diğer yarısıdır)"
-" hakkında bilgi edinmek için ileri atlayın."
+"yönetme <settings>` (\"mevcut biletler üzerinde çalışmanın\" diğer "
+"yarısıdır) hakkında bilgi edinmek için ileri atlayın."
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid "Ticket summary view"
@@ -1943,8 +1947,8 @@ msgid ""
 "`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on the "
 "right."
 msgstr ""
-"Biletler, bir müşteri hizmetleri sorunuyla ilgili mesaj ve not dizileridir. "
-":doc:`⚙️ Bir biletin ayarlarını sağdaki **bilet bölmesinde** yönetin "
+"Biletler, bir müşteri hizmetleri sorunuyla ilgili mesaj ve not dizileridir. :"
+"doc:`⚙️ Bir biletin ayarlarını sağdaki **bilet bölmesinde** yönetin "
 "<settings>` ."
 
 #: ../basics/service-ticket/follow-up.rst:23
@@ -1981,8 +1985,8 @@ msgid ""
 "An additional **⮪ reply all** option will appear for email messages with "
 "multiple recipients."
 msgstr ""
-"Birden fazla alıcıya sahip e-posta mesajları için ek bir **⮪ tümünü yanıtla**"
-" seçeneği görünecektir."
+"Birden fazla alıcıya sahip e-posta mesajları için ek bir **⮪ tümünü "
+"yanıtla** seçeneği görünecektir."
 
 #: ../basics/service-ticket/follow-up.rst:40
 msgid ""
@@ -2086,11 +2090,87 @@ msgstr ""
 "\"Dahili\" mesajların ana hatları somon rengi kenarlı olup **yalnızca diğer "
 "temsilciler tarafından görüntülenebilir**."
 
-#: ../basics/service-ticket/follow-up.rst:105
+#: ../basics/service-ticket/follow-up.rst:102
+msgid "Using quotation"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:104
+msgid ""
+"In many cases you'll want to quote earlier text of your customer. This is "
+"important because especially on long conversations your opponent will easily "
+"loose track."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:108
+msgid ""
+"Referencing on earlier written text helps greatly to keep context and track "
+"of things. By default Zammad adds no whole quote body (this can be changed "
+"by your administrator)."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:112
+msgid ""
+"No matter if the whole quotation is active or not, you can always mark the "
+"text you want to reference and press *reply* or *reply all* after. This will "
+"cause Zammad to add the marked text as quote to the editor. You can break up "
+"quotations by using enter."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:119
+msgid ""
+"This function is limited to one article per operation. The article has to be "
+"of type *communication* (thus have a *reply* button) to function."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Screencast showing text being marked and quoted after pressing reply"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Mark, press reply and work with quoted text!"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:130
+msgid "🔥 Keeping an eye on escalations"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:132
+msgid "**🧐 Huh? I can't see escalation timestamps!**"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:134
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don’t see it in the main menu, that "
+#| "means your administrator hasn’t enabled it yet. Administrators can learn "
+#| "more `here <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
+msgid ""
+"SLAs are optional and require configuration by your instance administrator. "
+"Administrators can learn more `about SLAs in our admin documentation`_."
+msgstr ""
+"Bu özellik **isteğe bağlıdır**; ana menüde görmüyorsanız, bu yöneticiniz "
+"tarafından etkinleştirilmediği anlamına gelir. Yöneticiler daha fazla bilgi "
+"için `buraya <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_ "
+"bakabilir."
+
+#: ../basics/service-ticket/follow-up.rst:140
+msgid ""
+"On the top of every ticket being applicable for SLA escalations, you'll find "
+"two dates next to the ticket number. By hovering the escalation date, Zammad "
+"will display all upcoming escalation times based on the SLA configuration."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:None
+msgid ""
+"Screencast showing agent hovering the escalation time and receiving\n"
+"a more detailed escalation information"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:152
 msgid "**🙅 I’m working here!**"
 msgstr "**🙅 Burada çalışıyorum!**"
 
-#: ../basics/service-ticket/follow-up.rst:107
+#: ../basics/service-ticket/follow-up.rst:154
 msgid ""
 "Every once in a while, two agents may have the same ticket open at the same "
 "time. When this happens, things can get messy fast: customers may receive "
@@ -2102,7 +2182,7 @@ msgstr ""
 "çelişkili yanıtlar alabilir; veya bir aracı tarafından yapılan değişiklikler "
 "yanlışlıkla diğeri tarafından geri alınabilir."
 
-#: ../basics/service-ticket/follow-up.rst:116
+#: ../basics/service-ticket/follow-up.rst:163
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the lower-lefthand corner for every agent that "
@@ -2112,7 +2192,7 @@ msgstr ""
 "için sol alt köşede bir avatar görüntüleyerek potansiyel çatışmalar "
 "konusunda sizi uyaracaktır."
 
-#: ../basics/service-ticket/follow-up.rst:121
+#: ../basics/service-ticket/follow-up.rst:168
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
@@ -2124,7 +2204,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:128
+#: ../basics/service-ticket/follow-up.rst:175
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -2167,9 +2247,13 @@ msgid "Highlighting Ticket Text"
 msgstr "Bilet Metnini Öne Çıkarmak"
 
 #: ../basics/service-ticket/settings.rst:39
+#, fuzzy
+#| msgid ""
+#| "Use the highlighter tool in the upper-righthand corner to mark up "
+#| "important text. (Your highlights are **not** visible to other agents.)"
 msgid ""
 "Use the highlighter tool in the upper-righthand corner to mark up important "
-"text. (Your highlights are **not** visible to other agents.)"
+"text. (Your highlights are visible to other agents.)"
 msgstr ""
 "Önemli metni işaretlemek için sağ üst köşedeki vurgulayıcı aracını kullanın. "
 "(Öne çıkanlarınız diğer temsilciler tarafından **görünmez**.)"
@@ -2219,8 +2303,8 @@ msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
 msgstr ""
-"Tüm mesajları/notları başka bir bilete taşıyın (ayrıntılar için bkz. :doc:`"
-"Biletleri Birleştirme </advanced/ticket-actions/merge>`)."
+"Tüm mesajları/notları başka bir bilete taşıyın (ayrıntılar için bkz. :doc:"
+"`Biletleri Birleştirme </advanced/ticket-actions/merge>`)."
 
 #: ../basics/service-ticket/settings.rst:70
 msgid "Change Customer"
@@ -2381,8 +2465,8 @@ msgid ""
 "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or "
 "important it is*."
 msgstr ""
-"Bir biletin **önceliği** basitçe ne kadar acil veya önemli olduğuna göre ("
-"1'den 3'e kadar) sıralanmasıdır."
+"Bir biletin **önceliği** basitçe ne kadar acil veya önemli olduğuna göre "
+"(1'den 3'e kadar) sıralanmasıdır."
 
 #: ../basics/service-ticket/settings/priority.rst:15
 msgid "But what does it do, and how should I use it?"
@@ -2488,8 +2572,8 @@ msgstr ""
 "Durumlar, ilerlemeyi belirtmekten fazlasını yapar: Zammad, müşterilerinin "
 "yeni bir biletine yanıt verilmesinin veya sorunlarının tamamen "
 "çözülmesininin ne kadar sürdüğünü ölçmek için durum bilgilerini kullanan "
-"ayrıntılı bir zaman izleme özelliğine (buna “\\ `hizmet düzeyi anlaşmaları `"
-"_\\ ” veya SLA'lar denir) sahiptir."
+"ayrıntılı bir zaman izleme özelliğine (buna “\\ `hizmet düzeyi anlaşmaları `_"
+"\\ ” veya SLA'lar denir) sahiptir."
 
 #: ../basics/service-ticket/settings/state.rst:35
 msgid ""
@@ -2511,8 +2595,7 @@ msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
 msgstr ""
-"⏱️ *Beklemede* durumda olan biletler, SLA sınırlarına doğru zaman "
-"biriktirmez."
+"⏱️ *Beklemede* durumda olan biletler, SLA sınırlarına doğru zaman biriktirmez."
 
 #: ../basics/service-ticket/settings/state.rst:44
 msgid ""
@@ -4179,7 +4262,8 @@ msgstr "Müşteriyi Düzenlemek"
 
 #: ../extras/customers.rst:24
 msgid "To edit the customer’s profile, use the **customer submenu**:"
-msgstr "Müşterinin profilini düzenlemek için, **müşteri altmenüsü**nü kullanın:"
+msgstr ""
+"Müşterinin profilini düzenlemek için, **müşteri altmenüsü**nü kullanın:"
 
 #: ../extras/customers.rst:30
 msgid "Customer submenu"
@@ -4224,8 +4308,8 @@ msgid ""
 "*can* set up automated system hooks based on this value, or use it as a "
 "filter for :doc:`custom overviews </basics/find-ticket/browse>`."
 msgstr ""
-":doc:`Bilet önceliği </basics/service-ticket/settings/priority>`, aslında **"
-"VIP durumu** gibi kutu dışında herhangi bir şey yapmaz, ancak yönetici bu "
+":doc:`Bilet önceliği </basics/service-ticket/settings/priority>`, aslında "
+"**VIP durumu** gibi kutu dışında herhangi bir şey yapmaz, ancak yönetici bu "
 "değeri baz alan otomatik sistem kancaları ayarlayabilir veya :doc:`genel "
 "bakışları özelleştirmek </basics/find-ticket/browse>` için bir filtre olarak "
 "kullanabilir."
@@ -4249,8 +4333,8 @@ msgid ""
 "gray below your own), and see what everyone else is up to."
 msgstr ""
 "Giriş yaptıktan sonra göreceğiniz ilk şey **gösterge panosu** olacaktır. Bir "
-"bakışta üretkenliğinizi izleyin, istatistiklerinizi şirket ortalamasıyla ("
-"sizinkinin altında gri renkte) karşılaştırın ve diğer herkesin neler "
+"bakışta üretkenliğinizi izleyin, istatistiklerinizi şirket ortalamasıyla "
+"(sizinkinin altında gri renkte) karşılaştırın ve diğer herkesin neler "
 "yaptığını görün."
 
 #: ../extras/dashboard.rst:0
@@ -4413,8 +4497,8 @@ msgid ""
 "Or, simply click the title to view the issue on GitHub / GitLab."
 msgstr ""
 "Metadata durumları (açık/kapalı), atamalar, etkiletler ve daha fazlası ile "
-"birlikte bağlantılı sorunları görmek için bilet panelindeki |github| ve "
-"|gitlab| sekmelerini kullanın. Veya sorunu GitHub / GitLab'da görüntülemek "
+"birlikte bağlantılı sorunları görmek için bilet panelindeki |github| ve |"
+"gitlab| sekmelerini kullanın. Veya sorunu GitHub / GitLab'da görüntülemek "
 "için başlığa tıklayın."
 
 #: ../extras/github-gitlab-integration.rst:29
@@ -4853,8 +4937,8 @@ msgid ""
 "insert formatted text, bullet lists, and more. You can even add file "
 "attachments and links!"
 msgstr ""
-"Bilgi tabanı düzenleyicisi, Zammad bilet oluşturucusunda bulunan aynı **"
-"zengin metin düzenleme yetenekleri** ile donatılmış olarak gelir. Bu, "
+"Bilgi tabanı düzenleyicisi, Zammad bilet oluşturucusunda bulunan aynı "
+"**zengin metin düzenleme yetenekleri** ile donatılmış olarak gelir. Bu, "
 "biçimlendirilmiş metin, madde işareti listeleri ve daha fazlasını eklemek "
 "için aynı :doc:`klavye kısayollarını </advanced/keyboard-shortcuts>` "
 "kullanabileceğiniz anlamına gelir. Hatta dosya ekleri ve bağlantılar "
@@ -5347,8 +5431,7 @@ msgstr "📬 Gelen"
 #: ../extras/secure-email.rst:48
 msgid "The 🔒 and ✅ icons at the top of a message indicate its S/MIME status."
 msgstr ""
-"Bir mesajın üst kısmındaki 🔒 ve ✅ simgeleri mesajın S/MIME durumunu "
-"gösterir."
+"Bir mesajın üst kısmındaki 🔒 ve ✅ simgeleri mesajın S/MIME durumunu gösterir."
 
 #: ../extras/secure-email.rst:55
 msgid "Screencast showing on how to verify used certificates"
@@ -5767,8 +5850,8 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:106
 msgid ""
-"If you're ready to save the draft, click on 📝 on the left ticket pane, enter "
-"a meaning full name and click on the \"Create\" button."
+"If you're ready to save the draft, click on 📝 on the right ticket pane, "
+"enter a meaning full name and click on the \"Create\" button."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0

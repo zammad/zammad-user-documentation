@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-14 11:43+0100\n"
-"PO-Revision-Date: 2022-04-16 15:56+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"POT-Creation-Date: 2022-06-09 16:15+0200\n"
+"PO-Revision-Date: 2022-05-25 12:37+0000\n"
+"Last-Translator: a-zubkov <a.zubkov@avtopass.net>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
 "documentations/user-documentation/ru/>\n"
 "Language: ru\n"
@@ -18,25 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Горячие клавиши"
 
 #: ../advanced/keyboard-shortcuts.rst:6
 msgid ""
 "Zammad supports a wide array of keyboard shortcuts to expedite your workflow "
 "as an expert user."
 msgstr ""
+"Zammad поддерживает широкий набор сочетаний клавиш, чтобы ускорить ваш "
+"рабочий процесс в качестве опытного пользователя."
 
 #: ../advanced/keyboard-shortcuts.rst:14
 msgid "Keyboard shortcut cheat sheet"
-msgstr ""
+msgstr "Памятка по сочетаниям клавиш"
 
 #: ../advanced/keyboard-shortcuts.rst:14
 msgid "The keyboard shortcut cheat sheet on Windows."
-msgstr ""
+msgstr "Памятка по сочетаниям клавиш в Windows."
 
 #: ../advanced/keyboard-shortcuts.rst:16 ../advanced/tabs.rst:25
 #: ../basics/find-ticket/browse.rst:29 ../basics/find-ticket/search.rst:33
@@ -52,15 +54,19 @@ msgid ""
 "Click on your avatar at the bottom of the main menu to access the **keyboard "
 "shortcuts cheat sheet**."
 msgstr ""
+"Нажмите на свой аватар в нижней части главного меню, чтобы получить доступ к "
+"**памятке сочетаний клавиш**."
 
 #: ../advanced/keyboard-shortcuts.rst:0 ../extras/profile-and-settings.rst:12
 msgid "User submenu"
-msgstr ""
+msgstr "Подменю пользователя"
 
 #: ../advanced/keyboard-shortcuts.rst:26
 msgid ""
 "Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
 msgstr ""
+"В качестве альтернативы, вызовите его с помощью одного из приведенных ниже "
+"ярлыков (shortcut-ception!)"
 
 #: ../advanced/keyboard-shortcuts.rst:29
 msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
@@ -83,18 +89,20 @@ msgid ""
 "Keyboard shortcuts can be used to apply rich-text formatting in one of two "
 "ways:"
 msgstr ""
+"Сочетания клавиш можно использовать для форматирования текста одним из двух "
+"способов:"
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "As-you-type"
-msgstr ""
+msgstr "Как вы печатаете"
 
 #: ../advanced/keyboard-shortcuts.rst:40
 msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
-msgstr ""
+msgstr "Нажмите ``Cmd`` ``I``, чтобы войти в режим курсива,"
 
 #: ../advanced/keyboard-shortcuts.rst:41
 msgid "enter your desired text, and"
-msgstr ""
+msgstr "введите желаемый текст, и"
 
 #: ../advanced/keyboard-shortcuts.rst:42
 msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
@@ -103,15 +111,15 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "All-at-once"
-msgstr ""
+msgstr "Все сразу"
 
 #: ../advanced/keyboard-shortcuts.rst:46
 msgid "Enter your desired text,"
-msgstr ""
+msgstr "Введите желаемый текст,"
 
 #: ../advanced/keyboard-shortcuts.rst:47
 msgid "click-and-drag with the mouse to select it, and"
-msgstr ""
+msgstr "щелкните и перетащите мышью, чтобы выбрать его, и"
 
 #: ../advanced/keyboard-shortcuts.rst:48
 msgid "press ``Cmd`` + ``I`` to italicize."
@@ -119,7 +127,7 @@ msgstr "нажмите ``Cmd`` + ``I``, чтобы выделить курсив
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
-msgstr ""
+msgstr "Макрос"
 
 #: ../advanced/macros.rst:4
 msgid "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
@@ -412,8 +420,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -451,8 +459,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ "
-"articlebody:/joh?n(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1793,11 +1801,78 @@ msgid ""
 "viewed by other agents**."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:105
+#: ../basics/service-ticket/follow-up.rst:102
+msgid "Using quotation"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:104
+msgid ""
+"In many cases you'll want to quote earlier text of your customer. This is "
+"important because especially on long conversations your opponent will easily "
+"loose track."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:108
+msgid ""
+"Referencing on earlier written text helps greatly to keep context and track "
+"of things. By default Zammad adds no whole quote body (this can be changed "
+"by your administrator)."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:112
+msgid ""
+"No matter if the whole quotation is active or not, you can always mark the "
+"text you want to reference and press *reply* or *reply all* after. This will "
+"cause Zammad to add the marked text as quote to the editor. You can break up "
+"quotations by using enter."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:119
+msgid ""
+"This function is limited to one article per operation. The article has to be "
+"of type *communication* (thus have a *reply* button) to function."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Screencast showing text being marked and quoted after pressing reply"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:127
+msgid "Mark, press reply and work with quoted text!"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:130
+msgid "🔥 Keeping an eye on escalations"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:132
+msgid "**🧐 Huh? I can't see escalation timestamps!**"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:134
+msgid ""
+"SLAs are optional and require configuration by your instance administrator. "
+"Administrators can learn more `about SLAs in our admin documentation`_."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:140
+msgid ""
+"On the top of every ticket being applicable for SLA escalations, you'll find "
+"two dates next to the ticket number. By hovering the escalation date, Zammad "
+"will display all upcoming escalation times based on the SLA configuration."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:None
+msgid ""
+"Screencast showing agent hovering the escalation time and receiving\n"
+"a more detailed escalation information"
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:152
 msgid "**🙅 I’m working here!**"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:107
+#: ../basics/service-ticket/follow-up.rst:154
 msgid ""
 "Every once in a while, two agents may have the same ticket open at the same "
 "time. When this happens, things can get messy fast: customers may receive "
@@ -1805,14 +1880,14 @@ msgid ""
 "by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:116
+#: ../basics/service-ticket/follow-up.rst:163
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the lower-lefthand corner for every agent that "
 "has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:121
+#: ../basics/service-ticket/follow-up.rst:168
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
@@ -1822,7 +1897,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:128
+#: ../basics/service-ticket/follow-up.rst:175
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -1862,7 +1937,7 @@ msgstr ""
 #: ../basics/service-ticket/settings.rst:39
 msgid ""
 "Use the highlighter tool in the upper-righthand corner to mark up important "
-"text. (Your highlights are **not** visible to other agents.)"
+"text. (Your highlights are visible to other agents.)"
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:46
@@ -5065,8 +5140,8 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:106
 msgid ""
-"If you're ready to save the draft, click on 📝 on the left ticket pane, enter "
-"a meaning full name and click on the \"Create\" button."
+"If you're ready to save the draft, click on 📝 on the right ticket pane, "
+"enter a meaning full name and click on the \"Create\" button."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
