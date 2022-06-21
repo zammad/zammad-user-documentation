@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-09 16:15+0200\n"
+"POT-Creation-Date: 2022-06-20 23:16+0200\n"
 "PO-Revision-Date: 2022-06-10 16:37+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -4758,10 +4758,22 @@ msgstr ""
 "Sie hier <organizations>`, um mehr erfahren."
 
 #: ../extras/customers.rst:0
+#, fuzzy
+#| msgid "Organizations"
+msgid "Secondary Organizations"
+msgstr "Unternehmen"
+
+#: ../extras/customers.rst:49
+msgid ""
+"Unlike organizations, you can add several organizations here that are not as "
+"highlighted. Still, the same behavior applies."
+msgstr ""
+
+#: ../extras/customers.rst:0
 msgid "VIP"
 msgstr "VIP"
 
-#: ../extras/customers.rst:49
+#: ../extras/customers.rst:54
 msgid ""
 "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, "
 "**VIP status** doesn’t actually do anything out-of-the-box, but an admin "
@@ -4774,7 +4786,7 @@ msgstr ""
 "auf diesem Wert einrichten oder dieses Attribut als Filter für :doc:"
 "`Übersichten</basics/find-ticket/browse>` nutzen."
 
-#: ../extras/customers.rst:54
+#: ../extras/customers.rst:59
 msgid ""
 "**Ask your administrator** about how she’d like you to use this attribute "
 "(or just leave it alone)."
