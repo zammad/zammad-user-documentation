@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents) \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-09 16:15+0200\n"
+"POT-Creation-Date: 2022-06-20 23:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3057,14 +3057,22 @@ msgid "Customers may (optionally) belong to **organizations** – :doc:`skip ahe
 msgstr ""
 
 #: ../extras/customers.rst:0
-msgid "VIP"
+msgid "Secondary Organizations"
 msgstr ""
 
 #: ../extras/customers.rst:49
-msgid "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, **VIP status** doesn’t actually do anything out-of-the-box, but an admin *can* set up automated system hooks based on this value, or use it as a filter for :doc:`custom overviews </basics/find-ticket/browse>`."
+msgid "Unlike organizations, you can add several organizations here that are not as highlighted. Still, the same behavior applies."
+msgstr ""
+
+#: ../extras/customers.rst:0
+msgid "VIP"
 msgstr ""
 
 #: ../extras/customers.rst:54
+msgid "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, **VIP status** doesn’t actually do anything out-of-the-box, but an admin *can* set up automated system hooks based on this value, or use it as a filter for :doc:`custom overviews </basics/find-ticket/browse>`."
+msgstr ""
+
+#: ../extras/customers.rst:59
 msgid "**Ask your administrator** about how she’d like you to use this attribute (or just leave it alone)."
 msgstr ""
 
