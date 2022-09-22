@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-20 23:16+0200\n"
-"PO-Revision-Date: 2022-04-16 15:56+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"PO-Revision-Date: 2022-09-22 11:30+0000\n"
+"Last-Translator: jbuonocorespx <julien.buonocore@sciencespo-aix.fr>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
 "documentations/user-documentation/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:14
 msgid "Keyboard shortcut cheat sheet"
-msgstr ""
+msgstr "Aide-mémoire des raccourcis clavier"
 
 #: ../advanced/keyboard-shortcuts.rst:14
 msgid "The keyboard shortcut cheat sheet on Windows."
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:0 ../extras/profile-and-settings.rst:12
 msgid "User submenu"
-msgstr ""
+msgstr "Menu utilisateur"
 
 #: ../advanced/keyboard-shortcuts.rst:26
 msgid ""
@@ -131,6 +131,8 @@ msgstr "Macros"
 #: ../advanced/macros.rst:4
 msgid "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
 msgstr ""
+"Les macros sont des **commandes raccourcis** pour appliquer un changement "
+"sur un ticket."
 
 #: ../advanced/macros.rst:6
 msgid ""
@@ -138,6 +140,9 @@ msgid ""
 "close-and-tag-as-spam or reassign-to-another-group), macros can make the job "
 "a whole lot easier."
 msgstr ""
+"Si vous réaliser plusieurs fois les mêmes opérations sur un groupe de "
+"tickets (*exemple,* fermer-et-marquer-comme-spam ou assigner-a-un-autre-"
+"groupe), les macros peuvent vous aider dans votre tâche."
 
 #: ../advanced/macros.rst:10
 msgid "🤔 **How do I make macros?**"
@@ -149,11 +154,16 @@ msgid ""
 "en/latest/manage/macros.html>`_. If you have an idea for a macro you’d like "
 "to use, your Zammad admin can probably make it happen."
 msgstr ""
+"Ne faites pas le `travail de l'administrateur <https://admin-docs.zammad.org/"
+"en/latest/manage/macros.html>`_. Si vous avez une idée d'une macro que vous "
+"aimeriez utiliser, votre administrateur Zammad pourrait le faire pour vous."
 
 #: ../advanced/macros.rst:17
 msgid ""
 "Macros can be applied in one of two ways: on a single ticket, or in bulk."
 msgstr ""
+"Vous pouvez appliquer les macros de deux façons : sur un seul ticket ou sur "
+"une collection de tickets."
 
 #: ../advanced/macros.rst:21
 msgid "On a Single Ticket"
@@ -164,14 +174,18 @@ msgid ""
 "The simplest way to apply a macro is to select it from the **Update ᐱ** "
 "submenu in the Ticket View:"
 msgstr ""
+"Pour appliquer simplement une macro est de la choisir depuis le menu **Mise "
+"à jour ᐱ** disponible lors de la visualisation d'un ticket :"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
 msgstr ""
+"Screencast montre comment exécuter une macro lors de la visualisation d'un "
+"ticket."
 
 #: ../advanced/macros.rst:31
 msgid "💾 **Macro = Update**"
-msgstr ""
+msgstr "💾 **Macro = Mise à jour**"
 
 #: ../advanced/macros.rst:33
 msgid ""
@@ -199,7 +213,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:52
 msgid "In Bulk"
-msgstr ""
+msgstr "Collection"
 
 #: ../advanced/macros.rst:54
 msgid "To apply a macro to many tickets at the same time:"
@@ -207,7 +221,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:56
 msgid "open a ticket overview;"
-msgstr ""
+msgstr "afficher l'aperçu d'un ticket ;"
 
 #: ../advanced/macros.rst:57
 msgid "select your desired tickets;"
@@ -219,11 +233,11 @@ msgstr ""
 
 #: ../advanced/macros.rst:59
 msgid "drop the tickets on your target macro."
-msgstr ""
+msgstr "supprimer les tickets sélectionnés par votre macro."
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
-msgstr ""
+msgstr "Screencast montre comment exécuter des macros depuis les aperçus."
 
 #: ../advanced/macros.rst:66
 msgid ""
@@ -257,7 +271,7 @@ msgstr ""
 
 #: ../advanced/search.rst:13
 msgid "or::"
-msgstr ""
+msgstr "ou::"
 
 #: ../advanced/search.rst:18
 msgid ""
@@ -267,19 +281,21 @@ msgstr ""
 
 #: ../advanced/search.rst:23
 msgid "**🤓 Search phrases changed for Zammad 4.0**"
-msgstr ""
+msgstr "**🤓 Phrases de recherche modifiées pour Zammad 4.0**"
 
 #: ../advanced/search.rst:25
 msgid "With Zammad <=3.6 the following keys contained a string only:"
 msgstr ""
+"Avec la version <= 3.6 de Zammad, les mots-clés suivants étaient des chaînes "
+"de caractères seulement :"
 
 #: ../advanced/search.rst:27 ../advanced/suggested-workflows.rst:100
 msgid "group"
-msgstr ""
+msgstr "groupe"
 
 #: ../advanced/search.rst:28 ../advanced/suggested-workflows.rst:103
 msgid "priority"
-msgstr ""
+msgstr "priorité"
 
 #: ../advanced/search.rst:29
 msgid "state"
@@ -287,7 +303,7 @@ msgstr "état"
 
 #: ../advanced/search.rst:30
 msgid "organization"
-msgstr ""
+msgstr "organisation"
 
 #: ../advanced/search.rst:32
 msgid ""
@@ -306,6 +322,9 @@ msgid ""
 "`Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install/"
 "elasticsearch/indexed-attributes.html>`_"
 msgstr ""
+"Pour plus de détails sur les attributs disponibles, veuillez consulter notre "
+"page `Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install/"
+"elasticsearch/indexed-attributes.html>`_"
 
 #: ../advanced/search.rst:51
 msgid "Attributes and their usuage"
@@ -1667,10 +1686,6 @@ msgid "New ticket dialog"
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:16
-#, fuzzy
-#| msgid ""
-#| "Click the **➕ button** to create a new ticket. The default ticket type is "
-#| "**received call**."
 msgid ""
 "Click the **➕ button** to create a new ticket. The default ticket type is "
 "**Received Call**."
