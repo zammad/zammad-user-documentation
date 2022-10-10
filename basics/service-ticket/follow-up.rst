@@ -135,7 +135,7 @@ quotations by using enter.
    Administrators can learn more `about SLAs in our admin documentation`_.
 
 .. _about SLAs in our admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/slas.html
+   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
 
 On the top of every ticket being applicable for SLA escalations, you'll find
 two dates next to the ticket number. By hovering the escalation date, Zammad

@@ -24,7 +24,7 @@ There are **six built-in overviews**
 
 .. _create more: https://admin-docs.zammad.org/en/latest/manage/overviews.html
 .. _service-level agreement:
-   https://admin-docs.zammad.org/en/latest/manage/slas.html
+   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
 
 .. tip:: **🖱️ UI Protip**
 
