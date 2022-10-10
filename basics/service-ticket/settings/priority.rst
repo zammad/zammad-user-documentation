@@ -25,7 +25,7 @@ that fire off based on this value, like:
 Priority can also be used as a ticket filter when creating `custom overviews`_.
 
 .. _service-level agreements:
-   https://admin-docs.zammad.org/en/latest/manage/slas.html
+   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
 .. _triggers: https://admin-docs.zammad.org/en/latest/manage/trigger.html
 .. _scheduled events:
    https://admin-docs.zammad.org/en/latest/manage/scheduler.html
