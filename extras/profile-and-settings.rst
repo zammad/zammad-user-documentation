@@ -4,7 +4,7 @@
 Click on your avatar at the bottom of the main menu
 to access your **profile and settings**.
 
-.. figure:: /images/extras/profile-and-settings.png
+.. figure:: /images/extras/profile-and-settings/profile-and-settings.png
    :alt: User submenu
    :align: center
    :scale: 50%
@@ -12,6 +12,46 @@ to access your **profile and settings**.
    Find user-specific actions,
    a list of recently opened items,
    and useful reference information.
+
+Clicking on your avatar picture provides the following three sections.
+
+Recently viewed
+   All information you've viewed previously (Tickets, Users, Organizations).
+   Helps you to jump back quick and easy without searching or looking in your
+   overviews.
+
+   .. note:: This list is limited, old entries will automatically vanish.
+
+Further actions
+   Dark mode
+      Quickly toggle dark and light mode without using keyboard bindings.
+
+      .. figure:: /images/extras/profile-and-settings/darkmode-switch-profile.gif
+         :alt: Screencast showing the dark mode button being toggled
+
+   Keyboard shortcuts
+      :doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`.
+
+   Profile
+      This will open your :ref:`user-profile-settings` and provide further
+      options for customers and agents.
+
+      .. note::
+
+         Customers do not have access to all areas, even if you provide them
+         the permissions to those areas.
+
+Sign out
+   Finished working with Zammad? Use the sign out button to destroy your user
+   session.
+
+   .. hint::
+
+      If you didn't tick "Remember me" during login or used a Third-Party login,
+      your Session automatically gets invalid if you close and reopen your
+      Browser.
+
+.. _user-profile-settings:
 
 Profile Settings
 ----------------
@@ -33,19 +73,19 @@ Profile Settings
    Select where, when, and for which groups you want to receive notifications,
    or choose a new notification sound.
 
-   .. figure:: /images/extras/profile-and-settings-notifications-settings.jpg
+   .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-settings.jpg
       :align: center
 
       Use the first three columns to choose when to receive **internal
       notifications** (below). The rightmost column enables email notification
       as well.
 
-   .. figure:: /images/extras/profile-and-settings-notifications-center.jpg
+   .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-center.jpg
       :align: center
 
       Internal notifications cannot be disabled.
 
-   .. figure:: /images/extras/profile-and-settings-notifications-limit-groups.png
+   .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-limit-groups.png
       :align: center
 
       By default, you will receive notifications for all tickets on every group
