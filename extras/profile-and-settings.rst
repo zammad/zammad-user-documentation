@@ -93,6 +93,8 @@ Profile Settings
       **Limit Groups** box to disable such notifications on a per-group basis.
       (You will continue to receive notifications for your own tickets.)
 
+   .. note:: Notifications are available to agents only.
+
    .. hint:: The contents of these email notifications
       can be customized on self-hosted installations.
       Administrators can learn more
