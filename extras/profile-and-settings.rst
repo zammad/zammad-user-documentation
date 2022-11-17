@@ -56,6 +56,29 @@ Sign out
 Profile Settings
 ----------------
 
+:Appearance:
+
+   Theme
+      Select how Zammad should look. Zammad will remember the setting you choose here.
+
+         * Dark
+         * Light
+         * Sync with computer
+
+      For dark and light you'll fix the dark- or light mode to your taste.
+
+      If you choose sync with computer, Zammad will dynamically switch
+      in between both modes depending on what your client prefers at that
+      moment.
+
+         .. note::
+
+            Synchronizing the theme preference highly depends on your browser.
+            If your browser does not support syncing, this setting basically
+            has no effect.
+
+            Most common modern Browsers do so (e.g. Firefox, Google Chrome)
+
 :Language:
 
    Set the system display language.
@@ -111,6 +134,22 @@ Profile Settings
 	
     .. note:: 🔔 You **will** continue to receive notifications while you are
               out-of-office!
+
+:Overviews:
+   Tired of the overview order your admin decided on? This section allows
+   you to choose an overview order that fits you the best.
+
+   You can back to the default instance ordering at any time by using
+   the upper right button "Reset overview order".
+
+   .. hint:: 🤓 Your admin has no power here
+
+      The order does not change, even if your admin renames or reorders the
+      overviews. The overview order is stored in your profile and thus applies
+      for any device you use with your account.
+
+   .. figure:: /images/extras/profile-and-settings/custom-overview-order-users.gif
+      :alt: Screencast showing how to drag & drop overviews order and reset the order back to default
 
 :Calendar:
 
