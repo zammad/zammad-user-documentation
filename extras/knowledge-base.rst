@@ -1,4 +1,4 @@
-Knowledge Base
+﻿Knowledge Base
 ==============
 
 Manage, edit, and reorganize knowledge base articles from the
@@ -82,6 +82,54 @@ Use the language menu to view or edit translations of the current page.
       .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
          :alt: Missing translation warning
          :align: center
+
+Using RSS feeds
+~~~~~~~~~~~~~~~
+
+Zammad allows you to subscribe to either the knowledge base as whole or to
+specific categories. There's both, a public and internal option to do so.
+
+.. tabs::
+
+   .. tab:: Public RSS function
+
+      The RSS button of the public knowledge base page is located on the bottom
+      of each page. If enabled, the button will be available to any body
+      visiting the page.
+
+      .. figure:: /images/extras/knowledge-base/knowledge-base-public-rss-function.png
+         :alt: Screenshot showing the context menu of the RSS button
+         :width: 99%
+
+   .. tab:: Internal RSS function
+
+      The internal RSS button can be found on the upper right next to the edit
+      button. It's available on every knowledge base page you display internal.
+
+      Pressing the the RSS button will provide up to two RSS feeds to subscribe
+      to.
+
+      .. figure:: /images/extras/knowledge-base/knowledge-base-internal-rss-function.png
+         :alt: Screenshot showing the modal for of the RSS button
+         :width: 99%
+
+      .. warning::
+
+         Keep in mind that internal RSS links contain **personal** access token.
+         **Never share these URLs with third parties!**
+
+         If you want to revoke the access and renew your token, you can do so
+         in the RSS modal.
+
+         .. figure:: /images/extras/knowledge-base/knowledge-base-reset-rss-access-token.png
+            :alt: Screenshot showing the access token reset link on the lower
+                  end of the RSS feed modal (internal knowledge base)
+            :align: center
+
+.. note:: **🤔 Huh? I don’t see a “RSS” button...** 
+
+   By default, RSS feeds are disabled. If you wish to use the RSS function,
+   talk to your administrator about enabling the function.
 
 Editing Categories
 ------------------
