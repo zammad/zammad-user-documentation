@@ -4,21 +4,40 @@ Ticket Templates
 ================
 
 If you find yourself creating lots of tickets with the same basic attributes,
-use **ticket templates** to fill them in next time with a single click.
+use **ticket templates** to fill them in with a single click next time.
 
-.. figure:: /images/advanced/ticket-templates.jpg
-   :alt: Ticket template dialog
+.. figure:: /images/advanced/ticket-templates.png
+   :alt: Ticket template selection in new ticket dialog
    :align: center
 
-   Use the ticket pane to load or create ticket templates.
+   Use the ticket pane to load ticket templates.
 
-To create a new template, start by filling in a new ticket as usual.
-Then, instead of submitting the ticket form,
-use the **template dialog** in the ticket pane
-to enter a name for your new template, and click “Save”.
+On any *new ticket* dialogue use the 🗒️ tab on the right to display the
+*Templates* column. If Zammad has any templates for you to apply, you'll
+be provided with a drop down list to choose from.
 
-The next time you create a ticket,
-you’ll find your new template in the “Select template” dropdown.
-Click it to apply your saved attributes to the new ticket.
+Select a fitting template and press *Apply*.
+The configured ticket fields will be populated with the data from the template.
 
-.. hint:: Any template created by any agent will be available to **all** agents.
+.. warning::
+
+   With version 5.3 Zammad is able to detect "dirty fields".
+   This means: If you fill in data in a field that's supposed to be filled
+   by the template, Zammad *will not* fill in the templates data.
+
+   Instead it will keep your version of the field.
+   This allows you to e.g. fill in the customer before applying the template. 🎉
+
+.. note:: **😖 I can't add or adjust templates?!**
+
+   Managing templates requires additional permissions.
+   Please ask your administrator to provide you with the needed permission.
+
+   `Learn more about ticket templates in the admin documentation`_.
+
+   This permission was introduced with Zammad 5.3.
+
+   .. Above version notes will be removed on later documentation versions.
+
+.. _Learn more about ticket templates in the admin documentation:
+   https://admin-docs.zammad.org/en/latest/manage/templates.html
