@@ -18,7 +18,7 @@ an expert user.
    Click on your avatar at the bottom of the main menu to access the
    **keyboard shortcuts cheat sheet**.
  
-   .. figure:: /images/extras/profile-and-settings.png
+   .. figure:: /images/extras/profile-and-settings/profile-and-settings.png
       :alt: User submenu
       :align: center
       :scale: 85%
