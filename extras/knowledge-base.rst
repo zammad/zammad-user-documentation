@@ -12,7 +12,7 @@ Manage, edit, and reorganize knowledge base articles from the
    With some small exceptions,
    Preview Mode shows what the published knowledge base will look like.
 
-.. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...** 
+.. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...**
 
    This feature is **optional**;
    if you don’t see it in the main menu,
@@ -41,7 +41,7 @@ Use the **↗️ button** in the top toolbar to see the published knowledge base
 Use the **“Edit” button** in the top toolbar to switch into **Edit Mode**
 (and back again).
 
-.. note:: **🤔 Huh? I don’t see an “Edit” button...** 
+.. note:: **🤔 Huh? I don’t see an “Edit” button...**
 
    By default, agents are **not permitted to create, edit, or manage knowledge
    base articles**. If you wish to edit the knowledge base,
@@ -56,7 +56,7 @@ Switching Languages
 
 Use the language menu to view or edit translations of the current page.
 
-.. hint:: 
+.. hint::
 
    🚧 **What happens when a page hasn’t been translated into the
    selected language yet?**
@@ -83,18 +83,18 @@ Use the language menu to view or edit translations of the current page.
          :alt: Missing translation warning
          :align: center
 
-Using RSS feeds
+Using RSS Feeds
 ~~~~~~~~~~~~~~~
 
 Zammad allows you to subscribe to either the knowledge base as whole or to
-specific categories. There's both, a public and internal option to do so.
+specific categories. There's both a public and an internal option to do so.
 
 .. tabs::
 
    .. tab:: Public RSS function
 
-      The RSS button of the public knowledge base page is located on the bottom
-      of each page. If enabled, the button will be available to any body
+      The RSS button of the public knowledge base page is located at the bottom
+      of each page. If enabled, the button will be available to anybody
       visiting the page.
 
       .. figure:: /images/extras/knowledge-base/knowledge-base-public-rss-function.png
@@ -104,7 +104,7 @@ specific categories. There's both, a public and internal option to do so.
    .. tab:: Internal RSS function
 
       The internal RSS button can be found on the upper right next to the edit
-      button. It's available on every knowledge base page you display internal.
+      button. It's available on every internal knowledge base page you display.
 
       Pressing the the RSS button will provide up to two RSS feeds to subscribe
       to.
@@ -115,7 +115,7 @@ specific categories. There's both, a public and internal option to do so.
 
       .. warning::
 
-         Keep in mind that internal RSS links contain **personal** access token.
+         Keep in mind that internal RSS links contain **personal** access tokens.
          **Never share these URLs with third parties!**
 
          If you want to revoke the access and renew your token, you can do so
@@ -126,7 +126,7 @@ specific categories. There's both, a public and internal option to do so.
                   end of the RSS feed modal (internal knowledge base)
             :align: center
 
-.. note:: **🤔 Huh? I don’t see a “RSS” button...** 
+.. note:: **🤔 Huh? I don’t see an “RSS” button...**
 
    By default, RSS feeds are disabled. If you wish to use the RSS function,
    talk to your administrator about enabling the function.
