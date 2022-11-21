@@ -148,8 +148,15 @@ Profile Settings
       overviews. The overview order is stored in your profile and thus applies
       for any device you use with your account.
 
+   .. note:: 😕 Can't see this setting?
+
+      This setting option is only available to agents by default.
+      Admins can also deactivate this permission entirely, ask your admin if
+      to enable this option if you need it.
+
    .. figure:: /images/extras/profile-and-settings/custom-overview-order-users.gif
-      :alt: Screencast showing how to drag & drop overviews order and reset the order back to default
+      :alt: Screencast showing how to drag & drop overviews order and reset the
+            order back to default
 
 :Calendar:
 
