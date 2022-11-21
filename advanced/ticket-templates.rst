@@ -21,9 +21,10 @@ The configured ticket fields will be populated with the data from the template.
 
 .. warning::
 
-   With version 5.3 Zammad is able to detect "dirty fields".
-   This means: If you previously filled in data in a field that's supposed to be filled
-   by the template, Zammad *will not* overwrite the field with the template data.
+   With version 5.3 Zammad is able to detect "field collisions".
+   This means: If you previously filled in data in a field that's supposed to be
+   filled by the template, Zammad *will not* overwrite the field with the
+   template data.
 
    Instead it will keep your version of the field.
    This allows you to e.g. fill in the customer before applying the template. 🎉
