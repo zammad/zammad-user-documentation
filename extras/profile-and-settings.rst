@@ -16,7 +16,7 @@ to access your **profile and settings**.
 Clicking on your avatar picture provides the following three sections.
 
 Recently viewed
-   All information you've viewed previously (Tickets, Users, Organizations).
+   All information you've viewed previously (tickets, users, organizations).
    Helps you to jump back quick and easy without searching or looking in your
    overviews.
 
@@ -42,14 +42,14 @@ Further actions
          the permissions to those areas.
 
 Sign out
-   Finished working with Zammad? Use the sign out button to destroy your user
+   Finished working with Zammad? Use the sign out button to end your user
    session.
 
    .. hint::
 
-      If you didn't tick "Remember me" during login or used a Third-Party login,
-      your Session automatically gets invalid if you close and reopen your
-      Browser.
+      If you didn't tick "Remember me" during login or used a third party login,
+      your session will automatically be invalidated if you close and reopen your
+      browser.
 
 .. _user-profile-settings:
 
@@ -65,11 +65,10 @@ Profile Settings
          * Light
          * Sync with computer
 
-      For dark and light you'll fix the dark- or light mode to your taste.
+      For dark and light you'll fix the dark or light mode to your taste.
 
-      If you choose sync with computer, Zammad will dynamically switch
-      in between both modes depending on what your client prefers at that
-      moment.
+      If you choose sync with computer, Zammad will dynamically select the mode
+      depending on what your client prefers at that moment.
 
          .. note::
 
@@ -123,23 +122,22 @@ Profile Settings
       Administrators can learn more
       `here <https://admin-docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_.
 
-:Out of Office: 
+:Out of Office:
 
-    Schedule out-of-office periods in advance, and designate a substitute to
-    handle your tickets while you’re gone.
-    
+    Schedule absence periods in advance, and designate a substitute to
+    handle your tickets while you're gone.
+
     Your substitute will receive all your ticket notifications during your
     absence, and have a custom :doc:`overview </basics/find-ticket/browse>`
     created to help keep track of your tickets.
-	
-    .. note:: 🔔 You **will** continue to receive notifications while you are
-              out-of-office!
+
+    .. note:: 🔔 You **will** continue to receive notifications while you are absent.
 
 :Overviews:
    Tired of the overview order your admin decided on? This section allows
    you to choose an overview order that fits you the best.
 
-   You can back to the default instance ordering at any time by using
+   You can revert to the default instance ordering at any time by using
    the upper right button "Reset overview order".
 
    .. hint:: 🤓 Your admin has no power here
@@ -151,7 +149,7 @@ Profile Settings
    .. note:: 😕 Can't see this setting?
 
       This setting option is only available to agents by default.
-      Admins can also deactivate this permission entirely, ask your admin if
+      Admins can also deactivate this permission entirely. Ask your admin
       to enable this option if you need it.
 
    .. figure:: /images/extras/profile-and-settings/custom-overview-order-users.gif
@@ -161,16 +159,16 @@ Profile Settings
 :Calendar:
 
    Add your ticket deadlines to your own favorite calendar app with the ICAL
-   link listed at this settings panel.
+   link listed at this setting's panel.
 
 :Devices:
 
-   See a list of all devices logged in to your Zammad account (and revoke
+   See a list of all devices logged into your Zammad account (and revoke
    access, if necessary).
 
 :Token Access:
 
-   Generate personal access tokens for third-party applications to use the
+   Generate personal access tokens for third party applications to use the
    Zammad API.
 
    .. caution:: Always generate a new token for each application you connect to
@@ -179,5 +177,5 @@ Profile Settings
 
 :Linked Accounts:
 
-   See a list of third-party services (*e.g.,* Facebook or Twitter) linked to
+   See a list of third party services (*e.g.,* Facebook or Twitter) linked to
    your Zammad account.
