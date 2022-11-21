@@ -1,10 +1,10 @@
-﻿Knowledge Base
+Knowledge Base
 ==============
 
 Manage, edit, and reorganize knowledge base articles from the
 **knowledge base** panel.
 
-.. figure:: /images/extras/knowledge-base-preview.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
    :align: center
 
@@ -25,13 +25,13 @@ Manage, edit, and reorganize knowledge base articles from the
 Getting Started
 ---------------
 
-.. figure:: /images/extras/knowledge-base-link-to-public.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-link-to-public.png
    :alt: Knowledge Base Link to published knowledge base
    :align: center
 
 Use the **↗️ button** in the top toolbar to see the published knowledge base.
 
-.. figure:: /images/extras/knowledge-base-edit.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-edit.png
    :alt: Knowledge Base Edit Mode
    :align: center
 
@@ -50,7 +50,7 @@ Use the **“Edit” button** in the top toolbar to switch into **Edit Mode**
 Switching Languages
 ^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/extras/knowledge-base-switch-languages.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-switch-languages.png
    :alt: Switch languages
    :align: center
 
@@ -64,7 +64,7 @@ Use the language menu to view or edit translations of the current page.
    in Edit Mode
       Untranslated pages are marked with a ⚠️ **warning sign**:
 
-      .. figure:: /images/extras/knowledge-base-missing-translation-edit.png
+      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-edit.png
          :alt: Missing translation warning
          :align: center
 
@@ -72,21 +72,21 @@ Use the language menu to view or edit translations of the current page.
       Untranslated pages are only visible to users with
       **edit permissions**:
 
-      .. figure:: /images/extras/knowledge-base-missing-translation-preview.png
+      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-preview.png
          :alt: Missing translation warning
          :align: center
 
    in the published knowledge base
       Untranslated pages are **always hidden**:
 
-      .. figure:: /images/extras/knowledge-base-missing-translation-published.png
+      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
          :alt: Missing translation warning
          :align: center
 
 Editing Categories
 ------------------
 
-.. figure:: /images/extras/knowledge-base-edit-category.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-edit-category.png
    :alt: Edit category
    :align: center
 
@@ -107,7 +107,7 @@ instead.
 This allows you to divide user groups on a e.g. subscription level to
 reduce the information load for users that don't need the information.
 
-   .. figure:: /images/extras/knowledge-base-granular-category-permissions.gif
+   .. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.gif
       :alt: Screencast showing the visibility option for categories for granular access permissions
       :align: center
 
@@ -136,7 +136,7 @@ reduce the information load for users that don't need the information.
 Editing Answers
 ---------------
 
-.. figure:: /images/extras/knowledge-base-edit-answer.png
+.. figure:: /images/extras/knowledge-base/knowledge-base-edit-answer.png
    :alt: Edit answer
    :align: center
 
@@ -207,7 +207,7 @@ URLs at your customer and provide the answer right away.
 
 Loading answers into articles *does not* replace article content.
 
-.. figure:: /images/extras/load-kb-answer-into-article.gif
+.. figure:: /images/extras/knowledge-base/load-kb-answer-into-article.gif
    :alt: Screencast showing how to insert KB answers into articles
    :align: center
 
