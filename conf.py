@@ -12,7 +12,7 @@ author = u'The Zammad Foundation'
 source_suffix = '.rst'
 master_doc = 'index'
 exclude_patterns = ['_build', 'html', 'doctrees']
-extensions = ['versionwarning.extension']
+extensions = ['versionwarning.extension', 'sphinx_tabs.tabs']
 
 locale_dirs = ['locale/']
 gettext_compact = "user-docs"
