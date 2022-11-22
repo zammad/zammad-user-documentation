@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-20 23:16+0200\n"
+"POT-Creation-Date: 2022-11-21 11:13+0100\n"
 "PO-Revision-Date: 2022-06-15 14:40+0000\n"
 "Last-Translator: Ivan Perovic <ip@zammad.com>\n"
 "Language-Team: Croatian <https://translations.zammad.org/projects/"
@@ -978,7 +978,7 @@ msgid ""
 "coded:**"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:177
+#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr ""
 
@@ -1312,34 +1312,60 @@ msgstr ""
 #: ../advanced/ticket-templates.rst:6
 msgid ""
 "If you find yourself creating lots of tickets with the same basic "
-"attributes, use **ticket templates** to fill them in next time with a single "
-"click."
+"attributes, use **ticket templates** to fill them in with a single click "
+"next time."
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:13
-msgid "Ticket template dialog"
+msgid "Ticket template selection in new ticket dialog"
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:13
-msgid "Use the ticket pane to load or create ticket templates."
+msgid "Use the ticket pane to load ticket templates."
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:15
 msgid ""
-"To create a new template, start by filling in a new ticket as usual. Then, "
-"instead of submitting the ticket form, use the **template dialog** in the "
-"ticket pane to enter a name for your new template, and click “Save”."
+"On any *new ticket* dialogue use the 🗒️ tab on the right to display the "
+"*Templates* column. If Zammad has any templates for you to apply, you'll be "
+"provided with a drop down list to choose from."
 msgstr ""
 
-#: ../advanced/ticket-templates.rst:20
+#: ../advanced/ticket-templates.rst:19
 msgid ""
-"The next time you create a ticket, you’ll find your new template in the "
-"“Select template” dropdown. Click it to apply your saved attributes to the "
-"new ticket."
+"Select a fitting template and press *Apply*. The configured ticket fields "
+"will be populated with the data from the template."
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:24
-msgid "Any template created by any agent will be available to **all** agents."
+msgid ""
+"With version 5.3 Zammad is able to detect \"field collisions\". This means: "
+"If you previously filled in data in a field that's supposed to be filled by "
+"the template, Zammad *will not* overwrite the field with the template data."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:29
+msgid ""
+"Instead it will keep your version of the field. This allows you to e.g. fill "
+"in the customer before applying the template. 🎉"
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:32
+msgid "**😖 I can't add or adjust templates?!**"
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:34
+msgid ""
+"Managing templates requires additional permissions. Please ask your "
+"administrator to provide you with the needed permission."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:37
+msgid "`Learn more about ticket templates in the admin documentation`_."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:39
+msgid "This permission was introduced with Zammad 5.3."
 msgstr ""
 
 #: ../advanced/time-accounting.rst:2
@@ -4321,6 +4347,78 @@ msgid "Untranslated pages are **always hidden**:"
 msgstr ""
 
 #: ../extras/knowledge-base.rst:87
+msgid "Using RSS Feeds"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:89
+msgid ""
+"Zammad allows you to subscribe to either the knowledge base as whole or to "
+"specific categories. There's both a public and an internal option to do so."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:94
+msgid "Public RSS function"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:96
+msgid ""
+"The RSS button of the public knowledge base page is located at the bottom of "
+"each page. If enabled, the button will be available to anybody visiting the "
+"page."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid "Screenshot showing the context menu of the RSS button"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:104
+msgid "Internal RSS function"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:106
+msgid ""
+"The internal RSS button can be found on the upper right next to the edit "
+"button. It's available on every internal knowledge base page you display."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:109
+msgid ""
+"Pressing the the RSS button will provide up to two RSS feeds to subscribe to."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid "Screenshot showing the modal for of the RSS button"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:118
+msgid ""
+"Keep in mind that internal RSS links contain **personal** access tokens. "
+"**Never share these URLs with third parties!**"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:121
+msgid ""
+"If you want to revoke the access and renew your token, you can do so in the "
+"RSS modal."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:0
+msgid ""
+"Screenshot showing the access token reset link on the lower\n"
+"end of the RSS feed modal (internal knowledge base)"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:129
+msgid "**🤔 Huh? I don’t see an “RSS” button...**"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:131
+msgid ""
+"By default, RSS feeds are disabled. If you wish to use the RSS function, "
+"talk to your administrator about enabling the function."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:135
 msgid "Editing Categories"
 msgstr ""
 
@@ -4328,23 +4426,23 @@ msgstr ""
 msgid "Edit category"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:93
+#: ../extras/knowledge-base.rst:141
 msgid ""
 "📁 If you relocate a category using the **Parent** menu, all of its articles "
 "and sub-categories will be relocated with it."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:96
+#: ../extras/knowledge-base.rst:144
 msgid ""
 "🗑️ Categories can only be deleted once **all of their articles and sub-"
 "categories** have been deleted or relocated."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:100
+#: ../extras/knowledge-base.rst:148
 msgid "Granular Category Permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:102
+#: ../extras/knowledge-base.rst:150
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -4352,7 +4450,7 @@ msgid ""
 "instead."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:107
+#: ../extras/knowledge-base.rst:155
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -4372,34 +4470,34 @@ msgstr ""
 msgid "Public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:167
 msgid "**⚙️ Roles require knowledge base reader permission**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:121
+#: ../extras/knowledge-base.rst:169
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:124
+#: ../extras/knowledge-base.rst:172
 msgid "**🥵 Beware of visibility levels**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:126
+#: ../extras/knowledge-base.rst:174
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
 "carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:130
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "If you're unsure, please ask your administrator to configure the `role "
 "permissions`_ accordingly."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:137
+#: ../extras/knowledge-base.rst:185
 msgid "Editing Answers"
 msgstr ""
 
@@ -4407,7 +4505,7 @@ msgstr ""
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:191
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -4416,19 +4514,19 @@ msgid ""
 "attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:149
+#: ../extras/knowledge-base.rst:197
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:152
+#: ../extras/knowledge-base.rst:200
 msgid "🔗 **Weblink**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:152
+#: ../extras/knowledge-base.rst:200
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:156
+#: ../extras/knowledge-base.rst:204
 msgid "💡 **Link Answer**"
 msgstr ""
 
@@ -4440,7 +4538,7 @@ msgstr ""
 msgid "(Will not break if destination URL changes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:160
+#: ../extras/knowledge-base.rst:208
 msgid "📋 **Linked Tickets**"
 msgstr ""
 
@@ -4452,7 +4550,7 @@ msgstr ""
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:215
 msgid "🏷️ **Tags**"
 msgstr ""
 
@@ -4470,38 +4568,38 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:220
 msgid ""
 "🙈 Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
 "according to their visibility:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:177
+#: ../extras/knowledge-base.rst:225
 msgid "**Public** (visible to everyone)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:179
+#: ../extras/knowledge-base.rst:227
 msgid "|blu|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:179
+#: ../extras/knowledge-base.rst:227
 msgid "**Internal** (visible to agents & editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:229
 msgid "|gry|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:229
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:197
+#: ../extras/knowledge-base.rst:245
 msgid "Using answers in ticket articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:247
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -4509,22 +4607,22 @@ msgid ""
 "all languages available."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:252
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
 "URLs at your customer and provide the answer right away."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:256
 msgid "Loading answers into articles *does not* replace article content."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:214
+#: ../extras/knowledge-base.rst:262
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:214
+#: ../extras/knowledge-base.rst:262
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
@@ -4614,15 +4712,140 @@ msgid ""
 "reference information."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:17
+#: ../extras/profile-and-settings.rst:16
+msgid "Clicking on your avatar picture provides the following three sections."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:23
+msgid "Recently viewed"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:19
+msgid ""
+"All information you've viewed previously (tickets, users, organizations). "
+"Helps you to jump back quick and easy without searching or looking in your "
+"overviews."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:23
+msgid "This list is limited, old entries will automatically vanish."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:42
+msgid "Further actions"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:30
+msgid "Dark mode"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:27
+msgid "Quickly toggle dark and light mode without using keyboard bindings."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:0
+msgid "Screencast showing the dark mode button being toggled"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:33
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Keyboard shortcuts"
+msgstr "Tipkovnički prečaci"
+
+#: ../extras/profile-and-settings.rst:33
+msgid ""
+":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:42
+msgid "Profile"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:36
+msgid ""
+"This will open your :ref:`user-profile-settings` and provide further options "
+"for customers and agents."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:41
+msgid ""
+"Customers do not have access to all areas, even if you provide them the "
+"permissions to those areas."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:52
+msgid "Sign out"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:45
+msgid ""
+"Finished working with Zammad? Use the sign out button to end your user "
+"session."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:50
+msgid ""
+"If you didn't tick \"Remember me\" during login or used a third party login, "
+"your session will automatically be invalidated if you close and reopen your "
+"browser."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:57
 msgid "Profile Settings"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:0
+msgid "Appearance"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:79
+msgid "Theme"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:62
+msgid ""
+"Select how Zammad should look. Zammad will remember the setting you choose "
+"here."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:64
+msgid "Dark"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:65
+msgid "Light"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:66
+msgid "Sync with computer"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:68
+msgid "For dark and light you'll fix the dark or light mode to your taste."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:70
+msgid ""
+"If you choose sync with computer, Zammad will dynamically select the mode "
+"depending on what your client prefers at that moment."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:75
+msgid ""
+"Synchronizing the theme preference highly depends on your browser. If your "
+"browser does not support syncing, this setting basically has no effect."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:79
+msgid "Most common modern Browsers do so (e.g. Firefox, Google Chrome)"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:21
+#: ../extras/profile-and-settings.rst:83
 msgid "Set the system display language."
 msgstr ""
 
@@ -4630,7 +4853,7 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:25
+#: ../extras/profile-and-settings.rst:87
 msgid "Upload an avatar."
 msgstr ""
 
@@ -4638,7 +4861,7 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:29
+#: ../extras/profile-and-settings.rst:91
 msgid "Change your login password (may be disabled by system admin)."
 msgstr ""
 
@@ -4646,24 +4869,24 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:33
+#: ../extras/profile-and-settings.rst:95
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:39
+#: ../extras/profile-and-settings.rst:101
 msgid ""
 "Use the first three columns to choose when to receive **internal "
 "notifications** (below). The rightmost column enables email notification as "
 "well."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:46
+#: ../extras/profile-and-settings.rst:108
 msgid "Internal notifications cannot be disabled."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:51
+#: ../extras/profile-and-settings.rst:113
 msgid ""
 "By default, you will receive notifications for all tickets on every group "
 "you belong to—even for tickets that are assigned to other agents. Use the "
@@ -4671,7 +4894,11 @@ msgid ""
 "(You will continue to receive notifications for your own tickets.)"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:56
+#: ../extras/profile-and-settings.rst:118
+msgid "Notifications are available to agents only."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:120
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more `here <https://admin-docs."
@@ -4682,41 +4909,84 @@ msgstr ""
 msgid "Out of Office"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:63
+#: ../extras/profile-and-settings.rst:127
 msgid ""
-"Schedule out-of-office periods in advance, and designate a substitute to "
-"handle your tickets while you’re gone."
+"Schedule absence periods in advance, and designate a substitute to handle "
+"your tickets while you're gone."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:66
+#: ../extras/profile-and-settings.rst:130
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
 "created to help keep track of your tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:70
+#: ../extras/profile-and-settings.rst:134
+msgid "🔔 You **will** continue to receive notifications while you are absent."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:0
+msgid "Overviews"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:137
 msgid ""
-"🔔 You **will** continue to receive notifications while you are out-of-office!"
+"Tired of the overview order your admin decided on? This section allows you "
+"to choose an overview order that fits you the best."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:140
+msgid ""
+"You can revert to the default instance ordering at any time by using the "
+"upper right button \"Reset overview order\"."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:143
+msgid "🤓 Your admin has no power here"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:145
+msgid ""
+"The order does not change, even if your admin renames or reorders the "
+"overviews. The overview order is stored in your profile and thus applies for "
+"any device you use with your account."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:149
+msgid "😕 Can't see this setting?"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:151
+msgid ""
+"This setting option is only available to agents by default. Admins can also "
+"deactivate this permission entirely. Ask your admin to enable this option if "
+"you need it."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:0
+msgid ""
+"Screencast showing how to drag & drop overviews order and reset the\n"
+"order back to default"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Calendar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:75
+#: ../extras/profile-and-settings.rst:161
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
-"link listed at this settings panel."
+"link listed at this setting's panel."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Devices"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:80
+#: ../extras/profile-and-settings.rst:166
 msgid ""
-"See a list of all devices logged in to your Zammad account (and revoke "
+"See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
 msgstr ""
 
@@ -4724,13 +4994,13 @@ msgstr ""
 msgid "Token Access"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:85
+#: ../extras/profile-and-settings.rst:171
 msgid ""
-"Generate personal access tokens for third-party applications to use the "
+"Generate personal access tokens for third party applications to use the "
 "Zammad API."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:88
+#: ../extras/profile-and-settings.rst:174
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -4741,9 +5011,9 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:94
+#: ../extras/profile-and-settings.rst:180
 msgid ""
-"See a list of third-party services (*e.g.,* Facebook or Twitter) linked to "
+"See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
 msgstr ""
 
