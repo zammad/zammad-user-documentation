@@ -33,3 +33,38 @@
 .border-red {
     border-color: #f45801;
 }
+
+.cfloat-left, .cfloat-right {
+    width: 49%;
+}
+
+.cfloat-left {
+    float: left;
+}
+
+.cfloat-right {
+    float: right;
+}
+
+.cfloat-clear {
+    /* Can be used with containers to clear earlier floats */
+    /* By this any character in the container works to do the trick */
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+}
+
+@media (max-width: 600px) {
+    .cfloat-left, .cfloat-right {
+        width: 100% !important;
+        float: none !important;
+    }
+}
+
+.admonition {
+    /* Ensure custom floats don't break following admonitions */
+    display: inline-block;
+    width:  100%;
+}
