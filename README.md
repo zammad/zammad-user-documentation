@@ -1,6 +1,6 @@
 [![Documentation Status][badge]][docs] [![Translation Status][tbadge]][wbetranslate]
 
-# Zammad user documentation
+# Zammad User Documentation
 
 Source files for [Zammad’s user documentation][docs].
 
@@ -20,7 +20,7 @@ If you would like to improve the docs, simply:
 Thanks! ❤ ❤ ❤  
    The Zammad Team
 
-### ReStructuredText markup
+### ReStructuredText Markup
 
 If you like to edit the docs use the ReStructuredText markup language.
 Information about this markup language can be found at:
