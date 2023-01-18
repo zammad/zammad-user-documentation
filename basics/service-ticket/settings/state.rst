@@ -7,6 +7,10 @@ and may be one of the following:
 * new
 * open
 * closed
+* merged
+  (this Ticket has been merged into another Ticket. Check either the
+  :doc:`linked tickets </advanced/ticket-actions/link>` or the
+  :ref:`ticket history <ticket-submenu>` to learn more)
 * pending close
   (*i.e.,* scheduled to automatically close at a later date)
 * pending reminder
