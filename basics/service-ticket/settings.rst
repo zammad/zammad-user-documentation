@@ -48,6 +48,8 @@ text. (Your highlights are visible to other agents.)
 
 ----
 
+.. _ticket-submenu:
+
 .. tip:: **🖱️ UI Protip**
 
    Additional actions are available via the **submenu**:
