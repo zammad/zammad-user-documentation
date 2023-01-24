@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-21 11:13+0100\n"
-"PO-Revision-Date: 2022-09-22 11:30+0000\n"
-"Last-Translator: jbuonocorespx <julien.buonocore@sciencespo-aix.fr>\n"
+"PO-Revision-Date: 2023-01-12 16:10+0000\n"
+"Last-Translator: LahutaeMalcis <hello@privacydream.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
 "documentations/user-documentation/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -193,6 +193,9 @@ msgid ""
 "<ticket_settings>` (including typing up a reply to the customer), applying a "
 "macro will save them, too."
 msgstr ""
+"Si vous avez apporté des modifications à d'autres paramètres :ref:`settings "
+"on the ticket <ticket_settings>` (notamment en rédigeant une réponse au "
+"client), l'application d'une macro les sauvegardera également."
 
 #: ../advanced/macros.rst:38
 msgid ""
@@ -200,16 +203,24 @@ msgid ""
 "any manual changes – including messages to the customer! When in doubt, "
 "apply your macro and your manual changes *separately.*"
 msgstr ""
+"⚠️ **Mais attention:** en cas de conflit, les actions de la macro prévalent "
+"sur toutes les modifications manuelles - y compris les messages au client ! "
+"En cas de doute, appliquez votre macro et vos modifications manuelles "
+"*séparément.*"
 
 #: ../advanced/macros.rst:0
 msgid "Screencast showing above described effect that overwrites articles."
 msgstr ""
+"Capture d'écran vidéo ci-dessus montrant l'effet décrit qui écrase les "
+"articles."
 
 #: ../advanced/macros.rst:48
 msgid ""
 "If the selected macro adds a note to the ticket, any text entered in the "
 "message composer will be lost."
 msgstr ""
+"Si la macro sélectionnée ajoute une note au ticket, tout texte saisi dans le "
+"compositeur de messages sera perdu."
 
 #: ../advanced/macros.rst:52
 msgid "In Bulk"
@@ -217,7 +228,7 @@ msgstr "Collection"
 
 #: ../advanced/macros.rst:54
 msgid "To apply a macro to many tickets at the same time:"
-msgstr ""
+msgstr "Pour appliquer une macro à plusieurs tickets en même temps :"
 
 #: ../advanced/macros.rst:56
 msgid "open a ticket overview;"
@@ -225,11 +236,11 @@ msgstr "afficher l'aperçu d'un ticket ;"
 
 #: ../advanced/macros.rst:57
 msgid "select your desired tickets;"
-msgstr ""
+msgstr "sélectionnez les tickets souhaités ;"
 
 #: ../advanced/macros.rst:58
 msgid "click-and-drag to open the “Run Macro” drawer; and"
-msgstr ""
+msgstr "cliquer et glisser pour ouvrir le tiroir \"Exécuter une macro\" ; et"
 
 #: ../advanced/macros.rst:59
 msgid "drop the tickets on your target macro."
@@ -245,12 +256,18 @@ msgid ""
 "view, Zammad may automatically open the next ticket (or close the current "
 "one, or just stay on it), depending on how the macro was set up."
 msgstr ""
+"☝️ **Il y a juste une différence...** Lorsque vous exécutez une macro à "
+"partir de la vue du ticket, Zammad peut automatiquement ouvrir le ticket "
+"suivant (ou fermer le ticket actuel, ou simplement rester dessus), selon la "
+"façon dont la macro a été configurée."
 
 #: ../advanced/macros.rst:71
 msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
 msgstr ""
+"Lorsque vous l'exécutez à partir de la page des aperçus, Zammad restera "
+"toujours sur la page des aperçus."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -262,12 +279,18 @@ msgid ""
 "you to find e.g. Tickets with specific key words and states. Below "
 "information will help you to improve your search results."
 msgstr ""
+"Avec Zammad, vous pouvez limiter votre recherche à des informations "
+"spécifiques. Cela vous permet de trouver, par exemple, des tickets avec des "
+"mots clés et des états spécifiques. Les informations ci-dessous vous "
+"aideront à améliorer vos résultats de recherche."
 
 #: ../advanced/search.rst:8
 msgid ""
 "For instance you can search for a specific customer by using ``customer."
 "attribute``::"
 msgstr ""
+"Par exemple, vous pouvez rechercher un client spécifique en utilisant "
+"``customer.attribute``: :"
 
 #: ../advanced/search.rst:13
 msgid "or::"
