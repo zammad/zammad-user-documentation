@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-24 18:26+0100\n"
-"PO-Revision-Date: 2023-02-03 16:10+0000\n"
-"Last-Translator: Gerrit <github@gmail.arghs.de>\n"
+"PO-Revision-Date: 2023-02-09 14:10+0000\n"
+"Last-Translator: Daniel Merbecks <Daniel.merbecks@brry.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -5812,7 +5812,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:2
 msgid "Profile & Settings"
-msgstr "Profil & Einstellungsmöglichkeiten"
+msgstr "Profil & Einstellungen"
 
 #: ../extras/profile-and-settings.rst:4
 msgid ""
@@ -5869,7 +5869,6 @@ msgstr ""
 msgid "Screencast showing the dark mode button being toggled"
 msgstr ""
 "Bildschirmaufzeichnung zeigt den Wechsel durch den Schalter \"Dunkler Modus\""
-"."
 
 #: ../extras/profile-and-settings.rst:33
 msgid "Keyboard shortcuts"
@@ -5890,12 +5889,17 @@ msgid ""
 "This will open your :ref:`user-profile-settings` and provide further options "
 "for customers and agents."
 msgstr ""
+"Öffnet :ref:`user-profile-settings` und stellt weitere Optionen für Kunden "
+"und Agenten zur Verfügung."
 
 #: ../extras/profile-and-settings.rst:41
+#, fuzzy
 msgid ""
 "Customers do not have access to all areas, even if you provide them the "
 "permissions to those areas."
 msgstr ""
+"Kunden haben keinen Zugriff auf alle Bereiche - selbst wenn Sie ihnen diese "
+"Rechte geben."
 
 #: ../extras/profile-and-settings.rst:52
 msgid "Sign out"
@@ -5906,6 +5910,8 @@ msgid ""
 "Finished working with Zammad? Use the sign out button to end your user "
 "session."
 msgstr ""
+"Feierabend bei Zammad? Nutzen Sie den Abmeldebutton um die Sitzung zu "
+"beenden."
 
 #: ../extras/profile-and-settings.rst:50
 msgid ""
@@ -5913,6 +5919,9 @@ msgid ""
 "your session will automatically be invalidated if you close and reopen your "
 "browser."
 msgstr ""
+"Wenn Sie \"An mich erinnern\" bei der Anmeldung nicht ankreuzen oder einen "
+"Drittanbieter-Login verwenden, dann endet Ihre Sitzung automatisch wenn Sie "
+"Ihren Browser schließen und wieder öffnen."
 
 #: ../extras/profile-and-settings.rst:57
 msgid "Profile Settings"
@@ -5931,6 +5940,8 @@ msgid ""
 "Select how Zammad should look. Zammad will remember the setting you choose "
 "here."
 msgstr ""
+"Wählen Sie hier, wie Zammad aussehen soll. Zammad merkt sich diese "
+"Einstellungen."
 
 #: ../extras/profile-and-settings.rst:64
 msgid "Dark"
@@ -5946,23 +5957,30 @@ msgstr "Mit Computer synchronisieren"
 
 #: ../extras/profile-and-settings.rst:68
 msgid "For dark and light you'll fix the dark or light mode to your taste."
-msgstr ""
+msgstr "Passen Sie den dunklen oder hellen Modus an Ihre Bedürfnisse an."
 
 #: ../extras/profile-and-settings.rst:70
 msgid ""
 "If you choose sync with computer, Zammad will dynamically select the mode "
 "depending on what your client prefers at that moment."
 msgstr ""
+"Wenn Sie \"Mit Computer synchronisieren\" wählen, entscheidet Zammad "
+"abhängig von den Betriebssystemeinstellungen, welche Farbeinstellung genutzt "
+"wird."
 
 #: ../extras/profile-and-settings.rst:75
 msgid ""
 "Synchronizing the theme preference highly depends on your browser. If your "
 "browser does not support syncing, this setting basically has no effect."
 msgstr ""
+"Die Synchronisierung hängt vom gewählten Browser ab. Wenn ihr Browser dunkle "
+"und helle Modi nicht unterstützt, hat diese Einstellung keinen Effekt."
 
 #: ../extras/profile-and-settings.rst:79
 msgid "Most common modern Browsers do so (e.g. Firefox, Google Chrome)"
 msgstr ""
+"Die meisten modernen Browser kennen diese Funktion (z.B. Firefox, Google "
+"Chrome)"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
@@ -6031,7 +6049,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:118
 msgid "Notifications are available to agents only."
-msgstr ""
+msgstr "Benachrichtigungen sind nur für Agenten verfügbar."
 
 #: ../extras/profile-and-settings.rst:120
 msgid ""
@@ -6072,14 +6090,10 @@ msgstr ""
 "zu behalten."
 
 #: ../extras/profile-and-settings.rst:134
-#, fuzzy
-#| msgid ""
-#| "🔔 You **will** continue to receive notifications while you are out-of-"
-#| "office!"
 msgid "🔔 You **will** continue to receive notifications while you are absent."
 msgstr ""
 "🔔 Sie werden auch **weiterhin Benachrichtigungen erhalten**, während Sie "
-"abwesend sind!"
+"abwesend sind."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Overviews"
@@ -6090,16 +6104,21 @@ msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
+"Gefällt Ihnen die Sortierung der Übersicht nicht, die Ihr Admin für Sie "
+"bereitgestellt hat? Dieser Bereich erlaubt ihnen eine eigene Sortierung "
+"vorzunehmen."
 
 #: ../extras/profile-and-settings.rst:140
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
+"Sie können die Standardsortierung jederzeit wiederherstellen, wenn Sie oben "
+"rechts \"Reihenfolge der Übersichten zurücksetzen\" wählen."
 
 #: ../extras/profile-and-settings.rst:143
 msgid "🤓 Your admin has no power here"
-msgstr ""
+msgstr "🤓 Ihr Admin kann hier nichts anpassen"
 
 #: ../extras/profile-and-settings.rst:145
 msgid ""
@@ -6107,10 +6126,13 @@ msgid ""
 "overviews. The overview order is stored in your profile and thus applies for "
 "any device you use with your account."
 msgstr ""
+"Die Reihenfolge ändert sich nicht, selbst wenn Ihr Admin die Übersichten "
+"umbenennt oder neu sortiert. Die Sortierreihenfolge ist in Ihrem Profil "
+"gespeichert und gilt für alle Instanzen mit Ihrem Account."
 
 #: ../extras/profile-and-settings.rst:149
 msgid "😕 Can't see this setting?"
-msgstr ""
+msgstr "😕 Können Sie diese Einstellung nicht sehen?"
 
 #: ../extras/profile-and-settings.rst:151
 msgid ""
@@ -6118,48 +6140,42 @@ msgid ""
 "deactivate this permission entirely. Ask your admin to enable this option if "
 "you need it."
 msgstr ""
+"Diese Einstellung ist standardmäßig nur für Agenten sichtbar. Admins können "
+"dieses Recht permanent deaktivieren. Fragen Sie Ihren Admin um diese Option "
+"zu aktivieren."
 
 #: ../extras/profile-and-settings.rst:0
-#, fuzzy
-#| msgid "Screencast showing how to list and add new issues to a ticket"
 msgid ""
 "Screencast showing how to drag & drop overviews order and reset the\n"
 "order back to default"
 msgstr ""
-"Screencast zeigt wie Issues aufgelistet und zu Tickets hinzugefügt werden "
-"können"
+"Dieser Screencast zeigt wie mittels Drag & Drop die Reihenfolge der "
+"Übersichten angepasst werden kann und wie die Standardreihenfolge wieder "
+"hergestellt wird"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Calendar"
 msgstr "Kalender"
 
 #: ../extras/profile-and-settings.rst:161
-#, fuzzy
-#| msgid ""
-#| "Add your ticket deadlines to your own favorite calendar app with the ICAL "
-#| "link listed at this settings panel."
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
 msgstr ""
-"Fügen Sie Ticket-Deadlines zu Ihrer eigenen bevorzugten Kalender-App mit dem "
-"ICAL-Link hinzu, der in diesem Einstellungsfenster angezeigt ist."
+"Fügen Sie Fälligkeiten Ihrer Tickets zu Ihrer eigenen bevorzugten Kalender-"
+"App mit dem ICAL-Link hinzu, der in diesem Einstellungsfenster angezeigt ist."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Devices"
 msgstr "Geräte"
 
 #: ../extras/profile-and-settings.rst:166
-#, fuzzy
-#| msgid ""
-#| "See a list of all devices logged in to your Zammad account (and revoke "
-#| "access, if necessary)."
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
 msgstr ""
-"Hier finden Sie eine Liste aller in Ihrem Zammad-Konto angemeldeten Geräte "
-"(bei Bedarf kann der Zugriff widerrufen werden)."
+"Hier finden Sie eine Liste aller in Ihrem Zammad-Konto angemeldeten Geräten ("
+"bei Bedarf kann der Zugriff widerrufen werden)."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Token Access"
@@ -6265,8 +6281,8 @@ msgstr "Signieren"
 msgid ""
 "is proof that a message hasn’t been tampered with or sent by an impersonator."
 msgstr ""
-"beweist dass eine Nachricht nicht manipuliert oder von einem Imitator "
-"gesendet wurde."
+"ist der Beweis, dass eine Nachricht nicht manipuliert oder von einem "
+"Unbekannten gesendet wurde."
 
 #: ../extras/secure-email.rst:30
 msgid ""
