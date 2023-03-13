@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-21 11:13+0100\n"
+"POT-Creation-Date: 2023-01-24 18:26+0100\n"
 "PO-Revision-Date: 2023-01-12 16:10+0000\n"
 "Last-Translator: LahutaeMalcis <hello@privacydream.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -44,7 +44,7 @@ msgstr "L'antisèche du raccourci clavier sous Windows."
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:51 ../extras/customers.rst:12
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Protip**"
 
@@ -1001,7 +1001,8 @@ msgstr ""
 ":doc:`Les statuts des tickets </basics/service-ticket/settings/state>` sont "
 "**codés par couleur:**"
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1009,28 +1010,34 @@ msgstr "|grn|"
 msgid "**Closed**"
 msgstr "**Fermé**"
 
-#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:7
+#, fuzzy
+#| msgid "Merge"
+msgid "**Merged**"
+msgstr "Fusionner"
+
+#: ../snippets/ticket-state-type-circles.rst:8
 msgid "|blk|"
 msgstr "|blk|"
 
-#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
 "**En attente** (marqué en attente; aucune action immédiate nécessaire.)"
 
-#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:12
 msgid "**New / Open** (Ready for action.)"
 msgstr "**Nouveau / ouverts** (Prêt pour action.)"
 
-#: ../snippets/ticket-state-type-circles.rst:12
+#: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:13
+#: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr "**Escaladé** (Nécessite de l'attention en urgence.)"
 
@@ -2257,7 +2264,7 @@ msgstr ""
 "Surlignez en sélectionnant le texte, puis cliquez sur le surligneur. Cliquez "
 "encore pour annuler."
 
-#: ../basics/service-ticket/settings.rst:53
+#: ../basics/service-ticket/settings.rst:55
 msgid "Additional actions are available via the **submenu**:"
 msgstr "Des actions supplémentaires sont disponibles via le **sous-menu**:"
 
@@ -2265,16 +2272,16 @@ msgstr "Des actions supplémentaires sont disponibles via le **sous-menu**:"
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:59
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 "Cliquez l'entête du **ticket ▾** pour accéder aux actions supplémentaires."
 
-#: ../basics/service-ticket/settings.rst:64
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr "Historique"
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
@@ -2282,11 +2289,11 @@ msgstr ""
 "Pour voir une liste exhaustive des mises à jour du ticket, effectuées par "
 "n'importe quel utilisateur, depuis sa création."
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr "Fusionner"
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
@@ -2294,11 +2301,11 @@ msgstr ""
 "Déplace tous les messages/notes sur un autre ticket (voir :doc:`Fusionner "
 "des tickets </advanced/ticket-actions/merge>` pour plus de détails)."
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr "Changer le client"
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr "Réassigner le ticket à un autre client."
 
@@ -2529,33 +2536,40 @@ msgstr "fermé"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
+"merged (this Ticket has been merged into another Ticket. Check either the :"
+"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
+"history <ticket-submenu>` to learn more)"
+msgstr ""
+
+#: ../basics/service-ticket/settings/state.rst:14
+msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
 "en attente de fermeture (*i.e.,* planifié pour être automatiquement fermé à "
 "une date ultérieure)"
 
-#: ../basics/service-ticket/settings/state.rst:12
+#: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
 "rappel en attente (*i.e.,* caché, mais planifié pour réapparaître à une date "
 "ultérieure)"
 
-#: ../basics/service-ticket/settings/state.rst:16
+#: ../basics/service-ticket/settings/state.rst:20
 msgid "State colors"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:18
+#: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:26
+#: ../basics/service-ticket/settings/state.rst:30
 msgid "What’s the difference between “new” and “open”?"
 msgstr "Quelle est la différence entre “nouveau” et “ouvert”?"
 
-#: ../basics/service-ticket/settings/state.rst:28
+#: ../basics/service-ticket/settings/state.rst:32
 msgid ""
 "States do more than just indicate progress: Zammad has a fine-grained time "
 "tracking feature (so-called “\\ `service-level agreements <https://admin-"
@@ -2570,7 +2584,7 @@ msgstr ""
 "combien de temps il faut pour qu'un client reçoive une réponse sur un "
 "nouveau ticket ou pour voir leurs demandes traitées complètement."
 
-#: ../basics/service-ticket/settings/state.rst:35
+#: ../basics/service-ticket/settings/state.rst:39
 msgid ""
 "On a *new* ticket, the customer still hasn’t received her first response on "
 "the issue."
@@ -2578,7 +2592,7 @@ msgstr ""
 "Sur un *nouveau* ticket, le client n'a pas encore reçu de première réponse "
 "concernant sa demande."
 
-#: ../basics/service-ticket/settings/state.rst:38
+#: ../basics/service-ticket/settings/state.rst:42
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn’t been resolved."
@@ -2586,7 +2600,7 @@ msgstr ""
 "Sur un ticket *ouvert*, le client a déjà reçu une réponse initiale, mais la "
 "demande n'a pas encore été traitée."
 
-#: ../basics/service-ticket/settings/state.rst:42
+#: ../basics/service-ticket/settings/state.rst:46
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
@@ -2594,7 +2608,7 @@ msgstr ""
 "⏱️ Les tickets dans un état d'**attente** ne consomme pas de temps dans leurs "
 "limites du SLA"
 
-#: ../basics/service-ticket/settings/state.rst:44
+#: ../basics/service-ticket/settings/state.rst:48
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
 "on feedback from a third-party supplier who’s out of town until next week."

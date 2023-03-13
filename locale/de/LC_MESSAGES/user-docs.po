@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-21 11:13+0100\n"
-"PO-Revision-Date: 2023-01-14 19:10+0000\n"
-"Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
+"POT-Creation-Date: 2023-01-24 18:26+0100\n"
+"PO-Revision-Date: 2023-02-17 10:10+0000\n"
+"Last-Translator: sbaecker <baecker@uni-koblenz.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation/de/>\n"
 "Language: de\n"
@@ -44,7 +44,7 @@ msgstr "Der Spickzettel für Tastaturkürzel unter Windows."
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:51 ../extras/customers.rst:12
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️Tipp für Profi-Benutzer**"
 
@@ -1072,7 +1072,8 @@ msgstr ""
 ":doc:`Ticketstatus </basics/service-ticket/settings/state>` haben bestimmte "
 "**Farbcodes:**"
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1080,29 +1081,33 @@ msgstr "|grn|"
 msgid "**Closed**"
 msgstr "**Geschlossen**"
 
-#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:7
+msgid "**Merged**"
+msgstr "**Zusammengefasst**"
+
+#: ../snippets/ticket-state-type-circles.rst:8
 msgid "|blk|"
 msgstr "|blk|"
 
-#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
 "**Vertagt** (Als ausstehend markiert; keine sofortigen Maßnahmen "
 "erforderlich.)"
 
-#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:12
 msgid "**New / Open** (Ready for action.)"
 msgstr "**Neu / Offen** (Bereit zur Behandlung)"
 
-#: ../snippets/ticket-state-type-circles.rst:12
+#: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:13
+#: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr "**Eskaliert** (Benötigt dringend Aufmerksamkeit/ Bearbeitung)"
 
@@ -2411,7 +2416,7 @@ msgstr ""
 "Textmarker, wird der Textteil hervorgehoben. Um die Einstellung rückgängig "
 "zu machen, klicken Sie erneut auf den Textmarker."
 
-#: ../basics/service-ticket/settings.rst:53
+#: ../basics/service-ticket/settings.rst:55
 msgid "Additional actions are available via the **submenu**:"
 msgstr "Weitere Aktionen sind über das **Untermenü** verfügbar:"
 
@@ -2419,17 +2424,17 @@ msgstr "Weitere Aktionen sind über das **Untermenü** verfügbar:"
 msgid "Ticket submenu"
 msgstr "Ticket Untermenü"
 
-#: ../basics/service-ticket/settings.rst:59
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 "Klicken Sie auf die Schaltfläche \"Ticket ▾\", um weitere Aktionen "
 "auszuführen."
 
-#: ../basics/service-ticket/settings.rst:64
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr "Historie"
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
@@ -2437,11 +2442,11 @@ msgstr ""
 "Hier finden Sie eine detaillierte Liste der Ticket-Updates, die von allen "
 "Benutzern seit der Erstellung durchgeführt wurden."
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr "Zusammenfassen"
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
@@ -2450,11 +2455,11 @@ msgstr ""
 "Ticket übertragen werden (siehe :doc:`Zusammenfassen von Tickets</advanced/"
 "ticket-actions/merge>` für weitere Details dazu)."
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr "Kunden ändern"
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr "Weisen Sie dem Ticket einen anderen Kunden zu."
 
@@ -2687,23 +2692,34 @@ msgstr "geschlossen"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
+"merged (this Ticket has been merged into another Ticket. Check either the :"
+"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
+"history <ticket-submenu>` to learn more)"
+msgstr ""
+"zusammengefasst (dieses Ticket wurde mit einem anderen Ticket "
+"zusammengefasst. Für weitere Informationen überprüfen Sie :doc:`verlinkte "
+"Tickets </advanced/ticket-actions/link>` oder :ref:`Ticket Historie<ticket-"
+"submenu>`)"
+
+#: ../basics/service-ticket/settings/state.rst:14
+msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
 "warten auf schließen (*d.h.* das Ticket soll zu einem späteren Zeitpunkt "
 "automatisch geschlossen werden)"
 
-#: ../basics/service-ticket/settings/state.rst:12
+#: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
 "warten auf Erinnerung (*d.h.* das Ticket ist ausgeblendet, wird aber später "
 "zum geplanten Zeitpunkt wieder erscheinen)"
 
-#: ../basics/service-ticket/settings/state.rst:16
+#: ../basics/service-ticket/settings/state.rst:20
 msgid "State colors"
 msgstr "Status-Farben"
 
-#: ../basics/service-ticket/settings/state.rst:18
+#: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
@@ -2711,11 +2727,11 @@ msgstr ""
 "Zammad Status sind farbkodiert. Das hilft Ihnen den Zustand eines Tickets "
 "viel schneller zu verstehen – ohne einen Blick in den Verlauf zu werfen."
 
-#: ../basics/service-ticket/settings/state.rst:26
+#: ../basics/service-ticket/settings/state.rst:30
 msgid "What’s the difference between “new” and “open”?"
 msgstr "Worin besteht der Unterschied zwischen \"neu\" und \"offen\"?"
 
-#: ../basics/service-ticket/settings/state.rst:28
+#: ../basics/service-ticket/settings/state.rst:32
 msgid ""
 "States do more than just indicate progress: Zammad has a fine-grained time "
 "tracking feature (so-called “\\ `service-level agreements <https://admin-"
@@ -2729,7 +2745,7 @@ msgstr ""
 "nutzt Ticket-Status, um zu erreichen, wie lang es dauert, dass ein Kunde "
 "eine Antwort erhält oder das Problem komplett gelöst wurde."
 
-#: ../basics/service-ticket/settings/state.rst:35
+#: ../basics/service-ticket/settings/state.rst:39
 msgid ""
 "On a *new* ticket, the customer still hasn’t received her first response on "
 "the issue."
@@ -2737,7 +2753,7 @@ msgstr ""
 "Bei einem *neuen* Ticket hat der Kunde noch keine Antwort zu diesem Thema "
 "erhalten."
 
-#: ../basics/service-ticket/settings/state.rst:38
+#: ../basics/service-ticket/settings/state.rst:42
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn’t been resolved."
@@ -2745,7 +2761,7 @@ msgstr ""
 "Bei einem *offenen* Ticket hat der Kunde eine erste Antwort erhalten aber "
 "das Problem ist noch nicht gelöst."
 
-#: ../basics/service-ticket/settings/state.rst:42
+#: ../basics/service-ticket/settings/state.rst:46
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
@@ -2753,7 +2769,7 @@ msgstr ""
 "⏱️ Tickets mit einem *warten* Status haben keine zeitlichen Auswirkungen auf "
 "die SLA-Limits."
 
-#: ../basics/service-ticket/settings/state.rst:44
+#: ../basics/service-ticket/settings/state.rst:48
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
 "on feedback from a third-party supplier who’s out of town until next week."
@@ -5373,6 +5389,9 @@ msgid ""
 "Zammad allows you to subscribe to either the knowledge base as whole or to "
 "specific categories. There's both a public and an internal option to do so."
 msgstr ""
+"Es ist möglich entweder die gesamte Knowledge Base oder bestimmte Kategorien "
+"zu abonnieren. Es gibt sowohl eine öffentliche als auch eine interne Option "
+"dafür."
 
 #: ../extras/knowledge-base.rst:94
 msgid "Public RSS function"
@@ -5384,10 +5403,13 @@ msgid ""
 "each page. If enabled, the button will be available to anybody visiting the "
 "page."
 msgstr ""
+"Die RSS-Schaltfläche der Knowledge Base befindet sich im unteren Bereich "
+"jeder Seite. Wenn aktiviert, steht die Schaltfläche jedem Besucher der Seite "
+"zur Verfügung."
 
 #: ../extras/knowledge-base.rst:0
 msgid "Screenshot showing the context menu of the RSS button"
-msgstr ""
+msgstr "Screenshot der das Kontextmenü der RSS-Schaltfläche zeigt"
 
 #: ../extras/knowledge-base.rst:104
 msgid "Internal RSS function"
@@ -5398,33 +5420,44 @@ msgid ""
 "The internal RSS button can be found on the upper right next to the edit "
 "button. It's available on every internal knowledge base page you display."
 msgstr ""
+"Die interne RSS-Schaltfläche befindet sich oben rechts neben der Bearbeiten-"
+"Schaltfläche. Die RSS-Schaltfläche ist auf jeder internen Knowledge-Base-"
+"Seite verfügbar."
 
 #: ../extras/knowledge-base.rst:109
 msgid ""
 "Pressing the the RSS button will provide up to two RSS feeds to subscribe to."
 msgstr ""
+"Ein Druck auf den RSS-Knopf bietet bis zu zwei RSS-Feeds zum Abonnieren an."
 
 #: ../extras/knowledge-base.rst:0
 msgid "Screenshot showing the modal for of the RSS button"
-msgstr ""
+msgstr "Bildschirmaufnahme zeigt den Dialog für den RSS-Knopf"
 
 #: ../extras/knowledge-base.rst:118
 msgid ""
 "Keep in mind that internal RSS links contain **personal** access tokens. "
 "**Never share these URLs with third parties!**"
 msgstr ""
+"Beachten Sie, dass der interne RSS-Link einen **persöhnlichen** Zugangstoken "
+"beinhaltet. **Teilen Sie niemals diese URLs mit Dritten!**"
 
 #: ../extras/knowledge-base.rst:121
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
 "RSS modal."
 msgstr ""
+"Falls Sie den Zugriff für den Token entziehen und ihn erneuenten möchte, "
+"können Sie das im RSS-Dialog tun."
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
 "Screenshot showing the access token reset link on the lower\n"
 "end of the RSS feed modal (internal knowledge base)"
 msgstr ""
+"Die Bildschirmaufnahme zeigt den Link zum Zurücksetzen des Zugriffstoken am "
+"unteren\n"
+"Ende des RSS-Feed-Dialogs (interne Knowledge Base)"
 
 #: ../extras/knowledge-base.rst:129
 msgid "**🤔 Huh? I don’t see an “RSS” button...**"
@@ -5779,7 +5812,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:2
 msgid "Profile & Settings"
-msgstr "Profil & Einstellungsmöglichkeiten"
+msgstr "Profil & Einstellungen"
 
 #: ../extras/profile-and-settings.rst:4
 msgid ""
@@ -5799,7 +5832,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:16
 msgid "Clicking on your avatar picture provides the following three sections."
-msgstr ""
+msgstr "Ein Klick auf Ihren Avatar bietet Ihnen die folgenden drei Abschnitte."
 
 #: ../extras/profile-and-settings.rst:23
 msgid "Recently viewed"
@@ -5811,10 +5844,13 @@ msgid ""
 "Helps you to jump back quick and easy without searching or looking in your "
 "overviews."
 msgstr ""
+"Alle Informationen, die Sie zuvor angezeigt haben (Tickets, Benutzer, "
+"Organisationen). So können Sie schnell und einfach zurückspringen, ohne zu "
+"suchen oder in Ihren Übersichten nachzuschauen."
 
 #: ../extras/profile-and-settings.rst:23
 msgid "This list is limited, old entries will automatically vanish."
-msgstr ""
+msgstr "Diese Liste ist begrenzt, alte Einträge werden automatisch gelöscht."
 
 #: ../extras/profile-and-settings.rst:42
 msgid "Further actions"
@@ -5827,18 +5863,16 @@ msgstr "Dark-Mode"
 #: ../extras/profile-and-settings.rst:27
 msgid "Quickly toggle dark and light mode without using keyboard bindings."
 msgstr ""
+"Schalten Sie schnell zwischem dunklem und hellem Modus ohne Tastaturkürzel."
 
 #: ../extras/profile-and-settings.rst:0
-#, fuzzy
-#| msgid "Screencast of the Subscribe button feature"
 msgid "Screencast showing the dark mode button being toggled"
-msgstr "Screencast für die Abonnier-Button Funktion"
+msgstr ""
+"Bildschirmaufzeichnung zeigt den Wechsel durch den Schalter \"Dunkler Modus\""
 
 #: ../extras/profile-and-settings.rst:33
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard shortcuts"
-msgstr "Tastenkombinationen für die Tastatur"
+msgstr "Tastaturkürzel"
 
 #: ../extras/profile-and-settings.rst:33
 msgid ""
@@ -5855,12 +5889,16 @@ msgid ""
 "This will open your :ref:`user-profile-settings` and provide further options "
 "for customers and agents."
 msgstr ""
+"Öffnet :ref:`user-profile-settings` und stellt weitere Optionen für Kunden "
+"und Agenten zur Verfügung."
 
 #: ../extras/profile-and-settings.rst:41
 msgid ""
 "Customers do not have access to all areas, even if you provide them the "
 "permissions to those areas."
 msgstr ""
+"Kunden haben nicht auf alle Bereiche Zugriff - selbst wenn Sie ihnen Rechte "
+"auf diese geben."
 
 #: ../extras/profile-and-settings.rst:52
 msgid "Sign out"
@@ -5871,6 +5909,8 @@ msgid ""
 "Finished working with Zammad? Use the sign out button to end your user "
 "session."
 msgstr ""
+"Feierabend bei Zammad? Nutzen Sie den Abmeldebutton um die Sitzung zu "
+"beenden."
 
 #: ../extras/profile-and-settings.rst:50
 msgid ""
@@ -5878,6 +5918,9 @@ msgid ""
 "your session will automatically be invalidated if you close and reopen your "
 "browser."
 msgstr ""
+"Wenn Sie \"An mich erinnern\" bei der Anmeldung nicht ankreuzen oder einen "
+"Drittanbieter-Login verwenden, dann endet Ihre Sitzung automatisch wenn Sie "
+"Ihren Browser schließen und wieder öffnen."
 
 #: ../extras/profile-and-settings.rst:57
 msgid "Profile Settings"
@@ -5896,6 +5939,8 @@ msgid ""
 "Select how Zammad should look. Zammad will remember the setting you choose "
 "here."
 msgstr ""
+"Wählen Sie hier, wie Zammad aussehen soll. Zammad merkt sich diese "
+"Einstellungen."
 
 #: ../extras/profile-and-settings.rst:64
 msgid "Dark"
@@ -5911,23 +5956,30 @@ msgstr "Mit Computer synchronisieren"
 
 #: ../extras/profile-and-settings.rst:68
 msgid "For dark and light you'll fix the dark or light mode to your taste."
-msgstr ""
+msgstr "Passen Sie den dunklen oder hellen Modus an Ihre Bedürfnisse an."
 
 #: ../extras/profile-and-settings.rst:70
 msgid ""
 "If you choose sync with computer, Zammad will dynamically select the mode "
 "depending on what your client prefers at that moment."
 msgstr ""
+"Wenn Sie \"Mit Computer synchronisieren\" wählen, entscheidet Zammad "
+"abhängig von den Betriebssystemeinstellungen, welche Farbeinstellung genutzt "
+"wird."
 
 #: ../extras/profile-and-settings.rst:75
 msgid ""
 "Synchronizing the theme preference highly depends on your browser. If your "
 "browser does not support syncing, this setting basically has no effect."
 msgstr ""
+"Die Synchronisierung hängt vom gewählten Browser ab. Wenn ihr Browser dunkle "
+"und helle Modi nicht unterstützt, hat diese Einstellung keinen Effekt."
 
 #: ../extras/profile-and-settings.rst:79
 msgid "Most common modern Browsers do so (e.g. Firefox, Google Chrome)"
 msgstr ""
+"Die meisten modernen Browser kennen diese Funktion (z.B. Firefox, Google "
+"Chrome)"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
@@ -5996,7 +6048,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:118
 msgid "Notifications are available to agents only."
-msgstr ""
+msgstr "Benachrichtigungen sind nur für Agenten verfügbar."
 
 #: ../extras/profile-and-settings.rst:120
 msgid ""
@@ -6014,10 +6066,6 @@ msgid "Out of Office"
 msgstr "Abwesenheit"
 
 #: ../extras/profile-and-settings.rst:127
-#, fuzzy
-#| msgid ""
-#| "Schedule out-of-office periods in advance, and designate a substitute to "
-#| "handle your tickets while you’re gone."
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -6037,14 +6085,10 @@ msgstr ""
 "zu behalten."
 
 #: ../extras/profile-and-settings.rst:134
-#, fuzzy
-#| msgid ""
-#| "🔔 You **will** continue to receive notifications while you are out-of-"
-#| "office!"
 msgid "🔔 You **will** continue to receive notifications while you are absent."
 msgstr ""
 "🔔 Sie werden auch **weiterhin Benachrichtigungen erhalten**, während Sie "
-"abwesend sind!"
+"abwesend sind."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Overviews"
@@ -6055,16 +6099,21 @@ msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
+"Gefällt Ihnen die Sortierung der Übersicht nicht, die Ihr Admin für Sie "
+"bereitgestellt hat? Dieser Bereich erlaubt ihnen eine eigene Sortierung "
+"vorzunehmen."
 
 #: ../extras/profile-and-settings.rst:140
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
+"Sie können die Standardsortierung jederzeit wiederherstellen, wenn Sie oben "
+"rechts \"Reihenfolge der Übersichten zurücksetzen\" wählen."
 
 #: ../extras/profile-and-settings.rst:143
 msgid "🤓 Your admin has no power here"
-msgstr ""
+msgstr "🤓 Ihr Admin kann hier nichts anpassen"
 
 #: ../extras/profile-and-settings.rst:145
 msgid ""
@@ -6072,10 +6121,13 @@ msgid ""
 "overviews. The overview order is stored in your profile and thus applies for "
 "any device you use with your account."
 msgstr ""
+"Die Reihenfolge ändert sich nicht, selbst wenn Ihr Admin die Übersichten "
+"umbenennt oder neu sortiert. Die Sortierreihenfolge ist in Ihrem Profil "
+"gespeichert und gilt für alle Instanzen mit Ihrem Account."
 
 #: ../extras/profile-and-settings.rst:149
 msgid "😕 Can't see this setting?"
-msgstr ""
+msgstr "😕 Können Sie diese Einstellung nicht sehen?"
 
 #: ../extras/profile-and-settings.rst:151
 msgid ""
@@ -6083,58 +6135,48 @@ msgid ""
 "deactivate this permission entirely. Ask your admin to enable this option if "
 "you need it."
 msgstr ""
+"Diese Einstellung ist standardmäßig nur für Agenten sichtbar. Admins können "
+"dieses Recht permanent deaktivieren. Fragen Sie Ihren Admin um diese Option "
+"zu aktivieren."
 
 #: ../extras/profile-and-settings.rst:0
-#, fuzzy
-#| msgid "Screencast showing how to list and add new issues to a ticket"
 msgid ""
 "Screencast showing how to drag & drop overviews order and reset the\n"
 "order back to default"
 msgstr ""
-"Screencast zeigt wie Issues aufgelistet und zu Tickets hinzugefügt werden "
-"können"
+"Dieser Screencast zeigt wie mittels Drag & Drop die Reihenfolge der "
+"Übersichten angepasst werden kann und wie die Standardreihenfolge wieder "
+"hergestellt wird"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Calendar"
 msgstr "Kalender"
 
 #: ../extras/profile-and-settings.rst:161
-#, fuzzy
-#| msgid ""
-#| "Add your ticket deadlines to your own favorite calendar app with the ICAL "
-#| "link listed at this settings panel."
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
 msgstr ""
-"Fügen Sie Ticket-Deadlines zu Ihrer eigenen bevorzugten Kalender-App mit dem "
-"ICAL-Link hinzu, der in diesem Einstellungsfenster angezeigt ist."
+"Fügen Sie Fälligkeiten Ihrer Tickets zu Ihrer eigenen bevorzugten Kalender-"
+"App mit dem ICAL-Link hinzu, der in diesem Einstellungsfenster angezeigt ist."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Devices"
 msgstr "Geräte"
 
 #: ../extras/profile-and-settings.rst:166
-#, fuzzy
-#| msgid ""
-#| "See a list of all devices logged in to your Zammad account (and revoke "
-#| "access, if necessary)."
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
 msgstr ""
-"Hier finden Sie eine Liste aller in Ihrem Zammad-Konto angemeldeten Geräte "
-"(bei Bedarf kann der Zugriff widerrufen werden)."
+"Hier finden Sie eine Liste aller in Ihrem Zammad-Konto angemeldeten Geräten ("
+"bei Bedarf kann der Zugriff widerrufen werden)."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Token Access"
 msgstr "Token Zugriff"
 
 #: ../extras/profile-and-settings.rst:171
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third-party applications to use the "
-#| "Zammad API."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -6157,10 +6199,6 @@ msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
 #: ../extras/profile-and-settings.rst:180
-#, fuzzy
-#| msgid ""
-#| "See a list of third-party services (*e.g.,* Facebook or Twitter) linked "
-#| "to your Zammad account."
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
@@ -6230,8 +6268,8 @@ msgstr "Signieren"
 msgid ""
 "is proof that a message hasn’t been tampered with or sent by an impersonator."
 msgstr ""
-"beweist dass eine Nachricht nicht manipuliert oder von einem Imitator "
-"gesendet wurde."
+"ist der Beweis, dass eine Nachricht nicht manipuliert oder von einem "
+"Unbekannten gesendet wurde."
 
 #: ../extras/secure-email.rst:30
 msgid ""
