@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-21 11:13+0100\n"
-"PO-Revision-Date: 2022-11-17 08:09+0000\n"
+"POT-Creation-Date: 2023-01-24 18:26+0100\n"
+"PO-Revision-Date: 2022-12-17 07:09+0000\n"
 "Last-Translator: Lorenzo Milesi <lorenzo.milesi@yetopen.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
 "documentations/user-documentation/it/>\n"
@@ -44,7 +44,7 @@ msgstr "Lo specchietto riassuntivo delle scorciatoie da tastiera per Windows."
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:51 ../extras/customers.rst:12
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Suggerimento sull'interfaccia utente**"
 
@@ -178,11 +178,11 @@ msgstr ""
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
-msgstr ""
+msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
 
 #: ../advanced/macros.rst:31
 msgid "💾 **Macro = Update**"
-msgstr ""
+msgstr "💾 **Macro = Aggiorna**"
 
 #: ../advanced/macros.rst:33
 msgid ""
@@ -928,7 +928,8 @@ msgstr ""
 ":doc:`Lo stato dei ticket </basics/service-ticket/settings/state>` è "
 "**identificato da un colore:**"
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -936,29 +937,35 @@ msgstr "|grn|"
 msgid "**Closed**"
 msgstr "**Chiusi**"
 
-#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:7
+#, fuzzy
+#| msgid "Merge"
+msgid "**Merged**"
+msgstr "Unisci"
+
+#: ../snippets/ticket-state-type-circles.rst:8
 msgid "|blk|"
 msgstr "|blk|"
 
-#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
 "**Posticipato** (Contrassegnato come in attesa; non è richiesta nessuna "
 "azione urgente)"
 
-#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:12
 msgid "**New / Open** (Ready for action.)"
 msgstr "**Nuovi / aperti** (da elaborare)"
 
-#: ../snippets/ticket-state-type-circles.rst:12
+#: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:13
+#: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr "*Priorizzati** (ticket che richiedono un azione urgente)"
 
@@ -2112,7 +2119,7 @@ msgstr ""
 "Evidenzia selezionando del testo e cliccando l'evidenziatore. Riclicca per "
 "annullare."
 
-#: ../basics/service-ticket/settings.rst:53
+#: ../basics/service-ticket/settings.rst:55
 msgid "Additional actions are available via the **submenu**:"
 msgstr "Azioni aggiuntive sono disponibili attraverso il **sottomenù**"
 
@@ -2120,16 +2127,16 @@ msgstr "Azioni aggiuntive sono disponibili attraverso il **sottomenù**"
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:59
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 "Clicca l'intestazione **Ticket ▾** per accedere alle azioni aggiuntive."
 
-#: ../basics/service-ticket/settings.rst:64
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr "Cronologia"
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
@@ -2137,11 +2144,11 @@ msgstr ""
 "Visualizza una lista dettagliata di aggiornamenti del ticket, compiuti da "
 "qualsiasi utente, dal momento della sua creazione."
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr "Unisci"
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
@@ -2149,11 +2156,11 @@ msgstr ""
 "Sposta tutti i messaggi e le note in un altro ticket (vedi :doc:`Unire i "
 "ticket </advanced/ticket-actions/merge>` per più dettagli)."
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr "Cambia cliente"
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr "Assegna il ticket ad un altro cliente."
 
@@ -2383,30 +2390,37 @@ msgstr "chiuso"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
+"merged (this Ticket has been merged into another Ticket. Check either the :"
+"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
+"history <ticket-submenu>` to learn more)"
+msgstr ""
+
+#: ../basics/service-ticket/settings/state.rst:14
+msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr "in attesa di chiusura (programmato per essere chiuso automaticamente)"
 
-#: ../basics/service-ticket/settings/state.rst:12
+#: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
 "in attesa (nascosto, ma programmato per ricomparire dopo un certo tempo)"
 
-#: ../basics/service-ticket/settings/state.rst:16
+#: ../basics/service-ticket/settings/state.rst:20
 msgid "State colors"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:18
+#: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:26
+#: ../basics/service-ticket/settings/state.rst:30
 msgid "What’s the difference between “new” and “open”?"
 msgstr "Che differenza c'è fra \"nuovo\" ed \"aperto\"?"
 
-#: ../basics/service-ticket/settings/state.rst:28
+#: ../basics/service-ticket/settings/state.rst:32
 msgid ""
 "States do more than just indicate progress: Zammad has a fine-grained time "
 "tracking feature (so-called “\\ `service-level agreements <https://admin-"
@@ -2421,7 +2435,7 @@ msgstr ""
 "prima che il cliente riceva una risposta al suo ticket o prima che il "
 "problema venga completamente risolto."
 
-#: ../basics/service-ticket/settings/state.rst:35
+#: ../basics/service-ticket/settings/state.rst:39
 msgid ""
 "On a *new* ticket, the customer still hasn’t received her first response on "
 "the issue."
@@ -2429,7 +2443,7 @@ msgstr ""
 "In un ticket *nuovo*, il cliente non ha ancora ricevuto la prima risposta "
 "riguardante il problema."
 
-#: ../basics/service-ticket/settings/state.rst:38
+#: ../basics/service-ticket/settings/state.rst:42
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn’t been resolved."
@@ -2437,7 +2451,7 @@ msgstr ""
 "In un ticket *aperto*, il cliente ha ricevuto una risposta iniziale, ma il "
 "problema non è ancora stato risolto."
 
-#: ../basics/service-ticket/settings/state.rst:42
+#: ../basics/service-ticket/settings/state.rst:46
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
@@ -2445,7 +2459,7 @@ msgstr ""
 "⏱️ Il tempo che un ticket passa *in attesa* non vengono considerati nei "
 "limiti SLA."
 
-#: ../basics/service-ticket/settings/state.rst:44
+#: ../basics/service-ticket/settings/state.rst:48
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
 "on feedback from a third-party supplier who’s out of town until next week."

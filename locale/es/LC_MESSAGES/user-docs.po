@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-21 11:13+0100\n"
-"PO-Revision-Date: 2022-10-22 15:14+0000\n"
-"Last-Translator: Carlos Jara <carlos.jara@gmail.com>\n"
+"POT-Creation-Date: 2023-01-24 18:26+0100\n"
+"PO-Revision-Date: 2023-03-10 17:10+0000\n"
+"Last-Translator: fcaputomobeats <fcaputo@teypesa.com>\n"
 "Language-Team: Spanish <https://translations.zammad.org/projects/"
 "documentations/user-documentation/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -44,7 +44,7 @@ msgstr "Chuleta de atajos de telado en Windows."
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:51 ../extras/customers.rst:12
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Interfaz de usuario: Surgerencia pro**"
 
@@ -940,7 +940,8 @@ msgid ""
 "coded:**"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr ""
 
@@ -948,27 +949,31 @@ msgstr ""
 msgid "**Closed**"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:7
+msgid "**Merged**"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:8
 msgid "|blk|"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:12
 msgid "**New / Open** (Ready for action.)"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:12
+#: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:13
+#: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr ""
 
@@ -1999,7 +2004,7 @@ msgid ""
 "undo."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:53
+#: ../basics/service-ticket/settings.rst:55
 msgid "Additional actions are available via the **submenu**:"
 msgstr ""
 
@@ -2007,35 +2012,35 @@ msgstr ""
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:59
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:64
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr ""
 
@@ -2222,29 +2227,36 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
+"merged (this Ticket has been merged into another Ticket. Check either the :"
+"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
+"history <ticket-submenu>` to learn more)"
+msgstr ""
+
+#: ../basics/service-ticket/settings/state.rst:14
+msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:12
+#: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:16
+#: ../basics/service-ticket/settings/state.rst:20
 msgid "State colors"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:18
+#: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:26
+#: ../basics/service-ticket/settings/state.rst:30
 msgid "What’s the difference between “new” and “open”?"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:28
+#: ../basics/service-ticket/settings/state.rst:32
 msgid ""
 "States do more than just indicate progress: Zammad has a fine-grained time "
 "tracking feature (so-called “\\ `service-level agreements <https://admin-"
@@ -2253,25 +2265,25 @@ msgid ""
 "a new ticket or get their issues resolved entirely."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:35
+#: ../basics/service-ticket/settings/state.rst:39
 msgid ""
 "On a *new* ticket, the customer still hasn’t received her first response on "
 "the issue."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:38
+#: ../basics/service-ticket/settings/state.rst:42
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn’t been resolved."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:42
+#: ../basics/service-ticket/settings/state.rst:46
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:44
+#: ../basics/service-ticket/settings/state.rst:48
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
 "on feedback from a third-party supplier who’s out of town until next week."
@@ -2458,10 +2470,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:59
-#, fuzzy
-#| msgid "article.from"
 msgid "Article"
-msgstr "article.from"
+msgstr "Artículo"
 
 #: ../basics/zammad-glossary.rst:57
 msgid ""
@@ -3061,10 +3071,8 @@ msgid "M"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:482
-#, fuzzy
-#| msgid "Macros"
 msgid "Macro"
-msgstr "Macros"
+msgstr "Macro"
 
 #: ../basics/zammad-glossary.rst:469
 msgid ""
@@ -3452,7 +3460,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: ../basics/zammad-glossary.rst:713
 msgid ""
@@ -4712,10 +4720,8 @@ msgid "Screencast showing the dark mode button being toggled"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:33
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard shortcuts"
-msgstr "atajo de teclado"
+msgstr "Atajos de teclado"
 
 #: ../extras/profile-and-settings.rst:33
 msgid ""
@@ -4823,7 +4829,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #: ../extras/profile-and-settings.rst:91
 msgid "Change your login password (may be disabled by system admin)."
@@ -5448,16 +5454,22 @@ msgid ""
 "If you're ready to save the draft, click on 📝 on the right ticket pane, "
 "enter a meaning full name and click on the \"Create\" button."
 msgstr ""
+"Si estas listo para guardar el boceto, clickea en 📝 en el panel derecho del "
+"ticket, introduce un nombre completo significativo y clickea el botón \"Crear"
+"\"."
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
 "Screencast showing how to save new ticket dialogues as a\n"
 "shared draft"
 msgstr ""
+"Captura de pantalla que muestra cómo guardar nuevos diálogos de tickets como "
+"un\n"
+"boceto compartido"
 
 #: ../extras/shared-drafts.rst:125
 msgid "Update existing drafts"
-msgstr ""
+msgstr "Actualizar bocetos existentes"
 
 #: ../extras/shared-drafts.rst:114
 msgid ""
@@ -5466,20 +5478,28 @@ msgid ""
 "content) needed and, if needed, update the drafts name on the right hand "
 "side of the ticket."
 msgstr ""
+"Para actualizar o renombrar bocetos existentes compartidos para nuevos "
+"tickets, simplemente cargue el boceto en cuestión. Cambie la información ("
+"por ej. configuración del ticket o contenido) necesitada y, sí es necesario, "
+"actualice el nombre del boceto en el lado derecho del ticket."
 
 #: ../extras/shared-drafts.rst:121
 msgid ""
 "This way you can not just update existing drafts, but also use existing "
 "drafts to create another copy!"
 msgstr ""
+"¡De esta manera puedes no solo actualizar bocetos existentes, sino que "
+"también puedes usar bocetos existentes para crear otra copia!"
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to rename / update existing shared drafts"
 msgstr ""
+"Captura de pantalla mostrando como renombrar / actualizar bocetos existentes "
+"compartidos"
 
 #: ../extras/shared-drafts.rst:137
 msgid "Existing ticket"
-msgstr ""
+msgstr "Ticket existente"
 
 #: ../extras/shared-drafts.rst:128
 msgid ""
@@ -5487,34 +5507,43 @@ msgid ""
 "in your selection) allows shared drafts, Zammad will provide the option "
 "\"Save Draft\"."
 msgstr ""
+"Use el botón ᐱ al lado del botón de actualización. Si el grupo del ticket (o "
+"en su selección) permite bocetos compartidos, Zammad proveerá la opción "
+"\"Guardar Boceto\"."
 
 #: ../extras/shared-drafts.rst:132
 msgid ""
 "All current changes on the ticket (ticket settings, article and it's "
 "attachments) will be saved to the shared draft."
 msgstr ""
+"Todos los cambios actuales en el ticket (configuración de ticket, articulos "
+"y sus adjuntos) serán guardados al boceto compartido."
 
 #: ../extras/shared-drafts.rst:135
 msgid ""
 "When saving was successful, the button \"📝 Draft available\" will be shown."
 msgstr ""
+"Cuando se guarde correctamente, el botón \"📝 Boceto disponible\" será "
+"visible."
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to save a shared draft within ticket zoom"
 msgstr ""
+"Captura de pantalla mostrando como guardar un boceto compartido dentro de un "
+"ticket"
 
 #: ../index.rst:4
 msgid "Basics"
-msgstr ""
+msgstr "Lo esencial"
 
 #: ../index.rst:15
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Temas Avanzados"
 
 #: ../index.rst:31
 msgid "Extras"
-msgstr ""
+msgstr "Extras"
 
 #: ../index.rst:2
 msgid "Zammad Agent Documentation"
-msgstr ""
+msgstr "Documentación del Agente de Zammad"
