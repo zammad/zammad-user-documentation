@@ -11,49 +11,96 @@ view strives to provide you, the user, with a more focused window into your
 daily tasks. All packaged in a touch-friendly and modern design with great user
 experience, of course!
 
-.. list-table::
+.. tabs::
 
-   * - .. figure:: /images/extras/mobile-view/mobile-view-login.png
-          :alt: Mobile View Login Screen
-          :align: center
-          :width: 100%
+   .. tab:: Login & Home
 
-          Login Screen
+     .. container:: cfloat-left
 
-     - .. figure:: /images/extras/mobile-view/mobile-view-home.png
-          :alt: Mobile View Home Page
-          :align: center
-          :width: 100%
+        .. figure:: /images/extras/mobile-view/mobile-view-login.png
+           :alt: Mobile View Login Screen
+           :align: center
 
-          Home Page
+           Login Screen
 
-     - .. figure:: /images/extras/mobile-view/mobile-view-ticket-create.png
-          :alt: Mobile View Ticket Create Screen
-          :align: center
-          :width: 100%
+     .. container:: cfloat-right
 
-          Ticket Create Screen
 
-   * - .. figure:: /images/extras/mobile-view/mobile-view-ticket-detail-view.png
-          :alt: Mobile View Ticket Detail View
-          :align: center
-          :width: 100%
+        .. figure:: /images/extras/mobile-view/mobile-view-home.png
+           :alt: Mobile View Home Page
+           :align: center
 
-          Ticket Detail View
+           Home Page
 
-     - .. figure:: /images/extras/mobile-view/mobile-view-article-reply.png
-          :alt: Mobile View Article Reply Dialog
-          :align: center
-          :width: 100%
+     .. container:: cfloat-clear
 
-          Article Reply Dialog
+        x
 
-     - .. figure:: /images/extras/mobile-view/mobile-view-organization.png
-          :alt: Mobile View Ticket Organization Tab
-          :align: center
-          :width: 100%
+   .. tab:: Search & Overview
 
-          Ticket Organization Tab
+     .. container:: cfloat-left
+
+        .. figure:: /images/extras/mobile-view/mobile-view-search.png
+           :alt: Mobile View Search Results
+           :align: center
+
+           Search Results
+
+     .. container:: cfloat-right
+
+        .. figure:: /images/extras/mobile-view/mobile-view-ticket-overview.png
+           :alt: Mobile View Ticket Overview
+           :align: center
+
+           Ticket Overview
+
+     .. container:: cfloat-clear
+
+        x
+
+   .. tab:: Ticket Details
+
+     .. container:: cfloat-left
+
+        .. figure:: /images/extras/mobile-view/mobile-view-ticket-detail-view.png
+           :alt: Mobile View Ticket Detail View
+           :align: center
+
+           Ticket Detail View
+
+     .. container:: cfloat-right
+
+        .. figure:: /images/extras/mobile-view/mobile-view-ticket-information.png
+           :alt: Mobile View Ticket Information
+           :align: center
+
+           Ticket Information
+
+     .. container:: cfloat-clear
+
+        x
+
+   .. tab:: Notifications & Account
+
+     .. container:: cfloat-left
+
+        .. figure:: /images/extras/mobile-view/mobile-view-notifications.png
+           :alt: Mobile View Notifications
+           :align: center
+
+           Notifications
+
+     .. container:: cfloat-right
+
+        .. figure:: /images/extras/mobile-view/mobile-view-account-overview.png
+           :alt: Mobile View Account Overview
+           :align: center
+
+           Account Overview
+
+     .. container:: cfloat-clear
+
+        x
 
 .. hint::
 
@@ -112,14 +159,12 @@ Zammad now implements a mobile device detection, which results in automatic
 redirection to mobile view. Even with this mechanism in place it's possible to
 explicitly switch between the views by using app links:
 
-   * **Continue to desktop** link in mobile view
-
+   Continue to desktop link in mobile view
      .. container:: cfloat-left
 
         .. figure:: /images/extras/mobile-view/mobile-view-login-continue-to-desktop.png
            :alt: Continue to Desktop Link on Login Screen
            :align: center
-           :width: 85%
 
            Login Screen
 
@@ -128,18 +173,19 @@ explicitly switch between the views by using app links:
         .. figure:: /images/extras/mobile-view/mobile-view-account-continue-to-desktop.png
            :alt: Continue to Desktop Link in User Account Overview
            :align: center
-           :width: 85%
 
            User Account Overview
 
-   * **Continue to mobile** link in desktop view
+     .. container:: cfloat-clear
 
+        x
+
+   Continue to mobile link in desktop view
      .. container:: cfloat-left
 
         .. figure:: /images/extras/mobile-view/mobile-view-desktop-login-continue-to-mobile.png
            :alt: Continue to Mobile Link in Desktop Login Screen
            :align: center
-           :width: 85%
 
            Login Screen
 
@@ -148,9 +194,12 @@ explicitly switch between the views by using app links:
         .. figure:: /images/extras/mobile-view/mobile-view-desktop-user-menu-continue-to-mobile.png
            :alt: Continue to Mobile Link in Desktop User Menu
            :align: center
-           :width: 85%
 
            User Avatar Menu
+
+     .. container:: cfloat-clear
+
+        x
 
 Whenever an app link is used, the choice will be remembered by the user's device
 and the next time the automatic redirection will behave accordingly.
