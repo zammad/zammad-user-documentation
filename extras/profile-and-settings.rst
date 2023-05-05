@@ -110,10 +110,23 @@ Profile Settings
    .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-limit-groups.png
       :align: center
 
-      By default, you will receive notifications for all tickets on every group
+      By default, you will receive notifications for all tickets in every group
       you belong to—even for tickets that are assigned to other agents. Use the
-      **Limit Groups** box to disable such notifications on a per-group basis.
+      **Limit Groups** switch and settings below it to disable such
+      notifications on a per-group basis.
+
       (You will continue to receive notifications for your own tickets.)
+
+   .. warning::
+
+      If you turn on **Limit Groups** feature, but disable the notifications
+      from all groups, you may receive the following warning.
+
+      .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-limit-groups-warning.png
+         :align: center
+
+      In this case, saving your settings will implicitly turn off **Limit
+      Groups** feature, since no limits will be left in effect.
 
    .. note:: Notifications are available to agents only.
 
@@ -121,6 +134,8 @@ Profile Settings
       can be customized on self-hosted installations.
       Administrators can learn more
       `here <https://admin-docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_.
+
+   .. hint:: You can always reset your notification settings to system defaults.
 
 :Out of Office:
 
