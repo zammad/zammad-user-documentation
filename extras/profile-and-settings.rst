@@ -135,7 +135,8 @@ Profile Settings
       Administrators can learn more
       `here <https://admin-docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_.
 
-   .. hint:: You can always reset your notification settings to system defaults.
+   .. hint:: You can always reset your notification settings to system defaults
+      by clicking on the button at the bottom of the screen.
 
 :Out of Office:
 
