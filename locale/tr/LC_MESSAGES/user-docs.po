@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-21 11:13+0100\n"
+"POT-Creation-Date: 2023-01-24 18:26+0100\n"
 "PO-Revision-Date: 2022-04-16 15:57+0000\n"
 "Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -44,7 +44,7 @@ msgstr "Windows'ta klavye kısayolu hile sayfası."
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:51 ../extras/customers.rst:12
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Protipi**"
 
@@ -1041,7 +1041,8 @@ msgstr ""
 ":doc:`Bilet durumları </basics/service-ticket/settings/state>` **renk "
 "kodları:**"
 
-#: ../snippets/ticket-state-type-circles.rst:4 ../extras/knowledge-base.rst:225
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:225
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1049,27 +1050,33 @@ msgstr "|grn|"
 msgid "**Closed**"
 msgstr "**Kapalı**"
 
-#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:7
+#, fuzzy
+#| msgid "Merge"
+msgid "**Merged**"
+msgstr "Birleştir"
+
+#: ../snippets/ticket-state-type-circles.rst:8
 msgid "|blk|"
 msgstr "|blk|"
 
-#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:9
 msgid "**Postponed** (Marked as pending; no immediate action required.)"
 msgstr "**Ertelendi** (Bekliyor olarak işaretlendi, acil eylem gerektirmiyor.)"
 
-#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:12
 msgid "**New / Open** (Ready for action.)"
 msgstr "**Yeni / Açık** (Eylem için hazır.)"
 
-#: ../snippets/ticket-state-type-circles.rst:12
+#: ../snippets/ticket-state-type-circles.rst:14
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:13
+#: ../snippets/ticket-state-type-circles.rst:15
 msgid "**Escalated** (Requires urgent attention.)"
 msgstr "**Yükseliyor** (Acil dikkat gerektirir.)"
 
@@ -2294,7 +2301,7 @@ msgstr ""
 "Metni seçip vurgulayıcıya tıklayarak vurgulayın. Geri almak için tekrar "
 "tıklayın."
 
-#: ../basics/service-ticket/settings.rst:53
+#: ../basics/service-ticket/settings.rst:55
 msgid "Additional actions are available via the **submenu**:"
 msgstr "**Alt menü** aracılığıyla ek işlemler yapılabilir:"
 
@@ -2302,15 +2309,15 @@ msgstr "**Alt menü** aracılığıyla ek işlemler yapılabilir:"
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:59
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr "Ek işlemlere erişmek için **Bilet ▾** başlığına tıklayın."
 
-#: ../basics/service-ticket/settings.rst:64
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr "Geçmiş"
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:64
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation."
@@ -2318,11 +2325,11 @@ msgstr ""
 "Oluşturulduğundan beri herhangi bir kullanıcı tarafından gerçekleştirilen "
 "bilet güncellemelerinin kapsamlı bir listesini görün."
 
-#: ../basics/service-ticket/settings.rst:68
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr "Birleştir"
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:69
 msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
@@ -2330,11 +2337,11 @@ msgstr ""
 "Tüm mesajları/notları başka bir bilete taşıyın (ayrıntılar için bkz. :doc:"
 "`Biletleri Birleştirme </advanced/ticket-actions/merge>`)."
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr "Müşteriyi Değiştir"
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr "Bileti başka bir müşteriye yeniden atayın."
 
@@ -2559,33 +2566,40 @@ msgstr "kapalı"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
+"merged (this Ticket has been merged into another Ticket. Check either the :"
+"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
+"history <ticket-submenu>` to learn more)"
+msgstr ""
+
+#: ../basics/service-ticket/settings/state.rst:14
+msgid ""
 "pending close (*i.e.,* scheduled to automatically close at a later date)"
 msgstr ""
 "kapatılma bekleniyor (*yani,* daha sonraki bir tarihte otomatik olarak "
 "kapanması planlanmıştır)"
 
-#: ../basics/service-ticket/settings/state.rst:12
+#: ../basics/service-ticket/settings/state.rst:16
 msgid ""
 "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
 msgstr ""
 "hatırlatma bekleniyor (*yani* gizli, ancak daha sonraki bir tarihte yeniden "
 "görünmesi planlandı)"
 
-#: ../basics/service-ticket/settings/state.rst:16
+#: ../basics/service-ticket/settings/state.rst:20
 msgid "State colors"
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:18
+#: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general – without having a look into details."
 msgstr ""
 
-#: ../basics/service-ticket/settings/state.rst:26
+#: ../basics/service-ticket/settings/state.rst:30
 msgid "What’s the difference between “new” and “open”?"
 msgstr "\"Yeni\" ve \"açık\" arasındaki fark nedir?"
 
-#: ../basics/service-ticket/settings/state.rst:28
+#: ../basics/service-ticket/settings/state.rst:32
 msgid ""
 "States do more than just indicate progress: Zammad has a fine-grained time "
 "tracking feature (so-called “\\ `service-level agreements <https://admin-"
@@ -2599,14 +2613,14 @@ msgstr ""
 "ayrıntılı bir zaman izleme özelliğine (buna “\\ `hizmet düzeyi anlaşmaları `_"
 "\\ ” veya SLA'lar denir) sahiptir."
 
-#: ../basics/service-ticket/settings/state.rst:35
+#: ../basics/service-ticket/settings/state.rst:39
 msgid ""
 "On a *new* ticket, the customer still hasn’t received her first response on "
 "the issue."
 msgstr ""
 "*Yeni* bir bilette, müşteri sorunla ilgili ilk yanıtını henüz almamıştır."
 
-#: ../basics/service-ticket/settings/state.rst:38
+#: ../basics/service-ticket/settings/state.rst:42
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn’t been resolved."
@@ -2614,14 +2628,14 @@ msgstr ""
 "*Açık* bir bilette, müşteriye ilk yanıt verilmiştir, ancak sorun hala "
 "çözülmemiştir."
 
-#: ../basics/service-ticket/settings/state.rst:42
+#: ../basics/service-ticket/settings/state.rst:46
 msgid ""
 "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA "
 "limits."
 msgstr ""
 "⏱️ *Beklemede* durumda olan biletler, SLA sınırlarına doğru zaman biriktirmez."
 
-#: ../basics/service-ticket/settings/state.rst:44
+#: ../basics/service-ticket/settings/state.rst:48
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
 "on feedback from a third-party supplier who’s out of town until next week."

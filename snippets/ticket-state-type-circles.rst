@@ -3,6 +3,8 @@
 
    * - |grn|
      - **Closed**
+   * - |grn|
+     - **Merged**
    * - |blk|
      - **Postponed**
        (Marked as pending; no immediate action required.)
