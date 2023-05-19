@@ -86,9 +86,15 @@ Profile Settings
 
    Upload an avatar.
 
-:Password:
+:Password & Auth:
 
-   Change your login password (may be disabled by system admin).
+   Change your login password (may be disabled by system admin) and manage your
+   two-factor authentication methods (if enabled).
+
+   .. hint::
+      :doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an
+      optional feature. Administrators can learn more
+      :admin-docs:`here <settings/security/two-factor.html>`.
 
 :Notifications:
 
