@@ -1,13 +1,13 @@
-Authenticator App Set Up
-========================
+Authenticator App Setup
+=======================
 
 The authenticator app method is a type of two-factor authentication that uses a
 mobile application to generate one-time codes for account verification. After
 setting up the authenticator app on your device, you will link it to your Zammad
 account.
 
-.. figure:: /images/extras/two-factor-authentication/authenticator-app-set-up.png
-   :alt: Authenticator App Set Up
+.. figure:: /images/extras/two-factor-authentication/authenticator-app-setup.png
+   :alt: Authenticator App Setup
    :align: center
 
 First, make sure you have installed an authenticator app on your mobile device.
