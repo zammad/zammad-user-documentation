@@ -5,7 +5,7 @@ Two-factor authentication (2FA) enhances the security of your Zammad account by
 adding an extra layer of verification beyond a password. It requires you to
 provide two different types of authentication factors, typically something you
 know (like a password) and something you possess (like a mobile device or a
-security token), to ensure that you are an authorized individual that can access
+security token), to ensure that you are an authorized individual who can access
 the account.
 
 .. hint::
@@ -83,9 +83,10 @@ your sign-in.
    :alt: Try Another Method
    :align: center
 
-Alternatively, you can also use one of your recovery codes, in case they were
-previously generated for your account. Click on **recovery codes**, enter
-one of your unused recovery codes and click on **Sign in**.
+Alternatively, you can also use one of your recovery codes, which are
+auto-generated for your account during the initial setup of the two-factor
+authentication. Click on **recovery codes**, enter one of your unused recovery
+codes and click on **Sign in**.
 
 .. figure:: /images/extras/two-factor-authentication/recovery-codes-sign-in.png
    :alt: Try Another Method

@@ -88,8 +88,8 @@ Profile Settings
 
 :Password & Auth:
 
-   Change your login password (may be disabled by system admin) and manage your
-   two-factor authentication methods (if enabled).
+   Change your login password and manage your two-factor authentication methods
+   (both may be disabled by system admin).
 
    .. hint::
       :doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an
