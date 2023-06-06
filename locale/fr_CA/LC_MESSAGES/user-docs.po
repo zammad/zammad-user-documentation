@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-24 18:26+0100\n"
+"POT-Creation-Date: 2023-04-21 14:35+0200\n"
 "PO-Revision-Date: 2022-04-16 15:56+0000\n"
 "Last-Translator: Marcel Herrguth <github@thehomeofanime.de>\n"
 "Language-Team: French (Canada) <https://translations.zammad.org/projects/"
@@ -3646,7 +3646,7 @@ msgstr ""
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr ""
 
-#: ../extras/caller-log.rst:2
+#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
 msgstr ""
 
@@ -3780,7 +3780,7 @@ msgstr ""
 msgid "Existing caller log entries *are not* updated."
 msgstr ""
 
-#: ../extras/chat.rst:2
+#: ../extras/chat.rst:2 ../extras/mobile-view.rst:153
 msgid "Live Chat"
 msgstr ""
 
@@ -4737,6 +4737,308 @@ msgstr ""
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
+#: ../extras/mobile-view.rst:2
+msgid "Mobile View"
+msgstr ""
+
+#: ../extras/mobile-view.rst:4
+msgid ""
+"The need for a dedicated mobile view of Zammad arose from the ever-changing "
+"life on the go. Even though the desktop application might be responsive "
+"enough for small screens, it proved to be too cluttered and was simply not "
+"designed primarily for mobile devices."
+msgstr ""
+
+#: ../extras/mobile-view.rst:9
+msgid ""
+"By limiting the amount of information to only the most important, the mobile "
+"view strives to provide you, the user, with a more focused window into your "
+"daily tasks. All packaged in a touch-friendly and modern design with great "
+"user experience, of course!"
+msgstr ""
+
+#: ../extras/mobile-view.rst:16
+msgid "Login & Home"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Login Screen"
+msgstr ""
+
+#: ../extras/mobile-view.rst:24 ../extras/mobile-view.rst:169
+#: ../extras/mobile-view.rst:190
+msgid "Login Screen"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Home Page"
+msgstr ""
+
+#: ../extras/mobile-view.rst:33
+msgid "Home Page"
+msgstr ""
+
+#: ../extras/mobile-view.rst:37 ../extras/mobile-view.rst:59
+#: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:103
+#: ../extras/mobile-view.rst:181 ../extras/mobile-view.rst:202
+msgid "x"
+msgstr ""
+
+#: ../extras/mobile-view.rst:39
+#, fuzzy
+#| msgid "Search phrase"
+msgid "Search & Overview"
+msgstr "Expression de recherche"
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Search Results"
+msgstr ""
+
+#: ../extras/mobile-view.rst:47
+msgid "Search Results"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Ticket Overview"
+msgstr ""
+
+#: ../extras/mobile-view.rst:55
+#, fuzzy
+#| msgid "Ticket attributes"
+msgid "Ticket Overview"
+msgstr "Attributs d'un billet"
+
+#: ../extras/mobile-view.rst:61
+#, fuzzy
+#| msgid "Ticket Actions"
+msgid "Ticket Details"
+msgstr "Actions de billets"
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Ticket Detail View"
+msgstr ""
+
+#: ../extras/mobile-view.rst:69
+msgid "Ticket Detail View"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Ticket Information"
+msgstr ""
+
+#: ../extras/mobile-view.rst:77
+#, fuzzy
+#| msgid "Ticket Actions"
+msgid "Ticket Information"
+msgstr "Actions de billets"
+
+#: ../extras/mobile-view.rst:83
+msgid "Notifications & Account"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Notifications"
+msgstr ""
+
+#: ../extras/mobile-view.rst:91 ../extras/profile-and-settings.rst:0
+msgid "Notifications"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Mobile View Account Overview"
+msgstr ""
+
+#: ../extras/mobile-view.rst:99
+msgid "Account Overview"
+msgstr ""
+
+#: ../extras/mobile-view.rst:107
+msgid ""
+"We intentionally do not provide specific instructions and comprehensive "
+"documentation for the mobile view! The overall UX should be intuitive and "
+"self-explanatory in most cases."
+msgstr ""
+
+#: ../extras/mobile-view.rst:112
+msgid "Features"
+msgstr ""
+
+#: ../extras/mobile-view.rst:114
+msgid ""
+"Mobile view provides you with a way to do your common Zammad daily tasks "
+"while on the go:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:117
+msgid "Manage & use your ticket overviews"
+msgstr ""
+
+#: ../extras/mobile-view.rst:118
+#, fuzzy
+#| msgid "Search for a Ticketnumber"
+msgid "Search for existing records"
+msgstr "Rechercher un numéro de billet"
+
+#: ../extras/mobile-view.rst:119
+#, fuzzy
+#| msgid "New tickets"
+msgid "Create a new ticket"
+msgstr "Nouveaux billets"
+
+#: ../extras/mobile-view.rst:120
+msgid "Reply in an already existing ticket"
+msgstr ""
+
+#: ../extras/mobile-view.rst:121
+#, fuzzy
+#| msgid "Ticket attributes"
+msgid "Modify ticket attributes"
+msgstr "Attributs d'un billet"
+
+#: ../extras/mobile-view.rst:122
+#, fuzzy
+#| msgid "Ticket attributes"
+msgid "Modify customer attributes"
+msgstr "Attributs d'un billet"
+
+#: ../extras/mobile-view.rst:123
+#, fuzzy
+#| msgid "Organizations"
+msgid "Modify organization attributes"
+msgstr "Organisations"
+
+#: ../extras/mobile-view.rst:125
+msgid "Mobile view also has some exclusive features:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:127
+msgid "Innovative Zammad UX"
+msgstr ""
+
+#: ../extras/mobile-view.rst:128
+msgid "Next-level accessibility"
+msgstr ""
+
+#: ../extras/mobile-view.rst:129
+msgid "Ready for multi-device usage"
+msgstr ""
+
+#: ../extras/mobile-view.rst:130
+msgid "Progressive web app (PWA) support"
+msgstr ""
+
+#: ../extras/mobile-view.rst:133
+msgid "Limitations"
+msgstr ""
+
+#: ../extras/mobile-view.rst:135
+msgid ""
+"Mobile view is also currently missing some features which are provided by "
+"the desktop view:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:138
+#, fuzzy
+#| msgid "Time Accounting"
+msgid "Ticket Article Time Accounting"
+msgstr "Comptabilité horaire"
+
+#: ../extras/mobile-view.rst:139
+msgid "Ticket Article **Split** Action"
+msgstr ""
+
+#: ../extras/mobile-view.rst:140
+msgid "Linked Tickets & Ticket **Link** Action"
+msgstr ""
+
+#: ../extras/mobile-view.rst:141
+#, fuzzy
+#| msgid "Ticket Actions"
+msgid "Ticket Macros"
+msgstr "Actions de billets"
+
+#: ../extras/mobile-view.rst:142
+#, fuzzy
+#| msgid "Ticket Actions"
+msgid "Ticket History"
+msgstr "Actions de billets"
+
+#: ../extras/mobile-view.rst:143
+msgid "Ticket Create Templates & Shared Drafts"
+msgstr ""
+
+#: ../extras/mobile-view.rst:145
+msgid ""
+"Additionally, certain features were intentionally omitted in order to "
+"improve the focus on important information:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:148
+msgid ""
+"Most Management Features (except ticket user and organization management)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:149
+msgid "Most Knowledge Base Features (except ticket integration)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:150
+msgid "Most User Profile Functions (except avatar and language preferences)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:151
+msgid "Reports"
+msgstr ""
+
+#: ../extras/mobile-view.rst:156
+msgid "Access"
+msgstr ""
+
+#: ../extras/mobile-view.rst:158
+msgid ""
+"Zammad now implements a mobile device detection, which results in automatic "
+"redirection to mobile view. Even with this mechanism in place it's possible "
+"to explicitly switch between the views by using app links:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:181
+msgid "Continue to desktop link in mobile view"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Continue to Desktop Link on Login Screen"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Continue to Desktop Link in User Account Overview"
+msgstr ""
+
+#: ../extras/mobile-view.rst:177
+msgid "User Account Overview"
+msgstr ""
+
+#: ../extras/mobile-view.rst:202
+msgid "Continue to mobile link in desktop view"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Continue to Mobile Link in Desktop Login Screen"
+msgstr ""
+
+#: ../extras/mobile-view.rst:0
+msgid "Continue to Mobile Link in Desktop User Menu"
+msgstr ""
+
+#: ../extras/mobile-view.rst:198
+msgid "User Avatar Menu"
+msgstr ""
+
+#: ../extras/mobile-view.rst:204
+msgid ""
+"Whenever an app link is used, the choice will be remembered by the user's "
+"device and the next time the automatic redirection will behave accordingly."
+msgstr ""
+
 #: ../extras/organizations.rst:4
 msgid ""
 "Tickets track communication between individuals, but oftentimes, your "
@@ -4974,10 +5276,6 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:91
 msgid "Change your login password (may be disabled by system admin)."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:0
-msgid "Notifications"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:95
