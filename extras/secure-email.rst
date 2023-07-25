@@ -1,59 +1,78 @@
 ﻿Secure Email
 ============
 
-Zammad supports S/MIME for high-security email communication. 
+Zammad supports two systems of high-security email communication:
+   * Pretty Good Privacy (PGP) 
+   * Secure/Multipurpose Internet Mail Extensions (S/MIME).
 
 .. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
    :alt: Screencast demo of S/MIME features for both new tickets and replies
    :scale: 50%
    :align: center
 
-   Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing for outgoing emails.
+   Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and
+   signing for outgoing emails.
 
-.. note:: **🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...** 
+.. note:: **🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket 
+   view...** 
 
    This feature is **optional**;
    if you don’t see it in the ticket composer,
    that means your administrator hasn’t enabled it yet.
-   Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/system/integrations/smime.html>`_.
-
-What is S/MIME?
----------------
-
-S/MIME is the most widely-supported method for secure email communication.
-With S/MIME, you can exchange **signed** and **encrypted** messages with others.
-
-Signing
-   is proof that a message hasn’t been tampered with or sent by an impersonator.
-
-   In other words, it guarantees a message’s **integrity** and **authenticity**.
-
-Encryption
-   scrambles a message so that it can only be unscrambled by the intended recipient.
-
-   In other words, it guarantees **privacy** and **data security**.
+   Administrators can learn more here:
+      * :admin-docs:`PGP </system/integrations/pgp/index.html>`
+      * :admin-docs:`S/MIME </system/integrations/smime/index.html>`
 
 Overview
 --------
 
-.. note:: 🤝 **S/MIME only works if the other party is using it, too.**
+PGP and S/MIME are the most widely-supported methods for secure email
+communication. With each of the systems, you can exchange **signed** and 
+**encrypted** messages with others.
 
-   Your administrator is responsible for
-   adding all the necessary certificates in Zammad’s admin panel.
+Signing
+   is a proof that a message hasn’t been manipulated on its way.
+
+   In other words, it guarantees message **integrity** and **authenticity**.
+
+Encryption
+   scrambles a message so that it can only be unscrambled by the intended
+   recipient.
+
+   In other words, it guarantees message **privacy** and **data security**.
+
+.. note:: 🤝 **PGP and S/MIME are only working if the other party is using it,
+   too.**
+
+   Your administrator is responsible for adding all the necessary certificates
+   in Zammad’s admin panel.
+
+.. note:: In special cases it is possible that both systems are configured in
+   your system *and* a customer is using both, as well. In this case, you have
+   an additional button to switch between PGP and S/MIME. Otherwise, you just
+   see the 🔒 **Encrypt** and ✅ **Sign** buttons.
+
+.. figure:: /images/extras/secure-email/pgp_and_smime.png
+   :alt: Screenshot of ticket creation with configured PGP and S/MIME 
+   :scale: 50%
+   :align: center
+
+   Ticket creation with configured PGP *and* S/MIME and available
+   certificates/keys.
 
 📬 Incoming
 ^^^^^^^^^^^
 
-The 🔒 and ✅ icons at the top of a message indicate its S/MIME status.
+The 🔒 and ✅ icons at the top of a message indicate its encryption and signing
+status.
 
 .. figure:: /images/extras/secure-email/checking-security-metadata.gif
-   :alt: Screencast showing on how to verify used certificates
+   :alt: Screencast showing details of encryption and signing status
    :scale: 50%
    :align: center
 
    Click on an incoming message to expand its details.
-   Hover over the security status to show a certificate/CA summary.
+   Hover over the security status to show details.
 
 .. list-table:: Status Icons (Incoming)
    :widths: 5 45
@@ -82,12 +101,12 @@ to turn on encryption and signing for outgoing emails.
 .. note:: Outgoing emails can only be encrypted for *a single recipient*.
 
 .. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
-   :alt: Screencast demo of S/MIME features for both new tickets and replies
+   :alt: Screencast showing encryption and signing status for both new tickets and replies
    :scale: 50%
    :align: center
 
    🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and replies.
-   Hover over the buttons to show a certificate/CA summary.
+   Hover over the buttons to show details.
 
 .. list-table:: Status Icons (Outgoing)
    :widths: 5 45
@@ -102,8 +121,8 @@ to turn on encryption and signing for outgoing emails.
    * - |signed|
      - This message **will be signed**.
 
-       Recipients using S/MIME can verify that it came from you
-       and that the contents have not been modified.
+       Recipients can verify that it came from you and that the contents have
+       not been modified.
    * - |not-signed|
      - This message **will not be signed**.
 
