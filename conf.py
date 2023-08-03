@@ -22,6 +22,10 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
+# Suppress "WARNING: unknown mimetype for ..." during EPUB builds.
+#   https://github.com/sphinx-doc/sphinx/issues/3214
+suppress_warnings = ['epub.unknown_project_files']
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:  # only import and set the theme if we're building docs locally
    # Override default css to solve issues (e.g. width, overflows)
@@ -54,15 +58,19 @@ else:
    ]
 
    # Get current version we're on for possible version warning
-   version = os.environ.get('READTHEDOCS_VERSION')
+   rtd_version = os.environ.get('READTHEDOCS_VERSION')
 
    # If we're **not on latest**, we'll display a deprecation warning.
-   if version == 'latest':
-      branch = version
-   elif version == 'pre-release':
+   if rtd_version == 'latest':
+      branch = rtd_version
+   elif rtd_version == 'pre-release':
       branch = "pre-release"
    else:
       branch = "old-version"
+
+# Ensure `version` config is set due to EPUB requirements:
+#   WARNING: conf value "version" should not be empty for EPUB3
+version = branch
 
 # Default definitions for this documentations version warnings if applicable
 # https://sphinx-version-warning.readthedocs.io/en/latest/configuration.html
