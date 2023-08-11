@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-21 14:35+0200\n"
+"POT-Creation-Date: 2023-08-03 11:46+0100\n"
 "PO-Revision-Date: 2023-01-12 16:10+0000\n"
 "Last-Translator: LahutaeMalcis <hello@privacydream.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -5697,11 +5697,17 @@ msgid "Internal notifications cannot be disabled."
 msgstr "Les notifications internes ne peuvent pas être désactivées."
 
 #: ../extras/profile-and-settings.rst:113
+#, fuzzy
+#| msgid ""
+#| "By default, you will receive notifications for all tickets on every group "
+#| "you belong to—even for tickets that are assigned to other agents. Use the "
+#| "**Limit Groups** box to disable such notifications on a per-group basis. "
+#| "(You will continue to receive notifications for your own tickets.)"
 msgid ""
-"By default, you will receive notifications for all tickets on every group "
+"By default, you will receive notifications for all tickets in every group "
 "you belong to—even for tickets that are assigned to other agents. Use the "
-"**Limit Groups** box to disable such notifications on a per-group basis. "
-"(You will continue to receive notifications for your own tickets.)"
+"**Limit Groups** switch and settings below it to disable such notifications "
+"on a per-group basis."
 msgstr ""
 "Par défaut, vous recevrez des notifications pour tous les tickets de tous "
 "les groupes auxquels vous appartenez - même pour les tickets qui sont "
@@ -5710,21 +5716,49 @@ msgstr ""
 "continuerez à recevoir des notifications pour vos propres tickets.)"
 
 #: ../extras/profile-and-settings.rst:118
+#, fuzzy
+#| msgid ""
+#| "🔔 You **will** continue to receive notifications while you are out-of-"
+#| "office!"
+msgid "(You will continue to receive notifications for your own tickets.)"
+msgstr ""
+"🔔 Vous **continuerez** à recevoir des notifications pendant que vous êtes "
+"absent du bureau!"
+
+#: ../extras/profile-and-settings.rst:122
+msgid ""
+"If you turn on **Limit Groups** feature, but disable the notifications from "
+"all groups, you may receive the following warning."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:128
+msgid ""
+"In this case, saving your settings will implicitly turn off **Limit Groups** "
+"feature, since no limits will be left in effect."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:131
 msgid "Notifications are available to agents only."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:120
+#: ../extras/profile-and-settings.rst:133
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more `here <https://admin-docs."
 "zammad.org/en/latest/manage/trigger/system-notifications.html>`_."
 msgstr ""
 
+#: ../extras/profile-and-settings.rst:138
+msgid ""
+"You can always reset your notification settings to system defaults by "
+"clicking on the button at the bottom of the screen."
+msgstr ""
+
 #: ../extras/profile-and-settings.rst:0
 msgid "Out of Office"
 msgstr "Absent du bureau"
 
-#: ../extras/profile-and-settings.rst:127
+#: ../extras/profile-and-settings.rst:143
 #, fuzzy
 #| msgid ""
 #| "Schedule out-of-office periods in advance, and designate a substitute to "
@@ -5736,7 +5770,7 @@ msgstr ""
 "Planifiez les périodes de congés à l'avance, et désignez un remplaçant pour "
 "gérer vos tickets pendant votre absence."
 
-#: ../extras/profile-and-settings.rst:130
+#: ../extras/profile-and-settings.rst:146
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
@@ -5746,7 +5780,7 @@ msgstr ""
 "absence, et aura un :doc:`aperçu </basics/find-ticket/browse>` personnalisé "
 "créé pour l'aider à suivre vos tickets."
 
-#: ../extras/profile-and-settings.rst:134
+#: ../extras/profile-and-settings.rst:150
 #, fuzzy
 #| msgid ""
 #| "🔔 You **will** continue to receive notifications while you are out-of-"
@@ -5760,34 +5794,34 @@ msgstr ""
 msgid "Overviews"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:137
+#: ../extras/profile-and-settings.rst:153
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:140
+#: ../extras/profile-and-settings.rst:156
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:143
+#: ../extras/profile-and-settings.rst:159
 msgid "🤓 Your admin has no power here"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:145
+#: ../extras/profile-and-settings.rst:161
 msgid ""
 "The order does not change, even if your admin renames or reorders the "
 "overviews. The overview order is stored in your profile and thus applies for "
 "any device you use with your account."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:149
+#: ../extras/profile-and-settings.rst:165
 msgid "😕 Can't see this setting?"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:151
+#: ../extras/profile-and-settings.rst:167
 msgid ""
 "This setting option is only available to agents by default. Admins can also "
 "deactivate this permission entirely. Ask your admin to enable this option if "
@@ -5804,7 +5838,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Calendrier"
 
-#: ../extras/profile-and-settings.rst:161
+#: ../extras/profile-and-settings.rst:177
 #, fuzzy
 #| msgid ""
 #| "Add your ticket deadlines to your own favorite calendar app with the ICAL "
@@ -5820,7 +5854,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Périphériques"
 
-#: ../extras/profile-and-settings.rst:166
+#: ../extras/profile-and-settings.rst:182
 #, fuzzy
 #| msgid ""
 #| "See a list of all devices logged in to your Zammad account (and revoke "
@@ -5836,7 +5870,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Jeton d'accès"
 
-#: ../extras/profile-and-settings.rst:171
+#: ../extras/profile-and-settings.rst:187
 #, fuzzy
 #| msgid ""
 #| "Generate personal access tokens for third-party applications to use the "
@@ -5848,7 +5882,7 @@ msgstr ""
 "Générez des jetons d'accès personnels pour des applications tiers pour "
 "utiliser l'API Zammad."
 
-#: ../extras/profile-and-settings.rst:174
+#: ../extras/profile-and-settings.rst:190
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -5862,7 +5896,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Comptes liés"
 
-#: ../extras/profile-and-settings.rst:180
+#: ../extras/profile-and-settings.rst:196
 #, fuzzy
 #| msgid ""
 #| "See a list of third-party services (*e.g.,* Facebook or Twitter) linked "
