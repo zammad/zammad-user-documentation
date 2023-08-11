@@ -15,7 +15,7 @@ from the pool of new tickets.
 
 In principle, any agent may assign a ticket to any other,
 as long as both have the required privileges
-for the ticket’s :doc:`group <group>`.
+for the ticket’s :doc:`group </basics/service-ticket/settings/group>`.
 
 Why would I want to re-assign a ticket to someone else?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
