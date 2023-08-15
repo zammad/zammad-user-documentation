@@ -174,7 +174,7 @@ password.
 Requirement to Set Up a Two-Factor Method
 -----------------------------------------
 
-You system admin may choose to require you to set up at least one two-factor
+Your system admin may choose to require you to set up at least one two-factor
 method for your account. In this case, if you haven't already set up a method,
 you will be asked to do so at your next sign-in or application reload.
 

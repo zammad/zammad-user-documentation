@@ -30,7 +30,7 @@ code in the middle.
       :alt: Authenticator App Secret Revealed
       :align: center
 
-You authenticator app should immediately add the new entry for your Zammad
+Your authenticator app should immediately add the new entry for your Zammad
 account, and a 6-digit code will be displayed next to it together with a timer.
 
 Back in Zammad, enter the provided code to the **Security Code** field and click
