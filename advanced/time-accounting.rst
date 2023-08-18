@@ -42,3 +42,15 @@ a ticket. Enter how much time you spent on it.
    for, noting that one of the choices may be pre-selected. You can always
    remove the selection for general accounted time that is not supposed to be
    grouped together.
+
+**Where can I see how much time has been accounted to this ticket?**
+
+If a ticket already has accounted time(s), you can see it in the ticket pane
+at the bottom. You can find the calculated sums of each activity type as well
+as the total sum of accounted times for all activity types.
+
+.. figure:: /images/advanced/time-accounting/ticket-pane-accounted-time.png
+   :alt: Screenshot showing accounted times in ticket pane
+   :align: center
+
+   Accounted times in the ticket view
