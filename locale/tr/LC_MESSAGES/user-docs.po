@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-11 09:37+0100\n"
+"POT-Creation-Date: 2023-08-18 09:59+0200\n"
 "PO-Revision-Date: 2022-04-16 15:57+0000\n"
 "Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -1605,6 +1605,25 @@ msgid ""
 "grouped together."
 msgstr ""
 
+#: ../advanced/time-accounting.rst:46
+msgid "**Where can I see how much time has been accounted to this ticket?**"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:48
+msgid ""
+"If a ticket already has accounted time(s), you can see it in the ticket pane "
+"at the bottom. You can find the calculated sums of each activity type as "
+"well as the total sum of accounted times for all activity types."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:56
+msgid "Screenshot showing accounted times in ticket pane"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:56
+msgid "Accounted times in the ticket view"
+msgstr ""
+
 #: ../basics/find-ticket.rst:8
 msgid "by Browsing"
 msgstr "Tarayıcıya göre"
@@ -1779,10 +1798,6 @@ msgid ""
 msgstr ""
 "Detaylı sonuçlar için, otomatik tamamlama listesinin üstündeki **Arama "
 "Detaylarını Göster →** bağlantısına tıklayın."
-
-#: ../basics/service-ticket.rst:8
-msgid "Managing Ticket Settings"
-msgstr "Bilet Ayarlarını Yönetmek"
 
 #: ../basics/service-ticket.rst:2
 msgid "Servicing Tickets"
@@ -7052,9 +7067,9 @@ msgstr ""
 
 #: ../extras/two-factor-authentication.rst:177
 msgid ""
-"You system admin may choose to require you to set up at least one two-factor "
-"method for your account. In this case, if you haven't already set up a "
-"method, you will be asked to do so at your next sign-in or application "
+"Your system admin may choose to require you to set up at least one two-"
+"factor method for your account. In this case, if you haven't already set up "
+"a method, you will be asked to do so at your next sign-in or application "
 "reload."
 msgstr ""
 
@@ -7120,7 +7135,7 @@ msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:33
 msgid ""
-"You authenticator app should immediately add the new entry for your Zammad "
+"Your authenticator app should immediately add the new entry for your Zammad "
 "account, and a 6-digit code will be displayed next to it together with a "
 "timer."
 msgstr ""
@@ -7315,6 +7330,9 @@ msgstr "Ekstralar"
 #: ../index.rst:2
 msgid "Zammad Agent Documentation"
 msgstr "Zammad Aracı Dokümantasyonu"
+
+#~ msgid "Managing Ticket Settings"
+#~ msgstr "Bilet Ayarlarını Yönetmek"
 
 #~ msgid ""
 #~ "This feature is **optional**; if you don’t see it in the ticket composer, "
