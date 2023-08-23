@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-11 09:37+0100\n"
-"PO-Revision-Date: 2023-07-28 09:18+0000\n"
-"Last-Translator: Martin Gruner <mg@zammad.com>\n"
+"PO-Revision-Date: 2023-08-23 15:18+0000\n"
+"Last-Translator: ralf401 <ralf.s@posteo.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
 "Language: de\n"
@@ -1570,7 +1570,7 @@ msgstr ""
 
 #: ../advanced/ticket-templates.rst:37
 msgid "`Learn more about ticket templates in the admin documentation`_."
-msgstr "`Lernen Sie mehr zur Ticket-Vorlagen in der Admin-Dokumentation`_."
+msgstr "`Lernen Sie mehr über Ticket-Vorlagen in der Admin-Dokumentation`_."
 
 #: ../advanced/ticket-templates.rst:39
 msgid "This permission was introduced with Zammad 5.3."
@@ -2136,7 +2136,7 @@ msgstr ""
 #: ../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
 msgstr ""
-"Drücken Sie direkt auf einen Ticket-Eintrag, um detaillierte Informationen "
+"Klicken Sie direkt auf einen Ticket-Eintrag, um detaillierte Informationen "
 "dazu zu erhalten."
 
 #: ../basics/service-ticket/follow-up.rst:0
@@ -2586,17 +2586,14 @@ msgstr ""
 "dem Pool neuer Tickets wählen."
 
 #: ../basics/service-ticket/settings/owner.rst:16
-#, fuzzy
-#| msgid ""
-#| "In principle, any agent may assign a ticket to any other, as long as both "
-#| "have the required privileges for the ticket’s :doc:`group <group>`."
 msgid ""
 "In principle, any agent may assign a ticket to any other, as long as both "
 "have the required privileges for the ticket’s :doc:`group </basics/service-"
 "ticket/settings/group>`."
 msgstr ""
 "Generell kann jeder Agent anderen Agenten Tickets zuweisen, solang beide die "
-"notwendigen Berechtigungen für die :doc:`Ticket-Gruppe <group>` haben."
+"notwendigen Berechtigungen für die :doc:`Ticket-Gruppe </basics/"
+"service-ticket/settings/group>` haben."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 msgid "Why would I want to re-assign a ticket to someone else?"
@@ -5733,12 +5730,18 @@ msgid "Mobile View"
 msgstr "Mobile Ansicht"
 
 #: ../extras/mobile-view.rst:4
+#, fuzzy
 msgid ""
 "The need for a dedicated mobile view of Zammad arose from the ever-changing "
 "life on the go. Even though the desktop application might be responsive "
 "enough for small screens, it proved to be too cluttered and was simply not "
 "designed primarily for mobile devices."
 msgstr ""
+"Die Notwendigkeit einer mobilen Zammad-Seite ergab sich durch den Trend zum "
+"zunehmend mobilen Arbeiten. Obwohl die Zammad Desktop-Anwendung responsiv "
+"und auch für kleinere Bildschirme geeignet ist, hat sich gezeigt, dass die "
+"Oberfläche zu überladen für Mobilgeräte ist und nicht für diese konzipiert "
+"wurde."
 
 #: ../extras/mobile-view.rst:9
 msgid ""
@@ -5747,27 +5750,31 @@ msgid ""
 "daily tasks. All packaged in a touch-friendly and modern design with great "
 "user experience, of course!"
 msgstr ""
+"Die mobile Ansicht wurde auf die wichtigsten Informationen eingegrenzt, um "
+"Ihnen einen klaren Überblick über ihre Aufgaben zu geben. Und das alles mit "
+"einer auf Touchscreens optimierten Bedienung und in der gewohnten Zammad "
+"Optik."
 
 #: ../extras/mobile-view.rst:16
 msgid "Login & Home"
-msgstr ""
+msgstr "Login & Start"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Login Screen"
-msgstr ""
+msgstr "Mobile Ansicht Login-Bildschirm"
 
 #: ../extras/mobile-view.rst:24 ../extras/mobile-view.rst:169
 #: ../extras/mobile-view.rst:190
 msgid "Login Screen"
-msgstr ""
+msgstr "Login"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Home Page"
-msgstr ""
+msgstr "Mobile Ansicht Start"
 
 #: ../extras/mobile-view.rst:33
 msgid "Home Page"
-msgstr ""
+msgstr "Startseite"
 
 #: ../extras/mobile-view.rst:37 ../extras/mobile-view.rst:59
 #: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:103
@@ -5776,20 +5783,16 @@ msgid "x"
 msgstr ""
 
 #: ../extras/mobile-view.rst:39
-#, fuzzy
-#| msgid "Overview"
 msgid "Search & Overview"
-msgstr "Übersicht"
+msgstr "Suche & Übersicht"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Search Results"
-msgstr ""
+msgstr "Mobile Ansicht Suchergebnisse"
 
 #: ../extras/mobile-view.rst:47
-#, fuzzy
-#| msgid "Search for Tickets"
 msgid "Search Results"
-msgstr "Suche nach Tickets"
+msgstr "Suchergebnisse"
 
 #: ../extras/mobile-view.rst:0
 #, fuzzy
@@ -5798,64 +5801,48 @@ msgid "Mobile View Ticket Overview"
 msgstr "öffnen Sie eine Ticket-Übersicht;"
 
 #: ../extras/mobile-view.rst:55
-#, fuzzy
-#| msgid "Ticket thread view"
 msgid "Ticket Overview"
-msgstr "Ansicht Tickertverlauf"
+msgstr "Ansicht Ticketverlauf"
 
 #: ../extras/mobile-view.rst:61
-#, fuzzy
-#| msgid "Ticket Settings"
 msgid "Ticket Details"
-msgstr "Ticket-Einstellungen"
+msgstr "Ticketdetails"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Ticket Detail View"
-msgstr ""
+msgstr "Mobile Ticketdetailansicht"
 
 #: ../extras/mobile-view.rst:69
-#, fuzzy
-#| msgid "Ticket thread view"
 msgid "Ticket Detail View"
-msgstr "Ansicht Tickertverlauf"
+msgstr "Ticket Detailansicht"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Ticket Information"
-msgstr ""
+msgstr "Mobile Ansicht Ticketinformation"
 
 #: ../extras/mobile-view.rst:77
-#, fuzzy
-#| msgid "Ticket Actions"
 msgid "Ticket Information"
-msgstr "Ticket-Aktionen"
+msgstr "Ticket-Informationen"
 
 #: ../extras/mobile-view.rst:83
-#, fuzzy
-#| msgid "Notifications"
 msgid "Notifications & Account"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungen & Konto"
 
 #: ../extras/mobile-view.rst:0
-#, fuzzy
-#| msgid "Profile > Notifications menu"
 msgid "Mobile View Notifications"
-msgstr "Profil > Benachrichtigungs-Menü"
+msgstr "Benachrichtigungen mobile Ansicht"
 
 #: ../extras/mobile-view.rst:91 ../extras/profile-and-settings.rst:0
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
 #: ../extras/mobile-view.rst:0
-#, fuzzy
-#| msgid "Sample view of Overviews"
 msgid "Mobile View Account Overview"
-msgstr "Beispiel von Übersichten"
+msgstr "Mobile Ansicht Kontoübersicht"
 
 #: ../extras/mobile-view.rst:99
-#, fuzzy
-#| msgid "Overview"
 msgid "Account Overview"
-msgstr "Übersicht"
+msgstr "Konto-Übersicht"
 
 #: ../extras/mobile-view.rst:107
 msgid ""
@@ -5863,62 +5850,53 @@ msgid ""
 "documentation for the mobile view! The overall UX should be intuitive and "
 "self-explanatory in most cases."
 msgstr ""
+"Wir stellen bewusst keine ausführliche Dokumentation für die mobile Ansicht "
+"zur Verfügung. Das Layout und die Funktionen sollten intuitiv und "
+"selbsterklärend sein."
 
 #: ../extras/mobile-view.rst:112
-#, fuzzy
-#| msgid "Feature"
 msgid "Features"
-msgstr "Feature"
+msgstr "Features"
 
 #: ../extras/mobile-view.rst:114
 msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
 msgstr ""
+"Mit der mobilen Ansicht können Sie Ihre gewohnten Aufgaben in Zammad von "
+"unterwegs bearbeiten:"
 
 #: ../extras/mobile-view.rst:117
-#, fuzzy
-#| msgid "open a ticket overview;"
 msgid "Manage & use your ticket overviews"
-msgstr "öffnen Sie eine Ticket-Übersicht;"
+msgstr "Verwalten und nutzen Sie Ihre Ticket-Übersichten"
 
 #: ../extras/mobile-view.rst:118
-#, fuzzy
-#| msgid "Search for Tickets"
 msgid "Search for existing records"
-msgstr "Suche nach Tickets"
+msgstr "Suche nach existierenden Einträgen"
 
 #: ../extras/mobile-view.rst:119
-#, fuzzy
-#| msgid "Creating a Ticket"
 msgid "Create a new ticket"
-msgstr "Erstellen eines Tickets"
+msgstr "Erstellen eines neuen Tickets"
 
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
 msgstr ""
 
 #: ../extras/mobile-view.rst:121
-#, fuzzy
-#| msgid "Ticket attributes"
 msgid "Modify ticket attributes"
-msgstr "Ticket Attribute"
+msgstr "Ändern von Ticketattributen"
 
 #: ../extras/mobile-view.rst:122
-#, fuzzy
-#| msgid "Ticket attributes"
 msgid "Modify customer attributes"
-msgstr "Ticket Attribute"
+msgstr "Ändern von Kundenattributen"
 
 #: ../extras/mobile-view.rst:123
-#, fuzzy
-#| msgid "Edit organization dialog"
 msgid "Modify organization attributes"
-msgstr "Dialog zum Bearbeiten einer Organisation"
+msgstr "Ändern von Organisations-Attributen"
 
 #: ../extras/mobile-view.rst:125
 msgid "Mobile view also has some exclusive features:"
-msgstr ""
+msgstr "Die mobile Ansicht hat sogar exklusive Features:"
 
 #: ../extras/mobile-view.rst:127
 msgid "Innovative Zammad UX"
@@ -5930,29 +5908,27 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:129
 msgid "Ready for multi-device usage"
-msgstr ""
+msgstr "Nutzung mit mehreren Geräten gleichzeitig"
 
 #: ../extras/mobile-view.rst:130
 msgid "Progressive web app (PWA) support"
 msgstr ""
 
 #: ../extras/mobile-view.rst:133
-#, fuzzy
-#| msgid "Notifications"
 msgid "Limitations"
-msgstr "Benachrichtigungen"
+msgstr "Einschränkungen"
 
 #: ../extras/mobile-view.rst:135
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
 msgstr ""
+"Der mobilen Ansicht fehlen aktuell Features, die in der Desktop-Oberfläche "
+"vorhanden sind:"
 
 #: ../extras/mobile-view.rst:138
-#, fuzzy
-#| msgid "Time Accounting"
 msgid "Ticket Article Time Accounting"
-msgstr "Zeiterfassung"
+msgstr "Ticket Artikel Zeiterfassung"
 
 #: ../extras/mobile-view.rst:139
 msgid "Ticket Article **Split** Action"
@@ -5961,28 +5937,27 @@ msgstr ""
 #: ../extras/mobile-view.rst:140
 msgid "Linked Tickets & Ticket **Link** Action"
 msgstr ""
+"Tickets **zusammenfassen** und die Anzeige von zusammengefassten Tickets"
 
 #: ../extras/mobile-view.rst:141
-#, fuzzy
-#| msgid "Ticket Actions"
 msgid "Ticket Macros"
-msgstr "Ticket-Aktionen"
+msgstr "Ticket-Makros"
 
 #: ../extras/mobile-view.rst:142
-#, fuzzy
-#| msgid "History"
 msgid "Ticket History"
-msgstr "Historie"
+msgstr "Ticket-Historie"
 
 #: ../extras/mobile-view.rst:143
 msgid "Ticket Create Templates & Shared Drafts"
-msgstr ""
+msgstr "Ticket-Vorlagen erstellen und geteilte Entwürfe"
 
 #: ../extras/mobile-view.rst:145
 msgid ""
 "Additionally, certain features were intentionally omitted in order to "
 "improve the focus on important information:"
 msgstr ""
+"Außerdem wurden bestimmte Features weggelassen, um Ihren Fokus auf die "
+"wichtigsten Informationen zu richten:"
 
 #: ../extras/mobile-view.rst:148
 msgid ""
@@ -5991,21 +5966,21 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:149
 msgid "Most Knowledge Base Features (except ticket integration)"
-msgstr ""
+msgstr "Ein Großteil der Knowledge Base Features (außer Ticketintegration)"
 
 #: ../extras/mobile-view.rst:150
 msgid "Most User Profile Functions (except avatar and language preferences)"
 msgstr ""
+"Die meisten Profilfunktionen für Benutzer (außer Avatar- und "
+"Spracheinstellungen)"
 
 #: ../extras/mobile-view.rst:151
 msgid "Reports"
-msgstr ""
+msgstr "Auswertungen"
 
 #: ../extras/mobile-view.rst:156
-#, fuzzy
-#| msgid "Token Access"
 msgid "Access"
-msgstr "Token Zugriff"
+msgstr "Zugriff"
 
 #: ../extras/mobile-view.rst:158
 msgid ""
@@ -6013,6 +5988,9 @@ msgid ""
 "redirection to mobile view. Even with this mechanism in place it's possible "
 "to explicitly switch between the views by using app links:"
 msgstr ""
+"Zammad prüft, ob es sich um ein Mobilgerät handelt und leitet automatisch "
+"auf die mobile Ansicht um. Sie können allerdings weiterhin zwischen den "
+"Ansichten wechseln, indem Sie die entsprechenden Links aufrufen:"
 
 #: ../extras/mobile-view.rst:181
 msgid "Continue to desktop link in mobile view"
@@ -6020,7 +5998,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
-msgstr ""
+msgstr "Weiter zur Desktop-Ansicht im Anmeldebildschirm"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link in User Account Overview"
@@ -6032,11 +6010,11 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:202
 msgid "Continue to mobile link in desktop view"
-msgstr ""
+msgstr "Weiter zur mobilen Ansicht in der Desktop Ansicht"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
-msgstr ""
+msgstr "Weiter zur mobilen Ansicht im Desktop Anmeldebildschirm"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop User Menu"
@@ -6044,13 +6022,16 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:198
 msgid "User Avatar Menu"
-msgstr ""
+msgstr "Benutzer Avatar Menü"
 
 #: ../extras/mobile-view.rst:204
 msgid ""
 "Whenever an app link is used, the choice will be remembered by the user's "
 "device and the next time the automatic redirection will behave accordingly."
 msgstr ""
+"Immer wenn die Ansicht über einen Link umgestellt wird, wird die Einstellung "
+"gespeichert und beim nächsten Aufruf von Zammad erfolgt eine entsprechende "
+"Weiterleitung."
 
 #: ../extras/organizations.rst:4
 msgid ""
@@ -6359,12 +6340,6 @@ msgid "Internal notifications cannot be disabled."
 msgstr "Interne Benachrichtigungen können nicht deaktiviert werden."
 
 #: ../extras/profile-and-settings.rst:113
-#, fuzzy
-#| msgid ""
-#| "By default, you will receive notifications for all tickets on every group "
-#| "you belong to—even for tickets that are assigned to other agents. Use the "
-#| "**Limit Groups** box to disable such notifications on a per-group basis. "
-#| "(You will continue to receive notifications for your own tickets.)"
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to—even for tickets that are assigned to other agents. Use the "
@@ -6373,30 +6348,31 @@ msgid ""
 msgstr ""
 "Standardmäßig erhalten Sie Benachrichtigungen für alle Tickets für jede "
 "Gruppe, der Sie angehören - auch für Tickets, die anderen Agenten zugewiesen "
-"sind. Verwenden Sie das Feld **Gruppen einschränken**, um Benachrichtigungen "
-"für Gruppen einzeln zu deaktivieren. (Sie werden weiterhin "
-"Benachrichtigungen für Ihre eigenen Tickets erhalten.)"
+"sind. Verwenden Sie den Schalter **Gruppen einschränken** und die "
+"Einstellungen darunter, um Benachrichtigungen für Gruppen einzeln zu "
+"deaktivieren."
 
 #: ../extras/profile-and-settings.rst:118
-#, fuzzy
-#| msgid ""
-#| "🔔 You **will** continue to receive notifications while you are absent."
 msgid "(You will continue to receive notifications for your own tickets.)"
 msgstr ""
-"🔔 Sie werden auch **weiterhin Benachrichtigungen erhalten**, während Sie "
-"abwesend sind."
+"(Sie werden weiterhin Benachrichtigungen für Ihre eigenen Tickets erhalten.)"
 
 #: ../extras/profile-and-settings.rst:122
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
 msgstr ""
+"Wenn Sie **Einschränkung auf Gruppen** aktivieren, jedoch die "
+"Benachrichtigungen für alle Gruppen deaktivieren, bekommen Sie folgende "
+"Warnung angezeigt."
 
 #: ../extras/profile-and-settings.rst:128
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
 msgstr ""
+"In diesem Fall wird beim Speichern die Funktion **Einschränkung auf Gruppen**"
+" deaktiviert, da keine Einschränkung mehr übrig bleibt."
 
 #: ../extras/profile-and-settings.rst:131
 msgid "Notifications are available to agents only."
@@ -6418,6 +6394,8 @@ msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
 msgstr ""
+"Sie können Ihre Benachrichtigungseinstellungen immer auf die Systemstandards "
+"zurücksetzen, indem Sie auf den Button unten in dieser Ansicht klicken."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Out of Office"
@@ -6502,9 +6480,9 @@ msgid ""
 "Screencast showing how to drag & drop overviews order and reset the\n"
 "order back to default"
 msgstr ""
-"Dieser Screencast zeigt wie mittels Drag & Drop die Reihenfolge der "
-"Übersichten angepasst werden kann und wie die Standardreihenfolge wieder "
-"hergestellt wird"
+"Dieser Screencast zeigt, wie mittels Drag & Drop die Reihenfolge der "
+"Übersichten angepasst werden kann und wie die Standardreihenfolge "
+"wiederhergestellt werden kann"
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Calendar"

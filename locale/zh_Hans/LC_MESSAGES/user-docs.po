@@ -86,7 +86,7 @@ msgstr "可以使用以下两种键盘快捷键方式之一应用富文本格式
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "As-you-type"
-msgstr ""
+msgstr "\"随您输入\""
 
 #: ../advanced/keyboard-shortcuts.rst:40
 msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
@@ -94,7 +94,7 @@ msgstr "按下 ``Cmd`` + ``I`` 组合键进入斜体模式,"
 
 #: ../advanced/keyboard-shortcuts.rst:41
 msgid "enter your desired text, and"
-msgstr ""
+msgstr "输入您想要的文本，然后"
 
 #: ../advanced/keyboard-shortcuts.rst:42
 msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
@@ -102,11 +102,11 @@ msgstr "再次按下 ``Cmd`` + ``I`` 组合键返回正常模式."
 
 #: ../advanced/keyboard-shortcuts.rst:0
 msgid "All-at-once"
-msgstr ""
+msgstr "一次性全部"
 
 #: ../advanced/keyboard-shortcuts.rst:46
 msgid "Enter your desired text,"
-msgstr ""
+msgstr "输入您想要的文本，"
 
 #: ../advanced/keyboard-shortcuts.rst:47
 msgid "click-and-drag with the mouse to select it, and"
@@ -130,10 +130,12 @@ msgid ""
 "close-and-tag-as-spam or reassign-to-another-group), macros can make the job "
 "a whole lot easier."
 msgstr ""
+"如果你发现自己在大量的工单上做着同样的更改（例如，关闭并标记为垃圾邮件或重新"
+"分配给另一组），宏可以使这项工作变得更加容易。"
 
 #: ../advanced/macros.rst:10
 msgid "🤔 **How do I make macros?**"
-msgstr ""
+msgstr "😊 **如何创建宏？**"
 
 #: ../advanced/macros.rst:12
 msgid ""
@@ -141,29 +143,32 @@ msgid ""
 "en/latest/manage/macros.html>`_. If you have an idea for a macro you’d like "
 "to use, your Zammad admin can probably make it happen."
 msgstr ""
+"你不需要自己创建 - 这是`管理员的工作<https://admin-docs.zammad.org/en/latest/"
+"manage/macros.html>`_。如果你有一个你想使用的宏的想法，你的Zammad管理员可能可"
+"以实现它。"
 
 #: ../advanced/macros.rst:17
 msgid ""
 "Macros can be applied in one of two ways: on a single ticket, or in bulk."
-msgstr ""
+msgstr "宏可以通过两种方式应用：在单个工单上，或者批量应用。"
 
 #: ../advanced/macros.rst:21
 msgid "On a Single Ticket"
-msgstr ""
+msgstr "在单个工单上"
 
 #: ../advanced/macros.rst:23
 msgid ""
 "The simplest way to apply a macro is to select it from the **Update ᐱ** "
 "submenu in the Ticket View:"
-msgstr ""
+msgstr "应用宏的最简单方式是在工单视图中从**更新 ᐱ**子菜单中选择它："
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
-msgstr ""
+msgstr "演示如何在工单视图中运行宏的屏幕录像。"
 
 #: ../advanced/macros.rst:31
 msgid "💾 **Macro = Update**"
-msgstr ""
+msgstr "💾 **宏 = 更新**"
 
 #: ../advanced/macros.rst:33
 msgid ""
@@ -171,6 +176,8 @@ msgid ""
 "<ticket_settings>` (including typing up a reply to the customer), applying a "
 "macro will save them, too."
 msgstr ""
+"如果你对工单的任何其他:ref:`设置 <ticket_settings>`（包括向客户键入回复）进行"
+"了更改，应用宏也会保存它们。"
 
 #: ../advanced/macros.rst:38
 msgid ""
@@ -178,44 +185,47 @@ msgid ""
 "any manual changes – including messages to the customer! When in doubt, "
 "apply your macro and your manual changes *separately.*"
 msgstr ""
+"⚠️ **但要注意：**在出现冲突的情况下，宏的操作将覆盖任何手动更改 - 包括向客户的"
+"消息！如有疑问，*分开*应用你的宏和手动更改。"
 
 #: ../advanced/macros.rst:0
 msgid "Screencast showing above described effect that overwrites articles."
-msgstr ""
+msgstr "屏幕录像显示了上述描述的覆盖文章的效果。"
 
 #: ../advanced/macros.rst:48
 msgid ""
 "If the selected macro adds a note to the ticket, any text entered in the "
 "message composer will be lost."
 msgstr ""
+"如果选择的宏向工单添加了注释，那么在消息编辑器中输入的任何文本都将丢失。"
 
 #: ../advanced/macros.rst:52
 msgid "In Bulk"
-msgstr ""
+msgstr "批量操作"
 
 #: ../advanced/macros.rst:54
 msgid "To apply a macro to many tickets at the same time:"
-msgstr ""
+msgstr "要同时将宏应用于多个工单："
 
 #: ../advanced/macros.rst:56
 msgid "open a ticket overview;"
-msgstr ""
+msgstr "打开工单概览；"
 
 #: ../advanced/macros.rst:57
 msgid "select your desired tickets;"
-msgstr ""
+msgstr "选择您需要的工单；"
 
 #: ../advanced/macros.rst:58
 msgid "click-and-drag to open the “Run Macro” drawer; and"
-msgstr ""
+msgstr "点击并拖动以打开“运行宏”抽屉；然后"
 
 #: ../advanced/macros.rst:59
 msgid "drop the tickets on your target macro."
-msgstr ""
+msgstr "将工单放在您的目标宏上。"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
-msgstr ""
+msgstr "屏幕演示如何通过概览运行宏。"
 
 #: ../advanced/macros.rst:66
 msgid ""
@@ -223,16 +233,18 @@ msgid ""
 "view, Zammad may automatically open the next ticket (or close the current "
 "one, or just stay on it), depending on how the macro was set up."
 msgstr ""
+"☝️ **只有一个区别...** 当从工单视图运行宏时，Zammad可能会自动打开下一个工单"
+"（或关闭当前工单，或只是停留在上面），这取决于宏的设置方式。"
 
 #: ../advanced/macros.rst:71
 msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
-msgstr ""
+msgstr "当从概览页面运行它时，Zammad将始终停留在概览页面。"
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
-msgstr ""
+msgstr "高级搜索"
 
 #: ../advanced/search.rst:4
 msgid ""
@@ -240,46 +252,49 @@ msgid ""
 "you to find e.g. Tickets with specific key words and states. Below "
 "information will help you to improve your search results."
 msgstr ""
+"使用Zammad，您可以将搜索限制为特定信息。这允许您找到例如具有特定关键词和状态"
+"的工单。以下信息将帮助您改进搜索结果。"
 
 #: ../advanced/search.rst:8
 msgid ""
 "For instance you can search for a specific customer by using ``customer."
 "attribute``::"
-msgstr ""
+msgstr "例如，您可以使用``customer.attribute``来搜索特定的客户："
 
 #: ../advanced/search.rst:13
 msgid "or::"
-msgstr ""
+msgstr "或者："
 
 #: ../advanced/search.rst:18
 msgid ""
 "If you want to run a more complex search you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
+"如果您想进行更复杂的搜索，您可以使用带有``()``和``AND``/``OR``选项的条件："
 
 #: ../advanced/search.rst:23
 msgid "**🤓 Search phrases changed for Zammad 4.0**"
-msgstr ""
+msgstr "**🤓 Zammad 4.0改变了搜索短语**"
 
 #: ../advanced/search.rst:25
 msgid "With Zammad <=3.6 the following keys contained a string only:"
-msgstr ""
+msgstr "在Zammad <=3.6中，以下键仅包含一个字符串："
 
 #: ../advanced/search.rst:27 ../advanced/suggested-workflows.rst:100
 msgid "group"
-msgstr ""
+msgstr "组"
 
 #: ../advanced/search.rst:28 ../advanced/suggested-workflows.rst:103
 msgid "priority"
-msgstr ""
+msgstr "优先级"
 
 #: ../advanced/search.rst:29
 msgid "state"
-msgstr ""
+msgstr "状态"
 
 #: ../advanced/search.rst:30
 msgid "organization"
-msgstr ""
+msgstr "组织"
 
 #: ../advanced/search.rst:32
 msgid ""
@@ -287,10 +302,12 @@ msgid ""
 "have to add ``.name`` (e. g. ``group.name`` or ``priority.name``) to receive "
 "the same search results."
 msgstr ""
+"在Zammad >=4.0中，这些键包含了整个对象。这意味着你现在必须添加``.name`` (例"
+"如 ``group.name`` 或 ``priority.name``) 来获取相同的搜索结果。"
 
 #: ../advanced/search.rst:38
 msgid "Available attributes"
-msgstr ""
+msgstr "可用属性"
 
 #: ../advanced/search.rst:42
 msgid ""
@@ -298,30 +315,32 @@ msgid ""
 "`Zammad Admin-Documentation <https://docs.zammad.org/en/latest/install/"
 "elasticsearch/indexed-attributes.html>`_"
 msgstr ""
+"如需查看更详细的可用属性列表，请查阅我们的 `Zammad 管理员文档 <https://docs."
+"zammad.org/en/latest/install/elasticsearch/indexed-attributes.html>`_。"
 
 #: ../advanced/search.rst:51
 msgid "Attributes and their usuage"
-msgstr ""
+msgstr "属性及其用途"
 
 #: ../advanced/search.rst:1
 msgid "Attribute"
-msgstr ""
+msgstr "属性"
 
 #: ../advanced/search.rst:1
 msgid "possible Values"
-msgstr ""
+msgstr "可能的值"
 
 #: ../advanced/search.rst:1
 msgid "Example"
-msgstr ""
+msgstr "例如"
 
 #: ../advanced/search.rst:1
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../advanced/search.rst:1
 msgid "number"
-msgstr ""
+msgstr "数字"
 
 #: ../advanced/search.rst:1
 msgid "1118566"
@@ -333,7 +352,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "Search for a Ticketnumber"
-msgstr ""
+msgstr "寻找一个票号"
 
 #: ../advanced/search.rst:1
 msgid "title"
@@ -346,6 +365,7 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
 msgstr ""
+"\"title:\\\"某个标题\\\" |br|\\ title:打印机 |br|\\ title: \\\"某个ti*\\\"\""
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -353,6 +373,8 @@ msgid ""
 "a AND-Search over the given words. You can also use a single keyword without "
 "quotation."
 msgstr ""
+"\"如果您需要在搜索短语中使用空格，请使用引号。Zammad将对给定的单词进行AND-"
+"Search。您也可以不用引号使用单个关键字。\""
 
 #: ../advanced/search.rst:1
 msgid "created_at"
@@ -367,12 +389,15 @@ msgid ""
 "created_at:2018-11-18 |br|\\ created_at:[2018-11-15 TO 2018-11-18] |br|\\ "
 "created_at:>now-1h"
 msgstr ""
+"\"创建于：2018-11-18 |br|\\ 创建于：[2018-11-15 至 2018-11-18] |br|\\ 创建"
+"于：>现在-1小时\""
 
 #: ../advanced/search.rst:1
 msgid ""
 "You can either use a simple date, a date-range or >now-xh. Please note that "
 "the date format needs to be YYYY-MM-DD"
 msgstr ""
+"\"您可以使用简单的日期，日期范围或>now-xh。请注意，日期格式需要为YYYY-MM-DD\""
 
 #: ../advanced/search.rst:1
 msgid "state.name"
@@ -392,6 +417,8 @@ msgid ""
 "OR). Please note that you need to use the english namings for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
+"\"您可以过滤特定的票据状态（甚至可以使用OR将它们组合在一起）。请注意，除非您"
+"在实例中定义了自定义票据状态，否则您需要使用英文命名的状态。\""
 
 #: ../advanced/search.rst:1
 msgid "article_count"
@@ -406,6 +433,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
+"\"文章数量：5 |br|\\ 文章数量：[5 至 10] |br|\\ 文章数量：[5 至 \\*] |br|\\ "
+"文章数量：[\\* 至 5]\""
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -413,6 +442,8 @@ msgid ""
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
+"\"您可以搜索具有特定文章数量的票据（如果需要，甚至可以搜索具有5篇或更多文章的"
+"所有内容，甚至最多5篇文章）。\""
 
 #: ../advanced/search.rst:1
 msgid "article.from"
@@ -451,6 +482,9 @@ msgid ""
 "\"head\". Zammad will also allow you to use regular expressions, where ever "
 "the attributes allows it."
 msgstr ""
+"第一个示例显示了包含单词\"heat\"的所有票据 - 你也可以使用模糊操作符\"~\"来搜"
+"索类似的单词，比如\"head\"。Zammad还允许你在属性允许的地方使用正则表达式进行"
+"搜索。"
 
 #: ../advanced/search.rst:63
 msgid "**Combining search phrases**"
@@ -465,6 +499,10 @@ msgid ""
 "receive search results that you want to exclude, you can use negation ``!``. "
 "Below are some examples that you could use with this:"
 msgstr ""
+"你可以通过使用``AND``、``OR``和``TO``来组合搜索短语，具体取决于你使用的情况和"
+"短语。如果需要，你可以使用``()``对你的搜索短语进行部分组合以进行复杂搜索。这"
+"允许你将不同依赖性的几个短语组合在一起(AND/OR)。如果你收到了你想排除的搜索结"
+"果，你可以使用否定``!``。以下是一些你可以使用的示例："
 
 #: ../advanced/search.rst:72
 msgid "Examples for search phrase combinations"
@@ -477,41 +515,43 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:feedback)"
-msgstr ""
+msgstr "状态.名称:(已关闭 或 开放) 并且 (优先级.名称:\"2 正常\" 或 标签:反馈)"
 
 #: ../advanced/search.rst:1
 msgid ""
 "Show every ticket that state is either closed or open and has priority "
 "normal or the tag feedback."
-msgstr ""
+msgstr "显示所有状态为已关闭或开放，并且优先级为正常或带有反馈标签的工单。"
 
 #: ../advanced/search.rst:1
 msgid ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
 "feedback) AND !(*Zammad*)"
 msgstr ""
+"状态.名称:(已关闭 或 开放) 并且 (优先级.名称:\"2 正常\" 或 标签:反馈) 并且 !"
+"(包含*Zammad*)"
 
 #: ../advanced/search.rst:1
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
 "contain anything matching to \"Zammad\""
-msgstr ""
+msgstr "这与上述结果相同，只是我们不希望票据中包含任何与\"Zammad\"匹配的内容。"
 
 #: ../advanced/search.rst:1
 msgid "owner.email:bob@example.net AND state.name:(open OR new)"
-msgstr ""
+msgstr "所有者.email:bob@example.net 和 状态.名称:(打开 或者 新的)"
 
 #: ../advanced/search.rst:1
 msgid "Show Tickets from bob@example.net that are either open or new"
-msgstr ""
+msgstr "显示来自bob@example.net的开放或新的工单"
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
-msgstr ""
+msgstr "状态.名称:待处理* 和 文章_数量:[1 到 5]"
 
 #: ../advanced/search.rst:1
 msgid "Show everything with any pending state and an article count of 1 to 5."
-msgstr ""
+msgstr "显示所有处于任何待处理状态且文章数量在1到5之间的内容。"
 
 #: ../advanced/search.rst:82
 msgid "Some Ticket attributes and their type"
@@ -3420,7 +3460,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: ../basics/zammad-glossary.rst:713
 msgid ""
@@ -4754,7 +4794,6 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:141
 #, fuzzy
-#| msgid "Macros"
 msgid "Ticket Macros"
 msgstr "宏"
 
@@ -4961,7 +5000,6 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:33
 #, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard shortcuts"
 msgstr "快捷键"
 
@@ -5071,7 +5109,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: ../extras/profile-and-settings.rst:91
 msgid "Change your login password (may be disabled by system admin)."
