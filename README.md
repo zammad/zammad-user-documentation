@@ -101,8 +101,8 @@ please create an issue. Thanks.
 
 [![Translation progress][tprogress]][wbetranslate]
 
-[badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
-[docs]: https://user-docs.zammad.org/en/latest/
-[tbadge]: https://translations.zammad.org/widgets/documentations/-/user-documentation/svg-badge.svg
-[wbetranslate]: https://translations.zammad.org/projects/documentations/user-documentation/
-[tprogress]: https://translations.zammad.org/widgets/documentations/-/user-documentation/multi-auto.svg
+[badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=pre-release
+[docs]: https://user-docs.zammad.org/en/pre-release/
+[tbadge]: https://translations.zammad.org/widgets/documentations/-/user-documentation-pre-release/svg-badge.svg
+[wbetranslate]: https://translations.zammad.org/projects/documentations/user-documentation-pre-release/
+[tprogress]: https://translations.zammad.org/widgets/documentations/-/user-documentation-pre-release/horizontal-auto.svg
