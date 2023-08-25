@@ -1,8 +1,10 @@
-[![Documentation Status][badge]][docs] [![Translation Status][tbadge]][wbetranslate]
+[![Documentation Status][badge_pre-release]][docs_pre-release] [![Translation Status][tbadge_pre-release]][wbetranslate_pre-release] (pre-release)
+
+[![Documentation Status][badge_latest]][docs_latest] [![Translation Status][tbadge_latest]][wbetranslate_latest] (latest)
 
 # Zammad User Documentation
 
-Source files for [Zammad’s user documentation][docs].
+Source files for Zammad’s user documentation ([latest][docs_latest] / [pre-release][docs_pre-release]).
 
 ## Contributing
 
@@ -99,10 +101,18 @@ please create an issue. Thanks.
 
 ### Localization progress
 
-[![Translation progress][tprogress]][wbetranslate]
+[![Translation progress][tprogress]][wbetranslate_latest]
 
-[badge]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=pre-release
-[docs]: https://user-docs.zammad.org/en/pre-release/
-[tbadge]: https://translations.zammad.org/widgets/documentations/-/user-documentation-pre-release/svg-badge.svg
-[wbetranslate]: https://translations.zammad.org/projects/documentations/user-documentation-pre-release/
+[badge_latest]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
+[docs_latest]: https://user-docs.zammad.org/en/latest/
+
+[badge_pre-release]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=pre-release
+[docs_pre-release]: https://user-docs.zammad.org/en/pre-release/
+
+[tbadge_latest]: https://translations.zammad.org/widgets/documentations/-/user-documentation-latest/svg-badge.svg
+[wbetranslate_latest]: https://translations.zammad.org/projects/documentations/user-documentation-latest/
+
+[tbadge_pre-release]: https://translations.zammad.org/widgets/documentations/-/user-documentation-pre-release/svg-badge.svg
+[wbetranslate_pre-release]: https://translations.zammad.org/projects/documentations/user-documentation-pre-release/
+
 [tprogress]: https://translations.zammad.org/widgets/documentations/-/user-documentation-pre-release/horizontal-auto.svg
