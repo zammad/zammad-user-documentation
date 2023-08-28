@@ -16,7 +16,7 @@ If you would like to improve the docs, simply:
 3. submit a pull request.
 
 > 🌍 **Wanna help translate?** Submit your contributions
-> (or request additional languages) [here][wbetranslate].
+> (or request additional languages) [here][wbetranslate_pre-release].
 > Do **NOT** submit a PR with changes to the contents of the `locale/` directory.
 
 Thanks! ❤ ❤ ❤  
@@ -101,7 +101,7 @@ please create an issue. Thanks.
 
 ### Localization progress
 
-[![Translation progress][tprogress]][wbetranslate_latest]
+[![Translation progress][tprogress]][wbetranslate_pre-release]
 
 [badge_latest]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
 [docs_latest]: https://user-docs.zammad.org/en/latest/
