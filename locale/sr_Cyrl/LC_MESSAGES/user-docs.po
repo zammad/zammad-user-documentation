@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-11 09:37+0100\n"
+"POT-Creation-Date: 2023-08-18 09:59+0200\n"
 "PO-Revision-Date: 2023-08-11 08:34+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (cyrillic) <https://translations.zammad.org/projects/"
@@ -1617,6 +1617,29 @@ msgstr ""
 "уклонити избор за опште обрачунато време које не би требало да буде "
 "груписано."
 
+#: ../advanced/time-accounting.rst:46
+msgid "**Where can I see how much time has been accounted to this ticket?**"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:48
+msgid ""
+"If a ticket already has accounted time(s), you can see it in the ticket pane "
+"at the bottom. You can find the calculated sums of each activity type as "
+"well as the total sum of accounted times for all activity types."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:56
+#, fuzzy
+#| msgid "Screenshot showing the context menu of the RSS button"
+msgid "Screenshot showing accounted times in ticket pane"
+msgstr "Снимак екрана који приказује контекстни мени RSS дугмета"
+
+#: ../advanced/time-accounting.rst:56
+#, fuzzy
+#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
+msgid "Accounted times in the ticket view"
+msgstr "Мени i-doit интеграције у приказу тикета"
+
 #: ../basics/find-ticket.rst:8
 msgid "by Browsing"
 msgstr "прегледом"
@@ -1796,10 +1819,6 @@ msgid ""
 msgstr ""
 "За детаље резултата кликните на везу **Прикажи детаље претраге →** одмах "
 "изнад листе са брзим резултатима."
-
-#: ../basics/service-ticket.rst:8
-msgid "Managing Ticket Settings"
-msgstr "Управљање подацима тикета"
 
 #: ../basics/service-ticket.rst:2
 msgid "Servicing Tickets"
@@ -7394,10 +7413,16 @@ msgid "Requirement to Set Up a Two-Factor Method"
 msgstr "Обавезно постављање метода двофакторске аутентификације"
 
 #: ../extras/two-factor-authentication.rst:177
+#, fuzzy
+#| msgid ""
+#| "You system admin may choose to require you to set up at least one two-"
+#| "factor method for your account. In this case, if you haven't already set "
+#| "up a method, you will be asked to do so at your next sign-in or "
+#| "application reload."
 msgid ""
-"You system admin may choose to require you to set up at least one two-factor "
-"method for your account. In this case, if you haven't already set up a "
-"method, you will be asked to do so at your next sign-in or application "
+"Your system admin may choose to require you to set up at least one two-"
+"factor method for your account. In this case, if you haven't already set up "
+"a method, you will be asked to do so at your next sign-in or application "
 "reload."
 msgstr ""
 "Ваш системски администратор може подесити да захтева од вас да поставите "
@@ -7482,8 +7507,13 @@ msgid "Authenticator App Secret Revealed"
 msgstr "Откривена шифра апликације за аутентификацију"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:33
+#, fuzzy
+#| msgid ""
+#| "You authenticator app should immediately add the new entry for your "
+#| "Zammad account, and a 6-digit code will be displayed next to it together "
+#| "with a timer."
 msgid ""
-"You authenticator app should immediately add the new entry for your Zammad "
+"Your authenticator app should immediately add the new entry for your Zammad "
 "account, and a 6-digit code will be displayed next to it together with a "
 "timer."
 msgstr ""
@@ -7730,3 +7760,6 @@ msgstr "Додаци"
 #: ../index.rst:2
 msgid "Zammad Agent Documentation"
 msgstr "Zammad корисничка документација"
+
+#~ msgid "Managing Ticket Settings"
+#~ msgstr "Управљање подацима тикета"
