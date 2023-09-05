@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-18 09:59+0200\n"
-"PO-Revision-Date: 2023-08-11 08:34+0000\n"
+"PO-Revision-Date: 2023-09-05 08:18+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian (cyrillic) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr_Cyrl/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:46
 msgid "**Where can I see how much time has been accounted to this ticket?**"
-msgstr ""
+msgstr "**Где могу проверити колико је времена обрачунато за овај тикет?**"
 
 #: ../advanced/time-accounting.rst:48
 msgid ""
@@ -1627,18 +1627,17 @@ msgid ""
 "at the bottom. You can find the calculated sums of each activity type as "
 "well as the total sum of accounted times for all activity types."
 msgstr ""
+"Уколико тикет већ има обрачунато време, можете га видети при дну панела "
+"тикета. Можете прегледати збирне суме за сваки тип активности као и укупан "
+"збир обрачунатог времена за све типове активности."
 
 #: ../advanced/time-accounting.rst:56
-#, fuzzy
-#| msgid "Screenshot showing the context menu of the RSS button"
 msgid "Screenshot showing accounted times in ticket pane"
-msgstr "Снимак екрана који приказује контекстни мени RSS дугмета"
+msgstr "Снимак екрана који приказује обрачунато време у панелу тикета"
 
 #: ../advanced/time-accounting.rst:56
-#, fuzzy
-#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgid "Accounted times in the ticket view"
-msgstr "Мени i-doit интеграције у приказу тикета"
+msgstr "Обрачунато време у приказу тикета"
 
 #: ../basics/find-ticket.rst:8
 msgid "by Browsing"
@@ -2558,18 +2557,14 @@ msgstr ""
 "листе расположивих нових тикета."
 
 #: ../basics/service-ticket/settings/owner.rst:16
-#, fuzzy
-#| msgid ""
-#| "In principle, any agent may assign a ticket to any other, as long as both "
-#| "have the required privileges for the ticket’s :doc:`group <group>`."
 msgid ""
 "In principle, any agent may assign a ticket to any other, as long as both "
 "have the required privileges for the ticket’s :doc:`group </basics/service-"
 "ticket/settings/group>`."
 msgstr ""
 "У принципу, сваки оператер може доделити тикет било ком другом, под условом "
-"да обоје имају потребне дозволе за групу тикета :doc:`</basics/service-"
-"ticket/settings/group>`."
+"да обоје имају потребне дозволе за :doc:`групу </basics/service-ticket/"
+"settings/group>` тикета."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 msgid "Why would I want to re-assign a ticket to someone else?"
@@ -7413,12 +7408,6 @@ msgid "Requirement to Set Up a Two-Factor Method"
 msgstr "Обавезно постављање метода двофакторске аутентификације"
 
 #: ../extras/two-factor-authentication.rst:177
-#, fuzzy
-#| msgid ""
-#| "You system admin may choose to require you to set up at least one two-"
-#| "factor method for your account. In this case, if you haven't already set "
-#| "up a method, you will be asked to do so at your next sign-in or "
-#| "application reload."
 msgid ""
 "Your system admin may choose to require you to set up at least one two-"
 "factor method for your account. In this case, if you haven't already set up "
@@ -7507,11 +7496,6 @@ msgid "Authenticator App Secret Revealed"
 msgstr "Откривена шифра апликације за аутентификацију"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:33
-#, fuzzy
-#| msgid ""
-#| "You authenticator app should immediately add the new entry for your "
-#| "Zammad account, and a 6-digit code will be displayed next to it together "
-#| "with a timer."
 msgid ""
 "Your authenticator app should immediately add the new entry for your Zammad "
 "account, and a 6-digit code will be displayed next to it together with a "
