@@ -42,7 +42,6 @@ Zammad Agent Documentation
    /extras/chat
    /extras/caller-log
    /extras/profile-and-settings
-   /extras/two-factor-authentication
    /extras/mobile-view
    /extras/knowledge-base
    /extras/i-doit-track-company-property

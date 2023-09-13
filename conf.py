@@ -12,11 +12,7 @@ author = u'The Zammad Foundation'
 source_suffix = '.rst'
 master_doc = 'index'
 exclude_patterns = ['_build', 'html', 'doctrees']
-extensions = [
-   'versionwarning.extension',
-   'sphinx_tabs.tabs',
-   'sphinx.ext.extlinks',
-]
+extensions = ['versionwarning.extension', 'sphinx_tabs.tabs']
 
 locale_dirs = ['locale/']
 gettext_compact = "user-docs"
@@ -98,18 +94,4 @@ versionwarning_messages = {
       'title="Updating Zammad">Updating Zammad</a> asap.'
       "If you're a hosted user, please contact support."
    ),
-}
-
-# Provide aliases to common external documentation targets.
-#   It supports automatic substitution for the current language
-#   and branch placeholders.
-#
-#   :admin-docs:`the administrator documentation <manage/users/index.html>`
-#
-#   which renders the following link in English docs on pre-release branch:
-#
-#   https://admin-docs.zammad.org/en/pre-release/manage/users/index.html
-#
-extlinks = {
-   'admin-docs': (f'https://admin-docs.zammad.org/{language}/{branch}/%s', '')
 }

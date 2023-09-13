@@ -11,4 +11,4 @@ Once you get the hang of the tasks below, there’s really not much more to it.
 
    service-ticket/create
    service-ticket/follow-up
-   service-ticket/settings
+   Managing Ticket Settings <service-ticket/settings>
