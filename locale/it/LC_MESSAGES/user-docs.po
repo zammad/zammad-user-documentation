@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-11 09:37+0100\n"
+"POT-Creation-Date: 2023-09-13 09:37+0200\n"
 "PO-Revision-Date: 2023-07-28 09:18+0000\n"
 "Last-Translator: crnfpp <crnfpp@unife.it>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
@@ -1349,31 +1349,105 @@ msgstr ""
 "amministratori a tenere traccia di quanto tempo viene speso su ogni ticket, "
 "cliente singolo o organizzazione affiliata."
 
-#: ../advanced/time-accounting.rst:12
-msgid "Time accounting dialog"
+#: ../advanced/time-accounting.rst:None
+#, fuzzy
+#| msgid "Time accounting dialog"
+msgid "Time Accounting Dialog"
 msgstr "Finestra di dialogo per la Gestione del tempo"
 
-#: ../advanced/time-accounting.rst:12
+#: ../advanced/time-accounting.rst:11
+#, fuzzy
+#| msgid ""
+#| "If time accounting is enabled, this dialog will appear each time you "
+#| "update a ticket. Enter how much time you spent on it (in minutes, or "
+#| "whichever unit of time all your other colleagues are using)."
 msgid ""
-"If time accounting is enabled, this dialog will appear each time you update "
-"a ticket. Enter how much time you spent on it (in minutes, or whichever unit "
-"of time all your other colleagues are using)."
+"If the time accounting is enabled, this dialog will appear each time you "
+"update a ticket. Enter how much time you spent on it."
 msgstr ""
 "Se la gestione del tempo è abilitata, questa finestra apparirà ogni volta "
 "che un ticket viene aggiornato. Inserisci qui quanto tempo hai impiegato (in "
 "minuti o in qualunque altra unità di misura tu e i/le tuoi/e colleghi/e "
 "avete stabilito di usare)."
 
-#: ../advanced/time-accounting.rst:17
+#: ../advanced/time-accounting.rst:14
 msgid "**🤔 Huh? I don’t see a “Time Accounting” dialog...**"
 msgstr "**🤔 Uhm? Non vedo la finestra “Gestione del tempo”...**"
 
-#: ../advanced/time-accounting.rst:19
+#: ../advanced/time-accounting.rst:16
+#, fuzzy
 msgid ""
 "This feature is **optional**; if you don’t see it whenever you update a "
 "ticket, that means your administrator hasn’t enabled it yet. Administrators "
-"can learn more `here <https://admin-docs.zammad.org/en/latest/manage-time-"
-"accounting.html>`_."
+"can learn more :admin-docs:`here <manage/time-accounting.html>`."
+msgstr ""
+"Questa funzione è **opzionale**; se non la vedi nel menù principale "
+"significa che il tuo amministratore non l'ha ancora abilitata. Gli "
+"amministrazioni possono ottenere ulteriori informazioni `qui <https://admin-"
+"docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-"
+"systems>`_."
+
+#: ../advanced/time-accounting.rst:21
+msgid "**In which unit is the accounted time recorded?**"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:23
+msgid ""
+"The Accounted time is always recorded as unitless numbers. However, your "
+"administrator may decide to show an optional label next to the field to hint "
+"you and your colleagues which unit is assumed."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:0
+#, fuzzy
+#| msgid "Time Accounting"
+msgid "Time Accounting Unit"
+msgstr "Gestione del tempo"
+
+#: ../advanced/time-accounting.rst:31
+msgid "**What is an Activity Type?**"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:33
+msgid ""
+"**Activity Types** are used for grouping accounted time entries together. "
+"This is an **optional** feature which shows a list of activities as a "
+"selectable list."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:0
+#, fuzzy
+#| msgid "Time Accounting"
+msgid "Time Accounting Activity Type"
+msgstr "Gestione del tempo"
+
+#: ../advanced/time-accounting.rst:41
+msgid ""
+"Simply choose the closest type of the activity you are recording the time "
+"for, noting that one of the choices may be pre-selected. You can always "
+"remove the selection for general accounted time that is not supposed to be "
+"grouped together."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:46
+msgid "**Where can I see how much time has been accounted to this ticket?**"
+msgstr ""
+
+#: ../advanced/time-accounting.rst:48
+msgid ""
+"If a ticket already has accounted time(s), you can see it in the ticket pane "
+"at the bottom. You can find the calculated sums of each activity type as "
+"well as the total sum of accounted times for all activity types."
+msgstr ""
+
+#: ../advanced/time-accounting.rst:56
+#, fuzzy
+#| msgid "Screencast showing how to run a macro within a ticket view."
+msgid "Screenshot showing accounted times in ticket pane"
+msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
+
+#: ../advanced/time-accounting.rst:56
+msgid "Accounted times in the ticket view"
 msgstr ""
 
 #: ../basics/find-ticket.rst:8
@@ -1549,10 +1623,6 @@ msgid ""
 msgstr ""
 "Per visualizzare i risultati dettagliati, clicca il link **Mostra Dettagli "
 "Ricerca →**, che si trova subito sopra alla lista dell'autocompletamento."
-
-#: ../basics/service-ticket.rst:8
-msgid "Managing Ticket Settings"
-msgstr ""
 
 #: ../basics/service-ticket.rst:2
 msgid "Servicing Tickets"
@@ -5378,31 +5448,40 @@ msgid "Upload an avatar."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
-msgid "Password"
+msgid "Password & Auth"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:91
-msgid "Change your login password (may be disabled by system admin)."
+msgid ""
+"Change your login password and manage your two-factor authentication methods "
+"(both may be disabled by system admin)."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:95
+msgid ""
+":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
+"optional feature. Administrators can learn more :admin-docs:`here <settings/"
+"security/two-factor.html>`."
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:101
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:101
+#: ../extras/profile-and-settings.rst:107
 msgid ""
 "Use the first three columns to choose when to receive **internal "
 "notifications** (below). The rightmost column enables email notification as "
 "well."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:108
+#: ../extras/profile-and-settings.rst:114
 msgid "Internal notifications cannot be disabled."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:113
+#: ../extras/profile-and-settings.rst:119
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to—even for tickets that are assigned to other agents. Use the "
@@ -5410,7 +5489,7 @@ msgid ""
 "on a per-group basis."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:118
+#: ../extras/profile-and-settings.rst:124
 #, fuzzy
 #| msgid ""
 #| "Enable the **Phone** panel to receive notifications for incoming calls."
@@ -5419,30 +5498,30 @@ msgstr ""
 "Abilita il pannello **Telefono** per ricevere notifiche di chiamate in "
 "arrivo."
 
-#: ../extras/profile-and-settings.rst:122
+#: ../extras/profile-and-settings.rst:128
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:128
+#: ../extras/profile-and-settings.rst:134
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:131
+#: ../extras/profile-and-settings.rst:137
 msgid "Notifications are available to agents only."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:133
+#: ../extras/profile-and-settings.rst:139
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more `here <https://admin-docs."
 "zammad.org/en/latest/manage/trigger/system-notifications.html>`_."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:138
+#: ../extras/profile-and-settings.rst:144
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
@@ -5452,20 +5531,20 @@ msgstr ""
 msgid "Out of Office"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:143
+#: ../extras/profile-and-settings.rst:149
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:146
+#: ../extras/profile-and-settings.rst:152
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
 "created to help keep track of your tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:150
+#: ../extras/profile-and-settings.rst:156
 msgid "🔔 You **will** continue to receive notifications while you are absent."
 msgstr ""
 
@@ -5473,34 +5552,34 @@ msgstr ""
 msgid "Overviews"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:153
+#: ../extras/profile-and-settings.rst:159
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:156
+#: ../extras/profile-and-settings.rst:162
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:159
+#: ../extras/profile-and-settings.rst:165
 msgid "🤓 Your admin has no power here"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:161
+#: ../extras/profile-and-settings.rst:167
 msgid ""
 "The order does not change, even if your admin renames or reorders the "
 "overviews. The overview order is stored in your profile and thus applies for "
 "any device you use with your account."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:165
+#: ../extras/profile-and-settings.rst:171
 msgid "😕 Can't see this setting?"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:167
+#: ../extras/profile-and-settings.rst:173
 msgid ""
 "This setting option is only available to agents by default. Admins can also "
 "deactivate this permission entirely. Ask your admin to enable this option if "
@@ -5517,7 +5596,7 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:177
+#: ../extras/profile-and-settings.rst:183
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
@@ -5527,7 +5606,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:182
+#: ../extras/profile-and-settings.rst:188
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -5537,13 +5616,13 @@ msgstr ""
 msgid "Token Access"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:187
+#: ../extras/profile-and-settings.rst:193
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:190
+#: ../extras/profile-and-settings.rst:196
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -5554,7 +5633,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:196
+#: ../extras/profile-and-settings.rst:202
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
@@ -5564,219 +5643,280 @@ msgstr ""
 msgid "Secure Email"
 msgstr ""
 
-#: ../extras/secure-email.rst:4
-msgid "Zammad supports S/MIME for high-security email communication."
+#: ../extras/secure-email.rst:6
+msgid "Zammad supports two systems of high-security email communication:"
 msgstr ""
 
-#: ../extras/secure-email.rst:11 ../extras/secure-email.rst:89
+#: ../extras/secure-email.rst:5
+msgid "Pretty Good Privacy (PGP)"
+msgstr ""
+
+#: ../extras/secure-email.rst:6
+msgid "Secure/Multipurpose Internet Mail Extensions (S/MIME)."
+msgstr ""
+
+#: ../extras/secure-email.rst:13
 msgid "Screencast demo of S/MIME features for both new tickets and replies"
-msgstr ""
-
-#: ../extras/secure-email.rst:11 ../extras/secure-email.rst:79
-msgid ""
-"Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and "
-"signing for outgoing emails."
 msgstr ""
 
 #: ../extras/secure-email.rst:13
 msgid ""
-"**🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...**"
+"Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and "
+"signing of outgoing emails."
 msgstr ""
 
-#: ../extras/secure-email.rst:15
+#: ../extras/secure-email.rst:16
+#, fuzzy
 msgid ""
-"This feature is **optional**; if you don’t see it in the ticket composer, "
-"that means your administrator hasn’t enabled it yet. Administrators can "
-"learn more `here <https://admin-docs.zammad.org/en/latest/system/"
-"integrations/smime.html>`_."
-msgstr ""
+"**🤔 Huh? I don't see “Sign” or “Encrypt” options in the ticket view...**"
+msgstr "**🤔 Hmm? Non vedo “Telefono” nel menu...**"
 
-#: ../extras/secure-email.rst:22
-msgid "What is S/MIME?"
+#: ../extras/secure-email.rst:19
+#, fuzzy
+msgid ""
+"This feature is **optional**; if you don't see it in the ticket composer, "
+"that means your administrator hasn't enabled it yet. Administrators can "
+"learn more here:"
 msgstr ""
+"Questa funzione è **opzionale**; se non la vedi nel menù principale "
+"significa che il tuo amministratore non l'ha ancora abilitata. Gli "
+"amministrazioni possono ottenere ulteriori informazioni `qui <https://admin-"
+"docs.zammad.org/en/latest/system-integrations.html#integrations-for-phone-"
+"systems>`_."
 
 #: ../extras/secure-email.rst:24
-msgid ""
-"S/MIME is the most widely-supported method for secure email communication. "
-"With S/MIME, you can exchange **signed** and **encrypted** messages with "
-"others."
+msgid ":admin-docs:`PGP </system/integrations/pgp/index.html>`"
 msgstr ""
 
-#: ../extras/secure-email.rst:30
-msgid "Signing"
+#: ../extras/secure-email.rst:25
+msgid ":admin-docs:`S/MIME </system/integrations/smime/index.html>`"
 msgstr ""
 
 #: ../extras/secure-email.rst:28
-msgid ""
-"is proof that a message hasn’t been tampered with or sent by an impersonator."
+msgid "Overview"
 msgstr ""
 
 #: ../extras/secure-email.rst:30
 msgid ""
-"In other words, it guarantees a message’s **integrity** and **authenticity**."
+"PGP and S/MIME are the most widely-supported methods for secure email "
+"communication. With each of the systems, you can exchange **signed** and "
+"**encrypted** messages with others."
+msgstr ""
+
+#: ../extras/secure-email.rst:37
+msgid "Signing"
 msgstr ""
 
 #: ../extras/secure-email.rst:35
+msgid "is a proof that a message hasn't been manipulated on its way."
+msgstr ""
+
+#: ../extras/secure-email.rst:37
+msgid ""
+"In other words, it guarantees message **integrity** and **authenticity**."
+msgstr ""
+
+#: ../extras/secure-email.rst:43
 msgid "Encryption"
 msgstr ""
 
-#: ../extras/secure-email.rst:33
+#: ../extras/secure-email.rst:40
 msgid ""
 "scrambles a message so that it can only be unscrambled by the intended "
 "recipient."
 msgstr ""
 
-#: ../extras/secure-email.rst:35
-msgid "In other words, it guarantees **privacy** and **data security**."
-msgstr ""
-
-#: ../extras/secure-email.rst:38
-msgid "Overview"
-msgstr ""
-
-#: ../extras/secure-email.rst:40
-msgid "🤝 **S/MIME only works if the other party is using it, too.**"
-msgstr ""
-
-#: ../extras/secure-email.rst:42
+#: ../extras/secure-email.rst:43
 msgid ""
-"Your administrator is responsible for adding all the necessary certificates "
-"in Zammad’s admin panel."
+"In other words, it guarantees message **privacy** and **data security**."
 msgstr ""
 
-#: ../extras/secure-email.rst:46 ../extras/secure-email.rst:128
-msgid "📬 Incoming"
+#: ../extras/secure-email.rst:45
+msgid ""
+"🤝 **PGP and S/MIME are only working if the other party is using them too.**"
 msgstr ""
 
 #: ../extras/secure-email.rst:48
-msgid "The 🔒 and ✅ icons at the top of a message indicate its S/MIME status."
-msgstr ""
-
-#: ../extras/secure-email.rst:55
-msgid "Screencast showing on how to verify used certificates"
-msgstr ""
-
-#: ../extras/secure-email.rst:55
 msgid ""
-"Click on an incoming message to expand its details. Hover over the security "
-"status to show a certificate/CA summary."
+"Your administrator is responsible for adding all the necessary certificates "
+"and keys in Zammad's admin panel."
 msgstr ""
 
-#: ../extras/secure-email.rst:58
-msgid "Status Icons (Incoming)"
-msgstr ""
-
-#: ../extras/secure-email.rst:61 ../extras/secure-email.rst:95
-msgid "|lock|"
-msgstr ""
-
-#: ../extras/secure-email.rst:110
-msgid "lock"
-msgstr ""
-
-#: ../extras/secure-email.rst:62
-msgid "This message was **encrypted for you**."
-msgstr ""
-
-#: ../extras/secure-email.rst:64
+#: ../extras/secure-email.rst:51
 msgid ""
-"Even if it was intercepted by a third party (hacker, gov’t agency, etc.), "
-"they won’t be able to read it."
+"In special cases it is possible that both systems are configured in your "
+"system *and* a customer is using both, as well. In this case, you have an "
+"additional button to switch between PGP and S/MIME security types. "
+"Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons."
 msgstr ""
 
-#: ../extras/secure-email.rst:66 ../extras/secure-email.rst:100
-msgid "|open-lock|"
+#: ../extras/secure-email.rst:61
+msgid "Screenshot of ticket creation with configured PGP and S/MIME"
 msgstr ""
 
-#: ../extras/secure-email.rst:114
-msgid "open-lock"
+#: ../extras/secure-email.rst:61
+msgid ""
+"Ticket creation with configured PGP *and* S/MIME and available certificates/"
+"keys."
+msgstr ""
+
+#: ../extras/secure-email.rst:65 ../extras/secure-email.rst:158
+msgid "📬 Incoming"
 msgstr ""
 
 #: ../extras/secure-email.rst:67
-msgid "This message is **not encrypted**."
-msgstr ""
-
-#: ../extras/secure-email.rst:68 ../extras/secure-email.rst:102
-msgid "|signed|"
-msgstr ""
-
-#: ../extras/secure-email.rst:117
-msgid "signed"
-msgstr ""
-
-#: ../extras/secure-email.rst:69
-msgid "This message’s signature has been **successfully verified**."
-msgstr ""
-
-#: ../extras/secure-email.rst:71
 msgid ""
-"You can be confident that it’s authentic and that the contents have not been "
-"modified."
+"The 🔒 and ✅ icons at the top of a message indicate its encryption and "
+"signing status."
 msgstr ""
 
-#: ../extras/secure-email.rst:73 ../extras/secure-email.rst:107
-msgid "|not-signed|"
+#: ../extras/secure-email.rst:75
+msgid "Screencast showing details of encryption and signing status"
 msgstr ""
 
-#: ../extras/secure-email.rst:120
-msgid "not-signed"
+#: ../extras/secure-email.rst:75
+msgid ""
+"Click on an incoming message to expand its details. Hover over the security "
+"status to show more information."
 msgstr ""
 
-#: ../extras/secure-email.rst:74
-msgid "This message is **not signed**."
+#: ../extras/secure-email.rst:78
+msgid "Status Icons (Incoming)"
 msgstr ""
 
-#: ../extras/secure-email.rst:77 ../extras/secure-email.rst:162
-msgid "📮 Outgoing"
+#: ../extras/secure-email.rst:81 ../extras/secure-email.rst:119
+msgid "|lock|"
+msgstr ""
+
+#: ../extras/secure-email.rst:137
+msgid "lock"
 msgstr ""
 
 #: ../extras/secure-email.rst:82
-msgid "Outgoing emails can only be encrypted for *a single recipient*."
+msgid "This message was **encrypted for you**."
 msgstr ""
 
-#: ../extras/secure-email.rst:89
+#: ../extras/secure-email.rst:84
 msgid ""
-"🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
-"replies. Hover over the buttons to show a certificate/CA summary."
+"Even if it was intercepted by a third party (hacker, gov't agency, etc.), "
+"they won't be able to read it."
 msgstr ""
 
-#: ../extras/secure-email.rst:92
-msgid "Status Icons (Outgoing)"
+#: ../extras/secure-email.rst:87
+msgid "|encryption-error|"
 msgstr ""
 
-#: ../extras/secure-email.rst:96
-msgid "This message **will be encrypted**."
+#: ../extras/secure-email.rst:150
+msgid "encryption-error"
 msgstr ""
 
-#: ../extras/secure-email.rst:98
+#: ../extras/secure-email.rst:88
+msgid "This message can **not be decrypted**."
+msgstr ""
+
+#: ../extras/secure-email.rst:90 ../extras/secure-email.rst:128
+msgid "|signed|"
+msgstr ""
+
+#: ../extras/secure-email.rst:144
+msgid "signed"
+msgstr ""
+
+#: ../extras/secure-email.rst:91
+msgid "This message's signature has been **successfully verified**."
+msgstr ""
+
+#: ../extras/secure-email.rst:93
 msgid ""
-"Even if it’s intercepted by a third party (hacker, gov’t agency, etc.), they "
-"won’t be able to read it."
+"You can be confident that it's authentic and that the content has not been "
+"modified."
 msgstr ""
 
-#: ../extras/secure-email.rst:101
-msgid "This message **will not be encrypted**."
+#: ../extras/secure-email.rst:96 ../extras/secure-email.rst:134
+msgid "|not-signed|"
+msgstr ""
+
+#: ../extras/secure-email.rst:147
+msgid "not-signed"
+msgstr ""
+
+#: ../extras/secure-email.rst:97
+msgid ""
+"The verification of the signature of this message has **failed**. You can "
+"find more information by hovering over the icon."
+msgstr ""
+
+#: ../extras/secure-email.rst:101 ../extras/secure-email.rst:192
+msgid "📮 Outgoing"
 msgstr ""
 
 #: ../extras/secure-email.rst:103
-msgid "This message **will be signed**."
-msgstr ""
-
-#: ../extras/secure-email.rst:105
 msgid ""
-"Recipients using S/MIME can verify that it came from you and that the "
-"contents have not been modified."
+"Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and "
+"signing for outgoing emails."
 msgstr ""
 
-#: ../extras/secure-email.rst:108
-msgid "This message **will not be signed**."
+#: ../extras/secure-email.rst:106
+msgid "Outgoing emails can only be encrypted for *a single recipient*."
+msgstr ""
+
+#: ../extras/secure-email.rst:113
+msgid ""
+"Screencast showing encryption and signing status for both new tickets and "
+"replies"
+msgstr ""
+
+#: ../extras/secure-email.rst:113
+msgid ""
+"🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
+"replies. Hover over the buttons to show details."
+msgstr ""
+
+#: ../extras/secure-email.rst:116
+msgid "Status Icons (Outgoing)"
+msgstr ""
+
+#: ../extras/secure-email.rst:120
+msgid "This message **will be encrypted**."
+msgstr ""
+
+#: ../extras/secure-email.rst:122
+msgid ""
+"Even if it's intercepted by a third party (hacker, gov't agency, etc.), they "
+"won't be able to read it."
 msgstr ""
 
 #: ../extras/secure-email.rst:125
+msgid "|open-lock|"
+msgstr ""
+
+#: ../extras/secure-email.rst:141
+msgid "open-lock"
+msgstr ""
+
+#: ../extras/secure-email.rst:126
+msgid "This message **will not be encrypted**."
+msgstr ""
+
+#: ../extras/secure-email.rst:129
+msgid "This message **will be signed**."
+msgstr ""
+
+#: ../extras/secure-email.rst:131
+msgid ""
+"Recipients can verify that it came from you and that the content has not "
+"been modified."
+msgstr ""
+
+#: ../extras/secure-email.rst:135
+msgid "This message **will not be signed**."
+msgstr ""
+
+#: ../extras/secure-email.rst:155
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../extras/secure-email.rst:143
+#: ../extras/secure-email.rst:173
 msgid "“Sign: Unable to find certificate for validation”"
 msgstr ""
 
@@ -5785,72 +5925,72 @@ msgid ""
 "Ticket article shows a warning for failed verification of a signed message"
 msgstr ""
 
-#: ../extras/secure-email.rst:135
+#: ../extras/secure-email.rst:165
 msgid ""
-"Without the sender’s certificate, Zammad cannot verify the message signature."
+"Without the sender's certificate, Zammad cannot verify the message signature."
 msgstr ""
 
-#: ../extras/secure-email.rst:137
+#: ../extras/secure-email.rst:167
 msgid ""
-"Ask your administrator to add the sender’s certificate to Zammad’s "
+"Ask your administrator to add the sender's certificate to Zammad's "
 "certificate store."
 msgstr ""
 
-#: ../extras/secure-email.rst:139
+#: ../extras/secure-email.rst:169
 msgid "🕵️ **ALWAYS verify certificates in-person or over the phone!**"
 msgstr ""
 
-#: ../extras/secure-email.rst:141
+#: ../extras/secure-email.rst:171
 msgid ""
 "The whole point of signature verification is to alert you when someone is "
-"trying to pretend to be someone they’re not. Never accept a certificate from "
+"trying to pretend to be someone they're not. Never accept a certificate from "
 "someone online without verifying it first."
 msgstr ""
 
-#: ../extras/secure-email.rst:159
+#: ../extras/secure-email.rst:189
 msgid "“Encryption: Unable to find private key to decrypt”"
 msgstr ""
 
-#: ../extras/secure-email.rst:150
+#: ../extras/secure-email.rst:180
 msgid ""
 "This message was encrypted with a certificate that does not match any on "
 "file. Without a matching private key, Zammad cannot decrypt the message."
 msgstr ""
 
-#: ../extras/secure-email.rst:153
+#: ../extras/secure-email.rst:183
 msgid ""
-"Ask your administrator to verify your organization’s private key in Zammad’s "
+"Ask your administrator to verify your organization's private key in Zammad's "
 "certificate store, and ask the sender to double-check the public key they "
 "used to encrypt the message."
 msgstr ""
 
-#: ../extras/secure-email.rst:156
+#: ../extras/secure-email.rst:186
 msgid "📢 **Your public key can be safely shared with anyone.**"
 msgstr ""
 
-#: ../extras/secure-email.rst:158
+#: ../extras/secure-email.rst:188
 msgid ""
-"(But if they’re smart, they’ll take extra precautions to make sure it really "
+"(But if they're smart, they'll take extra precautions to make sure it really "
 "belongs to you.)"
 msgstr ""
 
-#: ../extras/secure-email.rst:165
+#: ../extras/secure-email.rst:195
 msgid "The 🔒 **Encrypt** button is disabled"
 msgstr ""
 
-#: ../extras/secure-email.rst:165
+#: ../extras/secure-email.rst:195
 msgid ""
-"Ask your administrator to add the recipient’s certificate to Zammad’s "
+"Ask your administrator to add the recipient's certificate to Zammad's "
 "certificate store."
 msgstr ""
 
-#: ../extras/secure-email.rst:167
+#: ../extras/secure-email.rst:197
 msgid "The ✅ **Sign** button is disabled"
 msgstr ""
 
-#: ../extras/secure-email.rst:168
+#: ../extras/secure-email.rst:198
 msgid ""
-"Ask your administrator to verify your organization’s private key in Zammad’s "
+"Ask your administrator to verify your organization's private key in Zammad's "
 "certificate store."
 msgstr ""
 
@@ -6089,6 +6229,488 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to save a shared draft within ticket zoom"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:2
+msgid "Two-Factor Authentication"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:4
+msgid ""
+"Two-factor authentication (2FA) enhances the security of your Zammad account "
+"by adding an extra layer of verification beyond a password. It requires you "
+"to provide two different types of authentication factors, typically "
+"something you know (like a password) and something you possess (like a "
+"mobile device or a security token), to ensure that you are an authorized "
+"individual who can access the account."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:12
+msgid ""
+"Two-Factor Authentication is an optional feature. Administrators can learn "
+"more :admin-docs:`here <settings/security/two-factor.html>`."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:16
+msgid "Set Up Two-Factor Authentication"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:18
+msgid ""
+"If the system admin has enabled this feature, you can head to \"Avatar -> "
+"Profile -> Password & Authentication\" to set it up. Depending on the "
+"enabled two-factor methods, you may see one or more options in the table."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:22
+msgid ""
+"To set up a two-factor method, use the ⋮ **Actions** menu next to it and "
+"choose **Set Up**."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Set Up Two-Factor Method in Password & Authentication"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:29
+#: ../extras/two-factor-authentication.rst:153
+msgid "In a modal dialog, you will be asked to confirm your current password."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Password Check Modal Dialog"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:37
+msgid ""
+"Depending on the chosen two-factor method, you will be guided through the "
+"setup process, which includes specific steps."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:47
+msgid "Sign-in with a Two-Factor Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:49
+msgid ""
+"When you set up two-factor authentication for your Zammad account, during "
+"the next sign-in you will be asked to provide the same two-factor method "
+"after entering correct username and password."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:53
+msgid ""
+"Depending on the chosen two-factor method, this may be a security code, "
+"hardware key, etc."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:63
+msgid "Trying Another Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:65
+msgid ""
+"In case you are having issued during sign-in with your preferred two-factor "
+"authentication method, you can switch to another one, provided you have set "
+"it up previously."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:69
+msgid "Look for **Try another method** link below the sign in box."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Try Another Method Link"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:76
+msgid ""
+"In case you don't see this link, you probably have no other available two-"
+"factor methods set up, or your admin has disabled this feature."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:79
+msgid ""
+"In the new screen, choose another two-factor authentication method and "
+"complete your sign-in."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Try Another Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:86
+msgid ""
+"Alternatively, you can also use one of your recovery codes, which are auto-"
+"generated for your account during the initial setup of the two-factor "
+"authentication. Click on **recovery codes**, enter one of your unused "
+"recovery codes and click on **Sign in**."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:96
+msgid ""
+"You can use a single recovery code only once! In case you exhaust the list "
+"of your recovery codes, it is recommended you regenerate them for your "
+"account."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:100
+msgid "Generate Recovery Codes"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:102
+msgid ""
+"Recovery codes are one-time use security codes that can be used to sign in "
+"if you lose access to your other two-factor authentication methods."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:106
+msgid "Recovery codes can only be used as a backup method."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:108
+msgid ""
+"If the feature is enabled by the admin, recovery codes will be automatically "
+"generated for you during the setup of your initial two-factor authentication "
+"method."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:112
+msgid ""
+"You will be asked to print out or save the generated recovery codes in a "
+"safe place. Once used, a recovery code cannot be reused."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Recovery Codes Modal Dialog"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:119
+msgid ""
+"You also have an option to regenerate your recovery codes at any time, which "
+"invalidates already existing recovery codes and provides you with a list of "
+"fresh codes. You can do this by clicking on **Regenerate recovery codes** "
+"button in \"Avatar -> Profile -> Password & Authentication\"."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:125
+msgid "Set a Two-Factor Method as Default"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:127
+msgid ""
+"To set an already set up two-factor method as default, use the ⋮ **Actions** "
+"menu next to it in \"Avatar -> Profile -> Password & Authentication\" and "
+"choose **Set as default**."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Edit Two-Factor Method in Password & Authentication"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:135
+msgid ""
+"In order to identify your current default two-factor authentication method, "
+"look for a small blue badge next to the method name."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:138
+msgid ""
+"A default two-factor authentication method is just your preferred method "
+"during the sign-in process. You will always have an option to try signing in "
+"using another method."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:143
+msgid "Edit a Two-Factor Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:145
+msgid ""
+"To edit an already set up two-factor method, use the ⋮ **Actions** menu next "
+"to it in \"Avatar -> Profile -> Password & Authentication\" and choose "
+"**Edit**."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:155
+msgid ""
+"Depending on the chosen two-factor method, you will be guided again through "
+"the setup process. Normally, editing a method will simply renew it and "
+"replace the older setup, but some methods do support advanced functions (e."
+"g. adding multiple security keys)."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:161
+msgid "Remove a Two-Factor Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:163
+msgid ""
+"To remove an already set up two-factor method, use the ⋮ **Actions** menu "
+"next to it in \"Avatar -> Profile -> Password & Authentication\" and choose "
+"**Remove**."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:None
+msgid "Remove Two-Factor Method in Password & Authentication"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:171
+msgid ""
+"In a modal dialog, you will be asked to confirm the removal with your "
+"current password."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:175
+msgid "Requirement to Set Up a Two-Factor Method"
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:177
+msgid ""
+"Your system admin may choose to require you to set up at least one two-"
+"factor method for your account. In this case, if you haven't already set up "
+"a method, you will be asked to do so at your next sign-in or application "
+"reload."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:185
+msgid "Choose a method of your choice, and then follow its `setup guide`_."
+msgstr ""
+
+#: ../extras/two-factor-authentication.rst:188
+msgid ""
+"If you are required to set up a two-factor authentication for your account, "
+"this will be a mandatory action. You will not be able to use Zammad until "
+"you set up at least one method."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:2
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:None
+msgid "Authenticator App Setup"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:4
+msgid ""
+"The authenticator app method is a type of two-factor authentication that "
+"uses a mobile application to generate one-time codes for account "
+"verification. After setting up the authenticator app on your device, you "
+"will link it to your Zammad account."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:13
+msgid ""
+"First, make sure you have installed an authenticator app on your mobile "
+"device. Recommended apps are:"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:16
+msgid "`Google Authenticator`_"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:17
+msgid "`Authy`_"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:18
+msgid "`Microsoft Authenticator`_"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
+msgid ""
+"Next, open the authenticator app on your device and find a **Scan QR Code** "
+"action, or similar. Point your camera to the Zammad screen and scan the "
+"shown QR code in the middle."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:25
+msgid ""
+"If your device is not able to scan the QR code, first click on it to reveal "
+"your secret. Next, add a manual entry to your authenticator app and enter "
+"the provided secret when asked."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:0
+msgid "Authenticator App Secret Revealed"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:33
+msgid ""
+"Your authenticator app should immediately add the new entry for your Zammad "
+"account, and a 6-digit code will be displayed next to it together with a "
+"timer."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:36
+msgid ""
+"Back in Zammad, enter the provided code to the **Security Code** field and "
+"click on **Set Up**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:2
+msgid "Authenticator App Sign-in"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:4
+msgid ""
+"To sign-in with authenticator app two-factor method, first enter your "
+"username and password and click **Sign in**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:7
+msgid ""
+"Then, open authenticator app on your device, and get the 6-digit code next "
+"to your Zammad account."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
+msgid "Security Code in Google Authenticator App"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:15
+msgid ""
+"Back in Zammad, enter the provided code to the **Security Code** field and "
+"click on **Sign in**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
+msgid "Authenticator App Security Code during Sign-in"
+msgstr ""
+
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:23
+msgid ""
+"Entering security codes from your authenticator app is a time-sensitive "
+"operation! Each code is valid for up to 30 seconds, so if you are near the "
+"end of the time window (timer will show you this), it is better to wait for "
+"it to refresh."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:2
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
+msgid "Security Keys Setup"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:4
+msgid ""
+"The security keys method is a type of a two-factor authentication that uses "
+"Web Authentication API in the browser for verifying your identity. You may "
+"register multiple hardware or software security keys with your Zammad "
+"account and then they can be used during the sign-in process."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:9
+msgid ""
+"Initially, you will be presented with an empty dialog instructing you to "
+"**Set Up** your first key."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:16
+msgid ""
+"First, enter a descriptive **Name for this security key** you will be "
+"registering with your account, so you could later identify it in the list. "
+"Then, click on **Next**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
+msgid "Security Key Name"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:24
+msgid ""
+"Next, depending you your browser, you will be presented with different "
+"options. Select one that refers to your chosen security key and follow the "
+"instructions on the screen."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
+msgid "Security Key Registration"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
+msgid "Security Key Setup dialog in Safari on macOS"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:37
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:18
+msgid ""
+"You may be asked by the browser to interact with a key or a device so you "
+"can prove you are in physical possession of it (e.g. enter its PIN to unlock "
+"it)."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:41
+msgid ""
+"You will have limited time (measured in tens of seconds) to register your "
+"key. Better to have it ready before you proceed!"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:44
+msgid ""
+"If the registration was successful, the modal dialog will close and you are "
+"good to go."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:47
+msgid ""
+"In case of errors, you will be able to **Retry** the registration of the key."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:50
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
+msgid "Editing Security Keys"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:52
+msgid ""
+"Once set up, security keys can be managed by choosing **Edit** action next "
+"to the two-factor authentication method."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:55
+msgid ""
+"You have an option to remove a key or set up additional ones. There is no "
+"limit in number of security keys you can set up, but keep in mind you cannot "
+"register an already registered key for your account."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-setup.rst:63
+msgid ""
+"Removal of the last security key will effectively remove the complete "
+"security keys method for your account."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:2
+msgid "Security Keys Sign-in"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:4
+msgid ""
+"To sign-in with security keys two-factor method, first enter your username "
+"and password and click **Sign in**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:None
+msgid "Using Security Key during Sign-in"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:11
+msgid ""
+"Then, when asked by the browser, present your security key as instructed."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:None
+msgid "Security Key Sign-in dialog in Safari on macOS"
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:22
+msgid ""
+"Providing your security key when asked is a time-sensitive operation! You "
+"may be allowed a couple of tens of seconds to present and unlock your key, "
+"but if the process time outs, you will have to **Retry**."
+msgstr ""
+
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:26
+msgid ""
+"In case of errors, you will be able to **Retry** the verification of the key."
 msgstr ""
 
 #: ../index.rst:4
