@@ -1,8 +1,10 @@
 const initLanguageSwitcher = () => {
   const languages = []
 
-  $('.rst-other-versions dt:contains(Languages)')
-    .siblings('dd')
+  const languagesList = $('.rst-other-versions dt').eq(0)
+  const languagesLabel = languagesList.text()
+
+  languagesList.siblings('dd')
     .each((_index, item) => {
       languages.push({
         id: $(item).text().trim(),
@@ -29,7 +31,7 @@ const initLanguageSwitcher = () => {
   )
 
   const switcherLanguageOptionsGroup = $('<optgroup />')
-    .attr('label', 'Languages')
+    .attr('label', languagesLabel)
     .html(switcherLanguageOptions)
 
   const switcherContributeOption = $('<option />')
@@ -57,7 +59,7 @@ const initLanguageSwitcher = () => {
 
 $(document).ready(() => {
   const intervalId = setInterval(() => {
-    if (!$('.rst-other-versions dt:contains(Languages)').length) return
+    if ($('.rst-other-versions dt').length !== 6) return
     clearInterval(intervalId);
     initLanguageSwitcher()
   }, 100)
