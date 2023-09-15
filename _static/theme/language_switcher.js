@@ -14,34 +14,45 @@ const initLanguageSwitcher = () => {
   if (!languages.length) return
 
   const switcherIcon = $('<i />')
-    .addClass('fa fa-language')
+    .addClass('fa fa-lg fa-language')
 
   const switcherLabel = $('<label />')
     .attr('for', 'language-switcher')
     .prepend(switcherIcon)
     .prepend(switcherIcon)
 
-  const switcherOptions = languages.map((language) =>
+  const switcherLanguageOptions = languages.map((language) =>
     $('<option />')
       .attr('value', language.url)
       .text(language.id)
       .attr('selected', language.isCurrent)
   )
 
+  const switcherLanguageOptionsGroup = $('<optgroup />')
+    .attr('label', 'Languages')
+    .html(switcherLanguageOptions)
+
+  const switcherContributeOption = $('<option />')
+    .attr('value', 'https://docs.zammad.org/en/latest/contributing/start.html')
+    .text('Contribute translation')
+
+  const switcherContributeOptionGroup = $('<optgroup />')
+    .attr('label', 'Missing language?')
+    .html(switcherContributeOption)
+
   const switcherSelection = $('<select />')
     .attr('id', 'language-switcher')
-    .prepend(switcherOptions)
+    .append(switcherLanguageOptionsGroup)
+    .append(switcherContributeOptionGroup)
     .off('change.language')
     .on('change.language', (e) => {
       location.href = $(e.target).val()
     })
 
-  const switcher = $('<li />')
-    .addClass('zammad-language-switcher wy-breadcrumbs-aside')
-    .prepend(switcherSelection)
-    .prepend(switcherLabel)
-
-  $('.wy-breadcrumbs-aside').before(switcher)
+  $('.wy-breadcrumbs-aside')
+    .addClass('zammad-language-switcher')
+    .append(switcherLabel)
+    .append(switcherSelection)
 }
 
 $(document).ready(() => {
