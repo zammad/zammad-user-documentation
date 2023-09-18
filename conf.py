@@ -55,6 +55,7 @@ else:
    #    ],
    # }
 
+   html_js_files = ['theme/language_switcher.js']
    html_css_files = [
      'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
      'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
@@ -69,6 +70,9 @@ else:
       branch = rtd_version
    elif rtd_version == 'pre-release':
       branch = "pre-release"
+
+      # Skip the injection of the language switcher.
+      del html_js_files
    else:
       branch = "old-version"
 
