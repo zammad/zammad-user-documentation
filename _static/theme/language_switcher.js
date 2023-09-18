@@ -1,3 +1,5 @@
+const CONTRIBUTE_URL = 'https://docs.zammad.org/en/latest/contributing/start.html#translation'
+
 // Initialize the switcher only when RTD panel gets loaded.
 //   If the menu has exactly the 6 sections, the first one on top is the language chooser.
 //   We must check it in this way since the label may be translated based on the browser locale.
@@ -43,7 +45,7 @@ const initLanguageSwitcher = () => {
     .html(switcherLanguageOptions)
 
   const switcherContributeOption = $('<option />')
-    .attr('value', 'https://docs.zammad.org/en/latest/contributing/start.html')
+    .attr('value', CONTRIBUTE_URL)
     .text('Contribute translation')
 
   const switcherContributeOptionGroup = $('<optgroup />')
