@@ -1,5 +1,5 @@
-Zammad Agent Documentation
-==========================
+Zammad User Documentation
+=========================
 
 .. toctree::
    :maxdepth: 3
