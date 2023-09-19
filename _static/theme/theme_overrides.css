@@ -1,3 +1,7 @@
+.wy-side-nav-search {
+    background-color: #19191a;
+}
+
 .wy-table-responsive table td {
     white-space: normal !important;
 }
@@ -73,4 +77,30 @@
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+/*
+ * Sphinx RTD theme compatibility layer
+ */
+
+.wy-plain-list-disc li ul,
+.rst-content .section ul li ul,
+.rst-content .toctree-wrapper ul li ul,
+article ul li ul {
+    margin-bottom: 12px;
+}
+
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+    color: #55a5d9;
+    font-weight: 700;
+    font-size: 85%;
+}
+
+.wy-menu-vertical a {
+    color: #d9d9d9;
+}
+
+.wy-menu-vertical li.current a {
+    color: #404040;
 }
