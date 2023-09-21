@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-18 13:32+0200\n"
-"PO-Revision-Date: 2023-03-10 17:10+0000\n"
-"Last-Translator: fcaputomobeats <fcaputo@teypesa.com>\n"
+"PO-Revision-Date: 2023-09-20 14:18+0000\n"
+"Last-Translator: Arturo <r2r0@posteo.de>\n"
 "Language-Team: Spanish <https://translations.zammad.org/projects/"
-"documentations/user-documentation/es/>\n"
+"documentations/user-documentation-latest/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -130,6 +130,7 @@ msgstr "Macros"
 #: ../advanced/macros.rst:4
 msgid "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
 msgstr ""
+"Los macros son **🖱️ atajos de un clic** para aplicar cambios a un ticket."
 
 #: ../advanced/macros.rst:6
 msgid ""
@@ -137,10 +138,13 @@ msgid ""
 "close-and-tag-as-spam or reassign-to-another-group), macros can make the job "
 "a whole lot easier."
 msgstr ""
+"Si se encuentra realizando los mismos cambios en muchos tickets (por "
+"ejemplo, cerrar y marcar como spam o reasignar a otro grupo), los macros "
+"pueden facilitarle mucho el trabajo."
 
 #: ../advanced/macros.rst:10
 msgid "🤔 **How do I make macros?**"
-msgstr ""
+msgstr "🤔 **¿Cómo puedo hacer macros?**"
 
 #: ../advanced/macros.rst:12
 msgid ""
@@ -148,6 +152,10 @@ msgid ""
 "en/latest/manage/macros.html>`_. If you have an idea for a macro you’d like "
 "to use, your Zammad admin can probably make it happen."
 msgstr ""
+"Agentes no crean los macros - ese es el papel del `administrador <https"
+"://admin-docs.zammad.org/en/latest/manage/macros.html>`_. Si tiene una idea "
+"para un macro que le gustaría usar, su administrador de Zammad probablemente "
+"pueda hacerla realidad."
 
 #: ../advanced/macros.rst:17
 msgid ""
@@ -157,21 +165,24 @@ msgstr ""
 
 #: ../advanced/macros.rst:21
 msgid "On a Single Ticket"
-msgstr ""
+msgstr "En un solo ticket"
 
 #: ../advanced/macros.rst:23
 msgid ""
 "The simplest way to apply a macro is to select it from the **Update ᐱ** "
 "submenu in the Ticket View:"
 msgstr ""
+"La forma más sencilla de aplicar un macro es seleccionarlo en el submenú **"
+"Actualizar ᐱ** de la Vista de tickets:"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
 msgstr ""
+"Screencast que muestra cómo ejecutar un macro dentro de la vista de ticket."
 
 #: ../advanced/macros.rst:31
 msgid "💾 **Macro = Update**"
-msgstr ""
+msgstr "💾 **Macro = Actualizar**"
 
 #: ../advanced/macros.rst:33
 msgid ""
@@ -179,6 +190,9 @@ msgid ""
 "<ticket_settings>` (including typing up a reply to the customer), applying a "
 "macro will save them, too."
 msgstr ""
+"Si ha realizado cambios en cualquier otra :ref:`configuración del ticket "
+"<ticket_settings>` ( incluyendo la redacción de una respuesta al cliente), "
+"la aplicación de un macro también los guardará."
 
 #: ../advanced/macros.rst:38
 msgid ""
@@ -186,10 +200,15 @@ msgid ""
 "any manual changes – including messages to the customer! When in doubt, "
 "apply your macro and your manual changes *separately.*"
 msgstr ""
+"⚠️ **Pero cuidado:** en caso de conflicto, las acciones de la macro anulan "
+"cualquier cambio manual - ¡incluyendo los mensajes al cliente! En caso de "
+"duda, aplica tu macro y tus cambios manuales *por separado.*"
 
 #: ../advanced/macros.rst:0
 msgid "Screencast showing above described effect that overwrites articles."
 msgstr ""
+"Captura de pantalla que muestra el efecto descrito anteriormente que "
+"sobrescribe artículos."
 
 #: ../advanced/macros.rst:48
 msgid ""
@@ -201,7 +220,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:52
 msgid "In Bulk"
-msgstr ""
+msgstr "En masa"
 
 #: ../advanced/macros.rst:54
 msgid "To apply a macro to many tickets at the same time:"
@@ -217,15 +236,17 @@ msgstr "seleccione sus entradas deseadas;"
 
 #: ../advanced/macros.rst:58
 msgid "click-and-drag to open the “Run Macro” drawer; and"
-msgstr ""
+msgstr "haga clic y arrastre para abrir el captador \"Ejecutar macro\"; y"
 
 #: ../advanced/macros.rst:59
 msgid "drop the tickets on your target macro."
-msgstr ""
+msgstr "suelte los tickets en el macro deseado."
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
 msgstr ""
+"Captura de pantalla que muestra cómo ejecutar macros a través de la Visión "
+"General."
 
 #: ../advanced/macros.rst:66
 msgid ""
@@ -233,12 +254,18 @@ msgid ""
 "view, Zammad may automatically open the next ticket (or close the current "
 "one, or just stay on it), depending on how the macro was set up."
 msgstr ""
+"☝️ **Sólo hay una diferencia...** Al ejecutar un macro desde la vista del "
+"ticket, Zammad puede abrir automáticamente el siguiente ticket (o cerrar el "
+"actual, o simplemente quedarse en él), dependiendo de cómo se haya "
+"configurado el macro."
 
 #: ../advanced/macros.rst:71
 msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
 msgstr ""
+"Al ejecutarlo desde la página de vistas generales, Zammad siempre "
+"permanecerá en la página de vistas generales."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -250,6 +277,10 @@ msgid ""
 "you to find e.g. Tickets with specific key words and states. Below "
 "information will help you to improve your search results."
 msgstr ""
+"Con Zammad, puede limitar su búsqueda a información específica. Esto le "
+"permite encontrar, por ejemplo, entradas por palabras clave y estados "
+"específicos. La siguiente información le ayudará a mejorar los resultados de "
+"su búsqueda."
 
 #: ../advanced/search.rst:8
 msgid ""
@@ -268,10 +299,12 @@ msgid ""
 "If you want to run a more complex search you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
+"Si desea realizar una búsqueda más compleja, puede utilizar condiciones a "
+"través de los operadores ``()`` y ``AND``/``OR``::"
 
 #: ../advanced/search.rst:23
 msgid "**🤓 Search phrases changed for Zammad 4.0**"
-msgstr ""
+msgstr "**🤓 Frases de búsqueda cambiadas desde Zammad 4.0**"
 
 #: ../advanced/search.rst:25
 msgid "With Zammad <=3.6 the following keys contained a string only:"
