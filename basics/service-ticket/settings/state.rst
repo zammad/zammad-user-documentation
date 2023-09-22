@@ -29,12 +29,11 @@ the ticket much faster in general – without having a look into details.
 What’s the difference between “new” and “open”?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-States do more than just indicate progress:
-Zammad has a fine-grained time tracking feature
-(so-called “\ `service-level agreements <https://admin-docs.zammad.org/en/latest/manage-slas.html>`_\ ”, or SLAs)
-that uses state information to measure how long it takes
-for customers to get a response on a new ticket
-or get their issues resolved entirely.
+States do more than just indicate progress: Zammad has a fine-grained time
+tracking feature (so-called
+“:admin-docs:`service-level agreements </manage/slas/index.html>`”,
+or SLAs) that uses state information to measure how long it takes for customers
+to get a response on a new ticket or get their issues resolved entirely.
 
 On a *new* ticket,
 the customer still hasn’t received her first response on the issue.

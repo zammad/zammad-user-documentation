@@ -94,7 +94,7 @@ Profile Settings
    .. hint::
       :doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an
       optional feature. Administrators can learn more
-      :admin-docs:`here <settings/security/two-factor.html>`.
+      :admin-docs:`here </settings/security/two-factor.html>`.
 
 :Notifications:
 
@@ -139,7 +139,7 @@ Profile Settings
    .. hint:: The contents of these email notifications
       can be customized on self-hosted installations.
       Administrators can learn more
-      `here <https://admin-docs.zammad.org/en/latest/manage/trigger/system-notifications.html>`_.
+      :admin-docs:`here </manage/trigger/system-notifications.html>`.
 
    .. hint:: You can always reset your notification settings to system defaults
       by clicking on the button at the bottom of the screen.
