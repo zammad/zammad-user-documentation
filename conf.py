@@ -92,15 +92,21 @@ versionwarning_messages = {
 }
 
 # Provide aliases to common external documentation targets.
-#   It supports automatic substitution for the current language
-#   and branch placeholders.
+#   It supports automatic substitution for the current branch placeholders,
+#   but always links to the English translation.
 #
-#   :admin-docs:`the administrator documentation <manage/users/index.html>`
+#   :admin-docs:`the administrator documentation </manage/users/index.html>`
+#   :docs:`the system documentation </appendix/configure-env-vars.html>`
 #
-#   which renders the following link in English docs on pre-release branch:
+#   which may render the following links:
 #
 #   https://admin-docs.zammad.org/en/pre-release/manage/users/index.html
+#   https://docs.zammad.org/en/latest/appendix/configure-env-vars.html
+#
+#   Note the need for including the file extension as part of the path
+#   relative to the documentation root!
 #
 extlinks = {
-   'admin-docs': (f'https://admin-docs.zammad.org/{language}/{branch}/%s', '')
+   'admin-docs': (f'https://admin-docs.zammad.org/en/{branch}%s', ''),
+   'docs': (f'https://docs.zammad.org/en/{branch}%s', ''),
 }

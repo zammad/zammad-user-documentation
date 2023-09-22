@@ -13,18 +13,16 @@ Looking for a ticket to work on? Check the **overviews** menu.
    for the tickets it displays.
 
 There are **six built-in overviews**
-(Zammad admin may `create more`_ with custom-defined filters):
+(Zammad admin may :admin-docs:`create more </manage/overviews.html>` with
+custom-defined filters):
 
 * **My assigned tickets** (*open/pending* only)
 * **Unassigned & Open**
 * **My pending reached tickets** (previously marked *pending* and currently due)
 * **Open** (system-wide)
 * **Pending reached** (system-wide, previously marked *pending* and currently due)
-* **Escalated** (system-wide, failing to meet a `service-level agreement`_)
-
-.. _create more: https://admin-docs.zammad.org/en/latest/manage/overviews.html
-.. _service-level agreement:
-   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
+* **Escalated** (system-wide, failing to meet a
+  :admin-docs:`service-level agreement </manage/slas/index.html>`)
 
 .. tip:: **🖱️ UI Protip**
 

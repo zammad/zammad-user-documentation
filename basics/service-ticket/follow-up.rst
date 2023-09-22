@@ -132,10 +132,8 @@ quotations by using enter.
 .. note:: **🧐 Huh? I can't see escalation timestamps!**
 
    SLAs are optional and require configuration by your instance administrator.
-   Administrators can learn more `about SLAs in our admin documentation`_.
-
-.. _about SLAs in our admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
+   Administrators can learn more about SLAs
+   :admin-docs:`in our admin documentation </manage/slas/index.html>`.
 
 On the top of every ticket being applicable for SLA escalations, you'll find
 two dates next to the ticket number. By hovering the escalation date, Zammad

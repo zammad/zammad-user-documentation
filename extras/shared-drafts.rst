@@ -16,10 +16,8 @@ Load, modify and safe an existing draft e.g. as QA process with colleagues.
 
    This feature is **optional**; if you don’t see it in the menu,
    that means your administrator disabled this function.
-   Administrators can learn more in our `admin documentation`_.
-
-.. _admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/groups/settings.html
+   Administrators can learn more in our
+   :admin-docs:`admin documentation </manage/groups/settings.html>`.
 
 .. hint:: **🤓 Let's be clear up front**
 
