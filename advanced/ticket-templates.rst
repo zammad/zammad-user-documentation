@@ -34,11 +34,9 @@ The configured ticket fields will be populated with the data from the template.
    Managing templates requires additional permissions.
    Please ask your administrator to provide you with the needed permission.
 
-   `Learn more about ticket templates in the admin documentation`_.
+   Learn more about ticket templates
+   :admin-docs:`in the admin documentation </manage/templates.html>`.
 
    This permission was introduced with Zammad 5.3.
 
    .. These version notes will be removed on later documentation versions.
-
-.. _Learn more about ticket templates in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/templates.html

@@ -18,19 +18,12 @@ Out of the box, **ticket priority doesn’t actually do anything**.
 However, Zammad administrators can set up all sorts of automated hooks
 that fire off based on this value, like:
 
-   * `service-level agreements`_,
-   * `triggers`_, and
-   * `scheduled events`_.
+   * :admin-docs:`service-level agreements </manage/slas/index.html>`,
+   * :admin-docs:`triggers </manage/trigger.html>`, and
+   * :admin-docs:`scheduled events </manage/scheduler.html>`.
 
-Priority can also be used as a ticket filter when creating `custom overviews`_.
-
-.. _service-level agreements:
-   https://admin-docs.zammad.org/en/latest/manage/slas/index.html
-.. _triggers: https://admin-docs.zammad.org/en/latest/manage/trigger.html
-.. _scheduled events:
-   https://admin-docs.zammad.org/en/latest/manage/scheduler.html
-.. _custom overviews: 
-   https://admin-docs.zammad.org/en/latest/manage/overviews.html
+Priority can also be used as a ticket filter when creating
+:admin-docs:`custom overviews </manage/overviews.html>`.
 
 In other words, **consult your administrator**
 for details on how he’d like you to use it.

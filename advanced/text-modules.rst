@@ -40,4 +40,4 @@ Customizing text modules
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Administrators can learn more about customizing text modules
-`here <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_.
+:admin-docs:`here </manage/text-modules.html>`.

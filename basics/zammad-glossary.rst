@@ -75,11 +75,9 @@ Branding
    Every company has a different identity, and Zammad accommodates this in
    various ways, e.g. by letting you design your signatures freely and add
    your company logo to the platform.
-   
-   `Learn more about branding options in the admin documentation`_.
 
-.. _Learn more about branding options in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/settings/branding.html
+   Learn more about branding options
+   :admin-docs:`in the admin documentation </settings/branding.html>`.
 
 C
 -
@@ -123,59 +121,44 @@ Core Workflows
    This way, certain Groups will only (or always) see certain fields.
    You can even set up dependencies, as in, if one field is filled in,
    another one opens up or becomes mandatory.
-   
-   `Learn more about Core Workflows in the admin documentation`_.
 
-.. _Learn more about Core Workflows in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/core-workflows.html
+   Learn more about Core Workflows
+   :admin-docs:`in the admin documentation </system/core-workflows.html>`.
 
 CTI
    CTI stands for Computer Telephony Integration and allows you to collect
    detailed information on all your incoming and outgoing calls.
    This includes, for example, a call log, an overview of which agent is
    currently on a call, a caller ID search, and even a Do-Not-Disturb-Mode.
-   
+
    `Learn more on our CTI landing page`_.
 
    Here's the fitting documentation pages:
 
-      * `generic CTI`_
-      * `placetel CTI`_
-      * `sipgate CTI`_
+      * :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
+      * :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
+      * :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
 
 .. _Learn more on our CTI landing page:
    https://zammad.com/en/product/features/cti-integration
-
-.. _generic CTI:
-   https://admin-docs.zammad.org/en/latest/system/integrations/generic-cti.html
-
-.. _placetel CTI:
-   https://admin-docs.zammad.org/en/latest/system/integrations/placetel-cti.html
-
-.. _sipgate CTI:
-   https://admin-docs.zammad.org/en/latest/system/integrations/sipgate.html
 
 Checkmk
    Checkmk is a powerful IT monitoring tool that can send real-time status
    alerts to Zammad via email or REST API. Set these alerts up in Checkmk,
    and Zammad will automatically create, update, and close tickets based on
    the health of your system.
-   
-   `Learn more about checkmk integration in the admin documentation`_.
 
-.. _Learn more about checkmk integration in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/checkmk/index.html
+   Learn more about checkmk integration
+   :admin-docs:`in the admin documentation </system/integrations/checkmk/index.html>`.
 
 Clearbit
    Clearbit is a marketing data engine designed to collect information on your
    contacts. Thus, new queries from unknown users in Zammad can be automatically
    enriched with information such as company, number of employees,
    annual turnover, industry, and much more.
-   
-   `Learn more about clearbit integration in the admin documentation`_.
 
-.. _Learn more about clearbit integration in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/clearbit.html
+   Learn more about clearbit integration
+   :admin-docs:`in the admin documentation </system/integrations/clearbit.html>`.
 
 Conflict Warning
    When two agents edit the same ticket at the same time, a lot can go wrong -
@@ -183,7 +166,7 @@ Conflict Warning
    this with its integrated conflict warning. So if you see another agents
    avatar and a little pen at the bottom of your ticket, it means they are
    currently editing it.
-   
+
    :ref:`Learn more on our following up page <caution-im-working-here>`.
 
 D
@@ -196,7 +179,7 @@ Dashboard
    Here you can find all sorts of overviews, such as the open tickets,
    the average waiting time, or the reopening rate. You can also see what your
    colleagues are doing by checking the Activity Stream.
-   
+
    Learn more on :doc:`/extras/dashboard`.
 
 Documentation
@@ -206,17 +189,8 @@ Documentation
    such as settings or installations.
 
    We have three different ones:
-   `Zammad for Agents`_, `Zammad for Admins`_, and the
-   `general Zammad Documentation`_ (System Administrators, API).
-
-.. _Zammad for Agents:
-   https://user-docs.zammad.org/en/latest/
-
-.. _Zammad for Admins:
-   https://admin-docs.zammad.org/en/latest/
-
-.. _general Zammad Documentation:
-   https://docs.zammad.org/en/latest/
+   :doc:`/index`, :admin-docs:`Zammad Admin Documentation </>`, and the
+   :docs:`Zammad System Documentation </>`.
 
 E
 -
@@ -236,10 +210,8 @@ External Authentication
    Zammad currently supports more than ten login providers, such as Facebook,
    GitHub, GitLab, Google, or Microsoft / Office365.
 
-   `See our admin documentation for all third party authenticators`_.
-
-.. _See our admin documentation for all third party authenticators:
-   https://admin-docs.zammad.org/en/latest/settings/security/third-party.html
+   See our :admin-docs:`admin documentation </settings/security/third-party.html>`
+   for all third party authentication providers.
 
 Exchange Integration
    The Exchange integration allows users to sync their contacts from their
@@ -247,10 +219,8 @@ Exchange Integration
    in Exchange, the iteration will be reflected in Zammad, giving you direct
    access to all your Exchange contacts from within your helpdesk.
 
-   `Learn more about the exchange integration in our admin documentation`_.
-
-.. _Learn more about the exchange integration in our admin documentation:
-   https://admin-docs.zammad.org/de/latest/system/integrations/exchange.html
+   Learn more about the exchange integration
+   :admin-docs:`in our admin documentation </system/integrations/exchange.html>`.
 
 Elasticsearch
    Zammad offers an Elasticsearch integration (a free and open search engine)
@@ -258,7 +228,7 @@ Elasticsearch
    (even for data sets of several terra bytes!).
 
    Spoiler: Zammad is currently the only helpdesk system with a search function
-   that combs attachments, too! 
+   that combs attachments, too!
 
    .. note:: **🤓 This affects hosted environments only!**
 
@@ -267,7 +237,7 @@ Elasticsearch
 
       ..
          While technically self hosted users can enable such a behavior
-         as well it is out of our application scope. By default SaaS Plus 
+         as well it is out of our application scope. By default SaaS Plus
          in Zammad universe is the only part that does this automatically.
 
 F
@@ -323,10 +293,8 @@ Grafana
       Hooking up Grafana to Elasticsearch is an possibility you can do on your
       own as well.
 
-   `Learn more on how to add Grafana dashboards for Zammad on our documentation`_.
-
-.. _Learn more on how to add Grafana dashboards for Zammad on our documentation:
-   https://docs.zammad.org/en/latest/appendix/reporting-tools-thirdparty/grafana.html
+   Learn more on how to add Grafana dashboards for Zammad
+   :docs:`in our documentation </appendix/reporting-tools-thirdparty/grafana.html>`.
 
 GitHub
    GitHub is a service for the version management of software development
@@ -342,15 +310,13 @@ GitHub
    It creates a data exchange that shows you all relevant information about your
    issues directly in the helpdesk, such as status or assignees.
 
-   `Administrators can learn more about GitHub in the admin documentation`_,
+   Administrators can learn more about GitHub
+   :admin-docs:`in the admin documentation </system/integrations/github.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/github-gitlab-integration`.
 
 .. _You can find the repository here:
    https://github.com/zammad/zammad
-
-.. _Administrators can learn more about GitHub in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/github.html
 
 GitLab
    GitLab is similar to GitHub.
@@ -360,12 +326,10 @@ GitLab
    so that all their issues and their corresponding changes are reflected in
    both systems.
 
-   `Administrators can learn more about GitLab in the admin documentation`_,
+   Administrators can learn more about GitLab
+   :admin-docs:`in the admin documentation </system/integrations/gitlab.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/github-gitlab-integration`.
-
-.. _Administrators can learn more about GitLab in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/gitlab.html
 
 H
 -
@@ -383,12 +347,10 @@ i-doit
    you can link to existing i-doit objects for easy reference.
    It also allows you to create Zammad tickets in i-doit.
 
-   `Administrators can learn more about i-doit in the admin documentation`_,
+   Administrators can learn more about i-doit
+   :admin-docs:`in the admin documentation </system/integrations/i-doit.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/i-doit-track-company-property`.
-
-.. _Administrators can learn more about i-doit in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/i-doit.html
 
 Icinga
    Icinga is a monitoring system that supervises the availability of an
@@ -427,12 +389,10 @@ Knowledge Base
    service, for example) or keep them for your team
    (e.g. for internal processes or team info).
 
-   `Administrators can learn more about the Knowledge Base in the admin documentation`_,
+   Administrators can learn more about the Knowledge Base
+   :admin-docs:`in the admin documentation </manage/knowledge-base.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/knowledge-base`.
-
-.. _Administrators can learn more about the Knowledge Base in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html
 
 Kibana
    Kibana is a browser-based, open-source reporting tool that focuses on data
@@ -457,10 +417,8 @@ LDAP
    about your users within Zammad. Authentication of users against the LDAP
    and LDAP role mapping to Zammad roles are also possible.
 
-   `Learn more about LDAP integration in the admin documentation`_.
-
-.. _Learn more about LDAP integration in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/ldap.html
+   Learn more about LDAP integration
+   :admin-docs:`in the admin documentation </system/integrations/ldap/index.html>`.
 
 M
 -
@@ -477,12 +435,10 @@ Macro
    Macros can be used in the ticket zoom or within an overview
    (using multiple selection).
 
-   `Administrators can learn more about Macros in the admin documentation`_,
+   Administrators can learn more about Macros
+   :admin-docs:`in the admin documentation </manage/macros.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/advanced/macros`.
-
-.. _Administrators can learn more about Macros in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/macros.html
 
 Migrator / Migration Wizard
    If a company wants to switch from another helpdesk software to Zammad,
@@ -623,12 +579,10 @@ S/MIME
    By activating it in Zammad, all messages sent from Zammad will be signed and
    encrypted.
 
-   `Administrators can learn more about S/MIME in the admin documentation`_,
+   Administrators can learn more about S/MIME
+   :admin-docs:`in the admin documentation </system/integrations/smime/index.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/secure-email`.
-
-.. _Administrators can learn more about S/MIME in the admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations/smime/index.html
 
 Sipgate
    Sipgate is a SaaS solution for internet telephony.
@@ -677,12 +631,10 @@ Text module
    For example, here at Zammad, we have a text module with the shortcut
    ``::ilff``, which turns into ``I look forward to your feedback``.
 
-   `Administrators can learn more about text modules here`_.
+   Administrators can learn more about text modules
+   :admin-docs:`here </manage/text-modules.html>`.
    Agents can learn more about this function on this page:
    :doc:`/advanced/text-modules`
-
-.. _Administrators can learn more about text modules here:
-   https://admin-docs.zammad.org/en/latest/manage/text-modules.html
 
 (Ticket) Template
    If you create many similar tickets or write many similar texts, you can
@@ -699,12 +651,10 @@ Tags
    But they could also be based on the type of request, e.g.
    refund, delivery issue, missing…
 
-   `Administrators can learn more about tags here`_.
+   Administrators can learn more about tags
+   :admin-docs:`here </manage/tags.html>`.
    Agents can learn more about this function on this page:
    :doc:`/basics/service-ticket/settings/tags`
-
-.. _Administrators can learn more about tags here:
-   https://admin-docs.zammad.org/en/latest/manage/tags.html
 
 U
 -
@@ -729,11 +679,8 @@ Webhooks
    We use them to allow our users to inform a third-party system about new
    information in Zammad.
 
-   `Learn more about webhooks on this page`_.
-
-.. _Learn more about webhooks on this page:
-   https://admin-docs.zammad.org/en/latest/manage/webhook.html
-
+   Learn more about webhooks on
+   :admin-docs:`this page </manage/webhook.html>`.
 
 X
 -

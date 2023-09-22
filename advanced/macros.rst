@@ -9,8 +9,8 @@ macros can make the job a whole lot easier.
 
 .. note:: 🤔 **How do I make macros?**
 
-   You don’t – that’s the `administrator’s job
-   <https://admin-docs.zammad.org/en/latest/manage/macros.html>`_.
+   You don’t – that’s the
+   :admin-docs:`administrator’s job </manage/macros.html>`.
    If you have an idea for a macro you’d like to use,
    your Zammad admin can probably make it happen.
 
