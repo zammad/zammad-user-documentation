@@ -38,7 +38,7 @@ Talk to customers in real time from the **customer chat** panel.
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
    Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/channels-chat.html>`_.
+   :admin-docs:`here </channels/chat.html>`.
 
 .. warning:: If all agents have the chat panel disabled, customers will **not**
              be able to initiate a chat.
@@ -47,7 +47,7 @@ Talk to customers in real time from the **customer chat** panel.
 
    * 🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime.
    * 📋 Copy & paste **supports 🌄 inline images** as well as plain text.
-   * ⌨️ Live chat supports `text modules <https://admin-docs.zammad.org/en/latest/manage-text-modules.html>`_.
+   * ⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`.
    * 📝 Chats can be **renamed** or **tagged**, and record technical details about
      the customer’s connection.
      

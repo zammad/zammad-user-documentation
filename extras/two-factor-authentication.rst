@@ -10,7 +10,7 @@ the account.
 
 .. hint::
    Two-Factor Authentication is an optional feature. Administrators can learn
-   more :admin-docs:`here <settings/security/two-factor.html>`.
+   more :admin-docs:`here </settings/security/two-factor.html>`.
 
 Set Up Two-Factor Authentication
 --------------------------------

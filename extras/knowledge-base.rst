@@ -17,10 +17,8 @@ Manage, edit, and reorganize knowledge base articles from the
    This feature is **optional**;
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
-   Administrators can learn more on our `admin documentation`_.
-
-.. _admin documentation:
-   https://admin-docs.zammad.org/en/latest/manage/knowledge-base.html
+   Administrators can learn more on our
+   :admin-docs:`admin documentation </manage/knowledge-base.html>`.
 
 Getting Started
 ---------------
@@ -176,10 +174,8 @@ reduce the information load for users that don't need the information.
       carefully!
 
    If you're unsure, please ask your administrator to configure the
-   `role permissions`_ accordingly.
-
-.. _role permissions:
-   https://admin-docs.zammad.org/en/latest/manage/roles/agent-permissions.html
+   :admin-docs:`role permissions </manage/roles/agent-permissions.html>`
+   accordingly.
 
 Editing Answers
 ---------------

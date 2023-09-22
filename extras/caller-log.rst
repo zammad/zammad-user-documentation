@@ -14,10 +14,8 @@ View and manage call logs from the **phone** panel.
    This feature is **optional**;
    if you don’t see it in the main menu,
    that means your administrator hasn’t enabled it yet.
-   Administrators can learn more on our `admin documentation`_.
-
-.. _admin documentation:
-   https://admin-docs.zammad.org/en/latest/system/integrations.html#integrations-for-phone-systems
+   Administrators can learn more on our
+   :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`.
 
 .. hint::
    🏢 The caller log shows all incoming and outgoing calls

@@ -20,7 +20,7 @@ from servers to meeting rooms to virtual machines to software licenses.
    if you don’t see it in the ticket view,
    that means your administrator hasn’t enabled it yet.
    Administrators can learn more
-   `here <https://admin-docs.zammad.org/en/latest/system/integrations/i-doit.html>`_.
+   :admin-docs:`here </system/integrations/i-doit.html>`.
 
 Why?
 ----
