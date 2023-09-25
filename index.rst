@@ -1,6 +1,11 @@
 Zammad User Documentation
 =========================
 
+.. hint::
+   You are currently reading the Zammad user documentation. There are
+   also :docs:`system </index.html>` and
+   :admin-docs:`administration manuals </index.html>` available.
+
 .. toctree::
    :maxdepth: 3
    :titlesonly:
