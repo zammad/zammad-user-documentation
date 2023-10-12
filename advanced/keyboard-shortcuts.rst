@@ -46,19 +46,19 @@ Key / key combination                       Function
 ``shift`` + ``ctrl`` + ``o``          Show Overviews
 ``shift`` + ``ctrl`` + ``s``          Trigger the search
 ``shift`` + ``ctrl`` + ``a``          Open notifications
-``shift`` + ``ctrl`` + ``n``          Create a new ticket (!!!Chrome: opens a new window)
+``shift`` + ``ctrl`` + ``n``          Create a new ticket
 ``shift`` + ``ctrl`` + ``e``          Log out
 ``shift`` + ``ctrl`` + ``h``          Show list of shortcuts
-``shift`` + ``ctrl`` + ``w``          (!!!Firefox and chrome: Closes complete browser window!)
-``shift`` + ``ctrl`` + ``tab``        (!!!Firefox and Chrome: switches browser tabs!)
-``shift`` + ``ctrl`` + ``shift+tab``  (???)
+``shift`` + ``ctrl`` + ``w``          Close current tab
+``shift`` + ``ctrl`` + ``tab``        Show next tab
+``shift`` + ``ctrl`` + ``shift+tab``  Show previous tab
 ``shift`` + ``ctrl`` + ``return``     Confirm/submit in dialogs
 ``↑`` / ``↓``                         Move selection/cursor up and down
 ``←`` / ``→``                         Move selection/cursor left and right
 ``enter``                             Select item / confirm
 ``shift`` + ``ctrl`` + ``.``          Copy current object number (e.g. Ticket number)
 ``shift`` + ``ctrl`` + 2x ``.``       Add the title of the object to the number
-``shift`` + ``ctrl`` + 3x ``.``       (!!!Firefox: not working, Chrome working)
+``shift`` + ``ctrl`` + 3x ``.``       Add the object link URL to the number and title
 ====================================  ===================================================
 
 
@@ -69,7 +69,7 @@ Note: you need to have admin permissions to enable it.
 ====================================  ================================================
 Key / key combination                       Function
 ====================================  ================================================
-``shift`` + ``ctrl`` + ``t``          (!!!Chrome: Creates new tab, Firefox: works) Enable or disable the inline translation
+``shift`` + ``ctrl`` + ``t``          Enable or disable the inline translation
 ====================================  ================================================
 
 
@@ -89,10 +89,10 @@ Tickets
 Key / key combination                 Function
 ====================================  ===================================================================
 ``shift`` + ``ctrl`` + ``m``          Create a new note article
-``shift`` + ``ctrl`` + ``g``          !!!(Firefox and Chrome: not working) Reply to the last article
+``shift`` + ``ctrl`` + ``g``          Reply to the last article
 ``shift`` + ``ctrl`` + ``j``          Switch the visibility of the article between internal and public
 ``shift`` + ``ctrl`` + ``c``          Set state of the ticket to "closed"
-``shift`` + ``ctrl`` + ``←`` / ``→``  !!!(Firefox and Chrome: Not working, text selection) Navigate through article
+``shift`` + ``ctrl`` + ``←`` / ``→``  Navigate through article
 ``::``                                Insert text module (while composing an article)
 ``??``                                Insert knowledge base article (while composing an article)
 ``@@``                                Mention a user (while composing an article)
