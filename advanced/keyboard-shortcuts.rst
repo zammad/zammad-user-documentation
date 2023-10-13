@@ -64,7 +64,7 @@ Key / key combination                       Function
 
 Translations
 ^^^^^^^^^^^^
-Note: you need to have admin permissions to enable it.
+Note: you need to have admin permissions to use this.
 
 ====================================  ================================================
 Key / key combination                       Function
