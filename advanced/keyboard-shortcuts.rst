@@ -16,8 +16,7 @@ an expert user. But don't be afraid, you don't have to remember all of them.
       :align: center
       :scale: 85%
 
-   Alternately, bring it up with one of the shortcuts below
-   (shortcut-ception!)
+   Alternately, open it with one of the shortcuts below:
 
       * ``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)
       * ``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)
@@ -33,7 +32,7 @@ screenshot:
    The keyboard shortcut cheat sheet.
 
 
-List of available keyboard shortcuts
+List of Available Keyboard Shortcuts
 ------------------------------------
 
 Navigation
@@ -42,8 +41,8 @@ Navigation
 ====================================  ===================================================
 Key / key combination                       Function
 ====================================  ===================================================
-``shift`` + ``ctrl`` + ``d``          Show Dashboard
-``shift`` + ``ctrl`` + ``o``          Show Overviews
+``shift`` + ``ctrl`` + ``d``          Show dashboard
+``shift`` + ``ctrl`` + ``o``          Show overviews
 ``shift`` + ``ctrl`` + ``s``          Trigger the search
 ``shift`` + ``ctrl`` + ``a``          Open notifications
 ``shift`` + ``ctrl`` + ``n``          Create a new ticket
@@ -56,7 +55,7 @@ Key / key combination                       Function
 ``↑`` / ``↓``                         Move selection/cursor up and down
 ``←`` / ``→``                         Move selection/cursor left and right
 ``enter``                             Select item / confirm
-``shift`` + ``ctrl`` + ``.``          Copy current object number (e.g. Ticket number)
+``shift`` + ``ctrl`` + ``.``          Copy current object number (e.g. ticket number)
 ``shift`` + ``ctrl`` + 2x ``.``       Add the title of the object to the number
 ``shift`` + ``ctrl`` + 3x ``.``       Add the object link URL to the number and title
 ====================================  ===================================================
@@ -98,15 +97,15 @@ Key / key combination                 Function
 ``@@``                                Mention a user (while composing an article)
 ====================================  ===================================================================
 
-Text editing
+Text Editing
 ^^^^^^^^^^^^
 
 .. tip::
-   You can apply a text format *before* typing or *after* typing.
+   You can apply a text format *before* typing or *after* typing. Example:
 
    Before typing:
 
-   * Press ``cmd`` + ``i`` to enter Italics mode,
+   * Press ``cmd`` + ``i`` to enter *italics* mode,
    * enter your desired text, and
    * press ``cmd`` + ``i`` again to return to normal text mode.
 
@@ -114,7 +113,7 @@ Text editing
 
    * Enter your desired text,
    * click-and-drag with the mouse to select it, and
-   * press ``cmd`` + ``i`` to set the text in italics.
+   * press ``cmd`` + ``i`` to set the text in *italics*.
 
 
 ====================================  =============================================================
