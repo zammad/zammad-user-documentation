@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 14:23+0100\n"
+"POT-Creation-Date: 2023-10-13 08:33+0200\n"
 "PO-Revision-Date: 2023-10-06 09:18+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -24,31 +24,23 @@ msgid "Keyboard Shortcuts"
 msgstr "Tastenkombinationen für die Tastatur"
 
 #: ../advanced/keyboard-shortcuts.rst:6
+#, fuzzy
+#| msgid ""
+#| "Zammad supports a wide array of keyboard shortcuts to expedite your "
+#| "workflow as an expert user."
 msgid ""
 "Zammad supports a wide array of keyboard shortcuts to expedite your workflow "
-"as an expert user."
+"as an expert user. But don't be afraid, you don't have to remember all of "
+"them."
 msgstr ""
 "Zammad unterstützt eine Vielzahl von Tastenkombinationen, um Ihren "
 "Arbeitsablauf als erfahrener Benutzer zu beschleunigen."
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "Keyboard shortcut cheat sheet"
-msgstr "Spickzettel für Tastenkombinationen"
+#: ../advanced/keyboard-shortcuts.rst:9
+msgid "**🤓 Have a look here to find the keyboard shortcuts**"
+msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "The keyboard shortcut cheat sheet on Windows."
-msgstr "Der Spickzettel für Tastenkombinationen unter Windows."
-
-#: ../advanced/keyboard-shortcuts.rst:16 ../advanced/tabs.rst:25
-#: ../basics/find-ticket/browse.rst:27 ../basics/find-ticket/search.rst:33
-#: ../basics/service-ticket/create.rst:48
-#: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
-msgid "**🖱️ UI Protip**"
-msgstr "**🖱️Tipp für Profi-Benutzer**"
-
-#: ../advanced/keyboard-shortcuts.rst:18
+#: ../advanced/keyboard-shortcuts.rst:11
 msgid ""
 "Click on your avatar at the bottom of the main menu to access the **keyboard "
 "shortcuts cheat sheet**."
@@ -60,71 +52,498 @@ msgstr ""
 msgid "User submenu"
 msgstr "Benutzer Untermenü"
 
-#: ../advanced/keyboard-shortcuts.rst:26
-msgid ""
-"Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
+#: ../advanced/keyboard-shortcuts.rst:19
+#, fuzzy
+#| msgid ""
+#| "Alternately, bring it up with one of the shortcuts below (shortcut-"
+#| "ception!)"
+msgid "Alternately, open it with one of the shortcuts below:"
 msgstr ""
 "Alternativ lassen sich die Tastenkombinationen auch über die folgenden "
 "Kombinationen (Kombinations-Ception!) aufrufen"
 
-#: ../advanced/keyboard-shortcuts.rst:29
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
+#: ../advanced/keyboard-shortcuts.rst:21
+#, fuzzy
+#| msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
+msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
 msgstr "``STRG`` + ``Shift`` + ``H`` (unter Windows)"
 
-#: ../advanced/keyboard-shortcuts.rst:30
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
-msgstr "``STRG`` + ``Shift`` + ``H`` (unter Linux)"
-
-#: ../advanced/keyboard-shortcuts.rst:31
-msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
+#: ../advanced/keyboard-shortcuts.rst:22
+#, fuzzy
+#| msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
+msgid "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)"
 msgstr "``CMD`` + ``STRG`` + ``Shift`` + ``H`` (unter macOS)"
 
-#: ../advanced/keyboard-shortcuts.rst:34
-msgid "Formatting Text"
-msgstr "Formatieren von Texten"
+#: ../advanced/keyboard-shortcuts.rst:24
+msgid ""
+"This will open an overview of available keyboard-shortcuts as in the "
+"following screenshot:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:32
+msgid "Keyboard shortcut cheat sheet"
+msgstr "Spickzettel für Tastenkombinationen"
+
+#: ../advanced/keyboard-shortcuts.rst:32
+#, fuzzy
+#| msgid "Keyboard shortcut cheat sheet"
+msgid "The keyboard shortcut cheat sheet."
+msgstr "Spickzettel für Tastenkombinationen"
 
 #: ../advanced/keyboard-shortcuts.rst:36
-msgid ""
-"Keyboard shortcuts can be used to apply rich-text formatting in one of two "
-"ways:"
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "List of Available Keyboard Shortcuts"
+msgstr "Tastenkombinationen für die Tastatur"
+
+#: ../advanced/keyboard-shortcuts.rst:39
+#, fuzzy
+#| msgid "organization"
+msgid "Navigation"
+msgstr "organization"
+
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+msgid "Key / key combination"
 msgstr ""
-"Tastaturkürzel können verwendet werden, um die Rich-Text-Formatierung auf "
-"folgende zwei Arten anwenden zu können:"
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "As-you-type"
-msgstr "Während des Tippens"
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+#, fuzzy
+#| msgid "Encryption"
+msgid "Function"
+msgstr "Verschlüsselung"
 
-#: ../advanced/keyboard-shortcuts.rst:40
-msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
+#: ../advanced/keyboard-shortcuts.rst:44
+msgid "``shift`` + ``ctrl`` + ``d``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:44
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Show dashboard"
+msgstr "Dashboard"
+
+#: ../advanced/keyboard-shortcuts.rst:45
+msgid "``shift`` + ``ctrl`` + ``o``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:45
+#, fuzzy
+#| msgid "Overviews"
+msgid "Show overviews"
+msgstr "Übersichten"
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "``shift`` + ``ctrl`` + ``s``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "Trigger the search"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:47
+msgid "``shift`` + ``ctrl`` + ``a``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:47
+#, fuzzy
+#| msgid "Notifications"
+msgid "Open notifications"
+msgstr "Benachrichtigungen"
+
+#: ../advanced/keyboard-shortcuts.rst:48
+msgid "``shift`` + ``ctrl`` + ``n``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:48 ../extras/mobile-view.rst:119
+msgid "Create a new ticket"
+msgstr "Erstellen eines neuen Tickets"
+
+#: ../advanced/keyboard-shortcuts.rst:49
+msgid "``shift`` + ``ctrl`` + ``e``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:49
+#, fuzzy
+#| msgid "Sign out"
+msgid "Log out"
+msgstr "Abmelden"
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "``shift`` + ``ctrl`` + ``h``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "Show list of shortcuts"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:51
+msgid "``shift`` + ``ctrl`` + ``w``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:51
+#, fuzzy
+#| msgid "Close tab"
+msgid "Close current tab"
+msgstr "Tab schließen"
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "``shift`` + ``ctrl`` + ``tab``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "Show next tab"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:53
+#, fuzzy
+#| msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
+msgid "``shift`` + ``ctrl`` + ``shift+tab``"
+msgstr "``CMD`` + ``STRG`` + ``Shift`` + ``H`` (unter macOS)"
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "Show previous tab"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "``shift`` + ``ctrl`` + ``return``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "Confirm/submit in dialogs"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "``↑`` / ``↓``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "Move selection/cursor up and down"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "``←`` / ``→``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "Move selection/cursor left and right"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "``enter``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "Select item / confirm"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "``shift`` + ``ctrl`` + ``.``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "Copy current object number (e.g. ticket number)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "``shift`` + ``ctrl`` + 2x ``.``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "Add the title of the object to the number"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "``shift`` + ``ctrl`` + 3x ``.``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "Add the object link URL to the number and title"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:65
+#, fuzzy
+#| msgid "Organizations"
+msgid "Translations"
+msgstr "Unternehmen"
+
+#: ../advanced/keyboard-shortcuts.rst:66
+msgid "Note: you need to have admin permissions to use this."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "``shift`` + ``ctrl`` + ``t``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "Enable or disable the inline translation"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:76 ../extras/profile-and-settings.rst:0
+msgid "Appearance"
+msgstr "Erscheinung"
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "``d``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "Switch between dark and light mode"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:85
+#, fuzzy
+#| msgid "Ticket Macros"
+msgid "Tickets"
+msgstr "Ticket-Makros"
+
+#: ../advanced/keyboard-shortcuts.rst:90
+msgid "``shift`` + ``ctrl`` + ``m``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:90
+#, fuzzy
+#| msgid "Create a new ticket"
+msgid "Create a new note article"
+msgstr "Erstellen eines neuen Tickets"
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "``shift`` + ``ctrl`` + ``g``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "Reply to the last article"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "``shift`` + ``ctrl`` + ``j``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "Switch the visibility of the article between internal and public"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:93
+msgid "``shift`` + ``ctrl`` + ``c``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:93
+#, fuzzy
+#| msgid "Close tab on ticket close"
+msgid "Set state of the ticket to \"closed\""
+msgstr "Tab bei Ticketabschluss schließen"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+#, fuzzy
+#| msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
+msgid "``shift`` + ``ctrl`` + ``←`` / ``→``"
+msgstr "``CMD`` + ``STRG`` + ``Shift`` + ``H`` (unter macOS)"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+msgid "Navigate through article"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "``::``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "Insert text module (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "``??``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "Insert knowledge base article (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "``@@``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "Mention a user (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:101
+msgid "Text Editing"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:104
+msgid "You can apply a text format *before* typing or *after* typing. Example:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:106
+msgid "Before typing:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:108
+#, fuzzy
+#| msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
+msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
 msgstr "Drücken Sie ``Cmd`` + ``I`` um in den Kursivmodus zu gelangen,"
 
-#: ../advanced/keyboard-shortcuts.rst:41
+#: ../advanced/keyboard-shortcuts.rst:109
 msgid "enter your desired text, and"
 msgstr "geben Sie den gewünschten Text ein und"
 
-#: ../advanced/keyboard-shortcuts.rst:42
-msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
+#: ../advanced/keyboard-shortcuts.rst:110
+#, fuzzy
+#| msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
+msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgstr ""
 "drücken Sie erneut ``Cmd`` + ``I``, um zum normalen Textmodus zurückzukehren."
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "All-at-once"
-msgstr "Alles auf einmal"
+#: ../advanced/keyboard-shortcuts.rst:112
+msgid "After typing:"
+msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:46
+#: ../advanced/keyboard-shortcuts.rst:114
 msgid "Enter your desired text,"
 msgstr "Geben Sie den gewünschten Text ein,"
 
-#: ../advanced/keyboard-shortcuts.rst:47
+#: ../advanced/keyboard-shortcuts.rst:115
 msgid "click-and-drag with the mouse to select it, and"
 msgstr ""
 "klicken und ziehen Sie mit gedrückter Maus über den Text, um diesen "
 "auszuwählen und"
 
-#: ../advanced/keyboard-shortcuts.rst:48
-msgid "press ``Cmd`` + ``I`` to italicize."
+#: ../advanced/keyboard-shortcuts.rst:116
+#, fuzzy
+#| msgid "press ``Cmd`` + ``I`` to italicize."
+msgid "press ``cmd`` + ``i`` to set the text in *italics*."
 msgstr "drücken Sie ``Cmd`` + ``I`` , um den Text in kursiv zu ändern."
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "``ctrl`` + ``u``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "Format text underlined"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "``ctrl`` + ``b``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "Format text in **bold**"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "``ctrl`` + ``i``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "Format text in *italics*"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "``ctrl`` + ``s``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "``ctrl`` + ``v``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "Paste text from clipboard"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:127
+#, fuzzy
+#| msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
+msgid "``ctrl`` + ``shift`` + ``v``"
+msgstr "``STRG`` + ``Shift`` + ``H`` (unter Linux)"
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "Paste text from clipboard (as plain text)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:128
+msgid "``shift`` + ``ctrl`` + ``f``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:128
+#, fuzzy
+#| msgid "Formatting Text"
+msgid "Remove formatting of text"
+msgstr "Formatieren von Texten"
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "``shift`` + ``ctrl`` + ``y``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "Remove formatting of the whole text"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "``shift`` + ``ctrl`` + ``z``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "Insert a horizontal line"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "``shift`` + ``ctrl`` + ``l``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "Format as unordered list"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "``shift`` + ``ctrl`` + ``k``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "Format as ordered list"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "``shift`` + ``ctrl`` + ``1``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "Format as h1 heading"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "``shift`` + ``ctrl`` + ``2``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "Format as h2 heading"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "``shift`` + ``ctrl`` + ``3``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "Format as h3 heading"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:136
+msgid "``shift`` + ``ctrl`` + ``x``"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:136
+#, fuzzy
+#| msgid "Remove an issue"
+msgid "Remove any hyperlink"
+msgstr "Ein Issue entfernen"
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -350,9 +769,9 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer "
-":docs:`Zammad System Dokumentation </install/elasticsearch/indexed-attributes"
-".html>`."
+"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer :"
+"docs:`Zammad System Dokumentation </install/elasticsearch/indexed-attributes."
+"html>`."
 
 #: ../advanced/search.rst:49
 msgid "Attributes and their usuage"
@@ -1062,6 +1481,14 @@ msgstr "Unternehmen"
 #: ../advanced/tabs.rst:23
 msgid "Omnisearch"
 msgstr "Suchanfragen"
+
+#: ../advanced/tabs.rst:25 ../basics/find-ticket/browse.rst:27
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../snippets/ui-protip-message-editor-features.rst:1
+#: ../basics/service-ticket/follow-up.rst:55
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
+msgid "**🖱️ UI Protip**"
+msgstr "**🖱️Tipp für Profi-Benutzer**"
 
 #: ../advanced/tabs.rst:27 ../basics/find-ticket/browse.rst:31
 msgid ""
@@ -2725,8 +3152,8 @@ msgid ""
 "Priority can also be used as a ticket filter when creating :admin-docs:"
 "`custom overviews </manage/overviews.html>`."
 msgstr ""
-"Die Priorität kann auch als Ticketfilter bei der Erstellung von :admin-docs:`"
-"angepassten Übersichten </manage/overviews.html>` verwendet werden."
+"Die Priorität kann auch als Ticketfilter bei der Erstellung von :admin-docs:"
+"`angepassten Übersichten </manage/overviews.html>` verwendet werden."
 
 #: ../basics/service-ticket/settings/priority.rst:28
 msgid ""
@@ -3444,8 +3871,8 @@ msgid ""
 "See our :admin-docs:`admin documentation </settings/security/third-party."
 "html>` for all third party authentication providers."
 msgstr ""
-"Siehe unsere :admin-docs:`Admin-Dokumentation </settings/security/third-party"
-".html>` für alle Authentifizierungen durch Drittanbieter."
+"Siehe unsere :admin-docs:`Admin-Dokumentation </settings/security/third-"
+"party.html>` für alle Authentifizierungen durch Drittanbieter."
 
 #: ../basics/zammad-glossary.rst:223
 msgid "Exchange Integration"
@@ -3624,8 +4051,8 @@ msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
-"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen "
-":docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
+"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen :"
+"docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
 "grafana.html>` ."
 
 #: ../basics/zammad-glossary.rst:316
@@ -4783,8 +5210,7 @@ msgstr ""
 msgid ""
 "⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`."
 msgstr ""
-"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules."
-"html>`."
+"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules.html>`."
 
 #: ../extras/chat.rst:51
 msgid ""
@@ -5680,9 +6106,9 @@ msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
-"Wenn Sie unsicher sind, bitten Sie Ihren Administrator, die :admin-docs:`"
-"Rollenberechtigungen </manage/roles/agent-permissions.html>` entsprechend zu "
-"konfigurieren."
+"Wenn Sie unsicher sind, bitten Sie Ihren Administrator, die :admin-docs:"
+"`Rollenberechtigungen </manage/roles/agent-permissions.html>` entsprechend "
+"zu konfigurieren."
 
 #: ../extras/knowledge-base.rst:181
 msgid "Editing Answers"
@@ -5983,10 +6409,6 @@ msgstr "Verwalten und nutzen Sie Ihre Ticket-Übersichten"
 #: ../extras/mobile-view.rst:118
 msgid "Search for existing records"
 msgstr "Suche nach existierenden Einträgen"
-
-#: ../extras/mobile-view.rst:119
-msgid "Create a new ticket"
-msgstr "Erstellen eines neuen Tickets"
 
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
@@ -6348,10 +6770,6 @@ msgstr ""
 msgid "Profile Settings"
 msgstr "Profil Einstellungen"
 
-#: ../extras/profile-and-settings.rst:0
-msgid "Appearance"
-msgstr "Erscheinung"
-
 #: ../extras/profile-and-settings.rst:79
 msgid "Theme"
 msgstr "Design"
@@ -6438,8 +6856,8 @@ msgid ""
 "security/two-factor.html>`."
 msgstr ""
 "Die :doc:`Zwei-Faktor-Authentifizierung </extras/two-factor-authentication>` "
-"ist eine optionale Funkion. Administratoren können :admin-docs:`hier <"
-"settings/security/two-factor.html>` mehr erfahren."
+"ist eine optionale Funkion. Administratoren können :admin-docs:`hier "
+"<settings/security/two-factor.html>` mehr erfahren."
 
 #: ../extras/profile-and-settings.rst:101
 msgid ""
@@ -8041,9 +8459,25 @@ msgid ""
 "docs:`system </index.html>` and :admin-docs:`administration manuals </index."
 "html>` available."
 msgstr ""
-"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem "
-":docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
+"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
+"docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid "The keyboard shortcut cheat sheet on Windows."
+#~ msgstr "Der Spickzettel für Tastenkombinationen unter Windows."
+
+#~ msgid ""
+#~ "Keyboard shortcuts can be used to apply rich-text formatting in one of "
+#~ "two ways:"
+#~ msgstr ""
+#~ "Tastaturkürzel können verwendet werden, um die Rich-Text-Formatierung auf "
+#~ "folgende zwei Arten anwenden zu können:"
+
+#~ msgid "As-you-type"
+#~ msgstr "Während des Tippens"
+
+#~ msgid "All-at-once"
+#~ msgstr "Alles auf einmal"
 
 #~ msgid "`service-level agreements`_,"
 #~ msgstr "`Service-Level Vereinbarung`_,"
