@@ -7,7 +7,7 @@ Use the **ticket pane** to manage customer profiles.
    :alt: Ticket pane (customer view)
    :align: center
 
-   Click the 👨 tab in the ticket pane to see the customer’s profile.
+   Click the 👨 tab in the ticket pane to see the customer's profile.
 
 .. tip:: **🖱️ UI Protip**
 
@@ -16,23 +16,25 @@ Use the **ticket pane** to manage customer profiles.
       :align: center
       :scale: 50%
 
-      Hover over the **open/closed** labels to see a summary of the customer’s other tickets.
+      Hover over the **open/closed** labels to see a summary of the customer's other tickets.
 
 Editing a Customer
 ------------------
 
-To edit the customer’s profile, use the **customer submenu**:
+To edit the customer's profile, use the **customer submenu** and select "Edit
+Customer":
 
-.. figure:: /images/extras/customers-submenu.jpg
+.. figure:: /images/extras/customers-submenu.png
    :alt: Customer submenu
    :align: center
+   :scale: 100%
 
    Click the **Customer ▾** heading to access additional actions.
 
 .. figure:: /images/extras/customers-edit-dialog.png
    :alt: Edit customer dialog
    :align: center
-   :scale: 50%
+   :scale: 90%
 
    The edit customer dialog.
 
@@ -52,9 +54,9 @@ but here are a couple that might confuse you:
 :VIP:
 
    Like :doc:`ticket priority </basics/service-ticket/settings/priority>`,
-   **VIP status** doesn’t actually do anything out-of-the-box,
+   **VIP status** doesn't actually do anything out-of-the-box,
    but an admin *can* set up automated system hooks based on this value,
    or use it as a filter for :doc:`custom overviews </basics/find-ticket/browse>`.
 
-   **Ask your administrator** about how she’d like you to use this attribute
+   **Ask your administrator** about how she'd like you to use this attribute
    (or just leave it alone).
