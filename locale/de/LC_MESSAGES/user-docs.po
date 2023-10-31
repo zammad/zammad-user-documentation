@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-25 14:24+0100\n"
-"PO-Revision-Date: 2023-10-06 09:18+0000\n"
+"PO-Revision-Date: 2023-10-31 07:30+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -350,9 +350,9 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer "
-":docs:`Zammad System Dokumentation </install/elasticsearch/indexed-attributes"
-".html>`."
+"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer :"
+"docs:`Zammad System Dokumentation </install/elasticsearch/indexed-attributes."
+"html>`."
 
 #: ../advanced/search.rst:49
 msgid "Attributes and their usuage"
@@ -2725,8 +2725,8 @@ msgid ""
 "Priority can also be used as a ticket filter when creating :admin-docs:"
 "`custom overviews </manage/overviews.html>`."
 msgstr ""
-"Die Priorität kann auch als Ticketfilter bei der Erstellung von :admin-docs:`"
-"angepassten Übersichten </manage/overviews.html>` verwendet werden."
+"Die Priorität kann auch als Ticketfilter bei der Erstellung von :admin-docs:"
+"`angepassten Übersichten </manage/overviews.html>` verwendet werden."
 
 #: ../basics/service-ticket/settings/priority.rst:28
 msgid ""
@@ -3444,8 +3444,8 @@ msgid ""
 "See our :admin-docs:`admin documentation </settings/security/third-party."
 "html>` for all third party authentication providers."
 msgstr ""
-"Siehe unsere :admin-docs:`Admin-Dokumentation </settings/security/third-party"
-".html>` für alle Authentifizierungen durch Drittanbieter."
+"Siehe unsere :admin-docs:`Admin-Dokumentation </settings/security/third-"
+"party.html>` für alle Authentifizierungen durch Drittanbieter."
 
 #: ../basics/zammad-glossary.rst:223
 msgid "Exchange Integration"
@@ -3624,8 +3624,8 @@ msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
-"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen "
-":docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
+"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen :"
+"docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
 "grafana.html>` ."
 
 #: ../basics/zammad-glossary.rst:316
@@ -4783,8 +4783,7 @@ msgstr ""
 msgid ""
 "⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`."
 msgstr ""
-"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules."
-"html>`."
+"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules.html>`."
 
 #: ../extras/chat.rst:51
 msgid ""
@@ -4849,10 +4848,8 @@ msgid "Ticket pane (customer view)"
 msgstr "Ticket-Fenster (Kundenansicht)"
 
 #: ../extras/customers.rst:10
-msgid "Click the 👨 tab in the ticket pane to see the customer’s profile."
-msgstr ""
-"Wählen Sie den Tab 👨 mit der einzelnen Person, um Informationen zum Kunden(-"
-"benutzer) zu sehen."
+msgid "Click the 👨 tab in the ticket pane to see the customer's profile."
+msgstr "Wählen Sie den 👨 Tab, um das Kundenprofil zu sehen."
 
 #: ../extras/customers.rst:0
 msgid "Customer ticket summary (mouseover)"
@@ -4860,7 +4857,7 @@ msgstr "Ticketzusammenfassung des Kunden (mouseover)"
 
 #: ../extras/customers.rst:19
 msgid ""
-"Hover over the **open/closed** labels to see a summary of the customer’s "
+"Hover over the **open/closed** labels to see a summary of the customer's "
 "other tickets."
 msgstr ""
 "Fahren Sie mit der Maus über die **offen/geschlossen** Anzeige, um eine "
@@ -4871,29 +4868,31 @@ msgid "Editing a Customer"
 msgstr "Bearbeiten von Kundeninformationen"
 
 #: ../extras/customers.rst:24
-msgid "To edit the customer’s profile, use the **customer submenu**:"
+msgid ""
+"To edit the customer's profile, use the **customer submenu** and select "
+"\"Edit Customer\":"
 msgstr ""
 "Um das Kundenprofil zu bearbeiten, verwenden Sie das **Kunden Untermenü**:"
 
-#: ../extras/customers.rst:30
+#: ../extras/customers.rst:32
 msgid "Customer submenu"
 msgstr "Kunden Untermenü"
 
-#: ../extras/customers.rst:30
+#: ../extras/customers.rst:32
 msgid "Click the **Customer ▾** heading to access additional actions."
 msgstr ""
 "Klicken Sie auf die Überschrift **Kunde ▾**, um zu weiteren Funktionen zu "
 "gelangen."
 
-#: ../extras/customers.rst:37
+#: ../extras/customers.rst:39
 msgid "Edit customer dialog"
 msgstr "Dialog zum Kunden bearbeiten"
 
-#: ../extras/customers.rst:37
+#: ../extras/customers.rst:39
 msgid "The edit customer dialog."
 msgstr "Die Bearbeiten-Maske von Kundeninformationen."
 
-#: ../extras/customers.rst:39
+#: ../extras/customers.rst:41
 msgid ""
 "Most customer attributes are self-explanatory, but here are a couple that "
 "might confuse you:"
@@ -4901,7 +4900,7 @@ msgstr ""
 "Die meisten Kundenattribute sind selbsterklärend, aber hier sind ein paar, "
 "die etwas irritieren könnten:"
 
-#: ../extras/customers.rst:44
+#: ../extras/customers.rst:46
 msgid ""
 "Customers may (optionally) belong to **organizations** – :doc:`skip ahead "
 "<organizations>` to learn more."
@@ -4913,7 +4912,7 @@ msgstr ""
 msgid "Secondary Organizations"
 msgstr "Sekundäre Unternehmen"
 
-#: ../extras/customers.rst:49
+#: ../extras/customers.rst:51
 msgid ""
 "Unlike organizations, you can add several organizations here that are not as "
 "highlighted. Still, the same behavior applies."
@@ -4925,22 +4924,22 @@ msgstr ""
 msgid "VIP"
 msgstr "VIP"
 
-#: ../extras/customers.rst:54
+#: ../extras/customers.rst:56
 msgid ""
 "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, "
-"**VIP status** doesn’t actually do anything out-of-the-box, but an admin "
+"**VIP status** doesn't actually do anything out-of-the-box, but an admin "
 "*can* set up automated system hooks based on this value, or use it as a "
 "filter for :doc:`custom overviews </basics/find-ticket/browse>`."
 msgstr ""
 "Genau wie die :doc:`Ticket Priorität</basics/service-ticket/settings/"
 "priority>`, kann der **VIP Status** nichts ohne weitere Einstellungen "
 "bewirken. Ein Admin *kann* automatisierte Systemkonfigurationen basierend "
-"auf diesem Wert einrichten oder dieses Attribut als Filter für :doc:"
-"`Übersichten</basics/find-ticket/browse>` nutzen."
+"auf diesem Wert einrichten oder dieses Attribut als Filter für "
+":doc:`Übersichten</basics/find-ticket/browse>` nutzen."
 
-#: ../extras/customers.rst:59
+#: ../extras/customers.rst:61
 msgid ""
-"**Ask your administrator** about how she’d like you to use this attribute "
+"**Ask your administrator** about how she'd like you to use this attribute "
 "(or just leave it alone)."
 msgstr ""
 "**Fragen Sie beim Administrator nach**, wie dieses Attribut verwendet werden "
@@ -5680,9 +5679,9 @@ msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
-"Wenn Sie unsicher sind, bitten Sie Ihren Administrator, die :admin-docs:`"
-"Rollenberechtigungen </manage/roles/agent-permissions.html>` entsprechend zu "
-"konfigurieren."
+"Wenn Sie unsicher sind, bitten Sie Ihren Administrator, die :admin-docs:"
+"`Rollenberechtigungen </manage/roles/agent-permissions.html>` entsprechend "
+"zu konfigurieren."
 
 #: ../extras/knowledge-base.rst:181
 msgid "Editing Answers"
@@ -6438,8 +6437,8 @@ msgid ""
 "security/two-factor.html>`."
 msgstr ""
 "Die :doc:`Zwei-Faktor-Authentifizierung </extras/two-factor-authentication>` "
-"ist eine optionale Funkion. Administratoren können :admin-docs:`hier <"
-"settings/security/two-factor.html>` mehr erfahren."
+"ist eine optionale Funkion. Administratoren können :admin-docs:`hier "
+"<settings/security/two-factor.html>` mehr erfahren."
 
 #: ../extras/profile-and-settings.rst:101
 msgid ""
@@ -8041,8 +8040,8 @@ msgid ""
 "docs:`system </index.html>` and :admin-docs:`administration manuals </index."
 "html>` available."
 msgstr ""
-"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem "
-":docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
+"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
+"docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
 
 #~ msgid "`service-level agreements`_,"
