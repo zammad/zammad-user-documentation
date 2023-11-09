@@ -17,7 +17,7 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
    :align: center
 
    Tickets are threads of messages & notes about a customer service issue.
-   :doc:`⚙️ Manage a ticket's settings <settings>` in the
+   :doc:`⚙️ Manage ticket settings <settings>` in the
    **ticket pane** on the right.
 
 .. hint:: 📇 Any time you open a ticket, a new entry will appear in your
