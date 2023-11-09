@@ -1516,7 +1516,7 @@ msgid "Ticket summary view"
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:19
-msgid "Tickets are threads of messages & notes about a customer service issue. :doc:`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on the right."
+msgid "Tickets are threads of messages & notes about a customer service issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:23
@@ -1552,7 +1552,7 @@ msgid "⏩ You can also **forward messages**, just as you would in any email cli
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:51
-msgid "This way, you can share correspondences with people who don’t have Zammad (like a third-party supplier)."
+msgid "This way, you can share correspondences with people who don't have Zammad (like a third-party supplier)."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:57
@@ -1611,47 +1611,51 @@ msgstr ""
 msgid "“Internal” messages are outlined with a salmon border, and **can only be viewed by other agents**."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:102
+#: ../basics/service-ticket/follow-up.rst:99
+msgid "What about the **deletion of articles**? In Zammad, you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the \"delete\" button in articles of the type \"communication\" (emails, calls), their visibility has to be switched to internal first."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:107
 msgid "Using quotation"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:104
+#: ../basics/service-ticket/follow-up.rst:109
 msgid "In many cases you'll want to quote earlier text of your customer. This is important because especially on long conversations your opponent will easily loose track."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:108
+#: ../basics/service-ticket/follow-up.rst:113
 msgid "Referencing on earlier written text helps greatly to keep context and track of things. By default Zammad adds no whole quote body (this can be changed by your administrator)."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:112
+#: ../basics/service-ticket/follow-up.rst:117
 msgid "No matter if the whole quotation is active or not, you can always mark the text you want to reference and press *reply* or *reply all* after. This will cause Zammad to add the marked text as quote to the editor. You can break up quotations by using enter."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:119
+#: ../basics/service-ticket/follow-up.rst:124
 msgid "This function is limited to one article per operation. The article has to be of type *communication* (thus have a *reply* button) to function."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Mark, press reply and work with quoted text!"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:130
+#: ../basics/service-ticket/follow-up.rst:135
 msgid "🔥 Keeping an eye on escalations"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:132
+#: ../basics/service-ticket/follow-up.rst:137
 msgid "**🧐 Huh? I can't see escalation timestamps!**"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:134
+#: ../basics/service-ticket/follow-up.rst:139
 msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:138
+#: ../basics/service-ticket/follow-up.rst:143
 msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
 msgstr ""
 
@@ -1660,19 +1664,19 @@ msgid "Screencast showing agent hovering the escalation time and receiving\n"
 "a more detailed escalation information"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:150
-msgid "**🙅 I’m working here!**"
+#: ../basics/service-ticket/follow-up.rst:155
+msgid "**🙅 I'm working here!**"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:152
+#: ../basics/service-ticket/follow-up.rst:157
 msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:161
+#: ../basics/service-ticket/follow-up.rst:166
 msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the lower-lefthand corner for every agent that has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:166
+#: ../basics/service-ticket/follow-up.rst:171
 msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
 msgstr ""
 
@@ -1680,7 +1684,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:173
+#: ../basics/service-ticket/follow-up.rst:178
 msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
 
