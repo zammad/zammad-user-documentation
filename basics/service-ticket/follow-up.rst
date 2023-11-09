@@ -17,7 +17,7 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
    :align: center
 
    Tickets are threads of messages & notes about a customer service issue.
-   :doc:`⚙️ Manage a ticket’s settings <settings>` in the
+   :doc:`⚙️ Manage a ticket's settings <settings>` in the
    **ticket pane** on the right.
 
 .. hint:: 📇 Any time you open a ticket, a new entry will appear in your
@@ -49,7 +49,7 @@ the customer will receive your response in a Twitter DM).
    (attachments are included automatically).
 
    This way, you can share correspondences
-   with people who don’t have Zammad
+   with people who don't have Zammad
    (like a third-party supplier).
 
 .. tip:: **🖱️ UI Protip**
@@ -95,6 +95,11 @@ There are three types of follow-ups:
 
       “Internal” messages are outlined with a salmon border,
       and **can only be viewed by other agents**.
+
+What about the **deletion of articles**? In Zammad, you can only delete articles
+that you have created yourself and which are not older than 10 minutes. To see
+the "delete" button in articles of the type "communication" (emails, calls),
+their visibility has to be switched to internal first.
 
 .. include:: /snippets/ui-protip-message-editor-features.rst
 
@@ -147,7 +152,7 @@ will display all upcoming escalation times based on the SLA configuration.
 
 .. _caution-im-working-here:
 
-.. caution:: **🙅 I’m working here!**
+.. caution:: **🙅 I'm working here!**
 
    Every once in a while,
    two agents may have the same ticket open at the same time.
