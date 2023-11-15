@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-25 14:24+0100\n"
-"PO-Revision-Date: 2023-11-01 13:00+0000\n"
+"PO-Revision-Date: 2023-11-10 02:05+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -1057,7 +1057,7 @@ msgstr "Benutzer"
 
 #: ../advanced/tabs.rst:22 ../extras/organizations.rst:2
 msgid "Organizations"
-msgstr "Unternehmen"
+msgstr "Organisationen"
 
 #: ../advanced/tabs.rst:23
 msgid "Omnisearch"
@@ -2127,10 +2127,14 @@ msgid "Ticket summary view"
 msgstr "Ticket-Zusammenfassung"
 
 #: ../basics/service-ticket/follow-up.rst:19
+#, fuzzy
+#| msgid ""
+#| "Tickets are threads of messages & notes about a customer service issue. :"
+#| "doc:`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on "
+#| "the right."
 msgid ""
 "Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on the "
-"right."
+"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
 "Tickets sind Sammlungen aus Nachrichten- und Notiz-Beiträgen zu einem Kunden-"
 "Anliegen. :doc:`⚙️ Ticketeinstellungen <settings>` können im "
@@ -2194,8 +2198,12 @@ msgstr ""
 "(Anhänge werden automatisch eingebunden)."
 
 #: ../basics/service-ticket/follow-up.rst:51
+#, fuzzy
+#| msgid ""
+#| "This way, you can share correspondences with people who don’t have Zammad "
+#| "(like a third-party supplier)."
 msgid ""
-"This way, you can share correspondences with people who don’t have Zammad "
+"This way, you can share correspondences with people who don't have Zammad "
 "(like a third-party supplier)."
 msgstr ""
 "Auf diese Weise können Nachrichten mit Personen ausgetauscht werden, die "
@@ -2283,11 +2291,19 @@ msgstr ""
 "Die \"internen\" Nachrichten werden mit einem lachsfarbenen Rand umrandet "
 "und können **nur von anderen Agenten eingesehen werden**."
 
-#: ../basics/service-ticket/follow-up.rst:102
+#: ../basics/service-ticket/follow-up.rst:99
+msgid ""
+"What about the **deletion of articles**? In Zammad, you can only delete "
+"articles that you have created yourself and which are not older than 10 "
+"minutes. To see the \"delete\" button in articles of the type \"communication"
+"\" (emails, calls), their visibility has to be switched to internal first."
+msgstr ""
+
+#: ../basics/service-ticket/follow-up.rst:107
 msgid "Using quotation"
 msgstr "Zitieren"
 
-#: ../basics/service-ticket/follow-up.rst:104
+#: ../basics/service-ticket/follow-up.rst:109
 msgid ""
 "In many cases you'll want to quote earlier text of your customer. This is "
 "important because especially on long conversations your opponent will easily "
@@ -2297,7 +2313,7 @@ msgstr ""
 "ist deshalb wichtig, weil besonders bei langen Konversationen das Gegenüber "
 "den Überblick verlieren kann."
 
-#: ../basics/service-ticket/follow-up.rst:108
+#: ../basics/service-ticket/follow-up.rst:113
 msgid ""
 "Referencing on earlier written text helps greatly to keep context and track "
 "of things. By default Zammad adds no whole quote body (this can be changed "
@@ -2307,7 +2323,7 @@ msgstr ""
 "Überblick zu wahren. Standardmäßig fügt Zammad nicht ein volles Zitat des "
 "vorherigen Artikels hinzu (das kann von Ihrem Administrator geändert werden)."
 
-#: ../basics/service-ticket/follow-up.rst:112
+#: ../basics/service-ticket/follow-up.rst:117
 msgid ""
 "No matter if the whole quotation is active or not, you can always mark the "
 "text you want to reference and press *reply* or *reply all* after. This will "
@@ -2320,7 +2336,7 @@ msgstr ""
 "markierten Text als Zitat dem Editor hinzu. Zitate können mit der Enter-"
 "Taste aufgebrochen werden."
 
-#: ../basics/service-ticket/follow-up.rst:119
+#: ../basics/service-ticket/follow-up.rst:124
 msgid ""
 "This function is limited to one article per operation. The article has to be "
 "of type *communication* (thus have a *reply* button) to function."
@@ -2329,25 +2345,25 @@ msgstr ""
 "Artikeltyp muss dabei einer *Kommunikation* (und damit einen *antworten*-"
 "Button haben) entsprechen."
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
 "Screencast der zeigt wie Text markiert wird und nach dem klicken auf "
 "antworten zitiert wird"
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Mark, press reply and work with quoted text!"
 msgstr "Markieren, auf antworten klicken und mit dem zitierten Text arbeiten!"
 
-#: ../basics/service-ticket/follow-up.rst:130
+#: ../basics/service-ticket/follow-up.rst:135
 msgid "🔥 Keeping an eye on escalations"
 msgstr "🔥 Eskalationen im Blick behalten"
 
-#: ../basics/service-ticket/follow-up.rst:132
+#: ../basics/service-ticket/follow-up.rst:137
 msgid "**🧐 Huh? I can't see escalation timestamps!**"
 msgstr "**🧐 Huch? Ich kann keine Eskalationszeiten sehen!**"
 
-#: ../basics/service-ticket/follow-up.rst:134
+#: ../basics/service-ticket/follow-up.rst:139
 msgid ""
 "SLAs are optional and require configuration by your instance administrator. "
 "Administrators can learn more about SLAs :admin-docs:`in our admin "
@@ -2357,7 +2373,7 @@ msgstr ""
 "Administratoren können mehr über SLAs :admin-docs:`in unserer Admin-"
 "Dokumentation </manage/slas/index.html>` erfahren."
 
-#: ../basics/service-ticket/follow-up.rst:138
+#: ../basics/service-ticket/follow-up.rst:143
 msgid ""
 "On the top of every ticket being applicable for SLA escalations, you'll find "
 "two dates next to the ticket number. By hovering the escalation date, Zammad "
@@ -2377,11 +2393,13 @@ msgstr ""
 "und\n"
 "weitere Details zu Eskalationen erhält"
 
-#: ../basics/service-ticket/follow-up.rst:150
-msgid "**🙅 I’m working here!**"
+#: ../basics/service-ticket/follow-up.rst:155
+#, fuzzy
+#| msgid "**🙅 I’m working here!**"
+msgid "**🙅 I'm working here!**"
 msgstr "**🙅 Ich arbeite hier!**"
 
-#: ../basics/service-ticket/follow-up.rst:152
+#: ../basics/service-ticket/follow-up.rst:157
 msgid ""
 "Every once in a while, two agents may have the same ticket open at the same "
 "time. When this happens, things can get messy fast: customers may receive "
@@ -2394,7 +2412,7 @@ msgstr ""
 "das gleiche Problem erhalten; oder Änderungen, die von einem Agenten gemacht "
 "wurden, können von dem anderen versehentlich widerrufen werden."
 
-#: ../basics/service-ticket/follow-up.rst:161
+#: ../basics/service-ticket/follow-up.rst:166
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the lower-lefthand corner for every agent that "
@@ -2404,7 +2422,7 @@ msgstr ""
 "Konflikte, indem in der unteren linken Ecke der Avatar jedes Agenten "
 "angezeigt wird, die dieses Ticket aktuell geöffnet haben."
 
-#: ../basics/service-ticket/follow-up.rst:166
+#: ../basics/service-ticket/follow-up.rst:171
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
@@ -2416,7 +2434,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr "Konfliktbenachrichtigung für Ticket"
 
-#: ../basics/service-ticket/follow-up.rst:173
+#: ../basics/service-ticket/follow-up.rst:178
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -3132,7 +3150,7 @@ msgstr "B"
 
 #: ../basics/zammad-glossary.rst:80
 msgid "Branding"
-msgstr "Branding (Markenzeichen)"
+msgstr "Branding"
 
 #: ../basics/zammad-glossary.rst:75
 msgid ""
@@ -4934,8 +4952,8 @@ msgstr ""
 "Genau wie die :doc:`Ticket Priorität</basics/service-ticket/settings/"
 "priority>`, kann der **VIP Status** nichts ohne weitere Einstellungen "
 "bewirken. Ein Admin *kann* automatisierte Systemkonfigurationen basierend "
-"auf diesem Wert einrichten oder dieses Attribut als Filter für "
-":doc:`Übersichten</basics/find-ticket/browse>` nutzen."
+"auf diesem Wert einrichten oder dieses Attribut als Filter für :doc:"
+"`Übersichten</basics/find-ticket/browse>` nutzen."
 
 #: ../extras/customers.rst:61
 msgid ""
