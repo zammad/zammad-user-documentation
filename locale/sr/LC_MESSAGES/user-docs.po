@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 10:39+0100\n"
-"PO-Revision-Date: 2023-10-28 07:18+0000\n"
+"POT-Creation-Date: 2023-11-09 13:15+0100\n"
+"PO-Revision-Date: 2023-11-15 13:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
@@ -2437,12 +2437,11 @@ msgstr "Кратак приказ тикета"
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
 "Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on the "
-"right."
+"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
 "Тикети су конверзације које се састоје од порука и напомена о проблему "
-"клијента. :doc:`⚙️ Управљајте подацима тикета <settings>` у **панелу тикета** "
-"са десне стране."
+"клијента. :doc:`⚙️ Управљајте подацима тикета <settings>` у **панелу тикета**"
+" са десне стране."
 
 #: ../basics/service-ticket/follow-up.rst:23
 msgid ""
@@ -2503,11 +2502,11 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:51
 msgid ""
-"This way, you can share correspondences with people who don’t have Zammad "
+"This way, you can share correspondences with people who don't have Zammad "
 "(like a third-party supplier)."
 msgstr ""
-"На овај начин можете да поделите преписку са људима који немају Zammad "
-"(попут вашег подизвођача)."
+"На овај начин можете да поделите преписку са људима који немају Zammad ("
+"попут вашег подизвођача)."
 
 #: ../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
@@ -2582,11 +2581,23 @@ msgstr ""
 "„Интерне“ поруке су истакнуте ишараном ивицом и **могу их видети само други "
 "оператери**."
 
-#: ../basics/service-ticket/follow-up.rst:102
+#: ../basics/service-ticket/follow-up.rst:99
+msgid ""
+"What about the **deletion of articles**? In Zammad, you can only delete "
+"articles that you have created yourself and which are not older than 10 "
+"minutes. To see the \"delete\" button in articles of the type \"communication"
+"\" (emails, calls), their visibility has to be switched to internal first."
+msgstr ""
+"А шта са **брисањем чланака**? У Zammad-у, можете обрисати само чланке које "
+"сте додали сами и који нису старији од 10 минута. Да бисте видели дугме за "
+"„брисање” чланака типа „комуникације” (имејлови, позиви), њихова видљивост "
+"мора да буде само интерна."
+
+#: ../basics/service-ticket/follow-up.rst:107
 msgid "Using quotation"
 msgstr "Цитирање"
 
-#: ../basics/service-ticket/follow-up.rst:104
+#: ../basics/service-ticket/follow-up.rst:109
 msgid ""
 "In many cases you'll want to quote earlier text of your customer. This is "
 "important because especially on long conversations your opponent will easily "
@@ -2596,7 +2607,7 @@ msgstr ""
 "Ово је важно јер ће ваш противник лако изгубити нит, посебно у дугим "
 "разговорима."
 
-#: ../basics/service-ticket/follow-up.rst:108
+#: ../basics/service-ticket/follow-up.rst:113
 msgid ""
 "Referencing on earlier written text helps greatly to keep context and track "
 "of things. By default Zammad adds no whole quote body (this can be changed "
@@ -2606,7 +2617,7 @@ msgstr ""
 "и праћењу дешавања. Подразумевано, Zammad не додаје цело тело цитата (ваш "
 "администратор може да промени ово понашање)."
 
-#: ../basics/service-ticket/follow-up.rst:112
+#: ../basics/service-ticket/follow-up.rst:117
 msgid ""
 "No matter if the whole quotation is active or not, you can always mark the "
 "text you want to reference and press *reply* or *reply all* after. This will "
@@ -2618,7 +2629,7 @@ msgstr ""
 "*одговори свима*. Ово ће довести до тога да Zammad дода означени текст као "
 "цитат у уредник. Можете раставити цитате помоћу прореда."
 
-#: ../basics/service-ticket/follow-up.rst:119
+#: ../basics/service-ticket/follow-up.rst:124
 msgid ""
 "This function is limited to one article per operation. The article has to be "
 "of type *communication* (thus have a *reply* button) to function."
@@ -2627,25 +2638,25 @@ msgstr ""
 "типа *комуникација* (дакле да има дугме *одговори* испод себе) да би "
 "функција била доступна."
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
 "Снимак екрана који приказује текст који се означава и цитира након притиска "
 "на одговор"
 
-#: ../basics/service-ticket/follow-up.rst:127
+#: ../basics/service-ticket/follow-up.rst:132
 msgid "Mark, press reply and work with quoted text!"
 msgstr "Означи, притисни одговор и обради цитирани текст!"
 
-#: ../basics/service-ticket/follow-up.rst:130
+#: ../basics/service-ticket/follow-up.rst:135
 msgid "🔥 Keeping an eye on escalations"
 msgstr "🔥 Пазите на ескалације"
 
-#: ../basics/service-ticket/follow-up.rst:132
+#: ../basics/service-ticket/follow-up.rst:137
 msgid "**🧐 Huh? I can't see escalation timestamps!**"
 msgstr "**🧐 Хм? Не могу да видим временске ознаке ескалација!**"
 
-#: ../basics/service-ticket/follow-up.rst:134
+#: ../basics/service-ticket/follow-up.rst:139
 msgid ""
 "SLAs are optional and require configuration by your instance administrator. "
 "Administrators can learn more about SLAs :admin-docs:`in our admin "
@@ -2655,7 +2666,7 @@ msgstr ""
 "Администратори могу да сазнају више о SLA :admin-docs:у нашој "
 "администраторској документацији </manage/slas/index.html>`."
 
-#: ../basics/service-ticket/follow-up.rst:138
+#: ../basics/service-ticket/follow-up.rst:143
 msgid ""
 "On the top of every ticket being applicable for SLA escalations, you'll find "
 "two dates next to the ticket number. By hovering the escalation date, Zammad "
@@ -2674,11 +2685,11 @@ msgstr ""
 "ескалације и добија\n"
 "детаљније информације о ескалацији"
 
-#: ../basics/service-ticket/follow-up.rst:150
-msgid "**🙅 I’m working here!**"
-msgstr "**🙅 Радим овде!**"
+#: ../basics/service-ticket/follow-up.rst:155
+msgid "**🙅 I'm working here!**"
+msgstr "**🙅 Радимо пуном паром овде!**"
 
-#: ../basics/service-ticket/follow-up.rst:152
+#: ../basics/service-ticket/follow-up.rst:157
 msgid ""
 "Every once in a while, two agents may have the same ticket open at the same "
 "time. When this happens, things can get messy fast: customers may receive "
@@ -2690,7 +2701,7 @@ msgstr ""
 "могу добити опречне одговоре о истом питању од оба оператера; или промене "
 "које је направио један оператер може случајно да поништи други."
 
-#: ../basics/service-ticket/follow-up.rst:161
+#: ../basics/service-ticket/follow-up.rst:166
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the lower-lefthand corner for every agent that "
@@ -2700,7 +2711,7 @@ msgstr ""
 "потенцијалне сукобе тако што ће приказати аватар у доњем левом углу за "
 "сваког оператера који има отворени приказ тикета."
 
-#: ../basics/service-ticket/follow-up.rst:166
+#: ../basics/service-ticket/follow-up.rst:171
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
@@ -2712,7 +2723,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr "Упозорење о сукобу тикета"
 
-#: ../basics/service-ticket/follow-up.rst:173
+#: ../basics/service-ticket/follow-up.rst:178
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -5174,7 +5185,7 @@ msgstr ""
 
 #: ../extras/dashboard.rst:2
 msgid "Checking Your Stats"
-msgstr "Провера ваше статистика"
+msgstr "Преглед ваших статистика"
 
 #: ../extras/dashboard.rst:4
 msgid ""
@@ -7884,12 +7895,15 @@ msgstr ""
 msgid ""
 "`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
 msgstr ""
+"`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:17
 msgid ""
 "`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
 "Authy-apps/>`_"
 msgstr ""
+"`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
+"Authy-apps/>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:18
 msgid ""
@@ -7897,6 +7911,9 @@ msgid ""
 "billing/download-and-install-the-microsoft-authenticator-"
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
+"`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
