@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 13:15+0100\n"
-"PO-Revision-Date: 2023-11-10 02:10+0000\n"
+"PO-Revision-Date: 2023-11-23 13:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -504,8 +504,8 @@ msgstr "Makros"
 #: ../advanced/macros.rst:4
 msgid "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
 msgstr ""
-"Makros sind **🖱️ ein Klick-Abkürzungen** zum Hinterlegen von Änderungen an "
-"einem Ticket."
+"Makros sind **🖱️ ein-Klick-Aktionen** zum Anwenden von Änderungen an einem "
+"Ticket."
 
 #: ../advanced/macros.rst:6
 msgid ""
@@ -2506,11 +2506,6 @@ msgid "Ticket summary view"
 msgstr "Ticket-Zusammenfassung"
 
 #: ../basics/service-ticket/follow-up.rst:19
-#, fuzzy
-#| msgid ""
-#| "Tickets are threads of messages & notes about a customer service issue. :"
-#| "doc:`⚙️ Manage a ticket’s settings <settings>` in the **ticket pane** on "
-#| "the right."
 msgid ""
 "Tickets are threads of messages & notes about a customer service issue. :doc:"
 "`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
@@ -2577,16 +2572,12 @@ msgstr ""
 "(Anhänge werden automatisch eingebunden)."
 
 #: ../basics/service-ticket/follow-up.rst:51
-#, fuzzy
-#| msgid ""
-#| "This way, you can share correspondences with people who don’t have Zammad "
-#| "(like a third-party supplier)."
 msgid ""
 "This way, you can share correspondences with people who don't have Zammad "
 "(like a third-party supplier)."
 msgstr ""
 "Auf diese Weise können Nachrichten mit Personen ausgetauscht werden, die "
-"kein Zammad haben (wie z. B. ein Drittanbieter)."
+"kein Zammad haben (wie z.B. ein Drittanbieter)."
 
 #: ../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
@@ -2677,6 +2668,11 @@ msgid ""
 "minutes. To see the \"delete\" button in articles of the type \"communication"
 "\" (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
+"Wie sieht es mit dem **Löschen von Artikeln** aus? In Zammad können Sie nur "
+"Artikel löschen, die Sie selbst erstellt haben und die nicht älter als 10 "
+"Minuten sind. Um die Schaltfläche \"Löschen\" in Artikeln vom Typ "
+"\"Kommunikation\" (E-Mails, Anrufe) zu sehen, muss deren Sichtbarkeit "
+"zunächst auf intern umgestellt werden."
 
 #: ../basics/service-ticket/follow-up.rst:107
 msgid "Using quotation"
@@ -2773,8 +2769,6 @@ msgstr ""
 "weitere Details zu Eskalationen erhält"
 
 #: ../basics/service-ticket/follow-up.rst:155
-#, fuzzy
-#| msgid "**🙅 I’m working here!**"
 msgid "**🙅 I'm working here!**"
 msgstr "**🙅 Ich arbeite hier!**"
 
