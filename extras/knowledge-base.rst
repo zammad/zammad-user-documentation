@@ -159,8 +159,14 @@ reduce the information load for users that don't need the information.
 
 .. hint::
 
-   | Permissions of a parent category are inherited!
-   | Public answers are always available!
+   In general, permissions of a parent category are inherited! If you want to
+   grant edit permissions for a sub-category for a specific role for example,
+   set the upper level to "reader" and the desired sub-category to "editor".
+   The other way round is not possible (permissions can only be widened, not
+   restricted). If you can't select permissions in the table, this could be
+   the reason.
+
+   Be aware that public answers are always available!
 
 .. note:: **⚙️ Roles require knowledge base reader permission**
 
