@@ -13,9 +13,9 @@ account.
 First, make sure you have installed an authenticator app on your mobile device.
 Recommended apps are:
 
-* `Google Authenticator`_
-* `Authy`_
-* `Microsoft Authenticator`_
+* `Google Authenticator <https://support.google.com/accounts/answer/1066447>`_
+* `Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-Authy-apps/>`_
+* `Microsoft Authenticator <https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a>`_
 
 Next, open the authenticator app on your device and find a **Scan QR Code**
 action, or similar. Point your camera to the Zammad screen and scan the shown QR
@@ -35,7 +35,3 @@ account, and a 6-digit code will be displayed next to it together with a timer.
 
 Back in Zammad, enter the provided code to the **Security Code** field and click
 on **Set Up**.
-
-.. _`Google Authenticator`: https://support.google.com/accounts/answer/1066447
-.. _`Authy`: https://support.authy.com/hc/en-us/articles/115001945848-Installing-Authy-apps/
-.. _`Microsoft Authenticator`: https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a

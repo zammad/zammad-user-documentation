@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 14:24+0100\n"
+"POT-Creation-Date: 2023-11-09 13:15+0100\n"
 "PO-Revision-Date: 2023-11-23 13:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/de/>\n"
+"documentations/user-documentation-pre-release/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,29 +26,18 @@ msgstr "Tastenkombinationen für die Tastatur"
 #: ../advanced/keyboard-shortcuts.rst:6
 msgid ""
 "Zammad supports a wide array of keyboard shortcuts to expedite your workflow "
-"as an expert user."
+"as an expert user. But don't be afraid, you don't have to remember all of "
+"them."
 msgstr ""
 "Zammad unterstützt eine Vielzahl von Tastenkombinationen, um Ihren "
-"Arbeitsablauf als erfahrener Benutzer zu beschleunigen."
+"Arbeitsablauf als erfahrener Benutzer zu beschleunigen. Aber keine Angst, "
+"Sie müssen sich nicht alle merken."
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "Keyboard shortcut cheat sheet"
-msgstr "Spickzettel für Tastenkombinationen"
+#: ../advanced/keyboard-shortcuts.rst:9
+msgid "**🤓 Have a look here to find the keyboard shortcuts**"
+msgstr "**🤓 Siehe hier für Tastaturkürzel**"
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "The keyboard shortcut cheat sheet on Windows."
-msgstr "Der Spickzettel für Tastenkombinationen unter Windows."
-
-#: ../advanced/keyboard-shortcuts.rst:16 ../advanced/tabs.rst:25
-#: ../basics/find-ticket/browse.rst:27 ../basics/find-ticket/search.rst:33
-#: ../basics/service-ticket/create.rst:48
-#: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
-msgid "**🖱️ UI Protip**"
-msgstr "**🖱️Tipp für Profi-Benutzer**"
-
-#: ../advanced/keyboard-shortcuts.rst:18
+#: ../advanced/keyboard-shortcuts.rst:11
 msgid ""
 "Click on your avatar at the bottom of the main menu to access the **keyboard "
 "shortcuts cheat sheet**."
@@ -60,71 +49,453 @@ msgstr ""
 msgid "User submenu"
 msgstr "Benutzer Untermenü"
 
-#: ../advanced/keyboard-shortcuts.rst:26
+#: ../advanced/keyboard-shortcuts.rst:19
+msgid "Alternately, open it with one of the shortcuts below:"
+msgstr "Alternativ können Sie die Tastenkombinationen auch wie folgt aufrufen:"
+
+#: ../advanced/keyboard-shortcuts.rst:21
+msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
+msgstr "``ctrl`` + ``shift`` + ``h`` (unter Linux und Windows)"
+
+#: ../advanced/keyboard-shortcuts.rst:22
+msgid "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)"
+msgstr "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (unter macOS)"
+
+#: ../advanced/keyboard-shortcuts.rst:24
 msgid ""
-"Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
+"This will open an overview of available keyboard-shortcuts as in the "
+"following screenshot:"
 msgstr ""
-"Alternativ lassen sich die Tastenkombinationen auch über die folgenden "
-"Kombinationen (Kombinations-Ception!) aufrufen"
+"Das öffnet eine Übersicht der verfügbaren Tastaturkürzel, wie im folgenden "
+"Screenshot zu sehen:"
 
-#: ../advanced/keyboard-shortcuts.rst:29
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
-msgstr "``STRG`` + ``Shift`` + ``H`` (unter Windows)"
+#: ../advanced/keyboard-shortcuts.rst:32
+msgid "Keyboard shortcut cheat sheet"
+msgstr "Spickzettel für Tastenkombinationen"
 
-#: ../advanced/keyboard-shortcuts.rst:30
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
-msgstr "``STRG`` + ``Shift`` + ``H`` (unter Linux)"
-
-#: ../advanced/keyboard-shortcuts.rst:31
-msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
-msgstr "``CMD`` + ``STRG`` + ``Shift`` + ``H`` (unter macOS)"
-
-#: ../advanced/keyboard-shortcuts.rst:34
-msgid "Formatting Text"
-msgstr "Formatieren von Texten"
+#: ../advanced/keyboard-shortcuts.rst:32
+msgid "The keyboard shortcut cheat sheet."
+msgstr "Spickzettel für Tastenkombinationen."
 
 #: ../advanced/keyboard-shortcuts.rst:36
-msgid ""
-"Keyboard shortcuts can be used to apply rich-text formatting in one of two "
-"ways:"
+msgid "List of Available Keyboard Shortcuts"
+msgstr "Alle verfügbaren Tastaturkürzel"
+
+#: ../advanced/keyboard-shortcuts.rst:39
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+msgid "Key / key combination"
+msgstr "Taste / Tastenkombination"
+
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+msgid "Function"
+msgstr "Funktion"
+
+#: ../advanced/keyboard-shortcuts.rst:44
+msgid "``shift`` + ``ctrl`` + ``d``"
+msgstr "``shift`` + ``ctrl`` + ``d``"
+
+#: ../advanced/keyboard-shortcuts.rst:44
+msgid "Show dashboard"
+msgstr "Zeigt das Dashboard"
+
+#: ../advanced/keyboard-shortcuts.rst:45
+msgid "``shift`` + ``ctrl`` + ``o``"
+msgstr "``shift`` + ``ctrl`` + ``o``"
+
+#: ../advanced/keyboard-shortcuts.rst:45
+msgid "Show overviews"
+msgstr "Zeigt die Übersichten"
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "``shift`` + ``ctrl`` + ``s``"
+msgstr "``shift`` + ``ctrl`` + ``s``"
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "Trigger the search"
+msgstr "Suche aktivieren"
+
+#: ../advanced/keyboard-shortcuts.rst:47
+msgid "``shift`` + ``ctrl`` + ``a``"
+msgstr "``shift`` + ``ctrl`` + ``a``"
+
+#: ../advanced/keyboard-shortcuts.rst:47
+msgid "Open notifications"
+msgstr "Öffnet Benachrichtigungen"
+
+#: ../advanced/keyboard-shortcuts.rst:48
+msgid "``shift`` + ``ctrl`` + ``n``"
+msgstr "``shift`` + ``ctrl`` + ``n``"
+
+#: ../advanced/keyboard-shortcuts.rst:48 ../extras/mobile-view.rst:119
+msgid "Create a new ticket"
+msgstr "Erstellen eines neuen Tickets"
+
+#: ../advanced/keyboard-shortcuts.rst:49
+msgid "``shift`` + ``ctrl`` + ``e``"
+msgstr "``shift`` + ``ctrl`` + ``e``"
+
+#: ../advanced/keyboard-shortcuts.rst:49
+msgid "Log out"
+msgstr "Abmelden"
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "``shift`` + ``ctrl`` + ``h``"
+msgstr "``shift`` + ``ctrl`` + ``h``"
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "Show list of shortcuts"
+msgstr "Liste der Tastenkürzel anzeigen"
+
+#: ../advanced/keyboard-shortcuts.rst:51
+msgid "``shift`` + ``ctrl`` + ``w``"
+msgstr "``shift`` + ``ctrl`` + ``w``"
+
+#: ../advanced/keyboard-shortcuts.rst:51
+msgid "Close current tab"
+msgstr "Tab schließen"
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "``shift`` + ``ctrl`` + ``tab``"
+msgstr "``shift`` + ``ctrl`` + ``tab``"
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "Show next tab"
+msgstr "Nächsten Tab anzeigen"
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "``shift`` + ``ctrl`` + ``shift+tab``"
+msgstr "``shift`` + ``ctrl`` + ``shift+tab``"
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "Show previous tab"
+msgstr "Vorherigen Tab anzeigen"
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "``shift`` + ``ctrl`` + ``return``"
+msgstr "``shift`` + ``ctrl`` + ``return``"
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "Confirm/submit in dialogs"
+msgstr "Bestätigen/Absenden in Dialogen"
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "``↑`` / ``↓``"
+msgstr "``↑`` / ``↓``"
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "Move selection/cursor up and down"
+msgstr "Auswahl/Cursor nach oben und unten bewegen"
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "``←`` / ``→``"
+msgstr "``←`` / ``→``"
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "Move selection/cursor left and right"
+msgstr "Auswahl/Cursor nach links und rechts bewegen"
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "``enter``"
+msgstr "``enter``"
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "Select item / confirm"
+msgstr "Element auswählen / bestätigen"
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "``shift`` + ``ctrl`` + ``.``"
+msgstr "``shift`` + ``ctrl`` + ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "Copy current object number (e.g. ticket number)"
+msgstr "Aktuelle Objektnummer kopieren (z.B. Ticketnummer)"
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "``shift`` + ``ctrl`` + 2x ``.``"
+msgstr "``shift`` + ``ctrl`` + 2x ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "Add the title of the object to the number"
+msgstr "Den Titel des Objekts zur Nummer hinzufügen"
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "``shift`` + ``ctrl`` + 3x ``.``"
+msgstr "``shift`` + ``ctrl`` + 3x ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "Add the object link URL to the number and title"
+msgstr "Fügen Sie den Objekt-Link zur Nummer und zum Titel hinzu"
+
+#: ../advanced/keyboard-shortcuts.rst:65
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: ../advanced/keyboard-shortcuts.rst:66
+msgid "Note: you need to have admin permissions to use this."
 msgstr ""
-"Tastaturkürzel können verwendet werden, um die Rich-Text-Formatierung auf "
-"folgende zwei Arten anwenden zu können:"
+"Hinweis: Sie müssen über Administratorrechte verfügen, um diese Funktion "
+"nutzen zu können."
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "As-you-type"
-msgstr "Während des Tippens"
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "``shift`` + ``ctrl`` + ``t``"
+msgstr "``shift`` + ``ctrl`` + ``t``"
 
-#: ../advanced/keyboard-shortcuts.rst:40
-msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
-msgstr "Drücken Sie ``Cmd`` + ``I`` um in den Kursivmodus zu gelangen,"
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "Enable or disable the inline translation"
+msgstr "Aktivieren oder deaktivieren Sie die Inline-Übersetzung"
 
-#: ../advanced/keyboard-shortcuts.rst:41
+#: ../advanced/keyboard-shortcuts.rst:76 ../extras/profile-and-settings.rst:0
+msgid "Appearance"
+msgstr "Erscheinung"
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "``d``"
+msgstr "``d``"
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "Switch between dark and light mode"
+msgstr "Umschalten zwischen dunkler und heller Ansicht"
+
+#: ../advanced/keyboard-shortcuts.rst:85
+msgid "Tickets"
+msgstr "Tickets"
+
+#: ../advanced/keyboard-shortcuts.rst:90
+msgid "``shift`` + ``ctrl`` + ``m``"
+msgstr "``shift`` + ``ctrl`` + ``m``"
+
+#: ../advanced/keyboard-shortcuts.rst:90
+msgid "Create a new note article"
+msgstr "Erstellen eines neuen Notiz-Artikels"
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "``shift`` + ``ctrl`` + ``g``"
+msgstr "``shift`` + ``ctrl`` + ``g``"
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "Reply to the last article"
+msgstr "Auf letzen Artikel antworten"
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "``shift`` + ``ctrl`` + ``j``"
+msgstr "``shift`` + ``ctrl`` + ``j``"
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "Switch the visibility of the article between internal and public"
+msgstr ""
+"Schalten Sie die Sichtbarkeit des Artikels zwischen intern und öffentlich um"
+
+#: ../advanced/keyboard-shortcuts.rst:93
+msgid "``shift`` + ``ctrl`` + ``c``"
+msgstr "``shift`` + ``ctrl`` + ``c``"
+
+#: ../advanced/keyboard-shortcuts.rst:93
+msgid "Set state of the ticket to \"closed\""
+msgstr "Status des Tickets auf \"geschlossen\" setzen"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+msgid "``shift`` + ``ctrl`` + ``←`` / ``→``"
+msgstr "``shift`` + ``ctrl`` + ``←`` / ``→``"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+msgid "Navigate through article"
+msgstr "Navigation durch Artikel"
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "``::``"
+msgstr "``::``"
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "Insert text module (while composing an article)"
+msgstr "Textbaustein einfügen (beim Verfassen eines Artikels)"
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "``??``"
+msgstr "``??``"
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "Insert knowledge base article (while composing an article)"
+msgstr "Knowledge Base Artikel einfügen (beim Verfassen eines Artikels)"
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "``@@``"
+msgstr "``@@``"
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "Mention a user (while composing an article)"
+msgstr "Erwähnung eines Benutzers (beim Verfassen eines Artikels)"
+
+#: ../advanced/keyboard-shortcuts.rst:101
+msgid "Text Editing"
+msgstr "Textbearbeitung"
+
+#: ../advanced/keyboard-shortcuts.rst:104
+msgid "You can apply a text format *before* typing or *after* typing. Example:"
+msgstr ""
+"Sie können ein Textformat *vor* der Eingabe oder *nach* der Eingabe "
+"anwenden. Beispiel:"
+
+#: ../advanced/keyboard-shortcuts.rst:106
+msgid "Before typing:"
+msgstr "Vor dem Tippen:"
+
+#: ../advanced/keyboard-shortcuts.rst:108
+msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
+msgstr "Drücken Sie ``cmd`` + ``i``, um *kursiv* zu schreiben,"
+
+#: ../advanced/keyboard-shortcuts.rst:109
 msgid "enter your desired text, and"
 msgstr "geben Sie den gewünschten Text ein und"
 
-#: ../advanced/keyboard-shortcuts.rst:42
-msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
+#: ../advanced/keyboard-shortcuts.rst:110
+msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgstr ""
-"drücken Sie erneut ``Cmd`` + ``I``, um zum normalen Textmodus zurückzukehren."
+"drücken Sie erneut ``cmd`` + ``i``, um zum normalen Textmodus zurückzukehren."
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "All-at-once"
-msgstr "Alles auf einmal"
+#: ../advanced/keyboard-shortcuts.rst:112
+msgid "After typing:"
+msgstr "Nach dem Tippen:"
 
-#: ../advanced/keyboard-shortcuts.rst:46
+#: ../advanced/keyboard-shortcuts.rst:114
 msgid "Enter your desired text,"
 msgstr "Geben Sie den gewünschten Text ein,"
 
-#: ../advanced/keyboard-shortcuts.rst:47
+#: ../advanced/keyboard-shortcuts.rst:115
 msgid "click-and-drag with the mouse to select it, and"
 msgstr ""
 "klicken und ziehen Sie mit gedrückter Maus über den Text, um diesen "
 "auszuwählen und"
 
-#: ../advanced/keyboard-shortcuts.rst:48
-msgid "press ``Cmd`` + ``I`` to italicize."
-msgstr "drücken Sie ``Cmd`` + ``I`` , um den Text in kursiv zu ändern."
+#: ../advanced/keyboard-shortcuts.rst:116
+msgid "press ``cmd`` + ``i`` to set the text in *italics*."
+msgstr "drücken Sie ``cmd`` + ``i`` , um den Text in *kursiv* zu setzen."
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "``ctrl`` + ``u``"
+msgstr "``ctrl`` + ``u``"
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "Format text underlined"
+msgstr "Formatieren als unterstrichen"
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "``ctrl`` + ``b``"
+msgstr "``ctrl`` + ``b``"
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "Format text in **bold**"
+msgstr "Text in **fett** formatieren"
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "``ctrl`` + ``i``"
+msgstr "``ctrl`` + ``i``"
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "Format text in *italics*"
+msgstr "Text in *Kursivschrift* formatieren"
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "``ctrl`` + ``s``"
+msgstr "``ctrl`` + ``s``"
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
+msgstr "Text formatieren als d̶u̶r̶c̶h̶g̶e̶s̶t̶r̶i̶c̶h̶e̶n̶"
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "``ctrl`` + ``v``"
+msgstr "``ctrl`` + ``v``"
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "Paste text from clipboard"
+msgstr "Text aus der Zwischenablage einfügen"
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "``ctrl`` + ``shift`` + ``v``"
+msgstr "``ctrl`` + ``shift`` + ``v``"
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "Paste text from clipboard (as plain text)"
+msgstr "Text aus der Zwischenablage einfügen (als reinen Text)"
+
+#: ../advanced/keyboard-shortcuts.rst:128
+msgid "``shift`` + ``ctrl`` + ``f``"
+msgstr "``shift`` + ``ctrl`` + ``f``"
+
+#: ../advanced/keyboard-shortcuts.rst:128
+msgid "Remove formatting of text"
+msgstr "Formatierung von Text entfernen"
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "``shift`` + ``ctrl`` + ``y``"
+msgstr "``shift`` + ``ctrl`` + ``y``"
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "Remove formatting of the whole text"
+msgstr "Formatierung des gesamten Textes entfernen"
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "``shift`` + ``ctrl`` + ``z``"
+msgstr "``shift`` + ``ctrl`` + ``z``"
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "Insert a horizontal line"
+msgstr "Einfügen einer horizontalen Linie"
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "``shift`` + ``ctrl`` + ``l``"
+msgstr "``shift`` + ``ctrl`` + ``l``"
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "Format as unordered list"
+msgstr "Formatieren als unsortierte Liste"
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "``shift`` + ``ctrl`` + ``k``"
+msgstr "``shift`` + ``ctrl`` + ``k``"
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "Format as ordered list"
+msgstr "Formatieren als sortierte Liste"
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "``shift`` + ``ctrl`` + ``1``"
+msgstr "``shift`` + ``ctrl`` + ``1``"
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "Format as h1 heading"
+msgstr "Formatieren als h1 Überschrift"
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "``shift`` + ``ctrl`` + ``2``"
+msgstr "``shift`` + ``ctrl`` + ``2``"
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "Format as h2 heading"
+msgstr "Formatieren als h2-Überschrift"
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "``shift`` + ``ctrl`` + ``3``"
+msgstr "``shift`` + ``ctrl`` + ``3``"
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "Format as h3 heading"
+msgstr "Formatieren als h3-Überschrift"
+
+#: ../advanced/keyboard-shortcuts.rst:136
+msgid "``shift`` + ``ctrl`` + ``x``"
+msgstr "``shift`` + ``ctrl`` + ``x``"
+
+#: ../advanced/keyboard-shortcuts.rst:136
+msgid "Remove any hyperlink"
+msgstr "Entfernen von Hyperlinks"
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -1063,6 +1434,14 @@ msgstr "Organisationen"
 #: ../advanced/tabs.rst:23
 msgid "Omnisearch"
 msgstr "Suchanfragen"
+
+#: ../advanced/tabs.rst:25 ../basics/find-ticket/browse.rst:27
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../snippets/ui-protip-message-editor-features.rst:1
+#: ../basics/service-ticket/follow-up.rst:55
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
+msgid "**🖱️ UI Protip**"
+msgstr "**🖱️Tipp für Profi-Benutzer**"
 
 #: ../advanced/tabs.rst:27 ../basics/find-ticket/browse.rst:31
 msgid ""
@@ -5998,10 +6377,6 @@ msgstr "Verwalten und nutzen Sie Ihre Ticket-Übersichten"
 msgid "Search for existing records"
 msgstr "Suche nach existierenden Einträgen"
 
-#: ../extras/mobile-view.rst:119
-msgid "Create a new ticket"
-msgstr "Erstellen eines neuen Tickets"
-
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
 msgstr "Antworten in einem existierenden Ticket"
@@ -6361,10 +6736,6 @@ msgstr ""
 #: ../extras/profile-and-settings.rst:57
 msgid "Profile Settings"
 msgstr "Profil Einstellungen"
-
-#: ../extras/profile-and-settings.rst:0
-msgid "Appearance"
-msgstr "Erscheinung"
 
 #: ../extras/profile-and-settings.rst:79
 msgid "Theme"
@@ -7763,16 +8134,28 @@ msgstr ""
 "Ihrem Mobilgerät installiert haben. Empfohlene Apps sind:"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:16
-msgid "`Google Authenticator`_"
-msgstr "`Google Authenticator`_"
+msgid ""
+"`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
+msgstr ""
+"`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:17
-msgid "`Authy`_"
-msgstr "`Authy`_"
+msgid ""
+"`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
+"Authy-apps/>`_"
+msgstr ""
+"`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
+"Authy-apps/>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:18
-msgid "`Microsoft Authenticator`_"
-msgstr "`Microsoft Authenticator`_"
+msgid ""
+"`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
+msgstr ""
+"`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -8059,6 +8442,31 @@ msgstr ""
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
 
+#~ msgid "`Google Authenticator`_"
+#~ msgstr "`Google Authenticator`_"
+
+#~ msgid "`Authy`_"
+#~ msgstr "`Authy`_"
+
+#~ msgid "`Microsoft Authenticator`_"
+#~ msgstr "`Microsoft Authenticator`_"
+
+#~ msgid "The keyboard shortcut cheat sheet on Windows."
+#~ msgstr "Der Spickzettel für Tastenkombinationen unter Windows."
+
+#~ msgid ""
+#~ "Keyboard shortcuts can be used to apply rich-text formatting in one of "
+#~ "two ways:"
+#~ msgstr ""
+#~ "Tastaturkürzel können verwendet werden, um die Rich-Text-Formatierung auf "
+#~ "folgende zwei Arten anwenden zu können:"
+
+#~ msgid "As-you-type"
+#~ msgstr "Während des Tippens"
+
+#~ msgid "All-at-once"
+#~ msgstr "Alles auf einmal"
+
 #~ msgid "`service-level agreements`_,"
 #~ msgstr "`Service-Level Vereinbarung`_,"
 
@@ -8182,3 +8590,187 @@ msgstr ""
 
 #~ msgid "**5. Your Tickets in Process**"
 #~ msgstr "**5. Ihre Tickets in Bearbeitung**"
+
+#~ msgid "Time accounting dialog"
+#~ msgstr "Zeiterfassungs-Dialog"
+
+#~ msgid ""
+#~ "If time accounting is enabled, this dialog will appear each time you "
+#~ "update a ticket. Enter how much time you spent on it (in minutes, or "
+#~ "whichever unit of time all your other colleagues are using)."
+#~ msgstr ""
+#~ "Wenn die Zeiterfassung aktiviert ist, poppt ein Fenster bei jeder "
+#~ "Aktualisierung eines Tickets auf. Geben Sie an, wie viel Zeit Sie dafür "
+#~ "benötigt haben (in Minuten oder in der Zeiteinheit, die Sie und Ihre "
+#~ "Kollegen verwenden)."
+
+#~ msgid ""
+#~ "This feature is **optional**; if you don’t see it whenever you update a "
+#~ "ticket, that means your administrator hasn’t enabled it yet. "
+#~ "Administrators can learn more `here <https://admin-docs.zammad.org/en/"
+#~ "latest/manage-time-accounting.html>`_."
+#~ msgstr ""
+#~ "Diese Funktion ist **optional**; wenn Sie diese nicht sehen, sobald Sie "
+#~ "ein Ticket aktualisieren, bedeutet das, dass Ihr Administrator sie noch "
+#~ "nicht aktiviert hat. Administratoren können `hier <https://admin-docs."
+#~ "zammad.org/en/latest/manage-time-accounting.html>`_ mehr erfahren."
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Change your login password (may be disabled by system admin)."
+#~ msgstr ""
+#~ "Ändern Sie Ihr Anmeldekennwort (dieser Punkt kann vom Systemadministrator "
+#~ "deaktiviert worden sein)."
+
+#~ msgid "Zammad supports S/MIME for high-security email communication."
+#~ msgstr ""
+#~ "Zammad unterstützt S/MIME für besonders sichere E-Mail Kommunikation."
+
+#~ msgid ""
+#~ "**🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...**"
+#~ msgstr ""
+#~ "**🤔 Hm? Ich sehe keine “Signieren” oder “Verschlüsseln” -Schaltflächen "
+#~ "in der Ticket-Ansicht...**"
+
+#~ msgid ""
+#~ "S/MIME is the most widely-supported method for secure email "
+#~ "communication. With S/MIME, you can exchange **signed** and **encrypted** "
+#~ "messages with others."
+#~ msgstr ""
+#~ "S/MIME ist die am weitesten verbreitete Methode für sichere E-Mail-"
+#~ "Kommunikation. Mit S/MIME können Sie **signierte** und **verschlüsselte** "
+#~ "Nachrichten mit anderen austauschen."
+
+#~ msgid ""
+#~ "is proof that a message hasn’t been tampered with or sent by an "
+#~ "impersonator."
+#~ msgstr ""
+#~ "ist der Beweis, dass eine Nachricht nicht manipuliert oder von einem "
+#~ "Unbekannten gesendet wurde."
+
+#~ msgid ""
+#~ "In other words, it guarantees a message’s **integrity** and "
+#~ "**authenticity**."
+#~ msgstr ""
+#~ "Mit anderen Worten, es garantiert die **Integrität** und "
+#~ "**Authentizität** einer Nachricht."
+
+#~ msgid "In other words, it guarantees **privacy** and **data security**."
+#~ msgstr ""
+#~ "Mit anderen Worten, es garantiert **Privatsphäre** und "
+#~ "**Datensicherheit**."
+
+#~ msgid "🤝 **S/MIME only works if the other party is using it, too.**"
+#~ msgstr "🤝 **S/MIME funktioniert nur, wenn das Gegenüber es auch benutzt.**"
+
+#~ msgid ""
+#~ "Your administrator is responsible for adding all the necessary "
+#~ "certificates in Zammad’s admin panel."
+#~ msgstr ""
+#~ "Ihr Administrator ist für das Hinzufügen aller erforderlichen Zertifikate "
+#~ "in Zammads Admin-Oberfläche verantwortlich."
+
+#~ msgid ""
+#~ "The 🔒 and ✅ icons at the top of a message indicate its S/MIME status."
+#~ msgstr ""
+#~ "Die Symbole 🔒 und ✅ am oberen Rand einer Nachricht zeigen ihren S/MIME "
+#~ "Status an."
+
+#~ msgid ""
+#~ "Click on an incoming message to expand its details. Hover over the "
+#~ "security status to show a certificate/CA summary."
+#~ msgstr ""
+#~ "Klicken Sie auf eine eingehende Nachricht, um ihre Details sichtbar zu "
+#~ "machen. Fahren Sie mit der Maus über den Sicherheitsstatus, um eine "
+#~ "Zusammenfassung des Zertifikates/CA zu sehen."
+
+#~ msgid ""
+#~ "Even if it was intercepted by a third party (hacker, gov’t agency, etc.), "
+#~ "they won’t be able to read it."
+#~ msgstr ""
+#~ "Selbst wenn sie von einer dritten Partei (Hacker, Regierungsbehörde usw.) "
+#~ "abgefangen würde, würden diese sie nicht lesen können."
+
+#~ msgid "This message is **not encrypted**."
+#~ msgstr "Diese Nachricht ist **nicht verschlüsselt**."
+
+#~ msgid "This message’s signature has been **successfully verified**."
+#~ msgstr "Die Signatur dieser Nachricht wurde **erfolgreich verifiziert**."
+
+#~ msgid ""
+#~ "You can be confident that it’s authentic and that the contents have not "
+#~ "been modified."
+#~ msgstr ""
+#~ "Sie können sicher sein, dass dies authentisch ist und dass der Inhalt "
+#~ "nicht verändert wurde."
+
+#~ msgid ""
+#~ "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets "
+#~ "and replies. Hover over the buttons to show a certificate/CA summary."
+#~ msgstr ""
+#~ "🔒 **Verschlüsseln** und ✅ **Signieren** sind sowohl bei neuen Tickets, "
+#~ "als auch Antworten auf Tickets vorhanden. Fahren Sie mit der Maus über "
+#~ "die Schaltflächen, um ein Zertifikat/eine CA-Zusammenfassung anzuzeigen."
+
+#~ msgid ""
+#~ "Recipients using S/MIME can verify that it came from you and that the "
+#~ "contents have not been modified."
+#~ msgstr ""
+#~ "Empfänger, die S/MIME verwenden, können bestätigen, dass sie von Ihnen "
+#~ "stammt und dass der Inhalt nicht verändert wurde."
+
+#~ msgid ""
+#~ "Without the sender’s certificate, Zammad cannot verify the message "
+#~ "signature."
+#~ msgstr ""
+#~ "Ohne das Zertifikat des Absenders kann Zammad die Signatur der Nachricht "
+#~ "nicht überprüfen."
+
+#~ msgid ""
+#~ "Ask your administrator to add the sender’s certificate to Zammad’s "
+#~ "certificate store."
+#~ msgstr ""
+#~ "Bitten Sie Ihren Administrator, das Zertifikat des Absenders zu Zammads "
+#~ "Zertifikatsspeicher hinzuzufügen."
+
+#~ msgid ""
+#~ "The whole point of signature verification is to alert you when someone is "
+#~ "trying to pretend to be someone they’re not. Never accept a certificate "
+#~ "from someone online without verifying it first."
+#~ msgstr ""
+#~ "Der ganze Sinn der Signaturprüfung besteht darin, Sie zu warnen, wenn "
+#~ "jemand versucht, sich als jemand auszugeben, der er nicht ist. "
+#~ "Akzeptieren Sie niemals ein Zertifikat von jemandem online, ohne es "
+#~ "vorher zu verifizieren."
+
+#~ msgid ""
+#~ "Ask your administrator to verify your organization’s private key in "
+#~ "Zammad’s certificate store, and ask the sender to double-check the public "
+#~ "key they used to encrypt the message."
+#~ msgstr ""
+#~ "Bitten Sie Ihren Administrator, den privaten Schlüssel Ihrer Organisation "
+#~ "im Zertifikatsspeicher von Zammad zu verifizieren, und bitten Sie den "
+#~ "Absender, den öffentlichen Schlüssel, den er zur Verschlüsselung der "
+#~ "Nachricht verwendet hat, doppelt zu überprüfen."
+
+#~ msgid ""
+#~ "(But if they’re smart, they’ll take extra precautions to make sure it "
+#~ "really belongs to you.)"
+#~ msgstr ""
+#~ "(Aber wenn sie klug sind, treffen sie zusätzliche Vorkehrungen um sicher "
+#~ "zu stellen, dass er wirklich Ihnen gehört.)"
+
+#~ msgid ""
+#~ "Ask your administrator to add the recipient’s certificate to Zammad’s "
+#~ "certificate store."
+#~ msgstr ""
+#~ "Bitten Sie Ihren Administrator, das Zertifikat des Empfängers dem "
+#~ "Zertifikatsspeicher von Zammad hinzuzufügen."
+
+#~ msgid ""
+#~ "Ask your administrator to verify your organization’s private key in "
+#~ "Zammad’s certificate store."
+#~ msgstr ""
+#~ "Bitten Sie Ihren Administrator, den privaten Schlüssel Ihrer Organisation "
+#~ "im Zertifikatsspeicher von Zammad zu überprüfen."

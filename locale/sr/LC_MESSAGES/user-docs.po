@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-25 14:24+0100\n"
-"PO-Revision-Date: 2023-11-21 15:00+0000\n"
+"POT-Creation-Date: 2023-11-09 13:15+0100\n"
+"PO-Revision-Date: 2023-11-21 11:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/sr/>\n"
+"documentations/user-documentation-pre-release/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,29 +27,17 @@ msgstr "Пречице на тастатури"
 #: ../advanced/keyboard-shortcuts.rst:6
 msgid ""
 "Zammad supports a wide array of keyboard shortcuts to expedite your workflow "
-"as an expert user."
+"as an expert user. But don't be afraid, you don't have to remember all of "
+"them."
 msgstr ""
 "Zammad подржава широк спектар пречица на тастатури за убрзавање вашег радног "
-"тока као стручног корисника."
+"тока као стручног корисника. Али не брините, не морате да их памтите све."
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "Keyboard shortcut cheat sheet"
-msgstr "Листа пречица на тастатури"
+#: ../advanced/keyboard-shortcuts.rst:9
+msgid "**🤓 Have a look here to find the keyboard shortcuts**"
+msgstr "**🤓 Погледајте овде како да пронађете листу пречица**"
 
-#: ../advanced/keyboard-shortcuts.rst:14
-msgid "The keyboard shortcut cheat sheet on Windows."
-msgstr "Листа пречица на тастатури за Windows."
-
-#: ../advanced/keyboard-shortcuts.rst:16 ../advanced/tabs.rst:25
-#: ../basics/find-ticket/browse.rst:27 ../basics/find-ticket/search.rst:33
-#: ../basics/service-ticket/create.rst:48
-#: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/follow-up.rst:55
-#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
-msgid "**🖱️ UI Protip**"
-msgstr "**🖱️ Мали савет**"
-
-#: ../advanced/keyboard-shortcuts.rst:18
+#: ../advanced/keyboard-shortcuts.rst:11
 msgid ""
 "Click on your avatar at the bottom of the main menu to access the **keyboard "
 "shortcuts cheat sheet**."
@@ -61,67 +49,446 @@ msgstr ""
 msgid "User submenu"
 msgstr "Кориснички подмени"
 
-#: ../advanced/keyboard-shortcuts.rst:26
+#: ../advanced/keyboard-shortcuts.rst:19
+msgid "Alternately, open it with one of the shortcuts below:"
+msgstr "Алтернативно, отворите га једном од пречица испод:"
+
+#: ../advanced/keyboard-shortcuts.rst:21
+msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
+msgstr "``ctrl`` + ``shift`` + ``h`` (на Linux-у и Windows-у)"
+
+#: ../advanced/keyboard-shortcuts.rst:22
+msgid "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)"
+msgstr "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (на macOS-y)"
+
+#: ../advanced/keyboard-shortcuts.rst:24
 msgid ""
-"Alternately, bring it up with one of the shortcuts below (shortcut-ception!)"
-msgstr "Алтернативно, позовите га једном од пречица испод (shortcut-ception!)"
+"This will open an overview of available keyboard-shortcuts as in the "
+"following screenshot:"
+msgstr "Отвара преглед доступних пречица на тастатури као следећој слици:"
 
-#: ../advanced/keyboard-shortcuts.rst:29
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Windows)"
-msgstr "``Ctrl`` + ``Shift`` + ``H`` (на Windows-у)"
+#: ../advanced/keyboard-shortcuts.rst:32
+msgid "Keyboard shortcut cheat sheet"
+msgstr "Листа пречица на тастатури"
 
-#: ../advanced/keyboard-shortcuts.rst:30
-msgid "``Ctrl`` + ``Shift`` + ``H`` (on Linux)"
-msgstr "``Ctrl`` + ``Shift`` + ``H`` (на Linux-у)"
-
-#: ../advanced/keyboard-shortcuts.rst:31
-msgid "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (on macOS)"
-msgstr "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (на macOS-y)"
-
-#: ../advanced/keyboard-shortcuts.rst:34
-msgid "Formatting Text"
-msgstr "Форматирање текста"
+#: ../advanced/keyboard-shortcuts.rst:32
+msgid "The keyboard shortcut cheat sheet."
+msgstr "Листа пречица на тастатури."
 
 #: ../advanced/keyboard-shortcuts.rst:36
-msgid ""
-"Keyboard shortcuts can be used to apply rich-text formatting in one of two "
-"ways:"
+msgid "List of Available Keyboard Shortcuts"
+msgstr "Листа доступних пречице на тастатури"
+
+#: ../advanced/keyboard-shortcuts.rst:39
+msgid "Navigation"
+msgstr "Навигација"
+
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+msgid "Key / key combination"
+msgstr "Тастер / комбинација тастера"
+
+#: ../advanced/keyboard-shortcuts.rst:42 ../advanced/keyboard-shortcuts.rst:69
+#: ../advanced/keyboard-shortcuts.rst:79 ../advanced/keyboard-shortcuts.rst:88
+#: ../advanced/keyboard-shortcuts.rst:120
+msgid "Function"
+msgstr "Функција"
+
+#: ../advanced/keyboard-shortcuts.rst:44
+msgid "``shift`` + ``ctrl`` + ``d``"
+msgstr "``shift`` + ``ctrl`` + ``d``"
+
+#: ../advanced/keyboard-shortcuts.rst:44
+msgid "Show dashboard"
+msgstr "Прикажи контролну таблу"
+
+#: ../advanced/keyboard-shortcuts.rst:45
+msgid "``shift`` + ``ctrl`` + ``o``"
+msgstr "``shift`` + ``ctrl`` + ``o``"
+
+#: ../advanced/keyboard-shortcuts.rst:45
+msgid "Show overviews"
+msgstr "Прикажи прегледе"
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "``shift`` + ``ctrl`` + ``s``"
+msgstr "``shift`` + ``ctrl`` + ``s``"
+
+#: ../advanced/keyboard-shortcuts.rst:46
+msgid "Trigger the search"
+msgstr "Започни претрагу"
+
+#: ../advanced/keyboard-shortcuts.rst:47
+msgid "``shift`` + ``ctrl`` + ``a``"
+msgstr "``shift`` + ``ctrl`` + ``a``"
+
+#: ../advanced/keyboard-shortcuts.rst:47
+msgid "Open notifications"
+msgstr "Отвори обавештења"
+
+#: ../advanced/keyboard-shortcuts.rst:48
+msgid "``shift`` + ``ctrl`` + ``n``"
+msgstr "``shift`` + ``ctrl`` + ``n``"
+
+#: ../advanced/keyboard-shortcuts.rst:48 ../extras/mobile-view.rst:119
+msgid "Create a new ticket"
+msgstr "Отворите нови тикет"
+
+#: ../advanced/keyboard-shortcuts.rst:49
+msgid "``shift`` + ``ctrl`` + ``e``"
+msgstr "``shift`` + ``ctrl`` + ``e``"
+
+#: ../advanced/keyboard-shortcuts.rst:49
+msgid "Log out"
+msgstr "Одјави се"
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "``shift`` + ``ctrl`` + ``h``"
+msgstr "``shift`` + ``ctrl`` + ``h``"
+
+#: ../advanced/keyboard-shortcuts.rst:50
+msgid "Show list of shortcuts"
+msgstr "Прикажи листу пречица"
+
+#: ../advanced/keyboard-shortcuts.rst:51
+msgid "``shift`` + ``ctrl`` + ``w``"
+msgstr "``shift`` + ``ctrl`` + ``w``"
+
+#: ../advanced/keyboard-shortcuts.rst:51
+msgid "Close current tab"
+msgstr "Затвори тренутни прозор"
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "``shift`` + ``ctrl`` + ``tab``"
+msgstr "``shift`` + ``ctrl`` + ``tab``"
+
+#: ../advanced/keyboard-shortcuts.rst:52
+msgid "Show next tab"
+msgstr "Прикажи следећи прозор"
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "``shift`` + ``ctrl`` + ``shift+tab``"
+msgstr "``shift`` + ``ctrl`` + ``shift+tab``"
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "Show previous tab"
+msgstr "Прикажи претходни прозор"
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "``shift`` + ``ctrl`` + ``return``"
+msgstr "``shift`` + ``ctrl`` + ``return``"
+
+#: ../advanced/keyboard-shortcuts.rst:54
+msgid "Confirm/submit in dialogs"
+msgstr "Потврди/сачувај дијалог"
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "``↑`` / ``↓``"
+msgstr "``↑`` / ``↓``"
+
+#: ../advanced/keyboard-shortcuts.rst:55
+msgid "Move selection/cursor up and down"
+msgstr "Помери селекцију/курсор на горе и доле"
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "``←`` / ``→``"
+msgstr "``←`` / ``→``"
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "Move selection/cursor left and right"
+msgstr "Помери селекцију/курсор на лево и десно"
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "``enter``"
+msgstr "``enter``"
+
+#: ../advanced/keyboard-shortcuts.rst:57
+msgid "Select item / confirm"
+msgstr "Одабери опцију / потврди"
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "``shift`` + ``ctrl`` + ``.``"
+msgstr "``shift`` + ``ctrl`` + ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:58
+msgid "Copy current object number (e.g. ticket number)"
+msgstr "Копирај број тренутног објекта (нпр. број тикета)"
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "``shift`` + ``ctrl`` + 2x ``.``"
+msgstr "``shift`` + ``ctrl`` + 2x ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:59
+msgid "Add the title of the object to the number"
+msgstr "Додај наслов објекта броју"
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "``shift`` + ``ctrl`` + 3x ``.``"
+msgstr "``shift`` + ``ctrl`` + 3x ``.``"
+
+#: ../advanced/keyboard-shortcuts.rst:60
+msgid "Add the object link URL to the number and title"
+msgstr "Додај URL путању објекта броју и наслову"
+
+#: ../advanced/keyboard-shortcuts.rst:65
+msgid "Translations"
+msgstr "Преводи"
+
+#: ../advanced/keyboard-shortcuts.rst:66
+msgid "Note: you need to have admin permissions to use this."
 msgstr ""
-"Пречице на тастатури се могу користити за примену форматирања текста на "
-"један од два начина:"
+"Напомена: неопходна вам је администраторска дозвола за коришћење ове "
+"функције."
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "As-you-type"
-msgstr "Док куцате"
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "``shift`` + ``ctrl`` + ``t``"
+msgstr "``shift`` + ``ctrl`` + ``t``"
 
-#: ../advanced/keyboard-shortcuts.rst:40
-msgid "Press ``Cmd`` + ``I`` to enter Italics mode,"
-msgstr "Притисните ``Cmd`` + ``I`` за режим курзива,"
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid "Enable or disable the inline translation"
+msgstr "Укључи или искључи непосредне преводе"
 
-#: ../advanced/keyboard-shortcuts.rst:41
+#: ../advanced/keyboard-shortcuts.rst:76 ../extras/profile-and-settings.rst:0
+msgid "Appearance"
+msgstr "Изглед"
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "``d``"
+msgstr "``d``"
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "Switch between dark and light mode"
+msgstr "Пребаци између тамног и светлог изгледа"
+
+#: ../advanced/keyboard-shortcuts.rst:85
+msgid "Tickets"
+msgstr "Тикети"
+
+#: ../advanced/keyboard-shortcuts.rst:90
+msgid "``shift`` + ``ctrl`` + ``m``"
+msgstr "``shift`` + ``ctrl`` + ``m``"
+
+#: ../advanced/keyboard-shortcuts.rst:90
+msgid "Create a new note article"
+msgstr "Отвори нови тикет са напоменом"
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "``shift`` + ``ctrl`` + ``g``"
+msgstr "``shift`` + ``ctrl`` + ``g``"
+
+#: ../advanced/keyboard-shortcuts.rst:91
+msgid "Reply to the last article"
+msgstr "Одговори на последњи чланак"
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "``shift`` + ``ctrl`` + ``j``"
+msgstr "``shift`` + ``ctrl`` + ``j``"
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "Switch the visibility of the article between internal and public"
+msgstr "Пребаци видљивост чланка између интерног и јавног"
+
+#: ../advanced/keyboard-shortcuts.rst:93
+msgid "``shift`` + ``ctrl`` + ``c``"
+msgstr "``shift`` + ``ctrl`` + ``c``"
+
+#: ../advanced/keyboard-shortcuts.rst:93
+msgid "Set state of the ticket to \"closed\""
+msgstr "Постави стање тикета на „затворено”"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+msgid "``shift`` + ``ctrl`` + ``←`` / ``→``"
+msgstr "``shift`` + ``ctrl`` + ``←`` / ``→``"
+
+#: ../advanced/keyboard-shortcuts.rst:94
+msgid "Navigate through article"
+msgstr "Навигација кроз чланак"
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "``::``"
+msgstr "``::``"
+
+#: ../advanced/keyboard-shortcuts.rst:95
+msgid "Insert text module (while composing an article)"
+msgstr "Додај текстуални исечак (приликом писања чланка)"
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "``??``"
+msgstr "``??``"
+
+#: ../advanced/keyboard-shortcuts.rst:96
+msgid "Insert knowledge base article (while composing an article)"
+msgstr "Додај чланак базе знања (приликом писања чланка тикета)"
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "``@@``"
+msgstr "``@@``"
+
+#: ../advanced/keyboard-shortcuts.rst:97
+msgid "Mention a user (while composing an article)"
+msgstr "Помени корисника (приликом писања чланка)"
+
+#: ../advanced/keyboard-shortcuts.rst:101
+msgid "Text Editing"
+msgstr "Уређивање текста"
+
+#: ../advanced/keyboard-shortcuts.rst:104
+msgid "You can apply a text format *before* typing or *after* typing. Example:"
+msgstr "Можете применити режим текста *пре* и *после* уноса. Нпр:"
+
+#: ../advanced/keyboard-shortcuts.rst:106
+msgid "Before typing:"
+msgstr "Пре уноса:"
+
+#: ../advanced/keyboard-shortcuts.rst:108
+msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
+msgstr "Притисните ``cmd`` + ``i`` за режим курзива,"
+
+#: ../advanced/keyboard-shortcuts.rst:109
 msgid "enter your desired text, and"
 msgstr "унесите жељени текст и"
 
-#: ../advanced/keyboard-shortcuts.rst:42
-msgid "press ``Cmd`` + ``I`` again to return to normal text mode."
+#: ../advanced/keyboard-shortcuts.rst:110
+msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgstr ""
-"притисните ``Cmd`` + ``I`` поново да бисте се вратили у нормалан режим."
+"притисните ``cmd`` + ``i`` поново да бисте се вратили у нормалан режим."
 
-#: ../advanced/keyboard-shortcuts.rst:0
-msgid "All-at-once"
-msgstr "Одједном"
+#: ../advanced/keyboard-shortcuts.rst:112
+msgid "After typing:"
+msgstr "После уноса:"
 
-#: ../advanced/keyboard-shortcuts.rst:46
+#: ../advanced/keyboard-shortcuts.rst:114
 msgid "Enter your desired text,"
 msgstr "Унесите жељени текст,"
 
-#: ../advanced/keyboard-shortcuts.rst:47
+#: ../advanced/keyboard-shortcuts.rst:115
 msgid "click-and-drag with the mouse to select it, and"
 msgstr "кликните и превуците мишем да бисте га изабрали, и"
 
-#: ../advanced/keyboard-shortcuts.rst:48
-msgid "press ``Cmd`` + ``I`` to italicize."
-msgstr "притисните ``Cmd`` + ``I`` за курзив."
+#: ../advanced/keyboard-shortcuts.rst:116
+msgid "press ``cmd`` + ``i`` to set the text in *italics*."
+msgstr "притисните ``cmd`` + ``i`` за курзив."
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "``ctrl`` + ``u``"
+msgstr "``ctrl`` + ``u``"
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "Format text underlined"
+msgstr "Режим подвученог текста"
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "``ctrl`` + ``b``"
+msgstr "``ctrl`` + ``b``"
+
+#: ../advanced/keyboard-shortcuts.rst:123
+msgid "Format text in **bold**"
+msgstr "Режим **подебљаног** текста"
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "``ctrl`` + ``i``"
+msgstr "``ctrl`` + ``i``"
+
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid "Format text in *italics*"
+msgstr "Режим текста у *курзиву*"
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "``ctrl`` + ``s``"
+msgstr "``ctrl`` + ``s``"
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
+msgstr "Режим  ̶п ̶р ̶е ̶ц ̶р ̶т ̶а ̶н ̶о ̶г ̶ текста"
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "``ctrl`` + ``v``"
+msgstr "``ctrl`` + ``v``"
+
+#: ../advanced/keyboard-shortcuts.rst:126
+msgid "Paste text from clipboard"
+msgstr "Налепи текст из привремене меморије"
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "``ctrl`` + ``shift`` + ``v``"
+msgstr "``ctrl`` + ``shift`` + ``v``"
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "Paste text from clipboard (as plain text)"
+msgstr "Налепи текст из привремене меморије (као обичан текст)"
+
+#: ../advanced/keyboard-shortcuts.rst:128
+msgid "``shift`` + ``ctrl`` + ``f``"
+msgstr "``shift`` + ``ctrl`` + ``f``"
+
+#: ../advanced/keyboard-shortcuts.rst:128
+msgid "Remove formatting of text"
+msgstr "Уклони форматирање текста"
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "``shift`` + ``ctrl`` + ``y``"
+msgstr "``shift`` + ``ctrl`` + ``y``"
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "Remove formatting of the whole text"
+msgstr "Уклони форматирање комплетног текста"
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "``shift`` + ``ctrl`` + ``z``"
+msgstr "``shift`` + ``ctrl`` + ``z``"
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "Insert a horizontal line"
+msgstr "Убаци хоризонталну линију"
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "``shift`` + ``ctrl`` + ``l``"
+msgstr "``shift`` + ``ctrl`` + ``l``"
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "Format as unordered list"
+msgstr "Форматирај као листу са тачкама"
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "``shift`` + ``ctrl`` + ``k``"
+msgstr "``shift`` + ``ctrl`` + ``k``"
+
+#: ../advanced/keyboard-shortcuts.rst:132
+msgid "Format as ordered list"
+msgstr "Форматирај као листу са бројевима"
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "``shift`` + ``ctrl`` + ``1``"
+msgstr "``shift`` + ``ctrl`` + ``1``"
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "Format as h1 heading"
+msgstr "Форматирај као h1 заглавље"
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "``shift`` + ``ctrl`` + ``2``"
+msgstr "``shift`` + ``ctrl`` + ``2``"
+
+#: ../advanced/keyboard-shortcuts.rst:134
+msgid "Format as h2 heading"
+msgstr "Форматирај као h2 заглавље"
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "``shift`` + ``ctrl`` + ``3``"
+msgstr "``shift`` + ``ctrl`` + ``3``"
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "Format as h3 heading"
+msgstr "Форматирај као h3 заглавље"
+
+#: ../advanced/keyboard-shortcuts.rst:136
+msgid "``shift`` + ``ctrl`` + ``x``"
+msgstr "``shift`` + ``ctrl`` + ``x``"
+
+#: ../advanced/keyboard-shortcuts.rst:136
+msgid "Remove any hyperlink"
+msgstr "Уклони све линкове"
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -1038,6 +1405,14 @@ msgstr "Организације"
 #: ../advanced/tabs.rst:23
 msgid "Omnisearch"
 msgstr "Свеобухватна претрага"
+
+#: ../advanced/tabs.rst:25 ../basics/find-ticket/browse.rst:27
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../snippets/ui-protip-message-editor-features.rst:1
+#: ../basics/service-ticket/follow-up.rst:55
+#: ../basics/service-ticket/settings.rst:53 ../extras/customers.rst:12
+msgid "**🖱️ UI Protip**"
+msgstr "**🖱️ Мали савет**"
 
 #: ../advanced/tabs.rst:27 ../basics/find-ticket/browse.rst:31
 msgid ""
@@ -5815,10 +6190,6 @@ msgstr "Управљајте и користите прегледе тикета
 msgid "Search for existing records"
 msgstr "Потражите постојеће уносе"
 
-#: ../extras/mobile-view.rst:119
-msgid "Create a new ticket"
-msgstr "Отворите нови тикет"
-
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
 msgstr "Одговорите на већ постојећи тикет"
@@ -6166,10 +6537,6 @@ msgstr ""
 #: ../extras/profile-and-settings.rst:57
 msgid "Profile Settings"
 msgstr "Подешавање профила"
-
-#: ../extras/profile-and-settings.rst:0
-msgid "Appearance"
-msgstr "Изглед"
 
 #: ../extras/profile-and-settings.rst:79
 msgid "Theme"
@@ -7525,16 +7892,28 @@ msgstr ""
 "мобилном уређају. Препоручене апликације су:"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:16
-msgid "`Google Authenticator`_"
-msgstr "`Google Authenticator`_"
+msgid ""
+"`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
+msgstr ""
+"`Google Authenticator <https://support.google.com/accounts/answer/1066447>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:17
-msgid "`Authy`_"
-msgstr "`Authy`_"
+msgid ""
+"`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
+"Authy-apps/>`_"
+msgstr ""
+"`Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-"
+"Authy-apps/>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:18
-msgid "`Microsoft Authenticator`_"
-msgstr "`Microsoft Authenticator`_"
+msgid ""
+"`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
+msgstr ""
+"`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -7820,6 +8199,31 @@ msgstr ""
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
 
+#~ msgid "`Google Authenticator`_"
+#~ msgstr "`Google Authenticator`_"
+
+#~ msgid "`Authy`_"
+#~ msgstr "`Authy`_"
+
+#~ msgid "`Microsoft Authenticator`_"
+#~ msgstr "`Microsoft Authenticator`_"
+
+#~ msgid "The keyboard shortcut cheat sheet on Windows."
+#~ msgstr "Листа пречица на тастатури за Windows."
+
+#~ msgid ""
+#~ "Keyboard shortcuts can be used to apply rich-text formatting in one of "
+#~ "two ways:"
+#~ msgstr ""
+#~ "Пречице на тастатури се могу користити за примену форматирања текста на "
+#~ "један од два начина:"
+
+#~ msgid "As-you-type"
+#~ msgstr "Док куцате"
+
+#~ msgid "All-at-once"
+#~ msgstr "Одједном"
+
 #~ msgid "`service-level agreements`_,"
 #~ msgstr "`споразуми о нивоу услуга`_,"
 
@@ -7875,3 +8279,173 @@ msgstr ""
 #~ msgstr ""
 #~ "Чак и ако је пресретне трећа страна (хакер, државна агенција, итд), неће "
 #~ "моћи да је прочита."
+
+#~ msgid "Time accounting dialog"
+#~ msgstr "Дијалог обрачуна времена"
+
+#~ msgid ""
+#~ "If time accounting is enabled, this dialog will appear each time you "
+#~ "update a ticket. Enter how much time you spent on it (in minutes, or "
+#~ "whichever unit of time all your other colleagues are using)."
+#~ msgstr ""
+#~ "Ако је укључено обрачунавање времена, овај дијалог ће се појавити сваки "
+#~ "пут када освежите тикет. Унесите колико сте времена потрошили на ту "
+#~ "акцију (у минутима, или у било којој јединици времена коју користе ваше "
+#~ "колеге)."
+
+#~ msgid ""
+#~ "This feature is **optional**; if you don’t see it whenever you update a "
+#~ "ticket, that means your administrator hasn’t enabled it yet. "
+#~ "Administrators can learn more `here <https://admin-docs.zammad.org/en/"
+#~ "latest/manage-time-accounting.html>`_."
+#~ msgstr ""
+#~ "Ова функција је **није обавезна**; ако је не видите кад год освежите "
+#~ "тикет, то значи да је ваш администратор још није омогућио. Администратори "
+#~ "могу да сазнају више `овде <https://admin-docs.zammad.org/en/latest/"
+#~ "manage-time-accounting.html>`_."
+
+#~ msgid "Password"
+#~ msgstr "Лозинка"
+
+#~ msgid "Change your login password (may be disabled by system admin)."
+#~ msgstr ""
+#~ "Промените лозинку за пријаву (може бити искључено од стране "
+#~ "администратора)."
+
+#~ msgid "Zammad supports S/MIME for high-security email communication."
+#~ msgstr ""
+#~ "Zammad подржава S/MIME за комуникацију високе безбедности путем имејла."
+
+#~ msgid ""
+#~ "**🤔 Huh? I don’t see “Sign” or “Encrypt” options in the ticket view...**"
+#~ msgstr ""
+#~ "**🤔 Хм? Не видим опције „Потписивање“ или „Шифровање“ у приказу тикета…**"
+
+#~ msgid ""
+#~ "S/MIME is the most widely-supported method for secure email "
+#~ "communication. With S/MIME, you can exchange **signed** and **encrypted** "
+#~ "messages with others."
+#~ msgstr ""
+#~ "S/MIME је најшире подржани метод за безбедну комуникацију путем имејла. "
+#~ "Са S/MIME, можете да размењујете **потписане** и **шифроване** поруке са "
+#~ "другима."
+
+#~ msgid ""
+#~ "is proof that a message hasn’t been tampered with or sent by an "
+#~ "impersonator."
+#~ msgstr "је доказ да порука није мењана или послата од стране имитатора."
+
+#~ msgid ""
+#~ "In other words, it guarantees a message’s **integrity** and "
+#~ "**authenticity**."
+#~ msgstr "Другим речима, гарантује **интегритет** и **аутентичност** поруке."
+
+#~ msgid "In other words, it guarantees **privacy** and **data security**."
+#~ msgstr "Другим речима, гарантује **приватност** и **безбедност података**."
+
+#~ msgid "🤝 **S/MIME only works if the other party is using it, too.**"
+#~ msgstr "🤝 **S/MIME функционише само ако га користи и друга страна.**"
+
+#~ msgid ""
+#~ "Your administrator is responsible for adding all the necessary "
+#~ "certificates in Zammad’s admin panel."
+#~ msgstr ""
+#~ "Ваш администратор је одговоран за додавање свих потребних сертификата у "
+#~ "административном панелу Zammad-а."
+
+#~ msgid ""
+#~ "The 🔒 and ✅ icons at the top of a message indicate its S/MIME status."
+#~ msgstr "Иконице 🔒 и ✅ при врху поруке означавају њен S/MIME статус."
+
+#~ msgid ""
+#~ "Click on an incoming message to expand its details. Hover over the "
+#~ "security status to show a certificate/CA summary."
+#~ msgstr ""
+#~ "Кликните на долазну поруку да бисте проширили њене детаље. Пређите "
+#~ "курсором преко безбедносног статуса да бисте приказали сажет опис "
+#~ "сертификата/сертификованог органа."
+
+#~ msgid ""
+#~ "Even if it was intercepted by a third party (hacker, gov’t agency, etc.), "
+#~ "they won’t be able to read it."
+#~ msgstr ""
+#~ "Чак и ако ју је пресрела трећа страна (хакер, државна агенција, итд), "
+#~ "неће моћи да је прочита."
+
+#~ msgid "This message is **not encrypted**."
+#~ msgstr "Ова порука **није шифрована**."
+
+#~ msgid "This message’s signature has been **successfully verified**."
+#~ msgstr "Потпис ове поруке је **успешно верификован**."
+
+#~ msgid ""
+#~ "You can be confident that it’s authentic and that the contents have not "
+#~ "been modified."
+#~ msgstr "Можете бити сигурни да је аутентична и да њен садржај није измењен."
+
+#~ msgid ""
+#~ "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
+#~ "replies. Hover over the buttons to show a certificate/CA summary."
+#~ msgstr ""
+#~ "Дугмићи 🔒 **Шифровање** и ✅ **Потписивање** су присутни и на новим "
+#~ "тикетима и на одговорима. Пређите курсором преко дугмића да бисте "
+#~ "приказали сажет опис сертификата/сертификованог органа."
+
+#~ msgid ""
+#~ "Recipients using S/MIME can verify that it came from you and that the "
+#~ "contents have not been modified."
+#~ msgstr ""
+#~ "Примаоци који користе S/MIME могу да потврде да је дошла од вас и да њен "
+#~ "садржај није измењен."
+
+#~ msgid ""
+#~ "Without the sender’s certificate, Zammad cannot verify the message "
+#~ "signature."
+#~ msgstr ""
+#~ "Без сертификата пошиљаоца, Zammad не може да верификује потпис поруке."
+
+#~ msgid ""
+#~ "Ask your administrator to add the sender’s certificate to Zammad’s "
+#~ "certificate store."
+#~ msgstr ""
+#~ "Замолите свог администратора да дода сертификат пошиљаоца у Zammad-ово "
+#~ "складиште сертификата."
+
+#~ msgid ""
+#~ "The whole point of signature verification is to alert you when someone is "
+#~ "trying to pretend to be someone they’re not. Never accept a certificate "
+#~ "from someone online without verifying it first."
+#~ msgstr ""
+#~ "Цела поента верификације потписа је да вас упозори када неко покушава да "
+#~ "се претвара да је неко ко није. Никада не прихватајте сертификат од "
+#~ "некога на мрежи, а да га претходно нисте верификовали."
+
+#~ msgid ""
+#~ "Ask your administrator to verify your organization’s private key in "
+#~ "Zammad’s certificate store, and ask the sender to double-check the public "
+#~ "key they used to encrypt the message."
+#~ msgstr ""
+#~ "Замолите свог администратора да потврди приватни кључ ваше организације у "
+#~ "Zammad-овом складишту сертификата и замолите пошиљаоца да још једном "
+#~ "провери јавни кључ који је користио за шифровање поруке."
+
+#~ msgid ""
+#~ "(But if they’re smart, they’ll take extra precautions to make sure it "
+#~ "really belongs to you.)"
+#~ msgstr ""
+#~ "(Али ако су паметни, предузеће додатне мере предострожности како би били "
+#~ "сигурни да заиста припада вама.)"
+
+#~ msgid ""
+#~ "Ask your administrator to add the recipient’s certificate to Zammad’s "
+#~ "certificate store."
+#~ msgstr ""
+#~ "Замолите свог администратора да дода сертификат примаоца у Zammad-ово "
+#~ "складиште сертификата."
+
+#~ msgid ""
+#~ "Ask your administrator to verify your organization’s private key in "
+#~ "Zammad’s certificate store."
+#~ msgstr ""
+#~ "Замолите свог администратора да потврди приватни кључ ваше организације у "
+#~ "Zammad-овом складишту сертификата."
