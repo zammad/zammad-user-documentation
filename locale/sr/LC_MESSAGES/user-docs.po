@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 13:15+0100\n"
-"PO-Revision-Date: 2023-11-21 11:00+0000\n"
+"POT-Creation-Date: 2023-12-04 12:38+0100\n"
+"PO-Revision-Date: 2023-12-09 17:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -1423,7 +1423,7 @@ msgstr ""
 "бојама:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:227
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1694,7 +1694,8 @@ msgstr "Панел тикета: Везе"
 
 #: ../advanced/ticket-actions/link.rst:12
 msgid "Click the *➕ Add Link* button to access the link dialog."
-msgstr "Кликните на дугме *➕ Додај везу* да бисте отворили дијалог повезивања."
+msgstr ""
+"Кликните на дугме *➕ Додај везу* да бисте отворили дијалог повезивања."
 
 #: ../advanced/ticket-actions/link.rst:18
 msgid "Link dialog"
@@ -2337,9 +2338,9 @@ msgstr "Текст"
 
 #: ../basics/service-ticket/create.rst:58
 msgid ""
-"📞 For phone calls, record the details of your conversation. These notes will "
-"not be sent to the customer (though he may be able to see them if he has a "
-"Zammad account)."
+"📞 For phone calls, record the details of your conversation. These notes "
+"will not be sent to the customer (though he may be able to see them if he "
+"has a Zammad account)."
 msgstr ""
 "📞 За телефонске позиве, забележите детаље вашег разговора. Ове белешке неће "
 "бити послате купцу (иако ће можда моћи да их види уколико поседује Zammad "
@@ -2351,8 +2352,8 @@ msgstr "📧 За имејлове, ово ће бити текст ваше о�
 
 #: ../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
-"The message editor supports 📋 copying-and-pasting (or dragging-and-dropping) "
-"of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+"The message editor supports 📋 copying-and-pasting (or dragging-and-"
+"dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
 "Уредник порука подржава 📋 копирање и налепљивање (или превлачење и пуштање) "
 "**🔤 богатог текста**, **🌄 слика** и **📎 датотека прилога**."
@@ -2440,16 +2441,16 @@ msgid ""
 "`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
 "Тикети су конверзације које се састоје од порука и напомена о проблему "
-"клијента. :doc:`⚙️ Управљајте подацима тикета <settings>` у **панелу тикета**"
-" са десне стране."
+"клијента. :doc:`⚙️ Управљајте подацима тикета <settings>` у **панелу тикета** "
+"са десне стране."
 
 #: ../basics/service-ticket/follow-up.rst:23
 msgid ""
 "📇 Any time you open a ticket, a new entry will appear in your :doc:`tab "
 "list</advanced/tabs>` in the main menu."
 msgstr ""
-"📇 Сваки пут када отворите приказ тикета, нова ставка ће се појавити у вашој :"
-"doc:`листи прозора </advanced/tabs>` у главном менију."
+"📇 Сваки пут када отворите приказ тикета, нова ставка ће се појавити у "
+"вашој :doc:`листи прозора </advanced/tabs>` у главном менију."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -2505,8 +2506,8 @@ msgid ""
 "This way, you can share correspondences with people who don't have Zammad "
 "(like a third-party supplier)."
 msgstr ""
-"На овај начин можете да поделите преписку са људима који немају Zammad ("
-"попут вашег подизвођача)."
+"На овај начин можете да поделите преписку са људима који немају Zammad "
+"(попут вашег подизвођача)."
 
 #: ../basics/service-ticket/follow-up.rst:57
 msgid "Click on a message to see detailed information about it."
@@ -2585,8 +2586,9 @@ msgstr ""
 msgid ""
 "What about the **deletion of articles**? In Zammad, you can only delete "
 "articles that you have created yourself and which are not older than 10 "
-"minutes. To see the \"delete\" button in articles of the type \"communication"
-"\" (emails, calls), their visibility has to be switched to internal first."
+"minutes. To see the \"delete\" button in articles of the type "
+"\"communication\" (emails, calls), their visibility has to be switched to "
+"internal first."
 msgstr ""
 "А шта са **брисањем чланака**? У Zammad-у, можете обрисати само чланке које "
 "сте додали сами и који нису старији од 10 минута. Да бисте видели дугме за "
@@ -2863,7 +2865,8 @@ msgid ""
 "problematic *per se,* but it does lead to a lot of unnecessary clutter in "
 "the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, "
 "for example, a customer service rep sees tickets meant for your HR "
-"department, and finds out how much their colleagues in sales are making! 💸💸💸)"
+"department, and finds out how much their colleagues in sales are making! 💸💸"
+"💸)"
 msgstr ""
 "Без група, свих десет оператера може да види (и да одговори на) сваки "
 "појединачни долазни тикет, без обзира о ком одељењу се ради. Ово није "
@@ -5017,8 +5020,8 @@ msgid ""
 "🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old "
 "chats from the archive anytime."
 msgstr ""
-"🔍 Користите :doc:`траку за претрагу </basics/find-ticket/search>` да бисте у "
-"било ком тренутку извукли стара ћаскања из архиве."
+"🔍 Користите :doc:`траку за претрагу </basics/find-ticket/search>` да бисте "
+"у било ком тренутку извукли стара ћаскања из архиве."
 
 #: ../extras/chat.rst:49
 msgid "📋 Copy & paste **supports 🌄 inline images** as well as plain text."
@@ -5033,8 +5036,8 @@ msgstr ""
 
 #: ../extras/chat.rst:51
 msgid ""
-"📝 Chats can be **renamed** or **tagged**, and record technical details about "
-"the customer’s connection."
+"📝 Chats can be **renamed** or **tagged**, and record technical details "
+"about the customer’s connection."
 msgstr ""
 "📝 Могуће је **променити назив** ћаскања или **означити** га, и забележити "
 "техничке детаље о вези клијента."
@@ -5091,7 +5094,8 @@ msgstr "Панел тикета (приказ клијента)"
 
 #: ../extras/customers.rst:10
 msgid "Click the 👨 tab in the ticket pane to see the customer's profile."
-msgstr "Кликните на 👨 језичак у панелу тикета да бисте видели профил клијента."
+msgstr ""
+"Кликните на 👨 језичак у панелу тикета да бисте видели профил клијента."
 
 #: ../extras/customers.rst:0
 msgid "Customer ticket summary (mouseover)"
@@ -5854,19 +5858,30 @@ msgstr ""
 "Снимак екрана који приказује опцију видљивости за ограничене дозволе "
 "категорије"
 
-#: ../extras/knowledge-base.rst:0
-msgid "Permissions of a parent category are inherited!"
-msgstr "Дозволе надређене категорије се наслеђују!"
+#: ../extras/knowledge-base.rst:162
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The other way round is not possible (permissions can only be "
+"widened, not restricted). If you can't select permissions in the table, this "
+"could be the reason."
+msgstr ""
+"Уопштено, дозволе надређених катеорија се не наслеђују! Уколико нпр. желите "
+"да доделите дозволу уређивања за подређену категорију одговарајућој улози, "
+"поставите горњи ново на „читалац” и жељену подкатегорију на „уредник”. "
+"Обрнуто није могуће (дозволе се могу само увећати, не и ограничити). Уколико "
+"не можете да одаберете дозволе у овој табели, ово може бити разлог за то."
 
-#: ../extras/knowledge-base.rst:0
-msgid "Public answers are always available!"
-msgstr "Јавни чланци су увек доступни!"
+#: ../extras/knowledge-base.rst:169
+msgid "Be aware that public answers are always available!"
+msgstr "Будите свесни да су јавни чланци увек доступни!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:171
 msgid "**⚙️ Roles require knowledge base reader permission**"
 msgstr "**⚙️ Улоге захтевају дозволу за читање базе знања**"
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:173
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
@@ -5874,11 +5889,11 @@ msgstr ""
 "Ваш администратор мора да обезбеди релевантним групама дозволе за читање за "
 "базу знања."
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:176
 msgid "**🥵 Beware of visibility levels**"
 msgstr "**🥵 Пазите на нивое видљивости**"
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -5887,7 +5902,7 @@ msgstr ""
 "Дозвола за читање базе знања значи да корисници могу да виде **интерне "
 "чланке**. Ово је потенцијални проблем ако не делите пажљиво!"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
@@ -5896,7 +5911,7 @@ msgstr ""
 "конфигурише :admin-docs:`дозволе улоге </manage/roles/agent-permissions."
 "html>`."
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:187
 msgid "Editing Answers"
 msgstr "Уређивање чланака"
 
@@ -5904,7 +5919,7 @@ msgstr "Уређивање чланака"
 msgid "Edit answer"
 msgstr "Уредите чланак"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:193
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -5918,19 +5933,19 @@ msgstr ""
 "бисте уметнули форматирани текст, листе са ознакама и још много тога. Можете "
 "чак додати датотеке прилога и везе!"
 
-#: ../extras/knowledge-base.rst:193
+#: ../extras/knowledge-base.rst:199
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr "🤷 **Зашто постоје четири врсте веза?**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Интернет веза**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "URLs pointing to other websites."
 msgstr "URL адресе које упућују на друге интернет локације."
 
-#: ../extras/knowledge-base.rst:200
+#: ../extras/knowledge-base.rst:206
 msgid "💡 **Link Answer**"
 msgstr "💡 **Веза ка чланку**"
 
@@ -5942,7 +5957,7 @@ msgstr "Интерне референце на друге чланке базе 
 msgid "(Will not break if destination URL changes.)"
 msgstr "(Неће се прекинути ако се одредишна URL адреса промени.)"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:210
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Везе ка тикетима**"
 
@@ -5954,7 +5969,7 @@ msgstr "Интерне референце на Zammad тикете."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(Видљиво само у режимима приказа и уређивања.)"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:217
 msgid "🏷️ **Tags**"
 msgstr "🏷 **Ознаке**"
 
@@ -5976,41 +5991,41 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr "Снимак екрана који приказује ознаке у чланкцима"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:222
 msgid ""
 "🙈 Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
 "according to their visibility:"
 msgstr ""
-"🙈 Подесите **видљивост** чланка да бисте контролисали ко може да види чланак "
-"или закажите његово објављивање за касније. Чланци су **означени бојама** "
-"према њиховој видљивости:"
+"🙈 Подесите **видљивост** чланка да бисте контролисали ко може да види "
+"чланак или закажите његово објављивање за касније. Чланци су **означени "
+"бојама** према њиховој видљивости:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:227
 msgid "**Public** (visible to everyone)"
 msgstr "**Јавно** (видљиво свима)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Интерно** (видљиво само оператерима и уредницима)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Нацрт/Заказано/Архивирано** (видљиво само уредницима)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:247
 msgid "Using answers in ticket articles"
 msgstr "Коришћење чланака у тикетима"
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:249
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -6022,7 +6037,7 @@ msgstr ""
 "претраге. Претрага се врши по целом тексту чланка и у наслову на свим "
 "доступним језицима."
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:254
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
@@ -6032,16 +6047,16 @@ msgstr ""
 "бисте учитали чланак у тикет. На овај начин не морате да шаљете URL адресе "
 "својим клијентима и можете одмах да им одговорите."
 
-#: ../extras/knowledge-base.rst:252
+#: ../extras/knowledge-base.rst:258
 msgid "Loading answers into articles *does not* replace article content."
 msgstr "Учитавање чланака *не* замењује садржај чланка тикета."
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 "Снимак екрана који показује како да уметнете чланке базе знања у тикете"
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr "Користите ``??`` да пронађете и учитате чланке базе знања у тикете"
 
@@ -6369,7 +6384,8 @@ msgstr "Панел тикета (приказ организације)"
 #: ../extras/organizations.rst:18
 msgid "Click the 👪 tab in the ticket pane to see the organization’s profile."
 msgstr ""
-"Кликните на језичак 👪 у панелу тикета да бисте приказали профил организације."
+"Кликните на језичак 👪 у панелу тикета да бисте приказали профил "
+"организације."
 
 #: ../extras/organizations.rst:20
 msgid "To edit the organization’s profile, use the **organization submenu**:"
@@ -6987,7 +7003,8 @@ msgid ""
 "The 🔒 and ✅ icons at the top of a message indicate its encryption and "
 "signing status."
 msgstr ""
-"Иконице 🔒 и ✅ при врху поруке означавају њен статус шифровања и потписивања."
+"Иконице 🔒 и ✅ при врху поруке означавају њен статус шифровања и "
+"потписивања."
 
 #: ../extras/secure-email.rst:75
 msgid "Screencast showing details of encryption and signing status"
@@ -7100,9 +7117,9 @@ msgid ""
 "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
 "replies. Hover over the buttons to show details."
 msgstr ""
-"Дугмићи 🔒 **Шифровање** и ✅ **Потписивање** су присутни и на новим тикетима "
-"и на одговорима. Пређите курсором преко дугмића да бисте приказали више "
-"информација."
+"Дугмићи 🔒 **Шифровање** и ✅ **Потписивање** су присутни и на новим "
+"тикетима и на одговорима. Пређите курсором преко дугмића да бисте приказали "
+"више информација."
 
 #: ../extras/secure-email.rst:116
 msgid "Status Icons (Outgoing)"
@@ -7348,8 +7365,8 @@ msgstr "Примена нацрта ради исто почевши од пре
 
 #: ../extras/shared-drafts.rst:50
 msgid ""
-"If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 "
-"button will indicate the shared drafts function to be available."
+"If you're in a new ticket dialogue *after selecting the ticket group*, the "
+"📝 button will indicate the shared drafts function to be available."
 msgstr ""
 "Ако сте у дијалогу новог тикета и *након што изаберете групу тикета*, дугме "
 "📝 ће означити да је функција заједничких нацрта доступна."
@@ -8199,6 +8216,9 @@ msgstr ""
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
 
+#~ msgid "Permissions of a parent category are inherited!"
+#~ msgstr "Дозволе надређене категорије се наслеђују!"
+
 #~ msgid "`Google Authenticator`_"
 #~ msgstr "`Google Authenticator`_"
 
@@ -8384,8 +8404,8 @@ msgstr ""
 #~ msgstr "Можете бити сигурни да је аутентична и да њен садржај није измењен."
 
 #~ msgid ""
-#~ "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
-#~ "replies. Hover over the buttons to show a certificate/CA summary."
+#~ "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets "
+#~ "and replies. Hover over the buttons to show a certificate/CA summary."
 #~ msgstr ""
 #~ "Дугмићи 🔒 **Шифровање** и ✅ **Потписивање** су присутни и на новим "
 #~ "тикетима и на одговорима. Пређите курсором преко дугмића да бисте "
