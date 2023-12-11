@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 13:15+0100\n"
-"PO-Revision-Date: 2023-11-23 13:00+0000\n"
+"POT-Creation-Date: 2023-12-04 12:38+0100\n"
+"PO-Revision-Date: 2023-12-08 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -1452,7 +1452,7 @@ msgstr ""
 "**Farbcodes:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:227
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -6034,19 +6034,32 @@ msgstr ""
 "Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
 "für differenzierte Kategorieberechtigungen"
 
-#: ../extras/knowledge-base.rst:0
-msgid "Permissions of a parent category are inherited!"
-msgstr "Zugriffsrechte für Eltern-Kategorien werden vererbt!"
+#: ../extras/knowledge-base.rst:162
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The other way round is not possible (permissions can only be "
+"widened, not restricted). If you can't select permissions in the table, this "
+"could be the reason."
+msgstr ""
+"Im Allgemeinen werden die Rechte einer übergeordneten Kategorie vererbt! "
+"Wenn Sie z.B. einer bestimmten Rolle Bearbeitungsrechte für eine "
+"Unterkategorie erteilen wollen, setzen Sie die übergeordnete Ebene auf "
+"\"Reader\" und die gewünschte Unterkategorie auf \"Editor\". Der umgekehrte "
+"Weg ist nicht möglich (Berechtigungen können nur erweitert, nicht "
+"eingeschränkt werden). Wenn Sie in der Tabelle keine Berechtigungen "
+"auswählen können, könnte dies der Grund dafür sein."
 
-#: ../extras/knowledge-base.rst:0
-msgid "Public answers are always available!"
-msgstr "Öffentliche Antworten sind immer verfügbar!"
+#: ../extras/knowledge-base.rst:169
+msgid "Be aware that public answers are always available!"
+msgstr "Beachten Sie, dass öffentliche Antworten immer verfügbar sind!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:171
 msgid "**⚙️ Roles require knowledge base reader permission**"
 msgstr "**⚙️ Rollen erfordern Wissensdatenbank-Reader-Rechte**"
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:173
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
@@ -6054,11 +6067,11 @@ msgstr ""
 "Ihr Administrator muss die relevanten Gruppen mit Reader-Rechten für die "
 "Wissensdatenbank versehen."
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:176
 msgid "**🥵 Beware of visibility levels**"
 msgstr "**🥵 Beachten Sie Sichtbarkeitsebenen**"
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -6068,7 +6081,7 @@ msgstr ""
 "Antworten**. Das ist ein mögliches Risiko falls Sie nicht umsichtig "
 "aufteilen!"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
@@ -6077,7 +6090,7 @@ msgstr ""
 "`Rollenberechtigungen </manage/roles/agent-permissions.html>` entsprechend "
 "zu konfigurieren."
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:187
 msgid "Editing Answers"
 msgstr "Antworten bearbeiten"
 
@@ -6085,7 +6098,7 @@ msgstr "Antworten bearbeiten"
 msgid "Edit answer"
 msgstr "Antwort editieren"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:193
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -6100,19 +6113,19 @@ msgstr ""
 "Text-Formatierungen, Aufzählungszeichen und mehr einzubinden. Es können "
 "sogar Dateianhänge und Links hinzugefügt werden!"
 
-#: ../extras/knowledge-base.rst:193
+#: ../extras/knowledge-base.rst:199
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr "🤷 **Warum gibt es vier Arten von Links?**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Weblink**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "URLs pointing to other websites."
 msgstr "URLs, die auf andere Websites verweisen."
 
-#: ../extras/knowledge-base.rst:200
+#: ../extras/knowledge-base.rst:206
 msgid "💡 **Link Answer**"
 msgstr "💡 **Link zu einer Antwort**"
 
@@ -6124,7 +6137,7 @@ msgstr "Interne Verweise auf andere Antworten der Wissensdatenbank."
 msgid "(Will not break if destination URL changes.)"
 msgstr "(Wird nicht ungültig, wenn sich die Ziel-URL ändert.)"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:210
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Verlinkte Tickets**"
 
@@ -6136,7 +6149,7 @@ msgstr "Interne Verweise auf Zammad-Tickets."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(Nur im Vorschau- und Bearbeitungsmodus sichtbar.)"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:217
 msgid "🏷️ **Tags**"
 msgstr "🏷️ **Schlagworte**"
 
@@ -6158,7 +6171,7 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr "Screencast zeigt Tags an Antworten"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:222
 msgid ""
 "🙈 Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
@@ -6169,31 +6182,31 @@ msgstr ""
 "späteren Zeitpunkt. Artikel werden entsprechend ihrer Sichtbarkeit "
 "**farblich gekennzeichnet**:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:227
 msgid "**Public** (visible to everyone)"
 msgstr "**Öffentlich** (für jeden sichtbar)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Intern** (nur sichtbar für Agenten und Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Entwurf / geplant / archiviert** (sichtbar nur für Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:247
 msgid "Using answers in ticket articles"
 msgstr "Antworten in Ticket-Artikeln benutzen"
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:249
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -6205,7 +6218,7 @@ msgstr ""
 "``??`` um den Suchdialog zu öffnen. Die Suche sucht Volltext in dem Body und "
 "Titel aller verfügbaren Sprachen der Antwort."
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:254
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
@@ -6215,17 +6228,17 @@ msgstr ""
 "Taste, um die Antwort direkt in den Ticket-Artikel zu laden. So müssen Sie "
 "Ihrem Kunden keinen Link zuwerfen und liefern die Antwort direkt."
 
-#: ../extras/knowledge-base.rst:252
+#: ../extras/knowledge-base.rst:258
 msgid "Loading answers into articles *does not* replace article content."
 msgstr "Das Laden von Antworten in Artikel *ersetzt nicht* den Artikel-Inhalt."
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 "Bildschirmaufzeichnung zeigt wie man Wissensdatenbankantworten in Artikeln "
 "einfügt"
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 "Benutzen Sie ``??`` um Knowledge Base Antworten zu finden und in Artikel zu "
@@ -8441,6 +8454,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid "Permissions of a parent category are inherited!"
+#~ msgstr "Zugriffsrechte für Eltern-Kategorien werden vererbt!"
 
 #~ msgid "`Google Authenticator`_"
 #~ msgstr "`Google Authenticator`_"

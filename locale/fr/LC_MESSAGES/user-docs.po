@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 13:15+0100\n"
+"POT-Creation-Date: 2023-12-04 12:38+0100\n"
 "PO-Revision-Date: 2023-01-12 16:10+0000\n"
 "Last-Translator: LahutaeMalcis <hello@privacydream.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -1429,7 +1429,7 @@ msgstr ""
 "**codés par couleur:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:227
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2338,9 +2338,9 @@ msgstr "Texte"
 
 #: ../basics/service-ticket/create.rst:58
 msgid ""
-"📞 For phone calls, record the details of your conversation. These notes will "
-"not be sent to the customer (though he may be able to see them if he has a "
-"Zammad account)."
+"📞 For phone calls, record the details of your conversation. These notes "
+"will not be sent to the customer (though he may be able to see them if he "
+"has a Zammad account)."
 msgstr ""
 "📞 pour les appels téléphoniques, pour conserver les détails de votre "
 "conversation. Ces notes ne seront pas envoyées au client (bien qu'il "
@@ -2352,11 +2352,11 @@ msgstr "📧 Pour les courriels, il s'agit du corps de votre message sortant."
 
 #: ../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
-"The message editor supports 📋 copying-and-pasting (or dragging-and-dropping) "
-"of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+"The message editor supports 📋 copying-and-pasting (or dragging-and-"
+"dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
-"L'éditeur de message supporte le 📋 copier-coller (ou glisser-déposer) de **🔤 "
-"texte riche**, **🌄 images** et **📎 pièces jointes**."
+"L'éditeur de message supporte le 📋 copier-coller (ou glisser-déposer) de "
+"**🔤 texte riche**, **🌄 images** et **📎 pièces jointes**."
 
 #: ../snippets/ui-protip-message-editor-features.rst:6
 msgid ""
@@ -2596,8 +2596,9 @@ msgstr ""
 msgid ""
 "What about the **deletion of articles**? In Zammad, you can only delete "
 "articles that you have created yourself and which are not older than 10 "
-"minutes. To see the \"delete\" button in articles of the type \"communication"
-"\" (emails, calls), their visibility has to be switched to internal first."
+"minutes. To see the \"delete\" button in articles of the type "
+"\"communication\" (emails, calls), their visibility has to be switched to "
+"internal first."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:107
@@ -2857,15 +2858,16 @@ msgid ""
 "problematic *per se,* but it does lead to a lot of unnecessary clutter in "
 "the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, "
 "for example, a customer service rep sees tickets meant for your HR "
-"department, and finds out how much their colleagues in sales are making! 💸💸💸)"
+"department, and finds out how much their colleagues in sales are making! 💸💸"
+"💸)"
 msgstr ""
 "Sans les groupes, vos dix opérateurs pourraient voir (et répondre) à chaque "
 "ticket qui arrive, peu importe pour quel service ils sont. Ce n'est pas en "
 "soi problématique, mais cela peut engendrer un encombrement inutile dans le :"
 "doc:`menu aperçus </basics/find-ticket>`. (cela peut être pire encore quand, "
 "par exemple, un responsable du service client voit des tickets pour le "
-"service RH, et trouve combien gagnent ses collègues du service des ventes! 💸💸"
-"💸)"
+"service RH, et trouve combien gagnent ses collègues du service des ventes! 💸"
+"💸💸)"
 
 #: ../basics/service-ticket/settings/group.rst:25
 msgid ""
@@ -4580,9 +4582,10 @@ msgid ""
 "👤 Click on unrecognized numbers to **create a new customer** or maybe "
 "entries to **update an existing customer**."
 msgstr ""
-"👤 Cliquez sur les numéros non reconnus dans le journal d'appels pour **créer "
-"un nouvel client et ticket**. (Les numéros de téléphones non reconnus ne "
-"peuvent pas être ajoutés de cette manière à des clients existants.)"
+"👤 Cliquez sur les numéros non reconnus dans le journal d'appels pour "
+"**créer un nouvel client et ticket**. (Les numéros de téléphones non "
+"reconnus ne peuvent pas être ajoutés de cette manière à des clients "
+"existants.)"
 
 #: ../extras/caller-log.rst:72
 msgid ""
@@ -4724,8 +4727,8 @@ msgstr ""
 
 #: ../extras/chat.rst:51
 msgid ""
-"📝 Chats can be **renamed** or **tagged**, and record technical details about "
-"the customer’s connection."
+"📝 Chats can be **renamed** or **tagged**, and record technical details "
+"about the customer’s connection."
 msgstr ""
 "📝 Les discussions peuvent être **renommées** ou **étiquetées**, et "
 "enregistrer des détails techniques concernant la connexion du client."
@@ -5346,8 +5349,8 @@ msgid ""
 "🚧 **What happens when a page hasn’t been translated into the selected "
 "language yet?**"
 msgstr ""
-"🚧 **Qu'arrive t-il quand une page n'a pas encore été traduite dans la langue "
-"sélectionnée?**"
+"🚧 **Qu'arrive t-il quand une page n'a pas encore été traduite dans la "
+"langue sélectionnée?**"
 
 #: ../extras/knowledge-base.rst:67
 msgid "in Edit Mode"
@@ -5501,42 +5504,48 @@ msgid ""
 "permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:0
-msgid "Permissions of a parent category are inherited!"
+#: ../extras/knowledge-base.rst:162
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The other way round is not possible (permissions can only be "
+"widened, not restricted). If you can't select permissions in the table, this "
+"could be the reason."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:0
-msgid "Public answers are always available!"
+#: ../extras/knowledge-base.rst:169
+msgid "Be aware that public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:171
 msgid "**⚙️ Roles require knowledge base reader permission**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:173
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:176
 msgid "**🥵 Beware of visibility levels**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
 "carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:187
 msgid "Editing Answers"
 msgstr "Éditer des réponses"
 
@@ -5544,7 +5553,7 @@ msgstr "Éditer des réponses"
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:193
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -5559,19 +5568,19 @@ msgstr ""
 "listes à puce, et plus encore. Vous pouvez même ajouter des pièces jointes "
 "et des liens!"
 
-#: ../extras/knowledge-base.rst:193
+#: ../extras/knowledge-base.rst:199
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "🔗 **Weblink**"
 msgstr "🔗 **liens web**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "URLs pointing to other websites."
 msgstr "URLs qui pointent vers d'autres sites web."
 
-#: ../extras/knowledge-base.rst:200
+#: ../extras/knowledge-base.rst:206
 msgid "💡 **Link Answer**"
 msgstr "💡 **Lien réponse**"
 
@@ -5583,7 +5592,7 @@ msgstr "Références internes vers d'autres réponses de la base de connaissance
 msgid "(Will not break if destination URL changes.)"
 msgstr "(qui ne casseront pas si l'URL de destination change.)"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:210
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Tickets liés**"
 
@@ -5595,7 +5604,7 @@ msgstr "Références internes vers des tickets Zammad."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(visibles seulement dans les modes prévisualisation et édition.)"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:217
 msgid "🏷️ **Tags**"
 msgstr ""
 
@@ -5613,7 +5622,7 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:222
 msgid ""
 "🙈 Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
@@ -5623,31 +5632,31 @@ msgstr ""
 "un article ou planifier sa publication à une date ultérieure. Les articles "
 "ont des **codes couleurs** en fonction de leur visibilité:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:227
 msgid "**Public** (visible to everyone)"
 msgstr "**Public** (visible pour tout le monde)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Interne** (visible seulement pour les opérateurs & rédacteurs)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Brouillon/planifié/archivé** (visible seulement pour les rédacteurs)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:247
 msgid "Using answers in ticket articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:249
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -5655,22 +5664,22 @@ msgid ""
 "all languages available."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:254
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
 "URLs at your customer and provide the answer right away."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:252
+#: ../extras/knowledge-base.rst:258
 msgid "Loading answers into articles *does not* replace article content."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
@@ -6929,8 +6938,8 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:50
 msgid ""
-"If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 "
-"button will indicate the shared drafts function to be available."
+"If you're in a new ticket dialogue *after selecting the ticket group*, the "
+"📝 button will indicate the shared drafts function to be available."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:55

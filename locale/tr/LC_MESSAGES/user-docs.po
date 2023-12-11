@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 13:15+0100\n"
+"POT-Creation-Date: 2023-12-04 12:38+0100\n"
 "PO-Revision-Date: 2022-04-16 15:57+0000\n"
 "Last-Translator: TRANSFER FROM TRANSIFEX <support@zammad.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -1473,7 +1473,7 @@ msgstr ""
 "kodları:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:227
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2279,8 +2279,8 @@ msgstr ""
 #: ../basics/service-ticket/create.rst:16
 #, fuzzy
 #| msgid ""
-#| "Click the **➕ button** to create a new ticket. The default ticket type is "
-#| "**received call**."
+#| "Click the **➕ button** to create a new ticket. The default ticket type "
+#| "is **received call**."
 msgid ""
 "Click the **➕ button** to create a new ticket. The default ticket type is "
 "**Received Call**."
@@ -2380,9 +2380,9 @@ msgstr "Metin"
 
 #: ../basics/service-ticket/create.rst:58
 msgid ""
-"📞 For phone calls, record the details of your conversation. These notes will "
-"not be sent to the customer (though he may be able to see them if he has a "
-"Zammad account)."
+"📞 For phone calls, record the details of your conversation. These notes "
+"will not be sent to the customer (though he may be able to see them if he "
+"has a Zammad account)."
 msgstr ""
 "📞 Telefon görüşmeleri için, görüşmenizin ayrıntılarını kaydedin. Bu notlar "
 "müşteriye gönderilmeyecektir (ancak bir Zammad hesabı varsa bunları "
@@ -2394,8 +2394,8 @@ msgstr "📧 E-postalar için, burası giden mesajınızın gövdesi."
 
 #: ../snippets/ui-protip-message-editor-features.rst:3
 msgid ""
-"The message editor supports 📋 copying-and-pasting (or dragging-and-dropping) "
-"of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+"The message editor supports 📋 copying-and-pasting (or dragging-and-"
+"dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
 msgstr ""
 "Mesaj editörü 📋,  **🔤 zengin metin**, **🌄 görseller** and **📎 dosya "
 "ekleri**ni koplaya ve yapıştır (veya sürükle ve bırak) yapmayı destekler."
@@ -2639,8 +2639,9 @@ msgstr ""
 msgid ""
 "What about the **deletion of articles**? In Zammad, you can only delete "
 "articles that you have created yourself and which are not older than 10 "
-"minutes. To see the \"delete\" button in articles of the type \"communication"
-"\" (emails, calls), their visibility has to be switched to internal first."
+"minutes. To see the \"delete\" button in articles of the type "
+"\"communication\" (emails, calls), their visibility has to be switched to "
+"internal first."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:107
@@ -2903,7 +2904,8 @@ msgid ""
 "problematic *per se,* but it does lead to a lot of unnecessary clutter in "
 "the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, "
 "for example, a customer service rep sees tickets meant for your HR "
-"department, and finds out how much their colleagues in sales are making! 💸💸💸)"
+"department, and finds out how much their colleagues in sales are making! 💸💸"
+"💸)"
 msgstr ""
 "Gruplar olmadan, on temsilcinin tümü, hangi departman için olduğuna "
 "bakılmaksızın gelen her bir bileti görebilir (ve yanıt verebilir). Bu *başlı "
@@ -3151,8 +3153,8 @@ msgstr ""
 "Durumlar, ilerlemeyi belirtmekten fazlasını yapar: Zammad, müşterilerinin "
 "yeni bir biletine yanıt verilmesinin veya sorunlarının tamamen "
 "çözülmesininin ne kadar sürdüğünü ölçmek için durum bilgilerini kullanan "
-"ayrıntılı bir zaman izleme özelliğine (buna “\\ `hizmet düzeyi anlaşmaları `_"
-"\\ ” veya SLA'lar denir) sahiptir."
+"ayrıntılı bir zaman izleme özelliğine (buna “\\ `hizmet düzeyi anlaşmaları "
+"`_\\ ” veya SLA'lar denir) sahiptir."
 
 #: ../basics/service-ticket/settings/state.rst:38
 msgid ""
@@ -4834,8 +4836,8 @@ msgstr ""
 
 #: ../extras/chat.rst:51
 msgid ""
-"📝 Chats can be **renamed** or **tagged**, and record technical details about "
-"the customer’s connection."
+"📝 Chats can be **renamed** or **tagged**, and record technical details "
+"about the customer’s connection."
 msgstr ""
 "📝 Sohbetler **yeniden adlandırılabilir** veya **etiketlenebilir**, ve "
 "müşterinin bağlantısıyla ilgili teknik detaylar kaydedilebilir."
@@ -5132,7 +5134,8 @@ msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:7
 msgid "🤔 **Huh? I don’t see** |github| **or** |gitlab| **tabs...**"
-msgstr "🤔 **Pardon? * |github| **veya** |gitlab| **sekmelerini görmüyorum...**"
+msgstr ""
+"🤔 **Pardon? * |github| **veya** |gitlab| **sekmelerini görmüyorum...**"
 
 #: ../extras/github-gitlab-integration.rst:45
 msgid "GitHub logo"
@@ -5672,42 +5675,48 @@ msgid ""
 "permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:0
-msgid "Permissions of a parent category are inherited!"
+#: ../extras/knowledge-base.rst:162
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The other way round is not possible (permissions can only be "
+"widened, not restricted). If you can't select permissions in the table, this "
+"could be the reason."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:0
-msgid "Public answers are always available!"
+#: ../extras/knowledge-base.rst:169
+msgid "Be aware that public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:171
 msgid "**⚙️ Roles require knowledge base reader permission**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:173
 msgid ""
 "Your administrator has to provide the relevant groups with reader "
 "permissions for the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:176
 msgid "**🥵 Beware of visibility levels**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
 "carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "If you're unsure, please ask your administrator to configure the :admin-docs:"
 "`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:187
 msgid "Editing Answers"
 msgstr "Cevapları Düzenlemek"
 
@@ -5715,7 +5724,7 @@ msgstr "Cevapları Düzenlemek"
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:193
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -5730,19 +5739,19 @@ msgstr ""
 "kullanabileceğiniz anlamına gelir. Hatta dosya ekleri ve bağlantılar "
 "ekleyebilirsiniz!"
 
-#: ../extras/knowledge-base.rst:193
+#: ../extras/knowledge-base.rst:199
 msgid "🤷 **Why are there four kinds of links?**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Web bağlantısı**"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:202
 msgid "URLs pointing to other websites."
 msgstr "URL'ler diğer web sitelerini gösteriyor."
 
-#: ../extras/knowledge-base.rst:200
+#: ../extras/knowledge-base.rst:206
 msgid "💡 **Link Answer**"
 msgstr "💡 **Bağlantılı Cevap**"
 
@@ -5754,7 +5763,7 @@ msgstr "Diğer bilgi tabanı cevaplarından iç referanslar."
 msgid "(Will not break if destination URL changes.)"
 msgstr "(Hedef URL değişirse bozulmaz.)"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:210
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Bağlı Biletler**"
 
@@ -5766,7 +5775,7 @@ msgstr "Zammad biletlerinden iç referanslar."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(Sadece Önizleme ve Düzenleme Modlarında görünür.)"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:217
 msgid "🏷️ **Tags**"
 msgstr ""
 
@@ -5784,7 +5793,7 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:222
 msgid ""
 "🙈 Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
@@ -5794,31 +5803,31 @@ msgstr ""
 "tarihte yayınlanmasını planlamak için yanıtın **görünürlüğünü** ayarlayın. "
 "Makaleler, görünürlüklerine göre **renk kodu** alır:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:227
 msgid "**Public** (visible to everyone)"
 msgstr "**Herkese Açık** (herkes tarafından görülebilir)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:229
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Dahili** (sadece aracılar ve editörler görebilir)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:231
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Taslak/Planlanmış/Arşiv** (sadece editörler görebilir)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:247
 msgid "Using answers in ticket articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:249
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -5826,22 +5835,22 @@ msgid ""
 "all languages available."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:254
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
 "URLs at your customer and provide the answer right away."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:252
+#: ../extras/knowledge-base.rst:258
 msgid "Loading answers into articles *does not* replace article content."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:258
+#: ../extras/knowledge-base.rst:264
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
@@ -6850,7 +6859,8 @@ msgid ""
 "The 🔒 and ✅ icons at the top of a message indicate its encryption and "
 "signing status."
 msgstr ""
-"Bir mesajın üst kısmındaki 🔒 ve ✅ simgeleri mesajın S/MIME durumunu gösterir."
+"Bir mesajın üst kısmındaki 🔒 ve ✅ simgeleri mesajın S/MIME durumunu "
+"gösterir."
 
 #: ../extras/secure-email.rst:75
 msgid "Screencast showing details of encryption and signing status"
@@ -6978,8 +6988,8 @@ msgstr ""
 #: ../extras/secure-email.rst:113
 #, fuzzy
 #| msgid ""
-#| "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
-#| "replies. Hover over the buttons to show a certificate/CA summary."
+#| "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets "
+#| "and replies. Hover over the buttons to show a certificate/CA summary."
 msgid ""
 "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and "
 "replies. Hover over the buttons to show details."
@@ -7263,8 +7273,8 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:50
 msgid ""
-"If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 "
-"button will indicate the shared drafts function to be available."
+"If you're in a new ticket dialogue *after selecting the ticket group*, the "
+"📝 button will indicate the shared drafts function to be available."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:55
