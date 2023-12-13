@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 09:27+0100\n"
+"POT-Creation-Date: 2023-12-13 11:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -496,7 +496,7 @@ msgid "🤔 **How do I make macros?**"
 msgstr ""
 
 #: ../advanced/macros.rst:12
-msgid "You don’t – that’s the :admin-docs:`administrator’s job </manage/macros.html>`. If you have an idea for a macro you’d like to use, your Zammad admin can probably make it happen."
+msgid "You don't - that's the :admin-docs:`administrator's job </manage/macros.html>`. If you have an idea for a macro you'd like to use, your Zammad admin can probably make it happen."
 msgstr ""
 
 #: ../advanced/macros.rst:17
@@ -508,7 +508,7 @@ msgid "On a Single Ticket"
 msgstr ""
 
 #: ../advanced/macros.rst:23
-msgid "The simplest way to apply a macro is to select it from the **Update ᐱ** submenu in the Ticket View:"
+msgid "The simplest way to apply a macro is to select it from the **Update ^** submenu in the Ticket View:"
 msgstr ""
 
 #: ../advanced/macros.rst:None
@@ -520,11 +520,11 @@ msgid "💾 **Macro = Update**"
 msgstr ""
 
 #: ../advanced/macros.rst:33
-msgid "If you’ve made changes to any other :ref:`settings on the ticket <ticket_settings>` (including typing up a reply to the customer), applying a macro will save them, too."
+msgid "If you've made changes to any other :ref:`settings on the ticket <ticket_settings>` (including typing up a reply to the customer), applying a macro will save them, too."
 msgstr ""
 
 #: ../advanced/macros.rst:38
-msgid "⚠️ **But beware:** in the event of a conflict, the macro’s actions override any manual changes – including messages to the customer! When in doubt, apply your macro and your manual changes *separately.*"
+msgid "⚠️ **But beware:** in the event of a conflict, the macro's actions override any manual changes - including messages to the customer! When in doubt, apply your macro and your manual changes *separately.*"
 msgstr ""
 
 #: ../advanced/macros.rst:0
@@ -1655,7 +1655,7 @@ msgid "Search for Tickets"
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:4
-msgid "Looking for an archived ticket? Use the **search bar**."
+msgid "Looking for an a specific ticket? Use the **search bar**."
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:10
@@ -1663,7 +1663,7 @@ msgid "Results appear immediately under the search bar as you type."
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:12
-msgid "It’s not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, and 🏢 **organizations**, too."
+msgid "It's not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, and 🏢 **organizations**, too."
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:15
@@ -1699,11 +1699,11 @@ msgid "Servicing Tickets"
 msgstr ""
 
 #: ../basics/service-ticket.rst:4
-msgid "This is where you’ll spend the vast majority of your time in Zammad."
+msgid "This is where you'll spend the vast majority of your time in Zammad."
 msgstr ""
 
 #: ../basics/service-ticket.rst:6
-msgid "Once you get the hang of the tasks below, there’s really not much more to it."
+msgid "Once you get the hang of the tasks below, there's really not much more to it."
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:2
@@ -4728,244 +4728,244 @@ msgstr ""
 msgid "Secure Email"
 msgstr ""
 
-#: ../extras/secure-email.rst:6
+#: ../extras/secure-email.rst:4
 msgid "Zammad supports two systems of high-security email communication:"
 msgstr ""
 
-#: ../extras/secure-email.rst:5
+#: ../extras/secure-email.rst:6
 msgid "Pretty Good Privacy (PGP)"
 msgstr ""
 
-#: ../extras/secure-email.rst:6
+#: ../extras/secure-email.rst:7
 msgid "Secure/Multipurpose Internet Mail Extensions (S/MIME)."
 msgstr ""
 
-#: ../extras/secure-email.rst:13
+#: ../extras/secure-email.rst:14
 msgid "Screencast demo of S/MIME features for both new tickets and replies"
 msgstr ""
 
-#: ../extras/secure-email.rst:13
+#: ../extras/secure-email.rst:14
 msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing of outgoing emails."
 msgstr ""
 
-#: ../extras/secure-email.rst:16
+#: ../extras/secure-email.rst:17
 msgid "**🤔 Huh? I don't see “Sign” or “Encrypt” options in the ticket view...**"
 msgstr ""
 
-#: ../extras/secure-email.rst:19
+#: ../extras/secure-email.rst:20
 msgid "This feature is **optional**; if you don't see it in the ticket composer, that means your administrator hasn't enabled it yet. Administrators can learn more here:"
 msgstr ""
 
-#: ../extras/secure-email.rst:24
+#: ../extras/secure-email.rst:25
 msgid ":admin-docs:`PGP </system/integrations/pgp/index.html>`"
 msgstr ""
 
-#: ../extras/secure-email.rst:25
+#: ../extras/secure-email.rst:26
 msgid ":admin-docs:`S/MIME </system/integrations/smime/index.html>`"
 msgstr ""
 
-#: ../extras/secure-email.rst:28
+#: ../extras/secure-email.rst:29
 msgid "Overview"
 msgstr ""
 
-#: ../extras/secure-email.rst:30
+#: ../extras/secure-email.rst:31
 msgid "PGP and S/MIME are the most widely-supported methods for secure email communication. With each of the systems, you can exchange **signed** and **encrypted** messages with others."
 msgstr ""
 
-#: ../extras/secure-email.rst:37
+#: ../extras/secure-email.rst:38
 msgid "Signing"
 msgstr ""
 
-#: ../extras/secure-email.rst:35
+#: ../extras/secure-email.rst:36
 msgid "is a proof that a message hasn't been manipulated on its way."
 msgstr ""
 
-#: ../extras/secure-email.rst:37
+#: ../extras/secure-email.rst:38
 msgid "In other words, it guarantees message **integrity** and **authenticity**."
 msgstr ""
 
-#: ../extras/secure-email.rst:43
+#: ../extras/secure-email.rst:44
 msgid "Encryption"
 msgstr ""
 
-#: ../extras/secure-email.rst:40
+#: ../extras/secure-email.rst:41
 msgid "scrambles a message so that it can only be unscrambled by the intended recipient."
 msgstr ""
 
-#: ../extras/secure-email.rst:43
+#: ../extras/secure-email.rst:44
 msgid "In other words, it guarantees message **privacy** and **data security**."
 msgstr ""
 
-#: ../extras/secure-email.rst:45
+#: ../extras/secure-email.rst:46
 msgid "🤝 **PGP and S/MIME are only working if the other party is using them too.**"
 msgstr ""
 
-#: ../extras/secure-email.rst:48
+#: ../extras/secure-email.rst:49
 msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin panel."
 msgstr ""
 
-#: ../extras/secure-email.rst:51
+#: ../extras/secure-email.rst:52
 msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons."
 msgstr ""
 
-#: ../extras/secure-email.rst:61
+#: ../extras/secure-email.rst:62
 msgid "Screenshot of ticket creation with configured PGP and S/MIME"
 msgstr ""
 
-#: ../extras/secure-email.rst:61
+#: ../extras/secure-email.rst:62
 msgid "Ticket creation with configured PGP *and* S/MIME and available certificates/keys."
 msgstr ""
 
-#: ../extras/secure-email.rst:65
-#: ../extras/secure-email.rst:158
+#: ../extras/secure-email.rst:66
+#: ../extras/secure-email.rst:159
 msgid "📬 Incoming"
 msgstr ""
 
-#: ../extras/secure-email.rst:67
+#: ../extras/secure-email.rst:68
 msgid "The 🔒 and ✅ icons at the top of a message indicate its encryption and signing status."
 msgstr ""
 
-#: ../extras/secure-email.rst:75
+#: ../extras/secure-email.rst:76
 msgid "Screencast showing details of encryption and signing status"
 msgstr ""
 
-#: ../extras/secure-email.rst:75
+#: ../extras/secure-email.rst:76
 msgid "Click on an incoming message to expand its details. Hover over the security status to show more information."
 msgstr ""
 
-#: ../extras/secure-email.rst:78
+#: ../extras/secure-email.rst:79
 msgid "Status Icons (Incoming)"
 msgstr ""
 
-#: ../extras/secure-email.rst:81
-#: ../extras/secure-email.rst:119
+#: ../extras/secure-email.rst:82
+#: ../extras/secure-email.rst:120
 msgid "|lock|"
 msgstr ""
 
-#: ../extras/secure-email.rst:137
-#: ../extras/secure-email.rst:137
-#: ../extras/secure-email.rst:137
+#: ../extras/secure-email.rst:138
+#: ../extras/secure-email.rst:138
+#: ../extras/secure-email.rst:138
 msgid "lock"
 msgstr ""
 
-#: ../extras/secure-email.rst:82
+#: ../extras/secure-email.rst:83
 msgid "This message was **encrypted for you**."
 msgstr ""
 
-#: ../extras/secure-email.rst:84
+#: ../extras/secure-email.rst:85
 msgid "Even if it was intercepted by a third party (hacker, gov't agency, etc.), they won't be able to read it."
 msgstr ""
 
-#: ../extras/secure-email.rst:87
+#: ../extras/secure-email.rst:88
 msgid "|encryption-error|"
 msgstr ""
 
-#: ../extras/secure-email.rst:150
-#: ../extras/secure-email.rst:150
+#: ../extras/secure-email.rst:151
+#: ../extras/secure-email.rst:151
 msgid "encryption-error"
 msgstr ""
 
-#: ../extras/secure-email.rst:88
+#: ../extras/secure-email.rst:89
 msgid "This message can **not be decrypted**."
 msgstr ""
 
-#: ../extras/secure-email.rst:90
-#: ../extras/secure-email.rst:128
+#: ../extras/secure-email.rst:91
+#: ../extras/secure-email.rst:129
 msgid "|signed|"
 msgstr ""
 
-#: ../extras/secure-email.rst:144
-#: ../extras/secure-email.rst:144
-#: ../extras/secure-email.rst:144
+#: ../extras/secure-email.rst:145
+#: ../extras/secure-email.rst:145
+#: ../extras/secure-email.rst:145
 msgid "signed"
 msgstr ""
 
-#: ../extras/secure-email.rst:91
+#: ../extras/secure-email.rst:92
 msgid "This message's signature has been **successfully verified**."
 msgstr ""
 
-#: ../extras/secure-email.rst:93
+#: ../extras/secure-email.rst:94
 msgid "You can be confident that it's authentic and that the content has not been modified."
 msgstr ""
 
-#: ../extras/secure-email.rst:96
-#: ../extras/secure-email.rst:134
+#: ../extras/secure-email.rst:97
+#: ../extras/secure-email.rst:135
 msgid "|not-signed|"
 msgstr ""
 
-#: ../extras/secure-email.rst:147
-#: ../extras/secure-email.rst:147
-#: ../extras/secure-email.rst:147
+#: ../extras/secure-email.rst:148
+#: ../extras/secure-email.rst:148
+#: ../extras/secure-email.rst:148
 msgid "not-signed"
 msgstr ""
 
-#: ../extras/secure-email.rst:97
+#: ../extras/secure-email.rst:98
 msgid "The verification of the signature of this message has **failed**. You can find more information by hovering over the icon."
 msgstr ""
 
-#: ../extras/secure-email.rst:101
-#: ../extras/secure-email.rst:192
+#: ../extras/secure-email.rst:102
+#: ../extras/secure-email.rst:193
 msgid "📮 Outgoing"
 msgstr ""
 
-#: ../extras/secure-email.rst:103
+#: ../extras/secure-email.rst:104
 msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing for outgoing emails."
 msgstr ""
 
-#: ../extras/secure-email.rst:106
+#: ../extras/secure-email.rst:107
 msgid "Outgoing emails can only be encrypted for *a single recipient*."
 msgstr ""
 
-#: ../extras/secure-email.rst:113
+#: ../extras/secure-email.rst:114
 msgid "Screencast showing encryption and signing status for both new tickets and replies"
 msgstr ""
 
-#: ../extras/secure-email.rst:113
+#: ../extras/secure-email.rst:114
 msgid "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and replies. Hover over the buttons to show details."
 msgstr ""
 
-#: ../extras/secure-email.rst:116
+#: ../extras/secure-email.rst:117
 msgid "Status Icons (Outgoing)"
 msgstr ""
 
-#: ../extras/secure-email.rst:120
+#: ../extras/secure-email.rst:121
 msgid "This message **will be encrypted**."
 msgstr ""
 
-#: ../extras/secure-email.rst:122
+#: ../extras/secure-email.rst:123
 msgid "Even if it's intercepted by a third party (hacker, gov't agency, etc.), they won't be able to read it."
 msgstr ""
 
-#: ../extras/secure-email.rst:125
+#: ../extras/secure-email.rst:126
 msgid "|open-lock|"
 msgstr ""
 
-#: ../extras/secure-email.rst:141
-#: ../extras/secure-email.rst:141
+#: ../extras/secure-email.rst:142
+#: ../extras/secure-email.rst:142
 msgid "open-lock"
 msgstr ""
 
-#: ../extras/secure-email.rst:126
+#: ../extras/secure-email.rst:127
 msgid "This message **will not be encrypted**."
 msgstr ""
 
-#: ../extras/secure-email.rst:129
+#: ../extras/secure-email.rst:130
 msgid "This message **will be signed**."
 msgstr ""
 
-#: ../extras/secure-email.rst:131
+#: ../extras/secure-email.rst:132
 msgid "Recipients can verify that it came from you and that the content has not been modified."
 msgstr ""
 
-#: ../extras/secure-email.rst:135
+#: ../extras/secure-email.rst:136
 msgid "This message **will not be signed**."
 msgstr ""
 
-#: ../extras/secure-email.rst:155
+#: ../extras/secure-email.rst:156
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../extras/secure-email.rst:173
+#: ../extras/secure-email.rst:174
 msgid "“Sign: Unable to find certificate for validation”"
 msgstr ""
 
@@ -4974,55 +4974,55 @@ msgstr ""
 msgid "Ticket article shows a warning for failed verification of a signed message"
 msgstr ""
 
-#: ../extras/secure-email.rst:165
+#: ../extras/secure-email.rst:166
 msgid "Without the sender's certificate, Zammad cannot verify the message signature."
 msgstr ""
 
-#: ../extras/secure-email.rst:167
+#: ../extras/secure-email.rst:168
 msgid "Ask your administrator to add the sender's certificate to Zammad's certificate store."
 msgstr ""
 
-#: ../extras/secure-email.rst:169
+#: ../extras/secure-email.rst:170
 msgid "🕵️ **ALWAYS verify certificates in-person or over the phone!**"
 msgstr ""
 
-#: ../extras/secure-email.rst:171
+#: ../extras/secure-email.rst:172
 msgid "The whole point of signature verification is to alert you when someone is trying to pretend to be someone they're not. Never accept a certificate from someone online without verifying it first."
 msgstr ""
 
-#: ../extras/secure-email.rst:189
+#: ../extras/secure-email.rst:190
 msgid "“Encryption: Unable to find private key to decrypt”"
 msgstr ""
 
-#: ../extras/secure-email.rst:180
+#: ../extras/secure-email.rst:181
 msgid "This message was encrypted with a certificate that does not match any on file. Without a matching private key, Zammad cannot decrypt the message."
 msgstr ""
 
-#: ../extras/secure-email.rst:183
+#: ../extras/secure-email.rst:184
 msgid "Ask your administrator to verify your organization's private key in Zammad's certificate store, and ask the sender to double-check the public key they used to encrypt the message."
 msgstr ""
 
-#: ../extras/secure-email.rst:186
+#: ../extras/secure-email.rst:187
 msgid "📢 **Your public key can be safely shared with anyone.**"
 msgstr ""
 
-#: ../extras/secure-email.rst:188
+#: ../extras/secure-email.rst:189
 msgid "(But if they're smart, they'll take extra precautions to make sure it really belongs to you.)"
 msgstr ""
 
-#: ../extras/secure-email.rst:195
+#: ../extras/secure-email.rst:196
 msgid "The 🔒 **Encrypt** button is disabled"
 msgstr ""
 
-#: ../extras/secure-email.rst:195
+#: ../extras/secure-email.rst:196
 msgid "Ask your administrator to add the recipient's certificate to Zammad's certificate store."
 msgstr ""
 
-#: ../extras/secure-email.rst:197
+#: ../extras/secure-email.rst:198
 msgid "The ✅ **Sign** button is disabled"
 msgstr ""
 
-#: ../extras/secure-email.rst:198
+#: ../extras/secure-email.rst:199
 msgid "Ask your administrator to verify your organization's private key in Zammad's certificate store."
 msgstr ""
 
@@ -5040,15 +5040,15 @@ msgid "Screenshot showing the sub menu of the Update button with macros and an\n
 msgstr ""
 
 #: ../extras/shared-drafts.rst:12
-msgid "By using ᐱ next to the \"Update\" button Zammad will provide you with an option to save your draft (and thus share it) if the option is enabled."
+msgid "By using ^ next to the \"Update\" button Zammad will provide you with an option to save your draft (and thus share it) if the option is enabled."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:15
-msgid "**🤔 Huh? I don’t see “Share Draft” option...**"
+msgid "**🤔 Huh? I don't see “Share Draft” option...**"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:17
-msgid "This feature is **optional**; if you don’t see it in the menu, that means your administrator disabled this function. Administrators can learn more in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
+msgid "This feature is **optional**; if you don't see it in the menu, that means your administrator disabled this function. Administrators can learn more in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:22
@@ -5196,7 +5196,7 @@ msgid "Existing ticket"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:126
-msgid "Use the ᐱ button next to the update button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option \"Save Draft\"."
+msgid "Use the ^ button next to the update button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option \"Save Draft\"."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:130
@@ -5228,7 +5228,7 @@ msgid "Set Up Two-Factor Authentication"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:18
-msgid "If the system admin has enabled this feature, you can head to \"Avatar -> Profile -> Password & Authentication\" to set it up. Depending on the enabled two-factor methods, you may see one or more options in the table."
+msgid "If the system admin has enabled this feature, you can head to \"Avatar > Profile > Password & Authentication\" to set it up. Depending on the enabled two-factor methods, you may see one or more options in the table."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:22
@@ -5326,7 +5326,7 @@ msgid "Recovery Codes Modal Dialog"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:119
-msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on **Regenerate recovery codes** button in \"Avatar -> Profile -> Password & Authentication\"."
+msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on **Regenerate recovery codes** button in \"Avatar > Profile > Password & Authentication\"."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:125
@@ -5334,7 +5334,7 @@ msgid "Set a Two-Factor Method as Default"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:127
-msgid "To set an already set up two-factor method as default, use the ⋮ **Actions** menu next to it in \"Avatar -> Profile -> Password & Authentication\" and choose **Set as default**."
+msgid "To set an already set up two-factor method as default, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Set as default**."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5355,7 +5355,7 @@ msgid "Edit a Two-Factor Method"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:145
-msgid "To edit an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar -> Profile -> Password & Authentication\" and choose **Edit**."
+msgid "To edit an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Edit**."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:155
@@ -5367,7 +5367,7 @@ msgid "Remove a Two-Factor Method"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:163
-msgid "To remove an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar -> Profile -> Password & Authentication\" and choose **Remove**."
+msgid "To remove an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Remove**."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5388,7 +5388,7 @@ msgid "Your system admin may choose to require you to set up at least one two-fa
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:185
-msgid "Choose a method of your choice, and then follow its `setup guide`_."
+msgid "Choose a method of your choice, and then follow its :ref:`setup guide <setup guide>`."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:188
@@ -5428,15 +5428,11 @@ msgstr ""
 msgid "If your device is not able to scan the QR code, first click on it to reveal your secret. Next, add a manual entry to your authenticator app and enter the provided secret when asked."
 msgstr ""
 
-#: ../extras/two-factor-authentication/authenticator-app-setup.rst:0
-msgid "Authenticator App Secret Revealed"
-msgstr ""
-
-#: ../extras/two-factor-authentication/authenticator-app-setup.rst:33
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:29
 msgid "Your authenticator app should immediately add the new entry for your Zammad account, and a 6-digit code will be displayed next to it together with a timer."
 msgstr ""
 
-#: ../extras/two-factor-authentication/authenticator-app-setup.rst:36
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:32
 msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on **Set Up**."
 msgstr ""
 
