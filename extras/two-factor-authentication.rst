@@ -15,8 +15,8 @@ the account.
 Set Up Two-Factor Authentication
 --------------------------------
 
-If the system admin has enabled this feature, you can head to "Avatar -> Profile
--> Password & Authentication" to set it up. Depending on the enabled two-factor
+If the system admin has enabled this feature, you can head to "Avatar > Profile
+> Password & Authentication" to set it up. Depending on the enabled two-factor
 methods, you may see one or more options in the table.
 
 To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose
@@ -119,13 +119,13 @@ place. Once used, a recovery code cannot be reused.
 You also have an option to regenerate your recovery codes at any time, which
 invalidates already existing recovery codes and provides you with a list of
 fresh codes. You can do this by clicking on **Regenerate recovery codes** button
-in "Avatar -> Profile -> Password & Authentication".
+in "Avatar > Profile > Password & Authentication".
 
 Set a Two-Factor Method as Default
 ----------------------------------
 
 To set an already set up two-factor method as default, use the ⋮ **Actions**
-menu next to it in "Avatar -> Profile -> Password & Authentication" and choose
+menu next to it in "Avatar > Profile > Password & Authentication" and choose
 **Set as default**.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-default.png
@@ -143,7 +143,7 @@ Edit a Two-Factor Method
 ------------------------
 
 To edit an already set up two-factor method, use the ⋮ **Actions** menu
-next to it in "Avatar -> Profile -> Password & Authentication" and choose
+next to it in "Avatar > Profile > Password & Authentication" and choose
 **Edit**.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-edit.png
@@ -161,7 +161,7 @@ Remove a Two-Factor Method
 --------------------------
 
 To remove an already set up two-factor method, use the ⋮ **Actions** menu
-next to it in "Avatar -> Profile -> Password & Authentication" and choose
+next to it in "Avatar > Profile > Password & Authentication" and choose
 **Remove**.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-remove.png
@@ -182,7 +182,7 @@ you will be asked to do so at your next sign-in or application reload.
    :alt: Remove Two-Factor Method in Password & Authentication
    :align: center
 
-Choose a method of your choice, and then follow its `setup guide`_.
+Choose a method of your choice, and then follow its :ref:`setup guide <setup guide>`.
 
 .. warning::
    If you are required to set up a two-factor authentication for your account,

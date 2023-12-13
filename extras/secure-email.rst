@@ -2,7 +2,8 @@
 ============
 
 Zammad supports two systems of high-security email communication:
-   * Pretty Good Privacy (PGP) 
+
+   * Pretty Good Privacy (PGP)
    * Secure/Multipurpose Internet Mail Extensions (S/MIME).
 
 .. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
@@ -13,8 +14,8 @@ Zammad supports two systems of high-security email communication:
    Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and
    signing of outgoing emails.
 
-.. note:: **🤔 Huh? I don't see “Sign” or “Encrypt” options in the ticket 
-   view...** 
+.. note:: **🤔 Huh? I don't see “Sign” or “Encrypt” options in the ticket
+   view...**
 
    This feature is **optional**;
    if you don't see it in the ticket composer,
@@ -28,7 +29,7 @@ Overview
 --------
 
 PGP and S/MIME are the most widely-supported methods for secure email
-communication. With each of the systems, you can exchange **signed** and 
+communication. With each of the systems, you can exchange **signed** and
 **encrypted** messages with others.
 
 Signing
@@ -54,7 +55,7 @@ Encryption
    Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons.
 
 .. figure:: /images/extras/secure-email/pgp_and_smime.png
-   :alt: Screenshot of ticket creation with configured PGP and S/MIME 
+   :alt: Screenshot of ticket creation with configured PGP and S/MIME
    :scale: 50%
    :align: center
 
@@ -77,7 +78,7 @@ status.
 
 .. list-table:: Status Icons (Incoming)
    :widths: 5 45
-   
+
    * - |lock|
      - This message was **encrypted for you**.
 
@@ -115,7 +116,7 @@ to turn on encryption and signing for outgoing emails.
 
 .. list-table:: Status Icons (Outgoing)
    :widths: 5 45
-   
+
    * - |lock|
      - This message **will be encrypted**.
 

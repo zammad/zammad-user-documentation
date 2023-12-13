@@ -9,12 +9,12 @@ Load, modify and safe an existing draft e.g. as QA process with colleagues.
          option to save the draft
    :align: center
 
-   By using ᐱ next to the "Update" button Zammad will provide you with an option
+   By using ^ next to the "Update" button Zammad will provide you with an option
    to save your draft (and thus share it) if the option is enabled.
 
-.. note:: **🤔 Huh? I don’t see “Share Draft” option...** 
+.. note:: **🤔 Huh? I don't see “Share Draft” option...**
 
-   This feature is **optional**; if you don’t see it in the menu,
+   This feature is **optional**; if you don't see it in the menu,
    that means your administrator disabled this function.
    Administrators can learn more in our
    :admin-docs:`admin documentation </manage/groups/settings.html>`.
@@ -123,7 +123,7 @@ New ticket
          :alt: Screencast showing how to rename / update existing shared drafts
 
 Existing ticket
-   Use the ᐱ button next to the update button. If the group of the ticket
+   Use the ^ button next to the update button. If the group of the ticket
    (or in your selection) allows shared drafts, Zammad will provide the option
    "Save Draft".
 
