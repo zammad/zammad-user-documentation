@@ -23,7 +23,7 @@ Admin
    Admins can configure user accesses, time recording settings, templates,
    and text modules and, on a higher level, integrations, reporting, etc.
    So if you're looking to make a change within your Zammad and you find that
-   it doesn't work, find an admin in your organization and ask them – chances
+   it doesn't work, find an admin in your organization and ask them - chances
    are, they can help.
 
 Agent
@@ -35,17 +35,12 @@ Agent
 API
    An API (Application Programming Interface) is a connection that allows you
    to create or modify business objects. Zammad has a REST
-   (`Representational State Transfer`_) API that allows our users,
-   among other things, to connect third-party systems to their instance
-   (such as social media or messengers).
-   
-   You can learn more on our `API landing page`_.
+   (`Representational State Transfer <https://en.wikipedia.org/wiki/Representational_state_transfer>`_)
+   API that allows our users, among other things, to connect third-party systems
+   to their instance (such as social media or messengers).
 
-.. _Representational State Transfer:
-   https://en.wikipedia.org/wiki/Representational_state_transfer
-
-.. _API landing page:
-   https://zammad.com/en/product/features/rest-api
+   You can learn more on our
+   `API landing page <https://zammad.com/en/product/features/rest-api>`_.
 
 Automation
    There are many processes that can be automated with Zammad.
@@ -61,12 +56,10 @@ Article
 Autosave
    Autosave might be one of the coolest traits of Zammad:
    It saves all your work as you go along, so if you ever log out unexpectedly
-   or your browser crashes (we’ve all been there…) none of your work gets lost!
-   
-   You can learn more on our `Autosave landing page`_.
+   or your browser crashes (we've all been there…) none of your work gets lost!
 
-.. _Autosave landing page:
-   https://zammad.com/en/product/features/autosave
+   You can learn more on our
+   `Autosave landing page <https://zammad.com/en/product/features/autosave>`_.
 
 B
 -
@@ -94,26 +87,18 @@ Custom Development (CD)
 Changelog
    With every new release comes a new changelog. It is basically a list of all
    the things that have changed, from new enhancements to bug fixes.
-   
-   `You can find them all on our GitHub`_!
 
-.. _You can find them all on our GitHub:
-   https://github.com/zammad/zammad/blob/stable/CHANGELOG.md
+   You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/stable/CHANGELOG.md>`_!
 
 Customer
    A customer is a person that you communicate with from within Zammad.
    Every customer receives a profile page, which we call the
-   `Customer Information Page`_, and it shows all the tickets of this particular
-   customer.
+   `Customer Information Page <https://user-docs.zammad.org/en/latest/extras/customers.html>`_,
+   and it shows all the tickets of this particular customer.
    Various customers can be assigned to the same organization.
-   Each customer can access their individual `Customer Interface`_, where they
-   see all their tickets with the current status and live updates.
-
-.. _Customer Information Page:
-   https://user-docs.zammad.org/en/latest/extras/customers.html
-
-.. _Customer Interface:
-   https://zammad.com/en/product/features/customer-interface
+   Each customer can access their individual
+   `Customer Interface <https://zammad.com/en/product/features/customer-interface>`_,
+   where they see all their tickets with the current status and live updates.
 
 Core Workflows
    This feature allows every organization to configure their individual dynamic
@@ -131,16 +116,14 @@ CTI
    This includes, for example, a call log, an overview of which agent is
    currently on a call, a caller ID search, and even a Do-Not-Disturb-Mode.
 
-   `Learn more on our CTI landing page`_.
+   You can learn more on our `CTI landing page <https://zammad.com/en/product/features/cti-integration>`_.
 
-   Here's the fitting documentation pages:
+   Here you can find the fitting documentation pages:
 
       * :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
       * :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
       * :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
 
-.. _Learn more on our CTI landing page:
-   https://zammad.com/en/product/features/cti-integration
 
 Checkmk
    Checkmk is a powerful IT monitoring tool that can send real-time status
@@ -167,7 +150,7 @@ Conflict Warning
    avatar and a little pen at the bottom of your ticket, it means they are
    currently editing it.
 
-   :ref:`Learn more on our following up page <caution-im-working-here>`.
+   Learn more on our :ref:`following up page <caution-im-working-here>`.
 
 D
 -
@@ -183,7 +166,7 @@ Dashboard
    Learn more on :doc:`/extras/dashboard`.
 
 Documentation
-   If this Glossary isn’t enough already (just kidding, it won’t be),
+   If this Glossary isn't enough already (just kidding, it won't be),
    our Documentation is the place to head to for all information on Zammad,
    especially when it comes to the more technical aspects,
    such as settings or installations.
@@ -250,13 +233,11 @@ Feature
 
 Feature request
    Users can let us know if they are missing a particular feature in Zammad.
-   We collect all of their wishes 
-   `in our Community in the Feature Request category`_. 
+   We collect all of their wishes
+   `in our Community in the Feature Request category <https://community.zammad.org/c/stuff-you-like-zammad-to-have-feel-free-to-discuss-and-add-proposals/6>`_.
    If a request comes in regularly and we feel that it would be a
    great addition, we'll put it on our roadmap and start working on it.
 
-.. _in our Community in the Feature Request category:
-   https://community.zammad.org/c/stuff-you-like-zammad-to-have-feel-free-to-discuss-and-add-proposals/6
 
 Feature sponsoring
    If an organization urgently requires one of the features on the list,
@@ -278,10 +259,7 @@ Groups
    you might remember the principle of "queues".
    The groups in Zammad are the same as the queues in OTRS.
 
-   `Learn more on our group landing page`_.
-
-.. _Learn more on our group landing page:
-   https://zammad.com/en/product/features/groups
+   You can learn more on our `group landing page <https://zammad.com/en/product/features/groups>`_.
 
 Grafana
    Grafana is an open-source reporting tool.
@@ -304,7 +282,7 @@ GitHub
    As Zammad in an open-source project, many developers and tech-lovers from all
    over the world contribute to it. GitHub is where we coordinate all of this.
 
-   `You can find the repository here`_.
+   You can find the repository `here <https://github.com/zammad/zammad>`_.
 
    Besides our own repo, Zammad also has an integration for GitHub.
    It creates a data exchange that shows you all relevant information about your
@@ -314,9 +292,6 @@ GitHub
    :admin-docs:`in the admin documentation </system/integrations/github.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/github-gitlab-integration`.
-
-.. _You can find the repository here:
-   https://github.com/zammad/zammad
 
 GitLab
    GitLab is similar to GitHub.
@@ -358,10 +333,7 @@ Icinga
    It can be integrated into Zammad so that it triggers a ticket in case
    of a warning situation.
 
-   `Learn more about Icinga on our landing page`_.
-
-.. _Learn more about Icinga on our landing page:
-   https://zammad.com/en/product/features/icinga-integration
+   You can learn more on our `Icinga landing page <https://zammad.com/en/product/features/icinga-integration>`_.
 
 Issue-tracking system
    Issue trackers are usually systems that track processes on a technical level.
@@ -380,9 +352,9 @@ K
 -
 
 Knowledge Base
-   Think of a very extensive set of FAQs – that’s exactly what the
+   Think of a very extensive set of FAQs - that's exactly what the
    Zammad knowledge base is. It collects all important information:
-   definitions, processes, how-to’s, organigrams, etc.
+   definitions, processes, how-to's, organigrams, etc.
 
    Knowledge base articles can be either internal or external, so you can
    either show them to the world (good for information on your product or
@@ -404,10 +376,7 @@ Kibana
 
    .. hint:: **🤓 This does not apply to SaaS Zammad instances.**
 
-   `Learn more about Kibana on our landing page`_.
-
-.. _Learn more about Kibana on our landing page:
-   https://zammad.com/en/product/features/kibana-integration
+   You can learn more on our `Kibana landing page <https://zammad.com/en/product/features/kibana-integration>`_.
 
 L
 -
@@ -448,13 +417,10 @@ Migrator / Migration Wizard
 
 Monit
    Monit is an open-source monitoring tool that relies on a simple setup and
-   a strong community. You can integrate it with Zammad – this way,
+   a strong community. You can integrate it with Zammad - this way,
    a ticket is created every time you receive an email in Monit.
 
-   `Learn more about Monit on our landing page`_.
-
-.. _Learn more about Monit on our landing page:
-   https://zammad.com/en/product/features/monit-integration
+   You can learn more on our `Monit landing page <https://zammad.com/en/product/features/monit-integration>`_.
 
 Mentions
    Mentions are a Zammad feature that allows you to tag another agent in a
@@ -472,10 +438,7 @@ Nagios
    Nagios can be integrated with Zammad so that a ticket is created in case of
    an alert.
 
-   `Learn more about Nagios on our landing page`_.
-
-.. _Learn more about Nagios on our landing page:
-   https://zammad.com/en/product/features/nagios-integration
+   You can learn more on our `Nagios landing page <https://zammad.com/en/product/features/nagios-integration>`_.
 
 O
 -
@@ -546,7 +509,7 @@ Role
    Agents can view and edit tickets, but not change any settings other than
    those of their own profiles.
 
-   Customers can view their tickets’ processing status in their
+   Customers can view their tickets' processing status in their
    individual Customer Interface.
 
 Release
@@ -569,10 +532,7 @@ SSO
 
    .. hint:: 🤓 Self Hosted users can also use Kerberos authentication.
 
-   `You can learn more about SSO on our landing page`_.
-
-.. _You can learn more about SSO on our landing page:
-   https://zammad.com/en/product/features/sso
+   You can learn more on our `SSO landing page <https://zammad.com/en/product/features/sso>`_.
 
 S/MIME
    S/MIME is the most widely-supported method for secure email communication.
@@ -607,10 +567,7 @@ SLA
    for the first response, an update, and a solution. Once the deadline has been
    reached, the ticket will escalate.
 
-   `Learn more about SLAs on our landing page`_.
-
-.. _Learn more about SLAs on our landing page:
-   https://zammad.com/en/product/features/sla
+   You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_.
 
 Status
    Every ticket has a status. You can change it once you've updated the ticket.

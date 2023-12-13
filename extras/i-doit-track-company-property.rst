@@ -1,8 +1,8 @@
-i-doit: Use Tickets to Track Company Property
-=============================================
+i-doit: Track Company Property
+==============================
 
 With `i-doit <https://www.i-doit.com/>`_ integration,
-you can list which pieces of your company’s property
+you can list which pieces of your company's property
 are related to any given ticket.
 That includes both physical and digital infrastructure,
 from servers to meeting rooms to virtual machines to software licenses.
@@ -12,13 +12,13 @@ from servers to meeting rooms to virtual machines to software licenses.
    :scale: 50%
    :align: center
 
-   Use the 🖨 **printer** tab to view or manage a ticket’s assets from i-doit.
+   Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit.
 
-.. note:: **🤔 Huh? I don’t see a 🖨 printer tab...**
+.. note:: **🤔 Huh? I don't see a 🖨 printer tab...**
 
    This feature is **optional**;
-   if you don’t see it in the ticket view,
-   that means your administrator hasn’t enabled it yet.
+   if you don't see it in the ticket view,
+   that means your administrator hasn't enabled it yet.
    Administrators can learn more
    :admin-docs:`here </system/integrations/i-doit.html>`.
 
@@ -28,10 +28,10 @@ Why?
 i-doit can help you keep track of troublesome equipment
 and find previous tickets from the last time something went wrong with it.
 
-It’s also a great way to document quirks in the company’s belongings:
-Why haven’t we upgraded this system from Windows Vista yet?
+It's also a great way to document quirks in the company's belongings:
+Why haven't we upgraded this system from Windows Vista yet?
 What did we decide to do about that faulty network switch?
-And why does the coffee maker keep shutting off before it’s finished? 🤬
+And why does the coffee maker keep shutting off before it's finished? 🤬
 
 So How Does It Work?
 --------------------
@@ -40,7 +40,7 @@ So How Does It Work?
 
    Ask your administrator / IT personnel to give you a tour—otherwise,
    the directions below might not make much sense.
-   (And if your organization isn’t already using i-doit,
+   (And if your organization isn't already using i-doit,
    this guide is not for you.)
 
 In Zammad: Link i-doit assets to tickets
@@ -72,10 +72,10 @@ a list of all the tickets associated with each asset:
    :alt: (Screencast) See a list of all tickets for an asset in i-doit
    :align: center
 
-   Click the 💬 in the toolbar to list an asset’s tickets.
+   Click the 💬 in the toolbar to list an asset's tickets.
    Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad.
 
-You can even launch Zammad’s new ticket dialog directly from i-doit,
+You can even launch Zammad's new ticket dialog directly from i-doit,
 with the asset already linked for you:
 
 .. figure:: /images/extras/i-doit-track-company-property/add-ticket-with-idoit-asset_via-idoit.gif
