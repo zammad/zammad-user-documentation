@@ -26,10 +26,6 @@ code in the middle.
    your secret. Next, add a manual entry to your authenticator app and enter the
    provided secret when asked.
 
-   .. figure:: /images/extras/two-factor-authentication/authenticator-app-reveal-secret.png
-      :alt: Authenticator App Secret Revealed
-      :align: center
-
 Your authenticator app should immediately add the new entry for your Zammad
 account, and a 6-digit code will be displayed next to it together with a timer.
 
