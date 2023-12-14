@@ -11,7 +11,7 @@ they can be **linked to each other** for easier reference.
 
    Click the *➕ Add Link* button to access the link dialog.
 
-.. figure:: /images/advanced/ticket-actions/link-dialog.jpg
+.. figure:: /images/advanced/ticket-actions/link-dialog.png
    :alt: Link dialog
    :align: center
 

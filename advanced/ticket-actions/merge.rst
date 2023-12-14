@@ -21,7 +21,7 @@ In such cases, you may want to **merge those tickets into one**.
    then Ticket A will be emptied, closed,
    and :doc:`linked as a child <link>` of Ticket B.
 
-.. figure:: /images/advanced/ticket-actions/merge-dialog.jpg
+.. figure:: /images/advanced/ticket-actions/merge-dialog.png
    :alt: Merge ticket dialog
    :align: center
 

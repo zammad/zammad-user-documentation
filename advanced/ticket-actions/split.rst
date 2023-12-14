@@ -9,14 +9,14 @@ In such cases, you can **split off a single message into its own ticket**.
 (Alternately, it may make more sense to
 :ref:`simply take turns on a single ticket <sharing-work>` instead.)
 
-.. figure:: /images/advanced/ticket-actions/split.jpg
+.. figure:: /images/advanced/ticket-actions/split.png
    :alt: Split ticket button
    :align: center
 
    Click the “split” button to take a message and use it as the starting point
    for a new ticket.
 
-.. figure:: /images/advanced/ticket-actions/split-dialog.jpg
+.. figure:: /images/advanced/ticket-actions/split-dialog.png
    :alt: Split ticket dialog
    :align: center
 
