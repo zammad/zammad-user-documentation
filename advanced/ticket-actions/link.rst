@@ -14,6 +14,7 @@ they can be **linked to each other** for easier reference.
 .. figure:: /images/advanced/ticket-actions/link-dialog.png
    :alt: Link dialog
    :align: center
+   :scale: 80%
 
    The link dialog. Specify a ticket to link with by ID (1),
    or select one from the list (2).
