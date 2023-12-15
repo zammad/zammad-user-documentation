@@ -34,7 +34,7 @@ Customer":
 .. figure:: /images/extras/customers-edit-dialog.png
    :alt: Edit customer dialog
    :align: center
-   :scale: 90%
+   :scale: 80%
 
    The edit customer dialog.
 
