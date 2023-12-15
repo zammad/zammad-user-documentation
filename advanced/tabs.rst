@@ -46,7 +46,7 @@ right already.
       preference.
 
    .. figure:: /images/advanced/tabs/tab-behavior.png
-      :width: 80%
+      :width: 100%
       :alt: Tab behavior can be adjusted in tickets manually
 
 To overrule your administrator's settings, simply choose the action
