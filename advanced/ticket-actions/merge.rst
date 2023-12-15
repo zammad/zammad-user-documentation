@@ -10,6 +10,7 @@ In such cases, you may want to **merge those tickets into one**.
 .. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
    :alt: Ticket pane submenu
    :align: center
+   :scale: 60%
 
    To merge a ticket, access the **Ticket ▾** submenu in the ticket pane.
 
@@ -21,9 +22,10 @@ In such cases, you may want to **merge those tickets into one**.
    then Ticket A will be emptied, closed,
    and :doc:`linked as a child <link>` of Ticket B.
 
-.. figure:: /images/advanced/ticket-actions/merge-dialog.jpg
+.. figure:: /images/advanced/ticket-actions/merge-dialog.png
    :alt: Merge ticket dialog
    :align: center
+   :scale: 80%
 
    The merge dialog. Specify a ticket to merge into by ID (1),
    or select one from the list (2).

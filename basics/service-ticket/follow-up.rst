@@ -144,9 +144,9 @@ On the top of every ticket being applicable for SLA escalations, you'll find
 two dates next to the ticket number. By hovering the escalation date, Zammad
 will display all upcoming escalation times based on the SLA configuration.
 
-.. figure:: /images/basics/service-ticket/show-escalation-times.gif
-   :alt: Screencast showing agent hovering the escalation time and receiving
-         a more detailed escalation information
+.. figure:: /images/basics/service-ticket/show-escalation-times.png
+   :alt: Screenshot showing hovering over escalation note and getting
+         more detailed escalation information
 
 --------------------------------------------------------------------------------
 

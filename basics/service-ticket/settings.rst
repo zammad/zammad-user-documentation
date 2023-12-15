@@ -30,7 +30,7 @@ Renaming a Ticket
 
 To rename a ticket, simply click on the title and start typing.
 
-.. image:: /images/basics/service-ticket/settings-rename-ticket.gif
+.. figure:: /images/basics/service-ticket/settings-rename-ticket.png
    :align: center
 
 Highlighting Ticket Text
@@ -56,6 +56,7 @@ text. (Your highlights are visible to other agents.)
 
    .. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
       :alt: Ticket submenu
+      :scale: 60%
       :align: center
 
       Click the **Ticket ▾** heading to access additional actions.
