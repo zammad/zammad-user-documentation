@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 16:07+0100\n"
+"POT-Creation-Date: 2024-01-25 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1133,9 +1133,7 @@ msgstr ""
 #: ../basics/find-ticket/search.rst:33
 #: ../basics/service-ticket/create.rst:48
 #: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/follow-up.rst:55
 #: ../snippets/ui-protip-message-editor-features.rst:1
-#: ../basics/service-ticket/settings.rst:53
 #: ../extras/customers.rst:12
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
@@ -1596,7 +1594,7 @@ msgid "Click **Overviews** in the main menu to browse tickets."
 msgstr ""
 
 #: ../basics/find-ticket/browse.rst:12
-msgid "📥 Think of overviews as **inboxes**, each with a different filter for the tickets it displays."
+msgid "Think of overviews as **inboxes**, each with a different filter for the tickets it displays."
 msgstr ""
 
 #: ../basics/find-ticket/browse.rst:15
@@ -1655,7 +1653,7 @@ msgid "Search for Tickets"
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:4
-msgid "Looking for an a specific ticket? Use the **search bar**."
+msgid "Looking for an a specific ticket? Use the **search bar**:"
 msgstr ""
 
 #: ../basics/find-ticket/search.rst:10
@@ -1906,7 +1904,7 @@ msgid "Tickets are threads of messages & notes about a customer service issue. :
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:23
-msgid "📇 Any time you open a ticket, a new entry will appear in your :doc:`tab list</advanced/tabs>` in the main menu."
+msgid "Any time you open a ticket, a new entry will appear in your :doc:`tab list</advanced/tabs>` in the main menu."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:26
@@ -1934,34 +1932,30 @@ msgid "Like with new messages, your response will appear at the end of the threa
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:47
-msgid "⏩ You can also **forward messages**, just as you would in any email client (attachments are included automatically)."
+msgid "You can also **forward messages**, just as you would in any email client (attachments are included automatically). This way, you can share correspondences with people who don't have Zammad (like a third-party supplier)."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:51
-msgid "This way, you can share correspondences with people who don't have Zammad (like a third-party supplier)."
+msgid "Do you want to see **detailed information of a message**? Just click on it:"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:57
-msgid "Click on a message to see detailed information about it."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:0
+#: ../basics/service-ticket/follow-up.rst:None
 msgid "Message details view"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:64
+#: ../basics/service-ticket/follow-up.rst:58
 msgid "Adding New Messages/Notes"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:66
-msgid "Click on the text field at the end of the thread to add a follow-up."
+#: ../basics/service-ticket/follow-up.rst:60
+msgid "Click on the text field at the end of the thread to add a follow-up:"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:71
+#: ../basics/service-ticket/follow-up.rst:65
 msgid "The default follow-up type is “note”. Click the 📝 to select another type."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:73
+#: ../basics/service-ticket/follow-up.rst:67
 msgid "There are three types of follow-ups:"
 msgstr ""
 
@@ -1969,7 +1963,7 @@ msgstr ""
 msgid "📝 Note"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:77
+#: ../basics/service-ticket/follow-up.rst:71
 msgid "Jot down a reminder for yourself and other agents when new information comes in (hidden from the customer by default)."
 msgstr ""
 
@@ -1977,7 +1971,7 @@ msgstr ""
 msgid "📞 Call"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:83
+#: ../basics/service-ticket/follow-up.rst:77
 msgid "Record a summary of a phone call you had with the customer."
 msgstr ""
 
@@ -1985,63 +1979,59 @@ msgstr ""
 msgid "📧 Email"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:87
+#: ../basics/service-ticket/follow-up.rst:81
 msgid "Send an email *to anyone* about the ticket. The name of the ticket will be used for the subject line (:ref:`click on the title to rename it <rename-ticket>`)."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:91
-msgid "Click the 🔒 button to change the visibility of a note or message."
+#: ../basics/service-ticket/follow-up.rst:85
+msgid "You can **change the visibility of an article** by clicking the 🔒 button:"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:96
+#: ../basics/service-ticket/follow-up.rst:90
 msgid "“Internal” messages are outlined with a salmon border, and **can only be viewed by other agents**."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:99
+#: ../basics/service-ticket/follow-up.rst:93
 msgid "What about the **deletion of articles**? In Zammad, you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the \"delete\" button in articles of the type \"communication\" (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:107
+#: ../basics/service-ticket/follow-up.rst:101
 msgid "Using quotation"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:109
+#: ../basics/service-ticket/follow-up.rst:103
 msgid "In many cases you'll want to quote earlier text of your customer. This is important because especially on long conversations your opponent will easily loose track."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:113
+#: ../basics/service-ticket/follow-up.rst:107
 msgid "Referencing on earlier written text helps greatly to keep context and track of things. By default Zammad adds no whole quote body (this can be changed by your administrator)."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:117
+#: ../basics/service-ticket/follow-up.rst:111
 msgid "No matter if the whole quotation is active or not, you can always mark the text you want to reference and press *reply* or *reply all* after. This will cause Zammad to add the marked text as quote to the editor. You can break up quotations by using enter."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:124
+#: ../basics/service-ticket/follow-up.rst:118
 msgid "This function is limited to one article per operation. The article has to be of type *communication* (thus have a *reply* button) to function."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:132
+#: ../basics/service-ticket/follow-up.rst:126
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:132
+#: ../basics/service-ticket/follow-up.rst:126
 msgid "Mark, press reply and work with quoted text!"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:135
+#: ../basics/service-ticket/follow-up.rst:129
 msgid "🔥 Keeping an eye on escalations"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:137
-msgid "**🧐 Huh? I can't see escalation timestamps!**"
+#: ../basics/service-ticket/follow-up.rst:131
+msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`. If you can't see escalation timestamps, it is not configured by your admin."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:139
-msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:143
+#: ../basics/service-ticket/follow-up.rst:136
 msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
 msgstr ""
 
@@ -2050,32 +2040,32 @@ msgid "Screenshot showing hovering over escalation note and getting\n"
 "more detailed escalation information"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:155
-msgid "**🙅 I'm working here!**"
+#: ../basics/service-ticket/follow-up.rst:145
+msgid "Simultaneous processing of a ticket"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:157
+#: ../basics/service-ticket/follow-up.rst:149
 msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:166
+#: ../basics/service-ticket/follow-up.rst:158
 msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the lower-lefthand corner for every agent that has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:171
+#: ../basics/service-ticket/follow-up.rst:163
 msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:0
+#: ../basics/service-ticket/follow-up.rst:170
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:178
+#: ../basics/service-ticket/follow-up.rst:170
 msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:4
-msgid "Use the **ticket pane** to manage a ticket’s settings:"
+msgid "Use the **ticket pane** to manage a ticket's settings:"
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:20
@@ -2087,7 +2077,7 @@ msgid "Click the **→** button in the corner to hide the ticket pane. Click the
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:23
-msgid "🚫 Some options may not be available if you do not have the required privileges."
+msgid "The available options depend on your privileges and the configuration of your system."
 msgstr ""
 
 #: ../basics/service-ticket/settings.rst:29
@@ -2114,39 +2104,43 @@ msgstr ""
 msgid "Highlight by selecting text, then clicking the highlighter. Click again to undo."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:55
+#: ../basics/service-ticket/settings.rst:50
+msgid "Further ticket actions"
+msgstr ""
+
+#: ../basics/service-ticket/settings.rst:54
 msgid "Additional actions are available via the **submenu**:"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:0
+#: ../basics/service-ticket/settings.rst:61
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:62
+#: ../basics/service-ticket/settings.rst:61
 msgid "Click the **Ticket ▾** heading to access additional actions."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:67
+#: ../basics/service-ticket/settings.rst:66
 msgid "History"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:65
+#: ../basics/service-ticket/settings.rst:64
 msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:71
+#: ../basics/service-ticket/settings.rst:70
 msgid "Merge"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:70
+#: ../basics/service-ticket/settings.rst:69
 msgid "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details)."
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:73
+#: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
 msgstr ""
 
-#: ../basics/service-ticket/settings.rst:74
+#: ../basics/service-ticket/settings.rst:73
 msgid "Reassign the ticket to another customer."
 msgstr ""
 
@@ -2163,43 +2157,43 @@ msgid "What?"
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:11
-msgid "Suppose your organization uses Zammad for both sales and customer support. You’ve got ten different agents spread across two teams, handling dozens of tickets a day."
+msgid "Suppose your organization uses Zammad for both sales and customer support. You've got ten different agents spread across two teams, handling dozens of tickets a day."
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:15
-msgid "Without groups, all ten agents can see (and respond to) every single ticket that comes in, regardless of which department it’s for. This isn’t problematic *per se,* but it does lead to a lot of unnecessary clutter in the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, for example, a customer service rep sees tickets meant for your HR department, and finds out how much their colleagues in sales are making! 💸💸💸)"
+msgid "Without groups, all ten agents can see (and respond to) every single ticket that comes in, regardless of which department it's for. This isn't problematic *per se,* but it does lead to a lot of unnecessary clutter in the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, for example, a customer service rep sees tickets meant for your HR department, and finds out how much their colleagues in sales are making! 💸💸💸)"
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:25
-msgid "If, instead, each agent were assigned to an appropriate group, then they’d only ever see the tickets that belong to their own group."
+msgid "If, instead, each agent were assigned to an appropriate group, then they'd only ever see the tickets that belong to their own group."
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:28
-msgid "**So how do I manage which team I’m on?**"
+#: ../basics/service-ticket/settings/group.rst:29
+msgid "Managing groups"
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:30
-msgid "You don't – that's the :admin-docs:`administrator's job </manage/groups/index.html>`."
+#: ../basics/service-ticket/settings/group.rst:31
+msgid "So how do I manage which team I'm on? You don't - that's the :admin-docs:`administrator's job </manage/groups/index.html>`."
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:33
-msgid "However, you can *check* which teams you’re on in the Notifications section of your :doc:`user settings </extras/profile-and-settings>`:"
+#: ../basics/service-ticket/settings/group.rst:34
+msgid "However, you can *check* which teams you're on in the Notifications section of your :doc:`user settings </extras/profile-and-settings>`:"
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:0
+#: ../basics/service-ticket/settings/group.rst:43
 msgid "Profile > Notifications menu"
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:42
+#: ../basics/service-ticket/settings/group.rst:43
 msgid "This user belongs to only one group (“Users”)."
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:45
+#: ../basics/service-ticket/settings/group.rst:46
 msgid "So where do I come in?"
 msgstr ""
 
-#: ../basics/service-ticket/settings/group.rst:47
-msgid "If you belong to more than one group, you may re-assign a ticket from one of your groups to another. In general, though, you won’t need to do this unless you’re an admin, or an admin has discussed the procedure with you beforehand."
+#: ../basics/service-ticket/settings/group.rst:48
+msgid "If you belong to more than one group, you may re-assign a ticket from one of your groups to another. In general, though, you won't need to do this unless you're an admin, or an admin has discussed the procedure with you beforehand."
 msgstr ""
 
 #: ../basics/service-ticket/settings/owner.rst:2
