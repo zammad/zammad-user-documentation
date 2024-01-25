@@ -9,8 +9,8 @@ Looking for a ticket to work on? Check the **overviews** menu.
 
    Click **Overviews** in the main menu to browse tickets.
 
-.. hint:: 📥 Think of overviews as **inboxes**, each with a different filter
-   for the tickets it displays.
+Think of overviews as **inboxes**, each with a different filter for the tickets
+it displays.
 
 There are **six built-in overviews**
 (Zammad admin may :admin-docs:`create more </manage/overviews.html>` with

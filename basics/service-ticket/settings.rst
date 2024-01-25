@@ -1,7 +1,7 @@
 Ticket Settings
 ===============
 
-Use the **ticket pane** to manage a ticket’s settings:
+Use the **ticket pane** to manage a ticket's settings:
 
 .. toctree::
    :maxdepth: 1
@@ -20,8 +20,8 @@ Use the **ticket pane** to manage a ticket’s settings:
    Click the **→** button in the corner to hide the ticket pane. Click the 💬
    tab to bring it back.
 
-.. note:: 🚫 Some options may not be available
-   if you do not have the required privileges.
+The available options depend on your privileges and the configuration of your
+system.
 
 .. _rename-ticket:
 
@@ -46,29 +46,28 @@ text. (Your highlights are visible to other agents.)
    Highlight by selecting text, then clicking the highlighter.
    Click again to undo.
 
-----
+Further ticket actions
+----------------------
 
 .. _ticket-submenu:
 
-.. tip:: **🖱️ UI Protip**
+Additional actions are available via the **submenu**:
 
-   Additional actions are available via the **submenu**:
+.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
+   :alt: Ticket submenu
+   :scale: 60%
+   :align: center
 
-   .. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
-      :alt: Ticket submenu
-      :scale: 60%
-      :align: center
+   Click the **Ticket ▾** heading to access additional actions.
 
-      Click the **Ticket ▾** heading to access additional actions.
+History
+   See a comprehensive list of updates to the ticket,
+   performed by any user,
+   since its creation.
 
-   History
-      See a comprehensive list of updates to the ticket,
-      performed by any user,
-      since its creation.
+Merge
+   Migrate all messages/notes to another ticket
+   (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details).
 
-   Merge
-      Migrate all messages/notes to another ticket
-      (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details).
-
-   Change Customer
-      Reassign the ticket to another customer.
+Change Customer
+   Reassign the ticket to another customer.
