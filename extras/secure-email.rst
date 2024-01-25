@@ -35,6 +35,19 @@ PGP and S/MIME are the most widely-supported methods for secure email
 communication. With each of the systems, you can exchange **signed** and
 **encrypted** messages with others.
 
+.. note:: In special cases it is possible that both systems are configured in
+   your system *and* a customer is using both, as well. In this case, you have
+   an additional button to switch between PGP and S/MIME security types.
+   Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons.
+
+.. figure:: /images/extras/secure-email/pgp_and_smime.png
+   :alt: Screenshot of ticket creation with configured PGP and S/MIME
+   :scale: 80%
+   :align: center
+
+   Ticket creation with configured PGP *and* S/MIME and available
+   certificates/keys.
+
 Signing
    is a proof that a message hasn't been manipulated on its way.
 
@@ -48,19 +61,6 @@ Encryption
 
    Your administrator is responsible for adding all the necessary certificates
    and keys in Zammad's admin panel.
-
-.. note:: In special cases it is possible that both systems are configured in
-   your system *and* a customer is using both, as well. In this case, you have
-   an additional button to switch between PGP and S/MIME security types.
-   Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons.
-
-.. figure:: /images/extras/secure-email/pgp_and_smime.png
-   :alt: Screenshot of ticket creation with configured PGP and S/MIME
-   :scale: 50%
-   :align: center
-
-   Ticket creation with configured PGP *and* S/MIME and available
-   certificates/keys.
 
 📬 Incoming
 ^^^^^^^^^^^
