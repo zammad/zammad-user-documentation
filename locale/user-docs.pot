@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 14:47+0100\n"
+"POT-Creation-Date: 2024-01-25 16:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3224,84 +3224,79 @@ msgstr ""
 msgid "View and manage call logs from the **phone** panel."
 msgstr ""
 
-#: ../extras/caller-log.rst:10
-msgid "Sample view of Caller Log"
-msgstr ""
-
-#: ../extras/caller-log.rst:10
-msgid "Enable the **Phone** panel to receive notifications for incoming calls."
-msgstr ""
-
-#: ../extras/caller-log.rst:12
-msgid "**🤔 Huh? I don’t see “Phone” in the menu...**"
+#: ../extras/caller-log.rst:6
+msgid "This feature is **optional**; if you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more on our :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 
 #: ../extras/caller-log.rst:14
-msgid "This feature is **optional**; if you don’t see it in the main menu, that means your administrator hasn’t enabled it yet. Administrators can learn more on our :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`."
+msgid "Sample view of Caller Log"
 msgstr ""
 
-#: ../extras/caller-log.rst:21
+#: ../extras/caller-log.rst:14
+msgid "Enable the **Phone** panel to receive notifications for incoming calls."
+msgstr ""
+
+#: ../extras/caller-log.rst:18
 msgid "🏢 The caller log shows all incoming and outgoing calls **for the entire instance**. The number of entries shown depends on the configuration your admin chose."
 msgstr ""
 
-#: ../extras/caller-log.rst:25
+#: ../extras/caller-log.rst:22
 msgid "The caller log offers a lot more than just the last call entries. If your administrator configured \"Phone Extension to Agent Mapping\", Zammad will also help you during answering calls."
 msgstr ""
 
-#: ../extras/caller-log.rst:37
-#: ../extras/shared-drafts.rst:59
-msgid "New Ticket dialogue"
+#: ../extras/caller-log.rst:34
+msgid "New Ticket dialog"
 msgstr ""
 
-#: ../extras/caller-log.rst:30
+#: ../extras/caller-log.rst:27
 msgid "Zammad will open a new ticket dialogue if:"
 msgstr ""
 
-#: ../extras/caller-log.rst:32
+#: ../extras/caller-log.rst:29
 msgid "it's able to either guess a single user (see `maybe entries`_)"
 msgstr ""
 
-#: ../extras/caller-log.rst:33
+#: ../extras/caller-log.rst:30
 msgid "the callers number belongs to a user known to Zammad"
 msgstr ""
 
-#: ../extras/caller-log.rst:34
+#: ../extras/caller-log.rst:31
 msgid "the callers number is yet unknown"
 msgstr ""
 
-#: ../extras/caller-log.rst:36
+#: ../extras/caller-log.rst:33
 msgid "If the user is known to Zammad it will automatically set the ticket customer for you. You can correct this at any time if needed."
 msgstr ""
 
-#: ../extras/caller-log.rst:43
+#: ../extras/caller-log.rst:40
 msgid "User profile"
 msgstr ""
 
-#: ../extras/caller-log.rst:40
+#: ../extras/caller-log.rst:37
 msgid "Zammad will open the users profile if your user had a customer ticket that has been updated within the last 30 days. This also applies for calling users that Zammad guesses are a specific user (only if it's one guessed user)."
 msgstr ""
 
-#: ../extras/caller-log.rst:52
+#: ../extras/caller-log.rst:47
 msgid "Quick dial"
 msgstr ""
 
-#: ../extras/caller-log.rst:46
+#: ../extras/caller-log.rst:43
 msgid "You can click on phone numbers (user profiles and caller log) to dial the number in question quickly."
 msgstr ""
 
-#: ../extras/caller-log.rst:51
+#: ../extras/caller-log.rst:46
 msgid "This requires either a soft phone client or CTI client on your computer that supports this action."
 msgstr ""
 
-#: ../extras/caller-log.rst:56
+#: ../extras/caller-log.rst:51
 msgid "**😕 What are these \"maybe\" entries?**"
 msgstr ""
 
-#: ../extras/caller-log.rst:58
+#: ../extras/caller-log.rst:53
 msgid "During your day by day communication you may also stumble over new customers. Usually business users send their phone numbers in their signature."
 msgstr ""
 
-#: ../extras/caller-log.rst:61
+#: ../extras/caller-log.rst:56
 msgid "Zammad collects and aggregates these information and tries to guess the customer in case it receives a call from an unknown number."
 msgstr ""
 
@@ -3309,16 +3304,16 @@ msgstr ""
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
 
-#: ../extras/caller-log.rst:69
+#: ../extras/caller-log.rst:64
 msgid "👤 Click on unrecognized numbers to **create a new customer** or maybe entries to **update an existing customer**."
 msgstr ""
 
-#: ../extras/caller-log.rst:72
-msgid "(Unrecognized phone numbers cannot be added to existing customers in this way. Copy and pasting is required.)"
+#: ../extras/caller-log.rst:67
+msgid "Unrecognized phone numbers cannot be added to existing customers in this way. Copy and pasting is required."
 msgstr ""
 
-#: ../extras/caller-log.rst:77
-msgid "Existing caller log entries *are not* updated."
+#: ../extras/caller-log.rst:70
+msgid "Existing caller log entries *are not* updated when you update an existing customer."
 msgstr ""
 
 #: ../extras/chat.rst:2
@@ -3330,127 +3325,134 @@ msgstr ""
 msgid "Talk to customers in real time from the **customer chat** panel."
 msgstr ""
 
+#: ../extras/chat.rst:6
+msgid "This feature is **optional**; if you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more :admin-docs:`here </channels/chat.html>`."
+msgstr ""
+
+#: ../extras/chat.rst:11
+#: ../extras/customers.rst:7
+#: ../extras/secure-email.rst:32
+#: ../extras/shared-drafts.rst:5
+msgid "Overview"
+msgstr ""
+
 #: ../extras/chat.rst:None
 msgid "Sample view of Customer Chat"
 msgstr ""
 
-#: ../extras/chat.rst:11
+#: ../extras/chat.rst:18
 msgid "Chat controls"
 msgstr ""
 
-#: ../extras/chat.rst:13
+#: ../extras/chat.rst:20
 msgid "**1. On/Off**"
 msgstr ""
 
-#: ../extras/chat.rst:13
+#: ../extras/chat.rst:20
 msgid "Enable/disable the chat panel. (When enabled, you will receive notifications for incoming chats.)"
 msgstr ""
 
-#: ../extras/chat.rst:17
+#: ../extras/chat.rst:24
 msgid "**2. Waiting Customers**"
 msgstr ""
 
-#: ../extras/chat.rst:17
+#: ../extras/chat.rst:24
 msgid "Lists customers awaiting an agent for chat. **Click to answer a pending chat request.**"
 msgstr ""
 
-#: ../extras/chat.rst:20
+#: ../extras/chat.rst:27
 msgid "**3. Chatting Customers**"
 msgstr ""
 
-#: ../extras/chat.rst:20
+#: ../extras/chat.rst:27
 msgid "Lists customers currently in an ongoing chat session."
 msgstr ""
 
-#: ../extras/chat.rst:23
+#: ../extras/chat.rst:30
 msgid "**4. Active Agents**"
 msgstr ""
 
-#: ../extras/chat.rst:23
+#: ../extras/chat.rst:30
 msgid "Lists all agents with chat enabled."
 msgstr ""
 
-#: ../extras/chat.rst:25
+#: ../extras/chat.rst:32
 msgid "**5. Settings**"
 msgstr ""
 
-#: ../extras/chat.rst:25
+#: ../extras/chat.rst:32
 msgid "Click for chat configuration options (*e.g.,* auto-greetings and maximum number of simultaneous chats)."
 msgstr ""
 
-#: ../extras/chat.rst:29
+#: ../extras/chat.rst:36
 msgid "**6. Count badge**"
 msgstr ""
 
-#: ../extras/chat.rst:29
+#: ../extras/chat.rst:36
 msgid "Displays the number of users in each section."
 msgstr ""
 
-#: ../extras/chat.rst:31
+#: ../extras/chat.rst:38
 msgid "**7. Info card**"
 msgstr ""
 
-#: ../extras/chat.rst:31
+#: ../extras/chat.rst:38
 msgid "Hover over for detailed information about the users in each section."
-msgstr ""
-
-#: ../extras/chat.rst:35
-msgid "**🤔 Huh? I don’t see “Customer Chat” in the menu...**"
-msgstr ""
-
-#: ../extras/chat.rst:37
-msgid "This feature is **optional**; if you don’t see it in the main menu, that means your administrator hasn’t enabled it yet. Administrators can learn more :admin-docs:`here </channels/chat.html>`."
 msgstr ""
 
 #: ../extras/chat.rst:43
 msgid "If all agents have the chat panel disabled, customers will **not** be able to initiate a chat."
 msgstr ""
 
-#: ../extras/chat.rst:48
+#: ../extras/chat.rst:58
+msgid "Usage tips"
+msgstr ""
+
+#: ../extras/chat.rst:47
 msgid "🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime."
 msgstr ""
 
-#: ../extras/chat.rst:49
+#: ../extras/chat.rst:48
 msgid "📋 Copy & paste **supports 🌄 inline images** as well as plain text."
 msgstr ""
 
-#: ../extras/chat.rst:50
+#: ../extras/chat.rst:49
 msgid "⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`."
 msgstr ""
 
-#: ../extras/chat.rst:51
-msgid "📝 Chats can be **renamed** or **tagged**, and record technical details about the customer’s connection."
+#: ../extras/chat.rst:50
+msgid "📝 Chats can be **renamed** or **tagged**, and record technical details about the customer's connection."
 msgstr ""
 
 #: ../extras/chat.rst:0
 msgid "Chat details view"
 msgstr ""
 
-#: ../extras/chat.rst:59
+#: ../extras/chat.rst:58
 msgid "Click on the title at the top of the chat window to edit chat details."
 msgstr ""
 
-#: ../extras/chat.rst:62
+#: ../extras/chat.rst:61
 msgid "Creating a Ticket from a Chat"
 msgstr ""
 
-#: ../extras/chat.rst:64
+#: ../extras/chat.rst:63
 msgid "Once your chat is over, you can create a ticket for it with a single click:"
 msgstr ""
 
-#: ../extras/chat.rst:70
+#: ../extras/chat.rst:69
 msgid "Completed chat window"
 msgstr ""
 
-#: ../extras/chat.rst:70
+#: ../extras/chat.rst:69
 msgid "The **Turn chat into ticket** button appears as soon as the chat is finished."
 msgstr ""
 
-#: ../extras/chat.rst:76
+#: ../extras/chat.rst:75
 msgid "New ticket view"
 msgstr ""
 
-#: ../extras/chat.rst:76
+#: ../extras/chat.rst:75
 msgid "A link to the chat is automatically included in the first note on the ticket."
 msgstr ""
 
@@ -3460,11 +3462,6 @@ msgstr ""
 
 #: ../extras/customers.rst:4
 msgid "Use the **ticket pane** to view and manage customer profiles."
-msgstr ""
-
-#: ../extras/customers.rst:7
-#: ../extras/secure-email.rst:32
-msgid "Overview"
 msgstr ""
 
 #: ../extras/customers.rst:13
@@ -3804,14 +3801,22 @@ msgstr ""
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
-#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
 msgstr ""
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
-#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:3
 msgid "Zammad will warn you in case you're going to overwrite an existing draft. This also applies to your personal draft in case you're loading a shared draft."
+msgstr ""
+
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:7
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:7
+msgid "Loading a shared draft, (adjusting and) updating the ticket with an article will cause Zammad to *remove* the shared draft."
+msgstr ""
+
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:10
+#: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:10
+msgid "This also applies if you're sharing the draft before submitting! Zammad expects that the draft is no longer needed."
 msgstr ""
 
 #: ../extras/knowledge-base.rst:4
@@ -4234,6 +4239,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:91
 #: ../extras/profile-and-settings.rst:0
+#: ../extras/profile-and-settings.rst:111
 msgid "Notifications"
 msgstr ""
 
@@ -4472,38 +4478,38 @@ msgid "Profile & Settings"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:4
-msgid "Click on your avatar at the bottom of the main menu to access your **profile and settings**."
+msgid "Click on your avatar or initials at the bottom of the main menu to access your **profile and settings**."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:12
 msgid "Find user-specific actions, a list of recently opened items, and useful reference information."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:16
-msgid "Clicking on your avatar picture provides the following three sections."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:23
-msgid "Recently viewed"
+#: ../extras/profile-and-settings.rst:17
+msgid "User Menu"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:19
-msgid "All information you've viewed previously (tickets, users, organizations). Helps you to jump back quick and easy without searching or looking in your overviews."
+msgid "Clicking on your avatar picture provides the following three sections in the user menu:"
+msgstr ""
+
+#: ../extras/profile-and-settings.rst:26
+msgid "Recently viewed"
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:23
-msgid "This list is limited, old entries will automatically vanish."
+msgid "All information you've viewed previously (tickets, users, organizations). Helps you to jump back quick and easy without searching or looking in your overviews. Note that this list is limited, old entries will automatically vanish."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:42
+#: ../extras/profile-and-settings.rst:41
 msgid "Further actions"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:30
+#: ../extras/profile-and-settings.rst:33
 msgid "Dark mode"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:27
+#: ../extras/profile-and-settings.rst:30
 msgid "Quickly toggle dark and light mode without using keyboard bindings."
 msgstr ""
 
@@ -4511,83 +4517,75 @@ msgstr ""
 msgid "Screencast showing the dark mode button being toggled"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:33
+#: ../extras/profile-and-settings.rst:36
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:33
+#: ../extras/profile-and-settings.rst:36
 msgid ":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:42
+#: ../extras/profile-and-settings.rst:41
 msgid "Profile"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:36
-msgid "This will open your :ref:`user-profile-settings` and provide further options for customers and agents."
+#: ../extras/profile-and-settings.rst:39
+msgid "This will open your :ref:`user-profile-settings` and provide further options for customers and agents. Customers do not have access to all areas, even if you provide them the permissions to those areas."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:41
-msgid "Customers do not have access to all areas, even if you provide them the permissions to those areas."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:52
+#: ../extras/profile-and-settings.rst:49
 msgid "Sign out"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:45
+#: ../extras/profile-and-settings.rst:44
 msgid "Finished working with Zammad? Use the sign out button to end your user session."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:50
+#: ../extras/profile-and-settings.rst:47
 msgid "If you didn't tick \"Remember me\" during login or used a third party login, your session will automatically be invalidated if you close and reopen your browser."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:57
+#: ../extras/profile-and-settings.rst:54
 msgid "Profile Settings"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:79
-msgid "Theme"
+#: ../extras/profile-and-settings.rst:56
+msgid "Clicking on \"Profile\" in the user menu opens the profile settings."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:62
+#: ../extras/profile-and-settings.rst:60
 msgid "Select how Zammad should look. Zammad will remember the setting you choose here."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:64
+#: ../extras/profile-and-settings.rst:62
 msgid "Dark"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:65
+#: ../extras/profile-and-settings.rst:63
 msgid "Light"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:66
+#: ../extras/profile-and-settings.rst:64
 msgid "Sync with computer"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:68
+#: ../extras/profile-and-settings.rst:66
 msgid "For dark and light you'll fix the dark or light mode to your taste."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:70
+#: ../extras/profile-and-settings.rst:68
 msgid "If you choose sync with computer, Zammad will dynamically select the mode depending on what your client prefers at that moment."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:75
-msgid "Synchronizing the theme preference highly depends on your browser. If your browser does not support syncing, this setting basically has no effect."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:79
-msgid "Most common modern Browsers do so (e.g. Firefox, Google Chrome)"
+#: ../extras/profile-and-settings.rst:71
+msgid "Note that this sync option highly depends on your browser. If your browser does not support syncing, this setting basically has no effect. Most common modern Browsers are capable to do so (e.g. Firefox, Google Chrome)."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:83
+#: ../extras/profile-and-settings.rst:78
 msgid "Set the system display language."
 msgstr ""
 
@@ -4595,104 +4593,88 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:87
-msgid "Upload an avatar."
+#: ../extras/profile-and-settings.rst:82
+msgid "Upload an avatar image."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Password & Auth"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:91
+#: ../extras/profile-and-settings.rst:86
 msgid "Change your login password and manage your two-factor authentication methods (both may be disabled by system admin)."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:95
+#: ../extras/profile-and-settings.rst:90
 msgid ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an optional feature. Administrators can learn more :admin-docs:`here </settings/security/two-factor.html>`."
 msgstr ""
 
+#: ../extras/profile-and-settings.rst:97
+msgid "Select where, when, and for which groups you want to receive notifications, or choose a new notification sound. Notifications are available to agents only."
+msgstr ""
+
 #: ../extras/profile-and-settings.rst:101
-msgid "Select where, when, and for which groups you want to receive notifications, or choose a new notification sound."
+msgid "You can always reset your notification settings to system defaults by clicking on the button at the bottom of the screen."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:107
 msgid "Use the first three columns to choose when to receive **internal notifications** (below). The rightmost column enables email notification as well."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:114
-msgid "Internal notifications cannot be disabled."
+#: ../extras/profile-and-settings.rst:130
+msgid "Limit Groups"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:119
-msgid "By default, you will receive notifications for all tickets in every group you belong to—even for tickets that are assigned to other agents. Use the **Limit Groups** switch and settings below it to disable such notifications on a per-group basis."
+#: ../extras/profile-and-settings.rst:117
+msgid "By default, you will receive notifications for all tickets in every group you belong to - even for tickets that are assigned to other agents. Use the **Limit Groups** switch and settings below it to disable such notifications on a per-group basis. You will continue to receive notifications for your own tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:124
-msgid "(You will continue to receive notifications for your own tickets.)"
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:128
+#: ../extras/profile-and-settings.rst:123
 msgid "If you turn on **Limit Groups** feature, but disable the notifications from all groups, you may receive the following warning."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:134
+#: ../extras/profile-and-settings.rst:129
 msgid "In this case, saving your settings will implicitly turn off **Limit Groups** feature, since no limits will be left in effect."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:137
-msgid "Notifications are available to agents only."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:139
+#: ../extras/profile-and-settings.rst:132
 msgid "The contents of these email notifications can be customized on self-hosted installations. Administrators can learn more :admin-docs:`here </manage/trigger/system-notifications.html>`."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:144
-msgid "You can always reset your notification settings to system defaults by clicking on the button at the bottom of the screen."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Out of Office"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:149
+#: ../extras/profile-and-settings.rst:139
 msgid "Schedule absence periods in advance, and designate a substitute to handle your tickets while you're gone."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:152
+#: ../extras/profile-and-settings.rst:142
 msgid "Your substitute will receive all your ticket notifications during your absence, and have a custom :doc:`overview </basics/find-ticket/browse>` created to help keep track of your tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:156
-msgid "🔔 You **will** continue to receive notifications while you are absent."
+#: ../extras/profile-and-settings.rst:146
+msgid "You will reveive notifications while you are absent."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Overviews"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:159
+#: ../extras/profile-and-settings.rst:149
 msgid "Tired of the overview order your admin decided on? This section allows you to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:162
+#: ../extras/profile-and-settings.rst:152
 msgid "You can revert to the default instance ordering at any time by using the upper right button \"Reset overview order\"."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:165
-msgid "🤓 Your admin has no power here"
+#: ../extras/profile-and-settings.rst:157
+msgid "This option is only visible to agents by default. It can be completely deactivated by your admin."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:167
-msgid "The order does not change, even if your admin renames or reorders the overviews. The overview order is stored in your profile and thus applies for any device you use with your account."
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:171
-msgid "😕 Can't see this setting?"
-msgstr ""
-
-#: ../extras/profile-and-settings.rst:173
-msgid "This setting option is only available to agents by default. Admins can also deactivate this permission entirely. Ask your admin to enable this option if you need it."
+#: ../extras/profile-and-settings.rst:160
+msgid "If it is activated, the order does not change, even if your admin renames or reorders the overviews. The overview order is stored in your profile and thus applies to any device you use with your account."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
@@ -4704,7 +4686,7 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:183
+#: ../extras/profile-and-settings.rst:171
 msgid "Add your ticket deadlines to your own favorite calendar app with the ICAL link listed at this setting's panel."
 msgstr ""
 
@@ -4712,7 +4694,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:188
+#: ../extras/profile-and-settings.rst:176
 msgid "See a list of all devices logged into your Zammad account (and revoke access, if necessary)."
 msgstr ""
 
@@ -4720,11 +4702,11 @@ msgstr ""
 msgid "Token Access"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:193
+#: ../extras/profile-and-settings.rst:181
 msgid "Generate personal access tokens for third party applications to use the Zammad API."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:196
+#: ../extras/profile-and-settings.rst:185
 msgid "Always generate a new token for each application you connect to Zammad! (This makes it possible to revoke access one application at a time if a token is ever compromised.)"
 msgstr ""
 
@@ -4732,7 +4714,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:202
+#: ../extras/profile-and-settings.rst:191
 msgid "See a list of third party services (*e.g.,* Facebook or Twitter) linked to your Zammad account."
 msgstr ""
 
@@ -4788,44 +4770,44 @@ msgstr ""
 msgid "PGP and S/MIME are the most widely-supported methods for secure email communication. With each of the systems, you can exchange **signed** and **encrypted** messages with others."
 msgstr ""
 
-#: ../extras/secure-email.rst:41
-msgid "Signing"
-msgstr ""
-
-#: ../extras/secure-email.rst:39
-msgid "is a proof that a message hasn't been manipulated on its way."
-msgstr ""
-
-#: ../extras/secure-email.rst:41
-msgid "In other words, it guarantees message **integrity** and **authenticity**."
-msgstr ""
-
-#: ../extras/secure-email.rst:50
-msgid "Encryption"
-msgstr ""
-
-#: ../extras/secure-email.rst:44
-msgid "scrambles a message so that it can only be unscrambled by the intended recipient."
-msgstr ""
-
-#: ../extras/secure-email.rst:47
-msgid "In other words, it guarantees message **privacy** and **data security**."
-msgstr ""
-
-#: ../extras/secure-email.rst:49
-msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin panel."
-msgstr ""
-
-#: ../extras/secure-email.rst:52
+#: ../extras/secure-email.rst:38
 msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons."
 msgstr ""
 
-#: ../extras/secure-email.rst:62
+#: ../extras/secure-email.rst:48
 msgid "Screenshot of ticket creation with configured PGP and S/MIME"
 msgstr ""
 
-#: ../extras/secure-email.rst:62
+#: ../extras/secure-email.rst:48
 msgid "Ticket creation with configured PGP *and* S/MIME and available certificates/keys."
+msgstr ""
+
+#: ../extras/secure-email.rst:54
+msgid "Signing"
+msgstr ""
+
+#: ../extras/secure-email.rst:52
+msgid "is a proof that a message hasn't been manipulated on its way."
+msgstr ""
+
+#: ../extras/secure-email.rst:54
+msgid "In other words, it guarantees message **integrity** and **authenticity**."
+msgstr ""
+
+#: ../extras/secure-email.rst:63
+msgid "Encryption"
+msgstr ""
+
+#: ../extras/secure-email.rst:57
+msgid "scrambles a message so that it can only be unscrambled by the intended recipient."
+msgstr ""
+
+#: ../extras/secure-email.rst:60
+msgid "In other words, it guarantees message **privacy** and **data security**."
+msgstr ""
+
+#: ../extras/secure-email.rst:62
+msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin panel."
 msgstr ""
 
 #: ../extras/secure-email.rst:66
@@ -5042,60 +5024,48 @@ msgstr ""
 msgid "Shared Drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:4
+#: ../extras/shared-drafts.rst:7
 msgid "Share drafts for new or existing tickets with other agents of your group. Load, modify and safe an existing draft e.g. as QA process with colleagues."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:12
+#: ../extras/shared-drafts.rst:10
+msgid "This feature is **optional**; if you don't see it in the menu, that means your administrator disabled this function. Administrators can learn more in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
+msgstr ""
+
+#: ../extras/shared-drafts.rst:20
 msgid "Screenshot showing the sub menu of the Update button with macros and an\n"
 "option to save the draft"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:12
+#: ../extras/shared-drafts.rst:20
 msgid "By using ^ next to the \"Update\" button Zammad will provide you with an option to save your draft (and thus share it) if the option is enabled."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:15
-msgid "**🤔 Huh? I don't see “Share Draft” option...**"
-msgstr ""
-
-#: ../extras/shared-drafts.rst:17
-msgid "This feature is **optional**; if you don't see it in the menu, that means your administrator disabled this function. Administrators can learn more in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
-msgstr ""
-
-#: ../extras/shared-drafts.rst:22
+#: ../extras/shared-drafts.rst:24
 msgid "**🤓 Let's be clear up front**"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:24
+#: ../extras/shared-drafts.rst:26
 msgid "Zammad technically has two draft functions:"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:26
+#: ../extras/shared-drafts.rst:28
 msgid "shared draft (allow others to load the draft), and"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:27
+#: ../extras/shared-drafts.rst:29
 msgid "user drafts."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
-msgid "Every time you change a tickets field, Zammad will safe this in your personal draft. You then can share this as a shared draft if you want to."
+msgid "Every time you change a tickets field, Zammad will safe this in your personal draft. You then can share this as a shared draft if you want to. User drafts are *always* available!"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:0
-msgid "User drafts are *always* available!"
-msgstr ""
-
-#: ../extras/shared-drafts.rst:34
+#: ../extras/shared-drafts.rst:36
 msgid "Handling drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:38
-msgid "Shared draft handling is the same for existing tickets and new tickets. 🙏"
-msgstr ""
-
-#: ../extras/shared-drafts.rst:79
+#: ../extras/shared-drafts.rst:64
 msgid "Load a draft"
 msgstr ""
 
@@ -5108,12 +5078,12 @@ msgstr ""
 msgid "Loading a draft works the same starting from draft previews."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:50
-msgid "If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 button will indicate the shared drafts function to be available."
+#: ../extras/shared-drafts.rst:54
+msgid "New Ticket dialogue"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:55
-msgid "The shared drafts tab is *always* hidden if no group is selected!"
+#: ../extras/shared-drafts.rst:48
+msgid "If you're in a new ticket dialogue *after selecting the ticket group*, the 📝 button will indicate the shared drafts function to be available. The shared drafts tab is *always* hidden if no group is selected!"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
@@ -5121,15 +5091,15 @@ msgid "Screenshot highlighting the shared draft pane for new\n"
 "ticket dialogues"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:69
+#: ../extras/shared-drafts.rst:64
 msgid "Existing tickets (Ticket zoom)"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:62
+#: ../extras/shared-drafts.rst:57
 msgid "Within ticket zooms a button \"📝 Draft available\" will be shown if a draft has been shared by either you or another agent on the ticket."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:65
+#: ../extras/shared-drafts.rst:60
 msgid "Hovering over the button will tell you who has changed the draft last."
 msgstr ""
 
@@ -5139,46 +5109,34 @@ msgid "Screenshot highlighting the Draft available button within\n"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:73
-msgid "Loading a shared draft, (adjusting and) updating the ticket with an article will cause Zammad to *remove* the shared draft."
-msgstr ""
-
-#: ../extras/shared-drafts.rst:78
-msgid "This also applies if you're sharing the draft before submitting! Zammad expects that the draft is no longer needed."
-msgstr ""
-
-#: ../extras/shared-drafts.rst:91
 msgid "Remove draft"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:82
-msgid "You can remove any draft (no matter if for new or existing tickets) from within the draft preview screen. Use the \"Delete\" link on the lower end of the dialogue."
-msgstr ""
-
-#: ../extras/shared-drafts.rst:88
-msgid "This has no effect on local drafts agents may have loaded already."
+#: ../extras/shared-drafts.rst:67
+msgid "You can remove any draft (no matter if for new or existing tickets) from within the draft preview screen. Use the \"Delete\" link on the lower end of the dialogue. This has no effect on local drafts agents may have loaded already."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screenshot highlighting the removal option in shared draft preview"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:94
+#: ../extras/shared-drafts.rst:109
 msgid "Saving drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:123
+#: ../extras/shared-drafts.rst:97
 msgid "New ticket"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:109
+#: ../extras/shared-drafts.rst:87
 msgid "Adding new drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:100
+#: ../extras/shared-drafts.rst:78
 msgid "To save a new shared draft, set the ticket settings, customer, ticket title and article as desired. Make sure to select a group that supports shared drafts."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:104
+#: ../extras/shared-drafts.rst:82
 msgid "If you're ready to save the draft, click on 📝 on the right ticket pane, enter a meaning full name and click on the \"Create\" button."
 msgstr ""
 
@@ -5187,35 +5145,31 @@ msgid "Screencast showing how to save new ticket dialogues as a\n"
 "shared draft"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:123
+#: ../extras/shared-drafts.rst:97
 msgid "Update existing drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:112
-msgid "In order to update or rename existing shared drafts for new tickets, simply load the draft in question. Change the information (e.g. ticket settings or content) needed and, if needed, update the drafts name on the right hand side of the ticket."
-msgstr ""
-
-#: ../extras/shared-drafts.rst:119
-msgid "This way you can not just update existing drafts, but also use existing drafts to create another copy!"
+#: ../extras/shared-drafts.rst:90
+msgid "In order to update or rename existing shared drafts for new tickets, simply load the draft in question. Change the information (e.g. ticket settings or content) needed and, if needed, update the drafts name on the right hand side of the ticket. This way you can not just update existing drafts, but also use existing drafts to create another copy!"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to rename / update existing shared drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:135
+#: ../extras/shared-drafts.rst:109
 msgid "Existing ticket"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:126
+#: ../extras/shared-drafts.rst:100
 msgid "Use the ^ button next to the update button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option \"Save Draft\"."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:130
+#: ../extras/shared-drafts.rst:104
 msgid "All current changes on the ticket (ticket settings, article and it's attachments) will be saved to the shared draft."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:133
+#: ../extras/shared-drafts.rst:107
 msgid "When saving was successful, the button \"📝 Draft available\" will be shown."
 msgstr ""
 
