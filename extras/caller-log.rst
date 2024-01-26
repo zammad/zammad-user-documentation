@@ -3,19 +3,16 @@
 
 View and manage call logs from the **phone** panel.
 
+This feature is **optional**; if you don't see it in the main menu,
+that means your administrator hasn't enabled it yet. Administrators can learn
+more on our :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`.
+
 .. figure:: /images/extras/caller-log/call-entries.png
    :alt: Sample view of Caller Log
    :align: center
 
    Enable the **Phone** panel to receive notifications for incoming calls.
 
-.. note:: **🤔 Huh? I don’t see “Phone” in the menu...** 
-
-   This feature is **optional**;
-   if you don’t see it in the main menu,
-   that means your administrator hasn’t enabled it yet.
-   Administrators can learn more on our
-   :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`.
 
 .. hint::
    🏢 The caller log shows all incoming and outgoing calls
@@ -26,7 +23,7 @@ The caller log offers a lot more than just the last call entries.
 If your administrator configured "Phone Extension to Agent Mapping", Zammad
 will also help you during answering calls.
 
-   New Ticket dialogue
+   New Ticket dialog
       Zammad will open a new ticket dialogue if:
 
          * it's able to either guess a single user (see `maybe entries`_)
@@ -46,10 +43,8 @@ will also help you during answering calls.
       You can click on phone numbers (user profiles and caller log) to dial
       the number in question quickly.
 
-         .. note::
-
-            This requires either a soft phone client or CTI client on your
-            computer that supports this action.
+      This requires either a soft phone client or CTI client on your
+      computer that supports this action.
 
 .. _maybe entries:
 
@@ -69,10 +64,9 @@ will also help you during answering calls.
    👤 Click on unrecognized numbers to **create a new customer** or maybe
    entries to **update an existing customer**.
 
-   (Unrecognized phone numbers cannot be added to existing customers in
-   this way. Copy and pasting is required.)
+   Unrecognized phone numbers cannot be added to existing customers in
+   this way. Copy and pasting is required.
 
-      .. note::
-
-         Existing caller log entries *are not* updated.
+   Existing caller log entries *are not* updated when you update an existing
+   customer.
 

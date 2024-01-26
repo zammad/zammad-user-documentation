@@ -7,6 +7,14 @@ are related to any given ticket.
 That includes both physical and digital infrastructure,
 from servers to meeting rooms to virtual machines to software licenses.
 
+This feature is **optional**; if you don't see it in the ticket view, that
+means your administrator hasn't enabled it yet. Administrators can learn more
+:admin-docs:`here </system/integrations/i-doit.html>`.
+
+If your company is using i-doit, ask your administrator / IT personnel to give
+you a tour. If your organization isn't already using i-doit, this guide is
+not for you.
+
 .. figure:: /images/extras/i-doit-track-company-property/ticket-with-assets.png
    :alt: (Screenshot) The i-doit integration menu in the ticket view
    :scale: 50%
@@ -14,13 +22,6 @@ from servers to meeting rooms to virtual machines to software licenses.
 
    Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit.
 
-.. note:: **🤔 Huh? I don't see a 🖨 printer tab...**
-
-   This feature is **optional**;
-   if you don't see it in the ticket view,
-   that means your administrator hasn't enabled it yet.
-   Administrators can learn more
-   :admin-docs:`here </system/integrations/i-doit.html>`.
 
 Why?
 ----
@@ -35,13 +36,6 @@ And why does the coffee maker keep shutting off before it's finished? 🤬
 
 So How Does It Work?
 --------------------
-
-.. hint:: 👨‍💻 **New to i-doit?**
-
-   Ask your administrator / IT personnel to give you a tour—otherwise,
-   the directions below might not make much sense.
-   (And if your organization isn't already using i-doit,
-   this guide is not for you.)
 
 In Zammad: Link i-doit assets to tickets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
