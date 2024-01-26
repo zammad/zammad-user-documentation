@@ -1,11 +1,11 @@
 Advanced Search
 ===============
 
-With Zammad, you can limit your search to specific Information. 
-This allows you to find e.g. Tickets with specific key words and states. 
+With Zammad, you can limit your search to specific attributes.
+This allows you to find e.g. tickets with specific key words and states.
 Below information will help you to improve your search results.
 
-For instance you can search for a specific customer 
+For instance you can search for a specific customer
 by using ``customer.attribute``::
 
    customer.firstname: John
@@ -15,29 +15,15 @@ or::
    customer.lastname: Doe
 
 
-If you want to run a more complex search you can use conditions 
+If you want to run a more complex search, you can use conditions
 with ``()`` and ``AND``/``OR`` options::
 
    state.name: open AND (article.from:me OR article.from:somebody)
 
-.. note:: **🤓 Search phrases changed for Zammad 4.0**
-
-   With Zammad <=3.6 the following keys contained a string only: 
-
-      * group
-      * priority
-      * state
-      * organization
-
-   With Zammad >=4.0 these keys contain the whole object. This means you 
-   now have to add ``.name`` (e. g. ``group.name`` or ``priority.name``) 
-   to receive the same search results.
-
-
 Available attributes
 --------------------
 
-.. hint:: 
+.. hint::
 
    For a more detailed list of available attributes please take a look into our
    :docs:`Zammad System Documentation </install/elasticsearch/indexed-attributes.html>`.
@@ -57,20 +43,21 @@ Available attributes
    "article_count", "5 |br|\ [5 TO 10] |br|\ [5 TO \*] |br|\ [\* TO 5]", "article_count:5 |br|\ article_count: [5 TO 10] |br|\ article_count:[5 TO \*] |br|\ article_count:[\* TO 5]", "You can search for Tickets with a specific number of articles (you can even search for everything with 5 or more articles or even up to 5 articles, if needed)."
    "article.from", "\*bob\*", "article.from:\*bob\*", "Show all tickets that contain articles from ""Bob"""
    "article.body", "heat |br|\ heat~ |br|\ /joh?n(ath[oa]n)/", "article.body:heat |br|\ article.body:heat~ |br|\ articlebody:/joh?n(ath[oa]n)/", "First example shows every ticket containing the word ""heat"" - you can also use the fuzzy operator ""~"" to search for similar words like e.g. like ""head"". Zammad will also allow you to use regular expressions, where ever the attributes allows it."
-   
-.. hint:: **Combining search phrases**
 
-  You can combine search phrases by using ``AND``, ``OR`` and ``TO``, 
-  depending on the situation and phrases you use. If needed, you can parts of 
-  your search phrase for complex searches with ``()``. This allows you to 
-  combine several phrases with different dependencies (AND/OR). In case you 
-  receive search results that you want to exclude, you can use negation ``!``. 
-  Below are some examples that you could use with this:
-  
-  .. csv-table:: Examples for search phrase combinations
+Combining search phrases
+------------------------
+
+You can combine search phrases by using ``AND``, ``OR`` and ``TO``,
+depending on the situation and phrases you use. If needed, you can parts of
+your search phrase for complex searches with ``()``. This allows you to
+combine several phrases with different dependencies (AND/OR). In case you
+receive search results that you want to exclude, you can use negation ``!``.
+Below are some examples that you could use with this:
+
+.. csv-table:: Examples for search phrase combinations
    :header: "Search phrase", "Description"
    :widths: 10, 20
-   
+
    "state.name:(closed OR open) AND (priority.name:""2 normal"" OR tags:feedback)", "Show every ticket that state is either closed or open and has priority normal or the tag feedback."
    "state.name:(closed OR open) AND (priority.name:""2 normal"" OR tags:feedback) AND !(*Zammad*)", "This gets the same result as above, expect that we don't want the ticket to contain anything matching to ""Zammad"""
    "owner.email:bob@example.net AND state.name:(open OR new)", "Show Tickets from bob@example.net that are either open or new"
@@ -91,7 +78,7 @@ Ticket attributes
    * state: object (state.name, ...)
    * organization: object (organization.name, ...)
    * owner: object (owner.firstname, owner.lastname, owner.email, ...)
-   * customer: object 
+   * customer: object
      (customer.firstname, customer.lastname, customer.email, ...)
    * first_response_at: timestamp
    * first_response_in_min: integer (business min till first response)

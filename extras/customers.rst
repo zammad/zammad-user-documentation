@@ -1,7 +1,10 @@
 Customers
 =========
 
-Use the **ticket pane** to manage customer profiles.
+Use the **ticket pane** to view and manage customer profiles.
+
+Overview
+--------
 
 .. figure:: /images/extras/customers.png
    :alt: Ticket pane (customer view)
@@ -9,14 +12,16 @@ Use the **ticket pane** to manage customer profiles.
 
    Click the 👨 tab in the ticket pane to see the customer's profile.
 
-.. tip:: **🖱️ UI Protip**
+If the customer has other tickets too, you can see a summary when you
+hover over the **open/closed** labels:
 
-   .. figure:: /images/extras/customers-tickets-mouseover.png
-      :alt: Customer ticket summary (mouseover)
-      :align: center
-      :scale: 50%
+.. figure:: /images/extras/customers-tickets-mouseover.png
+   :alt: Customer ticket summary (mouseover)
+   :align: center
+   :scale: 80%
 
-      Hover over the **open/closed** labels to see a summary of the customer's other tickets.
+   Hover over the **open/closed** labels to see a summary of the customer's 
+   other tickets.
 
 Editing a Customer
 ------------------
@@ -24,19 +29,21 @@ Editing a Customer
 To edit the customer's profile, use the **customer submenu** and select "Edit
 Customer":
 
-.. figure:: /images/extras/customers-submenu.png
-   :alt: Customer submenu
-   :align: center
-   :scale: 100%
+Customer submenu
+   .. figure:: /images/extras/customers-submenu.png
+      :alt: Customer submenu
+      :align: center
+      :scale: 100%
 
-   Click the **Customer ▾** heading to access additional actions.
+      Click the **Customer ▾** heading to access additional actions.
 
-.. figure:: /images/extras/customers-edit-dialog.png
-   :alt: Edit customer dialog
-   :align: center
-   :scale: 80%
+Customer edit dialog
+   .. figure:: /images/extras/customers-edit-dialog.png
+      :alt: Edit customer dialog
+      :align: center
+      :scale: 80%
 
-   The edit customer dialog.
+      The edit customer dialog.
 
 Most customer attributes are self-explanatory,
 but here are a couple that might confuse you:

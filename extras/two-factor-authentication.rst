@@ -8,9 +8,8 @@ know (like a password) and something you possess (like a mobile device or a
 security token), to ensure that you are an authorized individual who can access
 the account.
 
-.. hint::
-   Two-Factor Authentication is an optional feature. Administrators can learn
-   more :admin-docs:`here </settings/security/two-factor.html>`.
+Two-Factor Authentication is an **optional feature**. Administrators can learn
+more :admin-docs:`here </settings/security/two-factor.html>`.
 
 Set Up Two-Factor Authentication
 --------------------------------
@@ -66,15 +65,13 @@ In case you are having issued during sign-in with your preferred two-factor
 authentication method, you can switch to another one, provided you have set it
 up previously.
 
-Look for **Try another method** link below the sign in box.
+Look for **Try another method** link below the sign in box. In case you don't
+see this link, you probably have no other available
+two-factor methods set up, or your admin has disabled this feature.
 
 .. figure:: /images/extras/two-factor-authentication/try-another-method-link.png
    :alt: Try Another Method Link
    :align: center
-
-.. hint::
-   In case you don't see this link, you probably have no other available
-   two-factor methods set up, or your admin has disabled this feature.
 
 In the new screen, choose another two-factor authentication method and complete
 your sign-in.
@@ -100,10 +97,8 @@ Generate Recovery Codes
 -----------------------
 
 Recovery codes are one-time use security codes that can be used to sign in if
-you lose access to your other two-factor authentication methods.
-
-.. warning::
-   Recovery codes can only be used as a backup method.
+you lose access to your other two-factor authentication methods. They can only
+be used as a **backup method**.
 
 If the feature is enabled by the admin, recovery codes will be automatically
 generated for you during the setup of your initial two-factor authentication
