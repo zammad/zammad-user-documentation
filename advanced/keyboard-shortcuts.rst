@@ -6,20 +6,21 @@ Keyboard Shortcuts
 Zammad supports a wide array of keyboard shortcuts to expedite your workflow as
 an expert user. But don't be afraid, you don't have to remember all of them.
 
-.. tip:: **🤓 Have a look here to find the keyboard shortcuts**
+Where to find them?
+-------------------
 
-   Click on your avatar at the bottom of the main menu to access the
-   **keyboard shortcuts cheat sheet**.
+Click on your avatar at the bottom of the main menu to access the
+**keyboard shortcuts cheat sheet**.
 
-   .. figure:: /images/advanced/profile-shortcuts.png
-      :alt: User submenu
-      :align: center
-      :scale: 85%
+.. figure:: /images/advanced/profile-shortcuts.png
+   :alt: User submenu
+   :align: center
+   :scale: 85%
 
-   Alternately, open it with one of the shortcuts below:
+Alternatively, open it with one of the shortcuts below:
 
-      * ``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)
-      * ``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)
+   * ``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)
+   * ``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)
 
 This will open an overview of available keyboard-shortcuts as in the following
 screenshot:
@@ -100,7 +101,7 @@ Key / key combination                 Function
 Text Editing
 ^^^^^^^^^^^^
 
-.. tip::
+How
    You can apply a text format *before* typing or *after* typing. Example:
 
    Before typing:
@@ -115,24 +116,24 @@ Text Editing
    * click-and-drag with the mouse to select it, and
    * press ``cmd`` + ``i`` to set the text in *italics*.
 
-
-====================================  =============================================================
-Key / key combination                 Function
-====================================  =============================================================
-``ctrl`` + ``u``                      Format text underlined
-``ctrl`` + ``b``                      Format text in **bold**
-``ctrl`` + ``i``                      Format text in *italics*
-``ctrl`` + ``s``                      Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶
-``ctrl`` + ``v``                      Paste text from clipboard
-``ctrl`` + ``shift`` + ``v``          Paste text from clipboard (as plain text)
-``shift`` + ``ctrl`` + ``f``          Remove formatting of text
-``shift`` + ``ctrl`` + ``y``          Remove formatting of the whole text
-``shift`` + ``ctrl`` + ``z``          Insert a horizontal line
-``shift`` + ``ctrl`` + ``l``          Format as unordered list
-``shift`` + ``ctrl`` + ``k``          Format as ordered list
-``shift`` + ``ctrl`` + ``1``          Format as h1 heading
-``shift`` + ``ctrl`` + ``2``          Format as h2 heading
-``shift`` + ``ctrl`` + ``3``          Format as h3 heading
-``shift`` + ``ctrl`` + ``x``          Remove any hyperlink
-====================================  =============================================================
+Key Combinations
+   ==============================  =============================================
+   Key / key combination           Function
+   ==============================  =============================================
+   ``ctrl`` + ``u``                Format text underlined
+   ``ctrl`` + ``b``                Format text in **bold**
+   ``ctrl`` + ``i``                Format text in *italics*
+   ``ctrl`` + ``s``                Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶
+   ``ctrl`` + ``v``                Paste text from clipboard
+   ``ctrl`` + ``shift`` + ``v``    Paste text from clipboard (as plain text)
+   ``shift`` + ``ctrl`` + ``f``    Remove formatting of text
+   ``shift`` + ``ctrl`` + ``y``    Remove formatting of the whole text
+   ``shift`` + ``ctrl`` + ``z``    Insert a horizontal line
+   ``shift`` + ``ctrl`` + ``l``    Format as unordered list
+   ``shift`` + ``ctrl`` + ``k``    Format as ordered list
+   ``shift`` + ``ctrl`` + ``1``    Format as h1 heading
+   ``shift`` + ``ctrl`` + ``2``    Format as h2 heading
+   ``shift`` + ``ctrl`` + ``3``    Format as h3 heading
+   ``shift`` + ``ctrl`` + ``x``    Remove any hyperlink
+   ==============================  =============================================
 

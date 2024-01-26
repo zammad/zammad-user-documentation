@@ -20,10 +20,10 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
    :doc:`⚙️ Manage ticket settings <settings>` in the
    **ticket pane** on the right.
 
-.. hint:: 📇 Any time you open a ticket, a new entry will appear in your
-   :doc:`tab list</advanced/tabs>` in the main menu.
+Any time you open a ticket, a new entry will appear in your
+:doc:`tab list</advanced/tabs>` in the main menu.
 
-   Zammad **automatically backs up your unsaved changes** in all open tabs.
+Zammad **automatically backs up your unsaved changes** in all open tabs.
 
 Responding to Individual Messages
 ---------------------------------
@@ -44,26 +44,20 @@ Under the hood, responses are sent
 (*i.e.,* if the message you replied to was originally a tweet,
 the customer will receive your response in a Twitter DM).
 
-.. hint:: ⏩ You can also **forward messages**,
-   just as you would in any email client
-   (attachments are included automatically).
+You can also **forward messages**, just as you would in any email client
+(attachments are included automatically). This way, you can share
+correspondences with people who don't have Zammad (like a third-party supplier).
 
-   This way, you can share correspondences
-   with people who don't have Zammad
-   (like a third-party supplier).
+Do you want to see **detailed information of a message**? Just click on it:
 
-.. tip:: **🖱️ UI Protip**
-
-   Click on a message to see detailed information about it.
-
-   .. figure:: /images/basics/service-ticket/follow-up-message-details.gif
-      :alt: Message details view
-      :align: center
+.. figure:: /images/basics/service-ticket/follow-up-message-details.gif
+   :alt: Message details view
+   :align: center
 
 Adding New Messages/Notes
 -------------------------
 
-Click on the text field at the end of the thread to add a follow-up.
+Click on the text field at the end of the thread to add a follow-up:
 
 .. figure:: /images/basics/service-ticket/follow-up-add-note.gif
    :align: center
@@ -88,13 +82,13 @@ There are three types of follow-ups:
    The name of the ticket will be used for the subject line
    (:ref:`click on the title to rename it <rename-ticket>`).
 
-.. hint:: Click the 🔒 button to change the visibility of a note or message.
+You can **change the visibility of an article** by clicking the 🔒 button:
 
-   .. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
-      :align: center
+.. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
+   :align: center
 
-      “Internal” messages are outlined with a salmon border,
-      and **can only be viewed by other agents**.
+   “Internal” messages are outlined with a salmon border,
+   and **can only be viewed by other agents**.
 
 What about the **deletion of articles**? In Zammad, you can only delete articles
 that you have created yourself and which are not older than 10 minutes. To see
@@ -134,11 +128,10 @@ quotations by using enter.
 🔥 Keeping an eye on escalations
 ---------------------------------
 
-.. note:: **🧐 Huh? I can't see escalation timestamps!**
-
-   SLAs are optional and require configuration by your instance administrator.
-   Administrators can learn more about SLAs
-   :admin-docs:`in our admin documentation </manage/slas/index.html>`.
+SLAs are optional and require configuration by your instance administrator.
+Administrators can learn more about SLAs
+:admin-docs:`in our admin documentation </manage/slas/index.html>`. If you
+can't see escalation timestamps, it is not configured by your admin.
 
 On the top of every ticket being applicable for SLA escalations, you'll find
 two dates next to the ticket number. By hovering the escalation date, Zammad
@@ -148,32 +141,31 @@ will display all upcoming escalation times based on the SLA configuration.
    :alt: Screenshot showing hovering over escalation note and getting
          more detailed escalation information
 
---------------------------------------------------------------------------------
+Simultaneous processing of a ticket
+-----------------------------------
 
 .. _caution-im-working-here:
 
-.. caution:: **🙅 I'm working here!**
+Every once in a while,
+two agents may have the same ticket open at the same time.
+When this happens,
+things can get messy fast:
+customers may receive conflicting responses
+on the same issue
+from both agents; or,
+changes made by one agent may be accidentally undone by the other.
 
-   Every once in a while,
-   two agents may have the same ticket open at the same time.
-   When this happens,
-   things can get messy fast:
-   customers may receive conflicting responses
-   on the same issue
-   from both agents; or,
-   changes made by one agent may be accidentally undone by the other.
+To keep things under control,
+Zammad will alert you to potential conflicts
+by displaying an avatar in the lower-lefthand corner
+for every agent that has that ticket open.
 
-   To keep things under control,
-   Zammad will alert you to potential conflicts
-   by displaying an avatar in the lower-lefthand corner
-   for every agent that has that ticket open.
+Be sure to communicate with your colleagues
+to prevent these problems before they arise.
 
-   Be sure to communicate with your colleagues
-   to prevent these problems before they arise.
+.. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
+   :alt: Ticket conflict alert
+   :align: center
 
-   .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
-      :alt: Ticket conflict alert
-      :align: center
-
-      A ✏️ icon will appear if the agent has made any unsaved changes to
-      the ticket.
+   A ✏️ icon will appear if the agent has made any unsaved changes to
+   the ticket.

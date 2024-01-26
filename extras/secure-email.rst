@@ -8,22 +8,25 @@ Zammad supports two systems of high-security email communication:
 
 .. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
    :alt: Screencast demo of S/MIME features for both new tickets and replies
-   :scale: 50%
+   :scale: 60%
    :align: center
 
    Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and
    signing of outgoing emails.
 
-.. note:: **🤔 Huh? I don't see “Sign” or “Encrypt” options in the ticket
-   view...**
+Prerequisites
+-------------
 
-   This feature is **optional**;
-   if you don't see it in the ticket composer,
-   that means your administrator hasn't enabled it yet.
-   Administrators can learn more here:
+Both feature are **optional**; if you don't see the
+🔒 **Encrypt** and ✅ **Sign** buttons in the ticket composer,
+that means your administrator hasn't activated any of them yet.
 
-   * :admin-docs:`PGP </system/integrations/pgp/index.html>`
-   * :admin-docs:`S/MIME </system/integrations/smime/index.html>`
+Administrators can learn more here:
+
+* :admin-docs:`PGP </system/integrations/pgp/index.html>`
+* :admin-docs:`S/MIME </system/integrations/smime/index.html>`
+
+PGP and S/MIME are only working if the other party is using them too.
 
 Overview
 --------
@@ -31,6 +34,19 @@ Overview
 PGP and S/MIME are the most widely-supported methods for secure email
 communication. With each of the systems, you can exchange **signed** and
 **encrypted** messages with others.
+
+.. note:: In special cases it is possible that both systems are configured in
+   your system *and* a customer is using both, as well. In this case, you have
+   an additional button to switch between PGP and S/MIME security types.
+   Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons.
+
+.. figure:: /images/extras/secure-email/pgp_and_smime.png
+   :alt: Screenshot of ticket creation with configured PGP and S/MIME
+   :scale: 80%
+   :align: center
+
+   Ticket creation with configured PGP *and* S/MIME and available
+   certificates/keys.
 
 Signing
    is a proof that a message hasn't been manipulated on its way.
@@ -43,24 +59,8 @@ Encryption
 
    In other words, it guarantees message **privacy** and **data security**.
 
-.. note:: 🤝 **PGP and S/MIME are only working if the other party is using them
-   too.**
-
    Your administrator is responsible for adding all the necessary certificates
    and keys in Zammad's admin panel.
-
-.. note:: In special cases it is possible that both systems are configured in
-   your system *and* a customer is using both, as well. In this case, you have
-   an additional button to switch between PGP and S/MIME security types.
-   Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons.
-
-.. figure:: /images/extras/secure-email/pgp_and_smime.png
-   :alt: Screenshot of ticket creation with configured PGP and S/MIME
-   :scale: 50%
-   :align: center
-
-   Ticket creation with configured PGP *and* S/MIME and available
-   certificates/keys.
 
 📬 Incoming
 ^^^^^^^^^^^

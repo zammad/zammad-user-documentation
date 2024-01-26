@@ -19,9 +19,8 @@ be provided with a drop down list to choose from.
 Select a fitting template and press *Apply*.
 The configured ticket fields will be populated with the data from the template.
 
-.. warning::
-
-   With version 5.3 Zammad is able to detect "field collisions".
+Field collisions
+   Starting with version 5.3, Zammad is able to detect "field collisions".
    This means: If you previously filled in data in a field that's supposed to be
    filled by the template, Zammad *will not* overwrite the field with the
    template data.
@@ -29,8 +28,7 @@ The configured ticket fields will be populated with the data from the template.
    Instead it will keep your version of the field.
    This allows you to e.g. fill in the customer before applying the template. 🎉
 
-.. note:: **😖 I can't add or adjust templates?!**
-
+Can't add or adjust templates?
    Managing templates requires additional permissions.
    Please ask your administrator to provide you with the needed permission.
 

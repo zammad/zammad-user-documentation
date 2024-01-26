@@ -7,15 +7,11 @@ If you find yourself making the same changes to lots of tickets
 (*e.g.,* close-and-tag-as-spam or reassign-to-another-group),
 macros can make the job a whole lot easier.
 
-.. note:: 🤔 **How do I make macros?**
+Macros can be created by your :admin-docs:`administrator </manage/macros.html>`.
+If you have an idea for a macro you'd like to use, your Zammad admin can
+probably make it happen.
 
-   You don't - that's the
-   :admin-docs:`administrator's job </manage/macros.html>`.
-   If you have an idea for a macro you'd like to use,
-   your Zammad admin can probably make it happen.
-
-Macros can be applied in one of two ways:
-on a single ticket, or in bulk.
+Macros can be applied in two ways: on a single ticket, or in bulk.
 
 On a Single Ticket
 ------------------

@@ -4,6 +4,11 @@
 Manage, edit, and reorganize knowledge base articles from the
 **knowledge base** panel.
 
+This feature is **optional**; if you don't see it in the main menu,
+that means your administrator hasn't enabled it yet. Administrators can learn
+more on our
+:admin-docs:`admin documentation </manage/knowledge-base.html>`.
+
 .. figure:: /images/extras/knowledge-base/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
    :align: center
@@ -11,14 +16,6 @@ Manage, edit, and reorganize knowledge base articles from the
    The knowledge base panel begins in **Preview Mode**.
    With some small exceptions,
    Preview Mode shows what the published knowledge base will look like.
-
-.. note:: **🤔 Huh? I don’t see “Knowledge Base” in the menu...**
-
-   This feature is **optional**;
-   if you don’t see it in the main menu,
-   that means your administrator hasn’t enabled it yet.
-   Administrators can learn more on our
-   :admin-docs:`admin documentation </manage/knowledge-base.html>`.
 
 Getting Started
 ---------------
@@ -37,13 +34,11 @@ Use the **↗️ button** in the top toolbar to see the published knowledge base
    knowledge base.
 
 Use the **“Edit” button** in the top toolbar to switch into **Edit Mode**
-(and back again).
+(and back again). If you can't see the "Edit" button, you should talk to your
+administrator about granting you the appropriate permissions. By default,
+agents are **not permitted to create, edit, or manage knowledge
+base articles**.
 
-.. note:: **🤔 Huh? I don’t see an “Edit” button...**
-
-   By default, agents are **not permitted to create, edit, or manage knowledge
-   base articles**. If you wish to edit the knowledge base,
-   talk to your administrator about granting you the appropriate permissions.
 
 Switching Languages
 ^^^^^^^^^^^^^^^^^^^
@@ -54,38 +49,39 @@ Switching Languages
 
 Use the language menu to view or edit translations of the current page.
 
-.. hint::
+If you select a language, in which the page hasn't been translated into yet,
+the behavior depends on the state of the page:
 
-   🚧 **What happens when a page hasn’t been translated into the
-   selected language yet?**
+in Edit Mode
+   Untranslated pages are marked with a ⚠️ **warning sign**:
 
-   in Edit Mode
-      Untranslated pages are marked with a ⚠️ **warning sign**:
+   .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-edit.png
+      :alt: Missing translation warning
+      :align: center
 
-      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-edit.png
-         :alt: Missing translation warning
-         :align: center
+in Preview Mode
+   Untranslated pages are only visible to users with
+   **edit permissions**:
 
-   in Preview Mode
-      Untranslated pages are only visible to users with
-      **edit permissions**:
+   .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-preview.png
+      :alt: Missing translation warning
+      :align: center
 
-      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-preview.png
-         :alt: Missing translation warning
-         :align: center
+in the published knowledge base
+   Untranslated pages are **always hidden**:
 
-   in the published knowledge base
-      Untranslated pages are **always hidden**:
-
-      .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
-         :alt: Missing translation warning
-         :align: center
+   .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
+      :alt: Missing translation warning
+      :align: center
 
 Using RSS Feeds
 ~~~~~~~~~~~~~~~
 
 Zammad allows you to subscribe to either the knowledge base as whole or to
 specific categories. There's both a public and an internal option to do so.
+
+By default, RSS feeds are disabled. If you wish to use the RSS function,
+talk to your administrator about enabling the function.
 
 .. tabs::
 
@@ -124,11 +120,6 @@ specific categories. There's both a public and an internal option to do so.
                   end of the RSS feed modal (internal knowledge base)
             :align: center
 
-.. note:: **🤔 Huh? I don’t see an “RSS” button...**
-
-   By default, RSS feeds are disabled. If you wish to use the RSS function,
-   talk to your administrator about enabling the function.
-
 Editing Categories
 ------------------
 
@@ -136,11 +127,12 @@ Editing Categories
    :alt: Edit category
    :align: center
 
-.. hint:: 📁 If you relocate a category using the **Parent** menu,
-   all of its articles and sub-categories will be relocated with it.
+You can relocate a category using the **Parent** menu. Doing so, all of its
+articles and sub-categories will be relocated with it.
 
-.. note:: 🗑️ Categories can only be deleted once **all of their articles and
-   sub-categories** have been deleted or relocated.
+You can delete categories by clicking on the 🗑️ **Delete** button. Categories
+can only be deleted once **all of their articles and sub-categories** have been
+deleted or relocated.
 
 Granular Category Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -153,29 +145,29 @@ instead.
 This allows you to divide user groups on a e.g. subscription level to
 reduce the information load for users that don't need the information.
 
-   .. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.gif
-      :alt: Screencast showing the visibility option for categories for granular access permissions
-      :align: center
+.. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.gif
+   :alt: Screencast showing the visibility option for categories for granular access permissions
+   :align: center
 
-.. hint::
+In general, permissions of a parent category are inherited! If you want to
+grant edit permissions for a sub-category for a specific role for example,
+set the upper level to "reader" and the desired sub-category to "editor".
+The other way round is not possible (permissions can only be widened, not
+restricted). If you can't select permissions in the table, this could be
+the reason.
 
-   | Permissions of a parent category are inherited!
-   | Public answers are always available!
+The roles require **knowledge base reader permission**. Your administrator has
+to provide the relevant groups with reader permissions for the knowledge base.
+If you're unsure, please ask your administrator to configure the
+:admin-docs:`role permissions </manage/roles/agent-permissions.html>`
+accordingly.
 
-.. note:: **⚙️ Roles require knowledge base reader permission**
+.. warning::
+   * Be aware that public answers are always available!
 
-   Your administrator has to provide the relevant groups with reader
-   permissions for the knowledge base.
-
-   .. danger:: **🥵 Beware of visibility levels**
-
-      Knowledge base reader permission means that affected users can see
-      **internal answers**. This is a potential issue if you're not dividing
-      carefully!
-
-   If you're unsure, please ask your administrator to configure the
-   :admin-docs:`role permissions </manage/roles/agent-permissions.html>`
-   accordingly.
+   * Knowledge base reader permission means that affected users can see
+     **internal answers**. This is a potential issue if you're not dividing
+     carefully!
 
 Editing Answers
 ---------------
@@ -190,8 +182,7 @@ That means you can use the same
 :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted
 text, bullet lists, and more. You can even add file attachments and links!
 
-.. tip:: 🤷 **Why are there four kinds of links?**
-
+Different link types
    🔗 **Weblink**
       URLs pointing to other websites.
 
@@ -211,9 +202,8 @@ text, bullet lists, and more. You can even add file attachments and links!
       .. figure:: /images/extras/tags-in-kb-answers.gif
          :alt: Screencast showing tags on answers
 
-.. hint::
-
-   🙈 Set the **visibility** of an answer to control who can see an article,
+Visibility
+   Set the **visibility** of an answer to control who can see an article,
    or schedule it to be published at a later date.
    Articles are **color-coded** according to their visibility:
 
