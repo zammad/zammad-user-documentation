@@ -6,7 +6,7 @@ that allows you to dictate *which agents are allowed to do what*
 to a given ticket.
 
 What?
-^^^^^
+-----
 
 Suppose your organization uses Zammad for both sales and customer support.
 You've got ten different agents spread across two teams,
@@ -26,7 +26,7 @@ If, instead, each agent were assigned to an appropriate group,
 then they'd only ever see the tickets that belong to their own group.
 
 Managing groups
-^^^^^^^^^^^^^^^
+---------------
 
 So how do I manage which team I'm on? You don't - that's the
 :admin-docs:`administrator's job </manage/groups/index.html>`.
@@ -43,7 +43,7 @@ your :doc:`user settings </extras/profile-and-settings>`:
    This user belongs to only one group (“Users”).
 
 So where do I come in?
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 If you belong to more than one group,
 you may re-assign a ticket from one of your groups to another.

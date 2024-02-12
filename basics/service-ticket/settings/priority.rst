@@ -12,7 +12,7 @@ of *how urgent or important it is*.
    your tickets better.
 
 But what does it do, and how should I use it?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 Out of the box, **ticket priority doesn’t actually do anything**.
 However, Zammad administrators can set up all sorts of automated hooks

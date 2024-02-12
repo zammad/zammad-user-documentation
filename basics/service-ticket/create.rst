@@ -4,7 +4,7 @@ Creating a Ticket
 Zammad does its best to create tickets automatically
 when new customer issues come your way.
 But sometimes,
-there’s just no way for Zammad to know when an issue arrives –
+there's just no way for Zammad to know when an issue arrives –
 like when a customer calls on the phone.
 
 In these cases, Zammad needs your help to **create a new ticket**.
@@ -25,7 +25,7 @@ An agent can create three types of tickets:
 Filling Out the Form
 --------------------
 
-Here’s a quick run-down of each input field in the New Ticket form:
+Here's a quick run-down of each input field in the New Ticket form:
 
 Title
    The title of the ticket will be used as the **subject line**
@@ -38,12 +38,12 @@ Customer
    or else create a new customer.
 
    You may **not** assign a ticket to more than one customer.
-   
+
    .. figure:: /images/basics/service-ticket/create-customer-autocomplete.gif
       :alt: Customer autocomplete menu
       :align: center
 
-      Autocomplete can’t find customers by name.
+      Autocomplete can't find customers by name.
 
    .. tip:: **🖱️ UI Protip**
 
