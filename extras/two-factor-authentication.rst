@@ -59,7 +59,7 @@ key, etc.
    two-factor-authentication/authenticator-app-sign-in
 
 Trying Another Method
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 In case you are having issued during sign-in with your preferred two-factor
 authentication method, you can switch to another one, provided you have set it
