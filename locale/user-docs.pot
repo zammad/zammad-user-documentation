@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 16:47+0100\n"
+"POT-Creation-Date: 2024-02-16 13:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1334,7 +1334,7 @@ msgid "Ticket Actions"
 msgstr ""
 
 #: ../advanced/ticket-actions.rst:4
-msgid "Unlike ticket settings (which are *attributes that can be modified*), **actions** are *operations that can be performed* on a ticket, usually to facilitate the overall ticket management process."
+msgid "In the :doc:`servicing tickets section </basics/service-ticket>` you learned the base handling of tickets. But there are additional actions you can perform:"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:2
@@ -1371,35 +1371,75 @@ msgid "Merging Tickets"
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:4
-msgid "Sometimes, you may end up with two tickets for the same issue (*e.g.,* because a customer sent you a brand new email instead of replying to an existing thread)."
+msgid "If you have two or more tickets about the same issue, you may want to merge those tickets into one."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:8
-msgid "In such cases, you may want to **merge those tickets into one**."
+#: ../advanced/ticket-actions/merge.rst:7
+msgid "This might be the case if a customer sends you a new email which can't be assigned to the existing ticket (e.g. the ticket reference is missing because the customer sends you a completely new email instead of answering in the existing thread)."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:15
-msgid "Ticket pane submenu"
+#: ../advanced/ticket-actions/merge.rst:21
+msgid "What is merged where?"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:15
+#: ../advanced/ticket-actions/merge.rst:13
+msgid "Merging a ticket migrates all messages and notes of the ticket from where you select the merging into the selected one."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:16
+msgid "Let's assume you already worked on a ticket and you get another ticket about the same issue and want to merge them. Let's call the ticket you already worked on the *original* one and the new one *duplicate*. Then the way to go is to open the duplicate ticket and execute the merging from there so it will be merged into the original."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:28
+msgid "How to merge tickets?"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:24
 msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:17
-msgid "Merging a ticket migrates all messages and notes **out of the original** and into the selected one."
+#: ../advanced/ticket-actions/merge.rst:0
+msgid "Ticket menu with highlighted \"merge\""
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:20
-msgid "That is, if you 1) access the merge dialog from Ticket A, and then 2) select Ticket B in the merge dialog (see below), then Ticket A will be emptied, closed, and :doc:`linked as a child <link>` of Ticket B."
+#: ../advanced/ticket-actions/merge.rst:40
+msgid "Merge dialog"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:30
+#: ../advanced/ticket-actions/merge.rst:31
+msgid "You can either enter the ticket number of the ticket you want to merge the current one into (see 1). Alternatively, you can choose from the list below (see 2)."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:35
+msgid "If the customer has an existing ticket, it will show up under \"Recent customer tickets\". You can see your last viewed tickets under \"Recently viewed tickets\" anyway."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:39
+msgid "After entering a ticket number or choosing one of the offered tickets from the list, click on the submit button and the tickets will be merged."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:30
-msgid "The merge dialog. Specify a ticket to merge into by ID (1), or select one from the list (2)."
+#: ../advanced/ticket-actions/merge.rst:52
+msgid "Result after merging"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:48
+msgid "The articles are moved into the chosen tickets. The ticket in which you executed the merging still exists with the following changes:"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:51
+msgid "The articles have been replaced by a \"merged\" label"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:52
+msgid "The state has changed to \"merged\""
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:53
+msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:2

@@ -1,9 +1,8 @@
 Ticket Actions
 ==============
 
-Unlike ticket settings (which are *attributes that can be modified*),
-**actions** are *operations that can be performed* on a ticket,
-usually to facilitate the overall ticket management process.
+In the :doc:`servicing tickets section </basics/service-ticket>` you learned
+the base handling of tickets. But there are additional actions you can perform:
 
 .. toctree::
    :titlesonly:
