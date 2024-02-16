@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 15:09+0100\n"
+"POT-Creation-Date: 2024-02-16 16:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1342,28 +1342,58 @@ msgid "Linking Tickets"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:4
-msgid "When tickets about related issues arise (*e.g.,* multiple customer complaints about the same botched shipment), they can be **linked to each other** for easier reference."
+msgid "When tickets about related issues arise, they can be linked to each other for easier reference. For example this could be useful if you have multiple customer complaints about the same shipment. Additionally, merged and split articles are automatically linked."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:12
+#: ../advanced/ticket-actions/link.rst:16
+msgid "Link types"
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:10
+msgid "There are different types of links between tickets as you might have already seen in :doc:`merge` or :doc:`split`: parent/child links and normal links. The first pair is used for split and merged tickets. The normal link is useful when there is no logical hierarchy between tickets."
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:15
+msgid "However, if you have a main issue and want to create sub tasks, you could link to the main one as a parent of the sub tickets."
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:26
+msgid "How to link"
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:19
+msgid "Make sure to have the ticket side panel open. Under the \"Tags\" section you can find the \"Links\" section:"
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:0
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Ticket pane: Links"
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:12
+#: ../advanced/ticket-actions/link.rst:26
 msgid "Click the *➕ Add Link* button to access the link dialog."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:19
+#: ../advanced/ticket-actions/link.rst:45
+#: ../advanced/ticket-actions/link.rst:0
 msgid "Link dialog"
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:19
-msgid "The link dialog. Specify a ticket to link with by ID (1), or select one from the list (2)."
+#: ../advanced/ticket-actions/link.rst:29
+msgid "You can enter the ticket number of the ticket you want to link to (see 1). Alternatively, you can choose from the list below (see 2)."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:22
-msgid "Linked tickets may optionally be organized into a parent-child hierarchy."
+#: ../advanced/ticket-actions/link.rst:33
+#: ../advanced/ticket-actions/merge.rst:35
+msgid "If the customer has an existing ticket, it will show up under \"Recent customer tickets\". You can see your last viewed tickets under \"Recently viewed tickets\" anyway."
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:37
+msgid "Additionally, you can choose the link type from the drop down menu. You can link to one or more tickets for each type."
+msgstr ""
+
+#: ../advanced/ticket-actions/link.rst:45
+msgid "After entering a ticket number or choosing one of the offered tickets from the list, click on the submit button and the tickets will be linked."
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:2
@@ -1408,10 +1438,6 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:31
 msgid "You can either enter the ticket number of the ticket you want to merge the current one into (see 1). Alternatively, you can choose from the list below (see 2)."
-msgstr ""
-
-#: ../advanced/ticket-actions/merge.rst:35
-msgid "If the customer has an existing ticket, it will show up under \"Recent customer tickets\". You can see your last viewed tickets under \"Recently viewed tickets\" anyway."
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:39
