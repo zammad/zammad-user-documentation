@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 14:10+0100\n"
+"POT-Creation-Date: 2024-02-12 16:47+0100\n"
 "PO-Revision-Date: 2023-01-12 16:10+0000\n"
 "Last-Translator: LahutaeMalcis <hello@privacydream.eu>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -2080,8 +2080,11 @@ msgid "Finding Tickets"
 msgstr "Trouver des tickets"
 
 #: ../basics/find-ticket.rst:4
+#, fuzzy
+#| msgid ""
+#| "If you plan to work on tickets, you’d better know how to find ’em first."
 msgid ""
-"If you plan to work on tickets, you’d better know how to find ’em first."
+"If you plan to work on tickets, you'd better know how to find them first."
 msgstr ""
 "Si vous prévoyez de travailler sur des tickets, vous avez intérêt à savoir "
 "comment les retrouver en premier."
@@ -2285,9 +2288,14 @@ msgid "Creating a Ticket"
 msgstr "Créer un ticket"
 
 #: ../basics/service-ticket/create.rst:4
+#, fuzzy
+#| msgid ""
+#| "Zammad does its best to create tickets automatically when new customer "
+#| "issues come your way. But sometimes, there’s just no way for Zammad to "
+#| "know when an issue arrives – like when a customer calls on the phone."
 msgid ""
 "Zammad does its best to create tickets automatically when new customer "
-"issues come your way. But sometimes, there’s just no way for Zammad to know "
+"issues come your way. But sometimes, there's just no way for Zammad to know "
 "when an issue arrives – like when a customer calls on the phone."
 msgstr ""
 "Zammad fait de son mieux pour créer les tickets automatiquement quand de "
@@ -2345,7 +2353,9 @@ msgid "Filling Out the Form"
 msgstr "Remplir le formulaire"
 
 #: ../basics/service-ticket/create.rst:28
-msgid "Here’s a quick run-down of each input field in the New Ticket form:"
+#, fuzzy
+#| msgid "Here’s a quick run-down of each input field in the New Ticket form:"
+msgid "Here's a quick run-down of each input field in the New Ticket form:"
 msgstr ""
 "Voici un rapide passage en revue de chaque champ du formulaire de nouveau "
 "ticket:"
@@ -2385,7 +2395,9 @@ msgid "Customer autocomplete menu"
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:46
-msgid "Autocomplete can’t find customers by name."
+#, fuzzy
+#| msgid "Autocomplete can’t find customers by name."
+msgid "Autocomplete can't find customers by name."
 msgstr "L'auto-complétement ne peut trouver de clients par leur nom."
 
 #: ../basics/service-ticket/create.rst:50
@@ -3034,8 +3046,12 @@ msgid "Owner"
 msgstr "Propriétaire"
 
 #: ../basics/service-ticket/settings/owner.rst:4
+#, fuzzy
+#| msgid ""
+#| "A ticket’s **owner** is simply *the agent that is currently responsible "
+#| "for it*."
 msgid ""
-"A ticket’s **owner** is simply *the agent that is currently responsible for "
+"A ticket's **owner** is simply *the agent that is currently responsible for "
 "it*."
 msgstr ""
 "Un **propriétaire** d'un ticket est simplement *l'opérateur qui en est "
@@ -3046,8 +3062,13 @@ msgid "Whose job is it to assign tickets?"
 msgstr "A qui appartient la tâche d'assigner les tickets?"
 
 #: ../basics/service-ticket/settings/owner.rst:10
+#, fuzzy
+#| msgid ""
+#| "It depends on your organization’s workflow, but in most cases, **you will "
+#| "assign tickets to yourself** when you choose an issue to work on from the "
+#| "pool of new tickets."
 msgid ""
-"It depends on your organization’s workflow, but in most cases, **you will "
+"It depends on your organization's workflow, but in most cases, **you will "
 "assign tickets to yourself** when you choose an issue to work on from the "
 "pool of new tickets."
 msgstr ""
@@ -3062,7 +3083,7 @@ msgstr ""
 #| "have the required privileges for the ticket’s :doc:`group <group>`."
 msgid ""
 "In principle, any agent may assign a ticket to any other, as long as both "
-"have the required privileges for the ticket’s :doc:`group </basics/service-"
+"have the required privileges for the ticket's :doc:`group </basics/service-"
 "ticket/settings/group>`."
 msgstr ""
 "En principe, n'importe quel opérateur peut assigner un ticket à un autre, du "
@@ -3191,11 +3212,13 @@ msgstr ""
 #: ../basics/service-ticket/settings/state.rst:22
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
-"the ticket much faster in general – without having a look into details."
+"the ticket much faster in general - without having a look into details."
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:30
-msgid "What’s the difference between “new” and “open”?"
+#, fuzzy
+#| msgid "What’s the difference between “new” and “open”?"
+msgid "What's the difference between “new” and “open”?"
 msgstr "Quelle est la différence entre “nouveau” et “ouvert”?"
 
 #: ../basics/service-ticket/settings/state.rst:32
@@ -3221,17 +3244,25 @@ msgstr ""
 "nouveau ticket ou pour voir leurs demandes traitées complètement."
 
 #: ../basics/service-ticket/settings/state.rst:38
+#, fuzzy
+#| msgid ""
+#| "On a *new* ticket, the customer still hasn’t received her first response "
+#| "on the issue."
 msgid ""
-"On a *new* ticket, the customer still hasn’t received her first response on "
+"On a *new* ticket, the customer still hasn't received her first response on "
 "the issue."
 msgstr ""
 "Sur un *nouveau* ticket, le client n'a pas encore reçu de première réponse "
 "concernant sa demande."
 
 #: ../basics/service-ticket/settings/state.rst:41
+#, fuzzy
+#| msgid ""
+#| "On an *open* ticket, the customer has received an initial response, but "
+#| "the issue still hasn’t been resolved."
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
-"issue still hasn’t been resolved."
+"issue still hasn't been resolved."
 msgstr ""
 "Sur un ticket *ouvert*, le client a déjà reçu une réponse initiale, mais la "
 "demande n'a pas encore été traitée."
@@ -3245,9 +3276,14 @@ msgstr ""
 "limites du SLA"
 
 #: ../basics/service-ticket/settings/state.rst:47
+#, fuzzy
+#| msgid ""
+#| "So, for instance, a ticket may be marked *pending reminder* if it’s "
+#| "waiting on feedback from a third-party supplier who’s out of town until "
+#| "next week."
 msgid ""
-"So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
-"on feedback from a third-party supplier who’s out of town until next week."
+"So, for instance, a ticket may be marked *pending reminder* if it's waiting "
+"on feedback from a third-party supplier who's out of town until next week."
 msgstr ""
 "Donc, par exemple, un ticket peut être marqué *rappel en attente* si il "
 "attend un retour d'un fournisseur tiers qui est actuellement absent jusqu'à "
