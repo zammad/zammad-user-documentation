@@ -5,7 +5,7 @@ If you have a ticket which is about more than one issue, you might want
 to split it in two or more separate tickets. For example this might be the case
 if a customer has a technical question and wants to place an order.
 
-To split a ticket, simply click on the "split" button under the article, you
+To split a ticket, simply click on the "split" button under the article you
 want to split off:
 
 .. figure:: /images/advanced/ticket-actions/article-split.png
