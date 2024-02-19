@@ -3,8 +3,8 @@ Linking Tickets
 
 When tickets about related issues arise, they can be linked to each other for
 easier reference. For example this could be useful if you have multiple
-customer complaints about the same shipment. Additionally, merged and split
-articles are automatically linked.
+customer complaints about the same shipment. :doc:`Merged <merge>` and
+:doc:`split <split>` tickets are automatically linked.
 
 Link types
    There are different types of links between tickets as you might have already
