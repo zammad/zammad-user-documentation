@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 11:00+0100\n"
+"POT-Creation-Date: 2024-02-12 16:47+0100\n"
 "PO-Revision-Date: 2024-01-31 17:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
@@ -523,9 +523,9 @@ msgid ""
 "html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
 "can probably make it happen."
 msgstr ""
-"Нове макрое може додати ваш :admin-docs:`администратор </manage/macros.html>`"
-". Уколико имате идеју за макро који бисте желели да користите, ваш Zammad "
-"администратор вероватно може то и да оствари."
+"Нове макрое може додати ваш :admin-docs:`администратор </manage/macros."
+"html>`. Уколико имате идеју за макро који бисте желели да користите, ваш "
+"Zammad администратор вероватно може то и да оствари."
 
 #: ../advanced/macros.rst:14
 msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
@@ -1191,8 +1191,8 @@ msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
 "mentioned Tickets** overview."
 msgstr ""
-"Списак свих тикета на које сте претплаћени можете пронаћи у прегледу **"
-"Тикети на које сам претплаћен(a)**."
+"Списак свих тикета на које сте претплаћени можете пронаћи у прегледу "
+"**Тикети на које сам претплаћен(a)**."
 
 #: ../advanced/suggested-workflows.rst:71
 msgid ""
@@ -2033,8 +2033,11 @@ msgid "Finding Tickets"
 msgstr "Проналажење тикета"
 
 #: ../basics/find-ticket.rst:4
+#, fuzzy
+#| msgid ""
+#| "If you plan to work on tickets, you’d better know how to find ’em first."
 msgid ""
-"If you plan to work on tickets, you’d better know how to find ’em first."
+"If you plan to work on tickets, you'd better know how to find them first."
 msgstr ""
 "Уколико планирате да радите на тикетима, боље је да прво знате како да их "
 "пронађете."
@@ -2226,9 +2229,14 @@ msgid "Creating a Ticket"
 msgstr "Отварање тикета"
 
 #: ../basics/service-ticket/create.rst:4
+#, fuzzy
+#| msgid ""
+#| "Zammad does its best to create tickets automatically when new customer "
+#| "issues come your way. But sometimes, there’s just no way for Zammad to "
+#| "know when an issue arrives – like when a customer calls on the phone."
 msgid ""
 "Zammad does its best to create tickets automatically when new customer "
-"issues come your way. But sometimes, there’s just no way for Zammad to know "
+"issues come your way. But sometimes, there's just no way for Zammad to know "
 "when an issue arrives – like when a customer calls on the phone."
 msgstr ""
 "Zammad даје све од себе да аутоматски отвори тикете када се појаве нови "
@@ -2285,7 +2293,9 @@ msgid "Filling Out the Form"
 msgstr "Попуњавање обрасца"
 
 #: ../basics/service-ticket/create.rst:28
-msgid "Here’s a quick run-down of each input field in the New Ticket form:"
+#, fuzzy
+#| msgid "Here’s a quick run-down of each input field in the New Ticket form:"
+msgid "Here's a quick run-down of each input field in the New Ticket form:"
 msgstr "Ево кратког прегледа сваког поља за унос у обрасцу новог тикета:"
 
 #: ../basics/service-ticket/create.rst:32
@@ -2322,7 +2332,9 @@ msgid "Customer autocomplete menu"
 msgstr "Поље за брзу претрагу клијената"
 
 #: ../basics/service-ticket/create.rst:46
-msgid "Autocomplete can’t find customers by name."
+#, fuzzy
+#| msgid "Autocomplete can’t find customers by name."
+msgid "Autocomplete can't find customers by name."
 msgstr "Брза претрага не може да пронађе клијенте по имену."
 
 #: ../basics/service-ticket/create.rst:50
@@ -2462,8 +2474,8 @@ msgid ""
 "Any time you open a ticket, a new entry will appear in your :doc:`tab list</"
 "advanced/tabs>` in the main menu."
 msgstr ""
-"Сваки пут када отворите приказ тикета, нова ставка ће се појавити у вашој "
-":doc:`листи прозора </advanced/tabs>` у главном менију."
+"Сваки пут када отворите приказ тикета, нова ставка ће се појавити у вашој :"
+"doc:`листи прозора </advanced/tabs>` у главном менију."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -2889,8 +2901,8 @@ msgid ""
 msgstr ""
 "Без група, свих десет оператера може да види (и да одговори на) сваки "
 "појединачни долазни тикет, без обзира о ком одељењу се ради. Ово није "
-"проблематично *само по себи*, али доводи до много непотребног нереда у :doc:`"
-"менију прегледа </basics/find-ticket>`. (Може бити много горе када, на "
+"проблематично *само по себи*, али доводи до много непотребног нереда у :doc:"
+"`менију прегледа </basics/find-ticket>`. (Може бити много горе када, на "
 "пример, представник корисничке службе види тикете намењене вашем HR одељењу "
 "и сазна колико зарађују њихове колеге у продаји! 💸💸💸)"
 
@@ -2954,8 +2966,12 @@ msgid "Owner"
 msgstr "Власник"
 
 #: ../basics/service-ticket/settings/owner.rst:4
+#, fuzzy
+#| msgid ""
+#| "A ticket’s **owner** is simply *the agent that is currently responsible "
+#| "for it*."
 msgid ""
-"A ticket’s **owner** is simply *the agent that is currently responsible for "
+"A ticket's **owner** is simply *the agent that is currently responsible for "
 "it*."
 msgstr ""
 "**Власник** тикета је једноставно *оператер који је тренутно одговоран за "
@@ -2966,8 +2982,13 @@ msgid "Whose job is it to assign tickets?"
 msgstr "Чији је посао да додељује тикете?"
 
 #: ../basics/service-ticket/settings/owner.rst:10
+#, fuzzy
+#| msgid ""
+#| "It depends on your organization’s workflow, but in most cases, **you will "
+#| "assign tickets to yourself** when you choose an issue to work on from the "
+#| "pool of new tickets."
 msgid ""
-"It depends on your organization’s workflow, but in most cases, **you will "
+"It depends on your organization's workflow, but in most cases, **you will "
 "assign tickets to yourself** when you choose an issue to work on from the "
 "pool of new tickets."
 msgstr ""
@@ -2976,9 +2997,14 @@ msgstr ""
 "листе расположивих нових тикета."
 
 #: ../basics/service-ticket/settings/owner.rst:16
+#, fuzzy
+#| msgid ""
+#| "In principle, any agent may assign a ticket to any other, as long as both "
+#| "have the required privileges for the ticket’s :doc:`group </basics/"
+#| "service-ticket/settings/group>`."
 msgid ""
 "In principle, any agent may assign a ticket to any other, as long as both "
-"have the required privileges for the ticket’s :doc:`group </basics/service-"
+"have the required privileges for the ticket's :doc:`group </basics/service-"
 "ticket/settings/group>`."
 msgstr ""
 "У принципу, сваки оператер може доделити тикет било ком другом, под условом "
@@ -3108,15 +3134,21 @@ msgid "State colors"
 msgstr "Боје стања"
 
 #: ../basics/service-ticket/settings/state.rst:22
+#, fuzzy
+#| msgid ""
+#| "Zammad states are color-coded. This helps you to understanding the state "
+#| "of the ticket much faster in general – without having a look into details."
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
-"the ticket much faster in general – without having a look into details."
+"the ticket much faster in general - without having a look into details."
 msgstr ""
 "Zammad стања су означена бојама. Ово вам помаже да много брже разумете стање "
 "тикета – без увида у детаље."
 
 #: ../basics/service-ticket/settings/state.rst:30
-msgid "What’s the difference between “new” and “open”?"
+#, fuzzy
+#| msgid "What’s the difference between “new” and “open”?"
+msgid "What's the difference between “new” and “open”?"
 msgstr "Која је разлика између „новог“ и „отвореног“?"
 
 #: ../basics/service-ticket/settings/state.rst:32
@@ -3134,15 +3166,23 @@ msgstr ""
 "у потпуности реше своје проблеме."
 
 #: ../basics/service-ticket/settings/state.rst:38
+#, fuzzy
+#| msgid ""
+#| "On a *new* ticket, the customer still hasn’t received her first response "
+#| "on the issue."
 msgid ""
-"On a *new* ticket, the customer still hasn’t received her first response on "
+"On a *new* ticket, the customer still hasn't received her first response on "
 "the issue."
 msgstr "У *новом* тикету, клијент још увек није добио први одговор на проблем."
 
 #: ../basics/service-ticket/settings/state.rst:41
+#, fuzzy
+#| msgid ""
+#| "On an *open* ticket, the customer has received an initial response, but "
+#| "the issue still hasn’t been resolved."
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
-"issue still hasn’t been resolved."
+"issue still hasn't been resolved."
 msgstr ""
 "У *отвореном* тикету, корисник је добио почетни одговор, али проблем још "
 "увек није решен."
@@ -3154,9 +3194,14 @@ msgid ""
 msgstr "⏱️ Тикети *на чекању* не акумулирају време за своја SLA ограничења."
 
 #: ../basics/service-ticket/settings/state.rst:47
+#, fuzzy
+#| msgid ""
+#| "So, for instance, a ticket may be marked *pending reminder* if it’s "
+#| "waiting on feedback from a third-party supplier who’s out of town until "
+#| "next week."
 msgid ""
-"So, for instance, a ticket may be marked *pending reminder* if it’s waiting "
-"on feedback from a third-party supplier who’s out of town until next week."
+"So, for instance, a ticket may be marked *pending reminder* if it's waiting "
+"on feedback from a third-party supplier who's out of town until next week."
 msgstr ""
 "Тако, на пример, тикет може бити означен као *подсетник на чекању* ако чека "
 "на повратне информације од подизвођача који је ван града до идуће недеље."
@@ -4836,8 +4881,8 @@ msgid ""
 "html#integrations-for-phone-systems>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у панелу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више "
-":admin-docs:`овде </system/integrations.html#integrations-for-issue-"
+"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
+"admin-docs:`овде </system/integrations.html#integrations-for-issue-"
 "trackers>`."
 
 #: ../extras/caller-log.rst:14
@@ -4999,8 +5044,8 @@ msgid ""
 "more :admin-docs:`here </channels/chat.html>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у главном менију, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више "
-":admin-docs:`овде </channels/chat.html>`."
+"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
+"admin-docs:`овде </channels/chat.html>`."
 
 #: ../extras/chat.rst:11 ../extras/customers.rst:7
 #: ../extras/secure-email.rst:32 ../extras/shared-drafts.rst:5
@@ -5407,8 +5452,8 @@ msgid ""
 "trackers>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у панелу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више "
-":admin-docs:`овде </system/integrations.html#integrations-for-issue-"
+"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
+"admin-docs:`овде </system/integrations.html#integrations-for-issue-"
 "trackers>`."
 
 #: ../extras/github-gitlab-integration.rst:16
