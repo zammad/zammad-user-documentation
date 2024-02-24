@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-12 16:47+0100\n"
-"PO-Revision-Date: 2024-02-14 13:00+0000\n"
+"POT-Creation-Date: 2024-02-19 10:53+0100\n"
+"PO-Revision-Date: 2024-02-24 14:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -1692,14 +1692,13 @@ msgstr "Ticket-Aktionen"
 
 #: ../advanced/ticket-actions.rst:4
 msgid ""
-"Unlike ticket settings (which are *attributes that can be modified*), "
-"**actions** are *operations that can be performed* on a ticket, usually to "
-"facilitate the overall ticket management process."
+"In the :doc:`servicing tickets section </basics/service-ticket>` you learned "
+"the base handling of tickets. However, there are additional actions you can "
+"perform:"
 msgstr ""
-"Im Unterschied zu den Tickt Einstellungen (also die *Ticket-Attribute, die "
-"bearbeitet werden können*) sind **Aktionen** sozusagen *Arbeitsvorgänge, die "
-"an einem Ticket durchgeführt werden können*. Diese werden üblicherweise "
-"genutzt, um den gesamten Ticket-Management-Prozess zu erleichtern."
+"Im Abschnitt :doc:`Tickets verwalten </basics/service-ticket>` haben Sie die "
+"grundlegende Handhabung von Tickets gelernt. Sie können jedoch zusätzliche "
+"Aktionen durchführen:"
 
 #: ../advanced/ticket-actions/link.rst:2
 msgid "Linking Tickets"
@@ -1707,44 +1706,105 @@ msgstr "Tickets verknüpfen"
 
 #: ../advanced/ticket-actions/link.rst:4
 msgid ""
-"When tickets about related issues arise (*e.g.,* multiple customer "
-"complaints about the same botched shipment), they can be **linked to each "
-"other** for easier reference."
+"When tickets about related issues arise, they can be linked to each other "
+"for easier reference. For example this could be useful if you have multiple "
+"customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
+"`split <split>` tickets are automatically linked."
 msgstr ""
-"Wenn Tickets zu verwandten Themen auftauchen (*z.B.* mehrere "
-"Kundenbeschwerden über die selbe fehlerhafte Ware) können sie zur "
-"einfacheren Identifizierung **miteinander verknüpft werden**."
+"Wenn Tickets zu verwandten Themen auftauchen, können sie miteinander "
+"verknüpft werden, um den Bezug zu erleichtern. Dies kann zum Beispiel "
+"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung haben. "
+":doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` Tickets "
+"werden automatisch verknüpft."
 
-#: ../advanced/ticket-actions/link.rst:12
-#: ../advanced/ticket-actions/split.rst:32
+#: ../advanced/ticket-actions/link.rst:16
+msgid "Link types"
+msgstr "Link-Typen"
+
+#: ../advanced/ticket-actions/link.rst:10
+msgid ""
+"There are different types of links between tickets as you might have already "
+"seen in :doc:`merge` or :doc:`split`: parent/child links and normal links. "
+"The first pair is used for split and merged tickets. The normal link is "
+"useful when there is no logical hierarchy between tickets."
+msgstr ""
+"Es gibt verschiedene Arten von Verknüpfungen zwischen Tickets, wie Sie "
+"vielleicht schon in :doc:`merge` oder :doc:`split` gesehen haben: Eltern/"
+"Kind-Verknüpfungen und normale Verknüpfungen. Ersteres wird für abgespaltene "
+"und zusammengeführte Tickets verwendet. Die normale Verknüpfung kann "
+"verwendet werden, wenn es keine logische Hierarchie zwischen Tickets gibt."
+
+#: ../advanced/ticket-actions/link.rst:15
+msgid ""
+"However, if you have a main issue and want to create sub tasks, you could "
+"link to the main one as a parent of the sub tickets."
+msgstr ""
+"Wenn Sie jedoch ein Hauptticket haben und Untertickets erstellen möchten, "
+"können Sie für die Untertickets einen Eltern-Link zum Hauptticket erstellen."
+
+#: ../advanced/ticket-actions/link.rst:26
+msgid "How to link"
+msgstr "Wie werden Tickets verknüpft"
+
+#: ../advanced/ticket-actions/link.rst:19
+msgid ""
+"Make sure to have the ticket side panel open. Under the \"Tags\" section you "
+"can find the \"Links\" section:"
+msgstr ""
+"Stellen Sie sicher, dass das Ticket-Seitenpanel geöffnet ist. Unter dem "
+"Abschnitt \"Tags\" finden Sie den Abschnitt \"Links\":"
+
+#: ../advanced/ticket-actions/link.rst:0
+#: ../advanced/ticket-actions/split.rst:None
 msgid "Ticket pane: Links"
 msgstr "Ticket-Einstellungen: Links"
 
-#: ../advanced/ticket-actions/link.rst:12
+#: ../advanced/ticket-actions/link.rst:26
 msgid "Click the *➕ Add Link* button to access the link dialog."
 msgstr ""
 "Klicken Sie auf die Schaltfläche *➕ Link hinzufügen* , um in den "
 "Verknüpfungsdialog zu gelangen."
 
-#: ../advanced/ticket-actions/link.rst:19
+#: ../advanced/ticket-actions/link.rst:45 ../advanced/ticket-actions/link.rst:0
 msgid "Link dialog"
 msgstr "Verlinkungs-Dialog"
 
-#: ../advanced/ticket-actions/link.rst:19
+#: ../advanced/ticket-actions/link.rst:29
 msgid ""
-"The link dialog. Specify a ticket to link with by ID (1), or select one from "
-"the list (2)."
+"You can enter the ticket number of the ticket you want to link to (see 1). "
+"Alternatively, you can choose from the list below (see 2)."
 msgstr ""
-"Der Verknüpfungsdialog. Wählen Sie ein Ticket aus, mit dem das Ticket "
-"verknüpft werden soll. Entweder durch Angabe der ID (1) oder durch Auswahl "
-"eines der Tickets in den aufgeführten Listen (2)."
+"Sie können die Ticketnummer des Tickets eingeben, zu dem Sie verlinken "
+"möchten (siehe 1). Alternativ können Sie aus der Liste unten wählen (siehe "
+"2)."
 
-#: ../advanced/ticket-actions/link.rst:22
+#: ../advanced/ticket-actions/link.rst:33
+#: ../advanced/ticket-actions/merge.rst:35
 msgid ""
-"Linked tickets may optionally be organized into a parent-child hierarchy."
+"If the customer has an existing ticket, it will show up under \"Recent "
+"customer tickets\". You can see your last viewed tickets under \"Recently "
+"viewed tickets\" anyway."
 msgstr ""
-"Verlinkte Tickets können optional in einer Eltern-Kind-Hierarchie "
-"organisiert werden."
+"Wenn der Kunde bereits ein Ticket hat, wird es unter \"Letzte Kunden-"
+"Tickets\" angezeigt. Sie können Ihre zuletzt angesehenen Tickets aber "
+"ohnehin unter \"Zuletzt angesehene Tickets\" sehen."
+
+#: ../advanced/ticket-actions/link.rst:37
+msgid ""
+"Additionally, you can choose the link type from the drop down menu. You can "
+"link to one or more tickets for each type."
+msgstr ""
+"Außerdem können Sie den Link-Typ aus dem Dropdown-Menü auswählen. Sie können "
+"für jeden Link-Typ einen oder mehrere Links zu Tickets erstellen."
+
+#: ../advanced/ticket-actions/link.rst:45
+msgid ""
+"After entering a ticket number or choosing one of the offered tickets from "
+"the list, click on the submit button and the tickets will be linked."
+msgstr ""
+"Nachdem Sie eine Ticketnummer eingegeben oder eines der angebotenen Tickets "
+"aus der Liste ausgewählt haben, klicken Sie auf die Schaltfläche "
+"\"Übermitteln\" und die Tickets werden verknüpft."
 
 #: ../advanced/ticket-actions/merge.rst:2
 msgid "Merging Tickets"
@@ -1752,60 +1812,114 @@ msgstr "Zusammenfassen von Tickets"
 
 #: ../advanced/ticket-actions/merge.rst:4
 msgid ""
-"Sometimes, you may end up with two tickets for the same issue (*e.g.,* "
-"because a customer sent you a brand new email instead of replying to an "
-"existing thread)."
+"If you have two or more tickets about the same issue, you may want to merge "
+"those tickets into one."
 msgstr ""
-"Manchmal kann es vorkommen, dass man zwei Tickets für das gleiche Problem "
-"erhält (*z.B.* weil ein Kunde eine brandneue E-Mail geschickt hat, anstatt "
-"auf ein bestehendes Ticket zu antworten)."
+"Wenn Sie zwei oder mehr Tickets zu demselben Thema haben, können Sie diese "
+"Tickets zu einem einzigen zusammenfassen."
 
-#: ../advanced/ticket-actions/merge.rst:8
-msgid "In such cases, you may want to **merge those tickets into one**."
+#: ../advanced/ticket-actions/merge.rst:7
+msgid ""
+"This might be the case if a customer sends you a new email which can't be "
+"assigned to the existing ticket (e.g. the ticket reference is missing "
+"because the customer sends you a completely new email instead of answering "
+"in the existing thread)."
 msgstr ""
-"In diesen Fällen kann es sein, dass Sie diese **beiden Tickets zu einem "
-"zusammenfassen möchten**."
+"Dies kann der Fall sein, wenn ein Kunde Ihnen eine neue E-Mail schickt, die "
+"nicht dem bestehenden Ticket zugeordnet werden kann (z.B. wenn die Ticket-"
+"Referenz fehlt, weil der Kunde Ihnen eine völlig neue E-Mail schickt, "
+"anstatt im bestehenden Thread zu antworten)."
 
-#: ../advanced/ticket-actions/merge.rst:15
-msgid "Ticket pane submenu"
-msgstr "Ticket-Einstellungen Untermenü"
+#: ../advanced/ticket-actions/merge.rst:21
+msgid "What is merged where?"
+msgstr "Was wird wo zusammengefasst?"
 
-#: ../advanced/ticket-actions/merge.rst:15
+#: ../advanced/ticket-actions/merge.rst:13
+msgid ""
+"Merging a ticket migrates all messages and notes of the ticket from where "
+"you select the merging into the selected one."
+msgstr ""
+"Beim Zusammenfassen von Tickets werden alle Nachrichten und Notizen des "
+"Tickets, von dem Sie das Zusammenfassen ausgewählt haben, in das ausgewählte "
+"Ticket übernommen."
+
+#: ../advanced/ticket-actions/merge.rst:16
+msgid ""
+"Let's assume you already worked on a ticket and you get another ticket about "
+"the same issue and want to merge them. Let's call the ticket you already "
+"worked on the *original* one and the new one *duplicate*. Then the way to go "
+"is to open the duplicate ticket and execute the merging from there so it "
+"will be merged into the original."
+msgstr ""
+"Nehmen wir an, Sie haben bereits an einem Ticket gearbeitet und erhalten ein "
+"weiteres Ticket mit demselben Problem, das Sie zusammenführen möchten. "
+"Nennen wir das Ticket, an dem Sie bereits gearbeitet haben, das *originale* "
+"Ticket und das neue Ticket *Duplikat*. In diesem Fall öffnen Sie das "
+"Duplikat und führen die Zusammenfassung von dort aus durch, damit es mit dem "
+"original Ticket zusammengeführt wird."
+
+#: ../advanced/ticket-actions/merge.rst:28
+msgid "How to merge tickets?"
+msgstr "Wie fasst man Tickets zusammen?"
+
+#: ../advanced/ticket-actions/merge.rst:24
 msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
 msgstr ""
 "Um ein Ticket zusammenzufassen, öffnen Sie das Untermenü **Ticket ▾** im "
 "Ticketfenster."
 
-#: ../advanced/ticket-actions/merge.rst:17
-msgid ""
-"Merging a ticket migrates all messages and notes **out of the original** and "
-"into the selected one."
-msgstr ""
-"Das Zusammenfassen eines Tickets verschiebt alle Nachrichten und Notizen "
-"**aus dem Original** in das ausgewählte Ticket."
+#: ../advanced/ticket-actions/merge.rst:0
+msgid "Ticket menu with highlighted \"merge\""
+msgstr "Ticket-Menü mit hervorgehobenem \"Zusammenfassen\""
 
-#: ../advanced/ticket-actions/merge.rst:20
-msgid ""
-"That is, if you 1) access the merge dialog from Ticket A, and then 2) select "
-"Ticket B in the merge dialog (see below), then Ticket A will be emptied, "
-"closed, and :doc:`linked as a child <link>` of Ticket B."
-msgstr ""
-"Das macht man, indem 1.) der Zusammenfassen-Dialog in Ticket A geöffnet und "
-"dann 2.) Ticket B im Zusammenfass-Tool ausgewählt wird (siehe unten). Ticket "
-"A wird dann geleert, geschlossen und als :doc:`Kind von Ticket B verlinkt "
-"<link>`."
+#: ../advanced/ticket-actions/merge.rst:40
+msgid "Merge dialog"
+msgstr "Dialog Zusammenfassen"
 
-#: ../advanced/ticket-actions/merge.rst:30
+#: ../advanced/ticket-actions/merge.rst:31
+msgid ""
+"You can either enter the ticket number of the ticket you want to merge the "
+"current one into (see 1). Alternatively, you can choose from the list below "
+"(see 2)."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:39
+msgid ""
+"After entering a ticket number or choosing one of the offered tickets from "
+"the list, click on the submit button and the tickets will be merged."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
 msgstr "Dialog zum Zusammenführen von Tickets"
 
-#: ../advanced/ticket-actions/merge.rst:30
-msgid ""
-"The merge dialog. Specify a ticket to merge into by ID (1), or select one "
-"from the list (2)."
+#: ../advanced/ticket-actions/merge.rst:52
+msgid "Result after merging"
 msgstr ""
-"Der Zusammenfassen-Dialog. Geben Sie ein Ticket zum Zusammenfassen via ID "
-"(1) an oder wählen Sie eines aus den Listen (2) aus."
+
+#: ../advanced/ticket-actions/merge.rst:48
+msgid ""
+"The articles are moved into the chosen tickets. The ticket in which you "
+"executed the merging still exists with the following changes:"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:51
+msgid "The articles have been replaced by a \"merged\" label"
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:52
+msgid "The state has changed to \"merged\""
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:53
+#, fuzzy
+#| msgid ""
+#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
+#| "the ticket pane."
+msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
+msgstr ""
+"Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
+"was im Ticket-Dialog eingesehen werden kann."
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -1813,53 +1927,56 @@ msgstr "Tickets spalten"
 
 #: ../advanced/ticket-actions/split.rst:4
 msgid ""
-"Some tickets may actually encompass more than one issue, or require "
-"attention separately from two different departments (*e.g.,* sales and "
-"customer service)."
+"If you have a ticket which is about more than one issue, you might want to "
+"split it in two or more separate tickets. For example this might be the case "
+"if a customer has a technical question and wants to place an order."
 msgstr ""
-"Einige Tickets können mehrere Probleme umfassen oder benötigen eine "
-"getrennte Bearbeitung von verschiedenen Abteilungen (*z.B.* Vertrieb und "
-"Kundenservice)."
 
 #: ../advanced/ticket-actions/split.rst:8
+#, fuzzy
+#| msgid "To rename a ticket, simply click on the title and start typing."
 msgid ""
-"In such cases, you can **split off a single message into its own ticket**. "
-"(Alternately, it may make more sense to :ref:`simply take turns on a single "
-"ticket <sharing-work>` instead.)"
+"To split a ticket, simply click on the \"split\" button under the article "
+"you want to split off:"
 msgstr ""
-"In solchen Fällen können Sie **eine einzelne Nachricht in ein eigenes Ticket "
-"abspalten**. (Alternativ kann es auch sinnvoller sein :ref:`einfach "
-"abwechselnd mit einem Ticket zu arbeiten <sharing-work>`.)"
+"Um ein Ticket umzubenennen, klicken Sie einfach auf den Titel und beginnen "
+"Sie mit der Eingabe."
 
-#: ../advanced/ticket-actions/split.rst:17
+#: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket button"
 msgstr "Ticket abspalten Button"
 
-#: ../advanced/ticket-actions/split.rst:17
+#: ../advanced/ticket-actions/split.rst:15
 msgid ""
-"Click the “split” button to take a message and use it as the starting point "
-"for a new ticket."
+"After clicking on the \"split\" button, a dialog for creating a new ticket "
+"is presented to you:"
 msgstr ""
-"Klicken Sie auf \"abspalten\", um eine Nachricht als Einstieg für ein neues "
-"Ticket zu verwenden."
 
-#: ../advanced/ticket-actions/split.rst:25
+#: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket dialog"
 msgstr "Ticket abspalten Dialog"
 
-#: ../advanced/ticket-actions/split.rst:25
+#: ../advanced/ticket-actions/split.rst:23
+#, fuzzy
+#| msgid ""
+#| "When splitting a ticket, the target message is imported into the new "
+#| "ticket dialog. As usual, remember to select the **type** (call/email)."
 msgid ""
-"When splitting a ticket, the target message is imported into the new ticket "
-"dialog. As usual, remember to select the **type** (call/email)."
+"It is prefilled with the content of the existing article. Remember to select "
+"the type (call/email)."
 msgstr ""
 "Beim Splitten eines Tickets wird die betreffende Nachricht in den neuen "
 "Ticketdialog übernommen. Denken Sie dabei wie gewohnt daran, den **Typ** "
 "(Anruf/E-Mail) auszuwählen."
 
-#: ../advanced/ticket-actions/split.rst:32
+#: ../advanced/ticket-actions/split.rst:26
+#, fuzzy
+#| msgid ""
+#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
+#| "the ticket pane."
 msgid ""
-"The original ticket is :doc:`linked <link>` to the new one, as seen in the "
-"ticket pane."
+"The original ticket is :doc:`linked <link>` to the new one, as you can see "
+"in the ticket side panel:"
 msgstr ""
 "Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
 "was im Ticket-Dialog eingesehen werden kann."
@@ -3057,8 +3174,8 @@ msgid ""
 "ticket/settings/group>`."
 msgstr ""
 "Generell kann jeder Agent anderen Agenten Tickets zuweisen, solang beide die "
-"notwendigen Berechtigungen für die :doc:`Ticket-Gruppe </basics/"
-"service-ticket/settings/group>` haben."
+"notwendigen Berechtigungen für die :doc:`Ticket-Gruppe </basics/service-"
+"ticket/settings/group>` haben."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 msgid "Why would I want to re-assign a ticket to someone else?"
@@ -8445,6 +8562,94 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid ""
+#~ "Unlike ticket settings (which are *attributes that can be modified*), "
+#~ "**actions** are *operations that can be performed* on a ticket, usually "
+#~ "to facilitate the overall ticket management process."
+#~ msgstr ""
+#~ "Im Unterschied zu den Tickt Einstellungen (also die *Ticket-Attribute, "
+#~ "die bearbeitet werden können*) sind **Aktionen** sozusagen "
+#~ "*Arbeitsvorgänge, die an einem Ticket durchgeführt werden können*. Diese "
+#~ "werden üblicherweise genutzt, um den gesamten Ticket-Management-Prozess "
+#~ "zu erleichtern."
+
+#~ msgid ""
+#~ "When tickets about related issues arise (*e.g.,* multiple customer "
+#~ "complaints about the same botched shipment), they can be **linked to each "
+#~ "other** for easier reference."
+#~ msgstr ""
+#~ "Wenn Tickets zu verwandten Themen auftauchen (*z.B.* mehrere "
+#~ "Kundenbeschwerden über die selbe fehlerhafte Ware) können sie zur "
+#~ "einfacheren Identifizierung **miteinander verknüpft werden**."
+
+#~ msgid ""
+#~ "The link dialog. Specify a ticket to link with by ID (1), or select one "
+#~ "from the list (2)."
+#~ msgstr ""
+#~ "Der Verknüpfungsdialog. Wählen Sie ein Ticket aus, mit dem das Ticket "
+#~ "verknüpft werden soll. Entweder durch Angabe der ID (1) oder durch "
+#~ "Auswahl eines der Tickets in den aufgeführten Listen (2)."
+
+#~ msgid ""
+#~ "Linked tickets may optionally be organized into a parent-child hierarchy."
+#~ msgstr ""
+#~ "Verlinkte Tickets können optional in einer Eltern-Kind-Hierarchie "
+#~ "organisiert werden."
+
+#~ msgid ""
+#~ "Sometimes, you may end up with two tickets for the same issue (*e.g.,* "
+#~ "because a customer sent you a brand new email instead of replying to an "
+#~ "existing thread)."
+#~ msgstr ""
+#~ "Manchmal kann es vorkommen, dass man zwei Tickets für das gleiche Problem "
+#~ "erhält (*z.B.* weil ein Kunde eine brandneue E-Mail geschickt hat, "
+#~ "anstatt auf ein bestehendes Ticket zu antworten)."
+
+#~ msgid "Ticket pane submenu"
+#~ msgstr "Ticket-Einstellungen Untermenü"
+
+#~ msgid ""
+#~ "That is, if you 1) access the merge dialog from Ticket A, and then 2) "
+#~ "select Ticket B in the merge dialog (see below), then Ticket A will be "
+#~ "emptied, closed, and :doc:`linked as a child <link>` of Ticket B."
+#~ msgstr ""
+#~ "Das macht man, indem 1.) der Zusammenfassen-Dialog in Ticket A geöffnet "
+#~ "und dann 2.) Ticket B im Zusammenfass-Tool ausgewählt wird (siehe unten). "
+#~ "Ticket A wird dann geleert, geschlossen und als :doc:`Kind von Ticket B "
+#~ "verlinkt <link>`."
+
+#~ msgid ""
+#~ "The merge dialog. Specify a ticket to merge into by ID (1), or select one "
+#~ "from the list (2)."
+#~ msgstr ""
+#~ "Der Zusammenfassen-Dialog. Geben Sie ein Ticket zum Zusammenfassen via ID "
+#~ "(1) an oder wählen Sie eines aus den Listen (2) aus."
+
+#~ msgid ""
+#~ "Some tickets may actually encompass more than one issue, or require "
+#~ "attention separately from two different departments (*e.g.,* sales and "
+#~ "customer service)."
+#~ msgstr ""
+#~ "Einige Tickets können mehrere Probleme umfassen oder benötigen eine "
+#~ "getrennte Bearbeitung von verschiedenen Abteilungen (*z.B.* Vertrieb und "
+#~ "Kundenservice)."
+
+#~ msgid ""
+#~ "In such cases, you can **split off a single message into its own "
+#~ "ticket**. (Alternately, it may make more sense to :ref:`simply take turns "
+#~ "on a single ticket <sharing-work>` instead.)"
+#~ msgstr ""
+#~ "In solchen Fällen können Sie **eine einzelne Nachricht in ein eigenes "
+#~ "Ticket abspalten**. (Alternativ kann es auch sinnvoller sein :ref:"
+#~ "`einfach abwechselnd mit einem Ticket zu arbeiten <sharing-work>`.)"
+
+#~ msgid ""
+#~ "Click the “split” button to take a message and use it as the starting "
+#~ "point for a new ticket."
+#~ msgstr ""
+#~ "Klicken Sie auf \"abspalten\", um eine Nachricht als Einstieg für ein "
+#~ "neues Ticket zu verwenden."
 
 #~ msgid "**🤓 Have a look here to find the keyboard shortcuts**"
 #~ msgstr "**🤓 Siehe hier für Tastaturkürzel**"
