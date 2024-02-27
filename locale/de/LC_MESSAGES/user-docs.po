@@ -1713,8 +1713,8 @@ msgid ""
 msgstr ""
 "Wenn Tickets zu verwandten Themen auftauchen, können sie miteinander "
 "verknüpft werden, um den Bezug zu erleichtern. Dies kann zum Beispiel "
-"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung haben. "
-":doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` Tickets "
+"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung haben. :"
+"doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` Tickets "
 "werden automatisch verknüpft."
 
 #: ../advanced/ticket-actions/link.rst:16
@@ -1882,12 +1882,18 @@ msgid ""
 "current one into (see 1). Alternatively, you can choose from the list below "
 "(see 2)."
 msgstr ""
+"Sie können entweder die Ticketnummer des Tickets eingeben, in das Sie das "
+"aktuelle Ticket zusammenführen möchten (siehe 1). Alternativ können Sie aus "
+"der Liste unten wählen (siehe 2)."
 
 #: ../advanced/ticket-actions/merge.rst:39
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
 msgstr ""
+"Nachdem Sie eine Ticketnummer eingegeben oder eines der angebotenen Tickets "
+"aus der Liste ausgewählt haben, klicken Sie auf die Schaltfläche "
+"\"Übermitteln\" und die Tickets werden zusammengeführt."
 
 #: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
@@ -1895,31 +1901,28 @@ msgstr "Dialog zum Zusammenführen von Tickets"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "Result after merging"
-msgstr ""
+msgstr "Ergebnis nach Zusammenfassung"
 
 #: ../advanced/ticket-actions/merge.rst:48
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
 msgstr ""
+"Die Artikel werden in das gewählte Ticket verschoben. Das Ticket, in dem Sie "
+"die Zusammenführung durchgeführt haben, besteht weiterhin mit den folgenden "
+"Änderungen:"
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr ""
+msgstr "Die Artikel wurden durch eine \"zusammengefasst\" Bezeichnung ersetzt"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "The state has changed to \"merged\""
-msgstr ""
+msgstr "Der Status hat sich auf \"zusammengefasst\" geändert"
 
 #: ../advanced/ticket-actions/merge.rst:53
-#, fuzzy
-#| msgid ""
-#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
-#| "the ticket pane."
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
-msgstr ""
-"Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
-"was im Ticket-Dialog eingesehen werden kann."
+msgstr "Das Ticket ist :doc:`verknüpft <link>` mit seinem \"Parent\" Ticket"
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -1931,16 +1934,18 @@ msgid ""
 "split it in two or more separate tickets. For example this might be the case "
 "if a customer has a technical question and wants to place an order."
 msgstr ""
+"Wenn Sie ein Ticket haben, bei dem es um mehr als ein Problem geht, möchten "
+"Sie es vielleicht in zwei oder mehr separate Tickets aufteilen. Dies kann "
+"zum Beispiel der Fall sein, wenn ein Kunde eine technische Frage hat und "
+"eine Bestellung aufgeben möchte."
 
 #: ../advanced/ticket-actions/split.rst:8
-#, fuzzy
-#| msgid "To rename a ticket, simply click on the title and start typing."
 msgid ""
 "To split a ticket, simply click on the \"split\" button under the article "
 "you want to split off:"
 msgstr ""
-"Um ein Ticket umzubenennen, klicken Sie einfach auf den Titel und beginnen "
-"Sie mit der Eingabe."
+"Um ein Ticket zu splitten, klicken Sie einfach auf die Schaltfläche "
+"\"abspalten\" unter dem Artikel, den Sie abspalten möchten:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket button"
@@ -1951,35 +1956,28 @@ msgid ""
 "After clicking on the \"split\" button, a dialog for creating a new ticket "
 "is presented to you:"
 msgstr ""
+"Nachdem Sie auf die Schaltfläche \"Abspalten\" geklickt haben, wird Ihnen "
+"ein Dialog zum Erstellen eines neuen Tickets angezeigt:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket dialog"
 msgstr "Ticket abspalten Dialog"
 
 #: ../advanced/ticket-actions/split.rst:23
-#, fuzzy
-#| msgid ""
-#| "When splitting a ticket, the target message is imported into the new "
-#| "ticket dialog. As usual, remember to select the **type** (call/email)."
 msgid ""
 "It is prefilled with the content of the existing article. Remember to select "
 "the type (call/email)."
 msgstr ""
-"Beim Splitten eines Tickets wird die betreffende Nachricht in den neuen "
-"Ticketdialog übernommen. Denken Sie dabei wie gewohnt daran, den **Typ** "
-"(Anruf/E-Mail) auszuwählen."
+"Es wird mit dem Inhalt des vorhandenen Artikels vorausgefüllt. Denken Sie "
+"daran, die Art (Anruf/E-Mail) auszuwählen."
 
 #: ../advanced/ticket-actions/split.rst:26
-#, fuzzy
-#| msgid ""
-#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
-#| "the ticket pane."
 msgid ""
 "The original ticket is :doc:`linked <link>` to the new one, as you can see "
 "in the ticket side panel:"
 msgstr ""
-"Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
-"was im Ticket-Dialog eingesehen werden kann."
+"Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verknüpft <link>`, "
+"wie Sie in der Seitenleiste des Tickets sehen können:"
 
 #: ../advanced/ticket-templates.rst:4
 msgid "Ticket Templates"
@@ -9244,3 +9242,30 @@ msgstr ""
 #~ msgstr ""
 #~ "Bitten Sie Ihren Administrator, den privaten Schlüssel Ihrer Organisation "
 #~ "im Zertifikatsspeicher von Zammad zu überprüfen."
+
+#~ msgid "In such cases, you may want to **merge those tickets into one**."
+#~ msgstr ""
+#~ "In diesen Fällen kann es sein, dass Sie diese **beiden Tickets zu einem "
+#~ "zusammenfassen möchten**."
+
+#~ msgid ""
+#~ "Merging a ticket migrates all messages and notes **out of the original** "
+#~ "and into the selected one."
+#~ msgstr ""
+#~ "Das Zusammenfassen eines Tickets verschiebt alle Nachrichten und Notizen "
+#~ "**aus dem Original** in das ausgewählte Ticket."
+
+#~ msgid ""
+#~ "When splitting a ticket, the target message is imported into the new "
+#~ "ticket dialog. As usual, remember to select the **type** (call/email)."
+#~ msgstr ""
+#~ "Beim Splitten eines Tickets wird die betreffende Nachricht in den neuen "
+#~ "Ticketdialog übernommen. Denken Sie dabei wie gewohnt daran, den **Typ** "
+#~ "(Anruf/E-Mail) auszuwählen."
+
+#~ msgid ""
+#~ "The original ticket is :doc:`linked <link>` to the new one, as seen in "
+#~ "the ticket pane."
+#~ msgstr ""
+#~ "Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
+#~ "was im Ticket-Dialog eingesehen werden kann."

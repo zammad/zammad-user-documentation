@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:10
 msgid "Where to find them?"
-msgstr ""
+msgstr "Где их пронаћи?"
 
 #: ../advanced/keyboard-shortcuts.rst:12
 msgid ""
@@ -336,7 +336,7 @@ msgstr "Уређивање текста"
 
 #: ../advanced/keyboard-shortcuts.rst:117
 msgid "How"
-msgstr ""
+msgstr "Како"
 
 #: ../advanced/keyboard-shortcuts.rst:105
 msgid "You can apply a text format *before* typing or *after* typing. Example:"
@@ -1223,7 +1223,7 @@ msgstr "@помињање колеге у поруци аутоматски ће
 
 #: ../advanced/suggested-workflows.rst:85
 msgid "⚙️ **Notification settings**"
-msgstr ""
+msgstr "⚙️ **Подешавања обавештења**"
 
 #: ../advanced/suggested-workflows.rst:87
 msgid ""
@@ -1235,7 +1235,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:90
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
-msgstr ""
+msgstr "**Не видите тикет у ком вас је колега @поменуо?**"
 
 #: ../advanced/suggested-workflows.rst:92
 msgid ""
@@ -1291,7 +1291,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:120
 msgid "Bulk action via drop-downs:"
-msgstr ""
+msgstr "Масовна радња путем падајућих менија:"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid "Bulk operations in overviews and detailed searches"
@@ -1309,7 +1309,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:134
 msgid "Bulk action via drag and drop:"
-msgstr ""
+msgstr "Масовна радња путем превуци и испусти:"
 
 #: ../advanced/suggested-workflows.rst:123
 msgid "**🤓 You can change owners and groups even faster 🚀**"
@@ -1463,19 +1463,16 @@ msgid "Tab behavior in ticket zooms"
 msgstr "Понашање прозора у прегледу тикета"
 
 #: ../advanced/tabs.rst:40
-#, fuzzy
-#| msgid ""
-#| "The behavior of a tab can be configured by your administrator globally. "
-#| "You can overrule this setting based on your personal preference."
 msgid ""
 "You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
 "lower right already. This behavior of a tab can be configured by your "
 "administrator globally. You can overrule this setting based on your personal "
 "preference."
 msgstr ""
-"Понашање прозора је могуће подесити на глобалном нивоу од стране вашег "
-"администратора. Можете преиначити ово подешавање на основу вашег личног "
-"избора."
+"Можда сте веж приметили дугме „Остани у прозору” одмах поред „Освежи” у "
+"доњем десном углу. Ово понашање прозора је могуће подесити на глобалном "
+"нивоу од стране вашег администратора. Можете преиначити ово подешавање на "
+"основу вашег личног избора."
 
 #: ../advanced/tabs.rst:None
 msgid "Tab behavior can be adjusted in tickets manually"
@@ -1590,16 +1587,12 @@ msgstr ""
 "подешене)."
 
 #: ../advanced/text-modules.rst:21
-#, fuzzy
-#| msgid "Text module"
 msgid "Text modules missing?"
-msgstr "Текстуални исечак"
+msgstr "Недостаје вам текстуални исечак?"
 
 #: ../advanced/text-modules.rst:23
-#, fuzzy
-#| msgid "**🤔 How come some text modules don’t always appear?**"
 msgid "You noticed that some text modules don't always appear?"
-msgstr "**🤔 Како то да се неки текстуални исечци не појављују увек?**"
+msgstr "Приметили сте да се неки текстуални исечци не појављују увек?"
 
 #: ../advanced/text-modules.rst:25
 msgid ""
@@ -1663,6 +1656,8 @@ msgid ""
 "the base handling of tickets. However, there are additional actions you can "
 "perform:"
 msgstr ""
+"У одељку :doc:`обрада тикета </basics/service-ticket>` научили сте основе "
+"управљања тикетима. Међутим, постоји још радњи које можете извршити:"
 
 #: ../advanced/ticket-actions/link.rst:2
 msgid "Linking Tickets"
@@ -1675,10 +1670,14 @@ msgid ""
 "customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
 "`split <split>` tickets are automatically linked."
 msgstr ""
+"Када се појаве тикети о сродним проблемима, могу се повезати једни са другим "
+"ради лакшег референцирања. На пример ово може бити корисно ако имате велики "
+"број жалби клијената на исту испоруку. :doc:`Спојени <merge>` и :doc:"
+"`раздељени <split>` тикети се аутоматски повезују."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
-msgstr ""
+msgstr "Врсте веза"
 
 #: ../advanced/ticket-actions/link.rst:10
 msgid ""
@@ -1687,22 +1686,30 @@ msgid ""
 "The first pair is used for split and merged tickets. The normal link is "
 "useful when there is no logical hierarchy between tickets."
 msgstr ""
+"Постоје различите врсте веза између тикета као што сте већ приметили у :doc:"
+"`спајању` or :doc:`раздељивању`: надређене/подређене и нормалне везе. Први "
+"пар се користи за раздељене и спојене тикете. Нормална веза се користи када "
+"не постоји логичка хијерархија између тикета."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
 "However, if you have a main issue and want to create sub tasks, you could "
 "link to the main one as a parent of the sub tickets."
 msgstr ""
+"Међутим, уколико имате главни проблем и желите да додате подзадатке, можете "
+"повезати главни тикет као надређени свих подтикета."
 
 #: ../advanced/ticket-actions/link.rst:26
 msgid "How to link"
-msgstr ""
+msgstr "Како повезати"
 
 #: ../advanced/ticket-actions/link.rst:19
 msgid ""
 "Make sure to have the ticket side panel open. Under the \"Tags\" section you "
 "can find the \"Links\" section:"
 msgstr ""
+"Отворите панел тикета и погледајте у траци са стране. Испод одељка „Ознаке” "
+"можете пронаћи одељак „Везе”:"
 
 #: ../advanced/ticket-actions/link.rst:0
 #: ../advanced/ticket-actions/split.rst:None
@@ -1723,6 +1730,8 @@ msgid ""
 "You can enter the ticket number of the ticket you want to link to (see 1). "
 "Alternatively, you can choose from the list below (see 2)."
 msgstr ""
+"Можете унети број тикета који желите да повежете (види под 1). Алтернативно, "
+"можете изабрати тикет из листе испод (види под 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
 #: ../advanced/ticket-actions/merge.rst:35
@@ -1731,30 +1740,37 @@ msgid ""
 "customer tickets\". You can see your last viewed tickets under \"Recently "
 "viewed tickets\" anyway."
 msgstr ""
+"Уколико клијент има постојећи тикет, појавиће се под „Недавни тикети "
+"клијента”. Можете увек прегледати ваше последње тикете под „Недавно виђени "
+"тикети”."
 
 #: ../advanced/ticket-actions/link.rst:37
 msgid ""
 "Additionally, you can choose the link type from the drop down menu. You can "
 "link to one or more tickets for each type."
 msgstr ""
+"Додатно, можете одабрати врсту везе из падајућег менија. Можете повезати "
+"један или више тикета за сваку врсту."
 
 #: ../advanced/ticket-actions/link.rst:45
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be linked."
 msgstr ""
+"По уносу броја тикета или одабиру једног од понуђених из листе, кликните на "
+"дугме за потврду и тикети ће бити повезани."
 
 #: ../advanced/ticket-actions/merge.rst:2
 msgid "Merging Tickets"
 msgstr "Спајање тикета"
 
 #: ../advanced/ticket-actions/merge.rst:4
-#, fuzzy
-#| msgid "In such cases, you may want to **merge those tickets into one**."
 msgid ""
 "If you have two or more tickets about the same issue, you may want to merge "
 "those tickets into one."
-msgstr "У таквим случајевима, могуће је **спојите те тикете у један**."
+msgstr ""
+"Уколико имате два или више тикета о сродном проблему, могуће је **спојити те "
+"тикете у један**."
 
 #: ../advanced/ticket-actions/merge.rst:7
 msgid ""
@@ -1763,21 +1779,21 @@ msgid ""
 "because the customer sends you a completely new email instead of answering "
 "in the existing thread)."
 msgstr ""
+"Ово је згодно у случају да вам клијент пошаље нову имејл поруку која се не "
+"може доделити постојећем тикету (нпр. услед недостатка референце тикета зато "
+"што вам је клијент послао потпуно нову поруку уместо одговора на постојећу)."
 
 #: ../advanced/ticket-actions/merge.rst:21
 msgid "What is merged where?"
-msgstr ""
+msgstr "Шта се спаја где?"
 
 #: ../advanced/ticket-actions/merge.rst:13
-#, fuzzy
-#| msgid ""
-#| "Merging a ticket migrates all messages and notes **out of the original** "
-#| "and into the selected one."
 msgid ""
 "Merging a ticket migrates all messages and notes of the ticket from where "
 "you select the merging into the selected one."
 msgstr ""
-"Спајање тикета мигрира све поруке и напомене **из оригинала** у изабрани."
+"Спајање тикета мигрира све поруке и напомене из тикета који спајате у "
+"одабрани."
 
 #: ../advanced/ticket-actions/merge.rst:16
 msgid ""
@@ -1787,12 +1803,14 @@ msgid ""
 "is to open the duplicate ticket and execute the merging from there so it "
 "will be merged into the original."
 msgstr ""
+"Замислимо да већ радите на тикету и добијате тикет о истом проблем и желите "
+"да их спојите. Назовимо тикет на коме већ радите *оригинални* а нови "
+"*дупликат*. Начин на који можете ово урадити је да отворите дупликат и "
+"извршите спајање из њега тако да буде спојен са оригиналним."
 
 #: ../advanced/ticket-actions/merge.rst:28
-#, fuzzy
-#| msgid "Browse for Tickets"
 msgid "How to merge tickets?"
-msgstr "Преглед тикета"
+msgstr "Како повезати тикете?"
 
 #: ../advanced/ticket-actions/merge.rst:24
 msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
@@ -1800,14 +1818,10 @@ msgstr ""
 "Да бисте спојили тикет, приступите подменију **Тицкет ▾** у панелу тикета."
 
 #: ../advanced/ticket-actions/merge.rst:0
-#, fuzzy
-#| msgid "Ticket highlighter"
 msgid "Ticket menu with highlighted \"merge\""
-msgstr "Означавање тикета"
+msgstr "Мени радњи тикета са означеним „спајањем”"
 
 #: ../advanced/ticket-actions/merge.rst:40
-#, fuzzy
-#| msgid "Merge ticket dialog"
 msgid "Merge dialog"
 msgstr "Дијалог спајања тикета"
 
@@ -1817,12 +1831,16 @@ msgid ""
 "current one into (see 1). Alternatively, you can choose from the list below "
 "(see 2)."
 msgstr ""
+"Можете унети број тикета са којим желите да спојите тренутни (види под 1). "
+"Алтенративно, можете изабрати из листе испод (види под 2)."
 
 #: ../advanced/ticket-actions/merge.rst:39
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
 msgstr ""
+"По уносу броја тикета или одабиру једног од понуђених тикета из листе, "
+"кликните на дугме за потврду и тикети ће бити спојени."
 
 #: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
@@ -1830,31 +1848,27 @@ msgstr "Дијалог спајања тикета"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "Result after merging"
-msgstr ""
+msgstr "Резултат по спајању"
 
 #: ../advanced/ticket-actions/merge.rst:48
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
 msgstr ""
+"Чланци су пребачени у одабрани тикет. Тикет из кога сте извршили спајање још "
+"увек постоји са следећим променама:"
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr ""
+msgstr "Сви чланци су замењени ознаком „спојено”"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "The state has changed to \"merged\""
-msgstr ""
+msgstr "Стање је промењено у „спојено”"
 
 #: ../advanced/ticket-actions/merge.rst:53
-#, fuzzy
-#| msgid ""
-#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
-#| "the ticket pane."
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
-msgstr ""
-"Оригинални тикет ће бити :doc:`повезан <link>` са новим, као што се види у "
-"панелу тикета."
+msgstr "Тикет је :doc:`повезан <link>` са „надређеним” тикетом"
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -1866,16 +1880,17 @@ msgid ""
 "split it in two or more separate tickets. For example this might be the case "
 "if a customer has a technical question and wants to place an order."
 msgstr ""
+"Уколико имате тикет у коме се помиње више од једног проблема, можда ћете "
+"желети да га разделите у два или више тикета. На пример ово се може десити "
+"ако клијент има техничко питање и жели да одради поруџбину."
 
 #: ../advanced/ticket-actions/split.rst:8
-#, fuzzy
-#| msgid "To rename a ticket, simply click on the title and start typing."
 msgid ""
 "To split a ticket, simply click on the \"split\" button under the article "
 "you want to split off:"
 msgstr ""
-"Да бисте променили наслов тикета, једноставно кликните на наслов и почните "
-"да куцате."
+"Да бисте разделили тикет, једноставно кликните на дугме „раздели” испод "
+"чланка који желите да издвојите:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket button"
@@ -1885,35 +1900,27 @@ msgstr "Дугме за раздељивање тикета"
 msgid ""
 "After clicking on the \"split\" button, a dialog for creating a new ticket "
 "is presented to you:"
-msgstr ""
+msgstr "По клику на дугме „раздели”, биће приказан дијалог новог тикета:"
 
 #: ../advanced/ticket-actions/split.rst:None
 msgid "Split ticket dialog"
 msgstr "Дијалог раздељивања тикета"
 
 #: ../advanced/ticket-actions/split.rst:23
-#, fuzzy
-#| msgid ""
-#| "When splitting a ticket, the target message is imported into the new "
-#| "ticket dialog. As usual, remember to select the **type** (call/email)."
 msgid ""
 "It is prefilled with the content of the existing article. Remember to select "
 "the type (call/email)."
 msgstr ""
-"Када раздељујете тикет, циљна порука ће бити увежена у дијалог новог тикета. "
-"Као и обично, не заборавите да изаберете **тип** (позив/имејл)."
+"Биће већ попуњен садржајем постојећег чланка. Не заборавите да изаберете тип "
+"(позив/имејл)."
 
 #: ../advanced/ticket-actions/split.rst:26
-#, fuzzy
-#| msgid ""
-#| "The original ticket is :doc:`linked <link>` to the new one, as seen in "
-#| "the ticket pane."
 msgid ""
 "The original ticket is :doc:`linked <link>` to the new one, as you can see "
 "in the ticket side panel:"
 msgstr ""
-"Оригинални тикет ће бити :doc:`повезан <link>` са новим, као што се види у "
-"панелу тикета."
+"Оригинални тикет ће бити :doc:`повезан <link>` са новим, као што се може "
+"видети у панелу тикета:"
 
 #: ../advanced/ticket-templates.rst:4
 msgid "Ticket Templates"
@@ -1957,7 +1964,7 @@ msgstr ""
 
 #: ../advanced/ticket-templates.rst:29
 msgid "Field collisions"
-msgstr ""
+msgstr "Конфликти поља"
 
 #: ../advanced/ticket-templates.rst:23
 msgid ""
@@ -1979,10 +1986,8 @@ msgstr ""
 "купца пре него што примените шаблон. 🎉"
 
 #: ../advanced/ticket-templates.rst:39
-#, fuzzy
-#| msgid "**😖 I can't add or adjust templates?!**"
 msgid "Can't add or adjust templates?"
-msgstr "**😖 Не могу да додам или подесим шаблоне?!**"
+msgstr "Не можете да додате или подесите шаблоне?"
 
 #: ../advanced/ticket-templates.rst:32
 msgid ""
@@ -2042,7 +2047,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:20
 msgid "Units"
-msgstr ""
+msgstr "Јединице"
 
 #: ../advanced/time-accounting.rst:22
 msgid ""
@@ -2059,10 +2064,8 @@ msgid "Time Accounting Unit"
 msgstr "Јединица обрачунатог времена"
 
 #: ../advanced/time-accounting.rst:31
-#, fuzzy
-#| msgid "**What is an Activity Type?**"
 msgid "Activity Types"
-msgstr "**Шта је то врста активности?**"
+msgstr "Врсте активности"
 
 #: ../advanced/time-accounting.rst:33
 msgid ""
@@ -2090,10 +2093,8 @@ msgstr ""
 "груписано."
 
 #: ../advanced/time-accounting.rst:47
-#, fuzzy
-#| msgid "Accounted times in the ticket view"
 msgid "Accounted Time in Ticket"
-msgstr "Обрачунато време у приказу тикета"
+msgstr "Обрачунато време у тикету"
 
 #: ../advanced/time-accounting.rst:49
 msgid ""
@@ -2126,9 +2127,6 @@ msgid "Finding Tickets"
 msgstr "Проналажење тикета"
 
 #: ../basics/find-ticket.rst:4
-#, fuzzy
-#| msgid ""
-#| "If you plan to work on tickets, you’d better know how to find ’em first."
 msgid ""
 "If you plan to work on tickets, you'd better know how to find them first."
 msgstr ""
@@ -2158,16 +2156,12 @@ msgid "Click **Overviews** in the main menu to browse tickets."
 msgstr "Кликните на **Прегледи** у главном менију да бисте прегледали карте."
 
 #: ../basics/find-ticket/browse.rst:12
-#, fuzzy
-#| msgid ""
-#| "📥 Think of overviews as **inboxes**, each with a different filter for "
-#| "the tickets it displays."
 msgid ""
 "Think of overviews as **inboxes**, each with a different filter for the "
 "tickets it displays."
 msgstr ""
-"📥 Замислите прегледе као **поштанске сандучиће**, од којих сваки има "
-"другачији филтер за тикете које приказује."
+"Замислите прегледе као **поштанске сандучиће**, од којих сваки има другачији "
+"филтер за тикете које приказује."
 
 #: ../basics/find-ticket/browse.rst:15
 msgid ""
@@ -2322,11 +2316,6 @@ msgid "Creating a Ticket"
 msgstr "Отварање тикета"
 
 #: ../basics/service-ticket/create.rst:4
-#, fuzzy
-#| msgid ""
-#| "Zammad does its best to create tickets automatically when new customer "
-#| "issues come your way. But sometimes, there’s just no way for Zammad to "
-#| "know when an issue arrives – like when a customer calls on the phone."
 msgid ""
 "Zammad does its best to create tickets automatically when new customer "
 "issues come your way. But sometimes, there's just no way for Zammad to know "
@@ -2386,8 +2375,6 @@ msgid "Filling Out the Form"
 msgstr "Попуњавање обрасца"
 
 #: ../basics/service-ticket/create.rst:28
-#, fuzzy
-#| msgid "Here’s a quick run-down of each input field in the New Ticket form:"
 msgid "Here's a quick run-down of each input field in the New Ticket form:"
 msgstr "Ево кратког прегледа сваког поља за унос у обрасцу новог тикета:"
 
@@ -2425,8 +2412,6 @@ msgid "Customer autocomplete menu"
 msgstr "Поље за брзу претрагу клијената"
 
 #: ../basics/service-ticket/create.rst:46
-#, fuzzy
-#| msgid "Autocomplete can’t find customers by name."
 msgid "Autocomplete can't find customers by name."
 msgstr "Брза претрага не може да пронађе клијенте по имену."
 
@@ -2612,23 +2597,22 @@ msgstr ""
 "добити ваш одговор у Твитер порукама)."
 
 #: ../basics/service-ticket/follow-up.rst:47
-#, fuzzy
-#| msgid ""
-#| "⏩ You can also **forward messages**, just as you would in any email "
-#| "client (attachments are included automatically)."
 msgid ""
 "You can also **forward messages**, just as you would in any email client "
 "(attachments are included automatically). This way, you can share "
 "correspondences with people who don't have Zammad (like a third-party "
 "supplier)."
 msgstr ""
-"⏩ Такође можете да **проследите поруке**, баш као што бисте то урадили у "
-"било ком имејл клијенту (прилози ће бити аутоматски укључени)."
+"Такође можете да **проследите поруке**, баш као што бисте то урадили у било "
+"ком имејл клијенту (прилози ће бити аутоматски укључени). На овај начин "
+"можете поделити кореспонденцију са људима који немају приступ Zammad-у (нпр. "
+"са подизвођачима)."
 
 #: ../basics/service-ticket/follow-up.rst:51
 msgid ""
 "Do you want to see **detailed information of a message**? Just click on it:"
 msgstr ""
+"Да ли желите да видите **детаљне информације о поруци**? Само кликните на њу:"
 
 #: ../basics/service-ticket/follow-up.rst:None
 msgid "Message details view"
@@ -2690,7 +2674,7 @@ msgstr ""
 #: ../basics/service-ticket/follow-up.rst:85
 msgid ""
 "You can **change the visibility of an article** by clicking the 🔒 button:"
-msgstr ""
+msgstr "Можете **променити видљивост чланка** кликом на дугме 🔒:"
 
 #: ../basics/service-ticket/follow-up.rst:90
 msgid ""
@@ -2773,11 +2757,6 @@ msgid "🔥 Keeping an eye on escalations"
 msgstr "🔥 Пазите на ескалације"
 
 #: ../basics/service-ticket/follow-up.rst:131
-#, fuzzy
-#| msgid ""
-#| "SLAs are optional and require configuration by your instance "
-#| "administrator. Administrators can learn more about SLAs :admin-docs:`in "
-#| "our admin documentation </manage/slas/index.html>`."
 msgid ""
 "SLAs are optional and require configuration by your instance administrator. "
 "Administrators can learn more about SLAs :admin-docs:`in our admin "
@@ -2786,7 +2765,8 @@ msgid ""
 msgstr ""
 "SLA су опциони и захтевају конфигурацију од стране администратора инстанце. "
 "Администратори могу да сазнају више о SLA :admin-docs:у нашој "
-"администраторској документацији </manage/slas/index.html>`."
+"администраторској документацији </manage/slas/index.html>`. Уколико не "
+"видите временске ознале ескалација, ваш администратор их није подесио."
 
 #: ../basics/service-ticket/follow-up.rst:136
 msgid ""
@@ -2809,7 +2789,7 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:145
 msgid "Simultaneous processing of a ticket"
-msgstr ""
+msgstr "Симултана обрада тикета"
 
 #: ../basics/service-ticket/follow-up.rst:149
 msgid ""
@@ -2872,7 +2852,7 @@ msgstr ""
 msgid ""
 "The available options depend on your privileges and the configuration of "
 "your system."
-msgstr ""
+msgstr "Могуће опције зависе од ваших дозвола и подешавања система."
 
 #: ../basics/service-ticket/settings.rst:29
 msgid "Renaming a Ticket"
@@ -3009,19 +2989,15 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:29
 msgid "Managing groups"
-msgstr ""
+msgstr "Управљање групама"
 
 #: ../basics/service-ticket/settings/group.rst:31
-#, fuzzy
-#| msgid ""
-#| "You don't – that's the :admin-docs:`administrator's job </manage/groups/"
-#| "index.html>`."
 msgid ""
 "So how do I manage which team I'm on? You don't - that's the :admin-docs:"
 "`administrator's job </manage/groups/index.html>`."
 msgstr ""
-"Никако – то је :admin-docs:`посао администратора </manage/groups/index."
-"html>`."
+"Како да управљам својим тимом? Никако – то је :admin-docs:`посао "
+"администратора </manage/groups/index.html>`."
 
 #: ../basics/service-ticket/settings/group.rst:34
 msgid ""
@@ -3059,10 +3035,6 @@ msgid "Owner"
 msgstr "Власник"
 
 #: ../basics/service-ticket/settings/owner.rst:4
-#, fuzzy
-#| msgid ""
-#| "A ticket’s **owner** is simply *the agent that is currently responsible "
-#| "for it*."
 msgid ""
 "A ticket's **owner** is simply *the agent that is currently responsible for "
 "it*."
@@ -3075,11 +3047,6 @@ msgid "Whose job is it to assign tickets?"
 msgstr "Чији је посао да додељује тикете?"
 
 #: ../basics/service-ticket/settings/owner.rst:10
-#, fuzzy
-#| msgid ""
-#| "It depends on your organization’s workflow, but in most cases, **you will "
-#| "assign tickets to yourself** when you choose an issue to work on from the "
-#| "pool of new tickets."
 msgid ""
 "It depends on your organization's workflow, but in most cases, **you will "
 "assign tickets to yourself** when you choose an issue to work on from the "
@@ -3090,11 +3057,6 @@ msgstr ""
 "листе расположивих нових тикета."
 
 #: ../basics/service-ticket/settings/owner.rst:16
-#, fuzzy
-#| msgid ""
-#| "In principle, any agent may assign a ticket to any other, as long as both "
-#| "have the required privileges for the ticket’s :doc:`group </basics/"
-#| "service-ticket/settings/group>`."
 msgid ""
 "In principle, any agent may assign a ticket to any other, as long as both "
 "have the required privileges for the ticket's :doc:`group </basics/service-"
@@ -3227,10 +3189,6 @@ msgid "State colors"
 msgstr "Боје стања"
 
 #: ../basics/service-ticket/settings/state.rst:22
-#, fuzzy
-#| msgid ""
-#| "Zammad states are color-coded. This helps you to understanding the state "
-#| "of the ticket much faster in general – without having a look into details."
 msgid ""
 "Zammad states are color-coded. This helps you to understanding the state of "
 "the ticket much faster in general - without having a look into details."
@@ -3239,8 +3197,6 @@ msgstr ""
 "тикета – без увида у детаље."
 
 #: ../basics/service-ticket/settings/state.rst:30
-#, fuzzy
-#| msgid "What’s the difference between “new” and “open”?"
 msgid "What's the difference between “new” and “open”?"
 msgstr "Која је разлика између „новог“ и „отвореног“?"
 
@@ -3259,20 +3215,12 @@ msgstr ""
 "у потпуности реше своје проблеме."
 
 #: ../basics/service-ticket/settings/state.rst:38
-#, fuzzy
-#| msgid ""
-#| "On a *new* ticket, the customer still hasn’t received her first response "
-#| "on the issue."
 msgid ""
 "On a *new* ticket, the customer still hasn't received her first response on "
 "the issue."
 msgstr "У *новом* тикету, клијент још увек није добио први одговор на проблем."
 
 #: ../basics/service-ticket/settings/state.rst:41
-#, fuzzy
-#| msgid ""
-#| "On an *open* ticket, the customer has received an initial response, but "
-#| "the issue still hasn’t been resolved."
 msgid ""
 "On an *open* ticket, the customer has received an initial response, but the "
 "issue still hasn't been resolved."
@@ -3287,11 +3235,6 @@ msgid ""
 msgstr "⏱️ Тикети *на чекању* не акумулирају време за своја SLA ограничења."
 
 #: ../basics/service-ticket/settings/state.rst:47
-#, fuzzy
-#| msgid ""
-#| "So, for instance, a ticket may be marked *pending reminder* if it’s "
-#| "waiting on feedback from a third-party supplier who’s out of town until "
-#| "next week."
 msgid ""
 "So, for instance, a ticket may be marked *pending reminder* if it's waiting "
 "on feedback from a third-party supplier who's out of town until next week."
@@ -5114,12 +5057,12 @@ msgstr ""
 "начин. Потребно је копирање и налепљивање."
 
 #: ../extras/caller-log.rst:70
-#, fuzzy
-#| msgid "Existing caller log entries *are not* updated."
 msgid ""
 "Existing caller log entries *are not* updated when you update an existing "
 "customer."
-msgstr "Постојећи уноси у евиденцији позива се *не* освежавају."
+msgstr ""
+"Постојећи уноси у евиденцији позива се *не* освежавају приликом освежавања "
+"постојећег клијента."
 
 #: ../extras/chat.rst:2 ../extras/mobile-view.rst:153
 msgid "Live Chat"
@@ -5232,7 +5175,7 @@ msgstr ""
 
 #: ../extras/chat.rst:58
 msgid "Usage tips"
-msgstr ""
+msgstr "Савети за употребу"
 
 #: ../extras/chat.rst:47
 msgid ""
@@ -5321,6 +5264,8 @@ msgid ""
 "If the customer has other tickets too, you can see a summary when you hover "
 "over the **open/closed** labels:"
 msgstr ""
+"Уколико клијент има и друге тикете, можете видети сажети опис приликом "
+"преласка мишем преко ознака **отворено/затворено**:"
 
 #: ../extras/customers.rst:23
 msgid "Customer ticket summary (mouseover)"
@@ -5601,17 +5546,14 @@ msgid "Link a new issue"
 msgstr "Повежите нови проблем"
 
 #: ../extras/github-gitlab-integration.rst:30
-#, fuzzy
-#| msgid ""
-#| "At the top of the ticket pane, select **GitHub / GitLab > Link Issue**, "
-#| "then enter a valid issue URL."
 msgid ""
 "At the top of the ticket pane, select **GitHub / GitLab > Link Issue**, then "
 "enter a valid issue URL. Please note that linking a new issue can be slow "
 "sometimes."
 msgstr ""
 "На врху панела тикета изаберите **Github / Gitlab > Повежи проблем**, а "
-"затим унесите исправан URL проблема."
+"затим унесите исправан URL проблема. Имајте на уму да повезивање нових "
+"проблема може понекад бити спорије."
 
 #: ../extras/github-gitlab-integration.rst:0
 msgid "Screencast showing how to list and add new issues to a ticket"
@@ -5655,19 +5597,14 @@ msgstr ""
 "admin-docs:`овде </system/integrations/i-doit.html>`."
 
 #: ../extras/i-doit-track-company-property.rst:14
-#, fuzzy
-#| msgid ""
-#| "Ask your administrator / IT personnel to give you a tour—otherwise, the "
-#| "directions below might not make much sense. (And if your organization "
-#| "isn't already using i-doit, this guide is not for you.)"
 msgid ""
 "If your company is using i-doit, ask your administrator / IT personnel to "
 "give you a tour. If your organization isn't already using i-doit, this guide "
 "is not for you."
 msgstr ""
-"Замолите свог администратора / IT особље да вам објасни—у супротном, "
-"упутства у наставку можда неће имати много смисла. (А ако ваша организација "
-"још не користи i-doit, овај водич није за вас.)"
+"Уколико ваша организација користи i-doit, замолите свог администратора / IT "
+"особље да вам објасни. А ако ваша организација још не користи i-doit, овај "
+"водич није за вас."
 
 #: ../extras/i-doit-track-company-property.rst:23
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
@@ -5886,6 +5823,11 @@ msgid ""
 "default, agents are **not permitted to create, edit, or manage knowledge "
 "base articles**."
 msgstr ""
+"Користите дугме **„измени”** у горњој траци да бисте прешли у **мод "
+"уређивања** (и назад из њега). Уколико не видите дугме „измени”, попричајте "
+"са вашим администратором да вам додели одговарајуће дозволе. Подразумевано, "
+"оператерима **није дозвољено да додају, уређују или управљају чланцима базе "
+"знања**."
 
 #: ../extras/knowledge-base.rst:44
 msgid "Switching Languages"
@@ -5904,6 +5846,8 @@ msgid ""
 "If you select a language, in which the page hasn't been translated into yet, "
 "the behavior depends on the state of the page:"
 msgstr ""
+"Уколико одаберете језик за који још увек не постоји превод, понашање ће "
+"зависити од статуса стране:"
 
 #: ../extras/knowledge-base.rst:60
 msgid "in Edit Mode"
@@ -6028,29 +5972,22 @@ msgid "Edit category"
 msgstr "Уреди категорију"
 
 #: ../extras/knowledge-base.rst:130
-#, fuzzy
-#| msgid ""
-#| "📁 If you relocate a category using the **Parent** menu, all of its "
-#| "articles and sub-categories will be relocated with it."
 msgid ""
 "You can relocate a category using the **Parent** menu. Doing so, all of its "
 "articles and sub-categories will be relocated with it."
 msgstr ""
-"📁 Ако преместите категорију помоћу менија **Надређени**, сви њени чланци и "
+"Можете преместити категорију помоћу менија **Надређени**. Сви њени чланци и "
 "подкатегорије ће бити премештени са њом."
 
 #: ../extras/knowledge-base.rst:133
-#, fuzzy
-#| msgid ""
-#| "🗑️ Categories can only be deleted once **all of their articles and sub-"
-#| "categories** have been deleted or relocated."
 msgid ""
 "You can delete categories by clicking on the 🗑️ **Delete** button. Categories "
 "can only be deleted once **all of their articles and sub-categories** have "
 "been deleted or relocated."
 msgstr ""
-"🗑 Категорије се могу избрисати само када **сви њихови чланци и "
-"подкатегорије** буду избрисани или премештени."
+"Можете обрисати категорије кликом на дугме 🗑️ **избриши**. Категорије се могу "
+"избрисати само када **сви њихови чланци и подкатегорије** буду избрисани или "
+"премештени."
 
 #: ../extras/knowledge-base.rst:138
 msgid "Granular Category Permissions"
@@ -6093,18 +6030,14 @@ msgid ""
 "widened, not restricted). If you can't select permissions in the table, this "
 "could be the reason."
 msgstr ""
-"Уопштено, дозволе надређених катеорија се не наслеђују! Уколико нпр. желите "
-"да доделите дозволу уређивања за подређену категорију одговарајућој улози, "
-"поставите горњи ново на „читалац” и жељену подкатегорију на „уредник”. "
-"Обрнуто није могуће (дозволе се могу само увећати, не и ограничити). Уколико "
-"не можете да одаберете дозволе у овој табели, ово може бити разлог за то."
+"Уопштено говорећи, дозволе надређене категорије се не наслеђују! Уколико, на "
+"пример, желите да одобрите дозволе уређивања за подкатегорија одговарајућој "
+"улози, подесите горњи ниво на „читаоца” и жељену подкатегорију на "
+"„уредника”. Обрнуто није могуће (дозволе је могуће само проширити, не и "
+"ограничити). Уколико не можете да одаберете дозволе у табели, ово може бити "
+"разлог."
 
 #: ../extras/knowledge-base.rst:159
-#, fuzzy
-#| msgid ""
-#| "If you're unsure, please ask your administrator to configure the :admin-"
-#| "docs:`role permissions </manage/roles/agent-permissions.html>` "
-#| "accordingly."
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -6112,13 +6045,14 @@ msgid ""
 "admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
-"Ако нисте сигурни, замолите свог администратора да у складу са тим "
-"конфигурише :admin-docs:`дозволе улоге </manage/roles/agent-permissions."
-"html>`."
+"Улоге захтевају **дозволу читаоца базе знања**. Ваш администратор мора да "
+"обезбеди одговарајуће групе са дозволама читања за базу знања. Ако нисте "
+"сигурни, замолите свог администратора да у складу са тим конфигурише :admin-"
+"docs:`дозволе улоге </manage/roles/agent-permissions.html>`."
 
 #: ../extras/knowledge-base.rst:166
 msgid "Be aware that public answers are always available!"
-msgstr "Будите свесни да су јавни чланци увек доступни!"
+msgstr "Будите свесни да су јавни чланци су увек доступни!"
 
 #: ../extras/knowledge-base.rst:168
 msgid ""
@@ -6153,7 +6087,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:203
 msgid "Different link types"
-msgstr ""
+msgstr "Различите врсте веза"
 
 #: ../extras/knowledge-base.rst:187
 msgid "🔗 **Weblink**"
@@ -6211,7 +6145,7 @@ msgstr "Снимак екрана који приказује ознаке у ч
 
 #: ../extras/knowledge-base.rst:228
 msgid "Visibility"
-msgstr ""
+msgstr "Видљивост"
 
 #: ../extras/knowledge-base.rst:206
 msgid ""
@@ -6690,24 +6624,17 @@ msgid "User Menu"
 msgstr "Кориснички мени"
 
 #: ../extras/profile-and-settings.rst:19
-#, fuzzy
-#| msgid ""
-#| "Clicking on your avatar picture provides the following three sections."
 msgid ""
 "Clicking on your avatar picture provides the following three sections in the "
 "user menu:"
-msgstr "Кликом на слику аватара добијате следећа три одељка."
+msgstr ""
+"Кликом на слику аватара добијате следећа три одељка у менију корисника:"
 
 #: ../extras/profile-and-settings.rst:26
 msgid "Recently viewed"
 msgstr "Недавно виђени"
 
 #: ../extras/profile-and-settings.rst:23
-#, fuzzy
-#| msgid ""
-#| "All information you've viewed previously (tickets, users, organizations). "
-#| "Helps you to jump back quick and easy without searching or looking in "
-#| "your overviews."
 msgid ""
 "All information you've viewed previously (tickets, users, organizations). "
 "Helps you to jump back quick and easy without searching or looking in your "
@@ -6716,7 +6643,8 @@ msgid ""
 msgstr ""
 "Све приказе које сте претходно посетили (тикети, корисници, организације). "
 "Помаже вам да се брзо и лако вратите уназад без претраживања или копања по "
-"прегледима."
+"прегледима. Имајте на уму да је ова листа ограничена, старији уноси ће "
+"аутоматски бити уклоњени."
 
 #: ../extras/profile-and-settings.rst:41
 msgid "Further actions"
@@ -6751,17 +6679,14 @@ msgid "Profile"
 msgstr "Профил"
 
 #: ../extras/profile-and-settings.rst:39
-#, fuzzy
-#| msgid ""
-#| "This will open your :ref:`user-profile-settings` and provide further "
-#| "options for customers and agents."
 msgid ""
 "This will open your :ref:`user-profile-settings` and provide further options "
 "for customers and agents. Customers do not have access to all areas, even if "
 "you provide them the permissions to those areas."
 msgstr ""
 "Ово отвара ваша :ref:`подешавања корисничког профила <user-profile-"
-"settings>` и пружа додатне опције клијентима и оператерима."
+"settings>` и пружа додатне опције клијентима и оператерима. Клијенти немају "
+"приступ свим секцијама, чак иако им омогућите дозволе за њих."
 
 #: ../extras/profile-and-settings.rst:49
 msgid "Sign out"
@@ -6792,6 +6717,7 @@ msgstr "Подешавање профила"
 #: ../extras/profile-and-settings.rst:56
 msgid "Clicking on \"Profile\" in the user menu opens the profile settings."
 msgstr ""
+"Кликом на „Профил” у менију корисника можете отварити подешавања профила."
 
 #: ../extras/profile-and-settings.rst:60
 msgid ""
@@ -6826,19 +6752,15 @@ msgstr ""
 "у зависности од тога шта ваш клијент преферира у том тренутку."
 
 #: ../extras/profile-and-settings.rst:71
-#, fuzzy
-#| msgid ""
-#| "Synchronizing the theme preference highly depends on your browser. If "
-#| "your browser does not support syncing, this setting basically has no "
-#| "effect."
 msgid ""
 "Note that this sync option highly depends on your browser. If your browser "
 "does not support syncing, this setting basically has no effect. Most common "
 "modern Browsers are capable to do so (e.g. Firefox, Google Chrome)."
 msgstr ""
-"Синхронизација подешавања изгледа у великој мери зависи од вашег "
-"претраживача. Ако ваш претраживач не подржава синхронизацију, ово подешавање "
-"у основи нема ефекта."
+"Обратите пажњу да синхронизација подешавања изгледа у великој мери зависи од "
+"вашег претраживача. Уколико ваш претраживач не подржава синхронизацију, ово "
+"подешавање у основи нема ефекта. Већина модерних претраживача ово подржавају "
+"(нпр. Firefox, Google Chrome)."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
@@ -6880,17 +6802,13 @@ msgstr ""
 "settings/security/two-factor.html>`."
 
 #: ../extras/profile-and-settings.rst:97
-#, fuzzy
-#| msgid ""
-#| "Select where, when, and for which groups you want to receive "
-#| "notifications, or choose a new notification sound."
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound. Notifications are available to agents "
 "only."
 msgstr ""
 "Изаберите где, када и за које групе желите да примате обавештења или "
-"изаберите нови звук обавештења."
+"изаберите нови звук обавештења. Обавештења су доступна само оператерима."
 
 #: ../extras/profile-and-settings.rst:101
 msgid ""
@@ -6915,12 +6833,6 @@ msgid "Limit Groups"
 msgstr "Ограничавање група"
 
 #: ../extras/profile-and-settings.rst:117
-#, fuzzy
-#| msgid ""
-#| "By default, you will receive notifications for all tickets in every group "
-#| "you belong to—even for tickets that are assigned to other agents. Use the "
-#| "**Limit Groups** switch and settings below it to disable such "
-#| "notifications on a per-group basis."
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -6929,9 +6841,9 @@ msgid ""
 "own tickets."
 msgstr ""
 "Подразумевано ћете примати обавештења за све тикете у свакој групи којој "
-"припадате—чак и за тикете које су додељене другим оператерима. Користите "
+"припадате — чак и за тикете које су додељене другим оператерима. Користите "
 "дугме **Ограничи групе** и подешавања испод њега да бисте искључили ова "
-"обавештења по групама."
+"обавештења по групама. Наставићете да примате обавештења за сопствене тикете."
 
 #: ../extras/profile-and-settings.rst:123
 msgid ""
@@ -6982,11 +6894,8 @@ msgstr ""
 "прате ваше тикете."
 
 #: ../extras/profile-and-settings.rst:146
-#, fuzzy
-#| msgid ""
-#| "🔔 You **will** continue to receive notifications while you are absent."
 msgid "You will reveive notifications while you are absent."
-msgstr "🔔 **Наставићете** да добијате обавештења док сте одсутни."
+msgstr "Наставићете да добијате обавештења док сте одсутни."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Overviews"
@@ -7010,33 +6919,22 @@ msgstr ""
 "коришћењем дугмета горе десно „Поништи редослед прегледа“."
 
 #: ../extras/profile-and-settings.rst:157
-#, fuzzy
-#| msgid ""
-#| "This setting option is only available to agents by default. Admins can "
-#| "also deactivate this permission entirely. Ask your admin to enable this "
-#| "option if you need it."
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
 msgstr ""
-"Ово подешавање је подразумевано доступно само оператерима. Администратори "
-"такође могу у потпуности да искључе ову дозволу. Замолите свог "
-"администратора да укључи ову опцију ако вам је потребна."
+"Ово подешавање је подразумевано видљиво само оператерима. Администратори "
+"такође могу у потпуности да га искључе."
 
 #: ../extras/profile-and-settings.rst:160
-#, fuzzy
-#| msgid ""
-#| "The order does not change, even if your admin renames or reorders the "
-#| "overviews. The overview order is stored in your profile and thus applies "
-#| "for any device you use with your account."
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
 "thus applies to any device you use with your account."
 msgstr ""
-"Редослед се неће променити, чак и ако ваш администратор промени назив или "
-"редослед прегледа. Лични редослед прегледа се чува у вашем профилу и стога "
-"важи за сваки уређај који користите са својим налогом."
+"Уколико је сачуван, редослед се неће променити, чак и ако ваш администратор "
+"промени назив или редослед прегледа. Лични редослед прегледа се чува у вашем "
+"профилу и стога важи за сваки уређај који користите са својим налогом."
 
 #: ../extras/profile-and-settings.rst:0
 msgid ""
@@ -7136,26 +7034,21 @@ msgstr ""
 
 #: ../extras/secure-email.rst:18
 msgid "Prerequisites"
-msgstr ""
+msgstr "Услови"
 
 #: ../extras/secure-email.rst:20
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don't see it in the ticket composer, "
-#| "that means your administrator hasn't enabled it yet. Administrators can "
-#| "learn more here:"
 msgid ""
 "Both feature are **optional**; if you don't see the 🔒 **Encrypt** and ✅ "
 "**Sign** buttons in the ticket composer, that means your administrator "
 "hasn't activated any of them yet."
 msgstr ""
-"Ова функција је **опциона**; ако је не видите у обрасцу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више "
-"овде:"
+"Обе фунцкије су **опционе**; ако не видите 🔒 **Шифровање** и ✅ "
+"**Потписивање** у обрасцу тикета, то значи да их ваш администратор још није "
+"омогућио."
 
 #: ../extras/secure-email.rst:24
 msgid "Administrators can learn more here:"
-msgstr ""
+msgstr "Администратори могу да сазнају више овде:"
 
 #: ../extras/secure-email.rst:26
 msgid ":admin-docs:`PGP </system/integrations/pgp/index.html>`"
@@ -7209,7 +7102,7 @@ msgstr "Потписивање"
 
 #: ../extras/secure-email.rst:52
 msgid "is a proof that a message hasn't been manipulated on its way."
-msgstr "је доказ да порука није изманипулисана на свом путу."
+msgstr "је доказ да порука није мењана на свом путу."
 
 #: ../extras/secure-email.rst:54
 msgid ""
@@ -7568,17 +7461,14 @@ msgid "user drafts."
 msgstr "корисничке нацрте."
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid ""
-#| "Every time you change a tickets field, Zammad will safe this in your "
-#| "personal draft. You then can share this as a shared draft if you want to."
 msgid ""
 "Every time you change a tickets field, Zammad will safe this in your "
 "personal draft. You then can share this as a shared draft if you want to. "
 "User drafts are *always* available!"
 msgstr ""
-"Сваки пут када промените поље тикета, Заммад ће то сачувати у вашем личном "
-"нацрту. Затим можете поделити ово као заједнички нацрт ако желите."
+"Сваки пут када промените поље тикета, Zammad ће то сачувати у вашем личном "
+"нацрту. Затим можете поделити ово као заједнички нацрт ако желите. "
+"Кориснички нацрти су *увек* доступни!"
 
 #: ../extras/shared-drafts.rst:36
 msgid "Handling drafts"
@@ -7606,17 +7496,14 @@ msgid "New Ticket dialogue"
 msgstr "Дијалог новог тикета"
 
 #: ../extras/shared-drafts.rst:48
-#, fuzzy
-#| msgid ""
-#| "If you're in a new ticket dialogue *after selecting the ticket group*, "
-#| "the 📝 button will indicate the shared drafts function to be available."
 msgid ""
 "If you're in a new ticket dialogue *after selecting the ticket group*, the "
 "📝 button will indicate the shared drafts function to be available. The "
 "shared drafts tab is *always* hidden if no group is selected!"
 msgstr ""
 "Ако сте у дијалогу новог тикета и *након што изаберете групу тикета*, дугме "
-"📝 ће означити да је функција заједничких нацрта доступна."
+"📝 ће означити да је функција заједничких нацрта доступна. Језичак дељених "
+"нацрта је *увек* сакривен уколико група није одабрана!"
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
@@ -7656,11 +7543,6 @@ msgid "Remove draft"
 msgstr "Уклоните нацрт"
 
 #: ../extras/shared-drafts.rst:67
-#, fuzzy
-#| msgid ""
-#| "You can remove any draft (no matter if for new or existing tickets) from "
-#| "within the draft preview screen. Use the \"Delete\" link on the lower end "
-#| "of the dialogue."
 msgid ""
 "You can remove any draft (no matter if for new or existing tickets) from "
 "within the draft preview screen. Use the \"Delete\" link on the lower end of "
@@ -7669,7 +7551,8 @@ msgid ""
 msgstr ""
 "Можете уклонити било коју недовршену верзију (без обзира да ли се ради о "
 "новим или постојећим тикетима) из екрана за преглед нацрта. Користите везу "
-"„Избриши“ при дну дијалога."
+"„Избриши“ при дну дијалога. Ово нема ефекта на локалне нацрте који су "
+"оператери већ учитали."
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screenshot highlighting the removal option in shared draft preview"
@@ -7719,12 +7602,6 @@ msgid "Update existing drafts"
 msgstr "Освежите постојеће нацрте"
 
 #: ../extras/shared-drafts.rst:90
-#, fuzzy
-#| msgid ""
-#| "In order to update or rename existing shared drafts for new tickets, "
-#| "simply load the draft in question. Change the information (e.g. ticket "
-#| "settings or content) needed and, if needed, update the drafts name on the "
-#| "right hand side of the ticket."
 msgid ""
 "In order to update or rename existing shared drafts for new tickets, simply "
 "load the draft in question. Change the information (e.g. ticket settings or "
@@ -7735,7 +7612,8 @@ msgstr ""
 "Да бисте освежили или променили назив постојећих заједничких нацрта тикета, "
 "једноставно учитајте дотични нацрт. Промените потребне информације (нпр. "
 "податке карте или садржај) и, ако је потребно, освежите назив нацрта у "
-"десном панелу тикета."
+"десном панелу тикета. На овај начин можете не само освежити постојеће "
+"нацрте, него користити постојеће нацрте да направите још једну копију!"
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to rename / update existing shared drafts"
@@ -7886,17 +7764,14 @@ msgstr ""
 "сте га претходно подесили."
 
 #: ../extras/two-factor-authentication.rst:68
-#, fuzzy
-#| msgid ""
-#| "In case you don't see this link, you probably have no other available two-"
-#| "factor methods set up, or your admin has disabled this feature."
 msgid ""
 "Look for **Try another method** link below the sign in box. In case you "
 "don't see this link, you probably have no other available two-factor methods "
 "set up, or your admin has disabled this feature."
 msgstr ""
-"У случају да не видите ову везу, вероватно немате подешене друге доступне "
-"методе двофакторске аутентификације или је ваш администратор онемогућио ову "
+"Потражите линк **Покушајте други метод** испод прозора за пријаву. У случају "
+"да не видите овај линк, вероватно немате подешене друге доступне методе "
+"двофакторске аутентификације или је ваш администратор онемогућио ову "
 "функцију."
 
 #: ../extras/two-factor-authentication.rst:None
@@ -7942,10 +7817,6 @@ msgid "Generate Recovery Codes"
 msgstr "Генерисање шифри за опоравак"
 
 #: ../extras/two-factor-authentication.rst:99
-#, fuzzy
-#| msgid ""
-#| "Recovery codes are one-time use security codes that can be used to sign "
-#| "in if you lose access to your other two-factor authentication methods."
 msgid ""
 "Recovery codes are one-time use security codes that can be used to sign in "
 "if you lose access to your other two-factor authentication methods. They can "
@@ -7953,7 +7824,7 @@ msgid ""
 msgstr ""
 "Шифре за опоравак су једнократни безбедносни кодови који се могу користити "
 "за пријављивање ако изгубите приступ другим методама двофакторске "
-"аутентификације."
+"аутентификације. Могуће их је користити само као **резервни метод**."
 
 #: ../extras/two-factor-authentication.rst:103
 msgid ""
@@ -9022,3 +8893,26 @@ msgstr ""
 #~ msgstr ""
 #~ "Замолите свог администратора да потврди приватни кључ ваше организације у "
 #~ "Zammad-овом складишту сертификата."
+
+#~ msgid "In such cases, you may want to **merge those tickets into one**."
+#~ msgstr "У таквим случајевима, могуће је **спојите те тикете у један**."
+
+#~ msgid ""
+#~ "Merging a ticket migrates all messages and notes **out of the original** "
+#~ "and into the selected one."
+#~ msgstr ""
+#~ "Спајање тикета мигрира све поруке и напомене **из оригинала** у изабрани."
+
+#~ msgid ""
+#~ "When splitting a ticket, the target message is imported into the new "
+#~ "ticket dialog. As usual, remember to select the **type** (call/email)."
+#~ msgstr ""
+#~ "Када раздељујете тикет, циљна порука ће бити увежена у дијалог новог "
+#~ "тикета. Као и обично, не заборавите да изаберете **тип** (позив/имејл)."
+
+#~ msgid ""
+#~ "The original ticket is :doc:`linked <link>` to the new one, as seen in "
+#~ "the ticket pane."
+#~ msgstr ""
+#~ "Оригинални тикет ће бити :doc:`повезан <link>` са новим, као што се види "
+#~ "у панелу тикета."
