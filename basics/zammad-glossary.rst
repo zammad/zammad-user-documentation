@@ -61,6 +61,23 @@ Autosave
    You can learn more on our
    `Autosave landing page <https://zammad.com/en/product/features/autosave>`_.
 
+Auto Response
+   Zammad can send automatically generated responses to customers. By
+   default, this is configured for newly created tickets (to confirm that the
+   email was received and to provide the ticket number to the customer). Your
+   admin may change this or even add more auto generated messages.
+
+Avatar
+   An avatar is basically a graphical representation of a user. By defaults
+   the user's avatar consists of the initials of the user. It can be an image,
+   too. To customize it, go to the avatar section in your
+   :doc:`user profile </extras/profile-and-settings>`.
+
+   The avatar of an user is visible in different places in Zammad. For example
+   you can see it next to an article in a ticket or in the bottom bar if
+   another agent is viewing or editing the same ticket.
+
+
 B
 -
 
@@ -90,6 +107,10 @@ Changelog
 
    You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/stable/CHANGELOG.md>`_!
 
+Channel
+   A channel is a way how customers can get in touch with you. Standard channels
+   are email and phone. Additional channels can be configured by your admin.
+
 Customer
    A customer is a person that you communicate with from within Zammad.
    Every customer receives a profile page, which we call the
@@ -99,6 +120,13 @@ Customer
    Each customer can access their individual
    `Customer Interface <https://zammad.com/en/product/features/customer-interface>`_,
    where they see all their tickets with the current status and live updates.
+
+Custom Object Attributes
+   Zammad allows the creation of custom object attributes by admins. This can be
+   done on ticket level, user level, organization level or group level.
+
+   You can think of such a custom object attribute as a new field which has
+   a pre-defined format and optionally selectable values.
 
 Core Workflows
    This feature allows every organization to configure their individual dynamic
