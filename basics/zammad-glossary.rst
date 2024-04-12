@@ -42,16 +42,22 @@ API
    You can learn more on our
    `API landing page <https://zammad.com/en/product/features/rest-api>`_.
 
+Article
+   Each correspondence within a ticket is called an article. Ticket articles
+   can be internal (so only agents can see them) or public
+   (e.g. emails to your customers, which they receive, too).
+
+Auto Response
+   Zammad can send automatically generated responses to customers. By
+   default, this is configured for newly created tickets (to confirm that the
+   email was received and to provide the ticket number to the customer). Your
+   admin may change this or even add more auto generated messages.
+
 Automation
    There are many processes that can be automated with Zammad.
    This means that certain steps or actions take place automatically,
    hence no further action is required from the agents.
    One example would be the weekly deletion of tickets at a pre-defined time.
-
-Article
-   Each correspondence within a ticket is called an article. Ticket articles
-   can be internal (so only agents can see them) or public
-   (e.g. emails to your customers, which they receive, too).
 
 Autosave
    Autosave might be one of the coolest traits of Zammad:
@@ -60,6 +66,19 @@ Autosave
 
    You can learn more on our
    `Autosave landing page <https://zammad.com/en/product/features/autosave>`_.
+
+.. _glossary-avatar:
+
+Avatar
+   An avatar is basically a graphical representation of a user. By defaults
+   the user's avatar consists of the initials of the user. It can be an image,
+   too. To customize it, go to the avatar section in your
+   :doc:`user profile </extras/profile-and-settings>`.
+
+   The avatar of an user is visible in different places in Zammad. For example
+   you can see it next to an article in a ticket or in the bottom bar if
+   another agent is viewing or editing the same ticket.
+
 
 B
 -
@@ -75,55 +94,15 @@ Branding
 C
 -
 
-Custom Development (CD)
-   We are constantly working on improving Zammad, and we keep adding new
-   features with every single release. However, sometimes our customers might
-   require a very specific new feature, addition, or adjustment that is either
-   very urgent or very particular to their individual use case.
-   This is when a custom development can take place: We offer the customer to
-   develop the desired feature at a price that we agree upon previously
-   (which is based on the expected hours needed for completion).
-
 Changelog
    With every new release comes a new changelog. It is basically a list of all
    the things that have changed, from new enhancements to bug fixes.
 
    You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/stable/CHANGELOG.md>`_!
 
-Customer
-   A customer is a person that you communicate with from within Zammad.
-   Every customer receives a profile page, which we call the
-   `Customer Information Page <https://user-docs.zammad.org/en/latest/extras/customers.html>`_,
-   and it shows all the tickets of this particular customer.
-   Various customers can be assigned to the same organization.
-   Each customer can access their individual
-   `Customer Interface <https://zammad.com/en/product/features/customer-interface>`_,
-   where they see all their tickets with the current status and live updates.
-
-Core Workflows
-   This feature allows every organization to configure their individual dynamic
-   fields and ticket masks based on their specific workflows.
-   This way, certain Groups will only (or always) see certain fields.
-   You can even set up dependencies, as in, if one field is filled in,
-   another one opens up or becomes mandatory.
-
-   Learn more about Core Workflows
-   :admin-docs:`in the admin documentation </system/core-workflows.html>`.
-
-CTI
-   CTI stands for Computer Telephony Integration and allows you to collect
-   detailed information on all your incoming and outgoing calls.
-   This includes, for example, a call log, an overview of which agent is
-   currently on a call, a caller ID search, and even a Do-Not-Disturb-Mode.
-
-   You can learn more on our `CTI landing page <https://zammad.com/en/product/features/cti-integration>`_.
-
-   Here you can find the fitting documentation pages:
-
-      * :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
-      * :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
-      * :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
-
+Channel
+   A channel is a way how customers can get in touch with you. Standard channels
+   are email and phone. Additional channels can be configured by your admin.
 
 Checkmk
    Checkmk is a powerful IT monitoring tool that can send real-time status
@@ -152,6 +131,57 @@ Conflict Warning
 
    Learn more on our :ref:`following up page <caution-im-working-here>`.
 
+Core Workflows
+   This feature allows every organization to configure their individual dynamic
+   fields and ticket masks based on their specific workflows.
+   This way, certain Groups will only (or always) see certain fields.
+   You can even set up dependencies, as in, if one field is filled in,
+   another one opens up or becomes mandatory.
+
+   Learn more about Core Workflows
+   :admin-docs:`in the admin documentation </system/core-workflows.html>`.
+
+CTI
+   CTI stands for Computer Telephony Integration and allows you to collect
+   detailed information on all your incoming and outgoing calls.
+   This includes, for example, a call log, an overview of which agent is
+   currently on a call, a caller ID search, and even a Do-Not-Disturb-Mode.
+
+   You can learn more on our `CTI landing page <https://zammad.com/en/product/features/cti-integration>`_.
+
+   Here you can find the fitting documentation pages:
+
+      * :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
+      * :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
+      * :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
+
+Custom Development (CD)
+   We are constantly working on improving Zammad, and we keep adding new
+   features with every single release. However, sometimes our customers might
+   require a very specific new feature, addition, or adjustment that is either
+   very urgent or very particular to their individual use case.
+   This is when a custom development can take place: We offer the customer to
+   develop the desired feature at a price that we agree upon previously
+   (which is based on the expected hours needed for completion).
+
+Custom Object Attributes
+   Zammad allows the creation of custom object attributes by admins. This can be
+   done on ticket level, user level, organization level or group level.
+
+   You can think of such a custom object attribute as a new field which has
+   a pre-defined format and optionally selectable values.
+
+Customer
+   A customer is a person that you communicate with from within Zammad.
+   Every customer receives a profile page, which we call the
+   `Customer Information Page <https://user-docs.zammad.org/en/latest/extras/customers.html>`_,
+   and it shows all the tickets of this particular customer.
+   Various customers can be assigned to the same organization.
+   Each customer can access their individual
+   `Customer Interface <https://zammad.com/en/product/features/customer-interface>`_,
+   where they see all their tickets with the current status and live updates.
+
+
 D
 -
 
@@ -178,33 +208,6 @@ Documentation
 E
 -
 
-Escalation
-   An escalation is what happens after the deadline for a ticket has passed and,
-   for example, no update to the customer has been created. The ticket is marked
-   in red in your taskbar and the overviews and everyone else who is involved in
-   its process gets very sad. So don't let tickets escalate! Also, in order to
-   prevent escalations, you can use our SLAs
-   (see :ref:`SLAs <glossary-sla>`).
-
-External Authentication
-   External authentication is an easy, one-click option for your users to log
-   into Zammad. It has various benefits: not only is it faster but it also
-   means that your users will have to remember fewer passwords.
-   Zammad currently supports more than ten login providers, such as Facebook,
-   GitHub, GitLab, Google, or Microsoft / Office365.
-
-   See our :admin-docs:`admin documentation </settings/security/third-party.html>`
-   for all third party authentication providers.
-
-Exchange Integration
-   The Exchange integration allows users to sync their contacts from their
-   Exchange address book with Zammad. This way, every time a contact is updated
-   in Exchange, the iteration will be reflected in Zammad, giving you direct
-   access to all your Exchange contacts from within your helpdesk.
-
-   Learn more about the exchange integration
-   :admin-docs:`in our admin documentation </system/integrations/exchange.html>`.
-
 Elasticsearch
    Zammad offers an Elasticsearch integration (a free and open search engine)
    that makes the search process within Zammad super fast
@@ -222,6 +225,33 @@ Elasticsearch
          While technically self hosted users can enable such a behavior
          as well it is out of our application scope. By default SaaS Plus
          in Zammad universe is the only part that does this automatically.
+
+Escalation
+   An escalation is what happens after the deadline for a ticket has passed and,
+   for example, no update to the customer has been created. The ticket is marked
+   in red in your taskbar and the overviews and everyone else who is involved in
+   its process gets very sad. So don't let tickets escalate! Also, in order to
+   prevent escalations, you can use our SLAs
+   (see :ref:`SLAs <glossary-sla>`).
+
+Exchange Integration
+   The Exchange integration allows users to sync their contacts from their
+   Exchange address book with Zammad. This way, every time a contact is updated
+   in Exchange, the iteration will be reflected in Zammad, giving you direct
+   access to all your Exchange contacts from within your helpdesk.
+
+   Learn more about the exchange integration
+   :admin-docs:`in our admin documentation </system/integrations/exchange.html>`.
+
+External Authentication
+   External authentication is an easy, one-click option for your users to log
+   into Zammad. It has various benefits: not only is it faster but it also
+   means that your users will have to remember fewer passwords.
+   Zammad currently supports more than ten login providers, such as Facebook,
+   GitHub, GitLab, Google, or Microsoft / Office365.
+
+   See our :admin-docs:`admin documentation </settings/security/third-party.html>`
+   for all third party authentication providers.
 
 F
 -
@@ -246,33 +276,6 @@ Feature sponsoring
 
 G
 -
-
-Groups
-   Groups are a synonym for departments or processing groups.
-   The incoming tickets are assigned to them.
-   The corresponding group is responsible for the processing.
-   Within the group, an owner can be defined, who is then responsible for
-   this ticket. Access rights to tickets are also controlled via the groups.
-   The possible permissions are "full access", "read-only" and "no access".
-
-   If you have worked with the OTRS system in the past,
-   you might remember the principle of "queues".
-   The groups in Zammad are the same as the queues in OTRS.
-
-   You can learn more on our `group landing page <https://zammad.com/en/product/features/groups>`_.
-
-Grafana
-   Grafana is an open-source reporting tool.
-   Zammad users on the Plus plan can integrate it into their instance and
-   receive detailed analytics on their performance.
-
-   .. hint:: **🤓 Self Hosted users**
-
-      Hooking up Grafana to Elasticsearch is an possibility you can do on your
-      own as well.
-
-   Learn more on how to add Grafana dashboards for Zammad
-   :docs:`in our documentation </appendix/reporting-tools-thirdparty/grafana.html>`.
 
 GitHub
    GitHub is a service for the version management of software development
@@ -306,6 +309,34 @@ GitLab
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/github-gitlab-integration`.
 
+Grafana
+   Grafana is an open-source reporting tool.
+   Zammad users on the Plus plan can integrate it into their instance and
+   receive detailed analytics on their performance.
+
+   .. hint:: **🤓 Self Hosted users**
+
+      Hooking up Grafana to Elasticsearch is an possibility you can do on your
+      own as well.
+
+   Learn more on how to add Grafana dashboards for Zammad
+   :docs:`in our documentation </appendix/reporting-tools-thirdparty/grafana.html>`.
+
+Groups
+   Groups are a synonym for departments or processing groups.
+   The incoming tickets are assigned to them.
+   The corresponding group is responsible for the processing.
+   Within the group, an owner can be defined, who is then responsible for
+   this ticket. Access rights to tickets are also controlled via the groups.
+   The possible permissions are "full access", "read-only" and "no access".
+
+   If you have worked with the OTRS system in the past,
+   you might remember the principle of "queues".
+   The groups in Zammad are the same as the queues in OTRS.
+
+   You can learn more on our `group landing page <https://zammad.com/en/product/features/groups>`_.
+
+
 H
 -
 
@@ -313,19 +344,6 @@ H
 
 I
 -
-
-i-doit
-   i-doit is a CMDB (Configuration Management Data Base).
-   It helps you to keep an eye on every piece of the physical and digital
-   infrastructure. A corresponding integration makes it possible to connect
-   it to Zammad, where it adds a new tab to Zammad's ticket sidebar so
-   you can link to existing i-doit objects for easy reference.
-   It also allows you to create Zammad tickets in i-doit.
-
-   Administrators can learn more about i-doit
-   :admin-docs:`in the admin documentation </system/integrations/i-doit.html>`,
-   if you're an agent you can learn more about the functionality on this page:
-   :doc:`/extras/i-doit-track-company-property`.
 
 Icinga
    Icinga is a monitoring system that supervises the availability of an
@@ -343,6 +361,19 @@ Issue-tracking system
    However, as a helpdesk, it focuses on communication at the customer
    level rather than the technical level.
 
+i-doit
+   i-doit is a CMDB (Configuration Management Data Base).
+   It helps you to keep an eye on every piece of the physical and digital
+   infrastructure. A corresponding integration makes it possible to connect
+   it to Zammad, where it adds a new tab to Zammad's ticket sidebar so
+   you can link to existing i-doit objects for easy reference.
+   It also allows you to create Zammad tickets in i-doit.
+
+   Administrators can learn more about i-doit
+   :admin-docs:`in the admin documentation </system/integrations/i-doit.html>`,
+   if you're an agent you can learn more about the functionality on this page:
+   :doc:`/extras/i-doit-track-company-property`.
+
 J
 -
 
@@ -350,6 +381,18 @@ J
 
 K
 -
+
+Kibana
+   Kibana is a browser-based, open-source reporting tool that focuses on data
+   evaluation. It was developed by Elastic, which is why it is not a surprise
+   that it uses data from Elasticsearch for its analytics.
+
+   Kibana can be integrated with Zammad, allowing for helpdesk data to be
+   mapped in the reporting tool.
+
+   .. hint:: **🤓 This does not apply to SaaS Zammad instances.**
+
+   You can learn more on our `Kibana landing page <https://zammad.com/en/product/features/kibana-integration>`_.
 
 Knowledge Base
    Think of a very extensive set of FAQs - that's exactly what the
@@ -365,18 +408,6 @@ Knowledge Base
    :admin-docs:`in the admin documentation </manage/knowledge-base.html>`,
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/extras/knowledge-base`.
-
-Kibana
-   Kibana is a browser-based, open-source reporting tool that focuses on data
-   evaluation. It was developed by Elastic, which is why it is not a surprise
-   that it uses data from Elasticsearch for its analytics.
-
-   Kibana can be integrated with Zammad, allowing for helpdesk data to be
-   mapped in the reporting tool.
-
-   .. hint:: **🤓 This does not apply to SaaS Zammad instances.**
-
-   You can learn more on our `Kibana landing page <https://zammad.com/en/product/features/kibana-integration>`_.
 
 L
 -
@@ -409,6 +440,23 @@ Macro
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/advanced/macros`.
 
+Mentions
+   Mentions are a Zammad feature that allows you to tag another agent in a
+   ticket. Just type ``@@`` and the name. The selected person will be notified
+   and will be watching the ticket from now on.
+
+   Learn more on this page: :ref:`mentions`.
+
+Merging Tickets
+   If you have two (or more) tickets about the same issue, you can merge one of
+   them into the other. By default, Zammad performs checks if a message from
+   an external party belongs to an existing ticket. However, if your customer
+   for example writes a completely new email instead of answering the
+   auto response, Zammad can't assign the message to the existing ticket but
+   creates a new one.
+
+   See :doc:`/advanced/ticket-actions` for further information.
+
 Migrator / Migration Wizard
    If a company wants to switch from another helpdesk software to Zammad,
    they often have one concern: What about their existing data?
@@ -422,13 +470,6 @@ Monit
 
    You can learn more on our `Monit landing page <https://zammad.com/en/product/features/monit-integration>`_.
 
-Mentions
-   Mentions are a Zammad feature that allows you to tag another agent in a
-   ticket. Just type ``@@`` and the name. The selected person will be notified
-   and will be watching the ticket from now on.
-
-   Learn more on this page: :ref:`mentions`.
-
 N
 -
 
@@ -440,8 +481,31 @@ Nagios
 
    You can learn more on our `Nagios landing page <https://zammad.com/en/product/features/nagios-integration>`_.
 
+Notifications
+   To avoid overlooking new messages (e.g. from a customer) Zammad notifies you
+   about every relevant change by default. You can adjust your general
+   notification settings in your user profile. You can even mention other users
+   or subscribe to a specific ticket if you are interested how it proceeds.
+
+   See :doc:`/extras/profile-and-settings` for more information.
+
 O
 -
+
+Organization
+   An organization identifies a grouping of customers that operate under the
+   same roof or within the same customer group.
+   If a customer whose organization is "sharing" logs in to the customer
+   interface, this user has access to all tickets of his organization.
+
+Overview
+   Overviews are your starting point to work on tickets. You can think of
+   overviews as a kind of filter for existing tickets. Some basic overviews
+   are shipped with Zammad by default. If you want to have a custom overview,
+   ask your admin to create it.
+
+   For more information please have a look in
+   :doc:`/basics/find-ticket/browse`.
 
 Owner
    The owner of a ticket is the person responsible for it and ensures that it
@@ -452,12 +516,6 @@ Owner
 
    Learn more about ticket owners on this page:
    :doc:`/basics/service-ticket/settings`
-
-Organization
-   An organization identifies a grouping of customers that operate under the
-   same roof or within the same customer group.
-   If a customer whose organization is "sharing" logs in to the customer
-   interface, this user has access to all tickets of his organization.
 
 P
 -
@@ -491,6 +549,10 @@ Priority
    By default, the priority is 2 (normal).
    But it can be changed to either 1 (low) or 3 (high).
 
+   Priorities can even be adjusted or extended to fit your needs. Your
+   administrator can find more information
+   :admin-docs:`here </system/objects.html#system-attributes>`.
+
 Q
 -
 
@@ -498,6 +560,24 @@ Q
 
 R
 -
+
+Release
+   Every few months, we bring a new version of Zammad into the world,
+   which is called a release. It all started with Zammad 1.0.
+
+   Every release adds new features to our software.
+   There are major and minor releases:
+   major releases (such as Zammad 1.0, 2.0, etc.) bring major changes.
+   Minor releases are installed on top of them (such as 1.1, 2.1, etc.)
+   and bring smaller updates.
+
+Reporting
+   The reporting helps keeping an overview over stats and numbers (e.g. created
+   tickets per month). There are two types of reporting: the reporting
+   functionality integrated in Zammad and the reporting with external tools.
+
+   Admins can find further information
+   :admin-docs:`here </manage/report-profiles.html>`.
 
 Role
    Everyone who logs into Zammad has a predefined role. There are three types:
@@ -512,37 +592,44 @@ Role
    Customers can view their tickets' processing status in their
    individual Customer Interface.
 
-Release
-   Every few months, we bring a new version of Zammad into the world,
-   which is called a release. It all started with Zammad 1.0.
-
-   Every release adds new features to our software.
-   There are major and minor releases:
-   major releases (such as Zammad 1.0, 2.0, etc.) bring major changes.
-   Minor releases are installed on top of them (such as 1.1, 2.1, etc.)
-   and bring smaller updates.
-
 S
 -
 
-SSO
-   Single-sign-on (SSO) allows you to access all your systems and devices with
-   just one login. There are various providers that make this process easy and
-   secure. Zammad currently supports SSO via SAML and Shibboleth.
+Scheduler
+   The scheduler is one of Zammad's automation features. An admin can define
+   specific conditions and actions which are applied to tickets with matching
+   conditions in a time based manner. More information in the admin
+   documentation in the
+   :admin-docs:`scheduler section </manage/scheduler.html>`.
 
-   .. hint:: 🤓 Self Hosted users can also use Kerberos authentication.
+Sidebar
+   The sidebar on the left side contains all relevant places and object you
+   might need. Depending on the configured channels and your permissions, it
+   might not include all sections which are listed below:
 
-   You can learn more on our `SSO landing page <https://zammad.com/en/product/features/sso>`_.
+   - Search bar
+   - Notification section
+   - Dashboard
+   - Overviews
+   - Knowledge Base
+   - Customer Chat
+   - Phone
+   - One or more open tickets
+   - Bootom section:
 
-S/MIME
-   S/MIME is the most widely-supported method for secure email communication.
-   By activating it in Zammad, all messages sent from Zammad will be signed and
-   encrypted.
+      - Avatar
+      - Reporting
+      - Admin settings
+      - Button for ticket creation
 
-   Administrators can learn more about S/MIME
-   :admin-docs:`in the admin documentation </system/integrations/smime/index.html>`,
-   if you're an agent you can learn more about the functionality on this page:
-   :doc:`/extras/secure-email`.
+Signature
+   The signature is your footer in an outgoing message.
+   Your customers may find contact details and the name of your
+   company/department there. It can even contain your
+   :ref:`avatar image <glossary-avatar>`.
+
+   It can be customized by your admin. Further information can be found
+   :admin-docs:`here </channels/email/signatures.html>`.
 
 Sipgate
    Sipgate is a SaaS solution for internet telephony.
@@ -569,15 +656,56 @@ SLA
 
    You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_.
 
-Status
-   Every ticket has a status. You can change it once you've updated the ticket.
-   There are four types of status, and they are all color-coded.
+Splitting tickets
+   In case a ticket contains more than one issue and you want to handle it
+   in a separate ticket, you can split the ticket. Zammad creates a new ticket
+   then based on the selected article for splitting.
+   See :doc:`/advanced/ticket-actions` for more information.
 
-   Learn more about states and they color coding on this page:
+SSO
+   Single-sign-on (SSO) allows you to access all your systems and devices with
+   just one login. There are various providers that make this process easy and
+   secure. Zammad currently supports SSO via SAML and Shibboleth.
+
+   .. hint:: 🤓 Self Hosted users can also use Kerberos authentication.
+
+   You can learn more on our `SSO landing page <https://zammad.com/en/product/features/sso>`_.
+
+State
+   Every ticket has a state. You can change it once you've updated the ticket.
+   There are four types of states, and they are all color-coded.
+
+   Learn more about states and their color coding on this page:
    :doc:`/basics/service-ticket/settings/state`
+
+   The available states can be changed or extended. Your admin can find further
+   information :admin-docs:`here </system/objects.html#system-attributes>`.
+
+S/MIME
+   S/MIME is the most widely-supported method for secure email communication.
+   By activating it in Zammad, all messages sent from Zammad will be signed and
+   encrypted.
+
+   Administrators can learn more about S/MIME
+   :admin-docs:`in the admin documentation </system/integrations/smime/index.html>`,
+   if you're an agent you can learn more about the functionality on this page:
+   :doc:`/extras/secure-email`.
 
 T
 -
+
+Tags
+   Tags help you to categorize tickets. You can define them based on your use
+   case. For example, if you're a retail business, your tags could be based on
+   your product categories to help you organize tickets by the type of product
+   they refer to.
+   But they could also be based on the type of request, e.g.
+   refund, delivery issue, missing…
+
+   Administrators can learn more about tags
+   :admin-docs:`here </manage/tags.html>`.
+   Agents can learn more about this function on this page:
+   :doc:`/basics/service-ticket/settings/tags`
 
 Text module
    If you find that you send the same answers / text bits over and over again,
@@ -600,18 +728,24 @@ Text module
 
    You can learn more on this page: :doc:`/advanced/ticket-templates`.
 
-Tags
-   Tags help you to categorize tickets. You can define them based on your use
-   case. For example, if you're a retail business, your tags could be based on
-   your product categories to help you organize tickets by the type of product
-   they refer to.
-   But they could also be based on the type of request, e.g.
-   refund, delivery issue, missing…
+Title
+   The ticket of a ticket is different based on the channel it came in.
+   You can find the title in the sidebar and in the top area in the ticket view.
+   If the title is not very meaningful, you can change it by clicking on the
+   title in a ticket view.
 
-   Administrators can learn more about tags
-   :admin-docs:`here </manage/tags.html>`.
-   Agents can learn more about this function on this page:
-   :doc:`/basics/service-ticket/settings/tags`
+Ticket hook
+   The ticket hook is the identifier of a ticket. By default, it is ``Ticket#``
+   with an appended number (e.g. ``Ticket#904627``). It can be changed by an
+   admin.
+   See :admin-docs:`here </settings/ticket.html>` for further information.
+
+Trigger
+   Triggers are one of Zammad's automation features. An admin can define
+   specific conditions and actions which are applied to tickets with matching
+   conditions. More information in the admin
+   documentation in the
+   :admin-docs:`trigger section </manage/trigger.html>`.
 
 U
 -
