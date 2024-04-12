@@ -67,6 +67,8 @@ Autosave
    You can learn more on our
    `Autosave landing page <https://zammad.com/en/product/features/autosave>`_.
 
+.. _glossary-avatar:
+
 Avatar
    An avatar is basically a graphical representation of a user. By defaults
    the user's avatar consists of the initials of the user. It can be an image,
@@ -575,7 +577,7 @@ Reporting
    functionality integrated in Zammad and the reporting with external tools.
 
    Admins can find further information
-   :admin-docs:`here </manage/report-profiles>`.
+   :admin-docs:`here </manage/report-profiles.html>`.
 
 Role
    Everyone who logs into Zammad has a predefined role. There are three types:
@@ -592,6 +594,42 @@ Role
 
 S
 -
+
+Scheduler
+   The scheduler is one of Zammad's automation features. An admin can define
+   specific conditions and actions which are applied to tickets with matching
+   conditions in a time based manner. More information in the admin
+   documentation in the
+   :admin-docs:`scheduler section </manage/scheduler.html>`.
+
+Sidebar
+   The sidebar on the left side contains all relevant places and object you
+   might need. Depending on the configured channels and your permissions, it
+   might not include all sections which are listed below:
+
+   - Search bar
+   - Notification section
+   - Dashboard
+   - Overviews
+   - Knowledge Base
+   - Customer Chat
+   - Phone
+   - One or more open tickets
+   - Bootom section:
+
+      - Avatar
+      - Reporting
+      - Admin settings
+      - Button for ticket creation
+
+Signature
+   The signature is your footer in an outgoing message.
+   Your customers may find contact details and the name of your
+   company/department there. It can even contain your
+   :ref:`avatar image <glossary-avatar>`.
+
+   It can be customized by your admin. Further information can be found
+   :admin-docs:`here </channels/email/signatures.html>`.
 
 Sipgate
    Sipgate is a SaaS solution for internet telephony.
@@ -617,6 +655,12 @@ SLA
    reached, the ticket will escalate.
 
    You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_.
+
+Splitting tickets
+   In case a ticket contains more than one issue and you want to handle it
+   in a separate ticket, you can split the ticket. Zammad creates a new ticket
+   then based on the selected article for splitting.
+   See :doc:`/advanced/ticket-actions` for more information.
 
 SSO
    Single-sign-on (SSO) allows you to access all your systems and devices with
@@ -684,6 +728,24 @@ Text module
 
    You can learn more on this page: :doc:`/advanced/ticket-templates`.
 
+Title
+   The ticket of a ticket is different based on the channel it came in.
+   You can find the title in the sidebar and in the top area in the ticket view.
+   If the title is not very meaningful, you can change it by clicking on the
+   title in a ticket view.
+
+Ticket hook
+   The ticket hook is the identifier of a ticket. By default, it is ``Ticket#``
+   with an appended number (e.g. ``Ticket#904627``). It can be changed by an
+   admin.
+   See :admin-docs:`here </settings/ticket.html>` for further information.
+
+Trigger
+   Triggers are one of Zammad's automation features. An admin can define
+   specific conditions and actions which are applied to tickets with matching
+   conditions. More information in the admin
+   documentation in the
+   :admin-docs:`trigger section </manage/trigger.html>`.
 
 U
 -
