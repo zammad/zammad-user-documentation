@@ -437,6 +437,16 @@ Macro
    if you're an agent you can learn more about the functionality on this page:
    :doc:`/advanced/macros`.
 
+Merging Tickets
+   If you have two (or more) tickets about the same issue, you can merge one of
+   them into the other. By default, Zammad performs checks if a message from
+   an external party belongs to an existing ticket. However, if your customer
+   for example writes a completely new email instead of answering the
+   auto response, Zammad can't assign the message to the existing ticket but
+   creates a new one.
+
+   See :doc:`/advanced/ticket-actions` for further information.
+
 Migrator / Migration Wizard
    If a company wants to switch from another helpdesk software to Zammad,
    they often have one concern: What about their existing data?
@@ -468,6 +478,14 @@ Nagios
 
    You can learn more on our `Nagios landing page <https://zammad.com/en/product/features/nagios-integration>`_.
 
+Notifications
+   To avoid overlooking new messages (e.g. from a customer) Zammad notifies you
+   about every relevant change by default. You can adjust your general
+   notification settings in your user profile. You can even mention other users
+   or subscribe to a specific ticket if you are interested how it proceeds.
+
+   See :doc:`/extras/profile-and-settings` for more information.
+
 O
 -
 
@@ -486,6 +504,15 @@ Organization
    same roof or within the same customer group.
    If a customer whose organization is "sharing" logs in to the customer
    interface, this user has access to all tickets of his organization.
+
+Overview
+   Overviews are your starting point to work on tickets. You can think of
+   overviews as a kind of filter for existing tickets. Some basic overviews
+   are shipped with Zammad by default. If you want to have a custom overview,
+   ask your admin to create it.
+
+   For more information please have a look in
+   :doc:`/basics/find-ticket/browse`.
 
 P
 -
@@ -519,6 +546,10 @@ Priority
    By default, the priority is 2 (normal).
    But it can be changed to either 1 (low) or 3 (high).
 
+   Priorities can even be adjusted or extended to fit your needs. Your
+   administrator can find more information
+   :admin-docs:`here </system/objects.html#system-attributes>`.
+
 Q
 -
 
@@ -549,6 +580,14 @@ Release
    major releases (such as Zammad 1.0, 2.0, etc.) bring major changes.
    Minor releases are installed on top of them (such as 1.1, 2.1, etc.)
    and bring smaller updates.
+
+Reporting
+   The reporting helps keeping an overview over stats and numbers (e.g. created
+   tickets per month). There are two types of reporting: the reporting
+   functionality integrated in Zammad and the reporting with external tools.
+
+   Admins can find further information
+   :admin-docs:`here </manage/report-profiles>`.
 
 S
 -
@@ -597,12 +636,15 @@ SLA
 
    You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_.
 
-Status
-   Every ticket has a status. You can change it once you've updated the ticket.
-   There are four types of status, and they are all color-coded.
+State
+   Every ticket has a state. You can change it once you've updated the ticket.
+   There are four types of states, and they are all color-coded.
 
-   Learn more about states and they color coding on this page:
+   Learn more about states and their color coding on this page:
    :doc:`/basics/service-ticket/settings/state`
+
+   The available states can be changed or extended. Your admin can find further
+   information :admin-docs:`here </system/objects.html#system-attributes>`.
 
 T
 -
