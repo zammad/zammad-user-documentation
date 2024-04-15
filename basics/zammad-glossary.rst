@@ -729,7 +729,7 @@ Text module
    You can learn more on this page: :doc:`/advanced/ticket-templates`.
 
 Title
-   The ticket of a ticket is different based on the channel it came in.
+   The title of a ticket is different based on the channel it came in.
    You can find the title in the sidebar and in the top area in the ticket view.
    If the title is not very meaningful, you can change it by clicking on the
    title in a ticket view.
