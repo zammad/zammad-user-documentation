@@ -615,7 +615,7 @@ Sidebar
    - Customer Chat
    - Phone
    - One or more open tickets
-   - Bootom section:
+   - Bottom section:
 
       - Avatar
       - Reporting
