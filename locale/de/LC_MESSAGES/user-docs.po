@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 10:53+0100\n"
+"POT-Creation-Date: 2024-04-12 11:32+0200\n"
 "PO-Revision-Date: 2024-02-24 14:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -1806,7 +1806,7 @@ msgstr ""
 "aus der Liste ausgewählt haben, klicken Sie auf die Schaltfläche "
 "\"Übermitteln\" und die Tickets werden verknüpft."
 
-#: ../advanced/ticket-actions/merge.rst:2
+#: ../advanced/ticket-actions/merge.rst:2 ../basics/zammad-glossary.rst:458
 msgid "Merging Tickets"
 msgstr "Zusammenfassen von Tickets"
 
@@ -2459,7 +2459,7 @@ msgstr ""
 "Hier ist ein kurzer Überblick über die einzelnen Eingabefelder in der "
 "Erstellmaske für ein neues Ticket:"
 
-#: ../basics/service-ticket/create.rst:32
+#: ../basics/service-ticket/create.rst:32 ../basics/zammad-glossary.rst:735
 msgid "Title"
 msgstr "Titel"
 
@@ -2471,7 +2471,7 @@ msgstr ""
 "Der Titel des Tickets wird als Betreffzeile für alle E-Mail-Korrespondenzen "
 "verwendet."
 
-#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:101
+#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr "Kunde"
 
@@ -3139,7 +3139,7 @@ msgstr ""
 "vorher mit einem besprochen."
 
 #: ../basics/service-ticket/settings/owner.rst:2
-#: ../basics/zammad-glossary.rst:454
+#: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr "Besitzer"
 
@@ -3193,7 +3193,7 @@ msgstr ""
 "bereits teilweise gelöst wurde."
 
 #: ../basics/service-ticket/settings/priority.rst:2
-#: ../basics/zammad-glossary.rst:492
+#: ../basics/zammad-glossary.rst:554
 msgid "Priority"
 msgstr "Priorität"
 
@@ -3248,7 +3248,7 @@ msgstr ""
 "erfahren, wie sie benutzt werden sollen."
 
 #: ../basics/service-ticket/settings/state.rst:2
-#: ../basics/what-is-a-ticket.rst:51
+#: ../basics/what-is-a-ticket.rst:51 ../basics/zammad-glossary.rst:682
 msgid "State"
 msgstr "Status"
 
@@ -3361,7 +3361,7 @@ msgstr ""
 "Woche nicht verfügbar ist."
 
 #: ../basics/service-ticket/settings/tags.rst:2
-#: ../basics/zammad-glossary.rst:614
+#: ../basics/zammad-glossary.rst:708
 msgid "Tags"
 msgstr "Tags"
 
@@ -3593,11 +3593,37 @@ msgstr ""
 "Erfahren Sie mehr auf unserer `API Funktionsseite <https://zammad.com/en/"
 "product/features/rest-api>`_."
 
-#: ../basics/zammad-glossary.rst:49
+#: ../basics/zammad-glossary.rst:48
+msgid "Article"
+msgstr "Artikel"
+
+#: ../basics/zammad-glossary.rst:46
+msgid ""
+"Each correspondence within a ticket is called an article. Ticket articles "
+"can be internal (so only agents can see them) or public (e.g. emails to your "
+"customers, which they receive, too)."
+msgstr ""
+"Jede Korrespondenz innerhalb eines Tickets wird Artikel genannt. Ticket-"
+"Artikel können intern (also nur für Agenten sichtbar) oder öffentlich (z.B. "
+"E-Mails mit Ihren Kunden, die diese auch erhalten) sein."
+
+#: ../basics/zammad-glossary.rst:54
+msgid "Auto Response"
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:51
+msgid ""
+"Zammad can send automatically generated responses to customers. By default, "
+"this is configured for newly created tickets (to confirm that the email was "
+"received and to provide the ticket number to the customer). Your admin may "
+"change this or even add more auto generated messages."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:60
 msgid "Automation"
 msgstr "Automatisierung"
 
-#: ../basics/zammad-glossary.rst:46
+#: ../basics/zammad-glossary.rst:57
 msgid ""
 "There are many processes that can be automated with Zammad. This means that "
 "certain steps or actions take place automatically, hence no further action "
@@ -3610,25 +3636,11 @@ msgstr ""
 "dafür ist die wöchentliche Löschung von Tickets in einem vorher definierten "
 "Zeitraum."
 
-#: ../basics/zammad-glossary.rst:54
-msgid "Article"
-msgstr "Artikel"
-
-#: ../basics/zammad-glossary.rst:52
-msgid ""
-"Each correspondence within a ticket is called an article. Ticket articles "
-"can be internal (so only agents can see them) or public (e.g. emails to your "
-"customers, which they receive, too)."
-msgstr ""
-"Jede Korrespondenz innerhalb eines Tickets wird Artikel genannt. Ticket-"
-"Artikel können intern (also nur für Agenten sichtbar) oder öffentlich (z.B. "
-"E-Mails mit Ihren Kunden, die diese auch erhalten) sein."
-
-#: ../basics/zammad-glossary.rst:62
+#: ../basics/zammad-glossary.rst:68
 msgid "Autosave"
 msgstr "Automatische Sicherung"
 
-#: ../basics/zammad-glossary.rst:57
+#: ../basics/zammad-glossary.rst:63
 msgid ""
 "Autosave might be one of the coolest traits of Zammad: It saves all your "
 "work as you go along, so if you ever log out unexpectedly or your browser "
@@ -3639,7 +3651,7 @@ msgstr ""
 "Sie sich also versehentlich ausloggen oder Ihr Browser abstürzt (wir kennen "
 "es alle...), geht Ihre Arbeit nicht verloren!"
 
-#: ../basics/zammad-glossary.rst:61
+#: ../basics/zammad-glossary.rst:67
 msgid ""
 "You can learn more on our `Autosave landing page <https://zammad.com/en/"
 "product/features/autosave>`_."
@@ -3647,15 +3659,35 @@ msgstr ""
 "Erfahren Sie mehr auf unserer `Funktionsseite zur Automatischen Sicherung "
 "<https://zammad.com/en/product/features/autosave>`_."
 
-#: ../basics/zammad-glossary.rst:65
+#: ../basics/zammad-glossary.rst:81 ../basics/zammad-glossary.rst:620
+#: ../extras/profile-and-settings.rst:0
+msgid "Avatar"
+msgstr "Avatar"
+
+#: ../basics/zammad-glossary.rst:73
+msgid ""
+"An avatar is basically a graphical representation of a user. By defaults the "
+"user's avatar consists of the initials of the user. It can be an image, too. "
+"To customize it, go to the avatar section in your :doc:`user profile </"
+"extras/profile-and-settings>`."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:78
+msgid ""
+"The avatar of an user is visible in different places in Zammad. For example "
+"you can see it next to an article in a ticket or in the bottom bar if "
+"another agent is viewing or editing the same ticket."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:84
 msgid "B"
 msgstr "B"
 
-#: ../basics/zammad-glossary.rst:73
+#: ../basics/zammad-glossary.rst:92
 msgid "Branding"
 msgstr "Branding"
 
-#: ../basics/zammad-glossary.rst:68
+#: ../basics/zammad-glossary.rst:87
 msgid ""
 "Every company has a different identity, and Zammad accommodates this in "
 "various ways, e.g. by letting you design your signatures freely and add your "
@@ -3665,7 +3697,7 @@ msgstr ""
 "Möglichkeiten – z.B. beim freien Bestimmen Ihrer Signaturen und dem "
 "Hinzufügen Ihres Firmenlogos zur Plattform."
 
-#: ../basics/zammad-glossary.rst:72
+#: ../basics/zammad-glossary.rst:91
 msgid ""
 "Learn more about branding options :admin-docs:`in the admin documentation </"
 "settings/branding.html>`."
@@ -3673,15 +3705,188 @@ msgstr ""
 "Erfahren Sie mehr über die Branding-Optionen :admin-docs:`in der Admin-"
 "Dokumentation </settings/branding.html>`."
 
-#: ../basics/zammad-glossary.rst:76
+#: ../basics/zammad-glossary.rst:95
 msgid "C"
 msgstr "C"
 
-#: ../basics/zammad-glossary.rst:85
+#: ../basics/zammad-glossary.rst:101
+msgid "Changelog"
+msgstr "Änderungslog"
+
+#: ../basics/zammad-glossary.rst:98
+msgid ""
+"With every new release comes a new changelog. It is basically a list of all "
+"the things that have changed, from new enhancements to bug fixes."
+msgstr ""
+"Mit jeder neuen Release kommt ein neues Änderungslog. Es handelt sich "
+"hierbei um eine Liste von allen Änderungen der Version – von neuen "
+"Verbesserungen hinzu zu Bug-Fixes."
+
+#: ../basics/zammad-glossary.rst:101
+msgid ""
+"You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/"
+"stable/CHANGELOG.md>`_!"
+msgstr ""
+"Sie können sie alle auf unserem `GitHub <https://github.com/zammad/zammad/"
+"blob/stable/CHANGELOG.md>`_ finden!"
+
+#: ../basics/zammad-glossary.rst:105
+#, fuzzy
+#| msgid "Changelog"
+msgid "Channel"
+msgstr "Änderungslog"
+
+#: ../basics/zammad-glossary.rst:104
+msgid ""
+"A channel is a way how customers can get in touch with you. Standard "
+"channels are email and phone. Additional channels can be configured by your "
+"admin."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:114
+msgid "Checkmk"
+msgstr "Checkmk"
+
+#: ../basics/zammad-glossary.rst:108
+msgid ""
+"Checkmk is a powerful IT monitoring tool that can send real-time status "
+"alerts to Zammad via email or REST API. Set these alerts up in Checkmk, and "
+"Zammad will automatically create, update, and close tickets based on the "
+"health of your system."
+msgstr ""
+"Checkmk ist ein mächtiges IT-Tool für Monitoring, das Echtzeit-Alarme an "
+"Zammad via E-Mail oder REST-API senden kann. Konfigurieren Sie die Alarme in "
+"Checkmk und Zammad wird automatisch Tickets basierend auf der "
+"Systemgesundheit erstellen, aktualisieren und schließen."
+
+#: ../basics/zammad-glossary.rst:113
+msgid ""
+"Learn more about checkmk integration :admin-docs:`in the admin documentation "
+"</system/integrations/checkmk/index.html>`."
+msgstr ""
+"Erfahren Sie mehr über die checkmk-Integration :admin-docs:`in der Admin-"
+"Dokumentation </system/integrations/checkmk/index.html>`."
+
+#: ../basics/zammad-glossary.rst:123
+msgid "Clearbit"
+msgstr "Clearbit"
+
+#: ../basics/zammad-glossary.rst:117
+msgid ""
+"Clearbit is a marketing data engine designed to collect information on your "
+"contacts. Thus, new queries from unknown users in Zammad can be "
+"automatically enriched with information such as company, number of "
+"employees, annual turnover, industry, and much more."
+msgstr ""
+"Clearbit ist eine Marketingdaten-Engine, die entwickelt wurde, um "
+"Informationen über Ihre Kontakte zu sammeln. So lassen sich neue Anfragen "
+"von unbekannten Nutzern in Zammad automatisch mit Informationen wie Firma, "
+"Mitarbeiterzahl, Jahresumsatz, Branche und vielem mehr anreichern."
+
+#: ../basics/zammad-glossary.rst:122
+msgid ""
+"Learn more about clearbit integration :admin-docs:`in the admin "
+"documentation </system/integrations/clearbit.html>`."
+msgstr ""
+"Erfahren Sie mehr über die clearbit-Integration :admin-docs:`in der Admin-"
+"Dokumentation </system/integrations/clearbit.html>`."
+
+#: ../basics/zammad-glossary.rst:132
+msgid "Conflict Warning"
+msgstr "Konfliktwarnung"
+
+#: ../basics/zammad-glossary.rst:126
+msgid ""
+"When two agents edit the same ticket at the same time, a lot can go wrong - "
+"from duplicate replies to overwritten messages. Zammad helps you to avoid "
+"this with its integrated conflict warning. So if you see another agents "
+"avatar and a little pen at the bottom of your ticket, it means they are "
+"currently editing it."
+msgstr ""
+"Wenn zwei Agenten zeitgleich am gleichen Ticket arbeiten, kann eine Menge "
+"schiefgehen – von doppelten Antworten zu überschriebenen Nachrichten. Zammad "
+"hilft Ihnen, diese Situation mit der integrierten Konfliktwarnung zu "
+"vermeiden. Wenn Sie also den Avatar eines anderen Agenten mit einem Stift "
+"unten am Ticket sehen bedeutet das, dass dieser aktuell am Ticket arbeitet."
+
+#: ../basics/zammad-glossary.rst:132
+msgid "Learn more on our :ref:`following up page <caution-im-working-here>`."
+msgstr ""
+"Lernen Sie mehr auf der :ref:`Ticket follow-up Seite <caution-im-working-"
+"here>`."
+
+#: ../basics/zammad-glossary.rst:142
+msgid "Core Workflows"
+msgstr "Core Workflows"
+
+#: ../basics/zammad-glossary.rst:135
+msgid ""
+"This feature allows every organization to configure their individual dynamic "
+"fields and ticket masks based on their specific workflows. This way, certain "
+"Groups will only (or always) see certain fields. You can even set up "
+"dependencies, as in, if one field is filled in, another one opens up or "
+"becomes mandatory."
+msgstr ""
+"Diese Funktion erlaubt jeder Organisation, eigene dynamische Felder und "
+"Ticketmasken, basierend auf ihren spezifischen Workflows, zu definieren. "
+"Damit können bestimmte Gruppen nur bestimmte (oder alle) Felder. Sie können "
+"sogar Abhängigkeiten einrichten, z.B. wenn ein Feld ausgefüllt ist, taucht "
+"ein anderes auf oder wird zum Pflichtfeld."
+
+#: ../basics/zammad-glossary.rst:141
+msgid ""
+"Learn more about Core Workflows :admin-docs:`in the admin documentation </"
+"system/core-workflows.html>`."
+msgstr ""
+"Erfahren Sie mehr über Core Workflows :admin-docs:`in der Admin-"
+"Dokumentation </system/core-workflows.html>`."
+
+#: ../basics/zammad-glossary.rst:156
+msgid "CTI"
+msgstr "CTI"
+
+#: ../basics/zammad-glossary.rst:145
+msgid ""
+"CTI stands for Computer Telephony Integration and allows you to collect "
+"detailed information on all your incoming and outgoing calls. This includes, "
+"for example, a call log, an overview of which agent is currently on a call, "
+"a caller ID search, and even a Do-Not-Disturb-Mode."
+msgstr ""
+"CTI steht für Computer Telephony Integration und erlaubt es Ihnen, "
+"detaillierte Informationen zu Ihren eingehenden und ausgehenden Anrufen zu "
+"sammeln. Das beinhaltet zum Beispiel ein Anrufprotokoll, eine Übersicht über "
+"aktuell telefonierende Agenten, eine Rufnummern-Suche und einen Do not "
+"Disturb-Modus."
+
+#: ../basics/zammad-glossary.rst:150
+msgid ""
+"You can learn more on our `CTI landing page <https://zammad.com/en/product/"
+"features/cti-integration>`_."
+msgstr ""
+"Weitere Informationen finden Sie auf unserer `CTI Funktionsseite <https://"
+"zammad.com/en/product/features/cti-integration>`_."
+
+#: ../basics/zammad-glossary.rst:152
+msgid "Here you can find the fitting documentation pages:"
+msgstr "Hier finden Sie die passenden Dokumentationsseiten:"
+
+#: ../basics/zammad-glossary.rst:154
+msgid ":admin-docs:`generic CTI </system/integrations/cti/generic.html>`"
+msgstr ":admin-docs:`Standard CTI </system/integrations/cti/generic.html>`"
+
+#: ../basics/zammad-glossary.rst:155
+msgid ":admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`"
+msgstr ":admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`"
+
+#: ../basics/zammad-glossary.rst:156
+msgid ":admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`"
+msgstr ":admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`"
+
+#: ../basics/zammad-glossary.rst:165
 msgid "Custom Development (CD)"
 msgstr "Eigene Entwicklungen (CD)"
 
-#: ../basics/zammad-glossary.rst:79
+#: ../basics/zammad-glossary.rst:159
 msgid ""
 "We are constantly working on improving Zammad, and we keep adding new "
 "features with every single release. However, sometimes our customers might "
@@ -3699,28 +3904,25 @@ msgstr ""
 "zu einem zuvor vereinbarten Preis (dieser basiert auf den erwarteten Aufwand "
 "zur Fertigstellung)."
 
-#: ../basics/zammad-glossary.rst:91
-msgid "Changelog"
-msgstr "Änderungslog"
+#: ../basics/zammad-glossary.rst:172
+#, fuzzy
+#| msgid "Modify customer attributes"
+msgid "Custom Object Attributes"
+msgstr "Ändern von Kundenattributen"
 
-#: ../basics/zammad-glossary.rst:88
+#: ../basics/zammad-glossary.rst:168
 msgid ""
-"With every new release comes a new changelog. It is basically a list of all "
-"the things that have changed, from new enhancements to bug fixes."
+"Zammad allows the creation of custom object attributes by admins. This can "
+"be done on ticket level, user level, organization level or group level."
 msgstr ""
-"Mit jeder neuen Release kommt ein neues Änderungslog. Es handelt sich "
-"hierbei um eine Liste von allen Änderungen der Version – von neuen "
-"Verbesserungen hinzu zu Bug-Fixes."
 
-#: ../basics/zammad-glossary.rst:91
+#: ../basics/zammad-glossary.rst:171
 msgid ""
-"You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/"
-"stable/CHANGELOG.md>`_!"
+"You can think of such a custom object attribute as a new field which has a "
+"pre-defined format and optionally selectable values."
 msgstr ""
-"Sie können sie alle auf unserem `GitHub <https://github.com/zammad/zammad/"
-"blob/stable/CHANGELOG.md>`_ finden!"
 
-#: ../basics/zammad-glossary.rst:94
+#: ../basics/zammad-glossary.rst:175
 msgid ""
 "A customer is a person that you communicate with from within Zammad. Every "
 "customer receives a profile page, which we call the `Customer Information "
@@ -3740,154 +3942,15 @@ msgstr ""
 "customer-interface>`_, wo alle eigenen Tickets, deren Status und Live-"
 "Aktualisierungen eingesehen werden können."
 
-#: ../basics/zammad-glossary.rst:111
-msgid "Core Workflows"
-msgstr "Core Workflows"
-
-#: ../basics/zammad-glossary.rst:104
-msgid ""
-"This feature allows every organization to configure their individual dynamic "
-"fields and ticket masks based on their specific workflows. This way, certain "
-"Groups will only (or always) see certain fields. You can even set up "
-"dependencies, as in, if one field is filled in, another one opens up or "
-"becomes mandatory."
-msgstr ""
-"Diese Funktion erlaubt jeder Organisation, eigene dynamische Felder und "
-"Ticketmasken, basierend auf ihren spezifischen Workflows, zu definieren. "
-"Damit können bestimmte Gruppen nur bestimmte (oder alle) Felder. Sie können "
-"sogar Abhängigkeiten einrichten, z.B. wenn ein Feld ausgefüllt ist, taucht "
-"ein anderes auf oder wird zum Pflichtfeld."
-
-#: ../basics/zammad-glossary.rst:110
-msgid ""
-"Learn more about Core Workflows :admin-docs:`in the admin documentation </"
-"system/core-workflows.html>`."
-msgstr ""
-"Erfahren Sie mehr über Core Workflows :admin-docs:`in der Admin-"
-"Dokumentation </system/core-workflows.html>`."
-
-#: ../basics/zammad-glossary.rst:126
-msgid "CTI"
-msgstr "CTI"
-
-#: ../basics/zammad-glossary.rst:114
-msgid ""
-"CTI stands for Computer Telephony Integration and allows you to collect "
-"detailed information on all your incoming and outgoing calls. This includes, "
-"for example, a call log, an overview of which agent is currently on a call, "
-"a caller ID search, and even a Do-Not-Disturb-Mode."
-msgstr ""
-"CTI steht für Computer Telephony Integration und erlaubt es Ihnen, "
-"detaillierte Informationen zu Ihren eingehenden und ausgehenden Anrufen zu "
-"sammeln. Das beinhaltet zum Beispiel ein Anrufprotokoll, eine Übersicht über "
-"aktuell telefonierende Agenten, eine Rufnummern-Suche und einen Do not "
-"Disturb-Modus."
-
-#: ../basics/zammad-glossary.rst:119
-msgid ""
-"You can learn more on our `CTI landing page <https://zammad.com/en/product/"
-"features/cti-integration>`_."
-msgstr ""
-"Weitere Informationen finden Sie auf unserer `CTI Funktionsseite <https://"
-"zammad.com/en/product/features/cti-integration>`_."
-
-#: ../basics/zammad-glossary.rst:121
-msgid "Here you can find the fitting documentation pages:"
-msgstr "Hier finden Sie die passenden Dokumentationsseiten:"
-
-#: ../basics/zammad-glossary.rst:123
-msgid ":admin-docs:`generic CTI </system/integrations/cti/generic.html>`"
-msgstr ":admin-docs:`Standard CTI </system/integrations/cti/generic.html>`"
-
-#: ../basics/zammad-glossary.rst:124
-msgid ":admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`"
-msgstr ":admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`"
-
-#: ../basics/zammad-glossary.rst:125
-msgid ":admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`"
-msgstr ":admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`"
-
-#: ../basics/zammad-glossary.rst:135
-msgid "Checkmk"
-msgstr "Checkmk"
-
-#: ../basics/zammad-glossary.rst:129
-msgid ""
-"Checkmk is a powerful IT monitoring tool that can send real-time status "
-"alerts to Zammad via email or REST API. Set these alerts up in Checkmk, and "
-"Zammad will automatically create, update, and close tickets based on the "
-"health of your system."
-msgstr ""
-"Checkmk ist ein mächtiges IT-Tool für Monitoring, das Echtzeit-Alarme an "
-"Zammad via E-Mail oder REST-API senden kann. Konfigurieren Sie die Alarme in "
-"Checkmk und Zammad wird automatisch Tickets basierend auf der "
-"Systemgesundheit erstellen, aktualisieren und schließen."
-
-#: ../basics/zammad-glossary.rst:134
-msgid ""
-"Learn more about checkmk integration :admin-docs:`in the admin documentation "
-"</system/integrations/checkmk/index.html>`."
-msgstr ""
-"Erfahren Sie mehr über die checkmk-Integration :admin-docs:`in der Admin-"
-"Dokumentation </system/integrations/checkmk/index.html>`."
-
-#: ../basics/zammad-glossary.rst:144
-msgid "Clearbit"
-msgstr "Clearbit"
-
-#: ../basics/zammad-glossary.rst:138
-msgid ""
-"Clearbit is a marketing data engine designed to collect information on your "
-"contacts. Thus, new queries from unknown users in Zammad can be "
-"automatically enriched with information such as company, number of "
-"employees, annual turnover, industry, and much more."
-msgstr ""
-"Clearbit ist eine Marketingdaten-Engine, die entwickelt wurde, um "
-"Informationen über Ihre Kontakte zu sammeln. So lassen sich neue Anfragen "
-"von unbekannten Nutzern in Zammad automatisch mit Informationen wie Firma, "
-"Mitarbeiterzahl, Jahresumsatz, Branche und vielem mehr anreichern."
-
-#: ../basics/zammad-glossary.rst:143
-msgid ""
-"Learn more about clearbit integration :admin-docs:`in the admin "
-"documentation </system/integrations/clearbit.html>`."
-msgstr ""
-"Erfahren Sie mehr über die clearbit-Integration :admin-docs:`in der Admin-"
-"Dokumentation </system/integrations/clearbit.html>`."
-
-#: ../basics/zammad-glossary.rst:153
-msgid "Conflict Warning"
-msgstr "Konfliktwarnung"
-
-#: ../basics/zammad-glossary.rst:147
-msgid ""
-"When two agents edit the same ticket at the same time, a lot can go wrong - "
-"from duplicate replies to overwritten messages. Zammad helps you to avoid "
-"this with its integrated conflict warning. So if you see another agents "
-"avatar and a little pen at the bottom of your ticket, it means they are "
-"currently editing it."
-msgstr ""
-"Wenn zwei Agenten zeitgleich am gleichen Ticket arbeiten, kann eine Menge "
-"schiefgehen – von doppelten Antworten zu überschriebenen Nachrichten. Zammad "
-"hilft Ihnen, diese Situation mit der integrierten Konfliktwarnung zu "
-"vermeiden. Wenn Sie also den Avatar eines anderen Agenten mit einem Stift "
-"unten am Ticket sehen bedeutet das, dass dieser aktuell am Ticket arbeitet."
-
-#: ../basics/zammad-glossary.rst:153
-msgid "Learn more on our :ref:`following up page <caution-im-working-here>`."
-msgstr ""
-"Lernen Sie mehr auf der :ref:`Ticket follow-up Seite <caution-im-working-"
-"here>`."
-
-#: ../basics/zammad-glossary.rst:156
+#: ../basics/zammad-glossary.rst:186
 msgid "D"
 msgstr "D"
 
-#: ../basics/zammad-glossary.rst:166
+#: ../basics/zammad-glossary.rst:196 ../basics/zammad-glossary.rst:612
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: ../basics/zammad-glossary.rst:159
+#: ../basics/zammad-glossary.rst:189
 msgid ""
 "The dashboard is every agent's individual Welcome Page in Zammad and gives "
 "you feedback on your situation by collecting information and statistics "
@@ -3902,15 +3965,15 @@ msgstr ""
 "Wiedereröffnungsrate. Sie können außerdem im Aktivitätenstream sehen, was "
 "Ihre Kollegen gerade bearbeiten."
 
-#: ../basics/zammad-glossary.rst:166
+#: ../basics/zammad-glossary.rst:196
 msgid "Learn more on :doc:`/extras/dashboard`."
 msgstr "Lernen Sie mehr unter :doc:`/extras/dashboard`."
 
-#: ../basics/zammad-glossary.rst:176
+#: ../basics/zammad-glossary.rst:206
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: ../basics/zammad-glossary.rst:169
+#: ../basics/zammad-glossary.rst:199
 msgid ""
 "If this Glossary isn't enough already (just kidding, it won't be), our "
 "Documentation is the place to head to for all information on Zammad, "
@@ -3921,7 +3984,7 @@ msgstr ""
 "Beste Ort um weitere Informationen zu Zammad zu suchen – besonders wenn es "
 "um die technischen Aspekte wie Installation und Konfiguration geht."
 
-#: ../basics/zammad-glossary.rst:174
+#: ../basics/zammad-glossary.rst:204
 msgid ""
 "We have three different ones: :doc:`/index`, :admin-docs:`Zammad Admin "
 "Documentation </>`, and the :docs:`Zammad System Documentation </>`."
@@ -3929,15 +3992,49 @@ msgstr ""
 "Es gibt drei verschiedene: :doc:`/index`, :admin-docs:`Zammad Admin "
 "Dokumentation </>`, und die :docs:`Zammad System Dokumentation </>`."
 
-#: ../basics/zammad-glossary.rst:179
+#: ../basics/zammad-glossary.rst:209
 msgid "E"
 msgstr "E"
 
-#: ../basics/zammad-glossary.rst:187
+#: ../basics/zammad-glossary.rst:227
+msgid "Elasticsearch"
+msgstr "Elasticsearch"
+
+#: ../basics/zammad-glossary.rst:212
+msgid ""
+"Zammad offers an Elasticsearch integration (a free and open search engine) "
+"that makes the search process within Zammad super fast (even for data sets "
+"of several terra bytes!)."
+msgstr ""
+"Zammad bietet eine Elasticsearch-Integration (eine freie Opensearch-Engine), "
+"die Suchprozesse in Zammad extrem schnell macht (auch bei Datensätzen von "
+"mehreren Terrabytes!)."
+
+#: ../basics/zammad-glossary.rst:216
+msgid ""
+"Spoiler: Zammad is currently the only helpdesk system with a search function "
+"that combs attachments, too!"
+msgstr ""
+"Spoiler: Zammad ist aktuell das einzige Helpdesk-System, das auch "
+"Attachments in die Suche einschließt!"
+
+#: ../basics/zammad-glossary.rst:219
+msgid "**🤓 This affects hosted environments only!**"
+msgstr "**🤓 Hiervon sind nur gehostete Instanzen betroffen!**"
+
+#: ../basics/zammad-glossary.rst:221
+msgid ""
+"Via a read-only user in Elasticsearch, you can also integrate your favorite "
+"reporting tool (e.g. like Grafana)."
+msgstr ""
+"Mit Hilfe eines 'read-only'-Benutzers in Elasticsearch, können Sie außerdem "
+"Ihr bevorzugtes Reporting-Tool (wie z.B. Grafana) verwenden."
+
+#: ../basics/zammad-glossary.rst:235
 msgid "Escalation"
 msgstr "Eskalation"
 
-#: ../basics/zammad-glossary.rst:182
+#: ../basics/zammad-glossary.rst:230
 msgid ""
 "An escalation is what happens after the deadline for a ticket has passed "
 "and, for example, no update to the customer has been created. The ticket is "
@@ -3953,11 +4050,35 @@ msgstr ""
 "Eskalationen zu vermeiden, können Sie unsere SLAs (siehe :ref:`SLAs "
 "<glossary-sla>`) nutzen."
 
-#: ../basics/zammad-glossary.rst:197
+#: ../basics/zammad-glossary.rst:244
+msgid "Exchange Integration"
+msgstr "Exchange-Integration"
+
+#: ../basics/zammad-glossary.rst:238
+msgid ""
+"The Exchange integration allows users to sync their contacts from their "
+"Exchange address book with Zammad. This way, every time a contact is updated "
+"in Exchange, the iteration will be reflected in Zammad, giving you direct "
+"access to all your Exchange contacts from within your helpdesk."
+msgstr ""
+"Die Exchange-Integration erlaubt es Ihnen die Kontakte Ihres persönlichen "
+"Exchange-Adressbuches mit Zammad zu synchronisieren. So können Sie zentrale "
+"Adressbücher in Exchange pflegen und müssen nicht zusätzlich Zammad-Kontakte "
+"aktualisieren."
+
+#: ../basics/zammad-glossary.rst:243
+msgid ""
+"Learn more about the exchange integration :admin-docs:`in our admin "
+"documentation </system/integrations/exchange.html>`."
+msgstr ""
+"Erfahren Sie mehr über die Exchange-Integration :admin-docs:`in unserer "
+"Admin-Dokumentation </system/integrations/exchange.html>`."
+
+#: ../basics/zammad-glossary.rst:254
 msgid "External Authentication"
 msgstr "Externe Authentifizierung"
 
-#: ../basics/zammad-glossary.rst:190
+#: ../basics/zammad-glossary.rst:247
 msgid ""
 "External authentication is an easy, one-click option for your users to log "
 "into Zammad. It has various benefits: not only is it faster but it also "
@@ -3972,7 +4093,7 @@ msgstr ""
 "Login-Anbieter - darunter Facebook, GitHub, GitLab, Google und Microsoft / "
 "Office 365."
 
-#: ../basics/zammad-glossary.rst:196
+#: ../basics/zammad-glossary.rst:253
 msgid ""
 "See our :admin-docs:`admin documentation </settings/security/third-party."
 "html>` for all third party authentication providers."
@@ -3980,73 +4101,15 @@ msgstr ""
 "Siehe unsere :admin-docs:`Admin-Dokumentation </settings/security/third-"
 "party.html>` für alle Authentifizierungen durch Drittanbieter."
 
-#: ../basics/zammad-glossary.rst:206
-msgid "Exchange Integration"
-msgstr "Exchange-Integration"
-
-#: ../basics/zammad-glossary.rst:200
-msgid ""
-"The Exchange integration allows users to sync their contacts from their "
-"Exchange address book with Zammad. This way, every time a contact is updated "
-"in Exchange, the iteration will be reflected in Zammad, giving you direct "
-"access to all your Exchange contacts from within your helpdesk."
-msgstr ""
-"Die Exchange-Integration erlaubt es Ihnen die Kontakte Ihres persönlichen "
-"Exchange-Adressbuches mit Zammad zu synchronisieren. So können Sie zentrale "
-"Adressbücher in Exchange pflegen und müssen nicht zusätzlich Zammad-Kontakte "
-"aktualisieren."
-
-#: ../basics/zammad-glossary.rst:205
-msgid ""
-"Learn more about the exchange integration :admin-docs:`in our admin "
-"documentation </system/integrations/exchange.html>`."
-msgstr ""
-"Erfahren Sie mehr über die Exchange-Integration :admin-docs:`in unserer "
-"Admin-Dokumentation </system/integrations/exchange.html>`."
-
-#: ../basics/zammad-glossary.rst:224
-msgid "Elasticsearch"
-msgstr "Elasticsearch"
-
-#: ../basics/zammad-glossary.rst:209
-msgid ""
-"Zammad offers an Elasticsearch integration (a free and open search engine) "
-"that makes the search process within Zammad super fast (even for data sets "
-"of several terra bytes!)."
-msgstr ""
-"Zammad bietet eine Elasticsearch-Integration (eine freie Opensearch-Engine), "
-"die Suchprozesse in Zammad extrem schnell macht (auch bei Datensätzen von "
-"mehreren Terrabytes!)."
-
-#: ../basics/zammad-glossary.rst:213
-msgid ""
-"Spoiler: Zammad is currently the only helpdesk system with a search function "
-"that combs attachments, too!"
-msgstr ""
-"Spoiler: Zammad ist aktuell das einzige Helpdesk-System, das auch "
-"Attachments in die Suche einschließt!"
-
-#: ../basics/zammad-glossary.rst:216
-msgid "**🤓 This affects hosted environments only!**"
-msgstr "**🤓 Hiervon sind nur gehostete Instanzen betroffen!**"
-
-#: ../basics/zammad-glossary.rst:218
-msgid ""
-"Via a read-only user in Elasticsearch, you can also integrate your favorite "
-"reporting tool (e.g. like Grafana)."
-msgstr ""
-"Mit Hilfe eines 'read-only'-Benutzers in Elasticsearch, können Sie außerdem "
-"Ihr bevorzugtes Reporting-Tool (wie z.B. Grafana) verwenden."
-
-#: ../basics/zammad-glossary.rst:227
+#: ../basics/zammad-glossary.rst:257
 msgid "F"
 msgstr "F"
 
-#: ../basics/zammad-glossary.rst:232
+#: ../basics/zammad-glossary.rst:262
 msgid "Feature"
 msgstr "Feature"
 
-#: ../basics/zammad-glossary.rst:230
+#: ../basics/zammad-glossary.rst:260
 msgid ""
 "A feature is what we call the different functionalities of Zammad, such as "
 "our integrations, productivity tools, or time-saving aspects. We keep adding "
@@ -4056,11 +4119,11 @@ msgstr ""
 "Integrationen, Produktivitätstools oder zeitsparende Aspekte. Wir fügen "
 "immer weitere Funktionen mit jedem Release hinzu."
 
-#: ../basics/zammad-glossary.rst:240
+#: ../basics/zammad-glossary.rst:270
 msgid "Feature request"
 msgstr "Feature-Request"
 
-#: ../basics/zammad-glossary.rst:235
+#: ../basics/zammad-glossary.rst:265
 msgid ""
 "Users can let us know if they are missing a particular feature in Zammad. We "
 "collect all of their wishes `in our Community in the Feature Request "
@@ -4076,11 +4139,11 @@ msgstr ""
 "höherem Interesse erfreut und wir finden, dass es eine großartige Ergänzung "
 "von Zammad ist, kommt die Funktion auf unsere Roadmap und wird implementiert."
 
-#: ../basics/zammad-glossary.rst:245
+#: ../basics/zammad-glossary.rst:275
 msgid "Feature sponsoring"
 msgstr "Feature Sponsoring"
 
-#: ../basics/zammad-glossary.rst:243
+#: ../basics/zammad-glossary.rst:273
 msgid ""
 "If an organization urgently requires one of the features on the list, they "
 "can fast-forward the development and put it on top of the list by sponsoring "
@@ -4091,15 +4154,135 @@ msgstr ""
 "ganz oben auf der Liste verschieben. Das bedeutet, dass diese Organisation "
 "die Kosten für die Entwicklung trägt."
 
-#: ../basics/zammad-glossary.rst:248
+#: ../basics/zammad-glossary.rst:278
 msgid "G"
 msgstr "G"
 
-#: ../basics/zammad-glossary.rst:262
+#: ../basics/zammad-glossary.rst:297
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ../basics/zammad-glossary.rst:281
+msgid ""
+"GitHub is a service for the version management of software development "
+"projects. It uses Git, a software that tracks changes in file sets. Here at "
+"Zammad, we use it to maintain our repository."
+msgstr ""
+"GitHub ist ein Dienst zum Versionsmanagement für Softwareprojekte. Es "
+"benutzt Git, eine Software die Änderungen an Dateien trackt. Bei Zammad "
+"nutzen wir es um unser Repository zu verwalten."
+
+#: ../basics/zammad-glossary.rst:285
+msgid ""
+"As Zammad in an open-source project, many developers and tech-lovers from "
+"all over the world contribute to it. GitHub is where we coordinate all of "
+"this."
+msgstr ""
+"Da Zammad ein Open-Source-Projekt ist, tragen viele Entwickler und "
+"Technikbegeisterte aus der ganzen Welt dazu bei. GitHub ist der Ort, an dem "
+"wir all dies koordinieren."
+
+#: ../basics/zammad-glossary.rst:288
+msgid "You can find the repository `here <https://github.com/zammad/zammad>`_."
+msgstr ""
+"Das Repository können Sie `hier <https://github.com/zammad/zammad>`_ finden."
+
+#: ../basics/zammad-glossary.rst:290
+msgid ""
+"Besides our own repo, Zammad also has an integration for GitHub. It creates "
+"a data exchange that shows you all relevant information about your issues "
+"directly in the helpdesk, such as status or assignees."
+msgstr ""
+"Neben unserem Repository besitzt Zammad auch eine GitHub-Integration. Es "
+"ermöglicht das darstellen aller relevanten Informationen Ihrer Issues (wie "
+"Status oder Zuständige) direkt im Helpdesk."
+
+#: ../basics/zammad-glossary.rst:294
+msgid ""
+"Administrators can learn more about GitHub :admin-docs:`in the admin "
+"documentation </system/integrations/github.html>`, if you're an agent you "
+"can learn more about the functionality on this page: :doc:`/extras/github-"
+"gitlab-integration`."
+msgstr ""
+"Administratoren können mehr über GitHub :admin-docs:`in der Admin-"
+"Dokumentation </system/integrations/github.html>` erfahren. Wenn Sie ein "
+"Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
+"erfahren: :doc:`/extras/github-gitlab-integration`."
+
+#: ../basics/zammad-glossary.rst:310
+msgid "GitLab"
+msgstr "GitLab"
+
+#: ../basics/zammad-glossary.rst:300
+msgid ""
+"GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
+"development."
+msgstr ""
+"GitLab ähnelt sich GitHub. Bei Zammad nutzen wir es für interne "
+"Entwicklungen."
+
+#: ../basics/zammad-glossary.rst:303
+msgid ""
+"There is also an integration that allows users to connect GitLab to Zammad "
+"so that all their issues and their corresponding changes are reflected in "
+"both systems."
+msgstr ""
+"Es gibt außerdem eine Integration, die es Ihnen erlaubt GitLab an Zammad "
+"anzubinden. Damit können Sie alle Issues und die dazugehörigen Änderungen in "
+"beiden Systemen darstellen."
+
+#: ../basics/zammad-glossary.rst:307
+msgid ""
+"Administrators can learn more about GitLab :admin-docs:`in the admin "
+"documentation </system/integrations/gitlab.html>`, if you're an agent you "
+"can learn more about the functionality on this page: :doc:`/extras/github-"
+"gitlab-integration`."
+msgstr ""
+"Administratoren können mehr über GitLab :admin-docs:`in der Admin-"
+"Dokumentation </system/integrations/gitlab.html>` erfahren. Wenn Sie ein "
+"Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
+"erfahren: :doc:`/extras/github-gitlab-integration`."
+
+#: ../basics/zammad-glossary.rst:323
+msgid "Grafana"
+msgstr "Grafana"
+
+#: ../basics/zammad-glossary.rst:313
+msgid ""
+"Grafana is an open-source reporting tool. Zammad users on the Plus plan can "
+"integrate it into their instance and receive detailed analytics on their "
+"performance."
+msgstr ""
+"Grafana ist ein Open-Source Reporting-Tool. Zammad-Kunden im Pluspaket "
+"können dieses an ihre Instanz anbinden und damit detaillierte Informationen "
+"zur eigenen Performance erhalten."
+
+#: ../basics/zammad-glossary.rst:317
+msgid "**🤓 Self Hosted users**"
+msgstr "**🤓 Selbst gehostete Benutzer**"
+
+#: ../basics/zammad-glossary.rst:319
+msgid ""
+"Hooking up Grafana to Elasticsearch is an possibility you can do on your own "
+"as well."
+msgstr ""
+"Grafana an Elasticsearch anzubinden ist eine Option die Sie auch "
+"selbstständig durchführen können."
+
+#: ../basics/zammad-glossary.rst:322
+msgid ""
+"Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
+"documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
+msgstr ""
+"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen :"
+"docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
+"grafana.html>` ."
+
+#: ../basics/zammad-glossary.rst:338
 msgid "Groups"
 msgstr "Gruppen"
 
-#: ../basics/zammad-glossary.rst:251
+#: ../basics/zammad-glossary.rst:326
 msgid ""
 "Groups are a synonym for departments or processing groups. The incoming "
 "tickets are assigned to them. The corresponding group is responsible for the "
@@ -4115,7 +4298,7 @@ msgstr ""
 "außerdem über die Gruppen gesteuert. Die möglichen Zugriffsrechte sind "
 "\"voller Zugriff\", \"lesend\" und \"kein Zugriff\"."
 
-#: ../basics/zammad-glossary.rst:258
+#: ../basics/zammad-glossary.rst:333
 msgid ""
 "If you have worked with the OTRS system in the past, you might remember the "
 "principle of \"queues\". The groups in Zammad are the same as the queues in "
@@ -4125,7 +4308,7 @@ msgstr ""
 "Sie sich vielleicht an \"Queues\". Gruppen sind in Zammad das selbe wie "
 "queues in OTRS."
 
-#: ../basics/zammad-glossary.rst:262
+#: ../basics/zammad-glossary.rst:337
 msgid ""
 "You can learn more on our `group landing page <https://zammad.com/en/product/"
 "features/groups>`_."
@@ -4133,139 +4316,64 @@ msgstr ""
 "Erfahren Sie mehr auf unserer `API Funktionsseite <https://zammad.com/en/"
 "product/features/groups>`_."
 
-#: ../basics/zammad-glossary.rst:275
-msgid "Grafana"
-msgstr "Grafana"
-
-#: ../basics/zammad-glossary.rst:265
-msgid ""
-"Grafana is an open-source reporting tool. Zammad users on the Plus plan can "
-"integrate it into their instance and receive detailed analytics on their "
-"performance."
-msgstr ""
-"Grafana ist ein Open-Source Reporting-Tool. Zammad-Kunden im Pluspaket "
-"können dieses an ihre Instanz anbinden und damit detaillierte Informationen "
-"zur eigenen Performance erhalten."
-
-#: ../basics/zammad-glossary.rst:269
-msgid "**🤓 Self Hosted users**"
-msgstr "**🤓 Selbst gehostete Benutzer**"
-
-#: ../basics/zammad-glossary.rst:271
-msgid ""
-"Hooking up Grafana to Elasticsearch is an possibility you can do on your own "
-"as well."
-msgstr ""
-"Grafana an Elasticsearch anzubinden ist eine Option die Sie auch "
-"selbstständig durchführen können."
-
-#: ../basics/zammad-glossary.rst:274
-msgid ""
-"Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
-"documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
-msgstr ""
-"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen :"
-"docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
-"grafana.html>` ."
-
-#: ../basics/zammad-glossary.rst:294
-msgid "GitHub"
-msgstr "GitHub"
-
-#: ../basics/zammad-glossary.rst:278
-msgid ""
-"GitHub is a service for the version management of software development "
-"projects. It uses Git, a software that tracks changes in file sets. Here at "
-"Zammad, we use it to maintain our repository."
-msgstr ""
-"GitHub ist ein Dienst zum Versionsmanagement für Softwareprojekte. Es "
-"benutzt Git, eine Software die Änderungen an Dateien trackt. Bei Zammad "
-"nutzen wir es um unser Repository zu verwalten."
-
-#: ../basics/zammad-glossary.rst:282
-msgid ""
-"As Zammad in an open-source project, many developers and tech-lovers from "
-"all over the world contribute to it. GitHub is where we coordinate all of "
-"this."
-msgstr ""
-"Da Zammad ein Open-Source-Projekt ist, tragen viele Entwickler und "
-"Technikbegeisterte aus der ganzen Welt dazu bei. GitHub ist der Ort, an dem "
-"wir all dies koordinieren."
-
-#: ../basics/zammad-glossary.rst:285
-msgid "You can find the repository `here <https://github.com/zammad/zammad>`_."
-msgstr ""
-"Das Repository können Sie `hier <https://github.com/zammad/zammad>`_ finden."
-
-#: ../basics/zammad-glossary.rst:287
-msgid ""
-"Besides our own repo, Zammad also has an integration for GitHub. It creates "
-"a data exchange that shows you all relevant information about your issues "
-"directly in the helpdesk, such as status or assignees."
-msgstr ""
-"Neben unserem Repository besitzt Zammad auch eine GitHub-Integration. Es "
-"ermöglicht das darstellen aller relevanten Informationen Ihrer Issues (wie "
-"Status oder Zuständige) direkt im Helpdesk."
-
-#: ../basics/zammad-glossary.rst:291
-msgid ""
-"Administrators can learn more about GitHub :admin-docs:`in the admin "
-"documentation </system/integrations/github.html>`, if you're an agent you "
-"can learn more about the functionality on this page: :doc:`/extras/github-"
-"gitlab-integration`."
-msgstr ""
-"Administratoren können mehr über GitHub :admin-docs:`in der Admin-"
-"Dokumentation </system/integrations/github.html>` erfahren. Wenn Sie ein "
-"Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
-"erfahren: :doc:`/extras/github-gitlab-integration`."
-
-#: ../basics/zammad-glossary.rst:307
-msgid "GitLab"
-msgstr "GitLab"
-
-#: ../basics/zammad-glossary.rst:297
-msgid ""
-"GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
-"development."
-msgstr ""
-"GitLab ähnelt sich GitHub. Bei Zammad nutzen wir es für interne "
-"Entwicklungen."
-
-#: ../basics/zammad-glossary.rst:300
-msgid ""
-"There is also an integration that allows users to connect GitLab to Zammad "
-"so that all their issues and their corresponding changes are reflected in "
-"both systems."
-msgstr ""
-"Es gibt außerdem eine Integration, die es Ihnen erlaubt GitLab an Zammad "
-"anzubinden. Damit können Sie alle Issues und die dazugehörigen Änderungen in "
-"beiden Systemen darstellen."
-
-#: ../basics/zammad-glossary.rst:304
-msgid ""
-"Administrators can learn more about GitLab :admin-docs:`in the admin "
-"documentation </system/integrations/gitlab.html>`, if you're an agent you "
-"can learn more about the functionality on this page: :doc:`/extras/github-"
-"gitlab-integration`."
-msgstr ""
-"Administratoren können mehr über GitLab :admin-docs:`in der Admin-"
-"Dokumentation </system/integrations/gitlab.html>` erfahren. Wenn Sie ein "
-"Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
-"erfahren: :doc:`/extras/github-gitlab-integration`."
-
-#: ../basics/zammad-glossary.rst:310
+#: ../basics/zammad-glossary.rst:341
 msgid "H"
 msgstr "H"
 
-#: ../basics/zammad-glossary.rst:315
+#: ../basics/zammad-glossary.rst:346
 msgid "I"
 msgstr "I"
 
-#: ../basics/zammad-glossary.rst:328
+#: ../basics/zammad-glossary.rst:354
+msgid "Icinga"
+msgstr "Icinga"
+
+#: ../basics/zammad-glossary.rst:349
+msgid ""
+"Icinga is a monitoring system that supervises the availability of an "
+"organization's entire system infrastructure. It can be integrated into "
+"Zammad so that it triggers a ticket in case of a warning situation."
+msgstr ""
+"Icinga ist ein Monitoring-System, das die Verfügbarkeit der gesamten System-"
+"Infrastruktur Ihrer Organisation überwachen kann. Es kann mit Zammad "
+"verbunden werden, um Tickets in Problemfällen erstellen zu können."
+
+#: ../basics/zammad-glossary.rst:354
+msgid ""
+"You can learn more on our `Icinga landing page <https://zammad.com/en/"
+"product/features/icinga-integration>`_."
+msgstr ""
+"Weitere Informationen finden Sie auf unserer `Icinga-Funktionsseite <https://"
+"zammad.com/en/product/features/icinga-integration>`_."
+
+#: ../basics/zammad-glossary.rst:362
+msgid "Issue-tracking system"
+msgstr "Issue-Tracking-System"
+
+#: ../basics/zammad-glossary.rst:357
+msgid ""
+"Issue trackers are usually systems that track processes on a technical "
+"level. Two of the best-known examples are GitHub and GitLab."
+msgstr ""
+"Issue Tracker sind für gewöhnlich Systeme, die Prozesse auf einem "
+"technischen Level verwalten. Zwei Beispiele der bekanntesten sind GitHub und "
+"GitLab."
+
+#: ../basics/zammad-glossary.rst:360
+msgid ""
+"Zammad is also often referred to as an issue-tracking system. However, as a "
+"helpdesk, it focuses on communication at the customer level rather than the "
+"technical level."
+msgstr ""
+"Zammad wird auch öfter als Issue-Tracking-System benannt. Als ein Helpdesk-"
+"System fokussiert es jedoch die Kommunikation auf einem Kunden-Level "
+"anstelle des technischen Levels."
+
+#: ../basics/zammad-glossary.rst:375
 msgid "i-doit"
 msgstr "i-doit"
 
-#: ../basics/zammad-glossary.rst:318
+#: ../basics/zammad-glossary.rst:365
 msgid ""
 "i-doit is a CMDB (Configuration Management Data Base). It helps you to keep "
 "an eye on every piece of the physical and digital infrastructure. A "
@@ -4281,7 +4389,7 @@ msgstr ""
 "hinzufügt, sodass diese mit existierenden i-doit Objekten verknüpft werden "
 "können. Sie erlaubt außerdem das Erstellen von Zammad-Tickets in i-doit."
 
-#: ../basics/zammad-glossary.rst:325
+#: ../basics/zammad-glossary.rst:372
 msgid ""
 "Administrators can learn more about i-doit :admin-docs:`in the admin "
 "documentation </system/integrations/i-doit.html>`, if you're an agent you "
@@ -4293,64 +4401,54 @@ msgstr ""
 "Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
 "erfahren: :doc:`/extras/i-doit-track-company-property`."
 
-#: ../basics/zammad-glossary.rst:336
-msgid "Icinga"
-msgstr "Icinga"
-
-#: ../basics/zammad-glossary.rst:331
-msgid ""
-"Icinga is a monitoring system that supervises the availability of an "
-"organization's entire system infrastructure. It can be integrated into "
-"Zammad so that it triggers a ticket in case of a warning situation."
-msgstr ""
-"Icinga ist ein Monitoring-System, das die Verfügbarkeit der gesamten System-"
-"Infrastruktur Ihrer Organisation überwachen kann. Es kann mit Zammad "
-"verbunden werden, um Tickets in Problemfällen erstellen zu können."
-
-#: ../basics/zammad-glossary.rst:336
-msgid ""
-"You can learn more on our `Icinga landing page <https://zammad.com/en/"
-"product/features/icinga-integration>`_."
-msgstr ""
-"Weitere Informationen finden Sie auf unserer `Icinga-Funktionsseite <https://"
-"zammad.com/en/product/features/icinga-integration>`_."
-
-#: ../basics/zammad-glossary.rst:344
-msgid "Issue-tracking system"
-msgstr "Issue-Tracking-System"
-
-#: ../basics/zammad-glossary.rst:339
-msgid ""
-"Issue trackers are usually systems that track processes on a technical "
-"level. Two of the best-known examples are GitHub and GitLab."
-msgstr ""
-"Issue Tracker sind für gewöhnlich Systeme, die Prozesse auf einem "
-"technischen Level verwalten. Zwei Beispiele der bekanntesten sind GitHub und "
-"GitLab."
-
-#: ../basics/zammad-glossary.rst:342
-msgid ""
-"Zammad is also often referred to as an issue-tracking system. However, as a "
-"helpdesk, it focuses on communication at the customer level rather than the "
-"technical level."
-msgstr ""
-"Zammad wird auch öfter als Issue-Tracking-System benannt. Als ein Helpdesk-"
-"System fokussiert es jedoch die Kommunikation auf einem Kunden-Level "
-"anstelle des technischen Levels."
-
-#: ../basics/zammad-glossary.rst:347
+#: ../basics/zammad-glossary.rst:378
 msgid "J"
 msgstr "J"
 
-#: ../basics/zammad-glossary.rst:352
+#: ../basics/zammad-glossary.rst:383
 msgid "K"
 msgstr "K"
 
-#: ../basics/zammad-glossary.rst:367 ../extras/knowledge-base.rst:2
+#: ../basics/zammad-glossary.rst:395
+msgid "Kibana"
+msgstr "Kibana"
+
+#: ../basics/zammad-glossary.rst:386
+msgid ""
+"Kibana is a browser-based, open-source reporting tool that focuses on data "
+"evaluation. It was developed by Elastic, which is why it is not a surprise "
+"that it uses data from Elasticsearch for its analytics."
+msgstr ""
+"Kibana ist ein browserbasiertes Open Source Reporting-Tool mit Fokus auf "
+"Datenevaluierung. Es wurde von Elastic entwickelt. Es ist daher keine "
+"Überraschung, dass es die Daten zur Analyse aus Elasticsearch bezieht."
+
+#: ../basics/zammad-glossary.rst:390
+msgid ""
+"Kibana can be integrated with Zammad, allowing for helpdesk data to be "
+"mapped in the reporting tool."
+msgstr ""
+"Kibana kann an Zammad angebunden werden, was die Nutzung der Helpdesk-Daten "
+"im Reporting-Tool erlaubt."
+
+#: ../basics/zammad-glossary.rst:393
+msgid "**🤓 This does not apply to SaaS Zammad instances.**"
+msgstr "**🤓 Das trifft nicht auf SaaS Zammad-Instanzen zu.**"
+
+#: ../basics/zammad-glossary.rst:395
+msgid ""
+"You can learn more on our `Kibana landing page <https://zammad.com/en/"
+"product/features/kibana-integration>`_."
+msgstr ""
+"Weitere Informationen finden Sie auf unserer `Kibana-Funktionsseite <https://"
+"zammad.com/en/product/features/kibana-integration>`_."
+
+#: ../basics/zammad-glossary.rst:410 ../basics/zammad-glossary.rst:614
+#: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
 msgstr "Knowledge Base"
 
-#: ../basics/zammad-glossary.rst:355
+#: ../basics/zammad-glossary.rst:398
 msgid ""
 "Think of a very extensive set of FAQs - that's exactly what the Zammad "
 "knowledge base is. It collects all important information: definitions, "
@@ -4360,7 +4458,7 @@ msgstr ""
 "die Zammad Knowledge Base ist. Sie kann alle wichtigen Informationen wie "
 "Definitionen, Prozesse, Anleitungen, Organigramme, und so weiter enthalten."
 
-#: ../basics/zammad-glossary.rst:359
+#: ../basics/zammad-glossary.rst:402
 msgid ""
 "Knowledge base articles can be either internal or external, so you can "
 "either show them to the world (good for information on your product or "
@@ -4372,7 +4470,7 @@ msgstr ""
 "Informationen zu ihrem Produkt oder Selbsthilfe) oder innerhalb Ihres Teams "
 "halten (für interne Prozesse oder Informationen für Teams)."
 
-#: ../basics/zammad-glossary.rst:364
+#: ../basics/zammad-glossary.rst:407
 msgid ""
 "Administrators can learn more about the Knowledge Base :admin-docs:`in the "
 "admin documentation </manage/knowledge-base.html>`, if you're an agent you "
@@ -4384,49 +4482,15 @@ msgstr ""
 "Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
 "erfahren: :doc:`/extras/knowledge-base`."
 
-#: ../basics/zammad-glossary.rst:379
-msgid "Kibana"
-msgstr "Kibana"
-
-#: ../basics/zammad-glossary.rst:370
-msgid ""
-"Kibana is a browser-based, open-source reporting tool that focuses on data "
-"evaluation. It was developed by Elastic, which is why it is not a surprise "
-"that it uses data from Elasticsearch for its analytics."
-msgstr ""
-"Kibana ist ein browserbasiertes Open Source Reporting-Tool mit Fokus auf "
-"Datenevaluierung. Es wurde von Elastic entwickelt. Es ist daher keine "
-"Überraschung, dass es die Daten zur Analyse aus Elasticsearch bezieht."
-
-#: ../basics/zammad-glossary.rst:374
-msgid ""
-"Kibana can be integrated with Zammad, allowing for helpdesk data to be "
-"mapped in the reporting tool."
-msgstr ""
-"Kibana kann an Zammad angebunden werden, was die Nutzung der Helpdesk-Daten "
-"im Reporting-Tool erlaubt."
-
-#: ../basics/zammad-glossary.rst:377
-msgid "**🤓 This does not apply to SaaS Zammad instances.**"
-msgstr "**🤓 Das trifft nicht auf SaaS Zammad-Instanzen zu.**"
-
-#: ../basics/zammad-glossary.rst:379
-msgid ""
-"You can learn more on our `Kibana landing page <https://zammad.com/en/"
-"product/features/kibana-integration>`_."
-msgstr ""
-"Weitere Informationen finden Sie auf unserer `Kibana-Funktionsseite <https://"
-"zammad.com/en/product/features/kibana-integration>`_."
-
-#: ../basics/zammad-glossary.rst:382
+#: ../basics/zammad-glossary.rst:413
 msgid "L"
 msgstr "L"
 
-#: ../basics/zammad-glossary.rst:390
+#: ../basics/zammad-glossary.rst:421
 msgid "LDAP"
 msgstr "LDAP"
 
-#: ../basics/zammad-glossary.rst:385
+#: ../basics/zammad-glossary.rst:416
 msgid ""
 "A Lightweight Directory Access Protocol (LDAP) helps provide information "
 "about your users within Zammad. Authentication of users against the LDAP and "
@@ -4437,7 +4501,7 @@ msgstr ""
 "Authentifizierung gegen den LDAP und die Zuordnung von LDAP-Rollen zu Zammad-"
 "Rollen ist ebenfalls möglich."
 
-#: ../basics/zammad-glossary.rst:389
+#: ../basics/zammad-glossary.rst:420
 msgid ""
 "Learn more about LDAP integration :admin-docs:`in the admin documentation </"
 "system/integrations/ldap/index.html>`."
@@ -4445,15 +4509,15 @@ msgstr ""
 "Erfahren Sie mehr über die LDAP-Integration :admin-docs:`in der Admin-"
 "Dokumentation </system/integrations/ldap/index.html>`."
 
-#: ../basics/zammad-glossary.rst:393
+#: ../basics/zammad-glossary.rst:424
 msgid "M"
 msgstr "M"
 
-#: ../basics/zammad-glossary.rst:410
+#: ../basics/zammad-glossary.rst:441
 msgid "Macro"
 msgstr "Makro"
 
-#: ../basics/zammad-glossary.rst:396
+#: ../basics/zammad-glossary.rst:427
 msgid ""
 "A macro is a series of actions. By starting the macro, the actions are also "
 "triggered (like a domino effect), so users don't have to work through each "
@@ -4465,7 +4529,7 @@ msgstr ""
 "individuellen Schritte durchführen müssen. Das spart eine Menge an Zeit und "
 "stellt sicher, dass kein Schritt vergessen wird."
 
-#: ../basics/zammad-glossary.rst:401
+#: ../basics/zammad-glossary.rst:432
 msgid ""
 "An example of this is declaring a ticket as \"spam\". The manual way here "
 "would be to assign an owner, set a status, and add the tag \"spam\". Using a "
@@ -4478,7 +4542,7 @@ msgstr ""
 "werden. Makros sind in Ticket-Zooms und Übersichten (über die "
 "Mehrfachauswahl) verfügbar."
 
-#: ../basics/zammad-glossary.rst:407
+#: ../basics/zammad-glossary.rst:438
 msgid ""
 "Administrators can learn more about Macros :admin-docs:`in the admin "
 "documentation </manage/macros.html>`, if you're an agent you can learn more "
@@ -4489,11 +4553,44 @@ msgstr ""
 "können Sie mehr über die Funktionalität auf dieser Seite erfahren: :doc:`/"
 "advanced/macros`."
 
-#: ../basics/zammad-glossary.rst:416
+#: ../basics/zammad-glossary.rst:448
+msgid "Mentions"
+msgstr "Erwähnungen"
+
+#: ../basics/zammad-glossary.rst:444
+msgid ""
+"Mentions are a Zammad feature that allows you to tag another agent in a "
+"ticket. Just type ``@@`` and the name. The selected person will be notified "
+"and will be watching the ticket from now on."
+msgstr ""
+"Erwähnungen sind eine Zammad-Funktion, die es Ihnen erlaubt andere Agenten "
+"innerhalb von Tickets zu erwähnen. Tippen Sie dazu einfach ``@@`` und den "
+"Namen. Die ausgewählte Person wird Benachrichtigung und abonniert das Ticket "
+"ab diesem Zeitpunkt."
+
+#: ../basics/zammad-glossary.rst:448
+msgid "Learn more on this page: :ref:`mentions`."
+msgstr "Weiteres erfahren Sie hier: :ref:`mentions`."
+
+#: ../basics/zammad-glossary.rst:451
+msgid ""
+"If you have two (or more) tickets about the same issue, you can merge one of "
+"them into the other. By default, Zammad performs checks if a message from an "
+"external party belongs to an existing ticket. However, if your customer for "
+"example writes a completely new email instead of answering the auto "
+"response, Zammad can't assign the message to the existing ticket but creates "
+"a new one."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:458
+msgid "See :doc:`/advanced/ticket-actions` for further information."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:464
 msgid "Migrator / Migration Wizard"
 msgstr "Migrator / Migrationsassistent"
 
-#: ../basics/zammad-glossary.rst:413
+#: ../basics/zammad-glossary.rst:461
 msgid ""
 "If a company wants to switch from another helpdesk software to Zammad, they "
 "often have one concern: What about their existing data? That's why we have "
@@ -4505,11 +4602,11 @@ msgstr ""
 "integrierten Migrations-Assistenten, die mit einem Buttonklick bei der "
 "Datenmigration helfen."
 
-#: ../basics/zammad-glossary.rst:423
+#: ../basics/zammad-glossary.rst:471
 msgid "Monit"
 msgstr "Monit"
 
-#: ../basics/zammad-glossary.rst:419
+#: ../basics/zammad-glossary.rst:467
 msgid ""
 "Monit is an open-source monitoring tool that relies on a simple setup and a "
 "strong community. You can integrate it with Zammad - this way, a ticket is "
@@ -4520,7 +4617,7 @@ msgstr ""
 "werden – so erhalten Sie neue Tickets, jedes Mal wenn Monit eine E-Mail "
 "sendet."
 
-#: ../basics/zammad-glossary.rst:423
+#: ../basics/zammad-glossary.rst:471
 msgid ""
 "You can learn more on our `Monit landing page <https://zammad.com/en/product/"
 "features/monit-integration>`_."
@@ -4528,34 +4625,15 @@ msgstr ""
 "Weitere Informationen finden Sie auf unserer `Monit-Funktionsseite <https://"
 "zammad.com/en/product/features/monit-integration>`_."
 
-#: ../basics/zammad-glossary.rst:430
-msgid "Mentions"
-msgstr "Erwähnungen"
-
-#: ../basics/zammad-glossary.rst:426
-msgid ""
-"Mentions are a Zammad feature that allows you to tag another agent in a "
-"ticket. Just type ``@@`` and the name. The selected person will be notified "
-"and will be watching the ticket from now on."
-msgstr ""
-"Erwähnungen sind eine Zammad-Funktion, die es Ihnen erlaubt andere Agenten "
-"innerhalb von Tickets zu erwähnen. Tippen Sie dazu einfach ``@@`` und den "
-"Namen. Die ausgewählte Person wird Benachrichtigung und abonniert das Ticket "
-"ab diesem Zeitpunkt."
-
-#: ../basics/zammad-glossary.rst:430
-msgid "Learn more on this page: :ref:`mentions`."
-msgstr "Weiteres erfahren Sie hier: :ref:`mentions`."
-
-#: ../basics/zammad-glossary.rst:433
+#: ../basics/zammad-glossary.rst:474
 msgid "N"
 msgstr "N"
 
-#: ../basics/zammad-glossary.rst:441
+#: ../basics/zammad-glossary.rst:482
 msgid "Nagios"
 msgstr "Nagios"
 
-#: ../basics/zammad-glossary.rst:436
+#: ../basics/zammad-glossary.rst:477
 msgid ""
 "Nagios is another monitoring tool that alerts IT teams when, for example, a "
 "server is no longer accessible or a hard disk is about to be exhausted. "
@@ -4566,7 +4644,7 @@ msgstr ""
 "wenn z.B. ein Server nicht erreichbar ist, oder eine Festplatte droht voll "
 "zu laufen. Die Integration erstellt in solchen Fällen Tickets in Zammad."
 
-#: ../basics/zammad-glossary.rst:441
+#: ../basics/zammad-glossary.rst:482
 msgid ""
 "You can learn more on our `Nagios landing page <https://zammad.com/en/"
 "product/features/nagios-integration>`_."
@@ -4574,11 +4652,69 @@ msgstr ""
 "Weitere Informationen finden Sie auf unserer `Nagios-Funktionsseite <https://"
 "zammad.com/en/product/features/nagios-integration>`_."
 
-#: ../basics/zammad-glossary.rst:444
+#: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: ../basics/zammad-glossary.rst:485
+msgid ""
+"To avoid overlooking new messages (e.g. from a customer) Zammad notifies you "
+"about every relevant change by default. You can adjust your general "
+"notification settings in your user profile. You can even mention other users "
+"or subscribe to a specific ticket if you are interested how it proceeds."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:490
+#, fuzzy
+#| msgid ""
+#| "Check your :doc:`/extras/profile-and-settings` to customize how you "
+#| "receive notifications."
+msgid "See :doc:`/extras/profile-and-settings` for more information."
+msgstr ""
+"Prüfen Sie :doc:`/extras/profile-and-settings` um Benachrichtigungen für "
+"Abonnements zu verwalten."
+
+#: ../basics/zammad-glossary.rst:493
 msgid "O"
 msgstr "O"
 
-#: ../basics/zammad-glossary.rst:447
+#: ../basics/zammad-glossary.rst:499 ../extras/customers.rst:0
+msgid "Organization"
+msgstr "Organisation"
+
+#: ../basics/zammad-glossary.rst:496
+msgid ""
+"An organization identifies a grouping of customers that operate under the "
+"same roof or within the same customer group. If a customer whose "
+"organization is \"sharing\" logs in to the customer interface, this user has "
+"access to all tickets of his organization."
+msgstr ""
+"Eine Organisation repräsentiert eine Gruppe von Kunden, die unter gleichem "
+"Dach arbeiten oder einer gemeinsamen Typisierung entsprechen. Falls sich ein "
+"Kunde, dessen Organisation auf \"Teilend\" gestellt ist, bei Zammad "
+"anmeldet, besteht Zugriff auf alle Tickets der Organisation."
+
+#: ../basics/zammad-glossary.rst:508 ../extras/chat.rst:11
+#: ../extras/customers.rst:7 ../extras/secure-email.rst:32
+#: ../extras/shared-drafts.rst:5
+msgid "Overview"
+msgstr "Übersicht"
+
+#: ../basics/zammad-glossary.rst:502
+msgid ""
+"Overviews are your starting point to work on tickets. You can think of "
+"overviews as a kind of filter for existing tickets. Some basic overviews are "
+"shipped with Zammad by default. If you want to have a custom overview, ask "
+"your admin to create it."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:507
+msgid ""
+"For more information please have a look in :doc:`/basics/find-ticket/browse`."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:511
 msgid ""
 "The owner of a ticket is the person responsible for it and ensures that it "
 "is processed in the best possible way. Of course, ownership can be "
@@ -4592,7 +4728,7 @@ msgstr ""
 "im Ticket zu verfassen, sodass man als neuer Besitzer weis, was als nächstes "
 "erwartet wird."
 
-#: ../basics/zammad-glossary.rst:453
+#: ../basics/zammad-glossary.rst:517
 msgid ""
 "Learn more about ticket owners on this page: :doc:`/basics/service-ticket/"
 "settings`"
@@ -4600,31 +4736,15 @@ msgstr ""
 "Erfahren Sie mehr über Ticket-Besitzer auf dieser Seite: :doc:`/basics/"
 "service-ticket/settings`"
 
-#: ../basics/zammad-glossary.rst:460 ../extras/customers.rst:0
-msgid "Organization"
-msgstr "Organisation"
-
-#: ../basics/zammad-glossary.rst:457
-msgid ""
-"An organization identifies a grouping of customers that operate under the "
-"same roof or within the same customer group. If a customer whose "
-"organization is \"sharing\" logs in to the customer interface, this user has "
-"access to all tickets of his organization."
-msgstr ""
-"Eine Organisation repräsentiert eine Gruppe von Kunden, die unter gleichem "
-"Dach arbeiten oder einer gemeinsamen Typisierung entsprechen. Falls sich ein "
-"Kunde, dessen Organisation auf \"Teilend\" gestellt ist, bei Zammad "
-"anmeldet, besteht Zugriff auf alle Tickets der Organisation."
-
-#: ../basics/zammad-glossary.rst:463
+#: ../basics/zammad-glossary.rst:521
 msgid "P"
 msgstr "P"
 
-#: ../basics/zammad-glossary.rst:472
+#: ../basics/zammad-glossary.rst:530
 msgid "Parent/Child Relationship"
 msgstr "Eltern/Kind-Beziehung"
 
-#: ../basics/zammad-glossary.rst:466
+#: ../basics/zammad-glossary.rst:524
 msgid ""
 "If one ticket results in other subtasks (or additional correspondences), you "
 "can split it into several tickets. The main one will then be the parent "
@@ -4636,7 +4756,7 @@ msgstr ""
 "Hauptticket wird dann \"Eltern\" genannt und die resultierenden Untertickets "
 "\"Kinder\"."
 
-#: ../basics/zammad-glossary.rst:471
+#: ../basics/zammad-glossary.rst:529
 msgid ""
 "Learn more about this function on this page: :doc:`/advanced/ticket-actions/"
 "link`."
@@ -4644,11 +4764,11 @@ msgstr ""
 "Erfahren Sie mehr über diese Funktion auf dieser Seite: :doc:`/advanced/"
 "ticket-actions/link`."
 
-#: ../basics/zammad-glossary.rst:487
+#: ../basics/zammad-glossary.rst:545
 msgid "Placetel"
 msgstr "Placetel"
 
-#: ../basics/zammad-glossary.rst:475
+#: ../basics/zammad-glossary.rst:533
 msgid ""
 "Placetel is a Cloud Telephone System that allows users to make phone calls "
 "via VoIP. Use your regular phone number and call someone directly on their "
@@ -4660,7 +4780,7 @@ msgstr ""
 "jemanden direkt auf Festnetz- oder Mobilfunknummern an und haben Sie "
 "trotzdem alle Kommunikation an einem Ort (a.k.a. Zammad)."
 
-#: ../basics/zammad-glossary.rst:480
+#: ../basics/zammad-glossary.rst:538
 msgid ""
 "Integrating a Placetel account with Zammad provides users with a call log, "
 "making the history of their correspondences even more accurate. Callers are "
@@ -4672,7 +4792,7 @@ msgstr ""
 "genauer macht. Anrufer werden direkt über ihre Nummer identifiziert - eine "
 "Schlüsselfunktion die Agenten viel Zeit beim zuweisen von Anrufern spart."
 
-#: ../basics/zammad-glossary.rst:485
+#: ../basics/zammad-glossary.rst:543
 msgid ""
 "Administrators can learn more on the `placetel CTI` integration page. Agents "
 "can learn more about this function on this page: :doc:`/extras/caller-log`"
@@ -4681,7 +4801,7 @@ msgstr ""
 "Agenten erfahren mehr über diese Funktion auf dieser Seite: :doc:`/extras/"
 "caller-log`"
 
-#: ../basics/zammad-glossary.rst:490
+#: ../basics/zammad-glossary.rst:548
 msgid ""
 "Every ticket gets assigned a priority. By default, the priority is 2 "
 "(normal). But it can be changed to either 1 (low) or 3 (high)."
@@ -4689,55 +4809,26 @@ msgstr ""
 "Jedes Ticket erhält eine Priorität zugewiesen. Die Standardpriorität ist \"2 "
 "(normal)\". Sie kann auf \"1 (niedrig)\" oder \"3 (hoch)\" geändert werden."
 
-#: ../basics/zammad-glossary.rst:495
+#: ../basics/zammad-glossary.rst:552
+msgid ""
+"Priorities can even be adjusted or extended to fit your needs. Your "
+"administrator can find more information :admin-docs:`here </system/objects."
+"html#system-attributes>`."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:557
 msgid "Q"
 msgstr "Q"
 
-#: ../basics/zammad-glossary.rst:500
+#: ../basics/zammad-glossary.rst:562
 msgid "R"
 msgstr "R"
 
-#: ../basics/zammad-glossary.rst:513
-msgid "Role"
-msgstr "Rolle"
-
-#: ../basics/zammad-glossary.rst:503
-msgid ""
-"Everyone who logs into Zammad has a predefined role. There are three types: "
-"admin, agent, and customer."
-msgstr ""
-"Jeder Benutzer der sich in Zammad anmeldet, hat eine bestimmte Rolle. Es "
-"gibt drei Arten: Admin, Agent und Kunde."
-
-#: ../basics/zammad-glossary.rst:506
-msgid ""
-"Admins have the most rights: they can define roles, permissions, and "
-"settings for the entire team and instance."
-msgstr ""
-"Admins haben die meisten Berechtigungen: Sie können Rollen, Berechtigungen "
-"und Einstellungen für das gesamte Team und der Instanz ändern."
-
-#: ../basics/zammad-glossary.rst:509
-msgid ""
-"Agents can view and edit tickets, but not change any settings other than "
-"those of their own profiles."
-msgstr ""
-"Agenten können Tickets einsehen und bearbeiten, jedoch keine Änderungen am "
-"System -außer die eigenen Profileinstellungen- vornehmen."
-
-#: ../basics/zammad-glossary.rst:512
-msgid ""
-"Customers can view their tickets' processing status in their individual "
-"Customer Interface."
-msgstr ""
-"Kunden können ihre eigenen Tickets und deren aktuellen Stand im "
-"individuellen Kundeninterface einsehen."
-
-#: ../basics/zammad-glossary.rst:523
+#: ../basics/zammad-glossary.rst:572
 msgid "Release"
 msgstr "Release"
 
-#: ../basics/zammad-glossary.rst:516
+#: ../basics/zammad-glossary.rst:565
 msgid ""
 "Every few months, we bring a new version of Zammad into the world, which is "
 "called a release. It all started with Zammad 1.0."
@@ -4745,7 +4836,7 @@ msgstr ""
 "Alle paar Monate veröffentlichen wir eine neue Zammad-Version – das ist eine "
 "Release. Alles hat mit Zammad 1.0 angefangen."
 
-#: ../basics/zammad-glossary.rst:519
+#: ../basics/zammad-glossary.rst:568
 msgid ""
 "Every release adds new features to our software. There are major and minor "
 "releases: major releases (such as Zammad 1.0, 2.0, etc.) bring major "
@@ -4757,69 +4848,167 @@ msgstr ""
 "Änderungen mit sich. minor Releases werden auf diese installiert (wie 1.1, "
 "2.1, ...) und bringen kleinere Änderungen."
 
-#: ../basics/zammad-glossary.rst:526
+#: ../basics/zammad-glossary.rst:580 ../basics/zammad-glossary.rst:621
+#, fuzzy
+#| msgid "Reports"
+msgid "Reporting"
+msgstr "Auswertungen"
+
+#: ../basics/zammad-glossary.rst:575
+msgid ""
+"The reporting helps keeping an overview over stats and numbers (e.g. created "
+"tickets per month). There are two types of reporting: the reporting "
+"functionality integrated in Zammad and the reporting with external tools."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:579
+#, fuzzy
+#| msgid ""
+#| "Administrators can learn more about customizing text modules :admin-docs:"
+#| "`here </manage/text-modules.html>`."
+msgid ""
+"Admins can find further information :admin-docs:`here </manage/report-"
+"profiles.html>`."
+msgstr ""
+"Administratoren können :admin-docs:`hier </manage/text-modules.html>` mehr "
+"über das Anpassen von Textbausteinen erfahren."
+
+#: ../basics/zammad-glossary.rst:593
+msgid "Role"
+msgstr "Rolle"
+
+#: ../basics/zammad-glossary.rst:583
+msgid ""
+"Everyone who logs into Zammad has a predefined role. There are three types: "
+"admin, agent, and customer."
+msgstr ""
+"Jeder Benutzer der sich in Zammad anmeldet, hat eine bestimmte Rolle. Es "
+"gibt drei Arten: Admin, Agent und Kunde."
+
+#: ../basics/zammad-glossary.rst:586
+msgid ""
+"Admins have the most rights: they can define roles, permissions, and "
+"settings for the entire team and instance."
+msgstr ""
+"Admins haben die meisten Berechtigungen: Sie können Rollen, Berechtigungen "
+"und Einstellungen für das gesamte Team und der Instanz ändern."
+
+#: ../basics/zammad-glossary.rst:589
+msgid ""
+"Agents can view and edit tickets, but not change any settings other than "
+"those of their own profiles."
+msgstr ""
+"Agenten können Tickets einsehen und bearbeiten, jedoch keine Änderungen am "
+"System -außer die eigenen Profileinstellungen- vornehmen."
+
+#: ../basics/zammad-glossary.rst:592
+msgid ""
+"Customers can view their tickets' processing status in their individual "
+"Customer Interface."
+msgstr ""
+"Kunden können ihre eigenen Tickets und deren aktuellen Stand im "
+"individuellen Kundeninterface einsehen."
+
+#: ../basics/zammad-glossary.rst:596
 msgid "S"
 msgstr "S"
 
-#: ../basics/zammad-glossary.rst:535
-msgid "SSO"
-msgstr "SSO"
+#: ../basics/zammad-glossary.rst:603
+msgid "Scheduler"
+msgstr ""
 
-#: ../basics/zammad-glossary.rst:529
+#: ../basics/zammad-glossary.rst:599
 msgid ""
-"Single-sign-on (SSO) allows you to access all your systems and devices with "
-"just one login. There are various providers that make this process easy and "
-"secure. Zammad currently supports SSO via SAML and Shibboleth."
+"The scheduler is one of Zammad's automation features. An admin can define "
+"specific conditions and actions which are applied to tickets with matching "
+"conditions in a time based manner. More information in the admin "
+"documentation in the :admin-docs:`scheduler section </manage/scheduler."
+"html>`."
 msgstr ""
-"Single-sign-on (SSO) erlaubt Zugriff auf alle Ihre Systeme und Geräte mit "
-"nur einem Login. Es gibt verschiedene Anbieter die diesen Prozess einfach "
-"und sicher machen. Zammad unterstützt aktuell SSO mittels SAML und "
-"Shibboleth."
 
-#: ../basics/zammad-glossary.rst:533
-msgid "🤓 Self Hosted users can also use Kerberos authentication."
+#: ../basics/zammad-glossary.rst:623
+msgid "Sidebar"
 msgstr ""
-"🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
 
-#: ../basics/zammad-glossary.rst:535
+#: ../basics/zammad-glossary.rst:606
 msgid ""
-"You can learn more on our `SSO landing page <https://zammad.com/en/product/"
-"features/sso>`_."
+"The sidebar on the left side contains all relevant places and object you "
+"might need. Depending on the configured channels and your permissions, it "
+"might not include all sections which are listed below:"
 msgstr ""
-"Weitere Informationen finden Sie auf unserer `SSO-Funktionsseite <https://"
-"zammad.com/en/product/features/sso>`_."
 
-#: ../basics/zammad-glossary.rst:545
-msgid "S/MIME"
-msgstr "S/MIME"
+#: ../basics/zammad-glossary.rst:610
+#, fuzzy
+#| msgid "Search phrase"
+msgid "Search bar"
+msgstr "Suchphrase"
 
-#: ../basics/zammad-glossary.rst:538
+#: ../basics/zammad-glossary.rst:611
+#, fuzzy
+#| msgid "Notifications"
+msgid "Notification section"
+msgstr "Benachrichtigungen"
+
+#: ../basics/zammad-glossary.rst:613 ../extras/profile-and-settings.rst:0
+msgid "Overviews"
+msgstr "Übersichten"
+
+#: ../basics/zammad-glossary.rst:615
+#, fuzzy
+#| msgid "Customer"
+msgid "Customer Chat"
+msgstr "Kunde"
+
+#: ../basics/zammad-glossary.rst:616
+msgid "Phone"
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:617
+#, fuzzy
+#| msgid "How to merge tickets?"
+msgid "One or more open tickets"
+msgstr "Wie fasst man Tickets zusammen?"
+
+#: ../basics/zammad-glossary.rst:618
+msgid "Bootom section:"
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:622
+#, fuzzy
+#| msgid "Ticket Settings"
+msgid "Admin settings"
+msgstr "Ticket-Einstellungen"
+
+#: ../basics/zammad-glossary.rst:623
+#, fuzzy
+#| msgid "Text modules on ticket creation"
+msgid "Button for ticket creation"
+msgstr "Text Bausteine bei der Ticket-Erstellung"
+
+#: ../basics/zammad-glossary.rst:632
+#, fuzzy
+#| msgid "Feature"
+msgid "Signature"
+msgstr "Feature"
+
+#: ../basics/zammad-glossary.rst:626
 msgid ""
-"S/MIME is the most widely-supported method for secure email communication. "
-"By activating it in Zammad, all messages sent from Zammad will be signed and "
-"encrypted."
+"The signature is your footer in an outgoing message. Your customers may find "
+"contact details and the name of your company/department there. It can even "
+"contain your :ref:`avatar image <glossary-avatar>`."
 msgstr ""
-"S/MIME ist die am weitesten verbreitete Methode für sichere E-Mail-"
-"Kommunikation. Mit dem Aktivieren in Zammad, werden alle gesendeten "
-"Nachrichten von Zammad signiert und verschlüsselt."
 
-#: ../basics/zammad-glossary.rst:542
+#: ../basics/zammad-glossary.rst:631
 msgid ""
-"Administrators can learn more about S/MIME :admin-docs:`in the admin "
-"documentation </system/integrations/smime/index.html>`, if you're an agent "
-"you can learn more about the functionality on this page: :doc:`/extras/"
-"secure-email`."
+"It can be customized by your admin. Further information can be found :admin-"
+"docs:`here </channels/email/signatures.html>`."
 msgstr ""
-"Administratoren können mehr über S/MIME :admin-docs:`in der Admin-"
-"Dokumentation </system/integrations/smime/index.html>` erfahren. Wenn Sie "
-"ein Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
-"erfahren: :doc:`/extras/secure-email`."
 
-#: ../basics/zammad-glossary.rst:555
+#: ../basics/zammad-glossary.rst:642
 msgid "Sipgate"
 msgstr "Sipgate"
 
-#: ../basics/zammad-glossary.rst:548
+#: ../basics/zammad-glossary.rst:635
 msgid ""
 "Sipgate is a SaaS solution for internet telephony. The Zammad integration "
 "for Sipgate provides users with a detailed call overview. If you have a "
@@ -4832,7 +5021,7 @@ msgstr ""
 "werden möchte, zeigt die Anrufübersicht an, ob der Kollege aktuell verfügbar "
 "ist."
 
-#: ../basics/zammad-glossary.rst:553
+#: ../basics/zammad-glossary.rst:640
 msgid ""
 "Administrators can learn more on the `sipgate CTI` integration page. Agents "
 "can learn more about this function on this page: :doc:`/extras/caller-log`"
@@ -4841,11 +5030,11 @@ msgstr ""
 "Agenten erfahren mehr über diese Funktionalität auf der folgenden Seite: :"
 "doc:`/extras/caller-log`"
 
-#: ../basics/zammad-glossary.rst:570
+#: ../basics/zammad-glossary.rst:657
 msgid "SLA"
 msgstr "SLA"
 
-#: ../basics/zammad-glossary.rst:560
+#: ../basics/zammad-glossary.rst:647
 msgid ""
 "A Service Level Agreement (SLA) is a contract between an end-user and a "
 "company that defines the minimum expected service requirements including "
@@ -4858,7 +5047,7 @@ msgstr ""
 "Erwartungen zu definieren und Firmen verantwortlich für die Einhaltung Ihrer "
 "Versprechen zu machen."
 
-#: ../basics/zammad-glossary.rst:566
+#: ../basics/zammad-glossary.rst:653
 msgid ""
 "You can easily set up SLAs in Zammad and define parameters such as the time "
 "for the first response, an update, and a solution. Once the deadline has "
@@ -4868,7 +5057,7 @@ msgstr ""
 "Antworten, Updates und Lösungen. Sobald Fristen erreicht sind, werden "
 "Tickets eskalieren."
 
-#: ../basics/zammad-glossary.rst:570
+#: ../basics/zammad-glossary.rst:657
 msgid ""
 "You can learn more on our `SLA landing page <https://zammad.com/en/product/"
 "features/sla>`_."
@@ -4876,85 +5065,109 @@ msgstr ""
 "Weitere Informationen finden Sie auf unserer `SLA-Funktionsseite <https://"
 "zammad.com/en/product/features/sla>`_."
 
-#: ../basics/zammad-glossary.rst:577
-msgid "Status"
-msgstr "Status"
+#: ../basics/zammad-glossary.rst:663
+#, fuzzy
+#| msgid "Splitting Tickets"
+msgid "Splitting tickets"
+msgstr "Tickets spalten"
 
-#: ../basics/zammad-glossary.rst:573
+#: ../basics/zammad-glossary.rst:660
 msgid ""
-"Every ticket has a status. You can change it once you've updated the ticket. "
-"There are four types of status, and they are all color-coded."
+"In case a ticket contains more than one issue and you want to handle it in a "
+"separate ticket, you can split the ticket. Zammad creates a new ticket then "
+"based on the selected article for splitting. See :doc:`/advanced/ticket-"
+"actions` for more information."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:672
+msgid "SSO"
+msgstr "SSO"
+
+#: ../basics/zammad-glossary.rst:666
+msgid ""
+"Single-sign-on (SSO) allows you to access all your systems and devices with "
+"just one login. There are various providers that make this process easy and "
+"secure. Zammad currently supports SSO via SAML and Shibboleth."
+msgstr ""
+"Single-sign-on (SSO) erlaubt Zugriff auf alle Ihre Systeme und Geräte mit "
+"nur einem Login. Es gibt verschiedene Anbieter die diesen Prozess einfach "
+"und sicher machen. Zammad unterstützt aktuell SSO mittels SAML und "
+"Shibboleth."
+
+#: ../basics/zammad-glossary.rst:670
+msgid "🤓 Self Hosted users can also use Kerberos authentication."
+msgstr ""
+"🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
+
+#: ../basics/zammad-glossary.rst:672
+msgid ""
+"You can learn more on our `SSO landing page <https://zammad.com/en/product/"
+"features/sso>`_."
+msgstr ""
+"Weitere Informationen finden Sie auf unserer `SSO-Funktionsseite <https://"
+"zammad.com/en/product/features/sso>`_."
+
+#: ../basics/zammad-glossary.rst:675
+#, fuzzy
+#| msgid ""
+#| "Every ticket has a status. You can change it once you've updated the "
+#| "ticket. There are four types of status, and they are all color-coded."
+msgid ""
+"Every ticket has a state. You can change it once you've updated the ticket. "
+"There are four types of states, and they are all color-coded."
 msgstr ""
 "Jedes Ticket hat einen Status. Sie können diese mit dem Update eines Tickets "
 "ändern. Es gibt für Statustypen, diese sind farbkodiert."
 
-#: ../basics/zammad-glossary.rst:576
+#: ../basics/zammad-glossary.rst:678
+#, fuzzy
+#| msgid ""
+#| "Learn more about states and they color coding on this page: :doc:`/basics/"
+#| "service-ticket/settings/state`"
 msgid ""
-"Learn more about states and they color coding on this page: :doc:`/basics/"
+"Learn more about states and their color coding on this page: :doc:`/basics/"
 "service-ticket/settings/state`"
 msgstr ""
 "Zu Farbkodierungen und Status erfahren Sie mehr auf dieser Seite: :doc:`/"
 "basics/service-ticket/settings/state`"
 
-#: ../basics/zammad-glossary.rst:580
+#: ../basics/zammad-glossary.rst:681
+msgid ""
+"The available states can be changed or extended. Your admin can find further "
+"information :admin-docs:`here </system/objects.html#system-attributes>`."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:692
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: ../basics/zammad-glossary.rst:685
+msgid ""
+"S/MIME is the most widely-supported method for secure email communication. "
+"By activating it in Zammad, all messages sent from Zammad will be signed and "
+"encrypted."
+msgstr ""
+"S/MIME ist die am weitesten verbreitete Methode für sichere E-Mail-"
+"Kommunikation. Mit dem Aktivieren in Zammad, werden alle gesendeten "
+"Nachrichten von Zammad signiert und verschlüsselt."
+
+#: ../basics/zammad-glossary.rst:689
+msgid ""
+"Administrators can learn more about S/MIME :admin-docs:`in the admin "
+"documentation </system/integrations/smime/index.html>`, if you're an agent "
+"you can learn more about the functionality on this page: :doc:`/extras/"
+"secure-email`."
+msgstr ""
+"Administratoren können mehr über S/MIME :admin-docs:`in der Admin-"
+"Dokumentation </system/integrations/smime/index.html>` erfahren. Wenn Sie "
+"ein Agent sind, können Sie mehr über die Funktionalität auf dieser Seite "
+"erfahren: :doc:`/extras/secure-email`."
+
+#: ../basics/zammad-glossary.rst:695
 msgid "T"
 msgstr "T"
 
-#: ../basics/zammad-glossary.rst:594
-msgid "Text module"
-msgstr "Textbaustein"
-
-#: ../basics/zammad-glossary.rst:583
-msgid ""
-"If you find that you send the same answers / text bits over and over again, "
-"you can save yourself a bunch of work and create a text module. This way, "
-"you just need to type ``::`` shortcut and the pre-defined paragraph will "
-"automatically appear in your article."
-msgstr ""
-"Falls Sie feststellen, dass Sie die gleichen Antworten oder Phrasen immer "
-"wieder verwenden, können Sie sich Ihr Leben vereinfachen, indem Sie "
-"Textbausteine erstellen. Damit müssen Sie lediglich ``::`` eintippen und die "
-"vorgeschriebenen Textabschnitte erscheinen automatisch in Ihrem Artikel."
-
-#: ../basics/zammad-glossary.rst:588
-msgid ""
-"For example, here at Zammad, we have a text module with the shortcut ``::"
-"ilff``, which turns into ``I look forward to your feedback``."
-msgstr ""
-"Zum Beispiel, wir bei Zammad, haben einen Textbaustein mit der Abkürzung ``::"
-"üff``, welcher anwächst auf ``Über Feedback würde ich mich freuen``."
-
-#: ../basics/zammad-glossary.rst:591
-msgid ""
-"Administrators can learn more about text modules :admin-docs:`here </manage/"
-"text-modules.html>`. Agents can learn more about this function on this "
-"page: :doc:`/advanced/text-modules`"
-msgstr ""
-"Administratoren können mehr über Textbausteine :admin-docs:`hier </manage/"
-"text-modules.html>` erfahren. Agenten können auf folgender Seite mehr über "
-"diese Funktion erfahren: :doc:`/erweitert/text-modules`"
-
-#: ../basics/zammad-glossary.rst:601
-msgid "(Ticket) Template"
-msgstr "(Ticket) Vorlagen"
-
-#: ../basics/zammad-glossary.rst:597
-msgid ""
-"If you create many similar tickets or write many similar texts, you can "
-"create a template for them. This is helpful for introductions to your "
-"product/service or for drawing up an offer. It's a real time-saver!"
-msgstr ""
-"Falls Sie viele ähnliche Tickets oder ähnliche Texte schreiben, können Sie "
-"eine Vorlage dafür erstellen. Das ist hilfreich für Produkt-/ "
-"Servicebeschreibungen oder um ein Angebot zu skizzieren. Das ist "
-"Zeitersparnis!"
-
-#: ../basics/zammad-glossary.rst:601
-msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
-msgstr ""
-"Erfahren Sie mehr auf der folgenden Seite: :doc:`/advanced/ticket-templates`."
-
-#: ../basics/zammad-glossary.rst:604
+#: ../basics/zammad-glossary.rst:698
 msgid ""
 "Tags help you to categorize tickets. You can define them based on your use "
 "case. For example, if you're a retail business, your tags could be based on "
@@ -4968,7 +5181,7 @@ msgstr ""
 "Tickets anhand dieser zu organisieren. Oder sie vergeben Sie basierend auf "
 "dem Anfragetyp, z.B. Reklamation, Versandvorfall, Verlustmeldung…"
 
-#: ../basics/zammad-glossary.rst:611
+#: ../basics/zammad-glossary.rst:705
 msgid ""
 "Administrators can learn more about tags :admin-docs:`here </manage/tags."
 "html>`. Agents can learn more about this function on this page: :doc:`/"
@@ -4978,15 +5191,103 @@ msgstr ""
 "erfahren. Agenten können auf folgender Seite mehr über diese Funktion "
 "erfahren: :doc:`/basics/service-ticket/settings/tags`"
 
-#: ../basics/zammad-glossary.rst:617
+#: ../basics/zammad-glossary.rst:722
+msgid "Text module"
+msgstr "Textbaustein"
+
+#: ../basics/zammad-glossary.rst:711
+msgid ""
+"If you find that you send the same answers / text bits over and over again, "
+"you can save yourself a bunch of work and create a text module. This way, "
+"you just need to type ``::`` shortcut and the pre-defined paragraph will "
+"automatically appear in your article."
+msgstr ""
+"Falls Sie feststellen, dass Sie die gleichen Antworten oder Phrasen immer "
+"wieder verwenden, können Sie sich Ihr Leben vereinfachen, indem Sie "
+"Textbausteine erstellen. Damit müssen Sie lediglich ``::`` eintippen und die "
+"vorgeschriebenen Textabschnitte erscheinen automatisch in Ihrem Artikel."
+
+#: ../basics/zammad-glossary.rst:716
+msgid ""
+"For example, here at Zammad, we have a text module with the shortcut ``::"
+"ilff``, which turns into ``I look forward to your feedback``."
+msgstr ""
+"Zum Beispiel, wir bei Zammad, haben einen Textbaustein mit der Abkürzung ``::"
+"üff``, welcher anwächst auf ``Über Feedback würde ich mich freuen``."
+
+#: ../basics/zammad-glossary.rst:719
+msgid ""
+"Administrators can learn more about text modules :admin-docs:`here </manage/"
+"text-modules.html>`. Agents can learn more about this function on this "
+"page: :doc:`/advanced/text-modules`"
+msgstr ""
+"Administratoren können mehr über Textbausteine :admin-docs:`hier </manage/"
+"text-modules.html>` erfahren. Agenten können auf folgender Seite mehr über "
+"diese Funktion erfahren: :doc:`/erweitert/text-modules`"
+
+#: ../basics/zammad-glossary.rst:729
+msgid "(Ticket) Template"
+msgstr "(Ticket) Vorlagen"
+
+#: ../basics/zammad-glossary.rst:725
+msgid ""
+"If you create many similar tickets or write many similar texts, you can "
+"create a template for them. This is helpful for introductions to your "
+"product/service or for drawing up an offer. It's a real time-saver!"
+msgstr ""
+"Falls Sie viele ähnliche Tickets oder ähnliche Texte schreiben, können Sie "
+"eine Vorlage dafür erstellen. Das ist hilfreich für Produkt-/ "
+"Servicebeschreibungen oder um ein Angebot zu skizzieren. Das ist "
+"Zeitersparnis!"
+
+#: ../basics/zammad-glossary.rst:729
+msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
+msgstr ""
+"Erfahren Sie mehr auf der folgenden Seite: :doc:`/advanced/ticket-templates`."
+
+#: ../basics/zammad-glossary.rst:732
+msgid ""
+"The ticket of a ticket is different based on the channel it came in. You can "
+"find the title in the sidebar and in the top area in the ticket view. If the "
+"title is not very meaningful, you can change it by clicking on the title in "
+"a ticket view."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:741
+#, fuzzy
+#| msgid "Ticket Macros"
+msgid "Ticket hook"
+msgstr "Ticket-Makros"
+
+#: ../basics/zammad-glossary.rst:738
+msgid ""
+"The ticket hook is the identifier of a ticket. By default, it is ``Ticket#`` "
+"with an appended number (e.g. ``Ticket#904627``). It can be changed by an "
+"admin. See :admin-docs:`here </settings/ticket.html>` for further "
+"information."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:748
+msgid "Trigger"
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:744
+msgid ""
+"Triggers are one of Zammad's automation features. An admin can define "
+"specific conditions and actions which are applied to tickets with matching "
+"conditions. More information in the admin documentation in the :admin-docs:"
+"`trigger section </manage/trigger.html>`."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:751
 msgid "U"
 msgstr "U"
 
-#: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-glossary.rst:757
 msgid "User"
 msgstr "Benutzer"
 
-#: ../basics/zammad-glossary.rst:620
+#: ../basics/zammad-glossary.rst:754
 msgid ""
 "A user is any user of the ticket system. Each user is assigned certain "
 "permissions, which allow them to access certain areas and information. Users "
@@ -4998,19 +5299,19 @@ msgstr ""
 "Informationen gewähren. Benutzer können verschiedene Rollen inne haben, mit "
 "den Standardoptionen Admin, Agent und Kunde."
 
-#: ../basics/zammad-glossary.rst:626
+#: ../basics/zammad-glossary.rst:760
 msgid "V"
 msgstr "V"
 
-#: ../basics/zammad-glossary.rst:631
+#: ../basics/zammad-glossary.rst:765
 msgid "W"
 msgstr "W"
 
-#: ../basics/zammad-glossary.rst:640
+#: ../basics/zammad-glossary.rst:774
 msgid "Webhooks"
 msgstr "Webhooks"
 
-#: ../basics/zammad-glossary.rst:634
+#: ../basics/zammad-glossary.rst:768
 msgid ""
 "In a nutshell, webhooks are an easy way for systems to communicate with each "
 "other and allow you to send real-time data to any other application. We use "
@@ -5022,30 +5323,30 @@ msgstr ""
 "Anwendungen zu übertragen. Wir nutzen sie um Nutzern zu ermöglichen, externe "
 "Anwendungen mit neuen Informationen aus Zammad zu füttern."
 
-#: ../basics/zammad-glossary.rst:639
+#: ../basics/zammad-glossary.rst:773
 msgid ""
 "Learn more about webhooks on :admin-docs:`this page </manage/webhook.html>`."
 msgstr ""
 "Erfahren Sie mehr über Webhooks auf :admin-docs:`dieser Seite </manage/"
 "webhook.html>`."
 
-#: ../basics/zammad-glossary.rst:643
+#: ../basics/zammad-glossary.rst:777
 msgid "X"
 msgstr "X"
 
-#: ../basics/zammad-glossary.rst:648
+#: ../basics/zammad-glossary.rst:782
 msgid "Y"
 msgstr "Y"
 
-#: ../basics/zammad-glossary.rst:653
+#: ../basics/zammad-glossary.rst:787
 msgid "Z"
 msgstr "Z"
 
-#: ../basics/zammad-glossary.rst:655
+#: ../basics/zammad-glossary.rst:789
 msgid "Zammad"
 msgstr "Zammad"
 
-#: ../basics/zammad-glossary.rst:656
+#: ../basics/zammad-glossary.rst:790
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr "Zammad ist der Beste Helpdesk der Welt. Punkt."
 
@@ -5238,11 +5539,6 @@ msgstr ""
 "bedeutet das, dass Ihr Administrator sie noch nicht aktiviert hat. "
 "Administratoren können mehr darüber :admin-docs:`hier </channels/chat.html>` "
 "erfahren."
-
-#: ../extras/chat.rst:11 ../extras/customers.rst:7
-#: ../extras/secure-email.rst:32 ../extras/shared-drafts.rst:5
-msgid "Overview"
-msgstr "Übersicht"
 
 #: ../extras/chat.rst:None
 msgid "Sample view of Customer Chat"
@@ -6516,11 +6812,6 @@ msgstr "Benachrichtigungen & Konto"
 msgid "Mobile View Notifications"
 msgstr "Benachrichtigungen mobile Ansicht"
 
-#: ../extras/mobile-view.rst:91 ../extras/profile-and-settings.rst:0
-#: ../extras/profile-and-settings.rst:111
-msgid "Notifications"
-msgstr "Benachrichtigungen"
-
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Account Overview"
 msgstr "Mobile Ansicht Kontoübersicht"
@@ -6978,10 +7269,6 @@ msgstr "Sprache"
 msgid "Set the system display language."
 msgstr "Stellen Sie Ihre gewünschte Systemsprache ein."
 
-#: ../extras/profile-and-settings.rst:0
-msgid "Avatar"
-msgstr "Avatar"
-
 #: ../extras/profile-and-settings.rst:82
 msgid "Upload an avatar image."
 msgstr "Laden Sie ein Avatar-Bild hoch."
@@ -7110,10 +7397,6 @@ msgid "You will reveive notifications while you are absent."
 msgstr ""
 "Sie werden **weiterhin Benachrichtigungen erhalten**, während Sie abwesend "
 "sind."
-
-#: ../extras/profile-and-settings.rst:0
-msgid "Overviews"
-msgstr "Übersichten"
 
 #: ../extras/profile-and-settings.rst:149
 msgid ""
@@ -8560,6 +8843,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid "Status"
+#~ msgstr "Status"
 
 #~ msgid ""
 #~ "Unlike ticket settings (which are *attributes that can be modified*), "
