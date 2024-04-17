@@ -3609,7 +3609,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:54
 msgid "Auto Response"
-msgstr ""
+msgstr "Automatische Antwort"
 
 #: ../basics/zammad-glossary.rst:51
 msgid ""
@@ -3618,6 +3618,11 @@ msgid ""
 "received and to provide the ticket number to the customer). Your admin may "
 "change this or even add more auto generated messages."
 msgstr ""
+"Zammad kann automatisch generierte Antworten an Kunden senden. Standardmäßig "
+"ist dies für neu erstellte Tickets konfiguriert (um zu bestätigen, dass die "
+"E-Mail empfangen wurde und um dem Kunden die Ticket-Nummer mitzuteilen). Ihr "
+"Administrator kann dies ändern oder sogar weitere automatisch generierte "
+"Nachrichten hinzufügen."
 
 #: ../basics/zammad-glossary.rst:60
 msgid "Automation"
@@ -3671,6 +3676,11 @@ msgid ""
 "To customize it, go to the avatar section in your :doc:`user profile </"
 "extras/profile-and-settings>`."
 msgstr ""
+"Ein Avatar ist im Grunde eine grafische Darstellung eines Benutzers. "
+"Standardmäßig besteht der Avatar des Benutzers aus den Initialen des "
+"Benutzers. Es kann aber auch ein Bild verwendet werden. Um ihn anzupassen, "
+"gehen Sie zum Abschnitt Avatar in Ihrem :doc:`Benutzerprofil </extras/"
+"profile-and-settings>`."
 
 #: ../basics/zammad-glossary.rst:78
 msgid ""
@@ -3678,6 +3688,10 @@ msgid ""
 "you can see it next to an article in a ticket or in the bottom bar if "
 "another agent is viewing or editing the same ticket."
 msgstr ""
+"Der Avatar eines Benutzers ist an verschiedenen Stellen in Zammad sichtbar. "
+"Sie können ihn zum Beispiel neben einem Artikel in einem Ticket oder in der "
+"unteren Leiste sehen, wenn ein anderer Agent dasselbe Ticket betrachtet oder "
+"bearbeitet."
 
 #: ../basics/zammad-glossary.rst:84
 msgid "B"
@@ -3731,10 +3745,8 @@ msgstr ""
 "blob/stable/CHANGELOG.md>`_ finden!"
 
 #: ../basics/zammad-glossary.rst:105
-#, fuzzy
-#| msgid "Changelog"
 msgid "Channel"
-msgstr "Änderungslog"
+msgstr "Kanal"
 
 #: ../basics/zammad-glossary.rst:104
 msgid ""
@@ -3742,6 +3754,9 @@ msgid ""
 "channels are email and phone. Additional channels can be configured by your "
 "admin."
 msgstr ""
+"Ein Kanal ist eine Möglichkeit, wie Kunden mit Ihnen in Kontakt treten "
+"können. Standardkanäle sind E-Mail und Telefon. Zusätzliche Kanäle können "
+"von Ihrem Administrator konfiguriert werden."
 
 #: ../basics/zammad-glossary.rst:114
 msgid "Checkmk"
@@ -3905,22 +3920,26 @@ msgstr ""
 "zur Fertigstellung)."
 
 #: ../basics/zammad-glossary.rst:172
-#, fuzzy
-#| msgid "Modify customer attributes"
 msgid "Custom Object Attributes"
-msgstr "Ändern von Kundenattributen"
+msgstr "Benutzerdefinierte Objektattribute"
 
 #: ../basics/zammad-glossary.rst:168
 msgid ""
 "Zammad allows the creation of custom object attributes by admins. This can "
 "be done on ticket level, user level, organization level or group level."
 msgstr ""
+"Zammad ermöglicht die Erstellung von benutzerdefinierten Objektattributen "
+"durch Administratoren. Dies kann auf Ticket-, Benutzer-, Organisations- oder "
+"Gruppen-Ebene geschehen."
 
 #: ../basics/zammad-glossary.rst:171
 msgid ""
 "You can think of such a custom object attribute as a new field which has a "
 "pre-defined format and optionally selectable values."
 msgstr ""
+"Sie können sich ein solches benutzerdefiniertes Objektattribut wie ein neues "
+"Feld vorstellen, das ein vordefiniertes Format und optional auswählbare "
+"Werte hat."
 
 #: ../basics/zammad-glossary.rst:175
 msgid ""
@@ -4581,10 +4600,16 @@ msgid ""
 "response, Zammad can't assign the message to the existing ticket but creates "
 "a new one."
 msgstr ""
+"Wenn Sie zwei (oder mehr) Tickets für dasselbe Problem haben, können Sie "
+"diese zusammenführen. Standardmäßig prüft Zammad, ob eine Nachricht von "
+"einer externen Partei zu einem bestehenden Ticket gehört. Wenn Ihr Kunde "
+"jedoch zum Beispiel eine völlig neue E-Mail schreibt, anstatt die "
+"automatische Antwort zu beantworten, kann Zammad die Nachricht nicht dem "
+"bestehenden Ticket zuordnen, sondern erstellt ein neues."
 
 #: ../basics/zammad-glossary.rst:458
 msgid "See :doc:`/advanced/ticket-actions` for further information."
-msgstr ""
+msgstr "Siehe :doc:`/advanced/ticket-actions` für weitere Informationen."
 
 #: ../basics/zammad-glossary.rst:464
 msgid "Migrator / Migration Wizard"
@@ -4664,16 +4689,16 @@ msgid ""
 "notification settings in your user profile. You can even mention other users "
 "or subscribe to a specific ticket if you are interested how it proceeds."
 msgstr ""
+"Um zu vermeiden, dass Sie neue Nachrichten (z.B. von einem Kunden) "
+"übersehen, benachrichtigt Zammad Sie standardmäßig über jede relevante "
+"Änderung. Sie können Ihre allgemeinen Benachrichtigungseinstellungen in "
+"Ihrem Benutzerprofil anpassen. Sie können sogar andere Benutzer erwähnen "
+"oder ein bestimmtes Ticket abonnieren, wenn Sie auf dem Laufenden bleiben "
+"wollen."
 
 #: ../basics/zammad-glossary.rst:490
-#, fuzzy
-#| msgid ""
-#| "Check your :doc:`/extras/profile-and-settings` to customize how you "
-#| "receive notifications."
 msgid "See :doc:`/extras/profile-and-settings` for more information."
-msgstr ""
-"Prüfen Sie :doc:`/extras/profile-and-settings` um Benachrichtigungen für "
-"Abonnements zu verwalten."
+msgstr "Siehe :doc:`/extras/profile-and-settings` für weitere Informationen."
 
 #: ../basics/zammad-glossary.rst:493
 msgid "O"
@@ -4708,11 +4733,16 @@ msgid ""
 "shipped with Zammad by default. If you want to have a custom overview, ask "
 "your admin to create it."
 msgstr ""
+"Übersichten sind Ihr Ausgangspunkt für die Bearbeitung von Tickets. Sie "
+"können sich die Übersichten als eine Art Filter für bestehende Tickets "
+"vorstellen. Einige grundlegende Übersichten werden standardmäßig mit Zammad "
+"ausgeliefert. Wenn Sie eine benutzerdefinierte Übersicht haben möchten, "
+"bitten Sie Ihren Administrator, diese zu erstellen."
 
 #: ../basics/zammad-glossary.rst:507
 msgid ""
 "For more information please have a look in :doc:`/basics/find-ticket/browse`."
-msgstr ""
+msgstr "Weitere Informationen finden Sie in :doc:`/basics/find-ticket/browse`."
 
 #: ../basics/zammad-glossary.rst:511
 msgid ""
@@ -4815,6 +4845,9 @@ msgid ""
 "administrator can find more information :admin-docs:`here </system/objects."
 "html#system-attributes>`."
 msgstr ""
+"Die Prioritäten können sogar an Ihre Bedürfnisse angepasst oder erweitert "
+"werden. Ihr Administrator kann weitere Informationen :admin-docs:`hier </"
+"system/objects.html#system-attributes>` finden."
 
 #: ../basics/zammad-glossary.rst:557
 msgid "Q"
@@ -4849,10 +4882,8 @@ msgstr ""
 "2.1, ...) und bringen kleinere Änderungen."
 
 #: ../basics/zammad-glossary.rst:580 ../basics/zammad-glossary.rst:621
-#, fuzzy
-#| msgid "Reports"
 msgid "Reporting"
-msgstr "Auswertungen"
+msgstr "Berichte"
 
 #: ../basics/zammad-glossary.rst:575
 msgid ""
@@ -4860,18 +4891,17 @@ msgid ""
 "tickets per month). There are two types of reporting: the reporting "
 "functionality integrated in Zammad and the reporting with external tools."
 msgstr ""
+"Die Berichte helfen, eine Übersicht über Statistiken und Zahlen zu behalten "
+"(z.B. erstellte Tickets pro Monat). Es gibt zwei Arten von Berichten: die in "
+"Zammad integrierte Berichtsfunktion und die Berichte mit externen Tools."
 
 #: ../basics/zammad-glossary.rst:579
-#, fuzzy
-#| msgid ""
-#| "Administrators can learn more about customizing text modules :admin-docs:"
-#| "`here </manage/text-modules.html>`."
 msgid ""
 "Admins can find further information :admin-docs:`here </manage/report-"
 "profiles.html>`."
 msgstr ""
-"Administratoren können :admin-docs:`hier </manage/text-modules.html>` mehr "
-"über das Anpassen von Textbausteinen erfahren."
+"Admins können :admin-docs:`hier </manage/report-profiles.html>` weitere "
+"Informationen finden."
 
 #: ../basics/zammad-glossary.rst:593
 msgid "Role"
@@ -4915,7 +4945,7 @@ msgstr "S"
 
 #: ../basics/zammad-glossary.rst:603
 msgid "Scheduler"
-msgstr ""
+msgstr "Automatisierung"
 
 #: ../basics/zammad-glossary.rst:599
 msgid ""
@@ -4925,10 +4955,15 @@ msgid ""
 "documentation in the :admin-docs:`scheduler section </manage/scheduler."
 "html>`."
 msgstr ""
+"Der Scheduler ist eine der Automatisierungsfunktionen von Zammad. Ein "
+"Administrator kann spezifische Bedingungen und Aktionen definieren, die auf "
+"Tickets mit übereinstimmenden Bedingungen zeitbasiert angewendet werden. "
+"Weitere Informationen finden Sie in der Admin-Dokumentation im Abschnitt :"
+"admin-docs:`Automatisierung </manage/scheduler.html>`."
 
 #: ../basics/zammad-glossary.rst:623
 msgid "Sidebar"
-msgstr ""
+msgstr "Seitenleiste"
 
 #: ../basics/zammad-glossary.rst:606
 msgid ""
@@ -4936,60 +4971,50 @@ msgid ""
 "might need. Depending on the configured channels and your permissions, it "
 "might not include all sections which are listed below:"
 msgstr ""
+"Die Seitenleiste auf der linken Seite enthält alle relevanten Orte und "
+"Objekte, die Sie möglicherweise benötigen. Je nach den konfigurierten "
+"Kanälen und Ihren Berechtigungen enthält sie möglicherweise nicht alle "
+"Abschnitte, die unten aufgeführt sind:"
 
 #: ../basics/zammad-glossary.rst:610
-#, fuzzy
-#| msgid "Search phrase"
 msgid "Search bar"
-msgstr "Suchphrase"
+msgstr "Suchleiste"
 
 #: ../basics/zammad-glossary.rst:611
-#, fuzzy
-#| msgid "Notifications"
 msgid "Notification section"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungs-Bereich"
 
 #: ../basics/zammad-glossary.rst:613 ../extras/profile-and-settings.rst:0
 msgid "Overviews"
 msgstr "Übersichten"
 
 #: ../basics/zammad-glossary.rst:615
-#, fuzzy
-#| msgid "Customer"
 msgid "Customer Chat"
-msgstr "Kunde"
+msgstr "Kunden-Chat"
 
 #: ../basics/zammad-glossary.rst:616
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: ../basics/zammad-glossary.rst:617
-#, fuzzy
-#| msgid "How to merge tickets?"
 msgid "One or more open tickets"
-msgstr "Wie fasst man Tickets zusammen?"
+msgstr "Ein oder mehrere offene Tickets"
 
 #: ../basics/zammad-glossary.rst:618
 msgid "Bootom section:"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:622
-#, fuzzy
-#| msgid "Ticket Settings"
 msgid "Admin settings"
-msgstr "Ticket-Einstellungen"
+msgstr "Admin-Einstellungen"
 
 #: ../basics/zammad-glossary.rst:623
-#, fuzzy
-#| msgid "Text modules on ticket creation"
 msgid "Button for ticket creation"
-msgstr "Text Bausteine bei der Ticket-Erstellung"
+msgstr "Schaltfläche zur Erstellung eines Tickets"
 
 #: ../basics/zammad-glossary.rst:632
-#, fuzzy
-#| msgid "Feature"
 msgid "Signature"
-msgstr "Feature"
+msgstr "Signatur"
 
 #: ../basics/zammad-glossary.rst:626
 msgid ""
@@ -4997,12 +5022,17 @@ msgid ""
 "contact details and the name of your company/department there. It can even "
 "contain your :ref:`avatar image <glossary-avatar>`."
 msgstr ""
+"Die Signatur ist Ihre Fußzeile in einer ausgehenden Nachricht. Ihre Kunden "
+"können dort Kontaktinformationen und den Namen Ihrer Firma/Abteilung finden. "
+"Sie kann sogar Ihr :ref:`Avatar-Bild <glossary-avatar>` enthalten."
 
 #: ../basics/zammad-glossary.rst:631
 msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
+"Sie kann von Ihrem Admin angepasst werden. Weitere Informationen finden Sie :"
+"admin-docs:`hier </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:642
 msgid "Sipgate"
@@ -5066,10 +5096,8 @@ msgstr ""
 "zammad.com/en/product/features/sla>`_."
 
 #: ../basics/zammad-glossary.rst:663
-#, fuzzy
-#| msgid "Splitting Tickets"
 msgid "Splitting tickets"
-msgstr "Tickets spalten"
+msgstr "Tickets abspalten"
 
 #: ../basics/zammad-glossary.rst:660
 msgid ""
@@ -5078,6 +5106,11 @@ msgid ""
 "based on the selected article for splitting. See :doc:`/advanced/ticket-"
 "actions` for more information."
 msgstr ""
+"Wenn ein Ticket mehr als ein Problem enthält und Sie es in einem separaten "
+"Ticket bearbeiten möchten, können Sie das Ticket in ein neues abspalten. "
+"Zammad erstellt dann ein neues Ticket auf der Grundlage des für die "
+"Aufteilung ausgewählten Artikels. Siehe :doc:`/advanced/ticket-actions` für "
+"weitere Informationen."
 
 #: ../basics/zammad-glossary.rst:672
 msgid "SSO"
@@ -5108,34 +5141,30 @@ msgstr ""
 "zammad.com/en/product/features/sso>`_."
 
 #: ../basics/zammad-glossary.rst:675
-#, fuzzy
-#| msgid ""
-#| "Every ticket has a status. You can change it once you've updated the "
-#| "ticket. There are four types of status, and they are all color-coded."
 msgid ""
 "Every ticket has a state. You can change it once you've updated the ticket. "
 "There are four types of states, and they are all color-coded."
 msgstr ""
-"Jedes Ticket hat einen Status. Sie können diese mit dem Update eines Tickets "
-"ändern. Es gibt für Statustypen, diese sind farbkodiert."
+"Jedes Ticket hat einen Status. Sie können ihn ändern, sobald Sie das Ticket "
+"aktualisiert haben. Es gibt vier Arten von Status, die alle farblich "
+"gekennzeichnet sind."
 
 #: ../basics/zammad-glossary.rst:678
-#, fuzzy
-#| msgid ""
-#| "Learn more about states and they color coding on this page: :doc:`/basics/"
-#| "service-ticket/settings/state`"
 msgid ""
 "Learn more about states and their color coding on this page: :doc:`/basics/"
 "service-ticket/settings/state`"
 msgstr ""
-"Zu Farbkodierungen und Status erfahren Sie mehr auf dieser Seite: :doc:`/"
-"basics/service-ticket/settings/state`"
+"Zu Status und deren Farben erfahren Sie mehr auf dieser Seite: :doc:`/basics/"
+"service-ticket/settings/state`"
 
 #: ../basics/zammad-glossary.rst:681
 msgid ""
 "The available states can be changed or extended. Your admin can find further "
 "information :admin-docs:`here </system/objects.html#system-attributes>`."
 msgstr ""
+"Die verfügbaren Status können geändert oder erweitert werden. Ihr Admin "
+"findet weitere Informationen :admin-docs:`hier </system/objects.html#system-"
+"attributes>`."
 
 #: ../basics/zammad-glossary.rst:692
 msgid "S/MIME"
@@ -5254,10 +5283,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:741
-#, fuzzy
-#| msgid "Ticket Macros"
 msgid "Ticket hook"
-msgstr "Ticket-Makros"
+msgstr "Ticket-Hook"
 
 #: ../basics/zammad-glossary.rst:738
 msgid ""
@@ -5266,10 +5293,14 @@ msgid ""
 "admin. See :admin-docs:`here </settings/ticket.html>` for further "
 "information."
 msgstr ""
+"Der Ticket-Hook dient zur Identifizierung eines Tickets. Standardmäßig "
+"lautet er ``Ticket#`` mit einer angehängten Nummer (z.B. ``Ticket#904627``). "
+"Er kann von einem Administrator geändert werden. Siehe :admin-docs:``hier </"
+"settings/ticket.html>`` für weitere Informationen."
 
 #: ../basics/zammad-glossary.rst:748
 msgid "Trigger"
-msgstr ""
+msgstr "Trigger"
 
 #: ../basics/zammad-glossary.rst:744
 msgid ""
@@ -5278,6 +5309,11 @@ msgid ""
 "conditions. More information in the admin documentation in the :admin-docs:"
 "`trigger section </manage/trigger.html>`."
 msgstr ""
+"Trigger sind eine der Automatisierungsfunktionen von Zammad. Ein "
+"Administrator kann bestimmte Bedingungen und Aktionen definieren, die auf "
+"Tickets mit passenden Bedingungen angewendet werden. Weitere Informationen "
+"finden Sie in der Admin-Dokumentation im Abschnitt :admin-docs:`Trigger </"
+"manage/trigger.html>`."
 
 #: ../basics/zammad-glossary.rst:751
 msgid "U"
@@ -8844,6 +8880,22 @@ msgstr ""
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
 
+#: ../basics/zammad-glossary.rst:618
+msgid "Bottom section:"
+msgstr "Unterer Abschnitt:"
+
+#: ../basics/zammad-glossary.rst:732
+msgid ""
+"The title of a ticket is different based on the channel it came in. You can "
+"find the title in the sidebar and in the top area in the ticket view. If the "
+"title is not very meaningful, you can change it by clicking on the title in "
+"a ticket view."
+msgstr ""
+"Der Titel eines Tickets unterscheidet sich je nach Kanal, in dem es erstellt "
+"wurde. Sie finden den Titel in der Seitenleiste und im oberen Bereich in der "
+"Ticket-Ansicht. Wenn der Titel nicht wirklich aussagekräftig ist, können Sie "
+"ihn ändern, indem Sie in einer Ticket-Ansicht auf den Titel klicken."
+
 #~ msgid "Status"
 #~ msgstr "Status"
 
@@ -9555,3 +9607,17 @@ msgstr ""
 #~ msgstr ""
 #~ "Das ursprüngliche Ticket ist mit dem neuen Ticket :doc:`verlinkt <link>`, "
 #~ "was im Ticket-Dialog eingesehen werden kann."
+
+#~ msgid ""
+#~ "Every ticket has a status. You can change it once you've updated the "
+#~ "ticket. There are four types of status, and they are all color-coded."
+#~ msgstr ""
+#~ "Jedes Ticket hat einen Status. Sie können diese mit dem Update eines "
+#~ "Tickets ändern. Es gibt für Statustypen, diese sind farbkodiert."
+
+#~ msgid ""
+#~ "Learn more about states and they color coding on this page: :doc:`/basics/"
+#~ "service-ticket/settings/state`"
+#~ msgstr ""
+#~ "Zu Farbkodierungen und Status erfahren Sie mehr auf dieser Seite: :doc:`/"
+#~ "basics/service-ticket/settings/state`"
