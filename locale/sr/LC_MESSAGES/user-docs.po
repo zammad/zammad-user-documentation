@@ -3482,7 +3482,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:54
 msgid "Auto Response"
-msgstr ""
+msgstr "Аутоматски одговор"
 
 #: ../basics/zammad-glossary.rst:51
 msgid ""
@@ -3491,6 +3491,11 @@ msgid ""
 "received and to provide the ticket number to the customer). Your admin may "
 "change this or even add more auto generated messages."
 msgstr ""
+"Zammad може да шаље аутоматски генерисане одговоре клијентима. "
+"Подразумевано, ово је подешено за новоотворене тикете (као потврда да је "
+"имејл порука примљена и да обавести клијента о броју тикета). Ваш "
+"администратор може ово изменити или чак подесити додатне ауто генерисане "
+"поруке."
 
 #: ../basics/zammad-glossary.rst:60
 msgid "Automation"
@@ -3543,6 +3548,10 @@ msgid ""
 "To customize it, go to the avatar section in your :doc:`user profile </"
 "extras/profile-and-settings>`."
 msgstr ""
+"Аватар је у основи графички приказ корисника. Подразумевано, кориснички "
+"аватар се састоји од иницијала корисника. Такође може бити и сличица. За "
+"прилагођавање, посетите одељак аватара у вашем :doc:`корисничком профилу </"
+"extras/profile-and-settings>`."
 
 #: ../basics/zammad-glossary.rst:78
 msgid ""
@@ -3550,6 +3559,9 @@ msgid ""
 "you can see it next to an article in a ticket or in the bottom bar if "
 "another agent is viewing or editing the same ticket."
 msgstr ""
+"Аватар корисника је видљив у различитим деловима Zammad-а. На пример можете "
+"га видети поред чланка тикета или у доњој траци уколико други оператер гледа "
+"или уређује исти тикет."
 
 #: ../basics/zammad-glossary.rst:84
 msgid "B"
@@ -3602,10 +3614,8 @@ msgstr ""
 "stable/CHANGELOG.md>` страни_!"
 
 #: ../basics/zammad-glossary.rst:105
-#, fuzzy
-#| msgid "Changelog"
 msgid "Channel"
-msgstr "Листа измена"
+msgstr "Канал"
 
 #: ../basics/zammad-glossary.rst:104
 msgid ""
@@ -3613,6 +3623,9 @@ msgid ""
 "channels are email and phone. Additional channels can be configured by your "
 "admin."
 msgstr ""
+"Канал је начин на који клијенти могу ступити у контакт са вама. Стандардни "
+"канали су имејл и позив. Додатни канали могу бити подешени од стране вашег "
+"администратора."
 
 #: ../basics/zammad-glossary.rst:114
 msgid "Checkmk"
@@ -3774,22 +3787,25 @@ msgstr ""
 "сатима рада програмера)."
 
 #: ../basics/zammad-glossary.rst:172
-#, fuzzy
-#| msgid "Modify customer attributes"
 msgid "Custom Object Attributes"
-msgstr "Измените атрибуте клијента"
+msgstr "Прилагођени атрибути објекта"
 
 #: ../basics/zammad-glossary.rst:168
 msgid ""
 "Zammad allows the creation of custom object attributes by admins. This can "
 "be done on ticket level, user level, organization level or group level."
 msgstr ""
+"Zammad омогућава дефиницију прилагођених атрибута објекта од стране "
+"администратора. Ово се може применити на нивоу тикета, корисника, "
+"организације или групе."
 
 #: ../basics/zammad-glossary.rst:171
 msgid ""
 "You can think of such a custom object attribute as a new field which has a "
 "pre-defined format and optionally selectable values."
 msgstr ""
+"Прилагођене атрибуте објекта можете сматрати новим пољима која имају "
+"предефинисан формат или могућност избора вредности."
 
 #: ../basics/zammad-glossary.rst:175
 msgid ""
@@ -4439,10 +4455,15 @@ msgid ""
 "response, Zammad can't assign the message to the existing ticket but creates "
 "a new one."
 msgstr ""
+"Уколико имате два (или више) тикета о истом проблему, можете их спојити у "
+"један. Подразумевано, Zammad врши провере да ли екстерна порука припада "
+"постојећем тикету. Међутим, уколико ваш клијент пошаље потпуно нову имејл "
+"поруку уместо одговора на аутоматски одговор, Zammad не може да додели "
+"поруку постојећем тикету већ отвара нови."
 
 #: ../basics/zammad-glossary.rst:458
 msgid "See :doc:`/advanced/ticket-actions` for further information."
-msgstr ""
+msgstr "Погледајте :doc:`/advanced/ticket-actions` за више информација."
 
 #: ../basics/zammad-glossary.rst:464
 msgid "Migrator / Migration Wizard"
@@ -4522,16 +4543,15 @@ msgid ""
 "notification settings in your user profile. You can even mention other users "
 "or subscribe to a specific ticket if you are interested how it proceeds."
 msgstr ""
+"Да бисте избегли превид нових порука (нпр. од стране клијента) Zammad вас "
+"подразумевано обавештава о свакој важној промени. Можете подесити сопствена "
+"подешавања општих обавештења у вашем корисничком профилу. Такође можете "
+"напоменути друге кориснике или претплатити се на одговарајућ тикет уколико "
+"сте заинтересовани о његовој будућности."
 
 #: ../basics/zammad-glossary.rst:490
-#, fuzzy
-#| msgid ""
-#| "Check your :doc:`/extras/profile-and-settings` to customize how you "
-#| "receive notifications."
 msgid "See :doc:`/extras/profile-and-settings` for more information."
-msgstr ""
-"Проверите свој :doc:`/extras/profile-and-settings` да бисте прилагодили "
-"начин на који примате обавештења."
+msgstr "Погледајте :doc:`/extras/profile-and-settings` за више информација."
 
 #: ../basics/zammad-glossary.rst:493
 msgid "O"
@@ -4566,11 +4586,16 @@ msgid ""
 "shipped with Zammad by default. If you want to have a custom overview, ask "
 "your admin to create it."
 msgstr ""
+"Прегледи су почетна тачка вашег рада на тикетима. Можете их сматрати врстом "
+"филтера постојећих тикета. Неки основни прегледи су подразумевано доступни у "
+"Zammad-u. Уколико желите прилагођени преглед, замолите вашег администратора "
+"да га дода."
 
 #: ../basics/zammad-glossary.rst:507
 msgid ""
 "For more information please have a look in :doc:`/basics/find-ticket/browse`."
 msgstr ""
+"За више информација молимо погледајте :doc:`/basics/find-ticket/browse`."
 
 #: ../basics/zammad-glossary.rst:511
 msgid ""
@@ -4671,6 +4696,9 @@ msgid ""
 "administrator can find more information :admin-docs:`here </system/objects."
 "html#system-attributes>`."
 msgstr ""
+"Приоритети могу чак бити подешени или прилагођени вашим потребама. Ваш "
+"администратор може наћи више информација :admin-docs:`овде </system/objects."
+"html#system-attributes>`."
 
 #: ../basics/zammad-glossary.rst:557
 msgid "Q"
@@ -4705,10 +4733,8 @@ msgstr ""
 "и доносе мања ажурирања."
 
 #: ../basics/zammad-glossary.rst:580 ../basics/zammad-glossary.rst:621
-#, fuzzy
-#| msgid "Reports"
 msgid "Reporting"
-msgstr "Извештаји"
+msgstr "Извештавање"
 
 #: ../basics/zammad-glossary.rst:575
 msgid ""
@@ -4716,18 +4742,17 @@ msgid ""
 "tickets per month). There are two types of reporting: the reporting "
 "functionality integrated in Zammad and the reporting with external tools."
 msgstr ""
+"Извештавање вам омогућује преглед статистика и метрика (нпр. број отворених "
+"тикета месечно). Постоје два типа извештавања: функција извештаја у Zammad-у "
+"и извештавање путем екстерних алата."
 
 #: ../basics/zammad-glossary.rst:579
-#, fuzzy
-#| msgid ""
-#| "Administrators can learn more about customizing text modules :admin-docs:"
-#| "`here </manage/text-modules.html>`."
 msgid ""
 "Admins can find further information :admin-docs:`here </manage/report-"
 "profiles.html>`."
 msgstr ""
-"Администратори могу да сазнају више о прилагођавању текстуалних исечака :"
-"admin-docs:`овде </manage/text-modules.html>`."
+"Администратори могу да сазнају више :admin-docs:`овде </manage/report-"
+"profiles.html>`."
 
 #: ../basics/zammad-glossary.rst:593
 msgid "Role"
@@ -4771,7 +4796,7 @@ msgstr "С"
 
 #: ../basics/zammad-glossary.rst:603
 msgid "Scheduler"
-msgstr ""
+msgstr "Планер"
 
 #: ../basics/zammad-glossary.rst:599
 msgid ""
@@ -4781,10 +4806,15 @@ msgid ""
 "documentation in the :admin-docs:`scheduler section </manage/scheduler."
 "html>`."
 msgstr ""
+"Планер је једна од Zammad-ових функција аутоматизације. Администратор може "
+"одредити одговарајуће услове и радње које се извршавају на тикетима који "
+"задовољавају услове засноване на времену. Више информација можете наћи у "
+"администраторској документацији у :admin-docs:`одељку планера </manage/"
+"scheduler.html>`."
 
 #: ../basics/zammad-glossary.rst:623
 msgid "Sidebar"
-msgstr ""
+msgstr "Трака са стране"
 
 #: ../basics/zammad-glossary.rst:606
 msgid ""
@@ -4792,60 +4822,49 @@ msgid ""
 "might need. Depending on the configured channels and your permissions, it "
 "might not include all sections which are listed below:"
 msgstr ""
+"Трана са леве стране садржи све битне локације и објекте који вам могу бити "
+"потребни. Зависно од подешених канала и ваших дозвола, можда неће укључивати "
+"све одељке који су излистани испод:"
 
 #: ../basics/zammad-glossary.rst:610
-#, fuzzy
-#| msgid "Search phrase"
 msgid "Search bar"
-msgstr "Фраза за претрагу"
+msgstr "Трака претраге"
 
 #: ../basics/zammad-glossary.rst:611
-#, fuzzy
-#| msgid "Notifications"
 msgid "Notification section"
-msgstr "Обавештења"
+msgstr "Одељак обавештења"
 
 #: ../basics/zammad-glossary.rst:613 ../extras/profile-and-settings.rst:0
 msgid "Overviews"
 msgstr "Прегледи"
 
 #: ../basics/zammad-glossary.rst:615
-#, fuzzy
-#| msgid "Customer"
 msgid "Customer Chat"
-msgstr "Клијент"
+msgstr "Клијент ћаскање"
 
 #: ../basics/zammad-glossary.rst:616
 msgid "Phone"
-msgstr ""
+msgstr "Позив"
 
 #: ../basics/zammad-glossary.rst:617
-#, fuzzy
-#| msgid "How to merge tickets?"
 msgid "One or more open tickets"
-msgstr "Како повезати тикете?"
+msgstr "Један или више отворених тикета"
 
 #: ../basics/zammad-glossary.rst:618
 msgid "Bootom section:"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:622
-#, fuzzy
-#| msgid "Ticket Settings"
 msgid "Admin settings"
-msgstr "Подешавање тикета"
+msgstr "Администраторска подешавања"
 
 #: ../basics/zammad-glossary.rst:623
-#, fuzzy
-#| msgid "Text modules on ticket creation"
 msgid "Button for ticket creation"
-msgstr "Текстуални исечци приликом отварања тикета"
+msgstr "Дугме за отварање тикета"
 
 #: ../basics/zammad-glossary.rst:632
-#, fuzzy
-#| msgid "Feature"
 msgid "Signature"
-msgstr "Функција"
+msgstr "Потпис"
 
 #: ../basics/zammad-glossary.rst:626
 msgid ""
@@ -4853,12 +4872,17 @@ msgid ""
 "contact details and the name of your company/department there. It can even "
 "contain your :ref:`avatar image <glossary-avatar>`."
 msgstr ""
+"Потпис је ваша фуснота у одлазним порукама. Ваши клијенти могу сазнати ваше "
+"контакт информацији или назив ваше компаније/одељења. Такоће може садржати "
+"вашу :ref:`аватар сличицу <glossary-avatar>`."
 
 #: ../basics/zammad-glossary.rst:631
 msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
+"Ваш администратор га може прилагодити. Додатне информације се могу пронаћи :"
+"admin-docs:`овде </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:642
 msgid "Sipgate"
@@ -4920,8 +4944,6 @@ msgstr ""
 "features/sla>`_."
 
 #: ../basics/zammad-glossary.rst:663
-#, fuzzy
-#| msgid "Splitting Tickets"
 msgid "Splitting tickets"
 msgstr "Раздељивање тикета"
 
@@ -4932,6 +4954,10 @@ msgid ""
 "based on the selected article for splitting. See :doc:`/advanced/ticket-"
 "actions` for more information."
 msgstr ""
+"У случају да тикет садржи више од једног проблема и желите да га обрадите у "
+"одвојеном тикету, можете разделити тикет. Zammad онда отвара нови тикет на "
+"основу одабраног чланка за раздељивање. Погледајте :doc:`/advanced/ticket-"
+"actions` за више информација."
 
 #: ../basics/zammad-glossary.rst:672
 msgid "SSO"
@@ -4963,10 +4989,6 @@ msgstr ""
 "features/sso>`_."
 
 #: ../basics/zammad-glossary.rst:675
-#, fuzzy
-#| msgid ""
-#| "Every ticket has a status. You can change it once you've updated the "
-#| "ticket. There are four types of status, and they are all color-coded."
 msgid ""
 "Every ticket has a state. You can change it once you've updated the ticket. "
 "There are four types of states, and they are all color-coded."
@@ -4975,10 +4997,6 @@ msgstr ""
 "четири типа стања и сви су означени бојама."
 
 #: ../basics/zammad-glossary.rst:678
-#, fuzzy
-#| msgid ""
-#| "Learn more about states and they color coding on this page: :doc:`/basics/"
-#| "service-ticket/settings/state`"
 msgid ""
 "Learn more about states and their color coding on this page: :doc:`/basics/"
 "service-ticket/settings/state`"
@@ -4991,6 +5009,9 @@ msgid ""
 "The available states can be changed or extended. Your admin can find further "
 "information :admin-docs:`here </system/objects.html#system-attributes>`."
 msgstr ""
+"Доступна стања могу бити измењена или прилагођена. Ваш администратор може "
+"пронаћи додатне информације :admin-docs:`овде </system/objects.html#system-"
+"attributes>`."
 
 #: ../basics/zammad-glossary.rst:692
 msgid "S/MIME"
@@ -5107,10 +5128,8 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:741
-#, fuzzy
-#| msgid "Ticket Macros"
 msgid "Ticket hook"
-msgstr "Макрои тикета"
+msgstr "Прикључак тикета"
 
 #: ../basics/zammad-glossary.rst:738
 msgid ""
@@ -5119,10 +5138,14 @@ msgid ""
 "admin. See :admin-docs:`here </settings/ticket.html>` for further "
 "information."
 msgstr ""
+"Прикључак тикета служи за идентификацију тиекта. Подразумевано, користи "
+"``Ticket#`` са додатком броја (нпр. ``Ticket#904627``). Може бити измењен од "
+"стране администратора. Погледајте :admin-docs:`овде </settings/ticket.html>` "
+"за више информација."
 
 #: ../basics/zammad-glossary.rst:748
 msgid "Trigger"
-msgstr ""
+msgstr "Окидач"
 
 #: ../basics/zammad-glossary.rst:744
 msgid ""
@@ -5131,6 +5154,10 @@ msgid ""
 "conditions. More information in the admin documentation in the :admin-docs:"
 "`trigger section </manage/trigger.html>`."
 msgstr ""
+"Окидачи су једна од Zammad-ових функција аутоматизације. Администратор може "
+"дефинисати одговарајуће услове и радње које се извршавају на тикетима који "
+"задовољавају услове. Више информација у администраторској документацији у :"
+"admin-docs:`одељку окидача </manage/trigger.html>`."
 
 #: ../basics/zammad-glossary.rst:751
 msgid "U"
@@ -8598,6 +8625,23 @@ msgstr ""
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
 
+#: ../basics/zammad-glossary.rst:618
+#, fuzzy
+msgid "Bottom section:"
+msgstr "Доњи одељак:"
+
+#: ../basics/zammad-glossary.rst:732
+#, fuzzy
+msgid ""
+"The title of a ticket is different based on the channel it came in. You can "
+"find the title in the sidebar and in the top area in the ticket view. If the "
+"title is not very meaningful, you can change it by clicking on the title in "
+"a ticket view."
+msgstr ""
+"Наслов тикета је другачији у зависности од канала на коме је примљен. Наслов "
+"можете пронаћи у траци са стране и при врху екрана у приказу тикета. Уколико "
+"вам наслов нема смисла, можете га изменити кликом на исти у приказу тикета."
+
 #~ msgid "Status"
 #~ msgstr "Статус"
 
@@ -9202,3 +9246,17 @@ msgstr ""
 #~ msgstr ""
 #~ "Оригинални тикет ће бити :doc:`повезан <link>` са новим, као што се види "
 #~ "у панелу тикета."
+
+#~ msgid ""
+#~ "Every ticket has a status. You can change it once you've updated the "
+#~ "ticket. There are four types of status, and they are all color-coded."
+#~ msgstr ""
+#~ "Сваки тикет има стање. Можете га променити док освежавате тикет. Постоје "
+#~ "четири типа стања и сви су означени бојама."
+
+#~ msgid ""
+#~ "Learn more about states and they color coding on this page: :doc:`/basics/"
+#~ "service-ticket/settings/state`"
+#~ msgstr ""
+#~ "Сазнајте више о стањима и њиховим бојама у секцији :doc:`/basics/service-"
+#~ "ticket/settings/state`."
