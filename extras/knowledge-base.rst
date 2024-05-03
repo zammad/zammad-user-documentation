@@ -145,6 +145,12 @@ instead.
 This allows you to divide user groups on a e.g. subscription level to
 reduce the information load for users that don't need the information.
 
+The roles require **knowledge base reader permission**. Your administrator has
+to provide the relevant groups with reader permissions for the knowledge base.
+If you're unsure, please ask your administrator to configure the
+:admin-docs:`role permissions </manage/roles/agent-permissions.html>`
+accordingly.
+
 .. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.gif
    :alt: Screencast showing the visibility option for categories for granular access permissions
    :align: center
@@ -152,15 +158,12 @@ reduce the information load for users that don't need the information.
 In general, permissions of a parent category are inherited! If you want to
 grant edit permissions for a sub-category for a specific role for example,
 set the upper level to "reader" and the desired sub-category to "editor".
-The other way round is not possible (permissions can only be widened, not
-restricted). If you can't select permissions in the table, this could be
-the reason.
-
-The roles require **knowledge base reader permission**. Your administrator has
-to provide the relevant groups with reader permissions for the knowledge base.
-If you're unsure, please ask your administrator to configure the
-:admin-docs:`role permissions </manage/roles/agent-permissions.html>`
-accordingly.
+The same workflow applies to granting "none" permissions, effectively hiding a
+given sub-category. The other way round is not possible. A role with "editor"
+permission has full access to it's sub-categories, so it's pointless to limit
+it's permissions. "None" permissions also cannot be changed down the tree since
+there would be no path to access permitted sub-categories.
+If you can't select permissions in the table, this could be the reason.
 
 .. warning::
    * Be aware that public answers are always available!
