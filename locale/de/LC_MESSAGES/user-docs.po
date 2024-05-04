@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-12 11:32+0200\n"
+"POT-Creation-Date: 2024-05-03 12:13+0200\n"
 "PO-Revision-Date: 2024-05-01 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -1442,7 +1442,7 @@ msgstr ""
 "**Farbcodes:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:211
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -5001,7 +5001,7 @@ msgid "One or more open tickets"
 msgstr "Ein oder mehrere offene Tickets"
 
 #: ../basics/zammad-glossary.rst:618
-msgid "Bootom section:"
+msgid "Bottom section:"
 msgstr "Unterer Abschnitt:"
 
 #: ../basics/zammad-glossary.rst:622
@@ -5276,7 +5276,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:732
 msgid ""
-"The ticket of a ticket is different based on the channel it came in. You can "
+"The title of a ticket is different based on the channel it came in. You can "
 "find the title in the sidebar and in the top area in the ticket view. If the "
 "title is not very meaningful, you can change it by clicking on the title in "
 "a ticket view."
@@ -6537,32 +6537,7 @@ msgstr ""
 "Das erlaubt Ihnen beispielsweise Benutzergruppen nach Vertragstyp zu trennen "
 "um die Informationsflut auf das Relevante zu beschränken."
 
-#: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
-msgstr ""
-"Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
-"für differenzierte Kategorieberechtigungen"
-
-#: ../extras/knowledge-base.rst:152
-msgid ""
-"In general, permissions of a parent category are inherited! If you want to "
-"grant edit permissions for a sub-category for a specific role for example, "
-"set the upper level to \"reader\" and the desired sub-category to "
-"\"editor\". The other way round is not possible (permissions can only be "
-"widened, not restricted). If you can't select permissions in the table, this "
-"could be the reason."
-msgstr ""
-"Im Allgemeinen werden die Rechte einer übergeordneten Kategorie vererbt! "
-"Wenn Sie z.B. einer bestimmten Rolle Bearbeitungsrechte für eine "
-"Unterkategorie erteilen wollen, setzen Sie die übergeordnete Ebene auf "
-"\"Reader\" und die gewünschte Unterkategorie auf \"Editor\". Der umgekehrte "
-"Weg ist nicht möglich (Berechtigungen können nur erweitert, nicht "
-"eingeschränkt werden). Wenn Sie in der Tabelle keine Berechtigungen "
-"auswählen können, könnte dies der Grund dafür sein."
-
-#: ../extras/knowledge-base.rst:159
+#: ../extras/knowledge-base.rst:148
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -6576,11 +6551,48 @@ msgstr ""
 "Administrator, die :admin-docs:`Rollenberechtigungen </manage/roles/agent-"
 "permissions.html>` entsprechend zu konfigurieren."
 
-#: ../extras/knowledge-base.rst:166
+#: ../extras/knowledge-base.rst:None
+msgid ""
+"Screencast showing the visibility option for categories for granular access "
+"permissions"
+msgstr ""
+"Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
+"für differenzierte Kategorieberechtigungen"
+
+#: ../extras/knowledge-base.rst:158
+#, fuzzy
+#| msgid ""
+#| "In general, permissions of a parent category are inherited! If you want "
+#| "to grant edit permissions for a sub-category for a specific role for "
+#| "example, set the upper level to \"reader\" and the desired sub-category "
+#| "to \"editor\". The other way round is not possible (permissions can only "
+#| "be widened, not restricted). If you can't select permissions in the "
+#| "table, this could be the reason."
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The same workflow applies to granting \"none\" permissions, "
+"effectively hiding a given sub-category. The other way round is not "
+"possible. A role with \"editor\" permission has full access to it's sub-"
+"categories, so it's pointless to limit it's permissions. \"None\" "
+"permissions also cannot be changed down the tree since there would be no "
+"path to access permitted sub-categories. If you can't select permissions in "
+"the table, this could be the reason."
+msgstr ""
+"Im Allgemeinen werden die Rechte einer übergeordneten Kategorie vererbt! "
+"Wenn Sie z.B. einer bestimmten Rolle Bearbeitungsrechte für eine "
+"Unterkategorie erteilen wollen, setzen Sie die übergeordnete Ebene auf "
+"\"Reader\" und die gewünschte Unterkategorie auf \"Editor\". Der umgekehrte "
+"Weg ist nicht möglich (Berechtigungen können nur erweitert, nicht "
+"eingeschränkt werden). Wenn Sie in der Tabelle keine Berechtigungen "
+"auswählen können, könnte dies der Grund dafür sein."
+
+#: ../extras/knowledge-base.rst:169
 msgid "Be aware that public answers are always available!"
 msgstr "Öffentliche Antworten sind immer verfügbar!"
 
-#: ../extras/knowledge-base.rst:168
+#: ../extras/knowledge-base.rst:171
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -6590,7 +6602,7 @@ msgstr ""
 "Antworten**. Das ist ein mögliches Risiko falls Sie nicht umsichtig "
 "aufteilen!"
 
-#: ../extras/knowledge-base.rst:173
+#: ../extras/knowledge-base.rst:176
 msgid "Editing Answers"
 msgstr "Antworten bearbeiten"
 
@@ -6598,7 +6610,7 @@ msgstr "Antworten bearbeiten"
 msgid "Edit answer"
 msgstr "Antwort editieren"
 
-#: ../extras/knowledge-base.rst:179
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -6613,19 +6625,19 @@ msgstr ""
 "Text-Formatierungen, Aufzählungszeichen und mehr einzubinden. Es können "
 "sogar Dateianhänge und Links hinzugefügt werden!"
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:206
 msgid "Different link types"
 msgstr "Verschiedene Link-Typen"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:190
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Weblink**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:190
 msgid "URLs pointing to other websites."
 msgstr "URLs, die auf andere Websites verweisen."
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:194
 msgid "💡 **Link Answer**"
 msgstr "💡 **Link zu einer Antwort**"
 
@@ -6637,7 +6649,7 @@ msgstr "Interne Verweise auf andere Antworten der Wissensdatenbank."
 msgid "(Will not break if destination URL changes.)"
 msgstr "(Wird nicht ungültig, wenn sich die Ziel-URL ändert.)"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:198
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Verlinkte Tickets**"
 
@@ -6649,7 +6661,7 @@ msgstr "Interne Verweise auf Zammad-Tickets."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(Nur im Vorschau- und Bearbeitungsmodus sichtbar.)"
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:206
 msgid "🏷️ **Tags**"
 msgstr "🏷️ **Schlagworte**"
 
@@ -6671,11 +6683,11 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr "Screencast zeigt Tags an Antworten"
 
-#: ../extras/knowledge-base.rst:228
+#: ../extras/knowledge-base.rst:231
 msgid "Visibility"
 msgstr "Sichtbarkeit"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:209
 msgid ""
 "Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
@@ -6686,31 +6698,31 @@ msgstr ""
 "späteren Zeitpunkt. Artikel sind entsprechend ihrer Sichtbarkeit **farblich "
 "gekennzeichnet**:"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:214
 msgid "**Public** (visible to everyone)"
 msgstr "**Öffentlich** (für jeden sichtbar)"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:216
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:216
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Intern** (nur sichtbar für Agenten und Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:215
+#: ../extras/knowledge-base.rst:218
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:215
+#: ../extras/knowledge-base.rst:218
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Entwurf / geplant / archiviert** (sichtbar nur für Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:231
+#: ../extras/knowledge-base.rst:234
 msgid "Using answers in ticket articles"
 msgstr "Antworten in Ticket-Artikeln benutzen"
 
-#: ../extras/knowledge-base.rst:233
+#: ../extras/knowledge-base.rst:236
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -6722,7 +6734,7 @@ msgstr ""
 "``??`` um den Suchdialog zu öffnen. Die Suche sucht Volltext in dem Body und "
 "Titel aller verfügbaren Sprachen der Antwort."
 
-#: ../extras/knowledge-base.rst:238
+#: ../extras/knowledge-base.rst:241
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
@@ -6732,17 +6744,17 @@ msgstr ""
 "Taste, um die Antwort direkt in den Ticket-Artikel zu laden. So müssen Sie "
 "Ihrem Kunden keinen Link zuwerfen und liefern die Antwort direkt."
 
-#: ../extras/knowledge-base.rst:242
+#: ../extras/knowledge-base.rst:245
 msgid "Loading answers into articles *does not* replace article content."
 msgstr "Das Laden von Antworten in Artikel *ersetzt nicht* den Artikel-Inhalt."
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:251
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 "Bildschirmaufzeichnung zeigt wie man Wissensdatenbankantworten in Artikeln "
 "einfügt"
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:251
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 "Benutzen Sie ``??`` um Knowledge Base Antworten zu finden und in Artikel zu "
@@ -8884,21 +8896,20 @@ msgstr ""
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
 
-#: ../basics/zammad-glossary.rst:618
-msgid "Bottom section:"
-msgstr "Unterer Abschnitt:"
+#~ msgid "Bootom section:"
+#~ msgstr "Unterer Abschnitt:"
 
-#: ../basics/zammad-glossary.rst:732
-msgid ""
-"The title of a ticket is different based on the channel it came in. You can "
-"find the title in the sidebar and in the top area in the ticket view. If the "
-"title is not very meaningful, you can change it by clicking on the title in "
-"a ticket view."
-msgstr ""
-"Der Titel eines Tickets unterscheidet sich je nach Kanal, in dem es erstellt "
-"wurde. Sie finden den Titel in der Seitenleiste und im oberen Bereich in der "
-"Ticket-Ansicht. Wenn der Titel nicht wirklich aussagekräftig ist, können Sie "
-"ihn ändern, indem Sie in einer Ticket-Ansicht auf den Titel klicken."
+#~ msgid ""
+#~ "The ticket of a ticket is different based on the channel it came in. You "
+#~ "can find the title in the sidebar and in the top area in the ticket view. "
+#~ "If the title is not very meaningful, you can change it by clicking on the "
+#~ "title in a ticket view."
+#~ msgstr ""
+#~ "Der Titel eines Tickets unterscheidet sich je nach Kanal, in dem es "
+#~ "erstellt wurde. Sie finden den Titel in der Seitenleiste und im oberen "
+#~ "Bereich in der Ticket-Ansicht. Wenn der Titel nicht wirklich "
+#~ "aussagekräftig ist, können Sie ihn ändern, indem Sie in einer Ticket-"
+#~ "Ansicht auf den Titel klicken."
 
 #~ msgid "Status"
 #~ msgstr "Status"
