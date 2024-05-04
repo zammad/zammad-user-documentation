@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-12 11:32+0200\n"
+"POT-Creation-Date: 2024-05-03 12:13+0200\n"
 "PO-Revision-Date: 2024-04-18 09:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
@@ -1410,7 +1410,7 @@ msgstr ""
 "бојама:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:211
+#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -4851,7 +4851,7 @@ msgid "One or more open tickets"
 msgstr "Један или више отворених тикета"
 
 #: ../basics/zammad-glossary.rst:618
-msgid "Bootom section:"
+msgid "Bottom section:"
 msgstr "Доњи одељак:"
 
 #: ../basics/zammad-glossary.rst:622
@@ -5121,14 +5121,14 @@ msgstr "Више можете сазнати у секцији :doc:`/advanced/t
 
 #: ../basics/zammad-glossary.rst:732
 msgid ""
-"The ticket of a ticket is different based on the channel it came in. You can "
+"The title of a ticket is different based on the channel it came in. You can "
 "find the title in the sidebar and in the top area in the ticket view. If the "
 "title is not very meaningful, you can change it by clicking on the title in "
 "a ticket view."
 msgstr ""
-"Наслов тикета зависи од канала на коме је примљен. Можете пронаћи наслов у "
-"бочној траци и заглављу прегледа тикета. Уколико наслов није смислен, можете "
-"га изменити кликом на исти у прегледу тикета."
+"Наслов тикета је другачији у зависности од канала на коме је примљен. Наслов "
+"можете пронаћи у траци са стране и при врху екрана у приказу тикета. Уколико "
+"вам наслов нема смисла, можете га изменити кликом на исти у приказу тикета."
 
 #: ../basics/zammad-glossary.rst:741
 msgid "Ticket hook"
@@ -6339,31 +6339,7 @@ msgstr ""
 "Ово вам омогућава да поделите групе корисника на нпр. ниво претплате како "
 "бисте смањили оптерећење информацијама за кориснике којима нису потребне."
 
-#: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
-msgstr ""
-"Снимак екрана који приказује опцију видљивости за ограничене дозволе "
-"категорије"
-
-#: ../extras/knowledge-base.rst:152
-msgid ""
-"In general, permissions of a parent category are inherited! If you want to "
-"grant edit permissions for a sub-category for a specific role for example, "
-"set the upper level to \"reader\" and the desired sub-category to "
-"\"editor\". The other way round is not possible (permissions can only be "
-"widened, not restricted). If you can't select permissions in the table, this "
-"could be the reason."
-msgstr ""
-"Уопштено говорећи, дозволе надређене категорије се не наслеђују! Уколико, на "
-"пример, желите да одобрите дозволе уређивања за подкатегорија одговарајућој "
-"улози, подесите горњи ниво на „читаоца” и жељену подкатегорију на "
-"„уредника”. Обрнуто није могуће (дозволе је могуће само проширити, не и "
-"ограничити). Уколико не можете да одаберете дозволе у табели, ово може бити "
-"разлог."
-
-#: ../extras/knowledge-base.rst:159
+#: ../extras/knowledge-base.rst:148
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -6376,11 +6352,47 @@ msgstr ""
 "сигурни, замолите свог администратора да у складу са тим конфигурише :admin-"
 "docs:`дозволе улоге </manage/roles/agent-permissions.html>`."
 
-#: ../extras/knowledge-base.rst:166
+#: ../extras/knowledge-base.rst:None
+msgid ""
+"Screencast showing the visibility option for categories for granular access "
+"permissions"
+msgstr ""
+"Снимак екрана који приказује опцију видљивости за ограничене дозволе "
+"категорије"
+
+#: ../extras/knowledge-base.rst:158
+#, fuzzy
+#| msgid ""
+#| "In general, permissions of a parent category are inherited! If you want "
+#| "to grant edit permissions for a sub-category for a specific role for "
+#| "example, set the upper level to \"reader\" and the desired sub-category "
+#| "to \"editor\". The other way round is not possible (permissions can only "
+#| "be widened, not restricted). If you can't select permissions in the "
+#| "table, this could be the reason."
+msgid ""
+"In general, permissions of a parent category are inherited! If you want to "
+"grant edit permissions for a sub-category for a specific role for example, "
+"set the upper level to \"reader\" and the desired sub-category to "
+"\"editor\". The same workflow applies to granting \"none\" permissions, "
+"effectively hiding a given sub-category. The other way round is not "
+"possible. A role with \"editor\" permission has full access to it's sub-"
+"categories, so it's pointless to limit it's permissions. \"None\" "
+"permissions also cannot be changed down the tree since there would be no "
+"path to access permitted sub-categories. If you can't select permissions in "
+"the table, this could be the reason."
+msgstr ""
+"Уопштено говорећи, дозволе надређене категорије се не наслеђују! Уколико, на "
+"пример, желите да одобрите дозволе уређивања за подкатегорија одговарајућој "
+"улози, подесите горњи ниво на „читаоца” и жељену подкатегорију на "
+"„уредника”. Обрнуто није могуће (дозволе је могуће само проширити, не и "
+"ограничити). Уколико не можете да одаберете дозволе у табели, ово може бити "
+"разлог."
+
+#: ../extras/knowledge-base.rst:169
 msgid "Be aware that public answers are always available!"
 msgstr "Будите свесни да су јавни чланци су увек доступни!"
 
-#: ../extras/knowledge-base.rst:168
+#: ../extras/knowledge-base.rst:171
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -6389,7 +6401,7 @@ msgstr ""
 "Дозвола за читање базе знања значи да корисници могу да виде **интерне "
 "чланке**. Ово је потенцијални проблем ако не делите пажљиво!"
 
-#: ../extras/knowledge-base.rst:173
+#: ../extras/knowledge-base.rst:176
 msgid "Editing Answers"
 msgstr "Уређивање чланака"
 
@@ -6397,7 +6409,7 @@ msgstr "Уређивање чланака"
 msgid "Edit answer"
 msgstr "Уредите чланак"
 
-#: ../extras/knowledge-base.rst:179
+#: ../extras/knowledge-base.rst:182
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -6411,19 +6423,19 @@ msgstr ""
 "бисте уметнули форматирани текст, листе са ознакама и још много тога. Можете "
 "чак додати датотеке прилога и везе!"
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:206
 msgid "Different link types"
 msgstr "Различите врсте веза"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:190
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Интернет веза**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:190
 msgid "URLs pointing to other websites."
 msgstr "URL адресе које упућују на друге интернет локације."
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:194
 msgid "💡 **Link Answer**"
 msgstr "💡 **Веза ка чланку**"
 
@@ -6435,7 +6447,7 @@ msgstr "Интерне референце на друге чланке базе 
 msgid "(Will not break if destination URL changes.)"
 msgstr "(Неће се прекинути ако се одредишна URL адреса промени.)"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:198
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Везе ка тикетима**"
 
@@ -6447,7 +6459,7 @@ msgstr "Интерне референце на Zammad тикете."
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr "(Видљиво само у режимима приказа и уређивања.)"
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:206
 msgid "🏷️ **Tags**"
 msgstr "🏷 **Ознаке**"
 
@@ -6469,11 +6481,11 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr "Снимак екрана који приказује ознаке у чланкцима"
 
-#: ../extras/knowledge-base.rst:228
+#: ../extras/knowledge-base.rst:231
 msgid "Visibility"
 msgstr "Видљивост"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:209
 msgid ""
 "Set the **visibility** of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are **color-coded** "
@@ -6483,31 +6495,31 @@ msgstr ""
 "или закажите његово објављивање за касније. Чланци су **означени бојама** "
 "према њиховој видљивости:"
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:214
 msgid "**Public** (visible to everyone)"
 msgstr "**Јавно** (видљиво свима)"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:216
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:216
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Интерно** (видљиво само оператерима и уредницима)"
 
-#: ../extras/knowledge-base.rst:215
+#: ../extras/knowledge-base.rst:218
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:215
+#: ../extras/knowledge-base.rst:218
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Нацрт/Заказано/Архивирано** (видљиво само уредницима)"
 
-#: ../extras/knowledge-base.rst:231
+#: ../extras/knowledge-base.rst:234
 msgid "Using answers in ticket articles"
 msgstr "Коришћење чланака у тикетима"
 
-#: ../extras/knowledge-base.rst:233
+#: ../extras/knowledge-base.rst:236
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of ``::`` just use ``??`` to open the "
@@ -6519,7 +6531,7 @@ msgstr ""
 "претраге. Претрага се врши по целом тексту чланка и у наслову на свим "
 "доступним језицима."
 
-#: ../extras/knowledge-base.rst:238
+#: ../extras/knowledge-base.rst:241
 msgid ""
 "If you've found what you've been looking for, simply hit your ENTER-Key to "
 "load the answer into the ticket article. This way you don't have to throw "
@@ -6529,16 +6541,16 @@ msgstr ""
 "бисте учитали чланак у тикет. На овај начин не морате да шаљете URL адресе "
 "својим клијентима и можете одмах да им одговорите."
 
-#: ../extras/knowledge-base.rst:242
+#: ../extras/knowledge-base.rst:245
 msgid "Loading answers into articles *does not* replace article content."
 msgstr "Учитавање чланака *не* замењује садржај чланка тикета."
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:251
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 "Снимак екрана који показује како да уметнете чланке базе знања у тикете"
 
-#: ../extras/knowledge-base.rst:248
+#: ../extras/knowledge-base.rst:251
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr "Користите ``??`` да пронађете и учитате чланке базе знања у тикете"
 
@@ -8628,20 +8640,18 @@ msgstr ""
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
 
-#: ../basics/zammad-glossary.rst:618
-msgid "Bottom section:"
-msgstr "Доњи одељак:"
+#~ msgid "Bootom section:"
+#~ msgstr "Доњи одељак:"
 
-#: ../basics/zammad-glossary.rst:732
-msgid ""
-"The title of a ticket is different based on the channel it came in. You can "
-"find the title in the sidebar and in the top area in the ticket view. If the "
-"title is not very meaningful, you can change it by clicking on the title in "
-"a ticket view."
-msgstr ""
-"Наслов тикета је другачији у зависности од канала на коме је примљен. Наслов "
-"можете пронаћи у траци са стране и при врху екрана у приказу тикета. Уколико "
-"вам наслов нема смисла, можете га изменити кликом на исти у приказу тикета."
+#~ msgid ""
+#~ "The ticket of a ticket is different based on the channel it came in. You "
+#~ "can find the title in the sidebar and in the top area in the ticket view. "
+#~ "If the title is not very meaningful, you can change it by clicking on the "
+#~ "title in a ticket view."
+#~ msgstr ""
+#~ "Наслов тикета зависи од канала на коме је примљен. Можете пронаћи наслов "
+#~ "у бочној траци и заглављу прегледа тикета. Уколико наслов није смислен, "
+#~ "можете га изменити кликом на исти у прегледу тикета."
 
 #~ msgid "Status"
 #~ msgstr "Статус"
