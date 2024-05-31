@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-03 12:13+0200\n"
-"PO-Revision-Date: 2024-05-25 15:00+0000\n"
-"Last-Translator: Rayane <zammad@rayane.space>\n"
+"PO-Revision-Date: 2024-05-31 14:00+0000\n"
+"Last-Translator: Solenne Lefevre <solenne.lefevre@data-bene.io>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/fr/>\n"
 "Language: fr\n"
@@ -1335,6 +1335,8 @@ msgstr "Actions en masse via glisser-déposer :"
 #: ../advanced/suggested-workflows.rst:123
 msgid "**🤓 You can change owners and groups even faster 🚀**"
 msgstr ""
+"**🤓 Vous pouvez modifier les propriétaires et les groupes encore plus "
+"rapidement 🚀**"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid ""
@@ -1352,7 +1354,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:135
 msgid "This functionality is only available in ticket overviews."
-msgstr ""
+msgstr "Cette fonctionnalité n'est disponible que dans les aperçus des tickets."
 
 #: ../advanced/tabs.rst:4
 msgid "Tabs"
@@ -1367,13 +1369,12 @@ msgstr ""
 "la zone du menu principal. Ce sont vos **onglets ouverts.**"
 
 #: ../advanced/tabs.rst:9
-#, fuzzy
 msgid ""
 "You can freely switch between open tabs without losing your work - all "
 "unsaved changes are automatically backed up to the server."
 msgstr ""
 "Vous pouvez librement basculer entre les onglets ouverts sans perdre votre "
-"travail – Tous les changements non sauvegardés seront automatiquement "
+"travail – Tous les changements non sauvegardés sont automatiquement "
 "enregistrés sur le serveur."
 
 #: ../advanced/tabs.rst:15
@@ -1499,17 +1500,19 @@ msgstr ""
 
 #: ../advanced/tabs.rst:54
 msgid "Close tab"
-msgstr ""
+msgstr "Fermer l'onglet"
 
 #: ../advanced/tabs.rst:53
 msgid ""
 "Upon updating the ticket, Zammad will automatically close the tab. You'll be "
 "returned to the last view that was open."
 msgstr ""
+"A la mise à jour du ticket, Zammad fermera automatiquement l'onglet. Vous "
+"serez renvoyé au dernier aperçu ouvert."
 
 #: ../advanced/tabs.rst:60
 msgid "Close tab on ticket close"
-msgstr ""
+msgstr "Fermer l'onglet à la fermeture du ticket"
 
 #: ../advanced/tabs.rst:57
 msgid ""
@@ -1540,31 +1543,30 @@ msgstr ""
 
 #: ../advanced/tabs.rst:72
 msgid "Stay on tab"
-msgstr ""
+msgstr "Rester sur l'onglet"
 
 #: ../advanced/tabs.rst:71
 msgid "Updating the ticket doesn't have any effect on the tab."
-msgstr ""
+msgstr "Modifier un ticket n'a aucun effet sur l'onglet."
 
 #: ../advanced/tabs.rst:73
 msgid "*This is the default setting in Zammad installations.*"
-msgstr ""
+msgstr "*Ceci est le paramétrage par défaut des installations Zammad.*"
 
 #: ../advanced/text-modules.rst:2
 msgid "Working with Text Modules"
 msgstr "Travailler avec les modules de texte"
 
 #: ../advanced/text-modules.rst:4
-#, fuzzy
 msgid ""
 "Zammad offers so-called text modules. Text modules will help you to improve "
 "your workflow, as you don't have to type your answer on every ticket by "
 "hand. You can simply choose a fitting text module and insert it into the e-"
 "mail."
 msgstr ""
-"Zammad offre ce que nous appelons des modules de texte. Des modules de texte "
-"vous aiderons à améliorer votre flux de travail, en vous évitant de taper la "
-"réponse à la main sur chaque ticket. Vous pouvez tout simplement choisir un "
+"Zammad offre ce que nous appelons des modules de texte. Les modules de texte "
+"vous aident à améliorer votre flux de travail, en vous évitant de taper la "
+"réponse à la main sur chaque ticket. Vous pouvez simplement choisir un "
 "module de texte correspondant et l'insérer dans le courriel."
 
 #: ../advanced/text-modules.rst:9
@@ -1640,8 +1642,9 @@ msgstr ""
 "être pratique."
 
 #: ../advanced/text-modules.rst:44
+#, fuzzy
 msgid "Customizing text modules"
-msgstr ""
+msgstr "Personnaliser les modules de texte"
 
 #: ../advanced/text-modules.rst:46
 msgid ""
@@ -1716,10 +1719,13 @@ msgid "Link dialog"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:29
+#, fuzzy
 msgid ""
 "You can enter the ticket number of the ticket you want to link to (see 1). "
 "Alternatively, you can choose from the list below (see 2)."
 msgstr ""
+"Vous pouvez entrer le numéro du ticket que vous voulez relier (voir 1). "
+"Autrement, vous pouvez aussi choisir dans la liste ci-dessous (voir 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
 #: ../advanced/ticket-actions/merge.rst:35
@@ -1746,11 +1752,12 @@ msgid "Merging Tickets"
 msgstr "Fusionner des tickets"
 
 #: ../advanced/ticket-actions/merge.rst:4
-#, fuzzy
 msgid ""
 "If you have two or more tickets about the same issue, you may want to merge "
 "those tickets into one."
-msgstr "Dans de tels cas, vous pouvez vouloir **fusionner ces tickets en un**."
+msgstr ""
+"Si vous avez deux tickets ou plus qui concernent le même sujet, vous avez la "
+"possibilité de fusionner ces tickets en un."
 
 #: ../advanced/ticket-actions/merge.rst:7
 msgid ""
@@ -1761,8 +1768,9 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:21
+#, fuzzy
 msgid "What is merged where?"
-msgstr ""
+msgstr "Qu'est-ce qui est fusionné avec quoi ?"
 
 #: ../advanced/ticket-actions/merge.rst:13
 #, fuzzy
@@ -1770,8 +1778,8 @@ msgid ""
 "Merging a ticket migrates all messages and notes of the ticket from where "
 "you select the merging into the selected one."
 msgstr ""
-"Fusionner un ticket va déplacer tous les messages et notes **en dehors du "
-"ticket original** vers le nouveau ticket."
+"Fusionner un ticket va déplacer tous les messages et notes du ticket sur "
+"lequel vous êtes vers celui que vous avez sélectionné."
 
 #: ../advanced/ticket-actions/merge.rst:16
 msgid ""
@@ -1808,10 +1816,13 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:39
+#, fuzzy
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
 msgstr ""
+"Après avoir entré un numéro de ticket ou choisi l'un des tickets de la "
+"liste, cliquez sur le bouton de validation et les tickets seront fusionnés."
 
 #: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
@@ -1819,21 +1830,26 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "Result after merging"
-msgstr ""
+msgstr "Résultat après fusion"
 
 #: ../advanced/ticket-actions/merge.rst:48
+#, fuzzy
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
 msgstr ""
+"Les articles sont déplacés dans les tickets choisis. Le ticket sur lequel "
+"vous avez effectué la fusion existe toujours avec les modifications "
+"suivantes :"
 
 #: ../advanced/ticket-actions/merge.rst:51
+#, fuzzy
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr ""
+msgstr "Les articles ont été remplacés par une étiquette \"fusionné\""
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "The state has changed to \"merged\""
-msgstr ""
+msgstr "L'état a été changé en \"fusionné\""
 
 #: ../advanced/ticket-actions/merge.rst:53
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
@@ -1873,14 +1889,12 @@ msgid "Split ticket dialog"
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:23
-#, fuzzy
 msgid ""
 "It is prefilled with the content of the existing article. Remember to select "
 "the type (call/email)."
 msgstr ""
-"Quand un ticket est scindé, le message cible est importé dans le dialogue de "
-"nouveau ticket. Comme d'habitude, souvenez vous de choisir le **type** "
-"(appel/courriel)."
+"Il est pré-rempli avec le contenu de l'article existant. Souvenez-vous de "
+"choisir le type (appel/courriel)."
 
 #: ../advanced/ticket-actions/split.rst:26
 msgid ""
@@ -1895,25 +1909,22 @@ msgid "Ticket Templates"
 msgstr "Modèles de ticket"
 
 #: ../advanced/ticket-templates.rst:6
-#, fuzzy
 msgid ""
 "If you find yourself creating lots of tickets with the same basic "
 "attributes, use **ticket templates** to fill them in with a single click "
 "next time."
 msgstr ""
-"Si vous vous trouvez en train de créer plein de tickets avec les mêmes "
-"attributs basiques, utilisez les **modèles de ticket** pour les remplir la "
-"prochaine fois avec un simple clique."
+"Si vous devez créer plein de tickets avec les mêmes attributs de base, "
+"utilisez les **modèles de ticket** pour les remplir d'un simple clic la "
+"prochaine fois."
 
 #: ../advanced/ticket-templates.rst:13
 msgid "Ticket template selection in new ticket dialog"
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:13
-#, fuzzy
 msgid "Use the ticket pane to load ticket templates."
-msgstr ""
-"Utilisez le panneau du ticket pour charger ou créer des modèles de ticket."
+msgstr "Utilisez le panneau du ticket pour charger des modèles de ticket."
 
 #: ../advanced/ticket-templates.rst:15
 msgid ""
@@ -1923,38 +1934,53 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:19
+#, fuzzy
 msgid ""
 "Select a fitting template and press *Apply*. The configured ticket fields "
 "will be populated with the data from the template."
 msgstr ""
+"Sélectionnez le modèle approprié et cliquez sur *Appliquer*. Les champs du "
+"tickets seront remplis avec les données configurées sur le modèle."
 
 #: ../advanced/ticket-templates.rst:29
+#, fuzzy
 msgid "Field collisions"
-msgstr ""
+msgstr "Conflits de champs"
 
 #: ../advanced/ticket-templates.rst:23
+#, fuzzy
 msgid ""
 "Starting with version 5.3, Zammad is able to detect \"field collisions\". "
 "This means: If you previously filled in data in a field that's supposed to "
 "be filled by the template, Zammad *will not* overwrite the field with the "
 "template data."
 msgstr ""
+"A partir de la version 5.3, Zammad est capable de détecter des \"conflits de "
+"champ\". Cela signifie que si vous avez précédemment renseigné des données "
+"dans un champ qui est censé être rempli par le modèle, Zammad ne va *pas* "
+"écraser ce champ avec les données du modèle."
 
 #: ../advanced/ticket-templates.rst:28
 msgid ""
 "Instead it will keep your version of the field. This allows you to e.g. fill "
 "in the customer before applying the template. 🎉"
 msgstr ""
+"A la place, il va conserver votre version du champ. Cela vous permet par "
+"exemple de renseigner le client avant d'appliquer le modèle. 🎉"
 
 #: ../advanced/ticket-templates.rst:39
+#, fuzzy
 msgid "Can't add or adjust templates?"
-msgstr ""
+msgstr "Vous ne pouvez pas ajouter ou ajuster les modèles ?"
 
 #: ../advanced/ticket-templates.rst:32
+#, fuzzy
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission."
 msgstr ""
+"Gérer les modèles nécessite des droits additionnels. Veuillez demander à "
+"votre administrateur de vous ajouter les permissions nécessaires."
 
 #: ../advanced/ticket-templates.rst:35
 msgid ""
@@ -1963,8 +1989,9 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:38
+#, fuzzy
 msgid "This permission was introduced with Zammad 5.3."
-msgstr ""
+msgstr "Cette permission a été introduite à partir de Zammad 5.3."
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
@@ -1986,15 +2013,13 @@ msgid "Time Accounting Dialog"
 msgstr "Comptabilité du temps"
 
 #: ../advanced/time-accounting.rst:11
-#, fuzzy
 msgid ""
 "If the time accounting is enabled, this dialog will appear each time you "
 "update a ticket. Enter how much time you spent on it."
 msgstr ""
-"Si la comptabilité du temps est activée, ce dialogue apparaîtra chaque fois "
-"que vous mettrez à jour un ticket. Entrez combien de temps vous avez passé "
-"dessus (en minutes, ou dans n'importe quelle unité de temps tous vos autres "
-"collègues utilisent)."
+"Si la comptabilité du temps est activée, cette fenêtre apparaîtra à chaque "
+"fois que vous mettrez à jour un ticket. Entrez combien de temps vous avez "
+"passé dessus."
 
 #: ../advanced/time-accounting.rst:14
 msgid ""
@@ -2005,7 +2030,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:20
 msgid "Units"
-msgstr ""
+msgstr "Unités"
 
 #: ../advanced/time-accounting.rst:22
 msgid ""
@@ -2013,16 +2038,20 @@ msgid ""
 "administrator may decide to show an optional label next to the field to hint "
 "you and your colleagues which unit is assumed."
 msgstr ""
+"La comptabilité du temps est toujours enregistrée sans unité. Cependant, "
+"votre administrateur peut décider de rajouter une étiquette optionnelle à "
+"côté du champ pour préciser à vous et vos collègues quelle unité est "
+"attendue."
 
 #: ../advanced/time-accounting.rst:None
 #, fuzzy
 msgid "Time Accounting Unit"
-msgstr "Comptabilité du temps"
+msgstr "Unité de Comptabilité du Temps"
 
 #: ../advanced/time-accounting.rst:31
 #, fuzzy
 msgid "Activity Types"
-msgstr "Comptabilité du temps"
+msgstr "Types d'Activité"
 
 #: ../advanced/time-accounting.rst:33
 msgid ""
@@ -2114,7 +2143,7 @@ msgid ""
 "Think of overviews as **inboxes**, each with a different filter for the "
 "tickets it displays."
 msgstr ""
-"📥 Pensez aux aperçus comme des **boîtes à lettres**, chacune avec un filtre "
+"Pensez aux aperçus comme des **boîtes de réception**, chacune avec un filtre "
 "différent pour afficher les tickets."
 
 #: ../basics/find-ticket/browse.rst:15
@@ -2179,10 +2208,13 @@ msgstr ""
 
 #: ../basics/find-ticket/browse.rst:42
 #: ../basics/service-ticket/settings/priority.rst:11
+#, fuzzy
 msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
 "tickets better."
 msgstr ""
+"Les 3 priorités par défaut de Zammad vous permettent de mieux visualiser "
+"l'importance de vos tickets."
 
 #: ../basics/find-ticket/search.rst:2
 msgid "Search for Tickets"
@@ -2251,11 +2283,9 @@ msgid "Servicing Tickets"
 msgstr "Répondre aux tickets"
 
 #: ../basics/service-ticket.rst:4
-#, fuzzy
 msgid "This is where you'll spend the vast majority of your time in Zammad."
 msgstr ""
-"C'est ici que vous passerez la plus grande majorité de votre temps sur "
-"Zammad."
+"C'est ici que vous passerez la grande majorité de votre temps sur Zammad."
 
 #: ../basics/service-ticket.rst:6
 #, fuzzy
@@ -2270,16 +2300,15 @@ msgid "Creating a Ticket"
 msgstr "Créer un ticket"
 
 #: ../basics/service-ticket/create.rst:4
-#, fuzzy
 msgid ""
 "Zammad does its best to create tickets automatically when new customer "
 "issues come your way. But sometimes, there's just no way for Zammad to know "
 "when an issue arrives – like when a customer calls on the phone."
 msgstr ""
 "Zammad fait de son mieux pour créer les tickets automatiquement quand de "
-"nouvelles demandes de client vous arrivent. Mais quelques fois, il n'y a "
-"tout simplement aucun moyen pour Zammad de savoir qu'une nouvelle demande "
-"arrive - comme quand un client appelle par téléphone."
+"nouvelles demandes de client vous arrivent. Mais il arrive qu'il n'y ait "
+"aucun moyen pour Zammad de savoir qu'une nouvelle demande arrive - comme "
+"quand un client appelle par téléphone."
 
 #: ../basics/service-ticket/create.rst:10
 msgid "In these cases, Zammad needs your help to **create a new ticket**."
@@ -2383,8 +2412,9 @@ msgstr ""
 "**panneau ticket**."
 
 #: ../basics/service-ticket/create.rst:0
+#, fuzzy
 msgid "Ticket pane (Customer view)"
-msgstr ""
+msgstr "Panneau des tickets (Vue client)"
 
 #: ../basics/service-ticket/create.rst:64
 msgid "Text"
@@ -7748,7 +7778,7 @@ msgstr ""
 
 #: ../index.rst:2
 msgid "Zammad User Documentation"
-msgstr ""
+msgstr "Documentation Utilisateur de Zammad"
 
 #: ../index.rst:5
 msgid ""
