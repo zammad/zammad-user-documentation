@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-03 12:13+0200\n"
-"PO-Revision-Date: 2024-06-05 13:00+0000\n"
-"Last-Translator: Rayane <zammad@rayane.space>\n"
+"PO-Revision-Date: 2024-07-09 00:00+0000\n"
+"Last-Translator: Guy S <guy@bilog.fr>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -29,37 +29,41 @@ msgid ""
 "as an expert user. But don't be afraid, you don't have to remember all of "
 "them."
 msgstr ""
-"Zammad supporte une grande variété de raccourcis clavier pour accélérer "
-"votre travail en tant utilisateur expérimenté."
+"Zammad propose une grande variété de raccourcis clavier pour accélérer votre "
+"travail en tant utilisateur expérimenté. N’ayez aucune crainte, vous n'avez "
+"pas besoin de vous souvenir de tous."
 
 #: ../advanced/keyboard-shortcuts.rst:10
 msgid "Where to find them?"
 msgstr "Où les trouver ?"
 
 #: ../advanced/keyboard-shortcuts.rst:12
+#, fuzzy
 msgid ""
 "Click on your avatar at the bottom of the main menu to access the **keyboard "
 "shortcuts cheat sheet**."
 msgstr ""
-"Cliquez sur votre avatar en bas du menu principal pour accéder à la "
-"**feuille anti-sèche des raccourcis clavier**."
+"Cliquez sur votre avatar en bas du menu principal pour accéder au **tableau "
+"des raccourcis clavier**."
 
 #: ../advanced/keyboard-shortcuts.rst:None
 #: ../extras/profile-and-settings.rst:12
+#, fuzzy
 msgid "User submenu"
-msgstr "Menu utilisateur"
+msgstr "Sous-Menu utilisateur"
 
 #: ../advanced/keyboard-shortcuts.rst:20
 msgid "Alternatively, open it with one of the shortcuts below:"
 msgstr "Autrement, affichez-la avec l'un des raccourcis suivants :"
 
 #: ../advanced/keyboard-shortcuts.rst:22
+#, fuzzy
 msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
-msgstr "``Ctrl`` + ``Shift`` + ``H`` (sur Linux et Windows)"
+msgstr "``Ctrl`` + ``Shift`` + ``h`` (sur Linux et Windows)"
 
 #: ../advanced/keyboard-shortcuts.rst:23
 msgid "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)"
-msgstr "``Cmd`` + ``Ctrl`` + ``Shift`` + ``H`` (sur macOS)"
+msgstr "``Cmd`` + ``Ctrl`` + ``Shift`` + ``h`` (sur macOS)"
 
 #: ../advanced/keyboard-shortcuts.rst:25
 msgid ""
@@ -103,7 +107,7 @@ msgstr "``shift`` + ``ctrl`` + ``d``"
 
 #: ../advanced/keyboard-shortcuts.rst:45
 msgid "Show dashboard"
-msgstr "Montrer le tableau de bord"
+msgstr "Afficher le tableau de bord"
 
 #: ../advanced/keyboard-shortcuts.rst:46
 msgid "``shift`` + ``ctrl`` + ``o``"
@@ -111,7 +115,7 @@ msgstr "``shift`` + ``ctrl`` + ``o``"
 
 #: ../advanced/keyboard-shortcuts.rst:46
 msgid "Show overviews"
-msgstr "Montrer les résumés"
+msgstr "Afficher les résumés"
 
 #: ../advanced/keyboard-shortcuts.rst:47
 msgid "``shift`` + ``ctrl`` + ``s``"
@@ -119,7 +123,7 @@ msgstr "``shift`` + ``ctrl`` + ``s``"
 
 #: ../advanced/keyboard-shortcuts.rst:47
 msgid "Trigger the search"
-msgstr "Déclencher la recherche"
+msgstr "Lancer la recherche"
 
 #: ../advanced/keyboard-shortcuts.rst:48
 msgid "``shift`` + ``ctrl`` + ``a``"
@@ -151,7 +155,7 @@ msgstr "``shift`` + ``ctrl`` + ``h``"
 
 #: ../advanced/keyboard-shortcuts.rst:51
 msgid "Show list of shortcuts"
-msgstr "Montrer la liste des raccourcis"
+msgstr "Afficher la liste des raccourcis"
 
 #: ../advanced/keyboard-shortcuts.rst:52
 msgid "``shift`` + ``ctrl`` + ``w``"
@@ -167,7 +171,7 @@ msgstr "``shift`` + ``ctrl`` + ``tab``"
 
 #: ../advanced/keyboard-shortcuts.rst:53
 msgid "Show next tab"
-msgstr "Montrer l'onglet suivant"
+msgstr "Afficher l'onglet suivant"
 
 #: ../advanced/keyboard-shortcuts.rst:54
 msgid "``shift`` + ``ctrl`` + ``shift+tab``"
@@ -175,11 +179,11 @@ msgstr "``shift`` + ``ctrl`` + ``shift+tab``"
 
 #: ../advanced/keyboard-shortcuts.rst:54
 msgid "Show previous tab"
-msgstr "Montrer l'onglet précédent"
+msgstr "Afficher l'onglet précédent"
 
 #: ../advanced/keyboard-shortcuts.rst:55
 msgid "``shift`` + ``ctrl`` + ``return``"
-msgstr "``shift`` + ``ctrl`` + ``entree``"
+msgstr "``shift`` + ``ctrl`` + ``entrée``"
 
 #: ../advanced/keyboard-shortcuts.rst:55
 msgid "Confirm/submit in dialogs"
@@ -215,7 +219,7 @@ msgstr "``shift`` + ``ctrl`` + ``.``"
 
 #: ../advanced/keyboard-shortcuts.rst:59
 msgid "Copy current object number (e.g. ticket number)"
-msgstr "Copier le numéro de l'objet courant (c.a.d numéro de ticket)"
+msgstr "Copier le numéro de l'objet actuel (i.e. numéro de ticket)"
 
 #: ../advanced/keyboard-shortcuts.rst:60
 msgid "``shift`` + ``ctrl`` + 2x ``.``"
@@ -260,7 +264,7 @@ msgstr "``d``"
 
 #: ../advanced/keyboard-shortcuts.rst:82
 msgid "Switch between dark and light mode"
-msgstr "Alterner entre le mode sombre et clair"
+msgstr "Alterner entre les modes sombre et clair"
 
 #: ../advanced/keyboard-shortcuts.rst:86
 msgid "Tickets"
@@ -359,7 +363,7 @@ msgstr "entrez votre texte souhaité, et"
 
 #: ../advanced/keyboard-shortcuts.rst:111
 msgid "press ``cmd`` + ``i`` again to return to normal text mode."
-msgstr "appuyez sur ``Cmd`` + ``I`` encore pour retourner en mode texte normal."
+msgstr "appuyez encore sur ``Cmd`` + ``I`` pour retourner en mode texte normal."
 
 #: ../advanced/keyboard-shortcuts.rst:113
 msgid "After typing:"
@@ -443,7 +447,7 @@ msgstr "``shift`` + ``ctrl`` + ``y``"
 
 #: ../advanced/keyboard-shortcuts.rst:130
 msgid "Remove formatting of the whole text"
-msgstr "Supprimer le formatage de tout le texte"
+msgstr "Supprimer le formatage de l'intégralité du texte"
 
 #: ../advanced/keyboard-shortcuts.rst:131
 msgid "``shift`` + ``ctrl`` + ``z``"
@@ -502,7 +506,6 @@ msgid "Remove any hyperlink"
 msgstr "Enlever tous les liens"
 
 #: ../advanced/macros.rst:2
-#, fuzzy
 msgid "Macros"
 msgstr "Macros"
 
@@ -1284,7 +1287,7 @@ msgstr "groupe"
 
 #: ../advanced/suggested-workflows.rst:103
 msgid "owner"
-msgstr ""
+msgstr "propriétaire"
 
 #: ../advanced/suggested-workflows.rst:104
 msgid "state (with pending time if applicable)"
