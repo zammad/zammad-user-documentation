@@ -101,11 +101,11 @@ Clicking on "Profile" in the user menu opens the profile settings.
       You can always reset your notification settings to system defaults
       by clicking on the button at the bottom of the screen.
 
-      .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-settings.jpg
+      .. figure:: /images/extras/profile-and-settings/profile-and-settings-notifications-settings.png
          :align: center
 
-         Use the first three columns to choose when to receive **internal
-         notifications** (below). The rightmost column enables email notification
+         Use the first four columns to choose when to receive **internal
+         notifications**. The right column enables email notification
          as well.
 
 
