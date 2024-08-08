@@ -39,16 +39,17 @@ Zammad User Documentation
    :caption: Extras
    :name: extras
 
+   /extras/caller-log
+   /extras/chat
+   /extras/checklist
    /extras/customers
-   /extras/organizations
    /extras/dashboard
+   /extras/github-gitlab-integration
+   /extras/i-doit-track-company-property
+   /extras/knowledge-base
+   /extras/mobile-view
+   /extras/organizations
+   /extras/profile-and-settings
    /extras/secure-email
    /extras/shared-drafts
-   /extras/chat
-   /extras/caller-log
-   /extras/profile-and-settings
    /extras/two-factor-authentication
-   /extras/mobile-view
-   /extras/knowledge-base
-   /extras/i-doit-track-company-property
-   /extras/github-gitlab-integration
