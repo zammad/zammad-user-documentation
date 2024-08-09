@@ -34,15 +34,15 @@ predefined template. In both cases, you can:
 
 - Edit the checklist title
 - Edit the checklist items (reorder, rename, add, delete)
-- Delete the complete checklist
-- Re-add a checklist, if there is no existing one
+- Remove the complete checklist
+- Add a checklist, if there is no existing one
 
 You can perform most of these edit, add and delete actions on different ways:
 
 - Click on the item text (checklist title or checklist item) to edit it
 - Click on the checkbox to check an item
 - Click on the ︙ or on the "Checklist" title to select actions from the menu
-- To add an item, click on the "Add" button
+- To add an item, click on the "+ Add" button
 - To reorder them, use the corresponding button. You can then drag & drop the
   items via the ≣ handle.
 
