@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-07 14:33+0200\n"
-"PO-Revision-Date: 2024-05-15 09:00+0000\n"
+"PO-Revision-Date: 2024-08-14 08:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid "Keyboard Shortcuts"
@@ -7143,18 +7143,12 @@ msgstr ""
 "система тако што ћете кликнути на дугме при дну екрана."
 
 #: ../extras/profile-and-settings.rst:107
-#, fuzzy
-#| msgid ""
-#| "Use the first three columns to choose when to receive **internal "
-#| "notifications** (below). The rightmost column enables email notification "
-#| "as well."
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
 msgstr ""
-"Користите прве три колоне да бисте изабрали када ћете примати **интерна "
-"обавештења** (испод). Крајња десна колона такође омогућава обавештења путем "
-"имејла."
+"Користите прве четири колоне да бисте изабрали када ћете примати **интерна "
+"обавештења**. Десна колона такође омогућава обавештења путем имејла."
 
 #: ../extras/profile-and-settings.rst:130
 msgid "Limit Groups"
@@ -8639,6 +8633,125 @@ msgstr ""
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
 
+#: ../extras/checklist.rst:2
+msgid "Checklist"
+msgstr "Списак задатака"
+
+#: ../extras/checklist.rst:5
+msgid "General"
+msgstr "Основно"
+
+#: ../extras/checklist.rst:7
+msgid ""
+"Use a checklist in tickets to keep track of the tasks to be completed. You "
+"can find the checklist feature in the right sidebar in the \"Checklist\" tab "
+"(unless your admin has deactivated it). Please note that you can only add or "
+"edit a checklist, if you have the permission to edit the ticket."
+msgstr ""
+"Користите списак задатака у тикетима да бисте пратили ток решавања. Функцију "
+"списка задатака можете пронаћи у траци са десне стране под посебним језичком "
+"(уколико је администратор није деактивирао). Обратите пажњу да можете само "
+"додати или уредити списак задатака ако имате приступ тикету са дозволама за "
+"уређивање."
+
+#: ../extras/checklist.rst:15
+msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
+msgstr ""
+"Снимак екрана који приказује траку са десне стране са означеним језичком „"
+"Списак задатака”"
+
+#: ../extras/checklist.rst:15
+msgid "Screenshot of ticket view with highlighted checklist sidebar."
+msgstr "Снимак екрана приказа тикета за означеном траком списка задатака."
+
+#: ../extras/checklist.rst:18
+msgid "Usage"
+msgstr "Употреба"
+
+#: ../extras/checklist.rst:20
+msgid ""
+"If you want to add a checklist to a ticket, go to the \"Checklist\" tab and "
+"click either on \"Add empty checklist\" (1) or \"Add from template\" (2) "
+"after selecting a template. If you can't see the the \"Add from template\" "
+"area, there is no template available."
+msgstr ""
+"Уколико желите да додате списак задатака за тикет, идите на језичак „Списак "
+"задатака” и кликните или на „Додај празан списак” (1) или „Додај по шаблону” "
+"(2) након одабира шаблона. Уколико не видите део „Додај по шаблону”, нема "
+"доступних шаблона у систему."
+
+#: ../extras/checklist.rst:30
+msgid "Checklist creation dialog"
+msgstr "Дијалог за додавање списка задатака"
+
+#: ../extras/checklist.rst:30
+msgid "Screenshot of adding template or new checklist."
+msgstr "Снимак екрана додавања по шаблону или новог списка задатака."
+
+#: ../extras/checklist.rst:32
+msgid ""
+"Depending on your choice, you can create your own new checklist or use a "
+"predefined template. In both cases, you can:"
+msgstr ""
+"На основу вашег избора, можете додати ваш нови списак задатака или користити "
+"предефинисани шаблон. У оба случаја можете:"
+
+#: ../extras/checklist.rst:35
+msgid "Edit the checklist title"
+msgstr "Уредити наслов списка"
+
+#: ../extras/checklist.rst:36
+msgid "Edit the checklist items (reorder, rename, add, delete)"
+msgstr ""
+"Уредити задатке на списку (промена редоследа, наслова, додавање, уклањање)"
+
+#: ../extras/checklist.rst:37
+msgid "Remove the complete checklist"
+msgstr "Уклоните комплетан списак"
+
+#: ../extras/checklist.rst:38
+msgid "Add a checklist, if there is no existing one"
+msgstr "Додате списак, уколико не постоји"
+
+#: ../extras/checklist.rst:40
+msgid ""
+"You can perform most of these edit, add and delete actions on different ways:"
+msgstr ""
+"Радње уређивања, додавања и уклањања можете обавити на различите начине:"
+
+#: ../extras/checklist.rst:42
+msgid "Click on the item text (checklist title or checklist item) to edit it"
+msgstr "Кликом на текст (наслова списка или наслова задатка) за уређивање"
+
+#: ../extras/checklist.rst:43
+msgid "Click on the checkbox to check an item"
+msgstr "Кликнете на поље за потврду да означите задатак"
+
+#: ../extras/checklist.rst:44
+msgid ""
+"Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
+msgstr "Кликнете на ︙или наслов „Списак задатака” за одабир радњи из менија"
+
+#: ../extras/checklist.rst:45
+msgid "To add an item, click on the \"+ Add\" button"
+msgstr "За додавање задатка, кликните на дугме „+ Додај”"
+
+#: ../extras/checklist.rst:46
+msgid ""
+"To reorder them, use the corresponding button. You can then drag & drop the "
+"items via the ≣ handle."
+msgstr ""
+"За промену редоследа, користите одговарајуће дугме. Након тога можете "
+"превући и испустити задатке путем дршке ≣."
+
+#: ../extras/checklist.rst:53
+msgid "Screenshot of editing an item by simply clicking on it."
+msgstr "Снимак екрана приликом уређивања задатка након клика."
+
+#: ../extras/profile-and-settings.rst:146
+msgid "You will receive notifications while you are absent."
+msgstr "Добијаћете обавештења док сте одсутни."
+
 #~ msgid "Bootom section:"
 #~ msgstr "Доњи одељак:"
 
@@ -9270,3 +9383,12 @@ msgstr ""
 #~ msgstr ""
 #~ "Сазнајте више о стањима и њиховим бојама у секцији :doc:`/basics/service-"
 #~ "ticket/settings/state`."
+
+#~ msgid ""
+#~ "Use the first three columns to choose when to receive **internal "
+#~ "notifications** (below). The rightmost column enables email notification "
+#~ "as well."
+#~ msgstr ""
+#~ "Користите прве три колоне да бисте изабрали када ћете примати **интерна "
+#~ "обавештења** (испод). Крајња десна колона такође омогућава обавештења "
+#~ "путем имејла."
