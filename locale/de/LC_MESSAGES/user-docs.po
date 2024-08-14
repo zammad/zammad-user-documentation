@@ -7363,18 +7363,13 @@ msgstr ""
 "zurücksetzen, indem Sie auf den Button unten in dieser Ansicht klicken."
 
 #: ../extras/profile-and-settings.rst:107
-#, fuzzy
-#| msgid ""
-#| "Use the first three columns to choose when to receive **internal "
-#| "notifications** (below). The rightmost column enables email notification "
-#| "as well."
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
 msgstr ""
-"Verwenden Sie die ersten drei Spalten, um auszuwählen, wann Sie **interne "
-"Benachrichtigungen** (siehe unten) erhalten möchten. Die äußerste rechte "
-"Spalte ermöglicht Ihnen auch eine Benachrichtigung per E-Mail."
+"Verwenden Sie die ersten vier Spalten, um auszuwählen, wann Sie **interne "
+"Benachrichtigungen** erhalten möchten. Die rechte Spalte ermöglicht auch "
+"eine Benachrichtigung per E-Mail."
 
 #: ../extras/profile-and-settings.rst:130
 msgid "Limit Groups"
@@ -8897,6 +8892,136 @@ msgstr ""
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
 
+#: ../extras/checklist.rst:2
+msgid "Checklist"
+msgstr "Checkliste"
+
+#: ../extras/checklist.rst:5
+msgid "General"
+msgstr "Allgemein"
+
+#: ../extras/checklist.rst:7
+msgid ""
+"Use a checklist in tickets to keep track of the tasks to be completed. You "
+"can find the checklist feature in the right sidebar in the \"Checklist\" tab "
+"(unless your admin has deactivated it). Please note that you can only add or "
+"edit a checklist, if you have the permission to edit the ticket."
+msgstr ""
+"Verwenden Sie eine Checkliste in Tickets, um den Überblick über zu "
+"erledigenden Aufgaben zu behalten. Sie finden die Checklistenfunktion in der "
+"rechten Seitenleiste im Tab \"Checkliste\" (sofern Ihr Administrator sie "
+"nicht deaktiviert hat). Bitte beachten Sie, dass Sie eine Checkliste nur "
+"hinzufügen oder bearbeiten können, wenn Sie die Berechtigung haben, das "
+"Ticket zu bearbeiten."
+
+#: ../extras/checklist.rst:15
+msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
+msgstr ""
+"Screenshot der rechten Seitenleiste mit hervorgehobenem Tab \"Checkliste\""
+
+#: ../extras/checklist.rst:15
+msgid "Screenshot of ticket view with highlighted checklist sidebar."
+msgstr ""
+"Screenshot der Ticket-Ansicht mit hervorgehobener Checklisten-Seitenleiste."
+
+#: ../extras/checklist.rst:18
+msgid "Usage"
+msgstr "Nutzung"
+
+#: ../extras/checklist.rst:20
+msgid ""
+"If you want to add a checklist to a ticket, go to the \"Checklist\" tab and "
+"click either on \"Add empty checklist\" (1) or \"Add from template\" (2) "
+"after selecting a template. If you can't see the the \"Add from template\" "
+"area, there is no template available."
+msgstr ""
+"Wenn Sie eine Checkliste zu einem Ticket hinzufügen möchten, gehen Sie auf "
+"den Tab \"Checkliste\" und klicken Sie entweder auf \"Leere Checkliste "
+"hinzufügen\" (1) oder \"Aus Vorlage hinzufügen\" (2), nachdem Sie eine "
+"Vorlage ausgewählt haben. Wenn Sie den Bereich \"Aus Vorlage hinzufügen\" "
+"nicht sehen können, ist keine Vorlage verfügbar."
+
+#: ../extras/checklist.rst:30
+msgid "Checklist creation dialog"
+msgstr "Dialog zur Erstellung der Checkliste"
+
+#: ../extras/checklist.rst:30
+msgid "Screenshot of adding template or new checklist."
+msgstr ""
+"Screenshot zeigt das Hinzufügen aus einer Vorlage oder einer neuen "
+"Checkliste."
+
+#: ../extras/checklist.rst:32
+msgid ""
+"Depending on your choice, you can create your own new checklist or use a "
+"predefined template. In both cases, you can:"
+msgstr ""
+"Je nach Auswahl können Sie Ihre eigene neue Checkliste erstellen oder eine "
+"vordefinierte Vorlage verwenden. In beiden Fällen können Sie:"
+
+#: ../extras/checklist.rst:35
+msgid "Edit the checklist title"
+msgstr "Den Titel der Checkliste bearbeiten"
+
+#: ../extras/checklist.rst:36
+msgid "Edit the checklist items (reorder, rename, add, delete)"
+msgstr ""
+"Die Elemente der Checkliste bearbeiten (neu ordnen, umbenennen, hinzufügen, "
+"löschen)"
+
+#: ../extras/checklist.rst:37
+msgid "Remove the complete checklist"
+msgstr "Die komplette Checkliste entfernen"
+
+#: ../extras/checklist.rst:38
+msgid "Add a checklist, if there is no existing one"
+msgstr "Eine Checkliste hinzufügen, sofern keine vorhanden ist"
+
+#: ../extras/checklist.rst:40
+msgid ""
+"You can perform most of these edit, add and delete actions on different ways:"
+msgstr ""
+"Sie können die meisten der Aktionen auf unterschiedliche Weise durchführen:"
+
+#: ../extras/checklist.rst:42
+msgid "Click on the item text (checklist title or checklist item) to edit it"
+msgstr ""
+"Klicken Sie auf den Element-Text (Checklistentitel oder Checklistenelement), "
+"um ihn zu bearbeiten"
+
+#: ../extras/checklist.rst:43
+msgid "Click on the checkbox to check an item"
+msgstr "Klicken Sie auf die Checkbox, um ein Element abzuhaken"
+
+#: ../extras/checklist.rst:44
+msgid ""
+"Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
+msgstr ""
+"Klicken Sie auf ︙ oder auf \"Checkliste\", um Aktionen aus dem Menü "
+"auszuwählen"
+
+#: ../extras/checklist.rst:45
+msgid "To add an item, click on the \"+ Add\" button"
+msgstr ""
+"Um ein Element hinzuzufügen, klicken Sie auf die Schaltfläche \"+ "
+"Hinzufügen\""
+
+#: ../extras/checklist.rst:46
+msgid ""
+"To reorder them, use the corresponding button. You can then drag & drop the "
+"items via the ≣ handle."
+msgstr ""
+"Um sie neu anzuordnen, verwenden Sie die entsprechende Schaltfläche. Sie "
+"können die Elemente dann per Drag & Drop über den ≣ Button verschieben."
+
+#: ../extras/checklist.rst:53
+msgid "Screenshot of editing an item by simply clicking on it."
+msgstr "Screenshot zeigt Bearbeitung eines Elements durch einfaches Anklicken."
+
+#: ../extras/profile-and-settings.rst:146
+msgid "You will receive notifications while you are absent."
+msgstr "Während Ihrer Abwesenheit werden Sie benachrichtigt."
+
 #~ msgid "Bootom section:"
 #~ msgstr "Unterer Abschnitt:"
 
@@ -9637,3 +9762,12 @@ msgstr ""
 #~ msgstr ""
 #~ "Zu Farbkodierungen und Status erfahren Sie mehr auf dieser Seite: :doc:`/"
 #~ "basics/service-ticket/settings/state`"
+
+#~ msgid ""
+#~ "Use the first three columns to choose when to receive **internal "
+#~ "notifications** (below). The rightmost column enables email notification "
+#~ "as well."
+#~ msgstr ""
+#~ "Verwenden Sie die ersten drei Spalten, um auszuwählen, wann Sie **interne "
+#~ "Benachrichtigungen** (siehe unten) erhalten möchten. Die äußerste rechte "
+#~ "Spalte ermöglicht Ihnen auch eine Benachrichtigung per E-Mail."
