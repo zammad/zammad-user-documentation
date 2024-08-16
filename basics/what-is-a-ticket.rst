@@ -19,12 +19,12 @@ about a single issue**.
 
    A ticket is a thread of messages between a customer and an agent.
 
-.. hint:: You know you’re doing a great job when you
+.. hint:: You know you're doing a great job when you
    1) respond to tickets quickly and
    2) get them closed in a timely manner.
 
    👀 :doc:`Keep an eye on your dashboard </extras/dashboard>`
-   to see how well you’re keeping up.
+   to see how well you're keeping up.
 
 .. _ticket_settings:
 
@@ -38,10 +38,10 @@ they can be organized into groups;
 and they can even be flagged for high or low priority.
 
 For the sake of simplicity,
-we’ll refer to this metadata as the **settings** of a ticket.
+we'll refer to this metadata as the **settings** of a ticket.
 All of these settings can be changed at any time.
 Each setting is explained in detail :doc:`here </basics/service-ticket/settings>`,
-but for the time being, let’s go over the two most important ones:
+but for the time being, let's go over the two most important ones:
 
 Owner *(optional)*
    The **agent currently assigned to** (*i.e.,* responsible for) the ticket.
