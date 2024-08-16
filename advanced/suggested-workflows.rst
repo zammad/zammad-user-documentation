@@ -20,7 +20,7 @@ In these cases, there are three ways to assign the work to the right people:
    them. (And if *you* want to get notifications for *someone else's* ticket,
    use the **subscribe button**.)
 
-Reassigning tickets
+Reassigning Tickets
 ^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/advanced/suggested-workflows/sharing-work.png
@@ -93,7 +93,7 @@ type ``@@`` in the message composer and select their name from the pop-up menu:
    @mentions and subscriptions only work for tickets that you already have
    access to.
 
-Quickly assign in ticket listings
+Quickly Assign in Ticket Listings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Within overviews and detailed searches you can run bulk operations on tickets.
