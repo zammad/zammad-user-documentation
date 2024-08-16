@@ -46,7 +46,7 @@ text. (Your highlights are visible to other agents.)
    Highlight by selecting text, then clicking the highlighter.
    Click again to undo.
 
-Further ticket actions
+Further Ticket Actions
 ----------------------
 
 .. _ticket-submenu:

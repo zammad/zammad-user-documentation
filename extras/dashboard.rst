@@ -1,7 +1,7 @@
 Checking Your Stats
 ===================
 
-The **dashboard** is the first thing you’ll see after logging in. Monitor your
+The **dashboard** is the first thing you'll see after logging in. Monitor your
 productivity at a glance, compare your stats to the company average (in gray
 below your own), and see what everyone else is up to.
 
@@ -34,4 +34,4 @@ below your own), and see what everyone else is up to.
         - How many of your closed tickets have been re-opened in the last
           seven days?
       * - **7. Activity Stream**
-        - What’s everyone else on your team up to?
+        - What's everyone else on your team up to?

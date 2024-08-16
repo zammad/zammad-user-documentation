@@ -97,7 +97,7 @@ their visibility has to be switched to internal first.
 
 .. include:: /snippets/ui-protip-message-editor-features.rst
 
-Using quotation
+Using Quotation
 ---------------
 
 In many cases you'll want to quote earlier text of your customer. This is
@@ -125,7 +125,7 @@ quotations by using enter.
 
    Mark, press reply and work with quoted text!
 
-🔥 Keeping an eye on escalations
+🔥 Keeping an Eye on Escalations
 ---------------------------------
 
 SLAs are optional and require configuration by your instance administrator.
@@ -141,7 +141,7 @@ will display all upcoming escalation times based on the SLA configuration.
    :alt: Screenshot showing hovering over escalation note and getting
          more detailed escalation information
 
-Simultaneous processing of a ticket
+Simultaneous Processing of a Ticket
 -----------------------------------
 
 .. _caution-im-working-here:

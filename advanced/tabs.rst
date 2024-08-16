@@ -1,5 +1,3 @@
-:orphan:
-
 Tabs
 ====
 
@@ -34,7 +32,7 @@ all unsaved changes are automatically backed up to the server.
      viewed it.
    * Drag and drop tabs to rearrange them.
 
-Tab behavior in ticket zooms
+Tab Behavior in Ticket Zooms
 ----------------------------
 
 You may have noticed the "Stay on tab" button next to "Update" on the lower

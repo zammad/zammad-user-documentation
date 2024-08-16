@@ -41,7 +41,7 @@ base articles**.
 
 
 Switching Languages
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 .. figure:: /images/extras/knowledge-base/knowledge-base-switch-languages.png
    :alt: Switch languages
@@ -75,7 +75,7 @@ in the published knowledge base
       :align: center
 
 Using RSS Feeds
-~~~~~~~~~~~~~~~
+---------------
 
 Zammad allows you to subscribe to either the knowledge base as whole or to
 specific categories. There's both a public and an internal option to do so.
@@ -230,7 +230,7 @@ Visibility
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="30 30 40 40" width="25" height="25" style="fill: #adadad"><path d="M57,36.39c0-.55.32-.69.71-.3L61,39.3c.39.38.26.7-.29.7H58a1,1,0,0,1-1-1ZM37,63V37a3,3,0,0,1,3-3H53a1,1,0,0,1,1,1v5a3,3,0,0,0,3,3h5a1,1,0,0,1,1,1V63a3,3,0,0,1-3,3H40A3,3,0,0,1,37,63Z"/></svg>
 
-Using answers in ticket articles
+Using Answers In Ticket Articles
 --------------------------------
 
 As soon as the knowledge base contains one or more answers, you can use these

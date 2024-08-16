@@ -20,7 +20,7 @@ with ``()`` and ``AND``/``OR`` options::
 
    state.name: open AND (article.from:me OR article.from:somebody)
 
-Available attributes
+Available Attributes
 --------------------
 
 .. hint::
@@ -44,7 +44,7 @@ Available attributes
    "article.from", "\*bob\*", "article.from:\*bob\*", "Show all tickets that contain articles from ""Bob"""
    "article.body", "heat |br|\ heat~ |br|\ /joh?n(ath[oa]n)/", "article.body:heat |br|\ article.body:heat~ |br|\ articlebody:/joh?n(ath[oa]n)/", "First example shows every ticket containing the word ""heat"" - you can also use the fuzzy operator ""~"" to search for similar words like e.g. like ""head"". Zammad will also allow you to use regular expressions, where ever the attributes allows it."
 
-Combining search phrases
+Combining Search Phrases
 ------------------------
 
 You can combine search phrases by using ``AND``, ``OR`` and ``TO``,
@@ -63,12 +63,12 @@ Below are some examples that you could use with this:
    "owner.email:bob@example.net AND state.name:(open OR new)", "Show Tickets from bob@example.net that are either open or new"
    "state.name:pending* AND article_count:[1 TO 5]", "Show everything with any pending state and an article count of 1 to 5."
 
-Some Ticket attributes and their type
+Some Ticket Attributes and Their Type
 -------------------------------------
 
 Below you can find the most important attributes sorted by ticket and article.
 
-Ticket attributes
+Ticket Attributes
 ^^^^^^^^^^^^^^^^^
 
    * number: string
@@ -93,7 +93,7 @@ Ticket attributes
    * escalation_at: timestamp
    * pending_time: timestamp
 
-Article attributes
+Article Attributes
 ^^^^^^^^^^^^^^^^^^
 
    * article.from: string
