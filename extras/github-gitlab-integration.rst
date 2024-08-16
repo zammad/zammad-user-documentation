@@ -16,7 +16,7 @@ Administrators can learn more
    Use the |github| and |gitlab| tabs on the ticket pane
    for an overview of issues related to the ticket.
 
-What can it do?
+What Can It Do?
 ---------------
 
 View related issues

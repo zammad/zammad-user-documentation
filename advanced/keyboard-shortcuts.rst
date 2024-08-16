@@ -1,12 +1,10 @@
-:orphan:
-
 Keyboard Shortcuts
 ==================
 
 Zammad supports a wide array of keyboard shortcuts to expedite your workflow as
 an expert user. But don't be afraid, you don't have to remember all of them.
 
-Where to find them?
+Where to Find Them?
 -------------------
 
 Click on your avatar at the bottom of the main menu to access the

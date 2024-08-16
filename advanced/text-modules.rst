@@ -17,7 +17,7 @@ module name or enter a keyword (if keywords are set).
 
 .. image :: /images/advanced/text-modules/using-text-modules.gif
 
-Text modules missing?
+Text Modules Missing?
 ---------------------
 
 You noticed that some text modules don't always appear?
@@ -34,13 +34,13 @@ group.
 
 How do you know which groups go with which text modules? Ask your administrator!
 
-Text modules on ticket creation
+Text Modules on Ticket Creation
 -------------------------------
 
 You can use text modules on ticket creation as well. On ticket creation,
 our :ref:`ticket_templates` might get handy too.
 
-Customizing text modules
+Customizing Text Modules
 ------------------------
 
 Administrators can learn more about customizing text modules

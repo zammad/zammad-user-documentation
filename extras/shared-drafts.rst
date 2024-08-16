@@ -32,7 +32,7 @@ Administrators can learn more in our
      personal draft. You then can share this as a shared draft if you want to.
      User drafts are *always* available!
 
-Handling drafts
+Handling Drafts
 ---------------
 
 .. include:: /extras/includes/shared-drafts-overwriting-drafts-warning.include.rst

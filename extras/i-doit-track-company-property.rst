@@ -37,7 +37,7 @@ And why does the coffee maker keep shutting off before it's finished? 🤬
 So How Does It Work?
 --------------------
 
-In Zammad: Link i-doit assets to tickets
+In Zammad: Link i-doit Assets To Tickets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, add i-doit assets to a ticket in the ticket pane:
@@ -56,7 +56,7 @@ Once assets have been linked to a ticket, they can be accessed directly from the
 
    Click on a linked asset in the ticket pane to open its page in i-doit.
 
-In i-doit: List & create tickets for a given asset
+In i-doit: List & Create Tickets For a Given Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Your i-doit control panel should contain
