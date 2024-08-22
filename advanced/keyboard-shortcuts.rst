@@ -152,18 +152,17 @@ Key Combinations
 
 .. _old-shortcuts:
 
-Using Old Shortcuts
--------------------
+Old Shortcuts
+-------------
 
-Click on your avatar at the bottom of the main menu and select "Keyboard
-Shortcuts" or open it with one of the shortcuts below (if you already switched
-to the old ones, otherwise press ``?``):
+In the keyboard shortcuts overview, you can switch to the old shortcut layout.
 
-   * ``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)
-   * ``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)
+.. note:: Be aware that these old shortcuts don't work as reliable as the new
+   ones because browsers and operating systems could jam the key press signal.
 
-This will open an overview of available keyboard-shortcuts. At the top of the
-dialog, you can switch between old and new ones.
+   Additionally, they might be removed from Zammad in the future. So, the
+   recommendation is to use the new ones. They are even easier and shorter.
+
 
 List of Available Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
