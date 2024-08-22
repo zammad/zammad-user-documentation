@@ -30,13 +30,18 @@ Settings
 
 At the top of the dialog, you can:
 
-- Enable or disable the shortcuts in general for your account by switching the
-  toggle on the left side.
+- Enable or disable the shortcuts in general by switching the toggle on the
+  left side.
 - Switch to the :ref:`old shortcuts <old-shortcuts>` if you got used to them by
   clicking on "Switch back to old layout" on the right side. Be aware that
   these old shortcuts don't work as reliable as the new ones because browsers
   and operating systems could jam the key press signal. And the shortcut for
   opening this overview differs as well.
+
+These settings are currently only saved in the browser and not in your user
+profile. If you need to deactivate it or switch to the old layout, you should
+make sure to not delete your browser cache / session cookies for your Zammad
+instance.
 
 .. figure:: /images/advanced/keyboard-shortcuts-settings.png
    :alt: Keyboard shortcut settings
@@ -56,7 +61,7 @@ Key / key combination                       Function
 ====================================  ===================================================
 ``h``                                 Show dashboard
 ``o``                                 Show overviews
-``s``                                 Trigger the search
+``s``                                 Open the search
 ``a``                                 Open notifications
 ``n``                                 Create a new ticket
 ``u``                                 Open user menu
@@ -119,15 +124,15 @@ How
 
    Before typing:
 
-   * Press ``cmd`` + ``i`` to enter *italics* mode,
+   * Press ``ctrl`` + ``i`` to enter *italics* mode,
    * enter your desired text, and
-   * press ``cmd`` + ``i`` again to return to normal text mode.
+   * press ``ctrl`` + ``i`` again to return to normal text mode.
 
    After typing:
 
    * Enter your desired text,
    * click-and-drag with the mouse to select it, and
-   * press ``cmd`` + ``i`` to set the text in *italics*.
+   * press ``ctrl`` + ``i`` to set the text in *italics*.
 
 Key Combinations
    ==============================  =============================================
@@ -237,15 +242,15 @@ How
 
    Before typing:
 
-   * Press ``cmd`` + ``i`` to enter *italics* mode,
+   * Press ``ctrl`` + ``i`` to enter *italics* mode,
    * enter your desired text, and
-   * press ``cmd`` + ``i`` again to return to normal text mode.
+   * press ``ctrl`` + ``i`` again to return to normal text mode.
 
    After typing:
 
    * Enter your desired text,
    * click-and-drag with the mouse to select it, and
-   * press ``cmd`` + ``i`` to set the text in *italics*.
+   * press ``ctrl`` + ``i`` to set the text in *italics*.
 
 Key Combinations
    ==============================  =============================================
