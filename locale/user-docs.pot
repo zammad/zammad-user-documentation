@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 11:12+0200\n"
+"POT-Creation-Date: 2024-08-23 10:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,16 @@ msgid "Zammad supports a wide array of keyboard shortcuts to expedite your workf
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:8
-msgid "Where to Find Them?"
+#: ../basics/zammad-glossary.rst:508
+#: ../extras/chat.rst:11
+#: ../extras/customers.rst:7
+#: ../extras/secure-email.rst:32
+#: ../extras/shared-drafts.rst:5
+msgid "Overview"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:10
-msgid "Click on your avatar at the bottom of the main menu to access the **keyboard shortcuts cheat sheet**."
+msgid "Click on your avatar at the bottom of the main menu and select \"Keyboard Shortcuts\" or just press :kbd:`?` to open the keyboard shortcut overview."
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:None
@@ -38,453 +43,482 @@ msgid "User submenu"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:18
-msgid "Alternatively, open it with one of the shortcuts below:"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:20
-msgid "``ctrl`` + ``shift`` + ``h`` (on Linux and Windows)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:21
-msgid "``cmd`` + ``ctrl`` + ``shift`` + ``h`` (on macOS)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:23
 msgid "This will open an overview of available keyboard-shortcuts as in the following screenshot:"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:31
+#: ../advanced/keyboard-shortcuts.rst:26
 msgid "Keyboard shortcut cheat sheet"
 msgstr ""
 
+#: ../advanced/keyboard-shortcuts.rst:26
+msgid "The keyboard shortcut overview."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:29
+msgid "Settings"
+msgstr ""
+
 #: ../advanced/keyboard-shortcuts.rst:31
-msgid "The keyboard shortcut cheat sheet."
+msgid "At the top of the dialog, you can:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:33
+msgid "Enable or disable the shortcuts in general by switching the toggle on the left side."
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:35
-msgid "List of Available Keyboard Shortcuts"
+msgid "Switch to the old shortcuts if you got used to them by clicking on \"Switch back to old layout\" on the right side."
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:38
+msgid "Be aware that these old shortcuts don't work as reliable as the new ones because browsers and operating systems could jam the key press signal. And the shortcut for opening this overview differs as well."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:43
+msgid "These settings are currently only saved in the browser and not in your user profile. If you need to deactivate it or switch to the old layout, you should make sure to not delete your browser cache / session cookies for your Zammad instance."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "Keyboard shortcut settings"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:53
+msgid "The keyboard shortcut settings."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:56
+msgid "List of Available Keyboard Shortcuts"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:59
 msgid "Navigation"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:41
-#: ../advanced/keyboard-shortcuts.rst:68
-#: ../advanced/keyboard-shortcuts.rst:78
-#: ../advanced/keyboard-shortcuts.rst:87
-#: ../advanced/keyboard-shortcuts.rst:119
+#: ../advanced/keyboard-shortcuts.rst:62
+#: ../advanced/keyboard-shortcuts.rst:90
+#: ../advanced/keyboard-shortcuts.rst:100
+#: ../advanced/keyboard-shortcuts.rst:109
+#: ../advanced/keyboard-shortcuts.rst:141
 msgid "Key / key combination"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:41
-#: ../advanced/keyboard-shortcuts.rst:68
-#: ../advanced/keyboard-shortcuts.rst:78
-#: ../advanced/keyboard-shortcuts.rst:87
-#: ../advanced/keyboard-shortcuts.rst:119
+#: ../advanced/keyboard-shortcuts.rst:62
+#: ../advanced/keyboard-shortcuts.rst:90
+#: ../advanced/keyboard-shortcuts.rst:100
+#: ../advanced/keyboard-shortcuts.rst:109
+#: ../advanced/keyboard-shortcuts.rst:141
 msgid "Function"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:43
-msgid "``shift`` + ``ctrl`` + ``d``"
+#: ../advanced/keyboard-shortcuts.rst:64
+msgid ":kbd:`h`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:43
+#: ../advanced/keyboard-shortcuts.rst:64
 msgid "Show dashboard"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:44
-msgid "``shift`` + ``ctrl`` + ``o``"
+#: ../advanced/keyboard-shortcuts.rst:65
+msgid ":kbd:`o`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:44
+#: ../advanced/keyboard-shortcuts.rst:65
 msgid "Show overviews"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:45
-msgid "``shift`` + ``ctrl`` + ``s``"
+#: ../advanced/keyboard-shortcuts.rst:66
+msgid ":kbd:`s`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:45
-msgid "Trigger the search"
+#: ../advanced/keyboard-shortcuts.rst:66
+msgid "Open the search"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:46
-msgid "``shift`` + ``ctrl`` + ``a``"
+#: ../advanced/keyboard-shortcuts.rst:67
+msgid ":kbd:`a`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:46
+#: ../advanced/keyboard-shortcuts.rst:67
 msgid "Open notifications"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:47
-msgid "``shift`` + ``ctrl`` + ``n``"
+#: ../advanced/keyboard-shortcuts.rst:68
+msgid ":kbd:`n`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:47
+#: ../advanced/keyboard-shortcuts.rst:68
 #: ../extras/mobile-view.rst:119
 msgid "Create a new ticket"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:48
-msgid "``shift`` + ``ctrl`` + ``e``"
+#: ../advanced/keyboard-shortcuts.rst:69
+msgid ":kbd:`u`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:48
+#: ../advanced/keyboard-shortcuts.rst:69
+msgid "Open user menu"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:70
+msgid ":kbd:`?`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:70
+msgid "Open shortcuts overview"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:71
+msgid ":kbd:`shift` :kbd:`l`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:71
 msgid "Log out"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:49
-msgid "``shift`` + ``ctrl`` + ``h``"
+#: ../advanced/keyboard-shortcuts.rst:72
+msgid ":kbd:`shift` :kbd:`w`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:49
-msgid "Show list of shortcuts"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:50
-msgid "``shift`` + ``ctrl`` + ``w``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:50
+#: ../advanced/keyboard-shortcuts.rst:72
 msgid "Close current tab"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:51
-msgid "``shift`` + ``ctrl`` + ``tab``"
+#: ../advanced/keyboard-shortcuts.rst:73
+msgid ":kbd:`shift` :kbd:`→`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:51
+#: ../advanced/keyboard-shortcuts.rst:73
 msgid "Show next tab"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:52
-msgid "``shift`` + ``ctrl`` + ``shift+tab``"
+#: ../advanced/keyboard-shortcuts.rst:74
+msgid ":kbd:`shift` :kbd:`←`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:52
+#: ../advanced/keyboard-shortcuts.rst:74
 msgid "Show previous tab"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:53
-msgid "``shift`` + ``ctrl`` + ``return``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:53
-msgid "Confirm/submit in dialogs"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:54
-msgid "``↑`` / ``↓``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:54
-msgid "Move selection/cursor up and down"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:55
-msgid "``←`` / ``→``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:55
-msgid "Move selection/cursor left and right"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:56
-msgid "``enter``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:56
-msgid "Select item / confirm"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:57
-msgid "``shift`` + ``ctrl`` + ``.``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:57
-msgid "Copy current object number (e.g. ticket number)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:58
-msgid "``shift`` + ``ctrl`` + 2x ``.``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:58
-msgid "Add the title of the object to the number"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:59
-msgid "``shift`` + ``ctrl`` + 3x ``.``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:59
-msgid "Add the object link URL to the number and title"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:64
-msgid "Translations"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:65
-msgid "Note: you need to have admin permissions to use this."
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:70
-msgid "``shift`` + ``ctrl`` + ``t``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:70
-msgid "Enable or disable the inline translation"
+#: ../advanced/keyboard-shortcuts.rst:75
+msgid ":kbd:`shift` :kbd:`enter`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:75
+msgid "Confirm/submit in dialogs"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:76
+msgid ":kbd:`▲` / :kbd:`▼`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:76
+msgid "Move selection/cursor up and down"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:77
+#: ../advanced/keyboard-shortcuts.rst:115
+msgid ":kbd:`◀` / :kbd:`▶`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:77
+msgid "Move selection/cursor left and right"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:78
+msgid ":kbd:`enter`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:78
+msgid "Select item / confirm"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:79
+msgid ":kbd:`.`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:79
+msgid "Copy current object number (e.g. ticket number)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:80
+msgid ":kbd:`..`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:80
+msgid "Add the title of the object to the number"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid ":kbd:`...`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:81
+msgid "Add the object link URL to the number and title"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:86
+msgid "Translations"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:87
+msgid "Note: you need to have admin permissions to use this."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid ":kbd:`t`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:92
+msgid "Enable or disable the inline translation"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:97
 #: ../extras/profile-and-settings.rst:0
 msgid "Appearance"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:80
-msgid "``d``"
+#: ../advanced/keyboard-shortcuts.rst:102
+msgid ":kbd:`d`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:80
+#: ../advanced/keyboard-shortcuts.rst:102
 msgid "Switch between dark and light mode"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:84
+#: ../advanced/keyboard-shortcuts.rst:106
 msgid "Tickets"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:89
-msgid "``shift`` + ``ctrl`` + ``m``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:89
-msgid "Create a new note article"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:90
-msgid "``shift`` + ``ctrl`` + ``g``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:90
-msgid "Reply to the last article"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:91
-msgid "``shift`` + ``ctrl`` + ``j``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:91
-msgid "Switch the visibility of the article between internal and public"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:92
-msgid "``shift`` + ``ctrl`` + ``c``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:92
-msgid "Set state of the ticket to \"closed\""
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:93
-msgid "``shift`` + ``ctrl`` + ``←`` / ``→``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:93
-msgid "Navigate through article"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:94
-msgid "``::``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:94
-msgid "Insert text module (while composing an article)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:95
-msgid "``??``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:95
-msgid "Insert knowledge base article (while composing an article)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:96
-msgid "``@@``"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:96
-msgid "Mention a user (while composing an article)"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:100
-msgid "Text Editing"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:115
-msgid "How"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:103
-msgid "You can apply a text format *before* typing or *after* typing. Example:"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:105
-msgid "Before typing:"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:107
-msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:108
-msgid "enter your desired text, and"
-msgstr ""
-
-#: ../advanced/keyboard-shortcuts.rst:109
-msgid "press ``cmd`` + ``i`` again to return to normal text mode."
+#: ../advanced/keyboard-shortcuts.rst:111
+msgid ":kbd:`x`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:111
-msgid "After typing:"
+msgid "Create a new note article"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:112
+msgid ":kbd:`r`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:112
+msgid "Reply to the last article"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:113
-msgid "Enter your desired text,"
+msgid ":kbd:`i`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:113
+msgid "Switch the visibility of the article between internal and public"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:114
-msgid "click-and-drag with the mouse to select it, and"
+msgid ":kbd:`shift` :kbd:`c`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:114
+msgid "Set state of the ticket to \"closed\""
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:115
-msgid "press ``cmd`` + ``i`` to set the text in *italics*."
+msgid "Navigate through article"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:116
+msgid ":kbd:`::`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:116
+msgid "Insert text module (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:117
+msgid ":kbd:`??`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:117
+msgid "Insert knowledge base article (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:118
+msgid ":kbd:`@@`"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:118
+msgid "Mention a user (while composing an article)"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:122
+msgid "Text Editing"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:137
+msgid "How"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:125
+msgid "You can apply a text format *before* typing or *after* typing. Example:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:127
+msgid "Before typing:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:129
+msgid "Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:130
+msgid "enter your desired text, and"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:131
+msgid "press :kbd:`ctrl` :kbd:`i` again to return to normal text mode."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:133
+msgid "After typing:"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:135
+msgid "Enter your desired text,"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:136
+msgid "click-and-drag with the mouse to select it, and"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:137
+msgid "press :kbd:`ctrl` :kbd:`i` to set the text in *italics*."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:158
 msgid "Key Combinations"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:121
-msgid "``ctrl`` + ``u``"
+#: ../advanced/keyboard-shortcuts.rst:143
+msgid ":kbd:`ctrl` :kbd:`u`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:121
+#: ../advanced/keyboard-shortcuts.rst:143
 msgid "Format text underlined"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:122
-msgid "``ctrl`` + ``b``"
+#: ../advanced/keyboard-shortcuts.rst:144
+msgid ":kbd:`ctrl` :kbd:`b`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:122
+#: ../advanced/keyboard-shortcuts.rst:144
 msgid "Format text in **bold**"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:123
-msgid "``ctrl`` + ``i``"
+#: ../advanced/keyboard-shortcuts.rst:145
+msgid ":kbd:`ctrl` :kbd:`i`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:123
+#: ../advanced/keyboard-shortcuts.rst:145
 msgid "Format text in *italics*"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:124
-msgid "``ctrl`` + ``s``"
+#: ../advanced/keyboard-shortcuts.rst:146
+msgid ":kbd:`ctrl` :kbd:`s`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:124
+#: ../advanced/keyboard-shortcuts.rst:146
 msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:125
-msgid "``ctrl`` + ``v``"
+#: ../advanced/keyboard-shortcuts.rst:147
+msgid ":kbd:`ctrl` :kbd:`v`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:125
+#: ../advanced/keyboard-shortcuts.rst:147
 msgid "Paste text from clipboard"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:126
-msgid "``ctrl`` + ``shift`` + ``v``"
+#: ../advanced/keyboard-shortcuts.rst:148
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`v`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:126
+#: ../advanced/keyboard-shortcuts.rst:148
 msgid "Paste text from clipboard (as plain text)"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:127
-msgid "``shift`` + ``ctrl`` + ``f``"
+#: ../advanced/keyboard-shortcuts.rst:149
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`f`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:127
+#: ../advanced/keyboard-shortcuts.rst:149
 msgid "Remove formatting of text"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:128
-msgid "``shift`` + ``ctrl`` + ``y``"
+#: ../advanced/keyboard-shortcuts.rst:150
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`y`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:128
+#: ../advanced/keyboard-shortcuts.rst:150
 msgid "Remove formatting of the whole text"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:129
-msgid "``shift`` + ``ctrl`` + ``z``"
+#: ../advanced/keyboard-shortcuts.rst:151
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`z`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:129
+#: ../advanced/keyboard-shortcuts.rst:151
 msgid "Insert a horizontal line"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:130
-msgid "``shift`` + ``ctrl`` + ``l``"
+#: ../advanced/keyboard-shortcuts.rst:152
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`l`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:130
+#: ../advanced/keyboard-shortcuts.rst:152
 msgid "Format as unordered list"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:131
-msgid "``shift`` + ``ctrl`` + ``k``"
+#: ../advanced/keyboard-shortcuts.rst:153
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`k`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:131
+#: ../advanced/keyboard-shortcuts.rst:153
 msgid "Format as ordered list"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:132
-msgid "``shift`` + ``ctrl`` + ``1``"
+#: ../advanced/keyboard-shortcuts.rst:154
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`1`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:132
+#: ../advanced/keyboard-shortcuts.rst:154
 msgid "Format as h1 heading"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:133
-msgid "``shift`` + ``ctrl`` + ``2``"
+#: ../advanced/keyboard-shortcuts.rst:155
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`2`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:133
+#: ../advanced/keyboard-shortcuts.rst:155
 msgid "Format as h2 heading"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:134
-msgid "``shift`` + ``ctrl`` + ``3``"
+#: ../advanced/keyboard-shortcuts.rst:156
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`3`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:134
+#: ../advanced/keyboard-shortcuts.rst:156
 msgid "Format as h3 heading"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:135
-msgid "``shift`` + ``ctrl`` + ``x``"
+#: ../advanced/keyboard-shortcuts.rst:157
+msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`x`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:135
+#: ../advanced/keyboard-shortcuts.rst:157
 msgid "Remove any hyperlink"
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:160
+msgid "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
 
 #: ../advanced/macros.rst:2
@@ -3101,14 +3135,6 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:496
 msgid "An organization identifies a grouping of customers that operate under the same roof or within the same customer group. If a customer whose organization is \"sharing\" logs in to the customer interface, this user has access to all tickets of his organization."
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:508
-#: ../extras/chat.rst:11
-#: ../extras/customers.rst:7
-#: ../extras/secure-email.rst:32
-#: ../extras/shared-drafts.rst:5
-msgid "Overview"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:502
