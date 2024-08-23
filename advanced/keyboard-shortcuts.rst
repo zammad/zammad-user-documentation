@@ -145,7 +145,7 @@ Key Combinations
    :kbd:`ctrl` :kbd:`i`                       Format text in *italics*
    :kbd:`ctrl` :kbd:`s`                       Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶
    :kbd:`ctrl` :kbd:`v`                       Paste text from clipboard
-   :kbd:`ctrl` :kbd:`shift` :kbd:`v`          Paste text from clipboard (as plain text)
+   :kbd:`shift` :kbd:`ctrl` :kbd:`v`          Paste text from clipboard (as plain text)
    :kbd:`shift` :kbd:`ctrl` :kbd:`f`          Remove formatting of text
    :kbd:`shift` :kbd:`ctrl` :kbd:`y`          Remove formatting of the whole text
    :kbd:`shift` :kbd:`ctrl` :kbd:`z`          Insert a horizontal line
@@ -158,4 +158,4 @@ Key Combinations
    ========================================   =================================================
 
 .. tip:: If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and
-   :kbd:`ctrl` :kbd:`option` instead of :kbd:`ctrl` :kbd:`shift`.
+   :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`.
