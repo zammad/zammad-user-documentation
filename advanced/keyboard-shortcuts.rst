@@ -76,9 +76,9 @@ Key / key combination                      Function
 :kbd:`▲` / :kbd:`▼`                        Move selection/cursor up and down
 :kbd:`◀` / :kbd:`▶`                        Move selection/cursor left and right
 :kbd:`enter`                               Select item / confirm
-1x :kbd:`.`                                Copy current object number (e.g. ticket number)
-2x :kbd:`.`                                Add the title of the object to the number
-3x :kbd:`.`                                Add the object link URL to the number and title
+:kbd:`.`                                   Copy current object number (e.g. ticket number)
+:kbd:`..`                                  Add the title of the object to the number
+:kbd:`...`                                 Add the object link URL to the number and title
 ========================================   =================================================
 
 
@@ -113,9 +113,9 @@ Key / key combination                      Function
 :kbd:`i`                                   Switch the visibility of the article between internal and public
 :kbd:`shift` :kbd:`c`                      Set state of the ticket to "closed"
 :kbd:`◀` / :kbd:`▶`                        Navigate through article
-``::``                                     Insert text module (while composing an article)
-``??``                                     Insert knowledge base article (while composing an article)
-``@@``                                     Mention a user (while composing an article)
+:kbd:`::`                                  Insert text module (while composing an article)
+:kbd:`??`                                  Insert knowledge base article (while composing an article)
+:kbd:`@@`                                  Mention a user (while composing an article)
 ========================================   =================================================================
 
 Text Editing
