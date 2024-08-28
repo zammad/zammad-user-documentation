@@ -17,6 +17,9 @@ checklist, if you have the permission to edit the ticket.
 Usage
 -----
 
+Basics
+^^^^^^
+
 If you want to add a checklist to a ticket, go to the "Checklist" tab and click
 either on "Add empty checklist" (1) or "Add from template" (2) after selecting
 a template. If you can't see the the "Add from template" area, there is no
@@ -51,4 +54,23 @@ You can perform most of these edit, add and delete actions on different ways:
    :scale: 80%
 
    Screenshot of editing an item by simply clicking on it.
+
+Additional Features
+^^^^^^^^^^^^^^^^^^^
+
+Refer to other tickets in the checklist
+   If you want to add another ticket as a checklist item, you can do so by
+   typing/pasting the ticket hook and number in the item label (e.g.
+   ``Ticket#423456``). This item is not manually checkable but reflects the
+   state of the ticket.
+
+Check of completed checklist
+   Zammad includes a feature which checks if all of the checklist items are
+   done. The check is performed when you set a ticket to a closed state.
+   If not, Zammad will ask you if you want to work on the checklist and keep
+   the ticket open or if you want to close the ticket anyway.
+
+   Be aware that this check is also about the state of referenced tickets.
+   Only tickets which are closed (green circle) are considered as finished.
+
 
