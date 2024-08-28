@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 15:43+0200\n"
+"POT-Creation-Date: 2024-08-28 15:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3831,7 +3831,7 @@ msgstr ""
 msgid "Additional Features"
 msgstr ""
 
-#: ../extras/checklist.rst:65
+#: ../extras/checklist.rst:69
 msgid "Refer to other tickets in the checklist"
 msgstr ""
 
@@ -3839,16 +3839,20 @@ msgstr ""
 msgid "If you want to add another ticket as a checklist item, you can do so by typing/pasting the ticket hook and number in the item label (e.g. ``Ticket#423456``). This item is not manually checkable but reflects the state of the ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:75
+#: ../extras/checklist.rst:67
+msgid "You can copy the ticket hook and number from another ticket by clicking on the copy button at the top or using the keyboard shortcut by pressing :kbd:`.` in the other ticket."
+msgstr ""
+
+#: ../extras/checklist.rst:79
 msgid "Check of completed checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:68
-msgid "Zammad includes a feature which checks if all of the checklist items are done. The check is performed when you set a ticket to a closed state. If not, Zammad will ask you if you want to work on the checklist and keep the ticket open or if you want to close the ticket anyway."
+#: ../extras/checklist.rst:72
+msgid "Zammad includes a feature which checks if all of the checklist items are done. The check is performed when you set a ticket to closed. If not, Zammad will ask you if you want to work on the checklist and keep the ticket open or if you want to close the ticket anyway."
 msgstr ""
 
-#: ../extras/checklist.rst:73
-msgid "Be aware that this check is also about the state of referenced tickets. Only tickets which are closed (green circle) are considered as finished."
+#: ../extras/checklist.rst:77
+msgid "Be aware that this check is also about the state of referenced tickets. Only tickets which are closed (green circle) are considered as done."
 msgstr ""
 
 #: ../extras/customers.rst:2

@@ -64,13 +64,17 @@ Refer to other tickets in the checklist
    ``Ticket#423456``). This item is not manually checkable but reflects the
    state of the ticket.
 
+   .. tip:: You can copy the ticket hook and number from another ticket by
+      clicking on the copy button at the top or using the keyboard shortcut
+      by pressing :kbd:`.` in the other ticket.
+
 Check of completed checklist
    Zammad includes a feature which checks if all of the checklist items are
-   done. The check is performed when you set a ticket to a closed state.
+   done. The check is performed when you set a ticket to closed.
    If not, Zammad will ask you if you want to work on the checklist and keep
    the ticket open or if you want to close the ticket anyway.
 
    Be aware that this check is also about the state of referenced tickets.
-   Only tickets which are closed (green circle) are considered as finished.
+   Only tickets which are closed (green circle) are considered as done.
 
 
