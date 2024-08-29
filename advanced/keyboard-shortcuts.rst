@@ -70,8 +70,8 @@ Key / key combination                      Function
 :kbd:`?`                                   Open shortcuts overview
 :kbd:`shift` :kbd:`l`                      Log out
 :kbd:`shift` :kbd:`w`                      Close current tab
-:kbd:`shift` :kbd:`→`                      Show next tab
-:kbd:`shift` :kbd:`←`                      Show previous tab
+:kbd:`shift` :kbd:`▶`                      Show next tab
+:kbd:`shift` :kbd:`◀`                      Show previous tab
 :kbd:`shift` :kbd:`enter`                  Confirm/submit in dialogs
 :kbd:`▲` / :kbd:`▼`                        Move selection/cursor up and down
 :kbd:`◀` / :kbd:`▶`                        Move selection/cursor left and right
