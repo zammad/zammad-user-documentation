@@ -59,22 +59,22 @@ Additional Features
 ^^^^^^^^^^^^^^^^^^^
 
 Refer to other tickets in the checklist
-   If you want to add another ticket as a checklist item, you can do so by
-   typing/pasting the ticket hook and number in the item label (e.g.
-   ``Ticket#423456``). This item is not manually checkable but reflects the
-   state of the ticket.
+   You can add another ticket as a checklist item by typing or pasting its hook
+   and number into the item label (e.g. ``Ticket#423456``). This item is not
+   manually checkable but reflects the state of the referenced ticket.
 
-   .. tip:: You can copy the ticket hook and number from another ticket by
-      clicking on the copy button at the top or using the keyboard shortcut
-      by pressing :kbd:`.` in the other ticket.
+   .. tip:: **Copying ticket hook and number**
+
+      To copy the ticket hook and number from another ticket, click on the copy
+      button at the top or use the keyboard shortcut :kbd:`.` in that ticket.
 
 Check of completed checklist
-   Zammad includes a feature which checks if all of the checklist items are
-   done. The check is performed when you set a ticket to closed.
-   If not, Zammad will ask you if you want to work on the checklist and keep
-   the ticket open or if you want to close the ticket anyway.
+   Zammad includes a feature to automatically check if all checklist items are
+   completed. The check is performed when you set a ticket to closed.
+   If not all items are completed, Zammad will prompt you to either work on the
+   remaining tasks and keep the ticket open or to close it anyway.
 
-   Be aware that this check is also about the state of referenced tickets.
-   Only tickets which are closed (green circle) are considered as done.
+   When referencing other tickets in your checklist, only those which are
+   closed (with a green circle) are considered as completed.
 
 

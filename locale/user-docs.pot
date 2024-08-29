@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 15:48+0200\n"
+"POT-Creation-Date: 2024-08-29 08:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3836,11 +3836,15 @@ msgid "Refer to other tickets in the checklist"
 msgstr ""
 
 #: ../extras/checklist.rst:62
-msgid "If you want to add another ticket as a checklist item, you can do so by typing/pasting the ticket hook and number in the item label (e.g. ``Ticket#423456``). This item is not manually checkable but reflects the state of the ticket."
+msgid "You can add another ticket as a checklist item by typing or pasting its hook and number into the item label (e.g. ``Ticket#423456``). This item is not manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:67
-msgid "You can copy the ticket hook and number from another ticket by clicking on the copy button at the top or using the keyboard shortcut by pressing :kbd:`.` in the other ticket."
+#: ../extras/checklist.rst:66
+msgid "**Copying ticket hook and number**"
+msgstr ""
+
+#: ../extras/checklist.rst:68
+msgid "To copy the ticket hook and number from another ticket, click on the copy button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
 
 #: ../extras/checklist.rst:79
@@ -3848,11 +3852,11 @@ msgid "Check of completed checklist"
 msgstr ""
 
 #: ../extras/checklist.rst:72
-msgid "Zammad includes a feature which checks if all of the checklist items are done. The check is performed when you set a ticket to closed. If not, Zammad will ask you if you want to work on the checklist and keep the ticket open or if you want to close the ticket anyway."
+msgid "Zammad includes a feature to automatically check if all checklist items are completed. The check is performed when you set a ticket to closed. If not all items are completed, Zammad will prompt you to either work on the remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
 
 #: ../extras/checklist.rst:77
-msgid "Be aware that this check is also about the state of referenced tickets. Only tickets which are closed (green circle) are considered as done."
+msgid "When referencing other tickets in your checklist, only those which are closed (with a green circle) are considered as completed."
 msgstr ""
 
 #: ../extras/customers.rst:2
