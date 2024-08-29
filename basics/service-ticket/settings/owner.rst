@@ -4,7 +4,7 @@ Owner
 A ticket's **owner** is simply
 *the agent that is currently responsible for it*.
 
-Whose job is it to assign tickets?
+Whose Job Is It to Assign Tickets?
 ----------------------------------
 
 It depends on your organization's workflow,
@@ -17,7 +17,7 @@ In principle, any agent may assign a ticket to any other,
 as long as both have the required privileges
 for the ticket's :doc:`group </basics/service-ticket/settings/group>`.
 
-Why would I want to re-assign a ticket to someone else?
+Why Would I Want to Re-assign a Ticket to Someone Else?
 -------------------------------------------------------
 
 Sometimes, complicated issues will require a ticket
