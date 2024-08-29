@@ -16,7 +16,7 @@ and may be one of the following:
 * pending reminder
   (*i.e.,* hidden, but scheduled to reappear at a later date)
 
-State colors
+State Colors
 ------------
 
 Zammad states are color-coded. This helps you to understanding the state of
@@ -26,7 +26,7 @@ the ticket much faster in general - without having a look into details.
 
 .. _new-vs-open:
 
-What's the difference between “new” and “open”?
+What's the Difference Between “New” and “Open”?
 -----------------------------------------------
 
 States do more than just indicate progress: Zammad has a fine-grained time

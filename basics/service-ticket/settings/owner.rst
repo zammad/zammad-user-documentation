@@ -4,7 +4,7 @@ Owner
 A ticket's **owner** is simply
 *the agent that is currently responsible for it*.
 
-Whose Job Is It to Assign Tickets?
+Whose Job is it to Assign Tickets?
 ----------------------------------
 
 It depends on your organization's workflow,
