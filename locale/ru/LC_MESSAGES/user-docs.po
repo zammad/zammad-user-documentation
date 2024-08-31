@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 10:10+0200\n"
+"POT-Creation-Date: 2024-08-29 14:15+0200\n"
 "PO-Revision-Date: 2024-08-06 10:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
@@ -222,7 +222,7 @@ msgid "Close current tab"
 msgstr "Закрыть текущую вкладку"
 
 #: ../advanced/keyboard-shortcuts.rst:73
-msgid ":kbd:`shift` :kbd:`→`"
+msgid ":kbd:`shift` :kbd:`▶`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:73
@@ -230,7 +230,7 @@ msgid "Show next tab"
 msgstr "Показать следующую вкладку"
 
 #: ../advanced/keyboard-shortcuts.rst:74
-msgid ":kbd:`shift` :kbd:`←`"
+msgid ":kbd:`shift` :kbd:`◀`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:74
@@ -2692,7 +2692,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:29
-msgid "Managing groups"
+msgid "Managing Groups"
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:31
@@ -2716,7 +2716,7 @@ msgid "This user belongs to only one group (“Users”)."
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:46
-msgid "So where do I come in?"
+msgid "So Where Do I Come In?"
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:48
@@ -2738,7 +2738,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/settings/owner.rst:8
-msgid "Whose job is it to assign tickets?"
+msgid "Whose Job is it to Assign Tickets?"
 msgstr ""
 
 #: ../basics/service-ticket/settings/owner.rst:10
@@ -2756,7 +2756,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/settings/owner.rst:21
-msgid "Why would I want to re-assign a ticket to someone else?"
+msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
 msgstr ""
 
 #: ../basics/service-ticket/settings/owner.rst:23
@@ -2854,7 +2854,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:20
-msgid "State colors"
+msgid "State Colors"
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:22
@@ -2864,7 +2864,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:30
-msgid "What's the difference between “new” and “open”?"
+msgid "What's the Difference Between “New” and “Open”?"
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:32
@@ -4739,7 +4739,11 @@ msgstr ""
 msgid "Usage"
 msgstr ""
 
-#: ../extras/checklist.rst:20
+#: ../extras/checklist.rst:21 ../index.rst:9
+msgid "Basics"
+msgstr ""
+
+#: ../extras/checklist.rst:23
 msgid ""
 "If you want to add a checklist to a ticket, go to the \"Checklist\" tab and "
 "click either on \"Add empty checklist\" (1) or \"Add from template\" (2) "
@@ -4747,66 +4751,109 @@ msgid ""
 "area, there is no template available."
 msgstr ""
 
-#: ../extras/checklist.rst:30
+#: ../extras/checklist.rst:33
 msgid "Checklist creation dialog"
 msgstr ""
 
-#: ../extras/checklist.rst:30
+#: ../extras/checklist.rst:33
 msgid "Screenshot of adding template or new checklist."
 msgstr ""
 
-#: ../extras/checklist.rst:32
+#: ../extras/checklist.rst:35
 msgid ""
 "Depending on your choice, you can create your own new checklist or use a "
 "predefined template. In both cases, you can:"
 msgstr ""
 
-#: ../extras/checklist.rst:35
+#: ../extras/checklist.rst:38
 msgid "Edit the checklist title"
 msgstr ""
 
-#: ../extras/checklist.rst:36
+#: ../extras/checklist.rst:39
 msgid "Edit the checklist items (reorder, rename, add, delete)"
 msgstr ""
 
-#: ../extras/checklist.rst:37
+#: ../extras/checklist.rst:40
 msgid "Remove the complete checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:38
+#: ../extras/checklist.rst:41
 msgid "Add a checklist, if there is no existing one"
 msgstr ""
 
-#: ../extras/checklist.rst:40
+#: ../extras/checklist.rst:43
 msgid ""
 "You can perform most of these edit, add and delete actions on different ways:"
 msgstr ""
 
-#: ../extras/checklist.rst:42
+#: ../extras/checklist.rst:45
 msgid "Click on the item text (checklist title or checklist item) to edit it"
 msgstr ""
 
-#: ../extras/checklist.rst:43
+#: ../extras/checklist.rst:46
 msgid "Click on the checkbox to check an item"
 msgstr ""
 
-#: ../extras/checklist.rst:44
+#: ../extras/checklist.rst:47
 msgid ""
 "Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
 msgstr ""
 
-#: ../extras/checklist.rst:45
+#: ../extras/checklist.rst:48
 msgid "To add an item, click on the \"+ Add\" button"
 msgstr ""
 
-#: ../extras/checklist.rst:46
+#: ../extras/checklist.rst:49
 msgid ""
 "To reorder them, use the corresponding button. You can then drag & drop the "
 "items via the ≣ handle."
 msgstr ""
 
-#: ../extras/checklist.rst:53
+#: ../extras/checklist.rst:56
 msgid "Screenshot of editing an item by simply clicking on it."
+msgstr ""
+
+#: ../extras/checklist.rst:59
+msgid "Additional Features"
+msgstr ""
+
+#: ../extras/checklist.rst:69
+msgid "Refer to other tickets in the checklist"
+msgstr ""
+
+#: ../extras/checklist.rst:62
+msgid ""
+"You can add another ticket as a checklist item by typing or pasting its hook "
+"and number into the item label (e.g. ``Ticket#423456``). This item is not "
+"manually checkable but reflects the state of the referenced ticket."
+msgstr ""
+
+#: ../extras/checklist.rst:66
+msgid "**Copying ticket hook and number**"
+msgstr ""
+
+#: ../extras/checklist.rst:68
+msgid ""
+"To copy the ticket hook and number from another ticket, click on the copy "
+"button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
+msgstr ""
+
+#: ../extras/checklist.rst:79
+msgid "Check of completed checklist"
+msgstr ""
+
+#: ../extras/checklist.rst:72
+msgid ""
+"Zammad includes a feature to automatically check if all checklist items are "
+"completed. The check is performed when you set a ticket to closed. If not "
+"all items are completed, Zammad will prompt you to either work on the "
+"remaining tasks and keep the ticket open or to close it anyway."
+msgstr ""
+
+#: ../extras/checklist.rst:77
+msgid ""
+"When referencing other tickets in your checklist, only those which are "
+"closed (with a green circle) are considered as completed."
 msgstr ""
 
 #: ../extras/customers.rst:2
@@ -7296,10 +7343,6 @@ msgstr ""
 #: ../extras/two-factor-authentication/security-keys-sign-in.rst:26
 msgid ""
 "In case of errors, you will be able to **Retry** the verification of the key."
-msgstr ""
-
-#: ../index.rst:9
-msgid "Basics"
 msgstr ""
 
 #: ../index.rst:20
