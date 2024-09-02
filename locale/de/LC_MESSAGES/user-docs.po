@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 10:10+0200\n"
-"PO-Revision-Date: 2024-08-27 09:00+0000\n"
+"POT-Creation-Date: 2024-08-29 14:15+0200\n"
+"PO-Revision-Date: 2024-08-31 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -219,16 +219,16 @@ msgid "Close current tab"
 msgstr "Tab schließen"
 
 #: ../advanced/keyboard-shortcuts.rst:73
-msgid ":kbd:`shift` :kbd:`→`"
-msgstr ":kbd:`shift` :kbd:`→`"
+msgid ":kbd:`shift` :kbd:`▶`"
+msgstr ":kbd:`shift` :kbd:`▶`"
 
 #: ../advanced/keyboard-shortcuts.rst:73
 msgid "Show next tab"
 msgstr "Nächsten Tab anzeigen"
 
 #: ../advanced/keyboard-shortcuts.rst:74
-msgid ":kbd:`shift` :kbd:`←`"
-msgstr ":kbd:`shift` :kbd:`←`"
+msgid ":kbd:`shift` :kbd:`◀`"
+msgstr ":kbd:`shift` :kbd:`◀`"
 
 #: ../advanced/keyboard-shortcuts.rst:74
 msgid "Show previous tab"
@@ -564,9 +564,8 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
 "`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle von "
-":kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle von :kbd:`shift` "
-":kbd:`strg`."
+"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle von :kbd:"
+"`strg` und :kbd:`strg` :kbd:`option` anstelle von :kbd:`shift` :kbd:`strg`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -3156,8 +3155,8 @@ msgstr ""
 "er immer nur die Tickets sehen, die zu seiner jeweiligen Gruppe gehören."
 
 #: ../basics/service-ticket/settings/group.rst:29
-msgid "Managing groups"
-msgstr "Gruppenverwaltung"
+msgid "Managing Groups"
+msgstr "Gruppen verwalten"
 
 #: ../basics/service-ticket/settings/group.rst:31
 msgid ""
@@ -3185,8 +3184,8 @@ msgid "This user belongs to only one group (“Users”)."
 msgstr "Dieser Benutzer gehört nur zu einer Gruppe (\"Users\")."
 
 #: ../basics/service-ticket/settings/group.rst:46
-msgid "So where do I come in?"
-msgstr "Also, wo komme ich ins Spiel?"
+msgid "So Where Do I Come In?"
+msgstr "Wo komme ich ins Spiel?"
 
 #: ../basics/service-ticket/settings/group.rst:48
 msgid ""
@@ -3213,7 +3212,7 @@ msgstr ""
 "verantwortlich* ist."
 
 #: ../basics/service-ticket/settings/owner.rst:8
-msgid "Whose job is it to assign tickets?"
+msgid "Whose Job is it to Assign Tickets?"
 msgstr "Wessen Aufgabe ist es, Tickets zuzuweisen?"
 
 #: ../basics/service-ticket/settings/owner.rst:10
@@ -3237,7 +3236,7 @@ msgstr ""
 "ticket/settings/group>` haben."
 
 #: ../basics/service-ticket/settings/owner.rst:21
-msgid "Why would I want to re-assign a ticket to someone else?"
+msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
 msgstr "Warum sollte ich ein Ticket jemand anderem zuweisen?"
 
 #: ../basics/service-ticket/settings/owner.rst:23
@@ -3359,7 +3358,7 @@ msgstr ""
 "zum geplanten Zeitpunkt wieder erscheinen)"
 
 #: ../basics/service-ticket/settings/state.rst:20
-msgid "State colors"
+msgid "State Colors"
 msgstr "Status-Farben"
 
 #: ../basics/service-ticket/settings/state.rst:22
@@ -3371,7 +3370,7 @@ msgstr ""
 "viel schneller zu verstehen - ohne einen Blick in den Verlauf zu werfen."
 
 #: ../basics/service-ticket/settings/state.rst:30
-msgid "What's the difference between “new” and “open”?"
+msgid "What's the Difference Between “New” and “Open”?"
 msgstr "Worin besteht der Unterschied zwischen \"neu\" und \"offen\"?"
 
 #: ../basics/service-ticket/settings/state.rst:32
@@ -5832,7 +5831,11 @@ msgstr ""
 msgid "Usage"
 msgstr "Nutzung"
 
-#: ../extras/checklist.rst:20
+#: ../extras/checklist.rst:21 ../index.rst:9
+msgid "Basics"
+msgstr "Grundlagen"
+
+#: ../extras/checklist.rst:23
 msgid ""
 "If you want to add a checklist to a ticket, go to the \"Checklist\" tab and "
 "click either on \"Add empty checklist\" (1) or \"Add from template\" (2) "
@@ -5845,17 +5848,17 @@ msgstr ""
 "Vorlage ausgewählt haben. Wenn Sie den Bereich \"Aus Vorlage hinzufügen\" "
 "nicht sehen können, ist keine Vorlage verfügbar."
 
-#: ../extras/checklist.rst:30
+#: ../extras/checklist.rst:33
 msgid "Checklist creation dialog"
 msgstr "Dialog zur Erstellung der Checkliste"
 
-#: ../extras/checklist.rst:30
+#: ../extras/checklist.rst:33
 msgid "Screenshot of adding template or new checklist."
 msgstr ""
 "Screenshot zeigt das Hinzufügen aus einer Vorlage oder einer neuen "
 "Checkliste."
 
-#: ../extras/checklist.rst:32
+#: ../extras/checklist.rst:35
 msgid ""
 "Depending on your choice, you can create your own new checklist or use a "
 "predefined template. In both cases, you can:"
@@ -5863,54 +5866,54 @@ msgstr ""
 "Je nach Auswahl können Sie Ihre eigene neue Checkliste erstellen oder eine "
 "vordefinierte Vorlage verwenden. In beiden Fällen können Sie:"
 
-#: ../extras/checklist.rst:35
+#: ../extras/checklist.rst:38
 msgid "Edit the checklist title"
 msgstr "Den Titel der Checkliste bearbeiten"
 
-#: ../extras/checklist.rst:36
+#: ../extras/checklist.rst:39
 msgid "Edit the checklist items (reorder, rename, add, delete)"
 msgstr ""
 "Die Elemente der Checkliste bearbeiten (neu ordnen, umbenennen, hinzufügen, "
 "löschen)"
 
-#: ../extras/checklist.rst:37
+#: ../extras/checklist.rst:40
 msgid "Remove the complete checklist"
 msgstr "Die komplette Checkliste entfernen"
 
-#: ../extras/checklist.rst:38
+#: ../extras/checklist.rst:41
 msgid "Add a checklist, if there is no existing one"
 msgstr "Eine Checkliste hinzufügen, sofern keine vorhanden ist"
 
-#: ../extras/checklist.rst:40
+#: ../extras/checklist.rst:43
 msgid ""
 "You can perform most of these edit, add and delete actions on different ways:"
 msgstr ""
 "Sie können die meisten der Aktionen auf unterschiedliche Weise durchführen:"
 
-#: ../extras/checklist.rst:42
+#: ../extras/checklist.rst:45
 msgid "Click on the item text (checklist title or checklist item) to edit it"
 msgstr ""
 "Klicken Sie auf den Element-Text (Checklistentitel oder Checklistenelement), "
 "um ihn zu bearbeiten"
 
-#: ../extras/checklist.rst:43
+#: ../extras/checklist.rst:46
 msgid "Click on the checkbox to check an item"
 msgstr "Klicken Sie auf die Checkbox, um ein Element abzuhaken"
 
-#: ../extras/checklist.rst:44
+#: ../extras/checklist.rst:47
 msgid ""
 "Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
 msgstr ""
 "Klicken Sie auf ︙ oder auf \"Checkliste\", um Aktionen aus dem Menü "
 "auszuwählen"
 
-#: ../extras/checklist.rst:45
+#: ../extras/checklist.rst:48
 msgid "To add an item, click on the \"+ Add\" button"
 msgstr ""
 "Um ein Element hinzuzufügen, klicken Sie auf die Schaltfläche \"+ "
 "Hinzufügen\""
 
-#: ../extras/checklist.rst:46
+#: ../extras/checklist.rst:49
 msgid ""
 "To reorder them, use the corresponding button. You can then drag & drop the "
 "items via the ≣ handle."
@@ -5918,9 +5921,66 @@ msgstr ""
 "Um sie neu anzuordnen, verwenden Sie die entsprechende Schaltfläche. Sie "
 "können die Elemente dann per Drag & Drop über den ≣ Button verschieben."
 
-#: ../extras/checklist.rst:53
+#: ../extras/checklist.rst:56
 msgid "Screenshot of editing an item by simply clicking on it."
 msgstr "Screenshot zeigt Bearbeitung eines Elements durch einfaches Anklicken."
+
+#: ../extras/checklist.rst:59
+msgid "Additional Features"
+msgstr "Zusätzliche Funktionen"
+
+#: ../extras/checklist.rst:69
+msgid "Refer to other tickets in the checklist"
+msgstr "Auf andere Tickets in der Checkliste verweisen"
+
+#: ../extras/checklist.rst:62
+msgid ""
+"You can add another ticket as a checklist item by typing or pasting its hook "
+"and number into the item label (e.g. ``Ticket#423456``). This item is not "
+"manually checkable but reflects the state of the referenced ticket."
+msgstr ""
+"Sie können ein weiteres Ticket als Element der Checkliste hinzufügen, indem "
+"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. ``Ticket#423456``)"
+". Dieses Element kann nicht manuell abgehakt werden, es spiegelt den Status "
+"des referenzierten Tickets wider."
+
+#: ../extras/checklist.rst:66
+msgid "**Copying ticket hook and number**"
+msgstr "**Kopieren von Ticket-Hook und Nummer**"
+
+#: ../extras/checklist.rst:68
+msgid ""
+"To copy the ticket hook and number from another ticket, click on the copy "
+"button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
+msgstr ""
+"Um den Ticket-Hook und die Ticket-Nummer aus einem anderen Ticket zu "
+"kopieren, klicken Sie auf die Kopier-Schaltfläche oben oder verwenden Sie "
+"das Tastaturkürzel :kbd:`.` in diesem Ticket."
+
+#: ../extras/checklist.rst:79
+msgid "Check of completed checklist"
+msgstr "Überprüfung auf Erledigung der Checkliste"
+
+#: ../extras/checklist.rst:72
+msgid ""
+"Zammad includes a feature to automatically check if all checklist items are "
+"completed. The check is performed when you set a ticket to closed. If not "
+"all items are completed, Zammad will prompt you to either work on the "
+"remaining tasks and keep the ticket open or to close it anyway."
+msgstr ""
+"Zammad prüft automatisch, ob alle Elemente der Checkliste abgeschlossen "
+"sind. Die Prüfung wird durchgeführt, wenn Sie ein Ticket auf \"geschlossen\" "
+"setzen. Wenn nicht alle Elemente erledigt sind, fordert Zammad Sie auf, "
+"entweder die verbleibenden Aufgaben zu bearbeiten und das Ticket offen zu "
+"lassen oder es trotzdem zu schließen."
+
+#: ../extras/checklist.rst:77
+msgid ""
+"When referencing other tickets in your checklist, only those which are "
+"closed (with a green circle) are considered as completed."
+msgstr ""
+"Wenn Sie in Ihrer Checkliste auf andere Tickets verweisen, gelten nur "
+"diejenigen als erledigt, die abgeschlossen sind (mit einem grünen Kreis)."
 
 #: ../extras/customers.rst:2
 msgid "Customers"
@@ -9045,10 +9105,6 @@ msgid ""
 msgstr ""
 "Im Fehlerfall können Sie die Prüfung des Schlüssels **Erneut versuchen**."
 
-#: ../index.rst:9
-msgid "Basics"
-msgstr "Grundlagen"
-
 #: ../index.rst:20
 msgid "Advanced Topics"
 msgstr "Weiterführende Themen"
@@ -9070,6 +9126,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid ":kbd:`shift` :kbd:`←`"
+#~ msgstr ":kbd:`shift` :kbd:`←`"
 
 #~ msgid "Where to Find Them?"
 #~ msgstr "Wo finde ich diese?"
