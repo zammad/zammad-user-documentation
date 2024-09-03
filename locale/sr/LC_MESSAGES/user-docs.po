@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-29 14:15+0200\n"
-"PO-Revision-Date: 2024-08-31 08:00+0000\n"
+"PO-Revision-Date: 2024-09-03 10:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -3123,8 +3123,6 @@ msgstr ""
 "settings/group>` тикета."
 
 #: ../basics/service-ticket/settings/owner.rst:21
-#, fuzzy
-#| msgid "Why would I want to re-assign a ticket to someone else?"
 msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
 msgstr "Зашто бих желео да доделим тикет неком другом?"
 
@@ -3243,8 +3241,6 @@ msgstr ""
 "касније)"
 
 #: ../basics/service-ticket/settings/state.rst:20
-#, fuzzy
-#| msgid "State colors"
 msgid "State Colors"
 msgstr "Боје стања"
 
@@ -3257,8 +3253,6 @@ msgstr ""
 "тикета – без увида у детаље."
 
 #: ../basics/service-ticket/settings/state.rst:30
-#, fuzzy
-#| msgid "What's the difference between “new” and “open”?"
 msgid "What's the Difference Between “New” and “Open”?"
 msgstr "Која је разлика између „новог“ и „отвореног“?"
 
@@ -5745,13 +5739,11 @@ msgstr "Снимак екрана приликом уређивања задат
 
 #: ../extras/checklist.rst:59
 msgid "Additional Features"
-msgstr ""
+msgstr "Додатне функције"
 
 #: ../extras/checklist.rst:69
-#, fuzzy
-#| msgid "Remove the complete checklist"
 msgid "Refer to other tickets in the checklist"
-msgstr "Уклоните комплетан списак"
+msgstr "Укажите на друге тикете у списку задатака"
 
 #: ../extras/checklist.rst:62
 msgid ""
@@ -5759,22 +5751,26 @@ msgid ""
 "and number into the item label (e.g. ``Ticket#423456``). This item is not "
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
+"Можете додати други тикет као задатак на списак уносом или налепљивањем "
+"његовог прикључка и броја као назив (нпр. ``Ticket#423456``). Овај задатак "
+"се не може ручно означити већ приказује тренутно стање наведеног тикета."
 
 #: ../extras/checklist.rst:66
 msgid "**Copying ticket hook and number**"
-msgstr ""
+msgstr "**Копирање прикључка и броја тикета**"
 
 #: ../extras/checklist.rst:68
 msgid ""
 "To copy the ticket hook and number from another ticket, click on the copy "
 "button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
+"Да бисте ископирали прикључак и број другог тикета, кликните на дугме за "
+"копирање при врху прегледа или користите пречицу на тастатури :kbd:`.` у том "
+"тикету."
 
 #: ../extras/checklist.rst:79
-#, fuzzy
-#| msgid "Remove the complete checklist"
 msgid "Check of completed checklist"
-msgstr "Уклоните комплетан списак"
+msgstr "Провера завршеног списка"
 
 #: ../extras/checklist.rst:72
 msgid ""
@@ -5783,12 +5779,18 @@ msgid ""
 "all items are completed, Zammad will prompt you to either work on the "
 "remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
+"Zammad укључује и функцију која аутоматски проверава да ли су сви задаци са "
+"списка комплетирани. Провера се извршава када затварате тикет. Уколико нису "
+"означене сви задаци, Zammad ће вас упитати да ли желите да наставите рад на "
+"осталим задацима и задржите тикет отвореним или да га свакако затворите."
 
 #: ../extras/checklist.rst:77
 msgid ""
 "When referencing other tickets in your checklist, only those which are "
 "closed (with a green circle) are considered as completed."
 msgstr ""
+"Када референцирате друге тикета у свом списку, само они који су затворени ("
+"са зеленим кругом) се сматрају одзначеним."
 
 #: ../extras/customers.rst:2
 msgid "Customers"
