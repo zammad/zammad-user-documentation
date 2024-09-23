@@ -72,7 +72,7 @@ Key / key combination                      Function
 :kbd:`shift` :kbd:`w`                      Close current tab
 :kbd:`shift` :kbd:`▶`                      Show next tab
 :kbd:`shift` :kbd:`◀`                      Show previous tab
-:kbd:`shift` :kbd:`enter`                  Confirm/submit in dialogs
+:kbd:`ctrl` :kbd:`enter`                   Confirm/submit in dialogs
 :kbd:`▲` / :kbd:`▼`                        Move selection/cursor up and down
 :kbd:`◀` / :kbd:`▶`                        Move selection/cursor left and right
 :kbd:`enter`                               Select item / confirm
