@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-29 14:15+0200\n"
+"POT-Creation-Date: 2024-09-18 15:22+0100\n"
 "PO-Revision-Date: 2024-08-31 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -235,8 +235,10 @@ msgid "Show previous tab"
 msgstr "Vorherigen Tab anzeigen"
 
 #: ../advanced/keyboard-shortcuts.rst:75
-msgid ":kbd:`shift` :kbd:`enter`"
-msgstr ":kbd:`shift` :kbd:`enter`"
+#, fuzzy
+#| msgid ":kbd:`ctrl` :kbd:`u`"
+msgid ":kbd:`ctrl` :kbd:`enter`"
+msgstr ":kbd:`strg` :kbd:`u`"
 
 #: ../advanced/keyboard-shortcuts.rst:75
 msgid "Confirm/submit in dialogs"
@@ -5940,9 +5942,9 @@ msgid ""
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 "Sie können ein weiteres Ticket als Element der Checkliste hinzufügen, indem "
-"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. ``Ticket#423456``)"
-". Dieses Element kann nicht manuell abgehakt werden, es spiegelt den Status "
-"des referenzierten Tickets wider."
+"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. "
+"``Ticket#423456``). Dieses Element kann nicht manuell abgehakt werden, es "
+"spiegelt den Status des referenzierten Tickets wider."
 
 #: ../extras/checklist.rst:66
 msgid "**Copying ticket hook and number**"
@@ -9126,6 +9128,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem :"
 "docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </index."
 "html>` verfügbar."
+
+#~ msgid ":kbd:`shift` :kbd:`enter`"
+#~ msgstr ":kbd:`shift` :kbd:`enter`"
 
 #~ msgid ":kbd:`shift` :kbd:`←`"
 #~ msgstr ":kbd:`shift` :kbd:`←`"
