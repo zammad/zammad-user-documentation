@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 15:22+0100\n"
-"PO-Revision-Date: 2024-08-06 10:00+0000\n"
+"PO-Revision-Date: 2024-10-09 16:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -594,15 +594,14 @@ msgstr ""
 "сделать твою работу проще."
 
 #: ../advanced/macros.rst:10
-#, fuzzy
 msgid ""
 "Macros can be created by your :admin-docs:`administrator </manage/macros."
 "html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
 "can probably make it happen."
 msgstr ""
-"Ты не можешь – это `работа администратора <https://admin-docs.zammad.org/en/"
-"latest/manage/macros.html>`_. Если у тебя есть идеи для макроса который "
-"можно использовать, ваш Zammad админ возможно поможет этому случится."
+"Макросы могут быть созданы вашим :admin-docs:`администратором </manage/macros"
+".html>`. Если у Вас есть идея макроса, который Вы хотели бы использовать, "
+"Ваш администратор Zammad, вероятно, сможет воплотить её в жизнь."
 
 #: ../advanced/macros.rst:14
 msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
@@ -634,6 +633,9 @@ msgid ""
 "<ticket_settings>` (including typing up a reply to the customer), applying a "
 "macro will save them, too."
 msgstr ""
+"Если Вы внесли изменения в другие настройки :ref:`s в заявке "
+"<ticket_settings>` (в том числе напечатали ответ клиенту), применение "
+"макроса сохранит и их."
 
 #: ../advanced/macros.rst:34
 msgid ""
@@ -725,20 +727,24 @@ msgid ""
 "For instance you can search for a specific customer by using ``customer."
 "attribute``::"
 msgstr ""
+"Например, вы можете искать конкретного клиента, используя ``customer."
+"attribute``::"
 
 #: ../advanced/search.rst:13
 msgid "or::"
-msgstr ""
+msgstr "или::"
 
 #: ../advanced/search.rst:18
 msgid ""
 "If you want to run a more complex search, you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
+"Если вы хотите выполнить более сложный поиск, вы можете использовать условия "
+"с опциями ``()`` и ``AND``/ ``OR``::"
 
 #: ../advanced/search.rst:24
 msgid "Available Attributes"
-msgstr ""
+msgstr "Доступные атрибуты"
 
 #: ../advanced/search.rst:28
 msgid ""
@@ -746,18 +752,21 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
+"Для получения более подробного списка доступных атрибутов, пожалуйста, "
+"ознакомьтесь с нашей :docs:`Документацией по системе Zammad </install/"
+"elasticsearch/indexed-attributes.html>`."
 
 #: ../advanced/search.rst:35
 msgid "Attributes and their usuage"
-msgstr ""
+msgstr "Атрибуты и их использование"
 
 #: ../advanced/search.rst:1
 msgid "Attribute"
-msgstr ""
+msgstr "Атрибут"
 
 #: ../advanced/search.rst:1
 msgid "possible Values"
-msgstr ""
+msgstr "возможные значения"
 
 #: ../advanced/search.rst:1
 msgid "Example"
@@ -826,10 +835,12 @@ msgid ""
 "You can either use a simple date, a date-range or >now-xh. Please note that "
 "the date format needs to be YYYY-MM-DD"
 msgstr ""
+"Вы можете использовать либо простую дату, либо диапазон дат, либо >now-xh. "
+"Обратите внимание, что формат даты должен быть ГГГГ-ММ-ДД"
 
 #: ../advanced/search.rst:1
 msgid "state.name"
-msgstr ""
+msgstr "state.name"
 
 #: ../advanced/search.rst:1
 msgid "new |br|\\ open |br|\\ closed"
@@ -837,7 +848,7 @@ msgstr "new |br|\\ open |br|\\ closed"
 
 #: ../advanced/search.rst:1
 msgid "state.name: new |br|\\ state.name:new OR open"
-msgstr ""
+msgstr "state.name: new |br|\\ state.name:new OR open"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -845,6 +856,10 @@ msgid ""
 "OR). Please note that you need to use the english namings for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
+"Вы можете отфильтровать определенные состояния заявки (и даже объединить их "
+"с помощью OR). Обратите внимание, что Вы должны использовать английские "
+"названия состояний, если только в Вашем экземпляре Zammad не определены "
+"пользовательские состояния заявки на другом языке."
 
 #: ../advanced/search.rst:1
 msgid "article_count"
@@ -868,6 +883,8 @@ msgid ""
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
+"Вы можете искать Заявки с определенным количеством статей (например, Вы "
+"можете искать заявки с 5 или более статьями, или заявки до 5 статей)."
 
 #: ../advanced/search.rst:1
 msgid "article.from"
@@ -883,7 +900,7 @@ msgstr "article.from:\\*bob\\*"
 
 #: ../advanced/search.rst:1
 msgid "Show all tickets that contain articles from \"Bob\""
-msgstr ""
+msgstr "Показать все заявки, содержащие статьи от \"Bob\""
 
 #: ../advanced/search.rst:1
 msgid "article.body"
@@ -908,10 +925,14 @@ msgid ""
 "\"head\". Zammad will also allow you to use regular expressions, where ever "
 "the attributes allows it."
 msgstr ""
+"Первый пример показывает все заявки, содержащие слово \"heat\". Вы также "
+"можете использовать нечеткий оператор \"~\" для поиска похожих слов, "
+"например, таких как \"head\". Zammad также позволит Вам использовать "
+"регулярные выражения там, где это позволяют атрибуты."
 
 #: ../advanced/search.rst:48
 msgid "Combining Search Phrases"
-msgstr ""
+msgstr "Комбинирование поисковых фраз"
 
 #: ../advanced/search.rst:50
 msgid ""
