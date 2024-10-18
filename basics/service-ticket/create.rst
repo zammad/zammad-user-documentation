@@ -32,27 +32,26 @@ Title
    for all email correspondences.
 
 Customer
-   When entering a customer,
-   the autocomplete menu searches for **email addresses only**.
-   You **must** select an option from the autocomplete menu,
-   or else create a new customer.
+   Enter a name or email address of a customer to search. You can even search
+   for organizations and their members. Select an option from the autocomplete
+   menu or create a new customer by clicking the "➕ Create new Customer"
+   button. A ticket may only have **one** customer.
 
-   You may **not** assign a ticket to more than one customer.
+.. figure:: /images/basics/service-ticket/search-customer.png
+   :alt: Screenshot showing customer search while creating a new ticket
+   :scale: 80%
+   :align: center
 
-   .. figure:: /images/basics/service-ticket/create-customer-autocomplete.gif
-      :alt: Customer autocomplete menu
+   Ticket creation with customer suggestion based on search.
+
+.. tip:: **🖱️ UI Protip**
+
+   Once a customer has been selected,
+   her profile will be accessible from the **ticket pane**.
+
+   .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.png
+      :alt: Ticket pane (Customer view)
       :align: center
-
-      Autocomplete can't find customers by name.
-
-   .. tip:: **🖱️ UI Protip**
-
-      Once a customer has been selected,
-      her profile will be accessible from the **ticket pane**.
-
-      .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.png
-         :alt: Ticket pane (Customer view)
-         :align: center
 
 Text
    📞 For phone calls, record the details of your conversation.
