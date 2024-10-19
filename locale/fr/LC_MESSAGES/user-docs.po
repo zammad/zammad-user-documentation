@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-29 14:15+0200\n"
+"POT-Creation-Date: 2024-10-18 10:59+0200\n"
 "PO-Revision-Date: 2024-10-07 17:00+0000\n"
 "Last-Translator: Misha <misha@association-enoria.org>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -241,7 +241,8 @@ msgstr "Traductions"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid "Note: you need to have admin permissions to use this."
-msgstr "Note : vous devez avoir les permissions administrateur pour faire cela."
+msgstr ""
+"Note : vous devez avoir les permissions administrateur pour faire cela."
 
 #: ../advanced/keyboard-shortcuts.rst:70
 msgid "``shift`` + ``ctrl`` + ``t``"
@@ -808,8 +809,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1275,8 +1276,8 @@ msgid ""
 "tickets. This means you can adjust the following ticket information:"
 msgstr ""
 "Dans les vues d'ensemble et les recherches de tickets, vous pouvez lancer "
-"des opérations de masse. Ainsi, vous pouvez modifier ces données des tickets "
-":"
+"des opérations de masse. Ainsi, vous pouvez modifier ces données des "
+"tickets :"
 
 #: ../advanced/suggested-workflows.rst:102
 msgid "group"
@@ -1423,7 +1424,7 @@ msgid "Omnisearch"
 msgstr "Omnisearch"
 
 #: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
-#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Protip**"
@@ -1992,8 +1993,8 @@ msgid ""
 "*Templates* column. If Zammad has any templates for you to apply, you'll be "
 "provided with a drop down list to choose from."
 msgstr ""
-"Dans l'affichage des *nouveaux tickets*, utilisez l'onglet 🗒️sur la droite "
-"de l'écran pour afficher la colonne *Modèle*. Si Zammad a des modèles "
+"Dans l'affichage des *nouveaux tickets*, utilisez l'onglet 🗒️sur la droite de "
+"l'écran pour afficher la colonne *Modèle*. Si Zammad a des modèles "
 "disponibles, vous aurez un menu déroulant pour le sélectionner."
 
 #: ../advanced/ticket-templates.rst:19
@@ -2427,33 +2428,29 @@ msgstr ""
 "Le titre du ticket sera utilisé comme **ligne de sujet** pour toutes les "
 "correspondances par courriel."
 
-#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
+#: ../basics/service-ticket/create.rst:38 ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr "Client"
 
 #: ../basics/service-ticket/create.rst:35
 msgid ""
-"When entering a customer, the autocomplete menu searches for **email "
-"addresses only**. You **must** select an option from the autocomplete menu, "
-"or else create a new customer."
+"Enter a name or email address of a customer to search. You can even search "
+"for organizations and their members. Select an option from the autocomplete "
+"menu or create a new customer by clicking the \"➕ Create new Customer\" "
+"button. A ticket may only have **one** customer."
 msgstr ""
-"Lors de la saisie d'un client, le menu d'auto-complétement recherche "
-"l'**adresse courriel seulement**. Vous **devez** choisir une option pour le "
-"menu d'auto-complétement, ou sinon créer un nouveau client."
 
-#: ../basics/service-ticket/create.rst:40
-msgid "You may **not** assign a ticket to more than one customer."
-msgstr "Vous ne devez **pas** assigner un ticket à plus d'un client."
+#: ../basics/service-ticket/create.rst:45
+#, fuzzy
+#| msgid "Screenshot showing accounted times in ticket pane"
+msgid "Screenshot showing customer search while creating a new ticket"
+msgstr "Capture d'écran montrant le temps compté dans un panneau de ticket"
 
-#: ../basics/service-ticket/create.rst:0
-msgid "Customer autocomplete menu"
-msgstr "Menu d'autocomplétion de client"
+#: ../basics/service-ticket/create.rst:45
+msgid "Ticket creation with customer suggestion based on search."
+msgstr ""
 
-#: ../basics/service-ticket/create.rst:46
-msgid "Autocomplete can't find customers by name."
-msgstr "L'autocomplétion ne peut pas trouver de clients par leur nom."
-
-#: ../basics/service-ticket/create.rst:50
+#: ../basics/service-ticket/create.rst:49
 msgid ""
 "Once a customer has been selected, her profile will be accessible from the "
 "**ticket pane**."
@@ -2465,11 +2462,11 @@ msgstr ""
 msgid "Ticket pane (Customer view)"
 msgstr "Panneau du ticket (vue client)"
 
-#: ../basics/service-ticket/create.rst:64
+#: ../basics/service-ticket/create.rst:63
 msgid "Text"
 msgstr "Texte"
 
-#: ../basics/service-ticket/create.rst:58
+#: ../basics/service-ticket/create.rst:57
 msgid ""
 "📞 For phone calls, record the details of your conversation. These notes "
 "will not be sent to the customer (though he may be able to see them if he "
@@ -2479,7 +2476,7 @@ msgstr ""
 "conversation. Ces notes ne seront pas envoyées au client (bien qu'il "
 "pourrait les voir s'il possède un compte Zammad)."
 
-#: ../basics/service-ticket/create.rst:62
+#: ../basics/service-ticket/create.rst:61
 msgid "📧 For emails, this is the body of your outgoing message."
 msgstr "📧 Pour les courriels, il s'agit du corps de votre message sortant."
 
@@ -2505,7 +2502,7 @@ msgid ""
 "clipboard (including ticket hook; e.g. ``Ticket#50071``)."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:66
+#: ../basics/service-ticket/create.rst:65
 #: ../basics/service-ticket/settings.rst:2 ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr "Paramètres du ticket"
@@ -2582,8 +2579,8 @@ msgid ""
 "`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
 msgstr ""
 "Les tickets sont des fils de messages & notes concernant une demande d'un "
-"client. :doc:`⚙️ Gérer les paramètres d'un ticket <settings>` dans le **"
-"panneau ticket** sur la droite."
+"client. :doc:`⚙️ Gérer les paramètres d'un ticket <settings>` dans le "
+"**panneau ticket** sur la droite."
 
 #: ../basics/service-ticket/follow-up.rst:23
 msgid ""
@@ -3062,8 +3059,8 @@ msgid ""
 "assign tickets to yourself** when you choose an issue to work on from the "
 "pool of new tickets."
 msgstr ""
-"Cela dépend des processus de votre société, mais dans la plupart des cas, **"
-"vous vous assignerez les tickets à vous-même** quand vous choisirez une "
+"Cela dépend des processus de votre société, mais dans la plupart des cas, "
+"**vous vous assignerez les tickets à vous-même** quand vous choisirez une "
 "demande à traiter dans la pile des nouveaux tickets."
 
 #: ../basics/service-ticket/settings/owner.rst:16
@@ -3073,8 +3070,8 @@ msgid ""
 "ticket/settings/group>`."
 msgstr ""
 "En principe, n'importe quel opérateur peut assigner un ticket à un autre, du "
-"moment qu'ils ont tous les deux les privilèges nécessaires dans l':doc:`"
-"équipe <group>` du ticket."
+"moment qu'ils ont tous les deux les privilèges nécessaires dans l':doc:"
+"`équipe <group>` du ticket."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
@@ -3283,10 +3280,10 @@ msgid ""
 "the ``tags:`` search filter. For instance, find all tickets with the "
 "**order** tag by searching for ``tags: order``."
 msgstr ""
-":doc:`Pour rechercher des tickets avec une étiquette donnée </basics/"
-"find-ticket/search>` avec le filtre de recherche ``tags:``. Par exemple, "
-"pour trouver tous les tickets avec l'étiquette **commande** en cherchant : "
-"``tags:commande``."
+":doc:`Pour rechercher des tickets avec une étiquette donnée </basics/find-"
+"ticket/search>` avec le filtre de recherche ``tags:``. Par exemple, pour "
+"trouver tous les tickets avec l'étiquette **commande** en cherchant : ``tags:"
+"commande``."
 
 #: ../basics/what-is-a-ticket.rst:2
 msgid "What is a Ticket?"
@@ -5351,8 +5348,8 @@ msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
 msgstr ""
-"D'où proviennent vos tickets ? (Tickets des sept derniers jours, **entrants**"
-" et **sortants**)"
+"D'où proviennent vos tickets ? (Tickets des sept derniers jours, "
+"**entrants** et **sortants**)"
 
 #: ../extras/dashboard.rst:27
 msgid "**4. Assigned**"
@@ -7830,6 +7827,24 @@ msgid ""
 "docs:`system </index.html>` and :admin-docs:`administration manuals </index."
 "html>` available."
 msgstr ""
+
+#~ msgid ""
+#~ "When entering a customer, the autocomplete menu searches for **email "
+#~ "addresses only**. You **must** select an option from the autocomplete "
+#~ "menu, or else create a new customer."
+#~ msgstr ""
+#~ "Lors de la saisie d'un client, le menu d'auto-complétement recherche "
+#~ "l'**adresse courriel seulement**. Vous **devez** choisir une option pour "
+#~ "le menu d'auto-complétement, ou sinon créer un nouveau client."
+
+#~ msgid "You may **not** assign a ticket to more than one customer."
+#~ msgstr "Vous ne devez **pas** assigner un ticket à plus d'un client."
+
+#~ msgid "Customer autocomplete menu"
+#~ msgstr "Menu d'autocomplétion de client"
+
+#~ msgid "Autocomplete can't find customers by name."
+#~ msgstr "L'autocomplétion ne peut pas trouver de clients par leur nom."
 
 #, fuzzy
 #~ msgid "Status"
