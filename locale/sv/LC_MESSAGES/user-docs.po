@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 15:22+0100\n"
+"POT-Creation-Date: 2024-10-18 10:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1295,7 +1295,7 @@ msgid "Omnisearch"
 msgstr ""
 
 #: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
-#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr ""
@@ -2122,30 +2122,27 @@ msgid ""
 "correspondences."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
+#: ../basics/service-ticket/create.rst:38 ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:35
 msgid ""
-"When entering a customer, the autocomplete menu searches for **email "
-"addresses only**. You **must** select an option from the autocomplete menu, "
-"or else create a new customer."
+"Enter a name or email address of a customer to search. You can even search "
+"for organizations and their members. Select an option from the autocomplete "
+"menu or create a new customer by clicking the \"➕ Create new Customer\" "
+"button. A ticket may only have **one** customer."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:40
-msgid "You may **not** assign a ticket to more than one customer."
+#: ../basics/service-ticket/create.rst:45
+msgid "Screenshot showing customer search while creating a new ticket"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:0
-msgid "Customer autocomplete menu"
+#: ../basics/service-ticket/create.rst:45
+msgid "Ticket creation with customer suggestion based on search."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:46
-msgid "Autocomplete can't find customers by name."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:50
+#: ../basics/service-ticket/create.rst:49
 msgid ""
 "Once a customer has been selected, her profile will be accessible from the "
 "**ticket pane**."
@@ -2155,18 +2152,18 @@ msgstr ""
 msgid "Ticket pane (Customer view)"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:64
+#: ../basics/service-ticket/create.rst:63
 msgid "Text"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:58
+#: ../basics/service-ticket/create.rst:57
 msgid ""
 "📞 For phone calls, record the details of your conversation. These notes "
 "will not be sent to the customer (though he may be able to see them if he "
 "has a Zammad account)."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:62
+#: ../basics/service-ticket/create.rst:61
 msgid "📧 For emails, this is the body of your outgoing message."
 msgstr ""
 
@@ -2188,7 +2185,7 @@ msgid ""
 "clipboard (including ticket hook; e.g. ``Ticket#50071``)."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:66
+#: ../basics/service-ticket/create.rst:65
 #: ../basics/service-ticket/settings.rst:2 ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr ""

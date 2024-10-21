@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 15:22+0100\n"
+"POT-Creation-Date: 2024-10-18 10:59+0200\n"
 "PO-Revision-Date: 2024-09-25 07:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
@@ -1453,7 +1453,7 @@ msgid "Omnisearch"
 msgstr "Свеобухватна претрага"
 
 #: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
-#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Мали савет**"
@@ -2445,33 +2445,29 @@ msgid ""
 msgstr ""
 "Наслов тикета ће се користити као **предмет** за све преписке путем имејла."
 
-#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
+#: ../basics/service-ticket/create.rst:38 ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr "Клијент"
 
 #: ../basics/service-ticket/create.rst:35
 msgid ""
-"When entering a customer, the autocomplete menu searches for **email "
-"addresses only**. You **must** select an option from the autocomplete menu, "
-"or else create a new customer."
+"Enter a name or email address of a customer to search. You can even search "
+"for organizations and their members. Select an option from the autocomplete "
+"menu or create a new customer by clicking the \"➕ Create new Customer\" "
+"button. A ticket may only have **one** customer."
 msgstr ""
-"Када унесете клијента, поље са брзом претрагом подржава **само имејл "
-"адресе**. **Моратећете** да изаберете опцију из менија, или у супротном "
-"креирате новог клијента."
 
-#: ../basics/service-ticket/create.rst:40
-msgid "You may **not** assign a ticket to more than one customer."
-msgstr "**Није могуће** доделити тикет више од једном клијенту."
+#: ../basics/service-ticket/create.rst:45
+#, fuzzy
+#| msgid "Screenshot showing accounted times in ticket pane"
+msgid "Screenshot showing customer search while creating a new ticket"
+msgstr "Снимак екрана који приказује обрачунато време у панелу тикета"
 
-#: ../basics/service-ticket/create.rst:0
-msgid "Customer autocomplete menu"
-msgstr "Поље за брзу претрагу клијената"
+#: ../basics/service-ticket/create.rst:45
+msgid "Ticket creation with customer suggestion based on search."
+msgstr ""
 
-#: ../basics/service-ticket/create.rst:46
-msgid "Autocomplete can't find customers by name."
-msgstr "Брза претрага не може да пронађе клијенте по имену."
-
-#: ../basics/service-ticket/create.rst:50
+#: ../basics/service-ticket/create.rst:49
 msgid ""
 "Once a customer has been selected, her profile will be accessible from the "
 "**ticket pane**."
@@ -2483,11 +2479,11 @@ msgstr ""
 msgid "Ticket pane (Customer view)"
 msgstr "Панел тикета (приказ клијента)"
 
-#: ../basics/service-ticket/create.rst:64
+#: ../basics/service-ticket/create.rst:63
 msgid "Text"
 msgstr "Текст"
 
-#: ../basics/service-ticket/create.rst:58
+#: ../basics/service-ticket/create.rst:57
 msgid ""
 "📞 For phone calls, record the details of your conversation. These notes "
 "will not be sent to the customer (though he may be able to see them if he "
@@ -2497,7 +2493,7 @@ msgstr ""
 "бити послате купцу (иако ће можда моћи да их види уколико поседује Zammad "
 "налог)."
 
-#: ../basics/service-ticket/create.rst:62
+#: ../basics/service-ticket/create.rst:61
 msgid "📧 For emails, this is the body of your outgoing message."
 msgstr "📧 За имејлове, ово ће бити текст ваше одлазне поруке."
 
@@ -2525,7 +2521,7 @@ msgstr ""
 "Користите иконицу 🗊 поред наслова тикета да ископирате број тикета у "
 "привремену меморјиу (укључујући прикључак тикета, нпр. ``Ticket#50071`)."
 
-#: ../basics/service-ticket/create.rst:66
+#: ../basics/service-ticket/create.rst:65
 #: ../basics/service-ticket/settings.rst:2 ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr "Подешавање тикета"
@@ -8852,6 +8848,24 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су доступни :docs:"
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
+
+#~ msgid ""
+#~ "When entering a customer, the autocomplete menu searches for **email "
+#~ "addresses only**. You **must** select an option from the autocomplete "
+#~ "menu, or else create a new customer."
+#~ msgstr ""
+#~ "Када унесете клијента, поље са брзом претрагом подржава **само имејл "
+#~ "адресе**. **Моратећете** да изаберете опцију из менија, или у супротном "
+#~ "креирате новог клијента."
+
+#~ msgid "You may **not** assign a ticket to more than one customer."
+#~ msgstr "**Није могуће** доделити тикет више од једном клијенту."
+
+#~ msgid "Customer autocomplete menu"
+#~ msgstr "Поље за брзу претрагу клијената"
+
+#~ msgid "Autocomplete can't find customers by name."
+#~ msgstr "Брза претрага не може да пронађе клијенте по имену."
 
 #~ msgid ":kbd:`shift` :kbd:`enter`"
 #~ msgstr ":kbd:`shift` :kbd:`enter`"
