@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-29 14:15+0200\n"
+"POT-Creation-Date: 2024-10-18 10:59+0200\n"
 "PO-Revision-Date: 2022-08-01 14:09+0000\n"
 "Last-Translator: Erico Cesar <ericocesar@webck.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
@@ -1356,7 +1356,7 @@ msgid "Omnisearch"
 msgstr "Resultados da busca"
 
 #: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
-#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:48
+#: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Dica profissional da interface de usuário**"
@@ -2302,34 +2302,27 @@ msgstr ""
 "O título do chamado que será usado como **assunto** de todos os e-mails "
 "trocados."
 
-#: ../basics/service-ticket/create.rst:55 ../basics/zammad-glossary.rst:183
+#: ../basics/service-ticket/create.rst:38 ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr "Cliente"
 
 #: ../basics/service-ticket/create.rst:35
 msgid ""
-"When entering a customer, the autocomplete menu searches for **email "
-"addresses only**. You **must** select an option from the autocomplete menu, "
-"or else create a new customer."
-msgstr ""
-"Ao digitar no campo cliente, a busca procura apenas **por endereços de e-"
-"mail**. Você **deve** selecionar uma das opções apresentadas ou então criar "
-"um novo cliente."
-
-#: ../basics/service-ticket/create.rst:40
-msgid "You may **not** assign a ticket to more than one customer."
-msgstr "Você **não** pode atribuir um ticket a mais de um cliente."
-
-#: ../basics/service-ticket/create.rst:0
-msgid "Customer autocomplete menu"
+"Enter a name or email address of a customer to search. You can even search "
+"for organizations and their members. Select an option from the autocomplete "
+"menu or create a new customer by clicking the \"➕ Create new Customer\" "
+"button. A ticket may only have **one** customer."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:46
-#, fuzzy
-msgid "Autocomplete can't find customers by name."
-msgstr "A busca não pode encontrar um cliente pelo nome."
+#: ../basics/service-ticket/create.rst:45
+msgid "Screenshot showing customer search while creating a new ticket"
+msgstr ""
 
-#: ../basics/service-ticket/create.rst:50
+#: ../basics/service-ticket/create.rst:45
+msgid "Ticket creation with customer suggestion based on search."
+msgstr ""
+
+#: ../basics/service-ticket/create.rst:49
 msgid ""
 "Once a customer has been selected, her profile will be accessible from the "
 "**ticket pane**."
@@ -2341,11 +2334,11 @@ msgstr ""
 msgid "Ticket pane (Customer view)"
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:64
+#: ../basics/service-ticket/create.rst:63
 msgid "Text"
 msgstr "Texto"
 
-#: ../basics/service-ticket/create.rst:58
+#: ../basics/service-ticket/create.rst:57
 msgid ""
 "📞 For phone calls, record the details of your conversation. These notes "
 "will not be sent to the customer (though he may be able to see them if he "
@@ -2355,7 +2348,7 @@ msgstr ""
 "da conversa. Estas notas não serão enviadas ao cliente (embora ele poderá vê-"
 "las, se tiver uma conta Zammad)."
 
-#: ../basics/service-ticket/create.rst:62
+#: ../basics/service-ticket/create.rst:61
 msgid "📧 For emails, this is the body of your outgoing message."
 msgstr "📧 Para e-mails, este é o copo de sua mensagem."
 
@@ -2381,7 +2374,7 @@ msgid ""
 "clipboard (including ticket hook; e.g. ``Ticket#50071``)."
 msgstr ""
 
-#: ../basics/service-ticket/create.rst:66
+#: ../basics/service-ticket/create.rst:65
 #: ../basics/service-ticket/settings.rst:2 ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr "Configurações dos chamados"
@@ -7735,6 +7728,22 @@ msgid ""
 "docs:`system </index.html>` and :admin-docs:`administration manuals </index."
 "html>` available."
 msgstr ""
+
+#~ msgid ""
+#~ "When entering a customer, the autocomplete menu searches for **email "
+#~ "addresses only**. You **must** select an option from the autocomplete "
+#~ "menu, or else create a new customer."
+#~ msgstr ""
+#~ "Ao digitar no campo cliente, a busca procura apenas **por endereços de e-"
+#~ "mail**. Você **deve** selecionar uma das opções apresentadas ou então "
+#~ "criar um novo cliente."
+
+#~ msgid "You may **not** assign a ticket to more than one customer."
+#~ msgstr "Você **não** pode atribuir um ticket a mais de um cliente."
+
+#, fuzzy
+#~ msgid "Autocomplete can't find customers by name."
+#~ msgstr "A busca não pode encontrar um cliente pelo nome."
 
 #~ msgid "Status"
 #~ msgstr "Status"
