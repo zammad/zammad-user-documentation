@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-18 10:59+0200\n"
-"PO-Revision-Date: 2024-09-03 10:00+0000\n"
+"PO-Revision-Date: 2024-10-29 09:30+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -2399,16 +2399,19 @@ msgid ""
 "menu or create a new customer by clicking the \"➕ Create new Customer\" "
 "button. A ticket may only have **one** customer."
 msgstr ""
+"Унести име или имејл адресу клијента за претрагу. Можете чак претраживати по "
+"организацијама и њиховим члановима. Одаберите опцију из падајућег менија или "
+"додајте новог клијента кликом на дугме „➕ Додај новог клијента”. Тикет "
+"может имати само **једног** клијента."
 
 #: ../basics/service-ticket/create.rst:45
-#, fuzzy
-#| msgid "Screenshot showing accounted times in ticket pane"
 msgid "Screenshot showing customer search while creating a new ticket"
-msgstr "Снимак екрана који приказује обрачунато време у панелу тикета"
+msgstr ""
+"Снимак екрана који приказује претрагу клијента приликом отварању новог тикета"
 
 #: ../basics/service-ticket/create.rst:45
 msgid "Ticket creation with customer suggestion based on search."
-msgstr ""
+msgstr "Отварање тикета са предлогом клијента на основу претраге."
 
 #: ../basics/service-ticket/create.rst:49
 msgid ""
