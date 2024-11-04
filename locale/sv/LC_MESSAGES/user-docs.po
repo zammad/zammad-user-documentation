@@ -542,8 +542,8 @@ msgid ""
 "The simplest way to apply a macro is to select it from the **Update ^** "
 "submenu in the Ticket View:"
 msgstr ""
-"Det enklaste sättet att använda ett makro är att välja det från undermenyn **"
-"Uppdatera ^** i ärendet:"
+"Det enklaste sättet att använda ett makro är att välja det från undermenyn "
+"**Uppdatera ^** i ärendet:"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
@@ -587,7 +587,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:52
 msgid "open a ticket overview;"
-msgstr ""
+msgstr "öppna ticketöversikt;"
 
 #: ../advanced/macros.rst:53
 msgid "select your desired tickets;"
@@ -620,7 +620,7 @@ msgstr ""
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
-msgstr ""
+msgstr "Avancerad Sök"
 
 #: ../advanced/search.rst:4
 msgid ""
@@ -637,7 +637,7 @@ msgstr ""
 
 #: ../advanced/search.rst:13
 msgid "or::"
-msgstr ""
+msgstr "eller::"
 
 #: ../advanced/search.rst:18
 msgid ""
@@ -647,7 +647,7 @@ msgstr ""
 
 #: ../advanced/search.rst:24
 msgid "Available Attributes"
-msgstr ""
+msgstr "Tillgängliga Attributer"
 
 #: ../advanced/search.rst:28
 msgid ""
@@ -658,51 +658,51 @@ msgstr ""
 
 #: ../advanced/search.rst:35
 msgid "Attributes and their usuage"
-msgstr ""
+msgstr "Attributer och användningsområde"
 
 #: ../advanced/search.rst:1
 msgid "Attribute"
-msgstr ""
+msgstr "Egenskap"
 
 #: ../advanced/search.rst:1
 msgid "possible Values"
-msgstr ""
+msgstr "Möjliga Värden"
 
 #: ../advanced/search.rst:1
 msgid "Example"
-msgstr ""
+msgstr "Exempel"
 
 #: ../advanced/search.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Förklaring"
 
 #: ../advanced/search.rst:1
 msgid "number"
-msgstr ""
+msgstr "nummer"
 
 #: ../advanced/search.rst:1
 msgid "1118566"
-msgstr ""
+msgstr "1118566"
 
 #: ../advanced/search.rst:1
 msgid "number:1118566 |br|\\ number:11185*"
-msgstr ""
+msgstr "nummer:1118566 |br|\\ nummer:11185*"
 
 #: ../advanced/search.rst:1
 msgid "Search for a Ticketnumber"
-msgstr ""
+msgstr "Sök efter ett Ticketnummer"
 
 #: ../advanced/search.rst:1
 msgid "title"
-msgstr ""
+msgstr "ämne"
 
 #: ../advanced/search.rst:1
 msgid "some title"
-msgstr ""
+msgstr "någon titel"
 
 #: ../advanced/search.rst:1
 msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
-msgstr ""
+msgstr "titel:\"någon titel\" |br|\\ titel:Skrivare |br|\\ titel;\"någon ti*\""
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -713,11 +713,11 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "created_at"
-msgstr ""
+msgstr "skapad_vid"
 
 #: ../advanced/search.rst:1
 msgid "2018-11-18"
-msgstr ""
+msgstr "2018-11-18"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -752,7 +752,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "article_count"
-msgstr ""
+msgstr "artikel_räkna"
 
 #: ../advanced/search.rst:1
 msgid "5 |br|\\ [5 TO 10] |br|\\ [5 TO \\*] |br|\\ [\\* TO 5]"
@@ -773,7 +773,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "article.from"
-msgstr ""
+msgstr "artikel.från"
 
 #: ../advanced/search.rst:1
 msgid "\\*bob\\*"
@@ -829,7 +829,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "Search phrase"
-msgstr ""
+msgstr "Sökfras"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -860,7 +860,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "Show Tickets from bob@example.net that are either open or new"
-msgstr ""
+msgstr "Visa tickets från bob@example.net som är öppna eller nya"
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -882,23 +882,23 @@ msgstr ""
 
 #: ../advanced/search.rst:72
 msgid "Ticket Attributes"
-msgstr ""
+msgstr "Ticket Attributet"
 
 #: ../advanced/search.rst:74
 msgid "number: string"
-msgstr ""
+msgstr "nummer: sträng"
 
 #: ../advanced/search.rst:75
 msgid "title: string"
-msgstr ""
+msgstr "Ämne: sträng"
 
 #: ../advanced/search.rst:76
 msgid "group: object (group.name, ...)"
-msgstr ""
+msgstr "grupp: objekt (grupp.namn, ...)"
 
 #: ../advanced/search.rst:77
 msgid "priority: object (priority.name, ...)"
-msgstr ""
+msgstr "prioritet: ämne (prioritet.namn, ...)"
 
 #: ../advanced/search.rst:78
 msgid "state: object (state.name, ...)"
@@ -927,7 +927,7 @@ msgstr ""
 
 #: ../advanced/search.rst:85
 msgid "close_at: timestamp"
-msgstr ""
+msgstr "stängt_vid: tidstämpel"
 
 #: ../advanced/search.rst:86
 msgid "close_in_min: integer (business min till close)"
@@ -1154,11 +1154,11 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:102
 msgid "group"
-msgstr ""
+msgstr "grupp"
 
 #: ../advanced/suggested-workflows.rst:103
 msgid "owner"
-msgstr ""
+msgstr "ägare"
 
 #: ../advanced/suggested-workflows.rst:104
 msgid "state (with pending time if applicable)"
@@ -1166,7 +1166,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:105
 msgid "priority"
-msgstr ""
+msgstr "prioritet"
 
 #: ../advanced/suggested-workflows.rst:107
 msgid ""
@@ -1197,17 +1197,19 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:134
 msgid "Bulk action via drag and drop:"
-msgstr ""
+msgstr "Massåtgärd genom drag och släpp:"
 
 #: ../advanced/suggested-workflows.rst:123
 msgid "**🤓 You can change owners and groups even faster 🚀**"
-msgstr ""
+msgstr "**🤓 Du kan nu ändra ägare och grupper ännu snabbare 🚀**"
 
 #: ../advanced/suggested-workflows.rst:0
 msgid ""
 "Drag selected tickets and drop then on a group or agent to change\n"
 "ticket group / owner"
 msgstr ""
+"Dra och släpp markerade tickets på en grupp eller en agent för att ändra\n"
+"ticket grupp / ägare"
 
 #: ../advanced/suggested-workflows.rst:130
 msgid ""
@@ -1219,11 +1221,11 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:135
 msgid "This functionality is only available in ticket overviews."
-msgstr ""
+msgstr "Denna funktion är enbart tillgänglig i översikt av tickets."
 
 #: ../advanced/tabs.rst:2
 msgid "Tabs"
-msgstr ""
+msgstr "Flikar"
 
 #: ../advanced/tabs.rst:4
 msgid ""
