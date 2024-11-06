@@ -143,7 +143,7 @@ Clicking on "Profile" in the user menu opens the profile settings.
     absence, and have a custom :doc:`overview </basics/find-ticket/browse>`
     created to help keep track of your tickets.
 
-    You will reveive notifications while you are absent.
+    You will receive notifications while you are absent.
 
 :Overviews:
    Tired of the overview order your admin decided on? This section allows
