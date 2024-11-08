@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 08:08+0100\n"
-"PO-Revision-Date: 2024-10-29 09:30+0000\n"
+"PO-Revision-Date: 2024-11-07 09:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/sr/>\n"
+"documentations/user-documentation-pre-release/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,16 +40,12 @@ msgid "Overview"
 msgstr "Преглед"
 
 #: ../advanced/keyboard-shortcuts.rst:10
-#, fuzzy
-#| msgid ""
-#| "Click on your avatar at the bottom of the main menu to access the "
-#| "**keyboard shortcuts cheat sheet**."
 msgid ""
 "Click on your avatar at the bottom of the main menu and select \"Keyboard "
 "Shortcuts\" or just press :kbd:`?` to open the keyboard shortcut overview."
 msgstr ""
-"Кликните на свој аватар при дну главног менија за приступ **листи пречица на "
-"тастатури**."
+"Кликните на свој аватар при дну главног менија и одаберите „Пречице на "
+"тастатури” или само притисните :kbd:`?` за преглед пречица."
 
 #: ../advanced/keyboard-shortcuts.rst:None
 #: ../extras/profile-and-settings.rst:12
@@ -67,32 +63,31 @@ msgid "Keyboard shortcut cheat sheet"
 msgstr "Листа пречица на тастатури"
 
 #: ../advanced/keyboard-shortcuts.rst:26
-#, fuzzy
-#| msgid "The keyboard shortcut cheat sheet."
 msgid "The keyboard shortcut overview."
-msgstr "Листа пречица на тастатури."
+msgstr "Преглед пречица на тастатури."
 
 #: ../advanced/keyboard-shortcuts.rst:29
-#, fuzzy
-#| msgid "Ticket Settings"
 msgid "Settings"
-msgstr "Подешавање тикета"
+msgstr "Подешавања"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "At the top of the dialog, you can:"
-msgstr ""
+msgstr "При врху дијалога можете:"
 
 #: ../advanced/keyboard-shortcuts.rst:33
 msgid ""
 "Enable or disable the shortcuts in general by switching the toggle on the "
 "left side."
 msgstr ""
+"Укључити или искључити све пречице пребацивањем прекидача на левој страни."
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid ""
 "Switch to the old shortcuts if you got used to them by clicking on \"Switch "
 "back to old layout\" on the right side."
 msgstr ""
+"Пређете на старе пречице ако сте се навикли на њих кликом на „Повратак на "
+"стари распоред” са десне стране."
 
 #: ../advanced/keyboard-shortcuts.rst:38
 msgid ""
@@ -100,6 +95,9 @@ msgid ""
 "because browsers and operating systems could jam the key press signal. And "
 "the shortcut for opening this overview differs as well."
 msgstr ""
+"Обратите пажњу да ове старе пречице не функционишу поуздано као нове зато "
+"што претраживачи и оперативни системи могу да их пресретну. Такође се "
+"разликује и пречица за отварање овог прегледа."
 
 #: ../advanced/keyboard-shortcuts.rst:43
 msgid ""
@@ -108,18 +106,18 @@ msgid ""
 "should make sure to not delete your browser cache / session cookies for your "
 "Zammad instance."
 msgstr ""
+"Ова подешавања се тренутно чувају у претраживачу а не у вашем корисничком "
+"профилу. Ако желите да их искључите или се пребаците на стари распоред, "
+"морате бити пажљиви приликом брисања кеша претраживача за вашу Zammad "
+"инстанцу."
 
 #: ../advanced/keyboard-shortcuts.rst:53
-#, fuzzy
-#| msgid "Keyboard shortcuts"
 msgid "Keyboard shortcut settings"
-msgstr "Пречице на тастатури"
+msgstr "Подешавања пречица на тастатури"
 
 #: ../advanced/keyboard-shortcuts.rst:53
-#, fuzzy
-#| msgid "The keyboard shortcut cheat sheet."
 msgid "The keyboard shortcut settings."
-msgstr "Листа пречица на тастатури."
+msgstr "Подешавања пречица на тастатури."
 
 #: ../advanced/keyboard-shortcuts.rst:56
 msgid "List of Available Keyboard Shortcuts"
@@ -145,7 +143,7 @@ msgstr "Функција"
 
 #: ../advanced/keyboard-shortcuts.rst:64
 msgid ":kbd:`h`"
-msgstr ""
+msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:64
 msgid "Show dashboard"
@@ -153,7 +151,7 @@ msgstr "Прикажи контролну таблу"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid ":kbd:`o`"
-msgstr ""
+msgstr ":kbd:`o`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid "Show overviews"
@@ -161,17 +159,15 @@ msgstr "Прикажи прегледе"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`s`"
-msgstr ""
+msgstr ":kbd:`s`"
 
 #: ../advanced/keyboard-shortcuts.rst:66
-#, fuzzy
-#| msgid "Trigger the search"
 msgid "Open the search"
-msgstr "Започни претрагу"
+msgstr "Отвори претрагу"
 
 #: ../advanced/keyboard-shortcuts.rst:67
 msgid ":kbd:`a`"
-msgstr ""
+msgstr ":kbd:`a`"
 
 #: ../advanced/keyboard-shortcuts.rst:67
 msgid "Open notifications"
@@ -179,7 +175,7 @@ msgstr "Отвори обавештења"
 
 #: ../advanced/keyboard-shortcuts.rst:68
 msgid ":kbd:`n`"
-msgstr ""
+msgstr ":kbd:`n`"
 
 #: ../advanced/keyboard-shortcuts.rst:68 ../extras/mobile-view.rst:119
 msgid "Create a new ticket"
@@ -187,27 +183,23 @@ msgstr "Отворите нови тикет"
 
 #: ../advanced/keyboard-shortcuts.rst:69
 msgid ":kbd:`u`"
-msgstr ""
+msgstr ":kbd:`u`"
 
 #: ../advanced/keyboard-shortcuts.rst:69
-#, fuzzy
-#| msgid "User submenu"
 msgid "Open user menu"
-msgstr "Кориснички подмени"
+msgstr "Отвори кориснички мени"
 
 #: ../advanced/keyboard-shortcuts.rst:70
 msgid ":kbd:`?`"
-msgstr ""
+msgstr ":kbd:`?`"
 
 #: ../advanced/keyboard-shortcuts.rst:70
-#, fuzzy
-#| msgid "open a ticket overview;"
 msgid "Open shortcuts overview"
-msgstr "отворите преглед тикета;"
+msgstr "Отвори преглед пречица"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid ":kbd:`shift` :kbd:`l`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`l`"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid "Log out"
@@ -215,7 +207,7 @@ msgstr "Одјави се"
 
 #: ../advanced/keyboard-shortcuts.rst:72
 msgid ":kbd:`shift` :kbd:`w`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`w`"
 
 #: ../advanced/keyboard-shortcuts.rst:72
 msgid "Close current tab"
@@ -223,7 +215,7 @@ msgstr "Затвори тренутни прозор"
 
 #: ../advanced/keyboard-shortcuts.rst:73
 msgid ":kbd:`shift` :kbd:`▶`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`▶`"
 
 #: ../advanced/keyboard-shortcuts.rst:73
 msgid "Show next tab"
@@ -231,7 +223,7 @@ msgstr "Прикажи следећи прозор"
 
 #: ../advanced/keyboard-shortcuts.rst:74
 msgid ":kbd:`shift` :kbd:`◀`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`◀`"
 
 #: ../advanced/keyboard-shortcuts.rst:74
 msgid "Show previous tab"
@@ -239,7 +231,7 @@ msgstr "Прикажи претходни прозор"
 
 #: ../advanced/keyboard-shortcuts.rst:75
 msgid ":kbd:`ctrl` :kbd:`enter`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`enter`"
 
 #: ../advanced/keyboard-shortcuts.rst:75
 msgid "Confirm/submit in dialogs"
@@ -247,7 +239,7 @@ msgstr "Потврди/сачувај дијалог"
 
 #: ../advanced/keyboard-shortcuts.rst:76
 msgid ":kbd:`▲` / :kbd:`▼`"
-msgstr ""
+msgstr ":kbd:`▲` / :kbd:`▼`"
 
 #: ../advanced/keyboard-shortcuts.rst:76
 msgid "Move selection/cursor up and down"
@@ -255,17 +247,15 @@ msgstr "Помери селекцију/курсор на горе и доле"
 
 #: ../advanced/keyboard-shortcuts.rst:77 ../advanced/keyboard-shortcuts.rst:115
 msgid ":kbd:`◀` / :kbd:`▶`"
-msgstr ""
+msgstr ":kbd:`◀` / :kbd:`▶`"
 
 #: ../advanced/keyboard-shortcuts.rst:77
 msgid "Move selection/cursor left and right"
 msgstr "Помери селекцију/курсор на лево и десно"
 
 #: ../advanced/keyboard-shortcuts.rst:78
-#, fuzzy
-#| msgid "``enter``"
 msgid ":kbd:`enter`"
-msgstr "``enter``"
+msgstr ":kbd:`enter`"
 
 #: ../advanced/keyboard-shortcuts.rst:78
 msgid "Select item / confirm"
@@ -273,7 +263,7 @@ msgstr "Одабери опцију / потврди"
 
 #: ../advanced/keyboard-shortcuts.rst:79
 msgid ":kbd:`.`"
-msgstr ""
+msgstr ":kbd:`.`"
 
 #: ../advanced/keyboard-shortcuts.rst:79
 msgid "Copy current object number (e.g. ticket number)"
@@ -281,7 +271,7 @@ msgstr "Копирај број тренутног објекта (нпр. бр�
 
 #: ../advanced/keyboard-shortcuts.rst:80
 msgid ":kbd:`..`"
-msgstr ""
+msgstr ":kbd:`..`"
 
 #: ../advanced/keyboard-shortcuts.rst:80
 msgid "Add the title of the object to the number"
@@ -289,7 +279,7 @@ msgstr "Додај наслов објекта броју"
 
 #: ../advanced/keyboard-shortcuts.rst:81
 msgid ":kbd:`...`"
-msgstr ""
+msgstr ":kbd:`...`"
 
 #: ../advanced/keyboard-shortcuts.rst:81
 msgid "Add the object link URL to the number and title"
@@ -307,7 +297,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:92
 msgid ":kbd:`t`"
-msgstr ""
+msgstr ":kbd:`t`"
 
 #: ../advanced/keyboard-shortcuts.rst:92
 msgid "Enable or disable the inline translation"
@@ -319,7 +309,7 @@ msgstr "Изглед"
 
 #: ../advanced/keyboard-shortcuts.rst:102
 msgid ":kbd:`d`"
-msgstr ""
+msgstr ":kbd:`d`"
 
 #: ../advanced/keyboard-shortcuts.rst:102
 msgid "Switch between dark and light mode"
@@ -331,7 +321,7 @@ msgstr "Тикети"
 
 #: ../advanced/keyboard-shortcuts.rst:111
 msgid ":kbd:`x`"
-msgstr ""
+msgstr ":kbd:`x`"
 
 #: ../advanced/keyboard-shortcuts.rst:111
 msgid "Create a new note article"
@@ -339,7 +329,7 @@ msgstr "Отвори нови тикет са напоменом"
 
 #: ../advanced/keyboard-shortcuts.rst:112
 msgid ":kbd:`r`"
-msgstr ""
+msgstr ":kbd:`r`"
 
 #: ../advanced/keyboard-shortcuts.rst:112
 msgid "Reply to the last article"
@@ -347,7 +337,7 @@ msgstr "Одговори на последњи чланак"
 
 #: ../advanced/keyboard-shortcuts.rst:113
 msgid ":kbd:`i`"
-msgstr ""
+msgstr ":kbd:`i`"
 
 #: ../advanced/keyboard-shortcuts.rst:113
 msgid "Switch the visibility of the article between internal and public"
@@ -355,7 +345,7 @@ msgstr "Пребаци видљивост чланка између интерн
 
 #: ../advanced/keyboard-shortcuts.rst:114
 msgid ":kbd:`shift` :kbd:`c`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`c`"
 
 #: ../advanced/keyboard-shortcuts.rst:114
 msgid "Set state of the ticket to \"closed\""
@@ -367,7 +357,7 @@ msgstr "Навигација кроз чланак"
 
 #: ../advanced/keyboard-shortcuts.rst:116
 msgid ":kbd:`::`"
-msgstr ""
+msgstr ":kbd:`::`"
 
 #: ../advanced/keyboard-shortcuts.rst:116
 msgid "Insert text module (while composing an article)"
@@ -375,7 +365,7 @@ msgstr "Додај текстуални исечак (приликом писа�
 
 #: ../advanced/keyboard-shortcuts.rst:117
 msgid ":kbd:`??`"
-msgstr ""
+msgstr ":kbd:`??`"
 
 #: ../advanced/keyboard-shortcuts.rst:117
 msgid "Insert knowledge base article (while composing an article)"
@@ -383,7 +373,7 @@ msgstr "Додај чланак базе знања (приликом писањ
 
 #: ../advanced/keyboard-shortcuts.rst:118
 msgid ":kbd:`@@`"
-msgstr ""
+msgstr ":kbd:`@@`"
 
 #: ../advanced/keyboard-shortcuts.rst:118
 msgid "Mention a user (while composing an article)"
@@ -406,21 +396,17 @@ msgid "Before typing:"
 msgstr "Пре уноса:"
 
 #: ../advanced/keyboard-shortcuts.rst:129
-#, fuzzy
-#| msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
 msgid "Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,"
-msgstr "Притисните ``cmd`` + ``i`` за режим курзива,"
+msgstr "Притисните :kbd:`ctrl` :kbd:`i` за режим *курзива*,"
 
 #: ../advanced/keyboard-shortcuts.rst:130
 msgid "enter your desired text, and"
 msgstr "унесите жељени текст и"
 
 #: ../advanced/keyboard-shortcuts.rst:131
-#, fuzzy
-#| msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgid "press :kbd:`ctrl` :kbd:`i` again to return to normal text mode."
 msgstr ""
-"притисните ``cmd`` + ``i`` поново да бисте се вратили у нормалан режим."
+"притисните :kbd:`ctrl` :kbd:`i` поново да бисте се вратили у нормалан режим."
 
 #: ../advanced/keyboard-shortcuts.rst:133
 msgid "After typing:"
@@ -435,10 +421,8 @@ msgid "click-and-drag with the mouse to select it, and"
 msgstr "кликните и превуците мишем да бисте га изабрали, и"
 
 #: ../advanced/keyboard-shortcuts.rst:137
-#, fuzzy
-#| msgid "press ``cmd`` + ``i`` to set the text in *italics*."
 msgid "press :kbd:`ctrl` :kbd:`i` to set the text in *italics*."
-msgstr "притисните ``cmd`` + ``i`` за курзив."
+msgstr "притисните :kbd:`ctrl` :kbd:`i` за курзив."
 
 #: ../advanced/keyboard-shortcuts.rst:158
 msgid "Key Combinations"
@@ -446,7 +430,7 @@ msgstr "Kомбинације тастера"
 
 #: ../advanced/keyboard-shortcuts.rst:143
 msgid ":kbd:`ctrl` :kbd:`u`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`u`"
 
 #: ../advanced/keyboard-shortcuts.rst:143
 msgid "Format text underlined"
@@ -454,7 +438,7 @@ msgstr "Режим подвученог текста"
 
 #: ../advanced/keyboard-shortcuts.rst:144
 msgid ":kbd:`ctrl` :kbd:`b`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`b`"
 
 #: ../advanced/keyboard-shortcuts.rst:144
 msgid "Format text in **bold**"
@@ -462,7 +446,7 @@ msgstr "Режим **подебљаног** текста"
 
 #: ../advanced/keyboard-shortcuts.rst:145
 msgid ":kbd:`ctrl` :kbd:`i`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`i`"
 
 #: ../advanced/keyboard-shortcuts.rst:145
 msgid "Format text in *italics*"
@@ -470,7 +454,7 @@ msgstr "Режим текста у *курзиву*"
 
 #: ../advanced/keyboard-shortcuts.rst:146
 msgid ":kbd:`ctrl` :kbd:`s`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`s`"
 
 #: ../advanced/keyboard-shortcuts.rst:146
 msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
@@ -478,7 +462,7 @@ msgstr "Режим  ̶п ̶р ̶е ̶ц ̶р ̶т ̶а ̶н ̶о ̶г ̶ тек�
 
 #: ../advanced/keyboard-shortcuts.rst:147
 msgid ":kbd:`ctrl` :kbd:`v`"
-msgstr ""
+msgstr ":kbd:`ctrl` :kbd:`v`"
 
 #: ../advanced/keyboard-shortcuts.rst:147
 msgid "Paste text from clipboard"
@@ -486,7 +470,7 @@ msgstr "Налепи текст из привремене меморије"
 
 #: ../advanced/keyboard-shortcuts.rst:148
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`v`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`v`"
 
 #: ../advanced/keyboard-shortcuts.rst:148
 msgid "Paste text from clipboard (as plain text)"
@@ -494,7 +478,7 @@ msgstr "Налепи текст из привремене меморије (ка
 
 #: ../advanced/keyboard-shortcuts.rst:149
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`f`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`f`"
 
 #: ../advanced/keyboard-shortcuts.rst:149
 msgid "Remove formatting of text"
@@ -502,7 +486,7 @@ msgstr "Уклони форматирање текста"
 
 #: ../advanced/keyboard-shortcuts.rst:150
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`y`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`y`"
 
 #: ../advanced/keyboard-shortcuts.rst:150
 msgid "Remove formatting of the whole text"
@@ -510,7 +494,7 @@ msgstr "Уклони форматирање комплетног текста"
 
 #: ../advanced/keyboard-shortcuts.rst:151
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`z`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`z`"
 
 #: ../advanced/keyboard-shortcuts.rst:151
 msgid "Insert a horizontal line"
@@ -518,7 +502,7 @@ msgstr "Убаци хоризонталну линију"
 
 #: ../advanced/keyboard-shortcuts.rst:152
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`l`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`l`"
 
 #: ../advanced/keyboard-shortcuts.rst:152
 msgid "Format as unordered list"
@@ -526,7 +510,7 @@ msgstr "Форматирај као листу са тачкама"
 
 #: ../advanced/keyboard-shortcuts.rst:153
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`k`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`k`"
 
 #: ../advanced/keyboard-shortcuts.rst:153
 msgid "Format as ordered list"
@@ -534,7 +518,7 @@ msgstr "Форматирај као листу са бројевима"
 
 #: ../advanced/keyboard-shortcuts.rst:154
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`1`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`1`"
 
 #: ../advanced/keyboard-shortcuts.rst:154
 msgid "Format as h1 heading"
@@ -542,7 +526,7 @@ msgstr "Форматирај као h1 заглавље"
 
 #: ../advanced/keyboard-shortcuts.rst:155
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`2`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`2`"
 
 #: ../advanced/keyboard-shortcuts.rst:155
 msgid "Format as h2 heading"
@@ -550,7 +534,7 @@ msgstr "Форматирај као h2 заглавље"
 
 #: ../advanced/keyboard-shortcuts.rst:156
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`3`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`3`"
 
 #: ../advanced/keyboard-shortcuts.rst:156
 msgid "Format as h3 heading"
@@ -558,7 +542,7 @@ msgstr "Форматирај као h3 заглавље"
 
 #: ../advanced/keyboard-shortcuts.rst:157
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`x`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`ctrl` :kbd:`x`"
 
 #: ../advanced/keyboard-shortcuts.rst:157
 msgid "Remove any hyperlink"
@@ -569,6 +553,8 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
 "`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
+"Ако сте Mac корисник, користите :kbd:`cmd` уместо :kbd:`ctrl` и :kbd:`ctrl` "
+":kbd:`option` уместо of :kbd:`shift` :kbd:`ctrl`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -5632,14 +5618,12 @@ msgid ""
 msgstr "Веза до ћаскања је аутоматски укључена у прву напомену тикета."
 
 #: ../extras/checklist.rst:2
-#, fuzzy
-#| msgid "Checkmk"
 msgid "Checklist"
-msgstr "Checkmk"
+msgstr "Списак задатака"
 
 #: ../extras/checklist.rst:5
 msgid "General"
-msgstr ""
+msgstr "Уопштено"
 
 #: ../extras/checklist.rst:7
 msgid ""
@@ -5648,20 +5632,25 @@ msgid ""
 "(unless your admin has deactivated it). Please note that you can only add or "
 "edit a checklist, if you have the permission to edit the ticket."
 msgstr ""
+"Користите списак задатака у тикетима да бисте пратили ток решавања. Функцију "
+"списка задатака можете пронаћи у траци са десне стране под посебним језичком "
+"(уколико је администратор није деактивирао). Обратите пажњу да можете само "
+"додати или уредити списак задатака ако имате приступ тикету са дозволама за "
+"уређивање."
 
 #: ../extras/checklist.rst:15
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
+"Снимак екрана који приказује траку са десне стране са означеним језичком „"
+"Списак задатака”"
 
 #: ../extras/checklist.rst:15
 msgid "Screenshot of ticket view with highlighted checklist sidebar."
-msgstr ""
+msgstr "Снимак екрана приказа тикета за означеном траком списка задатака."
 
 #: ../extras/checklist.rst:18
-#, fuzzy
-#| msgid "Usage tips"
 msgid "Usage"
-msgstr "Савети за употребу"
+msgstr "Употреба"
 
 #: ../extras/checklist.rst:21 ../index.rst:9
 msgid "Basics"
@@ -5674,83 +5663,86 @@ msgid ""
 "after selecting a template. If you can't see the the \"Add from template\" "
 "area, there is no template available."
 msgstr ""
+"Уколико желите да додате списак задатака за тикет, идите на језичак „Списак "
+"задатака” и кликните или на „Додај празан списак” (1) или „Додај по шаблону” "
+"(2) након одабира шаблона. Уколико не видите део „Додај по шаблону”, нема "
+"доступних шаблона у систему."
 
 #: ../extras/checklist.rst:33
-#, fuzzy
-#| msgid "The edit organization dialog."
 msgid "Checklist creation dialog"
-msgstr "Дијалог за уређивање организације."
+msgstr "Дијалог за додавање списка задатака"
 
 #: ../extras/checklist.rst:33
 msgid "Screenshot of adding template or new checklist."
-msgstr ""
+msgstr "Снимак екрана додавања по шаблону или новог списка задатака."
 
 #: ../extras/checklist.rst:35
 msgid ""
 "Depending on your choice, you can create your own new checklist or use a "
 "predefined template. In both cases, you can:"
 msgstr ""
+"На основу вашег избора, можете додати ваш нови списак задатака или користити "
+"предефинисани шаблон. У оба случаја можете:"
 
 #: ../extras/checklist.rst:38
 msgid "Edit the checklist title"
-msgstr ""
+msgstr "Уредити наслов списка"
 
 #: ../extras/checklist.rst:39
 msgid "Edit the checklist items (reorder, rename, add, delete)"
 msgstr ""
+"Уредити задатке на списку (промена редоследа, наслова, додавање, уклањање)"
 
 #: ../extras/checklist.rst:40
 msgid "Remove the complete checklist"
-msgstr ""
+msgstr "Уклоните комплетан списак"
 
 #: ../extras/checklist.rst:41
 msgid "Add a checklist, if there is no existing one"
-msgstr ""
+msgstr "Додате списак, уколико не постоји"
 
 #: ../extras/checklist.rst:43
 msgid ""
 "You can perform most of these edit, add and delete actions on different ways:"
 msgstr ""
+"Радње уређивања, додавања и уклањања можете обавити на различите начине:"
 
 #: ../extras/checklist.rst:45
-#, fuzzy
-#| msgid ""
-#| "Click on the title at the top of the chat window to edit chat details."
 msgid "Click on the item text (checklist title or checklist item) to edit it"
-msgstr ""
-"Кликните на наслов при врху прозора за ћаскање да бисте изменили детаље "
-"ћаскања."
+msgstr "Кликом на текст (наслова списка или наслова задатка) за уређивање"
 
 #: ../extras/checklist.rst:46
 msgid "Click on the checkbox to check an item"
-msgstr ""
+msgstr "Кликнете на поље за потврду да означите задатак"
 
 #: ../extras/checklist.rst:47
 msgid ""
 "Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
-msgstr ""
+msgstr "Кликнете на ︙или наслов „Списак задатака” за одабир радњи из менија"
 
 #: ../extras/checklist.rst:48
 msgid "To add an item, click on the \"+ Add\" button"
-msgstr ""
+msgstr "За додавање задатка, кликните на дугме „+ Додај”"
 
 #: ../extras/checklist.rst:49
 msgid ""
 "To reorder them, use the corresponding button. You can then drag & drop the "
 "items via the ≣ handle."
 msgstr ""
+"За промену редоследа, користите одговарајуће дугме. Након тога можете "
+"превући и испустити задатке путем дршке ≣."
 
 #: ../extras/checklist.rst:56
 msgid "Screenshot of editing an item by simply clicking on it."
-msgstr ""
+msgstr "Снимак екрана приликом уређивања задатка након клика."
 
 #: ../extras/checklist.rst:59
 msgid "Additional Features"
-msgstr ""
+msgstr "Додатне функције"
 
 #: ../extras/checklist.rst:69
 msgid "Refer to other tickets in the checklist"
-msgstr ""
+msgstr "Укажите на друге тикете у списку задатака"
 
 #: ../extras/checklist.rst:62
 msgid ""
@@ -5758,20 +5750,26 @@ msgid ""
 "and number into the item label (e.g. ``Ticket#423456``). This item is not "
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
+"Можете додати други тикет као задатак на списак уносом или налепљивањем "
+"његовог прикључка и броја као назив (нпр. ``Ticket#423456``). Овај задатак "
+"се не може ручно означити већ приказује тренутно стање наведеног тикета."
 
 #: ../extras/checklist.rst:66
 msgid "**Copying ticket hook and number**"
-msgstr ""
+msgstr "**Копирање прикључка и броја тикета**"
 
 #: ../extras/checklist.rst:68
 msgid ""
 "To copy the ticket hook and number from another ticket, click on the copy "
 "button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
+"Да бисте ископирали прикључак и број другог тикета, кликните на дугме за "
+"копирање при врху прегледа или користите пречицу на тастатури :kbd:`.` у том "
+"тикету."
 
 #: ../extras/checklist.rst:79
 msgid "Check of completed checklist"
-msgstr ""
+msgstr "Провера завршеног списка"
 
 #: ../extras/checklist.rst:72
 msgid ""
@@ -5780,12 +5778,18 @@ msgid ""
 "all items are completed, Zammad will prompt you to either work on the "
 "remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
+"Zammad укључује и функцију која аутоматски проверава да ли су сви задаци са "
+"списка комплетирани. Провера се извршава када затварате тикет. Уколико нису "
+"означене сви задаци, Zammad ће вас упитати да ли желите да наставите рад на "
+"осталим задацима и задржите тикет отвореним или да га свакако затворите."
 
 #: ../extras/checklist.rst:77
 msgid ""
 "When referencing other tickets in your checklist, only those which are "
 "closed (with a green circle) are considered as completed."
 msgstr ""
+"Када референцирате друге тикета у свом списку, само они који су затворени ("
+"са зеленим кругом) се сматрају одзначеним."
 
 #: ../extras/customers.rst:2
 msgid "Customers"
@@ -7435,10 +7439,8 @@ msgstr ""
 "прате ваше тикете."
 
 #: ../extras/profile-and-settings.rst:146
-#, fuzzy
-#| msgid "You will reveive notifications while you are absent."
 msgid "You will receive notifications while you are absent."
-msgstr "Наставићете да добијате обавештења док сте одсутни."
+msgstr "Добијаћете обавештења док сте одсутни."
 
 #: ../extras/profile-and-settings.rst:149
 msgid ""

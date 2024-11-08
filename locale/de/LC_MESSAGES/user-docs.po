@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 08:08+0100\n"
-"PO-Revision-Date: 2024-10-22 13:00+0000\n"
+"PO-Revision-Date: 2024-11-07 09:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/de/>\n"
+"documentations/user-documentation-pre-release/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,16 +40,13 @@ msgid "Overview"
 msgstr "Übersicht"
 
 #: ../advanced/keyboard-shortcuts.rst:10
-#, fuzzy
-#| msgid ""
-#| "Click on your avatar at the bottom of the main menu to access the "
-#| "**keyboard shortcuts cheat sheet**."
 msgid ""
 "Click on your avatar at the bottom of the main menu and select \"Keyboard "
 "Shortcuts\" or just press :kbd:`?` to open the keyboard shortcut overview."
 msgstr ""
-"Klicken Sie auf Ihren Avatar am unteren Rand des Hauptmenüs, um den "
-"**Tastaturkurzbefehl-Spickzettel** aufzurufen."
+"Klicken Sie unten im Hauptmenü auf Ihren Avatar und wählen Sie "
+"\"Tastaturkürzel\" oder drücken Sie einfach :kbd:`?`, um die Übersicht der "
+"Tastaturkürzel zu öffnen."
 
 #: ../advanced/keyboard-shortcuts.rst:None
 #: ../extras/profile-and-settings.rst:12
@@ -69,32 +66,33 @@ msgid "Keyboard shortcut cheat sheet"
 msgstr "Spickzettel für Tastenkombinationen"
 
 #: ../advanced/keyboard-shortcuts.rst:26
-#, fuzzy
-#| msgid "The keyboard shortcut cheat sheet."
 msgid "The keyboard shortcut overview."
-msgstr "Spickzettel für Tastenkombinationen."
+msgstr "Die Übersicht der Tastaturkürzel."
 
 #: ../advanced/keyboard-shortcuts.rst:29
-#, fuzzy
-#| msgid "Ticket Settings"
 msgid "Settings"
-msgstr "Ticket-Einstellungen"
+msgstr "Einstellungen"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "At the top of the dialog, you can:"
-msgstr ""
+msgstr "Im oberen Bereich des Dialogs können Sie:"
 
 #: ../advanced/keyboard-shortcuts.rst:33
 msgid ""
 "Enable or disable the shortcuts in general by switching the toggle on the "
 "left side."
 msgstr ""
+"Die Tastenkombinationen aktivieren oder deaktivieren, indem Sie den Schalter "
+"auf der linken Seite klicken."
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid ""
 "Switch to the old shortcuts if you got used to them by clicking on \"Switch "
 "back to old layout\" on the right side."
 msgstr ""
+"Zu den alten Tastaturkürzeln wechseln wenn Sie sich daran gewöhnt haben, "
+"indem Sie auf der rechten Seite auf \"Zurück zum alten Layout wechseln\" "
+"klicken."
 
 #: ../advanced/keyboard-shortcuts.rst:38
 msgid ""
@@ -102,6 +100,9 @@ msgid ""
 "because browsers and operating systems could jam the key press signal. And "
 "the shortcut for opening this overview differs as well."
 msgstr ""
+"Beachten Sie, dass diese alten Tastenkombinationen nicht so zuverlässig "
+"funktionieren wie die neuen, da Browser und Betriebssysteme dazwischenfunken "
+"können. Auch die Tastenkombination zum Öffnen dieser Übersicht ist anders."
 
 #: ../advanced/keyboard-shortcuts.rst:43
 msgid ""
@@ -110,18 +111,18 @@ msgid ""
 "should make sure to not delete your browser cache / session cookies for your "
 "Zammad instance."
 msgstr ""
+"Diese Einstellungen werden derzeit nur im Browser und nicht in Ihrem "
+"Benutzerprofil gespeichert. Wenn Sie die Tastaturkürzel deaktivieren oder "
+"zum alten Layout wechseln möchten, sollten Sie sicherstellen, dass Sie Ihren "
+"Browser-Cache / Ihre Session-Cookies für Ihre Zammad-Instanz nicht löschen."
 
 #: ../advanced/keyboard-shortcuts.rst:53
-#, fuzzy
-#| msgid "Keyboard shortcuts"
 msgid "Keyboard shortcut settings"
-msgstr "Tastaturkürzel"
+msgstr "Einstellungen für Tastaturkürzel"
 
 #: ../advanced/keyboard-shortcuts.rst:53
-#, fuzzy
-#| msgid "The keyboard shortcut cheat sheet."
 msgid "The keyboard shortcut settings."
-msgstr "Spickzettel für Tastenkombinationen."
+msgstr "Die Einstellungen für die Tastaturkürzel."
 
 #: ../advanced/keyboard-shortcuts.rst:56
 msgid "List of Available Keyboard Shortcuts"
@@ -147,7 +148,7 @@ msgstr "Funktion"
 
 #: ../advanced/keyboard-shortcuts.rst:64
 msgid ":kbd:`h`"
-msgstr ""
+msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:64
 msgid "Show dashboard"
@@ -155,7 +156,7 @@ msgstr "Zeigt das Dashboard"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid ":kbd:`o`"
-msgstr ""
+msgstr ":kbd:`o`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid "Show overviews"
@@ -163,17 +164,15 @@ msgstr "Zeigt die Übersichten"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`s`"
-msgstr ""
+msgstr ":kbd:`s`"
 
 #: ../advanced/keyboard-shortcuts.rst:66
-#, fuzzy
-#| msgid "Trigger the search"
 msgid "Open the search"
-msgstr "Suche aktivieren"
+msgstr "Öffnet die Suche"
 
 #: ../advanced/keyboard-shortcuts.rst:67
 msgid ":kbd:`a`"
-msgstr ""
+msgstr ":kbd:`a`"
 
 #: ../advanced/keyboard-shortcuts.rst:67
 msgid "Open notifications"
@@ -181,7 +180,7 @@ msgstr "Öffnet Benachrichtigungen"
 
 #: ../advanced/keyboard-shortcuts.rst:68
 msgid ":kbd:`n`"
-msgstr ""
+msgstr ":kbd:`n`"
 
 #: ../advanced/keyboard-shortcuts.rst:68 ../extras/mobile-view.rst:119
 msgid "Create a new ticket"
@@ -189,27 +188,23 @@ msgstr "Erstellen eines neuen Tickets"
 
 #: ../advanced/keyboard-shortcuts.rst:69
 msgid ":kbd:`u`"
-msgstr ""
+msgstr ":kbd:`u`"
 
 #: ../advanced/keyboard-shortcuts.rst:69
-#, fuzzy
-#| msgid "User submenu"
 msgid "Open user menu"
-msgstr "Benutzer Untermenü"
+msgstr "Öffnet Benutzer-Menü"
 
 #: ../advanced/keyboard-shortcuts.rst:70
 msgid ":kbd:`?`"
-msgstr ""
+msgstr ":kbd:`?`"
 
 #: ../advanced/keyboard-shortcuts.rst:70
-#, fuzzy
-#| msgid "open a ticket overview;"
 msgid "Open shortcuts overview"
-msgstr "öffnen Sie eine Ticket-Übersicht;"
+msgstr "Öffnen der Tastaturkürzel-Übersicht"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid ":kbd:`shift` :kbd:`l`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`l`"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid "Log out"
@@ -217,7 +212,7 @@ msgstr "Abmelden"
 
 #: ../advanced/keyboard-shortcuts.rst:72
 msgid ":kbd:`shift` :kbd:`w`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`w`"
 
 #: ../advanced/keyboard-shortcuts.rst:72
 msgid "Close current tab"
@@ -225,7 +220,7 @@ msgstr "Tab schließen"
 
 #: ../advanced/keyboard-shortcuts.rst:73
 msgid ":kbd:`shift` :kbd:`▶`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`▶`"
 
 #: ../advanced/keyboard-shortcuts.rst:73
 msgid "Show next tab"
@@ -233,7 +228,7 @@ msgstr "Nächsten Tab anzeigen"
 
 #: ../advanced/keyboard-shortcuts.rst:74
 msgid ":kbd:`shift` :kbd:`◀`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`◀`"
 
 #: ../advanced/keyboard-shortcuts.rst:74
 msgid "Show previous tab"
@@ -241,7 +236,7 @@ msgstr "Vorherigen Tab anzeigen"
 
 #: ../advanced/keyboard-shortcuts.rst:75
 msgid ":kbd:`ctrl` :kbd:`enter`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`enter`"
 
 #: ../advanced/keyboard-shortcuts.rst:75
 msgid "Confirm/submit in dialogs"
@@ -249,7 +244,7 @@ msgstr "Bestätigen/Absenden in Dialogen"
 
 #: ../advanced/keyboard-shortcuts.rst:76
 msgid ":kbd:`▲` / :kbd:`▼`"
-msgstr ""
+msgstr ":kbd:`▲` / :kbd:`▼`"
 
 #: ../advanced/keyboard-shortcuts.rst:76
 msgid "Move selection/cursor up and down"
@@ -257,17 +252,15 @@ msgstr "Auswahl/Cursor nach oben und unten bewegen"
 
 #: ../advanced/keyboard-shortcuts.rst:77 ../advanced/keyboard-shortcuts.rst:115
 msgid ":kbd:`◀` / :kbd:`▶`"
-msgstr ""
+msgstr ":kbd:`◀` / :kbd:`▶`"
 
 #: ../advanced/keyboard-shortcuts.rst:77
 msgid "Move selection/cursor left and right"
 msgstr "Auswahl/Cursor nach links und rechts bewegen"
 
 #: ../advanced/keyboard-shortcuts.rst:78
-#, fuzzy
-#| msgid "``enter``"
 msgid ":kbd:`enter`"
-msgstr "``enter``"
+msgstr ":kbd:`enter`"
 
 #: ../advanced/keyboard-shortcuts.rst:78
 msgid "Select item / confirm"
@@ -275,7 +268,7 @@ msgstr "Element auswählen / bestätigen"
 
 #: ../advanced/keyboard-shortcuts.rst:79
 msgid ":kbd:`.`"
-msgstr ""
+msgstr ":kbd:`.`"
 
 #: ../advanced/keyboard-shortcuts.rst:79
 msgid "Copy current object number (e.g. ticket number)"
@@ -283,7 +276,7 @@ msgstr "Aktuelle Objektnummer kopieren (z.B. Ticketnummer)"
 
 #: ../advanced/keyboard-shortcuts.rst:80
 msgid ":kbd:`..`"
-msgstr ""
+msgstr ":kbd:`..`"
 
 #: ../advanced/keyboard-shortcuts.rst:80
 msgid "Add the title of the object to the number"
@@ -291,7 +284,7 @@ msgstr "Den Titel des Objekts zur Nummer hinzufügen"
 
 #: ../advanced/keyboard-shortcuts.rst:81
 msgid ":kbd:`...`"
-msgstr ""
+msgstr ":kbd:`...`"
 
 #: ../advanced/keyboard-shortcuts.rst:81
 msgid "Add the object link URL to the number and title"
@@ -309,7 +302,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:92
 msgid ":kbd:`t`"
-msgstr ""
+msgstr ":kbd:`t`"
 
 #: ../advanced/keyboard-shortcuts.rst:92
 msgid "Enable or disable the inline translation"
@@ -321,7 +314,7 @@ msgstr "Erscheinung"
 
 #: ../advanced/keyboard-shortcuts.rst:102
 msgid ":kbd:`d`"
-msgstr ""
+msgstr ":kbd:`d`"
 
 #: ../advanced/keyboard-shortcuts.rst:102
 msgid "Switch between dark and light mode"
@@ -333,7 +326,7 @@ msgstr "Tickets"
 
 #: ../advanced/keyboard-shortcuts.rst:111
 msgid ":kbd:`x`"
-msgstr ""
+msgstr ":kbd:`x`"
 
 #: ../advanced/keyboard-shortcuts.rst:111
 msgid "Create a new note article"
@@ -341,7 +334,7 @@ msgstr "Erstellen eines neuen Notiz-Artikels"
 
 #: ../advanced/keyboard-shortcuts.rst:112
 msgid ":kbd:`r`"
-msgstr ""
+msgstr ":kbd:`r`"
 
 #: ../advanced/keyboard-shortcuts.rst:112
 msgid "Reply to the last article"
@@ -349,7 +342,7 @@ msgstr "Auf letzen Artikel antworten"
 
 #: ../advanced/keyboard-shortcuts.rst:113
 msgid ":kbd:`i`"
-msgstr ""
+msgstr ":kbd:`i`"
 
 #: ../advanced/keyboard-shortcuts.rst:113
 msgid "Switch the visibility of the article between internal and public"
@@ -358,7 +351,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:114
 msgid ":kbd:`shift` :kbd:`c`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`c`"
 
 #: ../advanced/keyboard-shortcuts.rst:114
 msgid "Set state of the ticket to \"closed\""
@@ -370,7 +363,7 @@ msgstr "Navigation durch Artikel"
 
 #: ../advanced/keyboard-shortcuts.rst:116
 msgid ":kbd:`::`"
-msgstr ""
+msgstr ":kbd:`::`"
 
 #: ../advanced/keyboard-shortcuts.rst:116
 msgid "Insert text module (while composing an article)"
@@ -378,7 +371,7 @@ msgstr "Textbaustein einfügen (beim Verfassen eines Artikels)"
 
 #: ../advanced/keyboard-shortcuts.rst:117
 msgid ":kbd:`??`"
-msgstr ""
+msgstr ":kbd:`??`"
 
 #: ../advanced/keyboard-shortcuts.rst:117
 msgid "Insert knowledge base article (while composing an article)"
@@ -386,7 +379,7 @@ msgstr "Knowledge Base Artikel einfügen (beim Verfassen eines Artikels)"
 
 #: ../advanced/keyboard-shortcuts.rst:118
 msgid ":kbd:`@@`"
-msgstr ""
+msgstr ":kbd:`@@`"
 
 #: ../advanced/keyboard-shortcuts.rst:118
 msgid "Mention a user (while composing an article)"
@@ -411,21 +404,18 @@ msgid "Before typing:"
 msgstr "Vor dem Tippen:"
 
 #: ../advanced/keyboard-shortcuts.rst:129
-#, fuzzy
-#| msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
 msgid "Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,"
-msgstr "Drücken Sie ``cmd`` + ``i``, um *kursiv* zu schreiben,"
+msgstr "Drücken Sie :kbd:`strg` :kbd:`i`, um *kursiv* zu schreiben,"
 
 #: ../advanced/keyboard-shortcuts.rst:130
 msgid "enter your desired text, and"
 msgstr "geben Sie den gewünschten Text ein und"
 
 #: ../advanced/keyboard-shortcuts.rst:131
-#, fuzzy
-#| msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgid "press :kbd:`ctrl` :kbd:`i` again to return to normal text mode."
 msgstr ""
-"drücken Sie erneut ``cmd`` + ``i``, um zum normalen Textmodus zurückzukehren."
+"Drücken Sie :kbd:`strg` :kbd:`i` erneut, um zum normalen Textmodus "
+"zurückzukehren."
 
 #: ../advanced/keyboard-shortcuts.rst:133
 msgid "After typing:"
@@ -442,10 +432,8 @@ msgstr ""
 "auszuwählen und"
 
 #: ../advanced/keyboard-shortcuts.rst:137
-#, fuzzy
-#| msgid "press ``cmd`` + ``i`` to set the text in *italics*."
 msgid "press :kbd:`ctrl` :kbd:`i` to set the text in *italics*."
-msgstr "drücken Sie ``cmd`` + ``i`` , um den Text in *kursiv* zu setzen."
+msgstr "Drücken Sie :kbd:`strg` :kbd:`i`, um den Text in *kursiv* zu setzen."
 
 #: ../advanced/keyboard-shortcuts.rst:158
 msgid "Key Combinations"
@@ -453,7 +441,7 @@ msgstr "Tastenkombinationen"
 
 #: ../advanced/keyboard-shortcuts.rst:143
 msgid ":kbd:`ctrl` :kbd:`u`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`u`"
 
 #: ../advanced/keyboard-shortcuts.rst:143
 msgid "Format text underlined"
@@ -461,7 +449,7 @@ msgstr "Formatieren als unterstrichen"
 
 #: ../advanced/keyboard-shortcuts.rst:144
 msgid ":kbd:`ctrl` :kbd:`b`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`b`"
 
 #: ../advanced/keyboard-shortcuts.rst:144
 msgid "Format text in **bold**"
@@ -469,7 +457,7 @@ msgstr "Text in **fett** formatieren"
 
 #: ../advanced/keyboard-shortcuts.rst:145
 msgid ":kbd:`ctrl` :kbd:`i`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`i`"
 
 #: ../advanced/keyboard-shortcuts.rst:145
 msgid "Format text in *italics*"
@@ -477,7 +465,7 @@ msgstr "Text in *Kursivschrift* formatieren"
 
 #: ../advanced/keyboard-shortcuts.rst:146
 msgid ":kbd:`ctrl` :kbd:`s`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`s`"
 
 #: ../advanced/keyboard-shortcuts.rst:146
 msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
@@ -485,7 +473,7 @@ msgstr "Text formatieren als d̶u̶r̶c̶h̶g̶e̶s̶t̶r̶i̶c̶h̶e̶n̶"
 
 #: ../advanced/keyboard-shortcuts.rst:147
 msgid ":kbd:`ctrl` :kbd:`v`"
-msgstr ""
+msgstr ":kbd:`strg` :kbd:`v`"
 
 #: ../advanced/keyboard-shortcuts.rst:147
 msgid "Paste text from clipboard"
@@ -493,7 +481,7 @@ msgstr "Text aus der Zwischenablage einfügen"
 
 #: ../advanced/keyboard-shortcuts.rst:148
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`v`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`v`"
 
 #: ../advanced/keyboard-shortcuts.rst:148
 msgid "Paste text from clipboard (as plain text)"
@@ -501,7 +489,7 @@ msgstr "Text aus der Zwischenablage einfügen (als reinen Text)"
 
 #: ../advanced/keyboard-shortcuts.rst:149
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`f`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`f`"
 
 #: ../advanced/keyboard-shortcuts.rst:149
 msgid "Remove formatting of text"
@@ -509,7 +497,7 @@ msgstr "Formatierung von Text entfernen"
 
 #: ../advanced/keyboard-shortcuts.rst:150
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`y`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`y`"
 
 #: ../advanced/keyboard-shortcuts.rst:150
 msgid "Remove formatting of the whole text"
@@ -517,7 +505,7 @@ msgstr "Formatierung des gesamten Textes entfernen"
 
 #: ../advanced/keyboard-shortcuts.rst:151
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`z`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`z`"
 
 #: ../advanced/keyboard-shortcuts.rst:151
 msgid "Insert a horizontal line"
@@ -525,7 +513,7 @@ msgstr "Einfügen einer horizontalen Linie"
 
 #: ../advanced/keyboard-shortcuts.rst:152
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`l`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`l`"
 
 #: ../advanced/keyboard-shortcuts.rst:152
 msgid "Format as unordered list"
@@ -533,7 +521,7 @@ msgstr "Formatieren als unsortierte Liste"
 
 #: ../advanced/keyboard-shortcuts.rst:153
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`k`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`k`"
 
 #: ../advanced/keyboard-shortcuts.rst:153
 msgid "Format as ordered list"
@@ -541,7 +529,7 @@ msgstr "Formatieren als sortierte Liste"
 
 #: ../advanced/keyboard-shortcuts.rst:154
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`1`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`1`"
 
 #: ../advanced/keyboard-shortcuts.rst:154
 msgid "Format as h1 heading"
@@ -549,7 +537,7 @@ msgstr "Formatieren als h1 Überschrift"
 
 #: ../advanced/keyboard-shortcuts.rst:155
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`2`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`2`"
 
 #: ../advanced/keyboard-shortcuts.rst:155
 msgid "Format as h2 heading"
@@ -557,7 +545,7 @@ msgstr "Formatieren als h2-Überschrift"
 
 #: ../advanced/keyboard-shortcuts.rst:156
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`3`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`3`"
 
 #: ../advanced/keyboard-shortcuts.rst:156
 msgid "Format as h3 heading"
@@ -565,7 +553,7 @@ msgstr "Formatieren als h3-Überschrift"
 
 #: ../advanced/keyboard-shortcuts.rst:157
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`x`"
-msgstr ""
+msgstr ":kbd:`shift` :kbd:`strg` :kbd:`x`"
 
 #: ../advanced/keyboard-shortcuts.rst:157
 msgid "Remove any hyperlink"
@@ -576,6 +564,9 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
 "`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
+"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle von "
+":kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle von :kbd:`shift` "
+":kbd:`strg`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -5804,14 +5795,12 @@ msgstr ""
 "Ein Link zum Chat wird automatisch als erste Notiz des Tickets eingefügt."
 
 #: ../extras/checklist.rst:2
-#, fuzzy
-#| msgid "Checkmk"
 msgid "Checklist"
-msgstr "Checkmk"
+msgstr "Checkliste"
 
 #: ../extras/checklist.rst:5
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 #: ../extras/checklist.rst:7
 msgid ""
@@ -5820,20 +5809,26 @@ msgid ""
 "(unless your admin has deactivated it). Please note that you can only add or "
 "edit a checklist, if you have the permission to edit the ticket."
 msgstr ""
+"Verwenden Sie eine Checkliste in Tickets, um den Überblick über zu "
+"erledigenden Aufgaben zu behalten. Sie finden die Checklistenfunktion in der "
+"rechten Seitenleiste im Tab \"Checkliste\" (sofern Ihr Administrator sie "
+"nicht deaktiviert hat). Bitte beachten Sie, dass Sie eine Checkliste nur "
+"hinzufügen oder bearbeiten können, wenn Sie die Berechtigung haben, das "
+"Ticket zu bearbeiten."
 
 #: ../extras/checklist.rst:15
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
+"Screenshot der rechten Seitenleiste mit hervorgehobenem Tab \"Checkliste\""
 
 #: ../extras/checklist.rst:15
 msgid "Screenshot of ticket view with highlighted checklist sidebar."
 msgstr ""
+"Screenshot der Ticket-Ansicht mit hervorgehobener Checklisten-Seitenleiste."
 
 #: ../extras/checklist.rst:18
-#, fuzzy
-#| msgid "Usage tips"
 msgid "Usage"
-msgstr "Tipps zur Nutzung"
+msgstr "Verwendung"
 
 #: ../extras/checklist.rst:21 ../index.rst:9
 msgid "Basics"
@@ -5846,83 +5841,96 @@ msgid ""
 "after selecting a template. If you can't see the the \"Add from template\" "
 "area, there is no template available."
 msgstr ""
+"Wenn Sie eine Checkliste zu einem Ticket hinzufügen möchten, gehen Sie auf "
+"den Tab \"Checkliste\" und klicken Sie entweder auf \"Leere Checkliste "
+"hinzufügen\" (1) oder \"Aus Vorlage hinzufügen\" (2), nachdem Sie eine "
+"Vorlage ausgewählt haben. Wenn Sie den Bereich \"Aus Vorlage hinzufügen\" "
+"nicht sehen können, ist keine Vorlage verfügbar."
 
 #: ../extras/checklist.rst:33
-#, fuzzy
-#| msgid "The edit organization dialog."
 msgid "Checklist creation dialog"
-msgstr "Die Bearbeiten-Maske einer Organisation."
+msgstr "Dialog zur Erstellung der Checkliste"
 
 #: ../extras/checklist.rst:33
 msgid "Screenshot of adding template or new checklist."
 msgstr ""
+"Screenshot zeigt das Hinzufügen aus einer Vorlage oder einer neuen "
+"Checkliste."
 
 #: ../extras/checklist.rst:35
 msgid ""
 "Depending on your choice, you can create your own new checklist or use a "
 "predefined template. In both cases, you can:"
 msgstr ""
+"Je nach Auswahl können Sie Ihre eigene neue Checkliste erstellen oder eine "
+"vordefinierte Vorlage verwenden. In beiden Fällen können Sie:"
 
 #: ../extras/checklist.rst:38
 msgid "Edit the checklist title"
-msgstr ""
+msgstr "Den Titel der Checkliste bearbeiten"
 
 #: ../extras/checklist.rst:39
 msgid "Edit the checklist items (reorder, rename, add, delete)"
 msgstr ""
+"Die Elemente der Checkliste bearbeiten (neu ordnen, umbenennen, hinzufügen, "
+"löschen)"
 
 #: ../extras/checklist.rst:40
 msgid "Remove the complete checklist"
-msgstr ""
+msgstr "Die komplette Checkliste entfernen"
 
 #: ../extras/checklist.rst:41
 msgid "Add a checklist, if there is no existing one"
-msgstr ""
+msgstr "Eine Checkliste hinzufügen, sofern keine vorhanden ist"
 
 #: ../extras/checklist.rst:43
 msgid ""
 "You can perform most of these edit, add and delete actions on different ways:"
 msgstr ""
+"Sie können die meisten der Aktionen auf unterschiedliche Weise durchführen:"
 
 #: ../extras/checklist.rst:45
-#, fuzzy
-#| msgid ""
-#| "Click on the title at the top of the chat window to edit chat details."
 msgid "Click on the item text (checklist title or checklist item) to edit it"
 msgstr ""
-"Klicken Sie auf den Titel im oberen Bereich des Chatfensters, um die "
-"Chatdetails zu bearbeiten."
+"Klicken Sie auf den Element-Text (Checklistentitel oder Checklistenelement), "
+"um ihn zu bearbeiten"
 
 #: ../extras/checklist.rst:46
 msgid "Click on the checkbox to check an item"
-msgstr ""
+msgstr "Klicken Sie auf die Checkbox, um ein Element abzuhaken"
 
 #: ../extras/checklist.rst:47
 msgid ""
 "Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
 msgstr ""
+"Klicken Sie auf ︙ oder auf \"Checkliste\", um Aktionen aus dem Menü "
+"auszuwählen"
 
 #: ../extras/checklist.rst:48
 msgid "To add an item, click on the \"+ Add\" button"
 msgstr ""
+"Um ein Element hinzuzufügen, klicken Sie auf die Schaltfläche \"+ "
+"Hinzufügen\""
 
 #: ../extras/checklist.rst:49
 msgid ""
 "To reorder them, use the corresponding button. You can then drag & drop the "
 "items via the ≣ handle."
 msgstr ""
+"Um sie neu anzuordnen, verwenden Sie die entsprechende Schaltfläche. Sie "
+"können die Elemente dann per Drag & Drop über den ≣ Button verschieben."
 
 #: ../extras/checklist.rst:56
 msgid "Screenshot of editing an item by simply clicking on it."
-msgstr ""
+msgstr "Screenshot zeigt Bearbeitung eines Elements durch einfaches Anklicken."
 
 #: ../extras/checklist.rst:59
 msgid "Additional Features"
-msgstr ""
+msgstr "Zusätzliche Funktionen"
 
 #: ../extras/checklist.rst:69
 msgid "Refer to other tickets in the checklist"
-msgstr ""
+msgstr "Auf andere Tickets in der Checkliste verweisen"
 
 #: ../extras/checklist.rst:62
 msgid ""
@@ -5930,20 +5938,27 @@ msgid ""
 "and number into the item label (e.g. ``Ticket#423456``). This item is not "
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
+"Sie können ein weiteres Ticket als Element der Checkliste hinzufügen, indem "
+"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. ``Ticket#423456``)"
+". Dieses Element kann nicht manuell abgehakt werden, es spiegelt den Status "
+"des referenzierten Tickets wider."
 
 #: ../extras/checklist.rst:66
 msgid "**Copying ticket hook and number**"
-msgstr ""
+msgstr "**Kopieren von Ticket-Hook und Nummer**"
 
 #: ../extras/checklist.rst:68
 msgid ""
 "To copy the ticket hook and number from another ticket, click on the copy "
 "button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
+"Um den Ticket-Hook und die Ticket-Nummer aus einem anderen Ticket zu "
+"kopieren, klicken Sie auf die Kopier-Schaltfläche oben oder verwenden Sie "
+"das Tastaturkürzel :kbd:`.` in diesem Ticket."
 
 #: ../extras/checklist.rst:79
 msgid "Check of completed checklist"
-msgstr ""
+msgstr "Überprüfung auf Erledigung der Checkliste"
 
 #: ../extras/checklist.rst:72
 msgid ""
@@ -5952,12 +5967,19 @@ msgid ""
 "all items are completed, Zammad will prompt you to either work on the "
 "remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
+"Zammad prüft automatisch, ob alle Elemente der Checkliste abgeschlossen "
+"sind. Die Prüfung wird durchgeführt, wenn Sie ein Ticket auf \"geschlossen\" "
+"setzen. Wenn nicht alle Elemente erledigt sind, fordert Zammad Sie auf, "
+"entweder die verbleibenden Aufgaben zu bearbeiten und das Ticket offen zu "
+"lassen oder es trotzdem zu schließen."
 
 #: ../extras/checklist.rst:77
 msgid ""
 "When referencing other tickets in your checklist, only those which are "
 "closed (with a green circle) are considered as completed."
 msgstr ""
+"Wenn Sie in Ihrer Checkliste auf andere Tickets verweisen, gelten nur "
+"diejenigen als erledigt, die abgeschlossen sind (mit einem grünen Kreis)."
 
 #: ../extras/customers.rst:2
 msgid "Customers"
@@ -7659,12 +7681,8 @@ msgstr ""
 "zu behalten."
 
 #: ../extras/profile-and-settings.rst:146
-#, fuzzy
-#| msgid "You will reveive notifications while you are absent."
 msgid "You will receive notifications while you are absent."
-msgstr ""
-"Sie werden **weiterhin Benachrichtigungen erhalten**, während Sie abwesend "
-"sind."
+msgstr "Während Ihrer Abwesenheit werden Sie benachrichtigt."
 
 #: ../extras/profile-and-settings.rst:149
 msgid ""
