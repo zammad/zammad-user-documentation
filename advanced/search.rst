@@ -87,7 +87,7 @@ Ticket Attributes
    * last_contact_at: timestamp (last contact by customer or agent)
    * last_contact_agent_at: timestamp (last contact by agent)
    * last_contact_customer_at: timestamp (last contact by customer)
-   * create_article_type: string (email|phone|web|...)
+   * create_article_type.name: string (email|phone|web|...)
    * create_article_sender: string (Customer|Agent|System)
    * article_count: integer
    * escalation_at: timestamp
