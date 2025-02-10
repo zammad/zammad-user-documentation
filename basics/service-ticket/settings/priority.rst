@@ -28,7 +28,6 @@ Priority can also be used as a ticket filter when creating
 In other words, **consult your administrator**
 for details on how he’d like you to use it.
 
-.. hint:: :doc:`
-   Customers can´t set priority for their own tickets #814
-   For more context https://github.com/zammad/zammad/issues/814#issuecomment-2640152413
-   
+.. hint::
+   Customers can't set a priority for their own tickets.
+   For more context, have a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_.
