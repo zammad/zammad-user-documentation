@@ -17,7 +17,7 @@ Please see [the Contributing section in this manual](https://docs.zammad.org/en/
 * sphinx
 
   ```
-  $ pip install sphinx sphinx-autobuild sphinx-intl sphinx_rtd_theme sphinx-tabs
+  $ pip install sphinx sphinx-autobuild sphinx-intl sphinx_rtd_theme sphinx-tabs sphinx-version-warning
   ```
 
 * gettext
