@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 12:16+0100\n"
-"PO-Revision-Date: 2025-01-15 15:00+0000\n"
+"POT-Creation-Date: 2025-02-12 14:38+0100\n"
+"PO-Revision-Date: 2025-02-13 09:01+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -1458,7 +1458,7 @@ msgstr "Свеобухватна претрага"
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Мали савет**"
 
-#: ../advanced/tabs.rst:26 ../basics/find-ticket/browse.rst:31
+#: ../advanced/tabs.rst:26
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
@@ -1467,41 +1467,36 @@ msgstr ""
 "бојама:**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
-msgid "|grn|"
-msgstr "|grn|"
-
-#: ../snippets/ticket-state-type-circles.rst:5
-msgid "**Closed**"
-msgstr "**Затворено**"
-
-#: ../snippets/ticket-state-type-circles.rst:7
-msgid "**Merged**"
-msgstr "**Спојено**"
-
-#: ../snippets/ticket-state-type-circles.rst:8
-msgid "|blk|"
-msgstr "|blk|"
-
-#: ../snippets/ticket-state-type-circles.rst:9
-msgid "**Postponed** (Marked as pending; no immediate action required.)"
-msgstr "**Одложено** (означено као на чекању; није потребна хитна радња)"
-
-#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:12
-msgid "**New / Open** (Ready for action.)"
-msgstr "**Ново / Отворено** (спремно за акцију)"
+#: ../snippets/ticket-state-type-circles.rst:5
+msgid "**Action needed** (e.g. new, open, pending reached)"
+msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:14
+#: ../snippets/ticket-state-type-circles.rst:6
+msgid "|blk|"
+msgstr "|blk|"
+
+#: ../snippets/ticket-state-type-circles.rst:7
+msgid "**Paused, no action needed right now** (e.g. pending)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:214
+msgid "|grn|"
+msgstr "|grn|"
+
+#: ../snippets/ticket-state-type-circles.rst:9
+msgid "**No action needed any more** (e.g. closed, merged)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:10
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:15
-msgid "**Escalated** (Requires urgent attention.)"
-msgstr "**Ескалирано** (захтева хитну пажњу)"
+#: ../snippets/ticket-state-type-circles.rst:11
+msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
+msgstr ""
 
 #: ../advanced/tabs.rst:31
 msgid ""
@@ -2272,7 +2267,19 @@ msgstr "Кликните на наслове колона да бисте про
 msgid "Click-and-drag column dividers to adjust their width."
 msgstr "Кликните и превуците ивице колона да бисте прилагодили њихову ширину."
 
-#: ../basics/find-ticket/browse.rst:35
+#: ../basics/find-ticket/browse.rst:31
+#, fuzzy
+#| msgid ""
+#| "Learn more about states and their color coding on this page: :doc:`/"
+#| "basics/service-ticket/settings/state`"
+msgid ""
+"The need for action is color coded and reflects mainly the :doc:`ticket "
+"states </basics/service-ticket/settings/state>`:"
+msgstr ""
+"Сазнајте више о стањима и њиховим бојама у секцији :doc:`/basics/service-"
+"ticket/settings/state`."
+
+#: ../basics/find-ticket/browse.rst:34
 msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
@@ -2285,7 +2292,7 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "Преглед са приказом 3 тикета са различитим приоритетима"
 
-#: ../basics/find-ticket/browse.rst:42
+#: ../basics/find-ticket/browse.rst:41
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
@@ -3191,6 +3198,12 @@ msgid ""
 msgstr ""
 "Другим речима, **консултујте свог администратора** за детаље о томе како "
 "бисте желели да га користите."
+
+#: ../basics/service-ticket/settings/priority.rst:32
+msgid ""
+"Customers can't set a priority for their own tickets. For more context, have "
+"a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
+msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:2
 #: ../basics/what-is-a-ticket.rst:51 ../basics/zammad-glossary.rst:682
@@ -4841,7 +4854,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:596
 msgid "S"
-msgstr "С"
+msgstr "S"
 
 #: ../basics/zammad-glossary.rst:603
 msgid "Scheduler"
@@ -8851,6 +8864,21 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су доступни :docs:"
 "`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
 "приручници."
+
+#~ msgid "**Closed**"
+#~ msgstr "**Затворено**"
+
+#~ msgid "**Merged**"
+#~ msgstr "**Спојено**"
+
+#~ msgid "**Postponed** (Marked as pending; no immediate action required.)"
+#~ msgstr "**Одложено** (означено као на чекању; није потребна хитна радња)"
+
+#~ msgid "**New / Open** (Ready for action.)"
+#~ msgstr "**Ново / Отворено** (спремно за акцију)"
+
+#~ msgid "**Escalated** (Requires urgent attention.)"
+#~ msgstr "**Ескалирано** (захтева хитну пажњу)"
 
 #~ msgid "Where to Find Them?"
 #~ msgstr "Где их пронаћи?"
