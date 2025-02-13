@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 12:16+0100\n"
+"POT-Creation-Date: 2025-02-12 14:38+0100\n"
 "PO-Revision-Date: 2024-10-07 17:00+0000\n"
 "Last-Translator: Misha <misha@association-enoria.org>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -1499,7 +1499,7 @@ msgstr "Omnisearch"
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Protip**"
 
-#: ../advanced/tabs.rst:26 ../basics/find-ticket/browse.rst:31
+#: ../advanced/tabs.rst:26
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
@@ -1508,42 +1508,36 @@ msgstr ""
 "**code couleur :**"
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
-msgid "|grn|"
-msgstr "|grn|"
-
-#: ../snippets/ticket-state-type-circles.rst:5
-msgid "**Closed**"
-msgstr "**Fermé**"
-
-#: ../snippets/ticket-state-type-circles.rst:7
-msgid "**Merged**"
-msgstr "**Fusionné**"
-
-#: ../snippets/ticket-state-type-circles.rst:8
-msgid "|blk|"
-msgstr "|blk|"
-
-#: ../snippets/ticket-state-type-circles.rst:9
-msgid "**Postponed** (Marked as pending; no immediate action required.)"
-msgstr ""
-"**En attente** (marqué en attente ; aucune action immédiate nécessaire.)"
-
-#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr "|ylw|"
 
-#: ../snippets/ticket-state-type-circles.rst:12
-msgid "**New / Open** (Ready for action.)"
-msgstr "**Nouveau / ouverts** (Prêt pour action.)"
+#: ../snippets/ticket-state-type-circles.rst:5
+msgid "**Action needed** (e.g. new, open, pending reached)"
+msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:14
+#: ../snippets/ticket-state-type-circles.rst:6
+msgid "|blk|"
+msgstr "|blk|"
+
+#: ../snippets/ticket-state-type-circles.rst:7
+msgid "**Paused, no action needed right now** (e.g. pending)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:214
+msgid "|grn|"
+msgstr "|grn|"
+
+#: ../snippets/ticket-state-type-circles.rst:9
+msgid "**No action needed any more** (e.g. closed, merged)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:10
 msgid "|red|"
 msgstr "|red|"
 
-#: ../snippets/ticket-state-type-circles.rst:15
-msgid "**Escalated** (Requires urgent attention.)"
-msgstr "**Escaladé** (Nécessite de l'attention en urgence.)"
+#: ../snippets/ticket-state-type-circles.rst:11
+msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
+msgstr ""
 
 #: ../advanced/tabs.rst:31
 msgid ""
@@ -2319,7 +2313,13 @@ msgid "Click-and-drag column dividers to adjust their width."
 msgstr ""
 "Cliquez-Déposez les séparateurs des colonnes pour ajuster leur largeur."
 
-#: ../basics/find-ticket/browse.rst:35
+#: ../basics/find-ticket/browse.rst:31
+msgid ""
+"The need for action is color coded and reflects mainly the :doc:`ticket "
+"states </basics/service-ticket/settings/state>`:"
+msgstr ""
+
+#: ../basics/find-ticket/browse.rst:34
 msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
@@ -2330,7 +2330,7 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:42
+#: ../basics/find-ticket/browse.rst:41
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
@@ -3211,6 +3211,12 @@ msgid ""
 msgstr ""
 "En d'autres termes, **consulter votre administrateur** pour les détails sur "
 "comment il aimerait que vous les utilisiez."
+
+#: ../basics/service-ticket/settings/priority.rst:32
+msgid ""
+"Customers can't set a priority for their own tickets. For more context, have "
+"a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
+msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:2
 #: ../basics/what-is-a-ticket.rst:51 ../basics/zammad-glossary.rst:682
@@ -8041,6 +8047,22 @@ msgid ""
 "docs:`system </index.html>` and :admin-docs:`administration manuals </index."
 "html>` available."
 msgstr ""
+
+#~ msgid "**Closed**"
+#~ msgstr "**Fermé**"
+
+#~ msgid "**Merged**"
+#~ msgstr "**Fusionné**"
+
+#~ msgid "**Postponed** (Marked as pending; no immediate action required.)"
+#~ msgstr ""
+#~ "**En attente** (marqué en attente ; aucune action immédiate nécessaire.)"
+
+#~ msgid "**New / Open** (Ready for action.)"
+#~ msgstr "**Nouveau / ouverts** (Prêt pour action.)"
+
+#~ msgid "**Escalated** (Requires urgent attention.)"
+#~ msgstr "**Escaladé** (Nécessite de l'attention en urgence.)"
 
 #~ msgid "Where to Find Them?"
 #~ msgstr "Où les trouver ?"
