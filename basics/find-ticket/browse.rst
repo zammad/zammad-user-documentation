@@ -28,8 +28,7 @@ custom-defined filters):
 
    * Click on column headings to change the display order.
    * Click-and-drag column dividers to adjust their width.
-   * :doc:`Ticket states </basics/service-ticket/settings/state>` are
-     **color-coded:**
+   * The need for action is color coded and reflects mainly the :doc:`ticket states </basics/service-ticket/settings/state>`:
 
      .. include:: /snippets/ticket-state-type-circles.rst
    * :doc:`Ticket priorities </basics/service-ticket/settings/priority>` are
