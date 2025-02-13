@@ -1,19 +1,14 @@
 .. list-table::
    :widths: 5 45
 
-   * - |grn|
-     - **Closed**
-   * - |grn|
-     - **Merged**
-   * - |blk|
-     - **Postponed**
-       (Marked as pending; no immediate action required.)
    * - |ylw|
-     - **New / Open**
-       (Ready for action.)
+     - **Action needed** (e.g. new, open, pending reached)
+   * - |blk|
+     - **Paused, no action needed right now** (e.g. pending)
+   * - |grn|
+     -  **No action needed any more** (e.g. closed, merged)
    * - |red|
-     - **Escalated**
-       (Requires urgent attention.)
+     - **Immediate action needed** (ticket escalated due to an SLA violation)
 
 .. |grn| raw:: html
 
