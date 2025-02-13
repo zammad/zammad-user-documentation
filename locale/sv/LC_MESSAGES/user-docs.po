@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 13:50+0100\n"
+"POT-Creation-Date: 2025-02-12 14:38+0100\n"
 "PO-Revision-Date: 2024-10-25 11:00+0000\n"
 "Last-Translator: chrand818 <can@telenabler.com>\n"
 "Language-Team: Swedish <https://translations.zammad.org/projects/"
@@ -1348,47 +1348,42 @@ msgstr ""
 msgid "**🖱️ UI Protip**"
 msgstr ""
 
-#: ../advanced/tabs.rst:26 ../basics/find-ticket/browse.rst:31
+#: ../advanced/tabs.rst:26
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
 msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:4
-#: ../snippets/ticket-state-type-circles.rst:6 ../extras/knowledge-base.rst:214
-msgid "|grn|"
-msgstr ""
-
-#: ../snippets/ticket-state-type-circles.rst:5
-msgid "**Closed**"
-msgstr ""
-
-#: ../snippets/ticket-state-type-circles.rst:7
-msgid "**Merged**"
-msgstr ""
-
-#: ../snippets/ticket-state-type-circles.rst:8
-msgid "|blk|"
-msgstr ""
-
-#: ../snippets/ticket-state-type-circles.rst:9
-msgid "**Postponed** (Marked as pending; no immediate action required.)"
-msgstr ""
-
-#: ../snippets/ticket-state-type-circles.rst:11
 msgid "|ylw|"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:12
-msgid "**New / Open** (Ready for action.)"
+#: ../snippets/ticket-state-type-circles.rst:5
+msgid "**Action needed** (e.g. new, open, pending reached)"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:14
+#: ../snippets/ticket-state-type-circles.rst:6
+msgid "|blk|"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:7
+msgid "**Paused, no action needed right now** (e.g. pending)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:214
+msgid "|grn|"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:9
+msgid "**No action needed any more** (e.g. closed, merged)"
+msgstr ""
+
+#: ../snippets/ticket-state-type-circles.rst:10
 msgid "|red|"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:15
-msgid "**Escalated** (Requires urgent attention.)"
+#: ../snippets/ticket-state-type-circles.rst:11
+msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
 
 #: ../advanced/tabs.rst:31
@@ -2018,7 +2013,13 @@ msgstr ""
 msgid "Click-and-drag column dividers to adjust their width."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:35
+#: ../basics/find-ticket/browse.rst:31
+msgid ""
+"The need for action is color coded and reflects mainly the :doc:`ticket "
+"states </basics/service-ticket/settings/state>`:"
+msgstr ""
+
+#: ../basics/find-ticket/browse.rst:34
 msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
@@ -2029,7 +2030,7 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:42
+#: ../basics/find-ticket/browse.rst:41
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
@@ -2771,6 +2772,12 @@ msgstr ""
 msgid ""
 "In other words, **consult your administrator** for details on how he’d like "
 "you to use it."
+msgstr ""
+
+#: ../basics/service-ticket/settings/priority.rst:32
+msgid ""
+"Customers can't set a priority for their own tickets. For more context, have "
+"a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:2
