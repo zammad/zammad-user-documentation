@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-12 14:38+0100\n"
-"PO-Revision-Date: 2025-02-06 14:00+0000\n"
+"PO-Revision-Date: 2025-02-14 15:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -1508,7 +1508,7 @@ msgstr "|ylw|"
 
 #: ../snippets/ticket-state-type-circles.rst:5
 msgid "**Action needed** (e.g. new, open, pending reached)"
-msgstr ""
+msgstr "**Maßnahme erforderlich** (z.B. neu, offen, warten erreicht)"
 
 #: ../snippets/ticket-state-type-circles.rst:6
 msgid "|blk|"
@@ -1516,7 +1516,7 @@ msgstr "|blk|"
 
 #: ../snippets/ticket-state-type-circles.rst:7
 msgid "**Paused, no action needed right now** (e.g. pending)"
-msgstr ""
+msgstr "**Pausiert, im Moment keine Aktion erforderlich** (z.B. warten auf)"
 
 #: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:214
 msgid "|grn|"
@@ -1524,7 +1524,7 @@ msgstr "|grn|"
 
 #: ../snippets/ticket-state-type-circles.rst:9
 msgid "**No action needed any more** (e.g. closed, merged)"
-msgstr ""
+msgstr "**keine Aktion mehr erforderlich** (z.B. geschlossen, zusammengefasst)"
 
 #: ../snippets/ticket-state-type-circles.rst:10
 msgid "|red|"
@@ -1533,6 +1533,8 @@ msgstr "|red|"
 #: ../snippets/ticket-state-type-circles.rst:11
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
+"**Sofortige Maßnahme erforderlich** (Ticket wurde aufgrund einer SLA-"
+"Verletzung eskaliert)"
 
 #: ../advanced/tabs.rst:31
 msgid ""
@@ -2343,16 +2345,12 @@ msgstr ""
 "und passen Sie diese entsprechend an."
 
 #: ../basics/find-ticket/browse.rst:31
-#, fuzzy
-#| msgid ""
-#| "Learn more about states and their color coding on this page: :doc:`/"
-#| "basics/service-ticket/settings/state`"
 msgid ""
 "The need for action is color coded and reflects mainly the :doc:`ticket "
 "states </basics/service-ticket/settings/state>`:"
 msgstr ""
-"Zu Status und deren Farben erfahren Sie mehr auf dieser Seite: :doc:`/basics/"
-"service-ticket/settings/state`"
+"Der Handlungsbedarf ist farblich gekennzeichnet und spiegelt hauptsächlich "
+"den :doc:`Ticket Status </basics/service-ticket/settings/state>` wider:"
 
 #: ../basics/find-ticket/browse.rst:34
 msgid ""
@@ -3315,6 +3313,9 @@ msgid ""
 "Customers can't set a priority for their own tickets. For more context, have "
 "a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
 msgstr ""
+"Kunden können keine Priorität für ihre eigenen Tickets festlegen. Weitere "
+"Informationen dazu finden Sie im `Github-Issue <https://github.com/zammad/"
+"zammad/issues/814>`_."
 
 #: ../basics/service-ticket/settings/state.rst:2
 #: ../basics/what-is-a-ticket.rst:51 ../basics/zammad-glossary.rst:682
