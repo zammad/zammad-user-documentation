@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2025-02-11 08:00+0000\n"
 "Last-Translator: Türk Oyuncu <recentlly@hotmail.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/tr/>\n"
+"documentations/user-documentation-pre-release/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: ../advanced/keyboard-shortcuts.rst:None
 #: ../extras/profile-and-settings.rst:12
 msgid "User submenu"
-msgstr "Kullanıcı Alt menüsü"
+msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:18
 msgid ""
@@ -72,12 +72,14 @@ msgid "The keyboard shortcut overview."
 msgstr "Windows'ta klavye kısayolu hile sayfası."
 
 #: ../advanced/keyboard-shortcuts.rst:29
+#, fuzzy
+#| msgid "Ticket Settings"
 msgid "Settings"
-msgstr "Ayarlar"
+msgstr "Bilet Ayarları"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "At the top of the dialog, you can:"
-msgstr ""
+msgstr "İletişim kutusunun üst bölümünde şunları yapabilirsiniz:"
 
 #: ../advanced/keyboard-shortcuts.rst:33
 msgid ""
@@ -200,8 +202,10 @@ msgid ":kbd:`?`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:70
+#, fuzzy
+#| msgid "open a ticket overview;"
 msgid "Open shortcuts overview"
-msgstr "Kısayollara genel bakışı aç"
+msgstr "bir bilet genel bakışı aç;"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid ":kbd:`shift` :kbd:`l`"
@@ -1098,7 +1102,9 @@ msgid "last_contact_customer_at: timestamp (last contact by customer)"
 msgstr "last_contact_customer_at: timestamp (müşteri tarafından son iletişim)"
 
 #: ../advanced/search.rst:90
-msgid "create_article_type: string (email|phone|web|...)"
+#, fuzzy
+#| msgid "create_article_type: string (email|phone|web|...)"
+msgid "create_article_type.name: string (email|phone|web|...)"
 msgstr "create_article_type: string (email|phone|web|...)"
 
 #: ../advanced/search.rst:91
@@ -1658,12 +1664,14 @@ msgstr ""
 "ayarlanmışsa)."
 
 #: ../advanced/text-modules.rst:21
+#, fuzzy
 msgid "Text Modules Missing?"
-msgstr "Metin Modülleri Eksik mi?"
+msgstr "Bilet oluştururken metin modülleri"
 
 #: ../advanced/text-modules.rst:23
+#, fuzzy
 msgid "You noticed that some text modules don't always appear?"
-msgstr "Bazı metin modüllerinin her zaman görünmediğini fark ettiniz mi?"
+msgstr "**🤔 Neden bazı metin modülleri her zaman görünmüyor?**"
 
 #: ../advanced/text-modules.rst:25
 #, fuzzy
@@ -1858,8 +1866,9 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:28
+#, fuzzy
 msgid "How to merge tickets?"
-msgstr "Biletler nasıl birleştirilir?"
+msgstr "Biletlere Göre Tarama"
 
 #: ../advanced/ticket-actions/merge.rst:24
 msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
@@ -1872,8 +1881,9 @@ msgid "Ticket menu with highlighted \"merge\""
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:40
+#, fuzzy
 msgid "Merge dialog"
-msgstr "Diyaloğu birleştir."
+msgstr "Müşteri diyaloğu düzenlemek."
 
 #: ../advanced/ticket-actions/merge.rst:31
 msgid ""
@@ -2102,8 +2112,9 @@ msgid "Time Accounting Unit"
 msgstr "Zaman Hesaplama"
 
 #: ../advanced/time-accounting.rst:31
+#, fuzzy
 msgid "Activity Types"
-msgstr "Aktivite Türleri"
+msgstr "Zaman Hesaplama"
 
 #: ../advanced/time-accounting.rst:33
 msgid ""
@@ -2278,8 +2289,9 @@ msgid "Search for Tickets"
 msgstr "Biletlere göre Arama"
 
 #: ../basics/find-ticket/search.rst:4
+#, fuzzy
 msgid "Looking for an a specific ticket? Use the **search bar**:"
-msgstr "Belirli bir bilet mi arıyorsun? **arama çubuğu**nu kullan."
+msgstr "Arşivlenmiş bir bilet mi arıyorsun? **arama çubuğu**nu kullan."
 
 #: ../basics/find-ticket/search.rst:10
 msgid "Results appear immediately under the search bar as you type."
@@ -3611,7 +3623,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:105
 msgid "Channel"
-msgstr "Kanal"
+msgstr ""
 
 #: ../basics/zammad-glossary.rst:104
 msgid ""
@@ -4536,7 +4548,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:603
 msgid "Scheduler"
-msgstr "Zamanlayıcı"
+msgstr ""
 
 #: ../basics/zammad-glossary.rst:599
 msgid ""
@@ -4588,8 +4600,9 @@ msgid "One or more open tickets"
 msgstr "Biletlere Göre Tarama"
 
 #: ../basics/zammad-glossary.rst:618
+#, fuzzy
 msgid "Bottom section:"
-msgstr "Alt bölüm:"
+msgstr "Bildirimler"
 
 #: ../basics/zammad-glossary.rst:622
 #, fuzzy
@@ -4603,7 +4616,7 @@ msgstr "Bilet oluştururken metin modülleri"
 
 #: ../basics/zammad-glossary.rst:632
 msgid "Signature"
-msgstr "İmza"
+msgstr ""
 
 #: ../basics/zammad-glossary.rst:626
 msgid ""
@@ -4847,8 +4860,9 @@ msgid "U"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:757
+#, fuzzy
 msgid "User"
-msgstr "Kullanıcı"
+msgstr "Kullanıcılar"
 
 #: ../basics/zammad-glossary.rst:754
 msgid ""
@@ -6448,7 +6462,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:112
 msgid "Features"
-msgstr "Özellikler"
+msgstr ""
 
 #: ../extras/mobile-view.rst:114
 msgid ""
