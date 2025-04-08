@@ -39,6 +39,7 @@ Zammad User Documentation
    :caption: Extras
    :name: extras
 
+   /extras/ai-features
    /extras/caller-log
    /extras/chat
    /extras/checklist
