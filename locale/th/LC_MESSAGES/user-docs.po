@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 14:38+0100\n"
+"POT-Creation-Date: 2025-04-08 12:07+0200\n"
 "PO-Revision-Date: 2022-04-16 15:56+0000\n"
 "Last-Translator: LAO <sumonchai@gmail.com>\n"
 "Language-Team: Thai <https://translations.zammad.org/projects/documentations/"
@@ -3824,7 +3824,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
-#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:116
 msgid "Notifications"
 msgstr "แจ้งเตือน"
 
@@ -4368,6 +4368,85 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:790
 msgid "Zammad is the greatest helpdesk in the world. Period."
+msgstr ""
+
+#: ../extras/ai-features.rst:2
+msgid "AI Features"
+msgstr ""
+
+#: ../extras/ai-features.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../extras/ai-features.rst:7
+msgid ""
+"Zammad is getting even smarter! We are expanding Zammad's AI capabilities to "
+"help you manage support tickets even more efficiently. The initial focus is "
+"on Ticket Summaries, but more features will arrive soon! ✨🚀"
+msgstr ""
+
+#: ../extras/ai-features.rst:11
+msgid ""
+"The AI features have to be configured and activated by your administrator. "
+"If you can't see it, it is not configured. More information about how to "
+"configure and activate it can be found in the :admin-docs:`AI section </ai/"
+"index>` of the admin documentation."
+msgstr ""
+
+#: ../extras/ai-features.rst:17
+#, fuzzy
+msgid "Ticket Summary"
+msgstr "ต้นแบบ ใบแจ้งซ่อม"
+
+#: ../extras/ai-features.rst:19
+msgid ""
+"The ticket summary feature does what it says: it summarizes the ticket's "
+"content. This can be a huge time saver when dealing with large tickets and/"
+"or many hand-overs between agents."
+msgstr ""
+
+#: ../extras/ai-features.rst:23
+msgid ""
+"If the feature is activated, a banner is shown below the articles in the "
+"ticket detail view. By clicking the ``See Summary`` button, the **Summary** "
+"sidebar tab is opened and you can read the summary. The summary is created "
+"when you open a ticket."
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid ""
+"Screenshot shows Zammad's ticket detail view with highlighted ticket summary "
+"banner and summary sidebar"
+msgstr ""
+
+#: ../extras/ai-features.rst:31
+msgid ""
+"Depending on the configuration of your Zammad instance, the summary includes "
+"the following sections:"
+msgstr ""
+
+#: ../extras/ai-features.rst:34
+#, fuzzy
+msgid "Customer intent"
+msgstr "ลูกค้า"
+
+#: ../extras/ai-features.rst:35
+msgid "Conversation summary"
+msgstr ""
+
+#: ../extras/ai-features.rst:36
+msgid "Open questions (optional)"
+msgstr ""
+
+#: ../extras/ai-features.rst:37
+msgid "Suggested next steps (optional)"
+msgstr ""
+
+#: ../extras/ai-features.rst:39
+msgid ""
+"If you don't want to see the banner below the articles, you can **Hide** it. "
+"To get the banner again, go to **Appearance** in your :doc:`profile settings "
+"<profile-and-settings>` and re-activate it by toggling the checkbox."
 msgstr ""
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
@@ -6094,15 +6173,23 @@ msgid ""
 "modern Browsers are capable to do so (e.g. Firefox, Google Chrome)."
 msgstr ""
 
+#: ../extras/profile-and-settings.rst:76
+msgid ""
+"Additionally, you can activate or deactivate if the banner for Zammad's "
+"ticket summary :doc:`AI feature <ai-features>` is shown below the articles "
+"in the ticket detail view. This option is only available, if the feature is "
+"configured by your admin."
+msgstr ""
+
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr "ภาษา"
 
-#: ../extras/profile-and-settings.rst:78
+#: ../extras/profile-and-settings.rst:83
 msgid "Set the system display language."
 msgstr "ตั้งค่าระบบให้แสดงภาษา"
 
-#: ../extras/profile-and-settings.rst:82
+#: ../extras/profile-and-settings.rst:87
 #, fuzzy
 msgid "Upload an avatar image."
 msgstr "อับโหลดอวตาร"
@@ -6112,45 +6199,45 @@ msgstr "อับโหลดอวตาร"
 msgid "Password & Auth"
 msgstr "รหัสผ่าน"
 
-#: ../extras/profile-and-settings.rst:86
+#: ../extras/profile-and-settings.rst:91
 #, fuzzy
 msgid ""
 "Change your login password and manage your two-factor authentication methods "
 "(both may be disabled by system admin)."
 msgstr "เปลี่ยนรหัสผ่านเข้าใช้งาน (อาจโดนปิดกัน โดย Admin)."
 
-#: ../extras/profile-and-settings.rst:90
+#: ../extras/profile-and-settings.rst:95
 msgid ""
 ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
 "optional feature. Administrators can learn more :admin-docs:`here </settings/"
 "security/two-factor.html>`."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:97
+#: ../extras/profile-and-settings.rst:102
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound. Notifications are available to agents "
 "only."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:101
+#: ../extras/profile-and-settings.rst:106
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:107
+#: ../extras/profile-and-settings.rst:112
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:130
+#: ../extras/profile-and-settings.rst:135
 #, fuzzy
 msgid "Limit Groups"
 msgstr "กลุ่ม"
 
-#: ../extras/profile-and-settings.rst:117
+#: ../extras/profile-and-settings.rst:122
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -6159,19 +6246,19 @@ msgid ""
 "own tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:123
+#: ../extras/profile-and-settings.rst:128
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:129
+#: ../extras/profile-and-settings.rst:134
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:132
+#: ../extras/profile-and-settings.rst:137
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more :admin-docs:`here </manage/"
@@ -6182,42 +6269,42 @@ msgstr ""
 msgid "Out of Office"
 msgstr "ไม่อยู่ในสำนักงาน"
 
-#: ../extras/profile-and-settings.rst:139
+#: ../extras/profile-and-settings.rst:144
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:142
+#: ../extras/profile-and-settings.rst:147
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
 "created to help keep track of your tickets."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:146
+#: ../extras/profile-and-settings.rst:151
 msgid "You will receive notifications while you are absent."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:149
+#: ../extras/profile-and-settings.rst:154
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:152
+#: ../extras/profile-and-settings.rst:157
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:157
+#: ../extras/profile-and-settings.rst:162
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:160
+#: ../extras/profile-and-settings.rst:165
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -6234,7 +6321,7 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:171
+#: ../extras/profile-and-settings.rst:176
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
@@ -6244,7 +6331,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:176
+#: ../extras/profile-and-settings.rst:181
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -6254,13 +6341,13 @@ msgstr ""
 msgid "Token Access"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:181
+#: ../extras/profile-and-settings.rst:186
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:185
+#: ../extras/profile-and-settings.rst:190
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -6271,7 +6358,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:191
+#: ../extras/profile-and-settings.rst:196
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
