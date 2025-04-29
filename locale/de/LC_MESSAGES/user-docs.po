@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 12:07+0200\n"
-"PO-Revision-Date: 2025-04-03 07:00+0000\n"
+"PO-Revision-Date: 2025-04-29 12:40+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1970,7 +1970,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr "Die Artikel wurden durch eine \"zusammengefasst\" Bezeichnung ersetzt"
+msgstr "Die Artikel wurden mit dem Text \"zusammengefasst\" ersetzt"
 
 #: ../advanced/ticket-actions/merge.rst:52
 msgid "The state has changed to \"merged\""
@@ -2245,7 +2245,7 @@ msgstr "durch Suchen"
 
 #: ../basics/find-ticket.rst:2
 msgid "Finding Tickets"
-msgstr "Ticket Suche"
+msgstr "Tickets finden"
 
 #: ../basics/find-ticket.rst:4
 msgid ""
@@ -5455,16 +5455,12 @@ msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr "Zammad ist der Beste Helpdesk der Welt. Punkt."
 
 #: ../extras/ai-features.rst:2
-#, fuzzy
-#| msgid "Features"
 msgid "AI Features"
-msgstr "Features"
+msgstr "KI Features"
 
 #: ../extras/ai-features.rst:5
-#, fuzzy
-#| msgid "Internal RSS function"
 msgid "Introduction"
-msgstr "Interne RSS-Funktion"
+msgstr "Einführung"
 
 #: ../extras/ai-features.rst:7
 msgid ""
@@ -5472,6 +5468,10 @@ msgid ""
 "help you manage support tickets even more efficiently. The initial focus is "
 "on Ticket Summaries, but more features will arrive soon! ✨🚀"
 msgstr ""
+"Zammad wird jetzt noch intelligenter! Wir erweitern die KI-Fähigkeiten von "
+"Zammad, damit Sie Support-Tickets noch effizienter verwalten können. Der "
+"Schwerpunkt liegt zunächst auf Ticket-Zusammenfassungen, aber weitere "
+"Funktionen werden bald hinzukommen! ✨🚀"
 
 #: ../extras/ai-features.rst:11
 msgid ""
@@ -5480,12 +5480,14 @@ msgid ""
 "configure and activate it can be found in the :admin-docs:`AI section </ai/"
 "index>` of the admin documentation."
 msgstr ""
+"Die KI-Funktionen müssen von Ihrem Administrator konfiguriert und aktiviert "
+"werden. Wenn Sie sie nicht sehen können, sind sie nicht konfiguriert. "
+"Weitere Informationen zum Konfigurieren und Aktivieren finden Sie im :admin-"
+"docs:`KI-Bereich </ai/index>` der Admin-Dokumentation."
 
 #: ../extras/ai-features.rst:17
-#, fuzzy
-#| msgid "Ticket summary view"
 msgid "Ticket Summary"
-msgstr "Ticket-Zusammenfassung"
+msgstr "Ticket Zusammenfassung"
 
 #: ../extras/ai-features.rst:19
 msgid ""
@@ -5493,6 +5495,9 @@ msgid ""
 "content. This can be a huge time saver when dealing with large tickets and/"
 "or many hand-overs between agents."
 msgstr ""
+"Die Ticket-Zusammenfassung tut, was der Name sagt: Sie fasst den Inhalt des "
+"Tickets zusammen. Dies kann bei großen Tickets und/oder vielen Wechseln "
+"zwischen Agenten eine enorme Zeitersparnis bedeuten."
 
 #: ../extras/ai-features.rst:23
 msgid ""
@@ -5501,41 +5506,43 @@ msgid ""
 "sidebar tab is opened and you can read the summary. The summary is created "
 "when you open a ticket."
 msgstr ""
+"Wenn die Funktion aktiviert ist, wird in der Ticket Detailansicht ein Banner "
+"unter den Artikeln angezeigt. Wenn Sie auf die Schaltfläche ``"
+"Zusammenfassung ansehen`` klicken, wird der Seitenleisten-Tab "
+"**Zusammenfassung** geöffnet und Sie können die Zusammenfassung lesen. Die "
+"Zusammenfassung wird erstellt, wenn Sie ein Ticket öffnen."
 
 #: ../extras/ai-features.rst:None
-#, fuzzy
-#| msgid "Screenshot of ticket view with highlighted checklist sidebar."
 msgid ""
 "Screenshot shows Zammad's ticket detail view with highlighted ticket summary "
 "banner and summary sidebar"
 msgstr ""
-"Screenshot der Ticket-Ansicht mit hervorgehobener Checklisten-Seitenleiste."
+"Der Screenshot zeigt die Ticket Detailansicht von Zammad mit hervorgehobenem "
+"Banner für die Ticket-Zusammenfassung und die Seitenleiste"
 
 #: ../extras/ai-features.rst:31
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
+"Abhängig von der Konfiguration Ihrer Zammad-Instanz enthält die "
+"Zusammenfassung die folgenden Abschnitte:"
 
 #: ../extras/ai-features.rst:34
-#, fuzzy
-#| msgid "Customer Chat"
 msgid "Customer intent"
-msgstr "Kunden-Chat"
+msgstr "Anliegen des Kunden"
 
 #: ../extras/ai-features.rst:35
 msgid "Conversation summary"
-msgstr ""
+msgstr "Zusammenfassung der Konversation"
 
 #: ../extras/ai-features.rst:36
-#, fuzzy
-#| msgid "Owner *(optional)*"
 msgid "Open questions (optional)"
-msgstr "Besitzer *(optional)*"
+msgstr "Offene Fragen (optional)"
 
 #: ../extras/ai-features.rst:37
 msgid "Suggested next steps (optional)"
-msgstr ""
+msgstr "Vorgeschlagene nächste Schritte (optional)"
 
 #: ../extras/ai-features.rst:39
 msgid ""
@@ -5543,6 +5550,10 @@ msgid ""
 "To get the banner again, go to **Appearance** in your :doc:`profile settings "
 "<profile-and-settings>` and re-activate it by toggling the checkbox."
 msgstr ""
+"Wenn Sie das Banner unter den Artikeln nicht sehen wollen, können Sie es "
+"**ausblenden**. Um das Banner wieder zu sehen, gehen Sie zu **Aussehen** in "
+"Ihren :doc:`Profileinstellungen <profile-and-settings>` und aktivieren Sie "
+"es wieder, indem Sie das Kontrollkästchen anklicken."
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
@@ -7229,8 +7240,8 @@ msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
 msgstr ""
-"Mit der mobilen Ansicht können Sie Ihre gewohnten Aufgaben in Zammad von "
-"unterwegs bearbeiten:"
+"Die Mobilansicht bietet Ihnen die Möglichkeit, Ihre täglichen Aufgaben mit "
+"Zammad auch unterwegs zu erledigen:"
 
 #: ../extras/mobile-view.rst:117
 msgid "Manage & use your ticket overviews"
@@ -7238,7 +7249,7 @@ msgstr "Verwalten und nutzen Sie Ihre Ticket-Übersichten"
 
 #: ../extras/mobile-view.rst:118
 msgid "Search for existing records"
-msgstr "Suche nach existierenden Einträgen"
+msgstr "Suche nach vorhandenen Datensätzen"
 
 #: ../extras/mobile-view.rst:120
 msgid "Reply in an already existing ticket"
@@ -7340,7 +7351,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:151
 msgid "Reports"
-msgstr "Auswertungen"
+msgstr "Berichte"
 
 #: ../extras/mobile-view.rst:156
 msgid "Access"
@@ -7539,7 +7550,7 @@ msgstr "weitere Aktionen"
 
 #: ../extras/profile-and-settings.rst:33
 msgid "Dark mode"
-msgstr "Dark-Mode"
+msgstr "Dunkler Modus"
 
 #: ../extras/profile-and-settings.rst:30
 msgid "Quickly toggle dark and light mode without using keyboard bindings."
@@ -7599,7 +7610,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:54
 msgid "Profile Settings"
-msgstr "Profil Einstellungen"
+msgstr "Profil-Einstellungen"
 
 #: ../extras/profile-and-settings.rst:56
 msgid "Clicking on \"Profile\" in the user menu opens the profile settings."
@@ -7658,6 +7669,10 @@ msgid ""
 "in the ticket detail view. This option is only available, if the feature is "
 "configured by your admin."
 msgstr ""
+"Zusätzlich können Sie aktivieren oder deaktivieren, ob das Banner für "
+"Zammads :doc:`KI-Feature <ai-features>` Ticket-Zusammenfassung unter den "
+"Artikeln in der Ticket Detailansicht angezeigt wird. Diese Option ist nur "
+"verfügbar, wenn das Feature von Ihrem Admin konfiguriert wurde."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
@@ -7864,7 +7879,7 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Token Access"
-msgstr "Token Zugriff"
+msgstr "Token-Zugriff"
 
 #: ../extras/profile-and-settings.rst:186
 msgid ""
@@ -8317,7 +8332,7 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:2
 msgid "Shared Drafts"
-msgstr "Geteilte Vorlagen"
+msgstr "Gemeinsame Entwürfe"
 
 #: ../extras/shared-drafts.rst:7
 msgid ""
@@ -8745,7 +8760,7 @@ msgid ""
 "if you lose access to your other two-factor authentication methods. They can "
 "only be used as a **backup method**."
 msgstr ""
-"Wiederherstellungscodes sind einmalig verwendbare Sicherheitscodes, mit "
+"Wiederherstellungs-Codes sind einmalig verwendbare Sicherheitscodes, mit "
 "denen Sie sich anmelden können, wenn Sie den Zugriff auf Ihre anderen Zwei-"
 "Faktor-Authentifizierungsmethoden verlieren. Sie können nur als **Backup-"
 "Methode** verwendet werden."
@@ -8846,7 +8861,7 @@ msgstr ""
 "Sie werden abhängig von der gewählten Zwei-Faktor-Methode nochmal durch den "
 "Einrichtungs-Prozess geführt. Im Normalfall ersetzt eine bearbeitete Methode "
 "die bisherige Konfiguration, aber manche Methoden unterstützen erweiterte "
-"Funktionen (z.B. mehrere Security Tokens)."
+"Funktionen (z.B. mehrere Sicherheits-Schlüssel)."
 
 #: ../extras/two-factor-authentication.rst:156
 msgid "Remove a Two-Factor Method"
