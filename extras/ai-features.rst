@@ -5,13 +5,12 @@ Introduction
 ------------
 
 Zammad is getting even smarter! We are expanding Zammad's AI capabilities to
-help you manage support tickets even more efficiently. The initial focus is on
-Ticket Summaries, but more features will arrive soon! ✨🚀
+help you manage support tickets even more efficiently. ✨🚀
 
 .. note:: The AI features have to be configured and activated by your
    administrator. If you can't see it, it is not configured. More information
    about how to configure and activate it can be found in the
-   :admin-docs:`AI section </ai/index>` of the admin documentation.
+   :admin-docs:`AI section </ai/provider>` of the admin documentation.
 
 Ticket Summary
 --------------
@@ -40,3 +39,39 @@ If you don't want to see the banner below the articles, you can **Hide** it. To
 get the banner again, go to **Appearance** in your
 :doc:`profile settings <profile-and-settings>` and re-activate it by toggling the
 checkbox.
+
+Smart Editor
+^^^^^^^^^^^^
+
+The new AI-powered smart editor is designed to simplify and enhance your ticket
+response workflow. It helps you with text tools while you create an article.
+
+To use any of the following features, you first have to select text you want to
+apply the changes to. After that, click the **Smart Editor** link at the bottom
+of the article creation and choose one of the following features, depending on
+what you want to perform.
+
+.. figure:: /images/extras/ai/reply-elaboration-tools.png
+   :alt: Screenshots shows highlighted article reply elaboration tools
+   :scale: 80%
+   :align: center
+
+.. warning::
+   - Be aware that your text gets replaced when you select one
+     of the text tools. If you are not satisfied with the result, try using
+     the undo feature by pressing :kbd:`Ctrl` + :kbd:`z`.
+   - Always double-check the response. Although the feature was carefully
+     developed, there may still be minor problems in individual cases due to
+     the nature of neural networks.
+
+- **Improve writing**: Uses your text as a base and tries to improve it by
+  enhancing clarity, conciseness and structure as well as removing misspellings
+  and grammar issues.
+- **Fix spelling and grammar**: Just proofreads your text and automatically
+  removes spelling and grammar mistakes.
+- **Expand**: Expands your text while keeping your message. Useful if your
+  customer expects more than some bullet points as an answer. You can even use
+  it by providing only basic information (e.g. via bullet points) and let the
+  AI write the answer.
+- **Simplify**: Does the opposite of the expansion and shrinks your text while
+  keeping your message.

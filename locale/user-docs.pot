@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 12:07+0200\n"
+"POT-Creation-Date: 2025-05-19 12:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3504,22 +3504,22 @@ msgid "Introduction"
 msgstr ""
 
 #: ../extras/ai-features.rst:7
-msgid "Zammad is getting even smarter! We are expanding Zammad's AI capabilities to help you manage support tickets even more efficiently. The initial focus is on Ticket Summaries, but more features will arrive soon! ✨🚀"
+msgid "Zammad is getting even smarter! We are expanding Zammad's AI capabilities to help you manage support tickets even more efficiently. ✨🚀"
 msgstr ""
 
-#: ../extras/ai-features.rst:11
-msgid "The AI features have to be configured and activated by your administrator. If you can't see it, it is not configured. More information about how to configure and activate it can be found in the :admin-docs:`AI section </ai/index>` of the admin documentation."
+#: ../extras/ai-features.rst:10
+msgid "The AI features have to be configured and activated by your administrator. If you can't see it, it is not configured. More information about how to configure and activate it can be found in the :admin-docs:`AI section </ai/provider>` of the admin documentation."
 msgstr ""
 
-#: ../extras/ai-features.rst:17
+#: ../extras/ai-features.rst:16
 msgid "Ticket Summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:19
+#: ../extras/ai-features.rst:18
 msgid "The ticket summary feature does what it says: it summarizes the ticket's content. This can be a huge time saver when dealing with large tickets and/or many hand-overs between agents."
 msgstr ""
 
-#: ../extras/ai-features.rst:23
+#: ../extras/ai-features.rst:22
 msgid "If the feature is activated, a banner is shown below the articles in the ticket detail view. By clicking the ``See Summary`` button, the **Summary** sidebar tab is opened and you can read the summary. The summary is created when you open a ticket."
 msgstr ""
 
@@ -3527,28 +3527,68 @@ msgstr ""
 msgid "Screenshot shows Zammad's ticket detail view with highlighted ticket summary banner and summary sidebar"
 msgstr ""
 
-#: ../extras/ai-features.rst:31
+#: ../extras/ai-features.rst:30
 msgid "Depending on the configuration of your Zammad instance, the summary includes the following sections:"
 msgstr ""
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:33
 msgid "Customer intent"
 msgstr ""
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:34
 msgid "Conversation summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:35
 msgid "Open questions (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:37
+#: ../extras/ai-features.rst:36
 msgid "Suggested next steps (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:39
+#: ../extras/ai-features.rst:38
 msgid "If you don't want to see the banner below the articles, you can **Hide** it. To get the banner again, go to **Appearance** in your :doc:`profile settings <profile-and-settings>` and re-activate it by toggling the checkbox."
+msgstr ""
+
+#: ../extras/ai-features.rst:44
+msgid "Smart Editor"
+msgstr ""
+
+#: ../extras/ai-features.rst:46
+msgid "The new AI-powered smart editor is designed to simplify and enhance your ticket response workflow. It helps you with text tools while you create an article."
+msgstr ""
+
+#: ../extras/ai-features.rst:49
+msgid "To use any of the following features, you first have to select text you want to apply the changes to. After that, click the **Smart Editor** link at the bottom of the article creation and choose one of the following features, depending on what you want to perform."
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows highlighted article reply elaboration tools"
+msgstr ""
+
+#: ../extras/ai-features.rst:60
+msgid "Be aware that your text gets replaced when you select one of the text tools. If you are not satisfied with the result, try using the undo feature by pressing :kbd:`Ctrl` + :kbd:`z`."
+msgstr ""
+
+#: ../extras/ai-features.rst:63
+msgid "Always double-check the response. Although the feature was carefully developed, there may still be minor problems in individual cases due to the nature of neural networks."
+msgstr ""
+
+#: ../extras/ai-features.rst:67
+msgid "**Improve writing**: Uses your text as a base and tries to improve it by enhancing clarity, conciseness and structure as well as removing misspellings and grammar issues."
+msgstr ""
+
+#: ../extras/ai-features.rst:70
+msgid "**Fix spelling and grammar**: Just proofreads your text and automatically removes spelling and grammar mistakes."
+msgstr ""
+
+#: ../extras/ai-features.rst:72
+msgid "**Expand**: Expands your text while keeping your message. Useful if your customer expects more than some bullet points as an answer. You can even use it by providing only basic information (e.g. via bullet points) and let the AI write the answer."
+msgstr ""
+
+#: ../extras/ai-features.rst:76
+msgid "**Simplify**: Does the opposite of the expansion and shrinks your text while keeping your message."
 msgstr ""
 
 #: ../extras/caller-log.rst:2
