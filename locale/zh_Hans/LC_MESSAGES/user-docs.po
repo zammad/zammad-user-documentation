@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 12:07+0200\n"
+"POT-Creation-Date: 2025-05-19 12:24+0200\n"
 "PO-Revision-Date: 2022-11-04 15:14+0000\n"
 "Last-Translator: Never Min <59808@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.zammad.org/"
@@ -553,8 +553,8 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:160
 msgid ""
-"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
-"`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
+"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
+"and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
 
 #: ../advanced/macros.rst:2
@@ -577,9 +577,9 @@ msgstr ""
 #: ../advanced/macros.rst:10
 #, fuzzy
 msgid ""
-"Macros can be created by your :admin-docs:`administrator </manage/macros."
-"html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
-"can probably make it happen."
+"Macros can be created by your :admin-docs:`administrator </manage/"
+"macros.html>`. If you have an idea for a macro you'd like to use, your "
+"Zammad admin can probably make it happen."
 msgstr ""
 "你不需要自己创建 - 这是`管理员的工作<https://admin-docs.zammad.org/en/latest/"
 "manage/macros.html>`_。如果你有一个你想使用的宏的想法，你的Zammad管理员可能可"
@@ -699,8 +699,8 @@ msgstr ""
 
 #: ../advanced/search.rst:8
 msgid ""
-"For instance you can search for a specific customer by using ``customer."
-"attribute``::"
+"For instance you can search for a specific customer by using "
+"``customer.attribute``::"
 msgstr "例如，您可以使用``customer.attribute``来搜索特定的客户："
 
 #: ../advanced/search.rst:13
@@ -728,8 +728,8 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"如需查看更详细的可用属性列表，请查阅我们的 `Zammad 管理员文档 <https://docs."
-"zammad.org/en/latest/install/elasticsearch/indexed-attributes.html>`_。"
+"如需查看更详细的可用属性列表，请查阅我们的 `Zammad 管理员文档 <https://"
+"docs.zammad.org/en/latest/install/elasticsearch/indexed-attributes.html>`_。"
 
 #: ../advanced/search.rst:35
 msgid "Attributes and their usuage"
@@ -938,8 +938,8 @@ msgstr "显示所有状态为已关闭或开放，并且优先级为正常或带
 
 #: ../advanced/search.rst:1
 msgid ""
-"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
-"feedback) AND !(*Zammad*)"
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR "
+"tags:feedback) AND !(*Zammad*)"
 msgstr ""
 "状态.名称:(已关闭 或 开放) 并且 (优先级.名称:\"2 正常\" 或 标签:反馈) 并且 !"
 "(包含*Zammad*)"
@@ -1572,8 +1572,8 @@ msgstr ""
 
 #: ../advanced/text-modules.rst:46
 msgid ""
-"Administrators can learn more about customizing text modules :admin-docs:"
-"`here </manage/text-modules.html>`."
+"Administrators can learn more about customizing text modules :admin-"
+"docs:`here </manage/text-modules.html>`."
 msgstr ""
 
 #: ../advanced/ticket-actions.rst:2
@@ -1595,8 +1595,8 @@ msgstr ""
 msgid ""
 "When tickets about related issues arise, they can be linked to each other "
 "for easier reference. For example this could be useful if you have multiple "
-"customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
-"`split <split>` tickets are automatically linked."
+"customer complaints about the same shipment. :doc:`Merged <merge>` "
+"and :doc:`split <split>` tickets are automatically linked."
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:16
@@ -2332,8 +2332,9 @@ msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
-"Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
+"Tickets are threads of messages & notes about a customer service "
+"issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on "
+"the right."
 msgstr ""
 
 #: ../basics/service-ticket/follow-up.rst:23
@@ -2691,8 +2692,8 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:31
 msgid ""
-"So how do I manage which team I'm on? You don't - that's the :admin-docs:"
-"`administrator's job </manage/groups/index.html>`."
+"So how do I manage which team I'm on? You don't - that's the :admin-"
+"docs:`administrator's job </manage/groups/index.html>`."
 msgstr ""
 
 #: ../basics/service-ticket/settings/group.rst:34
@@ -2797,8 +2798,8 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
-"Priority can also be used as a ticket filter when creating :admin-docs:"
-"`custom overviews </manage/overviews.html>`."
+"Priority can also be used as a ticket filter when creating :admin-"
+"docs:`custom overviews </manage/overviews.html>`."
 msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:28
@@ -2838,9 +2839,9 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
-"merged (this Ticket has been merged into another Ticket. Check either the :"
-"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
-"history <ticket-submenu>` to learn more)"
+"merged (this Ticket has been merged into another Ticket. Check either "
+"the :doc:`linked tickets </advanced/ticket-actions/link>` or "
+"the :ref:`ticket history <ticket-submenu>` to learn more)"
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:14
@@ -3462,8 +3463,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:253
 msgid ""
-"See our :admin-docs:`admin documentation </settings/security/third-party."
-"html>` for all third party authentication providers."
+"See our :admin-docs:`admin documentation </settings/security/third-"
+"party.html>` for all third party authentication providers."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:257
@@ -4003,8 +4004,8 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
-"administrator can find more information :admin-docs:`here </system/objects."
-"html#system-attributes>`."
+"administrator can find more information :admin-docs:`here </system/"
+"objects.html#system-attributes>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:557
@@ -4091,8 +4092,8 @@ msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
 "conditions in a time based manner. More information in the admin "
-"documentation in the :admin-docs:`scheduler section </manage/scheduler."
-"html>`."
+"documentation in the :admin-docs:`scheduler section </manage/"
+"scheduler.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:623
@@ -4287,8 +4288,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:705
 msgid ""
-"Administrators can learn more about tags :admin-docs:`here </manage/tags."
-"html>`. Agents can learn more about this function on this page: :doc:`/"
+"Administrators can learn more about tags :admin-docs:`here </manage/"
+"tags.html>`. Agents can learn more about this function on this page: :doc:`/"
 "basics/service-ticket/settings/tags`"
 msgstr ""
 
@@ -4306,8 +4307,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid ""
-"For example, here at Zammad, we have a text module with the shortcut ``::"
-"ilff``, which turns into ``I look forward to your feedback``."
+"For example, here at Zammad, we have a text module with the shortcut "
+"``::ilff``, which turns into ``I look forward to your feedback``."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:719
@@ -4361,8 +4362,8 @@ msgstr ""
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
-"conditions. More information in the admin documentation in the :admin-docs:"
-"`trigger section </manage/trigger.html>`."
+"conditions. More information in the admin documentation in the :admin-"
+"docs:`trigger section </manage/trigger.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:751
@@ -4437,31 +4438,30 @@ msgstr ""
 #: ../extras/ai-features.rst:7
 msgid ""
 "Zammad is getting even smarter! We are expanding Zammad's AI capabilities to "
-"help you manage support tickets even more efficiently. The initial focus is "
-"on Ticket Summaries, but more features will arrive soon! ✨🚀"
+"help you manage support tickets even more efficiently. ✨🚀"
 msgstr ""
 
-#: ../extras/ai-features.rst:11
+#: ../extras/ai-features.rst:10
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see it, it is not configured. More information about how to "
 "configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"index>` of the admin documentation."
+"provider>` of the admin documentation."
 msgstr ""
 
-#: ../extras/ai-features.rst:17
+#: ../extras/ai-features.rst:16
 #, fuzzy
 msgid "Ticket Summary"
 msgstr "宏"
 
-#: ../extras/ai-features.rst:19
+#: ../extras/ai-features.rst:18
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
 "or many hand-overs between agents."
 msgstr ""
 
-#: ../extras/ai-features.rst:23
+#: ../extras/ai-features.rst:22
 msgid ""
 "If the feature is activated, a banner is shown below the articles in the "
 "ticket detail view. By clicking the ``See Summary`` button, the **Summary** "
@@ -4475,33 +4475,97 @@ msgid ""
 "banner and summary sidebar"
 msgstr ""
 
-#: ../extras/ai-features.rst:31
+#: ../extras/ai-features.rst:30
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:33
 msgid "Customer intent"
 msgstr ""
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:34
 msgid "Conversation summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:35
 msgid "Open questions (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:37
+#: ../extras/ai-features.rst:36
 msgid "Suggested next steps (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:39
+#: ../extras/ai-features.rst:38
 msgid ""
 "If you don't want to see the banner below the articles, you can **Hide** it. "
 "To get the banner again, go to **Appearance** in your :doc:`profile settings "
 "<profile-and-settings>` and re-activate it by toggling the checkbox."
+msgstr ""
+
+#: ../extras/ai-features.rst:44
+msgid "Smart Editor"
+msgstr ""
+
+#: ../extras/ai-features.rst:46
+msgid ""
+"The new AI-powered smart editor is designed to simplify and enhance your "
+"ticket response workflow. It helps you with text tools while you create an "
+"article."
+msgstr ""
+
+#: ../extras/ai-features.rst:49
+msgid ""
+"To use any of the following features, you first have to select text you want "
+"to apply the changes to. After that, click the **Smart Editor** link at the "
+"bottom of the article creation and choose one of the following features, "
+"depending on what you want to perform."
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows highlighted article reply elaboration tools"
+msgstr ""
+
+#: ../extras/ai-features.rst:60
+msgid ""
+"Be aware that your text gets replaced when you select one of the text tools. "
+"If you are not satisfied with the result, try using the undo feature by "
+"pressing :kbd:`Ctrl` + :kbd:`z`."
+msgstr ""
+
+#: ../extras/ai-features.rst:63
+msgid ""
+"Always double-check the response. Although the feature was carefully "
+"developed, there may still be minor problems in individual cases due to the "
+"nature of neural networks."
+msgstr ""
+
+#: ../extras/ai-features.rst:67
+msgid ""
+"**Improve writing**: Uses your text as a base and tries to improve it by "
+"enhancing clarity, conciseness and structure as well as removing "
+"misspellings and grammar issues."
+msgstr ""
+
+#: ../extras/ai-features.rst:70
+msgid ""
+"**Fix spelling and grammar**: Just proofreads your text and automatically "
+"removes spelling and grammar mistakes."
+msgstr ""
+
+#: ../extras/ai-features.rst:72
+msgid ""
+"**Expand**: Expands your text while keeping your message. Useful if your "
+"customer expects more than some bullet points as an answer. You can even use "
+"it by providing only basic information (e.g. via bullet points) and let the "
+"AI write the answer."
+msgstr ""
+
+#: ../extras/ai-features.rst:76
+msgid ""
+"**Simplify**: Does the opposite of the expansion and shrinks your text while "
+"keeping your message."
 msgstr ""
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
@@ -4516,8 +4580,8 @@ msgstr ""
 msgid ""
 "This feature is **optional**; if you don't see it in the main menu, that "
 "means your administrator hasn't enabled it yet. Administrators can learn "
-"more on our :admin-docs:`admin documentation </system/integrations."
-"html#integrations-for-phone-systems>`."
+"more on our :admin-docs:`admin documentation </system/"
+"integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 
 #: ../extras/caller-log.rst:14
@@ -5566,8 +5630,8 @@ msgstr ""
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
-"base. If you're unsure, please ask your administrator to configure the :"
-"admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
+"base. If you're unsure, please ask your administrator to configure "
+"the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
 
@@ -7147,8 +7211,8 @@ msgstr ""
 msgid ""
 "Depending on the chosen two-factor method, you will be guided again through "
 "the setup process. Normally, editing a method will simply renew it and "
-"replace the older setup, but some methods do support advanced functions (e."
-"g. adding multiple security keys)."
+"replace the older setup, but some methods do support advanced functions "
+"(e.g. adding multiple security keys)."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:156
@@ -7442,9 +7506,9 @@ msgstr ""
 
 #: ../index.rst:5
 msgid ""
-"You are currently reading the Zammad user documentation. There are also :"
-"docs:`system </index.html>` and :admin-docs:`administration manuals </index."
-"html>` available."
+"You are currently reading the Zammad user documentation. There are "
+"also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
+"index.html>` available."
 msgstr ""
 
 #, fuzzy
