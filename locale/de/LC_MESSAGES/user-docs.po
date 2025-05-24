@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 12:24+0200\n"
-"PO-Revision-Date: 2025-05-06 07:00+0000\n"
+"PO-Revision-Date: 2025-05-24 07:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -5465,27 +5465,14 @@ msgid "Introduction"
 msgstr "Einführung"
 
 #: ../extras/ai-features.rst:7
-#, fuzzy
-#| msgid ""
-#| "Zammad is getting even smarter! We are expanding Zammad's AI capabilities "
-#| "to help you manage support tickets even more efficiently. The initial "
-#| "focus is on Ticket Summaries, but more features will arrive soon! ✨🚀"
 msgid ""
 "Zammad is getting even smarter! We are expanding Zammad's AI capabilities to "
 "help you manage support tickets even more efficiently. ✨🚀"
 msgstr ""
 "Zammad wird jetzt noch intelligenter! Wir erweitern die KI-Fähigkeiten von "
-"Zammad, damit Sie Support-Tickets noch effizienter verwalten können. Der "
-"Schwerpunkt liegt zunächst auf Ticket-Zusammenfassungen, aber weitere "
-"Funktionen werden bald hinzukommen! ✨🚀"
+"Zammad, damit Sie Support-Tickets noch effizienter verwalten können. ✨🚀"
 
 #: ../extras/ai-features.rst:10
-#, fuzzy
-#| msgid ""
-#| "The AI features have to be configured and activated by your "
-#| "administrator. If you can't see it, it is not configured. More "
-#| "information about how to configure and activate it can be found in "
-#| "the :admin-docs:`AI section </ai/index>` of the admin documentation."
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see it, it is not configured. More information about how to "
@@ -5494,8 +5481,8 @@ msgid ""
 msgstr ""
 "Die KI-Funktionen müssen von Ihrem Administrator konfiguriert und aktiviert "
 "werden. Wenn Sie sie nicht sehen können, sind sie nicht konfiguriert. "
-"Weitere Informationen zum Konfigurieren und Aktivieren finden Sie im :admin-"
-"docs:`KI-Bereich </ai/index>` der Admin-Dokumentation."
+"Weitere Informationen zur Konfiguration und Aktivierung finden Sie im :admin-"
+"docs:`AI-Bereich </ai/provider>` der Admin-Dokumentation."
 
 #: ../extras/ai-features.rst:16
 msgid "Ticket Summary"
@@ -5569,7 +5556,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:44
 msgid "Smart Editor"
-msgstr ""
+msgstr "Smart Editor"
 
 #: ../extras/ai-features.rst:46
 msgid ""
@@ -5577,6 +5564,9 @@ msgid ""
 "ticket response workflow. It helps you with text tools while you create an "
 "article."
 msgstr ""
+"Der neue KI-gesteuerte smarte Editor wurde entwickelt, um Ihren Workflow bei "
+"der Beantwortung von Tickets zu vereinfachen und zu verbessern. Er hilft "
+"Ihnen mit Text-Tools, während Sie einen Artikel erstellen."
 
 #: ../extras/ai-features.rst:49
 msgid ""
@@ -5585,10 +5575,14 @@ msgid ""
 "bottom of the article creation and choose one of the following features, "
 "depending on what you want to perform."
 msgstr ""
+"Um eine der folgenden Funktionen zu nutzen, müssen Sie zunächst den Text "
+"auswählen, auf den Sie die Änderungen anwenden möchten. Klicken Sie dann auf "
+"den Link **Smart Editor** am unteren Rand der Artikelerstellung und wählen "
+"Sie eine der folgenden Funktionen, je nachdem, was Sie durchführen möchten."
 
 #: ../extras/ai-features.rst:None
 msgid "Screenshots shows highlighted article reply elaboration tools"
-msgstr ""
+msgstr "Screenshot zeigt hervorgehobene Artikel Antwort-Ausarbeitungstools"
 
 #: ../extras/ai-features.rst:60
 msgid ""
@@ -5596,6 +5590,9 @@ msgid ""
 "If you are not satisfied with the result, try using the undo feature by "
 "pressing :kbd:`Ctrl` + :kbd:`z`."
 msgstr ""
+"Beachten Sie, dass Ihr Text ersetzt wird, wenn Sie eines der Textwerkzeuge "
+"auswählen. Wenn Sie mit dem Ergebnis nicht zufrieden sind, versuchen Sie, "
+"die Rückgängig-Funktion zu nutzen, indem Sie :kbd:`Strg` + :kbd:`z` drücken."
 
 #: ../extras/ai-features.rst:63
 msgid ""
@@ -5603,6 +5600,9 @@ msgid ""
 "developed, there may still be minor problems in individual cases due to the "
 "nature of neural networks."
 msgstr ""
+"Prüfen Sie die Antwort immer gegen. Obwohl die Funktion sorgfältig "
+"entwickelt wurde, kann es aufgrund des Aufbaus neuronaler Netze in "
+"Einzelfällen trotzdem zu kleineren Fehlern kommen."
 
 #: ../extras/ai-features.rst:67
 msgid ""
@@ -5610,12 +5610,17 @@ msgid ""
 "enhancing clarity, conciseness and structure as well as removing "
 "misspellings and grammar issues."
 msgstr ""
+"**Text verbessern**: Nimmt Ihren Text als Grundlage und versucht, ihn in "
+"Richtung Klarheit, Prägnanz und Struktur zu verbessern sowie Rechtschreib- "
+"und Grammatikfehler zu beseitigen."
 
 #: ../extras/ai-features.rst:70
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
 msgstr ""
+"**Rechtschreibung und Grammatik korrigieren**: Prüft Ihren Text und entfernt "
+"automatisch Rechtschreib- und Grammatikfehler."
 
 #: ../extras/ai-features.rst:72
 msgid ""
@@ -5624,12 +5629,19 @@ msgid ""
 "it by providing only basic information (e.g. via bullet points) and let the "
 "AI write the answer."
 msgstr ""
+"**Erweitern**: Erweitert Ihren Text und behält dabei Ihre Botschaft bei. "
+"Nützlich, wenn Ihr Kunde mehr als ein paar Aufzählungspunkte als Antwort "
+"erwartet. Sie können diese Funktion sogar nutzen, indem Sie nur grundlegende "
+"Informationen bereitstellen (z.B. als Stichworte) und die KI die Antwort "
+"schreiben lassen."
 
 #: ../extras/ai-features.rst:76
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
 msgstr ""
+"**Vereinfachen**: Führt das Gegenteil von \"Erweitern\" aus und vereinfacht "
+"und kürzt Ihren Text, während Ihre Botschaft erhalten bleibt."
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
