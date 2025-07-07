@@ -35,28 +35,12 @@ the following sections:
 - Suggested next steps (optional)
 
 Smart Editor
-^^^^^^^^^^^^
+------------
 
 The new AI-powered smart editor is designed to simplify and enhance your ticket
 response workflow. It helps you with text tools while you create an article.
 
-To use any of the following features, you first have to select text you want to
-apply the changes to. After that, click the **Smart Editor** link at the bottom
-of the article creation and choose one of the following features, depending on
-what you want to perform.
-
-.. figure:: /images/extras/ai/reply-elaboration-tools.png
-   :alt: Screenshots shows highlighted article reply elaboration tools
-   :scale: 80%
-   :align: center
-
-.. warning::
-   - Be aware that your text gets replaced when you select one
-     of the text tools. If you are not satisfied with the result, try using
-     the undo feature by pressing :kbd:`Ctrl` + :kbd:`z`.
-   - Always double-check the response. Although the feature was carefully
-     developed, there may still be minor problems in individual cases due to
-     the nature of neural networks.
+The following tools are supported:
 
 - **Improve writing**: Uses your text as a base and tries to improve it by
   enhancing clarity, conciseness and structure as well as removing misspellings
@@ -69,3 +53,30 @@ what you want to perform.
   AI write the answer.
 - **Simplify**: Does the opposite of the expansion and shrinks your text while
   keeping your message.
+
+To use any of these features, simply select the text you want to
+apply the changes to. You can select the whole text or just parts of it.
+This automatically opens a menu where you can select one of the available
+options:
+
+.. figure:: /images/extras/ai/ticket-text-tools.png
+   :alt: Screenshots shows selected text in article with AI text tools
+   :scale: 80%
+   :align: center
+
+After selecting an option, Zammad shows a dialog where you can compare the
+original text and the AI suggestion:
+
+.. figure:: /images/extras/ai/text-tools-approval-dialog.png
+   :alt: Screenshots shows AI suggestion dialog
+   :scale: 80%
+   :align: center
+
+Click on the **Approve** button to accept the changes and to insert it in the
+article. After accepting the suggestion, you can still edit the text in the
+article editor.
+
+.. warning::
+   Always double-check the response. Although the feature was carefully
+   developed, there may still be minor problems in individual cases due to
+   the nature of neural networks.

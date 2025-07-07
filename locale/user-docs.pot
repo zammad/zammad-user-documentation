@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 11:14+0200\n"
+"POT-Creation-Date: 2025-07-07 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3556,35 +3556,47 @@ msgid "The new AI-powered smart editor is designed to simplify and enhance your 
 msgstr ""
 
 #: ../extras/ai-features.rst:43
-msgid "To use any of the following features, you first have to select text you want to apply the changes to. After that, click the **Smart Editor** link at the bottom of the article creation and choose one of the following features, depending on what you want to perform."
+msgid "The following tools are supported:"
 msgstr ""
 
-#: ../extras/ai-features.rst:None
-msgid "Screenshots shows highlighted article reply elaboration tools"
-msgstr ""
-
-#: ../extras/ai-features.rst:54
-msgid "Be aware that your text gets replaced when you select one of the text tools. If you are not satisfied with the result, try using the undo feature by pressing :kbd:`Ctrl` + :kbd:`z`."
-msgstr ""
-
-#: ../extras/ai-features.rst:57
-msgid "Always double-check the response. Although the feature was carefully developed, there may still be minor problems in individual cases due to the nature of neural networks."
-msgstr ""
-
-#: ../extras/ai-features.rst:61
+#: ../extras/ai-features.rst:45
 msgid "**Improve writing**: Uses your text as a base and tries to improve it by enhancing clarity, conciseness and structure as well as removing misspellings and grammar issues."
 msgstr ""
 
-#: ../extras/ai-features.rst:64
+#: ../extras/ai-features.rst:48
 msgid "**Fix spelling and grammar**: Just proofreads your text and automatically removes spelling and grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:66
+#: ../extras/ai-features.rst:50
 msgid "**Expand**: Expands your text while keeping your message. Useful if your customer expects more than some bullet points as an answer. You can even use it by providing only basic information (e.g. via bullet points) and let the AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:70
+#: ../extras/ai-features.rst:54
 msgid "**Simplify**: Does the opposite of the expansion and shrinks your text while keeping your message."
+msgstr ""
+
+#: ../extras/ai-features.rst:57
+msgid "To use any of these features, simply select the text you want to apply the changes to. You can select the whole text or just parts of it. This automatically opens a menu where you can select one of the available options:"
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows selected text in article with AI text tools"
+msgstr ""
+
+#: ../extras/ai-features.rst:67
+msgid "After selecting an option, Zammad shows a dialog where you can compare the original text and the AI suggestion:"
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows AI suggestion dialog"
+msgstr ""
+
+#: ../extras/ai-features.rst:75
+msgid "Click on the **Approve** button to accept the changes and to insert it in the article. After accepting the suggestion, you can still edit the text in the article editor."
+msgstr ""
+
+#: ../extras/ai-features.rst:80
+msgid "Always double-check the response. Although the feature was carefully developed, there may still be minor problems in individual cases due to the nature of neural networks."
 msgstr ""
 
 #: ../extras/caller-log.rst:2
