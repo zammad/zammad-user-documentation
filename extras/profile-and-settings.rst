@@ -73,11 +73,6 @@ Clicking on "Profile" in the user menu opens the profile settings.
    has no effect. Most common modern Browsers are capable to do so
    (e.g. Firefox, Google Chrome).
 
-   Additionally, you can activate or deactivate if the banner for Zammad's
-   ticket summary :doc:`AI feature <ai-features>` is shown below the articles in
-   the ticket detail view. This option is only available, if the feature is
-   configured by your admin.
-
 :Language:
 
    Set the system display language.
