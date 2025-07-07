@@ -10,7 +10,7 @@ help you manage support tickets even more efficiently. ✨🚀
 .. note:: The AI features have to be configured and activated by your
    administrator. If you can't see it, it is not configured. More information
    about how to configure and activate it can be found in the
-   :admin-docs:`AI section </ai/provider>` of the admin documentation.
+   :admin-docs:`AI section </ai/provider.html>` of the admin documentation.
 
 Ticket Summary
 --------------
