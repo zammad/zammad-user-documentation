@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 12:24+0200\n"
-"PO-Revision-Date: 2025-05-24 07:00+0000\n"
+"POT-Creation-Date: 2025-07-07 15:49+0200\n"
+"PO-Revision-Date: 2025-07-09 15:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -4750,7 +4750,7 @@ msgstr ""
 "zammad.com/en/product/features/nagios-integration>`_."
 
 #: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
-#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:116
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
@@ -5477,12 +5477,12 @@ msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see it, it is not configured. More information about how to "
 "configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider>` of the admin documentation."
+"provider.html>` of the admin documentation."
 msgstr ""
 "Die KI-Funktionen müssen von Ihrem Administrator konfiguriert und aktiviert "
 "werden. Wenn Sie sie nicht sehen können, sind sie nicht konfiguriert. "
 "Weitere Informationen zur Konfiguration und Aktivierung finden Sie im :admin-"
-"docs:`AI-Bereich </ai/provider>` der Admin-Dokumentation."
+"docs:`KI-Bereich </ai/provider.html>` der Admin-Dokumentation."
 
 #: ../extras/ai-features.rst:16
 msgid "Ticket Summary"
@@ -5500,16 +5500,14 @@ msgstr ""
 
 #: ../extras/ai-features.rst:22
 msgid ""
-"If the feature is activated, a banner is shown below the articles in the "
-"ticket detail view. By clicking the ``See Summary`` button, the **Summary** "
-"sidebar tab is opened and you can read the summary. The summary is created "
-"when you open a ticket."
+"If the feature is activated, a summary of the ticket is generated when a "
+"ticket is opened. An indicator shows up on the AI summary sidebar tab to "
+"show you that a summary has been generated."
 msgstr ""
-"Wenn die Funktion aktiviert ist, wird in der Ticket Detailansicht ein Banner "
-"unter den Artikeln angezeigt. Wenn Sie auf die Schaltfläche "
-"``Zusammenfassung ansehen`` klicken, wird der Seitenleisten-Tab "
-"**Zusammenfassung** geöffnet und Sie können die Zusammenfassung lesen. Die "
-"Zusammenfassung wird erstellt, wenn Sie ein Ticket öffnen."
+"Wenn die Funktion aktiviert ist, wird beim Öffnen eines Tickets eine "
+"Zusammenfassung des Tickets erstellt. Auf dem Seitenleisten-Tab der KI-"
+"Zusammenfassung erscheint ein Indikator, der Ihnen anzeigt, dass eine "
+"Zusammenfassung erstellt wurde."
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -5519,7 +5517,7 @@ msgstr ""
 "Der Screenshot zeigt die Ticket Detailansicht von Zammad mit hervorgehobenem "
 "Banner für die Ticket-Zusammenfassung und die Seitenleiste"
 
-#: ../extras/ai-features.rst:30
+#: ../extras/ai-features.rst:29
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5527,38 +5525,27 @@ msgstr ""
 "Abhängig von der Konfiguration Ihrer Zammad-Instanz enthält die "
 "Zusammenfassung die folgenden Abschnitte:"
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:32
 msgid "Customer intent"
 msgstr "Anliegen des Kunden"
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:33
 msgid "Conversation summary"
 msgstr "Zusammenfassung der Konversation"
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:34
 msgid "Open questions (optional)"
 msgstr "Offene Fragen (optional)"
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:35
 msgid "Suggested next steps (optional)"
 msgstr "Vorgeschlagene nächste Schritte (optional)"
 
 #: ../extras/ai-features.rst:38
-msgid ""
-"If you don't want to see the banner below the articles, you can **Hide** it. "
-"To get the banner again, go to **Appearance** in your :doc:`profile settings "
-"<profile-and-settings>` and re-activate it by toggling the checkbox."
-msgstr ""
-"Wenn Sie das Banner unter den Artikeln nicht sehen wollen, können Sie es "
-"**ausblenden**. Um das Banner wieder zu sehen, gehen Sie zu **Aussehen** in "
-"Ihren :doc:`Profileinstellungen <profile-and-settings>` und aktivieren Sie "
-"es wieder, indem Sie das Kontrollkästchen anklicken."
-
-#: ../extras/ai-features.rst:44
 msgid "Smart Editor"
 msgstr "Smart Editor"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:40
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
@@ -5568,43 +5555,11 @@ msgstr ""
 "der Beantwortung von Tickets zu vereinfachen und zu verbessern. Er hilft "
 "Ihnen mit Text-Tools, während Sie einen Artikel erstellen."
 
-#: ../extras/ai-features.rst:49
-msgid ""
-"To use any of the following features, you first have to select text you want "
-"to apply the changes to. After that, click the **Smart Editor** link at the "
-"bottom of the article creation and choose one of the following features, "
-"depending on what you want to perform."
-msgstr ""
-"Um eine der folgenden Funktionen zu nutzen, müssen Sie zunächst den Text "
-"auswählen, auf den Sie die Änderungen anwenden möchten. Klicken Sie dann auf "
-"den Link **Smart Editor** am unteren Rand der Artikelerstellung und wählen "
-"Sie eine der folgenden Funktionen, je nachdem, was Sie durchführen möchten."
+#: ../extras/ai-features.rst:43
+msgid "The following tools are supported:"
+msgstr "Die folgenden Tools werden unterstützt:"
 
-#: ../extras/ai-features.rst:None
-msgid "Screenshots shows highlighted article reply elaboration tools"
-msgstr "Screenshot zeigt hervorgehobene Artikel Antwort-Ausarbeitungstools"
-
-#: ../extras/ai-features.rst:60
-msgid ""
-"Be aware that your text gets replaced when you select one of the text tools. "
-"If you are not satisfied with the result, try using the undo feature by "
-"pressing :kbd:`Ctrl` + :kbd:`z`."
-msgstr ""
-"Beachten Sie, dass Ihr Text ersetzt wird, wenn Sie eines der Textwerkzeuge "
-"auswählen. Wenn Sie mit dem Ergebnis nicht zufrieden sind, versuchen Sie, "
-"die Rückgängig-Funktion zu nutzen, indem Sie :kbd:`Strg` + :kbd:`z` drücken."
-
-#: ../extras/ai-features.rst:63
-msgid ""
-"Always double-check the response. Although the feature was carefully "
-"developed, there may still be minor problems in individual cases due to the "
-"nature of neural networks."
-msgstr ""
-"Prüfen Sie die Antwort immer gegen. Obwohl die Funktion sorgfältig "
-"entwickelt wurde, kann es aufgrund des Aufbaus neuronaler Netze in "
-"Einzelfällen trotzdem zu kleineren Fehlern kommen."
-
-#: ../extras/ai-features.rst:67
+#: ../extras/ai-features.rst:45
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
@@ -5614,7 +5569,7 @@ msgstr ""
 "Richtung Klarheit, Prägnanz und Struktur zu verbessern sowie Rechtschreib- "
 "und Grammatikfehler zu beseitigen."
 
-#: ../extras/ai-features.rst:70
+#: ../extras/ai-features.rst:48
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
@@ -5622,7 +5577,7 @@ msgstr ""
 "**Rechtschreibung und Grammatik korrigieren**: Prüft Ihren Text und entfernt "
 "automatisch Rechtschreib- und Grammatikfehler."
 
-#: ../extras/ai-features.rst:72
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -5635,13 +5590,61 @@ msgstr ""
 "Informationen bereitstellen (z.B. als Stichworte) und die KI die Antwort "
 "schreiben lassen."
 
-#: ../extras/ai-features.rst:76
+#: ../extras/ai-features.rst:54
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
 msgstr ""
 "**Vereinfachen**: Führt das Gegenteil von \"Erweitern\" aus und vereinfacht "
 "und kürzt Ihren Text, während Ihre Botschaft erhalten bleibt."
+
+#: ../extras/ai-features.rst:57
+msgid ""
+"To use any of these features, simply select the text you want to apply the "
+"changes to. You can select the whole text or just parts of it. This "
+"automatically opens a menu where you can select one of the available options:"
+msgstr ""
+"Um eine dieser Funktionen zu nutzen, markieren Sie einfach den Text, auf den "
+"Sie die Änderungen anwenden möchten. Sie können den gesamten Text oder nur "
+"Teile davon markieren. Daraufhin wird automatisch ein Menü geöffnet, in dem "
+"Sie eine der verfügbaren Optionen auswählen können:"
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows selected text in article with AI text tools"
+msgstr "Screenshot zeigt ausgewählten Text im Artikel mit KI-Text-Tools"
+
+#: ../extras/ai-features.rst:67
+msgid ""
+"After selecting an option, Zammad shows a dialog where you can compare the "
+"original text and the AI suggestion:"
+msgstr ""
+"Nachdem Sie eine Option ausgewählt haben, zeigt Zammad einen Dialog an, in "
+"dem Sie den Originaltext und den KI-Vorschlag vergleichen können:"
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows AI suggestion dialog"
+msgstr "Screenshot zeigt Dialog mit KI-Vorschlag"
+
+#: ../extras/ai-features.rst:75
+msgid ""
+"Click on the **Approve** button to accept the changes and to insert it in "
+"the article. After accepting the suggestion, you can still edit the text in "
+"the article editor."
+msgstr ""
+"Klicken Sie auf die Schaltfläche **Übernehmen**, um die Änderungen zu "
+"akzeptieren und in den Artikel einzufügen. Nachdem Sie den Vorschlag "
+"akzeptiert haben, können Sie den Text immer noch im Artikel-Editor "
+"bearbeiten."
+
+#: ../extras/ai-features.rst:80
+msgid ""
+"Always double-check the response. Although the feature was carefully "
+"developed, there may still be minor problems in individual cases due to the "
+"nature of neural networks."
+msgstr ""
+"Prüfen Sie die Antwort immer gegen. Obwohl die Funktion sorgfältig "
+"entwickelt wurde, kann es aufgrund des Aufbaus neuronaler Netze in "
+"Einzelfällen trotzdem zu kleineren Fehlern kommen."
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
@@ -7750,27 +7753,15 @@ msgstr ""
 "Einstellung grundsätzlich keine Wirkung. Die meisten gängigen modernen "
 "Browser sind dazu in der Lage (z.B. Firefox, Google Chrome)."
 
-#: ../extras/profile-and-settings.rst:76
-msgid ""
-"Additionally, you can activate or deactivate if the banner for Zammad's "
-"ticket summary :doc:`AI feature <ai-features>` is shown below the articles "
-"in the ticket detail view. This option is only available, if the feature is "
-"configured by your admin."
-msgstr ""
-"Zusätzlich können Sie aktivieren oder deaktivieren, ob das Banner für "
-"Zammads :doc:`KI-Feature <ai-features>` Ticket-Zusammenfassung unter den "
-"Artikeln in der Ticket Detailansicht angezeigt wird. Diese Option ist nur "
-"verfügbar, wenn das Feature von Ihrem Admin konfiguriert wurde."
-
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr "Sprache"
 
-#: ../extras/profile-and-settings.rst:83
+#: ../extras/profile-and-settings.rst:78
 msgid "Set the system display language."
 msgstr "Stellen Sie Ihre gewünschte Systemsprache ein."
 
-#: ../extras/profile-and-settings.rst:87
+#: ../extras/profile-and-settings.rst:82
 msgid "Upload an avatar image."
 msgstr "Laden Sie ein Avatar-Bild hoch."
 
@@ -7778,7 +7769,7 @@ msgstr "Laden Sie ein Avatar-Bild hoch."
 msgid "Password & Auth"
 msgstr "Passwort & Authentifizierung"
 
-#: ../extras/profile-and-settings.rst:91
+#: ../extras/profile-and-settings.rst:86
 msgid ""
 "Change your login password and manage your two-factor authentication methods "
 "(both may be disabled by system admin)."
@@ -7786,7 +7777,7 @@ msgstr ""
 "Ändern Sie Ihr Anmeldekennwort und verwalten Sie Ihre Zwei-Faktor Anmelde-"
 "Methoden (beides kann vom Systemadministrator deaktiviert worden sein)."
 
-#: ../extras/profile-and-settings.rst:95
+#: ../extras/profile-and-settings.rst:90
 msgid ""
 ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
 "optional feature. Administrators can learn more :admin-docs:`here </settings/"
@@ -7796,7 +7787,7 @@ msgstr ""
 "ist eine optionale Funkion. Administratoren können :admin-docs:`hier "
 "<settings/security/two-factor.html>` mehr erfahren."
 
-#: ../extras/profile-and-settings.rst:102
+#: ../extras/profile-and-settings.rst:97
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound. Notifications are available to agents "
@@ -7806,7 +7797,7 @@ msgstr ""
 "erhalten oder wählen Sie einen neuen Benachrichtigungston. "
 "Benachrichtigungen sind nur für Agenten verfügbar."
 
-#: ../extras/profile-and-settings.rst:106
+#: ../extras/profile-and-settings.rst:101
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
@@ -7814,7 +7805,7 @@ msgstr ""
 "Sie können Ihre Benachrichtigungseinstellungen immer auf die Systemstandards "
 "zurücksetzen, indem Sie auf den Button unten in dieser Ansicht klicken."
 
-#: ../extras/profile-and-settings.rst:112
+#: ../extras/profile-and-settings.rst:107
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
@@ -7823,11 +7814,11 @@ msgstr ""
 "Benachrichtigungen** erhalten möchten. Die rechte Spalte ermöglicht auch "
 "eine Benachrichtigung per E-Mail."
 
-#: ../extras/profile-and-settings.rst:135
+#: ../extras/profile-and-settings.rst:130
 msgid "Limit Groups"
 msgstr "Einschränkung auf Gruppen"
 
-#: ../extras/profile-and-settings.rst:122
+#: ../extras/profile-and-settings.rst:117
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -7842,7 +7833,7 @@ msgstr ""
 "deaktivieren. Sie werden weiterhin Benachrichtigungen für Ihre eigenen "
 "Tickets erhalten."
 
-#: ../extras/profile-and-settings.rst:128
+#: ../extras/profile-and-settings.rst:123
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -7851,7 +7842,7 @@ msgstr ""
 "Benachrichtigungen für alle Gruppen deaktivieren, bekommen Sie folgende "
 "Warnung angezeigt."
 
-#: ../extras/profile-and-settings.rst:134
+#: ../extras/profile-and-settings.rst:129
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -7859,7 +7850,7 @@ msgstr ""
 "In diesem Fall wird beim Speichern die Funktion **Einschränkung auf "
 "Gruppen** deaktiviert, da keine Einschränkung mehr übrig bleibt."
 
-#: ../extras/profile-and-settings.rst:137
+#: ../extras/profile-and-settings.rst:132
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more :admin-docs:`here </manage/"
@@ -7873,7 +7864,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Abwesenheit"
 
-#: ../extras/profile-and-settings.rst:144
+#: ../extras/profile-and-settings.rst:139
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -7881,7 +7872,7 @@ msgstr ""
 "Planen Sie Abwesenheiten im Voraus und benennen Sie einen Vertreter, der "
 "Ihre Tickets bearbeitet, während Sie nicht anwesend sind."
 
-#: ../extras/profile-and-settings.rst:147
+#: ../extras/profile-and-settings.rst:142
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
@@ -7892,11 +7883,11 @@ msgstr ""
 "benutzerdefinierte :doc:`Übersicht</basics/find-ticket/browse>`, um den "
 "Überblick über Ihre Tickets zu behalten."
 
-#: ../extras/profile-and-settings.rst:151
+#: ../extras/profile-and-settings.rst:146
 msgid "You will receive notifications while you are absent."
 msgstr "Während Ihrer Abwesenheit werden Sie benachrichtigt."
 
-#: ../extras/profile-and-settings.rst:154
+#: ../extras/profile-and-settings.rst:149
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -7905,7 +7896,7 @@ msgstr ""
 "bereitgestellt hat? Dieser Bereich erlaubt ihnen eine eigene Sortierung "
 "vorzunehmen."
 
-#: ../extras/profile-and-settings.rst:157
+#: ../extras/profile-and-settings.rst:152
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
@@ -7913,7 +7904,7 @@ msgstr ""
 "Sie können die Standardsortierung jederzeit wiederherstellen, wenn Sie oben "
 "rechts \"Reihenfolge der Übersichten zurücksetzen\" wählen."
 
-#: ../extras/profile-and-settings.rst:162
+#: ../extras/profile-and-settings.rst:157
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -7921,7 +7912,7 @@ msgstr ""
 "Diese Einstellung ist standardmäßig nur für Agenten sichtbar. Sie kann von "
 "Ihrem Administrator vollständig deaktiviert werden."
 
-#: ../extras/profile-and-settings.rst:165
+#: ../extras/profile-and-settings.rst:160
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -7945,7 +7936,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Kalender"
 
-#: ../extras/profile-and-settings.rst:176
+#: ../extras/profile-and-settings.rst:171
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
@@ -7957,7 +7948,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Geräte"
 
-#: ../extras/profile-and-settings.rst:181
+#: ../extras/profile-and-settings.rst:176
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -7969,7 +7960,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token-Zugriff"
 
-#: ../extras/profile-and-settings.rst:186
+#: ../extras/profile-and-settings.rst:181
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -7977,7 +7968,7 @@ msgstr ""
 "Generieren Sie einen persönlichen Zugangs-Token für jede Anwendung welche "
 "auf die Zammad API zugreifen soll."
 
-#: ../extras/profile-and-settings.rst:190
+#: ../extras/profile-and-settings.rst:185
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -7991,7 +7982,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
-#: ../extras/profile-and-settings.rst:196
+#: ../extras/profile-and-settings.rst:191
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
@@ -9337,6 +9328,62 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
 "außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
 "Dokumentationen </index.html>` verfügbar."
+
+#~ msgid ""
+#~ "If the feature is activated, a banner is shown below the articles in the "
+#~ "ticket detail view. By clicking the ``See Summary`` button, the "
+#~ "**Summary** sidebar tab is opened and you can read the summary. The "
+#~ "summary is created when you open a ticket."
+#~ msgstr ""
+#~ "Wenn die Funktion aktiviert ist, wird in der Ticket Detailansicht ein "
+#~ "Banner unter den Artikeln angezeigt. Wenn Sie auf die Schaltfläche "
+#~ "``Zusammenfassung ansehen`` klicken, wird der Seitenleisten-Tab "
+#~ "**Zusammenfassung** geöffnet und Sie können die Zusammenfassung lesen. "
+#~ "Die Zusammenfassung wird erstellt, wenn Sie ein Ticket öffnen."
+
+#~ msgid ""
+#~ "If you don't want to see the banner below the articles, you can **Hide** "
+#~ "it. To get the banner again, go to **Appearance** in your :doc:`profile "
+#~ "settings <profile-and-settings>` and re-activate it by toggling the "
+#~ "checkbox."
+#~ msgstr ""
+#~ "Wenn Sie das Banner unter den Artikeln nicht sehen wollen, können Sie es "
+#~ "**ausblenden**. Um das Banner wieder zu sehen, gehen Sie zu **Aussehen** "
+#~ "in Ihren :doc:`Profileinstellungen <profile-and-settings>` und aktivieren "
+#~ "Sie es wieder, indem Sie das Kontrollkästchen anklicken."
+
+#~ msgid ""
+#~ "To use any of the following features, you first have to select text you "
+#~ "want to apply the changes to. After that, click the **Smart Editor** link "
+#~ "at the bottom of the article creation and choose one of the following "
+#~ "features, depending on what you want to perform."
+#~ msgstr ""
+#~ "Um eine der folgenden Funktionen zu nutzen, müssen Sie zunächst den Text "
+#~ "auswählen, auf den Sie die Änderungen anwenden möchten. Klicken Sie dann "
+#~ "auf den Link **Smart Editor** am unteren Rand der Artikelerstellung und "
+#~ "wählen Sie eine der folgenden Funktionen, je nachdem, was Sie durchführen "
+#~ "möchten."
+
+#~ msgid ""
+#~ "Be aware that your text gets replaced when you select one of the text "
+#~ "tools. If you are not satisfied with the result, try using the undo "
+#~ "feature by pressing :kbd:`Ctrl` + :kbd:`z`."
+#~ msgstr ""
+#~ "Beachten Sie, dass Ihr Text ersetzt wird, wenn Sie eines der "
+#~ "Textwerkzeuge auswählen. Wenn Sie mit dem Ergebnis nicht zufrieden sind, "
+#~ "versuchen Sie, die Rückgängig-Funktion zu nutzen, indem Sie :kbd:`Strg` "
+#~ "+ :kbd:`z` drücken."
+
+#~ msgid ""
+#~ "Additionally, you can activate or deactivate if the banner for Zammad's "
+#~ "ticket summary :doc:`AI feature <ai-features>` is shown below the "
+#~ "articles in the ticket detail view. This option is only available, if the "
+#~ "feature is configured by your admin."
+#~ msgstr ""
+#~ "Zusätzlich können Sie aktivieren oder deaktivieren, ob das Banner für "
+#~ "Zammads :doc:`KI-Feature <ai-features>` Ticket-Zusammenfassung unter den "
+#~ "Artikeln in der Ticket Detailansicht angezeigt wird. Diese Option ist nur "
+#~ "verfügbar, wenn das Feature von Ihrem Admin konfiguriert wurde."
 
 #~ msgid "**Closed**"
 #~ msgstr "**Geschlossen**"

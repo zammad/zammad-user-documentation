@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 12:24+0200\n"
-"PO-Revision-Date: 2025-06-06 06:00+0000\n"
+"POT-Creation-Date: 2025-07-07 15:49+0200\n"
+"PO-Revision-Date: 2025-07-09 15:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -4600,7 +4600,7 @@ msgstr ""
 "product/features/nagios-integration>`_."
 
 #: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
-#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:116
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
 msgid "Notifications"
 msgstr "Обавештења"
 
@@ -5315,11 +5315,11 @@ msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see it, it is not configured. More information about how to "
 "configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider>` of the admin documentation."
+"provider.html>` of the admin documentation."
 msgstr ""
 "AI функције морају бити подешене и укључене од стране вашег администратора. "
 "Уколико их не видите, нису подешене. Више информација о подешавању и "
-"укључивању се могу пронаћи у :admin-docs:`AI одељку </ai/provider>` "
+"укључивању се могу пронаћи у :admin-docs:`AI одељку </ai/provider.html>` "
 "администраторске документације."
 
 #: ../extras/ai-features.rst:16
@@ -5338,15 +5338,13 @@ msgstr ""
 
 #: ../extras/ai-features.rst:22
 msgid ""
-"If the feature is activated, a banner is shown below the articles in the "
-"ticket detail view. By clicking the ``See Summary`` button, the **Summary** "
-"sidebar tab is opened and you can read the summary. The summary is created "
-"when you open a ticket."
+"If the feature is activated, a summary of the ticket is generated when a "
+"ticket is opened. An indicator shows up on the AI summary sidebar tab to "
+"show you that a summary has been generated."
 msgstr ""
-"Уколико је функција укључена, биће приказан банер испод чланака у детаљном "
-"приказу тикета. Кликом на дугме ``Прочитај опис`` биће приказана бочна трака "
-"**Сажети опис** где га можете прегледати. Опис ће бити генерисан по "
-"учитавању тикета."
+"Уколико је функција укључена, сажети опис тикета ће бити припремљен при "
+"детаљном прегледу тикета. Биће приказан индикатор на језичку бочне траке као "
+"сигнал да је сажети опис спреман."
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -5356,7 +5354,7 @@ msgstr ""
 "Снимак екрана приказује детаљни преглед тикета у Zammad-у за означеним "
 "банером и траком сажетог описа"
 
-#: ../extras/ai-features.rst:30
+#: ../extras/ai-features.rst:29
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5364,38 +5362,27 @@ msgstr ""
 "У зависности од ваше Zammad конфигурације, сажети опис може садржати следеће "
 "одељке:"
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:32
 msgid "Customer intent"
 msgstr "Намера клијента"
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:33
 msgid "Conversation summary"
 msgstr "Сажети опис конверзације"
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:34
 msgid "Open questions (optional)"
 msgstr "Отворена питања (опционо)"
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:35
 msgid "Suggested next steps (optional)"
 msgstr "Предложени следећи кораци (опционо)"
 
 #: ../extras/ai-features.rst:38
-msgid ""
-"If you don't want to see the banner below the articles, you can **Hide** it. "
-"To get the banner again, go to **Appearance** in your :doc:`profile settings "
-"<profile-and-settings>` and re-activate it by toggling the checkbox."
-msgstr ""
-"Уколико не желите приказ банера испод чланака, можете га **сакрити**. Да "
-"бисте га поново приказали, идите на страну **Изглед** у "
-"вашим :doc:`подешавањима профила <profile-and-settings>` и укључите га преко "
-"поља за потврду."
-
-#: ../extras/ai-features.rst:44
 msgid "Smart Editor"
 msgstr "Smart Editor"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:40
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
@@ -5405,44 +5392,11 @@ msgstr ""
 "унапреди ваш радни ток обраде тикета. Помаже вам преко текстуалних алатки "
 "док пишете чланак."
 
-#: ../extras/ai-features.rst:49
-msgid ""
-"To use any of the following features, you first have to select text you want "
-"to apply the changes to. After that, click the **Smart Editor** link at the "
-"bottom of the article creation and choose one of the following features, "
-"depending on what you want to perform."
-msgstr ""
-"За коришћење излистаних функција, прво морате да обележите текст на који "
-"желите да се измене примене. Након тога, кликните на **Smart Editor** дугме "
-"при дну новог чланка и изаберите једну од следећих функција, у зависности од "
-"жељеног понашања."
+#: ../extras/ai-features.rst:43
+msgid "The following tools are supported:"
+msgstr "Следеће алатке су подржане:"
 
-#: ../extras/ai-features.rst:None
-msgid "Screenshots shows highlighted article reply elaboration tools"
-msgstr ""
-"Снимци екрана који приказују обележене текстуалне алатке чланка одговора"
-
-#: ../extras/ai-features.rst:60
-msgid ""
-"Be aware that your text gets replaced when you select one of the text tools. "
-"If you are not satisfied with the result, try using the undo feature by "
-"pressing :kbd:`Ctrl` + :kbd:`z`."
-msgstr ""
-"Обратите пажњу да ће ваш текст бити преписан након одабира једне од "
-"текстуалних алатки. Уколико нисте задовољни резултатом, вратите се један "
-"корак уназад притиском на :kbd:`Ctrl` + :kbd:`z`."
-
-#: ../extras/ai-features.rst:63
-msgid ""
-"Always double-check the response. Although the feature was carefully "
-"developed, there may still be minor problems in individual cases due to the "
-"nature of neural networks."
-msgstr ""
-"Обавезно проверите резултат. Иако је функција развијена под пуном пажњом, и "
-"даље може доћи до мањих проблема у појединачним случајевима услед саме "
-"природе неуронских мрежа."
-
-#: ../extras/ai-features.rst:67
+#: ../extras/ai-features.rst:45
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
@@ -5452,7 +5406,7 @@ msgstr ""
 "унапређењем јасноће, прецизности и структуре, притом отклањајући грешке у "
 "правопису и граматици."
 
-#: ../extras/ai-features.rst:70
+#: ../extras/ai-features.rst:48
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
@@ -5460,7 +5414,7 @@ msgstr ""
 "**Исправи правопис и граматику**: само лекторише ваш текст и аутоматски "
 "отклања грешке у правопису и граматици."
 
-#: ../extras/ai-features.rst:72
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -5472,13 +5426,62 @@ msgstr ""
 "искористити прилагањем само основних информација (нпр. путем листе са "
 "тачкама) и пуштањем AI да напише одговор."
 
-#: ../extras/ai-features.rst:76
+#: ../extras/ai-features.rst:54
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
 msgstr ""
 "**Поједностави**: ради супротно од проширења и сажима ваш текст одржавајући "
 "вашу мисао."
+
+#: ../extras/ai-features.rst:57
+msgid ""
+"To use any of these features, simply select the text you want to apply the "
+"changes to. You can select the whole text or just parts of it. This "
+"automatically opens a menu where you can select one of the available options:"
+msgstr ""
+"За коришћење било које од ових функција, једноставно обележите текст на који "
+"желите да примените алатку. Можете обележити комплетан текст или само један "
+"његов део. Падајући мени ће аутоматски бити приказан где можете одабрати "
+"једну од доступних опција:"
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows selected text in article with AI text tools"
+msgstr ""
+"Снимци екрана који приказују обележени текст чланка са AI текстуалним "
+"алаткама"
+
+#: ../extras/ai-features.rst:67
+msgid ""
+"After selecting an option, Zammad shows a dialog where you can compare the "
+"original text and the AI suggestion:"
+msgstr ""
+"По одабиру опције, Zammad ће приказати дијалог где можете упоредити "
+"оригинални текст и предложене измене:"
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows AI suggestion dialog"
+msgstr "Снимци екрана приказују AI дијалог предложених измена"
+
+#: ../extras/ai-features.rst:75
+msgid ""
+"Click on the **Approve** button to accept the changes and to insert it in "
+"the article. After accepting the suggestion, you can still edit the text in "
+"the article editor."
+msgstr ""
+"Кликните на дугме **Прихвати** да бисте применили измене и убацили их у "
+"чланак. По прихватању предлога, и даље можете уредити текст чланка у "
+"уреднику."
+
+#: ../extras/ai-features.rst:80
+msgid ""
+"Always double-check the response. Although the feature was carefully "
+"developed, there may still be minor problems in individual cases due to the "
+"nature of neural networks."
+msgstr ""
+"Обавезно проверите резултат. Иако је функција развијена под пуном пажњом, и "
+"даље може доћи до мањих проблема у појединачним случајевима услед саме "
+"природе неуронских мрежа."
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
@@ -7512,27 +7515,15 @@ msgstr ""
 "подешавање у основи нема ефекта. Већина модерних претраживача ово подржавају "
 "(нпр. Firefox, Google Chrome)."
 
-#: ../extras/profile-and-settings.rst:76
-msgid ""
-"Additionally, you can activate or deactivate if the banner for Zammad's "
-"ticket summary :doc:`AI feature <ai-features>` is shown below the articles "
-"in the ticket detail view. This option is only available, if the feature is "
-"configured by your admin."
-msgstr ""
-"Додатно, можете укључити или искључити приказ банера Zammad-овог сажетог "
-"описа тикета из :doc:`AI функција <ai-features>` испод листе чланака у "
-"детаљном приказу тикета. Ова опција је доступна само уколико је функција "
-"подешена од стране вашег администратора."
-
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr "Језик"
 
-#: ../extras/profile-and-settings.rst:83
+#: ../extras/profile-and-settings.rst:78
 msgid "Set the system display language."
 msgstr "Подесите језик приказа система."
 
-#: ../extras/profile-and-settings.rst:87
+#: ../extras/profile-and-settings.rst:82
 msgid "Upload an avatar image."
 msgstr "Отпремите вашу аватар сличицу."
 
@@ -7540,7 +7531,7 @@ msgstr "Отпремите вашу аватар сличицу."
 msgid "Password & Auth"
 msgstr "Лозинка и аутентификација"
 
-#: ../extras/profile-and-settings.rst:91
+#: ../extras/profile-and-settings.rst:86
 msgid ""
 "Change your login password and manage your two-factor authentication methods "
 "(both may be disabled by system admin)."
@@ -7549,7 +7540,7 @@ msgstr ""
 "аутентификације (обе функције могу бити искључене од стране администратора "
 "система)."
 
-#: ../extras/profile-and-settings.rst:95
+#: ../extras/profile-and-settings.rst:90
 msgid ""
 ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
 "optional feature. Administrators can learn more :admin-docs:`here </settings/"
@@ -7559,7 +7550,7 @@ msgstr ""
 "опциона функција. Администратори могу да сазнају више :admin-docs:`овде </"
 "settings/security/two-factor.html>`."
 
-#: ../extras/profile-and-settings.rst:102
+#: ../extras/profile-and-settings.rst:97
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound. Notifications are available to agents "
@@ -7568,7 +7559,7 @@ msgstr ""
 "Изаберите где, када и за које групе желите да примате обавештења или "
 "изаберите нови звук обавештења. Обавештења су доступна само оператерима."
 
-#: ../extras/profile-and-settings.rst:106
+#: ../extras/profile-and-settings.rst:101
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
@@ -7576,7 +7567,7 @@ msgstr ""
 "Увек можете да поништите подешавања обавештења на подразумеване вредности "
 "система тако што ћете кликнути на дугме при дну екрана."
 
-#: ../extras/profile-and-settings.rst:112
+#: ../extras/profile-and-settings.rst:107
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
@@ -7584,11 +7575,11 @@ msgstr ""
 "Користите прве четири колоне да бисте изабрали када ћете примати **интерна "
 "обавештења**. Десна колона такође омогућава обавештења путем имејла."
 
-#: ../extras/profile-and-settings.rst:135
+#: ../extras/profile-and-settings.rst:130
 msgid "Limit Groups"
 msgstr "Ограничавање група"
 
-#: ../extras/profile-and-settings.rst:122
+#: ../extras/profile-and-settings.rst:117
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -7601,7 +7592,7 @@ msgstr ""
 "дугме **Ограничи групе** и подешавања испод њега да бисте искључили ова "
 "обавештења по групама. Наставићете да примате обавештења за сопствене тикете."
 
-#: ../extras/profile-and-settings.rst:128
+#: ../extras/profile-and-settings.rst:123
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -7609,7 +7600,7 @@ msgstr ""
 "Ако укључите функцију **Ограничи групе**, али онемогућите обавештења из свих "
 "група, могуће је да ћете добити следеће упозорење."
 
-#: ../extras/profile-and-settings.rst:134
+#: ../extras/profile-and-settings.rst:129
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -7617,7 +7608,7 @@ msgstr ""
 "У овом случају, чување ваших подешавања ће имплицитно искључити функцију "
 "**Ограничи групе**, пошто ограничења неће остати на снази."
 
-#: ../extras/profile-and-settings.rst:137
+#: ../extras/profile-and-settings.rst:132
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more :admin-docs:`here </manage/"
@@ -7631,7 +7622,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Ван канцеларије"
 
-#: ../extras/profile-and-settings.rst:144
+#: ../extras/profile-and-settings.rst:139
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -7639,7 +7630,7 @@ msgstr ""
 "Закажите периоде одсуства унапред и одредите замену за ваше тикете док вас "
 "нема."
 
-#: ../extras/profile-and-settings.rst:147
+#: ../extras/profile-and-settings.rst:142
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
@@ -7649,11 +7640,11 @@ msgstr ""
 "прилагођени :doc:`преглед </basics/find-ticket/browse>` који ће им помоћи да "
 "прате ваше тикете."
 
-#: ../extras/profile-and-settings.rst:151
+#: ../extras/profile-and-settings.rst:146
 msgid "You will receive notifications while you are absent."
 msgstr "Добијаћете обавештења док сте одсутни."
 
-#: ../extras/profile-and-settings.rst:154
+#: ../extras/profile-and-settings.rst:149
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -7662,7 +7653,7 @@ msgstr ""
 "одељак вам омогућава да изаберете редослед прегледа који вам највише "
 "одговара."
 
-#: ../extras/profile-and-settings.rst:157
+#: ../extras/profile-and-settings.rst:152
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
@@ -7670,7 +7661,7 @@ msgstr ""
 "Можете да се вратите на подразумевани редослед у било ком тренутку "
 "коришћењем дугмета горе десно „Поништи редослед прегледа“."
 
-#: ../extras/profile-and-settings.rst:162
+#: ../extras/profile-and-settings.rst:157
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -7678,7 +7669,7 @@ msgstr ""
 "Ово подешавање је подразумевано видљиво само оператерима. Администратори "
 "такође могу у потпуности да га искључе."
 
-#: ../extras/profile-and-settings.rst:165
+#: ../extras/profile-and-settings.rst:160
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -7701,7 +7692,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Календар"
 
-#: ../extras/profile-and-settings.rst:176
+#: ../extras/profile-and-settings.rst:171
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
@@ -7713,7 +7704,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Уређаји"
 
-#: ../extras/profile-and-settings.rst:181
+#: ../extras/profile-and-settings.rst:176
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -7725,7 +7716,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Приступ путем кључа"
 
-#: ../extras/profile-and-settings.rst:186
+#: ../extras/profile-and-settings.rst:181
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -7733,7 +7724,7 @@ msgstr ""
 "Генеришите личне кључеве приступа за апликације трећег лица да бисте "
 "користили Zammad API."
 
-#: ../extras/profile-and-settings.rst:190
+#: ../extras/profile-and-settings.rst:185
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -7747,7 +7738,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Повезани налози"
 
-#: ../extras/profile-and-settings.rst:196
+#: ../extras/profile-and-settings.rst:191
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
@@ -9062,6 +9053,59 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid ""
+#~ "If the feature is activated, a banner is shown below the articles in the "
+#~ "ticket detail view. By clicking the ``See Summary`` button, the "
+#~ "**Summary** sidebar tab is opened and you can read the summary. The "
+#~ "summary is created when you open a ticket."
+#~ msgstr ""
+#~ "Уколико је функција укључена, биће приказан банер испод чланака у "
+#~ "детаљном приказу тикета. Кликом на дугме ``Прочитај опис`` биће приказана "
+#~ "бочна трака **Сажети опис** где га можете прегледати. Опис ће бити "
+#~ "генерисан по учитавању тикета."
+
+#~ msgid ""
+#~ "If you don't want to see the banner below the articles, you can **Hide** "
+#~ "it. To get the banner again, go to **Appearance** in your :doc:`profile "
+#~ "settings <profile-and-settings>` and re-activate it by toggling the "
+#~ "checkbox."
+#~ msgstr ""
+#~ "Уколико не желите приказ банера испод чланака, можете га **сакрити**. Да "
+#~ "бисте га поново приказали, идите на страну **Изглед** у "
+#~ "вашим :doc:`подешавањима профила <profile-and-settings>` и укључите га "
+#~ "преко поља за потврду."
+
+#~ msgid ""
+#~ "To use any of the following features, you first have to select text you "
+#~ "want to apply the changes to. After that, click the **Smart Editor** link "
+#~ "at the bottom of the article creation and choose one of the following "
+#~ "features, depending on what you want to perform."
+#~ msgstr ""
+#~ "За коришћење излистаних функција, прво морате да обележите текст на који "
+#~ "желите да се измене примене. Након тога, кликните на **Smart Editor** "
+#~ "дугме при дну новог чланка и изаберите једну од следећих функција, у "
+#~ "зависности од жељеног понашања."
+
+#~ msgid ""
+#~ "Be aware that your text gets replaced when you select one of the text "
+#~ "tools. If you are not satisfied with the result, try using the undo "
+#~ "feature by pressing :kbd:`Ctrl` + :kbd:`z`."
+#~ msgstr ""
+#~ "Обратите пажњу да ће ваш текст бити преписан након одабира једне од "
+#~ "текстуалних алатки. Уколико нисте задовољни резултатом, вратите се један "
+#~ "корак уназад притиском на :kbd:`Ctrl` + :kbd:`z`."
+
+#~ msgid ""
+#~ "Additionally, you can activate or deactivate if the banner for Zammad's "
+#~ "ticket summary :doc:`AI feature <ai-features>` is shown below the "
+#~ "articles in the ticket detail view. This option is only available, if the "
+#~ "feature is configured by your admin."
+#~ msgstr ""
+#~ "Додатно, можете укључити или искључити приказ банера Zammad-овог сажетог "
+#~ "описа тикета из :doc:`AI функција <ai-features>` испод листе чланака у "
+#~ "детаљном приказу тикета. Ова опција је доступна само уколико је функција "
+#~ "подешена од стране вашег администратора."
 
 #~ msgid "**Closed**"
 #~ msgstr "**Затворено**"
