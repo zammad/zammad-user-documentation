@@ -32,7 +32,7 @@ Available Attributes
 
    <br />
 
-.. csv-table:: Attributes and their usuage
+.. csv-table:: Attributes and their usage
    :header: "Attribute", "possible Values", "Example", "Description"
    :widths: 10, 10, 10, 20
 
@@ -71,36 +71,55 @@ Below you can find the most important attributes sorted by ticket and article.
 Ticket Attributes
 ^^^^^^^^^^^^^^^^^
 
-   * number: string
-   * title: string
-   * group: object (group.name, ...)
-   * priority: object (priority.name, ...)
-   * state: object (state.name, ...)
-   * organization: object (organization.name, ...)
-   * owner: object (owner.firstname, owner.lastname, owner.email, ...)
-   * customer: object
-     (customer.firstname, customer.lastname, customer.email, ...)
-   * first_response_at: timestamp
-   * first_response_in_min: integer (business min till first response)
-   * close_at: timestamp
-   * close_in_min: integer (business min till close)
-   * last_contact_at: timestamp (last contact by customer or agent)
-   * last_contact_agent_at: timestamp (last contact by agent)
-   * last_contact_customer_at: timestamp (last contact by customer)
-   * create_article_type.name: string (email|phone|web|...)
-   * create_article_sender: string (Customer|Agent|System)
-   * article_count: integer
-   * escalation_at: timestamp
-   * pending_time: timestamp
+* number: string
+* title: string
+* group: object (group.name, ...)
+* priority: object (priority.name, ...)
+* state: object (state.name, ...)
+* organization: object (organization.name, ...)
+* owner: object (owner.firstname, owner.lastname, owner.email, ...)
+* customer: object
+  (customer.firstname, customer.lastname, customer.email, ...)
+* first_response_at: timestamp
+* first_response_in_min: integer (business min till first response)
+* close_at: timestamp
+* close_in_min: integer (business min till close)
+* last_contact_at: timestamp (last contact by customer or agent)
+* last_contact_agent_at: timestamp (last contact by agent)
+* last_contact_customer_at: timestamp (last contact by customer)
+* create_article_type.name: string (email|phone|web|...)
+* create_article_sender: string (Customer|Agent|System)
+* article_count: integer
+* escalation_at: timestamp
+* pending_time: timestamp
 
 Article Attributes
 ^^^^^^^^^^^^^^^^^^
 
-   * article.from: string
-   * article.to: string
-   * article.cc: string
-   * article.subject: string
-   * article.body: string
-   * article.attachment.title: string (filename of attachment)
-   * article.attachment.content: string (content of attachment)
-   * article.attachment.content_type: string (File type e.g. PDF)
+* article.from: string
+* article.to: string
+* article.cc: string
+* article.subject: string
+* article.body: string
+* article.attachment.title: string (filename of attachment)
+* article.attachment.content: string (content of attachment)
+* article.attachment.content_type: string (MIME type, e.g.
+  ``application/vnd.oasis.opendocument.spreadsheet``; see hint)
+
+  .. hint::
+
+     - If a search for a file type doesn't work, you have to provide the
+       `MIME type <https://docs.w3cub.com/http/basics_of_http/mime_types/complete_list_of_mime_types.html>`_.
+     - Make sure to escape the ``/`` with a prefixed ``\``.
+     - Examples:
+
+       - Libreoffice spreadsheets:
+         ``application\/vnd.oasis.opendocument.spreadsheet``
+       - Libreoffice text documents: ``application\/vnd.oasis.opendocument.text``
+       - MS Excel spreadsheets:
+         ``application\/vnd.openxmlformats-officedocument.wordprocessingml.document``
+       - MS Word text documents:
+         ``application/vnd.openxmlformats-officedocument.wordprocessingml.document``
+
+
+
