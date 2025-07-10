@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 12:24+0200\n"
+"POT-Creation-Date: 2025-07-07 15:49+0200\n"
 "PO-Revision-Date: 2025-02-11 08:00+0000\n"
 "Last-Translator: Türk Oyuncu <recentlly@hotmail.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -4345,7 +4345,7 @@ msgid ""
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
-#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:116
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
 msgid "Notifications"
 msgstr "Bildirimler"
 
@@ -4938,7 +4938,7 @@ msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see it, it is not configured. More information about how to "
 "configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider>` of the admin documentation."
+"provider.html>` of the admin documentation."
 msgstr ""
 
 #: ../extras/ai-features.rst:16
@@ -4955,10 +4955,9 @@ msgstr ""
 
 #: ../extras/ai-features.rst:22
 msgid ""
-"If the feature is activated, a banner is shown below the articles in the "
-"ticket detail view. By clicking the ``See Summary`` button, the **Summary** "
-"sidebar tab is opened and you can read the summary. The summary is created "
-"when you open a ticket."
+"If the feature is activated, a summary of the ticket is generated when a "
+"ticket is opened. An indicator shows up on the AI summary sidebar tab to "
+"show you that a summary has been generated."
 msgstr ""
 
 #: ../extras/ai-features.rst:None
@@ -4967,89 +4966,60 @@ msgid ""
 "banner and summary sidebar"
 msgstr ""
 
-#: ../extras/ai-features.rst:30
+#: ../extras/ai-features.rst:29
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:32
 #, fuzzy
 msgid "Customer intent"
 msgstr "Müşteri"
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:33
 msgid "Conversation summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:34
 #, fuzzy
 #| msgid "Owner *(optional)*"
 msgid "Open questions (optional)"
 msgstr "Sahip *(isteğe bağlı)*"
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:35
 msgid "Suggested next steps (optional)"
 msgstr ""
 
 #: ../extras/ai-features.rst:38
-msgid ""
-"If you don't want to see the banner below the articles, you can **Hide** it. "
-"To get the banner again, go to **Appearance** in your :doc:`profile settings "
-"<profile-and-settings>` and re-activate it by toggling the checkbox."
-msgstr ""
-
-#: ../extras/ai-features.rst:44
 msgid "Smart Editor"
 msgstr ""
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:40
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
 "article."
 msgstr ""
 
-#: ../extras/ai-features.rst:49
-msgid ""
-"To use any of the following features, you first have to select text you want "
-"to apply the changes to. After that, click the **Smart Editor** link at the "
-"bottom of the article creation and choose one of the following features, "
-"depending on what you want to perform."
+#: ../extras/ai-features.rst:43
+msgid "The following tools are supported:"
 msgstr ""
 
-#: ../extras/ai-features.rst:None
-msgid "Screenshots shows highlighted article reply elaboration tools"
-msgstr ""
-
-#: ../extras/ai-features.rst:60
-msgid ""
-"Be aware that your text gets replaced when you select one of the text tools. "
-"If you are not satisfied with the result, try using the undo feature by "
-"pressing :kbd:`Ctrl` + :kbd:`z`."
-msgstr ""
-
-#: ../extras/ai-features.rst:63
-msgid ""
-"Always double-check the response. Although the feature was carefully "
-"developed, there may still be minor problems in individual cases due to the "
-"nature of neural networks."
-msgstr ""
-
-#: ../extras/ai-features.rst:67
+#: ../extras/ai-features.rst:45
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
 "misspellings and grammar issues."
 msgstr ""
 
-#: ../extras/ai-features.rst:70
+#: ../extras/ai-features.rst:48
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:72
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -5057,10 +5027,45 @@ msgid ""
 "AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:76
+#: ../extras/ai-features.rst:54
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
+msgstr ""
+
+#: ../extras/ai-features.rst:57
+msgid ""
+"To use any of these features, simply select the text you want to apply the "
+"changes to. You can select the whole text or just parts of it. This "
+"automatically opens a menu where you can select one of the available options:"
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows selected text in article with AI text tools"
+msgstr ""
+
+#: ../extras/ai-features.rst:67
+msgid ""
+"After selecting an option, Zammad shows a dialog where you can compare the "
+"original text and the AI suggestion:"
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "Screenshots shows AI suggestion dialog"
+msgstr ""
+
+#: ../extras/ai-features.rst:75
+msgid ""
+"Click on the **Approve** button to accept the changes and to insert it in "
+"the article. After accepting the suggestion, you can still edit the text in "
+"the article editor."
+msgstr ""
+
+#: ../extras/ai-features.rst:80
+msgid ""
+"Always double-check the response. Although the feature was carefully "
+"developed, there may still be minor problems in individual cases due to the "
+"nature of neural networks."
 msgstr ""
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
@@ -7009,23 +7014,15 @@ msgid ""
 "modern Browsers are capable to do so (e.g. Firefox, Google Chrome)."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:76
-msgid ""
-"Additionally, you can activate or deactivate if the banner for Zammad's "
-"ticket summary :doc:`AI feature <ai-features>` is shown below the articles "
-"in the ticket detail view. This option is only available, if the feature is "
-"configured by your admin."
-msgstr ""
-
 #: ../extras/profile-and-settings.rst:0
 msgid "Language"
 msgstr "Dil"
 
-#: ../extras/profile-and-settings.rst:83
+#: ../extras/profile-and-settings.rst:78
 msgid "Set the system display language."
 msgstr "Sistem görüntüleme dilini ayarlayın."
 
-#: ../extras/profile-and-settings.rst:87
+#: ../extras/profile-and-settings.rst:82
 #, fuzzy
 msgid "Upload an avatar image."
 msgstr "Bir avatar yükleyin."
@@ -7035,7 +7032,7 @@ msgstr "Bir avatar yükleyin."
 msgid "Password & Auth"
 msgstr "Parola"
 
-#: ../extras/profile-and-settings.rst:91
+#: ../extras/profile-and-settings.rst:86
 #, fuzzy
 msgid ""
 "Change your login password and manage your two-factor authentication methods "
@@ -7044,14 +7041,14 @@ msgstr ""
 "Oturum açma parolanızı değiştirin (sistem yöneticisi tarafından devre dışı "
 "bırakılabilir)."
 
-#: ../extras/profile-and-settings.rst:95
+#: ../extras/profile-and-settings.rst:90
 msgid ""
 ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
 "optional feature. Administrators can learn more :admin-docs:`here </settings/"
 "security/two-factor.html>`."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:102
+#: ../extras/profile-and-settings.rst:97
 #, fuzzy
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
@@ -7061,13 +7058,13 @@ msgstr ""
 "Nerede, ne zaman ve hangi gruplardan bildirimler almak istediğinizi seçin "
 "veya yeni bir bildirim sesi ayarlayın."
 
-#: ../extras/profile-and-settings.rst:106
+#: ../extras/profile-and-settings.rst:101
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:112
+#: ../extras/profile-and-settings.rst:107
 #, fuzzy
 #| msgid ""
 #| "Use the first three columns to choose when to receive **internal "
@@ -7080,12 +7077,12 @@ msgstr ""
 "**Dahili bildirimleri** (aşağıda) ne zaman alacağınızı seçmek için ilk üç "
 "sütunu kullanın. En sağdaki sütun e-posta bildirimini de etkinleştirir."
 
-#: ../extras/profile-and-settings.rst:135
+#: ../extras/profile-and-settings.rst:130
 #, fuzzy
 msgid "Limit Groups"
 msgstr "Grup"
 
-#: ../extras/profile-and-settings.rst:122
+#: ../extras/profile-and-settings.rst:117
 #, fuzzy
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
@@ -7100,19 +7097,19 @@ msgstr ""
 "kutusunu kullanın. (Kendi biletleriniz için bildirim almaya devam "
 "edeceksiniz.)"
 
-#: ../extras/profile-and-settings.rst:128
+#: ../extras/profile-and-settings.rst:123
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:134
+#: ../extras/profile-and-settings.rst:129
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:137
+#: ../extras/profile-and-settings.rst:132
 #, fuzzy
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
@@ -7126,7 +7123,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Ofis Dışında"
 
-#: ../extras/profile-and-settings.rst:144
+#: ../extras/profile-and-settings.rst:139
 #, fuzzy
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
@@ -7135,7 +7132,7 @@ msgstr ""
 "Ofis dışı dönemleri önceden planlayın ve siz yokken biletlerinizi halletmek "
 "için bir yedek atayın."
 
-#: ../extras/profile-and-settings.rst:147
+#: ../extras/profile-and-settings.rst:142
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
@@ -7145,31 +7142,31 @@ msgstr ""
 "biletlerinizi takip etmenize yardımcı olmak için özel bir :doc:`genel bakış "
 "</basics/find-ticket/browse>` oluşturacaktır."
 
-#: ../extras/profile-and-settings.rst:151
+#: ../extras/profile-and-settings.rst:146
 #, fuzzy
 msgid "You will receive notifications while you are absent."
 msgstr ""
 "🔔 Ofis dışında olduğunuz zaman bildirimler almaya devam **edeceksiniz**!"
 
-#: ../extras/profile-and-settings.rst:154
+#: ../extras/profile-and-settings.rst:149
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:157
+#: ../extras/profile-and-settings.rst:152
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:162
+#: ../extras/profile-and-settings.rst:157
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
 msgstr ""
 
-#: ../extras/profile-and-settings.rst:165
+#: ../extras/profile-and-settings.rst:160
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -7186,7 +7183,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Takvim"
 
-#: ../extras/profile-and-settings.rst:176
+#: ../extras/profile-and-settings.rst:171
 #, fuzzy
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
@@ -7199,7 +7196,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Cihazlar"
 
-#: ../extras/profile-and-settings.rst:181
+#: ../extras/profile-and-settings.rst:176
 #, fuzzy
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
@@ -7212,7 +7209,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Jeton Erişimi"
 
-#: ../extras/profile-and-settings.rst:186
+#: ../extras/profile-and-settings.rst:181
 #, fuzzy
 msgid ""
 "Generate personal access tokens for third party applications to use the "
@@ -7221,7 +7218,7 @@ msgstr ""
 "Üçüncü taraf uygulamaların Zammad API'sini kullanması için kişisel erişim "
 "jetonları oluşturun."
 
-#: ../extras/profile-and-settings.rst:190
+#: ../extras/profile-and-settings.rst:185
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -7235,7 +7232,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Bağlı Hesaplar"
 
-#: ../extras/profile-and-settings.rst:196
+#: ../extras/profile-and-settings.rst:191
 #, fuzzy
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
