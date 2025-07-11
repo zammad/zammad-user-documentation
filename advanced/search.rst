@@ -104,7 +104,7 @@ Article Attributes
 * article.attachment.title: string (filename of attachment)
 * article.attachment.content: string (content of attachment)
 * article.attachment.content_type: string (MIME type, e.g.
-  ``application/vnd.oasis.opendocument.spreadsheet``; see hint)
+  ``application\/vnd.oasis.opendocument.spreadsheet``; see hint)
 
   .. hint::
 
@@ -119,7 +119,8 @@ Article Attributes
        - MS Excel spreadsheets:
          ``application\/vnd.openxmlformats-officedocument.wordprocessingml.document``
        - MS Word text documents:
-         ``application/vnd.openxmlformats-officedocument.wordprocessingml.document``
+         ``application\/vnd.openxmlformats-officedocument.wordprocessingml.document``
+       - Plain text files like *.txt* and *.p7s*: ``text``
 
 
 
