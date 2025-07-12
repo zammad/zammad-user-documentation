@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-07 15:49+0200\n"
+"POT-Creation-Date: 2025-07-11 10:41+0200\n"
 "PO-Revision-Date: 2024-06-13 21:00+0000\n"
 "Last-Translator: SamolJacek <samol.jacek@gmail.com>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/"
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../advanced/search.rst:35
 #, fuzzy
-msgid "Attributes and their usuage"
+msgid "Attributes and their usage"
 msgstr "Atrybuty i ich wykorzystanie"
 
 #: ../advanced/search.rst:1
@@ -1176,7 +1176,52 @@ msgid "article.attachment.content: string (content of attachment)"
 msgstr ""
 
 #: ../advanced/search.rst:106
-msgid "article.attachment.content_type: string (File type e.g. PDF)"
+msgid ""
+"article.attachment.content_type: string (MIME type, e.g. ``application\\/"
+"vnd.oasis.opendocument.spreadsheet``; see hint)"
+msgstr ""
+
+#: ../advanced/search.rst:111
+msgid ""
+"If a search for a file type doesn't work, you have to provide the `MIME type "
+"<https://docs.w3cub.com/http/basics_of_http/mime_types/"
+"complete_list_of_mime_types.html>`_."
+msgstr ""
+
+#: ../advanced/search.rst:113
+msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
+msgstr ""
+
+#: ../advanced/search.rst:114
+#, fuzzy
+msgid "Examples:"
+msgstr "Przykład"
+
+#: ../advanced/search.rst:116
+msgid ""
+"Libreoffice spreadsheets: ``application\\/"
+"vnd.oasis.opendocument.spreadsheet``"
+msgstr ""
+
+#: ../advanced/search.rst:118
+msgid ""
+"Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
+msgstr ""
+
+#: ../advanced/search.rst:119
+msgid ""
+"MS Excel spreadsheets: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
+msgstr ""
+
+#: ../advanced/search.rst:121
+msgid ""
+"MS Word text documents: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
+msgstr ""
+
+#: ../advanced/search.rst:123
+msgid "Plain text files like *.txt* and *.p7s*: ``text``"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:2
