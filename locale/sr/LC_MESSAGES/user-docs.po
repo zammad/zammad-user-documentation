@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 10:41+0200\n"
-"PO-Revision-Date: 2025-07-09 15:00+0000\n"
+"PO-Revision-Date: 2025-07-15 11:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -737,8 +737,6 @@ msgstr ""
 "attributes.html>`."
 
 #: ../advanced/search.rst:35
-#, fuzzy
-#| msgid "Attributes and their usuage"
 msgid "Attributes and their usage"
 msgstr "Атрибути и њихова употреба"
 
@@ -1125,6 +1123,8 @@ msgid ""
 "article.attachment.content_type: string (MIME type, e.g. ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``; see hint)"
 msgstr ""
+"article.attachment.content_type: низ текста (MIME тип, нпр. ``application\\"
+"/vnd.oasis.opendocument.spreadsheet``; видите напомену)"
 
 #: ../advanced/search.rst:111
 msgid ""
@@ -1132,43 +1132,50 @@ msgid ""
 "<https://docs.w3cub.com/http/basics_of_http/mime_types/"
 "complete_list_of_mime_types.html>`_."
 msgstr ""
+"Уколико претрага за врсту датотеке не врати резултате, мораћете да приложите "
+"`MIME тип <https://docs.w3cub.com/http/basics_of_http/mime_types/"
+"complete_list_of_mime_types.html>`_."
 
 #: ../advanced/search.rst:113
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
-msgstr ""
+msgstr "Обратите пажњу да додате префикс ``\\`` испред ``/``."
 
 #: ../advanced/search.rst:114
-#, fuzzy
-#| msgid "Example"
 msgid "Examples:"
-msgstr "Пример"
+msgstr "Примери:"
 
 #: ../advanced/search.rst:116
 msgid ""
 "Libreoffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
+"Libreoffice табеле: ``application\\/vnd.oasis.opendocument.spreadsheet``"
 
 #: ../advanced/search.rst:118
 msgid ""
 "Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
+"Libreoffice текст документи: ``application\\/vnd.oasis.opendocument.text``"
 
 #: ../advanced/search.rst:119
 msgid ""
 "MS Excel spreadsheets: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
+"MS Excel табеле: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
 
 #: ../advanced/search.rst:121
 msgid ""
 "MS Word text documents: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
+"MS Word текст документи: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
 
 #: ../advanced/search.rst:123
 msgid "Plain text files like *.txt* and *.p7s*: ``text``"
-msgstr ""
+msgstr "Датотеке са обичним текстом као што су *.txt* и *.p7s*: ``text``"
 
 #: ../advanced/suggested-workflows.rst:2
 msgid "Suggested Workflows"
