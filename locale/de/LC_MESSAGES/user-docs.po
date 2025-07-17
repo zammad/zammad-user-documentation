@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 10:41+0200\n"
-"PO-Revision-Date: 2025-07-09 15:00+0000\n"
+"PO-Revision-Date: 2025-07-17 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -759,8 +759,6 @@ msgstr ""
 "attributes.html>`."
 
 #: ../advanced/search.rst:35
-#, fuzzy
-#| msgid "Attributes and their usuage"
 msgid "Attributes and their usage"
 msgstr "Attribute und ihre Nutzung"
 
@@ -1151,6 +1149,8 @@ msgid ""
 "article.attachment.content_type: string (MIME type, e.g. ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``; see hint)"
 msgstr ""
+"article.attachment.content_type: string (MIME-Type, z.B.. ``application\\"
+"/vnd.oasis.opendocument.spreadsheet``; siehe Hinweis)"
 
 #: ../advanced/search.rst:111
 msgid ""
@@ -1158,43 +1158,52 @@ msgid ""
 "<https://docs.w3cub.com/http/basics_of_http/mime_types/"
 "complete_list_of_mime_types.html>`_."
 msgstr ""
+"Wenn die Suche nach einem Dateityp nicht funktioniert, müssen Sie den `MIME-"
+"Type <https://docs.w3cub.com/http/basics_of_http/mime_types/"
+"complete_list_of_mime_types.html>`_ angeben."
 
 #: ../advanced/search.rst:113
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
 msgstr ""
+"Achten Sie darauf, das ``/`` mit einem vorangestellten ``\\`` einzugeben."
 
 #: ../advanced/search.rst:114
-#, fuzzy
-#| msgid "Example"
 msgid "Examples:"
-msgstr "Beispiel"
+msgstr "Beispiele:"
 
 #: ../advanced/search.rst:116
 msgid ""
 "Libreoffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
+"Libreoffice Tabellen-Dokumente: ``application\\"
+"/vnd.oasis.opendocument.spreadsheet``"
 
 #: ../advanced/search.rst:118
 msgid ""
 "Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
+"Libreoffice Text-Dokumente: ``application\\/vnd.oasis.opendocument.text``"
 
 #: ../advanced/search.rst:119
 msgid ""
 "MS Excel spreadsheets: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
+"MS Excel Tabellen-Dokumente: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
 
 #: ../advanced/search.rst:121
 msgid ""
 "MS Word text documents: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
+"MS Word Text-Dokumente: ``application\\/vnd.openxmlformats-"
+"officedocument.wordprocessingml.document``"
 
 #: ../advanced/search.rst:123
 msgid "Plain text files like *.txt* and *.p7s*: ``text``"
-msgstr ""
+msgstr "Reine Text-Dateien wie *.txt* und *.p7s*: ``text``"
 
 #: ../advanced/suggested-workflows.rst:2
 msgid "Suggested Workflows"
