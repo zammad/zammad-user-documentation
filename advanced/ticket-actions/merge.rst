@@ -15,13 +15,14 @@ What is merged where?
 
    Let's assume you already worked on a ticket and you get another ticket about
    the same issue and want to merge them.
-   Let's call the ticket you already worked on the *original* one and the new
-   one *duplicate*.
+   Let's call the ticket you already worked on the *original* or *target* ticket
+   and the new one *duplicate* or *source* ticket.
    Then the way to go is to open the duplicate ticket and execute the merging
-   from there so it will be merged into the original.
+   from there so it will be merged into the original ticket.
 
 How to merge tickets?
-   To merge a ticket, access the **Ticket ▾** submenu in the ticket pane.
+   To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and
+   choose **Merge**.
 
    .. figure:: /images/advanced/ticket-actions/ticket-menu-merge.png
      :alt: Ticket menu with highlighted "merge"
@@ -51,3 +52,9 @@ Result after merging
    - The articles have been replaced by a "merged" label
    - The state has changed to "merged"
    - The ticket is :doc:`linked <link>` to its "parent" ticket
+
+   .. hint:: If you merge two tickets which were created from different
+      channels, you have to answer via channel of the remaining target ticket.
+
+      Example: if you merge a Whatsapp ticket into an email ticket, you have to
+      answer via email channel in the target ticket.
