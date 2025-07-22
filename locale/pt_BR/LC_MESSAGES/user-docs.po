@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 14:38+0100\n"
+"POT-Creation-Date: 2025-07-21 13:17+0200\n"
 "PO-Revision-Date: 2022-08-01 14:09+0000\n"
 "Last-Translator: Erico Cesar <ericocesar@webck.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
@@ -562,8 +562,8 @@ msgstr "Remova um problema"
 
 #: ../advanced/keyboard-shortcuts.rst:160
 msgid ""
-"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
-"`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
+"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
+"and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
 
 #: ../advanced/macros.rst:2
@@ -583,9 +583,9 @@ msgstr ""
 
 #: ../advanced/macros.rst:10
 msgid ""
-"Macros can be created by your :admin-docs:`administrator </manage/macros."
-"html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
-"can probably make it happen."
+"Macros can be created by your :admin-docs:`administrator </manage/"
+"macros.html>`. If you have an idea for a macro you'd like to use, your "
+"Zammad admin can probably make it happen."
 msgstr ""
 
 #: ../advanced/macros.rst:14
@@ -688,8 +688,8 @@ msgstr ""
 
 #: ../advanced/search.rst:8
 msgid ""
-"For instance you can search for a specific customer by using ``customer."
-"attribute``::"
+"For instance you can search for a specific customer by using "
+"``customer.attribute``::"
 msgstr ""
 
 #: ../advanced/search.rst:13
@@ -930,8 +930,8 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid ""
-"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
-"feedback) AND !(*Zammad*)"
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR "
+"tags:feedback) AND !(*Zammad*)"
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -1625,8 +1625,8 @@ msgstr "Personalização de módulos de texto"
 
 #: ../advanced/text-modules.rst:46
 msgid ""
-"Administrators can learn more about customizing text modules :admin-docs:"
-"`here </manage/text-modules.html>`."
+"Administrators can learn more about customizing text modules :admin-"
+"docs:`here </manage/text-modules.html>`."
 msgstr ""
 
 #: ../advanced/ticket-actions.rst:2
@@ -1648,8 +1648,8 @@ msgstr "Associando chamados"
 msgid ""
 "When tickets about related issues arise, they can be linked to each other "
 "for easier reference. For example this could be useful if you have multiple "
-"customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
-"`split <split>` tickets are automatically linked."
+"customer complaints about the same shipment. :doc:`Merged <merge>` "
+"and :doc:`split <split>` tickets are automatically linked."
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:16
@@ -1702,7 +1702,7 @@ msgid ""
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:33
-#: ../advanced/ticket-actions/merge.rst:35
+#: ../advanced/ticket-actions/merge.rst:36
 msgid ""
 "If the customer has an existing ticket, it will show up under \"Recent "
 "customer tickets\". You can see your last viewed tickets under \"Recently "
@@ -1759,18 +1759,23 @@ msgstr ""
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
-"worked on the *original* one and the new one *duplicate*. Then the way to go "
-"is to open the duplicate ticket and execute the merging from there so it "
-"will be merged into the original."
+"worked on the *original* or *target* ticket and the new one *duplicate* or "
+"*source* ticket. Then the way to go is to open the duplicate ticket and "
+"execute the merging from there so it will be merged into the original ticket."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:28
+#: ../advanced/ticket-actions/merge.rst:29
 #, fuzzy
 msgid "How to merge tickets?"
 msgstr "Navegar pelos chamados"
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+#, fuzzy
+#| msgid ""
+#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+msgid ""
+"To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
+"choose **Merge**."
 msgstr ""
 "Para mesclar dois chamados, acesse o submenu **Chamado▾** no painel do "
 "chamado."
@@ -1779,19 +1784,19 @@ msgstr ""
 msgid "Ticket menu with highlighted \"merge\""
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:40
+#: ../advanced/ticket-actions/merge.rst:41
 #, fuzzy
 msgid "Merge dialog"
 msgstr "A janela de edição de cliente."
 
-#: ../advanced/ticket-actions/merge.rst:31
+#: ../advanced/ticket-actions/merge.rst:32
 msgid ""
 "You can either enter the ticket number of the ticket you want to merge the "
 "current one into (see 1). Alternatively, you can choose from the list below "
 "(see 2)."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:39
+#: ../advanced/ticket-actions/merge.rst:40
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
@@ -1801,30 +1806,42 @@ msgstr ""
 msgid "Merge ticket dialog"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:59
 msgid "Result after merging"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:48
+#: ../advanced/ticket-actions/merge.rst:49
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:51
+#: ../advanced/ticket-actions/merge.rst:52
 msgid "The articles have been replaced by a \"merged\" label"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:53
 msgid "The state has changed to \"merged\""
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:53
+#: ../advanced/ticket-actions/merge.rst:54
 #, fuzzy
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr ""
 "O chamado original é :doc:`associado <link>` ao novo, como visto no painel "
 "do chamado."
+
+#: ../advanced/ticket-actions/merge.rst:56
+msgid ""
+"If you merge two tickets which were created from different channels, you "
+"have to answer via channel of the remaining target ticket."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:59
+msgid ""
+"Example: if you merge a Whatsapp ticket into an email ticket, you have to "
+"answer via email channel in the target ticket."
+msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -2499,12 +2516,13 @@ msgstr ""
 #: ../basics/service-ticket/follow-up.rst:19
 #, fuzzy
 msgid ""
-"Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
+"Tickets are threads of messages & notes about a customer service "
+"issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on "
+"the right."
 msgstr ""
-"Chamados são um fluxo de mensagens e notas sobre uma demanda de um cliente. :"
-"doc:`⚙️ gerencie a configuração de um chamado <settings>` no **painel do "
-"chamado** no lado direito da tela."
+"Chamados são um fluxo de mensagens e notas sobre uma demanda de um "
+"cliente. :doc:`⚙️ gerencie a configuração de um chamado <settings>` no "
+"**painel do chamado** no lado direito da tela."
 
 #: ../basics/service-ticket/follow-up.rst:23
 #, fuzzy
@@ -2512,8 +2530,8 @@ msgid ""
 "Any time you open a ticket, a new entry will appear in your :doc:`tab list</"
 "advanced/tabs>` in the main menu."
 msgstr ""
-"📇 A qualquer momento que acessar um chamado, uma nova entrada aparecerá na :"
-"doc:`lista de abas </advanced/tabs>` no menu principal."
+"📇 A qualquer momento que acessar um chamado, uma nova entrada aparecerá "
+"na :doc:`lista de abas </advanced/tabs>` no menu principal."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -2934,11 +2952,11 @@ msgstr ""
 #: ../basics/service-ticket/settings/group.rst:31
 #, fuzzy
 msgid ""
-"So how do I manage which team I'm on? You don't - that's the :admin-docs:"
-"`administrator's job </manage/groups/index.html>`."
+"So how do I manage which team I'm on? You don't - that's the :admin-"
+"docs:`administrator's job </manage/groups/index.html>`."
 msgstr ""
-"Você não precisa, esta é uma `tarefa do administrador <https://admin-docs."
-"zammad.org/en/latest/manage-groups.html>`_."
+"Você não precisa, esta é uma `tarefa do administrador <https://admin-"
+"docs.zammad.org/en/latest/manage-groups.html>`_."
 
 #: ../basics/service-ticket/settings/group.rst:34
 #, fuzzy
@@ -3015,8 +3033,8 @@ msgid ""
 "ticket/settings/group>`."
 msgstr ""
 "A princípio, qualquer agente pode atribuir qualquer chamado para quem "
-"desejar, desde que ambos tenham as autorizações necessárias para acessar o :"
-"doc:`grupo 1` do chamado."
+"desejar, desde que ambos tenham as autorizações necessárias para acessar "
+"o :doc:`grupo 1` do chamado."
 
 #: ../basics/service-ticket/settings/owner.rst:21
 #, fuzzy
@@ -3077,8 +3095,8 @@ msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
-"Priority can also be used as a ticket filter when creating :admin-docs:"
-"`custom overviews </manage/overviews.html>`."
+"Priority can also be used as a ticket filter when creating :admin-"
+"docs:`custom overviews </manage/overviews.html>`."
 msgstr ""
 
 #: ../basics/service-ticket/settings/priority.rst:28
@@ -3122,9 +3140,9 @@ msgstr "fechado"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
-"merged (this Ticket has been merged into another Ticket. Check either the :"
-"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
-"history <ticket-submenu>` to learn more)"
+"merged (this Ticket has been merged into another Ticket. Check either "
+"the :doc:`linked tickets </advanced/ticket-actions/link>` or "
+"the :ref:`ticket history <ticket-submenu>` to learn more)"
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:14
@@ -3325,8 +3343,8 @@ msgid ""
 msgstr ""
 "Por uma questão de simplicidade, nos referiremos a esses metadados como as "
 "**configurações** de um chamado. Todas essas configurações podem ser "
-"alteradas a qualquer momento. Cada configuração é explicada em detalhes na :"
-"doc:`aqui </basics/service-ticket/settings>`, mas, por enquanto, vamos "
+"alteradas a qualquer momento. Cada configuração é explicada em detalhes "
+"na :doc:`aqui </basics/service-ticket/settings>`, mas, por enquanto, vamos "
 "examinar as duas mais importantes:"
 
 #: ../basics/what-is-a-ticket.rst:47
@@ -3817,8 +3835,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:253
 msgid ""
-"See our :admin-docs:`admin documentation </settings/security/third-party."
-"html>` for all third party authentication providers."
+"See our :admin-docs:`admin documentation </settings/security/third-"
+"party.html>` for all third party authentication providers."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:257
@@ -4359,8 +4377,8 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
-"administrator can find more information :admin-docs:`here </system/objects."
-"html#system-attributes>`."
+"administrator can find more information :admin-docs:`here </system/"
+"objects.html#system-attributes>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:557
@@ -4447,8 +4465,8 @@ msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
 "conditions in a time based manner. More information in the admin "
-"documentation in the :admin-docs:`scheduler section </manage/scheduler."
-"html>`."
+"documentation in the :admin-docs:`scheduler section </manage/"
+"scheduler.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:623
@@ -4651,8 +4669,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:705
 msgid ""
-"Administrators can learn more about tags :admin-docs:`here </manage/tags."
-"html>`. Agents can learn more about this function on this page: :doc:`/"
+"Administrators can learn more about tags :admin-docs:`here </manage/"
+"tags.html>`. Agents can learn more about this function on this page: :doc:`/"
 "basics/service-ticket/settings/tags`"
 msgstr ""
 
@@ -4670,8 +4688,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid ""
-"For example, here at Zammad, we have a text module with the shortcut ``::"
-"ilff``, which turns into ``I look forward to your feedback``."
+"For example, here at Zammad, we have a text module with the shortcut "
+"``::ilff``, which turns into ``I look forward to your feedback``."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:719
@@ -4726,8 +4744,8 @@ msgstr ""
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
-"conditions. More information in the admin documentation in the :admin-docs:"
-"`trigger section </manage/trigger.html>`."
+"conditions. More information in the admin documentation in the :admin-"
+"docs:`trigger section </manage/trigger.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:751
@@ -4804,13 +4822,13 @@ msgstr "Veja e gerencie os registros de ligações a partir da aba **Telefone**.
 msgid ""
 "This feature is **optional**; if you don't see it in the main menu, that "
 "means your administrator hasn't enabled it yet. Administrators can learn "
-"more on our :admin-docs:`admin documentation </system/integrations."
-"html#integrations-for-phone-systems>`."
+"more on our :admin-docs:`admin documentation </system/"
+"integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 "Este recurso é **opcional**; Se você não o vê no menu, significa que o "
 "administrador ainda não o ativou. Administradores podem ver mais `aqui "
-"<https://admin-docs.zammad.org/en/latest/system-integrations."
-"html#integrations-for-phone-systems>`_."
+"<https://admin-docs.zammad.org/en/latest/system-"
+"integrations.html#integrations-for-phone-systems>`_."
 
 #: ../extras/caller-log.rst:14
 msgid "Sample view of Caller Log"
@@ -5960,8 +5978,8 @@ msgstr ""
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
-"base. If you're unsure, please ask your administrator to configure the :"
-"admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
+"base. If you're unsure, please ask your administrator to configure "
+"the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
 
@@ -7627,8 +7645,8 @@ msgstr ""
 msgid ""
 "Depending on the chosen two-factor method, you will be guided again through "
 "the setup process. Normally, editing a method will simply renew it and "
-"replace the older setup, but some methods do support advanced functions (e."
-"g. adding multiple security keys)."
+"replace the older setup, but some methods do support advanced functions "
+"(e.g. adding multiple security keys)."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:156
@@ -7923,9 +7941,9 @@ msgstr "Documentação do Agente Zammad"
 
 #: ../index.rst:5
 msgid ""
-"You are currently reading the Zammad user documentation. There are also :"
-"docs:`system </index.html>` and :admin-docs:`administration manuals </index."
-"html>` available."
+"You are currently reading the Zammad user documentation. There are "
+"also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
+"index.html>` available."
 msgstr ""
 
 #~ msgid "**Closed**"
