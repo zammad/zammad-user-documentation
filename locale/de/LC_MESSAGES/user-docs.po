@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 10:41+0200\n"
+"POT-Creation-Date: 2025-07-21 13:17+0200\n"
 "PO-Revision-Date: 2025-07-17 08:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -1149,8 +1149,8 @@ msgid ""
 "article.attachment.content_type: string (MIME type, e.g. ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``; see hint)"
 msgstr ""
-"article.attachment.content_type: string (MIME-Type, z.B.. ``application\\"
-"/vnd.oasis.opendocument.spreadsheet``; siehe Hinweis)"
+"article.attachment.content_type: string (MIME-Type, z.B.. ``application\\/"
+"vnd.oasis.opendocument.spreadsheet``; siehe Hinweis)"
 
 #: ../advanced/search.rst:111
 msgid ""
@@ -1176,8 +1176,8 @@ msgid ""
 "Libreoffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
-"Libreoffice Tabellen-Dokumente: ``application\\"
-"/vnd.oasis.opendocument.spreadsheet``"
+"Libreoffice Tabellen-Dokumente: ``application\\/"
+"vnd.oasis.opendocument.spreadsheet``"
 
 #: ../advanced/search.rst:118
 msgid ""
@@ -1893,7 +1893,7 @@ msgstr ""
 "2)."
 
 #: ../advanced/ticket-actions/link.rst:33
-#: ../advanced/ticket-actions/merge.rst:35
+#: ../advanced/ticket-actions/merge.rst:36
 msgid ""
 "If the customer has an existing ticket, it will show up under \"Recent "
 "customer tickets\". You can see your last viewed tickets under \"Recently "
@@ -1958,12 +1958,19 @@ msgstr ""
 "Ticket übernommen."
 
 #: ../advanced/ticket-actions/merge.rst:16
+#, fuzzy
+#| msgid ""
+#| "Let's assume you already worked on a ticket and you get another ticket "
+#| "about the same issue and want to merge them. Let's call the ticket you "
+#| "already worked on the *original* one and the new one *duplicate*. Then "
+#| "the way to go is to open the duplicate ticket and execute the merging "
+#| "from there so it will be merged into the original."
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
-"worked on the *original* one and the new one *duplicate*. Then the way to go "
-"is to open the duplicate ticket and execute the merging from there so it "
-"will be merged into the original."
+"worked on the *original* or *target* ticket and the new one *duplicate* or "
+"*source* ticket. Then the way to go is to open the duplicate ticket and "
+"execute the merging from there so it will be merged into the original ticket."
 msgstr ""
 "Nehmen wir an, Sie haben bereits an einem Ticket gearbeitet und erhalten ein "
 "weiteres Ticket mit demselben Problem, das Sie zusammenführen möchten. "
@@ -1972,12 +1979,17 @@ msgstr ""
 "Duplikat und führen die Zusammenfassung von dort aus durch, damit es mit dem "
 "original Ticket zusammengeführt wird."
 
-#: ../advanced/ticket-actions/merge.rst:28
+#: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr "Wie fasst man Tickets zusammen?"
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+#, fuzzy
+#| msgid ""
+#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+msgid ""
+"To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
+"choose **Merge**."
 msgstr ""
 "Um ein Ticket zusammenzufassen, öffnen Sie das Untermenü **Ticket ▾** im "
 "Ticketfenster."
@@ -1986,11 +1998,11 @@ msgstr ""
 msgid "Ticket menu with highlighted \"merge\""
 msgstr "Ticket-Menü mit hervorgehobenem \"Zusammenfassen\""
 
-#: ../advanced/ticket-actions/merge.rst:40
+#: ../advanced/ticket-actions/merge.rst:41
 msgid "Merge dialog"
 msgstr "Dialog Zusammenfassen"
 
-#: ../advanced/ticket-actions/merge.rst:31
+#: ../advanced/ticket-actions/merge.rst:32
 msgid ""
 "You can either enter the ticket number of the ticket you want to merge the "
 "current one into (see 1). Alternatively, you can choose from the list below "
@@ -2000,7 +2012,7 @@ msgstr ""
 "aktuelle Ticket zusammenführen möchten (siehe 1). Alternativ können Sie aus "
 "der Liste unten wählen (siehe 2)."
 
-#: ../advanced/ticket-actions/merge.rst:39
+#: ../advanced/ticket-actions/merge.rst:40
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
@@ -2013,11 +2025,11 @@ msgstr ""
 msgid "Merge ticket dialog"
 msgstr "Dialog zum Zusammenführen von Tickets"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:59
 msgid "Result after merging"
 msgstr "Ergebnis nach Zusammenfassung"
 
-#: ../advanced/ticket-actions/merge.rst:48
+#: ../advanced/ticket-actions/merge.rst:49
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
@@ -2026,17 +2038,29 @@ msgstr ""
 "die Zusammenführung durchgeführt haben, besteht weiterhin mit den folgenden "
 "Änderungen:"
 
-#: ../advanced/ticket-actions/merge.rst:51
+#: ../advanced/ticket-actions/merge.rst:52
 msgid "The articles have been replaced by a \"merged\" label"
 msgstr "Die Artikel wurden mit dem Text \"zusammengefasst\" ersetzt"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:53
 msgid "The state has changed to \"merged\""
 msgstr "Der Status hat sich auf \"zusammengefasst\" geändert"
 
-#: ../advanced/ticket-actions/merge.rst:53
+#: ../advanced/ticket-actions/merge.rst:54
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr "Das Ticket ist :doc:`verknüpft <link>` mit seinem \"Parent\" Ticket"
+
+#: ../advanced/ticket-actions/merge.rst:56
+msgid ""
+"If you merge two tickets which were created from different channels, you "
+"have to answer via channel of the remaining target ticket."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:59
+msgid ""
+"Example: if you merge a Whatsapp ticket into an email ticket, you have to "
+"answer via email channel in the target ticket."
+msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
