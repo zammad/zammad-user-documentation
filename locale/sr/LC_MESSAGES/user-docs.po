@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 14:38+0100\n"
+"POT-Creation-Date: 2025-07-21 13:17+0200\n"
 "PO-Revision-Date: 2025-06-06 06:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
@@ -550,11 +550,11 @@ msgstr "Уклони све линкове"
 
 #: ../advanced/keyboard-shortcuts.rst:160
 msgid ""
-"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
-"`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
+"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
+"and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Ако сте Mac корисник, користите :kbd:`cmd` уместо :kbd:`ctrl` и :kbd:`ctrl` :"
-"kbd:`option` уместо of :kbd:`shift` :kbd:`ctrl`."
+"Ако сте Mac корисник, користите :kbd:`cmd` уместо :kbd:`ctrl` "
+"и :kbd:`ctrl` :kbd:`option` уместо of :kbd:`shift` :kbd:`ctrl`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -576,13 +576,13 @@ msgstr ""
 
 #: ../advanced/macros.rst:10
 msgid ""
-"Macros can be created by your :admin-docs:`administrator </manage/macros."
-"html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
-"can probably make it happen."
+"Macros can be created by your :admin-docs:`administrator </manage/"
+"macros.html>`. If you have an idea for a macro you'd like to use, your "
+"Zammad admin can probably make it happen."
 msgstr ""
-"Нове макрое може додати ваш :admin-docs:`администратор </manage/macros."
-"html>`. Уколико имате идеју за макро који бисте желели да користите, ваш "
-"Zammad администратор вероватно може то и да оствари."
+"Нове макрое може додати ваш :admin-docs:`администратор </manage/"
+"macros.html>`. Уколико имате идеју за макро који бисте желели да користите, "
+"ваш Zammad администратор вероватно може то и да оствари."
 
 #: ../advanced/macros.rst:14
 msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
@@ -704,11 +704,11 @@ msgstr ""
 
 #: ../advanced/search.rst:8
 msgid ""
-"For instance you can search for a specific customer by using ``customer."
-"attribute``::"
+"For instance you can search for a specific customer by using "
+"``customer.attribute``::"
 msgstr ""
-"На пример, можете да тражите одређеног клијента користећи ``customer."
-"attribute``::"
+"На пример, можете да тражите одређеног клијента користећи "
+"``customer.attribute``::"
 
 #: ../advanced/search.rst:13
 msgid "or::"
@@ -733,8 +733,8 @@ msgid ""
 "attributes.html>`."
 msgstr ""
 "За детаљнију листу доступних атрибута погледајте нашу :docs:`Zammad "
-"администраторску документацију </install/elasticsearch/indexed-attributes."
-"html>`."
+"администраторску документацију </install/elasticsearch/indexed-"
+"attributes.html>`."
 
 #: ../advanced/search.rst:35
 msgid "Attributes and their usuage"
@@ -953,8 +953,8 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid ""
-"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
-"feedback) AND !(*Zammad*)"
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR "
+"tags:feedback) AND !(*Zammad*)"
 msgstr ""
 "state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:анкета) "
 "AND !(*Zammad*)"
@@ -1624,10 +1624,10 @@ msgid ""
 "If you found the right text module, just press enter or click with your left "
 "mouse and Zammad will insert the modules Text at the place your cursor is."
 msgstr ""
-"Да бисте приступили доступним текстуалним исечцима, једноставно укуцајте ``::"
-"`` унутар текста чланка. Кад пронађете одговарајући текстуални исечак, само "
-"потврдите ентером или га кликните и Zammad ће уметнути текст исечка на место "
-"вашег курсора."
+"Да бисте приступили доступним текстуалним исечцима, једноставно укуцајте "
+"``::`` унутар текста чланка. Кад пронађете одговарајући текстуални исечак, "
+"само потврдите ентером или га кликните и Zammad ће уметнути текст исечка на "
+"место вашег курсора."
 
 #: ../advanced/text-modules.rst:15
 msgid ""
@@ -1692,11 +1692,11 @@ msgstr "Прилагођавање текстуалних исечака"
 
 #: ../advanced/text-modules.rst:46
 msgid ""
-"Administrators can learn more about customizing text modules :admin-docs:"
-"`here </manage/text-modules.html>`."
+"Administrators can learn more about customizing text modules :admin-"
+"docs:`here </manage/text-modules.html>`."
 msgstr ""
-"Администратори могу да сазнају више о прилагођавању текстуалних исечака :"
-"admin-docs:`овде </manage/text-modules.html>`."
+"Администратори могу да сазнају више о прилагођавању текстуалних "
+"исечака :admin-docs:`овде </manage/text-modules.html>`."
 
 #: ../advanced/ticket-actions.rst:2
 msgid "Ticket Actions"
@@ -1719,13 +1719,13 @@ msgstr "Повезивање тикета"
 msgid ""
 "When tickets about related issues arise, they can be linked to each other "
 "for easier reference. For example this could be useful if you have multiple "
-"customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
-"`split <split>` tickets are automatically linked."
+"customer complaints about the same shipment. :doc:`Merged <merge>` "
+"and :doc:`split <split>` tickets are automatically linked."
 msgstr ""
 "Када се појаве тикети о сродним проблемима, могу се повезати једни са другим "
 "ради лакшег референцирања. На пример ово може бити корисно ако имате велики "
-"број жалби клијената на исту испоруку. :doc:`Спојени <merge>` и :doc:"
-"`раздељени <split>` тикети се аутоматски повезују."
+"број жалби клијената на исту испоруку. :doc:`Спојени <merge>` "
+"и :doc:`раздељени <split>` тикети се аутоматски повезују."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -1738,10 +1738,10 @@ msgid ""
 "The first pair is used for split and merged tickets. The normal link is "
 "useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Постоје различите врсте веза између тикета као што сте већ приметили у :doc:"
-"`спајању` or :doc:`раздељивању`: надређене/подређене и нормалне везе. Први "
-"пар се користи за раздељене и спојене тикете. Нормална веза се користи када "
-"не постоји логичка хијерархија између тикета."
+"Постоје различите врсте веза између тикета као што сте већ приметили "
+"у :doc:`спајању` or :doc:`раздељивању`: надређене/подређене и нормалне везе. "
+"Први пар се користи за раздељене и спојене тикете. Нормална веза се користи "
+"када не постоји логичка хијерархија између тикета."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
@@ -1786,7 +1786,7 @@ msgstr ""
 "можете изабрати тикет из листе испод (види под 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
-#: ../advanced/ticket-actions/merge.rst:35
+#: ../advanced/ticket-actions/merge.rst:36
 msgid ""
 "If the customer has an existing ticket, it will show up under \"Recent "
 "customer tickets\". You can see your last viewed tickets under \"Recently "
@@ -1848,24 +1848,36 @@ msgstr ""
 "одабрани."
 
 #: ../advanced/ticket-actions/merge.rst:16
+#, fuzzy
+#| msgid ""
+#| "Let's assume you already worked on a ticket and you get another ticket "
+#| "about the same issue and want to merge them. Let's call the ticket you "
+#| "already worked on the *original* one and the new one *duplicate*. Then "
+#| "the way to go is to open the duplicate ticket and execute the merging "
+#| "from there so it will be merged into the original."
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
-"worked on the *original* one and the new one *duplicate*. Then the way to go "
-"is to open the duplicate ticket and execute the merging from there so it "
-"will be merged into the original."
+"worked on the *original* or *target* ticket and the new one *duplicate* or "
+"*source* ticket. Then the way to go is to open the duplicate ticket and "
+"execute the merging from there so it will be merged into the original ticket."
 msgstr ""
 "Замислимо да већ радите на тикету и добијате тикет о истом проблем и желите "
 "да их спојите. Назовимо тикет на коме већ радите *оригинални* а нови "
 "*дупликат*. Начин на који можете ово урадити је да отворите дупликат и "
 "извршите спајање из њега тако да буде спојен са оригиналним."
 
-#: ../advanced/ticket-actions/merge.rst:28
+#: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr "Како повезати тикете?"
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+#, fuzzy
+#| msgid ""
+#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+msgid ""
+"To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
+"choose **Merge**."
 msgstr ""
 "Да бисте спојили тикет, приступите подменију **Тицкет ▾** у панелу тикета."
 
@@ -1873,11 +1885,11 @@ msgstr ""
 msgid "Ticket menu with highlighted \"merge\""
 msgstr "Мени радњи тикета са означеним „спајањем”"
 
-#: ../advanced/ticket-actions/merge.rst:40
+#: ../advanced/ticket-actions/merge.rst:41
 msgid "Merge dialog"
 msgstr "Дијалог спајања тикета"
 
-#: ../advanced/ticket-actions/merge.rst:31
+#: ../advanced/ticket-actions/merge.rst:32
 msgid ""
 "You can either enter the ticket number of the ticket you want to merge the "
 "current one into (see 1). Alternatively, you can choose from the list below "
@@ -1886,7 +1898,7 @@ msgstr ""
 "Можете унети број тикета са којим желите да спојите тренутни (види под 1). "
 "Алтенративно, можете изабрати из листе испод (види под 2)."
 
-#: ../advanced/ticket-actions/merge.rst:39
+#: ../advanced/ticket-actions/merge.rst:40
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
@@ -1898,11 +1910,11 @@ msgstr ""
 msgid "Merge ticket dialog"
 msgstr "Дијалог спајања тикета"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:59
 msgid "Result after merging"
 msgstr "Резултат по спајању"
 
-#: ../advanced/ticket-actions/merge.rst:48
+#: ../advanced/ticket-actions/merge.rst:49
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
@@ -1910,17 +1922,29 @@ msgstr ""
 "Чланци су пребачени у одабрани тикет. Тикет из кога сте извршили спајање још "
 "увек постоји са следећим променама:"
 
-#: ../advanced/ticket-actions/merge.rst:51
+#: ../advanced/ticket-actions/merge.rst:52
 msgid "The articles have been replaced by a \"merged\" label"
 msgstr "Сви чланци су замењени ознаком „спојено”"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:53
 msgid "The state has changed to \"merged\""
 msgstr "Стање је промењено у „спојено”"
 
-#: ../advanced/ticket-actions/merge.rst:53
+#: ../advanced/ticket-actions/merge.rst:54
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr "Тикет је :doc:`повезан <link>` са „надређеним” тикетом"
+
+#: ../advanced/ticket-actions/merge.rst:56
+msgid ""
+"If you merge two tickets which were created from different channels, you "
+"have to answer via channel of the remaining target ticket."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:59
+msgid ""
+"Example: if you merge a Whatsapp ticket into an email ticket, you have to "
+"answer via email channel in the target ticket."
+msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -2598,8 +2622,9 @@ msgstr "Кратак приказ тикета"
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
-"Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
+"Tickets are threads of messages & notes about a customer service "
+"issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on "
+"the right."
 msgstr ""
 "Тикети су конверзације које се састоје од порука и напомена о проблему "
 "клијента. :doc:`⚙️ Управљајте подацима тикета <settings>` у **панелу тикета** "
@@ -2610,8 +2635,8 @@ msgid ""
 "Any time you open a ticket, a new entry will appear in your :doc:`tab list</"
 "advanced/tabs>` in the main menu."
 msgstr ""
-"Сваки пут када отворите приказ тикета, нова ставка ће се појавити у вашој :"
-"doc:`листи прозора </advanced/tabs>` у главном менију."
+"Сваки пут када отворите приказ тикета, нова ставка ће се појавити у "
+"вашој :doc:`листи прозора </advanced/tabs>` у главном менију."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -3032,10 +3057,10 @@ msgid ""
 msgstr ""
 "Без група, свих десет оператера може да види (и да одговори на) сваки "
 "појединачни долазни тикет, без обзира о ком одељењу се ради. Ово није "
-"проблематично *само по себи*, али доводи до много непотребног нереда у :doc:"
-"`менију прегледа </basics/find-ticket>`. (Може бити много горе када, на "
-"пример, представник корисничке службе види тикете намењене вашем HR одељењу "
-"и сазна колико зарађују њихове колеге у продаји! 💸💸💸)"
+"проблематично *само по себи*, али доводи до много непотребног нереда "
+"у :doc:`менију прегледа </basics/find-ticket>`. (Може бити много горе када, "
+"на пример, представник корисничке службе види тикете намењене вашем HR "
+"одељењу и сазна колико зарађују њихове колеге у продаји! 💸💸💸)"
 
 #: ../basics/service-ticket/settings/group.rst:25
 msgid ""
@@ -3051,8 +3076,8 @@ msgstr "Управљање групама"
 
 #: ../basics/service-ticket/settings/group.rst:31
 msgid ""
-"So how do I manage which team I'm on? You don't - that's the :admin-docs:"
-"`administrator's job </manage/groups/index.html>`."
+"So how do I manage which team I'm on? You don't - that's the :admin-"
+"docs:`administrator's job </manage/groups/index.html>`."
 msgstr ""
 "Како да управљам својим тимом? Никако – то је :admin-docs:`посао "
 "администратора </manage/groups/index.html>`."
@@ -3181,8 +3206,8 @@ msgstr ":admin-docs:`догађаји планера </manage/scheduler.html>`."
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
-"Priority can also be used as a ticket filter when creating :admin-docs:"
-"`custom overviews </manage/overviews.html>`."
+"Priority can also be used as a ticket filter when creating :admin-"
+"docs:`custom overviews </manage/overviews.html>`."
 msgstr ""
 "Приоритет се такође може користити као филтер тикета при креирању :admin-"
 "docs:`прилагођених прегледа </manage/overviews.html>`."
@@ -3230,13 +3255,13 @@ msgstr "затворено"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
-"merged (this Ticket has been merged into another Ticket. Check either the :"
-"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
-"history <ticket-submenu>` to learn more)"
+"merged (this Ticket has been merged into another Ticket. Check either "
+"the :doc:`linked tickets </advanced/ticket-actions/link>` or "
+"the :ref:`ticket history <ticket-submenu>` to learn more)"
 msgstr ""
-"спојено (овај тикет је спојен са другим тикетом; погледајте или :doc:"
-"`повезане тикете </advanced/ticket-actions/link>` или :ref:`историјат тикета "
-"<ticket-submenu>` да бисте сазнали више)"
+"спојено (овај тикет је спојен са другим тикетом; погледајте "
+"или :doc:`повезане тикете </advanced/ticket-actions/link>` "
+"или :ref:`историјат тикета <ticket-submenu>` да бисте сазнали више)"
 
 #: ../basics/service-ticket/settings/state.rst:14
 msgid ""
@@ -3599,8 +3624,8 @@ msgid ""
 "You can learn more on our `Autosave landing page <https://zammad.com/en/"
 "product/features/autosave>`_."
 msgstr ""
-"Можете сазнати више на нашој `страници о аутоматском чувању <https://zammad."
-"com/en/product/features/autosave>`_."
+"Можете сазнати више на нашој `страници о аутоматском чувању <https://"
+"zammad.com/en/product/features/autosave>`_."
 
 #: ../basics/zammad-glossary.rst:81 ../basics/zammad-glossary.rst:620
 #: ../extras/profile-and-settings.rst:0
@@ -4046,8 +4071,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:253
 msgid ""
-"See our :admin-docs:`admin documentation </settings/security/third-party."
-"html>` for all third party authentication providers."
+"See our :admin-docs:`admin documentation </settings/security/third-"
+"party.html>` for all third party authentication providers."
 msgstr ""
 "Погледајте нашу :admin-docs:`администраторску документацију </settings/"
 "security/third-party.html>` за све екстерне провајдере."
@@ -4222,8 +4247,9 @@ msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
-"Сазнајте више о томе како да додате Grafana контролне табле за Zammad :docs:"
-"`у нашој документацији </appendix/reporting-tools-thirdparty/grafana.html>`."
+"Сазнајте више о томе како да додате Grafana контролне табле за "
+"Zammad :docs:`у нашој документацији </appendix/reporting-tools-thirdparty/"
+"grafana.html>`."
 
 #: ../basics/zammad-glossary.rst:338
 msgid "Groups"
@@ -4753,12 +4779,12 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
-"administrator can find more information :admin-docs:`here </system/objects."
-"html#system-attributes>`."
+"administrator can find more information :admin-docs:`here </system/"
+"objects.html#system-attributes>`."
 msgstr ""
 "Приоритети могу чак бити подешени или прилагођени вашим потребама. Ваш "
-"администратор може наћи више информација :admin-docs:`овде </system/objects."
-"html#system-attributes>`."
+"администратор може наћи више информација :admin-docs:`овде </system/"
+"objects.html#system-attributes>`."
 
 #: ../basics/zammad-glossary.rst:557
 msgid "Q"
@@ -4863,8 +4889,8 @@ msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
 "conditions in a time based manner. More information in the admin "
-"documentation in the :admin-docs:`scheduler section </manage/scheduler."
-"html>`."
+"documentation in the :admin-docs:`scheduler section </manage/"
+"scheduler.html>`."
 msgstr ""
 "Планер је једна од Zammad-ових функција аутоматизације. Администратор може "
 "одредити одговарајуће услове и радње које се извршавају на тикетима који "
@@ -4941,8 +4967,8 @@ msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
-"Ваш администратор га може прилагодити. Додатне информације се могу пронаћи :"
-"admin-docs:`овде </channels/email/signatures.html>`."
+"Ваш администратор га може прилагодити. Додатне информације се могу "
+"пронаћи :admin-docs:`овде </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:642
 msgid "Sipgate"
@@ -5119,8 +5145,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:705
 msgid ""
-"Administrators can learn more about tags :admin-docs:`here </manage/tags."
-"html>`. Agents can learn more about this function on this page: :doc:`/"
+"Administrators can learn more about tags :admin-docs:`here </manage/"
+"tags.html>`. Agents can learn more about this function on this page: :doc:`/"
 "basics/service-ticket/settings/tags`"
 msgstr ""
 "Администратори могу да сазнају више о ознакама :admin-docs:`овде </manage/"
@@ -5145,8 +5171,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid ""
-"For example, here at Zammad, we have a text module with the shortcut ``::"
-"ilff``, which turns into ``I look forward to your feedback``."
+"For example, here at Zammad, we have a text module with the shortcut "
+"``::ilff``, which turns into ``I look forward to your feedback``."
 msgstr ""
 "На пример, овде у Zammad-у имамо текстуални исечак са пречицом ``::рсво``, "
 "који се претвара у ``Радујемо се вашем одговору``."
@@ -5214,13 +5240,13 @@ msgstr "Окидач"
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
-"conditions. More information in the admin documentation in the :admin-docs:"
-"`trigger section </manage/trigger.html>`."
+"conditions. More information in the admin documentation in the :admin-"
+"docs:`trigger section </manage/trigger.html>`."
 msgstr ""
 "Окидачи су једна од Zammad-ових функција аутоматизације. Администратор може "
 "дефинисати одговарајуће услове и радње које се извршавају на тикетима који "
-"задовољавају услове. Више информација у администраторској документацији у :"
-"admin-docs:`одељку окидача </manage/trigger.html>`."
+"задовољавају услове. Више информација у администраторској документацији "
+"у :admin-docs:`одељку окидача </manage/trigger.html>`."
 
 #: ../basics/zammad-glossary.rst:751
 msgid "U"
@@ -5304,12 +5330,12 @@ msgstr "Прегледајте и управљајте евиденцијом п
 msgid ""
 "This feature is **optional**; if you don't see it in the main menu, that "
 "means your administrator hasn't enabled it yet. Administrators can learn "
-"more on our :admin-docs:`admin documentation </system/integrations."
-"html#integrations-for-phone-systems>`."
+"more on our :admin-docs:`admin documentation </system/"
+"integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у панелу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
-"admin-docs:`овде </system/integrations.html#integrations-for-issue-"
+"је ваш администратор још није омогућио. Администратори могу да сазнају "
+"више :admin-docs:`овде </system/integrations.html#integrations-for-issue-"
 "trackers>`."
 
 #: ../extras/caller-log.rst:14
@@ -5471,8 +5497,8 @@ msgid ""
 "more :admin-docs:`here </channels/chat.html>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у главном менију, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
-"admin-docs:`овде </channels/chat.html>`."
+"је ваш администратор још није омогућио. Администратори могу да сазнају "
+"више :admin-docs:`овде </channels/chat.html>`."
 
 #: ../extras/chat.rst:None
 msgid "Sample view of Customer Chat"
@@ -5675,9 +5701,9 @@ msgid ""
 "area, there is no template available."
 msgstr ""
 "Уколико желите да додате списак задатака за тикет, идите на језичак „Списак "
-"задатака” и кликните или на „Додај празан списак” (1) или „Додај по "
-"шаблону” (2) након одабира шаблона. Уколико не видите део „Додај по "
-"шаблону”, нема доступних шаблона у систему."
+"задатака” и кликните или на „Додај празан списак” (1) или „Додај по шаблону” "
+"(2) након одабира шаблона. Уколико не видите део „Додај по шаблону”, нема "
+"доступних шаблона у систему."
 
 #: ../extras/checklist.rst:33
 msgid "Checklist creation dialog"
@@ -6050,8 +6076,8 @@ msgid ""
 "trackers>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у панелу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
-"admin-docs:`овде </system/integrations.html#integrations-for-issue-"
+"је ваш администратор још није омогућио. Администратори могу да сазнају "
+"више :admin-docs:`овде </system/integrations.html#integrations-for-issue-"
 "trackers>`."
 
 #: ../extras/github-gitlab-integration.rst:16
@@ -6153,8 +6179,8 @@ msgid ""
 "more :admin-docs:`here </system/integrations/i-doit.html>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у приказу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више :"
-"admin-docs:`овде </system/integrations/i-doit.html>`."
+"је ваш администратор још није омогућио. Администратори могу да сазнају "
+"више :admin-docs:`овде </system/integrations/i-doit.html>`."
 
 #: ../extras/i-doit-track-company-property.rst:14
 msgid ""
@@ -6333,8 +6359,8 @@ msgid ""
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у главном менију, то значи да "
 "је ваш администратор још није омогућио. Администратори могу сазнати више у "
-"нашој :admin-docs:`администраторској документацији </manage/knowledge-base."
-"html>`."
+"нашој :admin-docs:`администраторској документацији </manage/knowledge-"
+"base.html>`."
 
 #: ../extras/knowledge-base.rst:16
 msgid "Knowledge Base Preview Mode"
@@ -6577,8 +6603,8 @@ msgstr ""
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
-"base. If you're unsure, please ask your administrator to configure the :"
-"admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
+"base. If you're unsure, please ask your administrator to configure "
+"the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
 "Улоге захтевају **дозволу читаоца базе знања**. Ваш администратор мора да "
@@ -7977,8 +8003,8 @@ msgid ""
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у менију, то значи да је ваш "
 "администратор онемогућио ову функцију. Администратори могу сазнати више у "
-"нашој :admin-docs:`администраторској документацији </manage/groups/settings."
-"html>`."
+"нашој :admin-docs:`администраторској документацији </manage/groups/"
+"settings.html>`."
 
 #: ../extras/shared-drafts.rst:20
 msgid ""
@@ -8469,8 +8495,8 @@ msgstr ""
 msgid ""
 "Depending on the chosen two-factor method, you will be guided again through "
 "the setup process. Normally, editing a method will simply renew it and "
-"replace the older setup, but some methods do support advanced functions (e."
-"g. adding multiple security keys)."
+"replace the older setup, but some methods do support advanced functions "
+"(e.g. adding multiple security keys)."
 msgstr ""
 "У зависности од изабраног метода двофакторске аутентификације, бићете поново "
 "вођени кроз процес постављања. Обично ће уређивање методе једноставно "
@@ -8855,13 +8881,13 @@ msgstr "Zammad корисничка документација"
 
 #: ../index.rst:5
 msgid ""
-"You are currently reading the Zammad user documentation. There are also :"
-"docs:`system </index.html>` and :admin-docs:`administration manuals </index."
-"html>` available."
+"You are currently reading the Zammad user documentation. There are "
+"also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
+"index.html>` available."
 msgstr ""
-"Тренутно читате Zammad корисничку документацију. Такође су доступни :docs:"
-"`системски </index.html>` и :admin-docs:`администраторски </index.html>` "
-"приручници."
+"Тренутно читате Zammad корисничку документацију. Такође су "
+"доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
+"index.html>` приручници."
 
 #~ msgid "**Closed**"
 #~ msgstr "**Затворено**"
@@ -9124,8 +9150,9 @@ msgstr ""
 #~ "on a single ticket <sharing-work>` instead.)"
 #~ msgstr ""
 #~ "У таквим случајевима можете **одвојити једну поруку у њен сопствени "
-#~ "тикет**. (Алтернативно, можда би имало више смисла да се :ref:"
-#~ "`једноставно смењујете на истом тикету <sharing-work>` уместо тога.)"
+#~ "тикет**. (Алтернативно, можда би имало више смисла да "
+#~ "се :ref:`једноставно смењујете на истом тикету <sharing-work>` уместо "
+#~ "тога.)"
 
 #~ msgid ""
 #~ "Click the “split” button to take a message and use it as the starting "

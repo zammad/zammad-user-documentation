@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 14:38+0100\n"
+"POT-Creation-Date: 2025-07-21 13:17+0200\n"
 "PO-Revision-Date: 2025-05-08 10:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
@@ -568,8 +568,8 @@ msgstr "Удалить любую гиперссылку"
 
 #: ../advanced/keyboard-shortcuts.rst:160
 msgid ""
-"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` and :kbd:"
-"`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
+"If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
+"and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
 
 #: ../advanced/macros.rst:2
@@ -594,9 +594,9 @@ msgstr ""
 
 #: ../advanced/macros.rst:10
 msgid ""
-"Macros can be created by your :admin-docs:`administrator </manage/macros."
-"html>`. If you have an idea for a macro you'd like to use, your Zammad admin "
-"can probably make it happen."
+"Macros can be created by your :admin-docs:`administrator </manage/"
+"macros.html>`. If you have an idea for a macro you'd like to use, your "
+"Zammad admin can probably make it happen."
 msgstr ""
 "Макросы могут быть созданы вашим :admin-docs:`администратором </manage/"
 "macros.html>`. Если у Вас есть идея макроса, который Вы хотели бы "
@@ -724,11 +724,11 @@ msgstr ""
 
 #: ../advanced/search.rst:8
 msgid ""
-"For instance you can search for a specific customer by using ``customer."
-"attribute``::"
+"For instance you can search for a specific customer by using "
+"``customer.attribute``::"
 msgstr ""
-"Например, вы можете искать конкретного клиента, используя ``customer."
-"attribute``::"
+"Например, вы можете искать конкретного клиента, используя "
+"``customer.attribute``::"
 
 #: ../advanced/search.rst:13
 msgid "or::"
@@ -975,11 +975,11 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid ""
-"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
-"feedback) AND !(*Zammad*)"
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR "
+"tags:feedback) AND !(*Zammad*)"
 msgstr ""
-"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR tags:"
-"feedback) AND !(*Zammad*)"
+"state.name:(closed OR open) AND (priority.name:\"2 normal\" OR "
+"tags:feedback) AND !(*Zammad*)"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1166,9 +1166,9 @@ msgid ""
 "in two </advanced/ticket-actions/split>`, then assign each ticket to its "
 "respective “group” (department)."
 msgstr ""
-"Если заявка действительно касается двух разных проблем, вы можете :doc:"
-"`разделить её на две </advanced/ticket-actions/split>`, а затем назначить "
-"каждую заявку соответствующей \"группе\" (отделу)."
+"Если заявка действительно касается двух разных проблем, вы "
+"можете :doc:`разделить её на две </advanced/ticket-actions/split>`, а затем "
+"назначить каждую заявку соответствующей \"группе\" (отделу)."
 
 #: ../advanced/suggested-workflows.rst:16
 msgid ""
@@ -1717,11 +1717,11 @@ msgstr "Настройка текстовых модулей"
 
 #: ../advanced/text-modules.rst:46
 msgid ""
-"Administrators can learn more about customizing text modules :admin-docs:"
-"`here </manage/text-modules.html>`."
+"Administrators can learn more about customizing text modules :admin-"
+"docs:`here </manage/text-modules.html>`."
 msgstr ""
-"Администраторы могут узнать больше о настройке текстовых модулей :admin-docs:"
-"`здесь </manage/text-modules.html>`."
+"Администраторы могут узнать больше о настройке текстовых модулей :admin-"
+"docs:`здесь </manage/text-modules.html>`."
 
 #: ../advanced/ticket-actions.rst:2
 msgid "Ticket Actions"
@@ -1746,8 +1746,8 @@ msgstr "Связывание заявок"
 msgid ""
 "When tickets about related issues arise, they can be linked to each other "
 "for easier reference. For example this could be useful if you have multiple "
-"customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:"
-"`split <split>` tickets are automatically linked."
+"customer complaints about the same shipment. :doc:`Merged <merge>` "
+"and :doc:`split <split>` tickets are automatically linked."
 msgstr ""
 "Когда возникают заявки по связанным вопросам, их можно связать друг с "
 "другом, чтобы было удобнее обращаться к ним. Например, это может быть "
@@ -1766,10 +1766,10 @@ msgid ""
 "The first pair is used for split and merged tickets. The normal link is "
 "useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Существуют различные типы связей между заявками, как Вы уже могли видеть в :"
-"doc:`merge` или :doc:`plit`: родитель/потомок и обычные связи. Первая пара "
-"используется для разделенных и объединенных заявок. Обычная ссылка полезна, "
-"когда между заявками нет логической иерархии."
+"Существуют различные типы связей между заявками, как Вы уже могли видеть "
+"в :doc:`merge` или :doc:`plit`: родитель/потомок и обычные связи. Первая "
+"пара используется для разделенных и объединенных заявок. Обычная ссылка "
+"полезна, когда между заявками нет логической иерархии."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
@@ -1814,7 +1814,7 @@ msgstr ""
 "Кроме того, Вы можете выбрать заявку из списка ниже (см. 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
-#: ../advanced/ticket-actions/merge.rst:35
+#: ../advanced/ticket-actions/merge.rst:36
 msgid ""
 "If the customer has an existing ticket, it will show up under \"Recent "
 "customer tickets\". You can see your last viewed tickets under \"Recently "
@@ -1877,12 +1877,19 @@ msgstr ""
 "активировали объединение, в выбранную."
 
 #: ../advanced/ticket-actions/merge.rst:16
+#, fuzzy
+#| msgid ""
+#| "Let's assume you already worked on a ticket and you get another ticket "
+#| "about the same issue and want to merge them. Let's call the ticket you "
+#| "already worked on the *original* one and the new one *duplicate*. Then "
+#| "the way to go is to open the duplicate ticket and execute the merging "
+#| "from there so it will be merged into the original."
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
-"worked on the *original* one and the new one *duplicate*. Then the way to go "
-"is to open the duplicate ticket and execute the merging from there so it "
-"will be merged into the original."
+"worked on the *original* or *target* ticket and the new one *duplicate* or "
+"*source* ticket. Then the way to go is to open the duplicate ticket and "
+"execute the merging from there so it will be merged into the original ticket."
 msgstr ""
 "Предположим, что Вы уже работали над заявкой и получили еще одну заявку по "
 "тому же вопросу и хотите объединить их. Назовем заявку, над которой Вы уже "
@@ -1890,12 +1897,17 @@ msgstr ""
 "дубликат заявки и выполнить объединение оттуда, чтобы она была объединена с "
 "оригиналом."
 
-#: ../advanced/ticket-actions/merge.rst:28
+#: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr "Как объединить заявки?"
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+#, fuzzy
+#| msgid ""
+#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
+msgid ""
+"To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
+"choose **Merge**."
 msgstr ""
 "Чтобы объединить заявку, откройте подменю **Заявка ▾** на панели заявки."
 
@@ -1903,11 +1915,11 @@ msgstr ""
 msgid "Ticket menu with highlighted \"merge\""
 msgstr "Меню заявки с выделенным \"Объединить\""
 
-#: ../advanced/ticket-actions/merge.rst:40
+#: ../advanced/ticket-actions/merge.rst:41
 msgid "Merge dialog"
 msgstr "Окно объединения"
 
-#: ../advanced/ticket-actions/merge.rst:31
+#: ../advanced/ticket-actions/merge.rst:32
 msgid ""
 "You can either enter the ticket number of the ticket you want to merge the "
 "current one into (see 1). Alternatively, you can choose from the list below "
@@ -1916,7 +1928,7 @@ msgstr ""
 "Вы можете ввести номер заявки, с которой нужно объединить текущую заявку "
 "(см. 1). Кроме того, Вы можете выбрать заявку из списка ниже (см. 2)."
 
-#: ../advanced/ticket-actions/merge.rst:39
+#: ../advanced/ticket-actions/merge.rst:40
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
 "the list, click on the submit button and the tickets will be merged."
@@ -1928,11 +1940,11 @@ msgstr ""
 msgid "Merge ticket dialog"
 msgstr "Окно объединения заявок"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:59
 msgid "Result after merging"
 msgstr "Результат после объединения"
 
-#: ../advanced/ticket-actions/merge.rst:48
+#: ../advanced/ticket-actions/merge.rst:49
 msgid ""
 "The articles are moved into the chosen tickets. The ticket in which you "
 "executed the merging still exists with the following changes:"
@@ -1940,17 +1952,29 @@ msgstr ""
 "Статьи перемещаются в выбранную заявку. Заявка, в которой Вы выполнили "
 "объединение, по-прежнему останется в Zammad со следующими изменениями:"
 
-#: ../advanced/ticket-actions/merge.rst:51
+#: ../advanced/ticket-actions/merge.rst:52
 msgid "The articles have been replaced by a \"merged\" label"
 msgstr "Статьи будут заменены \"объединенной\" меткой"
 
-#: ../advanced/ticket-actions/merge.rst:52
+#: ../advanced/ticket-actions/merge.rst:53
 msgid "The state has changed to \"merged\""
 msgstr "Состояние изменится на \"объединено\""
 
-#: ../advanced/ticket-actions/merge.rst:53
+#: ../advanced/ticket-actions/merge.rst:54
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr "Заявка будет :doc:`связана <link>` со своей \"родительской\" заявкой"
+
+#: ../advanced/ticket-actions/merge.rst:56
+msgid ""
+"If you merge two tickets which were created from different channels, you "
+"have to answer via channel of the remaining target ticket."
+msgstr ""
+
+#: ../advanced/ticket-actions/merge.rst:59
+msgid ""
+"Example: if you merge a Whatsapp ticket into an email ticket, you have to "
+"answer via email channel in the target ticket."
+msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -2257,8 +2281,8 @@ msgid ""
 "There are **six built-in overviews** (Zammad admin may :admin-docs:`create "
 "more </manage/overviews.html>` with custom-defined filters):"
 msgstr ""
-"Имеется **шесть встроенных представлений** (администратор Zammad может :"
-"admin-docs:`создать больше </manage/overviews.html>` с настраиваемыми "
+"Имеется **шесть встроенных представлений** (администратор Zammad "
+"может :admin-docs:`создать больше </manage/overviews.html>` с настраиваемыми "
 "фильтрами):"
 
 #: ../basics/find-ticket/browse.rst:19
@@ -2636,8 +2660,9 @@ msgstr "Просмотр сводки по заявке"
 
 #: ../basics/service-ticket/follow-up.rst:19
 msgid ""
-"Tickets are threads of messages & notes about a customer service issue. :doc:"
-"`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
+"Tickets are threads of messages & notes about a customer service "
+"issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on "
+"the right."
 msgstr ""
 "Заявки - это потоки сообщений и заметок по обращениям клиентов. :doc:`⚙️ "
 "Управление настройками заявки <settings>` справа в **панели заявки**."
@@ -2647,8 +2672,8 @@ msgid ""
 "Any time you open a ticket, a new entry will appear in your :doc:`tab list</"
 "advanced/tabs>` in the main menu."
 msgstr ""
-"Каждый раз, когда Вы открываете заявку, новая запись появляется в вашем :doc:"
-"`списке вкладок</advanced/tabs>` в главном меню."
+"Каждый раз, когда Вы открываете заявку, новая запись появляется в "
+"вашем :doc:`списке вкладок</advanced/tabs>` в главном меню."
 
 #: ../basics/service-ticket/follow-up.rst:26
 msgid ""
@@ -3024,8 +3049,8 @@ msgid ""
 "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details)."
 msgstr ""
-"Перенести все сообщения/заметки в другую заявку (подробнее см. в :doc:"
-"`Объединение заявок </advanced/ticket-actions/merge>`)."
+"Перенести все сообщения/заметки в другую заявку (подробнее см. "
+"в :doc:`Объединение заявок </advanced/ticket-actions/merge>`)."
 
 #: ../basics/service-ticket/settings.rst:72
 msgid "Change Customer"
@@ -3093,11 +3118,11 @@ msgstr "Управление группами"
 
 #: ../basics/service-ticket/settings/group.rst:31
 msgid ""
-"So how do I manage which team I'm on? You don't - that's the :admin-docs:"
-"`administrator's job </manage/groups/index.html>`."
+"So how do I manage which team I'm on? You don't - that's the :admin-"
+"docs:`administrator's job </manage/groups/index.html>`."
 msgstr ""
-"Так как же мне управлять тем, в какой команде я нахожусь? Никак, это работа :"
-"admin-docs:`администратора </manage/groups/index.html>`."
+"Так как же мне управлять тем, в какой команде я нахожусь? Никак, это "
+"работа :admin-docs:`администратора </manage/groups/index.html>`."
 
 #: ../basics/service-ticket/settings/group.rst:34
 msgid ""
@@ -3226,11 +3251,12 @@ msgstr ":admin-docs:`запланированные события </manage/sche
 
 #: ../basics/service-ticket/settings/priority.rst:25
 msgid ""
-"Priority can also be used as a ticket filter when creating :admin-docs:"
-"`custom overviews </manage/overviews.html>`."
+"Priority can also be used as a ticket filter when creating :admin-"
+"docs:`custom overviews </manage/overviews.html>`."
 msgstr ""
-"Приоритет также можно использовать в качестве фильтра заявок при создании :"
-"admin-docs:`пользовательских представлений </manage/overviews.html>`."
+"Приоритет также можно использовать в качестве фильтра заявок при "
+"создании :admin-docs:`пользовательских представлений </manage/"
+"overviews.html>`."
 
 #: ../basics/service-ticket/settings/priority.rst:28
 msgid ""
@@ -3273,9 +3299,9 @@ msgstr "закрыта"
 
 #: ../basics/service-ticket/settings/state.rst:10
 msgid ""
-"merged (this Ticket has been merged into another Ticket. Check either the :"
-"doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket "
-"history <ticket-submenu>` to learn more)"
+"merged (this Ticket has been merged into another Ticket. Check either "
+"the :doc:`linked tickets </advanced/ticket-actions/link>` or "
+"the :ref:`ticket history <ticket-submenu>` to learn more)"
 msgstr ""
 "объединенные (эта заявка была объединена с другой заявкой. Чтобы узнать "
 "больше, проверьте либо :doc:\"связанные заявки </advanced/ticket-actions/"
@@ -3320,10 +3346,10 @@ msgid ""
 "resolved entirely."
 msgstr ""
 "Состояния не просто указывают на прогресс: В Zammad есть функция точного "
-"отслеживания времени (так называемые \":admin-docs:`SLA </manage/slas/index."
-"html>`\"), которая использует информацию о состоянии заявки для определения, "
-"сколько времени потребуется клиенту, чтобы получить ответ на новую заявку "
-"или полностью решить обращение."
+"отслеживания времени (так называемые \":admin-docs:`SLA </manage/slas/"
+"index.html>`\"), которая использует информацию о состоянии заявки для "
+"определения, сколько времени потребуется клиенту, чтобы получить ответ на "
+"новую заявку или полностью решить обращение."
 
 #: ../basics/service-ticket/settings/state.rst:38
 msgid ""
@@ -3932,8 +3958,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:253
 msgid ""
-"See our :admin-docs:`admin documentation </settings/security/third-party."
-"html>` for all third party authentication providers."
+"See our :admin-docs:`admin documentation </settings/security/third-"
+"party.html>` for all third party authentication providers."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:257
@@ -4473,8 +4499,8 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:552
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
-"administrator can find more information :admin-docs:`here </system/objects."
-"html#system-attributes>`."
+"administrator can find more information :admin-docs:`here </system/"
+"objects.html#system-attributes>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:557
@@ -4561,8 +4587,8 @@ msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
 "conditions in a time based manner. More information in the admin "
-"documentation in the :admin-docs:`scheduler section </manage/scheduler."
-"html>`."
+"documentation in the :admin-docs:`scheduler section </manage/"
+"scheduler.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:623
@@ -4757,8 +4783,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:705
 msgid ""
-"Administrators can learn more about tags :admin-docs:`here </manage/tags."
-"html>`. Agents can learn more about this function on this page: :doc:`/"
+"Administrators can learn more about tags :admin-docs:`here </manage/"
+"tags.html>`. Agents can learn more about this function on this page: :doc:`/"
 "basics/service-ticket/settings/tags`"
 msgstr ""
 
@@ -4776,8 +4802,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:716
 msgid ""
-"For example, here at Zammad, we have a text module with the shortcut ``::"
-"ilff``, which turns into ``I look forward to your feedback``."
+"For example, here at Zammad, we have a text module with the shortcut "
+"``::ilff``, which turns into ``I look forward to your feedback``."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:719
@@ -4831,8 +4857,8 @@ msgstr ""
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
-"conditions. More information in the admin documentation in the :admin-docs:"
-"`trigger section </manage/trigger.html>`."
+"conditions. More information in the admin documentation in the :admin-"
+"docs:`trigger section </manage/trigger.html>`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:751
@@ -4908,8 +4934,8 @@ msgstr ""
 msgid ""
 "This feature is **optional**; if you don't see it in the main menu, that "
 "means your administrator hasn't enabled it yet. Administrators can learn "
-"more on our :admin-docs:`admin documentation </system/integrations."
-"html#integrations-for-phone-systems>`."
+"more on our :admin-docs:`admin documentation </system/"
+"integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 
 #: ../extras/caller-log.rst:14
@@ -5959,8 +5985,8 @@ msgstr ""
 msgid ""
 "The roles require **knowledge base reader permission**. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
-"base. If you're unsure, please ask your administrator to configure the :"
-"admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
+"base. If you're unsure, please ask your administrator to configure "
+"the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
 
@@ -7530,8 +7556,8 @@ msgstr ""
 msgid ""
 "Depending on the chosen two-factor method, you will be guided again through "
 "the setup process. Normally, editing a method will simply renew it and "
-"replace the older setup, but some methods do support advanced functions (e."
-"g. adding multiple security keys)."
+"replace the older setup, but some methods do support advanced functions "
+"(e.g. adding multiple security keys)."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:156
@@ -7825,9 +7851,9 @@ msgstr ""
 
 #: ../index.rst:5
 msgid ""
-"You are currently reading the Zammad user documentation. There are also :"
-"docs:`system </index.html>` and :admin-docs:`administration manuals </index."
-"html>` available."
+"You are currently reading the Zammad user documentation. There are "
+"also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
+"index.html>` available."
 msgstr ""
 
 #~ msgid "**Closed**"
