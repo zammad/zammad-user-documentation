@@ -146,26 +146,21 @@ Simultaneous Processing of a Ticket
 
 .. _caution-im-working-here:
 
-Every once in a while,
-two agents may have the same ticket open at the same time.
-When this happens,
-things can get messy fast:
-customers may receive conflicting responses
-on the same issue
-from both agents; or,
-changes made by one agent may be accidentally undone by the other.
+Every once in a while, two agents may have the same ticket open at the same
+time. When this happens, things can get messy fast:
+customers may receive conflicting responses on the same issue from both agents;
+or, changes made by one agent may be accidentally undone by the other.
 
-To keep things under control,
-Zammad will alert you to potential conflicts
-by displaying an avatar in the lower-lefthand corner
-for every agent that has that ticket open.
+To keep things under control, Zammad will alert you to potential conflicts
+by displaying an avatar in the bottom bar (live user section) for every agent
+that has that ticket open.
 
-Be sure to communicate with your colleagues
-to prevent these problems before they arise.
+Be sure to communicate with your colleagues to prevent these problems before
+they arise.
 
 .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
    :alt: Ticket conflict alert
    :align: center
 
-   A ✏️ icon will appear if the agent has made any unsaved changes to
-   the ticket.
+   A ✏️ icon will appear if the agent has made any unsaved changes to the
+   ticket.

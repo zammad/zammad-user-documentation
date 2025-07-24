@@ -19,9 +19,13 @@ The ticket summary feature does what it says: it summarizes the ticket's
 content. This can be a huge time saver when dealing with large tickets and/or
 many hand-overs between agents.
 
-If the feature is activated, a summary of the ticket is generated when a ticket
-is opened. An indicator shows up on the AI summary sidebar tab to show you that
-a summary has been generated.
+If the feature is activated, a summary of the ticket is generated when the
+ticket got updated and you either open the ticket or open the summary sidebar
+tab of the ticket, depending on the configuration.
+
+If there is a new summary, you can see a small pulsing indicator on the summary
+sidebar tab. This indicator is only displayed if the changes were not made by
+you (as you already know what the ticket is about).
 
 .. figure:: /images/extras/ai/ticket-summary.png
    :alt: Screenshot shows Zammad's ticket detail view with highlighted ticket summary banner and summary sidebar
@@ -80,3 +84,35 @@ article editor.
    Always double-check the response. Although the feature was carefully
    developed, there may still be minor problems in individual cases due to
    the nature of neural networks.
+
+AI Agents
+---------
+
+This is no feature which allows any agent interaction. However, if the feature
+is configured, you may notice it at some points. This is why you can find an
+explanation here.
+
+AI agents can be configured to work on certain types of routine tasks. You may
+notice the AI agents at different locations:
+
+Ticket history
+   If an AI agent applied changes, you can see a ticket history entry telling
+   you the name of the AI agent. If you notice ongoing issues with what the
+   AI agent did, inform your Zammad admin.
+
+   Example of a history entry of an AI agent:
+
+   .. figure:: /images/extras/ai/ai-agent-ticket-history.png
+      :alt: Screenshot shows AI agent ticket history entry
+
+Simultaneous work detection
+   AI agents which are currently working on a ticket are displayed like other
+   agents in the live user section in the bottom bar. This helps to avoid
+   duplicate work as well as losing unsaved changes. If you see an AI agent
+   avatar, wait for a moment or head over to another ticket.
+
+   Avatar of AI agent:
+
+   .. figure:: /images/extras/ai/ai-live-user.png
+      :alt: Screenshot shows avatar of an AI agent
+      :scale: 80%
