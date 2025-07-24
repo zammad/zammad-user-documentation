@@ -19,9 +19,13 @@ The ticket summary feature does what it says: it summarizes the ticket's
 content. This can be a huge time saver when dealing with large tickets and/or
 many hand-overs between agents.
 
-If the feature is activated, a summary of the ticket is generated when a ticket
-is opened. An indicator shows up on the AI summary sidebar tab to show you that
-a summary has been generated.
+If the feature is activated, a summary of the ticket is generated when the
+ticket got updated and you either open the ticket or open the summary sidebar
+tab of the ticket, depending on the configuration.
+
+If there is a new summary, you can see a small pulsing indicator on the summary
+sidebar tab. This indicator is only displayed if the changes were not made by
+you (as you already know what the ticket is about).
 
 .. figure:: /images/extras/ai/ticket-summary.png
    :alt: Screenshot shows Zammad's ticket detail view with highlighted ticket summary banner and summary sidebar
