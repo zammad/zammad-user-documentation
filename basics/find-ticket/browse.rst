@@ -31,6 +31,10 @@ custom-defined filters):
    * The need for action is color coded and reflects mainly the :doc:`ticket states </basics/service-ticket/settings/state>`:
 
      .. include:: /snippets/ticket-state-type-circles.rst
+     If you spot a circle with a blue/pink gradient, it indicates that an
+     :doc:`AI agent </extras/ai-features>` is currently working on
+     the ticket.
+
    * :doc:`Ticket priorities </basics/service-ticket/settings/priority>` are
      **color-coded:**
 
