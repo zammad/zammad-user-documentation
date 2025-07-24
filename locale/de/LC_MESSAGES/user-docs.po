@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-21 13:17+0200\n"
-"PO-Revision-Date: 2025-06-17 13:00+0000\n"
+"PO-Revision-Date: 2025-07-23 09:01+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
-msgstr "Tastenkombinationen für die Tastatur"
+msgstr "Tastaturkürzel"
 
 #: ../advanced/keyboard-shortcuts.rst:4
 msgid ""
@@ -29,9 +29,9 @@ msgid ""
 "as an expert user. But don't be afraid, you don't have to remember all of "
 "them."
 msgstr ""
-"Zammad unterstützt eine Vielzahl von Tastenkombinationen, um Ihren "
-"Arbeitsablauf als erfahrener Benutzer zu beschleunigen. Aber keine Angst, "
-"Sie müssen sich nicht alle merken."
+"Zammad unterstützt eine Vielzahl von Tastaturkürzel, um Ihren Arbeitsablauf "
+"als erfahrener Benutzer zu beschleunigen. Aber keine Angst, Sie müssen sich "
+"nicht alle merken."
 
 #: ../advanced/keyboard-shortcuts.rst:8 ../basics/zammad-glossary.rst:508
 #: ../extras/chat.rst:11 ../extras/customers.rst:7
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:26
 msgid "Keyboard shortcut cheat sheet"
-msgstr "Spickzettel für Tastenkombinationen"
+msgstr "Spickzettel für Tastaturkürzel"
 
 #: ../advanced/keyboard-shortcuts.rst:26
 msgid "The keyboard shortcut overview."
@@ -82,8 +82,8 @@ msgid ""
 "Enable or disable the shortcuts in general by switching the toggle on the "
 "left side."
 msgstr ""
-"Die Tastenkombinationen aktivieren oder deaktivieren, indem Sie den Schalter "
-"auf der linken Seite klicken."
+"Die Tastaturkürzel aktivieren oder deaktivieren, indem Sie den Schalter auf "
+"der linken Seite klicken."
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid ""
@@ -100,9 +100,9 @@ msgid ""
 "because browsers and operating systems could jam the key press signal. And "
 "the shortcut for opening this overview differs as well."
 msgstr ""
-"Beachten Sie, dass diese alten Tastenkombinationen nicht so zuverlässig "
+"Beachten Sie, dass diese alten Tastaturkürzel nicht so zuverlässig "
 "funktionieren wie die neuen, da Browser und Betriebssysteme dazwischenfunken "
-"können. Auch die Tastenkombination zum Öffnen dieser Übersicht ist anders."
+"können. Auch die Tastaturkürzel zum Öffnen dieser Übersicht ist anders."
 
 #: ../advanced/keyboard-shortcuts.rst:43
 msgid ""
@@ -1901,13 +1901,6 @@ msgstr ""
 "Ticket übernommen."
 
 #: ../advanced/ticket-actions/merge.rst:16
-#, fuzzy
-#| msgid ""
-#| "Let's assume you already worked on a ticket and you get another ticket "
-#| "about the same issue and want to merge them. Let's call the ticket you "
-#| "already worked on the *original* one and the new one *duplicate*. Then "
-#| "the way to go is to open the duplicate ticket and execute the merging "
-#| "from there so it will be merged into the original."
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
@@ -1918,24 +1911,21 @@ msgstr ""
 "Nehmen wir an, Sie haben bereits an einem Ticket gearbeitet und erhalten ein "
 "weiteres Ticket mit demselben Problem, das Sie zusammenführen möchten. "
 "Nennen wir das Ticket, an dem Sie bereits gearbeitet haben, das *originale* "
-"Ticket und das neue Ticket *Duplikat*. In diesem Fall öffnen Sie das "
-"Duplikat und führen die Zusammenfassung von dort aus durch, damit es mit dem "
-"original Ticket zusammengeführt wird."
+"bzw. *Ziel-*Ticket und das neue Ticket *Duplikat* bzw. *Quelle*. In diesem "
+"Fall öffnen Sie das Duplikat und führen die Zusammenfassung von dort aus "
+"durch, damit es mit dem original Ticket zusammengeführt wird."
 
 #: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr "Wie fasst man Tickets zusammen?"
 
 #: ../advanced/ticket-actions/merge.rst:24
-#, fuzzy
-#| msgid ""
-#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
 msgid ""
 "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
 "choose **Merge**."
 msgstr ""
 "Um ein Ticket zusammenzufassen, öffnen Sie das Untermenü **Ticket ▾** im "
-"Ticketfenster."
+"Ticketfenster und wählen **Zusammenfassen**."
 
 #: ../advanced/ticket-actions/merge.rst:0
 msgid "Ticket menu with highlighted \"merge\""
@@ -1998,12 +1988,16 @@ msgid ""
 "If you merge two tickets which were created from different channels, you "
 "have to answer via channel of the remaining target ticket."
 msgstr ""
+"Wenn Sie zwei Tickets zusammenfassen, die aus verschiedenen Kanälen erstellt "
+"wurden, müssen Sie über den Kanal des verbleibenden Zieltickets antworten."
 
 #: ../advanced/ticket-actions/merge.rst:59
 msgid ""
 "Example: if you merge a Whatsapp ticket into an email ticket, you have to "
 "answer via email channel in the target ticket."
 msgstr ""
+"Beispiel: Wenn Sie ein Whatsapp Ticket in ein E-Mail Ticket zusammenfassen, "
+"müssen Sie im Zielticket über den E-Mail Kanal antworten."
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
@@ -6892,12 +6886,11 @@ msgid ""
 "insert formatted text, bullet lists, and more. You can even add file "
 "attachments and links!"
 msgstr ""
-"Der Wissensdatenbank-Editor ist mit den gleichen **Richtext-"
-"Bearbeitungsfunktionen** ausgestattet, die auch in der Zammad-Ticket-Maske "
-"zur Verfügung stehen. Das bedeutet, dass Sie "
-"dieselben :doc:`Tastenkombinationen </advanced/keyboard-shortcuts>` "
-"verwenden können, um Text-Formatierungen, Aufzählungszeichen und mehr "
-"einzubinden. Es können sogar Dateianhänge und Links hinzugefügt werden!"
+"Der Knowledge Base-Editor ist mit den gleichen **Bearbeitungsfunktionen** "
+"ausgestattet, die auch in der Zammad-Ticket-Maske zur Verfügung stehen. Das "
+"bedeutet, dass Sie dieselben :doc:`Tastaturkürzel </advanced/keyboard-"
+"shortcuts>` verwenden können, um Text-Formatierungen, Aufzählungszeichen und "
+"mehr zu nutzen. Es können sogar Dateianhänge und Links hinzugefügt werden!"
 
 #: ../extras/knowledge-base.rst:206
 msgid "Different link types"
