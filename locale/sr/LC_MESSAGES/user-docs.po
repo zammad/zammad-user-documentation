@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-21 13:17+0200\n"
-"PO-Revision-Date: 2025-06-06 06:00+0000\n"
+"PO-Revision-Date: 2025-07-24 15:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -1848,13 +1848,6 @@ msgstr ""
 "одабрани."
 
 #: ../advanced/ticket-actions/merge.rst:16
-#, fuzzy
-#| msgid ""
-#| "Let's assume you already worked on a ticket and you get another ticket "
-#| "about the same issue and want to merge them. Let's call the ticket you "
-#| "already worked on the *original* one and the new one *duplicate*. Then "
-#| "the way to go is to open the duplicate ticket and execute the merging "
-#| "from there so it will be merged into the original."
 msgid ""
 "Let's assume you already worked on a ticket and you get another ticket about "
 "the same issue and want to merge them. Let's call the ticket you already "
@@ -1862,24 +1855,23 @@ msgid ""
 "*source* ticket. Then the way to go is to open the duplicate ticket and "
 "execute the merging from there so it will be merged into the original ticket."
 msgstr ""
-"Замислимо да већ радите на тикету и добијате тикет о истом проблем и желите "
-"да их спојите. Назовимо тикет на коме већ радите *оригинални* а нови "
-"*дупликат*. Начин на који можете ово урадити је да отворите дупликат и "
-"извршите спајање из њега тако да буде спојен са оригиналним."
+"Претпоставимо да већ радите на тикету и добијате тикет о истом проблем и "
+"желите да их спојите. Назовимо тикет на коме већ радите *оригинални* или "
+"*циљни* а нови *дупликат* или *изворни*. Начин на који можете ово урадити је "
+"да отворите дупликат и покренете спајање из њега тако да буде спојен са "
+"оригиналним тикетом."
 
 #: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr "Како повезати тикете?"
 
 #: ../advanced/ticket-actions/merge.rst:24
-#, fuzzy
-#| msgid ""
-#| "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane."
 msgid ""
 "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and "
 "choose **Merge**."
 msgstr ""
-"Да бисте спојили тикет, приступите подменију **Тицкет ▾** у панелу тикета."
+"Да бисте спојили тикет, приступите подменију **Тикет ▾** у панелу тикета и "
+"одаберите **Споји**."
 
 #: ../advanced/ticket-actions/merge.rst:0
 msgid "Ticket menu with highlighted \"merge\""
@@ -1939,12 +1931,16 @@ msgid ""
 "If you merge two tickets which were created from different channels, you "
 "have to answer via channel of the remaining target ticket."
 msgstr ""
+"Уколико спојите два тикета који су отворени на различитим каналима, морађете "
+"да одговорите преко доступног канала циљног тикета."
 
 #: ../advanced/ticket-actions/merge.rst:59
 msgid ""
 "Example: if you merge a Whatsapp ticket into an email ticket, you have to "
 "answer via email channel in the target ticket."
 msgstr ""
+"Пример: уколико спојите WhatsApp тикет са имејл тикетом, мораћете да "
+"одговарате преко имејл канала из циљног тикета."
 
 #: ../advanced/ticket-actions/split.rst:2
 msgid "Splitting Tickets"
