@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-21 13:17+0200\n"
+"POT-Creation-Date: 2025-07-24 15:06+0200\n"
 "PO-Revision-Date: 2022-11-04 15:14+0000\n"
 "Last-Translator: Never Min <59808@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.zammad.org/"
@@ -2115,6 +2115,12 @@ msgstr ""
 
 #: ../basics/find-ticket/browse.rst:34
 msgid ""
+"If you spot a circle with a blue/pink gradient, it indicates that "
+"an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
+msgstr ""
+
+#: ../basics/find-ticket/browse.rst:38
+msgid ""
 ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are "
 "**color-coded:**"
 msgstr ""
@@ -2124,7 +2130,7 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:41
+#: ../basics/find-ticket/browse.rst:45
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid ""
 "Zammad's 3 default priorities allow you to see the importance of your "
@@ -2596,24 +2602,24 @@ msgid ""
 "by one agent may be accidentally undone by the other."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:158
+#: ../basics/service-ticket/follow-up.rst:154
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
-"by displaying an avatar in the lower-lefthand corner for every agent that "
-"has that ticket open."
+"by displaying an avatar in the bottom bar (live user section) for every "
+"agent that has that ticket open."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:163
+#: ../basics/service-ticket/follow-up.rst:158
 msgid ""
 "Be sure to communicate with your colleagues to prevent these problems before "
 "they arise."
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:170
+#: ../basics/service-ticket/follow-up.rst:165
 msgid "Ticket conflict alert"
 msgstr ""
 
-#: ../basics/service-ticket/follow-up.rst:170
+#: ../basics/service-ticket/follow-up.rst:165
 msgid ""
 "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
 msgstr ""
@@ -4525,9 +4531,16 @@ msgstr ""
 
 #: ../extras/ai-features.rst:22
 msgid ""
-"If the feature is activated, a summary of the ticket is generated when a "
-"ticket is opened. An indicator shows up on the AI summary sidebar tab to "
-"show you that a summary has been generated."
+"If the feature is activated, a summary of the ticket is generated when the "
+"ticket got updated and you either open the ticket or open the summary "
+"sidebar tab of the ticket, depending on the configuration."
+msgstr ""
+
+#: ../extras/ai-features.rst:26
+msgid ""
+"If there is a new summary, you can see a small pulsing indicator on the "
+"summary sidebar tab. This indicator is only displayed if the changes were "
+"not made by you (as you already know what the ticket is about)."
 msgstr ""
 
 #: ../extras/ai-features.rst:None
@@ -4536,57 +4549,57 @@ msgid ""
 "banner and summary sidebar"
 msgstr ""
 
-#: ../extras/ai-features.rst:29
+#: ../extras/ai-features.rst:33
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
 
-#: ../extras/ai-features.rst:32
+#: ../extras/ai-features.rst:36
 msgid "Customer intent"
 msgstr ""
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:37
 msgid "Conversation summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:34
+#: ../extras/ai-features.rst:38
 msgid "Open questions (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:39
 msgid "Suggested next steps (optional)"
 msgstr ""
 
-#: ../extras/ai-features.rst:38
+#: ../extras/ai-features.rst:42
 msgid "Smart Editor"
 msgstr ""
 
-#: ../extras/ai-features.rst:40
+#: ../extras/ai-features.rst:44
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
 "article."
 msgstr ""
 
-#: ../extras/ai-features.rst:43
+#: ../extras/ai-features.rst:47
 msgid "The following tools are supported:"
 msgstr ""
 
-#: ../extras/ai-features.rst:45
+#: ../extras/ai-features.rst:49
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
 "misspellings and grammar issues."
 msgstr ""
 
-#: ../extras/ai-features.rst:48
+#: ../extras/ai-features.rst:52
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:54
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -4594,13 +4607,13 @@ msgid ""
 "AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:58
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
 msgstr ""
 
-#: ../extras/ai-features.rst:57
+#: ../extras/ai-features.rst:61
 msgid ""
 "To use any of these features, simply select the text you want to apply the "
 "changes to. You can select the whole text or just parts of it. This "
@@ -4612,7 +4625,7 @@ msgstr ""
 msgid "Screenshots shows selected text in article with AI text tools"
 msgstr "演示如何在工单视图中运行宏的屏幕录像。"
 
-#: ../extras/ai-features.rst:67
+#: ../extras/ai-features.rst:71
 msgid ""
 "After selecting an option, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -4622,18 +4635,91 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
-#: ../extras/ai-features.rst:75
+#: ../extras/ai-features.rst:79
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
 
-#: ../extras/ai-features.rst:80
+#: ../extras/ai-features.rst:84
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
 "nature of neural networks."
+msgstr ""
+
+#: ../extras/ai-features.rst:89
+msgid "AI Agents"
+msgstr ""
+
+#: ../extras/ai-features.rst:91
+msgid ""
+"This is no feature which allows any agent interaction. However, if the "
+"feature is configured, you may notice it at some points. This is why you can "
+"find an explanation here."
+msgstr ""
+
+#: ../extras/ai-features.rst:95
+msgid ""
+"AI agents can be configured to work on certain types of routine tasks. You "
+"may notice the AI agents at different locations:"
+msgstr ""
+
+#: ../extras/ai-features.rst:106
+#, fuzzy
+msgid "Ticket history"
+msgstr "宏"
+
+#: ../extras/ai-features.rst:99
+msgid ""
+"If an AI agent applied changes, you can see a ticket history entry telling "
+"you the name of the AI agent. If you notice ongoing issues with what the AI "
+"agent did, inform your Zammad admin."
+msgstr ""
+
+#: ../extras/ai-features.rst:103
+msgid "Example of a history entry of an AI agent:"
+msgstr ""
+
+#: ../extras/ai-features.rst:0
+msgid "Screenshot shows AI agent ticket history entry"
+msgstr ""
+
+#: ../extras/ai-features.rst:118
+msgid "Simultaneous work detection"
+msgstr ""
+
+#: ../extras/ai-features.rst:109
+msgid ""
+"AI agents which are currently working on a ticket are displayed like other "
+"agents in the live user section in the bottom bar. This helps to avoid "
+"duplicate work as well as losing unsaved changes. If you see an AI agent "
+"avatar, wait for a moment or head over to another ticket."
+msgstr ""
+
+#: ../extras/ai-features.rst:114
+msgid "Avatar of AI agent:"
+msgstr ""
+
+#: ../extras/ai-features.rst:0
+msgid "Screenshot shows avatar of an AI agent"
+msgstr ""
+
+#: ../extras/ai-features.rst:124
+msgid "Overview indicator"
+msgstr ""
+
+#: ../extras/ai-features.rst:121
+msgid ""
+"A running AI agent is indicated in the status column in overviews. The "
+"status circle changes to a blue/pink gradient circle:"
+msgstr ""
+
+#: ../extras/ai-features.rst:0
+msgid ""
+"Screenshot shows a status circle in overviews indicating an AI agent is "
+"currently working on it"
 msgstr ""
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
