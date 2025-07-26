@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24 15:06+0200\n"
-"PO-Revision-Date: 2025-07-23 09:01+0000\n"
+"PO-Revision-Date: 2025-07-26 07:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -2433,6 +2433,8 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
+"Wenn Sie einen Kreis mit einem blau/pinken Farbverlauf sehen, bedeutet dies, "
+"dass ein :doc:`KI-Agent </extras/ai-features>` gerade an dem Ticket arbeitet."
 
 #: ../basics/find-ticket/browse.rst:38
 msgid ""
@@ -3045,19 +3047,15 @@ msgstr ""
 "wurden, können von dem anderen versehentlich widerrufen werden."
 
 #: ../basics/service-ticket/follow-up.rst:154
-#, fuzzy
-#| msgid ""
-#| "To keep things under control, Zammad will alert you to potential "
-#| "conflicts by displaying an avatar in the lower-lefthand corner for every "
-#| "agent that has that ticket open."
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the bottom bar (live user section) for every "
 "agent that has that ticket open."
 msgstr ""
-"Um diese Situationen zu kontrollieren, informiert Zammad über mögliche "
-"Konflikte, indem in der unteren linken Ecke der Avatar jedes Agenten "
-"angezeigt wird, die dieses Ticket aktuell geöffnet haben."
+"Um die Bearbeitung in geordnete Bahnen zu lenken, macht Sie Zammad auf "
+"potenzielle Konflikte aufmerksam, indem es in der unteren Leiste (Bereich "
+"für Live-Benutzer) einen Avatar für jeden Agenten anzeigt, der dieses Ticket "
+"geöffnet hat."
 
 #: ../basics/service-ticket/follow-up.rst:158
 msgid ""
@@ -5585,20 +5583,15 @@ msgstr ""
 "zwischen Agenten eine enorme Zeitersparnis bedeuten."
 
 #: ../extras/ai-features.rst:22
-#, fuzzy
-#| msgid ""
-#| "If the feature is activated, a summary of the ticket is generated when a "
-#| "ticket is opened. An indicator shows up on the AI summary sidebar tab to "
-#| "show you that a summary has been generated."
 msgid ""
 "If the feature is activated, a summary of the ticket is generated when the "
 "ticket got updated and you either open the ticket or open the summary "
 "sidebar tab of the ticket, depending on the configuration."
 msgstr ""
-"Wenn die Funktion aktiviert ist, wird beim Öffnen eines Tickets eine "
-"Zusammenfassung des Tickets erstellt. Auf dem Seitenleisten-Tab der KI-"
-"Zusammenfassung erscheint ein Indikator, der Ihnen anzeigt, dass eine "
-"Zusammenfassung erstellt wurde."
+"Wenn die Funktion aktiviert ist wird eine Zusammenfassung des Tickets "
+"generiert wenn das Ticket aktualisiert wurde und Sie es entweder öffnen oder "
+"den Seitenleisten-Tab für die Zusammenfassung des Tickets anklicken, "
+"abhängig von der Konfiguration."
 
 #: ../extras/ai-features.rst:26
 msgid ""
@@ -5606,6 +5599,10 @@ msgid ""
 "summary sidebar tab. This indicator is only displayed if the changes were "
 "not made by you (as you already know what the ticket is about)."
 msgstr ""
+"Wenn eine neue Zusammenfassung verfügbar ist, sehen Sie auf dem "
+"Seitenleisten-Tab der Zusammenfassung eine kleinen pulsierenden Indikator. "
+"Dieser Indikator wird nur angezeigt, wenn die Änderungen nicht von Ihnen "
+"vorgenommen wurden (da Sie bereits wissen, worum es in dem Ticket geht)."
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -5745,10 +5742,8 @@ msgstr ""
 "Einzelfällen trotzdem zu kleineren Fehlern kommen."
 
 #: ../extras/ai-features.rst:89
-#, fuzzy
-#| msgid "Agent"
 msgid "AI Agents"
-msgstr "Agent"
+msgstr "KI-Agenten"
 
 #: ../extras/ai-features.rst:91
 msgid ""
@@ -5756,16 +5751,20 @@ msgid ""
 "feature is configured, you may notice it at some points. This is why you can "
 "find an explanation here."
 msgstr ""
+"Dies ist keine Funktion, die eine Interaktion mit Agenten ermöglicht. Wenn "
+"die Funktion jedoch konfiguriert ist, können Sie sie an einigen Stellen "
+"bemerken. Deshalb finden Sie hier eine Erklärung."
 
 #: ../extras/ai-features.rst:95
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
 msgstr ""
+"KI Agenten können so konfiguriert werden, dass sie bestimmte Arten von "
+"Routineaufgaben übernehmen. Sie werden die KI-Agenten an verschiedenen "
+"Stellen bemerken:"
 
 #: ../extras/ai-features.rst:106
-#, fuzzy
-#| msgid "Ticket History"
 msgid "Ticket history"
 msgstr "Ticket-Historie"
 
@@ -5775,20 +5774,22 @@ msgid ""
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
+"Wenn ein KI-Agent Änderungen vorgenommen hat, sehen Sie einen Eintrag in der "
+"Ticket-Historie, der Ihnen den Namen des KI-Agenten nennt. Wenn Sie "
+"anhaltende Probleme mit der Arbeit des KI-Agenten feststellen, informieren "
+"Sie Ihren Zammad-Administrator."
 
 #: ../extras/ai-features.rst:103
 msgid "Example of a history entry of an AI agent:"
-msgstr ""
+msgstr "Beispiel für einen Eintrag in die Ticket-Historie eines KI Agenten:"
 
 #: ../extras/ai-features.rst:0
-#, fuzzy
-#| msgid "Screenshots shows AI suggestion dialog"
 msgid "Screenshot shows AI agent ticket history entry"
-msgstr "Screenshot zeigt Dialog mit KI-Vorschlag"
+msgstr "Screenshot zeigt Eintrag in Ticket-Historie des KI Agenten"
 
 #: ../extras/ai-features.rst:118
 msgid "Simultaneous work detection"
-msgstr ""
+msgstr "Erkennung gleichzeitige Ticketbearbeitung"
 
 #: ../extras/ai-features.rst:109
 msgid ""
@@ -5797,34 +5798,40 @@ msgid ""
 "duplicate work as well as losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
+"KI-Agenten, die gerade an einem Ticket arbeiten, werden wie andere Agenten "
+"im Live-Benutzer-Bereich in der unteren Leiste angezeigt. Dies hilft, "
+"doppelte Arbeit und den Verlust von nicht gespeicherten Änderungen zu "
+"vermeiden. Wenn Sie einen Avatar eines KI-Agenten sehen, warten Sie einen "
+"Moment oder wechseln Sie zu einem anderen Ticket."
 
 #: ../extras/ai-features.rst:114
 msgid "Avatar of AI agent:"
-msgstr ""
+msgstr "Avatar eines KI Agenten:"
 
 #: ../extras/ai-features.rst:0
-#, fuzzy
-#| msgid "Screencast showing tags on answers"
 msgid "Screenshot shows avatar of an AI agent"
-msgstr "Screencast zeigt Tags an Antworten"
+msgstr "Screenshot zeigt Avatar eines KI-Agenten"
 
 #: ../extras/ai-features.rst:124
-#, fuzzy
-#| msgid "Overview"
 msgid "Overview indicator"
-msgstr "Übersicht"
+msgstr "Indikator in Übersichten"
 
 #: ../extras/ai-features.rst:121
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
 msgstr ""
+"Ein laufender KI-Agent wird in der Statusspalte in den Übersichten "
+"angezeigt. Die Farbe des Kreises ändert sich zu einem blau/pinken "
+"Farbverlauf:"
 
 #: ../extras/ai-features.rst:0
 msgid ""
 "Screenshot shows a status circle in overviews indicating an AI agent is "
 "currently working on it"
 msgstr ""
+"Screenshot zeigt einen Kreis für den Ticketstatus aus einer Übersicht, der "
+"signalisiert, dass ein KI-Agent gerade daran arbeitet"
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
