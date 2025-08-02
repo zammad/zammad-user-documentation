@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24 15:06+0200\n"
-"PO-Revision-Date: 2025-07-24 15:00+0000\n"
+"PO-Revision-Date: 2025-08-02 16:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -2355,6 +2355,8 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
+"Уколико приметите кружић са плавим/љубичастим градијентом, он индикује да "
+":doc:`AI агент </extras/ai-features>` тренутно ради на тикету."
 
 #: ../basics/find-ticket/browse.rst:38
 msgid ""
@@ -2944,19 +2946,14 @@ msgstr ""
 "које је направио један оператер може случајно да поништи други."
 
 #: ../basics/service-ticket/follow-up.rst:154
-#, fuzzy
-#| msgid ""
-#| "To keep things under control, Zammad will alert you to potential "
-#| "conflicts by displaying an avatar in the lower-lefthand corner for every "
-#| "agent that has that ticket open."
 msgid ""
 "To keep things under control, Zammad will alert you to potential conflicts "
 "by displaying an avatar in the bottom bar (live user section) for every "
 "agent that has that ticket open."
 msgstr ""
 "Да бисте ствари држали под контролом, Zammad ће вас упозорити на "
-"потенцијалне сукобе тако што ће приказати аватар у доњем левом углу за "
-"сваког оператера који има отворени приказ тикета."
+"потенцијалне сукобе тако што ће приказати аватар у доњој траци (одељак "
+"присутних корисника) за сваког оператера који има отворени приказ тикета."
 
 #: ../basics/service-ticket/follow-up.rst:158
 msgid ""
@@ -5423,19 +5420,14 @@ msgstr ""
 "пуно примопредаја између оператера."
 
 #: ../extras/ai-features.rst:22
-#, fuzzy
-#| msgid ""
-#| "If the feature is activated, a summary of the ticket is generated when a "
-#| "ticket is opened. An indicator shows up on the AI summary sidebar tab to "
-#| "show you that a summary has been generated."
 msgid ""
 "If the feature is activated, a summary of the ticket is generated when the "
 "ticket got updated and you either open the ticket or open the summary "
 "sidebar tab of the ticket, depending on the configuration."
 msgstr ""
 "Уколико је функција укључена, сажети опис тикета ће бити припремљен при "
-"детаљном прегледу тикета. Биће приказан индикатор на језичку бочне траке као "
-"сигнал да је сажети опис спреман."
+"освежавању тикета и или отварањем детаљног прегледа тикета или бочне траке "
+"сажетог описа тикета, у зависности од подешавања."
 
 #: ../extras/ai-features.rst:26
 msgid ""
@@ -5443,6 +5435,9 @@ msgid ""
 "summary sidebar tab. This indicator is only displayed if the changes were "
 "not made by you (as you already know what the ticket is about)."
 msgstr ""
+"Уколико постоји нови сажети опис, приметићете мали пулсирајући индикатор на "
+"језичку бочне траке сажетог описа. Индикатор ће бити приказан само уколико "
+"нисте ви извршили измене (пошто ћете већ бити упознати са истим)."
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -5582,10 +5577,8 @@ msgstr ""
 "природе неуронских мрежа."
 
 #: ../extras/ai-features.rst:89
-#, fuzzy
-#| msgid "Agent"
 msgid "AI Agents"
-msgstr "Оператер"
+msgstr "AI агенти"
 
 #: ../extras/ai-features.rst:91
 msgid ""
@@ -5593,16 +5586,19 @@ msgid ""
 "feature is configured, you may notice it at some points. This is why you can "
 "find an explanation here."
 msgstr ""
+"Ова функција не омогућава интеракцију оператера. Међутим, уколико је "
+"подесите, можете је приметити у акцији у неком тренутку. Из тог разлога наћи "
+"ћете објашњење овде."
 
 #: ../extras/ai-features.rst:95
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
 msgstr ""
+"AI агенти могу бити подешени да раде на одређеним врстама рутинских "
+"задатака. Можете приметити AI агенте на различитим местима:"
 
 #: ../extras/ai-features.rst:106
-#, fuzzy
-#| msgid "Ticket History"
 msgid "Ticket history"
 msgstr "Историјат тикета"
 
@@ -5612,20 +5608,21 @@ msgid ""
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
+"Уколико AI агент освежи тикет, можете то и видети у евиденцији историјата "
+"тикета под називом AI агента. Уколико приметите проблеме са начином рада AI "
+"агента, обавестите о томе свог Zammad администратора."
 
 #: ../extras/ai-features.rst:103
 msgid "Example of a history entry of an AI agent:"
-msgstr ""
+msgstr "Пример евиденције историјата AI агента:"
 
 #: ../extras/ai-features.rst:0
-#, fuzzy
-#| msgid "Screenshots shows AI suggestion dialog"
 msgid "Screenshot shows AI agent ticket history entry"
-msgstr "Снимци екрана приказују AI дијалог предложених измена"
+msgstr "Снимак екрана приказује евиденцију историјата AI агента"
 
 #: ../extras/ai-features.rst:118
 msgid "Simultaneous work detection"
-msgstr ""
+msgstr "Детекција истовременог рада"
 
 #: ../extras/ai-features.rst:109
 msgid ""
@@ -5634,34 +5631,38 @@ msgid ""
 "duplicate work as well as losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
+"AI агенти који тренутно раде на тикету су приказани као и други оператери у "
+"доњој траци присутних корисника. Ово ће вам помоћи да избегнете истовремени "
+"рад као и губитак несачуваних измена. Уколико приметите сличицу AI агента, "
+"сачекајте тренутак или пређите на други тикет."
 
 #: ../extras/ai-features.rst:114
 msgid "Avatar of AI agent:"
-msgstr ""
+msgstr "Сличица AI агента:"
 
 #: ../extras/ai-features.rst:0
-#, fuzzy
-#| msgid "Screencast showing tags on answers"
 msgid "Screenshot shows avatar of an AI agent"
-msgstr "Снимак екрана који приказује ознаке у чланкцима"
+msgstr "Снимак екрана који приказује сличицу AI агента"
 
 #: ../extras/ai-features.rst:124
-#, fuzzy
-#| msgid "Overview"
 msgid "Overview indicator"
-msgstr "Преглед"
+msgstr "Индикатор прегледа"
 
 #: ../extras/ai-features.rst:121
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
 msgstr ""
+"AI агент који се извршава има индикатор у колони стања у прегледима. Кружић "
+"стања ће бити приказан у плаво-љубичастом градијенту:"
 
 #: ../extras/ai-features.rst:0
 msgid ""
 "Screenshot shows a status circle in overviews indicating an AI agent is "
 "currently working on it"
 msgstr ""
+"Снимак екрана приказује кружић стања у прегледима који указује на чињеницу "
+"да AI агент ради на тикету"
 
 #: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:152
 msgid "Caller Log"
