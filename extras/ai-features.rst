@@ -36,7 +36,8 @@ the following sections:
 - Customer intent
 - Conversation summary
 - Open questions (optional)
-- Suggested next steps (optional)
+- Upcoming events (optional)
+- Customer sentiment (optional)
 
 Smart Editor
 ------------
