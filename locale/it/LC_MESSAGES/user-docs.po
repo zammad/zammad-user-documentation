@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-24 15:06+0200\n"
+"POT-Creation-Date: 2025-08-08 15:39+0200\n"
 "PO-Revision-Date: 2024-11-13 12:00+0000\n"
 "Last-Translator: Cap6991 <an_96_drea@hotmail.it>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
@@ -4838,38 +4838,45 @@ msgid "Open questions (optional)"
 msgstr "Proprietario *(opzionale)*"
 
 #: ../extras/ai-features.rst:39
-msgid "Suggested next steps (optional)"
-msgstr ""
+#, fuzzy
+#| msgid "Owner *(optional)*"
+msgid "Upcoming events (optional)"
+msgstr "Proprietario *(opzionale)*"
 
-#: ../extras/ai-features.rst:42
+#: ../extras/ai-features.rst:40
+#, fuzzy
+msgid "Customer sentiment (optional)"
+msgstr "Cliente"
+
+#: ../extras/ai-features.rst:43
 msgid "Smart Editor"
 msgstr ""
 
-#: ../extras/ai-features.rst:44
+#: ../extras/ai-features.rst:45
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
 "article."
 msgstr ""
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:48
 msgid "The following tools are supported:"
 msgstr ""
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
 "misspellings and grammar issues."
 msgstr ""
 
-#: ../extras/ai-features.rst:52
+#: ../extras/ai-features.rst:53
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:55
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -4877,13 +4884,13 @@ msgid ""
 "AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:58
+#: ../extras/ai-features.rst:59
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
 msgstr ""
 
-#: ../extras/ai-features.rst:61
+#: ../extras/ai-features.rst:62
 msgid ""
 "To use any of these features, simply select the text you want to apply the "
 "changes to. You can select the whole text or just parts of it. This "
@@ -4895,7 +4902,7 @@ msgstr ""
 msgid "Screenshots shows selected text in article with AI text tools"
 msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
 
-#: ../extras/ai-features.rst:71
+#: ../extras/ai-features.rst:72
 msgid ""
 "After selecting an option, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -4905,50 +4912,50 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
-#: ../extras/ai-features.rst:79
+#: ../extras/ai-features.rst:80
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
 
-#: ../extras/ai-features.rst:84
+#: ../extras/ai-features.rst:85
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
 "nature of neural networks."
 msgstr ""
 
-#: ../extras/ai-features.rst:89
+#: ../extras/ai-features.rst:90
 msgid "AI Agents"
 msgstr ""
 
-#: ../extras/ai-features.rst:91
+#: ../extras/ai-features.rst:92
 msgid ""
 "This is no feature which allows any agent interaction. However, if the "
 "feature is configured, you may notice it at some points. This is why you can "
 "find an explanation here."
 msgstr ""
 
-#: ../extras/ai-features.rst:95
+#: ../extras/ai-features.rst:96
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
 msgstr ""
 
-#: ../extras/ai-features.rst:106
+#: ../extras/ai-features.rst:107
 #, fuzzy
 msgid "Ticket history"
 msgstr "Cronologia"
 
-#: ../extras/ai-features.rst:99
+#: ../extras/ai-features.rst:100
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:103
+#: ../extras/ai-features.rst:104
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -4956,11 +4963,11 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:118
+#: ../extras/ai-features.rst:119
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:110
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -4968,7 +4975,7 @@ msgid ""
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:114
+#: ../extras/ai-features.rst:115
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -4976,11 +4983,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:124
+#: ../extras/ai-features.rst:125
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:121
+#: ../extras/ai-features.rst:122
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-24 15:06+0200\n"
+"POT-Creation-Date: 2025-08-08 15:39+0200\n"
 "PO-Revision-Date: 2025-07-26 07:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -5633,14 +5633,22 @@ msgid "Open questions (optional)"
 msgstr "Offene Fragen (optional)"
 
 #: ../extras/ai-features.rst:39
-msgid "Suggested next steps (optional)"
-msgstr "Vorgeschlagene nächste Schritte (optional)"
+#, fuzzy
+#| msgid "Open questions (optional)"
+msgid "Upcoming events (optional)"
+msgstr "Offene Fragen (optional)"
 
-#: ../extras/ai-features.rst:42
+#: ../extras/ai-features.rst:40
+#, fuzzy
+#| msgid "Customer edit dialog"
+msgid "Customer sentiment (optional)"
+msgstr "Kunde bearbeiten Dialog"
+
+#: ../extras/ai-features.rst:43
 msgid "Smart Editor"
 msgstr "Smart Editor"
 
-#: ../extras/ai-features.rst:44
+#: ../extras/ai-features.rst:45
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
@@ -5650,11 +5658,11 @@ msgstr ""
 "der Beantwortung von Tickets zu vereinfachen und zu verbessern. Er hilft "
 "Ihnen mit Text-Tools, während Sie einen Artikel erstellen."
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:48
 msgid "The following tools are supported:"
 msgstr "Die folgenden Tools werden unterstützt:"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
@@ -5664,7 +5672,7 @@ msgstr ""
 "Richtung Klarheit, Prägnanz und Struktur zu verbessern sowie Rechtschreib- "
 "und Grammatikfehler zu beseitigen."
 
-#: ../extras/ai-features.rst:52
+#: ../extras/ai-features.rst:53
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
@@ -5672,7 +5680,7 @@ msgstr ""
 "**Rechtschreibung und Grammatik korrigieren**: Prüft Ihren Text und entfernt "
 "automatisch Rechtschreib- und Grammatikfehler."
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:55
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -5685,7 +5693,7 @@ msgstr ""
 "Informationen bereitstellen (z.B. als Stichworte) und die KI die Antwort "
 "schreiben lassen."
 
-#: ../extras/ai-features.rst:58
+#: ../extras/ai-features.rst:59
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
@@ -5693,7 +5701,7 @@ msgstr ""
 "**Vereinfachen**: Führt das Gegenteil von \"Erweitern\" aus und vereinfacht "
 "und kürzt Ihren Text, während Ihre Botschaft erhalten bleibt."
 
-#: ../extras/ai-features.rst:61
+#: ../extras/ai-features.rst:62
 msgid ""
 "To use any of these features, simply select the text you want to apply the "
 "changes to. You can select the whole text or just parts of it. This "
@@ -5708,7 +5716,7 @@ msgstr ""
 msgid "Screenshots shows selected text in article with AI text tools"
 msgstr "Screenshot zeigt ausgewählten Text im Artikel mit KI-Text-Tools"
 
-#: ../extras/ai-features.rst:71
+#: ../extras/ai-features.rst:72
 msgid ""
 "After selecting an option, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -5720,7 +5728,7 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr "Screenshot zeigt Dialog mit KI-Vorschlag"
 
-#: ../extras/ai-features.rst:79
+#: ../extras/ai-features.rst:80
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
@@ -5731,7 +5739,7 @@ msgstr ""
 "akzeptiert haben, können Sie den Text immer noch im Artikel-Editor "
 "bearbeiten."
 
-#: ../extras/ai-features.rst:84
+#: ../extras/ai-features.rst:85
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
@@ -5741,11 +5749,11 @@ msgstr ""
 "entwickelt wurde, kann es aufgrund des Aufbaus neuronaler Netze in "
 "Einzelfällen trotzdem zu kleineren Fehlern kommen."
 
-#: ../extras/ai-features.rst:89
+#: ../extras/ai-features.rst:90
 msgid "AI Agents"
 msgstr "KI-Agenten"
 
-#: ../extras/ai-features.rst:91
+#: ../extras/ai-features.rst:92
 msgid ""
 "This is no feature which allows any agent interaction. However, if the "
 "feature is configured, you may notice it at some points. This is why you can "
@@ -5755,7 +5763,7 @@ msgstr ""
 "die Funktion jedoch konfiguriert ist, können Sie sie an einigen Stellen "
 "bemerken. Deshalb finden Sie hier eine Erklärung."
 
-#: ../extras/ai-features.rst:95
+#: ../extras/ai-features.rst:96
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
@@ -5764,11 +5772,11 @@ msgstr ""
 "Routineaufgaben übernehmen. Sie werden die KI-Agenten an verschiedenen "
 "Stellen bemerken:"
 
-#: ../extras/ai-features.rst:106
+#: ../extras/ai-features.rst:107
 msgid "Ticket history"
 msgstr "Ticket-Historie"
 
-#: ../extras/ai-features.rst:99
+#: ../extras/ai-features.rst:100
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -5779,7 +5787,7 @@ msgstr ""
 "anhaltende Probleme mit der Arbeit des KI-Agenten feststellen, informieren "
 "Sie Ihren Zammad-Administrator."
 
-#: ../extras/ai-features.rst:103
+#: ../extras/ai-features.rst:104
 msgid "Example of a history entry of an AI agent:"
 msgstr "Beispiel für einen Eintrag in die Ticket-Historie eines KI Agenten:"
 
@@ -5787,11 +5795,11 @@ msgstr "Beispiel für einen Eintrag in die Ticket-Historie eines KI Agenten:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "Screenshot zeigt Eintrag in Ticket-Historie des KI Agenten"
 
-#: ../extras/ai-features.rst:118
+#: ../extras/ai-features.rst:119
 msgid "Simultaneous work detection"
 msgstr "Erkennung gleichzeitige Ticketbearbeitung"
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:110
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -5804,7 +5812,7 @@ msgstr ""
 "vermeiden. Wenn Sie einen Avatar eines KI-Agenten sehen, warten Sie einen "
 "Moment oder wechseln Sie zu einem anderen Ticket."
 
-#: ../extras/ai-features.rst:114
+#: ../extras/ai-features.rst:115
 msgid "Avatar of AI agent:"
 msgstr "Avatar eines KI Agenten:"
 
@@ -5812,11 +5820,11 @@ msgstr "Avatar eines KI Agenten:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "Screenshot zeigt Avatar eines KI-Agenten"
 
-#: ../extras/ai-features.rst:124
+#: ../extras/ai-features.rst:125
 msgid "Overview indicator"
 msgstr "Indikator in Übersichten"
 
-#: ../extras/ai-features.rst:121
+#: ../extras/ai-features.rst:122
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -9514,6 +9522,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
 "außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
 "Dokumentationen </index.html>` verfügbar."
+
+#~ msgid "Suggested next steps (optional)"
+#~ msgstr "Vorgeschlagene nächste Schritte (optional)"
 
 #~ msgid "article.attachment.content_type: string (File type e.g. PDF)"
 #~ msgstr "article.attachment.content_type: string (Dateityp z.B. PDF)"
