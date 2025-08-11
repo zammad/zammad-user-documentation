@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-24 15:06+0200\n"
+"POT-Creation-Date: 2025-08-08 15:39+0200\n"
 "PO-Revision-Date: 2025-08-02 16:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
@@ -2355,8 +2355,8 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
-"Уколико приметите кружић са плавим/љубичастим градијентом, он индикује да "
-":doc:`AI агент </extras/ai-features>` тренутно ради на тикету."
+"Уколико приметите кружић са плавим/љубичастим градијентом, он индикује "
+"да :doc:`AI агент </extras/ai-features>` тренутно ради на тикету."
 
 #: ../basics/find-ticket/browse.rst:38
 msgid ""
@@ -5468,14 +5468,22 @@ msgid "Open questions (optional)"
 msgstr "Отворена питања (опционо)"
 
 #: ../extras/ai-features.rst:39
-msgid "Suggested next steps (optional)"
-msgstr "Предложени следећи кораци (опционо)"
+#, fuzzy
+#| msgid "Open questions (optional)"
+msgid "Upcoming events (optional)"
+msgstr "Отворена питања (опционо)"
 
-#: ../extras/ai-features.rst:42
+#: ../extras/ai-features.rst:40
+#, fuzzy
+#| msgid "Customer edit dialog"
+msgid "Customer sentiment (optional)"
+msgstr "Дијалог измене клијента"
+
+#: ../extras/ai-features.rst:43
 msgid "Smart Editor"
 msgstr "Smart Editor"
 
-#: ../extras/ai-features.rst:44
+#: ../extras/ai-features.rst:45
 msgid ""
 "The new AI-powered smart editor is designed to simplify and enhance your "
 "ticket response workflow. It helps you with text tools while you create an "
@@ -5485,11 +5493,11 @@ msgstr ""
 "унапреди ваш радни ток обраде тикета. Помаже вам преко текстуалних алатки "
 "док пишете чланак."
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:48
 msgid "The following tools are supported:"
 msgstr "Следеће алатке су подржане:"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:50
 msgid ""
 "**Improve writing**: Uses your text as a base and tries to improve it by "
 "enhancing clarity, conciseness and structure as well as removing "
@@ -5499,7 +5507,7 @@ msgstr ""
 "унапређењем јасноће, прецизности и структуре, притом отклањајући грешке у "
 "правопису и граматици."
 
-#: ../extras/ai-features.rst:52
+#: ../extras/ai-features.rst:53
 msgid ""
 "**Fix spelling and grammar**: Just proofreads your text and automatically "
 "removes spelling and grammar mistakes."
@@ -5507,7 +5515,7 @@ msgstr ""
 "**Исправи правопис и граматику**: само лекторише ваш текст и аутоматски "
 "отклања грешке у правопису и граматици."
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:55
 msgid ""
 "**Expand**: Expands your text while keeping your message. Useful if your "
 "customer expects more than some bullet points as an answer. You can even use "
@@ -5519,7 +5527,7 @@ msgstr ""
 "искористити прилагањем само основних информација (нпр. путем листе са "
 "тачкама) и пуштањем AI да напише одговор."
 
-#: ../extras/ai-features.rst:58
+#: ../extras/ai-features.rst:59
 msgid ""
 "**Simplify**: Does the opposite of the expansion and shrinks your text while "
 "keeping your message."
@@ -5527,7 +5535,7 @@ msgstr ""
 "**Поједностави**: ради супротно од проширења и сажима ваш текст одржавајући "
 "вашу мисао."
 
-#: ../extras/ai-features.rst:61
+#: ../extras/ai-features.rst:62
 msgid ""
 "To use any of these features, simply select the text you want to apply the "
 "changes to. You can select the whole text or just parts of it. This "
@@ -5544,7 +5552,7 @@ msgstr ""
 "Снимци екрана који приказују обележени текст чланка са AI текстуалним "
 "алаткама"
 
-#: ../extras/ai-features.rst:71
+#: ../extras/ai-features.rst:72
 msgid ""
 "After selecting an option, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -5556,7 +5564,7 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr "Снимци екрана приказују AI дијалог предложених измена"
 
-#: ../extras/ai-features.rst:79
+#: ../extras/ai-features.rst:80
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
@@ -5566,7 +5574,7 @@ msgstr ""
 "чланак. По прихватању предлога, и даље можете уредити текст чланка у "
 "уреднику."
 
-#: ../extras/ai-features.rst:84
+#: ../extras/ai-features.rst:85
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
@@ -5576,11 +5584,11 @@ msgstr ""
 "даље може доћи до мањих проблема у појединачним случајевима услед саме "
 "природе неуронских мрежа."
 
-#: ../extras/ai-features.rst:89
+#: ../extras/ai-features.rst:90
 msgid "AI Agents"
 msgstr "AI агенти"
 
-#: ../extras/ai-features.rst:91
+#: ../extras/ai-features.rst:92
 msgid ""
 "This is no feature which allows any agent interaction. However, if the "
 "feature is configured, you may notice it at some points. This is why you can "
@@ -5590,7 +5598,7 @@ msgstr ""
 "подесите, можете је приметити у акцији у неком тренутку. Из тог разлога наћи "
 "ћете објашњење овде."
 
-#: ../extras/ai-features.rst:95
+#: ../extras/ai-features.rst:96
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
@@ -5598,11 +5606,11 @@ msgstr ""
 "AI агенти могу бити подешени да раде на одређеним врстама рутинских "
 "задатака. Можете приметити AI агенте на различитим местима:"
 
-#: ../extras/ai-features.rst:106
+#: ../extras/ai-features.rst:107
 msgid "Ticket history"
 msgstr "Историјат тикета"
 
-#: ../extras/ai-features.rst:99
+#: ../extras/ai-features.rst:100
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -5612,7 +5620,7 @@ msgstr ""
 "тикета под називом AI агента. Уколико приметите проблеме са начином рада AI "
 "агента, обавестите о томе свог Zammad администратора."
 
-#: ../extras/ai-features.rst:103
+#: ../extras/ai-features.rst:104
 msgid "Example of a history entry of an AI agent:"
 msgstr "Пример евиденције историјата AI агента:"
 
@@ -5620,11 +5628,11 @@ msgstr "Пример евиденције историјата AI агента:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "Снимак екрана приказује евиденцију историјата AI агента"
 
-#: ../extras/ai-features.rst:118
+#: ../extras/ai-features.rst:119
 msgid "Simultaneous work detection"
 msgstr "Детекција истовременог рада"
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:110
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -5636,7 +5644,7 @@ msgstr ""
 "рад као и губитак несачуваних измена. Уколико приметите сличицу AI агента, "
 "сачекајте тренутак или пређите на други тикет."
 
-#: ../extras/ai-features.rst:114
+#: ../extras/ai-features.rst:115
 msgid "Avatar of AI agent:"
 msgstr "Сличица AI агента:"
 
@@ -5644,11 +5652,11 @@ msgstr "Сличица AI агента:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "Снимак екрана који приказује сличицу AI агента"
 
-#: ../extras/ai-features.rst:124
+#: ../extras/ai-features.rst:125
 msgid "Overview indicator"
 msgstr "Индикатор прегледа"
 
-#: ../extras/ai-features.rst:121
+#: ../extras/ai-features.rst:122
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -9234,6 +9242,9 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid "Suggested next steps (optional)"
+#~ msgstr "Предложени следећи кораци (опционо)"
 
 #~ msgid "article.attachment.content_type: string (File type e.g. PDF)"
 #~ msgstr "article.attachment.content_type: текст (тип датотеке, нпр. PDF)"
