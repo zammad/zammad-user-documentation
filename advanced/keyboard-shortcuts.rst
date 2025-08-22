@@ -121,6 +121,12 @@ Key / key combination                      Function
 Text Editing
 ^^^^^^^^^^^^
 
+.. hint:: The most important formatting options are also available in the bubble
+   menu. It automatically appears when you select text in the editor.
+
+   .. figure:: /images/basics/editor-bubble-menu.png
+      :alt: Screenshot shows editor bubble menu to format text.
+
 How
    You can apply a text format *before* typing or *after* typing. Example:
 
