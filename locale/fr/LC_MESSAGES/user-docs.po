@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 15:39+0200\n"
+"POT-Creation-Date: 2025-08-22 11:13+0200\n"
 "PO-Revision-Date: 2024-10-07 17:00+0000\n"
 "Last-Translator: Misha <misha@association-enoria.org>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -133,14 +133,14 @@ msgstr "Navigation"
 #: ../advanced/keyboard-shortcuts.rst:62 ../advanced/keyboard-shortcuts.rst:90
 #: ../advanced/keyboard-shortcuts.rst:100
 #: ../advanced/keyboard-shortcuts.rst:109
-#: ../advanced/keyboard-shortcuts.rst:141
+#: ../advanced/keyboard-shortcuts.rst:147
 msgid "Key / key combination"
 msgstr "Touche / combinaison de touche"
 
 #: ../advanced/keyboard-shortcuts.rst:62 ../advanced/keyboard-shortcuts.rst:90
 #: ../advanced/keyboard-shortcuts.rst:100
 #: ../advanced/keyboard-shortcuts.rst:109
-#: ../advanced/keyboard-shortcuts.rst:141
+#: ../advanced/keyboard-shortcuts.rst:147
 msgid "Function"
 msgstr "Fonction"
 
@@ -394,180 +394,191 @@ msgstr "Mentionner un utilisateur (en rédaction d'article)"
 msgid "Text Editing"
 msgstr "Édition de texte"
 
-#: ../advanced/keyboard-shortcuts.rst:137
+#: ../advanced/keyboard-shortcuts.rst:124
+msgid ""
+"The most important formatting options are also available in the bubble menu. "
+"It automatically appears when you select text in the editor."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:0
+#: ../snippets/ui-protip-message-editor-features.rst:0
+msgid "Screenshot shows editor bubble menu to format text."
+msgstr ""
+
+#: ../advanced/keyboard-shortcuts.rst:143
 msgid "How"
 msgstr "Comment"
 
-#: ../advanced/keyboard-shortcuts.rst:125
+#: ../advanced/keyboard-shortcuts.rst:131
 msgid "You can apply a text format *before* typing or *after* typing. Example:"
 msgstr ""
 "Vous pouvez appliquer un formatage de texte *avant* ou *après* la saisie. "
 "Exemple :"
 
-#: ../advanced/keyboard-shortcuts.rst:127
+#: ../advanced/keyboard-shortcuts.rst:133
 msgid "Before typing:"
 msgstr "Avant la saisie :"
 
-#: ../advanced/keyboard-shortcuts.rst:129
+#: ../advanced/keyboard-shortcuts.rst:135
 #, fuzzy
 #| msgid "Press ``cmd`` + ``i`` to enter *italics* mode,"
 msgid "Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,"
 msgstr "Appuyez sur ``Cmd`` + ``I`` pour écrire en italique,"
 
-#: ../advanced/keyboard-shortcuts.rst:130
+#: ../advanced/keyboard-shortcuts.rst:136
 msgid "enter your desired text, and"
 msgstr "saisissez le texte souhaité, et"
 
-#: ../advanced/keyboard-shortcuts.rst:131
+#: ../advanced/keyboard-shortcuts.rst:137
 #, fuzzy
 #| msgid "press ``cmd`` + ``i`` again to return to normal text mode."
 msgid "press :kbd:`ctrl` :kbd:`i` again to return to normal text mode."
 msgstr ""
 "appuyez à nouveau sur ``Cmd`` + ``i`` pour retourner en mode texte normal."
 
-#: ../advanced/keyboard-shortcuts.rst:133
+#: ../advanced/keyboard-shortcuts.rst:139
 msgid "After typing:"
 msgstr "Après la saisie :"
 
-#: ../advanced/keyboard-shortcuts.rst:135
+#: ../advanced/keyboard-shortcuts.rst:141
 msgid "Enter your desired text,"
 msgstr "Entrez le texte souhaité,"
 
-#: ../advanced/keyboard-shortcuts.rst:136
+#: ../advanced/keyboard-shortcuts.rst:142
 msgid "click-and-drag with the mouse to select it, and"
 msgstr "faites un cliquer-glisser avec la souris pour le sélectionner, et"
 
-#: ../advanced/keyboard-shortcuts.rst:137
+#: ../advanced/keyboard-shortcuts.rst:143
 #, fuzzy
 #| msgid "press ``cmd`` + ``i`` to set the text in *italics*."
 msgid "press :kbd:`ctrl` :kbd:`i` to set the text in *italics*."
 msgstr "appuyez sur ``Cmd`` + ``i`` pour mettre en *italique*."
 
-#: ../advanced/keyboard-shortcuts.rst:158
+#: ../advanced/keyboard-shortcuts.rst:164
 msgid "Key Combinations"
 msgstr "Combinaisons de touches"
 
-#: ../advanced/keyboard-shortcuts.rst:143
+#: ../advanced/keyboard-shortcuts.rst:149
 msgid ":kbd:`ctrl` :kbd:`u`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:143
+#: ../advanced/keyboard-shortcuts.rst:149
 msgid "Format text underlined"
 msgstr "Souligner le texte"
 
-#: ../advanced/keyboard-shortcuts.rst:144
+#: ../advanced/keyboard-shortcuts.rst:150
 msgid ":kbd:`ctrl` :kbd:`b`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:144
+#: ../advanced/keyboard-shortcuts.rst:150
 msgid "Format text in **bold**"
 msgstr "Mettre le texte en **gras**"
 
-#: ../advanced/keyboard-shortcuts.rst:145
+#: ../advanced/keyboard-shortcuts.rst:151
 msgid ":kbd:`ctrl` :kbd:`i`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:145
+#: ../advanced/keyboard-shortcuts.rst:151
 msgid "Format text in *italics*"
 msgstr "Mettre le texte en *italique*"
 
-#: ../advanced/keyboard-shortcuts.rst:146
+#: ../advanced/keyboard-shortcuts.rst:152
 msgid ":kbd:`ctrl` :kbd:`s`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:146
+#: ../advanced/keyboard-shortcuts.rst:152
 msgid "Format text as  ̶s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶"
 msgstr "Barrer le texte"
 
-#: ../advanced/keyboard-shortcuts.rst:147
+#: ../advanced/keyboard-shortcuts.rst:153
 msgid ":kbd:`ctrl` :kbd:`v`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:147
+#: ../advanced/keyboard-shortcuts.rst:153
 msgid "Paste text from clipboard"
 msgstr "Coller le texte depuis le presse-papiers"
 
-#: ../advanced/keyboard-shortcuts.rst:148
+#: ../advanced/keyboard-shortcuts.rst:154
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`v`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:148
+#: ../advanced/keyboard-shortcuts.rst:154
 msgid "Paste text from clipboard (as plain text)"
 msgstr "Coller le texte depuis le presse-papiers (en tant que texte brut)"
 
-#: ../advanced/keyboard-shortcuts.rst:149
+#: ../advanced/keyboard-shortcuts.rst:155
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`f`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:149
+#: ../advanced/keyboard-shortcuts.rst:155
 msgid "Remove formatting of text"
 msgstr "Supprimer le formatage de texte"
 
-#: ../advanced/keyboard-shortcuts.rst:150
+#: ../advanced/keyboard-shortcuts.rst:156
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`y`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:150
+#: ../advanced/keyboard-shortcuts.rst:156
 msgid "Remove formatting of the whole text"
 msgstr "Supprimer le formatage de l'intégralité du texte"
 
-#: ../advanced/keyboard-shortcuts.rst:151
+#: ../advanced/keyboard-shortcuts.rst:157
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`z`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:151
+#: ../advanced/keyboard-shortcuts.rst:157
 msgid "Insert a horizontal line"
 msgstr "Insérer une ligne horizontale"
 
-#: ../advanced/keyboard-shortcuts.rst:152
+#: ../advanced/keyboard-shortcuts.rst:158
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`l`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:152
+#: ../advanced/keyboard-shortcuts.rst:158
 msgid "Format as unordered list"
 msgstr "Formater une liste sans ordre"
 
-#: ../advanced/keyboard-shortcuts.rst:153
+#: ../advanced/keyboard-shortcuts.rst:159
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`k`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:153
+#: ../advanced/keyboard-shortcuts.rst:159
 msgid "Format as ordered list"
 msgstr "Formater une liste ordonnée"
 
-#: ../advanced/keyboard-shortcuts.rst:154
+#: ../advanced/keyboard-shortcuts.rst:160
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`1`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:154
+#: ../advanced/keyboard-shortcuts.rst:160
 msgid "Format as h1 heading"
 msgstr "Formater en tant que titre h1"
 
-#: ../advanced/keyboard-shortcuts.rst:155
+#: ../advanced/keyboard-shortcuts.rst:161
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`2`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:155
+#: ../advanced/keyboard-shortcuts.rst:161
 msgid "Format as h2 heading"
 msgstr "Formater en tant que titre h2"
 
-#: ../advanced/keyboard-shortcuts.rst:156
+#: ../advanced/keyboard-shortcuts.rst:162
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`3`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:156
+#: ../advanced/keyboard-shortcuts.rst:162
 msgid "Format as h3 heading"
 msgstr "Formater en tant que titre h3"
 
-#: ../advanced/keyboard-shortcuts.rst:157
+#: ../advanced/keyboard-shortcuts.rst:163
 msgid ":kbd:`shift` :kbd:`ctrl` :kbd:`x`"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:157
+#: ../advanced/keyboard-shortcuts.rst:163
 msgid "Remove any hyperlink"
 msgstr "Enlever tous les liens"
 
-#: ../advanced/keyboard-shortcuts.rst:160
+#: ../advanced/keyboard-shortcuts.rst:166
 msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
@@ -2639,14 +2650,19 @@ msgstr ""
 "**🔤 texte riche**, **🌄 images** et **📎 pièces jointes**."
 
 #: ../snippets/ui-protip-message-editor-features.rst:6
+#, fuzzy
+#| msgid ""
+#| "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` "
+#| "to apply rich text formatting."
 msgid ""
 "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"apply rich text formatting."
+"apply rich text formatting or select text and use a formatting option from "
+"the bubble menu which shows up after selecting text."
 msgstr ""
 "Utilisez les :doc:`raccourcis clavier </advanced/keyboard-shortcuts>` "
 "intégrés pour appliquer un formatage de texte riche."
 
-#: ../snippets/ui-protip-message-editor-features.rst:8
+#: ../snippets/ui-protip-message-editor-features.rst:13
 msgid ""
 "Use the 🗊 icon next to the ticket title to copy the ticket number to your "
 "clipboard (including ticket hook; e.g. ``Ticket#50071``)."
