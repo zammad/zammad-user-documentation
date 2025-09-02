@@ -42,17 +42,17 @@ the following sections:
 Writing Assistant Tools
 -----------------------
 
-The new AI-powered writing assistant tools are designed to simplify and enhance
+The AI-powered writing assistant tools are designed to simplify and enhance
 your ticket response workflow while you create an article.
-To use a text tool, select the text you want to apply the changes to which opens
-a bubble menu. In this menu, open the list of available tools by clicking the
+To use a text tool, select the text you want to apply the changes to. This opens
+a bubble menu in which you can open the list of available tools by clicking the
 writing assistant tools button.
 
 .. figure:: /images/extras/ai/ticket-text-tools.png
    :alt: Screenshots shows selected text in article with AI text tools
    :align: center
 
-Zammad ships some tools by default. The availability depends on the
+Zammad ships default writing assistant tools. The availability depends on the
 configuration of your Zammad instance. You might even have additional custom
 tools in case your admin added them.
 
@@ -61,7 +61,7 @@ tools in case your admin added them.
   clarity and conciseness and as well as removing misspellings and grammar
   issues. You can even use it by providing only basic information (e.g. via
   bullet points) and let the AI write the answer.
-- **Fix spelling and grammar**: Just proofreads your text and removes spelling
+- **Fix spelling and grammar**: Proofreads your text and removes spelling
   and grammar mistakes.
 - **Summarize section to about half its current size**: Shrinks your text while
   keeping the message and the tone of the text.
