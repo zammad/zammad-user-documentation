@@ -49,7 +49,7 @@ opens a bubble menu in which you can open the list of available tools by
 clicking the writing assistant tools button.
 
 .. figure:: /images/extras/ai/ticket-text-tools.png
-   :alt: Screenshots shows selected text in article with AI text tools
+   :alt: Screenshots shows selected text in editor with opened writing assistant tools menu
    :align: center
 
 Zammad ships default writing assistant tools. The availability depends on the
