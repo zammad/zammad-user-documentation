@@ -44,9 +44,9 @@ Writing Assistant Tools
 
 The AI-powered writing assistant tools are designed to simplify and enhance
 your ticket response workflow while you create an article.
-To use a text tool, select the text you want to apply the changes to. This opens
-a bubble menu in which you can open the list of available tools by clicking the
-writing assistant tools button.
+To use such a tool, select the text you want to apply the changes to. This
+opens a bubble menu in which you can open the list of available tools by
+clicking the writing assistant tools button.
 
 .. figure:: /images/extras/ai/ticket-text-tools.png
    :alt: Screenshots shows selected text in article with AI text tools
@@ -59,7 +59,7 @@ tools in case your admin added them.
 - **Expand draft into well-written section**: Uses your draft as a base and
   tries to elaborate a proper text. It tries to add a structure and to enhance
   clarity and conciseness and as well as removing misspellings and grammar
-  issues. You can even use it by providing only basic information (e.g. via
+  errors. You can even use it by providing only basic information (e.g. via
   bullet points) and let the AI write the answer.
 - **Fix spelling and grammar**: Proofreads your text and removes spelling
   and grammar mistakes.
