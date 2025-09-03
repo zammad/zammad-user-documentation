@@ -39,42 +39,40 @@ the following sections:
 - Upcoming events (optional)
 - Customer sentiment (optional)
 
-Smart Editor
-------------
+Writing Assistant Tools
+-----------------------
 
-The new AI-powered smart editor is designed to simplify and enhance your ticket
-response workflow. It helps you with text tools while you create an article.
-
-The following tools are supported:
-
-- **Improve writing**: Uses your text as a base and tries to improve it by
-  enhancing clarity, conciseness and structure as well as removing misspellings
-  and grammar issues.
-- **Fix spelling and grammar**: Just proofreads your text and automatically
-  removes spelling and grammar mistakes.
-- **Expand**: Expands your text while keeping your message. Useful if your
-  customer expects more than some bullet points as an answer. You can even use
-  it by providing only basic information (e.g. via bullet points) and let the
-  AI write the answer.
-- **Simplify**: Does the opposite of the expansion and shrinks your text while
-  keeping your message.
-
-To use any of these features, simply select the text you want to
-apply the changes to. You can select the whole text or just parts of it.
-This automatically opens a menu where you can select one of the available
-options:
+The AI-powered writing assistant tools are designed to simplify and enhance
+your ticket response workflow while you create an article.
+To use such a tool, select the text you want to apply the changes to. This
+opens a bubble menu in which you can open the list of available tools by
+clicking the writing assistant tools button.
 
 .. figure:: /images/extras/ai/ticket-text-tools.png
-   :alt: Screenshots shows selected text in article with AI text tools
-   :scale: 80%
+   :alt: Screenshots shows selected text in editor with opened writing assistant tools menu
    :align: center
 
-After selecting an option, Zammad shows a dialog where you can compare the
+Zammad ships default writing assistant tools. The availability depends on the
+configuration of your Zammad instance. You might even have additional custom
+tools in case your admin added them.
+
+- **Expand draft into well-written section**: Uses your draft as a base and
+  tries to elaborate a proper text. It tries to add a structure and to enhance
+  clarity and conciseness and as well as removing misspellings and grammar
+  errors. You can even use it by providing only basic information (e.g. via
+  bullet points) and let the AI write the answer.
+- **Fix spelling and grammar**: Proofreads your text and removes spelling
+  and grammar mistakes.
+- **Summarize section to about half its current size**: Shrinks your text while
+  keeping the message and the tone of the text.
+- **Rewrite complex section and make it easy to understand**: Removes
+  unnecessary parts and rewrites your text in a clear and understandable way.
+
+After selecting a tool, Zammad shows a dialog where you can compare the
 original text and the AI suggestion:
 
 .. figure:: /images/extras/ai/text-tools-approval-dialog.png
    :alt: Screenshots shows AI suggestion dialog
-   :scale: 80%
    :align: center
 
 Click on the **Approve** button to accept the changes and to insert it in the
