@@ -5,15 +5,13 @@ With Zammad, you can limit your search to specific attributes.
 This allows you to find e.g. tickets with specific key words and states.
 Below information will help you to improve your search results.
 
-For instance you can search for a specific customer
-by using ``customer.attribute``::
+For instance, you can search for a ticket of a specific customer::
 
    customer.firstname: John
 
 or::
 
    customer.lastname: Doe
-
 
 If you want to run a more complex search, you can use conditions
 with ``()`` and ``AND``/``OR`` options::
