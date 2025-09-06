@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 11:13+0200\n"
+"POT-Creation-Date: 2025-09-04 10:31+0200\n"
 "PO-Revision-Date: 2024-11-19 05:00+0000\n"
 "Last-Translator: sesoltani <se.soltani@hotmail.com>\n"
 "Language-Team: Persian <https://translations.zammad.org/projects/"
@@ -668,33 +668,31 @@ msgid ""
 msgstr ""
 
 #: ../advanced/search.rst:8
-msgid ""
-"For instance you can search for a specific customer by using "
-"``customer.attribute``::"
+msgid "For instance, you can search for a ticket of a specific customer::"
 msgstr ""
 
-#: ../advanced/search.rst:13
+#: ../advanced/search.rst:12
 msgid "or::"
 msgstr ""
 
-#: ../advanced/search.rst:18
+#: ../advanced/search.rst:16
 msgid ""
 "If you want to run a more complex search, you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
 
-#: ../advanced/search.rst:24
+#: ../advanced/search.rst:22
 msgid "Available Attributes"
 msgstr ""
 
-#: ../advanced/search.rst:28
+#: ../advanced/search.rst:26
 msgid ""
 "For a more detailed list of available attributes please take a look into "
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
 
-#: ../advanced/search.rst:35
+#: ../advanced/search.rst:33
 msgid "Attributes and their usage"
 msgstr ""
 
@@ -847,11 +845,11 @@ msgid ""
 "the attributes allows it."
 msgstr ""
 
-#: ../advanced/search.rst:48
+#: ../advanced/search.rst:46
 msgid "Combining Search Phrases"
 msgstr ""
 
-#: ../advanced/search.rst:50
+#: ../advanced/search.rst:48
 msgid ""
 "You can combine search phrases by using ``AND``, ``OR`` and ``TO``, "
 "depending on the situation and phrases you use. If needed, you can parts of "
@@ -861,7 +859,7 @@ msgid ""
 "Below are some examples that you could use with this:"
 msgstr ""
 
-#: ../advanced/search.rst:57
+#: ../advanced/search.rst:55
 msgid "Examples for search phrase combinations"
 msgstr ""
 
@@ -908,178 +906,178 @@ msgstr ""
 msgid "Show everything with any pending state and an article count of 1 to 5."
 msgstr ""
 
-#: ../advanced/search.rst:67
+#: ../advanced/search.rst:65
 msgid "Some Ticket Attributes and Their Type"
 msgstr ""
 
-#: ../advanced/search.rst:69
+#: ../advanced/search.rst:67
 msgid ""
 "Below you can find the most important attributes sorted by ticket and "
 "article."
 msgstr ""
 
-#: ../advanced/search.rst:72
+#: ../advanced/search.rst:70
 msgid "Ticket Attributes"
 msgstr ""
 
-#: ../advanced/search.rst:74
+#: ../advanced/search.rst:72
 msgid "number: string"
 msgstr ""
 
-#: ../advanced/search.rst:75
+#: ../advanced/search.rst:73
 msgid "title: string"
 msgstr ""
 
-#: ../advanced/search.rst:76
+#: ../advanced/search.rst:74
 msgid "group: object (group.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:77
+#: ../advanced/search.rst:75
 msgid "priority: object (priority.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:78
+#: ../advanced/search.rst:76
 msgid "state: object (state.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:79
+#: ../advanced/search.rst:77
 msgid "organization: object (organization.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:80
+#: ../advanced/search.rst:78
 msgid "owner: object (owner.firstname, owner.lastname, owner.email, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:81
+#: ../advanced/search.rst:79
 msgid ""
 "customer: object (customer.firstname, customer.lastname, customer.email, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:83
+#: ../advanced/search.rst:81
 msgid "first_response_at: timestamp"
 msgstr ""
 
-#: ../advanced/search.rst:84
+#: ../advanced/search.rst:82
 msgid "first_response_in_min: integer (business min till first response)"
 msgstr ""
 
-#: ../advanced/search.rst:85
+#: ../advanced/search.rst:83
 msgid "close_at: timestamp"
 msgstr ""
 
-#: ../advanced/search.rst:86
+#: ../advanced/search.rst:84
 msgid "close_in_min: integer (business min till close)"
 msgstr ""
 
-#: ../advanced/search.rst:87
+#: ../advanced/search.rst:85
 msgid "last_contact_at: timestamp (last contact by customer or agent)"
 msgstr ""
 
-#: ../advanced/search.rst:88
+#: ../advanced/search.rst:86
 msgid "last_contact_agent_at: timestamp (last contact by agent)"
 msgstr ""
 
-#: ../advanced/search.rst:89
+#: ../advanced/search.rst:87
 msgid "last_contact_customer_at: timestamp (last contact by customer)"
 msgstr ""
 
-#: ../advanced/search.rst:90
+#: ../advanced/search.rst:88
 msgid "create_article_type.name: string (email|phone|web|...)"
 msgstr ""
 
-#: ../advanced/search.rst:91
+#: ../advanced/search.rst:89
 msgid "create_article_sender: string (Customer|Agent|System)"
 msgstr ""
 
-#: ../advanced/search.rst:92
+#: ../advanced/search.rst:90
 msgid "article_count: integer"
 msgstr ""
 
-#: ../advanced/search.rst:93
+#: ../advanced/search.rst:91
 msgid "escalation_at: timestamp"
 msgstr ""
 
-#: ../advanced/search.rst:94
+#: ../advanced/search.rst:92
 msgid "pending_time: timestamp"
 msgstr ""
 
-#: ../advanced/search.rst:97
+#: ../advanced/search.rst:95
 msgid "Article Attributes"
 msgstr ""
 
-#: ../advanced/search.rst:99
+#: ../advanced/search.rst:97
 msgid "article.from: string"
 msgstr ""
 
-#: ../advanced/search.rst:100
+#: ../advanced/search.rst:98
 msgid "article.to: string"
 msgstr ""
 
-#: ../advanced/search.rst:101
+#: ../advanced/search.rst:99
 msgid "article.cc: string"
 msgstr ""
 
-#: ../advanced/search.rst:102
+#: ../advanced/search.rst:100
 msgid "article.subject: string"
 msgstr ""
 
-#: ../advanced/search.rst:103
+#: ../advanced/search.rst:101
 msgid "article.body: string"
 msgstr ""
 
-#: ../advanced/search.rst:104
+#: ../advanced/search.rst:102
 msgid "article.attachment.title: string (filename of attachment)"
 msgstr ""
 
-#: ../advanced/search.rst:105
+#: ../advanced/search.rst:103
 msgid "article.attachment.content: string (content of attachment)"
 msgstr ""
 
-#: ../advanced/search.rst:106
+#: ../advanced/search.rst:104
 msgid ""
 "article.attachment.content_type: string (MIME type, e.g. ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``; see hint)"
 msgstr ""
 
-#: ../advanced/search.rst:111
+#: ../advanced/search.rst:109
 msgid ""
 "If a search for a file type doesn't work, you have to provide the `MIME type "
 "<https://docs.w3cub.com/http/basics_of_http/mime_types/"
 "complete_list_of_mime_types.html>`_."
 msgstr ""
 
-#: ../advanced/search.rst:113
+#: ../advanced/search.rst:111
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
 msgstr ""
 
-#: ../advanced/search.rst:114
+#: ../advanced/search.rst:112
 msgid "Examples:"
 msgstr ""
 
-#: ../advanced/search.rst:116
+#: ../advanced/search.rst:114
 msgid ""
 "Libreoffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
 
-#: ../advanced/search.rst:118
+#: ../advanced/search.rst:116
 msgid ""
 "Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
 
-#: ../advanced/search.rst:119
+#: ../advanced/search.rst:117
 msgid ""
 "MS Excel spreadsheets: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
 
-#: ../advanced/search.rst:121
+#: ../advanced/search.rst:119
 msgid ""
 "MS Word text documents: ``application\\/vnd.openxmlformats-"
 "officedocument.wordprocessingml.document``"
 msgstr ""
 
-#: ../advanced/search.rst:123
+#: ../advanced/search.rst:121
 msgid "Plain text files like *.txt* and *.p7s*: ``text``"
 msgstr ""
 
@@ -4504,61 +4502,61 @@ msgid "Customer sentiment (optional)"
 msgstr ""
 
 #: ../extras/ai-features.rst:43
-msgid "Smart Editor"
+msgid "Writing Assistant Tools"
 msgstr ""
 
 #: ../extras/ai-features.rst:45
 msgid ""
-"The new AI-powered smart editor is designed to simplify and enhance your "
-"ticket response workflow. It helps you with text tools while you create an "
-"article."
+"The AI-powered writing assistant tools are designed to simplify and enhance "
+"your ticket response workflow while you create an article. To use such a "
+"tool, select the text you want to apply the changes to. This opens a bubble "
+"menu in which you can open the list of available tools by clicking the "
+"writing assistant tools button."
 msgstr ""
 
-#: ../extras/ai-features.rst:48
-msgid "The following tools are supported:"
-msgstr ""
-
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:None
 msgid ""
-"**Improve writing**: Uses your text as a base and tries to improve it by "
-"enhancing clarity, conciseness and structure as well as removing "
-"misspellings and grammar issues."
-msgstr ""
-
-#: ../extras/ai-features.rst:53
-msgid ""
-"**Fix spelling and grammar**: Just proofreads your text and automatically "
-"removes spelling and grammar mistakes."
+"Screenshots shows selected text in editor with opened writing assistant "
+"tools menu"
 msgstr ""
 
 #: ../extras/ai-features.rst:55
 msgid ""
-"**Expand**: Expands your text while keeping your message. Useful if your "
-"customer expects more than some bullet points as an answer. You can even use "
-"it by providing only basic information (e.g. via bullet points) and let the "
-"AI write the answer."
+"Zammad ships default writing assistant tools. The availability depends on "
+"the configuration of your Zammad instance. You might even have additional "
+"custom tools in case your admin added them."
 msgstr ""
 
 #: ../extras/ai-features.rst:59
 msgid ""
-"**Simplify**: Does the opposite of the expansion and shrinks your text while "
-"keeping your message."
+"**Expand draft into well-written section**: Uses your draft as a base and "
+"tries to elaborate a proper text. It tries to add a structure and to enhance "
+"clarity and conciseness and as well as removing misspellings and grammar "
+"errors. You can even use it by providing only basic information (e.g. via "
+"bullet points) and let the AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:62
+#: ../extras/ai-features.rst:64
 msgid ""
-"To use any of these features, simply select the text you want to apply the "
-"changes to. You can select the whole text or just parts of it. This "
-"automatically opens a menu where you can select one of the available options:"
+"**Fix spelling and grammar**: Proofreads your text and removes spelling and "
+"grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:None
-msgid "Screenshots shows selected text in article with AI text tools"
-msgstr ""
-
-#: ../extras/ai-features.rst:72
+#: ../extras/ai-features.rst:66
 msgid ""
-"After selecting an option, Zammad shows a dialog where you can compare the "
+"**Summarize section to about half its current size**: Shrinks your text "
+"while keeping the message and the tone of the text."
+msgstr ""
+
+#: ../extras/ai-features.rst:68
+msgid ""
+"**Rewrite complex section and make it easy to understand**: Removes "
+"unnecessary parts and rewrites your text in a clear and understandable way."
+msgstr ""
+
+#: ../extras/ai-features.rst:71
+msgid ""
+"After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
 msgstr ""
 
@@ -4566,49 +4564,49 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
-#: ../extras/ai-features.rst:80
+#: ../extras/ai-features.rst:78
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
 
-#: ../extras/ai-features.rst:85
+#: ../extras/ai-features.rst:83
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
 "nature of neural networks."
 msgstr ""
 
-#: ../extras/ai-features.rst:90
+#: ../extras/ai-features.rst:88
 msgid "AI Agents"
 msgstr ""
 
-#: ../extras/ai-features.rst:92
+#: ../extras/ai-features.rst:90
 msgid ""
 "This is no feature which allows any agent interaction. However, if the "
 "feature is configured, you may notice it at some points. This is why you can "
 "find an explanation here."
 msgstr ""
 
-#: ../extras/ai-features.rst:96
+#: ../extras/ai-features.rst:94
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. You "
 "may notice the AI agents at different locations:"
 msgstr ""
 
-#: ../extras/ai-features.rst:107
+#: ../extras/ai-features.rst:105
 msgid "Ticket history"
 msgstr ""
 
-#: ../extras/ai-features.rst:100
+#: ../extras/ai-features.rst:98
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:104
+#: ../extras/ai-features.rst:102
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -4616,11 +4614,11 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:119
+#: ../extras/ai-features.rst:117
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:110
+#: ../extras/ai-features.rst:108
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -4628,7 +4626,7 @@ msgid ""
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:115
+#: ../extras/ai-features.rst:113
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -4636,11 +4634,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:125
+#: ../extras/ai-features.rst:123
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:122
+#: ../extras/ai-features.rst:120
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
