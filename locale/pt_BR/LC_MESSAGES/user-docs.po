@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-21 13:17+0200\n"
+"POT-Creation-Date: 2025-09-04 10:40+0200\n"
 "PO-Revision-Date: 2022-08-01 14:09+0000\n"
 "Last-Translator: Erico Cesar <ericocesar@webck.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
@@ -687,35 +687,33 @@ msgid ""
 msgstr ""
 
 #: ../advanced/search.rst:8
-msgid ""
-"For instance you can search for a specific customer by using "
-"``customer.attribute``::"
+msgid "For instance, you can search for a ticket of a specific customer::"
 msgstr ""
 
-#: ../advanced/search.rst:13
+#: ../advanced/search.rst:12
 msgid "or::"
 msgstr ""
 
-#: ../advanced/search.rst:18
+#: ../advanced/search.rst:16
 msgid ""
 "If you want to run a more complex search, you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
 
-#: ../advanced/search.rst:24
+#: ../advanced/search.rst:22
 #, fuzzy
 #| msgid "Available attributes"
 msgid "Available Attributes"
 msgstr "Atributos disponíveis"
 
-#: ../advanced/search.rst:28
+#: ../advanced/search.rst:26
 msgid ""
 "For a more detailed list of available attributes please take a look into "
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
 
-#: ../advanced/search.rst:35
+#: ../advanced/search.rst:33
 msgid "Attributes and their usuage"
 msgstr "Atributos e sua utilizaçã"
 
@@ -892,12 +890,12 @@ msgstr ""
 "permite a busca utilizando expressões regulares, sempre que o atributo "
 "permitir, como no terceiro exemplo."
 
-#: ../advanced/search.rst:48
+#: ../advanced/search.rst:46
 #, fuzzy
 msgid "Combining Search Phrases"
 msgstr "Frase pesquisada"
 
-#: ../advanced/search.rst:50
+#: ../advanced/search.rst:48
 msgid ""
 "You can combine search phrases by using ``AND``, ``OR`` and ``TO``, "
 "depending on the situation and phrases you use. If needed, you can parts of "
@@ -907,7 +905,7 @@ msgid ""
 "Below are some examples that you could use with this:"
 msgstr ""
 
-#: ../advanced/search.rst:57
+#: ../advanced/search.rst:55
 msgid "Examples for search phrase combinations"
 msgstr "Exemplos de combinações de termos de buscas"
 
@@ -959,13 +957,13 @@ msgstr ""
 msgid "Show everything with any pending state and an article count of 1 to 5."
 msgstr "Retorna tudo que estiver pendente e que tenham entre 1 e 5 artigos."
 
-#: ../advanced/search.rst:67
+#: ../advanced/search.rst:65
 #, fuzzy
 #| msgid "Some Ticket attributes and their type"
 msgid "Some Ticket Attributes and Their Type"
 msgstr "Alguns atributos dos chamados e os seus respectivos tipos"
 
-#: ../advanced/search.rst:69
+#: ../advanced/search.rst:67
 msgid ""
 "Below you can find the most important attributes sorted by ticket and "
 "article."
@@ -973,143 +971,143 @@ msgstr ""
 "Abaixo você encontra os atributos mais importantes ordenados por chamado e "
 "artigo."
 
-#: ../advanced/search.rst:72
+#: ../advanced/search.rst:70
 #, fuzzy
 #| msgid "Ticket attributes"
 msgid "Ticket Attributes"
 msgstr "Atributos do ticket"
 
-#: ../advanced/search.rst:74
+#: ../advanced/search.rst:72
 msgid "number: string"
 msgstr "number: texto"
 
-#: ../advanced/search.rst:75
+#: ../advanced/search.rst:73
 msgid "title: string"
 msgstr "title: texto"
 
-#: ../advanced/search.rst:76
+#: ../advanced/search.rst:74
 msgid "group: object (group.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:77
+#: ../advanced/search.rst:75
 msgid "priority: object (priority.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:78
+#: ../advanced/search.rst:76
 msgid "state: object (state.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:79
+#: ../advanced/search.rst:77
 msgid "organization: object (organization.name, ...)"
 msgstr ""
 
-#: ../advanced/search.rst:80
+#: ../advanced/search.rst:78
 msgid "owner: object (owner.firstname, owner.lastname, owner.email, ...)"
 msgstr "owner: objeto (owner.firstname, owner.lastname, owner.email, ...)"
 
-#: ../advanced/search.rst:81
+#: ../advanced/search.rst:79
 msgid ""
 "customer: object (customer.firstname, customer.lastname, customer.email, ...)"
 msgstr ""
 "customer: objeto (customer.firstname, customer.lastname, customer.email, ...)"
 
-#: ../advanced/search.rst:83
+#: ../advanced/search.rst:81
 msgid "first_response_at: timestamp"
 msgstr "first_response_at: rótulo de tempo (timestamp)"
 
-#: ../advanced/search.rst:84
+#: ../advanced/search.rst:82
 msgid "first_response_in_min: integer (business min till first response)"
 msgstr ""
 "first_response_in_min: inteiro (tempo em minutos úteis para a primeira "
 "resposta)"
 
-#: ../advanced/search.rst:85
+#: ../advanced/search.rst:83
 msgid "close_at: timestamp"
 msgstr "close_at: rótulo de tempo"
 
-#: ../advanced/search.rst:86
+#: ../advanced/search.rst:84
 msgid "close_in_min: integer (business min till close)"
 msgstr "close_in_min: inteiro (minutos úteis para fechar)"
 
-#: ../advanced/search.rst:87
+#: ../advanced/search.rst:85
 msgid "last_contact_at: timestamp (last contact by customer or agent)"
 msgstr ""
 "last_contact_at: rótulo de tempo (registro de tempo do último contato do "
 "cliente ou do agente)"
 
-#: ../advanced/search.rst:88
+#: ../advanced/search.rst:86
 msgid "last_contact_agent_at: timestamp (last contact by agent)"
 msgstr ""
 "last_contact_agent_at: rótulo de tempo (registro de tempo do último contato "
 "do agente)"
 
-#: ../advanced/search.rst:89
+#: ../advanced/search.rst:87
 msgid "last_contact_customer_at: timestamp (last contact by customer)"
 msgstr ""
 "last_contact_customer_at: rótulo de tempo (registro de tempo do último "
 "contato do cliente)"
 
-#: ../advanced/search.rst:90
+#: ../advanced/search.rst:88
 #, fuzzy
 #| msgid "create_article_type: string (email|phone|web|...)"
 msgid "create_article_type.name: string (email|phone|web|...)"
 msgstr "create_article_type: texto (email | phone | web | ...)"
 
-#: ../advanced/search.rst:91
+#: ../advanced/search.rst:89
 msgid "create_article_sender: string (Customer|Agent|System)"
 msgstr "create_article_sender: texto (cliente | agente | sistema)"
 
-#: ../advanced/search.rst:92
+#: ../advanced/search.rst:90
 msgid "article_count: integer"
 msgstr "article_count: inteiro (quantidade de artigos)"
 
-#: ../advanced/search.rst:93
+#: ../advanced/search.rst:91
 msgid "escalation_at: timestamp"
 msgstr ""
 "escalation_at: rótulo de tempo (registro de tempo do momento em que o "
 "chamado escalou a SLA)"
 
-#: ../advanced/search.rst:94
+#: ../advanced/search.rst:92
 msgid "pending_time: timestamp"
 msgstr ""
 "pending_time: timestamp (registro de tempo até quando o chamado ficará "
 "pendente)"
 
-#: ../advanced/search.rst:97
+#: ../advanced/search.rst:95
 #, fuzzy
 #| msgid "Article attributes"
 msgid "Article Attributes"
 msgstr "Atributos do artigo"
 
-#: ../advanced/search.rst:99
+#: ../advanced/search.rst:97
 msgid "article.from: string"
 msgstr "article.from: texto"
 
-#: ../advanced/search.rst:100
+#: ../advanced/search.rst:98
 msgid "article.to: string"
 msgstr "article.to: texto"
 
-#: ../advanced/search.rst:101
+#: ../advanced/search.rst:99
 msgid "article.cc: string"
 msgstr "article.cc: texto"
 
-#: ../advanced/search.rst:102
+#: ../advanced/search.rst:100
 msgid "article.subject: string"
 msgstr "article.subject: texto"
 
-#: ../advanced/search.rst:103
+#: ../advanced/search.rst:101
 msgid "article.body: string"
 msgstr "article.body: texto"
 
-#: ../advanced/search.rst:104
+#: ../advanced/search.rst:102
 msgid "article.attachment.title: string (filename of attachment)"
 msgstr ""
 
-#: ../advanced/search.rst:105
+#: ../advanced/search.rst:103
 msgid "article.attachment.content: string (content of attachment)"
 msgstr ""
 
-#: ../advanced/search.rst:106
+#: ../advanced/search.rst:104
 msgid "article.attachment.content_type: string (File type e.g. PDF)"
 msgstr ""
 
