@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 10:31+0200\n"
+"POT-Creation-Date: 2025-09-08 17:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3262,6 +3262,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:580
 #: ../basics/zammad-glossary.rst:621
+#: ../extras/reporting.rst:2
 msgid "Reporting"
 msgstr ""
 
@@ -5274,6 +5275,50 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:191
 msgid "See a list of third party services (*e.g.,* Facebook or Twitter) linked to your Zammad account."
+msgstr ""
+
+#: ../extras/reporting.rst:4
+msgid "The reporting is useful to view statistics, get an overview of the number of tickets (e.g. tickets of a specific customer) and to download ticket data from Zammad. You can find the reporting section in the bottom left corner in Zammad next to the avatar icon or your initials:"
+msgstr ""
+
+#: ../extras/reporting.rst:None
+msgid "Menu bar with highlighted reporting"
+msgstr ""
+
+#: ../extras/reporting.rst:12
+msgid "If you can't see the reporting button, you have no permission for it."
+msgstr ""
+
+#: ../extras/reporting.rst:14
+msgid "The reporting screen consists of various sections:"
+msgstr ""
+
+#: ../extras/reporting.rst:None
+msgid "Screenshot showing different sections in the reporting screen"
+msgstr ""
+
+#: ../extras/reporting.rst:19
+msgid "**Additional filtering** based on the selected profile (see 2). You can filter by status (\"Ticket Count\"), \"Creation Channels\" and \"Communication\" types based on your channels."
+msgstr ""
+
+#: ../extras/reporting.rst:22
+msgid "**Profile switcher**: here you can easily switch between the different profiles, which were created in the admin panel under \"Report Profiles\". The shown tickets and numbers are always limited to the current profile you have selected here."
+msgstr ""
+
+#: ../extras/reporting.rst:26
+msgid "**Time interval/period switcher** and **graph** area: here you can define the interval you want to see (e.g. \"Month\") as well as the time period (e.g. \"Jul\")."
+msgstr ""
+
+#: ../extras/reporting.rst:29
+msgid "**Preview and download** section: here you can find a preview of tickets and a download button based on the report profile and your filtering. The download feature provides the tickets in a ``.xlsx`` spreadsheet."
+msgstr ""
+
+#: ../extras/reporting.rst:33
+msgid "The ticket preview and download button are only showing up if you selected a filter based on \"Ticket Count\" (see 1)."
+msgstr ""
+
+#: ../extras/reporting.rst:36
+msgid "Due to technical reasons, the download is limited to 6.000 entries."
 msgstr ""
 
 #: ../extras/secure-email.rst:2
