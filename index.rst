@@ -51,6 +51,7 @@ Zammad User Documentation
    /extras/mobile-view
    /extras/organizations
    /extras/profile-and-settings
+   /extras/reporting
    /extras/secure-email
    /extras/shared-drafts
    /extras/two-factor-authentication
