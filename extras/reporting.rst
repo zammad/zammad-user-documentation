@@ -15,6 +15,7 @@ The reporting screen consists of various sections:
 
 .. figure:: /images/extras/reporting/reporting-sections.png
     :alt: Screenshot showing different sections in the reporting screen
+    :scale: 80%
 
 1. **Additional filtering** based on the selected profile (see 2). You can
    filter by status ("Ticket Count"), "Creation Channels" and "Communication"
@@ -30,7 +31,7 @@ The reporting screen consists of various sections:
    a download button based on the report profile and your filtering. The
    download feature provides the tickets in a ``.xlsx`` spreadsheet.
 
-   .. note:: The ticket preview and download button are only showing up if you
+   .. note:: The ticket preview and download button are only displayed if you
     selected a filter based on "Ticket Count" (see 1).
 
     Due to technical reasons, the download is limited to 6.000 entries.
