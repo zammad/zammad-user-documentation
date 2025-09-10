@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 10:31+0200\n"
-"PO-Revision-Date: 2025-08-26 06:00+0000\n"
+"POT-Creation-Date: 2025-09-09 08:29+0200\n"
+"PO-Revision-Date: 2025-09-09 09:01+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -738,14 +738,9 @@ msgstr ""
 "Suchergebnisse zu verbessern."
 
 #: ../advanced/search.rst:8
-#, fuzzy
-#| msgid ""
-#| "For instance you can search for a specific customer by using "
-#| "``customer.attribute``::"
 msgid "For instance, you can search for a ticket of a specific customer::"
 msgstr ""
-"Zum Beispiel können Sie ``customer.attribute`` nutzen, um nach einem "
-"bestimmten Kunden zu suchen::"
+"Sie können zum Beispiel nach einem Ticket eines bestimmten Kunden suchen::"
 
 #: ../advanced/search.rst:12
 msgid "or::"
@@ -5050,6 +5045,7 @@ msgstr ""
 "2.1, ...) und bringen kleinere Änderungen."
 
 #: ../basics/zammad-glossary.rst:580 ../basics/zammad-glossary.rst:621
+#: ../extras/reporting.rst:2
 msgid "Reporting"
 msgstr "Berichte"
 
@@ -5660,7 +5656,7 @@ msgstr "Stimmung des Kunden (optional)"
 
 #: ../extras/ai-features.rst:43
 msgid "Writing Assistant Tools"
-msgstr ""
+msgstr "Schreibassistent-Werkzeuge"
 
 #: ../extras/ai-features.rst:45
 msgid ""
@@ -5670,14 +5666,20 @@ msgid ""
 "menu in which you can open the list of available tools by clicking the "
 "writing assistant tools button."
 msgstr ""
+"Die KI-gestützen Schreibassistent-Werkzeuge vereinfachen und erweitern Ihren "
+"Workflow bei der Erstellung von Artikeln während der Bearbeitung von "
+"Tickets. Um ein solches Werkzeug zu verwenden, markieren Sie den Text, auf "
+"den Sie die Änderungen anwenden möchten. Nach einem Klick auf den Button "
+"Schreibassistent-Werkzeuge öffnet sich ein Menü, in dem Sie aus eine Liste "
+"der verfügbaren Werkzeuge auswählen können."
 
 #: ../extras/ai-features.rst:None
-#, fuzzy
-#| msgid "Screenshots shows selected text in article with AI text tools"
 msgid ""
 "Screenshots shows selected text in editor with opened writing assistant "
 "tools menu"
-msgstr "Screenshot zeigt ausgewählten Text im Artikel mit KI-Text-Tools"
+msgstr ""
+"Screenshot zeigt markierten Text im Editor mit geöffnetem Schreibassistent-"
+"Werkzeugen"
 
 #: ../extras/ai-features.rst:55
 msgid ""
@@ -5685,14 +5687,12 @@ msgid ""
 "the configuration of your Zammad instance. You might even have additional "
 "custom tools in case your admin added them."
 msgstr ""
+"Zammad liefert standardmäßig Schreibassistent-Werkzeuge mit. Die "
+"Verfügbarkeit hängt von der Konfiguration Ihrer Zammad-Instanz ab. Sie "
+"können sogar zusätzliche benutzerdefinierte Tools sehen, falls Ihr "
+"Administrator welche hinzugefügt hat."
 
 #: ../extras/ai-features.rst:59
-#, fuzzy
-#| msgid ""
-#| "**Expand**: Expands your text while keeping your message. Useful if your "
-#| "customer expects more than some bullet points as an answer. You can even "
-#| "use it by providing only basic information (e.g. via bullet points) and "
-#| "let the AI write the answer."
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "tries to elaborate a proper text. It tries to add a structure and to enhance "
@@ -5700,47 +5700,46 @@ msgid ""
 "errors. You can even use it by providing only basic information (e.g. via "
 "bullet points) and let the AI write the answer."
 msgstr ""
-"**Erweitern**: Erweitert Ihren Text und behält dabei Ihre Botschaft bei. "
-"Nützlich, wenn Ihr Kunde mehr als ein paar Aufzählungspunkte als Antwort "
-"erwartet. Sie können diese Funktion sogar nutzen, indem Sie nur grundlegende "
-"Informationen bereitstellen (z.B. als Stichworte) und die KI die Antwort "
-"schreiben lassen."
+"**Entwurf in wohlformulierten Abschnitt wandeln**: Verwendet Ihren Entwurf "
+"als Grundlage und versucht, einen ordentlichen Text auszuarbeiten. Das "
+"Werkzeug versucht, eine Struktur hinzuzufügen, die Klarheit und Prägnanz zu "
+"verbessern und Rechtschreib- sowie Grammatikfehler zu entfernen. Sie können "
+"diese Funktion auch nutzen, indem Sie nur grundlegende Informationen (z.B. "
+"in Form einer Auflistung) bereitstellen und die KI die Antwort schreiben "
+"lassen."
 
 #: ../extras/ai-features.rst:64
-#, fuzzy
-#| msgid ""
-#| "**Fix spelling and grammar**: Just proofreads your text and automatically "
-#| "removes spelling and grammar mistakes."
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
 msgstr ""
 "**Rechtschreibung und Grammatik korrigieren**: Prüft Ihren Text und entfernt "
-"automatisch Rechtschreib- und Grammatikfehler."
+"Rechtschreib- und Grammatikfehler."
 
 #: ../extras/ai-features.rst:66
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
 msgstr ""
+"**Zusammenfassen des Abschnitts auf ca. die halbe Länge**: Fasst Ihren Text "
+"zusammen, wobei die Botschaft und der Ton des Textes erhalten bleiben."
 
 #: ../extras/ai-features.rst:68
 msgid ""
 "**Rewrite complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
+"**Komplexen Abschnitt umformulieren und leicht verständlich machen**: "
+"Entfernt überflüssige Teile und schreibt Ihren Text in einer klaren und "
+"verständlichen Weise um."
 
 #: ../extras/ai-features.rst:71
-#, fuzzy
-#| msgid ""
-#| "After selecting an option, Zammad shows a dialog where you can compare "
-#| "the original text and the AI suggestion:"
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
 msgstr ""
-"Nachdem Sie eine Option ausgewählt haben, zeigt Zammad einen Dialog an, in "
-"dem Sie den Originaltext und den KI-Vorschlag vergleichen können:"
+"Nachdem Sie ein Werkzeug ausgewählt haben, zeigt Zammad ein Dialogfeld an, "
+"in dem Sie den Originaltext und den KI-Vorschlag vergleichen können:"
 
 #: ../extras/ai-features.rst:None
 msgid "Screenshots shows AI suggestion dialog"
@@ -8201,6 +8200,73 @@ msgid ""
 msgstr ""
 "Hier sehen Sie eine Liste der Dienste von Drittanbietern (*z.B.,* Facebook "
 "oder Twitter), die mit Ihren Zammad-Konto verknüpft sind."
+
+#: ../extras/reporting.rst:4
+msgid ""
+"The reporting is useful to view statistics, get an overview of the number of "
+"tickets (e.g. tickets of a specific customer) and to download ticket data "
+"from Zammad. You can find the reporting section in the bottom left corner in "
+"Zammad next to the avatar icon or your initials:"
+msgstr ""
+
+#: ../extras/reporting.rst:None
+#, fuzzy
+#| msgid "Ticket menu with highlighted \"merge\""
+msgid "Menu bar with highlighted reporting"
+msgstr "Ticket-Menü mit hervorgehobenem \"Zusammenfassen\""
+
+#: ../extras/reporting.rst:12
+msgid "If you can't see the reporting button, you have no permission for it."
+msgstr ""
+
+#: ../extras/reporting.rst:14
+msgid "The reporting screen consists of various sections:"
+msgstr ""
+
+#: ../extras/reporting.rst:None
+#, fuzzy
+#| msgid "Screenshot showing accounted times in ticket pane"
+msgid "Screenshot showing different sections in the reporting screen"
+msgstr "Screenshot, der berechnete Zeiten in der Ticket-Seitenleiste zeigt"
+
+#: ../extras/reporting.rst:20
+msgid ""
+"**Additional filtering** based on the selected profile (see 2). You can "
+"filter by status (\"Ticket Count\"), \"Creation Channels\" and "
+"\"Communication\" types based on your channels."
+msgstr ""
+
+#: ../extras/reporting.rst:23
+msgid ""
+"**Profile switcher**: here you can easily switch between the different "
+"profiles, which were created in the admin panel under \"Report Profiles\". "
+"The shown tickets and numbers are always limited to the current profile you "
+"have selected here."
+msgstr ""
+
+#: ../extras/reporting.rst:27
+msgid ""
+"**Time interval/period switcher** and **graph** area: here you can define "
+"the interval you want to see (e.g. \"Month\") as well as the time period "
+"(e.g. \"Jul\")."
+msgstr ""
+
+#: ../extras/reporting.rst:30
+msgid ""
+"**Preview and download** section: here you can find a preview of tickets and "
+"a download button based on the report profile and your filtering. The "
+"download feature provides the tickets in a ``.xlsx`` spreadsheet."
+msgstr ""
+
+#: ../extras/reporting.rst:34
+msgid ""
+"The ticket preview and download button are only displayed if you selected a "
+"filter based on \"Ticket Count\" (see 1)."
+msgstr ""
+
+#: ../extras/reporting.rst:37
+msgid "Due to technical reasons, the download is limited to 6.000 entries."
+msgstr ""
 
 #: ../extras/secure-email.rst:2
 msgid "Secure Email"
