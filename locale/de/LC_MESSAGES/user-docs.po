@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-09 08:29+0200\n"
-"PO-Revision-Date: 2025-09-09 09:01+0000\n"
+"PO-Revision-Date: 2025-09-11 07:00+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -8208,26 +8208,29 @@ msgid ""
 "from Zammad. You can find the reporting section in the bottom left corner in "
 "Zammad next to the avatar icon or your initials:"
 msgstr ""
+"Berichte sind nützlich, um Statistiken einzusehen, eine Übersicht über die "
+"Anzahl der Tickets zu erhalten (z.B. Tickets eines bestimmten Kunden) und um "
+"Ticket-Daten von Zammad herunterzuladen. Sie finden den Berichts-Bereich in "
+"der linken unteren Ecke in Zammad neben dem Avatar-Symbol oder Ihren "
+"Initialen:"
 
 #: ../extras/reporting.rst:None
-#, fuzzy
-#| msgid "Ticket menu with highlighted \"merge\""
 msgid "Menu bar with highlighted reporting"
-msgstr "Ticket-Menü mit hervorgehobenem \"Zusammenfassen\""
+msgstr "Menüleiste mit hervorgehobenen Bereich \"Berichte\""
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
 msgstr ""
+"Wenn Sie die Schaltfläche \"Berichte\" nicht sehen können, haben Sie keine "
+"Berechtigung dafür."
 
 #: ../extras/reporting.rst:14
 msgid "The reporting screen consists of various sections:"
-msgstr ""
+msgstr "Der Berichte-Bereich besteht aus verschiedenen Abschnitten:"
 
 #: ../extras/reporting.rst:None
-#, fuzzy
-#| msgid "Screenshot showing accounted times in ticket pane"
 msgid "Screenshot showing different sections in the reporting screen"
-msgstr "Screenshot, der berechnete Zeiten in der Ticket-Seitenleiste zeigt"
+msgstr "Ansicht zeigt verschiedene Abschnitte des Berichts-Bereichs"
 
 #: ../extras/reporting.rst:20
 msgid ""
@@ -8235,6 +8238,9 @@ msgid ""
 "filter by status (\"Ticket Count\"), \"Creation Channels\" and "
 "\"Communication\" types based on your channels."
 msgstr ""
+"**Zusätzliche Filterung** basierend auf dem ausgewählten Profil (siehe 2). "
+"Sie können nach Status (\"Anzahl der Tickets\"), \"Erstellungskanälen\" und "
+"\"Kommunikation\" auf der Grundlage Ihrer Kanäle filtern."
 
 #: ../extras/reporting.rst:23
 msgid ""
@@ -8243,6 +8249,10 @@ msgid ""
 "The shown tickets and numbers are always limited to the current profile you "
 "have selected here."
 msgstr ""
+"**Profilauswahl**: Hier können Sie ganz einfach zwischen den verschiedenen "
+"Profilen umschalten, die von Ihrem Zammad Admin angelegt wurden. Die "
+"angezeigten Tickets und Zahlen basieren immer auf dem aktuellen Profil, das "
+"Sie hier ausgewählt haben."
 
 #: ../extras/reporting.rst:27
 msgid ""
@@ -8250,6 +8260,9 @@ msgid ""
 "the interval you want to see (e.g. \"Month\") as well as the time period "
 "(e.g. \"Jul\")."
 msgstr ""
+"Bereich **Zeitintervall/Periode** und **Grafik**: Hier können Sie das "
+"gewünschte Intervall (z.B. \"Monat\") sowie die Zeitspanne (z.B. \"Juli\") "
+"festlegen."
 
 #: ../extras/reporting.rst:30
 msgid ""
@@ -8257,16 +8270,22 @@ msgid ""
 "a download button based on the report profile and your filtering. The "
 "download feature provides the tickets in a ``.xlsx`` spreadsheet."
 msgstr ""
+"Abschnitt **Vorschau und Download**: Hier finden Sie eine Vorschau der "
+"Tickets und eine Schaltfläche zum Herunterladen auf der Grundlage des "
+"Berichtsprofils und Ihrer Filterung. Die Download-Funktion stellt die "
+"Tickets in einer ``.xlsx``-Datei bereit."
 
 #: ../extras/reporting.rst:34
 msgid ""
 "The ticket preview and download button are only displayed if you selected a "
 "filter based on \"Ticket Count\" (see 1)."
 msgstr ""
+"Die Ticket-Vorschau und der Download-Button werden nur angezeigt, wenn Sie "
+"einen Filter auf Basis der \"Anzahl der Tickets\" gewählt haben (siehe 1)."
 
 #: ../extras/reporting.rst:37
 msgid "Due to technical reasons, the download is limited to 6.000 entries."
-msgstr ""
+msgstr "Aus technischen Gründen ist der Download auf 6.000 Einträge begrenzt."
 
 #: ../extras/secure-email.rst:2
 msgid "Secure Email"
