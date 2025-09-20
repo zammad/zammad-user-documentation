@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-09 08:29+0200\n"
-"PO-Revision-Date: 2025-09-17 16:00+0000\n"
+"PO-Revision-Date: 2025-09-20 11:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -5525,12 +5525,6 @@ msgstr ""
 "прилагођеним алаткама у случају да их је ваш администратор дефинисао."
 
 #: ../extras/ai-features.rst:59
-#, fuzzy
-#| msgid ""
-#| "**Expand**: Expands your text while keeping your message. Useful if your "
-#| "customer expects more than some bullet points as an answer. You can even "
-#| "use it by providing only basic information (e.g. via bullet points) and "
-#| "let the AI write the answer."
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "tries to elaborate a proper text. It tries to add a structure and to enhance "
@@ -5538,45 +5532,43 @@ msgid ""
 "errors. You can even use it by providing only basic information (e.g. via "
 "bullet points) and let the AI write the answer."
 msgstr ""
-"**Прошири**: проширује ваш текст притом одржавајући вашу мисао. Корисно је "
-"уколико ваш клијент очекује нешто више од пар ставки као одговор. Могуће је "
-"искористити прилагањем само основних информација (нпр. путем листе са "
-"тачкама) и пуштањем AI да напише одговор."
+"**Препиши сложени одељак и учини га лаким за разумевање**: Користи ваш нацрт "
+"као основу и покушава да га прошири у исполиран текст. Покушава да одреди "
+"структуру и побољша јасноћу и прецизност као и да уклони грешке у правопису "
+"и граматици. Могуће је искористити је прилагањем само основних информација ("
+"нпр. путем листе са тачкама) и пуштањем вештачке интелигенције да употпуни "
+"одговор."
 
 #: ../extras/ai-features.rst:64
-#, fuzzy
-#| msgid ""
-#| "**Fix spelling and grammar**: Just proofreads your text and automatically "
-#| "removes spelling and grammar mistakes."
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
 msgstr ""
-"**Исправи правопис и граматику**: само лекторише ваш текст и аутоматски "
-"отклања грешке у правопису и граматици."
+"**Исправи правопис и граматику**: Лекторише ваш текст и отклања грешке у "
+"правопису и граматици."
 
 #: ../extras/ai-features.rst:66
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
 msgstr ""
+"**Сажми одељак на отприлике половину његове тренутне величине**: Скраћује "
+"ваш текст уз задржавање поруке и тона оригиналног текста."
 
 #: ../extras/ai-features.rst:68
 msgid ""
 "**Rewrite complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
+"**Препиши сложени одељак и учини га лаким за разумевање**: Уклања необавезне "
+"делове и преписује ваш текст у јасном и разумљивом стилу."
 
 #: ../extras/ai-features.rst:71
-#, fuzzy
-#| msgid ""
-#| "After selecting an option, Zammad shows a dialog where you can compare "
-#| "the original text and the AI suggestion:"
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
 msgstr ""
-"По одабиру опције, Zammad ће приказати дијалог где можете упоредити "
+"По одабиру алатке, Zammad ће приказати дијалог где можете упоредити "
 "оригинални текст и предложене измене:"
 
 #: ../extras/ai-features.rst:None
@@ -7961,26 +7953,26 @@ msgid ""
 "from Zammad. You can find the reporting section in the bottom left corner in "
 "Zammad next to the avatar icon or your initials:"
 msgstr ""
+"Извештавање се користе за статистичке прегледе, увид у број тикета (нпр. "
+"одговарајућег клијента) и за преузимање података о тикетима из Zammad-а. "
+"Одељак са извештајима можете пронаћи у доњем левом углу Zammad-а, одмах до "
+"ваше аватар сличице или иницијала:"
 
 #: ../extras/reporting.rst:None
-#, fuzzy
-#| msgid "Ticket menu with highlighted \"merge\""
 msgid "Menu bar with highlighted reporting"
-msgstr "Мени радњи тикета са означеним „спајањем”"
+msgstr "Трака са означеним извештавањем"
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
-msgstr ""
+msgstr "Уколико не видите дугме извештавања, недостају вам дозволе за њега."
 
 #: ../extras/reporting.rst:14
 msgid "The reporting screen consists of various sections:"
-msgstr ""
+msgstr "Екран извештавања се састоји од различитих одељака:"
 
 #: ../extras/reporting.rst:None
-#, fuzzy
-#| msgid "Screenshot showing accounted times in ticket pane"
 msgid "Screenshot showing different sections in the reporting screen"
-msgstr "Снимак екрана који приказује обрачунато време у панелу тикета"
+msgstr "Снимак екрана који приказује различите одељке извештавања"
 
 #: ../extras/reporting.rst:20
 msgid ""
@@ -7988,6 +7980,9 @@ msgid ""
 "filter by status (\"Ticket Count\"), \"Creation Channels\" and "
 "\"Communication\" types based on your channels."
 msgstr ""
+"**Додатно филтрирање** на основу одабраног профила (видите под 2). Можете "
+"филтрирати на основу стања („Број тикета”), „Канала за отварање” и врстама "
+"„Комуникација” за основу ваших канала."
 
 #: ../extras/reporting.rst:23
 msgid ""
@@ -7996,6 +7991,9 @@ msgid ""
 "The shown tickets and numbers are always limited to the current profile you "
 "have selected here."
 msgstr ""
+"**Избор профила**: овде се можете брзо пребацити између различитих профила, "
+"који се дефинишу у панелу администратора под „Профили извештаја”. Приказани "
+"тикети и бројеви су увек ограничени на тренутно одабрани профил."
 
 #: ../extras/reporting.rst:27
 msgid ""
@@ -8003,6 +8001,9 @@ msgid ""
 "the interval you want to see (e.g. \"Month\") as well as the time period "
 "(e.g. \"Jul\")."
 msgstr ""
+"**Избор временског интервала/периода** и зона **графика**: овде можете "
+"дефинисати жељени интервал (нпр. „месец”) као и временски период (нпр. "
+"„јул”)."
 
 #: ../extras/reporting.rst:30
 msgid ""
@@ -8010,16 +8011,21 @@ msgid ""
 "a download button based on the report profile and your filtering. The "
 "download feature provides the tickets in a ``.xlsx`` spreadsheet."
 msgstr ""
+"Одељак **прегледа и преузимања**: овде можете пронаћи приказ тикета и дугме "
+"за преузимање на основу тренутног профила извештаја и вашег филтрирања. "
+"Функција преузимања ће вам доставити тикете у ``.xlsx``формату."
 
 #: ../extras/reporting.rst:34
 msgid ""
 "The ticket preview and download button are only displayed if you selected a "
 "filter based on \"Ticket Count\" (see 1)."
 msgstr ""
+"Дугмад приказа тикета и преузимања су приказана само по одабиру филтера на "
+"основу „Броја тикета” (видите под 1)."
 
 #: ../extras/reporting.rst:37
 msgid "Due to technical reasons, the download is limited to 6.000 entries."
-msgstr ""
+msgstr "Услед техничких разлога, преузимање је ограничени на 6.000 уноса."
 
 #: ../extras/secure-email.rst:2
 msgid "Secure Email"
