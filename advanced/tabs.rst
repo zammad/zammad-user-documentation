@@ -3,7 +3,6 @@ Tabs
 
 As you click through Zammad, you will see a list of entries appear in the main
 menu area. These are your **open tabs.**
-
 You can freely switch between open tabs without losing your work -
 all unsaved changes are automatically backed up to the server.
 
@@ -69,3 +68,8 @@ Stay on tab
    Updating the ticket doesn't have any effect on the tab.
 
    *This is the default setting in Zammad installations.*
+
+Now that you are an expert in tab handling, one more thing might be
+interesting as well: the maximum number of tabs is 30 due to performance
+reasons. In case you reach the limit and open another tab, the first opened
+tab gets closed automatically.
