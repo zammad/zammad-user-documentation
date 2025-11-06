@@ -1427,63 +1427,61 @@ msgid "Tabs"
 msgstr "Вкладки"
 
 #: ../advanced/tabs.rst:4
+#, fuzzy
+#| msgid ""
+#| "You can freely switch between open tabs without losing your work - all "
+#| "unsaved changes are automatically backed up to the server."
 msgid ""
 "As you click through Zammad, you will see a list of entries appear in the "
-"main menu area. These are your **open tabs.**"
-msgstr ""
-"По мере того как вы будете переходить по Zammad, в области главного меню "
-"будет появляться список записей. Это ваши **открытые вкладки.**"
-
-#: ../advanced/tabs.rst:7
-msgid ""
-"You can freely switch between open tabs without losing your work - all "
-"unsaved changes are automatically backed up to the server."
+"main menu area. These are your **open tabs.** You can freely switch between "
+"open tabs without losing your work - all unsaved changes are automatically "
+"backed up to the server."
 msgstr ""
 "Вы можете свободно переключаться между открытыми вкладками, не теряя своей "
 "работы - все несохраненные изменения автоматически сохраняются на сервере."
 
-#: ../advanced/tabs.rst:13
+#: ../advanced/tabs.rst:12
 msgid "Sample view of Tabs"
 msgstr "Примерный вид вкладок"
 
-#: ../advanced/tabs.rst:13
+#: ../advanced/tabs.rst:12
 msgid ""
 "Tabs appear in the main menu as you visit different parts of the application."
 msgstr ""
 "Вкладки появляются в главном меню, когда Вы посещаете различные части "
 "приложения."
 
-#: ../advanced/tabs.rst:16
+#: ../advanced/tabs.rst:15
 msgid "**What items open in a new “tab”?**"
 msgstr "**Какие элементы открываются в новой “вкладке”?**"
 
-#: ../advanced/tabs.rst:18
+#: ../advanced/tabs.rst:17
 msgid "Existing tickets"
 msgstr "Существующие заявки"
 
-#: ../advanced/tabs.rst:19
+#: ../advanced/tabs.rst:18
 msgid "New tickets"
 msgstr "Новые заявки"
 
-#: ../advanced/tabs.rst:20
+#: ../advanced/tabs.rst:19
 msgid "Users"
 msgstr "Пользователи"
 
-#: ../advanced/tabs.rst:21 ../extras/organizations.rst:2
+#: ../advanced/tabs.rst:20 ../extras/organizations.rst:2
 msgid "Organizations"
 msgstr "Организации"
 
-#: ../advanced/tabs.rst:22
+#: ../advanced/tabs.rst:21
 msgid "Omnisearch"
 msgstr "Результаты поиска"
 
-#: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
+#: ../advanced/tabs.rst:23 ../basics/find-ticket/browse.rst:27
 #: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Прототип**"
 
-#: ../advanced/tabs.rst:26
+#: ../advanced/tabs.rst:25
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
@@ -1523,7 +1521,7 @@ msgstr "|red|"
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
 
-#: ../advanced/tabs.rst:31
+#: ../advanced/tabs.rst:30
 msgid ""
 "A **pulsing dot** means that a ticket has new activity since you last viewed "
 "it."
@@ -1531,15 +1529,15 @@ msgstr ""
 "**Пульсирующая точка** означает, что в заявке появилась новая активность с "
 "тех пор, как Вы просматривали ее в последний раз."
 
-#: ../advanced/tabs.rst:33
+#: ../advanced/tabs.rst:32
 msgid "Drag and drop tabs to rearrange them."
 msgstr "Перетаскивайте вкладки, чтобы изменить их расположение."
 
-#: ../advanced/tabs.rst:36
+#: ../advanced/tabs.rst:35
 msgid "Tab Behavior in Ticket Zooms"
 msgstr "Поведение вкладок при работе с заявкой"
 
-#: ../advanced/tabs.rst:38
+#: ../advanced/tabs.rst:37
 msgid ""
 "You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
 "lower right already. This behavior of a tab can be configured by your "
@@ -1555,7 +1553,7 @@ msgstr ""
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr "Поведение вкладок можно настроить в заявках вручную"
 
-#: ../advanced/tabs.rst:47
+#: ../advanced/tabs.rst:46
 msgid ""
 "To overrule your administrator's settings, simply choose the action you "
 "prefer. Zammad will remember this preference until you change its setting."
@@ -1564,11 +1562,11 @@ msgstr ""
 "Вы предпочитаете. Zammad будет помнить об этом предпочтении, пока Вы не "
 "измените эту настройку."
 
-#: ../advanced/tabs.rst:52
+#: ../advanced/tabs.rst:51
 msgid "Close tab"
 msgstr "Закрыть вкладку"
 
-#: ../advanced/tabs.rst:51
+#: ../advanced/tabs.rst:50
 msgid ""
 "Upon updating the ticket, Zammad will automatically close the tab. You'll be "
 "returned to the last view that was open."
@@ -1576,11 +1574,11 @@ msgstr ""
 "После обновления заявки Zammad автоматически закроет вкладку. Вы вернетесь к "
 "последнему открытому виду."
 
-#: ../advanced/tabs.rst:58
+#: ../advanced/tabs.rst:57
 msgid "Close tab on ticket close"
 msgstr "Закрыть вкладку при закрытии заявки"
 
-#: ../advanced/tabs.rst:55
+#: ../advanced/tabs.rst:54
 msgid ""
 "Ticket tabs will be closed only if you change the state to \"closed\" upon "
 "ticket update."
@@ -1588,17 +1586,17 @@ msgstr ""
 "Вкладки заявок будут закрыты, только если Вы измените состояние заявки на "
 "\"закрыто\" при обновлении."
 
-#: ../advanced/tabs.rst:58
+#: ../advanced/tabs.rst:57
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 "Это не относится к состояниям ожидания, которые заканчиваются закрытыми "
 "состояниями."
 
-#: ../advanced/tabs.rst:66
+#: ../advanced/tabs.rst:65
 msgid "Next in overview"
 msgstr "Далее в представлении"
 
-#: ../advanced/tabs.rst:61
+#: ../advanced/tabs.rst:60
 msgid ""
 "If you opened a ticket from any overview, Zammad will jump to the next "
 "ticket in said overview. Zammad recycles the open tab."
@@ -1606,7 +1604,7 @@ msgstr ""
 "Если Вы открыли заявку из любого представления, Zammad перейдет к следующей "
 "заявке в этом представлении. Zammad повторно использует открытую вкладку."
 
-#: ../advanced/tabs.rst:64
+#: ../advanced/tabs.rst:63
 msgid ""
 "This option is only available if you open the ticket from an overview. "
 "Zammad will ignore the setting if you opened the ticket directly and fall "
@@ -1620,13 +1618,21 @@ msgstr ""
 msgid "Stay on tab"
 msgstr "Остаться на вкладке"
 
-#: ../advanced/tabs.rst:69
+#: ../advanced/tabs.rst:68
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr "Обновление заявки не оказывает никакого влияния на вкладку."
 
-#: ../advanced/tabs.rst:71
+#: ../advanced/tabs.rst:70
 msgid "*This is the default setting in Zammad installations.*"
 msgstr "*Это настройка по умолчанию при установке Zammad.*"
+
+#: ../advanced/tabs.rst:72
+msgid ""
+"Now that you are an expert in tab handling, one more thing might be "
+"interesting as well: the maximum number of tabs is 30 due to performance "
+"reasons. In case you reach the limit and open another tab, the first opened "
+"tab gets closed automatically."
+msgstr ""
 
 #: ../advanced/text-modules.rst:2
 msgid "Working with Text Modules"
@@ -7857,6 +7863,13 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
+
+#~ msgid ""
+#~ "As you click through Zammad, you will see a list of entries appear in the "
+#~ "main menu area. These are your **open tabs.**"
+#~ msgstr ""
+#~ "По мере того как вы будете переходить по Zammad, в области главного меню "
+#~ "будет появляться список записей. Это ваши **открытые вкладки.**"
 
 #~ msgid "**Closed**"
 #~ msgstr "**Closed**"
