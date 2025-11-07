@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 08:29+0200\n"
+"POT-Creation-Date: 2025-11-04 07:08+0000\n"
 "PO-Revision-Date: 2025-02-11 08:00+0000\n"
 "Last-Translator: Türk Oyuncu <recentlly@hotmail.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -1502,66 +1502,60 @@ msgid "Tabs"
 msgstr "Sekmeler"
 
 #: ../advanced/tabs.rst:4
-msgid ""
-"As you click through Zammad, you will see a list of entries appear in the "
-"main menu area. These are your **open tabs.**"
-msgstr ""
-"Zammad'a tıkladığınızda, ana menü alanında girişlerin bir listesinin "
-"göründüğünü göreceksiniz. Bunlar **açık sekmelerinizdir.**"
-
-#: ../advanced/tabs.rst:7
 #, fuzzy
 msgid ""
-"You can freely switch between open tabs without losing your work - all "
-"unsaved changes are automatically backed up to the server."
+"As you click through Zammad, you will see a list of entries appear in the "
+"main menu area. These are your **open tabs.** You can freely switch between "
+"open tabs without losing your work - all unsaved changes are automatically "
+"backed up to the server."
 msgstr ""
 "Çalışmanızı kaybetmeden açık sekmeler arasında serbestçe geçiş "
 "yapabilirsiniz - kaydedilmemiş tüm değişiklikler otomatik olarak sunucuya "
 "yedeklenir."
 
-#: ../advanced/tabs.rst:13
+#: ../advanced/tabs.rst:12
 msgid "Sample view of Tabs"
 msgstr ""
 
-#: ../advanced/tabs.rst:13
+#: ../advanced/tabs.rst:12
 msgid ""
 "Tabs appear in the main menu as you visit different parts of the application."
 msgstr ""
 "Uygulamanın farklı bölümlerini ziyaret ettiğinizde ana menüde sekmeler "
 "görünür."
 
-#: ../advanced/tabs.rst:16
+#: ../advanced/tabs.rst:15
 #, fuzzy
 msgid "**What items open in a new “tab”?**"
 msgstr "Yeni bir \"sekmede\" hangi ögeler açılır?"
 
-#: ../advanced/tabs.rst:18
+#: ../advanced/tabs.rst:17
 msgid "Existing tickets"
 msgstr "Mevcut biletler"
 
-#: ../advanced/tabs.rst:19
+#: ../advanced/tabs.rst:18
 msgid "New tickets"
 msgstr "Yeni biletler"
 
-#: ../advanced/tabs.rst:20
+#: ../advanced/tabs.rst:19
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: ../advanced/tabs.rst:21 ../extras/organizations.rst:2
+#: ../advanced/tabs.rst:20 ../extras/organizations.rst:2
 msgid "Organizations"
 msgstr "Organizasyonlar"
 
-#: ../advanced/tabs.rst:22
+#: ../advanced/tabs.rst:21
 msgid "Omnisearch"
 msgstr "Omnisearch"
 
-#: ../advanced/tabs.rst:24 ../basics/find-ticket/browse.rst:27
+#: ../advanced/tabs.rst:23 ../basics/find-ticket/browse.rst:27
 #: ../basics/find-ticket/search.rst:33 ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ UI Protipi**"
 
-#: ../advanced/tabs.rst:26
+#: ../advanced/tabs.rst:25
 msgid ""
 ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-"
 "coded:**"
@@ -1601,7 +1595,7 @@ msgstr "|red|"
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
 
-#: ../advanced/tabs.rst:31
+#: ../advanced/tabs.rst:30
 msgid ""
 "A **pulsing dot** means that a ticket has new activity since you last viewed "
 "it."
@@ -1609,15 +1603,15 @@ msgstr ""
 "**Titreşen nokta**, bir biletin son görüntülemenizden bu yana yeni "
 "etkinliklere sahip olduğu anlamına gelir."
 
-#: ../advanced/tabs.rst:33
+#: ../advanced/tabs.rst:32
 msgid "Drag and drop tabs to rearrange them."
 msgstr "Yeniden düzenlemek için sekmeleri sürükleyip bırakın."
 
-#: ../advanced/tabs.rst:36
+#: ../advanced/tabs.rst:35
 msgid "Tab Behavior in Ticket Zooms"
 msgstr ""
 
-#: ../advanced/tabs.rst:38
+#: ../advanced/tabs.rst:37
 msgid ""
 "You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
 "lower right already. This behavior of a tab can be configured by your "
@@ -1629,47 +1623,47 @@ msgstr ""
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 
-#: ../advanced/tabs.rst:47
+#: ../advanced/tabs.rst:46
 msgid ""
 "To overrule your administrator's settings, simply choose the action you "
 "prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
 
-#: ../advanced/tabs.rst:52
+#: ../advanced/tabs.rst:51
 msgid "Close tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:51
+#: ../advanced/tabs.rst:50
 msgid ""
 "Upon updating the ticket, Zammad will automatically close the tab. You'll be "
 "returned to the last view that was open."
 msgstr ""
 
-#: ../advanced/tabs.rst:58
+#: ../advanced/tabs.rst:57
 msgid "Close tab on ticket close"
 msgstr ""
 
-#: ../advanced/tabs.rst:55
+#: ../advanced/tabs.rst:54
 msgid ""
 "Ticket tabs will be closed only if you change the state to \"closed\" upon "
 "ticket update."
 msgstr ""
 
-#: ../advanced/tabs.rst:58
+#: ../advanced/tabs.rst:57
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 
-#: ../advanced/tabs.rst:66
+#: ../advanced/tabs.rst:65
 msgid "Next in overview"
 msgstr ""
 
-#: ../advanced/tabs.rst:61
+#: ../advanced/tabs.rst:60
 msgid ""
 "If you opened a ticket from any overview, Zammad will jump to the next "
 "ticket in said overview. Zammad recycles the open tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:64
+#: ../advanced/tabs.rst:63
 msgid ""
 "This option is only available if you open the ticket from an overview. "
 "Zammad will ignore the setting if you opened the ticket directly and fall "
@@ -1680,12 +1674,20 @@ msgstr ""
 msgid "Stay on tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:69
+#: ../advanced/tabs.rst:68
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:71
+#: ../advanced/tabs.rst:70
 msgid "*This is the default setting in Zammad installations.*"
+msgstr ""
+
+#: ../advanced/tabs.rst:72
+msgid ""
+"Now that you are an expert in tab handling, one more thing might be "
+"interesting as well: the maximum number of tabs is 30 due to performance "
+"reasons. In case you reach the limit and open another tab, the first opened "
+"tab gets closed automatically."
 msgstr ""
 
 #: ../advanced/text-modules.rst:2
@@ -8629,6 +8631,13 @@ msgstr ""
 "Şu anda Zammad kullanıcı belgelerini okumaktasınız. Ayrıca :docs:`system </"
 "index.html>` ve :admin-docs:`administration manuals </index.html>` da "
 "mevcuttur."
+
+#~ msgid ""
+#~ "As you click through Zammad, you will see a list of entries appear in the "
+#~ "main menu area. These are your **open tabs.**"
+#~ msgstr ""
+#~ "Zammad'a tıkladığınızda, ana menü alanında girişlerin bir listesinin "
+#~ "göründüğünü göreceksiniz. Bunlar **açık sekmelerinizdir.**"
 
 #~ msgid "article.attachment.content_type: string (File type e.g. PDF)"
 #~ msgstr "article.attachment.content_type: string (Dosya türü ör. PDF)"
