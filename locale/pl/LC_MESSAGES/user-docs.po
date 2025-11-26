@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-04 10:40+0200\n"
-"PO-Revision-Date: 2025-10-28 07:00+0000\n"
-"Last-Translator: MBekspert <michal.bosak@ekspert.biz>\n"
+"PO-Revision-Date: 2025-11-26 09:00+0000\n"
+"Last-Translator: SamolJacek <samol.jacek@gmail.com>\n"
 "Language-Team: Polish <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/pl/>\n"
 "Language: pl\n"
@@ -69,9 +69,8 @@ msgid "Keyboard shortcut cheat sheet"
 msgstr "Ściąga ze skrótów klawiszowych"
 
 #: ../advanced/keyboard-shortcuts.rst:26
-#, fuzzy
 msgid "The keyboard shortcut overview."
-msgstr "Ściąga ze skrótów klawiszowych"
+msgstr "Ściąga ze skrótów klawiszowych."
 
 #: ../advanced/keyboard-shortcuts.rst:29
 msgid "Settings"
@@ -115,9 +114,8 @@ msgid "Keyboard shortcut settings"
 msgstr "Skróty klawiszowe"
 
 #: ../advanced/keyboard-shortcuts.rst:53
-#, fuzzy
 msgid "The keyboard shortcut settings."
-msgstr "Ściąga ze skrótów klawiszowych"
+msgstr "Ustawienia skrótów klawiaturowych."
 
 #: ../advanced/keyboard-shortcuts.rst:56
 #, fuzzy
@@ -197,10 +195,8 @@ msgid ":kbd:`?`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:70
-#, fuzzy
-#| msgid "open a ticket overview;"
 msgid "Open shortcuts overview"
-msgstr "otwórz przegląd zgłoszeń;"
+msgstr "Przegląd otwartych skrótów"
 
 #: ../advanced/keyboard-shortcuts.rst:71
 msgid ":kbd:`shift` :kbd:`l`"
@@ -590,15 +586,14 @@ msgstr ""
 "pracę."
 
 #: ../advanced/macros.rst:10
-#, fuzzy
 msgid ""
 "Macros can be created by your :admin-docs:`administrator </manage/"
 "macros.html>`. If you have an idea for a macro you'd like to use, your "
 "Zammad admin can probably make it happen."
 msgstr ""
-"Nie możesz –  :admin-docs: to zadanie dla administratora </manage/"
+"Makra mogą być tworzone przez :admin-docs:`administratora </manage/"
 "macros.html>`. Jeśli masz pomysł na makro, którego chciałbyś użyć, twój "
-"administrator Zammad prawdopodobnie może go zrealizować."
+"administrator Zammad prawdopodobnie może je stworzyć."
 
 #: ../advanced/macros.rst:14
 #, fuzzy
@@ -2305,10 +2300,10 @@ msgid ""
 msgstr ""
 
 #: ../basics/service-ticket/create.rst:45
-#, fuzzy
-#| msgid "Screencast showing how to run a macro within a ticket view."
 msgid "Screenshot showing customer search while creating a new ticket"
-msgstr "Screencast pokazujący, jak uruchomić makro w widoku zgłoszenia."
+msgstr ""
+"Zrzut ekranu przedstawiający wyszukiwanie klienta podczas tworzenia nowego "
+"zgłoszenia"
 
 #: ../basics/service-ticket/create.rst:45
 msgid "Ticket creation with customer suggestion based on search."
@@ -3550,6 +3545,12 @@ msgid ""
 "in order to prevent escalations, you can use our SLAs (see :ref:`SLAs "
 "<glossary-sla>`)."
 msgstr ""
+"Eskalacja jest tym, co dzieje się po upływie ostatecznego terminu zgłoszenia "
+"i, na przykład, nie wykonano żadnej aktualizacji dla klienta. Zgłoszenie "
+"zostaje oznaczone na czerwono na pasku zadań i w przeglądach, a wszyscy "
+"inni, którzy są zaangażowani w jego proces, stają się bardzo smutni. Nie "
+"pozwól więc na eskalację zgłoszeń! Ponadto, aby zapobiec eskalacji, możesz "
+"skorzystać z naszych umów SLA (zobacz :ref:`SLA <glossary-sla>`)."
 
 #: ../basics/zammad-glossary.rst:244
 msgid "Exchange Integration"
@@ -3735,11 +3736,11 @@ msgid ""
 "and \"no access\"."
 msgstr ""
 "Grupy są synonimem działów lub grup roboczych. Przychodzące zgłoszenia są do "
-"nich przypisywane. Odpowiednia grupa jest odpowiedzialna za ich "
-"przetwarzanie. W ramach grupy można zdefiniować właściciela, który jest "
-"odpowiedzialny za dane zgłoszenie. Prawa dostępu do zgłoszeń są również "
-"kontrolowane przez grupy. Możliwe uprawnienia to \"pełny dostęp\", \"tylko "
-"do odczytu\" i \"brak dostępu\"."
+"nich przypisywane. Odpowiednia grupa jest odpowiedzialna za ich obsługę. W "
+"ramach grupy można zdefiniować właściciela, który jest odpowiedzialny za "
+"dane zgłoszenie. Prawa dostępu do zgłoszeń są również kontrolowane przez "
+"grupy. Możliwe uprawnienia to \"pełny dostęp\", \"tylko do odczytu\" i "
+"\"brak dostępu\"."
 
 #: ../basics/zammad-glossary.rst:333
 msgid ""
@@ -3809,6 +3810,12 @@ msgid ""
 "doit objects for easy reference. It also allows you to create Zammad tickets "
 "in i-doit."
 msgstr ""
+"i-doit to baza danych zarządzania konfiguracją (CMDB - Configuration "
+"Management Data Base). Pomaga mieć na oku każdy element infrastruktury "
+"fizycznej i cyfrowej. Odpowiednia integracja umożliwia połączenie go z "
+"Zammad, gdzie dodaje nową kartę do paska bocznego zgłoszeń w Zammad, dzięki "
+"czemu można połączyć się z istniejącymi obiektami i-doit w celu łatwego "
+"odniesienia. Umożliwia również tworzenie zgłoszeń Zammad w i-doit."
 
 #: ../basics/zammad-glossary.rst:372
 msgid ""
@@ -4067,6 +4074,11 @@ msgid ""
 "handover note on the ticket so that the new owner knows what is expected of "
 "them."
 msgstr ""
+"Właścicielem zgłoszenia jest osoba, która jest za nie odpowiedzialna i dba o "
+"to, by zostało ono przetworzone w najlepszy możliwy sposób. Oczywiście "
+"własność może zostać przeniesiona na innego agenta. W takim przypadku zaleca "
+"się pozostawienie notatki przekazania na zgłoszeniu, aby nowy właściciel "
+"wiedział, czego się od niego oczekuje."
 
 #: ../basics/zammad-glossary.rst:517
 msgid ""
@@ -4413,6 +4425,11 @@ msgid ""
 "they refer to. But they could also be based on the type of request, e.g. "
 "refund, delivery issue, missing…"
 msgstr ""
+"Tagi pomagają kategoryzować zgłoszenia. Można je zdefiniować w oparciu o "
+"przypadek użycia. Na przykład, jeśli prowadzisz sprzedaż detaliczną, tagi "
+"mogą być oparte na kategoriach produktów, aby pomóc w organizowaniu zgłoszeń "
+"według rodzaju produktu, do którego się odnoszą. Ale mogą być również oparte "
+"na typie zgłoszenia, np. zwrot pieniędzy, problem z dostawą, brak…"
 
 #: ../basics/zammad-glossary.rst:705
 msgid ""
@@ -4483,7 +4500,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:748
 msgid "Trigger"
-msgstr ""
+msgstr "Wyzwalacz"
 
 #: ../basics/zammad-glossary.rst:744
 msgid ""
