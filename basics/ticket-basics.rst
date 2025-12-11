@@ -68,7 +68,7 @@ called attributes. The most important ones are:
   changing the group and saving the changes.
 
 Depending on the configuration of your Zammad, you might even have more
-attributes available. It is even possible to create custom fields for
+attributes available. It is possible to create custom fields for
 tickets (e.g. for groups and users too). You think such a custom field makes
 sense? Talk with your Zammad admin, it can be set up easily
 (:admin-docs:`admins can read more here </system/object/types.html>`).
