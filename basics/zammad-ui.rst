@@ -46,27 +46,37 @@ Navigation Sidebar
 ------------------
 
 The navigation sidebar displays different areas. You might not see all of them
-because some depend on the configuration of your Zammad.
+because some depend on the configuration of your Zammad. The navigation sidebar
+is alway visible. That means if you don't know where you are, you can always
+go back to the dashboard, your overviews or an opened ticket, for example.
 
 .. sidebar:: Navigation sidebar
 
    .. figure:: /images/basics/basics/navigation-bar-details.png
+      :scale: 60%
+      :align: center
       :alt: Screenshot shows Zammad's navigation bar with highlighted areas.
 
 Search and notification area (1)
    Includes the search where you can search for users, organizations, tickets
-   and basically every available information. Next to the search you can find
-   the Zammad logo. In case there is a notification, it shows you a badge with
-   a count about how many notifications you got.
+   and basically every in Zammad available information. Next to the search you
+   can find the Zammad logo. In case there is a notification, it shows you a
+   badge with a count about how many notifications you got.
 
-2. Navigate to the dashboard, overviews, knowledge base or phone screen.
-3. Ticket, user and organization tabs
-4. Profile settings, reporting, admin settings and create new ticket button.
+Navigation (2)
+   Allows you to swith to different Zammad screens like the dashboard,
+   overviews, knowledge base or phone screen.
+
+Content tabs (3)
+   You can find tabs for your opened tickets, users and organizations.
+
+Bottom bar
+   Profile settings, reporting, admin settings and create new ticket button.
 
 
 
 Sidebar
 -------
 
-The sidebar displays all ticket relevant information and additional
-functionality.
+The sidebar on the right side displays all ticket relevant information and
+has additional functionality.
