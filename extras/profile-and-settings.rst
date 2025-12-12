@@ -140,7 +140,7 @@ Clicking on "Profile" in the user menu opens the profile settings.
     handle your tickets while you're gone.
 
     Your substitute will receive all your ticket notifications during your
-    absence, and have a custom :doc:`overview </basics/find-ticket/browse>`
+    absence, and have a custom :ref:`overview <overviews>`
     created to help keep track of your tickets.
 
     You will receive notifications while you are absent.

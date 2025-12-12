@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-12 12:05+0100\n"
+"POT-Creation-Date: 2025-12-12 15:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1198,8 +1198,7 @@ msgid "Omnisearch"
 msgstr ""
 
 #: ../advanced/tabs.rst:23
-#: ../basics/find-ticket/browse.rst:27
-#: ../basics/find-ticket/search.rst:33
+#: ../basics/find-ticket.rst:99
 #: ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
@@ -1692,147 +1691,141 @@ msgstr ""
 msgid "Accounted times in the ticket view"
 msgstr ""
 
-#: ../basics/find-ticket.rst:8
-msgid "by Browsing"
-msgstr ""
-
-#: ../basics/find-ticket.rst:8
-msgid "by Searching"
-msgstr ""
-
 #: ../basics/find-ticket.rst:2
-msgid "Finding Tickets"
+msgid "Find Tickets"
 msgstr ""
 
 #: ../basics/find-ticket.rst:4
-msgid "If you plan to work on tickets, you'd better know how to find them first."
+msgid "There are different ways to find tickets, depending on your use case."
 msgstr ""
 
-#: ../basics/find-ticket.rst:6
-msgid "Read on to learn how to check for new tickets, and dig up old ones."
+#: ../basics/find-ticket.rst:9
+msgid "Via Overviews"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:2
-msgid "Browse for Tickets"
+#: ../basics/find-ticket.rst:11
+msgid "If you search for new tickets to work on, your first look should be in the overview section.  This section gives you a rough overview. More details are covered in a separate overview page."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:4
-msgid "Looking for a ticket to work on? Check the **overviews** menu."
+#: ../basics/find-ticket.rst:15
+msgid "You can either open it by clicking the **Overviews** button in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of overviews as some kind of ticket lists. By default, there are some built in overviews. For example, there is an overview called \"Unassigned & Open Tickets\" which might be a good starting point."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:10
+#: ../basics/find-ticket.rst:22
+msgid "My Assigned Tickets: open tickets in which you are set as owner."
+msgstr ""
+
+#: ../basics/find-ticket.rst:23
+msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
+msgstr ""
+
+#: ../basics/find-ticket.rst:24
+msgid "My Pending Reached Tickets: tickets in which you are the owner, have the *pending reminder* state and the pending reminder time is reached."
+msgstr ""
+
+#: ../basics/find-ticket.rst:26
+msgid "Open Tickets: open tickets."
+msgstr ""
+
+#: ../basics/find-ticket.rst:27
+msgid "Pending Reached Tickets: tickets which have the *pending reminder* state and the pending reminder time is reached."
+msgstr ""
+
+#: ../basics/find-ticket.rst:29
+msgid "Escalated Tickets: tickets which are escalated or will escalate in the next 10 minutes."
+msgstr ""
+
+#: ../basics/find-ticket.rst:32
+msgid "Your Zammad admin may have created additional overviews. These are based on conditions, which are basically rules, to define which ticket appears in which overview."
+msgstr ""
+
+#: ../basics/find-ticket.rst:40
 msgid "Sample view of Overviews"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:10
+#: ../basics/find-ticket.rst:40
 msgid "Click **Overviews** in the main menu to browse tickets."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:12
-msgid "Think of overviews as **inboxes**, each with a different filter for the tickets it displays."
+#: ../basics/find-ticket.rst:42
+msgid "You can adjust the overviews in some aspects:"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:15
-msgid "There are **six built-in overviews** (Zammad admin may :admin-docs:`create more </manage/overviews.html>` with custom-defined filters):"
+#: ../basics/find-ticket.rst:44
+msgid "Click on a column heading to change the sorting."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:19
-msgid "**My assigned tickets** (*open/pending* only)"
+#: ../basics/find-ticket.rst:45
+msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:20
-msgid "**Unassigned & Open**"
+#: ../basics/find-ticket.rst:46
+msgid "Adjust the order of the overviews in your :doc:`user profile </extras/profile-and-settings>`."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:21
-msgid "**My pending reached tickets** (previously marked *pending* and currently due)"
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:22
-msgid "**Open** (system-wide)"
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:23
-msgid "**Pending reached** (system-wide, previously marked *pending* and currently due)"
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:24
-msgid "**Escalated** (system-wide, failing to meet a :admin-docs:`service-level agreement </manage/slas/index.html>`)"
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:29
-#: ../basics/find-ticket/search.rst:35
-msgid "Click on column headings to change the display order."
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:30
-msgid "Click-and-drag column dividers to adjust their width."
-msgstr ""
-
-#: ../basics/find-ticket/browse.rst:31
+#: ../basics/find-ticket.rst:49
 msgid "The need for action is color coded and reflects mainly the :doc:`ticket states </basics/service-ticket/settings/state>`:"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:34
+#: ../basics/find-ticket.rst:54
 msgid "If you spot a circle with a blue/pink gradient, it indicates that an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:38
-msgid ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are **color-coded:**"
+#: ../basics/find-ticket.rst:57
+msgid ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are color-coded as well and help you to distinguish between the different priorities:"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:0
+#: ../basics/find-ticket.rst:None
 #: ../basics/service-ticket/settings/priority.rst:11
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
-#: ../basics/find-ticket/browse.rst:45
-#: ../basics/service-ticket/settings/priority.rst:11
-msgid "Zammad's 3 default priorities allow you to see the importance of your tickets better."
+#: ../basics/find-ticket.rst:68
+msgid "Via Search"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:2
-msgid "Search for Tickets"
-msgstr ""
-
-#: ../basics/find-ticket/search.rst:4
+#: ../basics/find-ticket.rst:70
 msgid "Looking for an a specific ticket? Use the **search bar**:"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:10
+#: ../basics/find-ticket.rst:76
 msgid "Results appear immediately under the search bar as you type."
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:12
+#: ../basics/find-ticket.rst:78
 msgid "It's not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, and 🏢 **organizations**, too."
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:15
+#: ../basics/find-ticket.rst:81
 msgid "**🔍 Here are just a few of the places the search engine will look:**"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:17
+#: ../basics/find-ticket.rst:83
 msgid "📝 message subject/content"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:18
+#: ../basics/find-ticket.rst:84
 msgid "👩 recipient names & email addresses"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:19
+#: ../basics/find-ticket.rst:85
 msgid "📎 text in file attachments (really!)"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:20
+#: ../basics/find-ticket.rst:86
 msgid "🏷️ user/organization metadata (e.g. notes stored on customer profiles)"
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:22
+#: ../basics/find-ticket.rst:88
 msgid "You can find a detailed search document in our `Advanced Search <../../advanced/search.html>`_ page."
 msgstr ""
 
-#: ../basics/find-ticket/search.rst:29
+#: ../basics/find-ticket.rst:95
 msgid "For detailed results, click the **Show Search Details →** link just above the autocomplete list."
+msgstr ""
+
+#: ../basics/find-ticket.rst:101
+msgid "Click on column headings to change the display order."
 msgstr ""
 
 #: ../basics/service-ticket.rst:2
@@ -2366,6 +2359,10 @@ msgstr ""
 msgid "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or important it is*."
 msgstr ""
 
+#: ../basics/service-ticket/settings/priority.rst:11
+msgid "Zammad's 3 default priorities allow you to see the importance of your tickets better."
+msgstr ""
+
 #: ../basics/service-ticket/settings/priority.rst:15
 msgid "But what does it do, and how should I use it?"
 msgstr ""
@@ -2481,7 +2478,7 @@ msgid "Click on a tag name to view other tickets with the same tag."
 msgstr ""
 
 #: ../basics/service-ticket/settings/tags.rst:13
-msgid ":doc:`Search for tickets with a given tag </basics/find-ticket/search>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
+msgid ":ref:`Search for tickets with a given tag <search-tickets>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:2
@@ -3227,7 +3224,7 @@ msgid "Overviews are your starting point to work on tickets. You can think of ov
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:507
-msgid "For more information please have a look in :doc:`/basics/find-ticket/browse`."
+msgid "For more information please have a look in :doc:`/basics/find-ticket`."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:511
@@ -4091,7 +4088,7 @@ msgid "Usage tips"
 msgstr ""
 
 #: ../extras/chat.rst:47
-msgid "🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime."
+msgid "🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the archive anytime."
 msgstr ""
 
 #: ../extras/chat.rst:48
@@ -4338,7 +4335,7 @@ msgid "VIP"
 msgstr ""
 
 #: ../extras/customers.rst:63
-msgid "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, **VIP status** doesn't actually do anything out-of-the-box, but an admin *can* set up automated system hooks based on this value, or use it as a filter for :doc:`custom overviews </basics/find-ticket/browse>`."
+msgid "Like the ticket priority, the **VIP status** doesn't actually do anything out-of-the-box. But an admin *can* set up automation rules based on this value or use it as a filter for custom :ref:`overviews <overviews>`."
 msgstr ""
 
 #: ../extras/customers.rst:68
@@ -5393,7 +5390,7 @@ msgid "Schedule absence periods in advance, and designate a substitute to handle
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:142
-msgid "Your substitute will receive all your ticket notifications during your absence, and have a custom :doc:`overview </basics/find-ticket/browse>` created to help keep track of your tickets."
+msgid "Your substitute will receive all your ticket notifications during your absence, and have a custom :ref:`overview <overviews>` created to help keep track of your tickets."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:146
