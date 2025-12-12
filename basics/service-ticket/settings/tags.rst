@@ -10,7 +10,7 @@ to make it easier to find them in the future.
 
    Click on a tag name to view other tickets with the same tag.
 
-.. hint:: :doc:`Search for tickets with a given tag </basics/find-ticket/search>`
+.. hint:: :ref:`Search for tickets with a given tag <search-tickets>`
    with the ``tags:`` search filter.
    For instance, find all tickets with the **order** tag
    by searching for ``tags: order``.

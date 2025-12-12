@@ -26,10 +26,8 @@ from the **Update ^** submenu in the Ticket View:
 
 .. tip:: 💾 **Macro = Update**
 
-   If you've made changes to any other
-   :ref:`settings on the ticket <ticket_settings>`
-   (including typing up a reply to the customer),
-   applying a macro will save them, too.
+   If you've made any changes (including typing up a reply to the customer),
+   applying a macro will save/send them too.
 
    ⚠️ **But beware:** in the event of a conflict,
    the macro's actions override any manual changes -

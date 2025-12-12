@@ -44,7 +44,7 @@ Overview
              be able to initiate a chat.
 
 Usage tips
-   * 🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old chats from the archive anytime.
+   * 🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the archive anytime.
    * 📋 Copy & paste **supports 🌄 inline images** as well as plain text.
    * ⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`.
    * 📝 Chats can be **renamed** or **tagged**, and record technical details about
