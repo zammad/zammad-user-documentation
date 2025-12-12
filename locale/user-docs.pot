@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-04 16:11+0100\n"
+"POT-Creation-Date: 2025-12-12 12:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:8
 #: ../basics/zammad-glossary.rst:508
+#: ../basics/zammad-ui.rst:15
 #: ../extras/chat.rst:11
 #: ../extras/customers.rst:7
 #: ../extras/secure-email.rst:32
@@ -569,10 +570,10 @@ msgid "💾 **Macro = Update**"
 msgstr ""
 
 #: ../advanced/macros.rst:29
-msgid "If you've made changes to any other :ref:`settings on the ticket <ticket_settings>` (including typing up a reply to the customer), applying a macro will save them, too."
+msgid "If you've made any changes (including typing up a reply to the customer), applying a macro will save/send them too."
 msgstr ""
 
-#: ../advanced/macros.rst:34
+#: ../advanced/macros.rst:32
 msgid "⚠️ **But beware:** in the event of a conflict, the macro's actions override any manual changes - including messages to the customer! When in doubt, apply your macro and your manual changes *separately.*"
 msgstr ""
 
@@ -580,31 +581,31 @@ msgstr ""
 msgid "Screencast showing above described effect that overwrites articles."
 msgstr ""
 
-#: ../advanced/macros.rst:44
+#: ../advanced/macros.rst:42
 msgid "If the selected macro adds a note to the ticket, any text entered in the message composer will be lost."
 msgstr ""
 
-#: ../advanced/macros.rst:48
+#: ../advanced/macros.rst:46
 msgid "In Bulk"
 msgstr ""
 
-#: ../advanced/macros.rst:50
+#: ../advanced/macros.rst:48
 msgid "To apply a macro to many tickets at the same time:"
 msgstr ""
 
-#: ../advanced/macros.rst:52
+#: ../advanced/macros.rst:50
 msgid "open a ticket overview;"
 msgstr ""
 
-#: ../advanced/macros.rst:53
+#: ../advanced/macros.rst:51
 msgid "select your desired tickets;"
 msgstr ""
 
-#: ../advanced/macros.rst:54
+#: ../advanced/macros.rst:52
 msgid "click-and-drag to open the “Run Macro” drawer; and"
 msgstr ""
 
-#: ../advanced/macros.rst:55
+#: ../advanced/macros.rst:53
 msgid "drop the tickets on your target macro."
 msgstr ""
 
@@ -612,11 +613,11 @@ msgstr ""
 msgid "Screencast showing how to run macros via overviews."
 msgstr ""
 
-#: ../advanced/macros.rst:62
+#: ../advanced/macros.rst:60
 msgid "☝️ **There's just one difference...** When running a macro from the ticket view, Zammad may automatically open the next ticket (or close the current one, or just stay on it), depending on how the macro was set up."
 msgstr ""
 
-#: ../advanced/macros.rst:67
+#: ../advanced/macros.rst:65
 msgid "When running it from the overviews page, Zammad will always stay on the overviews page."
 msgstr ""
 
@@ -838,6 +839,7 @@ msgid "Below you can find the most important attributes sorted by ticket and art
 msgstr ""
 
 #: ../advanced/search.rst:70
+#: ../basics/ticket-basics.rst:41
 msgid "Ticket Attributes"
 msgstr ""
 
@@ -1967,11 +1969,9 @@ msgstr ""
 
 #: ../basics/service-ticket/create.rst:65
 #: ../basics/service-ticket/settings.rst:2
-#: ../basics/what-is-a-ticket.rst:32
 msgid "Ticket Settings"
 msgstr ""
 
-#: ../snippets/ticket-settings-link-list.rst:1
 #: ../snippets/ticket-settings-link-list.rst:1
 #: ../snippets/ticket-settings-link-list.rst:1
 msgid "**📖 See Also**"
@@ -1979,11 +1979,9 @@ msgstr ""
 
 #: ../snippets/ticket-settings-link-list.rst:3
 #: ../snippets/ticket-settings-link-list.rst:3
-#: ../snippets/ticket-settings-link-list.rst:3
 msgid "For an in-depth discussion of each ticket setting, see the articles below:"
 msgstr ""
 
-#: ../snippets/ticket-settings-link-list.rst:5
 #: ../snippets/ticket-settings-link-list.rst:5
 #: ../snippets/ticket-settings-link-list.rst:5
 msgid ":doc:`Owner </basics/service-ticket/settings/owner>`"
@@ -1991,11 +1989,9 @@ msgstr ""
 
 #: ../snippets/ticket-settings-link-list.rst:6
 #: ../snippets/ticket-settings-link-list.rst:6
-#: ../snippets/ticket-settings-link-list.rst:6
 msgid ":doc:`State </basics/service-ticket/settings/state>`"
 msgstr ""
 
-#: ../snippets/ticket-settings-link-list.rst:7
 #: ../snippets/ticket-settings-link-list.rst:7
 #: ../snippets/ticket-settings-link-list.rst:7
 msgid ":doc:`Group </basics/service-ticket/settings/group>`"
@@ -2003,11 +1999,9 @@ msgstr ""
 
 #: ../snippets/ticket-settings-link-list.rst:8
 #: ../snippets/ticket-settings-link-list.rst:8
-#: ../snippets/ticket-settings-link-list.rst:8
 msgid ":doc:`Priority </basics/service-ticket/settings/priority>`"
 msgstr ""
 
-#: ../snippets/ticket-settings-link-list.rst:9
 #: ../snippets/ticket-settings-link-list.rst:9
 #: ../snippets/ticket-settings-link-list.rst:9
 msgid ":doc:`Tags </basics/service-ticket/settings/tags>`"
@@ -2405,7 +2399,6 @@ msgid "Customers can't set a priority for their own tickets. For more context, h
 msgstr ""
 
 #: ../basics/service-ticket/settings/state.rst:2
-#: ../basics/what-is-a-ticket.rst:51
 #: ../basics/zammad-glossary.rst:682
 msgid "State"
 msgstr ""
@@ -2491,52 +2484,97 @@ msgstr ""
 msgid ":doc:`Search for tickets with a given tag </basics/find-ticket/search>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:2
-msgid "What is a Ticket?"
+#: ../basics/ticket-basics.rst:2
+msgid "Ticket Basics"
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:4
-msgid "In Zammad, **tickets** are used to track customer service requests. The first time a customer emails you (or the company) about something, Zammad creates a new ticket. Each message sent between you and the customer is added to that ticket until the issue is resolved, the customer is happy, and the ticket is finally **closed**."
+#: ../basics/ticket-basics.rst:5
+#: ../extras/ai-features.rst:5
+msgid "Introduction"
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:12
-msgid "So in a basic sense, a ticket is **a thread of messages between you and a customer about a single issue**."
+#: ../basics/ticket-basics.rst:7
+msgid "In Zammad, **tickets** are used to track customer service requests. The first time a customer contacts you (or the company) about something, Zammad creates a new ticket. Each message sent between you and the customer is added to that ticket until the issue is resolved, the customer is happy and the ticket is finally closed. Such a single message in a ticket is called **article**. So basically, you can see a **ticket** as a **conversation** between you and a customer about a single issue."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:20
-msgid "Ticket thread view"
+#: ../basics/ticket-basics.rst:19
+msgid "Zammad UI with ticket detail view"
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:20
-msgid "A ticket is a thread of messages between a customer and an agent."
+#: ../basics/ticket-basics.rst:19
+msgid "A ticket is a conversation between a customer and one or more agents."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:22
-msgid "You know you're doing a great job when you 1) respond to tickets quickly and 2) get them closed in a timely manner."
+#: ../basics/ticket-basics.rst:21
+msgid "If you're completely new to a ticket system and handled your customer requests with an email client so far, you might think that a ticket system is complicated. But the opposite is the case:"
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:26
-msgid "👀 :doc:`Keep an eye on your dashboard </extras/dashboard>` to see how well you're keeping up."
+#: ../basics/ticket-basics.rst:25
+msgid "All emails are now collected in Zammad (and requests from other channels might be as well)."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:34
-msgid "Tickets also have metadata attached to them to make them easier to manage. For instance, tickets have a customer and (optionally) an agent; they can be open or closed (or even be scheduled for later); they can be organized into groups; and they can even be flagged for high or low priority."
+#: ../basics/ticket-basics.rst:27
+msgid "You and your colleagues can see who is working on which customer request (\"ticket\")."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:40
-msgid "For the sake of simplicity, we'll refer to this metadata as the **settings** of a ticket. All of these settings can be changed at any time. Each setting is explained in detail :doc:`here </basics/service-ticket/settings>`, but for the time being, let's go over the two most important ones:"
+#: ../basics/ticket-basics.rst:29
+msgid "The state of each request as well as the history (who did what?) is transparent."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:47
-msgid "Owner *(optional)*"
+#: ../basics/ticket-basics.rst:31
+msgid "There is no duplicate work and nothing gets overlooked."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:47
-msgid "The **agent currently assigned to** (*i.e.,* responsible for) the ticket."
+#: ../basics/ticket-basics.rst:32
+msgid "You can ask your colleagues directly in the ticket for help in difficult cases."
 msgstr ""
 
-#: ../basics/what-is-a-ticket.rst:50
-msgid "Is the customer still waiting on an answer (**open**), or has the ticket been resolved (**closed**)?"
+#: ../basics/ticket-basics.rst:34
+msgid "With Zammad's intuitive UI, you can focus on what matters: to resolve customer issues and answer customer questions."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:37
+msgid "So, basically you can work with Zammad similar as with your email client. Except that a ticket has additional attributes. Read on to learn more."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:43
+msgid "In addition to article, tickets have some additional meta information which are called attributes. The most important ones are:"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:46
+msgid "**State**: reflects the current state of a ticket (mainly if a customer request is resolved or not). By default, there are the following states:"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:49
+msgid "New: State for new tickets on which no one has worked on. When updating a ticket the first time, it automatically switches to open."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:51
+msgid "Open: State for tickets which aren't resolved yet and some work needs to be done."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:53
+msgid "Pending Close: State for tickets which are basically resolved but you don't want to close immediately. This state requires you to enter a date and time at which the ticket automatically switches to closed."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:56
+msgid "Pending Reminder: State for open tickets which you want to get reminded to a certain date and time. Requires you to enter a date and time at which you want to get notified. For example useful if you had a question to a third party and want to make sure that this issue won't be forgotten."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:60
+msgid "**Owner**: This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:66
+msgid "**Group**: This ticket attribute is useful for organizations with more than one team. Depending on the permissions, you might not see the ticket after changing the group and saving the changes."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:70
+msgid "Depending on the configuration of your Zammad, you might even have more attributes available. It is possible to create custom fields for tickets (e.g. for groups and users too). You think such a custom field makes sense? Talk with your Zammad admin, it can be set up easily (:admin-docs:`admins can read more here </system/object/types.html>`)."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:76
+msgid "Now you might wonder where to find and change these attributes. In this case, head over to the :doc:`zammad-ui` page where it is described."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:2
@@ -3307,6 +3345,7 @@ msgid "The scheduler is one of Zammad's automation features. An admin can define
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-ui.rst:85
 msgid "Sidebar"
 msgstr ""
 
@@ -3551,12 +3590,166 @@ msgstr ""
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr ""
 
-#: ../extras/ai-features.rst:2
-msgid "AI Features"
+#: ../basics/zammad-ui.rst:2
+msgid "Zammad UI"
 msgstr ""
 
-#: ../extras/ai-features.rst:5
-msgid "Introduction"
+#: ../basics/zammad-ui.rst:4
+msgid "The user interface (UI) of Zammad is designed to provide an intuitive experience for users. It is built around the concept of simplicity, clarity, and accessibility and is based on common software design principles which should make the UI pretty self explanatory."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:9
+msgid "There are basic modular components for different features to keep the UI consistent. These components are described in the sections below. Depending on the currently opened screen, there are interactive components, such as tooltips and a contextual help. Use them wherever needed."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:17
+msgid "The screenshot below shows the Zammad UI with the ticket detail view opened. Read on for a description of the different main elements of Zammad."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:None
+msgid "Screenshot shows the Zammad UI with an opened ticket detail view."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:25
+msgid "Navigation sidebar (1)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:24
+msgid "This is the left sidebar which includes the search, notifications, overviews, ticket tabs, your avatar and the ticket create button."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:30
+msgid "Navigation tab (2)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:28
+msgid "Each item of the navigation sidebar is called navigation tab. Depending on the content, it can be a ticket tab (with the ticket detail view) or the overview tab which opens the list of available overviews."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:34
+msgid "Ticket detail view (3)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:33
+msgid "This is where you handle your customer requests. It is located in the middle of the screen if a ticket tab is selected in the navigation sidebar."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:38
+msgid "Sidebar (4)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:37
+msgid "This is the right sidebar in the ticket detail view. It contains sidebar tabs like customers and checklists and displays the currently selected tab."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:44
+msgid "Sidebar tabs (5)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:41
+msgid "On the left side of the sidebar, you can find small icons to switch between the different tabs. The availability of these tabs depends on your system configuration, your permissions and the ticket attributes (e.g. if the customer of the ticket has an assigned organization)."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:47
+msgid "Navigation Sidebar"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:49
+msgid "The navigation sidebar displays different areas. You might not see all of them because some depend on the configuration of your Zammad. The navigation sidebar is always visible. That means if you don't know where you are, you can always go back to the dashboard, your overviews or an opened ticket, for example."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:0
+msgid "Screenshot shows Zammad's navigation bar with highlighted areas."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:67
+msgid "Search and notification area (1)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:64
+msgid "Includes the search where you can search for users, organizations, tickets and basically every in Zammad available information. Next to the search you can find the Zammad logo. In case there is a notification, it shows you a badge with a count about how many notifications you got."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:71
+msgid "Navigation (2)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:70
+msgid "Allows you to swith to different Zammad screens like the dashboard, overviews, knowledge base or phone screen."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:74
+msgid "Content tabs (3)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:74
+msgid "You can find tabs for your opened tickets, users and organizations."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:77
+msgid "Bottom bar (4)"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:77
+msgid "Profile settings and create new ticket button. In case you have additional permissions, there might be a settings and a reporting button as well."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:82
+#: ../extras/mobile-view.rst:37
+#: ../extras/mobile-view.rst:59
+#: ../extras/mobile-view.rst:81
+#: ../extras/mobile-view.rst:103
+#: ../extras/mobile-view.rst:181
+#: ../extras/mobile-view.rst:202
+msgid "x"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:87
+msgid "The sidebar on the right side displays all ticket relevant information and includes additional functionality. The most important one is the ticket sidebar. Switch between the different sidebars by clicking the desired tab on the left side of the sidebar . The available tabs are depending on the ticket and the configured features of your Zammad."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:102
+msgid "Ticket tab"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:94
+msgid "This tab shows the ticket information like owner, group, priority and state and lets you edit these values. Additionally, the following actions are available when you click on the **Ticket** header:"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:98
+msgid "History: shows a dialog with the history in the current ticket. This is where you can find when and what actions was performed and by whom."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:100
+msgid "Merge: merge the ticket with another one in case a customer emailed you multiple times about the same issue."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:102
+msgid "Change customer: set another customer for the ticket."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:107
+msgid "Customer tab"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:105
+msgid "View customer details including a reference to the customer's other tickets. You can change the ticket customer here as well by clicking on the **Customer** header and choose **Change customer**."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:113
+msgid "Organization tab"
+msgstr ""
+
+#: ../basics/zammad-ui.rst:110
+msgid "This tab is only shown if the customer is member of an organization. It shows the organization's details including all members. By clicking the **Organization** header, you can edit the name, the domain and the note of the organization."
+msgstr ""
+
+#: ../basics/zammad-ui.rst:115
+msgid "Now that you know the basics and where to find and adjust the most important things, let's see :doc:`how to find tickets <find-ticket>` to start working with Zammad."
+msgstr ""
+
+#: ../extras/ai-features.rst:2
+msgid "AI Features"
 msgstr ""
 
 #: ../extras/ai-features.rst:7
@@ -4747,15 +4940,6 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:33
 msgid "Home Page"
-msgstr ""
-
-#: ../extras/mobile-view.rst:37
-#: ../extras/mobile-view.rst:59
-#: ../extras/mobile-view.rst:81
-#: ../extras/mobile-view.rst:103
-#: ../extras/mobile-view.rst:181
-#: ../extras/mobile-view.rst:202
-msgid "x"
 msgstr ""
 
 #: ../extras/mobile-view.rst:39
@@ -6116,13 +6300,13 @@ msgstr ""
 msgid "In case of errors, you will be able to **Retry** the verification of the key."
 msgstr ""
 
-#: ../index.rst:20
-#: ../index.rst:20
+#: ../index.rst:21
+#: ../index.rst:21
 msgid "Advanced Topics"
 msgstr ""
 
-#: ../index.rst:36
-#: ../index.rst:36
+#: ../index.rst:37
+#: ../index.rst:37
 msgid "Extras"
 msgstr ""
 

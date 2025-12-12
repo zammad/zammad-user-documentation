@@ -18,6 +18,7 @@ The screenshot below shows the Zammad UI with the ticket detail view opened.
 Read on for a description of the different main elements of Zammad.
 
 .. figure:: /images/basics/basics/main-ui.png
+   :alt: Screenshot shows the Zammad UI with an opened ticket detail view.
 
 Navigation sidebar (1)
    This is the left sidebar which includes the search, notifications, overviews,
@@ -47,36 +48,70 @@ Navigation Sidebar
 
 The navigation sidebar displays different areas. You might not see all of them
 because some depend on the configuration of your Zammad. The navigation sidebar
-is alway visible. That means if you don't know where you are, you can always
+is always visible. That means if you don't know where you are, you can always
 go back to the dashboard, your overviews or an opened ticket, for example.
 
-.. sidebar:: Navigation sidebar
+.. container:: cfloat-right
 
    .. figure:: /images/basics/basics/navigation-bar-details.png
       :scale: 60%
       :align: center
       :alt: Screenshot shows Zammad's navigation bar with highlighted areas.
 
-Search and notification area (1)
-   Includes the search where you can search for users, organizations, tickets
-   and basically every in Zammad available information. Next to the search you
-   can find the Zammad logo. In case there is a notification, it shows you a
-   badge with a count about how many notifications you got.
+.. container:: cfloat-left
 
-Navigation (2)
-   Allows you to swith to different Zammad screens like the dashboard,
-   overviews, knowledge base or phone screen.
+   Search and notification area (1)
+      Includes the search where you can search for users, organizations, tickets
+      and basically every in Zammad available information. Next to the search you
+      can find the Zammad logo. In case there is a notification, it shows you a
+      badge with a count about how many notifications you got.
 
-Content tabs (3)
-   You can find tabs for your opened tickets, users and organizations.
+   Navigation (2)
+      Allows you to swith to different Zammad screens like the dashboard,
+      overviews, knowledge base or phone screen.
 
-Bottom bar
-   Profile settings, reporting, admin settings and create new ticket button.
+   Content tabs (3)
+      You can find tabs for your opened tickets, users and organizations.
 
+   Bottom bar (4)
+      Profile settings and create new ticket button. In case you have additional
+      permissions, there might be a settings and a reporting button as well.
 
+.. container:: cfloat-clear
+
+   x
 
 Sidebar
 -------
 
 The sidebar on the right side displays all ticket relevant information and
-has additional functionality.
+includes additional functionality. The most important one is the ticket sidebar.
+Switch between the different sidebars by clicking the desired tab on the left
+side of the sidebar . The available tabs are depending on the ticket and the
+configured features of your Zammad.
+
+Ticket tab
+   This tab shows the ticket information like owner, group, priority and state
+   and lets you edit these values. Additionally, the following actions are
+   available when you click on the **Ticket** header:
+
+   - History: shows a dialog with the history in the current ticket. This is
+     where you can find when and what actions was performed and by whom.
+   - Merge: merge the ticket with another one in case a customer emailed you
+     multiple times about the same issue.
+   - Change customer: set another customer for the ticket.
+
+Customer tab
+   View customer details including a reference to the customer's other tickets.
+   You can change the ticket customer here as well by clicking on the
+   **Customer** header and choose **Change customer**.
+
+Organization tab
+   This tab is only shown if the customer is member of an organization. It shows
+   the organization's details including all members. By clicking the
+   **Organization** header, you can edit the name, the domain and the note
+   of the organization.
+
+Now that you know the basics and where to find and adjust the most important
+things, let's see :doc:`how to find tickets <find-ticket>` to start working
+with Zammad.
