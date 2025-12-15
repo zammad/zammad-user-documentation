@@ -1,66 +1,75 @@
 Create Tickets
 ==============
 
-Zammad does its best to create tickets automatically
-when new customer issues come your way.
-But sometimes,
-there's just no way for Zammad to know when an issue arrives –
-like when a customer calls on the phone.
+When a customer messages you over a channel which is fetched by Zammad, a ticket
+is created automatically (except Zammad recognizes it as a follow-up, then it
+gets added as an article to an existing ticket). However, there might be cases
+where you need to create a ticket manually. Examples:
 
-In these cases, Zammad needs your help to **create a new ticket**.
+- A customer calls you by phone.
+- You receive a paper letter from a customer.
+- A customer comes to a physical service desk.
+- You proactively have to inform a customer by sending out a message.
+
+In situations like these, you need to create a new ticket manually and click the
+``+`` button at the bottom of the navigation bar. This shows a ticket create
+screen where you can add all needed information.
 
 .. figure:: /images/basics/service-ticket/create.png
    :alt: New ticket dialog
    :align: center
 
-   Click the **➕ button** to create a new ticket. The default ticket type is
-   **Received Call**.
+Types
+-----
 
-An agent can create three types of tickets:
+In the ticket create dialog, you can choose from different article types:
 
-:Received Call: for issues **initiated by a customer** over the phone.
-:Outbound Call: for issues **initiated by an agent** over the phone.
-:Send Email:    for issues **initiated by an agent** over email.
+- Received Call: for issues initiated by a customer over the phone.
+- Outbound Call: for issues initiated by an agent over the phone.
+- Send Email: for issues initiated by an agent over email.
 
-Filling Out the Form
---------------------
-
-Here's a quick run-down of each input field in the New Ticket form:
+When choosing **Send Email**, the customer receives an email with the title as
+subject and the text as email content.
 
 Title
-   The title of the ticket will be used as the **subject line**
-   for all email correspondences.
+-----
+
+This is the title of a ticket which is shown in many places in Zammad.
+For example this gets displayed in overviews. It is also used as the subject
+for email communication.
 
 Customer
-   Enter a name or email address of a customer to search. You can even search
-   for organizations and their members. Select an option from the autocomplete
-   menu or create a new customer by clicking the "➕ Create new Customer"
-   button. A ticket may only have **one** customer.
+--------
+
+Enter a name or email address of a customer to search for existing accounts.
+You can even search for organizations and their members. Select an option from
+the autocomplete menu or create a new customer by clicking the
+**➕ Create new Customer** button. A ticket can only have one customer.
 
 .. figure:: /images/basics/service-ticket/search-customer.png
    :alt: Screenshot showing customer search while creating a new ticket
-   :scale: 80%
    :align: center
 
    Ticket creation with customer suggestion based on search.
 
-.. tip:: **🖱️ UI Protip**
+After setting a customer in the ticket create dialog, the customer sidebar
+automatically opens. You can see additional customer information and also a
+hint about the currently opened tickets of the customer.
 
-   Once a customer has been selected,
-   her profile will be accessible from the **ticket pane**.
-
-   .. figure:: /images/basics/service-ticket/create-ticket-pane-customer-view.png
-      :alt: Ticket pane (Customer view)
-      :align: center
+.. figure:: /images/basics/service-ticket/create-ticket-customer-sidebar.png
+   :alt: Screenshot shows "Customer" sidebar after setting a customer.
+   :align: center
 
 Text
-   📞 For phone calls, record the details of your conversation.
-   These notes will not be sent to the customer
-   (though he may be able to see them if he has a Zammad account).
+----
 
-   📧 For emails, this is the body of your outgoing message.
+This is the content section where all currently known details of the issue
+should be written down. For the "Send Email" type, this is the content/body of
+the email.
 
-   .. include:: /snippets/ui-protip-message-editor-features.rst
+.. include:: /snippets/ui-protip-message-editor-features.rst
 
 Ticket Attributes
-   See :doc:`attributes`.
+-----------------
+
+See :doc:`attributes`.

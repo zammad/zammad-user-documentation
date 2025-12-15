@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 12:15+0100\n"
+"POT-Creation-Date: 2025-12-15 17:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -841,7 +841,7 @@ msgstr ""
 #: ../advanced/search.rst:70
 #: ../basics/ticket-basics.rst:41
 #: ../basics/work-with-tickets/attributes.rst:7
-#: ../basics/work-with-tickets/create-tickets.rst:65
+#: ../basics/work-with-tickets/create-tickets.rst:73
 msgid "Ticket Attributes"
 msgstr ""
 
@@ -1200,7 +1200,6 @@ msgid "Omnisearch"
 msgstr ""
 
 #: ../advanced/tabs.rst:23
-#: ../basics/work-with-tickets/create-tickets.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
@@ -2102,101 +2101,97 @@ msgid "Create Tickets"
 msgstr ""
 
 #: ../basics/work-with-tickets/create-tickets.rst:4
-msgid "Zammad does its best to create tickets automatically when new customer issues come your way. But sometimes, there's just no way for Zammad to know when an issue arrives – like when a customer calls on the phone."
+msgid "When a customer messages you over a channel which is fetched by Zammad, a ticket is created automatically (except Zammad recognizes it as a follow-up, then it gets added as an article to an existing ticket). However, there might be cases where you need to create a ticket manually. Examples:"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:9
+msgid "A customer calls you by phone."
 msgstr ""
 
 #: ../basics/work-with-tickets/create-tickets.rst:10
-msgid "In these cases, Zammad needs your help to **create a new ticket**."
+msgid "You receive a paper letter from a customer."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:16
+#: ../basics/work-with-tickets/create-tickets.rst:11
+msgid "A customer comes to a physical service desk."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:12
+msgid "You proactively have to inform a customer by sending out a message."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:14
+msgid "In situations like these, you need to create a new ticket manually and click the ``+`` button at the bottom of the navigation bar. This shows a ticket create screen where you can add all needed information."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:None
 msgid "New ticket dialog"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:16
-msgid "Click the **➕ button** to create a new ticket. The default ticket type is **Received Call**."
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:19
-msgid "An agent can create three types of tickets:"
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:0
-msgid "Received Call"
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:21
-msgid "for issues **initiated by a customer** over the phone."
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:0
-msgid "Outbound Call"
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:22
-msgid "for issues **initiated by an agent** over the phone."
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:0
-msgid "Send Email"
-msgstr ""
-
 #: ../basics/work-with-tickets/create-tickets.rst:23
-msgid "for issues **initiated by an agent** over email."
+msgid "Types"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:26
-msgid "Filling Out the Form"
+#: ../basics/work-with-tickets/create-tickets.rst:25
+msgid "In the ticket create dialog, you can choose from different article types:"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:27
+msgid "Received Call: for issues initiated by a customer over the phone."
 msgstr ""
 
 #: ../basics/work-with-tickets/create-tickets.rst:28
-msgid "Here's a quick run-down of each input field in the New Ticket form:"
+msgid "Outbound Call: for issues initiated by an agent over the phone."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:32
+#: ../basics/work-with-tickets/create-tickets.rst:29
+msgid "Send Email: for issues initiated by an agent over email."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:31
+msgid "When choosing **Send Email**, the customer receives an email with the title as subject and the text as email content."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:35
 #: ../basics/zammad-glossary.rst:732
 msgid "Title"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:31
-msgid "The title of the ticket will be used as the **subject line** for all email correspondences."
+#: ../basics/work-with-tickets/create-tickets.rst:37
+msgid "This is the title of a ticket which is shown in many places in Zammad. For example this gets displayed in overviews. It is also used as the subject for email communication."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:38
+#: ../basics/work-with-tickets/create-tickets.rst:42
 #: ../basics/zammad-glossary.rst:183
 msgid "Customer"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:35
-msgid "Enter a name or email address of a customer to search. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the \"➕ Create new Customer\" button. A ticket may only have **one** customer."
+#: ../basics/work-with-tickets/create-tickets.rst:44
+msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the **➕ Create new Customer** button. A ticket can only have one customer."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:45
+#: ../basics/work-with-tickets/create-tickets.rst:53
 msgid "Screenshot showing customer search while creating a new ticket"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:45
+#: ../basics/work-with-tickets/create-tickets.rst:53
 msgid "Ticket creation with customer suggestion based on search."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:49
-msgid "Once a customer has been selected, her profile will be accessible from the **ticket pane**."
+#: ../basics/work-with-tickets/create-tickets.rst:55
+msgid "After setting a customer in the ticket create dialog, the customer sidebar automatically opens. You can see additional customer information and also a hint about the currently opened tickets of the customer."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:0
-msgid "Ticket pane (Customer view)"
+#: ../basics/work-with-tickets/create-tickets.rst:None
+msgid "Screenshot shows \"Customer\" sidebar after setting a customer."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:63
+#: ../basics/work-with-tickets/create-tickets.rst:64
 msgid "Text"
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:57
-msgid "📞 For phone calls, record the details of your conversation. These notes will not be sent to the customer (though he may be able to see them if he has a Zammad account)."
-msgstr ""
-
-#: ../basics/work-with-tickets/create-tickets.rst:61
-msgid "📧 For emails, this is the body of your outgoing message."
+#: ../basics/work-with-tickets/create-tickets.rst:66
+msgid "This is the content section where all currently known details of the issue should be written down. For the \"Send Email\" type, this is the content/body of the email."
 msgstr ""
 
 #: ../snippets/ui-protip-message-editor-features.rst:3
@@ -2217,7 +2212,7 @@ msgstr ""
 msgid "Use the 🗊 icon next to the ticket title to copy the ticket number to your clipboard (including ticket hook; e.g. ``Ticket#50071``)."
 msgstr ""
 
-#: ../basics/work-with-tickets/create-tickets.rst:66
+#: ../basics/work-with-tickets/create-tickets.rst:75
 msgid "See :doc:`attributes`."
 msgstr ""
 
