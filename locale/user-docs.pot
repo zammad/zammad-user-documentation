@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-12 15:40+0100\n"
+"POT-Creation-Date: 2025-12-15 10:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1198,7 +1198,6 @@ msgid "Omnisearch"
 msgstr ""
 
 #: ../advanced/tabs.rst:23
-#: ../basics/find-ticket.rst:99
 #: ../basics/service-ticket/create.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
@@ -1704,7 +1703,7 @@ msgid "Via Overviews"
 msgstr ""
 
 #: ../basics/find-ticket.rst:11
-msgid "If you search for new tickets to work on, your first look should be in the overview section.  This section gives you a rough overview. More details are covered in a separate overview page."
+msgid "If you search for new tickets to work on, your first look should be in the overview section. This section gives you a rough overview. More details are covered in a separate overview page."
 msgstr ""
 
 #: ../basics/find-ticket.rst:15
@@ -1780,52 +1779,56 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
-#: ../basics/find-ticket.rst:68
+#: ../basics/find-ticket.rst:69
 msgid "Via Search"
 msgstr ""
 
-#: ../basics/find-ticket.rst:70
-msgid "Looking for an a specific ticket? Use the **search bar**:"
+#: ../basics/find-ticket.rst:71
+msgid "If you are looking for a specific ticket, you can use the search. Either click on the search bar at the top of the left navigation sidebar or use the keyboard shortcut :kbd:`s`."
 msgstr ""
 
-#: ../basics/find-ticket.rst:76
-msgid "Results appear immediately under the search bar as you type."
+#: ../basics/find-ticket.rst:None
+msgid "Screenshot shows the Zammad search with search results in the navigation sidebar."
 msgstr ""
 
-#: ../basics/find-ticket.rst:78
-msgid "It's not just for tickets! Results cover 💬 **chat logs**, 👨 **customers**, and 🏢 **organizations**, too."
-msgstr ""
-
-#: ../basics/find-ticket.rst:81
-msgid "**🔍 Here are just a few of the places the search engine will look:**"
-msgstr ""
-
-#: ../basics/find-ticket.rst:83
-msgid "📝 message subject/content"
+#: ../basics/find-ticket.rst:80
+msgid "But the search is not only about tickets. Zammad also searches for users, organizations and chat logs. It basically searches for all information which is stored in Zammad and which got indexed by Elasticsearch, like:"
 msgstr ""
 
 #: ../basics/find-ticket.rst:84
-msgid "👩 recipient names & email addresses"
+msgid "Message subject and text"
 msgstr ""
 
 #: ../basics/find-ticket.rst:85
-msgid "📎 text in file attachments (really!)"
+msgid "Names and email addresses"
 msgstr ""
 
 #: ../basics/find-ticket.rst:86
-msgid "🏷️ user/organization metadata (e.g. notes stored on customer profiles)"
+msgid "Text in file attachments"
+msgstr ""
+
+#: ../basics/find-ticket.rst:87
+msgid "User and organizations details (like notes, names, etc.)"
 msgstr ""
 
 #: ../basics/find-ticket.rst:88
-msgid "You can find a detailed search document in our `Advanced Search <../../advanced/search.html>`_ page."
+msgid "Knowledge base articles"
+msgstr ""
+
+#: ../basics/find-ticket.rst:90
+msgid "After entering a search term, you immediately see a preview of the search results. These results are separated by type to make sure you won't get lost in the results. Selecting one of those results will open a new navigation tab (if not already opened) with the item."
 msgstr ""
 
 #: ../basics/find-ticket.rst:95
-msgid "For detailed results, click the **Show Search Details →** link just above the autocomplete list."
+msgid "If you press :kbd:`enter` or click on **Show Search Details**, Zammad displays a page with the search results:"
 msgstr ""
 
-#: ../basics/find-ticket.rst:101
-msgid "Click on column headings to change the display order."
+#: ../basics/find-ticket.rst:None
+msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
+msgstr ""
+
+#: ../basics/find-ticket.rst:102
+msgid "You can narrow down your search by selecting a specific object type (e.g. \"User\") in the tab bar below the search bar. To sort the results based on the column's values, click on a column header. The sorting is indicated by an arrow. Click on the column again to change the sorting from ascending to descending and back. If you still can't find what you are looking for, have a look at the :doc:`advanced search page </advanced/search>` where you can learn how to search for specific attributes like creation date or the ticket owner's email address."
 msgstr ""
 
 #: ../basics/service-ticket.rst:2

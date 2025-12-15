@@ -9,7 +9,7 @@ Via Overviews
 -------------
 
 If you search for new tickets to work on, your first look should be in the
-overview section.  This section gives you a rough overview. More details are
+overview section. This section gives you a rough overview. More details are
 covered in a separate overview page.
 
 You can either open it by clicking the **Overviews** button
@@ -60,6 +60,7 @@ priorities:
 
 .. figure:: /images/basics/service-ticket/settings/priority-colors.png
    :alt: Overview showing 3 tickets with different priorities
+   :width: 60%
    :align: center
 
 .. _search-tickets:
@@ -67,35 +68,42 @@ priorities:
 Via Search
 ----------
 
-Looking for an a specific ticket? Use the **search bar**:
+If you are looking for a specific ticket, you can use the search. Either click
+on the search bar at the top of the left navigation sidebar or use the keyboard
+shortcut :kbd:`s`.
 
 .. figure:: /images/basics/find-ticket/search.png
+   :alt: Screenshot shows the Zammad search with search results in the navigation sidebar.
+   :width: 60%
    :align: center
-   :scale: 80%
 
-   Results appear immediately under the search bar as you type.
+But the search is not only about tickets. Zammad also searches for users,
+organizations and chat logs. It basically searches for all information which is
+stored in Zammad and which got indexed by Elasticsearch, like:
 
-It's not just for tickets! Results cover 💬 **chat logs**,
-👨 **customers**, and 🏢 **organizations**, too.
+- Message subject and text
+- Names and email addresses
+- Text in file attachments
+- User and organizations details (like notes, names, etc.)
+- Knowledge base articles
 
-**🔍 Here are just a few of the places the search engine will look:**
+After entering a search term, you immediately see a preview of the search
+results. These results are separated by type to make sure you won't get lost in
+the results. Selecting one of those results will open a new navigation tab
+(if not already opened) with the item.
 
-* 📝 message subject/content
-* 👩 recipient names & email addresses
-* 📎 text in file attachments (really!)
-* 🏷️ user/organization metadata (e.g. notes stored on customer profiles)
-
-You can find a detailed search document in our
-`Advanced Search <../../advanced/search.html>`_ page.
-
+If you press :kbd:`enter` or click on **Show Search Details**, Zammad displays
+a page with the search results:
 
 .. figure:: /images/basics/find-ticket/search-details.png
    :align: center
+   :alt: Screenshot shows the search details page with activated "Ticket" tab.
 
-   For detailed results,
-   click the **Show Search Details →** link
-   just above the autocomplete list.
-
-.. tip:: **🖱️ UI Protip**
-
-   Click on column headings to change the display order.
+You can narrow down your search by selecting a
+specific object type (e.g. "User") in the tab bar below the search bar. To sort
+the results based on the column's values, click on a column header. The sorting
+is indicated by an arrow.
+Click on the column again to change the sorting from ascending to descending
+and back. If you still can't find what you are looking for, have a look at the
+:doc:`advanced search page </advanced/search>` where you can learn how to search
+for specific attributes like creation date or the ticket owner's email address.
