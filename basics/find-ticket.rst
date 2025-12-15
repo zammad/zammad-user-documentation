@@ -47,14 +47,14 @@ You can adjust the overviews in some aspects:
   :doc:`user profile </extras/profile-and-settings>`.
 
 The need for action is color coded and reflects mainly the
-:doc:`ticket states </basics/service-ticket/settings/state>`:
+ticket states:
 
 .. include:: /snippets/ticket-state-type-circles.rst
 
 If you spot a circle with a blue/pink gradient, it indicates that an
 :doc:`AI agent </extras/ai-features>` is currently working on the ticket.
 
-:doc:`Ticket priorities </basics/service-ticket/settings/priority>` are
+Ticket priorities are
 color-coded as well and help you to distinguish between the different
 priorities:
 

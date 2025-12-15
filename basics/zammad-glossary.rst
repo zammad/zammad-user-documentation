@@ -514,9 +514,6 @@ Owner
    In this case, it is recommended to leave a handover note on the ticket so
    that the new owner knows what is expected of them.
 
-   Learn more about ticket owners on this page:
-   :doc:`/basics/service-ticket/settings`
-
 P
 -
 
@@ -676,7 +673,7 @@ State
    There are four types of states, and they are all color-coded.
 
    Learn more about states and their color coding on this page:
-   :doc:`/basics/service-ticket/settings/state`
+   :doc:`/basics/work-with-tickets/attributes`
 
    The available states can be changed or extended. Your admin can find further
    information :admin-docs:`here </system/objects.html#system-attributes>`.
@@ -705,7 +702,7 @@ Tags
    Administrators can learn more about tags
    :admin-docs:`here </manage/tags.html>`.
    Agents can learn more about this function on this page:
-   :doc:`/basics/service-ticket/settings/tags`
+   :doc:`/basics/work-with-tickets/attributes`
 
 Text module
    If you find that you send the same answers / text bits over and over again,

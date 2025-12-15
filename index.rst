@@ -16,7 +16,7 @@ Zammad User Documentation
    /basics/ticket-basics
    /basics/zammad-ui
    /basics/find-ticket
-   /basics/service-ticket
+   /basics/work-with-tickets
 
 .. toctree::
    :maxdepth: 2

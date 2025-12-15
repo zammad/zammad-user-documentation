@@ -1,5 +1,5 @@
-Creating a Ticket
-=================
+Create Tickets
+==============
 
 Zammad does its best to create tickets automatically
 when new customer issues come your way.
@@ -62,5 +62,5 @@ Text
 
    .. include:: /snippets/ui-protip-message-editor-features.rst
 
-Ticket Settings
-   .. include:: /snippets/ticket-settings-link-list.rst
+Ticket Attributes
+   See :doc:`attributes`.

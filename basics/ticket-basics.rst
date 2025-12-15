@@ -20,7 +20,7 @@ between you and a customer about a single issue.
 
 If you're completely new to a ticket system and handled your customer requests
 with an email client so far, you might think that a ticket system is
-complicated. But the opposite is the case:
+complicated. But the opposite is true:
 
 - All emails are now collected in Zammad (and requests from other channels might
   be as well).
@@ -63,9 +63,12 @@ called attributes. The most important ones are:
   :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets
   notified and is automatically subscribed to receive notifications on ticket
   updates.
-- **Group**: This ticket attribute is useful for organizations with more than one
-  team. Depending on the permissions, you might not see the ticket after
-  changing the group and saving the changes.
+- **Group**: This ticket attribute is useful for organizations with more than
+  one team. A common way to use groups is to have one for each department of the
+  company. Depending on the permissions, you might not see the ticket after
+  changing the group and saving the changes. In case you can't see the group
+  field, either there is only one group in your Zammad system or you don't have
+  the permission to create a ticket in other groups.
 
 Depending on the configuration of your Zammad, you might even have more
 attributes available. It is possible to create custom fields for

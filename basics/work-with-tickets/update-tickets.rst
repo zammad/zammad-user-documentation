@@ -1,5 +1,5 @@
-Following Up
-============
+Update Tickets
+==============
 
 Generally, “working on existing tickets” means
 keeping up with a customer correspondence in the **thread view**.
@@ -9,7 +9,7 @@ You can do this by:
 * 📝 adding a message/note to the **whole ticket**.
 
 Read on to learn more,
-or skip ahead to find out about :doc:`managing ticket settings <settings>`
+or skip ahead to find out about :ref:`managing ticket settings <ticket-attributes>`
 (which is the other half of “working on existing tickets”).
 
 .. figure:: /images/basics/what-is-a-ticket.png
@@ -17,7 +17,7 @@ or skip ahead to find out about :doc:`managing ticket settings <settings>`
    :align: center
 
    Tickets are threads of messages & notes about a customer service issue.
-   :doc:`⚙️ Manage ticket settings <settings>` in the
+   :ref:`⚙️ Manage ticket settings <ticket-attributes>` in the
    **ticket pane** on the right.
 
 Any time you open a ticket, a new entry will appear in your
@@ -126,7 +126,7 @@ quotations by using enter.
    Mark, press reply and work with quoted text!
 
 🔥 Keeping an Eye on Escalations
----------------------------------
+--------------------------------
 
 SLAs are optional and require configuration by your instance administrator.
 Administrators can learn more about SLAs
@@ -164,3 +164,52 @@ they arise.
 
    A ✏️ icon will appear if the agent has made any unsaved changes to the
    ticket.
+
+.. _rename-ticket:
+
+Renaming a Ticket
+^^^^^^^^^^^^^^^^^
+
+To rename a ticket, simply click on the title and start typing.
+
+.. figure:: /images/basics/service-ticket/settings-rename-ticket.png
+   :align: center
+
+Highlighting Ticket Text
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Use the highlighter tool in the upper-righthand corner to mark up important
+text. (Your highlights are visible to other agents.)
+
+.. figure:: /images/basics/service-ticket/settings-highlight-text.png
+   :alt: Ticket highlighter
+   :align: center
+
+   Highlight by selecting text, then clicking the highlighter.
+   Click again to undo.
+
+Further Ticket Actions
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. _ticket-submenu:
+
+Additional actions are available via the **submenu**:
+
+.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
+   :alt: Ticket submenu
+   :scale: 60%
+   :align: center
+
+   Click the **Ticket ▾** heading to access additional actions.
+
+History
+   See a comprehensive list of updates to the ticket,
+   performed by any user,
+   since its creation.
+
+Merge
+   Migrate all messages/notes to another ticket
+   (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details).
+
+Change Customer
+   Reassign the ticket to another customer.

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 10:45+0100\n"
+"POT-Creation-Date: 2025-12-15 12:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -840,6 +840,8 @@ msgstr ""
 
 #: ../advanced/search.rst:70
 #: ../basics/ticket-basics.rst:41
+#: ../basics/work-with-tickets/attributes.rst:7
+#: ../basics/work-with-tickets/create-tickets.rst:65
 msgid "Ticket Attributes"
 msgstr ""
 
@@ -1198,7 +1200,7 @@ msgid "Omnisearch"
 msgstr ""
 
 #: ../advanced/tabs.rst:23
-#: ../basics/service-ticket/create.rst:47
+#: ../basics/work-with-tickets/create-tickets.rst:47
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
 #: ../snippets/ui-protip-message-editor-features.rst:1
@@ -1206,7 +1208,7 @@ msgid "**🖱️ UI Protip**"
 msgstr ""
 
 #: ../advanced/tabs.rst:25
-msgid ":doc:`Ticket states </basics/service-ticket/settings/state>` are **color-coded:**"
+msgid ":doc:`Ticket states </basics/work-with-tickets/attributes>` are **color-coded:**"
 msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:4
@@ -1399,7 +1401,7 @@ msgid "Ticket Actions"
 msgstr ""
 
 #: ../advanced/ticket-actions.rst:4
-msgid "In the :doc:`servicing tickets section </basics/service-ticket>` you learned the base handling of tickets. However, there are additional actions you can perform:"
+msgid "In the **Basics** section you learned how to handle tickets. However, there are additional actions you can perform:"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:2
@@ -1763,7 +1765,7 @@ msgid "Adjust the order of the overviews in your :doc:`user profile </extras/pro
 msgstr ""
 
 #: ../basics/find-ticket.rst:49
-msgid "The need for action is color coded and reflects mainly the :doc:`ticket states </basics/service-ticket/settings/state>`:"
+msgid "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 
 #: ../basics/find-ticket.rst:54
@@ -1771,11 +1773,11 @@ msgid "If you spot a circle with a blue/pink gradient, it indicates that an :doc
 msgstr ""
 
 #: ../basics/find-ticket.rst:57
-msgid ":doc:`Ticket priorities </basics/service-ticket/settings/priority>` are color-coded as well and help you to distinguish between the different priorities:"
+msgid "Ticket priorities are color-coded as well and help you to distinguish between the different priorities:"
 msgstr ""
 
 #: ../basics/find-ticket.rst:None
-#: ../basics/service-ticket/settings/priority.rst:11
+#: ../basics/work-with-tickets/attributes.rst:31
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
@@ -1831,659 +1833,6 @@ msgstr ""
 msgid "You can narrow down your search by selecting a specific object type (e.g. \"User\") in the tab bar below the search bar. To sort the results based on the column's values, click on a column header. The sorting is indicated by an arrow. Click on the column again to change the sorting from ascending to descending and back. If you still can't find what you are looking for, have a look at the :doc:`advanced search page </advanced/search>` where you can learn how to search for specific attributes like creation date or the ticket owner's email address."
 msgstr ""
 
-#: ../basics/service-ticket.rst:2
-msgid "Servicing Tickets"
-msgstr ""
-
-#: ../basics/service-ticket.rst:4
-msgid "This is where you'll spend the vast majority of your time in Zammad."
-msgstr ""
-
-#: ../basics/service-ticket.rst:6
-msgid "Once you get the hang of the tasks below, there's really not much more to it."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:2
-msgid "Creating a Ticket"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:4
-msgid "Zammad does its best to create tickets automatically when new customer issues come your way. But sometimes, there's just no way for Zammad to know when an issue arrives – like when a customer calls on the phone."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:10
-msgid "In these cases, Zammad needs your help to **create a new ticket**."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:16
-msgid "New ticket dialog"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:16
-msgid "Click the **➕ button** to create a new ticket. The default ticket type is **Received Call**."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:19
-msgid "An agent can create three types of tickets:"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:0
-msgid "Received Call"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:21
-msgid "for issues **initiated by a customer** over the phone."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:0
-msgid "Outbound Call"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:22
-msgid "for issues **initiated by an agent** over the phone."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:0
-msgid "Send Email"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:23
-msgid "for issues **initiated by an agent** over email."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:26
-msgid "Filling Out the Form"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:28
-msgid "Here's a quick run-down of each input field in the New Ticket form:"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:32
-#: ../basics/zammad-glossary.rst:735
-msgid "Title"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:31
-msgid "The title of the ticket will be used as the **subject line** for all email correspondences."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:38
-#: ../basics/zammad-glossary.rst:183
-msgid "Customer"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:35
-msgid "Enter a name or email address of a customer to search. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the \"➕ Create new Customer\" button. A ticket may only have **one** customer."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:45
-msgid "Screenshot showing customer search while creating a new ticket"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:45
-msgid "Ticket creation with customer suggestion based on search."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:49
-msgid "Once a customer has been selected, her profile will be accessible from the **ticket pane**."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:0
-msgid "Ticket pane (Customer view)"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:63
-msgid "Text"
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:57
-msgid "📞 For phone calls, record the details of your conversation. These notes will not be sent to the customer (though he may be able to see them if he has a Zammad account)."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:61
-msgid "📧 For emails, this is the body of your outgoing message."
-msgstr ""
-
-#: ../snippets/ui-protip-message-editor-features.rst:3
-#: ../snippets/ui-protip-message-editor-features.rst:3
-#: ../snippets/ui-protip-message-editor-features.rst:3
-msgid "The message editor supports 📋 copying-and-pasting (or dragging-and-dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
-msgstr ""
-
-#: ../snippets/ui-protip-message-editor-features.rst:6
-#: ../snippets/ui-protip-message-editor-features.rst:6
-#: ../snippets/ui-protip-message-editor-features.rst:6
-msgid "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to apply rich text formatting or select text and use a formatting option from the bubble menu which shows up after selecting text."
-msgstr ""
-
-#: ../snippets/ui-protip-message-editor-features.rst:13
-#: ../snippets/ui-protip-message-editor-features.rst:13
-#: ../snippets/ui-protip-message-editor-features.rst:13
-msgid "Use the 🗊 icon next to the ticket title to copy the ticket number to your clipboard (including ticket hook; e.g. ``Ticket#50071``)."
-msgstr ""
-
-#: ../basics/service-ticket/create.rst:65
-#: ../basics/service-ticket/settings.rst:2
-msgid "Ticket Settings"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:1
-#: ../snippets/ticket-settings-link-list.rst:1
-msgid "**📖 See Also**"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:3
-#: ../snippets/ticket-settings-link-list.rst:3
-msgid "For an in-depth discussion of each ticket setting, see the articles below:"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:5
-#: ../snippets/ticket-settings-link-list.rst:5
-msgid ":doc:`Owner </basics/service-ticket/settings/owner>`"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:6
-#: ../snippets/ticket-settings-link-list.rst:6
-msgid ":doc:`State </basics/service-ticket/settings/state>`"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:7
-#: ../snippets/ticket-settings-link-list.rst:7
-msgid ":doc:`Group </basics/service-ticket/settings/group>`"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:8
-#: ../snippets/ticket-settings-link-list.rst:8
-msgid ":doc:`Priority </basics/service-ticket/settings/priority>`"
-msgstr ""
-
-#: ../snippets/ticket-settings-link-list.rst:9
-#: ../snippets/ticket-settings-link-list.rst:9
-msgid ":doc:`Tags </basics/service-ticket/settings/tags>`"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:2
-msgid "Following Up"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:4
-msgid "Generally, “working on existing tickets” means keeping up with a customer correspondence in the **thread view**. You can do this by:"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:8
-msgid "📧 responding to an **individual message**, or"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:9
-msgid "📝 adding a message/note to the **whole ticket**."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:11
-msgid "Read on to learn more, or skip ahead to find out about :doc:`managing ticket settings <settings>` (which is the other half of “working on existing tickets”)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:19
-msgid "Ticket summary view"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:19
-msgid "Tickets are threads of messages & notes about a customer service issue. :doc:`⚙️ Manage ticket settings <settings>` in the **ticket pane** on the right."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:23
-msgid "Any time you open a ticket, a new entry will appear in your :doc:`tab list</advanced/tabs>` in the main menu."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:26
-msgid "Zammad **automatically backs up your unsaved changes** in all open tabs."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:29
-msgid "Responding to Individual Messages"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:31
-msgid "Use the **⮪ reply** button under a message to reply to it directly."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:37
-msgid "Reply button"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:37
-msgid "An additional **⮪ reply all** option will appear for email messages with multiple recipients."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:40
-msgid "Like with new messages, your response will appear at the end of the thread. Under the hood, responses are sent **via the same channel as the original message** (*i.e.,* if the message you replied to was originally a tweet, the customer will receive your response in a Twitter DM)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:47
-msgid "You can also **forward messages**, just as you would in any email client (attachments are included automatically). This way, you can share correspondences with people who don't have Zammad (like a third-party supplier)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:51
-msgid "Do you want to see **detailed information of a message**? Just click on it:"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:None
-msgid "Message details view"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:58
-msgid "Adding New Messages/Notes"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:60
-msgid "Click on the text field at the end of the thread to add a follow-up:"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:65
-msgid "The default follow-up type is “note”. Click the 📝 to select another type."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:67
-msgid "There are three types of follow-ups:"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:0
-msgid "📝 Note"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:71
-msgid "Jot down a reminder for yourself and other agents when new information comes in (hidden from the customer by default)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:0
-msgid "📞 Call"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:77
-msgid "Record a summary of a phone call you had with the customer."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:0
-msgid "📧 Email"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:81
-msgid "Send an email *to anyone* about the ticket. The name of the ticket will be used for the subject line (:ref:`click on the title to rename it <rename-ticket>`)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:85
-msgid "You can **change the visibility of an article** by clicking the 🔒 button:"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:90
-msgid "“Internal” messages are outlined with a salmon border, and **can only be viewed by other agents**."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:93
-msgid "What about the **deletion of articles**? In Zammad, you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the \"delete\" button in articles of the type \"communication\" (emails, calls), their visibility has to be switched to internal first."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:101
-msgid "Using Quotation"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:103
-msgid "In many cases you'll want to quote earlier text of your customer. This is important because especially on long conversations your opponent will easily loose track."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:107
-msgid "Referencing on earlier written text helps greatly to keep context and track of things. By default Zammad adds no whole quote body (this can be changed by your administrator)."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:111
-msgid "No matter if the whole quotation is active or not, you can always mark the text you want to reference and press *reply* or *reply all* after. This will cause Zammad to add the marked text as quote to the editor. You can break up quotations by using enter."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:118
-msgid "This function is limited to one article per operation. The article has to be of type *communication* (thus have a *reply* button) to function."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:126
-msgid "Screencast showing text being marked and quoted after pressing reply"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:126
-msgid "Mark, press reply and work with quoted text!"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:129
-msgid "🔥 Keeping an Eye on Escalations"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:131
-msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`. If you can't see escalation timestamps, it is not configured by your admin."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:136
-msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:None
-msgid "Screenshot showing hovering over escalation note and getting\n"
-"more detailed escalation information"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:145
-msgid "Simultaneous Processing of a Ticket"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:149
-msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:154
-msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the bottom bar (live user section) for every agent that has that ticket open."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:158
-msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:165
-msgid "Ticket conflict alert"
-msgstr ""
-
-#: ../basics/service-ticket/follow-up.rst:165
-msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:4
-msgid "Use the **ticket pane** to manage a ticket's settings:"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:20
-msgid "Default ticket pane view"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:20
-msgid "Click the **→** button in the corner to hide the ticket pane. Click the 💬 tab to bring it back."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:23
-msgid "The available options depend on your privileges and the configuration of your system."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:29
-msgid "Renaming a Ticket"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:31
-msgid "To rename a ticket, simply click on the title and start typing."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:37
-msgid "Highlighting Ticket Text"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:39
-msgid "Use the highlighter tool in the upper-righthand corner to mark up important text. (Your highlights are visible to other agents.)"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:46
-msgid "Ticket highlighter"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:46
-msgid "Highlight by selecting text, then clicking the highlighter. Click again to undo."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:50
-msgid "Further Ticket Actions"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:54
-msgid "Additional actions are available via the **submenu**:"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:61
-msgid "Ticket submenu"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:61
-msgid "Click the **Ticket ▾** heading to access additional actions."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:66
-msgid "History"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:64
-msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:70
-msgid "Merge"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:69
-msgid "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details)."
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:72
-msgid "Change Customer"
-msgstr ""
-
-#: ../basics/service-ticket/settings.rst:73
-msgid "Reassign the ticket to another customer."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:2
-msgid "Group"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:4
-msgid "**Groups** are a form of access control that allows you to dictate *which agents are allowed to do what* to a given ticket."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:9
-msgid "What?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:11
-msgid "Suppose your organization uses Zammad for both sales and customer support. You've got ten different agents spread across two teams, handling dozens of tickets a day."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:15
-msgid "Without groups, all ten agents can see (and respond to) every single ticket that comes in, regardless of which department it's for. This isn't problematic *per se,* but it does lead to a lot of unnecessary clutter in the :doc:`overviews menu </basics/find-ticket>`. (It can be much worse when, for example, a customer service rep sees tickets meant for your HR department, and finds out how much their colleagues in sales are making! 💸💸💸)"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:25
-msgid "If, instead, each agent were assigned to an appropriate group, then they'd only ever see the tickets that belong to their own group."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:29
-msgid "Managing Groups"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:31
-msgid "So how do I manage which team I'm on? You don't - that's the :admin-docs:`administrator's job </manage/groups/index.html>`."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:34
-msgid "However, you can *check* which teams you're on in the Notifications section of your :doc:`user settings </extras/profile-and-settings>`:"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:43
-msgid "Profile > Notifications menu"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:43
-msgid "This user belongs to only one group (“Users”)."
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:46
-msgid "So Where Do I Come In?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/group.rst:48
-msgid "If you belong to more than one group, you may re-assign a ticket from one of your groups to another. In general, though, you won't need to do this unless you're an admin, or an admin has discussed the procedure with you beforehand."
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:2
-#: ../basics/zammad-glossary.rst:518
-msgid "Owner"
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:4
-msgid "A ticket's **owner** is simply *the agent that is currently responsible for it*."
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:8
-msgid "Whose Job is it to Assign Tickets?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:10
-msgid "It depends on your organization's workflow, but in most cases, **you will assign tickets to yourself** when you choose an issue to work on from the pool of new tickets."
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:16
-msgid "In principle, any agent may assign a ticket to any other, as long as both have the required privileges for the ticket's :doc:`group </basics/service-ticket/settings/group>`."
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:21
-msgid "Why Would I Want to Re-assign a Ticket to Someone Else?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/owner.rst:23
-msgid "Sometimes, complicated issues will require a ticket to be :ref:`passed back and forth between multiple agents <sharing-work>` before it can be closed. In such cases, a colleague may assign a ticket to you (or vice versa) after it has been partially resolved."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:2
-#: ../basics/zammad-glossary.rst:554
-msgid "Priority"
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:4
-msgid "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or important it is*."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:11
-msgid "Zammad's 3 default priorities allow you to see the importance of your tickets better."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:15
-msgid "But what does it do, and how should I use it?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:17
-msgid "Out of the box, **ticket priority doesn’t actually do anything**. However, Zammad administrators can set up all sorts of automated hooks that fire off based on this value, like:"
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:21
-msgid ":admin-docs:`service-level agreements </manage/slas/index.html>`,"
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:22
-msgid ":admin-docs:`triggers </manage/trigger.html>`, and"
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:23
-msgid ":admin-docs:`scheduled events </manage/scheduler.html>`."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:25
-msgid "Priority can also be used as a ticket filter when creating :admin-docs:`custom overviews </manage/overviews.html>`."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:28
-msgid "In other words, **consult your administrator** for details on how he’d like you to use it."
-msgstr ""
-
-#: ../basics/service-ticket/settings/priority.rst:32
-msgid "Customers can't set a priority for their own tickets. For more context, have a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:2
-#: ../basics/zammad-glossary.rst:682
-msgid "State"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:4
-msgid "The **state** of a ticket refers to *its progress toward completion,* and may be one of the following:"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:7
-msgid "new"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:8
-msgid "open"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:9
-msgid "closed"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:10
-msgid "merged (this Ticket has been merged into another Ticket. Check either the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to learn more)"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:14
-msgid "pending close (*i.e.,* scheduled to automatically close at a later date)"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:16
-msgid "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:20
-msgid "State Colors"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:22
-msgid "Zammad states are color-coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:30
-msgid "What's the Difference Between “New” and “Open”?"
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:32
-msgid "States do more than just indicate progress: Zammad has a fine-grained time tracking feature (so-called “:admin-docs:`service-level agreements </manage/slas/index.html>`”, or SLAs) that uses state information to measure how long it takes for customers to get a response on a new ticket or get their issues resolved entirely."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:38
-msgid "On a *new* ticket, the customer still hasn't received her first response on the issue."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:41
-msgid "On an *open* ticket, the customer has received an initial response, but the issue still hasn't been resolved."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:45
-msgid "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA limits."
-msgstr ""
-
-#: ../basics/service-ticket/settings/state.rst:47
-msgid "So, for instance, a ticket may be marked *pending reminder* if it's waiting on feedback from a third-party supplier who's out of town until next week."
-msgstr ""
-
-#: ../basics/service-ticket/settings/tags.rst:2
-#: ../basics/zammad-glossary.rst:708
-msgid "Tags"
-msgstr ""
-
-#: ../basics/service-ticket/settings/tags.rst:4
-msgid "**Tags** are custom-defined labels that can be applied to tickets to make it easier to find them in the future."
-msgstr ""
-
-#: ../basics/service-ticket/settings/tags.rst:11
-msgid "Ticket pane (tags)"
-msgstr ""
-
-#: ../basics/service-ticket/settings/tags.rst:11
-msgid "Click on a tag name to view other tickets with the same tag."
-msgstr ""
-
-#: ../basics/service-ticket/settings/tags.rst:13
-msgid ":ref:`Search for tickets with a given tag <search-tickets>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
-msgstr ""
-
 #: ../basics/ticket-basics.rst:2
 msgid "Ticket Basics"
 msgstr ""
@@ -2506,7 +1855,7 @@ msgid "A ticket is a conversation between a customer and one or more agents."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:21
-msgid "If you're completely new to a ticket system and handled your customer requests with an email client so far, you might think that a ticket system is complicated. But the opposite is the case:"
+msgid "If you're completely new to a ticket system and handled your customer requests with an email client so far, you might think that a ticket system is complicated. But the opposite is true:"
 msgstr ""
 
 #: ../basics/ticket-basics.rst:25
@@ -2566,15 +1915,563 @@ msgid "**Owner**: This is the person who is currently responsible for the ticket
 msgstr ""
 
 #: ../basics/ticket-basics.rst:66
-msgid "**Group**: This ticket attribute is useful for organizations with more than one team. Depending on the permissions, you might not see the ticket after changing the group and saving the changes."
+msgid "**Group**: This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:70
+#: ../basics/ticket-basics.rst:73
 msgid "Depending on the configuration of your Zammad, you might even have more attributes available. It is possible to create custom fields for tickets (e.g. for groups and users too). You think such a custom field makes sense? Talk with your Zammad admin, it can be set up easily (:admin-docs:`admins can read more here </system/object/types.html>`)."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:76
+#: ../basics/ticket-basics.rst:79
 msgid "Now you might wonder where to find and change these attributes. In this case, head over to the :doc:`zammad-ui` page where it is described."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:2
+msgid "Work with Tickets"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:4
+msgid "Because the flow differs from creating or updating a ticket, the description is split into different pages. Additionally, there is a third page about ticket attributes which applies to ticket creation and ticket update."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:8
+msgid ":doc:`Create tickets <work-with-tickets/create-tickets>`"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:9
+msgid ":doc:`Update tickets <work-with-tickets/update-tickets>`"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:10
+msgid ":doc:`Ticket attributes <work-with-tickets/attributes>`"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:2
+msgid "Attributes"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:9
+msgid "Use the **ticket sidebar** to view and change ticket attributes."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:15
+msgid "Default ticket pane view"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:15
+msgid "Click the **→** button in the corner to hide the ticket pane. Click the 💬 tab to bring it back."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:18
+msgid "The available options depend on your privileges and the configuration of your system."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:22
+#: ../basics/zammad-glossary.rst:551
+msgid "Priority"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:24
+msgid "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or important it is*."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:31
+msgid "Zammad's 3 default priorities allow you to see the importance of your tickets better."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:35
+msgid "But what does it do, and how should I use it?"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:37
+msgid "Out of the box, **ticket priority doesn’t actually do anything**. However, Zammad administrators can set up all sorts of automated hooks that fire off based on this value, like:"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:41
+msgid ":admin-docs:`service-level agreements </manage/slas/index.html>`,"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:42
+msgid ":admin-docs:`triggers </manage/trigger.html>`, and"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:43
+msgid ":admin-docs:`scheduled events </manage/scheduler.html>`."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:45
+msgid "Priority can also be used as a ticket filter when creating :admin-docs:`custom overviews </manage/overviews.html>`."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:48
+msgid "In other words, **consult your administrator** for details on how he’d like you to use it."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:52
+msgid "Customers can't set a priority for their own tickets. For more context, have a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:56
+#: ../basics/zammad-glossary.rst:705
+msgid "Tags"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:58
+msgid "**Tags** are custom-defined labels that can be applied to tickets to make it easier to find them in the future."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:65
+msgid "Ticket pane (tags)"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:65
+msgid "Click on a tag name to view other tickets with the same tag."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:67
+msgid ":ref:`Search for tickets with a given tag <search-tickets>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:73
+#: ../basics/zammad-glossary.rst:679
+msgid "State"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:75
+msgid "The **state** of a ticket refers to *its progress toward completion,* and may be one of the following:"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:78
+msgid "new"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:79
+msgid "open"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:80
+msgid "closed"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:81
+msgid "merged (this Ticket has been merged into another Ticket. Check either the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to learn more)"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:85
+msgid "pending close (*i.e.,* scheduled to automatically close at a later date)"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:87
+msgid "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:91
+msgid "State Colors"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:93
+msgid "Zammad states are color-coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:101
+msgid "What's the Difference Between “New” and “Open”?"
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:103
+msgid "States do more than just indicate progress: Zammad has a fine-grained time tracking feature (so-called “:admin-docs:`service-level agreements </manage/slas/index.html>`”, or SLAs) that uses state information to measure how long it takes for customers to get a response on a new ticket or get their issues resolved entirely."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:109
+msgid "On a *new* ticket, the customer still hasn't received her first response on the issue."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:112
+msgid "On an *open* ticket, the customer has received an initial response, but the issue still hasn't been resolved."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:116
+msgid "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA limits."
+msgstr ""
+
+#: ../basics/work-with-tickets/attributes.rst:118
+msgid "So, for instance, a ticket may be marked *pending reminder* if it's waiting on feedback from a third-party supplier who's out of town until next week."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:2
+msgid "Create Tickets"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:4
+msgid "Zammad does its best to create tickets automatically when new customer issues come your way. But sometimes, there's just no way for Zammad to know when an issue arrives – like when a customer calls on the phone."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:10
+msgid "In these cases, Zammad needs your help to **create a new ticket**."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:16
+msgid "New ticket dialog"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:16
+msgid "Click the **➕ button** to create a new ticket. The default ticket type is **Received Call**."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:19
+msgid "An agent can create three types of tickets:"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:0
+msgid "Received Call"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:21
+msgid "for issues **initiated by a customer** over the phone."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:0
+msgid "Outbound Call"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:22
+msgid "for issues **initiated by an agent** over the phone."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:0
+msgid "Send Email"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:23
+msgid "for issues **initiated by an agent** over email."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:26
+msgid "Filling Out the Form"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:28
+msgid "Here's a quick run-down of each input field in the New Ticket form:"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:32
+#: ../basics/zammad-glossary.rst:732
+msgid "Title"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:31
+msgid "The title of the ticket will be used as the **subject line** for all email correspondences."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:38
+#: ../basics/zammad-glossary.rst:183
+msgid "Customer"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:35
+msgid "Enter a name or email address of a customer to search. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the \"➕ Create new Customer\" button. A ticket may only have **one** customer."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:45
+msgid "Screenshot showing customer search while creating a new ticket"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:45
+msgid "Ticket creation with customer suggestion based on search."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:49
+msgid "Once a customer has been selected, her profile will be accessible from the **ticket pane**."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:0
+msgid "Ticket pane (Customer view)"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:63
+msgid "Text"
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:57
+msgid "📞 For phone calls, record the details of your conversation. These notes will not be sent to the customer (though he may be able to see them if he has a Zammad account)."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:61
+msgid "📧 For emails, this is the body of your outgoing message."
+msgstr ""
+
+#: ../snippets/ui-protip-message-editor-features.rst:3
+#: ../snippets/ui-protip-message-editor-features.rst:3
+#: ../snippets/ui-protip-message-editor-features.rst:3
+msgid "The message editor supports 📋 copying-and-pasting (or dragging-and-dropping) of **🔤 rich text**, **🌄 images** and **📎 file attachments**."
+msgstr ""
+
+#: ../snippets/ui-protip-message-editor-features.rst:6
+#: ../snippets/ui-protip-message-editor-features.rst:6
+#: ../snippets/ui-protip-message-editor-features.rst:6
+msgid "Use the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to apply rich text formatting or select text and use a formatting option from the bubble menu which shows up after selecting text."
+msgstr ""
+
+#: ../snippets/ui-protip-message-editor-features.rst:13
+#: ../snippets/ui-protip-message-editor-features.rst:13
+#: ../snippets/ui-protip-message-editor-features.rst:13
+msgid "Use the 🗊 icon next to the ticket title to copy the ticket number to your clipboard (including ticket hook; e.g. ``Ticket#50071``)."
+msgstr ""
+
+#: ../basics/work-with-tickets/create-tickets.rst:66
+msgid "See :doc:`attributes`."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:2
+msgid "Update Tickets"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:4
+msgid "Generally, “working on existing tickets” means keeping up with a customer correspondence in the **thread view**. You can do this by:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:8
+msgid "📧 responding to an **individual message**, or"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:9
+msgid "📝 adding a message/note to the **whole ticket**."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:11
+msgid "Read on to learn more, or skip ahead to find out about :ref:`managing ticket settings <ticket-attributes>` (which is the other half of “working on existing tickets”)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:19
+msgid "Ticket summary view"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:19
+msgid "Tickets are threads of messages & notes about a customer service issue. :ref:`⚙️ Manage ticket settings <ticket-attributes>` in the **ticket pane** on the right."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:23
+msgid "Any time you open a ticket, a new entry will appear in your :doc:`tab list</advanced/tabs>` in the main menu."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:26
+msgid "Zammad **automatically backs up your unsaved changes** in all open tabs."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:29
+msgid "Responding to Individual Messages"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:31
+msgid "Use the **⮪ reply** button under a message to reply to it directly."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:37
+msgid "Reply button"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:37
+msgid "An additional **⮪ reply all** option will appear for email messages with multiple recipients."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:40
+msgid "Like with new messages, your response will appear at the end of the thread. Under the hood, responses are sent **via the same channel as the original message** (*i.e.,* if the message you replied to was originally a tweet, the customer will receive your response in a Twitter DM)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:47
+msgid "You can also **forward messages**, just as you would in any email client (attachments are included automatically). This way, you can share correspondences with people who don't have Zammad (like a third-party supplier)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:51
+msgid "Do you want to see **detailed information of a message**? Just click on it:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:None
+msgid "Message details view"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:58
+msgid "Adding New Messages/Notes"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:60
+msgid "Click on the text field at the end of the thread to add a follow-up:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:65
+msgid "The default follow-up type is “note”. Click the 📝 to select another type."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:67
+msgid "There are three types of follow-ups:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:0
+msgid "📝 Note"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:71
+msgid "Jot down a reminder for yourself and other agents when new information comes in (hidden from the customer by default)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:0
+msgid "📞 Call"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:77
+msgid "Record a summary of a phone call you had with the customer."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:0
+msgid "📧 Email"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:81
+msgid "Send an email *to anyone* about the ticket. The name of the ticket will be used for the subject line (:ref:`click on the title to rename it <rename-ticket>`)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:85
+msgid "You can **change the visibility of an article** by clicking the 🔒 button:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:90
+msgid "“Internal” messages are outlined with a salmon border, and **can only be viewed by other agents**."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:93
+msgid "What about the **deletion of articles**? In Zammad, you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the \"delete\" button in articles of the type \"communication\" (emails, calls), their visibility has to be switched to internal first."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:101
+msgid "Using Quotation"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:103
+msgid "In many cases you'll want to quote earlier text of your customer. This is important because especially on long conversations your opponent will easily loose track."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:107
+msgid "Referencing on earlier written text helps greatly to keep context and track of things. By default Zammad adds no whole quote body (this can be changed by your administrator)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:111
+msgid "No matter if the whole quotation is active or not, you can always mark the text you want to reference and press *reply* or *reply all* after. This will cause Zammad to add the marked text as quote to the editor. You can break up quotations by using enter."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:118
+msgid "This function is limited to one article per operation. The article has to be of type *communication* (thus have a *reply* button) to function."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:126
+msgid "Screencast showing text being marked and quoted after pressing reply"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:126
+msgid "Mark, press reply and work with quoted text!"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:129
+msgid "🔥 Keeping an Eye on Escalations"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:131
+msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`. If you can't see escalation timestamps, it is not configured by your admin."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:136
+msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:None
+msgid "Screenshot showing hovering over escalation note and getting\n"
+"more detailed escalation information"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:145
+msgid "Simultaneous Processing of a Ticket"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:149
+msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:154
+msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the bottom bar (live user section) for every agent that has that ticket open."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:158
+msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:165
+msgid "Ticket conflict alert"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:165
+msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:171
+msgid "Renaming a Ticket"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:173
+msgid "To rename a ticket, simply click on the title and start typing."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:179
+msgid "Highlighting Ticket Text"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:181
+msgid "Use the highlighter tool in the upper-righthand corner to mark up important text. (Your highlights are visible to other agents.)"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:188
+msgid "Ticket highlighter"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:188
+msgid "Highlight by selecting text, then clicking the highlighter. Click again to undo."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:192
+msgid "Further Ticket Actions"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:196
+msgid "Additional actions are available via the **submenu**:"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:203
+msgid "Ticket submenu"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:203
+msgid "Click the **Ticket ▾** heading to access additional actions."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:208
+msgid "History"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:206
+msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:212
+msgid "Merge"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:211
+msgid "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details)."
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:214
+msgid "Change Customer"
+msgstr ""
+
+#: ../basics/work-with-tickets/update-tickets.rst:215
+msgid "Reassign the ticket to another customer."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:2
@@ -2666,7 +2563,7 @@ msgid "You can learn more on our `Autosave landing page <https://zammad.com/en/p
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:81
-#: ../basics/zammad-glossary.rst:620
+#: ../basics/zammad-glossary.rst:617
 #: ../extras/profile-and-settings.rst:0
 msgid "Avatar"
 msgstr ""
@@ -2824,7 +2721,7 @@ msgid "D"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:196
-#: ../basics/zammad-glossary.rst:612
+#: ../basics/zammad-glossary.rst:609
 msgid "Dashboard"
 msgstr ""
 
@@ -3085,7 +2982,7 @@ msgid "You can learn more on our `Kibana landing page <https://zammad.com/en/pro
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:410
-#: ../basics/zammad-glossary.rst:614
+#: ../basics/zammad-glossary.rst:611
 #: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
 msgstr ""
@@ -3230,363 +3127,363 @@ msgstr ""
 msgid "For more information please have a look in :doc:`/basics/find-ticket`."
 msgstr ""
 
+#: ../basics/zammad-glossary.rst:515
+msgid "Owner"
+msgstr ""
+
 #: ../basics/zammad-glossary.rst:511
 msgid "The owner of a ticket is the person responsible for it and ensures that it is processed in the best possible way. Of course, ownership can be transferred to another agent. In this case, it is recommended to leave a handover note on the ticket so that the new owner knows what is expected of them."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:517
-msgid "Learn more about ticket owners on this page: :doc:`/basics/service-ticket/settings`"
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:521
+#: ../basics/zammad-glossary.rst:518
 msgid "P"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:530
+#: ../basics/zammad-glossary.rst:527
 msgid "Parent/Child Relationship"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:524
+#: ../basics/zammad-glossary.rst:521
 msgid "If one ticket results in other subtasks (or additional correspondences), you can split it into several tickets. The main one will then be the parent ticket and the tickets with related subtopics are children. By the way: in the same way, you can also merge two tickets into one."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:529
+#: ../basics/zammad-glossary.rst:526
 msgid "Learn more about this function on this page: :doc:`/advanced/ticket-actions/link`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:545
+#: ../basics/zammad-glossary.rst:542
 msgid "Placetel"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:533
+#: ../basics/zammad-glossary.rst:530
 msgid "Placetel is a Cloud Telephone System that allows users to make phone calls via VoIP. Use your regular phone number and call someone directly on their mobile or landline while still having all communication in one place (aka Zammad)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:538
+#: ../basics/zammad-glossary.rst:535
 msgid "Integrating a Placetel account with Zammad provides users with a call log, making the history of their correspondences even more accurate. Callers are identified directly by their caller ID - a key function that saves agents a lot of time when assigning callers."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:543
+#: ../basics/zammad-glossary.rst:540
 msgid "Administrators can learn more on the `placetel CTI` integration page. Agents can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:548
+#: ../basics/zammad-glossary.rst:545
 msgid "Every ticket gets assigned a priority. By default, the priority is 2 (normal). But it can be changed to either 1 (low) or 3 (high)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:552
+#: ../basics/zammad-glossary.rst:549
 msgid "Priorities can even be adjusted or extended to fit your needs. Your administrator can find more information :admin-docs:`here </system/objects.html#system-attributes>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:557
+#: ../basics/zammad-glossary.rst:554
 msgid "Q"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:562
+#: ../basics/zammad-glossary.rst:559
 msgid "R"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:572
+#: ../basics/zammad-glossary.rst:569
 msgid "Release"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:565
+#: ../basics/zammad-glossary.rst:562
 msgid "Every few months, we bring a new version of Zammad into the world, which is called a release. It all started with Zammad 1.0."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:568
+#: ../basics/zammad-glossary.rst:565
 msgid "Every release adds new features to our software. There are major and minor releases: major releases (such as Zammad 1.0, 2.0, etc.) bring major changes. Minor releases are installed on top of them (such as 1.1, 2.1, etc.) and bring smaller updates."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:580
-#: ../basics/zammad-glossary.rst:621
+#: ../basics/zammad-glossary.rst:577
+#: ../basics/zammad-glossary.rst:618
 #: ../extras/reporting.rst:2
 msgid "Reporting"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:575
+#: ../basics/zammad-glossary.rst:572
 msgid "The reporting helps keeping an overview over stats and numbers (e.g. created tickets per month). There are two types of reporting: the reporting functionality integrated in Zammad and the reporting with external tools."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:579
+#: ../basics/zammad-glossary.rst:576
 msgid "Admins can find further information :admin-docs:`here </manage/report-profiles.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:593
+#: ../basics/zammad-glossary.rst:590
 msgid "Role"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:583
+#: ../basics/zammad-glossary.rst:580
 msgid "Everyone who logs into Zammad has a predefined role. There are three types: admin, agent, and customer."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:586
+#: ../basics/zammad-glossary.rst:583
 msgid "Admins have the most rights: they can define roles, permissions, and settings for the entire team and instance."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:589
+#: ../basics/zammad-glossary.rst:586
 msgid "Agents can view and edit tickets, but not change any settings other than those of their own profiles."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:592
+#: ../basics/zammad-glossary.rst:589
 msgid "Customers can view their tickets' processing status in their individual Customer Interface."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:596
+#: ../basics/zammad-glossary.rst:593
 msgid "S"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:603
+#: ../basics/zammad-glossary.rst:600
 msgid "Scheduler"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:599
+#: ../basics/zammad-glossary.rst:596
 msgid "The scheduler is one of Zammad's automation features. An admin can define specific conditions and actions which are applied to tickets with matching conditions in a time based manner. More information in the admin documentation in the :admin-docs:`scheduler section </manage/scheduler.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-glossary.rst:620
 #: ../basics/zammad-ui.rst:85
 msgid "Sidebar"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:606
+#: ../basics/zammad-glossary.rst:603
 msgid "The sidebar on the left side contains all relevant places and object you might need. Depending on the configured channels and your permissions, it might not include all sections which are listed below:"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:610
+#: ../basics/zammad-glossary.rst:607
 msgid "Search bar"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:611
+#: ../basics/zammad-glossary.rst:608
 msgid "Notification section"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:613
+#: ../basics/zammad-glossary.rst:610
 #: ../extras/profile-and-settings.rst:0
 msgid "Overviews"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:615
+#: ../basics/zammad-glossary.rst:612
 msgid "Customer Chat"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:616
+#: ../basics/zammad-glossary.rst:613
 msgid "Phone"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:617
+#: ../basics/zammad-glossary.rst:614
 msgid "One or more open tickets"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:618
+#: ../basics/zammad-glossary.rst:615
 msgid "Bottom section:"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:622
+#: ../basics/zammad-glossary.rst:619
 msgid "Admin settings"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-glossary.rst:620
 msgid "Button for ticket creation"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:632
+#: ../basics/zammad-glossary.rst:629
 msgid "Signature"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:626
+#: ../basics/zammad-glossary.rst:623
 msgid "The signature is your footer in an outgoing message. Your customers may find contact details and the name of your company/department there. It can even contain your :ref:`avatar image <glossary-avatar>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:631
+#: ../basics/zammad-glossary.rst:628
 msgid "It can be customized by your admin. Further information can be found :admin-docs:`here </channels/email/signatures.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:642
+#: ../basics/zammad-glossary.rst:639
 msgid "Sipgate"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:635
+#: ../basics/zammad-glossary.rst:632
 msgid "Sipgate is a SaaS solution for internet telephony. The Zammad integration for Sipgate provides users with a detailed call overview. If you have a customer that wants to get connected to a certain agent, the caller log will tell you if this colleague is currently available."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:640
+#: ../basics/zammad-glossary.rst:637
 msgid "Administrators can learn more on the `sipgate CTI` integration page. Agents can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:657
+#: ../basics/zammad-glossary.rst:654
 msgid "SLA"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:647
+#: ../basics/zammad-glossary.rst:644
 msgid "A Service Level Agreement (SLA) is a contract between an end-user and a company that defines the minimum expected service requirements including quality, availability, and punctuality. They are used to set expectations and hold companies accountable for keeping their promises."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:653
+#: ../basics/zammad-glossary.rst:650
 msgid "You can easily set up SLAs in Zammad and define parameters such as the time for the first response, an update, and a solution. Once the deadline has been reached, the ticket will escalate."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:657
+#: ../basics/zammad-glossary.rst:654
 msgid "You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:663
+#: ../basics/zammad-glossary.rst:660
 msgid "Splitting tickets"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:660
+#: ../basics/zammad-glossary.rst:657
 msgid "In case a ticket contains more than one issue and you want to handle it in a separate ticket, you can split the ticket. Zammad creates a new ticket then based on the selected article for splitting. See :doc:`/advanced/ticket-actions` for more information."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:672
+#: ../basics/zammad-glossary.rst:669
 msgid "SSO"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:666
+#: ../basics/zammad-glossary.rst:663
 msgid "Single-sign-on (SSO) allows you to access all your systems and devices with just one login. There are various providers that make this process easy and secure. Zammad currently supports SSO via SAML and Shibboleth."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:670
+#: ../basics/zammad-glossary.rst:667
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:672
+#: ../basics/zammad-glossary.rst:669
 msgid "You can learn more on our `SSO landing page <https://zammad.com/en/product/features/sso>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:675
+#: ../basics/zammad-glossary.rst:672
 msgid "Every ticket has a state. You can change it once you've updated the ticket. There are four types of states, and they are all color-coded."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:678
-msgid "Learn more about states and their color coding on this page: :doc:`/basics/service-ticket/settings/state`"
+#: ../basics/zammad-glossary.rst:675
+msgid "Learn more about states and their color coding on this page: :doc:`/basics/work-with-tickets/attributes`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:681
+#: ../basics/zammad-glossary.rst:678
 msgid "The available states can be changed or extended. Your admin can find further information :admin-docs:`here </system/objects.html#system-attributes>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:692
+#: ../basics/zammad-glossary.rst:689
 msgid "S/MIME"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:685
+#: ../basics/zammad-glossary.rst:682
 msgid "S/MIME is the most widely-supported method for secure email communication. By activating it in Zammad, all messages sent from Zammad will be signed and encrypted."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:689
+#: ../basics/zammad-glossary.rst:686
 msgid "Administrators can learn more about S/MIME :admin-docs:`in the admin documentation </system/integrations/smime/index.html>`, if you're an agent you can learn more about the functionality on this page: :doc:`/extras/secure-email`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:695
+#: ../basics/zammad-glossary.rst:692
 msgid "T"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:698
+#: ../basics/zammad-glossary.rst:695
 msgid "Tags help you to categorize tickets. You can define them based on your use case. For example, if you're a retail business, your tags could be based on your product categories to help you organize tickets by the type of product they refer to. But they could also be based on the type of request, e.g. refund, delivery issue, missing…"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:705
-msgid "Administrators can learn more about tags :admin-docs:`here </manage/tags.html>`. Agents can learn more about this function on this page: :doc:`/basics/service-ticket/settings/tags`"
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:722
-msgid "Text module"
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:711
-msgid "If you find that you send the same answers / text bits over and over again, you can save yourself a bunch of work and create a text module. This way, you just need to type ``::`` shortcut and the pre-defined paragraph will automatically appear in your article."
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:716
-msgid "For example, here at Zammad, we have a text module with the shortcut ``::ilff``, which turns into ``I look forward to your feedback``."
+#: ../basics/zammad-glossary.rst:702
+msgid "Administrators can learn more about tags :admin-docs:`here </manage/tags.html>`. Agents can learn more about this function on this page: :doc:`/basics/work-with-tickets/attributes`"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:719
+msgid "Text module"
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:708
+msgid "If you find that you send the same answers / text bits over and over again, you can save yourself a bunch of work and create a text module. This way, you just need to type ``::`` shortcut and the pre-defined paragraph will automatically appear in your article."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:713
+msgid "For example, here at Zammad, we have a text module with the shortcut ``::ilff``, which turns into ``I look forward to your feedback``."
+msgstr ""
+
+#: ../basics/zammad-glossary.rst:716
 msgid "Administrators can learn more about text modules :admin-docs:`here </manage/text-modules.html>`. Agents can learn more about this function on this page: :doc:`/advanced/text-modules`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:729
+#: ../basics/zammad-glossary.rst:726
 msgid "(Ticket) Template"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:725
+#: ../basics/zammad-glossary.rst:722
 msgid "If you create many similar tickets or write many similar texts, you can create a template for them. This is helpful for introductions to your product/service or for drawing up an offer. It's a real time-saver!"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:729
+#: ../basics/zammad-glossary.rst:726
 msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:732
+#: ../basics/zammad-glossary.rst:729
 msgid "The title of a ticket is different based on the channel it came in. You can find the title in the sidebar and in the top area in the ticket view. If the title is not very meaningful, you can change it by clicking on the title in a ticket view."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:741
+#: ../basics/zammad-glossary.rst:738
 msgid "Ticket hook"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:738
+#: ../basics/zammad-glossary.rst:735
 msgid "The ticket hook is the identifier of a ticket. By default, it is ``Ticket#`` with an appended number (e.g. ``Ticket#904627``). It can be changed by an admin. See :admin-docs:`here </settings/ticket.html>` for further information."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:748
+#: ../basics/zammad-glossary.rst:745
 msgid "Trigger"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:744
+#: ../basics/zammad-glossary.rst:741
 msgid "Triggers are one of Zammad's automation features. An admin can define specific conditions and actions which are applied to tickets with matching conditions. More information in the admin documentation in the :admin-docs:`trigger section </manage/trigger.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:751
+#: ../basics/zammad-glossary.rst:748
 msgid "U"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:757
+#: ../basics/zammad-glossary.rst:754
 msgid "User"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:754
+#: ../basics/zammad-glossary.rst:751
 msgid "A user is any user of the ticket system. Each user is assigned certain permissions, which allow them to access certain areas and information. Users can have various roles, with the standard options being agent, admin, and customer."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:760
+#: ../basics/zammad-glossary.rst:757
 msgid "V"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:765
+#: ../basics/zammad-glossary.rst:762
 msgid "W"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:774
+#: ../basics/zammad-glossary.rst:771
 msgid "Webhooks"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:768
+#: ../basics/zammad-glossary.rst:765
 msgid "In a nutshell, webhooks are an easy way for systems to communicate with each other and allow you to send real-time data to any other application. We use them to allow our users to inform a third-party system about new information in Zammad."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:773
+#: ../basics/zammad-glossary.rst:770
 msgid "Learn more about webhooks on :admin-docs:`this page </manage/webhook.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:777
+#: ../basics/zammad-glossary.rst:774
 msgid "X"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:782
+#: ../basics/zammad-glossary.rst:779
 msgid "Y"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:787
+#: ../basics/zammad-glossary.rst:784
 msgid "Z"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:789
+#: ../basics/zammad-glossary.rst:786
 msgid "Zammad"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:790
+#: ../basics/zammad-glossary.rst:787
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr ""
 
@@ -3705,7 +3602,7 @@ msgid "x"
 msgstr ""
 
 #: ../basics/zammad-ui.rst:87
-msgid "The sidebar on the right side displays all ticket relevant information and includes additional functionality. The most important one is the ticket sidebar. Switch between the different sidebars by clicking the desired tab on the left side of the sidebar . The available tabs are depending on the ticket and the configured features of your Zammad."
+msgid "The sidebar on the right side displays all ticket relevant information and includes additional functionality. The most important one is the ticket sidebar. Switch between the different sidebars by clicking the desired tab on the left side of the sidebar. The available tabs are depending on the ticket and the configured features of your Zammad."
 msgstr ""
 
 #: ../basics/zammad-ui.rst:102

@@ -87,7 +87,7 @@ Sidebar
 The sidebar on the right side displays all ticket relevant information and
 includes additional functionality. The most important one is the ticket sidebar.
 Switch between the different sidebars by clicking the desired tab on the left
-side of the sidebar . The available tabs are depending on the ticket and the
+side of the sidebar. The available tabs are depending on the ticket and the
 configured features of your Zammad.
 
 Ticket tab
