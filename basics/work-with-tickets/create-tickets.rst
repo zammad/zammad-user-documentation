@@ -36,7 +36,8 @@ Title
 
 This is the title of a ticket which is shown in many places in Zammad.
 For example this gets displayed in overviews. It is also used as the subject
-for email communication.
+for email communication. For emails, a ticket identifier is automatically
+appended (e.g. ``Ticket#901234 - I need help!``).
 
 Customer
 --------
@@ -44,11 +45,13 @@ Customer
 Enter a name or email address of a customer to search for existing accounts.
 You can even search for organizations and their members. Select an option from
 the autocomplete menu or create a new customer by clicking the
-**+ Create new Customer** button. A ticket can only have one customer.
+**+ Create new Customer** button. This opens a dialog where you can provide
+all relevant information of the customer. A ticket can only have one customer.
 
 .. figure:: /images/basics/service-ticket/search-customer.png
    :alt: Screenshot showing customer search while creating a new ticket
    :align: center
+   :scale: 80%
 
    Ticket creation with customer suggestion based on search.
 
