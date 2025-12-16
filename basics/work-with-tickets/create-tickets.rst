@@ -19,8 +19,8 @@ screen where you can add all needed information.
    :alt: New ticket dialog
    :align: center
 
-Types
------
+Type
+----
 
 In the ticket create dialog, you can choose from different article types:
 
@@ -44,7 +44,7 @@ Customer
 Enter a name or email address of a customer to search for existing accounts.
 You can even search for organizations and their members. Select an option from
 the autocomplete menu or create a new customer by clicking the
-**➕ Create new Customer** button. A ticket can only have one customer.
+**+ Create new Customer** button. A ticket can only have one customer.
 
 .. figure:: /images/basics/service-ticket/search-customer.png
    :alt: Screenshot showing customer search while creating a new ticket
@@ -53,7 +53,7 @@ the autocomplete menu or create a new customer by clicking the
    Ticket creation with customer suggestion based on search.
 
 After setting a customer in the ticket create dialog, the customer sidebar
-automatically opens. You can see additional customer information and also a
+automatically opens. You can see additional customer information including a
 hint about the currently opened tickets of the customer.
 
 .. figure:: /images/basics/service-ticket/create-ticket-customer-sidebar.png
@@ -63,13 +63,15 @@ hint about the currently opened tickets of the customer.
 Text
 ----
 
-This is the content section where all currently known details of the issue
-should be written down. For the "Send Email" type, this is the content/body of
+This is the content section where the currently known details of the issue
+get written down. For the "Send Email" type, this is the content/message of
 the email.
 
-.. include:: /snippets/ui-protip-message-editor-features.rst
+.. include:: /snippets/editor-features.rst
 
 Ticket Attributes
 -----------------
 
-See :doc:`attributes`.
+As you already know, there are additional ticket attributes like group, priority
+and owner you can set. Because this works pretty much the same for ticket
+updates, this section lives in a :doc:`separate page <attributes>`.

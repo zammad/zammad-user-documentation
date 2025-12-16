@@ -1,6 +1,10 @@
 Update Tickets
 ==============
 
+TODO: move next block.
+Use the 🗊 icon next to the ticket title to copy the ticket number to your
+clipboard (including ticket hook; e.g. ``Ticket#50071``).
+
 Generally, “working on existing tickets” means
 keeping up with a customer correspondence in the **thread view**.
 You can do this by:
@@ -95,7 +99,7 @@ that you have created yourself and which are not older than 10 minutes. To see
 the "delete" button in articles of the type "communication" (emails, calls),
 their visibility has to be switched to internal first.
 
-.. include:: /snippets/ui-protip-message-editor-features.rst
+.. include:: /snippets/editor-features.rst
 
 Using Quotation
 ---------------
@@ -105,7 +109,7 @@ important because especially on long conversations your opponent will easily
 loose track.
 
 Referencing on earlier written text helps greatly to keep context and track
-of things. By default Zammad adds no whole quote body (this can be changed
+of things. By default, Zammad adds no whole quote body (this can be changed
 by your administrator).
 
 No matter if the whole quotation is active or not, you can always mark the text
