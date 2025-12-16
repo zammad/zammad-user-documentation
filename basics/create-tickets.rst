@@ -76,5 +76,4 @@ Ticket Attributes
 -----------------
 
 As you already know, there are additional ticket attributes like group, priority
-and owner you can set. Because this works pretty much the same for ticket
-updates, this section lives in a :doc:`separate page <attributes>`.
+and owner you can set. Visit :doc:`ticket-basics` to learn more about them.
