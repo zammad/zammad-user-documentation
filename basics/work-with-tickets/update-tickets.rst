@@ -55,6 +55,16 @@ an article. This opens additional meta information:
    :width: 70%
    :align: center
 
+You might wonder how to delete articles. The answer is you can only delete
+articles that you have created yourself and which are not older than 10 minutes.
+To see the **delete** button in articles of a communication type (emails, calls),
+their visibility has to be switched to internal first.
+
+.. figure:: /images/basics/service-ticket/delete-article.png
+   :alt: Screenshot shows an internal article with highlighted delete button.
+   :align: center
+   :width: 50%
+
 Add an Article from Scratch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -89,18 +99,15 @@ article. The behavior is similar to an email client
 
 Zammad even allows you to quote text from an existing article. This is
 especially helpful if an answer refers to different parts of the original
-message or the text is pretty long. To quote text, simply select the text you
-want to quote and use the **Reply** or **Reply all** function. This adds the
-selected text as quote in your new article. You can do this even multiple times
-to quote different parts. Just select another part of the text, click on the
-same response action as before and it gets added as another quote to your
-editor. You can split quotations by using enter in the editor.
+message or the text is pretty long. This feature is limited to communication
+type articles like email where the response buttons are available.
 
-.. note::
-
-   This function is limited to one article per operation.
-   To be able to use this feature, the article has to be a communication article
-   (i.e. have a **Reply** button).
+To quote text, simply select the text you want to quote and use the **Reply**
+or **Reply all** function. This adds the selected text as quote in your new
+article. You can do this even multiple times to quote different parts. Just
+select another part of the text, click on the same response action as before
+and it gets added as another quote to your editor. You can split quotations by
+using enter in the editor.
 
 .. figure:: /images/basics/service-ticket/mark-to-quote.gif
    :align: center
@@ -113,9 +120,11 @@ Copy Ticket Number
 Use the 🗊 icon next to the ticket title to copy the ticket number to your
 clipboard (including ticket hook; e.g. ``Ticket#50071``).
 
+Additional Features
+-------------------
 
 Check Escalations
------------------
+^^^^^^^^^^^^^^^^^
 
 SLAs are optional and require configuration by your instance administrator.
 Administrators can learn more about SLAs
@@ -131,8 +140,8 @@ will display all upcoming escalation times based on the SLA configuration.
    :align: center
    :width: 70%
 
-Simultaneous Processing of a Ticket
------------------------------------
+Simultaneous Ticket Processing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. _caution-im-working-here:
 
@@ -167,16 +176,6 @@ To rename a ticket, simply click on the title and start typing.
    :width: 70%
    :align: center
 
-Additional Features
--------------------
-
-Delete articles
-^^^^^^^^^^^^^^^
-
-What about the **deletion of articles**? In Zammad, you can only delete articles
-that you have created yourself and which are not older than 10 minutes. To see
-the "delete" button in articles of the type "communication" (emails, calls),
-their visibility has to be switched to internal first.
 
 Highlighting Ticket Text
 ^^^^^^^^^^^^^^^^^^^^^^^^
