@@ -40,6 +40,19 @@ Click the lock button 🔒 to change an article's visibility.
 Internal visibility appears as a dashed border in a pale red color.
 
 .. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
+   :alt: Screenshot shows article editor with highlighted lock icon to change visibility of article.
+   :width: 70%
+   :align: center
+
+.. include:: /snippets/editor-features.rst
+
+Every new article appears at the end of the conversation, which means below
+the existing articles. To see detailed information of a message, just click on
+an article. This opens additional meta information:
+
+.. figure:: /images/basics/service-ticket/follow-up-message-details.gif
+   :alt: Screenshot shows article detail view.
+   :width: 70%
    :align: center
 
 Add an Article from Scratch
@@ -47,69 +60,52 @@ Add an Article from Scratch
 
 Click on the text field at the bottom of the ticket detail view which is labeled
 with **Enter Note or select attachment...** to add an article. By default, the
-article type "Note" is selected and the visibility is set to "internal."
+article type "Note" is selected and the visibility is set to "internal".
 
 .. figure:: /images/basics/service-ticket/follow-up-add-note.gif
    :align: center
-
-.. include:: /snippets/editor-features.rst
+   :width: 70%
 
 Respond to an Article
 ^^^^^^^^^^^^^^^^^^^^^
 
-Use the **⮪ reply** button under a message to reply to it directly.
+To forward or reply to an article, use one of the response buttons under an
+article. The behavior is similar to an email client
+
+- **Reply**: Allows you to answer the article. The recipient is automatically
+  pre-filled. The reply is sent via the same channel as the original message.
+  This lets you easily send an answer to a customer or third party, if involved.
+- **Reply all**: Same as above but uses all recipient addresses from the
+  original message as recipients for your new article. Only available for email
+  channels.
+- **Forward**: This means you can forward the original message to a third party
+  or anybody else. The original message and attachments are included in your
+  new article.
 
 .. figure:: /images/basics/service-ticket/follow-up-reply-button.png
-   :alt: Reply button
+   :alt: Screenshots shows response buttons below an article.
+   :width: 70%
    :align: center
 
-   An additional **⮪ reply all** option will appear
-   for email messages with multiple recipients.
-
-Like with new messages,
-your response will appear at the end of the thread.
-Under the hood, responses are sent
-**via the same channel as the original message**
-(*i.e.,* if the message you replied to was originally a tweet,
-the customer will receive your response in a Twitter DM).
-
-You can also **forward messages**, just as you would in any email client
-(attachments are included automatically). This way, you can share
-correspondences with people who don't have Zammad (like a third-party supplier).
-
-Do you want to see **detailed information of a message**? Just click on it:
-
-.. figure:: /images/basics/service-ticket/follow-up-message-details.gif
-   :alt: Message details view
-   :align: center
-
-Cite Text from Customer
-^^^^^^^^^^^^^^^^^^^^^^^
-In many cases you'll want to quote earlier text of your customer. This is
-important because especially on long conversations your opponent will easily
-loose track.
-
-Referencing on earlier written text helps greatly to keep context and track
-of things. By default, Zammad adds no whole quote body (this can be changed
-by your administrator).
-
-No matter if the whole quotation is active or not, you can always mark the text
-you want to reference and press *reply* or *reply all* after. This will cause
-Zammad to add the marked text as quote to the editor. You can break up
-quotations by using enter.
+Zammad even allows you to quote text from an existing article. This is
+especially helpful if an answer refers to different parts of the original
+message or the text is pretty long. To quote text, simply select the text you
+want to quote and use the **Reply** or **Reply all** function. This adds the
+selected text as quote in your new article. You can do this even multiple times
+to quote different parts. Just select another part of the text, click on the
+same response action as before and it gets added as another quote to your
+editor. You can split quotations by using enter in the editor.
 
 .. note::
 
    This function is limited to one article per operation.
-   The article has to be of type *communication* (thus have a *reply* button)
-   to function.
+   To be able to use this feature, the article has to be a communication article
+   (i.e. have a **Reply** button).
 
 .. figure:: /images/basics/service-ticket/mark-to-quote.gif
    :align: center
+   :width: 70%
    :alt: Screencast showing text being marked and quoted after pressing reply
-
-   Mark, press reply and work with quoted text!
-
 
 Copy Ticket Number
 ------------------
@@ -131,8 +127,9 @@ two dates next to the ticket number. By hovering the escalation date, Zammad
 will display all upcoming escalation times based on the SLA configuration.
 
 .. figure:: /images/basics/service-ticket/show-escalation-times.png
-   :alt: Screenshot showing hovering over escalation note and getting
-         more detailed escalation information
+   :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
+   :align: center
+   :width: 70%
 
 Simultaneous Processing of a Ticket
 -----------------------------------
@@ -153,6 +150,7 @@ they arise.
 
 .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
    :alt: Ticket conflict alert
+   :width: 70%
    :align: center
 
    A ✏️ icon will appear if the agent has made any unsaved changes to the
@@ -166,6 +164,7 @@ Rename a Ticket
 To rename a ticket, simply click on the title and start typing.
 
 .. figure:: /images/basics/service-ticket/settings-rename-ticket.png
+   :width: 70%
    :align: center
 
 Additional Features
@@ -187,6 +186,7 @@ text. (Your highlights are visible to other agents.)
 
 .. figure:: /images/basics/service-ticket/settings-highlight-text.png
    :alt: Ticket highlighter
+   :width: 70%
    :align: center
 
    Highlight by selecting text, then clicking the highlighter.
