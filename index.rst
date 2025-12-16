@@ -13,8 +13,8 @@ Zammad User Documentation
    :name: basics
 
    /basics/zammad-glossary
-   /basics/ticket-basics
    /basics/zammad-ui
+   /basics/ticket-basics
    /basics/find-ticket
    /basics/create-tickets
    /basics/update-tickets
