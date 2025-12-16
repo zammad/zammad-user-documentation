@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:23+0100\n"
+"POT-Creation-Date: 2025-12-16 16:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -841,7 +841,6 @@ msgstr ""
 #: ../advanced/search.rst:70
 #: ../basics/create-tickets.rst:76
 #: ../basics/ticket-basics.rst:43
-#: ../basics/ticket-basics.rst:85
 msgid "Ticket Attributes"
 msgstr ""
 
@@ -1906,7 +1905,7 @@ msgid "Ticket priorities are color-coded as well and help you to distinguish bet
 msgstr ""
 
 #: ../basics/find-ticket.rst:None
-#: ../basics/ticket-basics.rst:109
+#: ../basics/ticket-basics.rst:None
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
@@ -1967,6 +1966,7 @@ msgid "Ticket Basics"
 msgstr ""
 
 #: ../basics/ticket-basics.rst:5
+#: ../basics/ticket-basics.rst:46
 #: ../extras/ai-features.rst:5
 msgid "Introduction"
 msgstr ""
@@ -2015,191 +2015,128 @@ msgstr ""
 msgid "So, basically you can work with Zammad similar as with your email client. Except that a ticket has additional attributes. Read on to learn more."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:45
-msgid "In addition to article, tickets have some additional meta information which are called attributes. The most important ones are:"
-msgstr ""
-
 #: ../basics/ticket-basics.rst:48
-msgid "**State**: reflects the current state of a ticket (mainly if a customer request is resolved or not). By default, there are the following states:"
+msgid "In addition to article, tickets have some additional meta information which are called attributes. Use the **ticket sidebar** to view and change ticket attributes."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:51
-msgid "New: State for new tickets on which no one has worked on. When updating a ticket the first time, it automatically switches to open."
+#: ../basics/ticket-basics.rst:None
+msgid "Screenshot shows ticket sidebar."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:53
-msgid "Open: State for tickets which aren't resolved yet and some work needs to be done."
+#: ../basics/ticket-basics.rst:56
+msgid "Click the arrow button → in the top right corner to hide the sidebar. Click on one of the tabs to bring it back. The available options depend on your privileges and the configuration of your system."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:55
-msgid "Pending Close: State for tickets which are basically resolved but you don't want to close immediately. This state requires you to enter a date and time at which the ticket automatically switches to closed."
+#: ../basics/ticket-basics.rst:60
+msgid "It is even possible to create custom fields for tickets (for groups and users too). You think such a custom field makes sense? Talk with your Zammad admin, it can be set up easily (:admin-docs:`admins can read more here </system/object/types.html>`)."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:58
-msgid "Pending Reminder: State for open tickets which you want to get reminded to a certain date and time. Requires you to enter a date and time at which you want to get notified. For example useful if you had a question to a third party and want to make sure that this issue won't be forgotten."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:62
-msgid "**Owner**: This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:68
-msgid "**Group**: This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:75
-msgid "Depending on the configuration of your Zammad, you might even have more attributes available. It is possible to create custom fields for tickets (e.g. for groups and users too). You think such a custom field makes sense? Talk with your Zammad admin, it can be set up easily (:admin-docs:`admins can read more here </system/object/types.html>`)."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:81
-msgid "Now you might wonder where to find and change these attributes. In this case, head over to the :doc:`zammad-ui` page where it is described."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:87
-msgid "Use the **ticket sidebar** to view and change ticket attributes."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:93
-msgid "Default ticket pane view"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:93
-msgid "Click the **→** button in the corner to hide the ticket pane. Click the 💬 tab to bring it back."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:96
-msgid "The available options depend on your privileges and the configuration of your system."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:100
-#: ../basics/zammad-glossary.rst:551
-msgid "Priority"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:102
-msgid "A ticket’s **priority** is simply a ranking (from 1 to 3) of *how urgent or important it is*."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:109
-msgid "Zammad's 3 default priorities allow you to see the importance of your tickets better."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:113
-msgid "But what does it do, and how should I use it?"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:115
-msgid "Out of the box, **ticket priority doesn’t actually do anything**. However, Zammad administrators can set up all sorts of automated hooks that fire off based on this value, like:"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:119
-msgid ":admin-docs:`service-level agreements </manage/slas/index.html>`,"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:120
-msgid ":admin-docs:`triggers </manage/trigger.html>`, and"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:121
-msgid ":admin-docs:`scheduled events </manage/scheduler.html>`."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:123
-msgid "Priority can also be used as a ticket filter when creating :admin-docs:`custom overviews </manage/overviews.html>`."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:126
-msgid "In other words, **consult your administrator** for details on how he’d like you to use it."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:130
-msgid "Customers can't set a priority for their own tickets. For more context, have a look at the `Github-Issue <https://github.com/zammad/zammad/issues/814>`_."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:134
-#: ../basics/zammad-glossary.rst:705
-msgid "Tags"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:136
-msgid "**Tags** are custom-defined labels that can be applied to tickets to make it easier to find them in the future."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:143
-msgid "Ticket pane (tags)"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:143
-msgid "Click on a tag name to view other tickets with the same tag."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:145
-msgid ":ref:`Search for tickets with a given tag <search-tickets>` with the ``tags:`` search filter. For instance, find all tickets with the **order** tag by searching for ``tags: order``."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:151
+#: ../basics/ticket-basics.rst:66
 #: ../basics/zammad-glossary.rst:679
 msgid "State"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:153
-msgid "The **state** of a ticket refers to *its progress toward completion,* and may be one of the following:"
+#: ../basics/ticket-basics.rst:68
+msgid "The state reflects the current status of a ticket (mainly if a customer request is resolved or not). Think of it as a representation of progress towards completion. By default, there are the following states:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:156
-msgid "new"
+#: ../basics/ticket-basics.rst:72
+msgid "**New**: State for new tickets on which no one has worked on. When updating a ticket the first time, it automatically switches to open."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:74
+msgid "**Open**: State for tickets which aren't resolved yet and some work needs to be done."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:76
+msgid "**Pending Close**: State for tickets which are basically resolved but you don't want to close immediately. This state requires you to enter a date and time at which the ticket automatically switches to closed."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:79
+msgid "**Pending Reminder**: State for open tickets which you want to get reminded to a certain date and time. Requires you to enter a date and time at which you want to get notified. For example useful if you had a question to a third party and want to make sure that this issue won't be forgotten."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:83
+msgid "**Merged**: State for a ticket which was merged into another ticket. Check the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to see the related ticket."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:87
+msgid "Zammad's states are color coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:109
+#: ../basics/zammad-glossary.rst:551
+msgid "Priority"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:111
+msgid "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or important it is. The three default priorities are:"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:114
+msgid "1 low"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:115
+msgid "2 normal"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:116
+msgid "3 high"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:118
+msgid "In case this is not enough, ask your Zammad admin to create additional priorities. Admins can find additional information :admin-docs:`here </system/objects.html#ticket-priority>`. The default priorities allow you to immediately recognize the importance of your tickets because they are color coded:"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:129
+msgid "You might wonder what such a ticket priority is for. Out of the box, it doesn't actually do anything. However, Zammad administrators can set up all sorts of automation and analytics based on the priority."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:133
+msgid "Be aware that customers can't set a priority for their own tickets. Otherwise some might set their tickets always to high and hope for an immediate escalation."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:138
+#: ../basics/zammad-glossary.rst:705
+msgid "Tags"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:140
+msgid "Tags are custom labels that can be attached to tickets to make it easier to find them in the future. You find the tag section under the attribute fields."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:None
+msgid "Ticket pane (tags)"
+msgstr ""
+
+#: ../basics/ticket-basics.rst:148
+msgid "To add a tag, click the **Add tag** button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:155
+msgid "Group"
 msgstr ""
 
 #: ../basics/ticket-basics.rst:157
-msgid "open"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:158
-msgid "closed"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:159
-msgid "merged (this Ticket has been merged into another Ticket. Check either the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to learn more)"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:163
-msgid "pending close (*i.e.,* scheduled to automatically close at a later date)"
+msgid "This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:165
-msgid "pending reminder (*i.e.,* hidden, but scheduled to reappear at a later date)"
+#: ../basics/zammad-glossary.rst:515
+msgid "Owner"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:169
-msgid "State Colors"
+#: ../basics/ticket-basics.rst:167
+msgid "This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:171
-msgid "Zammad states are color-coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
+#: ../basics/ticket-basics.rst:174
+msgid "To change the owner to a person which has only access to another group's tickets, you first have to switch the group accordingly."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:179
-msgid "What's the Difference Between “New” and “Open”?"
-msgstr ""
-
-#: ../basics/ticket-basics.rst:181
-msgid "States do more than just indicate progress: Zammad has a fine-grained time tracking feature (so-called “:admin-docs:`service-level agreements </manage/slas/index.html>`”, or SLAs) that uses state information to measure how long it takes for customers to get a response on a new ticket or get their issues resolved entirely."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:187
-msgid "On a *new* ticket, the customer still hasn't received her first response on the issue."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:190
-msgid "On an *open* ticket, the customer has received an initial response, but the issue still hasn't been resolved."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:194
-msgid "⏱️ Tickets in a *pending* state do not accumulate time toward their SLA limits."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:196
-msgid "So, for instance, a ticket may be marked *pending reminder* if it's waiting on feedback from a third-party supplier who's out of town until next week."
+msgid "Now that you know the basics, check how to :doc:`create <create-tickets>` or :doc:`update <update-tickets>` tickets."
 msgstr ""
 
 #: ../basics/update-tickets.rst:2
@@ -2243,7 +2180,7 @@ msgid "Click the lock button 🔒 to change an article's visibility. Internal vi
 msgstr ""
 
 #: ../basics/update-tickets.rst:None
-msgid "Screenshot shows article editor with highlighted lock icon to change visibility of article."
+msgid "Screenshot shows article editor with highlighted lock button to change visibility of article."
 msgstr ""
 
 #: ../basics/update-tickets.rst:48
@@ -3074,10 +3011,6 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:507
 msgid "For more information please have a look in :doc:`/basics/find-ticket`."
-msgstr ""
-
-#: ../basics/zammad-glossary.rst:515
-msgid "Owner"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:511

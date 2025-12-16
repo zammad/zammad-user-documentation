@@ -39,7 +39,7 @@ Click the lock button 🔒 to change an article's visibility.
 Internal visibility appears as a dashed border in a pale red color.
 
 .. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
-   :alt: Screenshot shows article editor with highlighted lock icon to change visibility of article.
+   :alt: Screenshot shows article editor with highlighted lock button to change visibility of article.
    :width: 70%
    :align: center
 
