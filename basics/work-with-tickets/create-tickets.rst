@@ -67,7 +67,7 @@ Text
 ----
 
 This is the content section where the currently known details of the issue
-get written down. For the "Send Email" type, this is the content/message of
+gets written down. For the "Send Email" type, this is the content/message of
 the email.
 
 .. include:: /snippets/editor-features.rst
