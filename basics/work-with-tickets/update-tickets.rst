@@ -1,40 +1,65 @@
 Update Tickets
 ==============
 
-TODO: move next block.
-Use the 🗊 icon next to the ticket title to copy the ticket number to your
-clipboard (including ticket hook; e.g. ``Ticket#50071``).
+You found your way into an existing ticket, congratulations! Now let's have a
+look what you can do and how to do it.
 
-Generally, “working on existing tickets” means
-keeping up with a customer correspondence in the **thread view**.
-You can do this by:
+Generally, working on existing tickets means keeping up with a customer
+correspondence in a thread/conversation in the ticket detail view.
+Any time you open a ticket, a new tab will appear in your
+:doc:`navigation bar </advanced/tabs>` on the left side. To close a tab (in the
+sense of remove it from the navigation bar, not setting the ticket state to
+closed), just click the ``X`` button in the tab. Zammad automatically saves
+your changes in opened ticket tabs, no matter if you already applied the changes
+or just edited things and switched to somewhere else. This means it is no
+problem to create a new ticket while editing an existing one. Simply switch back
+to the other tab.
 
-* 📧 responding to an **individual message**, or
-* 📝 adding a message/note to the **whole ticket**.
+Changing Ticket Attributes
+--------------------------
 
-Read on to learn more,
-or skip ahead to find out about :ref:`managing ticket settings <ticket-attributes>`
-(which is the other half of “working on existing tickets”).
+As you already know, there are additional ticket attributes like group, priority
+and owner you can set. Because this works pretty much the same for ticket
+creation, this section lives in a :doc:`separate page <attributes>`.
 
-.. figure:: /images/basics/what-is-a-ticket.png
-   :alt: Ticket summary view
+Create a New Article
+--------------------
+
+No matter if you create a new article from scratch or respond to a customer
+article, you can choose from different article types:
+
+- **Note**: Write a reminder for yourself and other agents, ask a colleague a
+  question by mentioning a user or add new information to the ticket. The
+  default visibility is "internal", which means the customer can't see the note.
+- **Call**: Note down a summary of a phone call you had with the customer.
+- **Email**: Send an email to anyone about the ticket. The name of the ticket is
+  used for the subject of the email
+  (:ref:`click on the title to rename it <rename-ticket>`).
+
+Click the lock button 🔒 to change an article's visibility.
+Internal visibility appears as a dashed border in a pale red color.
+
+.. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
    :align: center
 
-   Tickets are threads of messages & notes about a customer service issue.
-   :ref:`⚙️ Manage ticket settings <ticket-attributes>` in the
-   **ticket pane** on the right.
+Add an Article from Scratch
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Any time you open a ticket, a new entry will appear in your
-:doc:`tab list</advanced/tabs>` in the main menu.
+Click on the text field at the bottom of the ticket detail view which is labeled
+with **Enter Note or select attachment...** to add an article. By default, the
+article type "Note" is selected and the visibility is set to "internal."
 
-Zammad **automatically backs up your unsaved changes** in all open tabs.
+.. figure:: /images/basics/service-ticket/follow-up-add-note.gif
+   :align: center
 
-Responding to Individual Messages
----------------------------------
+.. include:: /snippets/editor-features.rst
+
+Respond to an Article
+^^^^^^^^^^^^^^^^^^^^^
 
 Use the **⮪ reply** button under a message to reply to it directly.
 
-.. figure:: /images/basics/service-ticket/follow-up-reply-button.jpg
+.. figure:: /images/basics/service-ticket/follow-up-reply-button.png
    :alt: Reply button
    :align: center
 
@@ -58,52 +83,8 @@ Do you want to see **detailed information of a message**? Just click on it:
    :alt: Message details view
    :align: center
 
-Adding New Messages/Notes
--------------------------
-
-Click on the text field at the end of the thread to add a follow-up:
-
-.. figure:: /images/basics/service-ticket/follow-up-add-note.gif
-   :align: center
-
-   The default follow-up type is “note”. Click the 📝 to select another type.
-
-There are three types of follow-ups:
-
-:📝 Note:
-
-   Jot down a reminder for yourself and other agents
-   when new information comes in
-   (hidden from the customer by default).
-
-:📞 Call:
-
-   Record a summary of a phone call you had with the customer.
-
-:📧 Email:
-
-   Send an email *to anyone* about the ticket.
-   The name of the ticket will be used for the subject line
-   (:ref:`click on the title to rename it <rename-ticket>`).
-
-You can **change the visibility of an article** by clicking the 🔒 button:
-
-.. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
-   :align: center
-
-   “Internal” messages are outlined with a salmon border,
-   and **can only be viewed by other agents**.
-
-What about the **deletion of articles**? In Zammad, you can only delete articles
-that you have created yourself and which are not older than 10 minutes. To see
-the "delete" button in articles of the type "communication" (emails, calls),
-their visibility has to be switched to internal first.
-
-.. include:: /snippets/editor-features.rst
-
-Using Quotation
----------------
-
+Cite Text from Customer
+^^^^^^^^^^^^^^^^^^^^^^^
 In many cases you'll want to quote earlier text of your customer. This is
 important because especially on long conversations your opponent will easily
 loose track.
@@ -129,8 +110,16 @@ quotations by using enter.
 
    Mark, press reply and work with quoted text!
 
-🔥 Keeping an Eye on Escalations
---------------------------------
+
+Copy Ticket Number
+------------------
+
+Use the 🗊 icon next to the ticket title to copy the ticket number to your
+clipboard (including ticket hook; e.g. ``Ticket#50071``).
+
+
+Check Escalations
+-----------------
 
 SLAs are optional and require configuration by your instance administrator.
 Administrators can learn more about SLAs
@@ -171,13 +160,24 @@ they arise.
 
 .. _rename-ticket:
 
-Renaming a Ticket
-^^^^^^^^^^^^^^^^^
+Rename a Ticket
+^^^^^^^^^^^^^^^
 
 To rename a ticket, simply click on the title and start typing.
 
 .. figure:: /images/basics/service-ticket/settings-rename-ticket.png
    :align: center
+
+Additional Features
+-------------------
+
+Delete articles
+^^^^^^^^^^^^^^^
+
+What about the **deletion of articles**? In Zammad, you can only delete articles
+that you have created yourself and which are not older than 10 minutes. To see
+the "delete" button in articles of the type "communication" (emails, calls),
+their visibility has to be switched to internal first.
 
 Highlighting Ticket Text
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -217,3 +217,4 @@ Merge
 
 Change Customer
    Reassign the ticket to another customer.
+
