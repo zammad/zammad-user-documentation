@@ -233,3 +233,10 @@ To remove the highlighting, click on the button again with the selected text.
    :alt: Ticket highlighter
    :width: 70%
    :align: center
+
+-----
+
+You now know the basics and how to work with tickets in general. However, there
+are many more features in Zammad which can be very useful in your daily
+work. Have a look at the **Advanced Topics** and **Extra** sections in the left
+navigation menu where you can find more information.
