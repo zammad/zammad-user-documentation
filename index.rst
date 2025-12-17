@@ -15,7 +15,7 @@ Zammad User Documentation
    /basics/zammad-glossary
    /basics/zammad-ui
    /basics/ticket-basics
-   /basics/find-ticket
+   /basics/find-tickets
    /basics/create-tickets
    /basics/work-with-tickets
 

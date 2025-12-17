@@ -112,6 +112,7 @@ Organization tab
    **Organization** header, you can edit the name, the domain and the note
    of the organization.
 
-Now that you know the basics and where to find and adjust the most important
-things, let's see :doc:`how to find tickets <find-ticket>` to start working
-with Zammad.
+-----
+
+Now that you know the basic UI elements and where to find them, read on
+in :doc:`ticket-basics`.

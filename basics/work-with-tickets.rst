@@ -15,11 +15,16 @@ or just edited things and switched to somewhere else. This means it is no
 problem to create a new ticket while editing an existing one. Simply switch back
 to the other tab.
 
+For the most changes (except tags or rename title, for example), an explicit
+update of the ticket is needed. So make sure to click the **Update** button
+on the right side of the footer bar when you are happy with your changes.
+
 Changing Ticket Attributes
 --------------------------
 
-As you already know, there are additional ticket attributes like group, priority
-and owner you can set. Visit :doc:`ticket-basics` to learn more about them.
+As you may know, there are additional ticket attributes such as group, priority
+and owner that you can set. If you haven't read :doc:`ticket-basics` yet, check
+it out to learn more.
 
 Create a New Article
 --------------------

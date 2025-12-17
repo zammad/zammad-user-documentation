@@ -112,8 +112,8 @@ it is. The three default priorities are:
 - 2 normal
 - 3 high
 
-In case this is not enough, ask your Zammad admin to create additional
-priorities. Admins can find additional information
+In case these priorities aren't enough, ask your Zammad admin to create
+additional ones. Admins can find more information
 :admin-docs:`here </system/objects.html#ticket-priority>`.
 The default priorities allow you to immediately recognize the importance of your
 tickets because they are color coded:
@@ -142,7 +142,7 @@ find them in the future. You find the tag section under the attribute fields.
    :width: 70%
    :align: center
 
-To add a tag, click the **Add tag** button. Depending on your Zammad's
+To add a tag, click the **Add Tag** button. Depending on your Zammad's
 configuration, you can create new tags by simply type and confirm them with
 :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available
 tags. Start typing and you see a list with matching suggestions. To remove it,

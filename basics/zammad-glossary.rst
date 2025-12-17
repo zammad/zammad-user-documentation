@@ -505,7 +505,7 @@ Overview
    ask your admin to create it.
 
    For more information please have a look in
-   :doc:`/basics/find-ticket`.
+   :doc:`/basics/find-tickets`.
 
 Owner
    The owner of a ticket is the person responsible for it and ensures that it

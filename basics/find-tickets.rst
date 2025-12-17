@@ -107,3 +107,9 @@ Click on the column again to change the sorting from ascending to descending
 and back. If you still can't find what you are looking for, have a look at the
 :doc:`advanced search page </advanced/search>` where you can learn how to search
 for specific attributes like creation date or the ticket owner's email address.
+
+-----
+
+Now that you know how to find tickets, you may want to
+:doc:`create new <create-tickets>` or
+:doc:`work with existing <work-with-tickets>` tickets.

@@ -75,5 +75,13 @@ the email.
 Ticket Attributes
 -----------------
 
-As you already know, there are additional ticket attributes like group, priority
-and owner you can set. Visit :doc:`ticket-basics` to learn more about them.
+As you may know, there are additional ticket attributes such as group, priority
+and owner that you can set. If you haven't read :doc:`ticket-basics` yet, check
+it out to learn more.
+
+-----
+
+After you provided the relevant information, finally create the ticket with a
+click on the **Create** button. Read on
+:doc:`how to find tickets <find-tickets>` and
+:doc:`how to work with them <work-with-tickets>`.
