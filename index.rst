@@ -17,7 +17,7 @@ Zammad User Documentation
    /basics/ticket-basics
    /basics/find-ticket
    /basics/create-tickets
-   /basics/update-tickets
+   /basics/work-with-tickets
 
 .. toctree::
    :maxdepth: 2

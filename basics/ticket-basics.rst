@@ -42,10 +42,7 @@ that a ticket has additional attributes. Read on to learn more.
 Ticket Attributes
 -----------------
 
-Introduction
-^^^^^^^^^^^^
-
-In addition to article, tickets have some additional meta information which are
+In addition to articles, tickets have some additional meta information which are
 called attributes. Use the **ticket sidebar** to view and change ticket
 attributes.
 
@@ -177,4 +174,4 @@ tickets, you first have to switch the group accordingly.
 -----
 
 Now that you know the basics, check how to :doc:`create <create-tickets>` or
-:doc:`update <update-tickets>` tickets.
+:doc:`work with <work-with-tickets>` tickets.

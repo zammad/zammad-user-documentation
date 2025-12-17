@@ -1,5 +1,5 @@
-Update Tickets
-==============
+Work with Tickets
+=================
 
 You found your way into an existing ticket, congratulations! Now let's have a
 look what you can do and how to do it.
@@ -96,7 +96,7 @@ article. The behavior is similar to an email client
    :width: 70%
    :align: center
 
-Zammad even allows you to quote text from an existing article. This is
+Zammad even allows you to **quote text** from an existing article. This is
 especially helpful if an answer refers to different parts of the original
 message or the text is pretty long. This feature is limited to communication
 type articles like email where the response buttons are available.
@@ -113,106 +113,118 @@ using enter in the editor.
    :width: 70%
    :alt: Screencast showing text being marked and quoted after pressing reply
 
+.. _rename-ticket:
+
+Rename a Ticket
+---------------
+
+To rename a ticket, simply click on the title in the header bar and start
+typing. This title is used as subject in email communication and shows up in
+several places like overviews.
+
+.. figure:: /images/basics/service-ticket/settings-rename-ticket.png
+   :width: 70%
+   :align: center
+
 Copy Ticket Number
 ------------------
 
-Use the 🗊 icon next to the ticket title to copy the ticket number to your
-clipboard (including ticket hook; e.g. ``Ticket#50071``).
+If you often need the ticket number (e.g. to paste it in a third party chat
+app), use the 🗊 icon next to the ticket title to copy the ticket number to your
+clipboard. This includes the complete ticket identifier, including the ticket
+hook, e.g. ``Ticket#50071``. In case you scrolled down in the ticket, you can
+find the button on the left side of the header bar.
 
-Additional Features
--------------------
-
-Check Escalations
-^^^^^^^^^^^^^^^^^
-
-SLAs are optional and require configuration by your instance administrator.
-Administrators can learn more about SLAs
-:admin-docs:`in our admin documentation </manage/slas/index.html>`. If you
-can't see escalation timestamps, it is not configured by your admin.
-
-On the top of every ticket being applicable for SLA escalations, you'll find
-two dates next to the ticket number. By hovering the escalation date, Zammad
-will display all upcoming escalation times based on the SLA configuration.
-
-.. figure:: /images/basics/service-ticket/show-escalation-times.png
-   :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
-   :align: center
-   :width: 70%
+But wait, there is even a
+:doc:`keyboard shortcut </advanced/keyboard-shortcuts>` for that. Simply press
+:kbd:`.` and the ticket number is copied to your clipboard. To include the
+ticket title as well, press :kbd:`.` twice. Example:
+``Ticket#50071: Coffee grinder broken``.
 
 Simultaneous Ticket Processing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. _caution-im-working-here:
 
-Every once in a while, two agents may have the same ticket open at the same
-time. When this happens, things can get messy fast:
-customers may receive conflicting responses on the same issue from both agents;
-or, changes made by one agent may be accidentally undone by the other.
-
-To keep things under control, Zammad will alert you to potential conflicts
-by displaying an avatar in the bottom bar (live user section) for every agent
-that has that ticket open.
-
+It can happen that two or more agents open a ticket at the same time. To prevent
+edit conflicts and customers receiving contradictory answers, Zammad shows you
+who is viewing or editing the ticket currently. You can find this information
+in the bottom bar where avatars of all agents are displayed.
 Be sure to communicate with your colleagues to prevent these problems before
 they arise.
+
+Depending on the additional icon and if the avatar icon is faded, it means:
+
+- Avatar: Another agent is viewing the ticket.
+- Faded avatar: Another agent opened the ticket but is currently not actively
+  viewing it.
+- Avatar with pencil icon: Another agent is currently actively working on this
+  ticket.
 
 .. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
    :alt: Ticket conflict alert
    :width: 70%
    :align: center
 
-   A ✏️ icon will appear if the agent has made any unsaved changes to the
-   ticket.
+Ticket Actions
+--------------
 
-.. _rename-ticket:
+.. _ticket-submenu:
 
-Rename a Ticket
-^^^^^^^^^^^^^^^
+Additional actions are available in the ticket submenu. You can find it in the
+ticket sidebar. To open it, click the **Ticket ▾** heading to access additional
+actions.
 
-To rename a ticket, simply click on the title and start typing.
-
-.. figure:: /images/basics/service-ticket/settings-rename-ticket.png
-   :width: 70%
+.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
+   :alt: Ticket submenu
+   :width: 40%
    :align: center
 
+History
+   See a comprehensive list of updates to the ticket, performed by any user,
+   since its creation. Useful to check who did what and when.
 
-Highlighting Ticket Text
-^^^^^^^^^^^^^^^^^^^^^^^^
+Merge
+   Migrate all messages/notes to another ticket. Useful if you have more than
+   one ticket about a single customer issue. See
+   :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details.
 
-Use the highlighter tool in the upper-righthand corner to mark up important
-text. (Your highlights are visible to other agents.)
+Change Customer
+   Reassign the ticket to another customer.
+
+Check Escalations
+-----------------
+.. Rework and add link after adding SLA to docs: https://github.com/zammad/zammad-user-documentation/issues/480
+
+The SLA feature (Service Level Agreement) is optional and must be
+:admin-docs:`configured by your Zammad administrator </manage/slas/index.html>`.
+SLAs are to track the time for a first response and/or to solving the issue.
+If a ticket is in danger to reach the agreed deadline, it will escalate.
+
+For tickets which already reached the deadline or will reach it soon, you can
+find an addition date next to the ticket number. By hovering the escalation date,
+Zammad will display all upcoming or reached escalation times based on the SLA
+configuration. If you can't see escalation timestamps, it is not configured by
+your admin.
+
+.. figure:: /images/basics/service-ticket/show-escalation-times.png
+   :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
+   :align: center
+   :width: 70%
+
+Highlight Text in a Ticket
+--------------------------
+
+Use the highlighter tool in the upper right corner to mark up important text.
+This feature is not about highlighting text in the editor to send it to
+customers. It is just about highlighting important parts for other agents.
+
+First select the text you want to highlight, then click on the highlighter
+button with the pencil. In case you want to use a different color, open the
+color menu by clicking on the down arrow in the split button.
+To remove the highlighting, click on the button again with the selected text.
 
 .. figure:: /images/basics/service-ticket/settings-highlight-text.png
    :alt: Ticket highlighter
    :width: 70%
    :align: center
-
-   Highlight by selecting text, then clicking the highlighter.
-   Click again to undo.
-
-Further Ticket Actions
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. _ticket-submenu:
-
-Additional actions are available via the **submenu**:
-
-.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
-   :alt: Ticket submenu
-   :scale: 60%
-   :align: center
-
-   Click the **Ticket ▾** heading to access additional actions.
-
-History
-   See a comprehensive list of updates to the ticket,
-   performed by any user,
-   since its creation.
-
-Merge
-   Migrate all messages/notes to another ticket
-   (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details).
-
-Change Customer
-   Reassign the ticket to another customer.
-

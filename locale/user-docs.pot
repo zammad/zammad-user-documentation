@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 16:06+0100\n"
+"POT-Creation-Date: 2025-12-17 09:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1392,6 +1392,7 @@ msgid "Administrators can learn more about customizing text modules :admin-docs:
 msgstr ""
 
 #: ../advanced/ticket-actions.rst:2
+#: ../basics/work-with-tickets.rst:170
 msgid "Ticket Actions"
 msgstr ""
 
@@ -1816,7 +1817,7 @@ msgid ":ref:`Mention colleagues <mentions>` by typing :kbd:`@` :kbd:`@` followed
 msgstr ""
 
 #: ../basics/create-tickets.rst:78
-#: ../basics/update-tickets.rst:21
+#: ../basics/work-with-tickets.rst:21
 msgid "As you already know, there are additional ticket attributes like group, priority and owner you can set. Visit :doc:`ticket-basics` to learn more about them."
 msgstr ""
 
@@ -1966,7 +1967,6 @@ msgid "Ticket Basics"
 msgstr ""
 
 #: ../basics/ticket-basics.rst:5
-#: ../basics/ticket-basics.rst:46
 #: ../extras/ai-features.rst:5
 msgid "Introduction"
 msgstr ""
@@ -2015,94 +2015,94 @@ msgstr ""
 msgid "So, basically you can work with Zammad similar as with your email client. Except that a ticket has additional attributes. Read on to learn more."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:48
-msgid "In addition to article, tickets have some additional meta information which are called attributes. Use the **ticket sidebar** to view and change ticket attributes."
+#: ../basics/ticket-basics.rst:45
+msgid "In addition to articles, tickets have some additional meta information which are called attributes. Use the **ticket sidebar** to view and change ticket attributes."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:None
 msgid "Screenshot shows ticket sidebar."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:56
+#: ../basics/ticket-basics.rst:53
 msgid "Click the arrow button → in the top right corner to hide the sidebar. Click on one of the tabs to bring it back. The available options depend on your privileges and the configuration of your system."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:60
+#: ../basics/ticket-basics.rst:57
 msgid "It is even possible to create custom fields for tickets (for groups and users too). You think such a custom field makes sense? Talk with your Zammad admin, it can be set up easily (:admin-docs:`admins can read more here </system/object/types.html>`)."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:66
+#: ../basics/ticket-basics.rst:63
 #: ../basics/zammad-glossary.rst:679
 msgid "State"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:68
+#: ../basics/ticket-basics.rst:65
 msgid "The state reflects the current status of a ticket (mainly if a customer request is resolved or not). Think of it as a representation of progress towards completion. By default, there are the following states:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:72
+#: ../basics/ticket-basics.rst:69
 msgid "**New**: State for new tickets on which no one has worked on. When updating a ticket the first time, it automatically switches to open."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:71
 msgid "**Open**: State for tickets which aren't resolved yet and some work needs to be done."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:76
+#: ../basics/ticket-basics.rst:73
 msgid "**Pending Close**: State for tickets which are basically resolved but you don't want to close immediately. This state requires you to enter a date and time at which the ticket automatically switches to closed."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:79
+#: ../basics/ticket-basics.rst:76
 msgid "**Pending Reminder**: State for open tickets which you want to get reminded to a certain date and time. Requires you to enter a date and time at which you want to get notified. For example useful if you had a question to a third party and want to make sure that this issue won't be forgotten."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:83
+#: ../basics/ticket-basics.rst:80
 msgid "**Merged**: State for a ticket which was merged into another ticket. Check the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:87
+#: ../basics/ticket-basics.rst:84
 msgid "Zammad's states are color coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:109
+#: ../basics/ticket-basics.rst:106
 #: ../basics/zammad-glossary.rst:551
 msgid "Priority"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:111
+#: ../basics/ticket-basics.rst:108
 msgid "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or important it is. The three default priorities are:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:114
+#: ../basics/ticket-basics.rst:111
 msgid "1 low"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:115
+#: ../basics/ticket-basics.rst:112
 msgid "2 normal"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:116
+#: ../basics/ticket-basics.rst:113
 msgid "3 high"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:118
+#: ../basics/ticket-basics.rst:115
 msgid "In case this is not enough, ask your Zammad admin to create additional priorities. Admins can find additional information :admin-docs:`here </system/objects.html#ticket-priority>`. The default priorities allow you to immediately recognize the importance of your tickets because they are color coded:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:129
+#: ../basics/ticket-basics.rst:126
 msgid "You might wonder what such a ticket priority is for. Out of the box, it doesn't actually do anything. However, Zammad administrators can set up all sorts of automation and analytics based on the priority."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:133
+#: ../basics/ticket-basics.rst:130
 msgid "Be aware that customers can't set a priority for their own tickets. Otherwise some might set their tickets always to high and hope for an immediate escalation."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:138
+#: ../basics/ticket-basics.rst:135
 #: ../basics/zammad-glossary.rst:705
 msgid "Tags"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:140
+#: ../basics/ticket-basics.rst:137
 msgid "Tags are custom labels that can be attached to tickets to make it easier to find them in the future. You find the tag section under the attribute fields."
 msgstr ""
 
@@ -2110,254 +2110,249 @@ msgstr ""
 msgid "Ticket pane (tags)"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:148
+#: ../basics/ticket-basics.rst:145
 msgid "To add a tag, click the **Add tag** button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:155
+#: ../basics/ticket-basics.rst:152
 msgid "Group"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:154
 msgid "This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:165
+#: ../basics/ticket-basics.rst:162
 #: ../basics/zammad-glossary.rst:515
 msgid "Owner"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:167
+#: ../basics/ticket-basics.rst:164
 msgid "This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:174
+#: ../basics/ticket-basics.rst:171
 msgid "To change the owner to a person which has only access to another group's tickets, you first have to switch the group accordingly."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:179
-msgid "Now that you know the basics, check how to :doc:`create <create-tickets>` or :doc:`update <update-tickets>` tickets."
+#: ../basics/ticket-basics.rst:176
+msgid "Now that you know the basics, check how to :doc:`create <create-tickets>` or :doc:`work with <work-with-tickets>` tickets."
 msgstr ""
 
-#: ../basics/update-tickets.rst:2
-msgid "Update Tickets"
+#: ../basics/work-with-tickets.rst:2
+msgid "Work with Tickets"
 msgstr ""
 
-#: ../basics/update-tickets.rst:4
+#: ../basics/work-with-tickets.rst:4
 msgid "You found your way into an existing ticket, congratulations! Now let's have a look what you can do and how to do it."
 msgstr ""
 
-#: ../basics/update-tickets.rst:7
+#: ../basics/work-with-tickets.rst:7
 msgid "Generally, working on existing tickets means keeping up with a customer correspondence in a thread/conversation in the ticket detail view. Any time you open a ticket, a new tab will appear in your :doc:`navigation bar </advanced/tabs>` on the left side. To close a tab (in the sense of remove it from the navigation bar, not setting the ticket state to closed), just click the ``X`` button in the tab. Zammad automatically saves your changes in opened ticket tabs, no matter if you already applied the changes or just edited things and switched to somewhere else. This means it is no problem to create a new ticket while editing an existing one. Simply switch back to the other tab."
 msgstr ""
 
-#: ../basics/update-tickets.rst:19
+#: ../basics/work-with-tickets.rst:19
 msgid "Changing Ticket Attributes"
 msgstr ""
 
-#: ../basics/update-tickets.rst:25
+#: ../basics/work-with-tickets.rst:25
 msgid "Create a New Article"
 msgstr ""
 
-#: ../basics/update-tickets.rst:27
+#: ../basics/work-with-tickets.rst:27
 msgid "No matter if you create a new article from scratch or respond to a customer article, you can choose from different article types:"
 msgstr ""
 
-#: ../basics/update-tickets.rst:30
+#: ../basics/work-with-tickets.rst:30
 msgid "**Note**: Write a reminder for yourself and other agents, ask a colleague a question by mentioning a user or add new information to the ticket. The default visibility is \"internal\", which means the customer can't see the note."
 msgstr ""
 
-#: ../basics/update-tickets.rst:33
+#: ../basics/work-with-tickets.rst:33
 msgid "**Call**: Note down a summary of a phone call you had with the customer."
 msgstr ""
 
-#: ../basics/update-tickets.rst:34
+#: ../basics/work-with-tickets.rst:34
 msgid "**Email**: Send an email to anyone about the ticket. The name of the ticket is used for the subject of the email (:ref:`click on the title to rename it <rename-ticket>`)."
 msgstr ""
 
-#: ../basics/update-tickets.rst:38
+#: ../basics/work-with-tickets.rst:38
 msgid "Click the lock button 🔒 to change an article's visibility. Internal visibility appears as a dashed border in a pale red color."
 msgstr ""
 
-#: ../basics/update-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article editor with highlighted lock button to change visibility of article."
 msgstr ""
 
-#: ../basics/update-tickets.rst:48
+#: ../basics/work-with-tickets.rst:48
 msgid "Every new article appears at the end of the conversation, which means below the existing articles. To see detailed information of a message, just click on an article. This opens additional meta information:"
 msgstr ""
 
-#: ../basics/update-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article detail view."
 msgstr ""
 
-#: ../basics/update-tickets.rst:57
+#: ../basics/work-with-tickets.rst:57
 msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the **delete** button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
 
-#: ../basics/update-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows an internal article with highlighted delete button."
 msgstr ""
 
-#: ../basics/update-tickets.rst:68
+#: ../basics/work-with-tickets.rst:68
 msgid "Add an Article from Scratch"
 msgstr ""
 
-#: ../basics/update-tickets.rst:70
+#: ../basics/work-with-tickets.rst:70
 msgid "Click on the text field at the bottom of the ticket detail view which is labeled with **Enter Note or select attachment...** to add an article. By default, the article type \"Note\" is selected and the visibility is set to \"internal\"."
 msgstr ""
 
-#: ../basics/update-tickets.rst:79
+#: ../basics/work-with-tickets.rst:79
 msgid "Respond to an Article"
 msgstr ""
 
-#: ../basics/update-tickets.rst:81
+#: ../basics/work-with-tickets.rst:81
 msgid "To forward or reply to an article, use one of the response buttons under an article. The behavior is similar to an email client"
 msgstr ""
 
-#: ../basics/update-tickets.rst:84
+#: ../basics/work-with-tickets.rst:84
 msgid "**Reply**: Allows you to answer the article. The recipient is automatically pre-filled. The reply is sent via the same channel as the original message. This lets you easily send an answer to a customer or third party, if involved."
 msgstr ""
 
-#: ../basics/update-tickets.rst:87
+#: ../basics/work-with-tickets.rst:87
 msgid "**Reply all**: Same as above but uses all recipient addresses from the original message as recipients for your new article. Only available for email channels."
 msgstr ""
 
-#: ../basics/update-tickets.rst:90
+#: ../basics/work-with-tickets.rst:90
 msgid "**Forward**: This means you can forward the original message to a third party or anybody else. The original message and attachments are included in your new article."
 msgstr ""
 
-#: ../basics/update-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshots shows response buttons below an article."
 msgstr ""
 
-#: ../basics/update-tickets.rst:99
-msgid "Zammad even allows you to quote text from an existing article. This is especially helpful if an answer refers to different parts of the original message or the text is pretty long. This feature is limited to communication type articles like email where the response buttons are available."
+#: ../basics/work-with-tickets.rst:99
+msgid "Zammad even allows you to **quote text** from an existing article. This is especially helpful if an answer refers to different parts of the original message or the text is pretty long. This feature is limited to communication type articles like email where the response buttons are available."
 msgstr ""
 
-#: ../basics/update-tickets.rst:104
+#: ../basics/work-with-tickets.rst:104
 msgid "To quote text, simply select the text you want to quote and use the **Reply** or **Reply all** function. This adds the selected text as quote in your new article. You can do this even multiple times to quote different parts. Just select another part of the text, click on the same response action as before and it gets added as another quote to your editor. You can split quotations by using enter in the editor."
 msgstr ""
 
-#: ../basics/update-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screencast showing text being marked and quoted after pressing reply"
 msgstr ""
 
-#: ../basics/update-tickets.rst:117
-msgid "Copy Ticket Number"
-msgstr ""
-
-#: ../basics/update-tickets.rst:119
-msgid "Use the 🗊 icon next to the ticket title to copy the ticket number to your clipboard (including ticket hook; e.g. ``Ticket#50071``)."
-msgstr ""
-
-#: ../basics/update-tickets.rst:123
-#: ../extras/checklist.rst:59
-msgid "Additional Features"
-msgstr ""
-
-#: ../basics/update-tickets.rst:126
-msgid "Check Escalations"
-msgstr ""
-
-#: ../basics/update-tickets.rst:128
-msgid "SLAs are optional and require configuration by your instance administrator. Administrators can learn more about SLAs :admin-docs:`in our admin documentation </manage/slas/index.html>`. If you can't see escalation timestamps, it is not configured by your admin."
-msgstr ""
-
-#: ../basics/update-tickets.rst:133
-msgid "On the top of every ticket being applicable for SLA escalations, you'll find two dates next to the ticket number. By hovering the escalation date, Zammad will display all upcoming escalation times based on the SLA configuration."
-msgstr ""
-
-#: ../basics/update-tickets.rst:None
-msgid "Screenshot showing hovering over escalation note and getting more detailed escalation information."
-msgstr ""
-
-#: ../basics/update-tickets.rst:143
-msgid "Simultaneous Ticket Processing"
-msgstr ""
-
-#: ../basics/update-tickets.rst:147
-msgid "Every once in a while, two agents may have the same ticket open at the same time. When this happens, things can get messy fast: customers may receive conflicting responses on the same issue from both agents; or, changes made by one agent may be accidentally undone by the other."
-msgstr ""
-
-#: ../basics/update-tickets.rst:152
-msgid "To keep things under control, Zammad will alert you to potential conflicts by displaying an avatar in the bottom bar (live user section) for every agent that has that ticket open."
-msgstr ""
-
-#: ../basics/update-tickets.rst:156
-msgid "Be sure to communicate with your colleagues to prevent these problems before they arise."
-msgstr ""
-
-#: ../basics/update-tickets.rst:164
-msgid "Ticket conflict alert"
-msgstr ""
-
-#: ../basics/update-tickets.rst:164
-msgid "A ✏️ icon will appear if the agent has made any unsaved changes to the ticket."
-msgstr ""
-
-#: ../basics/update-tickets.rst:170
+#: ../basics/work-with-tickets.rst:119
 msgid "Rename a Ticket"
 msgstr ""
 
-#: ../basics/update-tickets.rst:172
-msgid "To rename a ticket, simply click on the title and start typing."
+#: ../basics/work-with-tickets.rst:121
+msgid "To rename a ticket, simply click on the title in the header bar and start typing. This title is used as subject in email communication and shows up in several places like overviews."
 msgstr ""
 
-#: ../basics/update-tickets.rst:180
-msgid "Highlighting Ticket Text"
+#: ../basics/work-with-tickets.rst:130
+msgid "Copy Ticket Number"
 msgstr ""
 
-#: ../basics/update-tickets.rst:182
-msgid "Use the highlighter tool in the upper-righthand corner to mark up important text. (Your highlights are visible to other agents.)"
+#: ../basics/work-with-tickets.rst:132
+msgid "If you often need the ticket number (e.g. to paste it in a third party chat app), use the 🗊 icon next to the ticket title to copy the ticket number to your clipboard. This includes the complete ticket identifier, including the ticket hook, e.g. ``Ticket#50071``. In case you scrolled down in the ticket, you can find the button on the left side of the header bar."
 msgstr ""
 
-#: ../basics/update-tickets.rst:190
-msgid "Ticket highlighter"
+#: ../basics/work-with-tickets.rst:138
+msgid "But wait, there is even a :doc:`keyboard shortcut </advanced/keyboard-shortcuts>` for that. Simply press :kbd:`.` and the ticket number is copied to your clipboard. To include the ticket title as well, press :kbd:`.` twice. Example: ``Ticket#50071: Coffee grinder broken``."
 msgstr ""
 
-#: ../basics/update-tickets.rst:190
-msgid "Highlight by selecting text, then clicking the highlighter. Click again to undo."
+#: ../basics/work-with-tickets.rst:145
+msgid "Simultaneous Ticket Processing"
 msgstr ""
 
-#: ../basics/update-tickets.rst:194
-msgid "Further Ticket Actions"
+#: ../basics/work-with-tickets.rst:149
+msgid "It can happen that two or more agents open a ticket at the same time. To prevent edit conflicts and customers receiving contradictory answers, Zammad shows you who is viewing or editing the ticket currently. You can find this information in the bottom bar where avatars of all agents are displayed. Be sure to communicate with your colleagues to prevent these problems before they arise."
 msgstr ""
 
-#: ../basics/update-tickets.rst:198
-msgid "Additional actions are available via the **submenu**:"
+#: ../basics/work-with-tickets.rst:156
+msgid "Depending on the additional icon and if the avatar icon is faded, it means:"
 msgstr ""
 
-#: ../basics/update-tickets.rst:205
+#: ../basics/work-with-tickets.rst:158
+msgid "Avatar: Another agent is viewing the ticket."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:159
+msgid "Faded avatar: Another agent opened the ticket but is currently not actively viewing it."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:161
+msgid "Avatar with pencil icon: Another agent is currently actively working on this ticket."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:None
+msgid "Ticket conflict alert"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:174
+msgid "Additional actions are available in the ticket submenu. You can find it in the ticket sidebar. To open it, click the **Ticket ▾** heading to access additional actions."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:None
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/update-tickets.rst:205
-msgid "Click the **Ticket ▾** heading to access additional actions."
-msgstr ""
-
-#: ../basics/update-tickets.rst:210
+#: ../basics/work-with-tickets.rst:185
 msgid "History"
 msgstr ""
 
-#: ../basics/update-tickets.rst:208
-msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation."
+#: ../basics/work-with-tickets.rst:184
+msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation. Useful to check who did what and when."
 msgstr ""
 
-#: ../basics/update-tickets.rst:214
+#: ../basics/work-with-tickets.rst:190
 msgid "Merge"
 msgstr ""
 
-#: ../basics/update-tickets.rst:213
-msgid "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details)."
+#: ../basics/work-with-tickets.rst:188
+msgid "Migrate all messages/notes to another ticket. Useful if you have more than one ticket about a single customer issue. See :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details."
 msgstr ""
 
-#: ../basics/update-tickets.rst:217
+#: ../basics/work-with-tickets.rst:193
 msgid "Change Customer"
 msgstr ""
 
-#: ../basics/update-tickets.rst:217
+#: ../basics/work-with-tickets.rst:193
 msgid "Reassign the ticket to another customer."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:196
+msgid "Check Escalations"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:199
+msgid "The SLA feature (Service Level Agreement) is optional and must be :admin-docs:`configured by your Zammad administrator </manage/slas/index.html>`. SLAs are to track the time for a first response and/or to solving the issue. If a ticket is in danger to reach the agreed deadline, it will escalate."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:204
+msgid "For tickets which already reached the deadline or will reach it soon, you can find an addition date next to the ticket number. By hovering the escalation date, Zammad will display all upcoming or reached escalation times based on the SLA configuration. If you can't see escalation timestamps, it is not configured by your admin."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:None
+msgid "Screenshot showing hovering over escalation note and getting more detailed escalation information."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:216
+msgid "Highlight Text in a Ticket"
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:218
+msgid "Use the highlighter tool in the upper right corner to mark up important text. This feature is not about highlighting text in the editor to send it to customers. It is just about highlighting important parts for other agents."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:222
+msgid "First select the text you want to highlight, then click on the highlighter button with the pencil. In case you want to use a different color, open the color menu by clicking on the down arrow in the split button. To remove the highlighting, click on the button again with the selected text."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:None
+msgid "Ticket highlighter"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:2
@@ -4005,6 +4000,10 @@ msgstr ""
 
 #: ../extras/checklist.rst:56
 msgid "Screenshot of editing an item by simply clicking on it."
+msgstr ""
+
+#: ../extras/checklist.rst:59
+msgid "Additional Features"
 msgstr ""
 
 #: ../extras/checklist.rst:69
