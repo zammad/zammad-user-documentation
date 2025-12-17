@@ -16,7 +16,7 @@ In situations like these, you need to create a new ticket manually and click the
 screen where you can add all needed information.
 
 .. figure:: /images/basics/service-ticket/create.png
-   :alt: New ticket dialog
+   :alt: Screenshot shows the new ticket dialog.
    :align: center
 
 Type
