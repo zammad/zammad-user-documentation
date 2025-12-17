@@ -7,7 +7,7 @@ Zammad User Documentation
    :admin-docs:`administration manuals </index.html>` available.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :titlesonly:
    :caption: Basics
    :name: basics
@@ -20,7 +20,7 @@ Zammad User Documentation
    /basics/work-with-tickets
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
    :caption: Advanced Topics
    :name: advanced-topics
