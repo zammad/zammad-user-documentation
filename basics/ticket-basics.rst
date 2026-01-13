@@ -5,18 +5,16 @@ Introduction
 ------------
 
 In Zammad, **tickets** are used to track customer service requests.
-The first time a customer contacts you (or the company) about something,
-Zammad creates a new ticket. Each message sent between you and the customer is
-added to that ticket until the issue is resolved, the customer is happy and the
-ticket is finally closed. Such a single message in a ticket is called
-**article**. So basically, you can see a **ticket** as a **conversation**
-between you and a customer about a single issue.
+The first time a customer contacts you about something, Zammad creates a new
+ticket. Each message sent between you and the customer is added to that ticket
+until the issue is resolved, the customer is happy and the ticket is finally
+closed. Such a single message in a ticket is called **article**. Basically, you
+can think of a **ticket** as a **conversation** between you and a customer about
+a single issue.
 
-.. figure:: /images/basics/what-is-a-ticket.png
-   :alt: Zammad UI with ticket detail view
+.. figure:: /images/basics/basics/what-is-a-ticket.png
+   :alt: Zammad UI with opened ticket detail view
    :align: center
-
-   A ticket is a conversation between a customer and one or more agents.
 
 If you're completely new to a ticket system and handled your customer requests
 with an email client so far, you might think that a ticket system is
@@ -34,8 +32,8 @@ complicated. But the opposite is true:
 - With Zammad's intuitive UI, you can focus on what matters: to resolve customer
   issues and answer customer questions.
 
-So, basically you can work with Zammad similar as with your email client. Except
-that a ticket has additional attributes. Read on to learn more.
+This means you can work with Zammad in a similar way as with your email client.
+Except that a ticket has additional attributes. Read on to learn more.
 
 .. _ticket-attributes:
 
@@ -46,11 +44,11 @@ In addition to articles, tickets have some additional meta information which are
 called attributes. Use the **ticket sidebar** to view and change ticket
 attributes.
 
-.. figure:: /images/basics/service-ticket/settings-ticket-pane.png
+.. figure:: /images/basics/work-with-tickets/settings-ticket-pane.png
    :alt: Screenshot shows ticket sidebar.
    :align: center
 
-Click the arrow button → in the top right corner to hide the sidebar. Click on
+To hide the sidebar, click the arrow button → in the top right corner. Click on
 one of the tabs to bring it back. The available options depend on your
 privileges and the configuration of your system.
 
@@ -86,22 +84,6 @@ the ticket much faster in general - without having a look into details.
 
 .. include:: /snippets/ticket-state-type-circles.rst
 
-.. States do more than just indicate progress: Zammad has a fine-grained time
-.. tracking feature (so-called
-.. “:admin-docs:`service-level agreements </manage/slas/index.html>`”,
-.. or SLAs) that uses state and update information to measure how long it takes for
-.. customers to get a response on a new ticket or get their issues resolved
-.. entirely.
-.. In tickets with the state **new**, the customer hasn't received a first response
-.. In tickets with the state **open**, the customer has received an initial
-.. response, but the issue still hasn't been resolved.
-
-.. .. note:: ⏱️ Tickets in a *pending* state do not accumulate time toward their SLA limits.
-
-..    So, for instance, a ticket may be marked *pending reminder*
-..    if it's waiting on feedback from a third-party supplier
-..    who's out of town until next week.
-
 Priority
 ^^^^^^^^
 
@@ -118,14 +100,14 @@ additional ones. Admins can find more information
 The default priorities allow you to immediately recognize the importance of your
 tickets because they are color coded:
 
-.. figure:: /images/basics/service-ticket/settings/priority-colors.png
+.. figure:: /images/basics/work-with-tickets/settings/priority-colors.png
    :alt: Overview showing 3 tickets with different priorities
    :width: 70%
    :align: center
 
 You might wonder what such a ticket priority is for. Out of the box, it doesn't
-actually do anything. However, Zammad administrators can set up all sorts of
-automation and analytics based on the priority.
+actually do anything except the highlighting. However, Zammad administrators can
+set up all sorts of automation and analytics based on the priority.
 
 Be aware that customers can't set a priority for their own tickets. Otherwise
 some might set their tickets always to high and hope for an immediate
@@ -137,7 +119,7 @@ Tags
 Tags are custom labels that can be attached to tickets to make it easier to
 find them in the future. You find the tag section under the attribute fields.
 
-.. figure:: /images/basics/service-ticket/settings-tags.png
+.. figure:: /images/basics/work-with-tickets/settings-tags.png
    :alt: Ticket pane (tags)
    :width: 70%
    :align: center

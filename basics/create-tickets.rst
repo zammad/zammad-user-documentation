@@ -15,7 +15,7 @@ In situations like these, you need to create a new ticket manually and click the
 ``+`` button at the bottom of the navigation bar. This shows a ticket create
 screen where you can add all needed information.
 
-.. figure:: /images/basics/service-ticket/create.png
+.. figure:: /images/basics/work-with-tickets/create.png
    :alt: Screenshot shows the new ticket dialog.
    :align: center
 
@@ -48,7 +48,7 @@ the autocomplete menu or create a new customer by clicking the
 **+ Create new Customer** button. This opens a dialog where you can provide
 all relevant information of the customer. A ticket can only have one customer.
 
-.. figure:: /images/basics/service-ticket/search-customer.png
+.. figure:: /images/basics/work-with-tickets/search-customer.png
    :alt: Screenshot showing customer search while creating a new ticket
    :align: center
    :scale: 80%
@@ -59,7 +59,7 @@ After setting a customer in the ticket create dialog, the customer sidebar
 automatically opens. You can see additional customer information including a
 hint about the currently opened tickets of the customer.
 
-.. figure:: /images/basics/service-ticket/create-ticket-customer-sidebar.png
+.. figure:: /images/basics/work-with-tickets/create-ticket-customer-sidebar.png
    :alt: Screenshot shows "Customer" sidebar after setting a customer.
    :align: center
 

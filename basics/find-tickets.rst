@@ -58,7 +58,7 @@ Ticket priorities are
 color-coded as well and help you to distinguish between the different
 priorities:
 
-.. figure:: /images/basics/service-ticket/settings/priority-colors.png
+.. figure:: /images/basics/work-with-tickets/settings/priority-colors.png
    :alt: Overview showing 3 tickets with different priorities
    :width: 60%
    :align: center

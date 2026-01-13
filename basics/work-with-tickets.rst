@@ -40,10 +40,17 @@ article, you can choose from different article types:
   used for the subject of the email
   (:ref:`click on the title to rename it <rename-ticket>`).
 
+To choose another article type, click the note icon and choose a different type:
+
+.. figure:: /images/basics/basics/article-type-switcher.png
+   :align: center
+   :scale: 70%
+   :alt: Screenshot shows article type switcher.
+
 Click the lock button 🔒 to change an article's visibility.
 Internal visibility appears as a dashed border in a pale red color.
 
-.. figure:: /images/basics/service-ticket/follow-up-mark-internal.png
+.. figure:: /images/basics/work-with-tickets/follow-up-mark-internal.png
    :alt: Screenshot shows article editor with highlighted lock button to change visibility of article.
    :width: 70%
    :align: center
@@ -52,9 +59,9 @@ Internal visibility appears as a dashed border in a pale red color.
 
 Every new article appears at the end of the conversation, which means below
 the existing articles. To see detailed information of a message, just click on
-an article. This opens additional meta information:
+an article (1). This opens additional meta information (2):
 
-.. figure:: /images/basics/service-ticket/follow-up-message-details.gif
+.. figure:: /images/basics/work-with-tickets/article-details.png
    :alt: Screenshot shows article detail view.
    :width: 70%
    :align: center
@@ -64,7 +71,7 @@ articles that you have created yourself and which are not older than 10 minutes.
 To see the **delete** button in articles of a communication type (emails, calls),
 their visibility has to be switched to internal first.
 
-.. figure:: /images/basics/service-ticket/delete-article.png
+.. figure:: /images/basics/work-with-tickets/delete-article.png
    :alt: Screenshot shows an internal article with highlighted delete button.
    :align: center
    :width: 50%
@@ -76,7 +83,7 @@ Click on the text field at the bottom of the ticket detail view which is labeled
 with **Enter Note or select attachment...** to add an article. By default, the
 article type "Note" is selected and the visibility is set to "internal".
 
-.. figure:: /images/basics/service-ticket/follow-up-add-note.gif
+.. figure:: /images/basics/work-with-tickets/new-article-box.png
    :align: center
    :width: 70%
 
@@ -84,7 +91,7 @@ Respond to an Article
 ^^^^^^^^^^^^^^^^^^^^^
 
 To forward or reply to an article, use one of the response buttons under an
-article. The behavior is similar to an email client
+article. The behavior is similar to an email client.
 
 - **Reply**: Allows you to answer the article. The recipient is automatically
   pre-filled. The reply is sent via the same channel as the original message.
@@ -96,7 +103,7 @@ article. The behavior is similar to an email client
   or anybody else. The original message and attachments are included in your
   new article.
 
-.. figure:: /images/basics/service-ticket/follow-up-reply-button.png
+.. figure:: /images/basics/work-with-tickets/follow-up-reply-button.png
    :alt: Screenshots shows response buttons below an article.
    :width: 70%
    :align: center
@@ -106,17 +113,27 @@ especially helpful if an answer refers to different parts of the original
 message or the text is pretty long. This feature is limited to communication
 type articles like email where the response buttons are available.
 
-To quote text, simply select the text you want to quote and use the **Reply**
-or **Reply all** function. This adds the selected text as quote in your new
-article. You can do this even multiple times to quote different parts. Just
-select another part of the text, click on the same response action as before
-and it gets added as another quote to your editor. You can split quotations by
-using enter in the editor.
+To quote text, simply select the text you want to quote (1) and use the **Reply**
+or **Reply all** function (2):
 
-.. figure:: /images/basics/service-ticket/mark-to-quote.gif
+.. figure:: /images/basics/work-with-tickets/quote-mark-text.png
    :align: center
    :width: 70%
-   :alt: Screencast showing text being marked and quoted after pressing reply
+   :alt: Screenshot shows article with marked text and highlighted reply actions.
+
+This adds the marked text with a timestamp in your article editor where you can
+answer it. Example:
+
+.. figure:: /images/basics/work-with-tickets/quote-reply.png
+   :align: center
+   :width: 70%
+   :alt: Screenshot shows article with marked text and highlighted reply actions.
+
+You can use the quoting even multiple times to quote different parts of the
+text. Just select another part of the text, click on the same response action
+as before and it gets added as another quote to your editor. You can split
+quotations by using :kbd:`enter` or :kbd:`shift` + :kbd:`enter` in the editor.
+
 
 .. _rename-ticket:
 
@@ -127,7 +144,7 @@ To rename a ticket, simply click on the title in the header bar and start
 typing. This title is used as subject in email communication and shows up in
 several places like overviews.
 
-.. figure:: /images/basics/service-ticket/settings-rename-ticket.png
+.. figure:: /images/basics/work-with-tickets/settings-rename-ticket.png
    :width: 70%
    :align: center
 
@@ -166,7 +183,7 @@ Depending on the additional icon and if the avatar icon is faded, it means:
 - Avatar with pencil icon: Another agent is currently actively working on this
   ticket.
 
-.. figure:: /images/basics/service-ticket/follow-up-conflict-detection.png
+.. figure:: /images/basics/work-with-tickets/follow-up-conflict-detection.png
    :alt: Ticket conflict alert
    :width: 70%
    :align: center
@@ -180,7 +197,7 @@ Additional actions are available in the ticket submenu. You can find it in the
 ticket sidebar. To open it, click the **Ticket ▾** heading to access additional
 actions.
 
-.. figure:: /images/basics/service-ticket/settings-ticket-submenu.png
+.. figure:: /images/basics/work-with-tickets/settings-ticket-submenu.png
    :alt: Ticket submenu
    :width: 40%
    :align: center
@@ -212,7 +229,7 @@ Zammad will display all upcoming or reached escalation times based on the SLA
 configuration. If you can't see escalation timestamps, it is not configured by
 your admin.
 
-.. figure:: /images/basics/service-ticket/show-escalation-times.png
+.. figure:: /images/basics/work-with-tickets/show-escalation-times.png
    :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
    :align: center
    :width: 70%
@@ -229,7 +246,7 @@ button with the pencil. In case you want to use a different color, open the
 color menu by clicking on the down arrow in the split button.
 To remove the highlighting, click on the button again with the selected text.
 
-.. figure:: /images/basics/service-ticket/settings-highlight-text.png
+.. figure:: /images/basics/work-with-tickets/settings-highlight-text.png
    :alt: Ticket highlighter
    :width: 70%
    :align: center

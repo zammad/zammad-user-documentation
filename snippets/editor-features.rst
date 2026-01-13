@@ -6,7 +6,7 @@ The article editor is a rich text editor. This means you can:
   text and choose from the formatting options in the bubble menu. This menu
   automatically appears when selecting text and looks like this:
 
-  .. figure:: /images/basics/editor-bubble-menu.png
+  .. figure:: /images/basics/basics/editor-bubble-menu.png
     :alt: Screenshot shows editor bubble menu to format text.
 - Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:`
   which can be a huge time saver.
