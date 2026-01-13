@@ -22,7 +22,7 @@ all unsaved changes are automatically backed up to the server.
 
 .. tip:: **🖱️ UI Protip**
 
-   * :doc:`Ticket states </basics/service-ticket/settings/state>` are
+   * :doc:`Ticket states </basics/ticket-basics>` are
      **color-coded:**
 
      .. include:: /snippets/ticket-state-type-circles.rst

@@ -60,10 +60,10 @@ but here are a couple that might confuse you:
 
 :VIP:
 
-   Like :doc:`ticket priority </basics/service-ticket/settings/priority>`,
-   **VIP status** doesn't actually do anything out-of-the-box,
-   but an admin *can* set up automated system hooks based on this value,
-   or use it as a filter for :doc:`custom overviews </basics/find-ticket/browse>`.
+   Like the ticket priority, the **VIP status** doesn't actually do anything
+   out-of-the-box. But an admin *can* set up automation rules based on
+   this value or use it as a filter for custom
+   :ref:`overviews <overviews>`.
 
    **Ask your administrator** about how she'd like you to use this attribute
    (or just leave it alone).
