@@ -216,18 +216,21 @@ Change Customer
 
 Check Escalations
 -----------------
-.. Rework and add link after adding SLA to docs: https://github.com/zammad/zammad-user-documentation/issues/480
 
-The SLA feature (Service Level Agreement) is optional and must be
-:admin-docs:`configured by your Zammad administrator </manage/slas/index.html>`.
-SLAs are to track the time for a first response and/or to solving the issue.
-If a ticket is in danger to reach the agreed deadline, it will escalate.
+Service Level Agreements (SLAs) help meet specific response times for customer
+requests. For example, your admin can define goals like answering every inquiry
+within eight hours or define specific SLA times for specific customers.
+This feature has to be configured by your admin. In case you can't see an
+escalation timestamp, either the ticket is not considered as being SLA-relevant
+or the feature is not configured at all. Admin can learn more about the
+:admin-docs:`SLA configuration in the admin docs </manage/slas/index.html>`.
 
+SLA relevant tickets show a timestamp in the header. Hover over it to see all
+escalation stages and deadlines.
 For tickets which already reached the deadline or will reach it soon, you can
 find an addition date next to the ticket number. By hovering the escalation date,
 Zammad will display all upcoming or reached escalation times based on the SLA
-configuration. If you can't see escalation timestamps, it is not configured by
-your admin.
+configuration.
 
 .. figure:: /images/basics/work-with-tickets/show-escalation-times.png
    :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
