@@ -222,6 +222,9 @@ a deadline is passed, the ticket escalates.
 
 Zammad notifies you by default when tickets approach or exceed their deadlines.
 Configure these notifications in your :doc:`profile settings </extras/profile-and-settings>`.
+Zammad also ships a default overview called "Escalated Tickets". This overview
+includes already escalated tickets and tickets which are expected to escalate
+within the next 10 minutes.
 
 SLA-relevant tickets display a timestamp in the ticket detail header. Hover
 over this timestamp to see all escalation stages and deadlines in a popup.
@@ -232,10 +235,6 @@ configuration:
    :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
    :align: center
    :width: 70%
-
-Zammad also ships a default overview called "Escalated Tickets". This overview
-includes already escalated tickets and tickets which are expected to escalate
-within the next 10 minutes.
 
 .. hint:: The escalation times are calculated based on your business hours.
    This means when your business hours start at 9:00, a ticket is created at
