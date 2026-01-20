@@ -214,25 +214,37 @@ Merge
 Change Customer
    Reassign the ticket to another customer.
 
-Check Escalations
------------------
-.. Rework and add link after adding SLA to docs: https://github.com/zammad/zammad-user-documentation/issues/480
+Monitoring Ticket Escalations
+-----------------------------
 
-The SLA feature (Service Level Agreement) is optional and must be
-:admin-docs:`configured by your Zammad administrator </manage/slas/index.html>`.
-SLAs are to track the time for a first response and/or to solving the issue.
-If a ticket is in danger to reach the agreed deadline, it will escalate.
+Service Level Agreements (SLAs) ensure timely responses to customer requests. Your administrator sets these goals - such as responding to all inquiries within eight hours - with optional custom deadlines for specific customers. When such
+a deadline is passed, the ticket escalates.
 
-For tickets which already reached the deadline or will reach it soon, you can
-find an addition date next to the ticket number. By hovering the escalation date,
-Zammad will display all upcoming or reached escalation times based on the SLA
-configuration. If you can't see escalation timestamps, it is not configured by
-your admin.
+Zammad notifies you by default when tickets approach or exceed their deadlines.
+Configure these notifications in your :doc:`profile settings </extras/profile-and-settings>`.
+Zammad also ships a default overview called "Escalated Tickets". This overview
+includes already escalated tickets and tickets which are expected to escalate
+within the next 10 minutes.
+
+SLA-relevant tickets display a timestamp in the ticket detail header. Hover
+over this timestamp to see all escalation stages and deadlines in a popup.
+It shows all upcoming or reached escalation times based on your SLA
+configuration:
 
 .. figure:: /images/basics/work-with-tickets/show-escalation-times.png
    :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
    :align: center
    :width: 70%
+
+.. hint:: The escalation times are calculated based on your business hours.
+   This means when your business hours start at 9:00, a ticket is created at
+   7:00 and you have an 1-hour deadline, it will escalate at 10:00, unless
+   resolved earlier.
+
+The SLA feature requires a configuration from your admin. In case you don't see
+escalation timestamps, either the ticket is not SLA-relevant or the feature is
+not configured. Admins can refer to the
+:admin-docs:`SLA configuration documentation </manage/slas/index.html>`.
 
 Highlight Text in a Ticket
 --------------------------
