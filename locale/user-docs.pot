@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-20 08:07+0100\n"
+"POT-Creation-Date: 2026-01-20 09:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2349,15 +2349,19 @@ msgid "Reassign the ticket to another customer."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:218
-msgid "Check Escalations"
+msgid "Monitoring Ticket Escalations"
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:220
-msgid "Service Level Agreements (SLAs) help meet specific response times for customer requests. For example, your admin can define goals like answering every inquiry within eight hours or define specific SLA times for specific customers."
+msgid "Service Level Agreements (SLAs) ensure timely responses to customer requests. Your administrator sets these goals - such as responding to all inquiries within eight hours - with optional custom deadlines for specific customers. When such a deadline is passed, the ticket escalates."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:224
-msgid "SLA relevant tickets show a timestamp in the header of the ticket detail view. Hover over it to see all escalation stages and deadlines. For tickets which already exceeded the deadline or will reach the deadline soon, you can get notified (see :doc:`profile settings </extras/profile-and-settings>`). After hovering over the escalation date, Zammad displays all upcoming or reached escalation times based on the SLA configuration:"
+#: ../basics/work-with-tickets.rst:223
+msgid "Zammad notifies you by default when tickets approach or exceed their deadlines. Configure these notifications in your :doc:`profile settings </extras/profile-and-settings>`."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:226
+msgid "SLA-relevant tickets display a timestamp in the ticket detail header. Hover over this timestamp to see all escalation stages and deadlines in a popup. It shows all upcoming or reached escalation times based on your SLA configuration:"
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -2365,18 +2369,26 @@ msgid "Screenshot showing hovering over escalation note and getting more detaile
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:236
-msgid "This feature has to be configured by your admin. In case you can't see an escalation timestamp, either the ticket is not considered as being SLA-relevant or the feature is not configured at all. Admin can learn more about the :admin-docs:`SLA configuration in the admin docs </manage/slas/index.html>`."
+msgid "Zammad also ships a default overview called \"Escalated Tickets\". This overview includes already escalated tickets and tickets which are expected to escalate within the next 10 minutes."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:242
+#: ../basics/work-with-tickets.rst:240
+msgid "The escalation times are calculated based on your business hours. This means when your business hours start at 9:00, a ticket is created at 7:00 and you have an 1-hour deadline, it will escalate at 10:00, unless resolved earlier."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:245
+msgid "The SLA feature requires a configuration from your admin. In case you don't see escalation timestamps, either the ticket is not SLA-relevant or the feature is not configured. Admins can refer to the :admin-docs:`SLA configuration documentation </manage/slas/index.html>`."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:251
 msgid "Highlight Text in a Ticket"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:253
 msgid "Use the highlighter tool in the upper right corner to mark up important text. This feature is not about highlighting text in the editor to send it to customers. It is just about highlighting important parts for other agents."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:248
+#: ../basics/work-with-tickets.rst:257
 msgid "First select the text you want to highlight, then click on the highlighter button with the pencil. In case you want to use a different color, open the color menu by clicking on the down arrow in the split button. To remove the highlighting, click on the button again with the selected text."
 msgstr ""
 
@@ -2384,7 +2396,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:260
+#: ../basics/work-with-tickets.rst:269
 msgid "You now know the basics and how to work with tickets in general. However, there are many more features in Zammad which can be very useful in your daily work. Have a look at the **Advanced Topics** and **Extra** sections in the left navigation menu where you can find more information."
 msgstr ""
 
