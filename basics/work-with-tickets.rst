@@ -220,22 +220,23 @@ Check Escalations
 Service Level Agreements (SLAs) help meet specific response times for customer
 requests. For example, your admin can define goals like answering every inquiry
 within eight hours or define specific SLA times for specific customers.
-This feature has to be configured by your admin. In case you can't see an
-escalation timestamp, either the ticket is not considered as being SLA-relevant
-or the feature is not configured at all. Admin can learn more about the
-:admin-docs:`SLA configuration in the admin docs </manage/slas/index.html>`.
 
-SLA relevant tickets show a timestamp in the header. Hover over it to see all
-escalation stages and deadlines.
-For tickets which already reached the deadline or will reach it soon, you can
-find an addition date next to the ticket number. By hovering the escalation date,
-Zammad will display all upcoming or reached escalation times based on the SLA
-configuration.
+SLA relevant tickets show a timestamp in the header of the ticket detail view.
+Hover over it to see all escalation stages and deadlines. For tickets which
+already exceeded the deadline or will reach the deadline soon, you can get
+notified (see :doc:`profile settings </extras/profile-and-settings>`).
+After hovering over the escalation date, Zammad displays all upcoming or
+reached escalation times based on the SLA configuration:
 
 .. figure:: /images/basics/work-with-tickets/show-escalation-times.png
    :alt: Screenshot showing hovering over escalation note and getting more detailed escalation information.
    :align: center
    :width: 70%
+
+This feature has to be configured by your admin. In case you can't see an
+escalation timestamp, either the ticket is not considered as being SLA-relevant
+or the feature is not configured at all. Admin can learn more about the
+:admin-docs:`SLA configuration in the admin docs </manage/slas/index.html>`.
 
 Highlight Text in a Ticket
 --------------------------
