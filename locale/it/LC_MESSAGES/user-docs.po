@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 09:49+0100\n"
+"POT-Creation-Date: 2026-01-20 09:40+0100\n"
 "PO-Revision-Date: 2025-09-06 07:00+0000\n"
 "Last-Translator: Rudolfet <hermy.t.m1997@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
@@ -3060,24 +3060,32 @@ msgid "Reassign the ticket to another customer."
 msgstr "Assegna il ticket ad un altro cliente."
 
 #: ../basics/work-with-tickets.rst:218
-msgid "Check Escalations"
+msgid "Monitoring Ticket Escalations"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:221
+#: ../basics/work-with-tickets.rst:220
 msgid ""
-"The SLA feature (Service Level Agreement) is optional and must be :admin-"
-"docs:`configured by your Zammad administrator </manage/slas/index.html>`. "
-"SLAs are to track the time for a first response and/or to solving the issue. "
-"If a ticket is in danger to reach the agreed deadline, it will escalate."
+"Service Level Agreements (SLAs) ensure timely responses to customer "
+"requests. Your administrator sets these goals - such as responding to all "
+"inquiries within eight hours - with optional custom deadlines for specific "
+"customers. When such a deadline is passed, the ticket escalates."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:226
+#: ../basics/work-with-tickets.rst:223
 msgid ""
-"For tickets which already reached the deadline or will reach it soon, you "
-"can find an addition date next to the ticket number. By hovering the "
-"escalation date, Zammad will display all upcoming or reached escalation "
-"times based on the SLA configuration. If you can't see escalation "
-"timestamps, it is not configured by your admin."
+"Zammad notifies you by default when tickets approach or exceed their "
+"deadlines. Configure these notifications in your :doc:`profile settings </"
+"extras/profile-and-settings>`. Zammad also ships a default overview called "
+"\"Escalated Tickets\". This overview includes already escalated tickets and "
+"tickets which are expected to escalate within the next 10 minutes."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:229
+msgid ""
+"SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
+"over this timestamp to see all escalation stages and deadlines in a popup. "
+"It shows all upcoming or reached escalation times based on your SLA "
+"configuration:"
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -3086,13 +3094,28 @@ msgid ""
 "escalation information."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:238
+#: ../basics/work-with-tickets.rst:239
+msgid ""
+"The escalation times are calculated based on your business hours. This means "
+"when your business hours start at 9:00, a ticket is created at 7:00 and you "
+"have an 1-hour deadline, it will escalate at 10:00, unless resolved earlier."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:244
+msgid ""
+"The SLA feature requires a configuration from your admin. In case you don't "
+"see escalation timestamps, either the ticket is not SLA-relevant or the "
+"feature is not configured. Admins can refer to the :admin-docs:`SLA "
+"configuration documentation </manage/slas/index.html>`."
+msgstr ""
+
+#: ../basics/work-with-tickets.rst:250
 #, fuzzy
 #| msgid "Highlighting Ticket Text"
 msgid "Highlight Text in a Ticket"
 msgstr "Evidenziare del testo del ticket"
 
-#: ../basics/work-with-tickets.rst:240
+#: ../basics/work-with-tickets.rst:252
 #, fuzzy
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
@@ -3103,7 +3126,7 @@ msgstr ""
 "evidenziare del testo importante (Le tue sottolineature **non** sono "
 "visibili ad altri agenti)"
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:256
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3115,7 +3138,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:256
+#: ../basics/work-with-tickets.rst:268
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "
