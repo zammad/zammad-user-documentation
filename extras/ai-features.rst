@@ -114,7 +114,6 @@ Simultaneous work detection
 
    .. figure:: /images/extras/ai/ai-live-user.png
       :alt: Screenshot shows avatar of an AI agent
-      :scale: 80%
 
 Overview indicator
    A running AI agent is indicated in the status column in overviews. The status
