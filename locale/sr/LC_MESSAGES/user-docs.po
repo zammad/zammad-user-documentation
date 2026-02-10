@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-20 09:40+0100\n"
-"PO-Revision-Date: 2026-02-04 16:00+0000\n"
+"PO-Revision-Date: 2026-02-05 17:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -2424,8 +2424,8 @@ msgid ""
 "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` "
 "which can be a huge time saver."
 msgstr ""
-"Користите :doc:`текстуалне исечке </advanced/text-modules>` уносом :kbd:`:` "
-":kbd:`:` што вам може уштедети време."
+"Користите :doc:`текстуалне исечке </advanced/text-modules>` "
+"уносом :kbd:`:` :kbd:`:` што вам може уштедети време."
 
 #: ../snippets/editor-features.rst:13
 msgid ""
@@ -2452,8 +2452,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Након што унесете релевантне информације, отворите тикет кликом на дугме "
-"**Додај**. Читајте даље о томе doc:`како да пронађете <find-tickets>` и "
-":doc:`како да обрађујете <work-with-tickets>` тикете."
+"**Додај**. Читајте даље о томе doc:`како да пронађете <find-tickets>` "
+"и :doc:`како да обрађујете <work-with-tickets>` тикете."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -2500,7 +2500,8 @@ msgstr ""
 
 #: ../basics/find-tickets.rst:23
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
-msgstr "Недодељени и отворени тикети: отворени тикети без постављеног власника."
+msgstr ""
+"Недодељени и отворени тикети: отворени тикети без постављеног власника."
 
 #: ../basics/find-tickets.rst:24
 msgid ""
@@ -2697,9 +2698,9 @@ msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
 msgstr ""
-"Сада кад знате како да пронађете тикете, можда ћете пожелети да :doc:`"
-"отворите нов <create-tickets>` или :doc:`обрадите постојеће <work-with-"
-"tickets>` тикете."
+"Сада кад знате како да пронађете тикете, можда ћете пожелети "
+"да :doc:`отворите нов <create-tickets>` или :doc:`обрадите постојеће <work-"
+"with-tickets>` тикете."
 
 #: ../basics/ticket-basics.rst:2
 msgid "Ticket Basics"
@@ -2885,8 +2886,8 @@ msgid ""
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
 "the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
-"**Спојено**: Стање за тикет који је спојен са другим тикетом. Погледајте и "
-":doc:`повезане тикете </advanced/ticket-actions/link>` или :ref:`историјат "
+"**Спојено**: Стање за тикет који је спојен са другим тикетом. Погледајте "
+"и :doc:`повезане тикете </advanced/ticket-actions/link>` или :ref:`историјат "
 "тикета <ticket-submenu>` да пронађете повезани тикет."
 
 #: ../basics/ticket-basics.rst:82
@@ -3042,16 +3043,16 @@ msgstr ""
 "<create-tickets>` или doc:`обрађујете <work-with-tickets>` тикете."
 
 #: ../basics/work-with-tickets.rst:2
-#, fuzzy
-#| msgid "Working with Text Modules"
 msgid "Work with Tickets"
-msgstr "Рад са текстуалним исечцима"
+msgstr "Обрада тикета"
 
 #: ../basics/work-with-tickets.rst:4
 msgid ""
 "You found your way into an existing ticket, congratulations! Now let's have "
 "a look what you can do and how to do it."
 msgstr ""
+"Честитамо, пронашли сте пут до постојећег тикета! Хајде сада да видимо шта и "
+"како можете урадити са њим."
 
 #: ../basics/work-with-tickets.rst:7
 msgid ""
@@ -3066,6 +3067,15 @@ msgid ""
 "create a new ticket while editing an existing one. Simply switch back to the "
 "other tab."
 msgstr ""
+"Уопштено говорећи, обрада постојећих тикета значи бити у току са клијентском "
+"кореспонденцијом у конверзацији детаљног прегледа тикета. Сваки пут када "
+"отворите тикет, приказаће се у новом прозору ваше :doc:`навигационе траке </"
+"advanced/tabs>` са леве стране. Да бисте затворили прозор (у смислу уклањања "
+"из навигационе траке, не затварања тикета), само кликните на дугме ``X`` у "
+"прозору. Zammad аутоматски снима ваше измене у отвореним прозорима тикета, "
+"без обзира да ли сте их већ освежили или само унели и прешли на нешто друго. "
+"Ово значи да не представља проблем отворити нови тикет док се други "
+"обрађује. Једноставно пређите на други прозор."
 
 #: ../basics/work-with-tickets.rst:18
 msgid ""
@@ -3073,24 +3083,25 @@ msgid ""
 "update of the ticket is needed. So make sure to click the **Update** button "
 "on the right side of the footer bar when you are happy with your changes."
 msgstr ""
+"За већину промена (изузев ознака или промене наслова, нпр), неопходно је "
+"експлицитно освежити тикет. Зато обавезно кликните на дугме **Освежи** у "
+"доњем десном углу доње траке када сте задовољни променама."
 
 #: ../basics/work-with-tickets.rst:23
-#, fuzzy
-#| msgid "Ticket Attributes"
 msgid "Changing Ticket Attributes"
-msgstr "Атрибути тикета"
+msgstr "Измена атрибута тикета"
 
 #: ../basics/work-with-tickets.rst:30
-#, fuzzy
-#| msgid "Create a new ticket"
 msgid "Create a New Article"
-msgstr "Отворите нови тикет"
+msgstr "Додавање новог чланка"
 
 #: ../basics/work-with-tickets.rst:32
 msgid ""
 "No matter if you create a new article from scratch or respond to a customer "
 "article, you can choose from different article types:"
 msgstr ""
+"Без обзира да ли додајете нови чланак од нуле или одговарате на постојећи "
+"чланак клијента, можете изабрати између различитих врста чланака:"
 
 #: ../basics/work-with-tickets.rst:35
 msgid ""
@@ -3099,54 +3110,53 @@ msgid ""
 "default visibility is \"internal\", which means the customer can't see the "
 "note."
 msgstr ""
+"**Напомена**: Додајте подсетних за себе и друге оператере, поставите питање "
+"колеги помињањем корисника или унесите нове информације у тикет. "
+"Подразумевана видљивост је „интерна”, што значи да клијенти неће видети "
+"напомену."
 
 #: ../basics/work-with-tickets.rst:38
-#, fuzzy
-#| msgid "Record a summary of a phone call you had with the customer."
 msgid ""
 "**Call**: Note down a summary of a phone call you had with the customer."
-msgstr "Забележите резиме телефонског позива који сте имали са клијентом."
+msgstr ""
+"**Позив**: Забележите резиме телефонског позива који сте имали са клијентом."
 
 #: ../basics/work-with-tickets.rst:39
-#, fuzzy
-#| msgid ""
-#| "Send an email *to anyone* about the ticket. The name of the ticket will "
-#| "be used for the subject line (:ref:`click on the title to rename it "
-#| "<rename-ticket>`)."
 msgid ""
 "**Email**: Send an email to anyone about the ticket. The name of the ticket "
 "is used for the subject of the email (:ref:`click on the title to rename it "
 "<rename-ticket>`)."
 msgstr ""
-"Пошаљите имејл поруку о тикету *било коме*. Наслов тикета ће бити искоришћен "
-"као предмет поруке (:ref:`кликните на наслов да бисте га изменили <rename-"
-"ticket>`)."
+"**Имејл**: Пошаљите имејл поруку о тикету било коме. Наслов тикета се "
+"користи као предмет имејл поруке (:ref:`кликните на наслов да бисте га "
+"изменили <rename-ticket>`)."
 
 #: ../basics/work-with-tickets.rst:43
 msgid ""
 "To choose another article type, click the note icon and choose a different "
 "type:"
 msgstr ""
+"За одабир друге врсте чланка, кликните на иконицу напомене и промените је:"
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
-#| msgid "Screenshot shows AI agent ticket history entry"
 msgid "Screenshot shows article type switcher."
-msgstr "Снимак екрана приказује евиденцију историјата AI агента"
+msgstr "Снимак екрана који приказује промену врсте чланка."
 
 #: ../basics/work-with-tickets.rst:50
 msgid ""
 "Click the lock button 🔒 to change an article's visibility. Internal "
 "visibility appears as a dashed border in a pale red color."
 msgstr ""
+"Кликните на дугме за закључавање 🔒 за промену видљивости чланка. Интерна "
+"видљивост је назначена испрекиданим оквиром у бледо црвеној боји."
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
-#| msgid "Screenshot of ticket view with highlighted checklist sidebar."
 msgid ""
 "Screenshot shows article editor with highlighted lock button to change "
 "visibility of article."
-msgstr "Снимак екрана приказа тикета за означеном траком списка задатака."
+msgstr ""
+"Снимак екрана који приказује уредник са назначеним дугметом за закључавање "
+"за промену видљивости чланка."
 
 #: ../basics/work-with-tickets.rst:60
 msgid ""
@@ -3154,43 +3164,35 @@ msgid ""
 "the existing articles. To see detailed information of a message, just click "
 "on an article (1). This opens additional meta information (2):"
 msgstr ""
+"Сваки нови чланак се приказује на крају конверзације, што значи испод "
+"постојећих чланака. За приказ детаљних информација о поруци, само кликните "
+"на (1). Ово ће приказати додатне мета податке (2):"
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
-#| msgid "Screenshot shows AI agent ticket history entry"
 msgid "Screenshot shows article detail view."
-msgstr "Снимак екрана приказује евиденцију историјата AI агента"
+msgstr "Снимак екрана са детаљним приказом чланка."
 
 #: ../basics/work-with-tickets.rst:69
-#, fuzzy
-#| msgid ""
-#| "What about the **deletion of articles**? In Zammad, you can only delete "
-#| "articles that you have created yourself and which are not older than 10 "
-#| "minutes. To see the \"delete\" button in articles of the type "
-#| "\"communication\" (emails, calls), their visibility has to be switched to "
-#| "internal first."
 msgid ""
 "You might wonder how to delete articles. The answer is you can only delete "
 "articles that you have created yourself and which are not older than 10 "
 "minutes. To see the **delete** button in articles of a communication type "
 "(emails, calls), their visibility has to be switched to internal first."
 msgstr ""
-"А шта са **брисањем чланака**? У Zammad-у, можете обрисати само чланке које "
-"сте додали сами и који нису старији од 10 минута. Да бисте видели дугме за "
-"„брисање” чланака типа „комуникације” (имејлови, позиви), њихова видљивост "
-"мора да буде само интерна."
+"Можда се питате како да обришете чланке. Одговор је да можете обрисати само "
+"чланке које сте додали сами и који нису старији од 10 минута. Да бисте "
+"видели дугме за **брисање** у чланцима комуникационог типа (имејлови, "
+"позиви), њихова видљивост мора прво да се промени на интерну."
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
-#| msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgid "Screenshot shows an internal article with highlighted delete button."
 msgstr ""
-"Снимак екрана који приказује траку са десне стране са означеним језичком "
-"„Списак задатака”"
+"Снимак екрана који приказује интерни чланак са назначеним дугметом за "
+"брисање."
 
 #: ../basics/work-with-tickets.rst:80
 msgid "Add an Article from Scratch"
-msgstr ""
+msgstr "Додавање чланка од нуле"
 
 #: ../basics/work-with-tickets.rst:82
 msgid ""
@@ -3199,10 +3201,12 @@ msgid ""
 "default, the article type \"Note\" is selected and the visibility is set to "
 "\"internal\"."
 msgstr ""
+"Кликните на поље текста при дну детаљног приказа тикета које је означено са "
+"**Унеси напомену или изабери прилог...** за додавање чланка. Подразумевано, "
+"врста чланка „Напомена” је активна и видљивост је постављена на „интерно”."
 
 #: ../basics/work-with-tickets.rst:91
 #, fuzzy
-#| msgid "Reply to the last article"
 msgid "Respond to an Article"
 msgstr "Одговори на последњи чланак"
 
@@ -3236,7 +3240,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
 #, fuzzy
-#| msgid "Screencast showing the dark mode button being toggled"
 msgid "Screenshots shows response buttons below an article."
 msgstr "Снимак екрана који приказује дугме за тамни изглед који се користи"
 
@@ -3256,7 +3259,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
 #, fuzzy
-#| msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgid ""
 "Screenshot shows article with marked text and highlighted reply actions."
 msgstr ""
@@ -3280,7 +3282,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:141
 #, fuzzy
-#| msgid "Renaming a Ticket"
 msgid "Rename a Ticket"
 msgstr "Промена наслова тикета"
 
@@ -3293,7 +3294,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:152
 #, fuzzy
-#| msgid "Ticket submenu"
 msgid "Copy Ticket Number"
 msgstr "Подмени тикета"
 
@@ -3316,7 +3316,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:167
 #, fuzzy
-#| msgid "Simultaneous Processing of a Ticket"
 msgid "Simultaneous Ticket Processing"
 msgstr "Симултана обрада тикета"
 
@@ -3372,9 +3371,6 @@ msgstr "Историјат"
 
 #: ../basics/work-with-tickets.rst:206
 #, fuzzy
-#| msgid ""
-#| "See a comprehensive list of updates to the ticket, performed by any user, "
-#| "since its creation."
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation. Useful to check who did what and when."
@@ -3388,9 +3384,6 @@ msgstr "Спајање"
 
 #: ../basics/work-with-tickets.rst:210
 #, fuzzy
-#| msgid ""
-#| "Migrate all messages/notes to another ticket (see :doc:`Merging Tickets </"
-#| "advanced/ticket-actions/merge>` for details)."
 msgid ""
 "Migrate all messages/notes to another ticket. Useful if you have more than "
 "one ticket about a single customer issue. See :doc:`Merging Tickets </"
@@ -3409,7 +3402,6 @@ msgstr "Доделите тикет другом клијенту."
 
 #: ../basics/work-with-tickets.rst:218
 #, fuzzy
-#| msgid "Managing Ticket Settings"
 msgid "Monitoring Ticket Escalations"
 msgstr "Управљање подацима тикета"
 
@@ -3440,9 +3432,6 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
 #, fuzzy
-#| msgid ""
-#| "Screenshot showing hovering over escalation note and getting\n"
-#| "more detailed escalation information"
 msgid ""
 "Screenshot showing hovering over escalation note and getting more detailed "
 "escalation information."
@@ -3468,15 +3457,11 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:250
 #, fuzzy
-#| msgid "Highlighting Ticket Text"
 msgid "Highlight Text in a Ticket"
 msgstr "Означавање текста тикета"
 
 #: ../basics/work-with-tickets.rst:252
 #, fuzzy
-#| msgid ""
-#| "Use the highlighter tool in the upper-righthand corner to mark up "
-#| "important text. (Your highlights are visible to other agents.)"
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
@@ -4728,9 +4713,6 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:507
 #, fuzzy
-#| msgid ""
-#| "For more information please have a look in :doc:`/basics/find-ticket/"
-#| "browse`."
 msgid "For more information please have a look in :doc:`/basics/find-tickets`."
 msgstr ""
 "За више информација молимо погледајте :doc:`/basics/find-ticket/browse`."
@@ -5129,9 +5111,6 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:675
 #, fuzzy
-#| msgid ""
-#| "Learn more about states and their color coding on this page: :doc:`/"
-#| "basics/service-ticket/settings/state`"
 msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
@@ -5194,10 +5173,6 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:702
 #, fuzzy
-#| msgid ""
-#| "Administrators can learn more about tags :admin-docs:`here </manage/"
-#| "tags.html>`. Agents can learn more about this function on this "
-#| "page: :doc:`/basics/service-ticket/settings/tags`"
 msgid ""
 "Administrators can learn more about tags :admin-docs:`here </manage/"
 "tags.html>`. Agents can learn more about this function on this "
@@ -5374,7 +5349,6 @@ msgstr "Zammad је најбољи тикет систем на свету. И �
 
 #: ../basics/zammad-ui.rst:2
 #, fuzzy
-#| msgid "Zammad"
 msgid "Zammad UI"
 msgstr "Zammad"
 
@@ -5402,13 +5376,11 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:None
 #, fuzzy
-#| msgid "Screencast showing how to run a macro within a ticket view."
 msgid "Screenshot shows the Zammad UI with an opened ticket detail view."
 msgstr "Снимак екрана који показује како да покренете макро у приказу тикета."
 
 #: ../basics/zammad-ui.rst:25
 #, fuzzy
-#| msgid "Navigation"
 msgid "Navigation sidebar (1)"
 msgstr "Навигација"
 
@@ -5420,7 +5392,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:30
 #, fuzzy
-#| msgid "Navigation"
 msgid "Navigation tab (2)"
 msgstr "Навигација"
 
@@ -5433,7 +5404,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:34
 #, fuzzy
-#| msgid "Ticket Detail View"
 msgid "Ticket detail view (3)"
 msgstr "Детаљни приказ тикета"
 
@@ -5445,7 +5415,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:38
 #, fuzzy
-#| msgid "Sidebar"
 msgid "Sidebar (4)"
 msgstr "Трака са стране"
 
@@ -5457,7 +5426,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:44
 #, fuzzy
-#| msgid "Sidebar"
 msgid "Sidebar tabs (5)"
 msgstr "Трака са стране"
 
@@ -5471,7 +5439,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:47
 #, fuzzy
-#| msgid "Navigation"
 msgid "Navigation Sidebar"
 msgstr "Навигација"
 
@@ -5486,7 +5453,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:0
 #, fuzzy
-#| msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgid "Screenshot shows Zammad's navigation bar with highlighted areas."
 msgstr ""
 "Снимак екрана који приказује траку са десне стране са означеним језичком "
@@ -5494,7 +5460,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:67
 #, fuzzy
-#| msgid "Open notifications"
 msgid "Search and notification area (1)"
 msgstr "Отвори обавештења"
 
@@ -5508,7 +5473,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:71
 #, fuzzy
-#| msgid "Navigation"
 msgid "Navigation (2)"
 msgstr "Навигација"
 
@@ -5554,7 +5518,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:102
 #, fuzzy
-#| msgid "Ticket Details"
 msgid "Ticket tab"
 msgstr "Детаљи тикета"
 
@@ -5583,7 +5546,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:107
 #, fuzzy
-#| msgid "Customer Chat"
 msgid "Customer tab"
 msgstr "Клијент ћаскање"
 
@@ -5596,7 +5558,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:113
 #, fuzzy
-#| msgid "Organization Stats"
 msgid "Organization tab"
 msgstr "Статистике организације"
 
@@ -6174,9 +6135,6 @@ msgstr "Савети за употребу"
 
 #: ../extras/chat.rst:47
 #, fuzzy
-#| msgid ""
-#| "🔍 Use the :doc:`search bar </basics/find-ticket/search>` to pull up old "
-#| "chats from the archive anytime."
 msgid ""
 "🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the "
 "archive anytime."
@@ -6516,11 +6474,6 @@ msgstr "VIP"
 
 #: ../extras/customers.rst:63
 #, fuzzy
-#| msgid ""
-#| "Like :doc:`ticket priority </basics/service-ticket/settings/priority>`, "
-#| "**VIP status** doesn't actually do anything out-of-the-box, but an admin "
-#| "*can* set up automated system hooks based on this value, or use it as a "
-#| "filter for :doc:`custom overviews </basics/find-ticket/browse>`."
 msgid ""
 "Like the ticket priority, the **VIP status** doesn't actually do anything "
 "out-of-the-box. But an admin *can* set up automation rules based on this "
@@ -8053,10 +8006,6 @@ msgstr ""
 
 #: ../extras/profile-and-settings.rst:142
 #, fuzzy
-#| msgid ""
-#| "Your substitute will receive all your ticket notifications during your "
-#| "absence, and have a custom :doc:`overview </basics/find-ticket/browse>` "
-#| "created to help keep track of your tickets."
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -8882,8 +8831,8 @@ msgid ""
 "\"Save Draft\"."
 msgstr ""
 "Користите дугме ^ поред дугмета за освежавање. Ако група тикета (или група у "
-"вашем избору) дозвољава заједничке нацрте, Zammad ће омогућити опцију „"
-"Сачувај нацрт”."
+"вашем избору) дозвољава заједничке нацрте, Zammad ће омогућити опцију "
+"„Сачувај нацрт”."
 
 #: ../extras/shared-drafts.rst:104
 msgid ""
@@ -9562,16 +9511,10 @@ msgstr ""
 "index.html>` приручници."
 
 #, fuzzy
-#~| msgid "Escalation"
 #~ msgid "Check Escalations"
 #~ msgstr "Ескалација"
 
 #, fuzzy
-#~| msgid ""
-#~| "On the top of every ticket being applicable for SLA escalations, you'll "
-#~| "find two dates next to the ticket number. By hovering the escalation "
-#~| "date, Zammad will display all upcoming escalation times based on the SLA "
-#~| "configuration."
 #~ msgid ""
 #~ "For tickets which already reached the deadline or will reach it soon, you "
 #~ "can find an addition date next to the ticket number. By hovering the "
