@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-09 12:06+0100\n"
-"PO-Revision-Date: 2026-02-07 16:00+0000\n"
-"Last-Translator: iLocIT! <matthiasc@ilocit.de>\n"
+"PO-Revision-Date: 2026-02-13 13:00+0000\n"
+"Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
 "Language: de\n"
@@ -2944,9 +2944,9 @@ msgid ""
 "towards completion. By default, there are the following states:"
 msgstr ""
 "Der Status spiegelt den aktuellen Status eines Tickets wider (hauptsächlich, "
-"ob eine Kundenanfrage gelöst ist oder nicht). Man kann ihn sich als eine "
-"Darstellung des Fortschritts auf dem Weg zur Klärung vorstellen. "
-"Standardmäßig gibt es die folgenden Status:"
+"ob eine Kundenanfrage gelöst ist oder nicht). Man kann sich den Status als "
+"eine Darstellung des Fortschritts vorstellen. Standardmäßig gibt es die "
+"folgenden Status:"
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
@@ -3115,12 +3115,12 @@ msgid ""
 "permission to create a ticket in other groups."
 msgstr ""
 "Dieses Ticket-Attribut ist nützlich für Organisationen mit mehr als einem "
-"Team. Eine übliche Art, Gruppen zu verwenden, ist eine Gruppe für jede "
-"Abteilung der Firma. Je nach Berechtigung sehen Sie das Ticket "
+"Team. Häufig werden Gruppen so konfiguriert, dass für eine Abteilung eine "
+"eigene Gruppe angelegt wird. Je nach Berechtigung sehen Sie das Ticket "
 "möglicherweise nicht, nachdem Sie die Gruppe geändert und die Änderungen "
 "gespeichert haben. Falls Sie das Gruppenfeld nicht sehen können, gibt es "
 "entweder nur eine Gruppe in Ihrem Zammad-System oder Sie haben nicht die "
-"Berechtigung, ein Ticket in anderen Gruppen zu erstellen."
+"Berechtigung, ein Ticket in einer anderen Gruppe zu erstellen."
 
 #: ../basics/ticket-basics.rst:144 ../basics/zammad-glossary.rst:515
 msgid "Owner"
@@ -3220,7 +3220,7 @@ msgid ""
 "No matter if you create a new article from scratch or respond to a customer "
 "article, you can choose from different article types:"
 msgstr ""
-"Egal, ob Sie einen neuen leeren Artikel erstellen oder auf einen "
+"Egal, ob Sie einen komplett neuen Artikel erstellen oder auf einen "
 "Kundenartikel antworten, Sie können aus verschiedenen Artikeltypen wählen:"
 
 #: ../basics/work-with-tickets.rst:35
@@ -3351,11 +3351,11 @@ msgid ""
 "This lets you easily send an answer to a customer or third party, if "
 "involved."
 msgstr ""
-"**Antwort**: Ermöglicht Ihnen, auf den Artikel zu antworten. Der Empfänger "
+"**Antworten**: Ermöglicht Ihnen, auf den Artikel zu antworten. Der Empfänger "
 "wird automatisch gesetzt. Die Antwort wird über denselben Kanal wie die "
 "ursprüngliche Nachricht gesendet. Auf diese Weise können Sie ganz einfach "
-"eine Antwort an einen Kunden oder eine dritte Partei senden, falls diese "
-"beteiligt ist."
+"eine Antwort an einen Kunden oder an Dritte senden, falls diese beteiligt "
+"sind."
 
 #: ../basics/work-with-tickets.rst:99
 msgid ""
@@ -3373,10 +3373,9 @@ msgid ""
 "party or anybody else. The original message and attachments are included in "
 "your new article."
 msgstr ""
-"**Weiterleiten**: Das bedeutet, dass Sie die ursprüngliche Nachricht an eine "
-"dritte Person oder an eine andere Person weiterleiten können. Die "
-"ursprüngliche Nachricht und die Anhänge sind in Ihrem neuen Artikel "
-"enthalten."
+"**Weiterleiten**: Damit können Sie die ursprüngliche Nachricht an einen "
+"beliebigen Empfänger weiterleiten. Die ursprüngliche Nachricht und die "
+"Anhänge sind in Ihrem neuen Artikel enthalten."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Screenshots shows response buttons below an article."
@@ -3630,7 +3629,7 @@ msgid ""
 "escalation information."
 msgstr ""
 "Screenshot zeigt detaillierte Eskalationsinformationen beim Überfahren des "
-"Eskalations-Hinweises"
+"Eskalations-Hinweises."
 
 #: ../basics/work-with-tickets.rst:239
 msgid ""
@@ -5589,7 +5588,7 @@ msgstr "Zammad ist der Beste Helpdesk der Welt. Punkt."
 
 #: ../basics/zammad-ui.rst:2
 msgid "Zammad UI"
-msgstr "Zammad UI"
+msgstr "Zammad Benutzeroberfläche"
 
 #: ../basics/zammad-ui.rst:4
 msgid ""
@@ -5599,10 +5598,10 @@ msgid ""
 "should make the UI pretty self explanatory."
 msgstr ""
 "Die Benutzeroberfläche (*User Interface*, kurz UI) von Zammad ist so "
-"konzipiert, dass sie Benutzern eine intuitive Erfahrung bietet. Sie basiert "
+"konzipiert, dass sie Benutzern eine intuitive Arbeit ermöglicht. Sie basiert "
 "auf dem Konzept der Einfachheit, Klarheit und Zugänglichkeit und folgt "
-"allgemeinen Software-Design-Prinzipien, wodurch die Benutzeroberfläche "
-"ziemlich selbsterklärend sein sollte."
+"allgemeinen Software-Design-Prinzipien, wodurch die Benutzeroberfläche im "
+"Wesentlichen selbsterklärend sein sollte."
 
 #: ../basics/zammad-ui.rst:9
 msgid ""
@@ -5822,8 +5821,8 @@ msgid ""
 "History: shows a dialog with the history in the current ticket. This is "
 "where you can find when and what actions was performed and by whom."
 msgstr ""
-"Historie: Zeigt einen Dialog mit dem Historie des aktuellen Tickets an. Hier "
-"können Sie sehen, wann und welche Aktionen von wem durchgeführt wurden."
+"Historie: Zeigt einen Dialog mit der Historie des aktuellen Tickets an. Hier "
+"können Sie sehen, wer wann welche Änderungen durchgeführt hat."
 
 #: ../basics/zammad-ui.rst:100
 msgid ""
@@ -5831,11 +5830,11 @@ msgid ""
 "multiple times about the same issue."
 msgstr ""
 "Zusammenfassen: Fassen Sie das Ticket mit einem anderen zusammen, falls ein "
-"Kunde Sie mehrfach wegen desselben Problems angeschrieben hat."
+"Kunde Sie mehrfach wegen desselben Problems kontaktiert hat."
 
 #: ../basics/zammad-ui.rst:102
 msgid "Change customer: set another customer for the ticket."
-msgstr "Kunden ändern: Ändern Sie den Kunden des Tickets."
+msgstr "Kunden ändern: Ändern Sie den Kunden für das Ticket."
 
 #: ../basics/zammad-ui.rst:107
 msgid "Customer tab"
@@ -7918,7 +7917,7 @@ msgstr "Ticket Artikel Zeiterfassung"
 
 #: ../extras/mobile-view.rst:139
 msgid "Ticket Article **Split** Action"
-msgstr "Artikel **absplitten**"
+msgstr "Artikel **abspalten**"
 
 #: ../extras/mobile-view.rst:140
 msgid "Linked Tickets & Ticket **Link** Action"
