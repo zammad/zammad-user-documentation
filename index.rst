@@ -7,18 +7,20 @@ Zammad User Documentation
    :admin-docs:`administration manuals </index.html>` available.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :titlesonly:
    :caption: Basics
    :name: basics
 
    /basics/zammad-glossary
-   /basics/what-is-a-ticket
-   /basics/find-ticket
-   /basics/service-ticket
+   /basics/zammad-ui
+   /basics/ticket-basics
+   /basics/find-tickets
+   /basics/create-tickets
+   /basics/work-with-tickets
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
    :caption: Advanced Topics
    :name: advanced-topics
@@ -39,6 +41,7 @@ Zammad User Documentation
    :caption: Extras
    :name: extras
 
+   /extras/ai-features
    /extras/caller-log
    /extras/chat
    /extras/checklist
@@ -50,6 +53,7 @@ Zammad User Documentation
    /extras/mobile-view
    /extras/organizations
    /extras/profile-and-settings
+   /extras/reporting
    /extras/secure-email
    /extras/shared-drafts
    /extras/two-factor-authentication

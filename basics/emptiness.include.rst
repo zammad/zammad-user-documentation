@@ -1,5 +1,6 @@
 .. code-block:: text
 
-   Wow...             |\__/,|   (`\
-   such emptiness   _.|o o  |_   ) )
-                ---(((---(((---------
+                        ___     ___
+   Wow...              (o o)   (o o)
+   such emptiness     (  V  ) (  V  )
+                     /--m-m- /--m-m-

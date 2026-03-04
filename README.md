@@ -14,10 +14,12 @@ Please see [the Contributing section in this manual](https://docs.zammad.org/en/
 
 ### Dependencies
 
+Either install the dependencies on your machine or use a devcontainer, see next section.
+
 * sphinx
 
   ```
-  $ pip install sphinx sphinx-autobuild sphinx-intl sphinx_rtd_theme sphinx-tabs sphinx-version-warning
+  $ pip install -r requirements.txt
   ```
 
 * gettext
@@ -28,10 +30,23 @@ Please see [the Contributing section in this manual](https://docs.zammad.org/en/
   $ sudo dnf install gettext          # Fedora
   ```
 
+### Devcontainer
+
+If you can't or don't want to install the dependencies on your system, you can use a devcontainer. The repo
+is prepared so you just need a supported editor (e.g. VS Code) and a Docker installation on your system.
+
+Simply open the cloned repo in a supported editor and it should ask you to open the folder in a container. After it got
+set up, you can compile the docs with your changes locally.
+
+For more information, check these resources:
+
+- https://github.com/devcontainers/
+- https://containers.dev/
+
 ### Example for a local HTML build
 
 ```
-make html
+$ make html
 ```
 Building for a specific language:
 
@@ -39,9 +54,13 @@ Building for a specific language:
 $ make -e SPHINXOPTS="-D language='en'" html
 ```
 
-### Localization progress
+### Update of Translation Catalog
 
-[![Translation progress][tprogress]][wbetranslate_pre-release]
+Before creating a pull request, make sure to update the translation catalog after your last changes:
+
+```
+$ make gettext
+```
 
 [badge_latest]: https://readthedocs.org/projects/zammad-user-documentation/badge/?version=latest
 [docs_latest]: https://user-docs.zammad.org/en/latest/
@@ -55,4 +74,3 @@ $ make -e SPHINXOPTS="-D language='en'" html
 [tbadge_pre-release]: https://translations.zammad.org/widget/documentations/user-documentation-pre-release/svg-badge.svg
 [wbetranslate_pre-release]: https://translations.zammad.org/projects/documentations/user-documentation-pre-release/
 
-[tprogress]: https://translations.zammad.org/widget/documentations/user-documentation-pre-release/multi-auto.svg

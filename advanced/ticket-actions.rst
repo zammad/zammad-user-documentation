@@ -1,9 +1,8 @@
 Ticket Actions
 ==============
 
-In the :doc:`servicing tickets section </basics/service-ticket>` you learned
-the base handling of tickets. However, there are additional actions you can
-perform:
+In the **Basics** section you learned how to handle tickets. However, there
+are additional actions you can perform:
 
 .. toctree::
    :titlesonly:

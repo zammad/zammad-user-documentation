@@ -32,10 +32,6 @@ html_css_files = [
    'theme/theme_overrides.css'
 ]
 
-# Suppress "WARNING: unknown mimetype for ..." during EPUB builds.
-#   https://github.com/sphinx-doc/sphinx/issues/3214
-suppress_warnings = ['epub.unknown_project_files']
-
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:
 
@@ -63,8 +59,7 @@ else:
    else:
       branch = "old-version"
 
-# Ensure `version` config is set due to EPUB requirements:
-#   WARNING: conf value "version" should not be empty for EPUB3
+# Ensure `version` config is set due to translation integration.
 version = branch
 
 # Default definitions for this documentations version warnings if applicable
