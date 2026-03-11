@@ -5,7 +5,7 @@ Overview
 --------
 
 Share drafts for new or existing tickets with other agents of your group.
-Load, modify and safe an existing draft e.g. as QA process with colleagues.
+Load, modify and save an existing draft e.g. as QA process with colleagues.
 
 This feature is **optional**; if you don't see it in the menu,
 that means your administrator disabled this function.
