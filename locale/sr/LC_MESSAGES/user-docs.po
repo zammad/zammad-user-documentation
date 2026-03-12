@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-09 12:06+0100\n"
-"PO-Revision-Date: 2026-02-05 17:00+0000\n"
+"POT-Creation-Date: 2026-03-10 16:32+0100\n"
+"PO-Revision-Date: 2026-03-10 16:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -3206,15 +3206,16 @@ msgstr ""
 "врста чланка „Напомена” је активна и видљивост је постављена на „интерно”."
 
 #: ../basics/work-with-tickets.rst:91
-#, fuzzy
 msgid "Respond to an Article"
-msgstr "Одговори на последњи чланак"
+msgstr "Одговори на чланак"
 
 #: ../basics/work-with-tickets.rst:93
 msgid ""
 "To forward or reply to an article, use one of the response buttons under an "
 "article. The behavior is similar to an email client."
 msgstr ""
+"За прослеђивање или одговор на чланак, користите једну од акција испод "
+"чланка. Понашање је слично као у имејл клијенту."
 
 #: ../basics/work-with-tickets.rst:96
 msgid ""
@@ -3223,6 +3224,10 @@ msgid ""
 "This lets you easily send an answer to a customer or third party, if "
 "involved."
 msgstr ""
+"**Одговори**: Омогућава одговор на чланак. Прималац ће бити аутоматски "
+"унешен. Одговор се шаље на истом каналу као и долазна порука. Ово вам "
+"омогућава да једноставно пошаљете одговор клијенту или лицу треће стране, "
+"уколико је укључено у конверзацију."
 
 #: ../basics/work-with-tickets.rst:99
 msgid ""
@@ -3230,6 +3235,9 @@ msgid ""
 "original message as recipients for your new article. Only available for "
 "email channels."
 msgstr ""
+"**Одговори свима**: Исто као изнад, али понавља све адресе примаоца "
+"оригиналне поруке као примаоце вашег одговора. Доступно само на имејл "
+"каналима."
 
 #: ../basics/work-with-tickets.rst:102
 msgid ""
@@ -3237,11 +3245,13 @@ msgid ""
 "party or anybody else. The original message and attachments are included in "
 "your new article."
 msgstr ""
+"**Проследи**: Омогућава прослеђивање оригиналне поруке лицима треће стране "
+"или било коме. Оригинална порука и прилози ће бити укључени у ваш нови "
+"чланак."
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
 msgid "Screenshots shows response buttons below an article."
-msgstr "Снимак екрана који приказује дугме за тамни изглед који се користи"
+msgstr "Снимак екрана који приказује акције испод чланка."
 
 #: ../basics/work-with-tickets.rst:111
 msgid ""
@@ -3250,26 +3260,33 @@ msgid ""
 "message or the text is pretty long. This feature is limited to communication "
 "type articles like email where the response buttons are available."
 msgstr ""
+"Zammad вам чак и омогућава да **цитирате текст** постојећег чланка. Ово је "
+"врло згодно уколико се одговор ослања на различите делове оригиналне поруке "
+"или је текст подугачак. Ова функција је ограничена на чланке комуникационог "
+"типа као што је имејл где су доступне акције одговора."
 
 #: ../basics/work-with-tickets.rst:116
 msgid ""
 "To quote text, simply select the text you want to quote (1) and use the "
 "**Reply** or **Reply all** function (2):"
 msgstr ""
+"За цитирање текста, једноставно обележите текст који желите да цитирате (1) "
+"и користите акције **Одговори** или **Одговори свима** (2):"
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
 msgid ""
 "Screenshot shows article with marked text and highlighted reply actions."
 msgstr ""
-"Снимак екрана који приказује траку са десне стране са означеним језичком "
-"„Списак задатака”"
+"Снимак екрана који приказује чланак са обележеним текстом и означеним "
+"акцијама одговора."
 
 #: ../basics/work-with-tickets.rst:124
 msgid ""
 "This adds the marked text with a timestamp in your article editor where you "
 "can answer it. Example:"
 msgstr ""
+"Ово ће укључити обележени текст за временском ознаком у уреднику вашег "
+"чланка где можете одговорити на исти. Пример:"
 
 #: ../basics/work-with-tickets.rst:132
 msgid ""
@@ -3279,9 +3296,13 @@ msgid ""
 "split quotations by using :kbd:`enter` or :kbd:`shift` + :kbd:`enter` in the "
 "editor."
 msgstr ""
+"Цитирање можете користити чак и више пута ради уноса цитата различитих "
+"делова текста. Само обележите још неки део текста, кликните на исту акцију "
+"одговора као и претходни пут и цитат ће бити додат у ваш уредник текста. "
+"Можете одвојити цитате коришћењем :kbd:`enter` или :kbd:`shift` "
+"+ :kbd:`enter` у уреднику текста."
 
 #: ../basics/work-with-tickets.rst:141
-#, fuzzy
 msgid "Rename a Ticket"
 msgstr "Промена наслова тикета"
 
@@ -3291,11 +3312,13 @@ msgid ""
 "typing. This title is used as subject in email communication and shows up in "
 "several places like overviews."
 msgstr ""
+"За промену наслова тикета, једноставно кликните на наслов у заглављу и "
+"започните унос. Наслов се користи као предмет комуникационе имејл поруке и "
+"приказује се на више места као што су прегледи тикета."
 
 #: ../basics/work-with-tickets.rst:152
-#, fuzzy
 msgid "Copy Ticket Number"
-msgstr "Подмени тикета"
+msgstr "Копирање броја тикета"
 
 #: ../basics/work-with-tickets.rst:154
 msgid ""
@@ -3305,6 +3328,11 @@ msgid ""
 "ticket hook, e.g. ``Ticket#50071``. In case you scrolled down in the ticket, "
 "you can find the button on the left side of the header bar."
 msgstr ""
+"Уколико вам је често неопходан број тикета (нпр. за налепљивање у апликацију "
+"трећег лица), користите иконицу 🗊 одмах поред наслова тикета за копирање "
+"броја тикета у привремену меморију. Ово ће укључити комплетан идентификатор "
+"тикета, заједно са прикључком тикета, нпр. ``Ticket#50071``. У случају да "
+"сте се спустили у тикету, дугме можете пронаћи са леве стране заглавља."
 
 #: ../basics/work-with-tickets.rst:160
 msgid ""
@@ -3313,9 +3341,13 @@ msgid ""
 "to your clipboard. To include the ticket title as well, press :kbd:`.` "
 "twice. Example: ``Ticket#50071: Coffee grinder broken``."
 msgstr ""
+"Али сачекајте, постоји чак и :doc:`пречица на тастатури </advanced/keyboard-"
+"shortcuts>` за ту функцију. Једноставно притисните тастер :kbd:`.` и број "
+"тикета ће бити ископиран у привремену меморију. За укључивање и наслова "
+"тикета, притисните :kbd:`.` два пута. Пример: ``Ticket#50071: Покварио се "
+"млин за кафу``."
 
 #: ../basics/work-with-tickets.rst:167
-#, fuzzy
 msgid "Simultaneous Ticket Processing"
 msgstr "Симултана обрада тикета"
 
@@ -3328,27 +3360,37 @@ msgid ""
 "sure to communicate with your colleagues to prevent these problems before "
 "they arise."
 msgstr ""
+"Може се десити да два или више оператера отворе исти тикет у исто време. За "
+"спречавање конфликта приликом освежавања и слања контрадикторних одговора "
+"клијенту, Zammad ће вам приказати ко тренутно гледа или уређује тикет. Ове "
+"информације можете пронаћи у доњој траци где су излистане аватар сличице "
+"свих оператера. Водите рачуна да комуницирате са колегама ради превенције "
+"оваквих проблема."
 
 #: ../basics/work-with-tickets.rst:178
 msgid ""
 "Depending on the additional icon and if the avatar icon is faded, it means:"
-msgstr ""
+msgstr "Додатне иконица или избледела аватар сличица имају посебно значење:"
 
 #: ../basics/work-with-tickets.rst:180
 msgid "Avatar: Another agent is viewing the ticket."
-msgstr ""
+msgstr "Аватар сличица: други оператер гледа тикет."
 
 #: ../basics/work-with-tickets.rst:181
 msgid ""
 "Faded avatar: Another agent opened the ticket but is currently not actively "
 "viewing it."
 msgstr ""
+"Избледела аватар сличица: други оператер има отворен тикет али га тренутно "
+"не гледа активно."
 
 #: ../basics/work-with-tickets.rst:183
 msgid ""
 "Avatar with pencil icon: Another agent is currently actively working on this "
 "ticket."
 msgstr ""
+"Аватар сличица са иконицом оловке: други оператер тренутно активно ради на "
+"овом тикету."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket conflict alert"
@@ -3360,6 +3402,9 @@ msgid ""
 "the ticket sidebar. To open it, click the **Ticket ▾** heading to access "
 "additional actions."
 msgstr ""
+"Додатне радње су доступне преко подменија тикета. Можете га пронаћи у бочној "
+"траци тикета. За отварање, кликните на **Тикет ▾** у заглављу и добићете "
+"приступ додатним радњама."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket submenu"
@@ -3370,27 +3415,26 @@ msgid "History"
 msgstr "Историјат"
 
 #: ../basics/work-with-tickets.rst:206
-#, fuzzy
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation. Useful to check who did what and when."
 msgstr ""
 "Погледајте свеобухватну листу освежавања тикета, које је извршио било који "
-"корисник од његовог отварања."
+"корисник од његовог отварања. Корисно је за проверу ко је урадио шта и када."
 
 #: ../basics/work-with-tickets.rst:212
 msgid "Merge"
 msgstr "Спајање"
 
 #: ../basics/work-with-tickets.rst:210
-#, fuzzy
 msgid ""
 "Migrate all messages/notes to another ticket. Useful if you have more than "
 "one ticket about a single customer issue. See :doc:`Merging Tickets </"
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
-"Пребаците све поруке/напомене у други тикет (погледајте :doc:`Спајање тикета "
-"</advanced/ticket-actions/merge>` за детаље)."
+"Пребаците све поруке/напомене у други тикет. Корисно је уколико имате више "
+"од једног тикета о идентичном проблему клијента. Погледајте :doc:`Спајање "
+"тикета </advanced/ticket-actions/merge>` за детаље."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
@@ -3401,9 +3445,8 @@ msgid "Reassign the ticket to another customer."
 msgstr "Доделите тикет другом клијенту."
 
 #: ../basics/work-with-tickets.rst:218
-#, fuzzy
 msgid "Monitoring Ticket Escalations"
-msgstr "Управљање подацима тикета"
+msgstr "Надгледање ескалација тикета"
 
 #: ../basics/work-with-tickets.rst:220
 msgid ""
@@ -3412,6 +3455,10 @@ msgid ""
 "inquiries within eight hours - with optional custom deadlines for specific "
 "customers. When such a deadline is passed, the ticket escalates."
 msgstr ""
+"Споразуми о нивоу услуга (SLA) омогућавају праворемене одговоре на захтеве "
+"клијента. Ваш администратор подешава ове циљеве – као што су одговор на све "
+"упите у року од 8 часова – са опционим прилагођеним роковима за одређене "
+"клијенте. Када се ови рокови пробију, тикет ће ескалирати."
 
 #: ../basics/work-with-tickets.rst:223
 msgid ""
@@ -3421,6 +3468,12 @@ msgid ""
 "\"Escalated Tickets\". This overview includes already escalated tickets and "
 "tickets which are expected to escalate within the next 10 minutes."
 msgstr ""
+"Zammad ваш подразумевано обавештава када се тикет приближава или пробија "
+"рокове. Подесите ова обавештења у вашим :doc:`корисничким подешавањима </"
+"extras/profile-and-settings>`. Zammad такође долази и са подразумеваним "
+"прегледом под називом „Ескалирани тикети”. Овај преглед укључује све већ "
+"ескалиране тикете и тикете за које се очекује да ће ескалирати у наредних 10 "
+"минута."
 
 #: ../basics/work-with-tickets.rst:229
 msgid ""
@@ -3429,16 +3482,18 @@ msgid ""
 "It shows all upcoming or reached escalation times based on your SLA "
 "configuration:"
 msgstr ""
+"Тикети са додељеним SLA приказују временску ознаку у свом заглављу. Пређите "
+"курсором преко ове ознаке да видите све етапе и рокове ескалација у прозору. "
+"Приказани су сва предстојећа и достигнута времена ескалација на основу ваше "
+"SLA конфигурације:"
 
 #: ../basics/work-with-tickets.rst:None
-#, fuzzy
 msgid ""
 "Screenshot showing hovering over escalation note and getting more detailed "
 "escalation information."
 msgstr ""
 "Снимак екрана који приказује прелазак курсором преко напомене о ескалацији и "
-"добијање\n"
-"детаљнијих информација о ескалацији"
+"добијање детаљнијих информација о ескалацији."
 
 #: ../basics/work-with-tickets.rst:239
 msgid ""
@@ -3446,6 +3501,9 @@ msgid ""
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
 "have an 1-hour deadline, it will escalate at 10:00, unless resolved earlier."
 msgstr ""
+"Времена ескалација се рачунају на основу вашег радног времена. Ово значи да "
+"ако ваше радно време почиње у 9:00, тикет је отворен у 7:00 и имате рок од 1 "
+"сата, ескалираће у 10:00, осим ако се не затвори раније."
 
 #: ../basics/work-with-tickets.rst:244
 msgid ""
@@ -3454,21 +3512,24 @@ msgid ""
 "feature is not configured. Admins can refer to the :admin-docs:`SLA "
 "configuration documentation </manage/slas/index.html>`."
 msgstr ""
+"SLA функција захтева подешавање од стране вашег администратора. У случају да "
+"не видите времена ескалације, тикет нема додељен SLA или функција није "
+"подешена. Администратори могу погледати :admin-docs:`одељак о SLA "
+"подешавањима </manage/slas/index.html>`."
 
 #: ../basics/work-with-tickets.rst:250
-#, fuzzy
 msgid "Highlight Text in a Ticket"
 msgstr "Означавање текста тикета"
 
 #: ../basics/work-with-tickets.rst:252
-#, fuzzy
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
 "to customers. It is just about highlighting important parts for other agents."
 msgstr ""
 "Користите алатку за означавање у горњем десном углу да бисте означили важан "
-"текст. (Ваши означени делови су видљиви и другим агентима.)"
+"текст. Ова функција нема везе са обележавањем у уреднику текста пре слања "
+"клијентима. Ради се искључиво о означавање важних делова другим оператерима."
 
 #: ../basics/work-with-tickets.rst:256
 msgid ""
@@ -8608,9 +8669,14 @@ msgid "Shared Drafts"
 msgstr "Заједнички нацрти"
 
 #: ../extras/shared-drafts.rst:7
+#, fuzzy
+#| msgid ""
+#| "Share drafts for new or existing tickets with other agents of your group. "
+#| "Load, modify and safe an existing draft e.g. as QA process with "
+#| "colleagues."
 msgid ""
 "Share drafts for new or existing tickets with other agents of your group. "
-"Load, modify and safe an existing draft e.g. as QA process with colleagues."
+"Load, modify and save an existing draft e.g. as QA process with colleagues."
 msgstr ""
 "Поделите нацрте за нове или постојеће тикете са другим оператерима ваше "
 "групе. Учитајте, измени и снимите постојећи нацрт, као нпр. QA процес са "
