@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-10 16:32+0100\n"
-"PO-Revision-Date: 2026-03-10 16:00+0000\n"
+"PO-Revision-Date: 2026-03-14 11:00+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -627,8 +627,8 @@ msgid ""
 "If you've made any changes (including typing up a reply to the customer), "
 "applying a macro will save/send them too."
 msgstr ""
-"Ако сте начинили било какве измене (укључујући и припрему одговора "
-"клијенту), примена макроа ће их такође сачувати/послати."
+"Ако сте начинили било какве измене (укључујући и припрему одговора клијенту)"
+", примена макроа ће их такође сачувати/послати."
 
 #: ../advanced/macros.rst:32
 msgid ""
@@ -1130,8 +1130,8 @@ msgid ""
 "article.attachment.content_type: string (MIME type, e.g. ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``; see hint)"
 msgstr ""
-"article.attachment.content_type: низ текста (MIME тип, нпр. ``application\\/"
-"vnd.oasis.opendocument.spreadsheet``; видите напомену)"
+"article.attachment.content_type: низ текста (MIME тип, нпр. ``application\\"
+"/vnd.oasis.opendocument.spreadsheet``; видите напомену)"
 
 #: ../advanced/search.rst:109
 msgid ""
@@ -2338,8 +2338,8 @@ msgid ""
 msgstr ""
 "Ово је наслов тикета који се приказује на пуно места у Zammad-у. На пример "
 "биће приказан у прегледима. Такође се користи као наслов имејл комуникације. "
-"За имејл поруке, прикључак тикета ће бити додат аутоматски (нпр. "
-"``Ticket#901234 - Упомоћ!``)."
+"За имејл поруке, прикључак тикета ће бити додат аутоматски (нпр. ``Ticket#"
+"901234 - Упомоћ!``)."
 
 #: ../basics/create-tickets.rst:43 ../basics/zammad-glossary.rst:183
 msgid "Customer"
@@ -2424,8 +2424,8 @@ msgid ""
 "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` "
 "which can be a huge time saver."
 msgstr ""
-"Користите :doc:`текстуалне исечке </advanced/text-modules>` "
-"уносом :kbd:`:` :kbd:`:` што вам може уштедети време."
+"Користите :doc:`текстуалне исечке </advanced/text-modules>` уносом :kbd:`:` "
+":kbd:`:` што вам може уштедети време."
 
 #: ../snippets/editor-features.rst:13
 msgid ""
@@ -2452,8 +2452,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Након што унесете релевантне информације, отворите тикет кликом на дугме "
-"**Додај**. Читајте даље о томе doc:`како да пронађете <find-tickets>` "
-"и :doc:`како да обрађујете <work-with-tickets>` тикете."
+"**Додај**. Читајте даље о томе doc:`како да пронађете <find-tickets>` и "
+":doc:`како да обрађујете <work-with-tickets>` тикете."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -2500,8 +2500,7 @@ msgstr ""
 
 #: ../basics/find-tickets.rst:23
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
-msgstr ""
-"Недодељени и отворени тикети: отворени тикети без постављеног власника."
+msgstr "Недодељени и отворени тикети: отворени тикети без постављеног власника."
 
 #: ../basics/find-tickets.rst:24
 msgid ""
@@ -2579,8 +2578,8 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
-"Уколико приметите кружић са плавим/љубичастим градијентом, он индикује "
-"да :doc:`AI агент </extras/ai-features>` тренутно ради на тикету."
+"Уколико приметите кружић са плавим/љубичастим градијентом, он индикује да "
+":doc:`AI агент </extras/ai-features>` тренутно ради на тикету."
 
 #: ../basics/find-tickets.rst:57
 msgid ""
@@ -2698,9 +2697,9 @@ msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
 msgstr ""
-"Сада кад знате како да пронађете тикете, можда ћете пожелети "
-"да :doc:`отворите нов <create-tickets>` или :doc:`обрадите постојеће <work-"
-"with-tickets>` тикете."
+"Сада кад знате како да пронађете тикете, можда ћете пожелети да :doc:`"
+"отворите нов <create-tickets>` или :doc:`обрадите постојеће <work-with-"
+"tickets>` тикете."
 
 #: ../basics/ticket-basics.rst:2
 msgid "Ticket Basics"
@@ -2886,8 +2885,8 @@ msgid ""
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
 "the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
-"**Спојено**: Стање за тикет који је спојен са другим тикетом. Погледајте "
-"и :doc:`повезане тикете </advanced/ticket-actions/link>` или :ref:`историјат "
+"**Спојено**: Стање за тикет који је спојен са другим тикетом. Погледајте и "
+":doc:`повезане тикете </advanced/ticket-actions/link>` или :ref:`историјат "
 "тикета <ticket-submenu>` да пронађете повезани тикет."
 
 #: ../basics/ticket-basics.rst:82
@@ -3181,8 +3180,8 @@ msgid ""
 msgstr ""
 "Можда се питате како да обришете чланке. Одговор је да можете обрисати само "
 "чланке које сте додали сами и који нису старији од 10 минута. Да бисте "
-"видели дугме за **брисање** у чланцима комуникационог типа (имејлови, "
-"позиви), њихова видљивост мора прво да се промени на интерну."
+"видели дугме за **брисање** у чланцима комуникационог типа (имејлови, позиви)"
+", њихова видљивост мора прво да се промени на интерну."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows an internal article with highlighted delete button."
@@ -3538,6 +3537,10 @@ msgid ""
 "color menu by clicking on the down arrow in the split button. To remove the "
 "highlighting, click on the button again with the selected text."
 msgstr ""
+"Прво обележите текст који желите да означите, а потом кликните на дугме "
+"маркера. У случају да желите другачију боју, отворите мени боја кликом на "
+"подељено дугме са стрелицом на доле. За уклањање означеног текста, кликните "
+"поново на дугме са обележеним текстом."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket highlighter"
@@ -3550,6 +3553,10 @@ msgid ""
 "daily work. Have a look at the **Advanced Topics** and **Extra** sections in "
 "the left navigation menu where you can find more information."
 msgstr ""
+"Сада знате основе и како да уопштено обрађујете тикете. Међутим, Zammad "
+"поседује много више функција које вам могу помоћи у свакодневном раду. "
+"Погледајте одељке **Напредне теме** и **Додаци** у левом менију навигације "
+"где можете пронаћи више информација."
 
 #: ../basics/zammad-glossary.rst:2
 msgid "Zammad Glossary"
@@ -4773,10 +4780,8 @@ msgstr ""
 "да га дода."
 
 #: ../basics/zammad-glossary.rst:507
-#, fuzzy
 msgid "For more information please have a look in :doc:`/basics/find-tickets`."
-msgstr ""
-"За више информација молимо погледајте :doc:`/basics/find-ticket/browse`."
+msgstr "За више информација молимо погледајте :doc:`/basics/find-tickets`."
 
 #: ../basics/zammad-glossary.rst:511
 msgid ""
@@ -5171,13 +5176,12 @@ msgstr ""
 "четири типа стања и сви су означени бојама."
 
 #: ../basics/zammad-glossary.rst:675
-#, fuzzy
 msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Сазнајте више о стањима и њиховим бојама у секцији :doc:`/basics/service-"
-"ticket/settings/state`."
+"Сазнајте више о стањима и њиховим бојама на страници: :ref:`ticket-"
+"attributes`"
 
 #: ../basics/zammad-glossary.rst:678
 msgid ""
@@ -5233,15 +5237,14 @@ msgstr ""
 "нестанак робе…"
 
 #: ../basics/zammad-glossary.rst:702
-#, fuzzy
 msgid ""
 "Administrators can learn more about tags :admin-docs:`here </manage/"
 "tags.html>`. Agents can learn more about this function on this "
 "page: :ref:`ticket-attributes`"
 msgstr ""
 "Администратори могу да сазнају више о ознакама :admin-docs:`овде </manage/"
-"tags.html>`. Оператери могу сазнати више о овој функцији у секцији :doc:`/"
-"basics/service-ticket/settings/tags`."
+"tags.html>`. Оператери могу сазнати више о овој функцији на следећој "
+"страници: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:719
 msgid "Text module"
@@ -5409,9 +5412,8 @@ msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr "Zammad је најбољи тикет систем на свету. И тачка."
 
 #: ../basics/zammad-ui.rst:2
-#, fuzzy
 msgid "Zammad UI"
-msgstr "Zammad"
+msgstr "Zammad кориснички интерфејс"
 
 #: ../basics/zammad-ui.rst:4
 msgid ""
@@ -5420,6 +5422,10 @@ msgid ""
 "and accessibility and is based on common software design principles which "
 "should make the UI pretty self explanatory."
 msgstr ""
+"Кориснички интерфејс Zammad-а је дизајниран да пружи интуитивно искуство "
+"корисницима. Направљен је на основу концепта једноставности, јасноће и "
+"приступачности, и базиран је на основим принципима развоја софтвера који "
+"чине интерфејс самообјашњивим."
 
 #: ../basics/zammad-ui.rst:9
 msgid ""
@@ -5428,33 +5434,40 @@ msgid ""
 "on the currently opened screen, there are interactive components, such as "
 "tooltips and a contextual help. Use them wherever needed."
 msgstr ""
+"Различите функције се ослањају на основне модуларне компоненте које чине "
+"интерфејс конзистентним. Ове компоненте су објашњене у одељцима испод. У "
+"зависности од тренутног екрана, постоје интерактивне компоненте, као што су "
+"савети и контекстни описи. Користите их кад год је то неопходно."
 
 #: ../basics/zammad-ui.rst:17
 msgid ""
 "The screenshot below shows the Zammad UI with the ticket detail view opened. "
 "Read on for a description of the different main elements of Zammad."
 msgstr ""
+"Снимак екрана испод приказује Zammad кориснички интерфејс са отвореним "
+"детаљним прегледом тиекта. Читајте даље за опис основних елемената Zammad-а."
 
 #: ../basics/zammad-ui.rst:None
-#, fuzzy
 msgid "Screenshot shows the Zammad UI with an opened ticket detail view."
-msgstr "Снимак екрана који показује како да покренете макро у приказу тикета."
+msgstr ""
+"Снимак екрана који приказује Zammad кориснички интерфејс са отвореним "
+"детаљним прегледом тикета."
 
 #: ../basics/zammad-ui.rst:25
-#, fuzzy
 msgid "Navigation sidebar (1)"
-msgstr "Навигација"
+msgstr "Навигациона трака (1)"
 
 #: ../basics/zammad-ui.rst:24
 msgid ""
 "This is the left sidebar which includes the search, notifications, "
 "overviews, ticket tabs, your avatar and the ticket create button."
 msgstr ""
+"Ово је бочна трака са леве стране која укључује претрагу, обавештења, "
+"прегледе, прозоре тикета, вашу аватар сличицу и дугме за отварање тикета."
 
 #: ../basics/zammad-ui.rst:30
-#, fuzzy
 msgid "Navigation tab (2)"
-msgstr "Навигација"
+msgstr "Навигациони прозор (2)"
 
 #: ../basics/zammad-ui.rst:28
 msgid ""
@@ -5462,33 +5475,37 @@ msgid ""
 "the content, it can be a ticket tab (with the ticket detail view) or the "
 "overview tab which opens the list of available overviews."
 msgstr ""
+"Свака ставка у навигационој траци се зове навигациони прозор. У зависности "
+"од садржаја, може бити у питању прозор тикета (са детаљним прегледом тикета)"
+", или прозор прегледа који приказује листу доступних прегледа."
 
 #: ../basics/zammad-ui.rst:34
-#, fuzzy
 msgid "Ticket detail view (3)"
-msgstr "Детаљни приказ тикета"
+msgstr "Детаљни приказ тикета (3)"
 
 #: ../basics/zammad-ui.rst:33
 msgid ""
 "This is where you handle your customer requests. It is located in the middle "
 "of the screen if a ticket tab is selected in the navigation sidebar."
 msgstr ""
+"Управо овде можете обрадити захтеве ваших клијената. Налази се у средини "
+"екрана уколико је одабран прозор тикета у навигационој траци."
 
 #: ../basics/zammad-ui.rst:38
-#, fuzzy
 msgid "Sidebar (4)"
-msgstr "Трака са стране"
+msgstr "Бочна трака (4)"
 
 #: ../basics/zammad-ui.rst:37
 msgid ""
 "This is the right sidebar in the ticket detail view. It contains sidebar "
 "tabs like customers and checklists and displays the currently selected tab."
 msgstr ""
+"Ово је бочна трака са десне стране детаљног прегледа тикета. Садржи панеле "
+"као што су клијенти, спискови задатака, и приказује тренутно одабран језичак."
 
 #: ../basics/zammad-ui.rst:44
-#, fuzzy
 msgid "Sidebar tabs (5)"
-msgstr "Трака са стране"
+msgstr "Језичци бочне траке (5)"
 
 #: ../basics/zammad-ui.rst:41
 msgid ""
@@ -5497,11 +5514,14 @@ msgid ""
 "configuration, your permissions and the ticket attributes (e.g. if the "
 "customer of the ticket has an assigned organization)."
 msgstr ""
+"Са леве стране бочне траке можете пронаћи мале иконице које вам омогућавају "
+"прелазак на друге језичке. Доступност ових језичака зависи од ваши "
+"подешавања система, дозвола и атрибута тикета (нпр. да ли клијент тикета има "
+"додељену организацију)."
 
 #: ../basics/zammad-ui.rst:47
-#, fuzzy
 msgid "Navigation Sidebar"
-msgstr "Навигација"
+msgstr "Навигациона трака"
 
 #: ../basics/zammad-ui.rst:49
 msgid ""
@@ -5511,18 +5531,20 @@ msgid ""
 "can always go back to the dashboard, your overviews or an opened ticket, for "
 "example."
 msgstr ""
+"Навигациона трака приказује различите делове. Можда их нећете видети све јер "
+"неки зависе на подешавања вашег Zammad-а. Навигациона трака је увек видљива. "
+"Ово значи да уколико не знате где се налазиве, увек се можете вратити на "
+"контролну таблу, ваше прегледе или отворен тикет, на пример."
 
 #: ../basics/zammad-ui.rst:0
-#, fuzzy
 msgid "Screenshot shows Zammad's navigation bar with highlighted areas."
 msgstr ""
-"Снимак екрана који приказује траку са десне стране са означеним језичком "
-"„Списак задатака”"
+"Снимак екрана који приказује Zammad-ову навигациону траку са означеним "
+"деловима."
 
 #: ../basics/zammad-ui.rst:67
-#, fuzzy
 msgid "Search and notification area (1)"
-msgstr "Отвори обавештења"
+msgstr "Део са претрагом и обавештењима (1)"
 
 #: ../basics/zammad-ui.rst:64
 msgid ""
@@ -5531,35 +5553,43 @@ msgid ""
 "can find the Zammad logo. In case there is a notification, it shows you a "
 "badge with a count about how many notifications you got."
 msgstr ""
+"Укључује претрагу где можете претраживати по корисницима, организацијама, "
+"тикетима и у основи по свим информацијама доступним у Zammad-у. Одмах до "
+"претраге можете пронаћи Zammad логотип. У случају да постоје обавештења, "
+"приказује значку са бројем ваших неопрочитаних обавештења."
 
 #: ../basics/zammad-ui.rst:71
-#, fuzzy
 msgid "Navigation (2)"
-msgstr "Навигација"
+msgstr "Навигација (2)"
 
 #: ../basics/zammad-ui.rst:70
 msgid ""
 "Allows you to swith to different Zammad screens like the dashboard, "
 "overviews, knowledge base or phone screen."
 msgstr ""
+"Омогућава вам да прелазите између различитих Zammad екрана, као што су "
+"контролна табла, прегледи, база знача или екран телефонских позива."
 
 #: ../basics/zammad-ui.rst:74
 msgid "Content tabs (3)"
-msgstr ""
+msgstr "Прозори садржаја (3)"
 
 #: ../basics/zammad-ui.rst:74
 msgid "You can find tabs for your opened tickets, users and organizations."
 msgstr ""
+"Овде можете пронаћи прозоре ваших отворених тикета, корисника и организација."
 
 #: ../basics/zammad-ui.rst:77
 msgid "Bottom bar (4)"
-msgstr ""
+msgstr "Доња трака (4)"
 
 #: ../basics/zammad-ui.rst:77
 msgid ""
 "Profile settings and create new ticket button. In case you have additional "
 "permissions, there might be a settings and a reporting button as well."
 msgstr ""
+"Корисничка подешавања и дугме за отварање новог тикета. У случају да имате "
+"додатне дозволе, можете видети и дугмиће подешавања и извештаја."
 
 #: ../basics/zammad-ui.rst:82 ../extras/mobile-view.rst:37
 #: ../extras/mobile-view.rst:59 ../extras/mobile-view.rst:81
@@ -5576,11 +5606,14 @@ msgid ""
 "on the left side of the sidebar. The available tabs are depending on the "
 "ticket and the configured features of your Zammad."
 msgstr ""
+"Бочна трака са десне стране приказује све информације тикета и укључује "
+"додатне функције. Најважнија је бочна трака тикета. Пребаците се друге бочне "
+"траке кликом на жељени језичак са леве стране траке. Доступни језичци зависе "
+"од тикета и подешених функција вашег Zammad-а."
 
 #: ../basics/zammad-ui.rst:102
-#, fuzzy
 msgid "Ticket tab"
-msgstr "Детаљи тикета"
+msgstr "Језичак тикета"
 
 #: ../basics/zammad-ui.rst:94
 msgid ""
@@ -5588,27 +5621,33 @@ msgid ""
 "and lets you edit these values. Additionally, the following actions are "
 "available when you click on the **Ticket** header:"
 msgstr ""
+"Овај језичак приказује информације тикета као што су власник, група, "
+"приоритет и стање, и омогућава вам промену ових вредности. Додатно, следеће "
+"радње су доступне по клику на заглавље **Тикет**:"
 
 #: ../basics/zammad-ui.rst:98
 msgid ""
 "History: shows a dialog with the history in the current ticket. This is "
 "where you can find when and what actions was performed and by whom."
 msgstr ""
+"Историјат: приказује дијалог са историјатом тренутног тикета. Овде можете "
+"пронаћи када сау и које радње извршене над тикетом и од стране кога."
 
 #: ../basics/zammad-ui.rst:100
 msgid ""
 "Merge: merge the ticket with another one in case a customer emailed you "
 "multiple times about the same issue."
 msgstr ""
+"Споји: спојите тикет са другим у случају да вас је клијент контактирао више "
+"пута у вези истог проблема."
 
 #: ../basics/zammad-ui.rst:102
 msgid "Change customer: set another customer for the ticket."
-msgstr ""
+msgstr "Измени клијента: поставите другог клијента тикета."
 
 #: ../basics/zammad-ui.rst:107
-#, fuzzy
 msgid "Customer tab"
-msgstr "Клијент ћаскање"
+msgstr "Језичак клијента"
 
 #: ../basics/zammad-ui.rst:105
 msgid ""
@@ -5616,11 +5655,13 @@ msgid ""
 "You can change the ticket customer here as well by clicking on the "
 "**Customer** header and choose **Change customer**."
 msgstr ""
+"Прегледајте информације о клијенту укључујући и референце на друге тикете "
+"клијента. Овде такође можете променити клијента тикета кликом на заглавље "
+"**Клијент** и одабиром **Измени клијента**."
 
 #: ../basics/zammad-ui.rst:113
-#, fuzzy
 msgid "Organization tab"
-msgstr "Статистике организације"
+msgstr "Језичак организације"
 
 #: ../basics/zammad-ui.rst:110
 msgid ""
@@ -5629,12 +5670,18 @@ msgid ""
 "**Organization** header, you can edit the name, the domain and the note of "
 "the organization."
 msgstr ""
+"Овај језичак је приказан само уколико је клијент члан организације. "
+"Приказује детаље организације укључују и све њене чланове. Кликом на "
+"заглавље **Организација** можете промени назив, домен и напомену "
+"организације."
 
 #: ../basics/zammad-ui.rst:117
 msgid ""
 "Now that you know the basic UI elements and where to find them, read on "
 "in :doc:`ticket-basics`."
 msgstr ""
+"Сада када знате основе елементе корисничког интерфејса и где да их "
+"принађете, погледајте :doc:`основе тикета <ticket-basics>`."
 
 #: ../extras/ai-features.rst:2
 msgid "AI Features"
@@ -5777,8 +5824,8 @@ msgstr ""
 "**Препиши сложени одељак и учини га лаким за разумевање**: Користи ваш нацрт "
 "као основу и покушава да га прошири у исполиран текст. Покушава да одреди "
 "структуру и побољша јасноћу и прецизност као и да уклони грешке у правопису "
-"и граматици. Могуће је искористити је прилагањем само основних информација "
-"(нпр. путем листе са тачкама) и пуштањем вештачке интелигенције да употпуни "
+"и граматици. Могуће је искористити је прилагањем само основних информација ("
+"нпр. путем листе са тачкама) и пуштањем вештачке интелигенције да употпуни "
 "одговор."
 
 #: ../extras/ai-features.rst:64
@@ -6195,13 +6242,12 @@ msgid "Usage tips"
 msgstr "Савети за употребу"
 
 #: ../extras/chat.rst:47
-#, fuzzy
 msgid ""
 "🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the "
 "archive anytime."
 msgstr ""
-"🔍 Користите :doc:`траку за претрагу </basics/find-ticket/search>` да бисте "
-"у било ком тренутку извукли стара ћаскања из архиве."
+"🔍 Користите :doc:`траку за претрагу <search-tickets>` да бисте у било ком "
+"тренутку извукли стара ћаскања из архиве."
 
 #: ../extras/chat.rst:48
 msgid "📋 Copy & paste **supports 🌄 inline images** as well as plain text."
@@ -6534,16 +6580,15 @@ msgid "VIP"
 msgstr "VIP"
 
 #: ../extras/customers.rst:63
-#, fuzzy
 msgid ""
 "Like the ticket priority, the **VIP status** doesn't actually do anything "
 "out-of-the-box. But an admin *can* set up automation rules based on this "
 "value or use it as a filter for custom :ref:`overviews <overviews>`."
 msgstr ""
-"Баш као :doc:`приоритет тикета </basics/service-ticket/settings/priority>`, "
-"**VIP статус** заправо не ради ништа сам од себе, али администратор *може* "
-"подесити аутоматизоване радње засноване на овој вредности или је искористити "
-"као филтер за :doc:`прилагођене прегледе </basics/find-ticket/browse>`."
+"Баш као приоритет тикета, **VIP статус** заправо не ради ништа сам од себе. "
+"Међутим, администратор *може* подесити аутоматизоване радње засноване на "
+"овој вредности или је искористити као филтер за прилагођене :doc:`прегледе "
+"<overviews>`."
 
 #: ../extras/customers.rst:68
 msgid ""
@@ -8066,15 +8111,14 @@ msgstr ""
 "нема."
 
 #: ../extras/profile-and-settings.rst:142
-#, fuzzy
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
 "track of your tickets."
 msgstr ""
-"Ваша замена ће добијати сва тикет обавештења током вашег одсуства и имаће "
-"прилагођени :doc:`преглед </basics/find-ticket/browse>` који ће им помоћи да "
-"прате ваше тикете."
+"Ваша замена ће добијати сва обавештења тикета током вашег одсуства, и имаће "
+"прилагођени :doc:`преглед <overviews>` који ће им помоћи да прате ваше "
+"тикете."
 
 #: ../extras/profile-and-settings.rst:146
 msgid "You will receive notifications while you are absent."
@@ -8669,11 +8713,6 @@ msgid "Shared Drafts"
 msgstr "Заједнички нацрти"
 
 #: ../extras/shared-drafts.rst:7
-#, fuzzy
-#| msgid ""
-#| "Share drafts for new or existing tickets with other agents of your group. "
-#| "Load, modify and safe an existing draft e.g. as QA process with "
-#| "colleagues."
 msgid ""
 "Share drafts for new or existing tickets with other agents of your group. "
 "Load, modify and save an existing draft e.g. as QA process with colleagues."
