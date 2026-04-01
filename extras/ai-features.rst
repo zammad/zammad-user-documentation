@@ -14,9 +14,10 @@ help you manage support tickets even more efficiently. ✨🚀
 
 Many AI features in Zammad include a feedback mechanism. If you notice issues or
 are unsatisfied with the results, please use the feedback option to let your
-Zammad admin know. You can like or dislike the AI generated content. The dislike
-option allows you to leave an optional comment. Of course you can also give
-positive feedback if you are happy with the AI result.
+Zammad admin know. You can like (thumb up) or dislike (thumb down) the AI
+generated content. The dislike option allows you to leave an optional comment.
+Of course you can also give positive feedback if you are happy with the AI
+result.
 
 Ticket Summary
 --------------
