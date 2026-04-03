@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 16:32+0100\n"
-"PO-Revision-Date: 2026-02-04 16:00+0000\n"
-"Last-Translator: Adajkkp0 <Giulioranran@gmail.com>\n"
+"POT-Creation-Date: 2026-04-01 14:03+0200\n"
+"PO-Revision-Date: 2026-04-02 02:02+0000\n"
+"Last-Translator: albanobattistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
-"documentations/user-documentation-pre-release/it/>\n"
+"documentations/user-documentation-latest/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -37,7 +37,7 @@ msgstr ""
 #: ../basics/zammad-ui.rst:15 ../extras/chat.rst:11 ../extras/customers.rst:7
 #: ../extras/secure-email.rst:32 ../extras/shared-drafts.rst:5
 msgid "Overview"
-msgstr ""
+msgstr "Panoramica"
 
 #: ../advanced/keyboard-shortcuts.rst:10
 #, fuzzy
@@ -61,6 +61,8 @@ msgid ""
 "This will open an overview of available keyboard-shortcuts as in the "
 "following screenshot:"
 msgstr ""
+"Si aprirà una panoramica delle scorciatoie da tastiera disponibili, come "
+"mostrato nella seguente schermata:"
 
 #: ../advanced/keyboard-shortcuts.rst:26
 msgid "Keyboard shortcut cheat sheet"
@@ -79,13 +81,15 @@ msgstr "Impostazioni del ticket"
 
 #: ../advanced/keyboard-shortcuts.rst:31
 msgid "At the top of the dialog, you can:"
-msgstr ""
+msgstr "Nella parte superiore della finestra di dialogo è possibile:"
 
 #: ../advanced/keyboard-shortcuts.rst:33
 msgid ""
 "Enable or disable the shortcuts in general by switching the toggle on the "
 "left side."
 msgstr ""
+"Attivare o disattivare le scorciatoie in generale azionando l'interruttore "
+"sul lato sinistro."
 
 #: ../advanced/keyboard-shortcuts.rst:35
 msgid ""
@@ -4811,26 +4815,36 @@ msgid ""
 "provider.html>` of the admin documentation."
 msgstr ""
 
-#: ../extras/ai-features.rst:16
+#: ../extras/ai-features.rst:15
+msgid ""
+"Many AI features in Zammad include a feedback mechanism. If you notice "
+"issues or are unsatisfied with the results, please use the feedback option "
+"to let your Zammad admin know. You can like (thumb up) or dislike (thumb "
+"down) the AI generated content. The dislike option allows you to leave an "
+"optional comment. Of course you can also give positive feedback if you are "
+"happy with the AI result."
+msgstr ""
+
+#: ../extras/ai-features.rst:23
 #, fuzzy
 msgid "Ticket Summary"
 msgstr "Macros"
 
-#: ../extras/ai-features.rst:18
+#: ../extras/ai-features.rst:25
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
 "or many hand-overs between agents."
 msgstr ""
 
-#: ../extras/ai-features.rst:22
+#: ../extras/ai-features.rst:29
 msgid ""
 "If the feature is activated, a summary of the ticket is generated when the "
 "ticket got updated and you either open the ticket or open the summary "
 "sidebar tab of the ticket, depending on the configuration."
 msgstr ""
 
-#: ../extras/ai-features.rst:26
+#: ../extras/ai-features.rst:33
 msgid ""
 "If there is a new summary, you can see a small pulsing indicator on the "
 "summary sidebar tab. This indicator is only displayed if the changes were "
@@ -4843,43 +4857,43 @@ msgid ""
 "banner and summary sidebar"
 msgstr ""
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:40
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:43
 #, fuzzy
 msgid "Customer intent"
 msgstr "Cliente"
 
-#: ../extras/ai-features.rst:37
+#: ../extras/ai-features.rst:44
 msgid "Conversation summary"
 msgstr ""
 
-#: ../extras/ai-features.rst:38
+#: ../extras/ai-features.rst:45
 #, fuzzy
 #| msgid "Owner *(optional)*"
 msgid "Open questions (optional)"
 msgstr "Proprietario *(opzionale)*"
 
-#: ../extras/ai-features.rst:39
+#: ../extras/ai-features.rst:46
 #, fuzzy
 #| msgid "Owner *(optional)*"
 msgid "Upcoming events (optional)"
 msgstr "Proprietario *(opzionale)*"
 
-#: ../extras/ai-features.rst:40
+#: ../extras/ai-features.rst:47
 #, fuzzy
 msgid "Customer sentiment (optional)"
 msgstr "Cliente"
 
-#: ../extras/ai-features.rst:43
+#: ../extras/ai-features.rst:50
 msgid "Writing Assistant Tools"
 msgstr ""
 
-#: ../extras/ai-features.rst:45
+#: ../extras/ai-features.rst:52
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -4895,14 +4909,14 @@ msgid ""
 "tools menu"
 msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
 
-#: ../extras/ai-features.rst:55
+#: ../extras/ai-features.rst:62
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
 "custom tools in case your admin added them."
 msgstr ""
 
-#: ../extras/ai-features.rst:59
+#: ../extras/ai-features.rst:66
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "tries to elaborate a proper text. It tries to add a structure and to enhance "
@@ -4911,25 +4925,25 @@ msgid ""
 "bullet points) and let the AI write the answer."
 msgstr ""
 
-#: ../extras/ai-features.rst:64
+#: ../extras/ai-features.rst:71
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
 msgstr ""
 
-#: ../extras/ai-features.rst:66
+#: ../extras/ai-features.rst:73
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
 msgstr ""
 
-#: ../extras/ai-features.rst:68
+#: ../extras/ai-features.rst:75
 msgid ""
 "**Rewrite complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
 
-#: ../extras/ai-features.rst:71
+#: ../extras/ai-features.rst:78
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -4939,25 +4953,25 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
-#: ../extras/ai-features.rst:78
+#: ../extras/ai-features.rst:85
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
 
-#: ../extras/ai-features.rst:83
+#: ../extras/ai-features.rst:90
 msgid ""
 "Always double-check the response. Although the feature was carefully "
 "developed, there may still be minor problems in individual cases due to the "
 "nature of neural networks."
 msgstr ""
 
-#: ../extras/ai-features.rst:88
+#: ../extras/ai-features.rst:95
 msgid "AI Agents"
 msgstr "Agenti AI"
 
-#: ../extras/ai-features.rst:90
+#: ../extras/ai-features.rst:97
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes but if configured, you may "
@@ -4967,19 +4981,19 @@ msgid ""
 "macros>` how to use it."
 msgstr ""
 
-#: ../extras/ai-features.rst:105
+#: ../extras/ai-features.rst:112
 #, fuzzy
 msgid "Ticket history"
 msgstr "Cronologia"
 
-#: ../extras/ai-features.rst:98
+#: ../extras/ai-features.rst:105
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:102
+#: ../extras/ai-features.rst:109
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -4987,11 +5001,11 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:116
+#: ../extras/ai-features.rst:123
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:108
+#: ../extras/ai-features.rst:115
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -4999,7 +5013,7 @@ msgid ""
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:113
+#: ../extras/ai-features.rst:120
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -5007,11 +5021,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:122
+#: ../extras/ai-features.rst:129
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:119
+#: ../extras/ai-features.rst:126
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
