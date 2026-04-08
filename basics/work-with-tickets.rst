@@ -217,7 +217,9 @@ Change Customer
 Monitoring Ticket Escalations
 -----------------------------
 
-Service Level Agreements (SLAs) ensure timely responses to customer requests. Your administrator sets these goals - such as responding to all inquiries within eight hours - with optional custom deadlines for specific customers. When such
+Service Level Agreements (SLAs) ensure timely responses to customer requests.
+Your administrator sets these goals - such as responding to all inquiries within
+eight hours - with optional custom deadlines for specific customers. When such
 a deadline is passed, the ticket escalates.
 
 Zammad notifies you by default when tickets approach or exceed their deadlines.
@@ -244,7 +246,7 @@ configuration:
 The SLA feature requires a configuration from your admin. In case you don't see
 escalation timestamps, either the ticket is not SLA-relevant or the feature is
 not configured. Admins can refer to the
-:admin-docs:`SLA configuration documentation </manage/slas/index.html>`.
+:admin-docs:`SLA configuration documentation </manage/slas.html>`.
 
 Highlight Text in a Ticket
 --------------------------
