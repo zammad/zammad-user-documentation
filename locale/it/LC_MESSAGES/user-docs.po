@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 14:03+0200\n"
-"PO-Revision-Date: 2026-04-07 11:53+0000\n"
+"POT-Creation-Date: 2026-04-08 11:01+0200\n"
+"PO-Revision-Date: 2026-04-09 19:02+0000\n"
 "Last-Translator: albanobattistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/it/>\n"
@@ -600,7 +600,7 @@ msgid ""
 "macros.html>`. If you have an idea for a macro you'd like to use, your "
 "Zammad admin can probably make it happen."
 msgstr ""
-"Le macro possono essere create dal tuo amministratore :admin-docs:`</manage/"
+"Le macro possono essere create dal tuo :admin-docs:`amministratore </manage/"
 "macros.html>`. Se hai un'idea per una macro che vorresti utilizzare, il tuo "
 "amministratore di Zammad probabilmente può realizzarla."
 
@@ -1157,7 +1157,7 @@ msgstr ""
 
 #: ../advanced/search.rst:111
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
-msgstr "Assicurati di fare l'escape di ``/`` con un ``\\` prefisso."
+msgstr "Assicurati di fare l'escape di ``/`` con un prefisso``\\``."
 
 #: ../advanced/search.rst:112
 msgid "Examples:"
@@ -1239,8 +1239,8 @@ msgid ""
 "them. (And if *you* want to get notifications for *someone else's* ticket, "
 "use the **subscribe button**.)"
 msgstr ""
-"Se hai solo bisogno del parere di un altro agente su qualcosa, tu puoi "
-"**@menzionare** lui. (E se*tu* desideri ricevere notifiche per il ticket di "
+"Se hai solo bisogno del parere di un altri agenti su qualcosa, tu puoi "
+"**@menzionare** loro. (E se*tu* desideri ricevere notifiche per il ticket di "
 "*qualcun altro*, usa il pulsante **iscriviti**.)"
 
 #: ../advanced/suggested-workflows.rst:24
@@ -1371,7 +1371,8 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:90
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
-msgstr "**Non riesci a vedere un ticket, in cui un collega @ti ha menzionato?**"
+msgstr ""
+"**Non riesci a vedere un ticket, in cui un collega @ti ha menzionato?**"
 
 #: ../advanced/suggested-workflows.rst:92
 msgid ""
@@ -2211,7 +2212,7 @@ msgid ""
 msgstr ""
 "Questa funzione è **facoltativa**; se non la visualizzi quando aggiorni un "
 "ticket, significa che il tuo amministratore non l'ha ancora abilitata. Gli "
-"amministratori possono trovare maggiori informazioni qui: :admin-docs:`</"
+"amministratori possono trovare maggiori informazioni qui :admin-docs:`here </"
 "manage/time-accounting.html>`."
 
 #: ../advanced/time-accounting.rst:20
@@ -2464,10 +2465,11 @@ msgid ""
 "options in the bubble menu. This menu automatically appears when selecting "
 "text and looks like this:"
 msgstr ""
-"Applica la formattazione utilizzando le scorciatoie da tastiera integrate "
-":doc:`</advanced/keyboard-shortcuts>` oppure selezionando il testo e "
-"scegliendo tra le opzioni di formattazione nel menu a comparsa. Questo menu "
-"appare automaticamente quando si seleziona il testo e ha questo aspetto:"
+"Applica la formattazione utilizzando le scorciatoie da tastiera integrate  "
+":doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` oppure selezionando "
+"il testo e scegliendo tra le opzioni di formattazione nel menu a comparsa. "
+"Questo menu appare automaticamente quando si seleziona il testo e ha questo "
+"aspetto:"
 
 #: ../snippets/editor-features.rst:11
 msgid ""
@@ -3547,7 +3549,7 @@ msgstr ""
 "opzionali per clienti specifici. Quando una tale scadenza viene superata, il "
 "ticket viene escalato."
 
-#: ../basics/work-with-tickets.rst:223
+#: ../basics/work-with-tickets.rst:225
 msgid ""
 "Zammad notifies you by default when tickets approach or exceed their "
 "deadlines. Configure these notifications in your :doc:`profile settings </"
@@ -3562,7 +3564,7 @@ msgstr ""
 "Questa panoramica include i ticket già escalati e i ticket che si prevede "
 "escalino entro i prossimi 10 minuti."
 
-#: ../basics/work-with-tickets.rst:229
+#: ../basics/work-with-tickets.rst:231
 msgid ""
 "SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
 "over this timestamp to see all escalation stages and deadlines in a popup. "
@@ -3582,7 +3584,7 @@ msgstr ""
 "Screenshot che mostra il passaggio del mouse sulla nota di escalation e "
 "l'ottenimento di informazioni più dettagliate sull'escalation."
 
-#: ../basics/work-with-tickets.rst:239
+#: ../basics/work-with-tickets.rst:241
 msgid ""
 "The escalation times are calculated based on your business hours. This means "
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
@@ -3593,24 +3595,24 @@ msgstr ""
 "viene creato alle 7:00 e hai una scadenza di 1 ora, esso scalerà alle 10:00, "
 "a meno che non venga risolto prima."
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:246
 msgid ""
 "The SLA feature requires a configuration from your admin. In case you don't "
 "see escalation timestamps, either the ticket is not SLA-relevant or the "
 "feature is not configured. Admins can refer to the :admin-docs:`SLA "
-"configuration documentation </manage/slas/index.html>`."
+"configuration documentation </manage/slas.html>`."
 msgstr ""
 "La funzionalità SLA richiede una configurazione da parte del tuo "
 "amministratore. Nel caso in cui non vedi i timestamp di escalation, o il "
 "ticket non è rilevante per gli SLA o la funzionalità non è configurata. Gli "
-"amministratori possono fare riferimento alla :admin-docs:`documentazione di "
-"configurazione SLA </manage/slas/index.html>`."
+"amministratori possono fare riferimento alla :admin-docs:`SLA configuration "
+"documentation </manage/slas.html>`."
 
-#: ../basics/work-with-tickets.rst:250
+#: ../basics/work-with-tickets.rst:252
 msgid "Highlight Text in a Ticket"
 msgstr "Evidenzia il testo in un ticket"
 
-#: ../basics/work-with-tickets.rst:252
+#: ../basics/work-with-tickets.rst:254
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
@@ -3621,7 +3623,7 @@ msgstr ""
 "nell'editor da inviare ai clienti, ma solo per evidenziare parti importanti "
 "per altri agenti."
 
-#: ../basics/work-with-tickets.rst:256
+#: ../basics/work-with-tickets.rst:258
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3637,7 +3639,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr "Evidenziatori di ticket"
 
-#: ../basics/work-with-tickets.rst:268
+#: ../basics/work-with-tickets.rst:270
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "

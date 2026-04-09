@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 14:03+0200\n"
-"PO-Revision-Date: 2026-04-03 05:02+0000\n"
+"POT-Creation-Date: 2026-04-08 11:01+0200\n"
+"PO-Revision-Date: 2026-04-09 19:02+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -1801,9 +1801,9 @@ msgid ""
 "The first pair is used for split and merged tickets. The normal link is "
 "useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Постоје различите врсте веза између тикета као што сте већ приметили у "
-":doc:`спајању <merge>` or :doc:`раздељивању <split>`: надређене/подређене и "
-"нормалне везе. Први пар се користи за раздељене и спојене тикете. Нормална "
+"Постоје различите врсте веза између тикета као што сте већ приметили "
+"у :doc:`спајању <merge>` or :doc:`раздељивању <split>`: надређене/подређене "
+"и нормалне везе. Први пар се користи за раздељене и спојене тикете. Нормална "
 "веза се користи када не постоји логичка хијерархија између тикета."
 
 #: ../advanced/ticket-actions/link.rst:15
@@ -2452,8 +2452,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Након што унесете релевантне информације, отворите тикет кликом на дугме "
-"**Додај**. Читајте даље о томе :doc:`како да пронађете <find-tickets>` и "
-":doc:`како да обрађујете <work-with-tickets>` тикете."
+"**Додај**. Читајте даље о томе :doc:`како да пронађете <find-tickets>` "
+"и :doc:`како да обрађујете <work-with-tickets>` тикете."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -3460,7 +3460,7 @@ msgstr ""
 "упите у року од 8 часова – са опционим прилагођеним роковима за одређене "
 "клијенте. Када се ови рокови пробију, тикет ће ескалирати."
 
-#: ../basics/work-with-tickets.rst:223
+#: ../basics/work-with-tickets.rst:225
 msgid ""
 "Zammad notifies you by default when tickets approach or exceed their "
 "deadlines. Configure these notifications in your :doc:`profile settings </"
@@ -3475,7 +3475,7 @@ msgstr ""
 "ескалиране тикете и тикете за које се очекује да ће ескалирати у наредних 10 "
 "минута."
 
-#: ../basics/work-with-tickets.rst:229
+#: ../basics/work-with-tickets.rst:231
 msgid ""
 "SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
 "over this timestamp to see all escalation stages and deadlines in a popup. "
@@ -3495,7 +3495,7 @@ msgstr ""
 "Снимак екрана који приказује прелазак курсором преко напомене о ескалацији и "
 "добијање детаљнијих информација о ескалацији."
 
-#: ../basics/work-with-tickets.rst:239
+#: ../basics/work-with-tickets.rst:241
 msgid ""
 "The escalation times are calculated based on your business hours. This means "
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
@@ -3505,23 +3505,23 @@ msgstr ""
 "ако ваше радно време почиње у 9:00, тикет је отворен у 7:00 и имате рок од 1 "
 "сата, ескалираће у 10:00, осим ако се не затвори раније."
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:246
 msgid ""
 "The SLA feature requires a configuration from your admin. In case you don't "
 "see escalation timestamps, either the ticket is not SLA-relevant or the "
 "feature is not configured. Admins can refer to the :admin-docs:`SLA "
-"configuration documentation </manage/slas/index.html>`."
+"configuration documentation </manage/slas.html>`."
 msgstr ""
 "SLA функција захтева подешавање од стране вашег администратора. У случају да "
 "не видите времена ескалације, тикет нема додељен SLA или функција није "
 "подешена. Администратори могу погледати :admin-docs:`одељак о SLA "
-"подешавањима </manage/slas/index.html>`."
+"подешавањима </manage/slas.html>`."
 
-#: ../basics/work-with-tickets.rst:250
+#: ../basics/work-with-tickets.rst:252
 msgid "Highlight Text in a Ticket"
 msgstr "Означавање текста тикета"
 
-#: ../basics/work-with-tickets.rst:252
+#: ../basics/work-with-tickets.rst:254
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
@@ -3531,7 +3531,7 @@ msgstr ""
 "текст. Ова функција нема везе са обележавањем у уреднику текста пре слања "
 "клијентима. Ради се искључиво о означавање важних делова другим оператерима."
 
-#: ../basics/work-with-tickets.rst:256
+#: ../basics/work-with-tickets.rst:258
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3547,7 +3547,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr "Означавање тикета"
 
-#: ../basics/work-with-tickets.rst:268
+#: ../basics/work-with-tickets.rst:270
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "
@@ -6003,9 +6003,9 @@ msgid ""
 "integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 "Ова функција је **опциона**; ако је не видите у панелу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају више "
-":admin-docs:`овде </system/integrations.html#integrations-for-phone-systems>"
-"`."
+"је ваш администратор још није омогућио. Администратори могу да сазнају "
+"више :admin-docs:`овде </system/integrations.html#integrations-for-phone-"
+"systems>`."
 
 #: ../extras/caller-log.rst:14
 msgid "Sample view of Caller Log"
