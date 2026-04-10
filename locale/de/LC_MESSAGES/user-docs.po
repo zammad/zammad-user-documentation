@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 14:03+0200\n"
-"PO-Revision-Date: 2026-04-03 05:02+0000\n"
+"POT-Creation-Date: 2026-04-08 11:01+0200\n"
+"PO-Revision-Date: 2026-04-09 19:02+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -1977,7 +1977,7 @@ msgstr ""
 "Nehmen wir an, Sie haben bereits an einem Ticket gearbeitet und erhalten ein "
 "weiteres Ticket mit demselben Problem, das Sie zusammenführen möchten. "
 "Nennen wir das Ticket, an dem Sie bereits gearbeitet haben, das *originale* "
-"bzw. *Ziel-*Ticket und das neue Ticket *Duplikat* bzw. *Quelle*. In diesem "
+"bzw. *Zielticket* und das neue Ticket *Duplikat* bzw. *Quelle*. In diesem "
 "Fall öffnen Sie das Duplikat und führen die Zusammenfassung von dort aus "
 "durch, damit es mit dem original Ticket zusammengeführt wird."
 
@@ -2248,7 +2248,7 @@ msgstr ""
 "Diese Funktion ist **optional**; wenn Sie sie nicht sehen, wenn Sie ein "
 "Ticket aktualisieren, bedeutet das, dass Ihr Administrator sie noch nicht "
 "aktiviert hat. Administratoren können :admin-docs:`hier </manage/time-"
-"accounting.html>`mehr darüber erfahren."
+"accounting.html>` mehr darüber erfahren."
 
 #: ../advanced/time-accounting.rst:20
 msgid "Units"
@@ -3473,7 +3473,7 @@ msgid ""
 "to your clipboard. To include the ticket title as well, press :kbd:`.` "
 "twice. Example: ``Ticket#50071: Coffee grinder broken``."
 msgstr ""
-"Aber halt, dafür gibt es sogar ein :doc:Tastaturkürzel </advanced/keyboard-"
+"Aber halt, dafür gibt es sogar ein :doc:`Tastaturkürzel </advanced/keyboard-"
 "shortcuts>`. Drücken Sie einfach :kbd:`.` und die Ticket-Nummer wird in Ihre "
 "Zwischenablage kopiert. Um auch den Titel des Tickets zu übernehmen, drücken "
 "Sie zweimal :kbd:`.`. Beispiel: ``Ticket#50071: Kaffeemühle kaputt``."
@@ -3595,7 +3595,7 @@ msgstr ""
 "individuellen Fristen für bestimmte Kunden. Wenn eine solche Frist "
 "überschritten wird, eskaliert das Ticket."
 
-#: ../basics/work-with-tickets.rst:223
+#: ../basics/work-with-tickets.rst:225
 msgid ""
 "Zammad notifies you by default when tickets approach or exceed their "
 "deadlines. Configure these notifications in your :doc:`profile settings </"
@@ -3610,7 +3610,7 @@ msgstr ""
 "Tickets\". Diese Übersicht enthält bereits eskalierte Tickets und Tickets, "
 "bei denen eine Eskalation innerhalb der nächsten 10 Minuten zu erwarten ist."
 
-#: ../basics/work-with-tickets.rst:229
+#: ../basics/work-with-tickets.rst:231
 msgid ""
 "SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
 "over this timestamp to see all escalation stages and deadlines in a popup. "
@@ -3631,7 +3631,7 @@ msgstr ""
 "Screenshot zeigt detaillierte Eskalationsinformationen beim Überfahren des "
 "Eskalations-Hinweises."
 
-#: ../basics/work-with-tickets.rst:239
+#: ../basics/work-with-tickets.rst:241
 msgid ""
 "The escalation times are calculated based on your business hours. This means "
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
@@ -3642,24 +3642,23 @@ msgstr ""
 "Ticket um 7:00 Uhr erstellt wird und Sie eine Frist von 1 Stunde haben, "
 "eskaliert es um 10:00 Uhr, sofern es nicht früher gelöst wird."
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:246
 msgid ""
 "The SLA feature requires a configuration from your admin. In case you don't "
 "see escalation timestamps, either the ticket is not SLA-relevant or the "
 "feature is not configured. Admins can refer to the :admin-docs:`SLA "
-"configuration documentation </manage/slas/index.html>`."
+"configuration documentation </manage/slas.html>`."
 msgstr ""
 "Die SLA-Funktion erfordert eine Konfiguration durch Ihren Administrator. "
 "Falls Sie keine Eskalations-Zeitstempel sehen, ist entweder das Ticket nicht "
-"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden auf "
-"der :admin-docs:`SLA-Dokumentation </manage/slas/index.html>` mehr "
-"Informationen."
+"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in der "
+":admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr Informationen."
 
-#: ../basics/work-with-tickets.rst:250
+#: ../basics/work-with-tickets.rst:252
 msgid "Highlight Text in a Ticket"
 msgstr "Text in einem Ticket hervorheben"
 
-#: ../basics/work-with-tickets.rst:252
+#: ../basics/work-with-tickets.rst:254
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
@@ -3670,7 +3669,7 @@ msgstr ""
 "im Editor zu markieren, um ihn an Kunden zu senden. Es geht nur darum, "
 "wichtige Teile für andere Agenten zu markieren."
 
-#: ../basics/work-with-tickets.rst:256
+#: ../basics/work-with-tickets.rst:258
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3687,7 +3686,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr "Textmarker für Ticket"
 
-#: ../basics/work-with-tickets.rst:268
+#: ../basics/work-with-tickets.rst:270
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "
@@ -4542,7 +4541,7 @@ msgid ""
 "You can learn more on our `group landing page <https://zammad.com/en/product/"
 "features/groups>`_."
 msgstr ""
-"Erfahren Sie mehr auf unserer `API Funktionsseite <https://zammad.com/en/"
+"Erfahren Sie mehr auf unserer `Gruppenfeature-Seite <https://zammad.com/de/"
 "product/features/groups>`_."
 
 #: ../basics/zammad-glossary.rst:341
@@ -5446,9 +5445,9 @@ msgid ""
 "text-modules.html>`. Agents can learn more about this function on this "
 "page: :doc:`/advanced/text-modules`"
 msgstr ""
-"Administratoren können mehr über Textbausteine :admin-docs:`hier </manage/"
-"text-modules.html>` erfahren. Agenten können auf folgender Seite mehr über "
-"diese Funktion erfahren: :doc:`/erweitert/text-modules`"
+"Administratoren können mehr über :admin-docs:`Textbausteine </manage/text-"
+"modules.html>` erfahren. Agenten können auf der folgenden Seite mehr darüber "
+"erfahren: :doc:`/advanced/text-modules`"
 
 #: ../basics/zammad-glossary.rst:726
 msgid "(Ticket) Template"
@@ -5495,8 +5494,8 @@ msgid ""
 msgstr ""
 "Der Ticket-Hook dient zur Identifizierung eines Tickets. Standardmäßig "
 "lautet er ``Ticket#`` mit einer angehängten Nummer (z.B. ``Ticket#904627``). "
-"Er kann von einem Administrator geändert werden. Siehe :admin-docs:``hier </"
-"settings/ticket.html>`` für weitere Informationen."
+"Dies kann von einem Administrator geändert werden, siehe :admin-docs:`hier </"
+"settings/ticket.html>`."
 
 #: ../basics/zammad-glossary.rst:745
 msgid "Trigger"
@@ -5913,10 +5912,11 @@ msgstr ""
 "Viele KI-Funktionen in Zammad enthalten einen Feedback-Mechanismus. Wenn Sie "
 "Probleme feststellen oder mit den Ergebnissen nicht zufrieden sind, nutzen "
 "Sie bitte die Feedback-Option, um Ihren Zammad-Administrator zu informieren. "
-"Sie können Inhalte, die von der KI generiert wurden, positiv (Daumen hoch) "
-"oder negativ (Daumen runter) bewerten. Eine negative Bewertung ermöglicht es "
-"Ihnen, einen optionalen Kommentar zu hinterlassen. Geben Sie auch positives "
-"Feedback, wenn Sie mit dem KI-Ergebnis zufrieden sind."
+"Sie können Inhalte, die von der KI generiert wurden, positiv (Daumen hoch; "
+"*Like*) oder negativ (Daumen runter; *Dislike*) bewerten. Eine negative "
+"Bewertung ermöglicht es Ihnen, einen optionalen Kommentar zu hinterlassen. "
+"Geben Sie auch positives Feedback, wenn Sie mit dem KI-Ergebnis zufrieden "
+"sind."
 
 #: ../extras/ai-features.rst:23
 msgid "Ticket Summary"
@@ -6468,7 +6468,7 @@ msgid ""
 "to initiate a chat."
 msgstr ""
 "Wenn bei allen Agenten das Chat-Panel deaktiviert ist, ist es den Kunden "
-"nicht möglich, einen Chat zu starten."
+"**nicht** möglich, einen Chat zu starten."
 
 #: ../extras/chat.rst:58
 msgid "Usage tips"
@@ -8322,7 +8322,7 @@ msgid ""
 "security/two-factor.html>`."
 msgstr ""
 "Die :doc:`Zwei-Faktor-Authentifizierung </extras/two-factor-authentication>` "
-"ist eine optionale Funkion. Administratoren können :admin-docs:`hier "
+"ist eine optionale Funktion. Administratoren können :admin-docs:`hier "
 "<settings/security/two-factor.html>` mehr erfahren."
 
 #: ../extras/profile-and-settings.rst:97
@@ -9515,7 +9515,7 @@ msgid ""
 msgstr ""
 "Um eine Zwei-Faktor-Methode als Standard einzurichten, klicken Sie unter "
 "\"Avatar > Profil > Passwort & Authentifizierung\" auf den ⋮ **Aktion** "
-"Button in der entsprechenden Zeile und wählen \"Als Standard festlegen\" aus."
+"Button in der entsprechenden Zeile und wählen **Als Standard festlegen** aus."
 
 #: ../extras/two-factor-authentication.rst:None
 msgid "Edit Two-Factor Method in Password & Authentication"
@@ -9550,8 +9550,8 @@ msgid ""
 "**Edit**."
 msgstr ""
 "Um eine bereits eingerichtete Zwei-Faktor-Methode zu bearbeiten, benutzen "
-"Sie unter \"Avatar > Profil > Passwort & Authentifizierung\" den ⋮ "
-"**Aktion** Button in der entsprechenden Zeile."
+"Sie unter \"Avatar > Profil > Passwort & Authentifizierung\" das ⋮ "
+"Aktionsmenü in der entsprechenden Zeile und wählen **Bearbeiten** ."
 
 #: ../extras/two-factor-authentication.rst:150
 msgid ""

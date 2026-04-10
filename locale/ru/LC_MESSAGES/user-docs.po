@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 14:03+0200\n"
+"POT-Creation-Date: 2026-04-08 11:01+0200\n"
 "PO-Revision-Date: 2025-05-08 10:00+0000\n"
 "Last-Translator: Nikita <nyakovlev@iko.tech>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
@@ -3371,7 +3371,7 @@ msgid ""
 "customers. When such a deadline is passed, the ticket escalates."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:223
+#: ../basics/work-with-tickets.rst:225
 msgid ""
 "Zammad notifies you by default when tickets approach or exceed their "
 "deadlines. Configure these notifications in your :doc:`profile settings </"
@@ -3380,7 +3380,7 @@ msgid ""
 "tickets which are expected to escalate within the next 10 minutes."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:229
+#: ../basics/work-with-tickets.rst:231
 msgid ""
 "SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
 "over this timestamp to see all escalation stages and deadlines in a popup. "
@@ -3401,28 +3401,28 @@ msgstr ""
 "и получение\n"
 "более подробной информации об эскалации"
 
-#: ../basics/work-with-tickets.rst:239
+#: ../basics/work-with-tickets.rst:241
 msgid ""
 "The escalation times are calculated based on your business hours. This means "
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
 "have an 1-hour deadline, it will escalate at 10:00, unless resolved earlier."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:244
+#: ../basics/work-with-tickets.rst:246
 msgid ""
 "The SLA feature requires a configuration from your admin. In case you don't "
 "see escalation timestamps, either the ticket is not SLA-relevant or the "
 "feature is not configured. Admins can refer to the :admin-docs:`SLA "
-"configuration documentation </manage/slas/index.html>`."
+"configuration documentation </manage/slas.html>`."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:250
+#: ../basics/work-with-tickets.rst:252
 #, fuzzy
 #| msgid "Highlighting Ticket Text"
 msgid "Highlight Text in a Ticket"
 msgstr "Выделение текста заявки"
 
-#: ../basics/work-with-tickets.rst:252
+#: ../basics/work-with-tickets.rst:254
 #, fuzzy
 #| msgid ""
 #| "Use the highlighter tool in the upper-righthand corner to mark up "
@@ -3435,7 +3435,7 @@ msgstr ""
 "Используйте инструмент выделения в правом верхнем углу, чтобы отметить "
 "важный текст (Ваши выделения видны другим агентам)."
 
-#: ../basics/work-with-tickets.rst:256
+#: ../basics/work-with-tickets.rst:258
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3447,7 +3447,7 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr "Инструмент для выделения заявок"
 
-#: ../basics/work-with-tickets.rst:268
+#: ../basics/work-with-tickets.rst:270
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "
