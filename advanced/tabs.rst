@@ -1,24 +1,31 @@
 Tabs
 ====
 
-As you click through Zammad, you will see a list of entries appear in the main
-menu area. These are your **open tabs.**
+As you click through Zammad, you will see a list of entries appear in the
+navigation sidebar on the left side. These are your open tabs.
 You can freely switch between open tabs without losing your work -
 all unsaved changes are automatically backed up to the server.
 
-.. figure:: /images/advanced/tabs/tabs-list.png
-   :alt: Sample view of Tabs
+.. container:: cfloat-left
 
-   Tabs appear in the main menu as you visit different parts of the
-   application.
+   Navigation sidebar with example tabs:
 
-**What items open in a new “tab”?**
+   .. figure:: /images/advanced/tabs/tabs-list.png
+      :alt: Screenshot shows tabs with highlighting in Zammad's navigation sidebar.
 
-   1. Existing tickets
-   2. New tickets
-   3. Users
-   4. Organizations
-   5. Omnisearch
+.. container:: cfloat-right
+
+   These items are opened in a new tab:
+
+      1. Existing tickets
+      2. New tickets
+      3. Users
+      4. Organizations
+      5. Detailed search
+
+.. container:: cfloat-clear
+
+   x
 
 .. tip:: **🖱️ UI Protip**
 
