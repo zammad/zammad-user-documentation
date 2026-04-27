@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 13:13+0200\n"
+"POT-Creation-Date: 2026-04-27 13:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3676,7 +3676,7 @@ msgid "Knowledge Base Answer Generation"
 msgstr ""
 
 #: ../extras/ai-features.rst:97
-msgid "This feature allows you to trigger an AI-based generation of a knowledge base answer out of a ticket. This can be useful if you often get similar tickets and want to quickly create a knowledge base article sor such cases. Doing so helps you and your colleagues to solve similar tickets more efficiently in the future and might even reduce the ticket volume in the long run when customers can solve their issues by themselves."
+msgid "This feature allows you to trigger an AI-based generation of a :doc:`knowledge base <knowledge-base>` answer out of a ticket. This can be useful if you often get similar tickets and want to quickly create a knowledge base article for such cases. Doing so helps you and your colleagues to solve similar tickets more efficiently in the future and might even reduce the ticket volume in the long run when customers can solve their issues by themselves."
 msgstr ""
 
 #: ../extras/ai-features.rst:104
@@ -3696,46 +3696,46 @@ msgid "The knowledge base answer is generated as draft and doesn't get published
 msgstr ""
 
 #: ../extras/ai-features.rst:115
-msgid "You are set as the author of the answer draft."
+msgid "The user who triggered the generation is set as the author of the answer."
 msgstr ""
 
 #: ../extras/ai-features.rst:116
-msgid "The answer is generated in the default language of your knowledge base."
+msgid "The answer is generated in the configured default language of your knowledge base."
 msgstr ""
 
-#: ../extras/ai-features.rst:117
+#: ../extras/ai-features.rst:118
 msgid "The answer includes a note in the content and a tag (``ai-generated``) about the AI generation."
 msgstr ""
 
-#: ../extras/ai-features.rst:119
-msgid "A link to the answer is included in the ticket it was generated from."
-msgstr ""
-
 #: ../extras/ai-features.rst:120
-msgid "The AI request includes a list of the knowledge base categories in which you have editor permissions. The AI then chooses one of these categories."
+msgid "A link to the answer is added to the ticket from which the answer generation was triggered."
 msgstr ""
 
-#: ../extras/ai-features.rst:123
-msgid "Always make sure to check the generated answer to ensure quality. This is especially important if you want to publish the article. Even though the AI is instructed to remove personal and/or company-specific information, it can't be guaranteed that there is no such information in the response."
+#: ../extras/ai-features.rst:122
+msgid "The AI request includes a list of the knowledge base categories in which the triggering user has editor permissions. The AI then chooses one of these categories."
 msgstr ""
 
-#: ../extras/ai-features.rst:129
+#: ../extras/ai-features.rst:126
+msgid "Always make sure to check the generated answer. This is especially important if you want to publish the article. Even though the AI is instructed to remove personal and/or company-specific information, it can't be guaranteed that this is the case."
+msgstr ""
+
+#: ../extras/ai-features.rst:132
 msgid "AI Agents"
 msgstr ""
 
-#: ../extras/ai-features.rst:131
+#: ../extras/ai-features.rst:134
 msgid "AI agents can be configured to work on certain types of routine tasks. In general, this feature operates behind the scenes but if configured, you may notice it in some situations (see examples below). In case your admin created a macro with an AI agent action, you can even run it manually. Ask your admin for details and have a look at the :doc:`macro page </advanced/macros>` how to use it."
 msgstr ""
 
-#: ../extras/ai-features.rst:146
+#: ../extras/ai-features.rst:149
 msgid "Ticket history"
 msgstr ""
 
-#: ../extras/ai-features.rst:139
+#: ../extras/ai-features.rst:142
 msgid "If an AI agent applied changes, you can see a ticket history entry telling you the name of the AI agent. If you notice ongoing issues with what the AI agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:143
+#: ../extras/ai-features.rst:146
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -3743,15 +3743,15 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:157
+#: ../extras/ai-features.rst:160
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:152
 msgid "AI agents which are currently working on a ticket are displayed like other agents in the live user section in the bottom bar. This helps to avoid duplicate work as well as losing unsaved changes. If you see an AI agent avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:154
+#: ../extras/ai-features.rst:157
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -3759,11 +3759,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:163
+#: ../extras/ai-features.rst:166
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:160
+#: ../extras/ai-features.rst:163
 msgid "A running AI agent is indicated in the status column in overviews. The status circle changes to a blue/pink gradient circle:"
 msgstr ""
 

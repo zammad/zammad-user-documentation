@@ -94,12 +94,12 @@ article editor.
 Knowledge Base Answer Generation
 --------------------------------
 
-This feature allows you to trigger an AI-based generation of a knowledge base
-answer out of a ticket. This can be useful if you often get similar tickets and
-want to quickly create a knowledge base article sor such cases. Doing so helps
-you and your colleagues to solve similar tickets more efficiently in the future
-and might even reduce the ticket volume in the long run when customers can solve
-their issues by themselves.
+This feature allows you to trigger an AI-based generation of a
+:doc:`knowledge base <knowledge-base>` answer out of a ticket. This can be
+useful if you often get similar tickets and want to quickly create a knowledge
+base article for such cases. Doing so helps you and your colleagues to solve
+similar tickets more efficiently in the future and might even reduce the ticket
+volume in the long run when customers can solve their issues by themselves.
 
 To trigger such a generation, click the ``AI generate`` button in the ticket
 sidebar of the ticket detail view in the **Related knowledge** section:
@@ -112,18 +112,21 @@ Important information:
 
 - The knowledge base answer is generated as draft and doesn't get published
   automatically.
-- You are set as the author of the answer draft.
-- The answer is generated in the default language of your knowledge base.
+- The user who triggered the generation is set as the author of the answer.
+- The answer is generated in the configured default language of your knowledge
+  base.
 - The answer includes a note in the content and a tag (``ai-generated``) about
   the AI generation.
-- A link to the answer is included in the ticket it was generated from.
-- The AI request includes a list of the knowledge base categories in which you
-  have editor permissions. The AI then chooses one of these categories.
+- A link to the answer is added to the ticket from which the answer generation
+  was triggered.
+- The AI request includes a list of the knowledge base categories in which the
+  triggering user has editor permissions. The AI then chooses one of these
+  categories.
 
-Always make sure to check the generated answer to ensure quality. This is
-especially important if you want to publish the article. Even though the AI
-is instructed to remove personal and/or company-specific information, it can't
-be guaranteed that there is no such information in the response.
+Always make sure to check the generated answer. This is especially important if
+you want to publish the article. Even though the AI is instructed to remove
+personal and/or company-specific information, it can't be guaranteed that this
+is the case.
 
 AI Agents
 ---------
