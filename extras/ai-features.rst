@@ -19,6 +19,11 @@ generated content. The dislike option allows you to leave an optional comment.
 Of course you can also give positive feedback if you are happy with the AI
 result.
 
+.. warning::
+   Always double-check the AI responses. Although the features were developed
+   carefully, there still might be minor inaccuracies in individual cases due to
+   the nature of neural networks.
+
 Ticket Summary
 --------------
 
@@ -86,10 +91,39 @@ Click on the **Approve** button to accept the changes and to insert it in the
 article. After accepting the suggestion, you can still edit the text in the
 article editor.
 
-.. warning::
-   Always double-check the response. Although the feature was carefully
-   developed, there may still be minor problems in individual cases due to
-   the nature of neural networks.
+Knowledge Base Answer Generation
+--------------------------------
+
+This feature allows you to trigger an AI-based generation of a knowledge base
+answer out of a ticket. This can be useful if you often get similar tickets and
+want to quickly create a knowledge base article sor such cases. Doing so helps
+you and your colleagues to solve similar tickets more efficiently in the future
+and might even reduce the ticket volume in the long run when customers can solve
+their issues by themselves.
+
+To trigger such a generation, click the ``AI generate`` button in the ticket
+sidebar of the ticket detail view in the **Related knowledge** section:
+
+.. figure:: /images/extras/ai/kb-answer-ticket-tab.png
+   :alt: KB answer generation in ticket tab
+   :align: center
+
+Important information:
+
+- The knowledge base answer is generated as draft and doesn't get published
+  automatically.
+- You are set as the author of the answer draft.
+- The answer is generated in the default language of your knowledge base.
+- The answer includes a note in the content and a tag (``ai-generated``) about
+  the AI generation.
+- A link to the answer is included in the ticket it was generated from.
+- The AI request includes a list of the knowledge base categories in which you
+  have editor permissions. The AI then chooses one of these categories.
+
+Always make sure to check the generated answer to ensure quality. This is
+especially important if you want to publish the article. Even though the AI
+is instructed to remove personal and/or company-specific information, it can't
+be guaranteed that there is no such information in the response.
 
 AI Agents
 ---------
