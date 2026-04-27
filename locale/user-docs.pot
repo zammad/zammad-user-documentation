@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 14:50+0200\n"
+"POT-Creation-Date: 2026-04-27 16:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1049,82 +1049,66 @@ msgid "Now suppose you've reassigned the ticket to customer service. You won't r
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:60
-msgid "To enable notifications for a ticket that doesn't belong to you, simply click the **Subscribe** button at the bottom of the ticket pane:"
+msgid "To enable notifications for a ticket that doesn't belong to you, simply click the ``Subscribe`` button at the bottom of the ticket sidebar tab:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:68
-msgid "Screencast of the Subscribe button feature"
+#: ../advanced/suggested-workflows.rst:None
+msgid "Screenshot shows subscribe button in the ticket sidebar tab"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:68
-msgid "A list of all tickets you're subscribed to can be found in the **My mentioned Tickets** overview."
+#: ../advanced/suggested-workflows.rst:67
+msgid "Or, suppose you don't want to reassign the ticket to customer service, you just have one quick question for them, and then you can take it from there. To start sending someone else notifications for your own ticket, type ``@@`` in the message composer and select their name from the pop-up menu. This will automatically subscribe them to your ticket."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:71
-msgid "Or, suppose you *don't* want to reassign the ticket to customer service—you just have one quick question for them, and then you can take it from there."
-msgstr ""
-
-#: ../advanced/suggested-workflows.rst:74
-msgid "To start sending someone else notifications for your own ticket, type ``@@`` in the message composer and select their name from the pop-up menu:"
-msgstr ""
-
-#: ../advanced/suggested-workflows.rst:82
-msgid "Screencast of the @mention feature"
-msgstr ""
-
-#: ../advanced/suggested-workflows.rst:82
-msgid "@mentioning a colleague in a message will automatically subscribe them to your ticket."
-msgstr ""
-
-#: ../advanced/suggested-workflows.rst:85
+#: ../advanced/suggested-workflows.rst:73
 msgid "⚙️ **Notification settings**"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:87
+#: ../advanced/suggested-workflows.rst:75
 msgid "Check your :doc:`/extras/profile-and-settings` to customize how you receive notifications."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:90
+#: ../advanced/suggested-workflows.rst:78
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:92
+#: ../advanced/suggested-workflows.rst:80
 msgid "Is the ticket assigned to a group that you don't belong to? @mentions and subscriptions only work for tickets that you already have access to."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:97
+#: ../advanced/suggested-workflows.rst:85
 msgid "Quickly Assign in Ticket Listings"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:99
+#: ../advanced/suggested-workflows.rst:87
 msgid "Within overviews and detailed searches you can run bulk operations on tickets. This means you can adjust the following ticket information:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:102
+#: ../advanced/suggested-workflows.rst:90
 msgid "group"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:103
+#: ../advanced/suggested-workflows.rst:91
 msgid "owner"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:104
+#: ../advanced/suggested-workflows.rst:92
 msgid "state (with pending time if applicable)"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:105
+#: ../advanced/suggested-workflows.rst:93
 msgid "priority"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:107
+#: ../advanced/suggested-workflows.rst:95
 msgid "After pressing \"Confirm\", Zammad also allows you to provide an internal or public note of why you adjusted the settings."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:110
+#: ../advanced/suggested-workflows.rst:98
 msgid "Zammad *will not* ask for :doc:`time accounting values </advanced/time-accounting>` in bulk actions."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:120
+#: ../advanced/suggested-workflows.rst:108
 msgid "Bulk action via drop-downs:"
 msgstr ""
 
@@ -1132,15 +1116,15 @@ msgstr ""
 msgid "Bulk operations in overviews and detailed searches"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:118
+#: ../advanced/suggested-workflows.rst:106
 msgid "Use the check boxes in ticket listings to select a bunch of tickets. Now use below drop-downs to change ticket settings, press confirm and provide a note if you'd like."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:134
+#: ../advanced/suggested-workflows.rst:122
 msgid "Bulk action via drag and drop:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:123
+#: ../advanced/suggested-workflows.rst:111
 msgid "**🤓 You can change owners and groups even faster 🚀**"
 msgstr ""
 
@@ -1149,11 +1133,11 @@ msgid "Drag selected tickets and drop then on a group or agent to change\n"
 "ticket group / owner"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:130
+#: ../advanced/suggested-workflows.rst:118
 msgid "Instead of using the drop-downs on the bottom of Zammad, you can also drag tickets. A new modal will appear and allow you to drop your selection on either just a group or agents. This operation allows you to quickly change the group and owner without further hassle!"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:135
+#: ../advanced/suggested-workflows.rst:123
 msgid "This functionality is only available in ticket overviews."
 msgstr ""
 
@@ -1162,47 +1146,58 @@ msgid "Tabs"
 msgstr ""
 
 #: ../advanced/tabs.rst:4
-msgid "As you click through Zammad, you will see a list of entries appear in the main menu area. These are your **open tabs.** You can freely switch between open tabs without losing your work - all unsaved changes are automatically backed up to the server."
+msgid "As you click through Zammad, you will see a list of entries appear in the navigation sidebar on the left side. These are your open tabs. You can freely switch between open tabs without losing your work - all unsaved changes are automatically backed up to the server."
 msgstr ""
 
-#: ../advanced/tabs.rst:12
-msgid "Sample view of Tabs"
+#: ../advanced/tabs.rst:11
+msgid "Navigation sidebar with example tabs:"
 msgstr ""
 
-#: ../advanced/tabs.rst:12
-msgid "Tabs appear in the main menu as you visit different parts of the application."
-msgstr ""
-
-#: ../advanced/tabs.rst:15
-msgid "**What items open in a new “tab”?**"
-msgstr ""
-
-#: ../advanced/tabs.rst:17
-msgid "Existing tickets"
+#: ../advanced/tabs.rst:0
+msgid "Screenshot shows tabs with highlighting in Zammad's navigation sidebar."
 msgstr ""
 
 #: ../advanced/tabs.rst:18
-msgid "New tickets"
-msgstr ""
-
-#: ../advanced/tabs.rst:19
-msgid "Users"
+msgid "These items are opened in a new tab:"
 msgstr ""
 
 #: ../advanced/tabs.rst:20
+msgid "Existing tickets"
+msgstr ""
+
+#: ../advanced/tabs.rst:21
+msgid "New tickets"
+msgstr ""
+
+#: ../advanced/tabs.rst:22
+msgid "Users"
+msgstr ""
+
+#: ../advanced/tabs.rst:23
 #: ../extras/organizations.rst:2
 msgid "Organizations"
 msgstr ""
 
-#: ../advanced/tabs.rst:21
-msgid "Omnisearch"
+#: ../advanced/tabs.rst:24
+msgid "Detailed search"
 msgstr ""
 
-#: ../advanced/tabs.rst:23
+#: ../advanced/tabs.rst:28
+#: ../basics/zammad-ui.rst:82
+#: ../extras/mobile-view.rst:37
+#: ../extras/mobile-view.rst:59
+#: ../extras/mobile-view.rst:81
+#: ../extras/mobile-view.rst:103
+#: ../extras/mobile-view.rst:181
+#: ../extras/mobile-view.rst:202
+msgid "x"
+msgstr ""
+
+#: ../advanced/tabs.rst:30
 msgid "**🖱️ UI Protip**"
 msgstr ""
 
-#: ../advanced/tabs.rst:25
+#: ../advanced/tabs.rst:32
 msgid ":doc:`Ticket states </basics/ticket-basics>` are **color-coded:**"
 msgstr ""
 
@@ -1263,19 +1258,19 @@ msgstr ""
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
 
-#: ../advanced/tabs.rst:30
+#: ../advanced/tabs.rst:37
 msgid "A **pulsing dot** means that a ticket has new activity since you last viewed it."
 msgstr ""
 
-#: ../advanced/tabs.rst:32
+#: ../advanced/tabs.rst:39
 msgid "Drag and drop tabs to rearrange them."
 msgstr ""
 
-#: ../advanced/tabs.rst:35
+#: ../advanced/tabs.rst:42
 msgid "Tab Behavior in Ticket Zooms"
 msgstr ""
 
-#: ../advanced/tabs.rst:37
+#: ../advanced/tabs.rst:44
 msgid "You may have noticed the \"Stay on tab\" button next to \"Update\" on the lower right already. This behavior of a tab can be configured by your administrator globally. You can overrule this setting based on your personal preference."
 msgstr ""
 
@@ -1283,55 +1278,55 @@ msgstr ""
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 
-#: ../advanced/tabs.rst:46
+#: ../advanced/tabs.rst:53
 msgid "To overrule your administrator's settings, simply choose the action you prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
 
-#: ../advanced/tabs.rst:51
+#: ../advanced/tabs.rst:58
 msgid "Close tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:50
+#: ../advanced/tabs.rst:57
 msgid "Upon updating the ticket, Zammad will automatically close the tab. You'll be returned to the last view that was open."
 msgstr ""
 
-#: ../advanced/tabs.rst:57
+#: ../advanced/tabs.rst:64
 msgid "Close tab on ticket close"
 msgstr ""
 
-#: ../advanced/tabs.rst:54
+#: ../advanced/tabs.rst:61
 msgid "Ticket tabs will be closed only if you change the state to \"closed\" upon ticket update."
 msgstr ""
 
-#: ../advanced/tabs.rst:57
+#: ../advanced/tabs.rst:64
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 
-#: ../advanced/tabs.rst:65
+#: ../advanced/tabs.rst:72
 msgid "Next in overview"
 msgstr ""
 
-#: ../advanced/tabs.rst:60
+#: ../advanced/tabs.rst:67
 msgid "If you opened a ticket from any overview, Zammad will jump to the next ticket in said overview. Zammad recycles the open tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:63
+#: ../advanced/tabs.rst:70
 msgid "This option is only available if you open the ticket from an overview. Zammad will ignore the setting if you opened the ticket directly and fall back to ``Stay on tab``."
 msgstr ""
 
-#: ../advanced/tabs.rst:70
+#: ../advanced/tabs.rst:77
 msgid "Stay on tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:68
+#: ../advanced/tabs.rst:75
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:70
+#: ../advanced/tabs.rst:77
 msgid "*This is the default setting in Zammad installations.*"
 msgstr ""
 
-#: ../advanced/tabs.rst:72
+#: ../advanced/tabs.rst:79
 msgid "Now that you are an expert in tab handling, one more thing might be interesting as well: the maximum number of tabs is 30 due to performance reasons. In case you reach the limit and open another tab, the first opened tab gets closed automatically."
 msgstr ""
 
@@ -3507,16 +3502,6 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:77
 msgid "Profile settings and create new ticket button. In case you have additional permissions, there might be a settings and a reporting button as well."
-msgstr ""
-
-#: ../basics/zammad-ui.rst:82
-#: ../extras/mobile-view.rst:37
-#: ../extras/mobile-view.rst:59
-#: ../extras/mobile-view.rst:81
-#: ../extras/mobile-view.rst:103
-#: ../extras/mobile-view.rst:181
-#: ../extras/mobile-view.rst:202
-msgid "x"
 msgstr ""
 
 #: ../basics/zammad-ui.rst:87
