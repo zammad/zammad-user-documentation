@@ -17,13 +17,13 @@ Link types
 
 How to link
    Make sure to have the ticket side panel open. Under the "Tags" section you
-   can find the "Links" section:
+   can find the "Related tickets" section:
 
    .. figure:: /images/advanced/ticket-actions/link.png
       :alt: Ticket pane: Links
       :align: center
 
-   Click the *➕ Add Link* button to access the link dialog.
+   Click the *➕ Link* button to access the link dialog.
 
 Link dialog
    You can enter the ticket number of the ticket you want to link to
