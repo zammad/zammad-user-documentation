@@ -4,7 +4,7 @@
 Manage, edit and organize your knowledge base content by opening the
 **Knowledge Base** tab in the navigation sidebar.
 
-This feature is **optional**; if you don't see it in the main menu,
+This feature is optional; if you don't see it in the main menu,
 that means your administrator hasn't enabled it yet. Administrators can learn
 more in the
 :admin-docs:`knowledge base section of the admin docs </manage/knowledge-base.html>`.
@@ -50,14 +50,14 @@ Use the language menu to view or edit translations of the current page.
 If you select a language, in which the page hasn't been translated into yet,
 the behavior depends on the state of the page:
 
-in Edit Mode
+In edit mode
    Untranslated pages are marked with a ⚠️ **warning sign**:
 
    .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-edit.png
       :alt: Missing translation warning
       :align: center
 
-in Preview Mode
+In preview mode
    Untranslated pages are only visible to users with
    edit permissions:
 
@@ -65,7 +65,7 @@ in Preview Mode
       :alt: Missing translation warning
       :align: center
 
-in the published knowledge base
+In the published knowledge base
    Untranslated pages are always hidden:
 
    .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
@@ -77,7 +77,6 @@ Using RSS Feeds
 
 Zammad allows you to subscribe to either the knowledge base as a whole or to
 specific categories. There's both a public and an internal option to do so.
-
 By default, RSS feeds are disabled. If you wish to use the RSS function,
 talk to your administrator about enabling the function.
 
