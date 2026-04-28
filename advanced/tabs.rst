@@ -8,20 +8,33 @@ all unsaved changes are automatically backed up to the server.
 
 .. container:: cfloat-left
 
-   Navigation sidebar with example tabs:
-
    .. figure:: /images/advanced/tabs/tabs-list.png
       :alt: Screenshot shows tabs with highlighting in Zammad's navigation sidebar.
 
 .. container:: cfloat-right
 
-   These items are opened in a new tab:
+   The following items get opened in a new tab. If you have the item already
+   open, Zammad switches to this tab instead of opening a duplicate.
 
-      1. Existing tickets
-      2. New tickets
-      3. Users
-      4. Organizations
-      5. Detailed search
+   \1 Existing tickets
+         When when you open an existing ticket from an overview or the
+         search.
+
+   \2 New tickets
+         When you create a new ticket via the button at the bottom of the
+         navigation sidebar.
+
+   \3 User Details
+      When you click on a user name or avatar in a ticket to open the user
+      detail page.
+
+   \4 Organization Details
+      When you click on an organization name or avatar in a ticket to open
+      the organization detail page.
+
+   \5 Detailed search
+      When you search for a ticket, user or organization and click on
+      **Show Search Details**.
 
 .. container:: cfloat-clear
 

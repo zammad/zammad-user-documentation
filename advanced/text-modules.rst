@@ -10,10 +10,13 @@ To access available text modules, simply type ``::`` within an article body.
 If you found the right text module, just press enter or click with your left
 mouse and Zammad will insert the modules Text at the place your cursor is.
 
-.. image :: /images/advanced/text-modules/choose-text_from_text-module.png
+.. figure:: /images/advanced/text-modules/choose-text_from_text-module.png
+   :alt: Screenshot shows text module selection menu in editor after typing "::" followed by "tf".
+   :align: center
 
-You can either scroll through all modules (mouse or direction keys), type the
-module name or enter a keyword (if keywords are set).
+You can either scroll through all modules by using the mouse or arrow keys, type
+the name or a keyword (if keywords are set) to find the text module you want to
+use.
 
 Text Modules Missing?
 ---------------------

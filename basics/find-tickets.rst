@@ -12,11 +12,11 @@ If you search for new tickets to work on, your first look should be in the
 overview section. This section gives you a rough overview. More details are
 covered in a separate overview page.
 
-You can either open it by clicking the **Overviews** button
+You can either open it by clicking the ``Overviews`` button
 in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of
 overviews as some kind of ticket lists.
 By default, there are some built in overviews. For example, there is
-an overview called "Unassigned & Open Tickets" which might be a good starting
+an overview called **Unassigned & Open Tickets** which might be a good starting
 point.
 
 - My Assigned Tickets: open tickets in which you are set as owner.
@@ -37,7 +37,7 @@ overview.
    :alt: Sample view of Overviews
    :align: center
 
-   Click **Overviews** in the main menu to browse tickets.
+   Click ``Overviews`` in the main menu to browse tickets.
 
 You can adjust the overviews in some aspects:
 

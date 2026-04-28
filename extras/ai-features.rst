@@ -128,6 +128,8 @@ you want to publish the article. Even though the AI is instructed to remove
 personal and/or company-specific information, it can't be guaranteed that this
 is the case.
 
+.. _ai-agents:
+
 AI Agents
 ---------
 
