@@ -19,10 +19,9 @@ On a Single Ticket
 The simplest way to apply a macro is to select it
 from the **Update ^** submenu in the Ticket View:
 
-.. figure:: /images/advanced/macros/macro-run-via-ticket-view.gif
-   :width: 90%
+.. figure:: /images/advanced/macros/macro-run-via-ticket-view.png
    :align: center
-   :alt: Screencast showing how to run a macro within a ticket view.
+   :alt: Screenshot shows the ticket update menu with to run a macro.
 
 .. tip:: 💾 **Macro = Update**
 
@@ -34,13 +33,6 @@ from the **Update ^** submenu in the Ticket View:
    including messages to the customer!
    When in doubt, apply your macro and your manual changes *separately.*
 
-   .. figure:: /images/advanced/macros/macro-overwriting-article-sample.gif
-      :width: 80%
-      :align: center
-      :alt: Screencast showing above described effect that overwrites articles.
-
-      If the selected macro adds a note to the ticket, any text entered in the
-      message composer will be lost.
 
 In Bulk
 -------

@@ -15,24 +15,17 @@ mouse and Zammad will insert the modules Text at the place your cursor is.
 You can either scroll through all modules (mouse or direction keys), type the
 module name or enter a keyword (if keywords are set).
 
-.. image :: /images/advanced/text-modules/using-text-modules.gif
-
 Text Modules Missing?
 ---------------------
 
 You noticed that some text modules don't always appear?
+Text modules can be tied to **groups**: if that's the case, they are only
+available once the ticket you're working on has been assigned to the appropriate
+group. The group dependent text modules are available immediately when a new
+group has been selected, you don't have to click ``Update``.
 
-Text modules can be tied to **groups**: that is, they only become active
-once the ticket you're working on has been assigned to the appropriate
-group.
-
-.. figure:: /images/advanced/text-modules/group-dependent-textmodules.gif
-   :alt: Group-dependent text modules
-
-   Text modules are updated immediately when a new group has been
-   selected—no need to click **Update**.
-
-How do you know which groups go with which text modules? Ask your administrator!
+But how do you know which groups go with which text modules? Ask your
+administrator!
 
 Text Modules on Ticket Creation
 -------------------------------
