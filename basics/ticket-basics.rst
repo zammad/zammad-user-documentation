@@ -120,11 +120,10 @@ Tags are custom labels that can be attached to tickets to make it easier to
 find them in the future. You find the tag section under the attribute fields.
 
 .. figure:: /images/basics/work-with-tickets/settings-tags.png
-   :alt: Ticket pane (tags)
-   :width: 70%
+   :alt: Screenshot shows highlighted tag section in the ticket sidebar tab
    :align: center
 
-To add a tag, click the **Add Tag** button. Depending on your Zammad's
+To add a tag, click the ``+ Tag`` button. Depending on your Zammad's
 configuration, you can create new tags by simply type and confirm them with
 :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available
 tags. Start typing and you see a list with matching suggestions. To remove it,
