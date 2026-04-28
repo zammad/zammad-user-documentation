@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 14:22+0200\n"
+"POT-Creation-Date: 2026-04-28 14:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3634,39 +3634,39 @@ msgid "This feature allows you to trigger an AI-based generation of a :doc:`know
 msgstr ""
 
 #: ../extras/ai-features.rst:104
+msgid "Important information:"
+msgstr ""
+
+#: ../extras/ai-features.rst:106
+msgid "The knowledge base answer is generated as draft and doesn't get published automatically."
+msgstr ""
+
+#: ../extras/ai-features.rst:108
+msgid "The user who triggered the generation is set as the author of the answer."
+msgstr ""
+
+#: ../extras/ai-features.rst:109
+msgid "The answer is generated in the configured default language of your knowledge base."
+msgstr ""
+
+#: ../extras/ai-features.rst:111
+msgid "The answer includes a note in the content and a tag (``ai-generated``) about the AI generation."
+msgstr ""
+
+#: ../extras/ai-features.rst:113
+msgid "A link to the answer is added to the ticket from which the answer generation was triggered."
+msgstr ""
+
+#: ../extras/ai-features.rst:115
+msgid "The AI request includes a list of the knowledge base categories in which the triggering user has editor permissions. The AI then chooses one of these categories."
+msgstr ""
+
+#: ../extras/ai-features.rst:119
 msgid "To trigger such a generation, click the ``+ AI generate`` button in the ticket sidebar of the ticket detail view in the **Related knowledge** section:"
 msgstr ""
 
 #: ../extras/ai-features.rst:None
 msgid "KB answer generation in ticket tab"
-msgstr ""
-
-#: ../extras/ai-features.rst:111
-msgid "Important information:"
-msgstr ""
-
-#: ../extras/ai-features.rst:113
-msgid "The knowledge base answer is generated as draft and doesn't get published automatically."
-msgstr ""
-
-#: ../extras/ai-features.rst:115
-msgid "The user who triggered the generation is set as the author of the answer."
-msgstr ""
-
-#: ../extras/ai-features.rst:116
-msgid "The answer is generated in the configured default language of your knowledge base."
-msgstr ""
-
-#: ../extras/ai-features.rst:118
-msgid "The answer includes a note in the content and a tag (``ai-generated``) about the AI generation."
-msgstr ""
-
-#: ../extras/ai-features.rst:120
-msgid "A link to the answer is added to the ticket from which the answer generation was triggered."
-msgstr ""
-
-#: ../extras/ai-features.rst:122
-msgid "The AI request includes a list of the knowledge base categories in which the triggering user has editor permissions. The AI then chooses one of these categories."
 msgstr ""
 
 #: ../extras/ai-features.rst:126

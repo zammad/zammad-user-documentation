@@ -101,13 +101,6 @@ base article for such cases. Doing so helps you and your colleagues to solve
 similar tickets more efficiently in the future and might even reduce the ticket
 volume in the long run when customers can solve their issues by themselves.
 
-To trigger such a generation, click the ``+ AI generate`` button in the ticket
-sidebar of the ticket detail view in the **Related knowledge** section:
-
-.. figure:: /images/extras/ai/kb-answer-ticket-tab.png
-   :alt: KB answer generation in ticket tab
-   :align: center
-
 Important information:
 
 - The knowledge base answer is generated as draft and doesn't get published
@@ -122,6 +115,13 @@ Important information:
 - The AI request includes a list of the knowledge base categories in which the
   triggering user has editor permissions. The AI then chooses one of these
   categories.
+
+To trigger such a generation, click the ``+ AI generate`` button in the ticket
+sidebar of the ticket detail view in the **Related knowledge** section:
+
+.. figure:: /images/extras/ai/kb-answer-ticket-tab.png
+   :alt: KB answer generation in ticket tab
+   :align: center
 
 Always make sure to check the generated answer. This is especially important if
 you want to publish the article. Even though the AI is instructed to remove
