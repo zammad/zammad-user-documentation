@@ -6,29 +6,19 @@ Overview
 
 Share drafts for new or existing tickets with other agents of your group.
 Load, modify and save an existing draft e.g. as QA process with colleagues.
-
 This feature is **optional**; if you don't see it in the menu,
 that means your administrator disabled this function.
 Administrators can learn more in our
 :admin-docs:`admin documentation </manage/groups/settings.html>`.
 
-.. figure:: /images/extras/shared-drafts/ticket-zoom-with-activated-shared-draft-function.png
-   :alt: Screenshot showing the sub menu of the Update button with macros and an
-         option to save the draft
-   :align: center
-
-   By using ^ next to the "Update" button Zammad will provide you with an option
-   to save your draft (and thus share it) if the option is enabled.
-
-
 .. hint:: **🤓 Let's be clear up front**
 
    Zammad technically has two draft functions:
 
-      * shared draft (allow others to load the draft), and
-      * user drafts.
+      * Shared drafts (allow others to load the draft)
+      * User drafts
 
-   | Every time you change a tickets field, Zammad will safe this in your
+   | Every time you change a ticket's field, Zammad will save this in your
      personal draft. You then can share this as a shared draft if you want to.
      User drafts are *always* available!
 
@@ -38,73 +28,60 @@ Handling Drafts
 .. include:: /extras/includes/shared-drafts-overwriting-drafts-warning.include.rst
 
 Load a draft
-   .. figure:: /images/extras/shared-drafts/loading-a-shared-draft-ticket-zoom.gif
-      :alt: Screencast showing how to open the shared draft load dialogue within
-            the ticket zoom
+   Existing ticket
+      In the ticket detail view, a button ``📝 Draft available`` is shown if a
+      draft is available from you or another agent (see first screenshot on this
+      page). Hovering over the button tells you who created or changed the
+      draft.
 
-   Loading a draft works the same starting from draft previews.
+      .. figure:: /images/extras/shared-drafts/loading-a-shared-draft.png
+         :alt: Screenshot shows highlighted "Draft available" button and preview dialog of the shared draft.
 
-   New Ticket dialogue
-      If you're in a new ticket dialogue *after selecting the ticket group*,
-      the 📝 button will indicate the shared drafts function to be available.
-      The shared drafts tab is *always* hidden if no group is selected!
+   New ticket
+      If you're creating a new ticket and already selected a group, the shared
+      draft sidebar tab on the right side shows up.
+      The shared drafts tab is always hidden if no group is selected!
 
-      .. figure:: /images/extras/shared-drafts/listing-existing-shared-drafts-in-new-ticket-dialogues.png
-         :alt: Screenshot highlighting the shared draft pane for new
-               ticket dialogues
-
-   Existing tickets (Ticket zoom)
-      Within ticket zooms a button "📝 Draft available" will be shown if a
-      draft has been shared by either you or another agent on the ticket.
-
-      Hovering over the button will tell you who has changed the draft last.
-
-      .. figure:: /images/extras/shared-drafts/available-shared-draft-in-ticket-zoom.png
-         :alt: Screenshot highlighting the Draft available button within
-               Ticket zoom
+      .. figure:: /images/extras/shared-drafts/ticket-create-shows-available-draft.png
+         :alt: Screenshot shows the ticket creation dialog with highlighted shared draft after group selection.
 
 Remove draft
    You can remove any draft (no matter if for new or existing tickets) from
-   within the draft preview screen. Use the "Delete" link on the lower end of
-   the dialogue. This has no effect on local drafts agents may have loaded
+   within the draft preview screen. Use the ``Delete`` link on the lower end of
+   the dialog. This has no effect on local drafts, agents may have loaded
    already.
-
-   .. figure:: /images/extras/shared-drafts/remove-shared-drafts.png
-      :alt: Screenshot highlighting the removal option in shared draft preview
 
 Saving drafts
    New ticket
       Adding new drafts
          To save a new shared draft, set the ticket settings, customer, ticket
          title and article as desired. Make sure to select a group that supports
-         shared drafts.
+         shared drafts. When you're ready to save the draft, click on shared
+         draft sidebar tab on the right side, enter a meaningful name and click
+         on the ``Create`` button.
 
-         If you're ready to save the draft, click on 📝 on the right ticket pane,
-         enter a meaning full name and click on the "Create" button.
-
-         .. figure:: /images/extras/shared-drafts/saving-current-new-ticket-dialogue-as-shared-draft.gif
-            :alt: Screencast showing how to save new ticket dialogues as a
-                  shared draft
+         .. figure:: /images/extras/shared-drafts/new-ticket-create-draft.png
+            :alt: Screenshot shows the new ticket dialog with the highlighted "create draft" section.
 
       Update existing drafts
          In order to update or rename existing shared drafts for new tickets,
          simply load the draft in question. Change the information (e.g. ticket
          settings or content) needed and, if needed, update the drafts name on the
-         right hand side of the ticket. This way you can not just update
+         right side of the ticket. This way you can not just update
          existing drafts, but also use existing drafts to create another copy!
 
-         .. figure:: /images/extras/shared-drafts/renaming-shared-drafts-new-ticket-dialogue.gif
-            :alt: Screencast showing how to rename / update existing shared drafts
+         .. figure:: /images/extras/shared-drafts/update-draft-ticket-sidebar.png
+            :alt: Screenshot shows shared draft sidebar of the ticket creation dialog.
 
    Existing ticket
-      Use the ^ button next to the update button. If the group of the ticket
-      (or in your selection) allows shared drafts, Zammad will provide the option
-      "Save Draft".
+      Use the ``^`` button next to the ``Update`` button. If the group of the
+      ticket (or in your selection) allows shared drafts, Zammad will provide
+      the option **Save Draft**. All current changes on the ticket (ticket
+      settings, article and its attachments) will be saved to the shared draft.
 
-      All current changes on the ticket (ticket settings,
-      article and it's attachments) will be saved to the shared draft.
+      When saving was successful, the button ``📝 Draft available`` is show as
+      you can see in the screenshot about loading a draft.
 
-      When saving was successful, the button "📝 Draft available" will be shown.
-
-      .. figure:: /images/extras/shared-drafts/saving-a-shared-draft-within-ticket-zoom.gif
-         :alt: Screencast showing how to save a shared draft within ticket zoom
+      .. figure:: /images/extras/shared-drafts/save-draft-submenu-ticket-detail-view.png
+         :alt: Screenshot shows highlighted ticket update menu with save draft option in ticket detail view.
+         :align: center

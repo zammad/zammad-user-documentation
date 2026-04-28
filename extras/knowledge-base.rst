@@ -1,21 +1,21 @@
 ﻿Knowledge Base
 ==============
 
-Manage, edit, and reorganize knowledge base articles from the
-**knowledge base** panel.
+Manage, edit and organize your knowledge base content by opening the
+**Knowledge Base** tab in the navigation sidebar.
 
-This feature is **optional**; if you don't see it in the main menu,
+This feature is optional; if you don't see it in the main menu,
 that means your administrator hasn't enabled it yet. Administrators can learn
-more on our
-:admin-docs:`admin documentation </manage/knowledge-base.html>`.
+more in the
+:admin-docs:`knowledge base section of the admin docs </manage/knowledge-base.html>`.
+
 
 .. figure:: /images/extras/knowledge-base/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
    :align: center
 
-   The knowledge base panel begins in **Preview Mode**.
-   With some small exceptions,
-   Preview Mode shows what the published knowledge base will look like.
+   The knowledge base panel opens in a preview mode by default.
+   This preview mode looks similar to the published knowledge.
 
 Getting Started
 ---------------
@@ -24,21 +24,19 @@ Getting Started
    :alt: Knowledge Base Link to published knowledge base
    :align: center
 
-Use the **↗️ button** in the top toolbar to see the published knowledge base.
+Use the ↗️ button in the top toolbar to see the published knowledge base.
 
 .. figure:: /images/extras/knowledge-base/knowledge-base-edit.png
    :alt: Knowledge Base Edit Mode
    :align: center
 
-   👆 In Edit Mode, use the righthand menu to navigate through the
+   In edit mode, use the menu on the right side to navigate through the
    knowledge base.
 
-Use the **“Edit” button** in the top toolbar to switch into **Edit Mode**
-(and back again). If you can't see the "Edit" button, you should talk to your
+Use the ``Edit`` button in the top toolbar to switch into the edit mode
+(and back again). If you can't see the ``Edit`` button, you should talk to your
 administrator about granting you the appropriate permissions. By default,
-agents are **not permitted to create, edit, or manage knowledge
-base articles**.
-
+agents are not allowed to create, edit, or manage knowledge base articles.
 
 Switching Languages
 -------------------
@@ -52,23 +50,23 @@ Use the language menu to view or edit translations of the current page.
 If you select a language, in which the page hasn't been translated into yet,
 the behavior depends on the state of the page:
 
-in Edit Mode
+In edit mode
    Untranslated pages are marked with a ⚠️ **warning sign**:
 
    .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-edit.png
       :alt: Missing translation warning
       :align: center
 
-in Preview Mode
+In preview mode
    Untranslated pages are only visible to users with
-   **edit permissions**:
+   edit permissions:
 
    .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-preview.png
       :alt: Missing translation warning
       :align: center
 
-in the published knowledge base
-   Untranslated pages are **always hidden**:
+In the published knowledge base
+   Untranslated pages are always hidden:
 
    .. figure:: /images/extras/knowledge-base/knowledge-base-missing-translation-published.png
       :alt: Missing translation warning
@@ -77,9 +75,8 @@ in the published knowledge base
 Using RSS Feeds
 ---------------
 
-Zammad allows you to subscribe to either the knowledge base as whole or to
+Zammad allows you to subscribe to either the knowledge base as a whole or to
 specific categories. There's both a public and an internal option to do so.
-
 By default, RSS feeds are disabled. If you wish to use the RSS function,
 talk to your administrator about enabling the function.
 
@@ -109,8 +106,8 @@ talk to your administrator about enabling the function.
 
       .. warning::
 
-         Keep in mind that internal RSS links contain **personal** access tokens.
-         **Never share these URLs with third parties!**
+         Keep in mind that internal RSS links contain **personal access tokens**.
+         Never share these URLs with third parties!
 
          If you want to revoke the access and renew your token, you can do so
          in the RSS modal.
@@ -127,11 +124,11 @@ Editing Categories
    :alt: Edit category
    :align: center
 
-You can relocate a category using the **Parent** menu. Doing so, all of its
+You can relocate a category using the **Parent** dropdown. Doing so, all of its
 articles and sub-categories will be relocated with it.
 
-You can delete categories by clicking on the 🗑️ **Delete** button. Categories
-can only be deleted once **all of their articles and sub-categories** have been
+You can delete categories by clicking on the ``Delete`` button. Categories
+can only be deleted once all of their articles and sub-categories have been
 deleted or relocated.
 
 Granular Category Permissions
@@ -145,7 +142,7 @@ instead.
 This allows you to divide user groups on a e.g. subscription level to
 reduce the information load for users that don't need the information.
 
-The roles require **knowledge base reader permission**. Your administrator has
+The roles require ``knowledge_base.reader`` permission. Your administrator has
 to provide the relevant groups with reader permissions for the knowledge base.
 If you're unsure, please ask your administrator to configure the
 :admin-docs:`role permissions </manage/roles/agent-permissions.html>`
@@ -167,7 +164,6 @@ If you can't select permissions in the table, this could be the reason.
 
 .. warning::
    * Be aware that public answers are always available!
-
    * Knowledge base reader permission means that affected users can see
      **internal answers**. This is a potential issue if you're not dividing
      carefully!
@@ -190,25 +186,22 @@ Different link types
       URLs pointing to other websites.
 
    💡 **Link Answer**
-      | Internal references to other knowledge base answers.
-      | (Will not break if destination URL changes.)
+      Internal references to other knowledge base answers (will not break if
+      destination URL changes).
 
    📋 **Linked Tickets**
-      | Internal references to Zammad tickets.
-      | (Visible only in Preview and Edit Modes.)
+      Internal references to Zammad tickets (visible only in preview and edit
+      mode).
 
    🏷️ **Tags**
-      | Tags can help categorize or spice answers with further words to find.
-      | Please note that tags are visible publicly and can be the same like
-        those in your tickets.
-
-      .. figure:: /images/extras/tags-in-kb-answers.gif
-         :alt: Screencast showing tags on answers
+      Can help to categorize or label answers to enrich the content for better
+      searchability. Please note that tags are visible publicly and can be the
+      same like those in your tickets.
 
 Visibility
-   Set the **visibility** of an answer to control who can see an article,
+   Set the visibility of an answer to control who can see an article,
    or schedule it to be published at a later date.
-   Articles are **color-coded** according to their visibility:
+   Articles are color-coded according to their visibility:
 
    +-------+--------------------------------------------------------+
    | |grn| | **Public** (visible to everyone)                       |
@@ -234,18 +227,9 @@ Using Answers In Ticket Articles
 --------------------------------
 
 As soon as the knowledge base contains one or more answers, you can use these
-just like text modules. Instead of ``::`` just use ``??`` to open the search
-modal. The search is done full text on both answer body and title in all
-languages available.
-
-If you've found what you've been looking for, simply hit your ENTER-Key
-to load the answer into the ticket article. This way you don't have to throw
-URLs at your customer and provide the answer right away.
-
-Loading answers into articles *does not* replace article content.
-
-.. figure:: /images/extras/knowledge-base/load-kb-answer-into-article.gif
-   :alt: Screencast showing how to insert KB answers into articles
-   :align: center
-
-   Use ``??`` to find and load knowledge base answers into ticket articles
+just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?`:kbd:`?` to
+open the search modal. The search is done full text on both answer body and
+title in all languages available. If you've found what you've been looking for,
+simply press :kbd:`Enter` to load the answer into the ticket article. The
+inserted content does not replace the article's content but is inserted at the
+cursor's position.

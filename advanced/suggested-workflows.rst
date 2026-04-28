@@ -58,29 +58,17 @@ but maybe this is a really important contract,
 and you want to make sure they have an A+ experience from start to finish.
 
 To enable notifications for a ticket that doesn't belong to you,
-simply click the **Subscribe** button at the bottom of the ticket pane:
+simply click the ``Subscribe`` button at the bottom of the ticket sidebar tab:
 
-.. figure:: /images/advanced/suggested-workflows/mention-subscribe-yourself-to-a-ticket.gif
-   :alt: Screencast of the Subscribe button feature
-   :width: 90%
+.. figure:: /images/advanced/suggested-workflows/subscribe.png
+   :alt: Screenshot shows subscribe button in the ticket sidebar tab
    :align: center
 
-   A list of all tickets you're subscribed to
-   can be found in the **My mentioned Tickets** overview.
-
-Or, suppose you *don't* want to reassign the ticket to customer service—you
+Or, suppose you don't want to reassign the ticket to customer service, you
 just have one quick question for them, and then you can take it from there.
-
 To start sending someone else notifications for your own ticket,
-type ``@@`` in the message composer and select their name from the pop-up menu:
-
-.. figure:: /images/advanced/suggested-workflows/mention-other-agents.gif
-   :alt: Screencast of the @mention feature
-   :width: 90%
-   :align: center
-
-   @mentioning a colleague in a message
-   will automatically subscribe them to your ticket.
+type ``@@`` in the message composer and select their name from the pop-up menu.
+This will automatically subscribe them to your ticket.
 
 .. hint:: ⚙️ **Notification settings**
 
