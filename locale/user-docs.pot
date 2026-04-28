@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 16:03+0200\n"
+"POT-Creation-Date: 2026-04-28 07:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -562,50 +562,42 @@ msgid "The simplest way to apply a macro is to select it from the **Update ^** s
 msgstr ""
 
 #: ../advanced/macros.rst:None
-msgid "Screencast showing how to run a macro within a ticket view."
+msgid "Screenshot shows the ticket update menu with to run a macro."
 msgstr ""
 
-#: ../advanced/macros.rst:27
+#: ../advanced/macros.rst:26
 msgid "💾 **Macro = Update**"
 msgstr ""
 
-#: ../advanced/macros.rst:29
+#: ../advanced/macros.rst:28
 msgid "If you've made any changes (including typing up a reply to the customer), applying a macro will save/send them too."
 msgstr ""
 
-#: ../advanced/macros.rst:32
+#: ../advanced/macros.rst:31
 msgid "⚠️ **But beware:** in the event of a conflict, the macro's actions override any manual changes - including messages to the customer! When in doubt, apply your macro and your manual changes *separately.*"
 msgstr ""
 
-#: ../advanced/macros.rst:0
-msgid "Screencast showing above described effect that overwrites articles."
-msgstr ""
-
-#: ../advanced/macros.rst:42
-msgid "If the selected macro adds a note to the ticket, any text entered in the message composer will be lost."
-msgstr ""
-
-#: ../advanced/macros.rst:46
+#: ../advanced/macros.rst:38
 msgid "In Bulk"
 msgstr ""
 
-#: ../advanced/macros.rst:48
+#: ../advanced/macros.rst:40
 msgid "To apply a macro to many tickets at the same time:"
 msgstr ""
 
-#: ../advanced/macros.rst:50
+#: ../advanced/macros.rst:42
 msgid "open a ticket overview;"
 msgstr ""
 
-#: ../advanced/macros.rst:51
+#: ../advanced/macros.rst:43
 msgid "select your desired tickets;"
 msgstr ""
 
-#: ../advanced/macros.rst:52
+#: ../advanced/macros.rst:44
 msgid "click-and-drag to open the “Run Macro” drawer; and"
 msgstr ""
 
-#: ../advanced/macros.rst:53
+#: ../advanced/macros.rst:45
 msgid "drop the tickets on your target macro."
 msgstr ""
 
@@ -613,11 +605,11 @@ msgstr ""
 msgid "Screencast showing how to run macros via overviews."
 msgstr ""
 
-#: ../advanced/macros.rst:60
+#: ../advanced/macros.rst:52
 msgid "☝️ **There's just one difference...** When running a macro from the ticket view, Zammad may automatically open the next ticket (or close the current one, or just stay on it), depending on how the macro was set up."
 msgstr ""
 
-#: ../advanced/macros.rst:65
+#: ../advanced/macros.rst:57
 msgid "When running it from the overviews page, Zammad will always stay on the overviews page."
 msgstr ""
 
@@ -1346,43 +1338,31 @@ msgstr ""
 msgid "You can either scroll through all modules (mouse or direction keys), type the module name or enter a keyword (if keywords are set)."
 msgstr ""
 
-#: ../advanced/text-modules.rst:21
+#: ../advanced/text-modules.rst:19
 msgid "Text Modules Missing?"
 msgstr ""
 
-#: ../advanced/text-modules.rst:23
-msgid "You noticed that some text modules don't always appear?"
+#: ../advanced/text-modules.rst:21
+msgid "You noticed that some text modules don't always appear? Text modules can be tied to **groups**: if that's the case, they are only available once the ticket you're working on has been assigned to the appropriate group. The group dependent text modules are available immediately when a new group has been selected, you don't have to click ``Update``."
 msgstr ""
 
-#: ../advanced/text-modules.rst:25
-msgid "Text modules can be tied to **groups**: that is, they only become active once the ticket you're working on has been assigned to the appropriate group."
+#: ../advanced/text-modules.rst:27
+msgid "But how do you know which groups go with which text modules? Ask your administrator!"
 msgstr ""
 
-#: ../advanced/text-modules.rst:32
-msgid "Group-dependent text modules"
-msgstr ""
-
-#: ../advanced/text-modules.rst:32
-msgid "Text modules are updated immediately when a new group has been selected—no need to click **Update**."
-msgstr ""
-
-#: ../advanced/text-modules.rst:35
-msgid "How do you know which groups go with which text modules? Ask your administrator!"
-msgstr ""
-
-#: ../advanced/text-modules.rst:38
+#: ../advanced/text-modules.rst:31
 msgid "Text Modules on Ticket Creation"
 msgstr ""
 
-#: ../advanced/text-modules.rst:40
+#: ../advanced/text-modules.rst:33
 msgid "You can use text modules on ticket creation as well. On ticket creation, our :ref:`ticket_templates` might get handy too."
 msgstr ""
 
-#: ../advanced/text-modules.rst:44
+#: ../advanced/text-modules.rst:37
 msgid "Customizing Text Modules"
 msgstr ""
 
-#: ../advanced/text-modules.rst:46
+#: ../advanced/text-modules.rst:39
 msgid "Administrators can learn more about customizing text modules :admin-docs:`here </manage/text-modules.html>`."
 msgstr ""
 
@@ -1424,7 +1404,6 @@ msgid "Make sure to have the ticket side panel open. Under the \"Tags\" section 
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:0
-#: ../advanced/ticket-actions/split.rst:None
 msgid "Ticket pane: Links"
 msgstr ""
 
@@ -1548,7 +1527,7 @@ msgid "To split a ticket, simply click on the \"split\" button under the article
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket button"
+msgid "Split ticket buttonTicket pane (tags)"
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:15
@@ -1560,11 +1539,7 @@ msgid "Split ticket dialog"
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:23
-msgid "It is prefilled with the content of the existing article. Remember to select the type (call/email)."
-msgstr ""
-
-#: ../advanced/ticket-actions/split.rst:26
-msgid "The original ticket is :doc:`linked <link>` to the new one, as you can see in the ticket side panel:"
+msgid "It is prefilled with the content of the existing article. Remember to select the type (call/email). The original ticket is :doc:`linked <link>` in the new one and vice versa. You can find the linked tickets in the ticket sidebar tab under **Related tickets**."
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:4
@@ -2106,35 +2081,35 @@ msgid "Tags are custom labels that can be attached to tickets to make it easier 
 msgstr ""
 
 #: ../basics/ticket-basics.rst:None
-msgid "Ticket pane (tags)"
+msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:127
-msgid "To add a tag, click the **Add Tag** button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
+#: ../basics/ticket-basics.rst:126
+msgid "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:134
+#: ../basics/ticket-basics.rst:133
 msgid "Group"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:136
+#: ../basics/ticket-basics.rst:135
 msgid "This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:144
+#: ../basics/ticket-basics.rst:143
 #: ../basics/zammad-glossary.rst:515
 msgid "Owner"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:146
+#: ../basics/ticket-basics.rst:145
 msgid "This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:153
+#: ../basics/ticket-basics.rst:152
 msgid "To change the owner to a person which has only access to another group's tickets, you first have to switch the group accordingly."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:158
+#: ../basics/ticket-basics.rst:157
 msgid "Now that you know the basics, check how to :doc:`create <create-tickets>` or :doc:`work with <work-with-tickets>` tickets."
 msgstr ""
 
