@@ -47,14 +47,14 @@ all unsaved changes are automatically backed up to the server.
 
      .. include:: /snippets/ticket-state-type-circles.rst
 
-   * A **pulsing dot** means that a ticket has new activity since you last
+   * A pulsing dot means that a ticket has new activity since you last
      viewed it.
    * Drag and drop tabs to rearrange them.
 
-Tab Behavior in Ticket Zooms
-----------------------------
+Tab Behavior in Ticket Detail View
+----------------------------------
 
-You may have noticed the "Stay on tab" button next to "Update" on the lower
+You may have noticed the "Stay on tab" button next to ``Update`` on the lower
 right already. This behavior of a tab can be configured by your administrator
 globally. You can overrule this setting based on your personal
 preference.
