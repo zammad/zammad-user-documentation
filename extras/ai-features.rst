@@ -101,7 +101,7 @@ base article for such cases. Doing so helps you and your colleagues to solve
 similar tickets more efficiently in the future and might even reduce the ticket
 volume in the long run when customers can solve their issues by themselves.
 
-To trigger such a generation, click the ``AI generate`` button in the ticket
+To trigger such a generation, click the ``+ AI generate`` button in the ticket
 sidebar of the ticket detail view in the **Related knowledge** section:
 
 .. figure:: /images/extras/ai/kb-answer-ticket-tab.png
