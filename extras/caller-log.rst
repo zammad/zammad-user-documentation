@@ -23,8 +23,8 @@ The caller log offers a lot more than just the last call entries.
 If your administrator configured "Phone Extension to Agent Mapping", Zammad
 will also help you during answering calls.
 
-   New Ticket dialog
-      Zammad will open a new ticket dialogue if:
+   New ticket dialog
+      Zammad will open a new ticket dialog if:
 
          * it's able to either guess a single user (see `maybe entries`_)
          * the callers number belongs to a user known to Zammad

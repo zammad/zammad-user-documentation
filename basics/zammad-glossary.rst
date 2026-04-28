@@ -432,8 +432,8 @@ Macro
    An example of this is declaring a ticket as "spam".
    The manual way here would be to assign an owner, set a status, and add the
    tag "spam". Using a macro, all this can be done in just one action.
-   Macros can be used in the ticket zoom or within an overview
-   (using multiple selection).
+   Macros can be used in the ticket detail view or within an overview as a bulk
+   action.
 
    Administrators can learn more about Macros
    :admin-docs:`in the admin documentation </manage/macros.html>`,
