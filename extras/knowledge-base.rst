@@ -2,7 +2,7 @@
 ==============
 
 Manage, edit and organize your knowledge base content by opening the
-**Knowledge Base** tab in the navigation sidebar.
+``Knowledge Base`` tab in the navigation sidebar.
 
 This feature is optional; if you don't see it in the main menu,
 that means your administrator hasn't enabled it yet. Administrators can learn
