@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 11:01+0200\n"
+"POT-Creation-Date: 2026-04-29 16:40+0200\n"
 "PO-Revision-Date: 2026-04-21 19:02+0000\n"
 "Last-Translator: albanobattistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
@@ -579,58 +579,53 @@ msgid "Macros"
 msgstr "Macros"
 
 #: ../advanced/macros.rst:4
-msgid "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
-msgstr ""
-"Le Macros sono **🖱️ scorciatoie con un click** per applicare modifiche ad un "
-"ticket."
-
-#: ../advanced/macros.rst:6
 msgid ""
-"If you find yourself making the same changes to lots of tickets (*e.g.,* "
-"close-and-tag-as-spam or reassign-to-another-group), macros can make the job "
-"a whole lot easier."
+"If you have many steps you do over and over again, you should use a macro "
+"for that. In such a macro, your admin can pre-define different ticket "
+"actions you can apply with just a click. As an example, Zammad ships a "
+"**Close & Tag as Spam** macro by default. If applied, the user who executes "
+"the macro is assigned as owner, a tag ``spam`` is added and the ticket is "
+"closed. It is even possible to run an :ref:`AI agent <ai-agents>` within a "
+"macro on demand."
 msgstr ""
-"Se ti ritrovi a fare le stesse modifiche a tanti ticket (*es* close-and-tag-"
-"as-spam o riassegna-altro-gruppo), le macro possono renderti il lavoro molto "
-"più facile."
 
-#: ../advanced/macros.rst:10
-msgid ""
-"Macros can be created by your :admin-docs:`administrator </manage/"
-"macros.html>`. If you have an idea for a macro you'd like to use, your "
-"Zammad admin can probably make it happen."
-msgstr ""
-"Le macro possono essere create dal tuo :admin-docs:`amministratore </manage/"
-"macros.html>`. Se hai un'idea per una macro che vorresti utilizzare, il tuo "
-"amministratore di Zammad probabilmente può realizzarla."
-
-#: ../advanced/macros.rst:14
-msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
+#: ../advanced/macros.rst:12
+#, fuzzy
+#| msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
+msgid "Macros can be applied in two ways: on a single ticket or in bulk."
 msgstr ""
 "Le macro possono essere applicate in due modi: su un singolo ticket, o in "
 "blocco."
 
-#: ../advanced/macros.rst:17
+#: ../advanced/macros.rst:15
 msgid "On a Single Ticket"
 msgstr "In un singolo ticket"
 
-#: ../advanced/macros.rst:19
+#: ../advanced/macros.rst:17
+#, fuzzy
+#| msgid ""
+#| "The simplest way to apply a macro is to select it from the **Update ^** "
+#| "submenu in the Ticket View:"
 msgid ""
 "The simplest way to apply a macro is to select it from the **Update ^** "
-"submenu in the Ticket View:"
+"submenu in the ticket detail view:"
 msgstr ""
 "Il modo più semplice per applicare una macro è selezionarla dal sottomenu "
 "**Aggiorna ^** nella Visualizzazione Ticket:"
 
 #: ../advanced/macros.rst:None
-msgid "Screencast showing how to run a macro within a ticket view."
-msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
+#, fuzzy
+#| msgid "Screenshot shows the new ticket dialog."
+msgid "Screenshot shows the ticket update menu with to run a macro."
+msgstr ""
+"Lo screenshot mostra la nuova finestra di dialogo per la creazione del "
+"ticket."
 
-#: ../advanced/macros.rst:27
+#: ../advanced/macros.rst:24
 msgid "💾 **Macro = Update**"
 msgstr "💾 **Macro = Aggiorna**"
 
-#: ../advanced/macros.rst:29
+#: ../advanced/macros.rst:26
 msgid ""
 "If you've made any changes (including typing up a reply to the customer), "
 "applying a macro will save/send them too."
@@ -638,7 +633,7 @@ msgstr ""
 "Se hai fatto modifiche (incluso digitare una risposta al cliente), applicare "
 "una macro salverà/invierà anche quelle."
 
-#: ../advanced/macros.rst:32
+#: ../advanced/macros.rst:29
 msgid ""
 "⚠️ **But beware:** in the event of a conflict, the macro's actions override "
 "any manual changes - including messages to the customer! When in doubt, "
@@ -649,65 +644,57 @@ msgstr ""
 "caso di dubbio, applica la tua macro e le tue modifiche manuali "
 "*separatamente.*"
 
-#: ../advanced/macros.rst:0
-msgid "Screencast showing above described effect that overwrites articles."
-msgstr ""
-"Screencast che mostra l'effetto descritto sopra che sovrascrive gli articoli."
-
-#: ../advanced/macros.rst:42
-msgid ""
-"If the selected macro adds a note to the ticket, any text entered in the "
-"message composer will be lost."
-msgstr ""
-"Se la macro selezionata aggiunge una nota al ticket, qualsiasi testo "
-"inserito nel compositore messaggi verrà perso."
-
-#: ../advanced/macros.rst:46
+#: ../advanced/macros.rst:36
 msgid "In Bulk"
 msgstr "In blocco"
 
-#: ../advanced/macros.rst:48
+#: ../advanced/macros.rst:38
 msgid "To apply a macro to many tickets at the same time:"
 msgstr "Per applicare una macro a più ticket nello stesso momento:"
 
-#: ../advanced/macros.rst:50
-msgid "open a ticket overview;"
+#: ../advanced/macros.rst:40
+#, fuzzy
+#| msgid "open a ticket overview;"
+msgid "Open a ticket overview"
 msgstr "apri una panoramica dei ticket;"
 
-#: ../advanced/macros.rst:51
-msgid "select your desired tickets;"
+#: ../advanced/macros.rst:41
+#, fuzzy
+#| msgid "select your desired tickets;"
+msgid "Select your desired tickets"
 msgstr "seleziona i ticket desiderati;"
 
-#: ../advanced/macros.rst:52
-msgid "click-and-drag to open the “Run Macro” drawer; and"
-msgstr "clicca e trascina per aprire il cassetto \"Esegui Macro\"; e"
+#: ../advanced/macros.rst:42
+msgid "Drag the tickets to the top and hover over the **Run Macro** action"
+msgstr ""
 
-#: ../advanced/macros.rst:53
-msgid "drop the tickets on your target macro."
+#: ../advanced/macros.rst:43
+#, fuzzy
+#| msgid "drop the tickets on your target macro."
+msgid "Drop the tickets on your target macro."
 msgstr "rilascia i ticket nella macro desiderata."
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
 msgstr "Screencast che mostra come eseguire le macro tramite le panoramiche."
 
-#: ../advanced/macros.rst:60
+#: ../advanced/macros.rst:50
+#, fuzzy
+#| msgid ""
+#| "☝️ **There's just one difference...** When running a macro from the ticket "
+#| "view, Zammad may automatically open the next ticket (or close the current "
+#| "one, or just stay on it), depending on how the macro was set up."
 msgid ""
 "☝️ **There's just one difference...** When running a macro from the ticket "
-"view, Zammad may automatically open the next ticket (or close the current "
-"one, or just stay on it), depending on how the macro was set up."
+"detail view, Zammad may automatically open the next ticket (or close the "
+"current one, or just stay on it), depending on how the macro was set up. "
+"When running it from the overviews page, Zammad will always stay on the "
+"overviews page."
 msgstr ""
 "☝️ **C'è solo una differenza...** Quando esegui una macro dalla vista ticket, "
 "Zammad può automaticamente aprire il prossimo ticket (o chiudere quello "
 "attuale, o semplicemente restarci), a seconda di come la macro è stata "
 "configurata."
-
-#: ../advanced/macros.rst:65
-msgid ""
-"When running it from the overviews page, Zammad will always stay on the "
-"overviews page."
-msgstr ""
-"Eseguendola dalla pagina delle panoramiche, Zammad resterà sempre sulla "
-"pagina delle panoramiche."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -1309,59 +1296,38 @@ msgstr ""
 "dall'inizio alla fine."
 
 #: ../advanced/suggested-workflows.rst:60
+#, fuzzy
+#| msgid ""
+#| "To enable notifications for a ticket that doesn't belong to you, simply "
+#| "click the **Subscribe** button at the bottom of the ticket pane:"
 msgid ""
 "To enable notifications for a ticket that doesn't belong to you, simply "
-"click the **Subscribe** button at the bottom of the ticket pane:"
+"click the ``Subscribe`` button at the bottom of the ticket sidebar tab:"
 msgstr ""
 "Per abilitare le notifiche per un ticket che non ti appartiene, clicca "
 "semplicemente il pulsante **Iscriviti** nella parte inferiore del pannello "
 "ticket:"
 
-#: ../advanced/suggested-workflows.rst:68
-msgid "Screencast of the Subscribe button feature"
-msgstr "Screencast della funzionalità del pulsante Iscriviti"
+#: ../advanced/suggested-workflows.rst:None
+#, fuzzy
+#| msgid "Screenshot shows ticket sidebar."
+msgid "Screenshot shows subscribe button in the ticket sidebar tab"
+msgstr "Screenshot che mostra la barra laterale del ticket."
 
-#: ../advanced/suggested-workflows.rst:68
+#: ../advanced/suggested-workflows.rst:67
 msgid ""
-"A list of all tickets you're subscribed to can be found in the **My "
-"mentioned Tickets** overview."
-msgstr ""
-"L'elenco di tutti i ticket a cui sei iscritto è disponibile nella sezione di "
-"riepilogo **I miei ticket menzionati**."
-
-#: ../advanced/suggested-workflows.rst:71
-msgid ""
-"Or, suppose you *don't* want to reassign the ticket to customer service—you "
-"just have one quick question for them, and then you can take it from there."
-msgstr ""
-"Oppure, supponi di *non* voler riassegnare il ticket all'assistenza clienti—"
-"hai solo una domanda veloce per loro, e poi puoi gestirlo tu da lì."
-
-#: ../advanced/suggested-workflows.rst:74
-msgid ""
+"Or, suppose you don't want to reassign the ticket to customer service, you "
+"just have one quick question for them, and then you can take it from there. "
 "To start sending someone else notifications for your own ticket, type ``@@`` "
-"in the message composer and select their name from the pop-up menu:"
+"in the message composer and select their name from the pop-up menu. This "
+"will automatically subscribe them to your ticket."
 msgstr ""
-"Per iniziare a inviare notifiche a qualcun altro per il tuo ticket, digita "
-"``@@`` nel compositore messaggi e seleziona il loro nome dal menu a comparsa:"
 
-#: ../advanced/suggested-workflows.rst:82
-msgid "Screencast of the @mention feature"
-msgstr "Screencast della funzionalità @mention"
-
-#: ../advanced/suggested-workflows.rst:82
-msgid ""
-"@mentioning a colleague in a message will automatically subscribe them to "
-"your ticket."
-msgstr ""
-"@menzionando un collega in un messaggio, quest'ultimo verrà automaticamente "
-"iscritto al tuo ticket."
-
-#: ../advanced/suggested-workflows.rst:85
+#: ../advanced/suggested-workflows.rst:73
 msgid "⚙️ **Notification settings**"
 msgstr "⚙️ **Impostazioni di notifica**"
 
-#: ../advanced/suggested-workflows.rst:87
+#: ../advanced/suggested-workflows.rst:75
 msgid ""
 "Check your :doc:`/extras/profile-and-settings` to customize how you receive "
 "notifications."
@@ -1369,12 +1335,12 @@ msgstr ""
 "Controlla il tuo :doc:`/extras/profile-and-settings` per personalizzare il "
 "modo in cui ricevi le notifiche."
 
-#: ../advanced/suggested-workflows.rst:90
+#: ../advanced/suggested-workflows.rst:78
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
 msgstr ""
 "**Non riesci a vedere un ticket, in cui un collega @ti ha menzionato?**"
 
-#: ../advanced/suggested-workflows.rst:92
+#: ../advanced/suggested-workflows.rst:80
 msgid ""
 "Is the ticket assigned to a group that you don't belong to? @mentions and "
 "subscriptions only work for tickets that you already have access to."
@@ -1383,11 +1349,11 @@ msgstr ""
 "menzioni e gli abbonamenti funzionano solo per i ticket a cui hai già "
 "accesso."
 
-#: ../advanced/suggested-workflows.rst:97
+#: ../advanced/suggested-workflows.rst:85
 msgid "Quickly Assign in Ticket Listings"
 msgstr "Assegnazione rapida negli elenchi ticket"
 
-#: ../advanced/suggested-workflows.rst:99
+#: ../advanced/suggested-workflows.rst:87
 msgid ""
 "Within overviews and detailed searches you can run bulk operations on "
 "tickets. This means you can adjust the following ticket information:"
@@ -1396,23 +1362,23 @@ msgstr ""
 "blocco sui ticket. Questo significa che puoi modificare le seguenti "
 "informazioni del ticket:"
 
-#: ../advanced/suggested-workflows.rst:102
+#: ../advanced/suggested-workflows.rst:90
 msgid "group"
 msgstr "gruppo"
 
-#: ../advanced/suggested-workflows.rst:103
+#: ../advanced/suggested-workflows.rst:91
 msgid "owner"
 msgstr "proprietario"
 
-#: ../advanced/suggested-workflows.rst:104
+#: ../advanced/suggested-workflows.rst:92
 msgid "state (with pending time if applicable)"
 msgstr "stato (con tempo in attesa se applicabile)"
 
-#: ../advanced/suggested-workflows.rst:105
+#: ../advanced/suggested-workflows.rst:93
 msgid "priority"
 msgstr "priorità"
 
-#: ../advanced/suggested-workflows.rst:107
+#: ../advanced/suggested-workflows.rst:95
 msgid ""
 "After pressing \"Confirm\", Zammad also allows you to provide an internal or "
 "public note of why you adjusted the settings."
@@ -1420,7 +1386,7 @@ msgstr ""
 "Dopo aver premuto \"Conferma\", Zammad ti consente anche di fornire una nota "
 "interna o pubblica del motivo per cui hai modificato le impostazioni."
 
-#: ../advanced/suggested-workflows.rst:110
+#: ../advanced/suggested-workflows.rst:98
 msgid ""
 "Zammad *will not* ask for :doc:`time accounting values </advanced/time-"
 "accounting>` in bulk actions."
@@ -1428,7 +1394,7 @@ msgstr ""
 "Zammad *non* chiederà i :doc:`valori di contabilità del tempo </advanced/"
 "time-accounting>` nelle azioni in blocco."
 
-#: ../advanced/suggested-workflows.rst:120
+#: ../advanced/suggested-workflows.rst:108
 msgid "Bulk action via drop-downs:"
 msgstr "Azione in blocco tramite menu a tendina:"
 
@@ -1436,7 +1402,7 @@ msgstr "Azione in blocco tramite menu a tendina:"
 msgid "Bulk operations in overviews and detailed searches"
 msgstr "Operazioni in blocco nelle panoramiche e ricerche dettagliate"
 
-#: ../advanced/suggested-workflows.rst:118
+#: ../advanced/suggested-workflows.rst:106
 msgid ""
 "Use the check boxes in ticket listings to select a bunch of tickets. Now use "
 "below drop-downs to change ticket settings, press confirm and provide a note "
@@ -1446,11 +1412,11 @@ msgstr ""
 "di ticket. Ora usa i menu a tendina qui sotto per modificare le impostazioni "
 "del ticket, premi conferma e fornisci una nota se lo desideri."
 
-#: ../advanced/suggested-workflows.rst:134
+#: ../advanced/suggested-workflows.rst:122
 msgid "Bulk action via drag and drop:"
 msgstr "Azione in blocco tramite trascinamento:"
 
-#: ../advanced/suggested-workflows.rst:123
+#: ../advanced/suggested-workflows.rst:111
 msgid "**🤓 You can change owners and groups even faster 🚀**"
 msgstr "**🤓 Puoi cambiare proprietari e gruppi ancora più velocemente 🚀**"
 
@@ -1463,7 +1429,7 @@ msgstr ""
 "per cambiare\n"
 " il gruppo del ticket o il proprietario"
 
-#: ../advanced/suggested-workflows.rst:130
+#: ../advanced/suggested-workflows.rst:118
 msgid ""
 "Instead of using the drop-downs on the bottom of Zammad, you can also drag "
 "tickets. A new modal will appear and allow you to drop your selection on "
@@ -1476,7 +1442,7 @@ msgstr ""
 "consente di cambiare rapidamente il gruppo e il proprietario senza ulteriori "
 "complicazioni!"
 
-#: ../advanced/suggested-workflows.rst:135
+#: ../advanced/suggested-workflows.rst:123
 msgid "This functionality is only available in ticket overviews."
 msgstr "Questa funzionalità è disponibile solo nelle panoramiche dei ticket."
 
@@ -1485,57 +1451,109 @@ msgid "Tabs"
 msgstr "Schede"
 
 #: ../advanced/tabs.rst:4
+#, fuzzy
+#| msgid ""
+#| "As you click through Zammad, you will see a list of entries appear in the "
+#| "main menu area. These are your **open tabs.** You can freely switch "
+#| "between open tabs without losing your work - all unsaved changes are "
+#| "automatically backed up to the server."
 msgid ""
 "As you click through Zammad, you will see a list of entries appear in the "
-"main menu area. These are your **open tabs.** You can freely switch between "
-"open tabs without losing your work - all unsaved changes are automatically "
-"backed up to the server."
+"navigation sidebar on the left side. These are your open tabs. You can "
+"freely switch between open tabs without losing your work - all unsaved "
+"changes are automatically backed up to the server."
 msgstr ""
 "Mentre clicchi in Zammad, vedrai un elenco di voci apparire nell'area del "
 "menu principale. Queste sono le tue **schede aperte.** Puoi passare "
 "liberamente tra le schede aperte senza perdere il tuo lavoro - tutte le "
 "modifiche non salvate vengono automaticamente salvate sul server."
 
-#: ../advanced/tabs.rst:12
-msgid "Sample view of Tabs"
-msgstr "Vista di esempio delle schede"
-
-#: ../advanced/tabs.rst:12
-msgid ""
-"Tabs appear in the main menu as you visit different parts of the application."
+#: ../advanced/tabs.rst:0
+#, fuzzy
+#| msgid ""
+#| "Screenshot shows the Zammad search with search results in the navigation "
+#| "sidebar."
+msgid "Screenshot shows tabs with highlighting in Zammad's navigation sidebar."
 msgstr ""
-"Le schede appaiono nel menu principale mentre visiti diverse parti "
-"dell'applicazione."
+"Screenshot che mostra la ricerca Zammad con i risultati di ricerca nella "
+"barra laterale di navigazione."
 
-#: ../advanced/tabs.rst:15
-msgid "**What items open in a new “tab”?**"
-msgstr "**Quali elementi si aprono in una nuova “scheda”?**"
-
-#: ../advanced/tabs.rst:17
-msgid "Existing tickets"
-msgstr "Ticket esistenti"
-
-#: ../advanced/tabs.rst:18
-msgid "New tickets"
-msgstr "Nuovi ticket"
-
-#: ../advanced/tabs.rst:19
-msgid "Users"
-msgstr "Utenti"
-
-#: ../advanced/tabs.rst:20 ../extras/organizations.rst:2
-msgid "Organizations"
-msgstr "Organizzazioni"
+#: ../advanced/tabs.rst:16
+msgid ""
+"The following items get opened in a new tab. If you have the item already "
+"open, Zammad switches to this tab instead of opening a duplicate."
+msgstr ""
 
 #: ../advanced/tabs.rst:21
-msgid "Omnisearch"
-msgstr "Ricerca omnicomprensiva"
+#, fuzzy
+#| msgid "Existing tickets"
+msgid "\\1 Existing tickets"
+msgstr "Ticket esistenti"
 
-#: ../advanced/tabs.rst:23
+#: ../advanced/tabs.rst:20
+msgid "When when you open an existing ticket from an overview or the search."
+msgstr ""
+
+#: ../advanced/tabs.rst:25
+#, fuzzy
+#| msgid "New tickets"
+msgid "\\2 New tickets"
+msgstr "Nuovi ticket"
+
+#: ../advanced/tabs.rst:24
+msgid ""
+"When you create a new ticket via the button at the bottom of the navigation "
+"sidebar."
+msgstr ""
+
+#: ../advanced/tabs.rst:29
+#, fuzzy
+#| msgid "Ticket Details"
+msgid "\\3 User Details"
+msgstr "Dettagli Ticket"
+
+#: ../advanced/tabs.rst:28
+msgid ""
+"When you click on a user name or avatar in a ticket to open the user detail "
+"page."
+msgstr ""
+
+#: ../advanced/tabs.rst:33
+#, fuzzy
+#| msgid "Organization Stats"
+msgid "\\4 Organization Details"
+msgstr "Statistiche organizzazione"
+
+#: ../advanced/tabs.rst:32
+msgid ""
+"When you click on an organization name or avatar in a ticket to open the "
+"organization detail page."
+msgstr ""
+
+#: ../advanced/tabs.rst:36
+#, fuzzy
+#| msgid "Open the search"
+msgid "\\5 Detailed search"
+msgstr "Apri la ricerca"
+
+#: ../advanced/tabs.rst:36
+msgid ""
+"When you search for a ticket, user or organization and click on **Show "
+"Search Details**."
+msgstr ""
+
+#: ../advanced/tabs.rst:41 ../basics/zammad-ui.rst:82
+#: ../extras/mobile-view.rst:37 ../extras/mobile-view.rst:59
+#: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:103
+#: ../extras/mobile-view.rst:181 ../extras/mobile-view.rst:202
+msgid "x"
+msgstr "x"
+
+#: ../advanced/tabs.rst:43
 msgid "**🖱️ UI Protip**"
 msgstr "**🖱️ Suggerimento sull'interfaccia utente**"
 
-#: ../advanced/tabs.rst:25
+#: ../advanced/tabs.rst:45
 msgid ":doc:`Ticket states </basics/ticket-basics>` are **color-coded:**"
 msgstr ""
 ":doc:`Ticket states </basics/ticket-basics>` sono **codificati a colori:**"
@@ -1558,7 +1576,7 @@ msgstr ""
 "**In pausa, al momento non è necessaria alcuna azione.** (ad esempio in "
 "sospeso)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:214
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:207
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1576,25 +1594,36 @@ msgstr ""
 "**Azione immediata necessaria** (Il ticket è stato scalato a un livello "
 "superiore a causa di una violazione sul livello di servizio SLA)"
 
-#: ../advanced/tabs.rst:30
+#: ../advanced/tabs.rst:50
+#, fuzzy
+#| msgid ""
+#| "A **pulsing dot** means that a ticket has new activity since you last "
+#| "viewed it."
 msgid ""
-"A **pulsing dot** means that a ticket has new activity since you last viewed "
-"it."
+"A pulsing dot means that a ticket has new activity since you last viewed it."
 msgstr ""
 "Un **punto lampeggiante** indica che un ticket ha registrato nuove attività "
 "dall'ultima volta che lo hai visualizzato."
 
-#: ../advanced/tabs.rst:32
+#: ../advanced/tabs.rst:52
 msgid "Drag and drop tabs to rearrange them."
 msgstr "Trascina e rilascia le schede per riorganizzarle."
 
-#: ../advanced/tabs.rst:35
-msgid "Tab Behavior in Ticket Zooms"
+#: ../advanced/tabs.rst:55
+#, fuzzy
+#| msgid "Tab Behavior in Ticket Zooms"
+msgid "Tab Behavior in Ticket Detail View"
 msgstr "Comportamento della scheda negli zoom dei ticket"
 
-#: ../advanced/tabs.rst:37
+#: ../advanced/tabs.rst:57
+#, fuzzy
+#| msgid ""
+#| "You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
+#| "lower right already. This behavior of a tab can be configured by your "
+#| "administrator globally. You can overrule this setting based on your "
+#| "personal preference."
 msgid ""
-"You may have noticed the \"Stay on tab\" button next to \"Update\" on the "
+"You may have noticed the \"Stay on tab\" button next to ``Update`` on the "
 "lower right already. This behavior of a tab can be configured by your "
 "administrator globally. You can overrule this setting based on your personal "
 "preference."
@@ -1609,7 +1638,7 @@ msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 "Il comportamento della scheda può essere regolato manualmente nei ticket"
 
-#: ../advanced/tabs.rst:46
+#: ../advanced/tabs.rst:66
 msgid ""
 "To overrule your administrator's settings, simply choose the action you "
 "prefer. Zammad will remember this preference until you change its setting."
@@ -1618,11 +1647,11 @@ msgstr ""
 "semplicemente l'azione che preferisci. Zammad ricorderà questa preferenza "
 "finché non ne cambi l'impostazione."
 
-#: ../advanced/tabs.rst:51
+#: ../advanced/tabs.rst:71
 msgid "Close tab"
 msgstr "Chiudi scheda"
 
-#: ../advanced/tabs.rst:50
+#: ../advanced/tabs.rst:70
 msgid ""
 "Upon updating the ticket, Zammad will automatically close the tab. You'll be "
 "returned to the last view that was open."
@@ -1630,11 +1659,11 @@ msgstr ""
 "Al momento dell'aggiornamento del ticket, Zammad chiuderà automaticamente la "
 "scheda. Tornerai all'ultima vista che era aperta."
 
-#: ../advanced/tabs.rst:57
+#: ../advanced/tabs.rst:77
 msgid "Close tab on ticket close"
 msgstr "Chiudi scheda alla chiusura del ticket"
 
-#: ../advanced/tabs.rst:54
+#: ../advanced/tabs.rst:74
 msgid ""
 "Ticket tabs will be closed only if you change the state to \"closed\" upon "
 "ticket update."
@@ -1642,16 +1671,16 @@ msgstr ""
 "Le schede dei ticket verranno chiuse solo se cambi lo stato in \"chiuso\" al "
 "momento dell'aggiornamento del ticket."
 
-#: ../advanced/tabs.rst:57
+#: ../advanced/tabs.rst:77
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 "Questo non si applica agli stati in attesa che finiscono in stati chiusi."
 
-#: ../advanced/tabs.rst:65
+#: ../advanced/tabs.rst:85
 msgid "Next in overview"
 msgstr "Prossimo nella panoramica"
 
-#: ../advanced/tabs.rst:60
+#: ../advanced/tabs.rst:80
 msgid ""
 "If you opened a ticket from any overview, Zammad will jump to the next "
 "ticket in said overview. Zammad recycles the open tab."
@@ -1659,7 +1688,7 @@ msgstr ""
 "Se hai aperto un ticket da qualsiasi panoramica, Zammad passerà al prossimo "
 "ticket in quella panoramica. Zammad ricicla la scheda aperta."
 
-#: ../advanced/tabs.rst:63
+#: ../advanced/tabs.rst:83
 msgid ""
 "This option is only available if you open the ticket from an overview. "
 "Zammad will ignore the setting if you opened the ticket directly and fall "
@@ -1669,19 +1698,19 @@ msgstr ""
 "Zammad ignorerà l'impostazione se hai aperto il ticket direttamente e "
 "tornerà a ``Resta sulla scheda``."
 
-#: ../advanced/tabs.rst:70
+#: ../advanced/tabs.rst:90
 msgid "Stay on tab"
 msgstr "Resta sulla scheda"
 
-#: ../advanced/tabs.rst:68
+#: ../advanced/tabs.rst:88
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr "Aggiornare il ticket non ha alcun effetto sulla scheda."
 
-#: ../advanced/tabs.rst:70
+#: ../advanced/tabs.rst:90
 msgid "*This is the default setting in Zammad installations.*"
 msgstr "*Questa è l'impostazione predefinita nelle installazioni Zammad.*"
 
-#: ../advanced/tabs.rst:72
+#: ../advanced/tabs.rst:92
 msgid ""
 "Now that you are an expert in tab handling, one more thing might be "
 "interesting as well: the maximum number of tabs is 30 due to performance "
@@ -1720,56 +1749,55 @@ msgstr ""
 "semplicemente invio o clicca con il tasto sinistro del mouse e Zammad "
 "inserirà il testo del modulo nel punto dove si trova il cursore."
 
-#: ../advanced/text-modules.rst:15
+#: ../advanced/text-modules.rst:None
 msgid ""
-"You can either scroll through all modules (mouse or direction keys), type "
-"the module name or enter a keyword (if keywords are set)."
+"Screenshot shows text module selection menu in editor after typing \"::\" "
+"followed by \"tf\"."
+msgstr ""
+
+#: ../advanced/text-modules.rst:17
+#, fuzzy
+#| msgid ""
+#| "You can either scroll through all modules (mouse or direction keys), type "
+#| "the module name or enter a keyword (if keywords are set)."
+msgid ""
+"You can either scroll through all modules by using the mouse or arrow keys, "
+"type the name or a keyword (if keywords are set) to find the text module you "
+"want to use."
 msgstr ""
 "Puoi scorrere tutti i moduli (mouse o tasti direzionali), digitare il nome "
 "del modulo o inserire una parola chiave (se le parole chiave sono impostate)."
 
-#: ../advanced/text-modules.rst:21
+#: ../advanced/text-modules.rst:22
 msgid "Text Modules Missing?"
 msgstr "Moduli di testo mancanti?"
 
-#: ../advanced/text-modules.rst:23
-msgid "You noticed that some text modules don't always appear?"
-msgstr "Hai notato che alcuni moduli di testo non appaiono sempre?"
-
-#: ../advanced/text-modules.rst:25
+#: ../advanced/text-modules.rst:24
 msgid ""
-"Text modules can be tied to **groups**: that is, they only become active "
-"once the ticket you're working on has been assigned to the appropriate group."
+"You noticed that some text modules don't always appear? Text modules can be "
+"tied to **groups**: if that's the case, they are only available once the "
+"ticket you're working on has been assigned to the appropriate group. The "
+"group dependent text modules are available immediately when a new group has "
+"been selected, you don't have to click ``Update``."
 msgstr ""
-"I moduli di testo possono essere legati ai **gruppi**: cioè, diventano "
-"attivi solo una volta che il ticket su cui stai lavorando è stato assegnato "
-"al gruppo appropriato."
 
-#: ../advanced/text-modules.rst:32
-msgid "Group-dependent text modules"
-msgstr "Moduli di testo dipendenti dal gruppo"
-
-#: ../advanced/text-modules.rst:32
+#: ../advanced/text-modules.rst:30
+#, fuzzy
+#| msgid ""
+#| "How do you know which groups go with which text modules? Ask your "
+#| "administrator!"
 msgid ""
-"Text modules are updated immediately when a new group has been selected—no "
-"need to click **Update**."
-msgstr ""
-"I moduli di testo vengono aggiornati immediatamente quando è stato "
-"selezionato un nuovo gruppo—non c'è bisogno di cliccare **Aggiorna**."
-
-#: ../advanced/text-modules.rst:35
-msgid ""
-"How do you know which groups go with which text modules? Ask your "
+"But how do you know which groups go with which text modules? Ask your "
 "administrator!"
 msgstr ""
 "Come sai quali gruppi vanno con quali moduli di testo? Chiedi al tuo "
 "amministratore!"
 
-#: ../advanced/text-modules.rst:38
+#: ../advanced/text-modules.rst:34
 msgid "Text Modules on Ticket Creation"
 msgstr "Moduli di testo sulla creazione del ticket"
 
-#: ../advanced/text-modules.rst:40
+#: ../advanced/text-modules.rst:36
 msgid ""
 "You can use text modules on ticket creation as well. On ticket creation, "
 "our :ref:`ticket_templates` might get handy too."
@@ -1778,11 +1806,11 @@ msgstr ""
 "creazione del ticket, anche i nostri :ref:`ticket_templates` potrebbero "
 "essere utili."
 
-#: ../advanced/text-modules.rst:44
+#: ../advanced/text-modules.rst:40
 msgid "Customizing Text Modules"
 msgstr "Personalizzare i moduli di testo"
 
-#: ../advanced/text-modules.rst:46
+#: ../advanced/text-modules.rst:42
 msgid ""
 "Administrators can learn more about customizing text modules :admin-"
 "docs:`here </manage/text-modules.html>`."
@@ -1848,20 +1876,25 @@ msgid "How to link"
 msgstr "Come collegare"
 
 #: ../advanced/ticket-actions/link.rst:19
+#, fuzzy
+#| msgid ""
+#| "Make sure to have the ticket side panel open. Under the \"Tags\" section "
+#| "you can find the \"Links\" section:"
 msgid ""
-"Make sure to have the ticket side panel open. Under the \"Tags\" section you "
-"can find the \"Links\" section:"
+"Make sure to have the ticket side panel open. Under the **Tags** section you "
+"can find the **Related tickets** section:"
 msgstr ""
 "Assicurati di avere il pannello laterale del ticket aperto. Sotto la sezione "
 "\"Etichette\" puoi trovare la sezione \"Collegamenti\":"
 
 #: ../advanced/ticket-actions/link.rst:0
-#: ../advanced/ticket-actions/split.rst:None
 msgid "Ticket pane: Links"
 msgstr "Pannello ticket: Collegamenti"
 
 #: ../advanced/ticket-actions/link.rst:26
-msgid "Click the *➕ Add Link* button to access the link dialog."
+#, fuzzy
+#| msgid "Click the *➕ Add Link* button to access the link dialog."
+msgid "Click the ``+ Link`` button to access the link dialog."
 msgstr "Clicca sul bottone *➕ Aggiungi Link* per aprire la finestra dei link."
 
 #: ../advanced/ticket-actions/link.rst:45 ../advanced/ticket-actions/link.rst:0
@@ -1877,11 +1910,15 @@ msgstr ""
 "alternativa, puoi scegliere dall'elenco qui sotto (vedi 2)."
 
 #: ../advanced/ticket-actions/link.rst:33
-#: ../advanced/ticket-actions/merge.rst:36
+#, fuzzy
+#| msgid ""
+#| "If the customer has an existing ticket, it will show up under \"Recent "
+#| "customer tickets\". You can see your last viewed tickets under \"Recently "
+#| "viewed tickets\" anyway."
 msgid ""
-"If the customer has an existing ticket, it will show up under \"Recent "
-"customer tickets\". You can see your last viewed tickets under \"Recently "
-"viewed tickets\" anyway."
+"If the customer has an existing ticket, it will show up under **Recent "
+"customer tickets**. You can see your last viewed tickets under **Recently "
+"viewed tickets** anyway."
 msgstr ""
 "Se il cliente ha un ticket esistente, apparirà sotto \"Ticket recenti del "
 "cliente\". Puoi vedere i tuoi ultimi ticket visualizzati sotto \"Ticket "
@@ -1982,6 +2019,16 @@ msgstr ""
 "Puoi inserire il numero del ticket in cui vuoi unire quello attuale (vedi "
 "1). In alternativa, puoi scegliere dall'elenco qui sotto (vedi 2)."
 
+#: ../advanced/ticket-actions/merge.rst:36
+msgid ""
+"If the customer has an existing ticket, it will show up under \"Recent "
+"customer tickets\". You can see your last viewed tickets under \"Recently "
+"viewed tickets\" anyway."
+msgstr ""
+"Se il cliente ha un ticket esistente, apparirà sotto \"Ticket recenti del "
+"cliente\". Puoi vedere i tuoi ultimi ticket visualizzati sotto \"Ticket "
+"visualizzati di recente\" in ogni caso."
+
 #: ../advanced/ticket-actions/merge.rst:40
 msgid ""
 "After entering a ticket number or choosing one of the offered tickets from "
@@ -2057,8 +2104,12 @@ msgstr ""
 "l'articolo che vuoi separare:"
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket button"
-msgstr "Pulsante Dividi ticket"
+#, fuzzy
+#| msgid "Screenshot shows ticket sidebar."
+msgid ""
+"Screenshot shows \"split\" button in the ticket detail view next to an "
+"article"
+msgstr "Screenshot che mostra la barra laterale del ticket."
 
 #: ../advanced/ticket-actions/split.rst:15
 msgid ""
@@ -2069,24 +2120,20 @@ msgstr ""
 "di dialogo per creare un nuovo ticket:"
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket dialog"
-msgstr "Finestra di dialogo Dividi ticket"
+#, fuzzy
+#| msgid "Screenshot shows the new ticket dialog."
+msgid "Screenshot shows split ticket dialog"
+msgstr ""
+"Lo screenshot mostra la nuova finestra di dialogo per la creazione del "
+"ticket."
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid ""
 "It is prefilled with the content of the existing article. Remember to select "
-"the type (call/email)."
+"the type (call/email). The original ticket is :doc:`linked <link>` in the "
+"new one and vice versa. You can find the linked tickets in the ticket "
+"sidebar tab under **Related tickets**."
 msgstr ""
-"È precompilato con il contenuto dell'articolo esistente. Ricorda di "
-"selezionare il tipo (chiamata/email)."
-
-#: ../advanced/ticket-actions/split.rst:26
-msgid ""
-"The original ticket is :doc:`linked <link>` to the new one, as you can see "
-"in the ticket side panel:"
-msgstr ""
-"Il ticket originale è :doc:`collegato <link>` a quello nuovo, come puoi "
-"vedere nel pannello laterale del ticket:"
 
 #: ../advanced/ticket-templates.rst:4
 msgid "Ticket Templates"
@@ -2095,87 +2142,76 @@ msgstr "Template Ticket"
 #: ../advanced/ticket-templates.rst:6
 msgid ""
 "If you find yourself creating lots of tickets with the same basic "
-"attributes, use **ticket templates** to fill them in with a single click "
-"next time."
+"attributes, use **ticket templates** to apply them with a single click. "
+"Templates can be used to pre-fill not only the article text. It is also "
+"possible to pre-fill ticket attributes like title, customer, organization, "
+"group, owner, state, priority and tags. Ask your administrator if you think "
+"such a template makes sense for your workflow."
 msgstr ""
-"Se ti ritrovi a creare molti ticket con gli stessi attributi di base di "
-"frequente, usa i **template di ticket** per compilarli con un singolo click "
-"la prossima volta."
 
-#: ../advanced/ticket-templates.rst:13
+#: ../advanced/ticket-templates.rst:None
 msgid "Ticket template selection in new ticket dialog"
 msgstr ""
 "Selezione del template di ticket nella finestra di dialogo del nuovo ticket"
 
-#: ../advanced/ticket-templates.rst:13
-msgid "Use the ticket pane to load ticket templates."
-msgstr "Usa il pannello ticket per caricare i template di ticket."
-
-#: ../advanced/ticket-templates.rst:15
+#: ../advanced/ticket-templates.rst:17
 msgid ""
-"On any *new ticket* dialogue use the 🗒️ tab on the right to display the "
-"*Templates* column. If Zammad has any templates for you to apply, you'll be "
-"provided with a drop down list to choose from."
+"In any **New Ticket** dialog, the right sidebar will display the "
+"**Templates** tab if the feature is enabled and a template present. You can "
+"choose from a drop down list to select the desired template. Select a "
+"fitting template and click ``Apply``. The configured ticket fields will be "
+"populated with the data from the template."
 msgstr ""
-"In qualsiasi finestra di dialogo *nuovo ticket* usa la scheda 🗒️ sulla destra "
-"per visualizzare la colonna *Template*. Se Zammad ha template da applicare, "
-"ti verrà fornita una lista a tendina da cui scegliere."
 
-#: ../advanced/ticket-templates.rst:19
-msgid ""
-"Select a fitting template and press *Apply*. The configured ticket fields "
-"will be populated with the data from the template."
-msgstr ""
-"Seleziona un template adatto e premi *Applica*. I campi del ticket "
-"configurati verranno popolati con i dati dal template."
-
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:26
 msgid "Field collisions"
 msgstr "Collisioni di campi"
 
-#: ../advanced/ticket-templates.rst:23
+#: ../advanced/ticket-templates.rst:24
+#, fuzzy
+#| msgid ""
+#| "Starting with version 5.3, Zammad is able to detect \"field collisions\". "
+#| "This means: If you previously filled in data in a field that's supposed "
+#| "to be filled by the template, Zammad *will not* overwrite the field with "
+#| "the template data."
 msgid ""
-"Starting with version 5.3, Zammad is able to detect \"field collisions\". "
-"This means: If you previously filled in data in a field that's supposed to "
-"be filled by the template, Zammad *will not* overwrite the field with the "
-"template data."
+"Zammad detects field collisions. This means: If you already filled in data "
+"in a field that would be filled by the template, Zammad will not overwrite "
+"the data present."
 msgstr ""
 "A partire dalla versione 5.3, Zammad è in grado di rilevare le \"collisioni "
 "di campi\". Questo significa: Se hai precedentemente riempito dati in un "
 "campo che dovrebbe essere riempito dal template, Zammad *non* sovrascriverà "
 "il campo con i dati del template."
 
-#: ../advanced/ticket-templates.rst:28
-msgid ""
-"Instead it will keep your version of the field. This allows you to e.g. fill "
-"in the customer before applying the template. 🎉"
-msgstr ""
-"Invece manterrà la tua versione del campo. Questo ti consente ad es. di "
-"riempire il cliente prima di applicare il template. 🎉"
-
-#: ../advanced/ticket-templates.rst:39
+#: ../advanced/ticket-templates.rst:33
 msgid "Can't add or adjust templates?"
 msgstr "Non riesci ad aggiungere o modificare template?"
 
-#: ../advanced/ticket-templates.rst:32
+#: ../advanced/ticket-templates.rst:29
+#, fuzzy
+#| msgid ""
+#| "Managing templates requires additional permissions. Please ask your "
+#| "administrator to provide you with the needed permission."
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
-"administrator to provide you with the needed permission."
+"administrator to provide you with the needed permission or to create or "
+"adjust a template for you."
 msgstr ""
 "Gestire i template richiede permessi aggiuntivi. Per favore chiedi al tuo "
 "amministratore di fornirti i permessi necessari."
 
-#: ../advanced/ticket-templates.rst:35
+#: ../advanced/ticket-templates.rst:33
+#, fuzzy
+#| msgid ""
+#| "Learn more about ticket templates :admin-docs:`in the admin documentation "
+#| "</manage/templates.html>`."
 msgid ""
-"Learn more about ticket templates :admin-docs:`in the admin documentation </"
-"manage/templates.html>`."
+"Admins can learn more in the :admin-docs:`ticket templates section of the "
+"admin docs </manage/templates.html>`."
 msgstr ""
 "Scopri di più sui template di ticket :admin-docs:`nella documentazione per "
 "amministratori </manage/templates.html>`."
-
-#: ../advanced/ticket-templates.rst:38
-msgid "This permission was introduced with Zammad 5.3."
-msgstr "Questo permesso è stato introdotto con Zammad 5.3."
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
@@ -2465,11 +2501,11 @@ msgid ""
 "options in the bubble menu. This menu automatically appears when selecting "
 "text and looks like this:"
 msgstr ""
-"Applica la formattazione utilizzando le scorciatoie da tastiera integrate  "
-":doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` oppure selezionando "
-"il testo e scegliendo tra le opzioni di formattazione nel menu a comparsa. "
-"Questo menu appare automaticamente quando si seleziona il testo e ha questo "
-"aspetto:"
+"Applica la formattazione utilizzando le scorciatoie da tastiera "
+"integrate  :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` oppure "
+"selezionando il testo e scegliendo tra le opzioni di formattazione nel menu "
+"a comparsa. Questo menu appare automaticamente quando si seleziona il testo "
+"e ha questo aspetto:"
 
 #: ../snippets/editor-features.rst:11
 msgid ""
@@ -2531,12 +2567,19 @@ msgstr ""
 "dettagli sono trattati in una pagina di panoramica separata."
 
 #: ../basics/find-tickets.rst:15
+#, fuzzy
+#| msgid ""
+#| "You can either open it by clicking the **Overviews** button in the "
+#| "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
+#| "overviews as some kind of ticket lists. By default, there are some built "
+#| "in overviews. For example, there is an overview called \"Unassigned & "
+#| "Open Tickets\" which might be a good starting point."
 msgid ""
-"You can either open it by clicking the **Overviews** button in the "
+"You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
 "overviews as some kind of ticket lists. By default, there are some built in "
-"overviews. For example, there is an overview called \"Unassigned & Open "
-"Tickets\" which might be a good starting point."
+"overviews. For example, there is an overview called **Unassigned & Open "
+"Tickets** which might be a good starting point."
 msgstr ""
 "Puoi aprirlo cliccando il pulsante **Panoramiche** nella barra di "
 "navigazione o usando la scorciatoia da tastiera :kbd:`o`. Puoi pensare alle "
@@ -2599,7 +2642,9 @@ msgid "Sample view of Overviews"
 msgstr "Visualizzazione d'esempio delle Panoramiche"
 
 #: ../basics/find-tickets.rst:40
-msgid "Click **Overviews** in the main menu to browse tickets."
+#, fuzzy
+#| msgid "Click **Overviews** in the main menu to browse tickets."
+msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr "Clicca **Panoramiche** nel menù principale per visualizzare i ticket."
 
 #: ../basics/find-tickets.rst:42
@@ -3041,12 +3086,22 @@ msgstr ""
 "etichette sotto i campi degli attributi."
 
 #: ../basics/ticket-basics.rst:None
-msgid "Ticket pane (tags)"
-msgstr "Pannello ticket (etichette)"
+#, fuzzy
+#| msgid "Screenshot showing different sections in the reporting screen"
+msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
+msgstr "Screenshot che mostra le diverse sezioni nella schermata di reporting"
 
-#: ../basics/ticket-basics.rst:127
+#: ../basics/ticket-basics.rst:126
+#, fuzzy
+#| msgid ""
+#| "To add a tag, click the **Add Tag** button. Depending on your Zammad's "
+#| "configuration, you can create new tags by simply type and confirm them "
+#| "with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already "
+#| "available tags. Start typing and you see a list with matching "
+#| "suggestions. To remove it, click the ``X`` button on the right side of "
+#| "the tab."
 msgid ""
-"To add a tag, click the **Add Tag** button. Depending on your Zammad's "
+"To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
 "with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already "
 "available tags. Start typing and you see a list with matching suggestions. "
@@ -3059,11 +3114,11 @@ msgstr ""
 "vedi un elenco con suggerimenti corrispondenti. Per rimuoverla, clicca il "
 "pulsante ``X`` sul lato destro dell'etichetta."
 
-#: ../basics/ticket-basics.rst:134
+#: ../basics/ticket-basics.rst:133
 msgid "Group"
 msgstr "Gruppo"
 
-#: ../basics/ticket-basics.rst:136
+#: ../basics/ticket-basics.rst:135
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -3079,11 +3134,11 @@ msgstr ""
 "il campo gruppo, o c'è solo un gruppo nel tuo sistema Zammad o non hai il "
 "permesso di creare un ticket in altri gruppi."
 
-#: ../basics/ticket-basics.rst:144 ../basics/zammad-glossary.rst:515
+#: ../basics/ticket-basics.rst:143 ../basics/zammad-glossary.rst:515
 msgid "Owner"
 msgstr "Proprietario"
 
-#: ../basics/ticket-basics.rst:146
+#: ../basics/ticket-basics.rst:145
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -3098,7 +3153,7 @@ msgstr ""
 "l'utente viene notificato ed è automaticamente iscritto a ricevere notifiche "
 "sugli aggiornamenti del ticket."
 
-#: ../basics/ticket-basics.rst:153
+#: ../basics/ticket-basics.rst:152
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
@@ -3106,7 +3161,7 @@ msgstr ""
 "Per cambiare il proprietario in una persona che ha accesso solo ai ticket di "
 "un altro gruppo, devi prima cambiare il gruppo di conseguenza."
 
-#: ../basics/ticket-basics.rst:158
+#: ../basics/ticket-basics.rst:157
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -4712,11 +4767,17 @@ msgstr ""
 "di tempo e assicura che nessun passaggio venga dimenticato."
 
 #: ../basics/zammad-glossary.rst:432
+#, fuzzy
+#| msgid ""
+#| "An example of this is declaring a ticket as \"spam\". The manual way here "
+#| "would be to assign an owner, set a status, and add the tag \"spam\". "
+#| "Using a macro, all this can be done in just one action. Macros can be "
+#| "used in the ticket zoom or within an overview (using multiple selection)."
 msgid ""
 "An example of this is declaring a ticket as \"spam\". The manual way here "
 "would be to assign an owner, set a status, and add the tag \"spam\". Using a "
 "macro, all this can be done in just one action. Macros can be used in the "
-"ticket zoom or within an overview (using multiple selection)."
+"ticket detail view or within an overview as a bulk action."
 msgstr ""
 "Un esempio di questo è dichiarare un ticket come \"spam\". Il modo manuale "
 "qui sarebbe assegnare un proprietario, impostare uno stato, e aggiungere il "
@@ -4840,7 +4901,7 @@ msgstr ""
 "zammad.com/en/product/features/nagios-integration>`_."
 
 #: ../basics/zammad-glossary.rst:490 ../extras/mobile-view.rst:91
-#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:111
+#: ../extras/profile-and-settings.rst:0 ../extras/profile-and-settings.rst:108
 msgid "Notifications"
 msgstr "Notifiche"
 
@@ -5721,13 +5782,6 @@ msgstr ""
 "permessi aggiuntivi, potrebbero esserci anche un pulsante impostazioni e uno "
 "reporting."
 
-#: ../basics/zammad-ui.rst:82 ../extras/mobile-view.rst:37
-#: ../extras/mobile-view.rst:59 ../extras/mobile-view.rst:81
-#: ../extras/mobile-view.rst:103 ../extras/mobile-view.rst:181
-#: ../extras/mobile-view.rst:202
-msgid "x"
-msgstr "x"
-
 #: ../basics/zammad-ui.rst:87
 msgid ""
 "The sidebar on the right side displays all ticket relevant information and "
@@ -5858,10 +5912,25 @@ msgstr ""
 "se sei soddisfatto del risultato dell'IA."
 
 #: ../extras/ai-features.rst:23
+#, fuzzy
+#| msgid ""
+#| "Always double-check the response. Although the feature was carefully "
+#| "developed, there may still be minor problems in individual cases due to "
+#| "the nature of neural networks."
+msgid ""
+"Always double-check the AI responses. Although the features were developed "
+"carefully, there still might be minor inaccuracies in individual cases due "
+"to the nature of neural networks."
+msgstr ""
+"Controlla sempre due volte la risposta. Anche se la funzionalità è stata "
+"sviluppata con cura, possono esserci ancora problemi minori in casi "
+"individuali a causa della natura delle reti neurali."
+
+#: ../extras/ai-features.rst:28
 msgid "Ticket Summary"
 msgstr "Riepilogo Ticket"
 
-#: ../extras/ai-features.rst:25
+#: ../extras/ai-features.rst:30
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
@@ -5871,7 +5940,7 @@ msgstr ""
 "contenuto del ticket. Questo può far risparmiare un sacco di tempo quando si "
 "tratta di ticket grandi e/o molti passaggi di consegna tra agenti."
 
-#: ../extras/ai-features.rst:29
+#: ../extras/ai-features.rst:34
 msgid ""
 "If the feature is activated, a summary of the ticket is generated when the "
 "ticket got updated and you either open the ticket or open the summary "
@@ -5881,7 +5950,7 @@ msgstr ""
 "il ticket viene aggiornato e tu apri il ticket o apri la scheda riepilogo "
 "della sidebar del ticket, a seconda della configurazione."
 
-#: ../extras/ai-features.rst:33
+#: ../extras/ai-features.rst:38
 msgid ""
 "If there is a new summary, you can see a small pulsing indicator on the "
 "summary sidebar tab. This indicator is only displayed if the changes were "
@@ -5900,7 +5969,7 @@ msgstr ""
 "Screenshot che mostra la vista dettaglio ticket di Zammad con il banner "
 "riepilogo ticket evidenziato e la sidebar riepilogo"
 
-#: ../extras/ai-features.rst:40
+#: ../extras/ai-features.rst:45
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5908,31 +5977,31 @@ msgstr ""
 "A seconda della configurazione della tua istanza Zammad, il riepilogo "
 "include le seguenti sezioni:"
 
-#: ../extras/ai-features.rst:43
+#: ../extras/ai-features.rst:48
 msgid "Customer intent"
 msgstr "Intenzione cliente"
 
-#: ../extras/ai-features.rst:44
+#: ../extras/ai-features.rst:49
 msgid "Conversation summary"
 msgstr "Riepilogo conversazione"
 
-#: ../extras/ai-features.rst:45
+#: ../extras/ai-features.rst:50
 msgid "Open questions (optional)"
 msgstr "Domande aperte (opzionale)"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:51
 msgid "Upcoming events (optional)"
 msgstr "Eventi imminenti (opzionale)"
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:52
 msgid "Customer sentiment (optional)"
 msgstr "Sentiment cliente (opzionale)"
 
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:55
 msgid "Writing Assistant Tools"
 msgstr "Strumenti Assistente di Scrittura"
 
-#: ../extras/ai-features.rst:52
+#: ../extras/ai-features.rst:57
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -5955,7 +6024,7 @@ msgstr ""
 "Screenshot che mostra testo selezionato nell'editor con menu strumenti "
 "assistente di scrittura aperto"
 
-#: ../extras/ai-features.rst:62
+#: ../extras/ai-features.rst:67
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
@@ -5966,7 +6035,7 @@ msgstr ""
 "Potresti anche avere strumenti personalizzati aggiuntivi nel caso in cui il "
 "tuo amministratore li abbia aggiunti."
 
-#: ../extras/ai-features.rst:66
+#: ../extras/ai-features.rst:71
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "tries to elaborate a proper text. It tries to add a structure and to enhance "
@@ -5981,7 +6050,7 @@ msgstr ""
 "base (ad esempio tramite punti elenco) e lasciando che l'AI scriva la "
 "risposta."
 
-#: ../extras/ai-features.rst:71
+#: ../extras/ai-features.rst:76
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
@@ -5989,7 +6058,7 @@ msgstr ""
 "**Correggi ortografia e grammatica**: Rilegge il tuo testo e rimuove errori "
 "di ortografia e grammatica."
 
-#: ../extras/ai-features.rst:73
+#: ../extras/ai-features.rst:78
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
@@ -5997,7 +6066,7 @@ msgstr ""
 "**Riassumi sezione a circa metà della dimensione attuale**: Riduce il tuo "
 "testo mantenendo il messaggio e il tono del testo."
 
-#: ../extras/ai-features.rst:75
+#: ../extras/ai-features.rst:80
 msgid ""
 "**Rewrite complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
@@ -6005,7 +6074,7 @@ msgstr ""
 "**Riscrivi sezione complessa e rendila facile da capire**: Rimuove parti non "
 "necessarie e riscrivi il tuo testo in modo chiaro e comprensibile."
 
-#: ../extras/ai-features.rst:78
+#: ../extras/ai-features.rst:83
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -6017,7 +6086,7 @@ msgstr ""
 msgid "Screenshots shows AI suggestion dialog"
 msgstr "Screenshot che mostra la finestra di dialogo suggerimento AI"
 
-#: ../extras/ai-features.rst:85
+#: ../extras/ai-features.rst:90
 msgid ""
 "Click on the **Approve** button to accept the changes and to insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
@@ -6027,21 +6096,89 @@ msgstr ""
 "nell'articolo. Dopo aver accettato il suggerimento, puoi ancora modificare "
 "il testo nell'editor dell'articolo."
 
-#: ../extras/ai-features.rst:90
-msgid ""
-"Always double-check the response. Although the feature was carefully "
-"developed, there may still be minor problems in individual cases due to the "
-"nature of neural networks."
-msgstr ""
-"Controlla sempre due volte la risposta. Anche se la funzionalità è stata "
-"sviluppata con cura, possono esserci ancora problemi minori in casi "
-"individuali a causa della natura delle reti neurali."
-
 #: ../extras/ai-features.rst:95
+#, fuzzy
+#| msgid "Knowledge Base Preview Mode"
+msgid "Knowledge Base Answer Generation"
+msgstr "Modalità Anteprima Knowledge Base"
+
+#: ../extras/ai-features.rst:97
+msgid ""
+"This feature allows you to trigger an AI-based generation of "
+"a :doc:`knowledge base <knowledge-base>` answer out of a ticket. This can be "
+"useful if you often get similar tickets and want to quickly create a "
+"knowledge base article for such cases. Doing so helps you and your "
+"colleagues to solve similar tickets more efficiently in the future and might "
+"even reduce the ticket volume in the long run when customers can solve their "
+"issues by themselves."
+msgstr ""
+
+#: ../extras/ai-features.rst:104
+#, fuzzy
+#| msgid "Ticket Information"
+msgid "Important information:"
+msgstr "Informazioni Ticket"
+
+#: ../extras/ai-features.rst:106
+msgid ""
+"The knowledge base answer is generated as draft and doesn't get published "
+"automatically."
+msgstr ""
+
+#: ../extras/ai-features.rst:108
+msgid ""
+"The user who triggered the generation is set as the author of the answer."
+msgstr ""
+
+#: ../extras/ai-features.rst:109
+msgid ""
+"The answer is generated in the configured default language of your knowledge "
+"base."
+msgstr ""
+
+#: ../extras/ai-features.rst:111
+msgid ""
+"The answer includes a note in the content and a tag (``ai-generated``) about "
+"the AI generation."
+msgstr ""
+
+#: ../extras/ai-features.rst:113
+msgid ""
+"A link to the answer is added to the ticket from which the answer generation "
+"was triggered."
+msgstr ""
+
+#: ../extras/ai-features.rst:115
+msgid ""
+"The AI request includes a list of the knowledge base categories in which the "
+"triggering user has editor permissions. The AI then chooses one of these "
+"categories."
+msgstr ""
+
+#: ../extras/ai-features.rst:119
+msgid ""
+"To trigger such a generation, click the ``+ AI generate`` button in the "
+"ticket sidebar of the ticket detail view in the **Related knowledge** "
+"section:"
+msgstr ""
+
+#: ../extras/ai-features.rst:None
+msgid "KB answer generation in ticket tab"
+msgstr ""
+
+#: ../extras/ai-features.rst:126
+msgid ""
+"Always make sure to check the generated answer. This is especially important "
+"if you want to publish the article. Even though the AI is instructed to "
+"remove personal and/or company-specific information, it can't be guaranteed "
+"that this is the case."
+msgstr ""
+
+#: ../extras/ai-features.rst:134
 msgid "AI Agents"
 msgstr "Agenti AI"
 
-#: ../extras/ai-features.rst:97
+#: ../extras/ai-features.rst:136
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes but if configured, you may "
@@ -6058,11 +6195,11 @@ msgstr ""
 "amministratore per i dettagli e dai un'occhiata alla :doc:`pagina macro </"
 "advanced/macros>` come usarla."
 
-#: ../extras/ai-features.rst:112
+#: ../extras/ai-features.rst:151
 msgid "Ticket history"
 msgstr "Cronologia ticket"
 
-#: ../extras/ai-features.rst:105
+#: ../extras/ai-features.rst:144
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6073,7 +6210,7 @@ msgstr ""
 "continui con ciò che l'agente AI ha fatto, informa il tuo amministratore "
 "Zammad."
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:148
 msgid "Example of a history entry of an AI agent:"
 msgstr "Esempio di una voce di cronologia di un agente AI:"
 
@@ -6081,11 +6218,11 @@ msgstr "Esempio di una voce di cronologia di un agente AI:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "Screenshot che mostra la voce di cronologia ticket agente AI"
 
-#: ../extras/ai-features.rst:123
+#: ../extras/ai-features.rst:162
 msgid "Simultaneous work detection"
 msgstr "Rilevamento lavoro simultaneo"
 
-#: ../extras/ai-features.rst:115
+#: ../extras/ai-features.rst:154
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -6097,7 +6234,7 @@ msgstr ""
 "aiuta ad evitare lavoro duplicato oltre a perdere modifiche non salvate. Se "
 "vedi un avatar agente AI, aspetta un momento o passa a un altro ticket."
 
-#: ../extras/ai-features.rst:120
+#: ../extras/ai-features.rst:159
 msgid "Avatar of AI agent:"
 msgstr "Avatar agente AI:"
 
@@ -6105,11 +6242,11 @@ msgstr "Avatar agente AI:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "Screenshot che mostra l'avatar di un agente AI"
 
-#: ../extras/ai-features.rst:129
+#: ../extras/ai-features.rst:168
 msgid "Overview indicator"
 msgstr "Indicatore panoramica"
 
-#: ../extras/ai-features.rst:126
+#: ../extras/ai-features.rst:165
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -6177,11 +6314,15 @@ msgstr ""
 "Agente\", Zammad ti aiuterà anche durante la risposta alle chiamate."
 
 #: ../extras/caller-log.rst:34
-msgid "New Ticket dialog"
+#, fuzzy
+#| msgid "New Ticket dialog"
+msgid "New ticket dialog"
 msgstr "Finestra di dialogo Nuovo Ticket"
 
 #: ../extras/caller-log.rst:27
-msgid "Zammad will open a new ticket dialogue if:"
+#, fuzzy
+#| msgid "Zammad will open a new ticket dialogue if:"
+msgid "Zammad will open a new ticket dialog if:"
 msgstr "Zammad aprirà una finestra di dialogo nuovo ticket se:"
 
 #: ../extras/caller-log.rst:29
@@ -7173,33 +7314,48 @@ msgstr ""
 "Zammad si aspetta che la bozza non sia più necessaria."
 
 #: ../extras/knowledge-base.rst:4
+#, fuzzy
+#| msgid ""
+#| "Manage, edit, and reorganize knowledge base articles from the **knowledge "
+#| "base** panel."
 msgid ""
-"Manage, edit, and reorganize knowledge base articles from the **knowledge "
-"base** panel."
+"Manage, edit and organize your knowledge base content by opening the "
+"``Knowledge Base`` tab in the navigation sidebar."
 msgstr ""
 "Gestisci, modifica e riorganizza gli articoli della knowledge base dal "
 "pannello **knowledge base**."
 
 #: ../extras/knowledge-base.rst:7
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don't see it in the main menu, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more on our :admin-docs:`admin documentation </manage/knowledge-"
+#| "base.html>`."
 msgid ""
-"This feature is **optional**; if you don't see it in the main menu, that "
-"means your administrator hasn't enabled it yet. Administrators can learn "
-"more on our :admin-docs:`admin documentation </manage/knowledge-base.html>`."
+"This feature is optional; if you don't see it in the main menu, that means "
+"your administrator hasn't enabled it yet. Administrators can learn more in "
+"the :admin-docs:`knowledge base section of the admin docs </manage/knowledge-"
+"base.html>`."
 msgstr ""
 "Questa funzione è **opzionale**; se non la vedi nel menu principale, "
 "significa che il tuo amministratore non l'ha ancora abilitata. Gli "
 "amministratori possono saperne di più sulla nostra :admin-"
 "docs:`documentazione admin </manage/knowledge-base.html>`."
 
-#: ../extras/knowledge-base.rst:16
+#: ../extras/knowledge-base.rst:17
 msgid "Knowledge Base Preview Mode"
 msgstr "Modalità Anteprima Knowledge Base"
 
-#: ../extras/knowledge-base.rst:16
+#: ../extras/knowledge-base.rst:17
+#, fuzzy
+#| msgid ""
+#| "The knowledge base panel begins in **Preview Mode**. With some small "
+#| "exceptions, Preview Mode shows what the published knowledge base will "
+#| "look like."
 msgid ""
-"The knowledge base panel begins in **Preview Mode**. With some small "
-"exceptions, Preview Mode shows what the published knowledge base will look "
-"like."
+"The knowledge base panel opens in a preview mode by default. This preview "
+"mode looks similar to the published knowledge."
 msgstr ""
 "Il pannello knowledge base inizia in **Modalità Anteprima**. Con alcune "
 "piccole eccezioni, la Modalità Anteprima mostra come apparirà la knowledge "
@@ -7214,8 +7370,12 @@ msgid "Knowledge Base Link to published knowledge base"
 msgstr "Link Knowledge Base alla knowledge base pubblicata"
 
 #: ../extras/knowledge-base.rst:27
+#, fuzzy
+#| msgid ""
+#| "Use the **↗️ button** in the top toolbar to see the published knowledge "
+#| "base."
 msgid ""
-"Use the **↗️ button** in the top toolbar to see the published knowledge base."
+"Use the ↗️ button in the top toolbar to see the published knowledge base."
 msgstr ""
 "Usa il **pulsante ↗️** nella barra degli strumenti in alto per vedere la "
 "knowledge base pubblicata."
@@ -7225,20 +7385,30 @@ msgid "Knowledge Base Edit Mode"
 msgstr "Modalità Modifica Knowledge Base"
 
 #: ../extras/knowledge-base.rst:33
+#, fuzzy
+#| msgid ""
+#| "👆 In Edit Mode, use the righthand menu to navigate through the knowledge "
+#| "base."
 msgid ""
-"👆 In Edit Mode, use the righthand menu to navigate through the knowledge "
-"base."
+"In edit mode, use the menu on the right side to navigate through the "
+"knowledge base."
 msgstr ""
 "👆 In Modalità Modifica, usa il menu di destra per navigare attraverso la "
 "knowledge base."
 
 #: ../extras/knowledge-base.rst:36
+#, fuzzy
+#| msgid ""
+#| "Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** "
+#| "(and back again). If you can't see the \"Edit\" button, you should talk "
+#| "to your administrator about granting you the appropriate permissions. By "
+#| "default, agents are **not permitted to create, edit, or manage knowledge "
+#| "base articles**."
 msgid ""
-"Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** "
-"(and back again). If you can't see the \"Edit\" button, you should talk to "
-"your administrator about granting you the appropriate permissions. By "
-"default, agents are **not permitted to create, edit, or manage knowledge "
-"base articles**."
+"Use the ``Edit`` button in the top toolbar to switch into the edit mode (and "
+"back again). If you can't see the ``Edit`` button, you should talk to your "
+"administrator about granting you the appropriate permissions. By default, "
+"agents are not allowed to create, edit, or manage knowledge base articles."
 msgstr ""
 "Usa il **pulsante \"Modifica\"** nella barra degli strumenti in alto per "
 "passare alla **Modalità Modifica** (e tornare indietro). Se non vedi il "
@@ -7246,7 +7416,7 @@ msgstr ""
 "concedere i permessi appropriati. Di default, gli agenti **non sono "
 "autorizzati a creare, modificare o gestire articoli della knowledge base**."
 
-#: ../extras/knowledge-base.rst:44
+#: ../extras/knowledge-base.rst:42
 msgid "Switching Languages"
 msgstr "Cambiare Lingua"
 
@@ -7254,13 +7424,13 @@ msgstr "Cambiare Lingua"
 msgid "Switch languages"
 msgstr "Cambia lingua"
 
-#: ../extras/knowledge-base.rst:50
+#: ../extras/knowledge-base.rst:48
 msgid "Use the language menu to view or edit translations of the current page."
 msgstr ""
 "Usa il menu lingua per visualizzare o modificare le traduzioni della pagina "
 "corrente."
 
-#: ../extras/knowledge-base.rst:52
+#: ../extras/knowledge-base.rst:50
 msgid ""
 "If you select a language, in which the page hasn't been translated into yet, "
 "the behavior depends on the state of the page:"
@@ -7268,11 +7438,13 @@ msgstr ""
 "Se selezioni una lingua in cui la pagina non è ancora stata tradotta, il "
 "comportamento dipende dallo stato della pagina:"
 
-#: ../extras/knowledge-base.rst:60
-msgid "in Edit Mode"
+#: ../extras/knowledge-base.rst:58
+#, fuzzy
+#| msgid "in Edit Mode"
+msgid "In edit mode"
 msgstr "in Modalità Modifica"
 
-#: ../extras/knowledge-base.rst:56
+#: ../extras/knowledge-base.rst:54
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
 msgstr ""
 "Le pagine non tradotte sono marcate con un ⚠️ **segnale di avvertimento**:"
@@ -7281,49 +7453,57 @@ msgstr ""
 msgid "Missing translation warning"
 msgstr "Avviso traduzione mancante"
 
-#: ../extras/knowledge-base.rst:68
-msgid "in Preview Mode"
+#: ../extras/knowledge-base.rst:66
+#, fuzzy
+#| msgid "in Preview Mode"
+msgid "In preview mode"
 msgstr "in Modalità Anteprima"
 
-#: ../extras/knowledge-base.rst:63
-msgid "Untranslated pages are only visible to users with **edit permissions**:"
+#: ../extras/knowledge-base.rst:61
+#, fuzzy
+#| msgid ""
+#| "Untranslated pages are only visible to users with **edit permissions**:"
+msgid "Untranslated pages are only visible to users with edit permissions:"
 msgstr ""
 "Le pagine non tradotte sono visibili solo agli utenti con **permessi di "
 "modifica**:"
 
-#: ../extras/knowledge-base.rst:75
-msgid "in the published knowledge base"
+#: ../extras/knowledge-base.rst:73
+#, fuzzy
+#| msgid "in the published knowledge base"
+msgid "In the published knowledge base"
 msgstr "nella knowledge base pubblicata"
 
-#: ../extras/knowledge-base.rst:71
-msgid "Untranslated pages are **always hidden**:"
+#: ../extras/knowledge-base.rst:69
+#, fuzzy
+#| msgid "Untranslated pages are **always hidden**:"
+msgid "Untranslated pages are always hidden:"
 msgstr "Le pagine non tradotte sono **sempre nascoste**:"
 
-#: ../extras/knowledge-base.rst:78
+#: ../extras/knowledge-base.rst:76
 msgid "Using RSS Feeds"
 msgstr "Usare i Feed RSS"
 
-#: ../extras/knowledge-base.rst:80
+#: ../extras/knowledge-base.rst:78
+#, fuzzy
+#| msgid ""
+#| "Zammad allows you to subscribe to either the knowledge base as whole or "
+#| "to specific categories. There's both a public and an internal option to "
+#| "do so."
 msgid ""
-"Zammad allows you to subscribe to either the knowledge base as whole or to "
-"specific categories. There's both a public and an internal option to do so."
+"Zammad allows you to subscribe to either the knowledge base as a whole or to "
+"specific categories. There's both a public and an internal option to do so. "
+"By default, RSS feeds are disabled. If you wish to use the RSS function, "
+"talk to your administrator about enabling the function."
 msgstr ""
 "Zammad ti permette di iscriverti alla knowledge base nel suo insieme o a "
 "categorie specifiche. C'è sia un'opzione pubblica che interna per farlo."
 
-#: ../extras/knowledge-base.rst:83
-msgid ""
-"By default, RSS feeds are disabled. If you wish to use the RSS function, "
-"talk to your administrator about enabling the function."
-msgstr ""
-"Di default, i feed RSS sono disabilitati. Se desideri usare la funzione RSS, "
-"parla con il tuo amministratore per abilitare la funzione."
-
-#: ../extras/knowledge-base.rst:88
+#: ../extras/knowledge-base.rst:85
 msgid "Public RSS function"
 msgstr "Funzione RSS Pubblica"
 
-#: ../extras/knowledge-base.rst:90
+#: ../extras/knowledge-base.rst:87
 msgid ""
 "The RSS button of the public knowledge base page is located at the bottom of "
 "each page. If enabled, the button will be available to anybody visiting the "
@@ -7337,11 +7517,11 @@ msgstr ""
 msgid "Screenshot showing the context menu of the RSS button"
 msgstr "Screenshot che mostra il menu contestuale del pulsante RSS"
 
-#: ../extras/knowledge-base.rst:98
+#: ../extras/knowledge-base.rst:95
 msgid "Internal RSS function"
 msgstr "Funzione RSS Interna"
 
-#: ../extras/knowledge-base.rst:100
+#: ../extras/knowledge-base.rst:97
 msgid ""
 "The internal RSS button can be found on the upper right next to the edit "
 "button. It's available on every internal knowledge base page you display."
@@ -7349,7 +7529,7 @@ msgstr ""
 "Il pulsante RSS interno si trova in alto a destra accanto al pulsante "
 "modifica. È disponibile in ogni pagina knowledge base interna che visualizzi."
 
-#: ../extras/knowledge-base.rst:103
+#: ../extras/knowledge-base.rst:100
 msgid ""
 "Pressing the the RSS button will provide up to two RSS feeds to subscribe to."
 msgstr ""
@@ -7360,15 +7540,19 @@ msgstr ""
 msgid "Screenshot showing the modal for of the RSS button"
 msgstr "Screenshot che mostra il modale del pulsante RSS"
 
-#: ../extras/knowledge-base.rst:112
+#: ../extras/knowledge-base.rst:109
+#, fuzzy
+#| msgid ""
+#| "Keep in mind that internal RSS links contain **personal** access tokens. "
+#| "**Never share these URLs with third parties!**"
 msgid ""
-"Keep in mind that internal RSS links contain **personal** access tokens. "
-"**Never share these URLs with third parties!**"
+"Keep in mind that internal RSS links contain **personal access tokens**. "
+"Never share these URLs with third parties!"
 msgstr ""
 "Tieni presente che i link RSS interni contengono token di accesso "
 "**personali**. **Non condividere mai questi URL con terze parti!**"
 
-#: ../extras/knowledge-base.rst:115
+#: ../extras/knowledge-base.rst:112
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
 "RSS modal."
@@ -7384,7 +7568,7 @@ msgstr ""
 "Screenshot che mostra il link di reset del token di accesso nella parte "
 "inferiore del modale feed RSS (knowledge base interna)"
 
-#: ../extras/knowledge-base.rst:124
+#: ../extras/knowledge-base.rst:121
 msgid "Editing Categories"
 msgstr "Modificare le Categorie"
 
@@ -7392,29 +7576,38 @@ msgstr "Modificare le Categorie"
 msgid "Edit category"
 msgstr "Modifica categoria"
 
-#: ../extras/knowledge-base.rst:130
+#: ../extras/knowledge-base.rst:127
+#, fuzzy
+#| msgid ""
+#| "You can relocate a category using the **Parent** menu. Doing so, all of "
+#| "its articles and sub-categories will be relocated with it."
 msgid ""
-"You can relocate a category using the **Parent** menu. Doing so, all of its "
-"articles and sub-categories will be relocated with it."
+"You can relocate a category using the **Parent** dropdown. Doing so, all of "
+"its articles and sub-categories will be relocated with it."
 msgstr ""
 "Puoi spostare una categoria usando il menu **Genitore**. Facendo così, tutti "
 "i suoi articoli e sotto-categorie verranno spostati con essa."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:130
+#, fuzzy
+#| msgid ""
+#| "You can delete categories by clicking on the 🗑️ **Delete** button. "
+#| "Categories can only be deleted once **all of their articles and sub-"
+#| "categories** have been deleted or relocated."
 msgid ""
-"You can delete categories by clicking on the 🗑️ **Delete** button. Categories "
-"can only be deleted once **all of their articles and sub-categories** have "
-"been deleted or relocated."
+"You can delete categories by clicking on the ``Delete`` button. Categories "
+"can only be deleted once all of their articles and sub-categories have been "
+"deleted or relocated."
 msgstr ""
 "Puoi eliminare le categorie cliccando sul pulsante 🗑️ **Elimina**. Le "
 "categorie possono essere eliminate solo una volta che **tutti i loro "
 "articoli e sotto-categorie** sono stati eliminati o spostati."
 
-#: ../extras/knowledge-base.rst:138
+#: ../extras/knowledge-base.rst:135
 msgid "Granular Category Permissions"
 msgstr "Permessi Granulari per Categoria"
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:137
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7426,7 +7619,7 @@ msgstr ""
 "disattiva il comportamento di visibilità predefinito e applica invece i "
 "permessi che hai scelto."
 
-#: ../extras/knowledge-base.rst:145
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7435,9 +7628,16 @@ msgstr ""
 "ridurre il carico informativo per gli utenti che non hanno bisogno delle "
 "informazioni."
 
-#: ../extras/knowledge-base.rst:148
+#: ../extras/knowledge-base.rst:145
+#, fuzzy
+#| msgid ""
+#| "The roles require **knowledge base reader permission**. Your "
+#| "administrator has to provide the relevant groups with reader permissions "
+#| "for the knowledge base. If you're unsure, please ask your administrator "
+#| "to configure the :admin-docs:`role permissions </manage/roles/agent-"
+#| "permissions.html>` accordingly."
 msgid ""
-"The roles require **knowledge base reader permission**. Your administrator "
+"The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
 "base. If you're unsure, please ask your administrator to configure "
 "the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
@@ -7457,7 +7657,7 @@ msgstr ""
 "Screencast che mostra l'opzione di visibilità per categorie per permessi di "
 "accesso granulari"
 
-#: ../extras/knowledge-base.rst:158
+#: ../extras/knowledge-base.rst:155
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7482,11 +7682,11 @@ msgstr ""
 "accedere alle sotto-categorie consentite. Se non riesci a selezionare i "
 "permessi nella tabella, questa potrebbe essere la ragione."
 
-#: ../extras/knowledge-base.rst:169
+#: ../extras/knowledge-base.rst:166
 msgid "Be aware that public answers are always available!"
 msgstr "Sii consapevole che le risposte pubbliche sono sempre disponibili!"
 
-#: ../extras/knowledge-base.rst:171
+#: ../extras/knowledge-base.rst:167
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7496,7 +7696,7 @@ msgstr ""
 "possono vedere **risposte interne**. Questo è un potenziale problema se non "
 "dividi attentamente!"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:172
 msgid "Editing Answers"
 msgstr "Modificare le Risposte"
 
@@ -7504,7 +7704,7 @@ msgstr "Modificare le Risposte"
 msgid "Edit answer"
 msgstr "Modifica risposta"
 
-#: ../extras/knowledge-base.rst:182
+#: ../extras/knowledge-base.rst:178
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7518,139 +7718,122 @@ msgstr ""
 "keyboard-shortcuts>` per inserire testo formattato, elenchi puntati e altro. "
 "Puoi persino aggiungere allegati file e link!"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:199
 msgid "Different link types"
 msgstr "Diversi tipi di link"
 
-#: ../extras/knowledge-base.rst:190
+#: ../extras/knowledge-base.rst:186
 msgid "🔗 **Weblink**"
 msgstr "🔗 **Link Web**"
 
-#: ../extras/knowledge-base.rst:190
+#: ../extras/knowledge-base.rst:186
 msgid "URLs pointing to other websites."
 msgstr "URL che puntano ad altri siti web."
 
-#: ../extras/knowledge-base.rst:194
+#: ../extras/knowledge-base.rst:190
 msgid "💡 **Link Answer**"
 msgstr "💡 **Collega Risposta**"
 
-#: ../extras/knowledge-base.rst:0
-msgid "Internal references to other knowledge base answers."
+#: ../extras/knowledge-base.rst:189
+#, fuzzy
+#| msgid "Internal references to other knowledge base answers."
+msgid ""
+"Internal references to other knowledge base answers (will not break if "
+"destination URL changes)."
 msgstr "Riferimenti interni ad altre risposte della knowledge base."
 
-#: ../extras/knowledge-base.rst:0
-msgid "(Will not break if destination URL changes.)"
-msgstr "(Non si interromperà se l'URL di destinazione cambia.)"
-
-#: ../extras/knowledge-base.rst:198
+#: ../extras/knowledge-base.rst:194
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Ticket Collegati**"
 
-#: ../extras/knowledge-base.rst:0
-msgid "Internal references to Zammad tickets."
+#: ../extras/knowledge-base.rst:193
+#, fuzzy
+#| msgid "Internal references to Zammad tickets."
+msgid ""
+"Internal references to Zammad tickets (visible only in preview and edit "
+"mode)."
 msgstr "Riferimenti interni ai ticket Zammad."
 
-#: ../extras/knowledge-base.rst:0
-msgid "(Visible only in Preview and Edit Modes.)"
-msgstr "(Visibile solo in Modalità Anteprima e Modifica.)"
-
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:199
 msgid "🏷️ **Tags**"
 msgstr "🏷️ **Tag**"
 
-#: ../extras/knowledge-base.rst:0
-msgid "Tags can help categorize or spice answers with further words to find."
-msgstr ""
-"I tag possono aiutare a categorizzare o arricchire le risposte con ulteriori "
-"parole da trovare."
-
-#: ../extras/knowledge-base.rst:0
+#: ../extras/knowledge-base.rst:197
+#, fuzzy
+#| msgid ""
+#| "Please note that tags are visible publicly and can be the same like those "
+#| "in your tickets."
 msgid ""
-"Please note that tags are visible publicly and can be the same like those in "
-"your tickets."
+"Can help to categorize or label answers to enrich the content for better "
+"searchability. Please note that tags are visible publicly and can be the "
+"same like those in your tickets."
 msgstr ""
 "Tieni presente che i tag sono visibili pubblicamente e possono essere gli "
 "stessi di quelli nei tuoi ticket."
 
-#: ../extras/knowledge-base.rst:0
-msgid "Screencast showing tags on answers"
-msgstr "Screencast che mostra i tag sulle risposte"
-
-#: ../extras/knowledge-base.rst:231
+#: ../extras/knowledge-base.rst:224
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ../extras/knowledge-base.rst:209
+#: ../extras/knowledge-base.rst:202
+#, fuzzy
+#| msgid ""
+#| "Set the **visibility** of an answer to control who can see an article, or "
+#| "schedule it to be published at a later date. Articles are **color-coded** "
+#| "according to their visibility:"
 msgid ""
-"Set the **visibility** of an answer to control who can see an article, or "
-"schedule it to be published at a later date. Articles are **color-coded** "
+"Set the visibility of an answer to control who can see an article, or "
+"schedule it to be published at a later date. Articles are color-coded "
 "according to their visibility:"
 msgstr ""
 "Imposta la **visibilità** di una risposta per controllare chi può vedere un "
 "articolo, o programmarlo per essere pubblicato in una data successiva. Gli "
 "articoli sono **colorati** in base alla loro visibilità:"
 
-#: ../extras/knowledge-base.rst:214
+#: ../extras/knowledge-base.rst:207
 msgid "**Public** (visible to everyone)"
 msgstr "**Pubblico** (visibile a tutti)"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:209
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:209
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Interno** (visibile solo ad agenti e editor)"
 
-#: ../extras/knowledge-base.rst:218
+#: ../extras/knowledge-base.rst:211
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:218
+#: ../extras/knowledge-base.rst:211
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Bozza/Programmato/Archiviato** (visibile solo agli editor)"
 
-#: ../extras/knowledge-base.rst:234
+#: ../extras/knowledge-base.rst:227
 msgid "Using Answers In Ticket Articles"
 msgstr "Usare le Risposte negli Articoli Ticket"
 
-#: ../extras/knowledge-base.rst:236
+#: ../extras/knowledge-base.rst:229
+#, fuzzy
+#| msgid ""
+#| "As soon as the knowledge base contains one or more answers, you can use "
+#| "these just like text modules. Instead of ``::`` just use ``??`` to open "
+#| "the search modal. The search is done full text on both answer body and "
+#| "title in all languages available."
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
-"these just like text modules. Instead of ``::`` just use ``??`` to open the "
-"search modal. The search is done full text on both answer body and title in "
-"all languages available."
+"these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
+"`:kbd:`?` to open the search modal. The search is done full text on both "
+"answer body and title in all languages available. If you've found what "
+"you've been looking for, simply press :kbd:`Enter` to load the answer into "
+"the ticket article. The inserted content does not replace the article's "
+"content but is inserted at the cursor's position."
 msgstr ""
 "Non appena la knowledge base contiene una o più risposte, puoi usarle "
 "proprio come moduli di testo. Invece di ``::`` usa semplicemente ``??`` per "
 "aprire il modale di ricerca. La ricerca viene effettuata full text sia sul "
 "corpo della risposta che sul titolo in tutte le lingue disponibili."
-
-#: ../extras/knowledge-base.rst:241
-msgid ""
-"If you've found what you've been looking for, simply hit your ENTER-Key to "
-"load the answer into the ticket article. This way you don't have to throw "
-"URLs at your customer and provide the answer right away."
-msgstr ""
-"Se hai trovato quello che stavi cercando, premi semplicemente il tasto INVIO "
-"per caricare la risposta nell'articolo del ticket. In questo modo non devi "
-"lanciare URL al tuo cliente e fornire la risposta immediatamente."
-
-#: ../extras/knowledge-base.rst:245
-msgid "Loading answers into articles *does not* replace article content."
-msgstr ""
-"Caricare risposte negli articoli *non* sostituisce il contenuto "
-"dell'articolo."
-
-#: ../extras/knowledge-base.rst:251
-msgid "Screencast showing how to insert KB answers into articles"
-msgstr "Screencast che mostra come inserire risposte KB negli articoli"
-
-#: ../extras/knowledge-base.rst:251
-msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
-msgstr ""
-"Usa ``??`` per trovare e caricare risposte della knowledge base negli "
-"articoli ticket"
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -7947,6 +8130,10 @@ msgstr ""
 "dispositivo dell'utente e la volta successiva il reindirizzamento automatico "
 "si comporterà di conseguenza."
 
+#: ../extras/organizations.rst:2
+msgid "Organizations"
+msgstr "Organizzazioni"
+
 #: ../extras/organizations.rst:4
 msgid ""
 "Tickets track communication between individuals, but often your company's "
@@ -8082,40 +8269,38 @@ msgstr ""
 "dover cercare o guardare nelle tue panoramiche. Nota che questo elenco è "
 "limitato, le vecchie voci scompariranno automaticamente."
 
-#: ../extras/profile-and-settings.rst:41
+#: ../extras/profile-and-settings.rst:38
 msgid "Further actions"
 msgstr "Ulteriori azioni"
 
-#: ../extras/profile-and-settings.rst:33
+#: ../extras/profile-and-settings.rst:30
 msgid "Dark mode"
 msgstr "Modalità scura"
 
 #: ../extras/profile-and-settings.rst:30
-msgid "Quickly toggle dark and light mode without using keyboard bindings."
+#, fuzzy
+#| msgid "Quickly toggle dark and light mode without using keyboard bindings."
+msgid "Quickly toggle dark and light mode without using a keyboard shortcut."
 msgstr ""
 "Attiva/disattiva rapidamente la modalità scura e chiara senza utilizzare le "
 "combinazioni da tastiera."
 
-#: ../extras/profile-and-settings.rst:0
-msgid "Screencast showing the dark mode button being toggled"
-msgstr "Screencast che mostra il pulsante modalità scura attivato/disattivato"
-
-#: ../extras/profile-and-settings.rst:36
+#: ../extras/profile-and-settings.rst:33
 msgid "Keyboard shortcuts"
 msgstr "Scorciatoie da tastiera"
 
-#: ../extras/profile-and-settings.rst:36
+#: ../extras/profile-and-settings.rst:33
 msgid ""
 ":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
 msgstr ""
 ":doc:`Apre la sezione delle scorciatoie da tastiera </advanced/keyboard-"
 "shortcuts>`."
 
-#: ../extras/profile-and-settings.rst:41
+#: ../extras/profile-and-settings.rst:38
 msgid "Profile"
 msgstr "Profilo"
 
-#: ../extras/profile-and-settings.rst:39
+#: ../extras/profile-and-settings.rst:36
 msgid ""
 "This will open your :ref:`user-profile-settings` and provide further options "
 "for customers and agents. Customers do not have access to all areas, even if "
@@ -8125,11 +8310,11 @@ msgstr ""
 "opzioni per clienti e agenti. I clienti non hanno accesso a tutte le aree, "
 "anche se fornisci loro i permessi per quelle aree."
 
-#: ../extras/profile-and-settings.rst:49
+#: ../extras/profile-and-settings.rst:46
 msgid "Sign out"
 msgstr "Disconnetti"
 
-#: ../extras/profile-and-settings.rst:44
+#: ../extras/profile-and-settings.rst:41
 msgid ""
 "Finished working with Zammad? Use the sign out button to end your user "
 "session."
@@ -8137,7 +8322,7 @@ msgstr ""
 "Hai finito di lavorare con Zammad? Usa il pulsante di disconnessione per "
 "terminare la tua sessione utente."
 
-#: ../extras/profile-and-settings.rst:47
+#: ../extras/profile-and-settings.rst:44
 msgid ""
 "If you didn't tick \"Remember me\" during login or used a third party login, "
 "your session will automatically be invalidated if you close and reopen your "
@@ -8147,16 +8332,16 @@ msgstr ""
 "di terze parti, la tua sessione verrà automaticamente invalidata se chiudi e "
 "riapri il browser."
 
-#: ../extras/profile-and-settings.rst:54
+#: ../extras/profile-and-settings.rst:51
 msgid "Profile Settings"
 msgstr "Impostazioni profilo"
 
-#: ../extras/profile-and-settings.rst:56
+#: ../extras/profile-and-settings.rst:53
 msgid "Clicking on \"Profile\" in the user menu opens the profile settings."
 msgstr ""
 "Cliccare su \"Profilo\" nel menu utente apre le impostazioni del profilo."
 
-#: ../extras/profile-and-settings.rst:60
+#: ../extras/profile-and-settings.rst:57
 msgid ""
 "Select how Zammad should look. Zammad will remember the setting you choose "
 "here."
@@ -8164,24 +8349,24 @@ msgstr ""
 "Seleziona come Zammad dovrebbe apparire. Zammad ricorderà l'impostazione che "
 "scegli qui."
 
-#: ../extras/profile-and-settings.rst:62
+#: ../extras/profile-and-settings.rst:59
 msgid "Dark"
 msgstr "Scuro"
 
-#: ../extras/profile-and-settings.rst:63
+#: ../extras/profile-and-settings.rst:60
 msgid "Light"
 msgstr "Chiaro"
 
-#: ../extras/profile-and-settings.rst:64
+#: ../extras/profile-and-settings.rst:61
 msgid "Sync with computer"
 msgstr "Sincronizza con il computer"
 
-#: ../extras/profile-and-settings.rst:66
+#: ../extras/profile-and-settings.rst:63
 msgid "For dark and light you'll fix the dark or light mode to your taste."
 msgstr ""
 "Per scuro e chiaro fisserai la modalità scura o chiara secondo i tuoi gusti."
 
-#: ../extras/profile-and-settings.rst:68
+#: ../extras/profile-and-settings.rst:65
 msgid ""
 "If you choose sync with computer, Zammad will dynamically select the mode "
 "depending on what your client prefers at that moment."
@@ -8189,7 +8374,7 @@ msgstr ""
 "Se scegli sincronizza con il computer, Zammad selezionerà dinamicamente la "
 "modalità in base a ciò che preferisce il tuo client in quel momento."
 
-#: ../extras/profile-and-settings.rst:71
+#: ../extras/profile-and-settings.rst:68
 msgid ""
 "Note that this sync option highly depends on your browser. If your browser "
 "does not support syncing, this setting basically has no effect. Most common "
@@ -8204,11 +8389,11 @@ msgstr ""
 msgid "Language"
 msgstr "Lingua"
 
-#: ../extras/profile-and-settings.rst:78
+#: ../extras/profile-and-settings.rst:75
 msgid "Set the system display language."
 msgstr "Imposta la lingua di visualizzazione del sistema."
 
-#: ../extras/profile-and-settings.rst:82
+#: ../extras/profile-and-settings.rst:79
 msgid "Upload an avatar image."
 msgstr "Carica un'immagine avatar."
 
@@ -8216,7 +8401,7 @@ msgstr "Carica un'immagine avatar."
 msgid "Password & Auth"
 msgstr "Password e autenticazione"
 
-#: ../extras/profile-and-settings.rst:86
+#: ../extras/profile-and-settings.rst:83
 msgid ""
 "Change your login password and manage your two-factor authentication methods "
 "(both may be disabled by system admin)."
@@ -8225,7 +8410,7 @@ msgstr ""
 "a due fattori (entrambi potrebbero essere disabilitati dall'amministratore "
 "di sistema)."
 
-#: ../extras/profile-and-settings.rst:90
+#: ../extras/profile-and-settings.rst:87
 msgid ""
 ":doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an "
 "optional feature. Administrators can learn more :admin-docs:`here </settings/"
@@ -8235,7 +8420,7 @@ msgstr ""
 "una funzionalità opzionale. Gli amministratori possono approfondire :admin-"
 "docs:`qui </settings/security/two-factor.html>`."
 
-#: ../extras/profile-and-settings.rst:97
+#: ../extras/profile-and-settings.rst:94
 msgid ""
 "Select where, when, and for which groups you want to receive notifications, "
 "or choose a new notification sound. Notifications are available to agents "
@@ -8245,7 +8430,7 @@ msgstr ""
 "scegli un nuovo suono di notifica. Le notifiche sono disponibili solo per "
 "gli agenti."
 
-#: ../extras/profile-and-settings.rst:101
+#: ../extras/profile-and-settings.rst:98
 msgid ""
 "You can always reset your notification settings to system defaults by "
 "clicking on the button at the bottom of the screen."
@@ -8253,7 +8438,7 @@ msgstr ""
 "Puoi sempre reimpostare le tue impostazioni di notifica ai valori "
 "predefiniti di sistema cliccando sul pulsante in fondo alla schermata."
 
-#: ../extras/profile-and-settings.rst:107
+#: ../extras/profile-and-settings.rst:104
 msgid ""
 "Use the first four columns to choose when to receive **internal "
 "notifications**. The right column enables email notification as well."
@@ -8261,11 +8446,11 @@ msgstr ""
 "Usa le prime quattro colonne per scegliere quando ricevere le **notifiche "
 "interne**. La colonna di destra abilita anche le notifiche via email."
 
-#: ../extras/profile-and-settings.rst:130
+#: ../extras/profile-and-settings.rst:127
 msgid "Limit Groups"
 msgstr "Limita gruppi"
 
-#: ../extras/profile-and-settings.rst:117
+#: ../extras/profile-and-settings.rst:114
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -8279,7 +8464,7 @@ msgstr ""
 "disabilitare tali notifiche per gruppo specifico. Continuerai a ricevere "
 "notifiche per i tuoi ticket."
 
-#: ../extras/profile-and-settings.rst:123
+#: ../extras/profile-and-settings.rst:120
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -8287,7 +8472,7 @@ msgstr ""
 "Se attivi la funzionalità **Limita gruppi**, ma disabiliti le notifiche da "
 "tutti i gruppi, potresti ricevere il seguente avviso."
 
-#: ../extras/profile-and-settings.rst:129
+#: ../extras/profile-and-settings.rst:126
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -8296,7 +8481,7 @@ msgstr ""
 "implicitamente la funzionalità **Limita gruppi**, poiché non rimarranno "
 "limiti in vigore."
 
-#: ../extras/profile-and-settings.rst:132
+#: ../extras/profile-and-settings.rst:129
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more :admin-docs:`here </manage/"
@@ -8310,7 +8495,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Fuori sede"
 
-#: ../extras/profile-and-settings.rst:139
+#: ../extras/profile-and-settings.rst:136
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -8318,7 +8503,7 @@ msgstr ""
 "Pianifica i periodi di assenza in anticipo e designa un sostituto per "
 "gestire i tuoi ticket mentre sei via."
 
-#: ../extras/profile-and-settings.rst:142
+#: ../extras/profile-and-settings.rst:139
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -8328,11 +8513,11 @@ msgstr ""
 "assenza e avrà una :ref:`panoramica <overviews>` personalizzata creata per "
 "aiutare a tenere traccia dei tuoi ticket."
 
-#: ../extras/profile-and-settings.rst:146
+#: ../extras/profile-and-settings.rst:143
 msgid "You will receive notifications while you are absent."
 msgstr "Riceverai notifiche mentre sei assente."
 
-#: ../extras/profile-and-settings.rst:149
+#: ../extras/profile-and-settings.rst:146
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -8341,7 +8526,7 @@ msgstr ""
 "sezione ti permette di scegliere un ordine delle panoramiche che si adatta "
 "meglio a te."
 
-#: ../extras/profile-and-settings.rst:152
+#: ../extras/profile-and-settings.rst:149
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button \"Reset overview order\"."
@@ -8350,7 +8535,7 @@ msgstr ""
 "momento utilizzando il pulsante in alto a destra \"Reimposta ordine "
 "panoramiche\"."
 
-#: ../extras/profile-and-settings.rst:157
+#: ../extras/profile-and-settings.rst:154
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -8358,7 +8543,7 @@ msgstr ""
 "Questa opzione è visibile solo agli agenti per impostazione predefinita. Può "
 "essere completamente disattivata dal tuo amministratore."
 
-#: ../extras/profile-and-settings.rst:160
+#: ../extras/profile-and-settings.rst:157
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -8381,7 +8566,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Calendario"
 
-#: ../extras/profile-and-settings.rst:171
+#: ../extras/profile-and-settings.rst:168
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the ICAL "
 "link listed at this setting's panel."
@@ -8393,7 +8578,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Dispositivi"
 
-#: ../extras/profile-and-settings.rst:176
+#: ../extras/profile-and-settings.rst:173
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -8405,7 +8590,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Accesso token"
 
-#: ../extras/profile-and-settings.rst:181
+#: ../extras/profile-and-settings.rst:178
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -8413,7 +8598,7 @@ msgstr ""
 "Genera token di accesso personali per le applicazioni di terze parti per "
 "utilizzare l'API Zammad."
 
-#: ../extras/profile-and-settings.rst:185
+#: ../extras/profile-and-settings.rst:182
 msgid ""
 "Always generate a new token for each application you connect to Zammad! "
 "(This makes it possible to revoke access one application at a time if a "
@@ -8427,7 +8612,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Account collegati"
 
-#: ../extras/profile-and-settings.rst:191
+#: ../extras/profile-and-settings.rst:188
 msgid ""
 "See a list of third party services (*e.g.,* Facebook or Twitter) linked to "
 "your Zammad account."
@@ -8937,16 +9122,14 @@ msgid "Shared Drafts"
 msgstr "Bozze condivise"
 
 #: ../extras/shared-drafts.rst:7
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don't see it in the menu, that means "
+#| "your administrator disabled this function. Administrators can learn more "
+#| "in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
 msgid ""
 "Share drafts for new or existing tickets with other agents of your group. "
-"Load, modify and save an existing draft e.g. as QA process with colleagues."
-msgstr ""
-"Condividi bozze per ticket nuovi o esistenti con altri agenti del tuo "
-"gruppo. Carica, modifica e salva una bozza esistente, ad es. come processo "
-"QA con i colleghi."
-
-#: ../extras/shared-drafts.rst:10
-msgid ""
+"Load, modify and save an existing draft e.g. as QA process with colleagues. "
 "This feature is **optional**; if you don't see it in the menu, that means "
 "your administrator disabled this function. Administrators can learn more in "
 "our :admin-docs:`admin documentation </manage/groups/settings.html>`."
@@ -8956,43 +9139,34 @@ msgstr ""
 "possono scoprire di più nella nostra :admin-docs:`documentazione "
 "amministratore </manage/groups/settings.html>`."
 
-#: ../extras/shared-drafts.rst:20
-msgid ""
-"Screenshot showing the sub menu of the Update button with macros and an\n"
-"option to save the draft"
-msgstr ""
-"Screenshot che mostra il sottomenu del pulsante Aggiorna con le macro e "
-"un'opzione\n"
-"per salvare la bozza"
-
-#: ../extras/shared-drafts.rst:20
-msgid ""
-"By using ^ next to the \"Update\" button Zammad will provide you with an "
-"option to save your draft (and thus share it) if the option is enabled."
-msgstr ""
-"Utilizzando il simbolo ^ accanto al pulsante \"Aggiorna\", Zammad ti fornirà "
-"un'opzione per salvare la tua bozza (e quindi condividerla) se l'opzione è "
-"abilitata."
-
-#: ../extras/shared-drafts.rst:24
+#: ../extras/shared-drafts.rst:14
 msgid "**🤓 Let's be clear up front**"
 msgstr "**🤓 Chiariamo subito**"
 
-#: ../extras/shared-drafts.rst:26
+#: ../extras/shared-drafts.rst:16
 msgid "Zammad technically has two draft functions:"
 msgstr "Zammad ha tecnicamente due funzioni di bozza:"
 
-#: ../extras/shared-drafts.rst:28
-msgid "shared draft (allow others to load the draft), and"
+#: ../extras/shared-drafts.rst:18
+#, fuzzy
+#| msgid "shared draft (allow others to load the draft), and"
+msgid "Shared drafts (allow others to load the draft)"
 msgstr "bozza condivisa (consente ad altri di caricare la bozza), e"
 
-#: ../extras/shared-drafts.rst:29
-msgid "user drafts."
+#: ../extras/shared-drafts.rst:19
+#, fuzzy
+#| msgid "user drafts."
+msgid "User drafts"
 msgstr "bozze utente."
 
 #: ../extras/shared-drafts.rst:0
+#, fuzzy
+#| msgid ""
+#| "Every time you change a tickets field, Zammad will safe this in your "
+#| "personal draft. You then can share this as a shared draft if you want to. "
+#| "User drafts are *always* available!"
 msgid ""
-"Every time you change a tickets field, Zammad will safe this in your "
+"Every time you change a ticket's field, Zammad will save this in your "
 "personal draft. You then can share this as a shared draft if you want to. "
 "User drafts are *always* available!"
 msgstr ""
@@ -9000,37 +9174,51 @@ msgstr ""
 "nella tua bozza personale. Puoi poi condividerla come bozza condivisa se lo "
 "desideri. Le bozze utente sono *sempre* disponibili!"
 
-#: ../extras/shared-drafts.rst:36
+#: ../extras/shared-drafts.rst:26
 msgid "Handling Drafts"
 msgstr "Gestione delle bozze"
 
-#: ../extras/shared-drafts.rst:64
+#: ../extras/shared-drafts.rst:46
 msgid "Load a draft"
 msgstr "Caricare una bozza"
 
+#: ../extras/shared-drafts.rst:38 ../extras/shared-drafts.rst:86
+msgid "Existing ticket"
+msgstr "Ticket esistente"
+
+#: ../extras/shared-drafts.rst:32
+msgid ""
+"In the ticket detail view, a button ``📝 Draft available`` is shown if a "
+"draft is available from you or another agent (see first screenshot on this "
+"page). Hovering over the button tells you who created or changed the draft."
+msgstr ""
+
 #: ../extras/shared-drafts.rst:0
+#, fuzzy
+#| msgid ""
+#| "Screenshot highlighting the Draft available button within\n"
+#| "Ticket zoom"
 msgid ""
-"Screencast showing how to open the shared draft load dialogue within\n"
-"the ticket zoom"
+"Screenshot shows highlighted \"Draft available\" button and preview dialog "
+"of the shared draft."
 msgstr ""
-"Screencast che mostra come aprire la finestra di dialogo di caricamento "
-"della bozza condivisa all'interno dello zoom ticket"
+"Screenshot che evidenzia il pulsante Bozza disponibile all'interno dello "
+"Zoom ticket"
 
-#: ../extras/shared-drafts.rst:45
-msgid "Loading a draft works the same starting from draft previews."
-msgstr ""
-"Caricare una bozza funziona allo stesso modo partendo dalle anteprime delle "
-"bozze."
+#: ../extras/shared-drafts.rst:46 ../extras/shared-drafts.rst:74
+msgid "New ticket"
+msgstr "Nuovo ticket"
 
-#: ../extras/shared-drafts.rst:54
-msgid "New Ticket dialogue"
-msgstr "Finestra di dialogo Nuovo ticket"
-
-#: ../extras/shared-drafts.rst:48
+#: ../extras/shared-drafts.rst:41
+#, fuzzy
+#| msgid ""
+#| "If you're in a new ticket dialogue *after selecting the ticket group*, "
+#| "the 📝 button will indicate the shared drafts function to be available. "
+#| "The shared drafts tab is *always* hidden if no group is selected!"
 msgid ""
-"If you're in a new ticket dialogue *after selecting the ticket group*, the "
-"📝 button will indicate the shared drafts function to be available. The "
-"shared drafts tab is *always* hidden if no group is selected!"
+"If you're creating a new ticket and already selected a group, the shared "
+"draft sidebar tab on the right side shows up. The shared drafts tab is "
+"always hidden if no group is selected!"
 msgstr ""
 "Se sei nella finestra di dialogo di un nuovo ticket *dopo aver selezionato "
 "il gruppo del ticket*, il pulsante 📝 indicherà che la funzione di bozze "
@@ -9038,49 +9226,30 @@ msgstr ""
 "se non è selezionato alcun gruppo!"
 
 #: ../extras/shared-drafts.rst:0
+#, fuzzy
+#| msgid "Screenshot shows an internal article with highlighted delete button."
 msgid ""
-"Screenshot highlighting the shared draft pane for new\n"
-"ticket dialogues"
+"Screenshot shows the ticket creation dialog with highlighted shared draft "
+"after group selection."
 msgstr ""
-"Screenshot che evidenzia il riquadro di bozza condiviso per le nuove\n"
-"finestre di dialogo dei ticket."
+"Lo screenshot mostra un articolo interno con il pulsante di cancellazione "
+"evidenziato."
 
-#: ../extras/shared-drafts.rst:64
-msgid "Existing tickets (Ticket zoom)"
-msgstr "Ticket esistenti (Zoom ticket)"
-
-#: ../extras/shared-drafts.rst:57
-msgid ""
-"Within ticket zooms a button \"📝 Draft available\" will be shown if a draft "
-"has been shared by either you or another agent on the ticket."
-msgstr ""
-"All'interno degli zoom ticket verrà mostrato un pulsante \"📝 Bozza "
-"disponibile\" se una bozza è stata condivisa da te o da un altro agente sul "
-"ticket."
-
-#: ../extras/shared-drafts.rst:60
-msgid "Hovering over the button will tell you who has changed the draft last."
-msgstr ""
-"Passando con il mouse sopra il pulsante ti verrà mostrato chi ha modificato "
-"la bozza per ultimo."
-
-#: ../extras/shared-drafts.rst:0
-msgid ""
-"Screenshot highlighting the Draft available button within\n"
-"Ticket zoom"
-msgstr ""
-"Screenshot che evidenzia il pulsante Bozza disponibile all'interno dello "
-"Zoom ticket"
-
-#: ../extras/shared-drafts.rst:73
+#: ../extras/shared-drafts.rst:52
 msgid "Remove draft"
 msgstr "Rimuovere bozza"
 
-#: ../extras/shared-drafts.rst:67
+#: ../extras/shared-drafts.rst:49
+#, fuzzy
+#| msgid ""
+#| "You can remove any draft (no matter if for new or existing tickets) from "
+#| "within the draft preview screen. Use the \"Delete\" link on the lower end "
+#| "of the dialogue. This has no effect on local drafts agents may have "
+#| "loaded already."
 msgid ""
 "You can remove any draft (no matter if for new or existing tickets) from "
-"within the draft preview screen. Use the \"Delete\" link on the lower end of "
-"the dialogue. This has no effect on local drafts agents may have loaded "
+"within the draft preview screen. Use the ``Delete`` link on the lower end of "
+"the dialog. This has no effect on local drafts, agents may have loaded "
 "already."
 msgstr ""
 "Puoi rimuovere qualsiasi bozza (sia per nuovi che per ticket esistenti) "
@@ -9088,61 +9257,59 @@ msgstr ""
 "parte inferiore della finestra di dialogo. Questo non ha effetto sulle bozze "
 "locali che gli agenti potrebbero aver già caricato."
 
-#: ../extras/shared-drafts.rst:0
-msgid "Screenshot highlighting the removal option in shared draft preview"
-msgstr ""
-"Screenshot che evidenzia l'opzione di rimozione nell'anteprima della bozza "
-"condivisa"
-
-#: ../extras/shared-drafts.rst:109
+#: ../extras/shared-drafts.rst:86
 msgid "Saving drafts"
 msgstr "Salvare bozze"
 
-#: ../extras/shared-drafts.rst:97
-msgid "New ticket"
-msgstr "Nuovo ticket"
-
-#: ../extras/shared-drafts.rst:87
+#: ../extras/shared-drafts.rst:64
 msgid "Adding new drafts"
 msgstr "Aggiungere nuove bozze"
 
-#: ../extras/shared-drafts.rst:78
+#: ../extras/shared-drafts.rst:57
+#, fuzzy
+#| msgid ""
+#| "To save a new shared draft, set the ticket settings, customer, ticket "
+#| "title and article as desired. Make sure to select a group that supports "
+#| "shared drafts."
 msgid ""
 "To save a new shared draft, set the ticket settings, customer, ticket title "
 "and article as desired. Make sure to select a group that supports shared "
-"drafts."
+"drafts. When you're ready to save the draft, click on shared draft sidebar "
+"tab on the right side, enter a meaningful name and click on the ``Create`` "
+"button."
 msgstr ""
 "Per salvare una nuova bozza condivisa, imposta le impostazioni del ticket, "
 "il cliente, il titolo del ticket e l'articolo come desiderato. Assicurati di "
 "selezionare un gruppo che supporti le bozze condivise."
 
-#: ../extras/shared-drafts.rst:82
-msgid ""
-"If you're ready to save the draft, click on 📝 on the right ticket pane, "
-"enter a meaning full name and click on the \"Create\" button."
-msgstr ""
-"Quando sei pronto per salvare la bozza, clicca su 📝 nel pannello di destra "
-"del ticket, inserisci un nome significativo e clicca sul pulsante \"Crea\"."
-
 #: ../extras/shared-drafts.rst:0
+#, fuzzy
+#| msgid "Screenshot shows an internal article with highlighted delete button."
 msgid ""
-"Screencast showing how to save new ticket dialogues as a\n"
-"shared draft"
+"Screenshot shows the new ticket dialog with the highlighted \"create draft\" "
+"section."
 msgstr ""
-"Screencast che mostra come salvare le finestre di dialogo dei nuovi ticket "
-"come bozza condivisa"
+"Lo screenshot mostra un articolo interno con il pulsante di cancellazione "
+"evidenziato."
 
-#: ../extras/shared-drafts.rst:97
+#: ../extras/shared-drafts.rst:74
 msgid "Update existing drafts"
 msgstr "Aggiornare bozze esistenti"
 
-#: ../extras/shared-drafts.rst:90
+#: ../extras/shared-drafts.rst:67
+#, fuzzy
+#| msgid ""
+#| "In order to update or rename existing shared drafts for new tickets, "
+#| "simply load the draft in question. Change the information (e.g. ticket "
+#| "settings or content) needed and, if needed, update the drafts name on the "
+#| "right hand side of the ticket. This way you can not just update existing "
+#| "drafts, but also use existing drafts to create another copy!"
 msgid ""
 "In order to update or rename existing shared drafts for new tickets, simply "
 "load the draft in question. Change the information (e.g. ticket settings or "
-"content) needed and, if needed, update the drafts name on the right hand "
-"side of the ticket. This way you can not just update existing drafts, but "
-"also use existing drafts to create another copy!"
+"content) needed and, if needed, update the drafts name on the right side of "
+"the ticket. This way you can not just update existing drafts, but also use "
+"existing drafts to create another copy!"
 msgstr ""
 "Per aggiornare o rinominare bozze condivise esistenti per nuovi ticket, "
 "carica semplicemente la bozza in questione. Modifica le informazioni "
@@ -9152,44 +9319,50 @@ msgstr ""
 "esistenti per crearne un'altra copia!"
 
 #: ../extras/shared-drafts.rst:0
-msgid "Screencast showing how to rename / update existing shared drafts"
+#, fuzzy
+#| msgid "Screenshot shows the new ticket dialog."
+msgid "Screenshot shows shared draft sidebar of the ticket creation dialog."
 msgstr ""
-"Screencast che mostra come rinominare / aggiornare bozze condivise esistenti"
+"Lo screenshot mostra la nuova finestra di dialogo per la creazione del "
+"ticket."
 
-#: ../extras/shared-drafts.rst:109
-msgid "Existing ticket"
-msgstr "Ticket esistente"
-
-#: ../extras/shared-drafts.rst:100
+#: ../extras/shared-drafts.rst:77
+#, fuzzy
+#| msgid ""
+#| "Use the ^ button next to the update button. If the group of the ticket "
+#| "(or in your selection) allows shared drafts, Zammad will provide the "
+#| "option \"Save Draft\"."
 msgid ""
-"Use the ^ button next to the update button. If the group of the ticket (or "
-"in your selection) allows shared drafts, Zammad will provide the option "
-"\"Save Draft\"."
+"Use the ``^`` button next to the ``Update`` button. If the group of the "
+"ticket (or in your selection) allows shared drafts, Zammad will provide the "
+"option **Save Draft**. All current changes on the ticket (ticket settings, "
+"article and its attachments) will be saved to the shared draft."
 msgstr ""
 "Usa il pulsante ^ accanto al pulsante di aggiornamento. Se il gruppo del "
 "ticket (o nella tua selezione) consente bozze condivise, Zammad fornirà "
 "l'opzione \"Salva bozza\"."
 
-#: ../extras/shared-drafts.rst:104
+#: ../extras/shared-drafts.rst:82
+#, fuzzy
+#| msgid ""
+#| "When saving was successful, the button \"📝 Draft available\" will be "
+#| "shown."
 msgid ""
-"All current changes on the ticket (ticket settings, article and it's "
-"attachments) will be saved to the shared draft."
-msgstr ""
-"Tutte le modifiche correnti sul ticket (impostazioni del ticket, articolo e "
-"allegati) verranno salvate nella bozza condivisa."
-
-#: ../extras/shared-drafts.rst:107
-msgid ""
-"When saving was successful, the button \"📝 Draft available\" will be shown."
+"When saving was successful, the button ``📝 Draft available`` is show as you "
+"can see in the screenshot about loading a draft."
 msgstr ""
 "Quando il salvataggio ha successo, verrà mostrato il pulsante \"📝 Bozza "
 "disponibile\"."
 
 #: ../extras/shared-drafts.rst:0
-msgid "Screencast showing how to save a shared draft within ticket zoom"
+#, fuzzy
+#| msgid "Screenshot shows the Zammad UI with an opened ticket detail view."
+msgid ""
+"Screenshot shows highlighted ticket update menu with save draft option in "
+"ticket detail view."
 msgstr ""
-"Screencast che mostra come salvare una bozza condivisa all'interno dello "
-"zoom ticket"
+"Screenshot che mostra l'interfaccia Zammad con una vista dettaglio ticket "
+"aperta."
 
 #: ../extras/two-factor-authentication.rst:2
 msgid "Two-Factor Authentication"
@@ -9850,6 +10023,346 @@ msgstr ""
 "Stai leggendo la documentazione utente di Zammad. Sono anche disponibili i "
 "manuali :docs:`di sistema </index.html>` e :admin-docs:`di amministrazione </"
 "index.html>`."
+
+#, fuzzy
+#~| msgid "Split ticket button"
+#~ msgid "Split ticket buttonTicket pane (tags)"
+#~ msgstr "Pulsante Dividi ticket"
+
+#~ msgid "Split ticket dialog"
+#~ msgstr "Finestra di dialogo Dividi ticket"
+
+#~ msgid ""
+#~ "Macros are **🖱️ one-click shortcuts** for applying changes to a ticket."
+#~ msgstr ""
+#~ "Le Macros sono **🖱️ scorciatoie con un click** per applicare modifiche ad "
+#~ "un ticket."
+
+#~ msgid ""
+#~ "If you find yourself making the same changes to lots of tickets (*e.g.,* "
+#~ "close-and-tag-as-spam or reassign-to-another-group), macros can make the "
+#~ "job a whole lot easier."
+#~ msgstr ""
+#~ "Se ti ritrovi a fare le stesse modifiche a tanti ticket (*es* close-and-"
+#~ "tag-as-spam o riassegna-altro-gruppo), le macro possono renderti il "
+#~ "lavoro molto più facile."
+
+#~ msgid ""
+#~ "Macros can be created by your :admin-docs:`administrator </manage/"
+#~ "macros.html>`. If you have an idea for a macro you'd like to use, your "
+#~ "Zammad admin can probably make it happen."
+#~ msgstr ""
+#~ "Le macro possono essere create dal tuo :admin-docs:`amministratore </"
+#~ "manage/macros.html>`. Se hai un'idea per una macro che vorresti "
+#~ "utilizzare, il tuo amministratore di Zammad probabilmente può realizzarla."
+
+#~ msgid "Screencast showing how to run a macro within a ticket view."
+#~ msgstr "Screencast che mostra come eseguire una macro dalla vista ticket."
+
+#~ msgid "Screencast showing above described effect that overwrites articles."
+#~ msgstr ""
+#~ "Screencast che mostra l'effetto descritto sopra che sovrascrive gli "
+#~ "articoli."
+
+#~ msgid ""
+#~ "If the selected macro adds a note to the ticket, any text entered in the "
+#~ "message composer will be lost."
+#~ msgstr ""
+#~ "Se la macro selezionata aggiunge una nota al ticket, qualsiasi testo "
+#~ "inserito nel compositore messaggi verrà perso."
+
+#~ msgid "click-and-drag to open the “Run Macro” drawer; and"
+#~ msgstr "clicca e trascina per aprire il cassetto \"Esegui Macro\"; e"
+
+#~ msgid ""
+#~ "When running it from the overviews page, Zammad will always stay on the "
+#~ "overviews page."
+#~ msgstr ""
+#~ "Eseguendola dalla pagina delle panoramiche, Zammad resterà sempre sulla "
+#~ "pagina delle panoramiche."
+
+#~ msgid "Screencast of the Subscribe button feature"
+#~ msgstr "Screencast della funzionalità del pulsante Iscriviti"
+
+#~ msgid ""
+#~ "A list of all tickets you're subscribed to can be found in the **My "
+#~ "mentioned Tickets** overview."
+#~ msgstr ""
+#~ "L'elenco di tutti i ticket a cui sei iscritto è disponibile nella sezione "
+#~ "di riepilogo **I miei ticket menzionati**."
+
+#~ msgid ""
+#~ "Or, suppose you *don't* want to reassign the ticket to customer service—"
+#~ "you just have one quick question for them, and then you can take it from "
+#~ "there."
+#~ msgstr ""
+#~ "Oppure, supponi di *non* voler riassegnare il ticket all'assistenza "
+#~ "clienti—hai solo una domanda veloce per loro, e poi puoi gestirlo tu da "
+#~ "lì."
+
+#~ msgid ""
+#~ "To start sending someone else notifications for your own ticket, type "
+#~ "``@@`` in the message composer and select their name from the pop-up menu:"
+#~ msgstr ""
+#~ "Per iniziare a inviare notifiche a qualcun altro per il tuo ticket, "
+#~ "digita ``@@`` nel compositore messaggi e seleziona il loro nome dal menu "
+#~ "a comparsa:"
+
+#~ msgid "Screencast of the @mention feature"
+#~ msgstr "Screencast della funzionalità @mention"
+
+#~ msgid ""
+#~ "@mentioning a colleague in a message will automatically subscribe them to "
+#~ "your ticket."
+#~ msgstr ""
+#~ "@menzionando un collega in un messaggio, quest'ultimo verrà "
+#~ "automaticamente iscritto al tuo ticket."
+
+#~ msgid "Sample view of Tabs"
+#~ msgstr "Vista di esempio delle schede"
+
+#~ msgid ""
+#~ "Tabs appear in the main menu as you visit different parts of the "
+#~ "application."
+#~ msgstr ""
+#~ "Le schede appaiono nel menu principale mentre visiti diverse parti "
+#~ "dell'applicazione."
+
+#~ msgid "**What items open in a new “tab”?**"
+#~ msgstr "**Quali elementi si aprono in una nuova “scheda”?**"
+
+#~ msgid "Users"
+#~ msgstr "Utenti"
+
+#~ msgid "Omnisearch"
+#~ msgstr "Ricerca omnicomprensiva"
+
+#~ msgid "You noticed that some text modules don't always appear?"
+#~ msgstr "Hai notato che alcuni moduli di testo non appaiono sempre?"
+
+#~ msgid ""
+#~ "Text modules can be tied to **groups**: that is, they only become active "
+#~ "once the ticket you're working on has been assigned to the appropriate "
+#~ "group."
+#~ msgstr ""
+#~ "I moduli di testo possono essere legati ai **gruppi**: cioè, diventano "
+#~ "attivi solo una volta che il ticket su cui stai lavorando è stato "
+#~ "assegnato al gruppo appropriato."
+
+#~ msgid "Group-dependent text modules"
+#~ msgstr "Moduli di testo dipendenti dal gruppo"
+
+#~ msgid ""
+#~ "Text modules are updated immediately when a new group has been selected—"
+#~ "no need to click **Update**."
+#~ msgstr ""
+#~ "I moduli di testo vengono aggiornati immediatamente quando è stato "
+#~ "selezionato un nuovo gruppo—non c'è bisogno di cliccare **Aggiorna**."
+
+#~ msgid ""
+#~ "It is prefilled with the content of the existing article. Remember to "
+#~ "select the type (call/email)."
+#~ msgstr ""
+#~ "È precompilato con il contenuto dell'articolo esistente. Ricorda di "
+#~ "selezionare il tipo (chiamata/email)."
+
+#~ msgid ""
+#~ "The original ticket is :doc:`linked <link>` to the new one, as you can "
+#~ "see in the ticket side panel:"
+#~ msgstr ""
+#~ "Il ticket originale è :doc:`collegato <link>` a quello nuovo, come puoi "
+#~ "vedere nel pannello laterale del ticket:"
+
+#~ msgid ""
+#~ "If you find yourself creating lots of tickets with the same basic "
+#~ "attributes, use **ticket templates** to fill them in with a single click "
+#~ "next time."
+#~ msgstr ""
+#~ "Se ti ritrovi a creare molti ticket con gli stessi attributi di base di "
+#~ "frequente, usa i **template di ticket** per compilarli con un singolo "
+#~ "click la prossima volta."
+
+#~ msgid "Use the ticket pane to load ticket templates."
+#~ msgstr "Usa il pannello ticket per caricare i template di ticket."
+
+#~ msgid ""
+#~ "On any *new ticket* dialogue use the 🗒️ tab on the right to display the "
+#~ "*Templates* column. If Zammad has any templates for you to apply, you'll "
+#~ "be provided with a drop down list to choose from."
+#~ msgstr ""
+#~ "In qualsiasi finestra di dialogo *nuovo ticket* usa la scheda 🗒️ sulla "
+#~ "destra per visualizzare la colonna *Template*. Se Zammad ha template da "
+#~ "applicare, ti verrà fornita una lista a tendina da cui scegliere."
+
+#~ msgid ""
+#~ "Select a fitting template and press *Apply*. The configured ticket fields "
+#~ "will be populated with the data from the template."
+#~ msgstr ""
+#~ "Seleziona un template adatto e premi *Applica*. I campi del ticket "
+#~ "configurati verranno popolati con i dati dal template."
+
+#~ msgid ""
+#~ "Instead it will keep your version of the field. This allows you to e.g. "
+#~ "fill in the customer before applying the template. 🎉"
+#~ msgstr ""
+#~ "Invece manterrà la tua versione del campo. Questo ti consente ad es. di "
+#~ "riempire il cliente prima di applicare il template. 🎉"
+
+#~ msgid "This permission was introduced with Zammad 5.3."
+#~ msgstr "Questo permesso è stato introdotto con Zammad 5.3."
+
+#~ msgid "Ticket pane (tags)"
+#~ msgstr "Pannello ticket (etichette)"
+
+#~ msgid ""
+#~ "By default, RSS feeds are disabled. If you wish to use the RSS function, "
+#~ "talk to your administrator about enabling the function."
+#~ msgstr ""
+#~ "Di default, i feed RSS sono disabilitati. Se desideri usare la funzione "
+#~ "RSS, parla con il tuo amministratore per abilitare la funzione."
+
+#~ msgid "(Will not break if destination URL changes.)"
+#~ msgstr "(Non si interromperà se l'URL di destinazione cambia.)"
+
+#~ msgid "(Visible only in Preview and Edit Modes.)"
+#~ msgstr "(Visibile solo in Modalità Anteprima e Modifica.)"
+
+#~ msgid ""
+#~ "Tags can help categorize or spice answers with further words to find."
+#~ msgstr ""
+#~ "I tag possono aiutare a categorizzare o arricchire le risposte con "
+#~ "ulteriori parole da trovare."
+
+#~ msgid "Screencast showing tags on answers"
+#~ msgstr "Screencast che mostra i tag sulle risposte"
+
+#~ msgid ""
+#~ "If you've found what you've been looking for, simply hit your ENTER-Key "
+#~ "to load the answer into the ticket article. This way you don't have to "
+#~ "throw URLs at your customer and provide the answer right away."
+#~ msgstr ""
+#~ "Se hai trovato quello che stavi cercando, premi semplicemente il tasto "
+#~ "INVIO per caricare la risposta nell'articolo del ticket. In questo modo "
+#~ "non devi lanciare URL al tuo cliente e fornire la risposta immediatamente."
+
+#~ msgid "Loading answers into articles *does not* replace article content."
+#~ msgstr ""
+#~ "Caricare risposte negli articoli *non* sostituisce il contenuto "
+#~ "dell'articolo."
+
+#~ msgid "Screencast showing how to insert KB answers into articles"
+#~ msgstr "Screencast che mostra come inserire risposte KB negli articoli"
+
+#~ msgid ""
+#~ "Use ``??`` to find and load knowledge base answers into ticket articles"
+#~ msgstr ""
+#~ "Usa ``??`` per trovare e caricare risposte della knowledge base negli "
+#~ "articoli ticket"
+
+#~ msgid "Screencast showing the dark mode button being toggled"
+#~ msgstr ""
+#~ "Screencast che mostra il pulsante modalità scura attivato/disattivato"
+
+#~ msgid ""
+#~ "Share drafts for new or existing tickets with other agents of your group. "
+#~ "Load, modify and save an existing draft e.g. as QA process with "
+#~ "colleagues."
+#~ msgstr ""
+#~ "Condividi bozze per ticket nuovi o esistenti con altri agenti del tuo "
+#~ "gruppo. Carica, modifica e salva una bozza esistente, ad es. come "
+#~ "processo QA con i colleghi."
+
+#~ msgid ""
+#~ "Screenshot showing the sub menu of the Update button with macros and an\n"
+#~ "option to save the draft"
+#~ msgstr ""
+#~ "Screenshot che mostra il sottomenu del pulsante Aggiorna con le macro e "
+#~ "un'opzione\n"
+#~ "per salvare la bozza"
+
+#~ msgid ""
+#~ "By using ^ next to the \"Update\" button Zammad will provide you with an "
+#~ "option to save your draft (and thus share it) if the option is enabled."
+#~ msgstr ""
+#~ "Utilizzando il simbolo ^ accanto al pulsante \"Aggiorna\", Zammad ti "
+#~ "fornirà un'opzione per salvare la tua bozza (e quindi condividerla) se "
+#~ "l'opzione è abilitata."
+
+#~ msgid ""
+#~ "Screencast showing how to open the shared draft load dialogue within\n"
+#~ "the ticket zoom"
+#~ msgstr ""
+#~ "Screencast che mostra come aprire la finestra di dialogo di caricamento "
+#~ "della bozza condivisa all'interno dello zoom ticket"
+
+#~ msgid "Loading a draft works the same starting from draft previews."
+#~ msgstr ""
+#~ "Caricare una bozza funziona allo stesso modo partendo dalle anteprime "
+#~ "delle bozze."
+
+#~ msgid "New Ticket dialogue"
+#~ msgstr "Finestra di dialogo Nuovo ticket"
+
+#~ msgid ""
+#~ "Screenshot highlighting the shared draft pane for new\n"
+#~ "ticket dialogues"
+#~ msgstr ""
+#~ "Screenshot che evidenzia il riquadro di bozza condiviso per le nuove\n"
+#~ "finestre di dialogo dei ticket."
+
+#~ msgid "Existing tickets (Ticket zoom)"
+#~ msgstr "Ticket esistenti (Zoom ticket)"
+
+#~ msgid ""
+#~ "Within ticket zooms a button \"📝 Draft available\" will be shown if a "
+#~ "draft has been shared by either you or another agent on the ticket."
+#~ msgstr ""
+#~ "All'interno degli zoom ticket verrà mostrato un pulsante \"📝 Bozza "
+#~ "disponibile\" se una bozza è stata condivisa da te o da un altro agente "
+#~ "sul ticket."
+
+#~ msgid ""
+#~ "Hovering over the button will tell you who has changed the draft last."
+#~ msgstr ""
+#~ "Passando con il mouse sopra il pulsante ti verrà mostrato chi ha "
+#~ "modificato la bozza per ultimo."
+
+#~ msgid "Screenshot highlighting the removal option in shared draft preview"
+#~ msgstr ""
+#~ "Screenshot che evidenzia l'opzione di rimozione nell'anteprima della "
+#~ "bozza condivisa"
+
+#~ msgid ""
+#~ "If you're ready to save the draft, click on 📝 on the right ticket pane, "
+#~ "enter a meaning full name and click on the \"Create\" button."
+#~ msgstr ""
+#~ "Quando sei pronto per salvare la bozza, clicca su 📝 nel pannello di "
+#~ "destra del ticket, inserisci un nome significativo e clicca sul pulsante "
+#~ "\"Crea\"."
+
+#~ msgid ""
+#~ "Screencast showing how to save new ticket dialogues as a\n"
+#~ "shared draft"
+#~ msgstr ""
+#~ "Screencast che mostra come salvare le finestre di dialogo dei nuovi "
+#~ "ticket come bozza condivisa"
+
+#~ msgid "Screencast showing how to rename / update existing shared drafts"
+#~ msgstr ""
+#~ "Screencast che mostra come rinominare / aggiornare bozze condivise "
+#~ "esistenti"
+
+#~ msgid ""
+#~ "All current changes on the ticket (ticket settings, article and it's "
+#~ "attachments) will be saved to the shared draft."
+#~ msgstr ""
+#~ "Tutte le modifiche correnti sul ticket (impostazioni del ticket, articolo "
+#~ "e allegati) verranno salvate nella bozza condivisa."
+
+#~ msgid "Screencast showing how to save a shared draft within ticket zoom"
+#~ msgstr ""
+#~ "Screencast che mostra come salvare una bozza condivisa all'interno dello "
+#~ "zoom ticket"
 
 #, fuzzy
 #~ msgid ""
