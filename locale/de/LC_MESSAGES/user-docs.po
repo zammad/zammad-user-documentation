@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-08 11:01+0200\n"
+"POT-Creation-Date: 2026-04-30 08:04+0200\n"
 "PO-Revision-Date: 2026-04-09 19:02+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -2089,8 +2089,12 @@ msgstr ""
 "\"abspalten\" unter dem gewünschten Artikel:"
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket button"
-msgstr "Ticket abspalten Button"
+#, fuzzy
+#| msgid "Screenshots shows response buttons below an article."
+msgid ""
+"Screenshot shows \"split\" button in the ticket detail view next to an "
+"article"
+msgstr "Screenshot zeigt Antwortschaltflächen unterhalb eines Artikels."
 
 #: ../advanced/ticket-actions/split.rst:15
 msgid ""
@@ -2101,8 +2105,10 @@ msgstr ""
 "ein Dialog zum Erstellen eines neuen Tickets angezeigt:"
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket dialog"
-msgstr "Ticket abspalten Dialog"
+#, fuzzy
+#| msgid "Screenshot shows the new ticket dialog."
+msgid "Screenshot shows split ticket dialog"
+msgstr "Der Screenshot zeigt einen Ticket-Erstellungsdialog."
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid ""
@@ -3651,8 +3657,9 @@ msgid ""
 msgstr ""
 "Die SLA-Funktion erfordert eine Konfiguration durch Ihren Administrator. "
 "Falls Sie keine Eskalations-Zeitstempel sehen, ist entweder das Ticket nicht "
-"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in der "
-":admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr Informationen."
+"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in "
+"der :admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr "
+"Informationen."
 
 #: ../basics/work-with-tickets.rst:252
 msgid "Highlight Text in a Ticket"
@@ -7261,9 +7268,13 @@ msgstr ""
 "erwartet, dass der Entwurf nicht länger notwendig ist."
 
 #: ../extras/knowledge-base.rst:4
+#, fuzzy
+#| msgid ""
+#| "Manage, edit, and reorganize knowledge base articles from the **knowledge "
+#| "base** panel."
 msgid ""
-"Manage, edit, and reorganize knowledge base articles from the **knowledge "
-"base** panel."
+"Manage, edit and organize your knowledge base content by opening the "
+"``Knowledge Base`` tab in the navigation sidebar."
 msgstr ""
 "Verwalten, bearbeiten und strukturieren Sie alle Artikel im **Knowledge "
 "Base** - Bereich."
@@ -9951,6 +9962,12 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
 "außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
 "Dokumentationen </index.html>` verfügbar."
+
+#~ msgid "Split ticket button"
+#~ msgstr "Ticket abspalten Button"
+
+#~ msgid "Split ticket dialog"
+#~ msgstr "Ticket abspalten Dialog"
 
 #~ msgid "Check Escalations"
 #~ msgstr "Eskalationen prüfen"
