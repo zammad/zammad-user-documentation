@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-29 16:40+0200\n"
-"PO-Revision-Date: 2026-04-30 12:02+0000\n"
+"PO-Revision-Date: 2026-05-01 17:02+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -1822,7 +1822,7 @@ msgid ""
 "can find the **Related tickets** section:"
 msgstr ""
 "Отворите панел тикета и погледајте у траци са стране. Испод одељка "
-"**Ознаке** можете пронаћи одељак „Повезани тикети”:"
+"**Ознаке** можете пронаћи одељак **Повезани тикети**:"
 
 #: ../advanced/ticket-actions/link.rst:0
 msgid "Ticket pane: Links"
@@ -1933,7 +1933,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:0
 msgid "Ticket menu with highlighted \"merge\""
-msgstr "Мени радњи тикета са означеним „спајањем”"
+msgstr "Мени радњи тикета са назначеним „спајањем”"
 
 #: ../advanced/ticket-actions/merge.rst:41
 msgid "Merge dialog"
@@ -2033,12 +2033,12 @@ msgstr ""
 "чланка који желите да издвојите:"
 
 #: ../advanced/ticket-actions/split.rst:None
-#, fuzzy
-#| msgid "Screenshot shows subscribe button in the ticket sidebar tab"
 msgid ""
 "Screenshot shows \"split\" button in the ticket detail view next to an "
 "article"
-msgstr "Снимак екрана који приказује дугме претплате у бочној траци тикета"
+msgstr ""
+"Снимак екрана који приказује дугме „раздели” испод чланка у детаљном приказу "
+"тикета"
 
 #: ../advanced/ticket-actions/split.rst:15
 msgid ""
@@ -2047,10 +2047,8 @@ msgid ""
 msgstr "По клику на дугме „раздели”, биће приказан дијалог новог тикета:"
 
 #: ../advanced/ticket-actions/split.rst:None
-#, fuzzy
-#| msgid "Screenshot shows the new ticket dialog."
 msgid "Screenshot shows split ticket dialog"
-msgstr "Снимак екрана приказује екран отварања тикета."
+msgstr "Снимак екрана који приказује дијалог раздвајања тикета"
 
 #: ../advanced/ticket-actions/split.rst:23
 msgid ""
@@ -2665,7 +2663,7 @@ msgstr ""
 msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
 msgstr ""
 "Снимак екрана који приказује страницу са детаљима резултата претраге са "
-"означеним језичком „Тикет”."
+"назначеним језичком „Тикет”."
 
 #: ../basics/find-tickets.rst:102
 msgid ""
@@ -5535,7 +5533,7 @@ msgstr ""
 #: ../basics/zammad-ui.rst:0
 msgid "Screenshot shows Zammad's navigation bar with highlighted areas."
 msgstr ""
-"Снимак екрана који приказује Zammad-ову навигациону траку са означеним "
+"Снимак екрана који приказује Zammad-ову навигациону траку са назначеним "
 "деловима."
 
 #: ../basics/zammad-ui.rst:67
@@ -5713,19 +5711,14 @@ msgstr ""
 "дате позитивно мишљење ако сте задовољни AI резултатом."
 
 #: ../extras/ai-features.rst:23
-#, fuzzy
-#| msgid ""
-#| "Always double-check the response. Although the feature was carefully "
-#| "developed, there may still be minor problems in individual cases due to "
-#| "the nature of neural networks."
 msgid ""
 "Always double-check the AI responses. Although the features were developed "
 "carefully, there still might be minor inaccuracies in individual cases due "
 "to the nature of neural networks."
 msgstr ""
-"Обавезно проверите резултат. Иако је функција развијена под пуном пажњом, и "
-"даље може доћи до мањих проблема у појединачним случајевима услед саме "
-"природе неуронских мрежа."
+"Обавезно проверите AI резултате. Иако су функције пажљиво развијене, и даље "
+"може доћи до мањих нетачности у појединачним случајевима услед саме природе "
+"неуронских мрежа."
 
 #: ../extras/ai-features.rst:28
 msgid "Ticket Summary"
@@ -5895,10 +5888,8 @@ msgstr ""
 "уреднику."
 
 #: ../extras/ai-features.rst:95
-#, fuzzy
-#| msgid "Knowledge Base Preview Mode"
 msgid "Knowledge Base Answer Generation"
-msgstr "Режим приказа базе знања"
+msgstr "Генерација чланка базе знања"
 
 #: ../extras/ai-features.rst:97
 msgid ""
@@ -5910,12 +5901,16 @@ msgid ""
 "even reduce the ticket volume in the long run when customers can solve their "
 "issues by themselves."
 msgstr ""
+"Ова функција вам омогућава да покренете AI генерацију чланка :doc:`базе "
+"знања <knowledge-base>` на основу тикета. Може бити од помоћи уколико често "
+"примате сличне тикете и желите да брзо додате чланак базе знања за такве "
+"случајеве. На овај начин помажете себи и својим колегама приликом решавања "
+"сличних тикета кроз ефикаснију обраду у будућности и можете чак и смањити "
+"број тикета на дуге стазе јер клијенти могу и сами да реше своје проблеме."
 
 #: ../extras/ai-features.rst:104
-#, fuzzy
-#| msgid "Ticket Information"
 msgid "Important information:"
-msgstr "Информације о тикету"
+msgstr "Важне информације:"
 
 #: ../extras/ai-features.rst:106
 msgid ""
@@ -5928,24 +5923,28 @@ msgstr ""
 msgid ""
 "The user who triggered the generation is set as the author of the answer."
 msgstr ""
+"Корисник који је покренуо генерацију ће бити постављен као аутор чланка."
 
 #: ../extras/ai-features.rst:109
 msgid ""
 "The answer is generated in the configured default language of your knowledge "
 "base."
-msgstr ""
+msgstr "Чланак је генерисан на подразумеваном језику ваше базе знања."
 
 #: ../extras/ai-features.rst:111
 msgid ""
 "The answer includes a note in the content and a tag (``ai-generated``) about "
 "the AI generation."
 msgstr ""
+"Чланак укључује напомену о AI генерацији у свом садржају и ознаку (``ai-"
+"generated``)."
 
 #: ../extras/ai-features.rst:113
 msgid ""
 "A link to the answer is added to the ticket from which the answer generation "
 "was triggered."
 msgstr ""
+"Веза на чланак ће бити додата у тикет из кога је покренута генерација чланка."
 
 #: ../extras/ai-features.rst:115
 msgid ""
@@ -5953,6 +5952,9 @@ msgid ""
 "triggering user has editor permissions. The AI then chooses one of these "
 "categories."
 msgstr ""
+"AI захтев ће укључивати листу категорија базе знања у којима корисник који "
+"покреће генерацију има приступ уредника. Вештачка интелигенција ће одабрати "
+"између једне од ових категорија."
 
 #: ../extras/ai-features.rst:119
 msgid ""
@@ -5965,7 +5967,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:None
 msgid "KB answer generation in ticket tab"
-msgstr ""
+msgstr "Генерација чланка базе знања у панелу тикета"
 
 #: ../extras/ai-features.rst:126
 msgid ""
@@ -5974,6 +5976,9 @@ msgid ""
 "remove personal and/or company-specific information, it can't be guaranteed "
 "that this is the case."
 msgstr ""
+"Увек проверите генерисани чланак. Ово је нарочито важно уколико желите да "
+"објавите чланак. Иако AI добија инструцкије да уклони личне и/или специфичне "
+"информације о фирмама, није могуће гарантовати овакав резултат."
 
 #: ../extras/ai-features.rst:134
 msgid "AI Agents"
@@ -6114,8 +6119,6 @@ msgid "New ticket dialog"
 msgstr "Дијалог новог тикета"
 
 #: ../extras/caller-log.rst:27
-#, fuzzy
-#| msgid "Zammad will open a new ticket dialogue if:"
 msgid "Zammad will open a new ticket dialog if:"
 msgstr "Zammad ће отворити дијалог новог тикета ако:"
 
@@ -6423,8 +6426,8 @@ msgstr ""
 #: ../extras/checklist.rst:15
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
-"Снимак екрана који приказује траку са десне стране са означеним језичком "
-"„Списак задатака”"
+"Снимак екрана који приказује траку са десне стране са назначеним језичком „"
+"Списак задатака”"
 
 #: ../extras/checklist.rst:15
 msgid "Screenshot of ticket view with highlighted checklist sidebar."
@@ -7088,51 +7091,36 @@ msgstr ""
 "није потребан."
 
 #: ../extras/knowledge-base.rst:4
-#, fuzzy
-#| msgid ""
-#| "Manage, edit, and reorganize knowledge base articles from the **knowledge "
-#| "base** panel."
 msgid ""
 "Manage, edit and organize your knowledge base content by opening the "
 "``Knowledge Base`` tab in the navigation sidebar."
 msgstr ""
-"Управљајте, уредите и реорганизујте чланке базе знања из панела **базе "
-"знања**."
+"Управљајте, уредите и реорганизујте садржај ваше базе знања отварањем "
+"прозора ``База знања`` из навигационе траке."
 
 #: ../extras/knowledge-base.rst:7
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don't see it in the main menu, that "
-#| "means your administrator hasn't enabled it yet. Administrators can learn "
-#| "more on our :admin-docs:`admin documentation </manage/knowledge-"
-#| "base.html>`."
 msgid ""
 "This feature is optional; if you don't see it in the main menu, that means "
 "your administrator hasn't enabled it yet. Administrators can learn more in "
 "the :admin-docs:`knowledge base section of the admin docs </manage/knowledge-"
 "base.html>`."
 msgstr ""
-"Ова функција је **опциона**; ако је не видите у главном менију, то значи да "
-"је ваш администратор још није омогућио. Администратори могу сазнати више у "
-"нашој :admin-docs:`администраторској документацији </manage/knowledge-"
-"base.html>`."
+"Ова функција је опциона; ако је не видите у главном менију, то значи да је "
+"ваш администратор још није укључио. Администратори могу сазнати више у "
+":admin-docs:`одељку о бази знања администраторске документације </manage/"
+"knowledge-base.html>`."
 
 #: ../extras/knowledge-base.rst:17
 msgid "Knowledge Base Preview Mode"
 msgstr "Режим приказа базе знања"
 
 #: ../extras/knowledge-base.rst:17
-#, fuzzy
-#| msgid ""
-#| "The knowledge base panel begins in **Preview Mode**. With some small "
-#| "exceptions, Preview Mode shows what the published knowledge base will "
-#| "look like."
 msgid ""
 "The knowledge base panel opens in a preview mode by default. This preview "
 "mode looks similar to the published knowledge."
 msgstr ""
-"Панел базе знања почиње у **Режиму приказа**. Уз неке мале изузетке, режим "
-"приказа показује како ће изгледати објављена база знања."
+"Прозор базе знања се подразумевано отвара у режиму приказа. Овај режим "
+"приказа личи на јавно објављене чланке."
 
 #: ../extras/knowledge-base.rst:21
 msgid "Getting Started"
@@ -7143,50 +7131,35 @@ msgid "Knowledge Base Link to published knowledge base"
 msgstr "Веза до објављене базе знања"
 
 #: ../extras/knowledge-base.rst:27
-#, fuzzy
-#| msgid ""
-#| "Use the **↗️ button** in the top toolbar to see the published knowledge "
-#| "base."
 msgid ""
 "Use the ↗️ button in the top toolbar to see the published knowledge base."
 msgstr ""
-"Користите дугме **↗️** на горњој траци са алаткама да бисте видели објављену "
-"базу знања."
+"Користите дугме ↗️ из горње траке са алаткама да бисте видели објављену базу "
+"знања."
 
 #: ../extras/knowledge-base.rst:33
 msgid "Knowledge Base Edit Mode"
 msgstr "Режим уређивања базе знања"
 
 #: ../extras/knowledge-base.rst:33
-#, fuzzy
-#| msgid ""
-#| "👆 In Edit Mode, use the righthand menu to navigate through the knowledge "
-#| "base."
 msgid ""
 "In edit mode, use the menu on the right side to navigate through the "
 "knowledge base."
 msgstr ""
-"👆 У режиму за уређивање, користите десни мени за навигацију кроз базу знања."
+"У режиму за уређивање, користите десни мени за навигацију кроз базу знања."
 
 #: ../extras/knowledge-base.rst:36
-#, fuzzy
-#| msgid ""
-#| "Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** "
-#| "(and back again). If you can't see the \"Edit\" button, you should talk "
-#| "to your administrator about granting you the appropriate permissions. By "
-#| "default, agents are **not permitted to create, edit, or manage knowledge "
-#| "base articles**."
 msgid ""
 "Use the ``Edit`` button in the top toolbar to switch into the edit mode (and "
 "back again). If you can't see the ``Edit`` button, you should talk to your "
 "administrator about granting you the appropriate permissions. By default, "
 "agents are not allowed to create, edit, or manage knowledge base articles."
 msgstr ""
-"Користите дугме **„измени”** у горњој траци да бисте прешли у **мод "
-"уређивања** (и назад из њега). Уколико не видите дугме „измени”, попричајте "
+"Користите дугме ``измени`` из горње траке са алаткама да бисте прешли у мод "
+"уређивања (и назад из њега). Уколико не видите дугме ``измени``, попричајте "
 "са вашим администратором да вам додели одговарајуће дозволе. Подразумевано, "
-"оператерима **није дозвољено да додају, уређују или управљају чланцима базе "
-"знања**."
+"оператерима није дозвољено да додају, уређују или управљају чланцима базе "
+"знања."
 
 #: ../extras/knowledge-base.rst:42
 msgid "Switching Languages"
@@ -7209,10 +7182,8 @@ msgstr ""
 "зависити од статуса стране:"
 
 #: ../extras/knowledge-base.rst:58
-#, fuzzy
-#| msgid "in Edit Mode"
 msgid "In edit mode"
-msgstr "у режиму уређивања"
+msgstr "У режиму уређивања"
 
 #: ../extras/knowledge-base.rst:54
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
@@ -7223,42 +7194,27 @@ msgid "Missing translation warning"
 msgstr "Упозорење о недостајућем преводу"
 
 #: ../extras/knowledge-base.rst:66
-#, fuzzy
-#| msgid "in Preview Mode"
 msgid "In preview mode"
-msgstr "у режиму приказа"
+msgstr "У режиму приказа"
 
 #: ../extras/knowledge-base.rst:61
-#, fuzzy
-#| msgid ""
-#| "Untranslated pages are only visible to users with **edit permissions**:"
 msgid "Untranslated pages are only visible to users with edit permissions:"
 msgstr ""
-"Непреведене странице су видљиве само корисницима са **дозволом за "
-"уређивање**:"
+"Непреведене странице су видљиве само корисницима са дозволом за уређивање:"
 
 #: ../extras/knowledge-base.rst:73
-#, fuzzy
-#| msgid "in the published knowledge base"
 msgid "In the published knowledge base"
-msgstr "у објављеној бази знања"
+msgstr "У објављеној бази знања"
 
 #: ../extras/knowledge-base.rst:69
-#, fuzzy
-#| msgid "Untranslated pages are **always hidden**:"
 msgid "Untranslated pages are always hidden:"
-msgstr "Непреведене странице су **увек сакривене**:"
+msgstr "Непреведене странице су увек сакривене:"
 
 #: ../extras/knowledge-base.rst:76
 msgid "Using RSS Feeds"
 msgstr "Коришћење RSS извора"
 
 #: ../extras/knowledge-base.rst:78
-#, fuzzy
-#| msgid ""
-#| "Zammad allows you to subscribe to either the knowledge base as whole or "
-#| "to specific categories. There's both a public and an internal option to "
-#| "do so."
 msgid ""
 "Zammad allows you to subscribe to either the knowledge base as a whole or to "
 "specific categories. There's both a public and an internal option to do so. "
@@ -7266,7 +7222,9 @@ msgid ""
 "talk to your administrator about enabling the function."
 msgstr ""
 "Zammad вам омогућава да се претплатите на базу знања у целини или на "
-"одређене категорије. Постоји и јавна и интерна опција ове функције."
+"одређене категорије. Постоји и јавна и интерна опција ове функције. "
+"Подразумевано, RSS извори су искључени. Уколико желите да користите RSS "
+"функцију, замолите свог администратора да укључи ову функцију."
 
 #: ../extras/knowledge-base.rst:85
 msgid "Public RSS function"
@@ -7309,16 +7267,12 @@ msgid "Screenshot showing the modal for of the RSS button"
 msgstr "Снимак екрана који приказује дијалог RSS дугмета"
 
 #: ../extras/knowledge-base.rst:109
-#, fuzzy
-#| msgid ""
-#| "Keep in mind that internal RSS links contain **personal** access tokens. "
-#| "**Never share these URLs with third parties!**"
 msgid ""
 "Keep in mind that internal RSS links contain **personal access tokens**. "
 "Never share these URLs with third parties!"
 msgstr ""
-"Имајте на уму да интерне RSS везе садрже **личне** приступне токене. "
-"**Никада не делите ове URL адресе са другима!**"
+"Имајте на уму да интерне RSS везе садрже **личне приступне кључеве**. Никада "
+"не делите ове URL адресе са другима!"
 
 #: ../extras/knowledge-base.rst:112
 msgid ""
@@ -7345,30 +7299,21 @@ msgid "Edit category"
 msgstr "Уреди категорију"
 
 #: ../extras/knowledge-base.rst:127
-#, fuzzy
-#| msgid ""
-#| "You can relocate a category using the **Parent** menu. Doing so, all of "
-#| "its articles and sub-categories will be relocated with it."
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
 msgstr ""
-"Можете преместити категорију помоћу менија **Надређени**. Сви њени чланци и "
-"подкатегорије ће бити премештени са њом."
+"Можете преместити категорију преко падајућег менија **Надређени**. Сви њени "
+"чланци и подкатегорије ће бити премештени са њом."
 
 #: ../extras/knowledge-base.rst:130
-#, fuzzy
-#| msgid ""
-#| "You can delete categories by clicking on the 🗑️ **Delete** button. "
-#| "Categories can only be deleted once **all of their articles and sub-"
-#| "categories** have been deleted or relocated."
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
 "deleted or relocated."
 msgstr ""
-"Можете обрисати категорије кликом на дугме 🗑️ **избриши**. Категорије се могу "
-"избрисати само када **сви њихови чланци и подкатегорије** буду избрисани или "
+"Можете обрисати категорије кликом на дугме ``избриши``. Категорије се могу "
+"избрисати само када сви њихови чланци и подкатегорије буду избрисани или "
 "премештени."
 
 #: ../extras/knowledge-base.rst:135
@@ -7396,13 +7341,6 @@ msgstr ""
 "бисте смањили оптерећење информацијама за кориснике којима нису потребне."
 
 #: ../extras/knowledge-base.rst:145
-#, fuzzy
-#| msgid ""
-#| "The roles require **knowledge base reader permission**. Your "
-#| "administrator has to provide the relevant groups with reader permissions "
-#| "for the knowledge base. If you're unsure, please ask your administrator "
-#| "to configure the :admin-docs:`role permissions </manage/roles/agent-"
-#| "permissions.html>` accordingly."
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7410,7 +7348,7 @@ msgid ""
 "the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` "
 "accordingly."
 msgstr ""
-"Улоге захтевају **дозволу читаоца базе знања**. Ваш администратор мора да "
+"Улоге захтевају дозволу ``knowledge_base.reader``. Ваш администратор мора да "
 "обезбеди одговарајуће групе са дозволама читања за базу знања. Ако нисте "
 "сигурни, замолите свог администратора да у складу са тим конфигурише :admin-"
 "docs:`дозволе улоге </manage/roles/agent-permissions.html>`."
@@ -7498,60 +7436,52 @@ msgid "💡 **Link Answer**"
 msgstr "💡 **Веза ка чланку**"
 
 #: ../extras/knowledge-base.rst:189
-#, fuzzy
-#| msgid "Internal references to other knowledge base answers."
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
-msgstr "Интерне референце на друге чланке базе знања."
+msgstr ""
+"Интерне референце на друге чланке базе знања (неће се покварити уколико се "
+"циљна URL адреса промени)."
 
 #: ../extras/knowledge-base.rst:194
 msgid "📋 **Linked Tickets**"
 msgstr "📋 **Везе ка тикетима**"
 
 #: ../extras/knowledge-base.rst:193
-#, fuzzy
-#| msgid "Internal references to Zammad tickets."
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
-msgstr "Интерне референце на Zammad тикете."
+msgstr ""
+"Интерне референце на Zammad тикете (видљиве само у режиму приказа и "
+"уређивања)."
 
 #: ../extras/knowledge-base.rst:199
 msgid "🏷️ **Tags**"
 msgstr "🏷 **Ознаке**"
 
 #: ../extras/knowledge-base.rst:197
-#, fuzzy
-#| msgid ""
-#| "Please note that tags are visible publicly and can be the same like those "
-#| "in your tickets."
 msgid ""
 "Can help to categorize or label answers to enrich the content for better "
 "searchability. Please note that tags are visible publicly and can be the "
 "same like those in your tickets."
 msgstr ""
-"Имајте на уму да су ознаке јавно видљиве и да могу бити исте као и оне у "
-"вашим тикетима."
+"Може вам помоћи да каталогизујете или означите чланке ради обогаћивања "
+"садржаја у циљу боље претраге. Имајте на уму да су ознаке јавно видљиве и да "
+"могу бити исте као и оне у вашим тикетима."
 
 #: ../extras/knowledge-base.rst:224
 msgid "Visibility"
 msgstr "Видљивост"
 
 #: ../extras/knowledge-base.rst:202
-#, fuzzy
-#| msgid ""
-#| "Set the **visibility** of an answer to control who can see an article, or "
-#| "schedule it to be published at a later date. Articles are **color-coded** "
-#| "according to their visibility:"
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
 "according to their visibility:"
 msgstr ""
-"Подесите **видљивост** чланка да бисте контролисали ко може да види чланак "
-"или закажите његово објављивање за касније. Чланци су **означени бојама** "
-"према њиховој видљивости:"
+"Подесите видљивост чланка да бисте контролисали ко може да види чланак, или "
+"закажите његово објављивање за касније. Чланци су означени бојама према "
+"њиховој видљивости:"
 
 #: ../extras/knowledge-base.rst:207
 msgid "**Public** (visible to everyone)"
@@ -7578,12 +7508,6 @@ msgid "Using Answers In Ticket Articles"
 msgstr "Коришћење чланака у тикетима"
 
 #: ../extras/knowledge-base.rst:229
-#, fuzzy
-#| msgid ""
-#| "As soon as the knowledge base contains one or more answers, you can use "
-#| "these just like text modules. Instead of ``::`` just use ``??`` to open "
-#| "the search modal. The search is done full text on both answer body and "
-#| "title in all languages available."
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7594,9 +7518,11 @@ msgid ""
 "content but is inserted at the cursor's position."
 msgstr ""
 "Чим база знања садржи један или више чланака, можете их користити као "
-"текстуалне исечке. Уместо ``::`` само користите ``??`` да отворите мени "
-"претраге. Претрага се врши по целом тексту чланка и у наслову на свим "
-"доступним језицима."
+"текстуалне исечке. Уместо :kbd:`:`:kbd:`:` само користите :kbd:`?`:kbd:`?` "
+"да отворите мени претраге. Претрага се врши по целом тексту чланка и наслову "
+"на свим доступним језицима. Уколико пронађете шта сте тражили, једноставно "
+"притисните :kbd:`Enter` за убацивање чланка у тикет. Убачени садржај неће "
+"преиначити текст већ ће бити унешен на тренутној позицији курсора."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -8030,8 +7956,6 @@ msgid "Dark mode"
 msgstr "Тамни изглед"
 
 #: ../extras/profile-and-settings.rst:30
-#, fuzzy
-#| msgid "Quickly toggle dark and light mode without using keyboard bindings."
 msgid "Quickly toggle dark and light mode without using a keyboard shortcut."
 msgstr ""
 "Брзо мењајте између тамног и светлог изгледа без коришћења пречице на "
@@ -8380,7 +8304,7 @@ msgstr ""
 
 #: ../extras/reporting.rst:None
 msgid "Menu bar with highlighted reporting"
-msgstr "Трака са означеним извештавањем"
+msgstr "Трака са назначеним извештавањем"
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
@@ -8853,11 +8777,6 @@ msgid "Shared Drafts"
 msgstr "Заједнички нацрти"
 
 #: ../extras/shared-drafts.rst:7
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don't see it in the menu, that means "
-#| "your administrator disabled this function. Administrators can learn more "
-#| "in our :admin-docs:`admin documentation </manage/groups/settings.html>`."
 msgid ""
 "Share drafts for new or existing tickets with other agents of your group. "
 "Load, modify and save an existing draft e.g. as QA process with colleagues. "
@@ -8865,10 +8784,12 @@ msgid ""
 "your administrator disabled this function. Administrators can learn more in "
 "our :admin-docs:`admin documentation </manage/groups/settings.html>`."
 msgstr ""
-"Ова функција је **опциона**; ако је не видите у менију, то значи да је ваш "
-"администратор онемогућио ову функцију. Администратори могу сазнати више у "
-"нашој :admin-docs:`администраторској документацији </manage/groups/"
-"settings.html>`."
+"Поделите нацрте за нове и постојеће тикета са другим оператерима ваше групе. "
+"Учитајте, измените и преснимите постојеће нацрте нпр. прилико QA процеса са "
+"својим колегама. Ова функција је **опциона**; ако је не видите у менију, то "
+"значи да је ваш администратор искључио ову функцију. Администратори могу "
+"сазнати више у нашој :admin-docs:`администраторској документацији </manage/"
+"groups/settings.html>`."
 
 #: ../extras/shared-drafts.rst:14
 msgid "**🤓 Let's be clear up front**"
@@ -8879,31 +8800,22 @@ msgid "Zammad technically has two draft functions:"
 msgstr "Zammad технички има две функције нацрта:"
 
 #: ../extras/shared-drafts.rst:18
-#, fuzzy
-#| msgid "shared draft (allow others to load the draft), and"
 msgid "Shared drafts (allow others to load the draft)"
-msgstr "заједнички нацрт (дозволи другима да примене нацрт), и"
+msgstr "Заједнички нацрти (дозвољавају другима да примене нацрт)"
 
 #: ../extras/shared-drafts.rst:19
-#, fuzzy
-#| msgid "user drafts."
 msgid "User drafts"
-msgstr "корисничке нацрте."
+msgstr "Лични нацрти"
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid ""
-#| "Every time you change a tickets field, Zammad will safe this in your "
-#| "personal draft. You then can share this as a shared draft if you want to. "
-#| "User drafts are *always* available!"
 msgid ""
 "Every time you change a ticket's field, Zammad will save this in your "
 "personal draft. You then can share this as a shared draft if you want to. "
 "User drafts are *always* available!"
 msgstr ""
 "Сваки пут када промените поље тикета, Zammad ће то сачувати у вашем личном "
-"нацрту. Затим можете поделити ово као заједнички нацрт ако желите. "
-"Кориснички нацрти су *увек* доступни!"
+"нацрту. Затим можете поделити ово као заједнички нацрт ако желите. Лични "
+"нацрти су *увек* доступни!"
 
 #: ../extras/shared-drafts.rst:26
 msgid "Handling Drafts"
@@ -8929,57 +8841,40 @@ msgstr ""
 "ко је додао или изменио нацрт."
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid ""
-#| "Screenshot highlighting the Draft available button within\n"
-#| "Ticket zoom"
 msgid ""
 "Screenshot shows highlighted \"Draft available\" button and preview dialog "
 "of the shared draft."
 msgstr ""
-"Снимак екрана који истиче дугме Доступан нацрт у\n"
-"приказу тикета"
+"Снимак екрана који приказује назначено дугме „Доступан нацрт” и дијалог "
+"приказа заједничког нацрта."
 
 #: ../extras/shared-drafts.rst:46 ../extras/shared-drafts.rst:74
 msgid "New ticket"
 msgstr "Нови тикет"
 
 #: ../extras/shared-drafts.rst:41
-#, fuzzy
-#| msgid ""
-#| "If you're in a new ticket dialogue *after selecting the ticket group*, "
-#| "the 📝 button will indicate the shared drafts function to be available. "
-#| "The shared drafts tab is *always* hidden if no group is selected!"
 msgid ""
 "If you're creating a new ticket and already selected a group, the shared "
 "draft sidebar tab on the right side shows up. The shared drafts tab is "
 "always hidden if no group is selected!"
 msgstr ""
-"Ако сте у дијалогу новог тикета и *након што изаберете групу тикета*, дугме "
-"📝 ће означити да је функција заједничких нацрта доступна. Језичак дељених "
-"нацрта је *увек* сакривен уколико група није одабрана!"
+"Уколико отварате нови тикет и већ сте одабрали групу, биће вам приказан "
+"панел заједничког нацрта са десне стране. Панел заједничког нацрта је увек "
+"сакривен уколико група није одабрана!"
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid "Screenshot shows an internal article with highlighted delete button."
 msgid ""
 "Screenshot shows the ticket creation dialog with highlighted shared draft "
 "after group selection."
 msgstr ""
-"Снимак екрана који приказује интерни чланак са назначеним дугметом за "
-"брисање."
+"Снимак екрана који приказује екран отварања тикета са назначеним заједничким "
+"нацртом након одабира групе."
 
 #: ../extras/shared-drafts.rst:52
 msgid "Remove draft"
 msgstr "Уклоните нацрт"
 
 #: ../extras/shared-drafts.rst:49
-#, fuzzy
-#| msgid ""
-#| "You can remove any draft (no matter if for new or existing tickets) from "
-#| "within the draft preview screen. Use the \"Delete\" link on the lower end "
-#| "of the dialogue. This has no effect on local drafts agents may have "
-#| "loaded already."
 msgid ""
 "You can remove any draft (no matter if for new or existing tickets) from "
 "within the draft preview screen. Use the ``Delete`` link on the lower end of "
@@ -8988,7 +8883,7 @@ msgid ""
 msgstr ""
 "Можете уклонити било коју недовршену верзију (без обзира да ли се ради о "
 "новим или постојећим тикетима) из екрана за преглед нацрта. Користите везу "
-"„Избриши” при дну дијалога. Ово нема ефекта на локалне нацрте који су "
+"``Избриши`` при дну дијалога. Ово нема ефекта на локалне нацрте који су "
 "оператери већ учитали."
 
 #: ../extras/shared-drafts.rst:86
@@ -9000,11 +8895,6 @@ msgid "Adding new drafts"
 msgstr "Додавање нових нацрта"
 
 #: ../extras/shared-drafts.rst:57
-#, fuzzy
-#| msgid ""
-#| "To save a new shared draft, set the ticket settings, customer, ticket "
-#| "title and article as desired. Make sure to select a group that supports "
-#| "shared drafts."
 msgid ""
 "To save a new shared draft, set the ticket settings, customer, ticket title "
 "and article as desired. Make sure to select a group that supports shared "
@@ -9012,32 +8902,25 @@ msgid ""
 "tab on the right side, enter a meaningful name and click on the ``Create`` "
 "button."
 msgstr ""
-"Да бисте додали нови заједничли нацрт, подесите податке тикета, клијента, "
+"Да бисте додали нови заједнички нацрт, подесите податке тикета, клијента, "
 "наслов тикета и чланак по жељи. Обавезно изаберите групу која подржава "
-"заједничке нацрте."
+"заједничке нацрте. Када сте спремни да сачувате нацрт, отворите панел "
+"заједничког нацрта са десне стране, унесите смислен назив и кликните на "
+"дугме ``Додај``."
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid "Screenshot shows an internal article with highlighted delete button."
 msgid ""
 "Screenshot shows the new ticket dialog with the highlighted \"create draft\" "
 "section."
 msgstr ""
-"Снимак екрана који приказује интерни чланак са назначеним дугметом за "
-"брисање."
+"Снимак екрана који приказује дијалог новог тикета са назначеним одељком „"
+"додавања заједничког нацрта”."
 
 #: ../extras/shared-drafts.rst:74
 msgid "Update existing drafts"
 msgstr "Освежите постојеће нацрте"
 
 #: ../extras/shared-drafts.rst:67
-#, fuzzy
-#| msgid ""
-#| "In order to update or rename existing shared drafts for new tickets, "
-#| "simply load the draft in question. Change the information (e.g. ticket "
-#| "settings or content) needed and, if needed, update the drafts name on the "
-#| "right hand side of the ticket. This way you can not just update existing "
-#| "drafts, but also use existing drafts to create another copy!"
 msgid ""
 "In order to update or rename existing shared drafts for new tickets, simply "
 "load the draft in question. Change the information (e.g. ticket settings or "
@@ -9052,36 +8935,29 @@ msgstr ""
 "нацрте, него користити постојеће нацрте да направите још једну копију!"
 
 #: ../extras/shared-drafts.rst:0
-#, fuzzy
-#| msgid "Screenshot shows the new ticket dialog."
 msgid "Screenshot shows shared draft sidebar of the ticket creation dialog."
-msgstr "Снимак екрана приказује екран отварања тикета."
+msgstr ""
+"Снимак екрана приказује панел заједничког нацрта у дијалогу отварања тикета."
 
 #: ../extras/shared-drafts.rst:77
-#, fuzzy
-#| msgid ""
-#| "Use the ^ button next to the update button. If the group of the ticket "
-#| "(or in your selection) allows shared drafts, Zammad will provide the "
-#| "option \"Save Draft\"."
 msgid ""
 "Use the ``^`` button next to the ``Update`` button. If the group of the "
 "ticket (or in your selection) allows shared drafts, Zammad will provide the "
 "option **Save Draft**. All current changes on the ticket (ticket settings, "
 "article and its attachments) will be saved to the shared draft."
 msgstr ""
-"Користите дугме ^ поред дугмета за освежавање. Ако група тикета (или група у "
-"вашем избору) дозвољава заједничке нацрте, Zammad ће омогућити опцију "
-"„Сачувај нацрт”."
+"Користите дугме ``^`` поред дугмета ``Освежи``. Уколико група тикета (или "
+"група у вашем избору) дозвољава заједничке нацрте, Zammad ће омогућити "
+"опцију **Сачувај нацрт**. Све тренутне измене тикета (атрибути, чланак и "
+"његови прилози) ће бити сачувани као заједнички нацрт."
 
 #: ../extras/shared-drafts.rst:82
-#, fuzzy
-#| msgid ""
-#| "When saving was successful, the button \"📝 Draft available\" will be "
-#| "shown."
 msgid ""
 "When saving was successful, the button ``📝 Draft available`` is show as you "
 "can see in the screenshot about loading a draft."
-msgstr "По снимању нацрта, биће приказано дугме „📝 Доступан нацрт”."
+msgstr ""
+"По успешном снимању нацрта, биће приказано дугме ``📝 Доступан нацрт`` које "
+"можете видети на снимку екрана о учитавању нацрта."
 
 #: ../extras/shared-drafts.rst:0
 msgid ""
