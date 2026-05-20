@@ -27,7 +27,10 @@ Recently viewed
 
 Further actions
    Dark mode
-      Quickly toggle dark and light mode without using a keyboard shortcut.
+      Quickly toggle dark and light mode without using keyboard bindings.
+
+      .. figure:: /images/extras/profile-and-settings/darkmode-switch-profile.gif
+         :alt: Screencast showing the dark mode button being toggled
 
    Keyboard shortcuts
       :doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`.

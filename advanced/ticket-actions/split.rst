@@ -9,7 +9,11 @@ To split a ticket, simply click on the "split" button under the article you
 want to split off:
 
 .. figure:: /images/advanced/ticket-actions/article-split.png
+<<<<<<< HEAD
    :alt: Screenshot shows "split" button in the ticket detail view next to an article
+=======
+   :alt: Split ticket button
+>>>>>>> parent of 962db07 (Fixes #527 - Add AI knowledge base answer generation, tweaks and UI alignment)
    :align: center
 
 After clicking on the "split" button, a dialog for creating a new ticket is
@@ -21,6 +25,13 @@ presented to you:
    :scale: 90%
 
 It is prefilled with the content of the existing article. Remember to select
-the type (call/email). The original ticket is :doc:`linked <link>` in the new
-one and vice versa. You can find the linked tickets in the ticket sidebar tab
-under **Related tickets**.
+the type (call/email).
+
+The original ticket is :doc:`linked <link>` to the new one, as you can see in
+the ticket side panel:
+
+.. figure:: /images/advanced/ticket-actions/split-links.png
+   :alt: Ticket pane: Links
+   :align: center
+   :scale: 55%
+
