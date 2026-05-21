@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 10:45+0200\n"
+"POT-Creation-Date: 2026-05-21 11:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1237,7 +1237,7 @@ msgstr ""
 #: ../snippets/ticket-state-type-circles.rst:8
 #: ../snippets/ticket-state-type-circles.rst:8
 #: ../snippets/ticket-state-type-circles.rst:8
-#: ../extras/knowledge-base.rst:219
+#: ../extras/knowledge-base.rst:214
 #: ../snippets/ticket-state-type-circles.rst:8
 msgid "|grn|"
 msgstr ""
@@ -4425,22 +4425,22 @@ msgid "This also applies if you're sharing the draft before submitting! Zammad e
 msgstr ""
 
 #: ../extras/knowledge-base.rst:4
-msgid "<<<<<<< HEAD Manage, edit and organize your knowledge base content by opening the ``Knowledge Base`` tab in the navigation sidebar. ======= Manage, edit, and reorganize knowledge base articles from the **knowledge base** panel. >>>>>>> parent of 962db07 (Fixes #527 - Add AI knowledge base answer generation, tweaks and UI alignment)"
+msgid "Manage, edit and organize your knowledge base content by opening the ``Knowledge Base`` tab in the navigation sidebar."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:12
+#: ../extras/knowledge-base.rst:7
 msgid "This feature is **optional**; if you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more on our :admin-docs:`admin documentation </manage/knowledge-base.html>`."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:21
+#: ../extras/knowledge-base.rst:16
 msgid "Knowledge Base Preview Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:21
+#: ../extras/knowledge-base.rst:16
 msgid "The knowledge base panel begins in **Preview Mode**. With some small exceptions, Preview Mode shows what the published knowledge base will look like."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:26
+#: ../extras/knowledge-base.rst:21
 msgid "Getting Started"
 msgstr ""
 
@@ -4448,23 +4448,23 @@ msgstr ""
 msgid "Knowledge Base Link to published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:32
+#: ../extras/knowledge-base.rst:27
 msgid "Use the **↗️ button** in the top toolbar to see the published knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:38
+#: ../extras/knowledge-base.rst:33
 msgid "Knowledge Base Edit Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:38
+#: ../extras/knowledge-base.rst:33
 msgid "👆 In Edit Mode, use the righthand menu to navigate through the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:41
+#: ../extras/knowledge-base.rst:36
 msgid "Use the **“Edit” button** in the top toolbar to switch into **Edit Mode** (and back again). If you can't see the \"Edit\" button, you should talk to your administrator about granting you the appropriate permissions. By default, agents are **not permitted to create, edit, or manage knowledge base articles**."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:49
+#: ../extras/knowledge-base.rst:44
 msgid "Switching Languages"
 msgstr ""
 
@@ -4472,19 +4472,19 @@ msgstr ""
 msgid "Switch languages"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:55
+#: ../extras/knowledge-base.rst:50
 msgid "Use the language menu to view or edit translations of the current page."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:57
+#: ../extras/knowledge-base.rst:52
 msgid "If you select a language, in which the page hasn't been translated into yet, the behavior depends on the state of the page:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:65
+#: ../extras/knowledge-base.rst:60
 msgid "in Edit Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:61
+#: ../extras/knowledge-base.rst:56
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
 msgstr ""
 
@@ -4494,39 +4494,39 @@ msgstr ""
 msgid "Missing translation warning"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:73
+#: ../extras/knowledge-base.rst:68
 msgid "in Preview Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:68
+#: ../extras/knowledge-base.rst:63
 msgid "Untranslated pages are only visible to users with **edit permissions**:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:80
+#: ../extras/knowledge-base.rst:75
 msgid "in the published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:76
+#: ../extras/knowledge-base.rst:71
 msgid "Untranslated pages are **always hidden**:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:83
+#: ../extras/knowledge-base.rst:78
 msgid "Using RSS Feeds"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:85
+#: ../extras/knowledge-base.rst:80
 msgid "Zammad allows you to subscribe to either the knowledge base as whole or to specific categories. There's both a public and an internal option to do so."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:88
+#: ../extras/knowledge-base.rst:83
 msgid "By default, RSS feeds are disabled. If you wish to use the RSS function, talk to your administrator about enabling the function."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:93
+#: ../extras/knowledge-base.rst:88
 msgid "Public RSS function"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:95
+#: ../extras/knowledge-base.rst:90
 msgid "The RSS button of the public knowledge base page is located at the bottom of each page. If enabled, the button will be available to anybody visiting the page."
 msgstr ""
 
@@ -4534,15 +4534,15 @@ msgstr ""
 msgid "Screenshot showing the context menu of the RSS button"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:103
+#: ../extras/knowledge-base.rst:98
 msgid "Internal RSS function"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:105
+#: ../extras/knowledge-base.rst:100
 msgid "The internal RSS button can be found on the upper right next to the edit button. It's available on every internal knowledge base page you display."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:108
+#: ../extras/knowledge-base.rst:103
 msgid "Pressing the the RSS button will provide up to two RSS feeds to subscribe to."
 msgstr ""
 
@@ -4550,11 +4550,11 @@ msgstr ""
 msgid "Screenshot showing the modal for of the RSS button"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:117
+#: ../extras/knowledge-base.rst:112
 msgid "Keep in mind that internal RSS links contain **personal** access tokens. **Never share these URLs with third parties!**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:120
+#: ../extras/knowledge-base.rst:115
 msgid "If you want to revoke the access and renew your token, you can do so in the RSS modal."
 msgstr ""
 
@@ -4563,7 +4563,7 @@ msgid "Screenshot showing the access token reset link on the lower\n"
 "end of the RSS feed modal (internal knowledge base)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:129
+#: ../extras/knowledge-base.rst:124
 msgid "Editing Categories"
 msgstr ""
 
@@ -4571,27 +4571,27 @@ msgstr ""
 msgid "Edit category"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:130
 msgid "You can relocate a category using the **Parent** menu. Doing so, all of its articles and sub-categories will be relocated with it."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:138
+#: ../extras/knowledge-base.rst:133
 msgid "You can delete categories by clicking on the 🗑️ **Delete** button. Categories can only be deleted once **all of their articles and sub-categories** have been deleted or relocated."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:138
 msgid "Granular Category Permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:145
+#: ../extras/knowledge-base.rst:140
 msgid "Granular category permissions are great to have individual access levels on a role level. Using the granular permissions of a category deactivates the default visibility behavior and applies the permissions you've chosen instead."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:150
+#: ../extras/knowledge-base.rst:145
 msgid "This allows you to divide user groups on a e.g. subscription level to reduce the information load for users that don't need the information."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:148
 msgid "The roles require **knowledge base reader permission**. Your administrator has to provide the relevant groups with reader permissions for the knowledge base. If you're unsure, please ask your administrator to configure the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
 
@@ -4599,19 +4599,19 @@ msgstr ""
 msgid "Screencast showing the visibility option for categories for granular access permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:163
+#: ../extras/knowledge-base.rst:158
 msgid "In general, permissions of a parent category are inherited! If you want to grant edit permissions for a sub-category for a specific role for example, set the upper level to \"reader\" and the desired sub-category to \"editor\". The same workflow applies to granting \"none\" permissions, effectively hiding a given sub-category. The other way round is not possible. A role with \"editor\" permission has full access to it's sub-categories, so it's pointless to limit it's permissions. \"None\" permissions also cannot be changed down the tree since there would be no path to access permitted sub-categories. If you can't select permissions in the table, this could be the reason."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:174
+#: ../extras/knowledge-base.rst:169
 msgid "Be aware that public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:171
 msgid "Knowledge base reader permission means that affected users can see **internal answers**. This is a potential issue if you're not dividing carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:181
+#: ../extras/knowledge-base.rst:176
 msgid "Editing Answers"
 msgstr ""
 
@@ -4619,23 +4619,23 @@ msgstr ""
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:182
 msgid "The knowledge base editor comes equipped with the same **rich text editing capabilities** available in the Zammad ticket composer. That means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted text, bullet lists, and more. You can even add file attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:206
 msgid "Different link types"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:190
 msgid "🔗 **Weblink**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:190
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:194
 msgid "💡 **Link Answer**"
 msgstr ""
 
@@ -4647,7 +4647,7 @@ msgstr ""
 msgid "(Will not break if destination URL changes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:198
 msgid "📋 **Linked Tickets**"
 msgstr ""
 
@@ -4659,7 +4659,7 @@ msgstr ""
 msgid "(Visible only in Preview and Edit Modes.)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:206
 msgid "🏷️ **Tags**"
 msgstr ""
 
@@ -4675,55 +4675,55 @@ msgstr ""
 msgid "Screencast showing tags on answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:236
+#: ../extras/knowledge-base.rst:231
 msgid "Visibility"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:214
+#: ../extras/knowledge-base.rst:209
 msgid "Set the **visibility** of an answer to control who can see an article, or schedule it to be published at a later date. Articles are **color-coded** according to their visibility:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:219
+#: ../extras/knowledge-base.rst:214
 msgid "**Public** (visible to everyone)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:216
 msgid "|blu|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:216
 msgid "**Internal** (visible to agents & editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:218
 msgid "|gry|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:218
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:239
+#: ../extras/knowledge-base.rst:234
 msgid "Using Answers In Ticket Articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:236
 msgid "As soon as the knowledge base contains one or more answers, you can use these just like text modules. Instead of ``::`` just use ``??`` to open the search modal. The search is done full text on both answer body and title in all languages available."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:246
+#: ../extras/knowledge-base.rst:241
 msgid "If you've found what you've been looking for, simply hit your ENTER-Key to load the answer into the ticket article. This way you don't have to throw URLs at your customer and provide the answer right away."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:250
+#: ../extras/knowledge-base.rst:245
 msgid "Loading answers into articles *does not* replace article content."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:256
+#: ../extras/knowledge-base.rst:251
 msgid "Screencast showing how to insert KB answers into articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:256
+#: ../extras/knowledge-base.rst:251
 msgid "Use ``??`` to find and load knowledge base answers into ticket articles"
 msgstr ""
 
