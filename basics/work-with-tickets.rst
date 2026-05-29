@@ -16,7 +16,7 @@ problem to create a new ticket while editing an existing one. Simply switch back
 to the other tab.
 
 For the most changes (except tags or rename title, for example), an explicit
-update of the ticket is needed. So make sure to click the **Update** button
+update of the ticket is needed. So make sure to click the ``Update`` button
 on the right side of the footer bar when you are happy with your changes.
 
 Changing Ticket Attributes
@@ -68,7 +68,7 @@ an article (1). This opens additional meta information (2):
 
 You might wonder how to delete articles. The answer is you can only delete
 articles that you have created yourself and which are not older than 10 minutes.
-To see the **delete** button in articles of a communication type (emails, calls),
+To see the ``delete`` button in articles of a communication type (emails, calls),
 their visibility has to be switched to internal first.
 
 .. figure:: /images/basics/work-with-tickets/delete-article.png

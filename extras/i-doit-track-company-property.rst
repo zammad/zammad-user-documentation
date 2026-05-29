@@ -40,7 +40,7 @@ So How Does It Work?
 In Zammad: Link i-doit Assets To Tickets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, add i-doit assets to a ticket in the ticket pane:
+First, add i-doit assets to a ticket in the ticket sidebar:
 
 .. figure:: /images/extras/i-doit-track-company-property/add-ticket-with-idoit-asset_via-zammad.gif
    :alt: (Screencast) Create a new ticket and link it to an i-doit asset
@@ -54,7 +54,7 @@ Once assets have been linked to a ticket, they can be accessed directly from the
    :alt: (Screencast) Access an i-doit asset directly from the Zammad ticket view
    :align: center
 
-   Click on a linked asset in the ticket pane to open its page in i-doit.
+   Click on a linked asset in the ticket sidebar to open its page in i-doit.
 
 In i-doit: List & Create Tickets For a Given Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,7 +67,7 @@ a list of all the tickets associated with each asset:
    :align: center
 
    Click the 💬 in the toolbar to list an asset's tickets.
-   Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad.
+   Use the ``🔗 Open in ticketsystem`` button to open the ticket in Zammad.
 
 You can even launch Zammad's new ticket dialog directly from i-doit,
 with the asset already linked for you:
@@ -76,5 +76,5 @@ with the asset already linked for you:
    :alt: (Screencast) Launch the new ticket dialog from within i-doit
    :align: center
 
-   Use the **📄 Create ticket** button in the asset ticket list
+   Use the ``📄 Create ticket`` button in the asset ticket list
    to start a new, pre-linked ticket dialog.

@@ -10,7 +10,7 @@ use **ticket templates** to fill them in with a single click next time.
    :alt: Ticket template selection in new ticket dialog
    :align: center
 
-   Use the ticket pane to load ticket templates.
+   Use the ticket sidebar to load ticket templates.
 
 On any *new ticket* dialogue use the 🗒️ tab on the right to display the
 *Templates* column. If Zammad has any templates for you to apply, you'll

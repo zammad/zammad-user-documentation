@@ -113,7 +113,7 @@ place. Once used, a recovery code cannot be reused.
 
 You also have an option to regenerate your recovery codes at any time, which
 invalidates already existing recovery codes and provides you with a list of
-fresh codes. You can do this by clicking on **Regenerate recovery codes** button
+fresh codes. You can do this by clicking on ``Regenerate recovery codes`` button
 in "Avatar > Profile > Password & Authentication".
 
 Set a Two-Factor Method as Default

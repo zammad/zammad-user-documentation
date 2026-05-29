@@ -24,7 +24,7 @@ Reassigning Tickets
 ^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/advanced/suggested-workflows/sharing-work.png
-   :alt: Reassigning tickets in the ticket pane
+   :alt: Reassigning tickets in the ticket sidebar
    :align: center
 
    Reassign a ticket (via the *Group* and *Owner* settings)
@@ -58,7 +58,7 @@ but maybe this is a really important contract,
 and you want to make sure they have an A+ experience from start to finish.
 
 To enable notifications for a ticket that doesn't belong to you,
-simply click the **Subscribe** button at the bottom of the ticket pane:
+simply click the ``Subscribe`` button at the bottom of the ticket sidebar:
 
 .. figure:: /images/advanced/suggested-workflows/mention-subscribe-yourself-to-a-ticket.gif
    :alt: Screencast of the Subscribe button feature
@@ -99,10 +99,10 @@ Quickly Assign in Ticket Listings
 Within overviews and detailed searches you can run bulk operations on tickets.
 This means you can adjust the following ticket information:
 
-   * group
-   * owner
-   * state (with pending time if applicable)
-   * priority
+   - group
+   - owner
+   - state (with pending time if applicable)
+   - priority
 
 After pressing "Confirm", Zammad also allows you to provide an internal or
 public note of why you adjusted the settings.

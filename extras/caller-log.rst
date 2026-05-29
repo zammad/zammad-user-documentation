@@ -26,9 +26,9 @@ will also help you during answering calls.
    New Ticket dialog
       Zammad will open a new ticket dialogue if:
 
-         * it's able to either guess a single user (see `maybe entries`_)
-         * the callers number belongs to a user known to Zammad
-         * the callers number is yet unknown
+         - it's able to either guess a single user (see `maybe entries`_)
+         - the callers number belongs to a user known to Zammad
+         - the callers number is yet unknown
 
       If the user is known to Zammad it will automatically set the ticket
       customer for you. You can correct this at any time if needed.

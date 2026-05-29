@@ -151,9 +151,9 @@ CTI
 
    Here you can find the fitting documentation pages:
 
-      * :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
-      * :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
-      * :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
+      - :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
+      - :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
+      - :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
 
 Custom Development (CD)
    We are constantly working on improving Zammad, and we keep adding new
@@ -432,7 +432,7 @@ Macro
    An example of this is declaring a ticket as "spam".
    The manual way here would be to assign an owner, set a status, and add the
    tag "spam". Using a macro, all this can be done in just one action.
-   Macros can be used in the ticket zoom or within an overview
+   Macros can be used in the ticket detail view or within an overview
    (using multiple selection).
 
    Administrators can learn more about Macros

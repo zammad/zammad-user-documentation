@@ -82,7 +82,7 @@ original text and the AI suggestion:
    :alt: Screenshots shows AI suggestion dialog
    :align: center
 
-Click on the **Approve** button to accept the changes and to insert it in the
+Click on the ``Approve`` button to accept the changes and to insert it in the
 article. After accepting the suggestion, you can still edit the text in the
 article editor.
 

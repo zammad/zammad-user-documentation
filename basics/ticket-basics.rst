@@ -124,7 +124,7 @@ find them in the future. You find the tag section under the attribute fields.
    :width: 70%
    :align: center
 
-To add a tag, click the **Add Tag** button. Depending on your Zammad's
+To add a tag, click the ``Add Tag`` button. Depending on your Zammad's
 configuration, you can create new tags by simply type and confirm them with
 :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available
 tags. Start typing and you see a list with matching suggestions. To remove it,

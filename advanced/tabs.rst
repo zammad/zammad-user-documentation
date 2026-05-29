@@ -22,14 +22,14 @@ all unsaved changes are automatically backed up to the server.
 
 .. tip:: **🖱️ UI Protip**
 
-   * :doc:`Ticket states </basics/ticket-basics>` are
+   - :doc:`Ticket states </basics/ticket-basics>` are
      **color-coded:**
 
      .. include:: /snippets/ticket-state-type-circles.rst
 
-   * A **pulsing dot** means that a ticket has new activity since you last
+   - A **pulsing dot** means that a ticket has new activity since you last
      viewed it.
-   * Drag and drop tabs to rearrange them.
+   - Drag and drop tabs to rearrange them.
 
 Tab Behavior in Ticket Zooms
 ----------------------------

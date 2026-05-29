@@ -44,10 +44,10 @@ Overview
              be able to initiate a chat.
 
 Usage tips
-   * 🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the archive anytime.
-   * 📋 Copy & paste **supports 🌄 inline images** as well as plain text.
-   * ⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`.
-   * 📝 Chats can be **renamed** or **tagged**, and record technical details about
+   - 🔍 Use the :ref:`search bar <search-tickets>` to pull up old chats from the archive anytime.
+   - 📋 Copy & paste **supports 🌄 inline images** as well as plain text.
+   - ⌨️ Live chat supports :admin-docs:`text modules </manage-text-modules.html>`.
+   - 📝 Chats can be **renamed** or **tagged**, and record technical details about
      the customer's connection.
 
       .. figure:: /images/extras/chat-details.png
@@ -66,7 +66,7 @@ Once your chat is over, you can create a ticket for it with a single click:
    :alt: Completed chat window
    :align: center
 
-   The **Turn chat into ticket** button appears as soon as the chat is finished.
+   The ``Turn chat into ticket`` button appears as soon as the chat is finished.
 
 .. figure:: /images/extras/chat-new-ticket-dialog.jpg
    :alt: New ticket view

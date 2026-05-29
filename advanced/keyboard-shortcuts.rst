@@ -132,15 +132,15 @@ How
 
    Before typing:
 
-   * Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,
-   * enter your desired text, and
-   * press :kbd:`ctrl` :kbd:`i` again to return to normal text mode.
+   - Press :kbd:`ctrl` :kbd:`i` to enter *italics* mode,
+   - enter your desired text, and
+   - press :kbd:`ctrl` :kbd:`i` again to return to normal text mode.
 
    After typing:
 
-   * Enter your desired text,
-   * click-and-drag with the mouse to select it, and
-   * press :kbd:`ctrl` :kbd:`i` to set the text in *italics*.
+   - Enter your desired text,
+   - click-and-drag with the mouse to select it, and
+   - press :kbd:`ctrl` :kbd:`i` to set the text in *italics*.
 
 Key Combinations
    ========================================   =================================================

@@ -12,7 +12,7 @@ If you search for new tickets to work on, your first look should be in the
 overview section. This section gives you a rough overview. More details are
 covered in a separate overview page.
 
-You can either open it by clicking the **Overviews** button
+You can either open it by clicking the ``Overviews`` button
 in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of
 overviews as some kind of ticket lists.
 By default, there are some built in overviews. For example, there is

@@ -25,8 +25,8 @@ Administrators can learn more in our
 
    Zammad technically has two draft functions:
 
-      * shared draft (allow others to load the draft), and
-      * user drafts.
+      - shared draft (allow others to load the draft), and
+      - user drafts.
 
    | Every time you change a tickets field, Zammad will safe this in your
      personal draft. You then can share this as a shared draft if you want to.
@@ -40,7 +40,7 @@ Handling Drafts
 Load a draft
    .. figure:: /images/extras/shared-drafts/loading-a-shared-draft-ticket-zoom.gif
       :alt: Screencast showing how to open the shared draft load dialogue within
-            the ticket zoom
+            the ticket detail view
 
    Loading a draft works the same starting from draft previews.
 
@@ -54,7 +54,7 @@ Load a draft
                ticket dialogues
 
    Existing tickets (Ticket zoom)
-      Within ticket zooms a button "📝 Draft available" will be shown if a
+      Within ticket detail views a button "📝 Draft available" will be shown if a
       draft has been shared by either you or another agent on the ticket.
 
       Hovering over the button will tell you who has changed the draft last.
@@ -79,7 +79,7 @@ Saving drafts
          title and article as desired. Make sure to select a group that supports
          shared drafts.
 
-         If you're ready to save the draft, click on 📝 on the right ticket pane,
+         If you're ready to save the draft, click on 📝 on the right ticket sidebar,
          enter a meaning full name and click on the "Create" button.
 
          .. figure:: /images/extras/shared-drafts/saving-current-new-ticket-dialogue-as-shared-draft.gif
@@ -107,4 +107,4 @@ Saving drafts
       When saving was successful, the button "📝 Draft available" will be shown.
 
       .. figure:: /images/extras/shared-drafts/saving-a-shared-draft-within-ticket-zoom.gif
-         :alt: Screencast showing how to save a shared draft within ticket zoom
+         :alt: Screencast showing how to save a shared draft within ticket detail view

@@ -130,7 +130,7 @@ Editing Categories
 You can relocate a category using the **Parent** menu. Doing so, all of its
 articles and sub-categories will be relocated with it.
 
-You can delete categories by clicking on the 🗑️ **Delete** button. Categories
+You can delete categories by clicking on the 🗑️ ``Delete`` button. Categories
 can only be deleted once **all of their articles and sub-categories** have been
 deleted or relocated.
 
@@ -166,9 +166,9 @@ there would be no path to access permitted sub-categories.
 If you can't select permissions in the table, this could be the reason.
 
 .. warning::
-   * Be aware that public answers are always available!
+   - Be aware that public answers are always available!
 
-   * Knowledge base reader permission means that affected users can see
+   - Knowledge base reader permission means that affected users can see
      **internal answers**. This is a potential issue if you're not dividing
      carefully!
 

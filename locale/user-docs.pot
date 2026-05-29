@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-01 08:08+0200\n"
+"POT-Creation-Date: 2026-05-29 15:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1021,7 +1021,7 @@ msgid "Reassigning Tickets"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:30
-msgid "Reassigning tickets in the ticket pane"
+msgid "Reassigning tickets in the ticket sidebar"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:30
@@ -1049,7 +1049,7 @@ msgid "Now suppose you've reassigned the ticket to customer service. You won't r
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:60
-msgid "To enable notifications for a ticket that doesn't belong to you, simply click the **Subscribe** button at the bottom of the ticket pane:"
+msgid "To enable notifications for a ticket that doesn't belong to you, simply click the ``Subscribe`` button at the bottom of the ticket sidebar:"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:68
@@ -1489,7 +1489,7 @@ msgid "How to merge tickets?"
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and choose **Merge**."
+msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket sidebar and choose **Merge**."
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:0
@@ -1585,7 +1585,7 @@ msgid "Ticket template selection in new ticket dialog"
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:13
-msgid "Use the ticket pane to load ticket templates."
+msgid "Use the ticket sidebar to load ticket templates."
 msgstr ""
 
 #: ../advanced/ticket-templates.rst:15
@@ -1677,11 +1677,11 @@ msgid "Accounted Time in Ticket"
 msgstr ""
 
 #: ../advanced/time-accounting.rst:49
-msgid "If a ticket already has accounted time(s), you can see it in the ticket pane at the bottom. You can find the calculated sums of each activity type as well as the total sum of accounted times for all activity types."
+msgid "If a ticket already has accounted time(s), you can see it in the ticket sidebar at the bottom. You can find the calculated sums of each activity type as well as the total sum of accounted times for all activity types."
 msgstr ""
 
 #: ../advanced/time-accounting.rst:57
-msgid "Screenshot showing accounted times in ticket pane"
+msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr ""
 
 #: ../advanced/time-accounting.rst:57
@@ -1759,7 +1759,7 @@ msgid "Customer"
 msgstr ""
 
 #: ../basics/create-tickets.rst:45
-msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the **+ Create new Customer** button. This opens a dialog where you can provide all relevant information of the customer. A ticket can only have one customer."
+msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the ``+ Create new Customer`` button. This opens a dialog where you can provide all relevant information of the customer. A ticket can only have one customer."
 msgstr ""
 
 #: ../basics/create-tickets.rst:56
@@ -1822,7 +1822,7 @@ msgid "As you may know, there are additional ticket attributes such as group, pr
 msgstr ""
 
 #: ../basics/create-tickets.rst:84
-msgid "After you provided the relevant information, finally create the ticket with a click on the **Create** button. Read on :doc:`how to find tickets <find-tickets>` and :doc:`how to work with them <work-with-tickets>`."
+msgid "After you provided the relevant information, finally create the ticket with a click on the ``Create`` button. Read on :doc:`how to find tickets <find-tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 
 #: ../basics/find-tickets.rst:2
@@ -1842,7 +1842,7 @@ msgid "If you search for new tickets to work on, your first look should be in th
 msgstr ""
 
 #: ../basics/find-tickets.rst:15
-msgid "You can either open it by clicking the **Overviews** button in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of overviews as some kind of ticket lists. By default, there are some built in overviews. For example, there is an overview called \"Unassigned & Open Tickets\" which might be a good starting point."
+msgid "You can either open it by clicking the ``Overviews`` button in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of overviews as some kind of ticket lists. By default, there are some built in overviews. For example, there is an overview called \"Unassigned & Open Tickets\" which might be a good starting point."
 msgstr ""
 
 #: ../basics/find-tickets.rst:22
@@ -2115,7 +2115,7 @@ msgid "Ticket pane (tags)"
 msgstr ""
 
 #: ../basics/ticket-basics.rst:127
-msgid "To add a tag, click the **Add Tag** button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
+msgid "To add a tag, click the ``Add Tag`` button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:134
@@ -2156,7 +2156,7 @@ msgid "Generally, working on existing tickets means keeping up with a customer c
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:18
-msgid "For the most changes (except tags or rename title, for example), an explicit update of the ticket is needed. So make sure to click the **Update** button on the right side of the footer bar when you are happy with your changes."
+msgid "For the most changes (except tags or rename title, for example), an explicit update of the ticket is needed. So make sure to click the ``Update`` button on the right side of the footer bar when you are happy with your changes."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:23
@@ -2208,7 +2208,7 @@ msgid "Screenshot shows article detail view."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:69
-msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the **delete** button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
+msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the ``delete`` button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -2950,7 +2950,7 @@ msgid "A macro is a series of actions. By starting the macro, the actions are al
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:432
-msgid "An example of this is declaring a ticket as \"spam\". The manual way here would be to assign an owner, set a status, and add the tag \"spam\". Using a macro, all this can be done in just one action. Macros can be used in the ticket zoom or within an overview (using multiple selection)."
+msgid "An example of this is declaring a ticket as \"spam\". The manual way here would be to assign an owner, set a status, and add the tag \"spam\". Using a macro, all this can be done in just one action. Macros can be used in the ticket detail view or within an overview (using multiple selection)."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:438
@@ -3664,7 +3664,7 @@ msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
 #: ../extras/ai-features.rst:85
-msgid "Click on the **Approve** button to accept the changes and to insert it in the article. After accepting the suggestion, you can still edit the text in the article editor."
+msgid "Click on the ``Approve`` button to accept the changes and to insert it in the article. After accepting the suggestion, you can still edit the text in the article editor."
 msgstr ""
 
 #: ../extras/ai-features.rst:90
@@ -3946,7 +3946,7 @@ msgid "Completed chat window"
 msgstr ""
 
 #: ../extras/chat.rst:69
-msgid "The **Turn chat into ticket** button appears as soon as the chat is finished."
+msgid "The ``Turn chat into ticket`` button appears as soon as the chat is finished."
 msgstr ""
 
 #: ../extras/chat.rst:75
@@ -4084,7 +4084,7 @@ msgid "Customers"
 msgstr ""
 
 #: ../extras/customers.rst:4
-msgid "Use the **ticket pane** to view and manage customer profiles."
+msgid "Use the **ticket sidebar** to view and manage customer profiles."
 msgstr ""
 
 #: ../extras/customers.rst:13
@@ -4092,7 +4092,7 @@ msgid "Ticket pane (customer view)"
 msgstr ""
 
 #: ../extras/customers.rst:13
-msgid "Click the 👨 tab in the ticket pane to see the customer's profile."
+msgid "Click the 👨 tab in the ticket sidebar to see the customer's profile."
 msgstr ""
 
 #: ../extras/customers.rst:15
@@ -4249,7 +4249,7 @@ msgid "With issue tracker integration, you can monitor GitHub / GitLab issues ri
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:7
-msgid "This feature is **optional**; if you don't see it in the ticket pane, that means your administrator hasn't enabled it yet. Administrators can learn more :admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`."
+msgid "This feature is **optional**; if you don't see it in the ticket sidebar, that means your administrator hasn't enabled it yet. Administrators can learn more :admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:16
@@ -4257,7 +4257,7 @@ msgid "Ticket detail view showing activated GitHub & GitLab function"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:16
-msgid "Use the |github| and |gitlab| tabs on the ticket pane for an overview of issues related to the ticket."
+msgid "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of issues related to the ticket."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:42
@@ -4281,7 +4281,7 @@ msgid "View related issues"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:23
-msgid "Use the |github| and |gitlab| tabs on the ticket pane to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab."
+msgid "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:27
@@ -4293,7 +4293,7 @@ msgid "Link a new issue"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:30
-msgid "At the top of the ticket pane, select **GitHub / GitLab > Link Issue**, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
+msgid "At the top of the ticket sidebar, select **GitHub / GitLab > Link Issue**, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:0
@@ -4353,7 +4353,7 @@ msgid "In Zammad: Link i-doit Assets To Tickets"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:43
-msgid "First, add i-doit assets to a ticket in the ticket pane:"
+msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:49
@@ -4373,7 +4373,7 @@ msgid "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:57
-msgid "Click on a linked asset in the ticket pane to open its page in i-doit."
+msgid "Click on a linked asset in the ticket sidebar to open its page in i-doit."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:60
@@ -4389,7 +4389,7 @@ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:69
-msgid "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad."
+msgid "Click the 💬 in the toolbar to list an asset's tickets. Use the ``🔗 Open in ticketsystem`` button to open the ticket in Zammad."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:72
@@ -4401,7 +4401,7 @@ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:79
-msgid "Use the **📄 Create ticket** button in the asset ticket list to start a new, pre-linked ticket dialog."
+msgid "Use the ``📄 Create ticket`` button in the asset ticket list to start a new, pre-linked ticket dialog."
 msgstr ""
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
@@ -4576,7 +4576,7 @@ msgid "You can relocate a category using the **Parent** menu. Doing so, all of i
 msgstr ""
 
 #: ../extras/knowledge-base.rst:133
-msgid "You can delete categories by clicking on the 🗑️ **Delete** button. Categories can only be deleted once **all of their articles and sub-categories** have been deleted or relocated."
+msgid "You can delete categories by clicking on the 🗑️ ``Delete`` button. Categories can only be deleted once **all of their articles and sub-categories** have been deleted or relocated."
 msgstr ""
 
 #: ../extras/knowledge-base.rst:138
@@ -4978,7 +4978,7 @@ msgid "Organization Profiles"
 msgstr ""
 
 #: ../extras/organizations.rst:12
-msgid "Use the **ticket pane** to view and manage organization profiles."
+msgid "Use the **ticket sidebar** to view and manage organization profiles."
 msgstr ""
 
 #: ../extras/organizations.rst:18
@@ -4987,7 +4987,7 @@ msgid "Ticket pane (organization view)"
 msgstr ""
 
 #: ../extras/organizations.rst:18
-msgid "Click the 👪 tab in the ticket pane to see the organization's profile."
+msgid "Click the 👪 tab in the ticket sidebar to see the organization's profile."
 msgstr ""
 
 #: ../extras/organizations.rst:20
@@ -5036,7 +5036,7 @@ msgid "“How old is the oldest open ticket from this company?”"
 msgstr ""
 
 #: ../extras/organizations.rst:51
-msgid "Click the 🏢 button in the ticket pane to see a detailed breakdown of the organization's stats."
+msgid "Click the 🏢 button in the ticket sidebar to see a detailed breakdown of the organization's stats."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:2
@@ -5301,7 +5301,7 @@ msgid "**Additional filtering** based on the selected profile (see 2). You can f
 msgstr ""
 
 #: ../extras/reporting.rst:23
-msgid "**Profile switcher**: here you can easily switch between the different profiles, which were created in the admin panel under \"Report Profiles\". The shown tickets and numbers are always limited to the current profile you have selected here."
+msgid "**Profile switcher**: here you can easily switch between the different profiles, which were created in the admin settings under \"Report Profiles\". The shown tickets and numbers are always limited to the current profile you have selected here."
 msgstr ""
 
 #: ../extras/reporting.rst:27
@@ -5341,7 +5341,7 @@ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 msgstr ""
 
 #: ../extras/secure-email.rst:14
-msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing of outgoing emails."
+msgid "Use the 🔒 **Encrypt** and ✅ ``Sign`` buttons to turn on encryption and signing of outgoing emails."
 msgstr ""
 
 #: ../extras/secure-email.rst:18
@@ -5349,7 +5349,7 @@ msgid "Prerequisites"
 msgstr ""
 
 #: ../extras/secure-email.rst:20
-msgid "Both feature are **optional**; if you don't see the 🔒 **Encrypt** and ✅ **Sign** buttons in the ticket composer, that means your administrator hasn't activated any of them yet."
+msgid "Both feature are **optional**; if you don't see the 🔒 **Encrypt** and ✅ ``Sign`` buttons in the ticket composer, that means your administrator hasn't activated any of them yet."
 msgstr ""
 
 #: ../extras/secure-email.rst:24
@@ -5373,7 +5373,7 @@ msgid "PGP and S/MIME are the most widely-supported methods for secure email com
 msgstr ""
 
 #: ../extras/secure-email.rst:38
-msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons."
+msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 **Encrypt** and ✅ ``Sign`` buttons."
 msgstr ""
 
 #: ../extras/secure-email.rst:48
@@ -5409,7 +5409,7 @@ msgid "In other words, it guarantees message **privacy** and **data security**."
 msgstr ""
 
 #: ../extras/secure-email.rst:62
-msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin panel."
+msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin settings."
 msgstr ""
 
 #: ../extras/secure-email.rst:66
@@ -5505,7 +5505,7 @@ msgid "📮 Outgoing"
 msgstr ""
 
 #: ../extras/secure-email.rst:104
-msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing for outgoing emails."
+msgid "Use the 🔒 **Encrypt** and ✅ ``Sign`` buttons to turn on encryption and signing for outgoing emails."
 msgstr ""
 
 #: ../extras/secure-email.rst:107
@@ -5517,7 +5517,7 @@ msgid "Screencast showing encryption and signing status for both new tickets and
 msgstr ""
 
 #: ../extras/secure-email.rst:114
-msgid "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and replies. Hover over the buttons to show details."
+msgid "🔒 **Encrypt** and ✅ ``Sign`` buttons are present on both new tickets and replies. Hover over the buttons to show details."
 msgstr ""
 
 #: ../extras/secure-email.rst:117
@@ -5607,7 +5607,7 @@ msgid "(But if they're smart, they'll take extra precautions to make sure it rea
 msgstr ""
 
 #: ../extras/secure-email.rst:196
-msgid "The 🔒 **Encrypt** button is disabled"
+msgid "The 🔒 ``Encrypt`` button is disabled"
 msgstr ""
 
 #: ../extras/secure-email.rst:196
@@ -5615,7 +5615,7 @@ msgid "Ask your administrator to add the recipient's certificate to Zammad's cer
 msgstr ""
 
 #: ../extras/secure-email.rst:198
-msgid "The ✅ **Sign** button is disabled"
+msgid "The ✅ ``Sign`` button is disabled"
 msgstr ""
 
 #: ../extras/secure-email.rst:199
@@ -5673,7 +5673,7 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:0
 msgid "Screencast showing how to open the shared draft load dialogue within\n"
-"the ticket zoom"
+"the ticket detail view"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:45
@@ -5698,7 +5698,7 @@ msgid "Existing tickets (Ticket zoom)"
 msgstr ""
 
 #: ../extras/shared-drafts.rst:57
-msgid "Within ticket zooms a button \"📝 Draft available\" will be shown if a draft has been shared by either you or another agent on the ticket."
+msgid "Within ticket detail views a button \"📝 Draft available\" will be shown if a draft has been shared by either you or another agent on the ticket."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:60
@@ -5739,7 +5739,7 @@ msgid "To save a new shared draft, set the ticket settings, customer, ticket tit
 msgstr ""
 
 #: ../extras/shared-drafts.rst:82
-msgid "If you're ready to save the draft, click on 📝 on the right ticket pane, enter a meaning full name and click on the \"Create\" button."
+msgid "If you're ready to save the draft, click on 📝 on the right ticket sidebar, enter a meaning full name and click on the \"Create\" button."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
@@ -5776,7 +5776,7 @@ msgid "When saving was successful, the button \"📝 Draft available\" will be s
 msgstr ""
 
 #: ../extras/shared-drafts.rst:0
-msgid "Screencast showing how to save a shared draft within ticket zoom"
+msgid "Screencast showing how to save a shared draft within ticket detail view"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:2
@@ -5886,7 +5886,7 @@ msgid "Recovery Codes Modal Dialog"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:114
-msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on **Regenerate recovery codes** button in \"Avatar > Profile > Password & Authentication\"."
+msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on ``Regenerate recovery codes`` button in \"Avatar > Profile > Password & Authentication\"."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:120

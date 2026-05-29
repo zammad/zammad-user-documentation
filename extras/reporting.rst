@@ -21,7 +21,7 @@ The reporting screen consists of various sections:
    filter by status ("Ticket Count"), "Creation Channels" and "Communication"
    types based on your channels.
 2. **Profile switcher**: here you can easily switch between the different
-   profiles, which were created in the admin panel under "Report Profiles".
+   profiles, which were created in the admin settings under "Report Profiles".
    The shown tickets and numbers are always limited to the current profile
    you have selected here.
 3. **Time interval/period switcher** and **graph** area: here you can define
