@@ -151,9 +151,9 @@ CTI
 
    Here you can find the fitting documentation pages:
 
-      - :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
-      - :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
-      - :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
+   - :admin-docs:`generic CTI </system/integrations/cti/generic.html>`
+   - :admin-docs:`placetel CTI </system/integrations/cti/placetel.html>`
+   - :admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`
 
 Custom Development (CD)
    We are constantly working on improving Zammad, and we keep adding new
@@ -614,10 +614,10 @@ Sidebar
    - One or more open tickets
    - Bottom section:
 
-      - Avatar
-      - Reporting
-      - Admin settings
-      - Button for ticket creation
+   - Avatar
+   - Reporting
+   - Admin settings
+   - Button for ticket creation
 
 Signature
    The signature is your footer in an outgoing message.

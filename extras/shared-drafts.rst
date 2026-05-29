@@ -25,8 +25,8 @@ Administrators can learn more in our
 
    Zammad technically has two draft functions:
 
-      - shared draft (allow others to load the draft), and
-      - user drafts.
+   - shared draft (allow others to load the draft), and
+   - user drafts.
 
    | Every time you change a tickets field, Zammad will safe this in your
      personal draft. You then can share this as a shared draft if you want to.

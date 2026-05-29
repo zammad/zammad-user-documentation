@@ -59,9 +59,9 @@ Clicking on "Profile" in the user menu opens the profile settings.
 
    Select how Zammad should look. Zammad will remember the setting you choose here.
 
-      - Dark
-      - Light
-      - Sync with computer
+   - Dark
+   - Light
+   - Sync with computer
 
    For dark and light you'll fix the dark or light mode to your taste.
 
