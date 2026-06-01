@@ -66,7 +66,7 @@ simply click the **Subscribe** button at the bottom of the ticket pane:
    :align: center
 
    A list of all tickets you're subscribed to
-   can be found in the **My mentioned Tickets** overview.
+   can be found in the **My Subscribed Tickets** overview.
 
 Or, suppose you *don't* want to reassign the ticket to customer service—you
 just have one quick question for them, and then you can take it from there.
