@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 11:06+0200\n"
+"POT-Creation-Date: 2026-06-01 08:08+0200\n"
 "PO-Revision-Date: 2024-10-07 17:00+0000\n"
 "Last-Translator: Misha <misha@association-enoria.org>\n"
 "Language-Team: French <https://translations.zammad.org/projects/"
@@ -806,7 +806,9 @@ msgid "Attribute"
 msgstr "Attribut"
 
 #: ../advanced/search.rst:1
-msgid "possible Values"
+#, fuzzy
+#| msgid "possible Values"
+msgid "Possible Values"
 msgstr "Valeurs possibles"
 
 #: ../advanced/search.rst:1
@@ -830,7 +832,9 @@ msgid "number:1118566 |br|\\ number:11185*"
 msgstr "number:1118566 |br|\\ number:11185*"
 
 #: ../advanced/search.rst:1
-msgid "Search for a Ticketnumber"
+#, fuzzy
+#| msgid "Search for a Ticketnumber"
+msgid "Search for a ticket number."
 msgstr "Recherche par un numéro de ticket"
 
 #: ../advanced/search.rst:1
@@ -846,10 +850,15 @@ msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
 msgstr "title:\"un titre\" |br|\\ title:Imprimante |br|\\ title: \"un ti*\""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "If you need to use spacings in the search phrase, use quotes. Zammad will "
+#| "do a AND-Search over the given words. You can also use a single keyword "
+#| "without quotation."
 msgid ""
 "If you need to use spacings in the search phrase, use quotes. Zammad will do "
-"a AND-Search over the given words. You can also use a single keyword without "
-"quotation."
+"an AND-search over the given words. You can also use a single keyword "
+"without quotation."
 msgstr ""
 "Si vous avez besoin d'utiliser des espaces dans votre phrase de recherche, "
 "utilisez des guillemets. Zammad fera une recherche AND avec les mots "
@@ -892,9 +901,14 @@ msgid "state.name: new |br|\\ state.name:new OR open"
 msgstr ""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "You can filter for specific ticket states (and even combine them with an "
+#| "OR). Please note that you need to use the english namings for states, "
+#| "unless you have custom ticket states defined in your instance."
 msgid ""
 "You can filter for specific ticket states (and even combine them with an "
-"OR). Please note that you need to use the english namings for states, unless "
+"OR). Please note that you need to use the English naming for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
 "Vous pouvez filtrer sur des états spécifiques du ticket (et même les "
@@ -918,8 +932,13 @@ msgstr ""
 "\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "You can search for Tickets with a specific number of articles (you can "
+#| "even search for everything with 5 or more articles or even up to 5 "
+#| "articles, if needed)."
 msgid ""
-"You can search for Tickets with a specific number of articles (you can even "
+"You can search for tickets with a specific number of articles (you can even "
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
@@ -940,7 +959,9 @@ msgid "article.from:\\*bob\\*"
 msgstr "article.from:\\*bob\\*"
 
 #: ../advanced/search.rst:1
-msgid "Show all tickets that contain articles from \"Bob\""
+#, fuzzy
+#| msgid "Show all tickets that contain articles from \"Bob\""
+msgid "Show all tickets that contain articles from \"Bob\"."
 msgstr "Afficher tous les tickets qui contiennent des articles de \\\"Bob\\\""
 
 #: ../advanced/search.rst:1
@@ -960,11 +981,17 @@ msgstr ""
 "n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "First example shows every ticket containing the word \"heat\" - you can "
+#| "also use the fuzzy operator \"~\" to search for similar words like e.g. "
+#| "like \"head\". Zammad will also allow you to use regular expressions, "
+#| "where ever the attributes allows it."
 msgid ""
 "First example shows every ticket containing the word \"heat\" - you can also "
-"use the fuzzy operator \"~\" to search for similar words like e.g. like "
-"\"head\". Zammad will also allow you to use regular expressions, where ever "
-"the attributes allows it."
+"use the fuzzy operator \"~\" to search for similar words like e.g. \"head\". "
+"Zammad will also allow you to use regular expressions, where ever the "
+"attributes allows it."
 msgstr ""
 "Le premier exemple montre chaque ticket contenant le mot \\\"chaud\\\" - "
 "vous pouvez aussi utiliser l'opérateur \\\"~\\\" pour rechercher des mots "
@@ -1021,9 +1048,13 @@ msgid ""
 msgstr ""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "This gets the same result as above, expect that we don't want the ticket "
+#| "to contain anything matching to \"Zammad\""
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
-"contain anything matching to \"Zammad\""
+"contain anything matching to \"Zammad\"."
 msgstr ""
 "Cela apporte le même résultat que précédemment, sauf que nous ne voulons pas "
 "que le ticket contienne de mot correspondant à \"Zammad\""
@@ -1033,7 +1064,9 @@ msgid "owner.email:bob@example.net AND state.name:(open OR new)"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Show Tickets from bob@example.net that are either open or new"
+#, fuzzy
+#| msgid "Show Tickets from bob@example.net that are either open or new"
+msgid "Show tickets from bob@example.net that are either open or new."
 msgstr ""
 "Affiche les tickets de bob@example.net qui sont soit ouverts ou nouveaux"
 
@@ -1205,13 +1238,13 @@ msgstr "Exemple"
 
 #: ../advanced/search.rst:114
 msgid ""
-"Libreoffice spreadsheets: ``application\\/"
+"LibreOffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
 
 #: ../advanced/search.rst:116
 msgid ""
-"Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
+"LibreOffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
 
 #: ../advanced/search.rst:117
@@ -1360,9 +1393,13 @@ msgid "Screencast of the Subscribe button feature"
 msgstr "Capture vidéo du fonctionnement du bouton d'abonnement"
 
 #: ../advanced/suggested-workflows.rst:68
+#, fuzzy
+#| msgid ""
+#| "A list of all tickets you're subscribed to can be found in the **My "
+#| "mentioned Tickets** overview."
 msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
-"mentioned Tickets** overview."
+"Subscribed Tickets** overview."
 msgstr ""
 "Une liste de tous les tickets auxquels vous vous êtes abonnés peut être "
 "trouvée dans le résumé **Mes tickets mentionnés**."
