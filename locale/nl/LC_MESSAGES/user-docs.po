@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-30 08:04+0200\n"
+"POT-Creation-Date: 2026-06-01 08:08+0200\n"
 "PO-Revision-Date: 2026-04-29 09:02+0000\n"
 "Last-Translator: Alivion <dani-pranger@live.nl>\n"
 "Language-Team: Dutch <https://translations.zammad.org/projects/"
@@ -701,7 +701,7 @@ msgid "Attribute"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "possible Values"
+msgid "Possible Values"
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -725,7 +725,7 @@ msgid "number:1118566 |br|\\ number:11185*"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Search for a Ticketnumber"
+msgid "Search for a ticket number."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -743,8 +743,8 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "If you need to use spacings in the search phrase, use quotes. Zammad will do "
-"a AND-Search over the given words. You can also use a single keyword without "
-"quotation."
+"an AND-search over the given words. You can also use a single keyword "
+"without quotation."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -782,7 +782,7 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "You can filter for specific ticket states (and even combine them with an "
-"OR). Please note that you need to use the english namings for states, unless "
+"OR). Please note that you need to use the English naming for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
 
@@ -802,7 +802,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid ""
-"You can search for Tickets with a specific number of articles (you can even "
+"You can search for tickets with a specific number of articles (you can even "
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
@@ -820,7 +820,7 @@ msgid "article.from:\\*bob\\*"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Show all tickets that contain articles from \"Bob\""
+msgid "Show all tickets that contain articles from \"Bob\"."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -840,9 +840,9 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "First example shows every ticket containing the word \"heat\" - you can also "
-"use the fuzzy operator \"~\" to search for similar words like e.g. like "
-"\"head\". Zammad will also allow you to use regular expressions, where ever "
-"the attributes allows it."
+"use the fuzzy operator \"~\" to search for similar words like e.g. \"head\". "
+"Zammad will also allow you to use regular expressions, where ever the "
+"attributes allows it."
 msgstr ""
 
 #: ../advanced/search.rst:46
@@ -887,7 +887,7 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
-"contain anything matching to \"Zammad\""
+"contain anything matching to \"Zammad\"."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -895,7 +895,7 @@ msgid "owner.email:bob@example.net AND state.name:(open OR new)"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Show Tickets from bob@example.net that are either open or new"
+msgid "Show tickets from bob@example.net that are either open or new."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -1057,13 +1057,13 @@ msgstr ""
 
 #: ../advanced/search.rst:114
 msgid ""
-"Libreoffice spreadsheets: ``application\\/"
+"LibreOffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
 
 #: ../advanced/search.rst:116
 msgid ""
-"Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
+"LibreOffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
 
 #: ../advanced/search.rst:117
@@ -1178,7 +1178,7 @@ msgstr ""
 #: ../advanced/suggested-workflows.rst:68
 msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
-"mentioned Tickets** overview."
+"Subscribed Tickets** overview."
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:71
