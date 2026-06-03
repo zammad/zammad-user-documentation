@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-21 11:06+0200\n"
+"POT-Creation-Date: 2026-06-01 08:08+0200\n"
 "PO-Revision-Date: 2026-03-03 12:00+0000\n"
 "Last-Translator: HanLin <hanlin954658@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -765,7 +765,9 @@ msgid "Attribute"
 msgstr "属性"
 
 #: ../advanced/search.rst:1
-msgid "possible Values"
+#, fuzzy
+#| msgid "possible Values"
+msgid "Possible Values"
 msgstr "可能的值"
 
 #: ../advanced/search.rst:1
@@ -789,7 +791,9 @@ msgid "number:1118566 |br|\\ number:11185*"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Search for a Ticketnumber"
+#, fuzzy
+#| msgid "Search for a Ticketnumber"
+msgid "Search for a ticket number."
 msgstr "寻找一个票号"
 
 #: ../advanced/search.rst:1
@@ -806,10 +810,15 @@ msgstr ""
 "\"title:\\\"某个标题\\\" |br|\\ title:打印机 |br|\\ title: \\\"某个ti*\\\"\""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "If you need to use spacings in the search phrase, use quotes. Zammad will "
+#| "do a AND-Search over the given words. You can also use a single keyword "
+#| "without quotation."
 msgid ""
 "If you need to use spacings in the search phrase, use quotes. Zammad will do "
-"a AND-Search over the given words. You can also use a single keyword without "
-"quotation."
+"an AND-search over the given words. You can also use a single keyword "
+"without quotation."
 msgstr ""
 "\"如果您需要在搜索短语中使用空格，请使用引号。Zammad将对给定的单词进行AND-"
 "Search。您也可以不用引号使用单个关键字。\""
@@ -850,9 +859,14 @@ msgid "state.name: new |br|\\ state.name:new OR open"
 msgstr ""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "You can filter for specific ticket states (and even combine them with an "
+#| "OR). Please note that you need to use the english namings for states, "
+#| "unless you have custom ticket states defined in your instance."
 msgid ""
 "You can filter for specific ticket states (and even combine them with an "
-"OR). Please note that you need to use the english namings for states, unless "
+"OR). Please note that you need to use the English naming for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
 "\"您可以过滤特定的票据状态（甚至可以使用OR将它们组合在一起）。请注意，除非您"
@@ -875,8 +889,13 @@ msgstr ""
 "文章数量：[\\* 至 5]\""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "You can search for Tickets with a specific number of articles (you can "
+#| "even search for everything with 5 or more articles or even up to 5 "
+#| "articles, if needed)."
 msgid ""
-"You can search for Tickets with a specific number of articles (you can even "
+"You can search for tickets with a specific number of articles (you can even "
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
@@ -896,7 +915,7 @@ msgid "article.from:\\*bob\\*"
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "Show all tickets that contain articles from \"Bob\""
+msgid "Show all tickets that contain articles from \"Bob\"."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -914,11 +933,17 @@ msgid ""
 msgstr ""
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "First example shows every ticket containing the word \"heat\" - you can "
+#| "also use the fuzzy operator \"~\" to search for similar words like e.g. "
+#| "like \"head\". Zammad will also allow you to use regular expressions, "
+#| "where ever the attributes allows it."
 msgid ""
 "First example shows every ticket containing the word \"heat\" - you can also "
-"use the fuzzy operator \"~\" to search for similar words like e.g. like "
-"\"head\". Zammad will also allow you to use regular expressions, where ever "
-"the attributes allows it."
+"use the fuzzy operator \"~\" to search for similar words like e.g. \"head\". "
+"Zammad will also allow you to use regular expressions, where ever the "
+"attributes allows it."
 msgstr ""
 "第一个示例显示了包含单词\"heat\"的所有票据 - 你也可以使用模糊操作符\"~\"来搜"
 "索类似的单词，比如\"head\"。Zammad还允许你在属性允许的地方使用正则表达式进行"
@@ -970,9 +995,13 @@ msgstr ""
 "(包含*Zammad*)"
 
 #: ../advanced/search.rst:1
+#, fuzzy
+#| msgid ""
+#| "This gets the same result as above, expect that we don't want the ticket "
+#| "to contain anything matching to \"Zammad\""
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
-"contain anything matching to \"Zammad\""
+"contain anything matching to \"Zammad\"."
 msgstr "这与上述结果相同，只是我们不希望票据中包含任何与\"Zammad\"匹配的内容。"
 
 #: ../advanced/search.rst:1
@@ -980,7 +1009,9 @@ msgid "owner.email:bob@example.net AND state.name:(open OR new)"
 msgstr "所有者.email:bob@example.net 和 状态.名称:(打开 或者 新的)"
 
 #: ../advanced/search.rst:1
-msgid "Show Tickets from bob@example.net that are either open or new"
+#, fuzzy
+#| msgid "Show Tickets from bob@example.net that are either open or new"
+msgid "Show tickets from bob@example.net that are either open or new."
 msgstr "显示来自bob@example.net的开放或新的工单"
 
 #: ../advanced/search.rst:1
@@ -1150,13 +1181,13 @@ msgstr "例如"
 
 #: ../advanced/search.rst:114
 msgid ""
-"Libreoffice spreadsheets: ``application\\/"
+"LibreOffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
 
 #: ../advanced/search.rst:116
 msgid ""
-"Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
+"LibreOffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
 
 #: ../advanced/search.rst:117
@@ -1271,7 +1302,7 @@ msgstr ""
 #: ../advanced/suggested-workflows.rst:68
 msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
-"mentioned Tickets** overview."
+"Subscribed Tickets** overview."
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:71
