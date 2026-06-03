@@ -120,7 +120,7 @@ Tags are custom labels that can be attached to tickets to make it easier to
 find them in the future. You find the tag section under the attribute fields.
 
 .. figure:: /images/basics/work-with-tickets/settings-tags.png
-   :alt: Ticket pane (tags)
+   :alt: Ticket sidebar (tags)
    :width: 70%
    :align: center
 

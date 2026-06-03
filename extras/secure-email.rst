@@ -11,14 +11,14 @@ Zammad supports two systems of high-security email communication:
    :scale: 60%
    :align: center
 
-   Use the 🔒 **Encrypt** and ✅ ``Sign`` buttons to turn on encryption and
+   Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons to turn on encryption and
    signing of outgoing emails.
 
 Prerequisites
 -------------
 
 Both feature are **optional**; if you don't see the
-🔒 **Encrypt** and ✅ ``Sign`` buttons in the ticket composer,
+🔒 ``Encrypt`` and ✅ ``Sign`` buttons in the ticket composer,
 that means your administrator hasn't activated any of them yet.
 
 Administrators can learn more here:
@@ -38,7 +38,7 @@ communication. With each of the systems, you can exchange **signed** and
 .. note:: In special cases it is possible that both systems are configured in
    your system *and* a customer is using both, as well. In this case, you have
    an additional button to switch between PGP and S/MIME security types.
-   Otherwise, you just see the 🔒 **Encrypt** and ✅ ``Sign`` buttons.
+   Otherwise, you just see the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons.
 
 .. figure:: /images/extras/secure-email/pgp_and_smime.png
    :alt: Screenshot of ticket creation with configured PGP and S/MIME
@@ -101,7 +101,7 @@ status.
 📮 Outgoing
 ^^^^^^^^^^^
 
-Use the 🔒 **Encrypt** and ✅ ``Sign`` buttons
+Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons
 to turn on encryption and signing for outgoing emails.
 
 .. note:: Outgoing emails can only be encrypted for *a single recipient*.
@@ -111,7 +111,7 @@ to turn on encryption and signing for outgoing emails.
    :scale: 50%
    :align: center
 
-   🔒 **Encrypt** and ✅ ``Sign`` buttons are present on both new tickets and replies.
+   🔒 ``Encrypt`` and ✅ ``Sign`` buttons are present on both new tickets and replies.
    Hover over the buttons to show details.
 
 .. list-table:: Status Icons (Outgoing)

@@ -20,10 +20,10 @@ How to link
    can find the "Links" section:
 
    .. figure:: /images/advanced/ticket-actions/link.png
-      :alt: Ticket pane: Links
+      :alt: Ticket sidebar: Links
       :align: center
 
-   Click the *➕ Add Link* button to access the link dialog.
+   Click the ``➕ Add Link`` button to access the link dialog.
 
 Link dialog
    You can enter the ticket number of the ticket you want to link to

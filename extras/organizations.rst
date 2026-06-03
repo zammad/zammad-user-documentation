@@ -12,7 +12,7 @@ Organization Profiles
 Use the **ticket sidebar** to view and manage organization profiles.
 
 .. figure:: /images/extras/organizations.png
-   :alt: Ticket pane (organization view)
+   :alt: Ticket sidebar (organization view)
    :align: center
 
    Click the 👪 tab in the ticket sidebar to see the organization's profile.
@@ -44,7 +44,7 @@ With organizations, you can answer questions like:
 - “How old is the oldest open ticket from this company?”
 
 .. figure:: /images/extras/organizations-stats.png
-   :alt: Ticket pane (organization view)
+   :alt: Ticket sidebar (organization view)
    :align: center
    :scale: 75%
 

@@ -27,6 +27,6 @@ The original ticket is :doc:`linked <link>` to the new one, as you can see in
 the ticket side panel:
 
 .. figure:: /images/advanced/ticket-actions/split-links.png
-   :alt: Ticket pane: Links
+   :alt: Ticket sidebar: Links
    :align: center
    :scale: 55%
