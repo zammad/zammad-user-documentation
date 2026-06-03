@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-30 08:04+0200\n"
-"PO-Revision-Date: 2026-05-05 10:02+0000\n"
+"POT-Creation-Date: 2026-06-01 08:08+0200\n"
+"PO-Revision-Date: 2026-06-03 13:02+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -614,8 +614,8 @@ msgstr ""
 #: ../advanced/macros.rst:14
 msgid "Macros can be applied in two ways: on a single ticket, or in bulk."
 msgstr ""
-"Makros können auf zwei Arten genutzt werden: an einem einzelnen Ticket oder "
-"an vielen Tickets."
+"Makros können auf zwei Arten angewendet werden: auf ein einzelnes Ticket "
+"oder als Mehrfachaktion."
 
 #: ../advanced/macros.rst:17
 msgid "On a Single Ticket"
@@ -626,8 +626,8 @@ msgid ""
 "The simplest way to apply a macro is to select it from the **Update ^** "
 "submenu in the Ticket View:"
 msgstr ""
-"Der einfachste Weg ein Makro auszuführen ist es, dieses im Sub-Menü von "
-"**Aktualisieren ^** innerhalb der Detailansicht eines Tickets auszuwählen:"
+"Der einfachste Weg, ein Makro anzuwenden, ist, es aus dem Untermenü der "
+"**Aktualisieren ^** Schaltfläche in der Ticket-Detailansicht auszuwählen:"
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run a macro within a ticket view."
@@ -681,11 +681,11 @@ msgstr "Um ein Makro auf mehrere Tickets anwenden zu können:"
 
 #: ../advanced/macros.rst:50
 msgid "open a ticket overview;"
-msgstr "öffnen Sie eine Ticket-Übersicht;"
+msgstr "Öffnen Sie eine Ticket-Übersicht"
 
 #: ../advanced/macros.rst:51
 msgid "select your desired tickets;"
-msgstr "wählen Sie die gewünschten Tickets aus;"
+msgstr "Wählen Sie Ihre gewünschten Tickets"
 
 #: ../advanced/macros.rst:52
 msgid "click-and-drag to open the “Run Macro” drawer; and"
@@ -695,7 +695,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:53
 msgid "drop the tickets on your target macro."
-msgstr "lassen Sie die Maustaste über dem gewünschten Makro los."
+msgstr "Legen Sie die Tickets auf dem gewünschten Makro ab."
 
 #: ../advanced/macros.rst:None
 msgid "Screencast showing how to run macros via overviews."
@@ -707,10 +707,10 @@ msgid ""
 "view, Zammad may automatically open the next ticket (or close the current "
 "one, or just stay on it), depending on how the macro was set up."
 msgstr ""
-"☝️ **Es gibt nur einen Unterschied......** Beim Ausführen eines Makros "
-"innerhalb eines Ticket, kann Zammad automatisch das nächste Ticket öffnen "
-"(oder das aktuelle Tab schließen / nicht schließen), je nach dem, wie das "
-"Makro konfiguriert wurde."
+"☝️ **Es gibt nur einen Unterschied...** Wenn Sie ein Makro von der Ticket-"
+"Detailansicht aus ausführen, kann Zammad automatisch das nächste Ticket "
+"öffnen (oder das aktuelle Ticket schließen oder einfach darauf bleiben), je "
+"nachdem, wie das Makro eingerichtet wurde."
 
 #: ../advanced/macros.rst:65
 msgid ""
@@ -775,8 +775,8 @@ msgid "Attribute"
 msgstr "Attribute"
 
 #: ../advanced/search.rst:1
-msgid "possible Values"
-msgstr "mögliche Werte"
+msgid "Possible Values"
+msgstr "Mögliche Werte"
 
 #: ../advanced/search.rst:1
 msgid "Example"
@@ -799,7 +799,7 @@ msgid "number:1118566 |br|\\ number:11185*"
 msgstr "number:1118566 |br|\\ number:11185*"
 
 #: ../advanced/search.rst:1
-msgid "Search for a Ticketnumber"
+msgid "Search for a ticket number."
 msgstr "Nach einer Ticketnummer suchen"
 
 #: ../advanced/search.rst:1
@@ -819,12 +819,12 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "If you need to use spacings in the search phrase, use quotes. Zammad will do "
-"a AND-Search over the given words. You can also use a single keyword without "
-"quotation."
+"an AND-search over the given words. You can also use a single keyword "
+"without quotation."
 msgstr ""
-"Wenn Sie Leerstellen nutzen möchten, benutzen Sie bitte Anführungsstriche. "
-"Zammad führt eine UND-Suche über die definierten Suchworte aus. Bei "
-"einzelnen Suchbegriffen können die Anführungsstriche weggelassen werden."
+"Wenn Sie Leerzeichen nutzen möchten, benutzen Sie bitte Anführungszeichen. "
+"Zammad führt eine AND-Suche über die definierten Suchworte aus. Bei "
+"einzelnen Suchbegriffen können die Anführungszeichen weggelassen werden."
 
 #: ../advanced/search.rst:1
 msgid "created_at"
@@ -865,7 +865,7 @@ msgstr "state.name: new |br|\\ state.name:new OR open"
 #: ../advanced/search.rst:1
 msgid ""
 "You can filter for specific ticket states (and even combine them with an "
-"OR). Please note that you need to use the english namings for states, unless "
+"OR). Please note that you need to use the English naming for states, unless "
 "you have custom ticket states defined in your instance."
 msgstr ""
 "Sie können nach bestimmten Ticket-Status suchen (und diese mit einem OR "
@@ -891,7 +891,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid ""
-"You can search for Tickets with a specific number of articles (you can even "
+"You can search for tickets with a specific number of articles (you can even "
 "search for everything with 5 or more articles or even up to 5 articles, if "
 "needed)."
 msgstr ""
@@ -912,8 +912,8 @@ msgid "article.from:\\*bob\\*"
 msgstr "article.from:\\*bob\\*"
 
 #: ../advanced/search.rst:1
-msgid "Show all tickets that contain articles from \"Bob\""
-msgstr "Zeigt alle Tickets an, in denen Artikel von \"Bob\" enthalten sind"
+msgid "Show all tickets that contain articles from \"Bob\"."
+msgstr "Alle Tickets anzeigen, die Artikel von \"Bob\" enthalten."
 
 #: ../advanced/search.rst:1
 msgid "article.body"
@@ -934,9 +934,9 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "First example shows every ticket containing the word \"heat\" - you can also "
-"use the fuzzy operator \"~\" to search for similar words like e.g. like "
-"\"head\". Zammad will also allow you to use regular expressions, where ever "
-"the attributes allows it."
+"use the fuzzy operator \"~\" to search for similar words like e.g. \"head\". "
+"Zammad will also allow you to use regular expressions, where ever the "
+"attributes allows it."
 msgstr ""
 "Das erste Beispiel zeigt jedes Ticket, welches das Wort \"heat\" enthält - "
 "Sie können auch mit dem Operator \"~\" eine fehlertolerante Suche "
@@ -997,18 +997,18 @@ msgstr ""
 #: ../advanced/search.rst:1
 msgid ""
 "This gets the same result as above, expect that we don't want the ticket to "
-"contain anything matching to \"Zammad\""
+"contain anything matching to \"Zammad\"."
 msgstr ""
-"Diese Suche ergibt das gleiche Ergebnis wie das darüber, mit dem "
-"Unterschied, dass das Ergebnis nichts mit \"Zammad\" enthält"
+"Dies führt zum gleichen Ergebnis wie oben, nur dass wir nicht wollen, dass "
+"das Ticket Text enthält, der mit \"Zammad\" übereinstimmt."
 
 #: ../advanced/search.rst:1
 msgid "owner.email:bob@example.net AND state.name:(open OR new)"
 msgstr "owner.email:bob@example.net AND state.name:(open OR new)"
 
 #: ../advanced/search.rst:1
-msgid "Show Tickets from bob@example.net that are either open or new"
-msgstr "Zeige Tickets von bob@example.net die entweder offen oder neu sind"
+msgid "Show tickets from bob@example.net that are either open or new."
+msgstr "Zeigt Tickets von bob@example.net an, die entweder offen oder neu sind."
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -1182,17 +1182,17 @@ msgstr "Beispiele:"
 
 #: ../advanced/search.rst:114
 msgid ""
-"Libreoffice spreadsheets: ``application\\/"
+"LibreOffice spreadsheets: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 msgstr ""
-"Libreoffice Tabellen-Dokumente: ``application\\/"
+"LibreOffice Tabellen-Dokumente: ``application\\/"
 "vnd.oasis.opendocument.spreadsheet``"
 
 #: ../advanced/search.rst:116
 msgid ""
-"Libreoffice text documents: ``application\\/vnd.oasis.opendocument.text``"
+"LibreOffice text documents: ``application\\/vnd.oasis.opendocument.text``"
 msgstr ""
-"Libreoffice Text-Dokumente: ``application\\/vnd.oasis.opendocument.text``"
+"LibreOffice Text-Dokumente: ``application\\/vnd.oasis.opendocument.text``"
 
 #: ../advanced/search.rst:117
 msgid ""
@@ -1331,9 +1331,9 @@ msgid ""
 "To enable notifications for a ticket that doesn't belong to you, simply "
 "click the **Subscribe** button at the bottom of the ticket pane:"
 msgstr ""
-"Um Benachrichtigungen zu Tickets zu aktivieren, die nicht länger Ihnen "
-"gehören, können Sie ganz einfach die **Abonnieren** Schaltfläche unten in "
-"den Ticket-Einstellungen verwenden:"
+"Um Benachrichtigungen für ein Ticket zu aktivieren, das nicht Ihnen gehört, "
+"klicken Sie einfach auf die Schaltfläche **Abonnieren** am unteren Rand der "
+"Ticket-Seitenleiste:"
 
 #: ../advanced/suggested-workflows.rst:68
 msgid "Screencast of the Subscribe button feature"
@@ -1342,7 +1342,7 @@ msgstr "Screencast für die Abonnier-Button Funktion"
 #: ../advanced/suggested-workflows.rst:68
 msgid ""
 "A list of all tickets you're subscribed to can be found in the **My "
-"mentioned Tickets** overview."
+"Subscribed Tickets** overview."
 msgstr ""
 "Alle abonnierten Tickets können Sie in der Übersicht **Meine abonnierten "
 "Tickets** finden."
@@ -1510,11 +1510,11 @@ msgid ""
 "open tabs without losing your work - all unsaved changes are automatically "
 "backed up to the server."
 msgstr ""
-"Wenn Sie sich durch Zammad klicken, sehen Sie im Hauptmenübereich eine Liste "
-"von Einträgen erscheinen. Dies sind Ihre **geöffneten Tabs.** Sie können "
-"frei zwischen geöffneten Tabs wechseln, ohne dass Ihre Änderungen verloren "
-"gehen – alle nicht gespeicherten Änderungen werden automatisch auf dem "
-"Server gesichert."
+"Wenn Sie sich durch Zammad klicken, sehen Sie in der Navigations-"
+"Seitenleiste auf der linken Seite eine Liste von Einträgen. Dies sind Ihre "
+"offenen Tabs. Sie können frei zwischen offenen Tabs wechseln, ohne dass Ihre "
+"Arbeit verloren geht - alle nicht gespeicherten Änderungen werden "
+"automatisch auf dem Server gesichert."
 
 #: ../advanced/tabs.rst:12
 msgid "Sample view of Tabs"
@@ -1598,8 +1598,8 @@ msgid ""
 "A **pulsing dot** means that a ticket has new activity since you last viewed "
 "it."
 msgstr ""
-"Ein **pulsierender Punkt** bedeutet, dass in einem Ticket neue Aktivitäten "
-"stattgefunden haben, seitdem Sie es zuletzt angesehen haben."
+"Ein **pulsierender Punkt** bedeutet, dass es neue Aktivitäten im Ticket "
+"gibt, seitdem Sie es zuletzt angesehen haben."
 
 #: ../advanced/tabs.rst:32
 msgid "Drag and drop tabs to rearrange them."
@@ -1607,7 +1607,7 @@ msgstr "Mit Drag & Drop können Sie die Tabs neu anordnen."
 
 #: ../advanced/tabs.rst:35
 msgid "Tab Behavior in Ticket Zooms"
-msgstr "Tab-Verhalten in Ticket-Zooms"
+msgstr "Tab-Verhalten in Ticket-Detailansicht"
 
 #: ../advanced/tabs.rst:37
 msgid ""
@@ -1743,9 +1743,9 @@ msgid ""
 "You can either scroll through all modules (mouse or direction keys), type "
 "the module name or enter a keyword (if keywords are set)."
 msgstr ""
-"Sie können entweder durch alle Bausteine scrollen (mit Maus oder Pfeil-"
-"Tasten), den Baustein-Namen tippen oder ein Schlagwort eingeben (sofern "
-"Schlagworte gesetzt wurden)."
+"Sie können entweder durch alle Bausteine blättern (Maus oder Pfeiltasten), "
+"den Namen eines Moduls oder ein Schlüsselwort eingeben (falls "
+"Schlüsselwörter hinterlegt sind)."
 
 #: ../advanced/text-modules.rst:21
 msgid "Text Modules Missing?"
@@ -1783,8 +1783,8 @@ msgid ""
 "How do you know which groups go with which text modules? Ask your "
 "administrator!"
 msgstr ""
-"Woher weiß ich, welche Gruppen zu welchen Text Bausteinen gehören? Fragen "
-"Sie am Besten bei Ihrem Administrator nach!"
+"Woher wissen Sie, in welchen Gruppen welche Textbausteine verfügbar sind? "
+"Fragen Sie Ihren Administrator!"
 
 #: ../advanced/text-modules.rst:38
 msgid "Text Modules on Ticket Creation"
@@ -2209,7 +2209,7 @@ msgid ""
 "Learn more about ticket templates :admin-docs:`in the admin documentation </"
 "manage/templates.html>`."
 msgstr ""
-"Erfahren Sie mehr über Ticketvorlagen :admin-docs:`in der Admin "
+"Erfahren Sie mehr über Ticket-Vorlagen :admin-docs:`in der Admin-"
 "Dokumentation </manage/templates.html>`."
 
 #: ../advanced/ticket-templates.rst:38
@@ -2645,7 +2645,7 @@ msgstr "Beispiel von Übersichten"
 #: ../basics/find-tickets.rst:40
 msgid "Click **Overviews** in the main menu to browse tickets."
 msgstr ""
-"Klicken Sie auf **Übersichten** im Hauptmenü, um Tickets zu durchstöbern."
+"Klicken Sie auf **Übersichten** im Hauptmenü, um Tickets zu durchsuchen."
 
 #: ../basics/find-tickets.rst:42
 msgid "You can adjust the overviews in some aspects:"
@@ -4772,8 +4772,8 @@ msgstr ""
 "Ein Beispiel ist das markieren eines Tickets als \"Spam\". Manuell müsste "
 "der ein Tag hinzugefügt und ein Besitzer und Status gesetzt werden. Mit "
 "einem Makro können all diese Schritte mit nur einer Aktion durchgeführt "
-"werden. Makros sind in Ticket-Zooms und Übersichten (über die "
-"Mehrfachauswahl) verfügbar."
+"werden. Makros sind in Ticket-Detailansichten und Übersichten (über die "
+"Mehrfachaktion) verfügbar."
 
 #: ../basics/zammad-glossary.rst:438
 msgid ""
@@ -6255,7 +6255,7 @@ msgstr "Dialog Neues Ticket"
 
 #: ../extras/caller-log.rst:27
 msgid "Zammad will open a new ticket dialogue if:"
-msgstr "Zammad öffnet einen neuen Ticket-Dialog falls:"
+msgstr "Zammad öffnet einen Ticket-Erstelldialog, wenn:"
 
 #: ../extras/caller-log.rst:29
 msgid "it's able to either guess a single user (see `maybe entries`_)"
@@ -7294,9 +7294,9 @@ msgid ""
 "exceptions, Preview Mode shows what the published knowledge base will look "
 "like."
 msgstr ""
-"Das Fenster der Wissensdatenbank beginnt im **Vorschau-Modus**. Mit einigen "
+"Die Knowledge Base Ansicht startet im **Vorschau-Modus**. Mit einigen "
 "kleinen Ausnahmen zeigt der Vorschau-Modus an, wie die veröffentlichte "
-"Wissensdatenbank aussehen wird."
+"Knowledge Base aussehen wird."
 
 #: ../extras/knowledge-base.rst:21
 msgid "Getting Started"
@@ -7310,7 +7310,7 @@ msgstr "Knowledge Base Link zur öffentlichen Knowledge Base"
 msgid ""
 "Use the **↗️ button** in the top toolbar to see the published knowledge base."
 msgstr ""
-"Mit dem **↗️ Button** in der oberen Symbolleiste gelangt man zur öffentlichen "
+"Mit der **↗️** Schaltfläche in der oberen Leiste gelangt man zur öffentlichen "
 "Knowledge Base."
 
 #: ../extras/knowledge-base.rst:33
@@ -7323,7 +7323,7 @@ msgid ""
 "base."
 msgstr ""
 "👆 Verwenden Sie im Bearbeitungsmodus das Menü auf der rechten Seite, um "
-"durch die Wissensdatenbank zu navigieren."
+"durch die Knowledge Base zu navigieren."
 
 #: ../extras/knowledge-base.rst:36
 msgid ""
@@ -7387,7 +7387,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:75
 msgid "in the published knowledge base"
-msgstr "in der öffentlichen Knowledge Base"
+msgstr "in der veröffentlichten Knowledge Base"
 
 #: ../extras/knowledge-base.rst:71
 msgid "Untranslated pages are **always hidden**:"
@@ -7402,9 +7402,9 @@ msgid ""
 "Zammad allows you to subscribe to either the knowledge base as whole or to "
 "specific categories. There's both a public and an internal option to do so."
 msgstr ""
-"Es ist möglich entweder die gesamte Knowledge Base oder bestimmte Kategorien "
-"zu abonnieren. Es gibt sowohl eine öffentliche als auch eine interne Option "
-"dafür."
+"Es ist möglich, entweder die gesamte Knowledge Base oder bestimmte "
+"Kategorien zu abonnieren. Es gibt sowohl eine öffentliche als auch eine "
+"interne Option dafür."
 
 #: ../extras/knowledge-base.rst:83
 msgid ""
@@ -7665,8 +7665,8 @@ msgid ""
 "Please note that tags are visible publicly and can be the same like those in "
 "your tickets."
 msgstr ""
-"Bitte beachte Sie, dass Schlagwörter öffentlich sichtbar sind und die "
-"gleichen wie in Ihren Tickets sein können."
+"Bitte beachte Sie, dass Tags öffentlich sichtbar sind und die gleichen wie "
+"in Ihren Tickets sein können."
 
 #: ../extras/knowledge-base.rst:0
 msgid "Screencast showing tags on answers"
@@ -7685,7 +7685,7 @@ msgstr ""
 "Legen Sie die **Sichtbarkeit** einer Antwort fest, um zu kontrollieren, wer "
 "einen Artikel sehen kann, oder planen Sie seine Veröffentlichung für einen "
 "späteren Zeitpunkt. Artikel sind entsprechend ihrer Sichtbarkeit **farblich "
-"gekennzeichnet**:"
+"kodiert**:"
 
 #: ../extras/knowledge-base.rst:214
 msgid "**Public** (visible to everyone)"
@@ -7720,8 +7720,8 @@ msgid ""
 msgstr ""
 "Sobald Ihre Knowledge Base eine oder mehr Antworten enthält, können Sie "
 "diese wie Textbausteine benutzen. Anstelle von ``::`` benutzen Sie einfach "
-"``??`` um den Suchdialog zu öffnen. Die Suche sucht Volltext in dem Body und "
-"Titel aller verfügbaren Sprachen der Antwort."
+"``??`` um den Suchdialog zu öffnen. Die Suche durchsucht den Volltext des "
+"Inhalts und Titels aller verfügbaren Sprachen der Antwort."
 
 #: ../extras/knowledge-base.rst:241
 msgid ""
@@ -8189,7 +8189,8 @@ msgstr "Dunkler Modus"
 #: ../extras/profile-and-settings.rst:30
 msgid "Quickly toggle dark and light mode without using keyboard bindings."
 msgstr ""
-"Schalten Sie schnell zwischem dunklem und hellem Modus ohne Tastaturkürzel."
+"Schalten Sie schnell zwischen dunklem und hellem Modus ohne Tastaturkürzel "
+"um."
 
 #: ../extras/profile-and-settings.rst:0
 msgid "Screencast showing the dark mode button being toggled"
