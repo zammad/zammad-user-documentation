@@ -7,7 +7,7 @@ multiple hardware or software security keys with your Zammad account and then
 they can be used during the sign-in process.
 
 Initially, you will be presented with an empty dialog instructing you to
-**Set Up** your first key.
+``Set Up`` your first key.
 
 .. figure:: /images/extras/two-factor-authentication/security-keys-setup.png
    :alt: Security Keys Setup
@@ -15,7 +15,7 @@ Initially, you will be presented with an empty dialog instructing you to
 
 First, enter a descriptive **Name for this security key** you will be
 registering with your account, so you could later identify it in the list. Then,
-click on **Next**.
+click on ``Next``.
 
 .. figure:: /images/extras/two-factor-authentication/security-keys-name.png
    :alt: Security Key Name
@@ -44,12 +44,12 @@ prove you are in physical possession of it (e.g. enter its PIN to unlock it).
 If the registration was successful, the modal dialog will close and you are good
 to go.
 
-In case of errors, you will be able to **Retry** the registration of the key.
+In case of errors, you will be able to ``Retry`` the registration of the key.
 
 Editing Security Keys
 ---------------------
 
-Once set up, security keys can be managed by choosing **Edit** action next to
+Once set up, security keys can be managed by choosing ``Edit`` action next to
 the two-factor authentication method.
 
 You have an option to remove a key or set up additional ones. There is no limit

@@ -34,7 +34,7 @@ all unsaved changes are automatically backed up to the server.
 
    \5 Detailed search
       When you search for a ticket, user or organization and click on
-      **Show Search Details**.
+      ``Show Search Details``.
 
 .. container:: cfloat-clear
 

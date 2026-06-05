@@ -19,7 +19,7 @@ If the system admin has enabled this feature, you can head to "Avatar > Profile
 methods, you may see one or more options in the table.
 
 To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose
-**Set Up**.
+``Set Up``.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-set-up.png
    :alt: Set Up Two-Factor Method in Password & Authentication
@@ -65,7 +65,7 @@ In case you are having issued during sign-in with your preferred two-factor
 authentication method, you can switch to another one, provided you have set it
 up previously.
 
-Look for **Try another method** link below the sign in box. In case you don't
+Look for ``Try another method`` link below the sign in box. In case you don't
 see this link, you probably have no other available
 two-factor methods set up, or your admin has disabled this feature.
 
@@ -83,7 +83,7 @@ your sign-in.
 Alternatively, you can also use one of your recovery codes, which are
 auto-generated for your account during the initial setup of the two-factor
 authentication. Click on **recovery codes**, enter one of your unused recovery
-codes and click on **Sign in**.
+codes and click on ``Sign in``.
 
 .. figure:: /images/extras/two-factor-authentication/recovery-codes-sign-in.png
    :alt: Try Another Method
@@ -113,15 +113,15 @@ place. Once used, a recovery code cannot be reused.
 
 You also have an option to regenerate your recovery codes at any time, which
 invalidates already existing recovery codes and provides you with a list of
-fresh codes. You can do this by clicking on **Regenerate recovery codes** button
-in "Avatar > Profile > Password & Authentication".
+fresh codes. You can do this by clicking on ``Regenerate recovery codes`` button
+in *Avatar > Profile > Password & Authentication*.
 
 Set a Two-Factor Method as Default
 ----------------------------------
 
 To set an already set up two-factor method as default, use the ⋮ **Actions**
-menu next to it in "Avatar > Profile > Password & Authentication" and choose
-**Set as default**.
+menu next to it in *Avatar > Profile > Password & Authentication* and choose
+``Set as default``.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-default.png
    :alt: Edit Two-Factor Method in Password & Authentication
@@ -138,8 +138,8 @@ Edit a Two-Factor Method
 ------------------------
 
 To edit an already set up two-factor method, use the ⋮ **Actions** menu
-next to it in "Avatar > Profile > Password & Authentication" and choose
-**Edit**.
+next to it in *Avatar > Profile > Password & Authentication* and choose
+``Edit``.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-edit.png
    :alt: Edit Two-Factor Method in Password & Authentication
@@ -156,8 +156,8 @@ Remove a Two-Factor Method
 --------------------------
 
 To remove an already set up two-factor method, use the ⋮ **Actions** menu
-next to it in "Avatar > Profile > Password & Authentication" and choose
-**Remove**.
+next to it in *Avatar > Profile > Password & Authentication* and choose
+``Remove``.
 
 .. figure:: /images/extras/two-factor-authentication/user-profile-remove.png
    :alt: Remove Two-Factor Method in Password & Authentication

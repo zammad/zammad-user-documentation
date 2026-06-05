@@ -46,12 +46,12 @@ grouped together.
 Accounted Time in Ticket
 ------------------------
 
-If a ticket already has accounted time(s), you can see it in the ticket pane
+If a ticket already has accounted time(s), you can see it in the ticket sidebar
 at the bottom. You can find the calculated sums of each activity type as well
 as the total sum of accounted times for all activity types.
 
 .. figure:: /images/advanced/time-accounting/ticket-pane-accounted-time.png
-   :alt: Screenshot showing accounted times in ticket pane
+   :alt: Screenshot showing accounted times in ticket sidebar
    :align: center
 
    Accounted times in the ticket view

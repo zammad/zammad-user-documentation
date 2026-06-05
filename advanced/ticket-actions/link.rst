@@ -16,7 +16,7 @@ Link types
    link to the main one as a parent of the sub tickets.
 
 How to link
-   Make sure to have the ticket side panel open. Under the **Tags** section you
+   Make sure to have the ticket sidebar open. Under the **Tags** section you
    can find the **Related tickets** section:
 
    .. figure:: /images/advanced/ticket-actions/link.png

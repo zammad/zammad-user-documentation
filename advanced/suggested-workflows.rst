@@ -24,7 +24,7 @@ Reassigning Tickets
 ^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/advanced/suggested-workflows/sharing-work.png
-   :alt: Reassigning tickets in the ticket pane
+   :alt: Reassigning tickets in the ticket sidebar
    :align: center
 
    Reassign a ticket (via the *Group* and *Owner* settings)

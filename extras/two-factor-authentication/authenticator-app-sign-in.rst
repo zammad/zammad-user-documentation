@@ -2,7 +2,7 @@ Authenticator App Sign-in
 =========================
 
 To sign-in with authenticator app two-factor method, first enter your username
-and password and click **Sign in**.
+and password and click ``Sign in``.
 
 Then, open authenticator app on your device, and get the 6-digit code next to
 your Zammad account.
@@ -13,7 +13,7 @@ your Zammad account.
    :width: 30%
 
 Back in Zammad, enter the provided code to the **Security Code** field and click
-on **Sign in**.
+on ``Sign in``.
 
 .. figure:: /images/extras/two-factor-authentication/authenticator-app-sign-in.png
    :alt: Authenticator App Security Code during Sign-in

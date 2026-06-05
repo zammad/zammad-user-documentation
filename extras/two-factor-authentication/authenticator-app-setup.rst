@@ -17,7 +17,7 @@ Recommended apps are:
 * `Authy <https://support.authy.com/hc/en-us/articles/115001945848-Installing-Authy-apps/>`_
 * `Microsoft Authenticator <https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a>`_
 
-Next, open the authenticator app on your device and find a **Scan QR Code**
+Next, open the authenticator app on your device and find a ``Scan QR Code``
 action, or similar. Point your camera to the Zammad screen and scan the shown QR
 code in the middle.
 
@@ -30,4 +30,4 @@ Your authenticator app should immediately add the new entry for your Zammad
 account, and a 6-digit code will be displayed next to it together with a timer.
 
 Back in Zammad, enter the provided code to the **Security Code** field and click
-on **Set Up**.
+on ``Set Up``.
