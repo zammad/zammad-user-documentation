@@ -1,7 +1,7 @@
 Customers
 =========
 
-Use the **ticket pane** to view and manage customer profiles.
+Use the **ticket sidebar** to view and manage customer profiles.
 
 Overview
 --------
@@ -10,7 +10,7 @@ Overview
    :alt: Ticket pane (customer view)
    :align: center
 
-   Click the 👨 tab in the ticket pane to see the customer's profile.
+   Click the 👨 tab in the ticket sidebar to see the customer's profile.
 
 If the customer has other tickets too, you can see a summary when you
 hover over the **open/closed** labels:

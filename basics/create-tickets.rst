@@ -45,7 +45,7 @@ Customer
 Enter a name or email address of a customer to search for existing accounts.
 You can even search for organizations and their members. Select an option from
 the autocomplete menu or create a new customer by clicking the
-**+ Create new Customer** button. This opens a dialog where you can provide
+``+ Create new Customer`` button. This opens a dialog where you can provide
 all relevant information of the customer. A ticket can only have one customer.
 
 .. figure:: /images/basics/work-with-tickets/search-customer.png
@@ -82,6 +82,6 @@ it out to learn more.
 -----
 
 After you provided the relevant information, finally create the ticket with a
-click on the **Create** button. Read on
+click on the ``Create`` button. Read on
 :doc:`how to find tickets <find-tickets>` and
 :doc:`how to work with them <work-with-tickets>`.

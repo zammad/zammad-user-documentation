@@ -2,7 +2,7 @@ Security Keys Sign-in
 =====================
 
 To sign-in with security keys two-factor method, first enter your username and
-password and click **Sign in**.
+password and click ``Sign in``.
 
 .. figure:: /images/extras/two-factor-authentication/security-keys-sign-in.png
    :alt: Using Security Key during Sign-in
@@ -21,6 +21,6 @@ prove you are in physical possession of it (e.g. enter its PIN to unlock it).
 .. warning::
    Providing your security key when asked is a time-sensitive operation! You may
    be allowed a couple of tens of seconds to present and unlock your key, but if
-   the process time outs, you will have to **Retry**.
+   the process time outs, you will have to ``Retry``.
 
-In case of errors, you will be able to **Retry** the verification of the key.
+In case of errors, you will be able to ``Retry`` the verification of the key.

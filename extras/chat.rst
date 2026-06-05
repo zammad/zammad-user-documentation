@@ -66,7 +66,7 @@ Once your chat is over, you can create a ticket for it with a single click:
    :alt: Completed chat window
    :align: center
 
-   The **Turn chat into ticket** button appears as soon as the chat is finished.
+   The ``Turn chat into ticket`` button appears as soon as the chat is finished.
 
 .. figure:: /images/extras/chat-new-ticket-dialog.jpg
    :alt: New ticket view

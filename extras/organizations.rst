@@ -9,13 +9,13 @@ to monitor their activity as a whole.
 Organization Profiles
 ---------------------
 
-Use the **ticket pane** to view and manage organization profiles.
+Use the **ticket sidebar** to view and manage organization profiles.
 
 .. figure:: /images/extras/organizations.png
    :alt: Ticket pane (organization view)
    :align: center
 
-   Click the 👪 tab in the ticket pane to see the organization's profile.
+   Click the 👪 tab in the ticket sidebar to see the organization's profile.
 
 To edit the organization's profile, use the **organization submenu**:
 
@@ -48,5 +48,5 @@ With organizations, you can answer questions like:
    :align: center
    :scale: 75%
 
-   Click the 🏢 button in the ticket pane
+   Click the 🏢 button in the ticket sidebar
    to see a detailed breakdown of the organization's stats.

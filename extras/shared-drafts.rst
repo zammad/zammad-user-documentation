@@ -76,7 +76,7 @@ Saving drafts
    Existing ticket
       Use the ``^`` button next to the ``Update`` button. If the group of the
       ticket (or in your selection) allows shared drafts, Zammad will provide
-      the option **Save Draft**. All current changes on the ticket (ticket
+      the option ``Save Draft``. All current changes on the ticket (ticket
       settings, article and its attachments) will be saved to the shared draft.
 
       When saving was successful, the button ``📝 Draft available`` is show as

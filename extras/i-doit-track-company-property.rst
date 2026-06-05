@@ -40,13 +40,13 @@ So How Does It Work?
 In Zammad: Link i-doit Assets To Tickets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, add i-doit assets to a ticket in the ticket pane:
+First, add i-doit assets to a ticket in the ticket sidebar:
 
 .. figure:: /images/extras/i-doit-track-company-property/add-ticket-with-idoit-asset_via-zammad.gif
    :alt: (Screencast) Create a new ticket and link it to an i-doit asset
    :align: center
 
-   Select **🖨 > i-doit > Change Objects**, then filter by category and/or name.
+   Select *🖨 > i-doit > Change Objects*, then filter by category and/or name.
 
 Once assets have been linked to a ticket, they can be accessed directly from the ticket view:
 
@@ -54,7 +54,7 @@ Once assets have been linked to a ticket, they can be accessed directly from the
    :alt: (Screencast) Access an i-doit asset directly from the Zammad ticket view
    :align: center
 
-   Click on a linked asset in the ticket pane to open its page in i-doit.
+   Click on a linked asset in the ticket sidebar to open its page in i-doit.
 
 In i-doit: List & Create Tickets For a Given Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

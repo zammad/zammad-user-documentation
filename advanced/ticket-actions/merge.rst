@@ -21,8 +21,8 @@ What is merged where?
    from there so it will be merged into the original ticket.
 
 How to merge tickets?
-   To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and
-   choose **Merge**.
+   To merge a ticket, access the **Ticket ▾** submenu in the ticket sidebar and
+   choose ``Merge``.
 
    .. figure:: /images/advanced/ticket-actions/ticket-menu-merge.png
      :alt: Ticket menu with highlighted "merge"

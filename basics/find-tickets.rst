@@ -92,7 +92,7 @@ results. These results are separated by type to make sure you won't get lost in
 the results. Selecting one of those results will open a new navigation tab
 (if not already opened) with the item.
 
-If you press :kbd:`enter` or click on **Show Search Details**, Zammad displays
+If you press :kbd:`enter` or click on ``Show Search Details``, Zammad displays
 a page with the search results:
 
 .. figure:: /images/basics/find-ticket/search-details.png

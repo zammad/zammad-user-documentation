@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 08:55+0200\n"
+"POT-Creation-Date: 2026-06-05 10:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1001,7 +1001,7 @@ msgid "Reassigning Tickets"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:30
-msgid "Reassigning tickets in the ticket pane"
+msgid "Reassigning tickets in the ticket sidebar"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:30
@@ -1174,7 +1174,7 @@ msgid "\\5 Detailed search"
 msgstr ""
 
 #: ../advanced/tabs.rst:36
-msgid "When you search for a ticket, user or organization and click on **Show Search Details**."
+msgid "When you search for a ticket, user or organization and click on ``Show Search Details``."
 msgstr ""
 
 #: ../advanced/tabs.rst:41
@@ -1407,7 +1407,7 @@ msgid "How to link"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:19
-msgid "Make sure to have the ticket side panel open. Under the **Tags** section you can find the **Related tickets** section:"
+msgid "Make sure to have the ticket sidebar open. Under the **Tags** section you can find the **Related tickets** section:"
 msgstr ""
 
 #: ../advanced/ticket-actions/link.rst:0
@@ -1469,7 +1469,7 @@ msgid "How to merge tickets?"
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:24
-msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket pane and choose **Merge**."
+msgid "To merge a ticket, access the **Ticket ▾** submenu in the ticket sidebar and choose ``Merge``."
 msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:0
@@ -1641,11 +1641,11 @@ msgid "Accounted Time in Ticket"
 msgstr ""
 
 #: ../advanced/time-accounting.rst:49
-msgid "If a ticket already has accounted time(s), you can see it in the ticket pane at the bottom. You can find the calculated sums of each activity type as well as the total sum of accounted times for all activity types."
+msgid "If a ticket already has accounted time(s), you can see it in the ticket sidebar at the bottom. You can find the calculated sums of each activity type as well as the total sum of accounted times for all activity types."
 msgstr ""
 
 #: ../advanced/time-accounting.rst:57
-msgid "Screenshot showing accounted times in ticket pane"
+msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr ""
 
 #: ../advanced/time-accounting.rst:57
@@ -1723,7 +1723,7 @@ msgid "Customer"
 msgstr ""
 
 #: ../basics/create-tickets.rst:45
-msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the **+ Create new Customer** button. This opens a dialog where you can provide all relevant information of the customer. A ticket can only have one customer."
+msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the ``+ Create new Customer`` button. This opens a dialog where you can provide all relevant information of the customer. A ticket can only have one customer."
 msgstr ""
 
 #: ../basics/create-tickets.rst:56
@@ -1786,7 +1786,7 @@ msgid "As you may know, there are additional ticket attributes such as group, pr
 msgstr ""
 
 #: ../basics/create-tickets.rst:84
-msgid "After you provided the relevant information, finally create the ticket with a click on the **Create** button. Read on :doc:`how to find tickets <find-tickets>` and :doc:`how to work with them <work-with-tickets>`."
+msgid "After you provided the relevant information, finally create the ticket with a click on the ``Create`` button. Read on :doc:`how to find tickets <find-tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 
 #: ../basics/find-tickets.rst:2
@@ -1919,7 +1919,7 @@ msgid "After entering a search term, you immediately see a preview of the search
 msgstr ""
 
 #: ../basics/find-tickets.rst:95
-msgid "If you press :kbd:`enter` or click on **Show Search Details**, Zammad displays a page with the search results:"
+msgid "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad displays a page with the search results:"
 msgstr ""
 
 #: ../basics/find-tickets.rst:None
@@ -2120,7 +2120,7 @@ msgid "Generally, working on existing tickets means keeping up with a customer c
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:18
-msgid "For the most changes (except tags or rename title, for example), an explicit update of the ticket is needed. So make sure to click the **Update** button on the right side of the footer bar when you are happy with your changes."
+msgid "For the most changes (except tags or rename title, for example), an explicit update of the ticket is needed. So make sure to click the ``Update`` button on the right side of the footer bar when you are happy with your changes."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:23
@@ -2172,7 +2172,7 @@ msgid "Screenshot shows article detail view."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:69
-msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the **delete** button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
+msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the ``delete`` button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -2196,15 +2196,15 @@ msgid "To forward or reply to an article, use one of the response buttons under 
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:96
-msgid "**Reply**: Allows you to answer the article. The recipient is automatically pre-filled. The reply is sent via the same channel as the original message. This lets you easily send an answer to a customer or third party, if involved."
+msgid "``Reply``: Allows you to answer the article. The recipient is automatically pre-filled. The reply is sent via the same channel as the original message. This lets you easily send an answer to a customer or third party, if involved."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:99
-msgid "**Reply all**: Same as above but uses all recipient addresses from the original message as recipients for your new article. Only available for email channels."
+msgid "``Reply all``: Same as above but uses all recipient addresses from the original message as recipients for your new article. Only available for email channels."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:102
-msgid "**Forward**: This means you can forward the original message to a third party or anybody else. The original message and attachments are included in your new article."
+msgid "``Forward``: This means you can forward the original message to a third party or anybody else. The original message and attachments are included in your new article."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -2216,7 +2216,7 @@ msgid "Zammad even allows you to **quote text** from an existing article. This i
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:116
-msgid "To quote text, simply select the text you want to quote (1) and use the **Reply** or **Reply all** function (2):"
+msgid "To quote text, simply select the text you want to quote (1) and use the ``Reply`` or ``Reply all`` function (2):"
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
@@ -3622,7 +3622,7 @@ msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
 #: ../extras/ai-features.rst:90
-msgid "Click on the **Approve** button to accept the changes and to insert it in the article. After accepting the suggestion, you can still edit the text in the article editor."
+msgid "Click on the ``Approve`` button to accept the changes and to insert it in the article. After accepting the suggestion, you can still edit the text in the article editor."
 msgstr ""
 
 #: ../extras/ai-features.rst:97
@@ -3900,7 +3900,7 @@ msgid "Completed chat window"
 msgstr ""
 
 #: ../extras/chat.rst:69
-msgid "The **Turn chat into ticket** button appears as soon as the chat is finished."
+msgid "The ``Turn chat into ticket`` button appears as soon as the chat is finished."
 msgstr ""
 
 #: ../extras/chat.rst:75
@@ -4038,7 +4038,7 @@ msgid "Customers"
 msgstr ""
 
 #: ../extras/customers.rst:4
-msgid "Use the **ticket pane** to view and manage customer profiles."
+msgid "Use the **ticket sidebar** to view and manage customer profiles."
 msgstr ""
 
 #: ../extras/customers.rst:13
@@ -4046,7 +4046,7 @@ msgid "Ticket pane (customer view)"
 msgstr ""
 
 #: ../extras/customers.rst:13
-msgid "Click the 👨 tab in the ticket pane to see the customer's profile."
+msgid "Click the 👨 tab in the ticket sidebar to see the customer's profile."
 msgstr ""
 
 #: ../extras/customers.rst:15
@@ -4203,7 +4203,7 @@ msgid "With issue tracker integration, you can monitor GitHub / GitLab issues ri
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:7
-msgid "This feature is **optional**; if you don't see it in the ticket pane, that means your administrator hasn't enabled it yet. Administrators can learn more :admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`."
+msgid "This feature is **optional**; if you don't see it in the ticket sidebar, that means your administrator hasn't enabled it yet. Administrators can learn more :admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:16
@@ -4211,7 +4211,7 @@ msgid "Ticket detail view showing activated GitHub & GitLab function"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:16
-msgid "Use the |github| and |gitlab| tabs on the ticket pane for an overview of issues related to the ticket."
+msgid "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of issues related to the ticket."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:42
@@ -4235,7 +4235,7 @@ msgid "View related issues"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:23
-msgid "Use the |github| and |gitlab| tabs on the ticket pane to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab."
+msgid "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:27
@@ -4247,7 +4247,7 @@ msgid "Link a new issue"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:30
-msgid "At the top of the ticket pane, select **GitHub / GitLab > Link Issue**, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
+msgid "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:0
@@ -4307,7 +4307,7 @@ msgid "In Zammad: Link i-doit Assets To Tickets"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:43
-msgid "First, add i-doit assets to a ticket in the ticket pane:"
+msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:49
@@ -4315,7 +4315,7 @@ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:49
-msgid "Select **🖨 > i-doit > Change Objects**, then filter by category and/or name."
+msgid "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:51
@@ -4327,7 +4327,7 @@ msgid "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:57
-msgid "Click on a linked asset in the ticket pane to open its page in i-doit."
+msgid "Click on a linked asset in the ticket sidebar to open its page in i-doit."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:60
@@ -4900,7 +4900,7 @@ msgid "Organization Profiles"
 msgstr ""
 
 #: ../extras/organizations.rst:12
-msgid "Use the **ticket pane** to view and manage organization profiles."
+msgid "Use the **ticket sidebar** to view and manage organization profiles."
 msgstr ""
 
 #: ../extras/organizations.rst:18
@@ -4909,7 +4909,7 @@ msgid "Ticket pane (organization view)"
 msgstr ""
 
 #: ../extras/organizations.rst:18
-msgid "Click the 👪 tab in the ticket pane to see the organization's profile."
+msgid "Click the 👪 tab in the ticket sidebar to see the organization's profile."
 msgstr ""
 
 #: ../extras/organizations.rst:20
@@ -4958,7 +4958,7 @@ msgid "“How old is the oldest open ticket from this company?”"
 msgstr ""
 
 #: ../extras/organizations.rst:51
-msgid "Click the 🏢 button in the ticket pane to see a detailed breakdown of the organization's stats."
+msgid "Click the 🏢 button in the ticket sidebar to see a detailed breakdown of the organization's stats."
 msgstr ""
 
 #: ../extras/profile-and-settings.rst:2
@@ -5219,7 +5219,7 @@ msgid "**Additional filtering** based on the selected profile (see 2). You can f
 msgstr ""
 
 #: ../extras/reporting.rst:23
-msgid "**Profile switcher**: here you can easily switch between the different profiles, which were created in the admin panel under \"Report Profiles\". The shown tickets and numbers are always limited to the current profile you have selected here."
+msgid "**Profile switcher**: here you can easily switch between the different profiles, which were created in the admin settings under \"Report Profiles\". The shown tickets and numbers are always limited to the current profile you have selected here."
 msgstr ""
 
 #: ../extras/reporting.rst:27
@@ -5259,7 +5259,7 @@ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 msgstr ""
 
 #: ../extras/secure-email.rst:14
-msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing of outgoing emails."
+msgid "Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons to turn on encryption and signing of outgoing emails."
 msgstr ""
 
 #: ../extras/secure-email.rst:18
@@ -5267,7 +5267,7 @@ msgid "Prerequisites"
 msgstr ""
 
 #: ../extras/secure-email.rst:20
-msgid "Both feature are **optional**; if you don't see the 🔒 **Encrypt** and ✅ **Sign** buttons in the ticket composer, that means your administrator hasn't activated any of them yet."
+msgid "Both feature are **optional**; if you don't see the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons in the ticket composer, that means your administrator hasn't activated any of them yet."
 msgstr ""
 
 #: ../extras/secure-email.rst:24
@@ -5291,7 +5291,7 @@ msgid "PGP and S/MIME are the most widely-supported methods for secure email com
 msgstr ""
 
 #: ../extras/secure-email.rst:38
-msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 **Encrypt** and ✅ **Sign** buttons."
+msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons."
 msgstr ""
 
 #: ../extras/secure-email.rst:48
@@ -5327,7 +5327,7 @@ msgid "In other words, it guarantees message **privacy** and **data security**."
 msgstr ""
 
 #: ../extras/secure-email.rst:62
-msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin panel."
+msgid "Your administrator is responsible for adding all the necessary certificates and keys in Zammad's admin settings."
 msgstr ""
 
 #: ../extras/secure-email.rst:66
@@ -5423,7 +5423,7 @@ msgid "📮 Outgoing"
 msgstr ""
 
 #: ../extras/secure-email.rst:104
-msgid "Use the 🔒 **Encrypt** and ✅ **Sign** buttons to turn on encryption and signing for outgoing emails."
+msgid "Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons to turn on encryption and signing for outgoing emails."
 msgstr ""
 
 #: ../extras/secure-email.rst:107
@@ -5435,7 +5435,7 @@ msgid "Screencast showing encryption and signing status for both new tickets and
 msgstr ""
 
 #: ../extras/secure-email.rst:114
-msgid "🔒 **Encrypt** and ✅ **Sign** buttons are present on both new tickets and replies. Hover over the buttons to show details."
+msgid "🔒 ``Encrypt`` and ✅ ``Sign`` buttons are present on both new tickets and replies. Hover over the buttons to show details."
 msgstr ""
 
 #: ../extras/secure-email.rst:117
@@ -5525,7 +5525,7 @@ msgid "(But if they're smart, they'll take extra precautions to make sure it rea
 msgstr ""
 
 #: ../extras/secure-email.rst:196
-msgid "The 🔒 **Encrypt** button is disabled"
+msgid "The 🔒 ``Encrypt`` button is disabled"
 msgstr ""
 
 #: ../extras/secure-email.rst:196
@@ -5533,7 +5533,7 @@ msgid "Ask your administrator to add the recipient's certificate to Zammad's cer
 msgstr ""
 
 #: ../extras/secure-email.rst:198
-msgid "The ✅ **Sign** button is disabled"
+msgid "The ✅ ``Sign`` button is disabled"
 msgstr ""
 
 #: ../extras/secure-email.rst:199
@@ -5639,7 +5639,7 @@ msgid "Screenshot shows shared draft sidebar of the ticket creation dialog."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:77
-msgid "Use the ``^`` button next to the ``Update`` button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option **Save Draft**. All current changes on the ticket (ticket settings, article and its attachments) will be saved to the shared draft."
+msgid "Use the ``^`` button next to the ``Update`` button. If the group of the ticket (or in your selection) allows shared drafts, Zammad will provide the option ``Save Draft``. All current changes on the ticket (ticket settings, article and its attachments) will be saved to the shared draft."
 msgstr ""
 
 #: ../extras/shared-drafts.rst:82
@@ -5671,7 +5671,7 @@ msgid "If the system admin has enabled this feature, you can head to \"Avatar > 
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:21
-msgid "To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose **Set Up**."
+msgid "To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose ``Set Up``."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5712,7 +5712,7 @@ msgid "In case you are having issued during sign-in with your preferred two-fact
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:68
-msgid "Look for **Try another method** link below the sign in box. In case you don't see this link, you probably have no other available two-factor methods set up, or your admin has disabled this feature."
+msgid "Look for ``Try another method`` link below the sign in box. In case you don't see this link, you probably have no other available two-factor methods set up, or your admin has disabled this feature."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5729,7 +5729,7 @@ msgid "Try Another Method"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:83
-msgid "Alternatively, you can also use one of your recovery codes, which are auto-generated for your account during the initial setup of the two-factor authentication. Click on **recovery codes**, enter one of your unused recovery codes and click on **Sign in**."
+msgid "Alternatively, you can also use one of your recovery codes, which are auto-generated for your account during the initial setup of the two-factor authentication. Click on **recovery codes**, enter one of your unused recovery codes and click on ``Sign in``."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:93
@@ -5757,7 +5757,7 @@ msgid "Recovery Codes Modal Dialog"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:114
-msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on **Regenerate recovery codes** button in \"Avatar > Profile > Password & Authentication\"."
+msgid "You also have an option to regenerate your recovery codes at any time, which invalidates already existing recovery codes and provides you with a list of fresh codes. You can do this by clicking on ``Regenerate recovery codes`` button in *Avatar > Profile > Password & Authentication*."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:120
@@ -5765,7 +5765,7 @@ msgid "Set a Two-Factor Method as Default"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:122
-msgid "To set an already set up two-factor method as default, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Set as default**."
+msgid "To set an already set up two-factor method as default, use the ⋮ **Actions** menu next to it in *Avatar > Profile > Password & Authentication* and choose ``Set as default``."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5786,7 +5786,7 @@ msgid "Edit a Two-Factor Method"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:140
-msgid "To edit an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Edit**."
+msgid "To edit an already set up two-factor method, use the ⋮ **Actions** menu next to it in *Avatar > Profile > Password & Authentication* and choose ``Edit``."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:150
@@ -5798,7 +5798,7 @@ msgid "Remove a Two-Factor Method"
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:158
-msgid "To remove an already set up two-factor method, use the ⋮ **Actions** menu next to it in \"Avatar > Profile > Password & Authentication\" and choose **Remove**."
+msgid "To remove an already set up two-factor method, use the ⋮ **Actions** menu next to it in *Avatar > Profile > Password & Authentication* and choose ``Remove``."
 msgstr ""
 
 #: ../extras/two-factor-authentication.rst:None
@@ -5852,7 +5852,7 @@ msgid "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-bil
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
-msgid "Next, open the authenticator app on your device and find a **Scan QR Code** action, or similar. Point your camera to the Zammad screen and scan the shown QR code in the middle."
+msgid "Next, open the authenticator app on your device and find a ``Scan QR Code`` action, or similar. Point your camera to the Zammad screen and scan the shown QR code in the middle."
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:25
@@ -5864,7 +5864,7 @@ msgid "Your authenticator app should immediately add the new entry for your Zamm
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:32
-msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on **Set Up**."
+msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on ``Set Up``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:2
@@ -5872,7 +5872,7 @@ msgid "Authenticator App Sign-in"
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:4
-msgid "To sign-in with authenticator app two-factor method, first enter your username and password and click **Sign in**."
+msgid "To sign-in with authenticator app two-factor method, first enter your username and password and click ``Sign in``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:7
@@ -5884,7 +5884,7 @@ msgid "Security Code in Google Authenticator App"
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:15
-msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on **Sign in**."
+msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on ``Sign in``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
@@ -5905,11 +5905,11 @@ msgid "The security keys method is a type of a two-factor authentication that us
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:9
-msgid "Initially, you will be presented with an empty dialog instructing you to **Set Up** your first key."
+msgid "Initially, you will be presented with an empty dialog instructing you to ``Set Up`` your first key."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:16
-msgid "First, enter a descriptive **Name for this security key** you will be registering with your account, so you could later identify it in the list. Then, click on **Next**."
+msgid "First, enter a descriptive **Name for this security key** you will be registering with your account, so you could later identify it in the list. Then, click on ``Next``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:None
@@ -5942,7 +5942,7 @@ msgid "If the registration was successful, the modal dialog will close and you a
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:47
-msgid "In case of errors, you will be able to **Retry** the registration of the key."
+msgid "In case of errors, you will be able to ``Retry`` the registration of the key."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:50
@@ -5951,7 +5951,7 @@ msgid "Editing Security Keys"
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:52
-msgid "Once set up, security keys can be managed by choosing **Edit** action next to the two-factor authentication method."
+msgid "Once set up, security keys can be managed by choosing ``Edit`` action next to the two-factor authentication method."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:55
@@ -5967,7 +5967,7 @@ msgid "Security Keys Sign-in"
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-sign-in.rst:4
-msgid "To sign-in with security keys two-factor method, first enter your username and password and click **Sign in**."
+msgid "To sign-in with security keys two-factor method, first enter your username and password and click ``Sign in``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-sign-in.rst:None
@@ -5983,11 +5983,11 @@ msgid "Security Key Sign-in dialog in Safari on macOS"
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-sign-in.rst:22
-msgid "Providing your security key when asked is a time-sensitive operation! You may be allowed a couple of tens of seconds to present and unlock your key, but if the process time outs, you will have to **Retry**."
+msgid "Providing your security key when asked is a time-sensitive operation! You may be allowed a couple of tens of seconds to present and unlock your key, but if the process time outs, you will have to ``Retry``."
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-sign-in.rst:26
-msgid "In case of errors, you will be able to **Retry** the verification of the key."
+msgid "In case of errors, you will be able to ``Retry`` the verification of the key."
 msgstr ""
 
 #: ../index.rst:22
