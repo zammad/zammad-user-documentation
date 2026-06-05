@@ -16,23 +16,23 @@ Link types
    link to the main one as a parent of the sub tickets.
 
 How to link
-   Make sure to have the ticket side panel open. Under the "Tags" section you
-   can find the "Links" section:
+   Make sure to have the ticket side panel open. Under the **Tags** section you
+   can find the **Related tickets** section:
 
    .. figure:: /images/advanced/ticket-actions/link.png
       :alt: Ticket pane: Links
       :align: center
 
-   Click the *➕ Add Link* button to access the link dialog.
+   Click the ``+ Link`` button to access the link dialog.
 
 Link dialog
    You can enter the ticket number of the ticket you want to link to
    (see 1).
    Alternatively, you can choose from the list below (see 2).
 
-   If the customer has an existing ticket, it will show up under "Recent
-   customer tickets". You can see your last viewed tickets under "Recently
-   viewed tickets" anyway.
+   If the customer has an existing ticket, it will show up under **Recent
+   customer tickets**. You can see your last viewed tickets under **Recently
+   viewed tickets** anyway.
 
    Additionally, you can choose the link type from the drop down menu. You can
    link to one or more tickets for each type.

@@ -19,6 +19,11 @@ generated content. The dislike option allows you to leave an optional comment.
 Of course you can also give positive feedback if you are happy with the AI
 result.
 
+.. warning::
+   Always double-check the AI responses. Although the features were developed
+   carefully, there still might be minor inaccuracies in individual cases due to
+   the nature of neural networks.
+
 Ticket Summary
 --------------
 
@@ -86,10 +91,7 @@ Click on the **Approve** button to accept the changes and to insert it in the
 article. After accepting the suggestion, you can still edit the text in the
 article editor.
 
-.. warning::
-   Always double-check the response. Although the feature was carefully
-   developed, there may still be minor problems in individual cases due to
-   the nature of neural networks.
+.. _ai-agents:
 
 AI Agents
 ---------
