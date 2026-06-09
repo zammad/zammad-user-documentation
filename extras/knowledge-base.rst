@@ -2,11 +2,7 @@
 ==============
 
 Manage, edit and organize your knowledge base content by opening the
-<<<<<<< HEAD
 ``Knowledge Base`` tab in the navigation sidebar.
-=======
-**Knowledge Base** tab in the navigation sidebar.
->>>>>>> 962db07 (Fixes #527 - Add AI knowledge base answer generation, tweaks and UI alignment)
 
 This feature is optional; if you don't see it in the main menu,
 that means your administrator hasn't enabled it yet. Administrators can learn
