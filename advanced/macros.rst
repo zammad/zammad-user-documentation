@@ -19,7 +19,7 @@ in the ticket detail view:
 
 .. figure:: /images/advanced/macros/macro-run-via-ticket-view.png
    :align: center
-   :alt: Screenshot shows the ticket update menu with to run a macro.
+   :alt: Screenshot shows the ticket update menu to run a macro.
 
 .. tip:: 💾 **Macro = Update**
 

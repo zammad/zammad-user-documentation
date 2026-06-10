@@ -6,7 +6,7 @@ We've been collecting the most relevant terms below for your insight.
 
 .. note::
 
-   Due to translation alphabetical sorting may be off in non english versions
+   Due to translation alphabetical sorting may be off in non English versions
    of this page.
 
 Quickly jump to...
@@ -75,7 +75,7 @@ Avatar
    too. To customize it, go to the avatar section in your
    :doc:`user profile </extras/profile-and-settings>`.
 
-   The avatar of an user is visible in different places in Zammad. For example
+   The avatar of a user is visible in different places in Zammad. For example
    you can see it next to an article in a ticket or in the bottom bar if
    another agent is viewing or editing the same ticket.
 
@@ -316,7 +316,7 @@ Grafana
 
    .. hint:: **🤓 Self Hosted users**
 
-      Hooking up Grafana to Elasticsearch is an possibility you can do on your
+      Hooking up Grafana to Elasticsearch is a possibility you can do on your
       own as well.
 
    Learn more on how to add Grafana dashboards for Zammad

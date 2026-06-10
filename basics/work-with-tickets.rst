@@ -104,7 +104,7 @@ article. The behavior is similar to an email client.
   new article.
 
 .. figure:: /images/basics/work-with-tickets/follow-up-reply-button.png
-   :alt: Screenshots shows response buttons below an article.
+   :alt: Screenshot shows response buttons below an article.
    :width: 70%
    :align: center
 
