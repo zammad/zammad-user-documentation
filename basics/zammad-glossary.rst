@@ -442,7 +442,7 @@ Macro
 
 Mentions
    Mentions are a Zammad feature that allows you to tag another agent in a
-   ticket. Just type ``@@`` and the name. The selected person will be notified
+   ticket. Just type :kbd:`@@` and the name. The selected person will be notified
    and will be watching the ticket from now on.
 
    Learn more on this page: :ref:`mentions`.
@@ -707,7 +707,7 @@ Tags
 Text module
    If you find that you send the same answers / text bits over and over again,
    you can save yourself a bunch of work and create a text module.
-   This way, you just need to type ``::`` shortcut and the pre-defined paragraph
+   This way, you just need to type :kbd:`::` shortcut and the pre-defined paragraph
    will automatically appear in your article.
 
    For example, here at Zammad, we have a text module with the shortcut

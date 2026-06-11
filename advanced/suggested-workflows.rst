@@ -67,7 +67,7 @@ simply click the ``Subscribe`` button at the bottom of the ticket sidebar:
 Or, suppose you don't want to reassign the ticket to customer service, you
 just have one quick question for them, and then you can take it from there.
 To start sending someone else notifications for your own ticket,
-type ``@@`` in the message composer and select their name from the pop-up menu.
+type :kbd:`@@` in the message editor and select their name from the pop-up menu.
 This will automatically subscribe them to your ticket.
 
 .. hint:: ⚙️ **Notification settings**
