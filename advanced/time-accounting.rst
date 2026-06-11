@@ -14,7 +14,7 @@ a ticket. Enter how much time you spent on it.
 This feature is **optional**; if you don't see it whenever you update a
 ticket, that means your administrator hasn't enabled it yet.
 Administrators can learn more
-:admin-docs:`here </manage/time-accounting.html>`.
+:admin-docs:`about time accounting </manage/time-accounting.html>`.
 
 Units
 -----

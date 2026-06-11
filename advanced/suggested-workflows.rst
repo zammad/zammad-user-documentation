@@ -58,7 +58,7 @@ but maybe this is a really important contract,
 and you want to make sure they have an A+ experience from start to finish.
 
 To enable notifications for a ticket that doesn't belong to you,
-simply click the ``Subscribe`` button at the bottom of the ticket sidebar tab:
+simply click the ``Subscribe`` button at the bottom of the ticket sidebar:
 
 .. figure:: /images/advanced/suggested-workflows/subscribe.png
    :alt: Screenshot shows subscribe button in the ticket sidebar tab

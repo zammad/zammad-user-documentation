@@ -1,5 +1,5 @@
-Linking Tickets
-===============
+Link Tickets
+============
 
 When tickets about related issues arise, they can be linked to each other for
 easier reference. For example this could be useful if you have multiple
@@ -26,16 +26,12 @@ How to link
    Click the ``+ Link`` button to access the link dialog.
 
 Link dialog
-   You can enter the ticket number of the ticket you want to link to
-   (see 1).
-   Alternatively, you can choose from the list below (see 2).
-
-   If the customer has an existing ticket, it will show up under **Recent
-   customer tickets**. You can see your last viewed tickets under **Recently
-   viewed tickets** anyway.
-
-   Additionally, you can choose the link type from the drop down menu. You can
-   link to one or more tickets for each type.
+   You can enter the ticket number of the ticket you want to link to (see 1),
+   or choose from the list below (see 2). If the customer has an existing ticket,
+   it will show up under **Recent customer tickets**. You can see your last viewed
+   tickets under **Recently viewed tickets** anyway. Additionally, you can choose
+   the link type from the drop down menu. You can link to one or more tickets for
+   each type.
 
    .. figure:: /images/advanced/ticket-actions/link-dialog.png
       :alt: Link dialog

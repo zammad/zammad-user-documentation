@@ -1,8 +1,7 @@
 Macros
 ======
 
-If you have many steps you do over and over again, you should use a macro for
-that. In such a macro, your admin can pre-define different ticket actions you
+If you find yourself repeating the same steps frequently, you should use a macro. In such a macro, your admin can pre-define different ticket actions you
 can apply with just a click. As an example, Zammad ships a
 **Close & Tag as Spam** macro by default. If applied, the user who executes the
 macro is assigned as owner, a tag ``spam`` is added and the ticket is closed.
@@ -14,7 +13,7 @@ Macros can be applied in two ways: on a single ticket or in bulk.
 On a Single Ticket
 ------------------
 
-The simplest way to apply a macro is to select it from the **Update ^** submenu
+The simplest way to apply a macro is to select it from the ``Update`` submenu
 in the ticket detail view:
 
 .. figure:: /images/advanced/macros/macro-run-via-ticket-view.png
@@ -39,7 +38,7 @@ To apply a macro to many tickets at the same time:
 
 1. Open a ticket overview
 2. Select your desired tickets
-3. Drag the tickets to the top and hover over the **Run Macro** action
+3. Drag the tickets to the top and hover over the ``Run Macro`` action
 4. Drop the tickets on your target macro.
 
 .. figure:: /images/advanced/macros/macro-usage-via-overview.gif

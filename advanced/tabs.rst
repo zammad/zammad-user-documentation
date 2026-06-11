@@ -16,9 +16,9 @@ all unsaved changes are automatically backed up to the server.
    The following items get opened in a new tab. If you have the item already
    open, Zammad switches to this tab instead of opening a duplicate.
 
-   \1 Existing tickets
-      When you open an existing ticket from an overview or the search.
-
+   \\1 Existing tickets
+         When you open an existing ticket from an overview or the
+         search.
    \2 New tickets
          When you create a new ticket via the button at the bottom of the
          navigation sidebar.
@@ -53,7 +53,7 @@ all unsaved changes are automatically backed up to the server.
 Tab Behavior in Ticket Detail View
 ----------------------------------
 
-You may have noticed the "Stay on tab" button next to ``Update`` on the lower
+You may have noticed the ``Stay on tab`` button next to ``Update`` on the lower
 right already. This behavior of a tab can be configured by your administrator
 globally. You can overrule this setting based on your personal
 preference.
