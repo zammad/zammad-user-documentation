@@ -67,7 +67,7 @@ a list of all the tickets associated with each asset:
    :align: center
 
    Click the 💬 in the toolbar to list an asset's tickets.
-   Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad.
+   Use the **🔗 Open in ticket system** button to open the ticket in Zammad.
 
 You can even launch Zammad's new ticket dialog directly from i-doit,
 with the asset already linked for you:

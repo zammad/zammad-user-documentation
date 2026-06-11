@@ -44,5 +44,5 @@ Remove an issue
    :width: 16px
 
 .. |gitlab| image:: /images/icons/gitlab-64px.png
-   :alt: GitLub logo
+   :alt: GitLab logo
    :width: 16px
