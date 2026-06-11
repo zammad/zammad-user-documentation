@@ -67,7 +67,7 @@ go back to the dashboard, your overviews or an opened ticket, for example.
       badge with a count about how many notifications you got.
 
    Navigation (2)
-      Allows you to swith to different Zammad screens like the dashboard,
+      Allows you to switch to different Zammad screens like the dashboard,
       overviews, knowledge base or phone screen.
 
    Content tabs (3)

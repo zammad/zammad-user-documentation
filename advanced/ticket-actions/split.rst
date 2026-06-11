@@ -9,7 +9,7 @@ To split a ticket, simply click on the "split" button under the article you
 want to split off:
 
 .. figure:: /images/advanced/ticket-actions/article-split.png
-   :alt: Split ticket buttonTicket pane (tags)
+   :alt: Split ticket button
    :align: center
 
 After clicking on the "split" button, a dialog for creating a new ticket is

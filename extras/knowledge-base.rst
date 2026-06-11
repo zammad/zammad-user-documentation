@@ -182,7 +182,7 @@ That means you can use the same
 text, bullet lists, and more. You can even add file attachments and links!
 
 Different link types
-   🔗 **Weblink**
+   🔗 **Web link**
       URLs pointing to other websites.
 
    💡 **Link Answer**

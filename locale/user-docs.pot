@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-09 15:34+0200\n"
+"POT-Creation-Date: 2026-06-11 08:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -554,7 +554,7 @@ msgid "The simplest way to apply a macro is to select it from the **Update ^** s
 msgstr ""
 
 #: ../advanced/macros.rst:None
-msgid "Screenshot shows the ticket update menu with to run a macro."
+msgid "Screenshot shows the ticket update menu to run a macro."
 msgstr ""
 
 #: ../advanced/macros.rst:24
@@ -679,7 +679,7 @@ msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
 msgstr ""
 
 #: ../advanced/search.rst:1
-msgid "If you need to use spacings in the search phrase, use quotes. Zammad will do an AND-search over the given words. You can also use a single keyword without quotation."
+msgid "If you need to use spaces in the search phrase, use quotes. Zammad will do an AND-search over the given words. You can also use a single keyword without quotation."
 msgstr ""
 
 #: ../advanced/search.rst:1
@@ -1137,47 +1137,47 @@ msgstr ""
 msgid "The following items get opened in a new tab. If you have the item already open, Zammad switches to this tab instead of opening a duplicate."
 msgstr ""
 
-#: ../advanced/tabs.rst:21
+#: ../advanced/tabs.rst:20
 msgid "\\1 Existing tickets"
 msgstr ""
 
 #: ../advanced/tabs.rst:20
-msgid "When when you open an existing ticket from an overview or the search."
-msgstr ""
-
-#: ../advanced/tabs.rst:25
-msgid "\\2 New tickets"
+msgid "When you open an existing ticket from an overview or the search."
 msgstr ""
 
 #: ../advanced/tabs.rst:24
+msgid "\\2 New tickets"
+msgstr ""
+
+#: ../advanced/tabs.rst:23
 msgid "When you create a new ticket via the button at the bottom of the navigation sidebar."
 msgstr ""
 
-#: ../advanced/tabs.rst:29
+#: ../advanced/tabs.rst:28
 msgid "\\3 User Details"
 msgstr ""
 
-#: ../advanced/tabs.rst:28
+#: ../advanced/tabs.rst:27
 msgid "When you click on a user name or avatar in a ticket to open the user detail page."
 msgstr ""
 
-#: ../advanced/tabs.rst:33
+#: ../advanced/tabs.rst:32
 msgid "\\4 Organization Details"
 msgstr ""
 
-#: ../advanced/tabs.rst:32
+#: ../advanced/tabs.rst:31
 msgid "When you click on an organization name or avatar in a ticket to open the organization detail page."
 msgstr ""
 
-#: ../advanced/tabs.rst:36
+#: ../advanced/tabs.rst:35
 msgid "\\5 Detailed search"
 msgstr ""
 
-#: ../advanced/tabs.rst:36
+#: ../advanced/tabs.rst:35
 msgid "When you search for a ticket, user or organization and click on ``Show Search Details``."
 msgstr ""
 
-#: ../advanced/tabs.rst:41
+#: ../advanced/tabs.rst:40
 #: ../basics/zammad-ui.rst:82
 #: ../extras/mobile-view.rst:37
 #: ../extras/mobile-view.rst:59
@@ -1188,11 +1188,11 @@ msgstr ""
 msgid "x"
 msgstr ""
 
-#: ../advanced/tabs.rst:43
+#: ../advanced/tabs.rst:42
 msgid "**🖱️ UI Protip**"
 msgstr ""
 
-#: ../advanced/tabs.rst:45
+#: ../advanced/tabs.rst:44
 msgid ":doc:`Ticket states </basics/ticket-basics>` are **color-coded:**"
 msgstr ""
 
@@ -1253,19 +1253,19 @@ msgstr ""
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
 msgstr ""
 
-#: ../advanced/tabs.rst:50
+#: ../advanced/tabs.rst:49
 msgid "A pulsing dot means that a ticket has new activity since you last viewed it."
 msgstr ""
 
-#: ../advanced/tabs.rst:52
+#: ../advanced/tabs.rst:51
 msgid "Drag and drop tabs to rearrange them."
 msgstr ""
 
-#: ../advanced/tabs.rst:55
+#: ../advanced/tabs.rst:54
 msgid "Tab Behavior in Ticket Detail View"
 msgstr ""
 
-#: ../advanced/tabs.rst:57
+#: ../advanced/tabs.rst:56
 msgid "You may have noticed the \"Stay on tab\" button next to ``Update`` on the lower right already. This behavior of a tab can be configured by your administrator globally. You can overrule this setting based on your personal preference."
 msgstr ""
 
@@ -1273,55 +1273,55 @@ msgstr ""
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 
-#: ../advanced/tabs.rst:66
+#: ../advanced/tabs.rst:65
 msgid "To overrule your administrator's settings, simply choose the action you prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
 
-#: ../advanced/tabs.rst:71
+#: ../advanced/tabs.rst:70
 msgid "Close tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:70
+#: ../advanced/tabs.rst:69
 msgid "Upon updating the ticket, Zammad will automatically close the tab. You'll be returned to the last view that was open."
 msgstr ""
 
-#: ../advanced/tabs.rst:77
+#: ../advanced/tabs.rst:76
 msgid "Close tab on ticket close"
 msgstr ""
 
-#: ../advanced/tabs.rst:74
+#: ../advanced/tabs.rst:73
 msgid "Ticket tabs will be closed only if you change the state to \"closed\" upon ticket update."
 msgstr ""
 
-#: ../advanced/tabs.rst:77
+#: ../advanced/tabs.rst:76
 msgid "This does not apply for pending states that end in closed states."
 msgstr ""
 
-#: ../advanced/tabs.rst:85
+#: ../advanced/tabs.rst:84
 msgid "Next in overview"
 msgstr ""
 
-#: ../advanced/tabs.rst:80
+#: ../advanced/tabs.rst:79
 msgid "If you opened a ticket from any overview, Zammad will jump to the next ticket in said overview. Zammad recycles the open tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:83
+#: ../advanced/tabs.rst:82
 msgid "This option is only available if you open the ticket from an overview. Zammad will ignore the setting if you opened the ticket directly and fall back to ``Stay on tab``."
 msgstr ""
 
-#: ../advanced/tabs.rst:90
+#: ../advanced/tabs.rst:89
 msgid "Stay on tab"
 msgstr ""
 
-#: ../advanced/tabs.rst:88
+#: ../advanced/tabs.rst:87
 msgid "Updating the ticket doesn't have any effect on the tab."
 msgstr ""
 
-#: ../advanced/tabs.rst:90
+#: ../advanced/tabs.rst:89
 msgid "*This is the default setting in Zammad installations.*"
 msgstr ""
 
-#: ../advanced/tabs.rst:92
+#: ../advanced/tabs.rst:91
 msgid "Now that you are an expert in tab handling, one more thing might be interesting as well: the maximum number of tabs is 30 due to performance reasons. In case you reach the limit and open another tab, the first opened tab gets closed automatically."
 msgstr ""
 
@@ -1537,7 +1537,7 @@ msgid "To split a ticket, simply click on the \"split\" button under the article
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:None
-msgid "Split ticket buttonTicket pane (tags)"
+msgid "Split ticket button"
 msgstr ""
 
 #: ../advanced/ticket-actions/split.rst:15
@@ -2208,7 +2208,7 @@ msgid "``Forward``: This means you can forward the original message to a third p
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:None
-msgid "Screenshots shows response buttons below an article."
+msgid "Screenshot shows response buttons below an article."
 msgstr ""
 
 #: ../basics/work-with-tickets.rst:111
@@ -2369,7 +2369,7 @@ msgid "Ever wondered what we mean by a specific term? We've been collecting the 
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:9
-msgid "Due to translation alphabetical sorting may be off in non english versions of this page."
+msgid "Due to translation alphabetical sorting may be off in non English versions of this page."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:14
@@ -2459,7 +2459,7 @@ msgid "An avatar is basically a graphical representation of a user. By defaults 
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:78
-msgid "The avatar of an user is visible in different places in Zammad. For example you can see it next to an article in a ticket or in the bottom bar if another agent is viewing or editing the same ticket."
+msgid "The avatar of a user is visible in different places in Zammad. For example you can see it next to an article in a ticket or in the bottom bar if another agent is viewing or editing the same ticket."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:84
@@ -2772,7 +2772,7 @@ msgid "**🤓 Self Hosted users**"
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:319
-msgid "Hooking up Grafana to Elasticsearch is an possibility you can do on your own as well."
+msgid "Hooking up Grafana to Elasticsearch is a possibility you can do on your own as well."
 msgstr ""
 
 #: ../basics/zammad-glossary.rst:322
@@ -3454,7 +3454,7 @@ msgid "Navigation (2)"
 msgstr ""
 
 #: ../basics/zammad-ui.rst:70
-msgid "Allows you to swith to different Zammad screens like the dashboard, overviews, knowledge base or phone screen."
+msgid "Allows you to switch to different Zammad screens like the dashboard, overviews, knowledge base or phone screen."
 msgstr ""
 
 #: ../basics/zammad-ui.rst:74
@@ -4223,7 +4223,7 @@ msgstr ""
 #: ../extras/github-gitlab-integration.rst:46
 #: ../extras/github-gitlab-integration.rst:46
 #: ../extras/github-gitlab-integration.rst:46
-msgid "GitLub logo"
+msgid "GitLab logo"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:20
@@ -4343,7 +4343,7 @@ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:69
-msgid "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad."
+msgid "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in ticket system** button to open the ticket in Zammad."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:72
@@ -4578,7 +4578,7 @@ msgid "Different link types"
 msgstr ""
 
 #: ../extras/knowledge-base.rst:186
-msgid "🔗 **Weblink**"
+msgid "🔗 **Web link**"
 msgstr ""
 
 #: ../extras/knowledge-base.rst:186

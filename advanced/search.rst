@@ -35,7 +35,7 @@ Available Attributes
    :widths: 10, 10, 10, 20
 
    "number", "1118566", "number:1118566 |br|\ number:11185*", "Search for a ticket number."
-   "title", "some title", "title:""some title"" |br|\ title:Printer |br|\ title: ""some ti*""", "If you need to use spacings in the search phrase, use quotes. Zammad will do an AND-search over the given words. You can also use a single keyword without quotation."
+   "title", "some title", "title:""some title"" |br|\ title:Printer |br|\ title: ""some ti*""", "If you need to use spaces in the search phrase, use quotes. Zammad will do an AND-search over the given words. You can also use a single keyword without quotation."
    "created_at", "2018-11-18", "created_at:2018-11-18 |br|\ created_at:[2018-11-15 TO 2018-11-18] |br|\ created_at:>now-1h", "You can either use a simple date, a date-range or >now-xh. Please note that the date format needs to be YYYY-MM-DD"
    "state.name", "new |br|\ open |br|\ closed", "state.name: new |br|\ state.name:new OR open", "You can filter for specific ticket states (and even combine them with an OR). Please note that you need to use the English naming for states, unless you have custom ticket states defined in your instance."
    "article_count", "5 |br|\ [5 TO 10] |br|\ [5 TO \*] |br|\ [\* TO 5]", "article_count:5 |br|\ article_count: [5 TO 10] |br|\ article_count:[5 TO \*] |br|\ article_count:[\* TO 5]", "You can search for tickets with a specific number of articles (you can even search for everything with 5 or more articles or even up to 5 articles, if needed)."

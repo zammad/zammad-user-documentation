@@ -17,8 +17,7 @@ all unsaved changes are automatically backed up to the server.
    open, Zammad switches to this tab instead of opening a duplicate.
 
    \1 Existing tickets
-         When when you open an existing ticket from an overview or the
-         search.
+      When you open an existing ticket from an overview or the search.
 
    \2 New tickets
          When you create a new ticket via the button at the bottom of the
