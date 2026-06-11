@@ -209,7 +209,7 @@ History
 Merge
    Migrate all messages/notes to another ticket. Useful if you have more than
    one ticket about a single customer issue. See
-   :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details.
+   :doc:`merge tickets page </advanced/ticket-actions/merge>` for details.
 
 Change Customer
    Reassign the ticket to another customer.

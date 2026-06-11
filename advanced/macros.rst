@@ -1,14 +1,13 @@
 Macros
 ======
 
-If you find yourself repeating the same steps frequently, you should use a macro. In such a macro, your admin can pre-define different ticket actions you
+If you find yourself repeating the same steps frequently, you should use a macro.
+In such a macro, your admin can pre-define different ticket actions you
 can apply with just a click. As an example, Zammad ships a
 **Close & Tag as Spam** macro by default. If applied, the user who executes the
 macro is assigned as owner, a tag ``spam`` is added and the ticket is closed.
 It is even possible to run an :ref:`AI agent <ai-agents>` within a macro on
-demand.
-
-Macros can be applied in two ways: on a single ticket or in bulk.
+demand. Read on to learn how to run macros in two different ways.
 
 On a Single Ticket
 ------------------
@@ -20,16 +19,11 @@ in the ticket detail view:
    :align: center
    :alt: Screenshot shows the ticket update menu to run a macro.
 
-.. tip:: 💾 **Macro = Update**
-
-   If you've made any changes (including typing up a reply to the customer),
-   applying a macro will save/send them too.
-
-   ⚠️ **But beware:** in the event of a conflict,
-   the macro's actions override any manual changes -
-   including messages to the customer!
-   When in doubt, apply your macro and your manual changes *separately.*
-
+.. warning:: Running a macro updates the ticket immediately.
+   If you made any changes, e.g. typing a reply draft to the customer,
+   applying a macro will save/send them too. In the case of a conflict,
+   the macro's actions override any manual changes. Try to apply your changes
+   and the one from the macro separately.
 
 In Bulk
 -------

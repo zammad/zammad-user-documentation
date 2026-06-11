@@ -16,12 +16,13 @@ all unsaved changes are automatically backed up to the server.
    The following items get opened in a new tab. If you have the item already
    open, Zammad switches to this tab instead of opening a duplicate.
 
-   \\1 Existing tickets
-         When you open an existing ticket from an overview or the
-         search.
+   \1 Existing tickets
+      When you open an existing ticket from an overview or the
+      search.
+
    \2 New tickets
-         When you create a new ticket via the button at the bottom of the
-         navigation sidebar.
+      When you create a new ticket via the button at the bottom of the
+      navigation sidebar.
 
    \3 User Details
       When you click on a user name or avatar in a ticket to open the user
@@ -41,14 +42,14 @@ all unsaved changes are automatically backed up to the server.
 
 .. tip:: **🖱️ UI Protip**
 
-   * :doc:`Ticket states </basics/ticket-basics>` are
+   - :doc:`Ticket states </basics/ticket-basics>` are
      **color-coded:**
 
      .. include:: /snippets/ticket-state-type-circles.rst
 
-   * A pulsing dot means that a ticket has new activity since you last
+   - A pulsing dot means that a ticket has new activity since you last
      viewed it.
-   * Drag and drop tabs to rearrange them.
+   - Drag and drop tabs to rearrange them.
 
 Tab Behavior in Ticket Detail View
 ----------------------------------
@@ -71,9 +72,8 @@ Close tab
 
 Close tab on ticket close
    Ticket tabs will be closed only if you change the state to "closed" upon
-   ticket update.
-
-   This does not apply for pending states that end in closed states.
+   ticket update. This does not apply for pending states that end in closed
+   states.
 
 Next in overview
    If you opened a ticket from any overview, Zammad will jump to the next
@@ -84,9 +84,8 @@ Next in overview
    and fall back to ``Stay on tab``.
 
 Stay on tab
-   Updating the ticket doesn't have any effect on the tab.
-
-   *This is the default setting in Zammad installations.*
+   Updating the ticket doesn't have any effect on the tab. This is the default
+   setting.
 
 Now that you are an expert in tab handling, one more thing might be
 interesting as well: the maximum number of tabs is 30 due to performance

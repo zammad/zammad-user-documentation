@@ -8,9 +8,9 @@ customer complaints about the same shipment. :doc:`Merged <merge>` and
 
 Link types
    There are different types of links between tickets as you might have already
-   seen in :doc:`merge` or :doc:`split`: parent/child links and normal
-   links. The first pair is used for split and merged tickets. The normal link
-   is useful when there is no logical hierarchy between tickets.
+   seen in :doc:`merge <merge>` or :doc:`split <split>` tickets: parent/child
+   links and normal links. The first pair is used for split and merged tickets.
+   The normal link is useful when there is no logical hierarchy between tickets.
 
    However, if you have a main issue and want to create sub tasks, you could
    link to the main one as a parent of the sub tickets.

@@ -3,18 +3,14 @@
 
 Zammad supports detailed time accounting to help administrators keep track of
 how much time you spend on any given ticket, customer or client organization.
+If the time accounting is enabled, a dialog appear each time you update
+a ticket. There you can enter how much time you spent on it.
 
-.. figure:: /images/advanced/time-accounting/time-accounting-simple-recording.png
-   :alt: Time Accounting Dialog
-   :align: center
-
-If the time accounting is enabled, this dialog will appear each time you update
-a ticket. Enter how much time you spent on it.
-
-This feature is **optional**; if you don't see it whenever you update a
-ticket, that means your administrator hasn't enabled it yet.
-Administrators can learn more
-:admin-docs:`about time accounting </manage/time-accounting.html>`.
+This feature is optional. If you don't see it whenever you update a
+ticket, either your administrator hasn't enabled it yet or the tickets aren't
+considered as relevant for time accounting.
+Administrators can find additional information in the
+:admin-docs:`time accounting section of the admin documentation </manage/time-accounting.html>`.
 
 Units
 -----
@@ -31,7 +27,7 @@ Activity Types
 --------------
 
 **Activity Types** are used for grouping accounted time entries together.
-This is an **optional** feature which shows a list of activities as a
+This is an optional feature which shows a list of activities as a
 selectable list.
 
 .. figure:: /images/advanced/time-accounting/time-accounting-select-activity-type.png

@@ -87,15 +87,16 @@ Quickly Assign in Ticket Listings
 Within overviews and detailed searches you can run bulk operations on tickets.
 This means you can adjust the following ticket information:
 
-   * group
-   * owner
-   * state (with pending time if applicable)
-   * priority
+- Group
+- Owner
+- State (with pending time, if applicable)
+- Priority
 
-After pressing "Confirm", Zammad also allows you to provide an internal or
-public note of why you adjusted the settings.
+After pressing ``Confirmation``, Zammad also allows you to provide an internal
+or public note in the **Comment** field which gets added to each of the selected
+tickets.
 
-Zammad *will not* ask for
+Zammad doesn't ask for
 :doc:`time accounting values </advanced/time-accounting>` in bulk actions.
 
 Bulk action via drop-downs:
@@ -108,7 +109,7 @@ Bulk action via drop-downs:
       provide a note if you'd like.
 
 Bulk action via drag and drop:
-   **🤓 You can change owners and groups even faster 🚀**
+   **You can change owners and groups even faster**
 
    .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.gif
       :alt: Drag selected tickets and drop then on a group or agent to change
@@ -119,5 +120,5 @@ Bulk action via drag and drop:
    drag tickets. A new modal will appear and allow you to drop your
    selection on either just a group or agents. This operation allows you to
    quickly change the group and owner without further hassle!
-
-   This functionality is only available in ticket overviews.
+   This functionality is only available in overviews and the detailed search
+   page.
