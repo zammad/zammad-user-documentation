@@ -3,7 +3,7 @@
 
 Manage, edit and organize your knowledge base content by opening the
 ``Knowledge Base`` tab in the navigation sidebar. This feature is optional. If
-you don't see it in the primary navigation bar, that means your administrator
+you don't see it in the navigation side bar, that means your administrator
 hasn't enabled it yet. Administrators can learn more in the
 :admin-docs:`knowledge base admin documentation </manage/knowledge-base.html>`.
 

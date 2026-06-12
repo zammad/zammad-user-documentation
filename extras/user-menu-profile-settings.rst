@@ -1,7 +1,7 @@
 ﻿User Menu & Profile Settings
 ============================
 
-Click on your avatar or initials at the bottom of the primary navigation bar to
+Click on your avatar or initials at the bottom of the navigation sidebar to
 open the user menu. You can find some useful information and links, apply a
 theme and open your profile settings.
 
