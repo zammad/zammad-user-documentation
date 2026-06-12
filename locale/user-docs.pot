@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-12 12:19+0200\n"
+"POT-Creation-Date: 2026-06-12 13:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1230,7 +1230,7 @@ msgstr ""
 #: ../snippets/ticket-state-type-circles.rst:8
 #: ../snippets/ticket-state-type-circles.rst:8
 #: ../snippets/ticket-state-type-circles.rst:8
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:204
 #: ../snippets/ticket-state-type-circles.rst:8
 msgid "|grn|"
 msgstr ""
@@ -3741,7 +3741,7 @@ msgid "Talk to customers in real time from the **Customer Chat** panel."
 msgstr ""
 
 #: ../extras/chat.rst:6
-msgid "This feature is optional. If you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`chat channel documentation of the admin documentation </channels/chat.html>`."
+msgid "This feature is optional. If you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`chat channel admin documentation </channels/chat.html>`."
 msgstr ""
 
 #: ../extras/chat.rst:None
@@ -3872,121 +3872,117 @@ msgstr ""
 msgid "Checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:5
-msgid "General"
+#: ../extras/checklist.rst:4
+msgid "Use a checklist in tickets to keep track of the tasks to be completed. You can find the checklist feature in the right sidebar in the **Checklist** tab (unless your admin has deactivated it). Please note that you can only add or edit a checklist, if you have the permission to edit the ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:7
-msgid "Use a checklist in tickets to keep track of the tasks to be completed. You can find the checklist feature in the right sidebar in the \"Checklist\" tab (unless your admin has deactivated it). Please note that you can only add or edit a checklist, if you have the permission to edit the ticket."
-msgstr ""
-
-#: ../extras/checklist.rst:15
+#: ../extras/checklist.rst:12
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
 
-#: ../extras/checklist.rst:15
+#: ../extras/checklist.rst:12
 msgid "Screenshot of ticket view with highlighted checklist sidebar."
 msgstr ""
 
-#: ../extras/checklist.rst:18
+#: ../extras/checklist.rst:15
 msgid "Usage"
 msgstr ""
 
-#: ../extras/checklist.rst:21
+#: ../extras/checklist.rst:18
 #: ../index.rst:9
 #: ../index.rst:9
 msgid "Basics"
 msgstr ""
 
-#: ../extras/checklist.rst:23
+#: ../extras/checklist.rst:20
 msgid "If you want to add a checklist to a ticket, go to the **Checklist** tab and click either on ``Add empty checklist`` (1) or ``Add from template`` (2) after selecting a template. If you can't see the ``Add from template`` area, there is no template available."
 msgstr ""
 
-#: ../extras/checklist.rst:33
+#: ../extras/checklist.rst:30
 msgid "Checklist creation dialog"
 msgstr ""
 
-#: ../extras/checklist.rst:33
+#: ../extras/checklist.rst:30
 msgid "Screenshot of adding template or new checklist."
 msgstr ""
 
-#: ../extras/checklist.rst:35
+#: ../extras/checklist.rst:32
 msgid "Depending on your choice, you can create your own new checklist or use a predefined template. In both cases, you can:"
 msgstr ""
 
-#: ../extras/checklist.rst:38
+#: ../extras/checklist.rst:35
 msgid "Edit the checklist title"
 msgstr ""
 
-#: ../extras/checklist.rst:39
+#: ../extras/checklist.rst:36
 msgid "Edit the checklist items (reorder, rename, add, delete)"
 msgstr ""
 
-#: ../extras/checklist.rst:40
+#: ../extras/checklist.rst:37
 msgid "Remove the complete checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:41
+#: ../extras/checklist.rst:38
 msgid "Add a checklist, if there is no existing one"
 msgstr ""
 
-#: ../extras/checklist.rst:43
+#: ../extras/checklist.rst:40
 msgid "You can perform most of these edit, add and delete actions in different ways:"
 msgstr ""
 
-#: ../extras/checklist.rst:45
+#: ../extras/checklist.rst:42
 msgid "Click on the item text (checklist title or checklist item) to edit it"
 msgstr ""
 
-#: ../extras/checklist.rst:46
+#: ../extras/checklist.rst:43
 msgid "Click on the checkbox to check an item"
 msgstr ""
 
-#: ../extras/checklist.rst:47
-msgid "Click on the ︙ or on the \"Checklist\" title to select actions from the menu"
+#: ../extras/checklist.rst:44
+msgid "Click on the ︙ or on the checklist title to select actions from the menu"
 msgstr ""
 
-#: ../extras/checklist.rst:48
+#: ../extras/checklist.rst:45
 msgid "To add an item, click on the \"+ Add\" button"
 msgstr ""
 
-#: ../extras/checklist.rst:49
+#: ../extras/checklist.rst:46
 msgid "To reorder them, use the corresponding button. You can then drag & drop the items via the ≣ handle."
 msgstr ""
 
-#: ../extras/checklist.rst:56
+#: ../extras/checklist.rst:53
 msgid "Screenshot of editing an item by simply clicking on it."
 msgstr ""
 
-#: ../extras/checklist.rst:59
+#: ../extras/checklist.rst:56
 msgid "Additional Features"
 msgstr ""
 
-#: ../extras/checklist.rst:69
+#: ../extras/checklist.rst:66
 msgid "Refer to other tickets in the checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:62
+#: ../extras/checklist.rst:59
 msgid "You can add another ticket as a checklist item by typing or pasting its hook and number into the item label (e.g. ``Ticket#423456``). This item is not manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:66
+#: ../extras/checklist.rst:63
 msgid "**Copying ticket hook and number**"
 msgstr ""
 
-#: ../extras/checklist.rst:68
+#: ../extras/checklist.rst:65
 msgid "To copy the ticket hook and number from another ticket, click on the copy button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:79
+#: ../extras/checklist.rst:76
 msgid "Check of completed checklist"
 msgstr ""
 
-#: ../extras/checklist.rst:72
+#: ../extras/checklist.rst:69
 msgid "Zammad includes a feature to automatically check if all checklist items are completed. The check is performed when you set a ticket to closed. If not all items are completed, Zammad will prompt you to either work on the remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
 
-#: ../extras/checklist.rst:77
+#: ../extras/checklist.rst:74
 msgid "When referencing other tickets in your checklist, only those which are closed (with a green circle) are considered as completed."
 msgstr ""
 
@@ -4316,22 +4312,18 @@ msgid "This also applies if you're sharing the draft before submitting! Zammad e
 msgstr ""
 
 #: ../extras/knowledge-base.rst:4
-msgid "Manage, edit and organize your knowledge base content by opening the ``Knowledge Base`` tab in the navigation sidebar."
+msgid "Manage, edit and organize your knowledge base content by opening the ``Knowledge Base`` tab in the navigation sidebar. This feature is optional. If you don't see it in the primary navigation bar, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`knowledge base admin documentation </manage/knowledge-base.html>`."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:7
-msgid "This feature is optional; if you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`knowledge base section of the admin docs </manage/knowledge-base.html>`."
-msgstr ""
-
-#: ../extras/knowledge-base.rst:17
+#: ../extras/knowledge-base.rst:15
 msgid "Knowledge Base Preview Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:17
-msgid "The knowledge base panel opens in a preview mode by default. This preview mode looks similar to the published knowledge."
+#: ../extras/knowledge-base.rst:15
+msgid "The knowledge base page opens in a preview mode by default. This preview mode looks similar to the published knowledge."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:21
+#: ../extras/knowledge-base.rst:19
 msgid "Getting Started"
 msgstr ""
 
@@ -4339,23 +4331,23 @@ msgstr ""
 msgid "Knowledge Base Link to published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:27
+#: ../extras/knowledge-base.rst:25
 msgid "Use the ↗️ button in the top toolbar to see the published knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:33
+#: ../extras/knowledge-base.rst:31
 msgid "Knowledge Base Edit Mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:33
+#: ../extras/knowledge-base.rst:31
 msgid "In edit mode, use the menu on the right side to navigate through the knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:36
+#: ../extras/knowledge-base.rst:34
 msgid "Use the ``Edit`` button in the top toolbar to switch into the edit mode (and back again). If you can't see the ``Edit`` button, you should talk to your administrator about granting you the appropriate permissions. By default, agents are not allowed to create, edit, or manage knowledge base articles."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:42
+#: ../extras/knowledge-base.rst:40
 msgid "Switching Languages"
 msgstr ""
 
@@ -4363,19 +4355,19 @@ msgstr ""
 msgid "Switch languages"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:48
+#: ../extras/knowledge-base.rst:46
 msgid "Use the language menu to view or edit translations of the current page."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:50
+#: ../extras/knowledge-base.rst:48
 msgid "If you select a language, in which the page hasn't been translated into yet, the behavior depends on the state of the page:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:58
+#: ../extras/knowledge-base.rst:56
 msgid "In edit mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:54
+#: ../extras/knowledge-base.rst:52
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
 msgstr ""
 
@@ -4385,35 +4377,35 @@ msgstr ""
 msgid "Missing translation warning"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:66
+#: ../extras/knowledge-base.rst:64
 msgid "In preview mode"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:61
+#: ../extras/knowledge-base.rst:59
 msgid "Untranslated pages are only visible to users with edit permissions:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:73
+#: ../extras/knowledge-base.rst:71
 msgid "In the published knowledge base"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:69
+#: ../extras/knowledge-base.rst:67
 msgid "Untranslated pages are always hidden:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:76
+#: ../extras/knowledge-base.rst:74
 msgid "Using RSS Feeds"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:78
+#: ../extras/knowledge-base.rst:76
 msgid "Zammad allows you to subscribe to either the knowledge base as a whole or to specific categories. There's both a public and an internal option to do so. By default, RSS feeds are disabled. If you wish to use the RSS function, talk to your administrator about enabling the function."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:85
+#: ../extras/knowledge-base.rst:83
 msgid "Public RSS function"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:87
+#: ../extras/knowledge-base.rst:85
 msgid "The RSS button of the public knowledge base page is located at the bottom of each page. If enabled, the button will be available to anybody visiting the page."
 msgstr ""
 
@@ -4421,15 +4413,15 @@ msgstr ""
 msgid "Screenshot showing the context menu of the RSS button"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:95
+#: ../extras/knowledge-base.rst:93
 msgid "Internal RSS function"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:97
+#: ../extras/knowledge-base.rst:95
 msgid "The internal RSS button can be found on the upper right next to the edit button. It's available on every internal knowledge base page you display."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:100
+#: ../extras/knowledge-base.rst:98
 msgid "Pressing the RSS button will provide up to two RSS feeds to subscribe to."
 msgstr ""
 
@@ -4437,11 +4429,11 @@ msgstr ""
 msgid "Screenshot showing the modal for of the RSS button"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:109
-msgid "Keep in mind that internal RSS links contain **personal access tokens**. Never share these URLs with third parties!"
+#: ../extras/knowledge-base.rst:107
+msgid "Keep in mind that internal RSS links contain **personal access tokens**. Never share these URLs with anyone else!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:112
+#: ../extras/knowledge-base.rst:110
 msgid "If you want to revoke the access and renew your token, you can do so in the RSS modal."
 msgstr ""
 
@@ -4450,7 +4442,7 @@ msgid "Screenshot showing the access token reset link on the lower\n"
 "end of the RSS feed modal (internal knowledge base)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:121
+#: ../extras/knowledge-base.rst:119
 msgid "Editing Categories"
 msgstr ""
 
@@ -4458,27 +4450,27 @@ msgstr ""
 msgid "Edit category"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:127
+#: ../extras/knowledge-base.rst:125
 msgid "You can relocate a category using the **Parent** dropdown. Doing so, all of its articles and sub-categories will be relocated with it."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:130
+#: ../extras/knowledge-base.rst:128
 msgid "You can delete categories by clicking on the ``Delete`` button. Categories can only be deleted once all of their articles and sub-categories have been deleted or relocated."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:133
 msgid "Granular Category Permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:137
+#: ../extras/knowledge-base.rst:135
 msgid "Granular category permissions are great to have individual access levels on a role level. Using the granular permissions of a category deactivates the default visibility behavior and applies the permissions you've chosen instead."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:142
+#: ../extras/knowledge-base.rst:140
 msgid "This allows you to divide user groups on a e.g. subscription level to reduce the information load for users that don't need the information."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:145
+#: ../extras/knowledge-base.rst:143
 msgid "The roles require ``knowledge_base.reader`` permission. Your administrator has to provide the relevant groups with reader permissions for the knowledge base. If you're unsure, please ask your administrator to configure the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
 
@@ -4486,19 +4478,19 @@ msgstr ""
 msgid "Screencast showing the visibility option for categories for granular access permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:155
+#: ../extras/knowledge-base.rst:153
 msgid "In general, permissions of a parent category are inherited! If you want to grant edit permissions for a sub-category for a specific role for example, set the upper level to \"reader\" and the desired sub-category to \"editor\". The same workflow applies to granting \"none\" permissions, effectively hiding a given sub-category. The other way round is not possible. A role with \"editor\" permission has full access to it's sub-categories, so it's pointless to limit it's permissions. \"None\" permissions also cannot be changed down the tree since there would be no path to access permitted sub-categories. If you can't select permissions in the table, this could be the reason."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:166
+#: ../extras/knowledge-base.rst:164
 msgid "Be aware that public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:167
+#: ../extras/knowledge-base.rst:165
 msgid "Knowledge base reader permission means that affected users can see **internal answers**. This is a potential issue if you're not dividing carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:170
 msgid "Editing Answers"
 msgstr ""
 
@@ -4506,79 +4498,79 @@ msgstr ""
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:178
+#: ../extras/knowledge-base.rst:176
 msgid "The knowledge base editor comes equipped with the same **rich text editing capabilities** available in the Zammad ticket composer. That means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted text, bullet lists, and more. You can even add file attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:198
+#: ../extras/knowledge-base.rst:196
 msgid "Different link types"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:186
-msgid "🔗 **Web link**"
+#: ../extras/knowledge-base.rst:184
+msgid "**Web link**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:186
+#: ../extras/knowledge-base.rst:184
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:190
-msgid "💡 **Link Answer**"
+#: ../extras/knowledge-base.rst:188
+msgid "**Link Answer**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:189
+#: ../extras/knowledge-base.rst:187
 msgid "Internal references to other knowledge base answers (will not break if destination URL changes)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:194
-msgid "📋 **Linked Tickets**"
+#: ../extras/knowledge-base.rst:192
+msgid "**Linked Tickets**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:193
+#: ../extras/knowledge-base.rst:191
 msgid "Internal references to Zammad tickets (visible only in preview and edit mode)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:198
-msgid "🏷️ **Tags**"
+#: ../extras/knowledge-base.rst:196
+msgid "**Tags**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:197
-msgid "can help to categorize or label answers for better search results. Please note that tags are visible publicly and can be the same like those in your tickets."
+#: ../extras/knowledge-base.rst:195
+msgid "Can help to categorize or label answers for better search results. Please note that tags are visible publicly and can be the same like those in your tickets."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:221
 msgid "Visibility"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:201
+#: ../extras/knowledge-base.rst:199
 msgid "Set the visibility of an answer to control who can see an article, or schedule it to be published at a later date. Articles are color-coded according to their visibility:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:204
 msgid "**Public** (visible to everyone)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:206
 msgid "|blu|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:206
 msgid "**Internal** (visible to agents & editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:210
+#: ../extras/knowledge-base.rst:208
 msgid "|gry|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:210
+#: ../extras/knowledge-base.rst:208
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:224
 msgid "Using Answers In Ticket Articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:228
+#: ../extras/knowledge-base.rst:226
 msgid "As soon as the knowledge base contains one or more answers, you can use these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?`:kbd:`?` to open the search modal. The search is done full text on both answer body and title in all languages available. If you've found what you've been looking for, simply press :kbd:`Enter` to load the answer into the ticket article. The inserted content does not replace the article's content but is inserted at the cursor's position."
 msgstr ""
 
@@ -5874,7 +5866,7 @@ msgid "Generate personal access tokens for third party applications to use the Z
 msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:187
-msgid "Always generate a new token for each application you connect to Zammad! This makes it possible to revoke access for individual applications if a token ever gets compromised."
+msgid "Always generate a new token for each application you connect to Zammad! This makes it possible to revoke access for individual applications if a token is ever compromised."
 msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0

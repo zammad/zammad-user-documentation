@@ -186,7 +186,7 @@ account.
    .. tip::
       Always generate a new token for each application you connect to Zammad!
       This makes it possible to revoke access for individual applications
-      if a token ever gets compromised.
+      if a token is ever compromised.
 
 :Linked Accounts:
 

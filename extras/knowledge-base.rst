@@ -2,19 +2,17 @@
 ==============
 
 Manage, edit and organize your knowledge base content by opening the
-``Knowledge Base`` tab in the navigation sidebar.
-
-This feature is optional; if you don't see it in the main menu,
-that means your administrator hasn't enabled it yet. Administrators can learn
-more in the
-:admin-docs:`knowledge base section of the admin docs </manage/knowledge-base.html>`.
+``Knowledge Base`` tab in the navigation sidebar. This feature is optional. If
+you don't see it in the primary navigation bar, that means your administrator
+hasn't enabled it yet. Administrators can learn more in the
+:admin-docs:`knowledge base admin documentation </manage/knowledge-base.html>`.
 
 
 .. figure:: /images/extras/knowledge-base/knowledge-base-preview.png
    :alt: Knowledge Base Preview Mode
    :align: center
 
-   The knowledge base panel opens in a preview mode by default.
+   The knowledge base page opens in a preview mode by default.
    This preview mode looks similar to the published knowledge.
 
 Getting Started
@@ -107,7 +105,7 @@ talk to your administrator about enabling the function.
       .. warning::
 
          Keep in mind that internal RSS links contain **personal access tokens**.
-         Never share these URLs with third parties!
+         Never share these URLs with anyone else!
 
          If you want to revoke the access and renew your token, you can do so
          in the RSS modal.
@@ -163,8 +161,8 @@ there would be no path to access permitted sub-categories.
 If you can't select permissions in the table, this could be the reason.
 
 .. warning::
-   * Be aware that public answers are always available!
-   * Knowledge base reader permission means that affected users can see
+   - Be aware that public answers are always available!
+   - Knowledge base reader permission means that affected users can see
      **internal answers**. This is a potential issue if you're not dividing
      carefully!
 
@@ -182,19 +180,19 @@ That means you can use the same
 text, bullet lists, and more. You can even add file attachments and links!
 
 Different link types
-   🔗 **Web link**
+   **Web link**
       URLs pointing to other websites.
 
-   💡 **Link Answer**
+   **Link Answer**
       Internal references to other knowledge base answers (will not break if
       destination URL changes).
 
-   📋 **Linked Tickets**
+   **Linked Tickets**
       Internal references to Zammad tickets (visible only in preview and edit
       mode).
 
-   🏷️ **Tags**
-      can help to categorize or label answers for better search results. Please note
+   **Tags**
+      Can help to categorize or label answers for better search results. Please note
       that tags are visible publicly and can be the same like those in your tickets.
 
 Visibility

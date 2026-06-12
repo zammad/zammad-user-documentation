@@ -107,20 +107,20 @@ Features
 Mobile view provides you with a way to do your common Zammad daily tasks while
 on the go:
 
-   * Manage & use your ticket overviews
-   * Search for existing records
-   * Create a new ticket
-   * Reply in an already existing ticket
-   * Modify ticket attributes
-   * Modify customer attributes
-   * Modify organization attributes
+- Manage & use your ticket overviews
+- Search for existing records
+- Create a new ticket
+- Reply in an already existing ticket
+- Modify ticket attributes
+- Modify customer attributes
+- Modify organization attributes
 
 Mobile view also has some exclusive features:
 
-   * Innovative Zammad UX
-   * Next-level accessibility
-   * Ready for multi-device usage
-   * Progressive web app (PWA) support
+- Innovative Zammad UX
+- Next-level accessibility
+- Ready for multi-device usage
+- Progressive web app (PWA) support
 
 Limitations
 -----------
@@ -128,22 +128,22 @@ Limitations
 Mobile view is also currently missing some features which are provided by the
 desktop view:
 
-   * Ticket Article Time Accounting
-   * Ticket Article **Split** Action
-   * Linked Tickets & Ticket **Link** Action
-   * Ticket Macros
-   * Ticket History
-   * Ticket Create Templates & Shared Drafts
+- Ticket Article Time Accounting
+- Ticket Article **Split** Action
+- Linked Tickets & Ticket **Link** Action
+- Ticket Macros
+- Ticket History
+- Ticket Create Templates & Shared Drafts
 
 Additionally, certain features were intentionally omitted in order to improve
 the focus on important information:
 
-   * Most Management Features (except ticket user and organization management)
-   * Most Knowledge Base Features (except ticket integration)
-   * Most User Profile Functions (except avatar and language preferences)
-   * Reports
-   * Caller Log
-   * Live Chat
+- Most Management Features (except ticket user and organization management)
+- Most Knowledge Base Features (except ticket integration)
+- Most User Profile Functions (except avatar and language preferences)
+- Reports
+- Caller Log
+- Live Chat
 
 Access
 ------
