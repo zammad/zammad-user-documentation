@@ -1,13 +1,11 @@
 GitHub / GitLab Integration
 ===========================
 
-With issue tracker integration,
-you can monitor GitHub / GitLab issues right from within a Zammad ticket.
-
-This feature is **optional**; if you don't see it in the ticket sidebar,
-that means your administrator hasn't enabled it yet.
-Administrators can learn more
-:admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`.
+With the issue tracker integration, you can monitor GitHub / GitLab issues right
+from within a Zammad ticket. This feature is optional. If you don't see it in
+the ticket sidebar, that means your administrator hasn't enabled it yet.
+Administrators can learn more in the
+:admin-docs:`issue tracker integration in the admin documentation </system/integrations#integrations-for-issue-trackers>`.
 
 .. figure:: /images/extras/issue-trackers/ticket-settings-with-github-issues.png
    :alt: Ticket detail view showing activated GitHub & GitLab function
@@ -23,7 +21,6 @@ View related issues
    Use the |github| and |gitlab| tabs on the ticket sidebar to see linked issues,
    along with metadata like status (open/closed), assignee, labels, and more.
    Or, simply click the title to view the issue on GitHub / GitLab.
-
    A badge on the tab icon indicates how many issues are linked to this ticket.
 
 Link a new issue

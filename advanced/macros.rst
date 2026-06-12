@@ -1,51 +1,52 @@
 Macros
 ======
 
-If you have many steps you do over and over again, you should use a macro for
-that. In such a macro, your admin can pre-define different ticket actions you
+If you find yourself repeating the same steps frequently, you should use a macro.
+In such a macro, your admin can pre-define different ticket actions you
 can apply with just a click. As an example, Zammad ships a
 **Close & Tag as Spam** macro by default. If applied, the user who executes the
 macro is assigned as owner, a tag ``spam`` is added and the ticket is closed.
 It is even possible to run an :ref:`AI agent <ai-agents>` within a macro on
-demand.
-
-Macros can be applied in two ways: on a single ticket or in bulk.
+demand. Read on to learn how to run macros in two different ways.
 
 On a Single Ticket
 ------------------
 
-The simplest way to apply a macro is to select it from the **Update ^** submenu
+The simplest way to apply a macro is to select it from the ``Update`` submenu
 in the ticket detail view:
 
 .. figure:: /images/advanced/macros/macro-run-via-ticket-view.png
    :align: center
    :alt: Screenshot shows the ticket update menu to run a macro.
 
-.. tip:: 💾 **Macro = Update**
-
-   If you've made any changes (including typing up a reply to the customer),
-   applying a macro will save/send them too.
-
-   ⚠️ **But beware:** in the event of a conflict,
-   the macro's actions override any manual changes -
-   including messages to the customer!
-   When in doubt, apply your macro and your manual changes *separately.*
-
+.. warning:: Running a macro updates the ticket immediately.
+   If you made any changes, e.g. typing a reply draft to the customer,
+   applying a macro will save/send them too. In the case of a conflict,
+   the macro's actions override any manual changes. Try to apply your changes
+   and the one from the macro separately.
 
 In Bulk
 -------
 
 To apply a macro to many tickets at the same time:
 
-1. Open a ticket overview
+1. Open a ticket overview or the detailed search
 2. Select your desired tickets
-3. Drag the tickets to the top and hover over the **Run Macro** action
+3. Drag the tickets to the top and hover over the ``Run Macro`` action
 4. Drop the tickets on your target macro.
 
-.. figure:: /images/advanced/macros/macro-usage-via-overview.gif
-   :width: 90%
+Initial overlay when you start dragging:
+
+.. figure:: /images/advanced/suggested-workflows/drag-bulk-operation.png
+   :alt: Screenshot shows initial drag & drop overlay.
    :align: center
-   :alt: Screencast showing how to run macros via overviews.
+
+Move the mouse to the ``Run Macro`` action at the top and you will see the
+available macros:
+
+.. figure:: /images/advanced/macros/macro-bulk-overlay.png
+   :alt: Screenshot shows drag & drop overlay in "Run Macro" mode.
+   :align: center
 
 .. note:: ☝️ **There's just one difference...**
    When running a macro from the ticket detail view, Zammad may automatically

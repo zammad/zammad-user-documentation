@@ -7,8 +7,9 @@ an expert user. But don't be afraid, you don't have to remember all of them.
 Overview
 --------
 
-Click on your avatar at the bottom of the main menu and select "Keyboard
-Shortcuts" or just press :kbd:`?` to open the keyboard shortcut overview.
+Click on your avatar at the bottom of the main menu and select
+``Keyboard Shortcuts`` or just press :kbd:`?` to open the keyboard shortcut
+overview.
 
 .. figure:: /images/advanced/profile-shortcuts.png
    :alt: User submenu

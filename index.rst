@@ -52,7 +52,7 @@ Zammad User Documentation
    /extras/knowledge-base
    /extras/mobile-view
    /extras/organizations
-   /extras/profile-and-settings
+   /extras/user-menu-profile-settings
    /extras/reporting
    /extras/secure-email
    /extras/shared-drafts

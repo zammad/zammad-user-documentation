@@ -17,7 +17,7 @@ Zammad supports two systems of high-security email communication:
 Prerequisites
 -------------
 
-Both feature are **optional**; if you don't see the
+Both features are **optional**; if you don't see the
 🔒 ``Encrypt`` and ✅ ``Sign`` buttons in the ticket composer,
 that means your administrator hasn't activated any of them yet.
 

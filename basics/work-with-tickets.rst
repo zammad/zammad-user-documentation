@@ -194,7 +194,7 @@ Ticket Actions
 .. _ticket-submenu:
 
 Additional actions are available in the ticket submenu. You can find it in the
-ticket sidebar. To open it, click the **Ticket ▾** heading to access additional
+ticket sidebar. To open it, click the ``Ticket ▾`` heading to access additional
 actions.
 
 .. figure:: /images/basics/work-with-tickets/settings-ticket-submenu.png
@@ -209,7 +209,7 @@ History
 Merge
    Migrate all messages/notes to another ticket. Useful if you have more than
    one ticket about a single customer issue. See
-   :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details.
+   :doc:`merge tickets page </advanced/ticket-actions/merge>` for details.
 
 Change Customer
    Reassign the ticket to another customer.
@@ -223,10 +223,11 @@ eight hours - with optional custom deadlines for specific customers. When such
 a deadline is passed, the ticket escalates.
 
 Zammad notifies you by default when tickets approach or exceed their deadlines.
-Configure these notifications in your :doc:`profile settings </extras/profile-and-settings>`.
-Zammad also ships a default overview called "Escalated Tickets". This overview
-includes already escalated tickets and tickets which are expected to escalate
-within the next 10 minutes.
+Configure these notifications in your
+:doc:`profile settings </extras/user-menu-profile-settings>`. Zammad also ships
+a default overview called "Escalated Tickets". This overview includes already
+escalated tickets and tickets which are expected to escalate within the next
+10 minutes.
 
 SLA-relevant tickets display a timestamp in the ticket detail header. Hover
 over this timestamp to see all escalation stages and deadlines in a popup.

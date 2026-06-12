@@ -6,16 +6,19 @@ adding an extra layer of verification beyond a password. It requires you to
 provide two different types of authentication factors, typically something you
 know (like a password) and something you possess (like a mobile device or a
 security token), to ensure that you are an authorized individual who can access
-the account.
+the account. This is an optional feature. Administrators can learn
+more in the :admin-docs:`two-factor authentication admin documentation </settings/security/two-factor.html>`.
 
-Two-Factor Authentication is an **optional feature**. Administrators can learn
-more :admin-docs:`here </settings/security/two-factor.html>`.
+.. hint::
+   If you are required to set up a two-factor authentication for your account,
+   this will be a mandatory action. You will not be able to use Zammad until you
+   set up at least one method.
 
 Set Up Two-Factor Authentication
 --------------------------------
 
-If the system admin has enabled this feature, you can head to "Avatar > Profile
-> Password & Authentication" to set it up. Depending on the enabled two-factor
+If the system admin has enabled this feature, you can head to *Avatar > Profile
+> Password & Authentication* to set it up. Depending on the enabled two-factor
 methods, you may see one or more options in the table.
 
 To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose
@@ -61,7 +64,7 @@ key, etc.
 Trying Another Method
 ^^^^^^^^^^^^^^^^^^^^^
 
-In case you are having issued during sign-in with your preferred two-factor
+In case you are having issues during sign-in with your preferred two-factor
 authentication method, you can switch to another one, provided you have set it
 up previously.
 
@@ -82,7 +85,7 @@ your sign-in.
 
 Alternatively, you can also use one of your recovery codes, which are
 auto-generated for your account during the initial setup of the two-factor
-authentication. Click on **recovery codes**, enter one of your unused recovery
+authentication. Click on ``recovery codes``, enter one of your unused recovery
 codes and click on ``Sign in``.
 
 .. figure:: /images/extras/two-factor-authentication/recovery-codes-sign-in.png
@@ -98,14 +101,11 @@ Generate Recovery Codes
 
 Recovery codes are one-time use security codes that can be used to sign in if
 you lose access to your other two-factor authentication methods. They can only
-be used as a **backup method**.
-
-If the feature is enabled by the admin, recovery codes will be automatically
-generated for you during the setup of your initial two-factor authentication
-method.
-
-You will be asked to print out or save the generated recovery codes in a safe
-place. Once used, a recovery code cannot be reused.
+be used as a **backup method**. If the feature is enabled by your admin,
+recovery codes will be automatically generated for you during the setup of your
+initial two-factor authentication method. You will be asked to print out or save
+the generated recovery codes in a safe place. Once used, a recovery code cannot
+be reused.
 
 .. figure:: /images/extras/two-factor-authentication/recovery-codes-modal.png
    :alt: Recovery Codes Modal Dialog
@@ -128,11 +128,9 @@ menu next to it in *Avatar > Profile > Password & Authentication* and choose
    :align: center
 
 In order to identify your current default two-factor authentication method, look
-for a small blue badge next to the method name.
-
-A default two-factor authentication method is just your preferred method during
-the sign-in process. You will always have an option to try signing in using
-another method.
+for a small blue badge next to the method name. The default two-factor
+authentication method is just your preferred method during the sign-in process.
+You will always have an option to try signing in using another method.
 
 Edit a Two-Factor Method
 ------------------------
@@ -146,7 +144,6 @@ next to it in *Avatar > Profile > Password & Authentication* and choose
    :align: center
 
 In a modal dialog, you will be asked to confirm your current password.
-
 Depending on the chosen two-factor method, you will be guided again through the
 setup process. Normally, editing a method will simply renew it and replace the
 older setup, but some methods do support advanced functions (e.g. adding
@@ -174,12 +171,7 @@ method for your account. In this case, if you haven't already set up a method,
 you will be asked to do so at your next sign-in or application reload.
 
 .. figure:: /images/extras/two-factor-authentication/after-auth-two-factor-set-up.png
-   :alt: Remove Two-Factor Method in Password & Authentication
+   :alt: Prompt to set up two-factor authentication
    :align: center
 
 Choose a method of your choice, and then follow its :ref:`setup guide <setup guide>`.
-
-.. warning::
-   If you are required to set up a two-factor authentication for your account,
-   this will be a mandatory action. You will not be able to use Zammad until you
-   set up at least one method.

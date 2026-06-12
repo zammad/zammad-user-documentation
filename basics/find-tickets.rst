@@ -44,7 +44,7 @@ You can adjust the overviews in some aspects:
 - Click on a column heading to change the sorting.
 - Click and drag column dividers to adjust the column's width.
 - Adjust the order of the overviews in your
-  :doc:`user profile </extras/profile-and-settings>`.
+  :doc:`user profile </extras/user-menu-profile-settings>`.
 
 The need for action is color coded and reflects mainly the
 ticket states:
