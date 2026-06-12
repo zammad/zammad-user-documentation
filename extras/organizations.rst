@@ -3,8 +3,7 @@ Organizations
 
 Tickets track communication between individuals, but often
 your company's real client is **another company** (or **organization**).
-Customers can be grouped into organizations
-to monitor their activity as a whole.
+Customers can be grouped into organizations to monitor their activity as a whole.
 
 Organization Profiles
 ---------------------
@@ -12,7 +11,7 @@ Organization Profiles
 Use the **ticket sidebar** to view and manage organization profiles.
 
 .. figure:: /images/extras/organizations.png
-   :alt: Ticket pane (organization view)
+   :alt: Ticket sidebar (organization view)
    :align: center
 
    Click the 👪 tab in the ticket sidebar to see the organization's profile.
@@ -44,7 +43,7 @@ With organizations, you can answer questions like:
 * “How old is the oldest open ticket from this company?”
 
 .. figure:: /images/extras/organizations-stats.png
-   :alt: Ticket pane (organization view)
+   :alt: Ticket sidebar (organization view)
    :align: center
    :scale: 75%
 

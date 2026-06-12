@@ -85,8 +85,8 @@ Clicking on "Profile" in the user menu opens the profile settings.
 
    .. hint::
       :doc:`Two-Factor Authentication </extras/two-factor-authentication>` is an
-      optional feature. Administrators can learn more
-      :admin-docs:`here </settings/security/two-factor.html>`.
+      optional feature. Administrators can learn more in the
+      :admin-docs:`two-factor authentication documentation </settings/security/two-factor.html>`.
 
 :Notifications:
 
@@ -128,8 +128,8 @@ Clicking on "Profile" in the user menu opens the profile settings.
 
    .. hint:: The contents of these email notifications
       can be customized on self-hosted installations.
-      Administrators can learn more
-      :admin-docs:`here </manage/trigger/system-notifications.html>`.
+      Administrators can learn more in the
+      :admin-docs:`system notification configuration </manage/trigger/system-notifications.html>`.
 
 :Out of Office:
 
@@ -166,7 +166,7 @@ Clicking on "Profile" in the user menu opens the profile settings.
 :Calendar:
 
    Add your ticket deadlines to your own favorite calendar app with the ICAL
-   link listed at this setting's panel.
+   link listed at this settings panel.
 
 :Devices:
 

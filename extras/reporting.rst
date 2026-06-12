@@ -35,5 +35,3 @@ The reporting screen consists of various sections:
     selected a filter based on "Ticket Count" (see 1).
 
     Due to technical reasons, the download is limited to 6.000 entries.
-
-.. https://github.com/zammad/zammad/issues/2433

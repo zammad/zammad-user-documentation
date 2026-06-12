@@ -9,7 +9,7 @@ security token), to ensure that you are an authorized individual who can access
 the account.
 
 Two-Factor Authentication is an **optional feature**. Administrators can learn
-more :admin-docs:`here </settings/security/two-factor.html>`.
+more in the :admin-docs:`two-factor authentication documentation </settings/security/two-factor.html>`.
 
 Set Up Two-Factor Authentication
 --------------------------------
@@ -61,7 +61,7 @@ key, etc.
 Trying Another Method
 ^^^^^^^^^^^^^^^^^^^^^
 
-In case you are having issued during sign-in with your preferred two-factor
+In case you are having issues during sign-in with your preferred two-factor
 authentication method, you can switch to another one, provided you have set it
 up previously.
 
@@ -174,7 +174,7 @@ method for your account. In this case, if you haven't already set up a method,
 you will be asked to do so at your next sign-in or application reload.
 
 .. figure:: /images/extras/two-factor-authentication/after-auth-two-factor-set-up.png
-   :alt: Remove Two-Factor Method in Password & Authentication
+   :alt: Prompt to set up two-factor authentication
    :align: center
 
 Choose a method of your choice, and then follow its :ref:`setup guide <setup guide>`.

@@ -5,7 +5,7 @@ Talk to customers in real time from the **customer chat** panel.
 
 This feature is **optional**; if you don't see it in the main menu,
 that means your administrator hasn't enabled it yet. Administrators can learn
-more :admin-docs:`here </channels/chat.html>`.
+see the :admin-docs:`chat channel documentation </channels/chat.html>`.
 
 Overview
 --------

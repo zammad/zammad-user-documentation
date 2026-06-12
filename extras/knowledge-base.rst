@@ -97,7 +97,7 @@ talk to your administrator about enabling the function.
       The internal RSS button can be found on the upper right next to the edit
       button. It's available on every internal knowledge base page you display.
 
-      Pressing the the RSS button will provide up to two RSS feeds to subscribe
+      Pressing the RSS button will provide up to two RSS feeds to subscribe
       to.
 
       .. figure:: /images/extras/knowledge-base/knowledge-base-internal-rss-function.png
@@ -194,9 +194,8 @@ Different link types
       mode).
 
    🏷️ **Tags**
-      Can help to categorize or label answers to enrich the content for better
-      searchability. Please note that tags are visible publicly and can be the
-      same like those in your tickets.
+      can help to categorize or label answers for better search results. Please note
+      that tags are visible publicly and can be the same like those in your tickets.
 
 Visibility
    Set the visibility of an answer to control who can see an article,

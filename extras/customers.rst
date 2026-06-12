@@ -7,7 +7,7 @@ Overview
 --------
 
 .. figure:: /images/extras/customers.png
-   :alt: Ticket pane (customer view)
+   :alt: Ticket sidebar (customer view)
    :align: center
 
    Click the 👨 tab in the ticket sidebar to see the customer's profile.

@@ -8,8 +8,8 @@ That includes both physical and digital infrastructure,
 from servers to meeting rooms to virtual machines to software licenses.
 
 This feature is **optional**; if you don't see it in the ticket view, that
-means your administrator hasn't enabled it yet. Administrators can learn more
-:admin-docs:`here </system/integrations/i-doit.html>`.
+means your administrator hasn't enabled it yet. Administrators can learn more in the
+:admin-docs:`i-doit integration documentation </system/integrations/i-doit.html>`.
 
 If your company is using i-doit, ask your administrator / IT personnel to give
 you a tour. If your organization isn't already using i-doit, this guide is

@@ -6,8 +6,8 @@ you can monitor GitHub / GitLab issues right from within a Zammad ticket.
 
 This feature is **optional**; if you don't see it in the ticket sidebar,
 that means your administrator hasn't enabled it yet.
-Administrators can learn more
-:admin-docs:`here </system/integrations.html#integrations-for-issue-trackers>`.
+Administrators can learn more in the
+:admin-docs:`issue tracker integration documentation </system/integrations.html#integrations-for-issue-trackers>`.
 
 .. figure:: /images/extras/issue-trackers/ticket-settings-with-github-issues.png
    :alt: Ticket detail view showing activated GitHub & GitLab function
