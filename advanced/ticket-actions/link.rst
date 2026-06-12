@@ -20,7 +20,7 @@ How to link
    can find the **Related tickets** section:
 
    .. figure:: /images/advanced/ticket-actions/link.png
-      :alt: Ticket pane: Links
+      :alt: Ticket sidebar: Links
       :align: center
 
    Click the ``+ Link`` button to access the link dialog.

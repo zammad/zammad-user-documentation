@@ -30,9 +30,10 @@ How to merge tickets?
 
 Merge dialog
    You can either enter the ticket number of the ticket you want to merge the
-   current one into (see 1), or choose from the list below (see 2). If the customer has an existing ticket, it will show up under **Recent
-   customer tickets**. You can see your last viewed tickets under **Recently
-   viewed tickets** anyway.
+   current one into (see 1), or choose from the list below (see 2). If the
+   customer has an existing ticket, it will show up under **Recent customer
+   tickets**. You can see your last viewed tickets under **Recently viewed
+   tickets** anyway.
    After entering a ticket number or choosing one of the offered tickets from
    the list, click on the submit button and the tickets will be merged.
 

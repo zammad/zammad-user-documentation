@@ -116,7 +116,7 @@ Bulk action via drag and drop
    an owner or run a macro. This functionality is only available in overviews
    and the detailed search page.
 
-   Initial overlay when your start dragging:
+   Initial overlay when you start dragging:
 
    .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation.png
       :alt: Screenshot shows initial drag & drop overlay.

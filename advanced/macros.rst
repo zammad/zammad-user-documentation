@@ -35,7 +35,7 @@ To apply a macro to many tickets at the same time:
 3. Drag the tickets to the top and hover over the ``Run Macro`` action
 4. Drop the tickets on your target macro.
 
-Initial overlay when your start dragging:
+Initial overlay when you start dragging:
 
 .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation.png
    :alt: Screenshot shows initial drag & drop overlay.

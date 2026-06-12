@@ -3,7 +3,7 @@
 
 Zammad supports detailed time accounting to help administrators keep track of
 how much time you spend on any given ticket, customer or client organization.
-If the time accounting is enabled, a dialog appear each time you update
+If the time accounting is enabled, a dialog appears each time you update
 a ticket. There you can enter how much time you spent on it.
 
 This feature is optional. If you don't see it whenever you update a
