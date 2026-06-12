@@ -72,7 +72,7 @@ This will automatically subscribe them to your ticket.
 
 .. hint:: ⚙️ **Notification settings**
 
-   Check your :doc:`/extras/profile-and-settings`
+   Check your :doc:`/extras/user-menu-profile-settings`
    to customize how you receive notifications.
 
    **Can't see a ticket, in which a colleague @mentioned you?**

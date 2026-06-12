@@ -1,16 +1,14 @@
 i-doit: Track Company Property
 ==============================
 
-With `i-doit <https://www.i-doit.com/>`_ integration,
-you can list which pieces of your company's property
-are related to any given ticket.
-That includes both physical and digital infrastructure,
-from servers to meeting rooms to virtual machines to software licenses.
+With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which
+pieces of your company's property are related to any given ticket. That includes
+both physical and digital infrastructure, from servers to meeting rooms to
+virtual machines to software licenses.
 
-This feature is **optional**; if you don't see it in the ticket view, that
-means your administrator hasn't enabled it yet. Administrators can learn more in the
-:admin-docs:`i-doit integration documentation </system/integrations/i-doit.html>`.
-
+This feature is optional. If you don't see it in the ticket view, that means
+your administrator hasn't enabled it yet. Administrators can learn more in the
+:admin-docs:`i-doit integration in the admin documentation </system/integrations/i-doit.html>`.
 If your company is using i-doit, ask your administrator / IT personnel to give
 you a tour. If your organization isn't already using i-doit, this guide is
 not for you.
@@ -26,8 +24,8 @@ not for you.
 Why?
 ----
 
-i-doit can help you keep track of troublesome equipment
-and find previous tickets from the last time something went wrong with it.
+i-doit can help you keep track of troublesome equipment and find previous
+tickets from the last time something went wrong with it.
 
 It's also a great way to document quirks in the company's belongings:
 Why haven't we upgraded this system from Windows Vista yet?

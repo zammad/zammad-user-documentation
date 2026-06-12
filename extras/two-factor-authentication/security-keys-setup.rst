@@ -1,8 +1,8 @@
 Security Keys Setup
 ===================
 
-The security keys method is a type of a two-factor authentication that uses Web
-Authentication API in the browser for verifying your identity. You may register
+The security keys method is a type of a two-factor authentication that uses *Web
+Authentication API* in the browser for verifying your identity. You may register
 multiple hardware or software security keys with your Zammad account and then
 they can be used during the sign-in process.
 
@@ -42,19 +42,17 @@ prove you are in physical possession of it (e.g. enter its PIN to unlock it).
    key. Better to have it ready before you proceed!
 
 If the registration was successful, the modal dialog will close and you are good
-to go.
-
-In case of errors, you will be able to ``Retry`` the registration of the key.
+to go. In case of errors, you will be able to ``Retry`` the registration of the
+key.
 
 Editing Security Keys
 ---------------------
 
 Once set up, security keys can be managed by choosing ``Edit`` action next to
-the two-factor authentication method.
-
-You have an option to remove a key or set up additional ones. There is no limit
-in number of security keys you can set up, but keep in mind you cannot register
-an already registered key for your account.
+the two-factor authentication method. There you have the option to remove a key
+or set up additional ones. There is no limit in number of security keys you can
+set up, but keep in mind you cannot register an already registered key for your
+account.
 
 .. figure:: /images/extras/two-factor-authentication/security-keys-edit.png
    :alt: Editing Security Keys

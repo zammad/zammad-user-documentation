@@ -73,12 +73,11 @@ Avatar
    An avatar is basically a graphical representation of a user. By defaults
    the user's avatar consists of the initials of the user. It can be an image,
    too. To customize it, go to the avatar section in your
-   :doc:`user profile </extras/profile-and-settings>`.
+   :doc:`user profile </extras/user-menu-profile-settings>`.
 
    The avatar of a user is visible in different places in Zammad. For example
    you can see it next to an article in a ticket or in the bottom bar if
    another agent is viewing or editing the same ticket.
-
 
 B
 -
@@ -487,7 +486,7 @@ Notifications
    notification settings in your user profile. You can even mention other users
    or subscribe to a specific ticket if you are interested how it proceeds.
 
-   See :doc:`/extras/profile-and-settings` for more information.
+   See :doc:`/extras/user-menu-profile-settings` for more information.
 
 O
 -

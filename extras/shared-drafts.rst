@@ -5,22 +5,19 @@ Overview
 --------
 
 Share drafts for new or existing tickets with other agents of your group.
-Load, modify and save an existing draft, e.g., as a QA process with colleagues.
-This feature is **optional**; if you don't see it in the menu,
-that means your administrator disabled this function.
-Administrators can learn more in our
-:admin-docs:`admin documentation </manage/groups/settings.html>`.
+Load, modify and save an existing draft, e.g. as a QA process with colleagues.
+This feature is optional. If you don't see it in the menu, that means your
+administrator disabled this function. Administrators can learn more in the
+:admin-docs:`group settings section in the admin documentation </manage/groups/settings.html>`.
 
-.. hint:: **🤓 Let's be clear up front**
+.. hint:: Zammad technically has two draft functions:
 
-   Zammad technically has two draft functions:
+   - Shared drafts (allow others to load the draft)
+   - User drafts
 
-      * Shared drafts (allow others to load the draft)
-      * User drafts
-
-   | Every time you change a ticket's field, Zammad will save this in your
-     personal draft. You then can share this as a shared draft if you want to.
-     User drafts are *always* available!
+   Every time you change a ticket's field, Zammad will save this in your
+   personal draft. You then can share this as a shared draft if you want to.
+   User drafts are always available!
 
 Handling Drafts
 ---------------
