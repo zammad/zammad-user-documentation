@@ -99,8 +99,8 @@ tickets.
 Zammad doesn't ask for
 :doc:`time accounting values </advanced/time-accounting>` in bulk actions.
 
-Bulk action via drop-downs:
-   .. figure:: /images/advanced/suggested-workflows/bulk-operations-on-ticket-lists.gif
+Bulk action via drop-downs
+   .. figure:: /images/advanced/suggested-workflows/bulk-operations-on-ticket-lists.png
       :alt: Bulk operations in overviews and detailed searches
       :align: center
 
@@ -108,17 +108,23 @@ Bulk action via drop-downs:
       Now use below drop-downs to change ticket settings, press confirm and
       provide a note if you'd like.
 
-Bulk action via drag and drop:
-   **You can change owners and groups even faster**
+Bulk action via drag and drop
+   You can change owners and groups even faster. Instead of using the drop-downs
+   on the bottom of Zammad, you can drag tickets by pressing and holding
+   your mouse button. Doing so triggers an overlay and allows you to drop your
+   selection on your desired action or entity. You can select a group, assign
+   an owner or run a macro. This functionality is only available in overviews
+   and the detailed search page.
 
-   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.gif
-      :alt: Drag selected tickets and drop then on a group or agent to change
-            ticket group / owner
+   Initial overlay when your start dragging:
+
+   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation.png
+      :alt: Screenshot shows initial drag & drop overlay.
       :align: center
 
-   Instead of using the drop-downs on the bottom of Zammad, you can also
-   drag tickets. A new modal will appear and allow you to drop your
-   selection on either just a group or agents. This operation allows you to
-   quickly change the group and owner without further hassle!
-   This functionality is only available in overviews and the detailed search
-   page.
+   Move the mouse to the ``Assign Tickets`` action at the bottom and you will
+   see groups and agents for ticket assignment:
+
+   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.png
+      :alt: Screenshot shows drag & drop overlay in "Assign Tickets" mode.
+      :align: center

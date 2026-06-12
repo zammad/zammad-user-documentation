@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-11 17:14+0200\n"
+"POT-Creation-Date: 2026-06-12 09:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -566,7 +566,7 @@ msgid "To apply a macro to many tickets at the same time:"
 msgstr ""
 
 #: ../advanced/macros.rst:33
-msgid "Open a ticket overview"
+msgid "Open a ticket overview or the detailed search"
 msgstr ""
 
 #: ../advanced/macros.rst:34
@@ -581,11 +581,25 @@ msgstr ""
 msgid "Drop the tickets on your target macro."
 msgstr ""
 
-#: ../advanced/macros.rst:None
-msgid "Screencast showing how to run macros via overviews."
+#: ../advanced/macros.rst:38
+#: ../advanced/suggested-workflows.rst:119
+msgid "Initial overlay when your start dragging:"
 msgstr ""
 
-#: ../advanced/macros.rst:43
+#: ../advanced/macros.rst:None
+#: ../advanced/suggested-workflows.rst:0
+msgid "Screenshot shows initial drag & drop overlay."
+msgstr ""
+
+#: ../advanced/macros.rst:44
+msgid "Move the mouse to the ``Run Macro`` action at the top and you will see the available macros:"
+msgstr ""
+
+#: ../advanced/macros.rst:None
+msgid "Screenshot shows drag & drop overlay in \"Run Macro\" mode."
+msgstr ""
+
+#: ../advanced/macros.rst:51
 msgid "☝️ **There's just one difference...** When running a macro from the ticket detail view, Zammad may automatically open the next ticket (or close the current one, or just stay on it), depending on how the macro was set up. When running it from the overviews page, Zammad will always stay on the overviews page."
 msgstr ""
 
@@ -1082,7 +1096,7 @@ msgid "Zammad doesn't ask for :doc:`time accounting values </advanced/time-accou
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:109
-msgid "Bulk action via drop-downs:"
+msgid "Bulk action via drop-downs"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:0
@@ -1093,21 +1107,20 @@ msgstr ""
 msgid "Use the check boxes in ticket listings to select a bunch of tickets. Now use below drop-downs to change ticket settings, press confirm and provide a note if you'd like."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:123
-msgid "Bulk action via drag and drop:"
+#: ../advanced/suggested-workflows.rst:129
+msgid "Bulk action via drag and drop"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:112
-msgid "**You can change owners and groups even faster**"
+msgid "You can change owners and groups even faster. Instead of using the drop-downs on the bottom of Zammad, you can drag tickets by pressing and holding your mouse button. Doing so triggers an overlay and allows you to drop your selection on your desired action or entity. You can select a group, assign an owner or run a macro. This functionality is only available in overviews and the detailed search page."
+msgstr ""
+
+#: ../advanced/suggested-workflows.rst:125
+msgid "Move the mouse to the ``Assign Tickets`` action at the bottom and you will see groups and agents for ticket assignment:"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:0
-msgid "Drag selected tickets and drop then on a group or agent to change\n"
-"ticket group / owner"
-msgstr ""
-
-#: ../advanced/suggested-workflows.rst:119
-msgid "Instead of using the drop-downs on the bottom of Zammad, you can also drag tickets. A new modal will appear and allow you to drop your selection on either just a group or agents. This operation allows you to quickly change the group and owner without further hassle! This functionality is only available in overviews and the detailed search page."
+msgid "Screenshot shows drag & drop overlay in \"Assign Tickets\" mode."
 msgstr ""
 
 #: ../advanced/tabs.rst:2
