@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 13:18+0200\n"
-"PO-Revision-Date: 2026-06-13 05:02+0000\n"
-"Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
+"PO-Revision-Date: 2026-06-17 10:16+0000\n"
+"Last-Translator: iLocIT! <matthiasc@ilocit.de>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/de/>\n"
+"documentations/user-documentation-pre-release/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -581,9 +581,9 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle "
-"von :kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle "
-"von :kbd:`shift` :kbd:`strg`."
+"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle von "
+":kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle von :kbd:`shift` "
+":kbd:`strg`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -754,8 +754,8 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in "
-"unserer :docs:`Zammad System Dokumentation </install/elasticsearch/indexed-"
+"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer "
+":docs:`Zammad System Dokumentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 
 #: ../advanced/search.rst:33
@@ -879,8 +879,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
-"\\*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
+"*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -921,8 +921,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
-"n(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
+"(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1001,8 +1001,7 @@ msgstr "owner.email:bob@example.net AND state.name:(open OR new)"
 
 #: ../advanced/search.rst:1
 msgid "Show tickets from bob@example.net that are either open or new."
-msgstr ""
-"Zeigt Tickets von bob@example.net an, die entweder offen oder neu sind."
+msgstr "Zeigt Tickets von bob@example.net an, die entweder offen oder neu sind."
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -1079,8 +1078,7 @@ msgstr "close_at: Zeitstempel"
 
 #: ../advanced/search.rst:84
 msgid "close_in_min: integer (business min till close)"
-msgstr ""
-"close_in_min: ganze Zahl (Geschäfts-Minuten bis Schließung des Tickets)"
+msgstr "close_in_min: ganze Zahl (Geschäfts-Minuten bis Schließung des Tickets)"
 
 #: ../advanced/search.rst:85
 msgid "last_contact_at: timestamp (last contact by customer or agent)"
@@ -1268,8 +1266,8 @@ msgid ""
 "Reassign a ticket (via the *Group* and *Owner* settings) to let colleagues "
 "know you're done with your part."
 msgstr ""
-"Ordnen Sie ein Ticket neu zu (über die Einstellungen *Gruppe* und "
-"*Besitzer*), um die Kollegen zu informieren, was Sie bereits erledigt haben."
+"Ordnen Sie ein Ticket neu zu (über die Einstellungen *Gruppe* und *Besitzer*)"
+", um die Kollegen zu informieren, was Sie bereits erledigt haben."
 
 #: ../advanced/suggested-workflows.rst:33
 msgid ""
@@ -1335,8 +1333,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:None
 msgid "Screenshot shows subscribe button in the ticket sidebar tab"
-msgstr ""
-"Screenshot zeigt die Schaltfläche Abonnieren in der Ticket-Seitenleiste"
+msgstr "Screenshot zeigt die Schaltfläche Abonnieren in der Ticket-Seitenleiste"
 
 #: ../advanced/suggested-workflows.rst:67
 #, fuzzy
@@ -1884,9 +1881,9 @@ msgid ""
 msgstr ""
 "Wenn Tickets zu verwandten Themen auftauchen, können sie miteinander "
 "verknüpft werden, um den Bezug zu erleichtern. Dies kann zum Beispiel "
-"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung "
-"haben. :doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` "
-"Tickets werden automatisch verknüpft."
+"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung haben. "
+":doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` Tickets "
+"werden automatisch verknüpft."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -2160,8 +2157,8 @@ msgid ""
 "sidebar tab under **Related tickets**."
 msgstr ""
 "Es ist bereits mit dem Inhalt des vorhandenen Artikels ausgefüllt. Denken "
-"Sie daran, den Typ (Anruf/E-Mail) auszuwählen. Das ursprüngliche Ticket "
-"ist :doc:`verlinkt <link>` im neuen Ticket und umgekehrt. Sie finden die "
+"Sie daran, den Typ (Anruf/E-Mail) auszuwählen. Das ursprüngliche Ticket ist "
+":doc:`verlinkt <link>` im neuen Ticket und umgekehrt. Sie finden die "
 "verknüpften Tickets auf dem Seitenleisten-Tab unter **Verwandte Tickets**."
 
 #: ../advanced/ticket-templates.rst:4
@@ -2833,9 +2830,9 @@ msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
 msgstr ""
-"Da Sie nun wissen, wie Sie Tickets finden können, möchten Sie "
-"vielleicht :doc:`neue Tickets erstellen <create-tickets>` oder :doc:`an "
-"bestehenden Tickets arbeiten <work-with-tickets>`."
+"Da Sie nun wissen, wie Sie Tickets finden können, möchten Sie vielleicht "
+":doc:`neue Tickets erstellen <create-tickets>` oder :doc:`an bestehenden "
+"Tickets arbeiten <work-with-tickets>`."
 
 #: ../basics/ticket-basics.rst:2
 msgid "Ticket Basics"
@@ -3456,8 +3453,8 @@ msgstr ""
 "Sie können die Zitierfunktion sogar mehrfach verwenden, um verschiedene "
 "Teile des Textes zu zitieren. Wählen Sie einfach einen anderen Teil des "
 "Textes aus, klicken Sie auf die gleiche Antwortaktion wie zuvor und er wird "
-"als weiteres Zitat in Ihren Editor eingefügt. Sie können Zitate "
-"mit :kbd:`enter` oder :kbd:`shift` + :kbd:`enter` im Editor trennen."
+"als weiteres Zitat in Ihren Editor eingefügt. Sie können Zitate mit "
+":kbd:`enter` oder :kbd:`shift` + :kbd:`enter` im Editor trennen."
 
 #: ../basics/work-with-tickets.rst:141
 msgid "Rename a Ticket"
@@ -3603,9 +3600,9 @@ msgid ""
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
 "Verschieben Sie alle Nachrichten/Notizen in ein anderes Ticket. Nützlich, "
-"wenn Sie mehr als ein Ticket zu einem einzelnen Kundenproblem haben. "
-"Siehe :doc:`Zusammenfassung von Tickets </advanced/ticket-actions/merge>` "
-"für weitere Informationen."
+"wenn Sie mehr als ein Ticket zu einem einzelnen Kundenproblem haben. Siehe "
+":doc:`Zusammenfassung von Tickets </advanced/ticket-actions/merge>` für "
+"weitere Informationen."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
@@ -3697,9 +3694,8 @@ msgid ""
 msgstr ""
 "Die SLA-Funktion erfordert eine Konfiguration durch Ihren Administrator. "
 "Falls Sie keine Eskalations-Zeitstempel sehen, ist entweder das Ticket nicht "
-"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in "
-"der :admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr "
-"Informationen."
+"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in der "
+":admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr Informationen."
 
 #: ../basics/work-with-tickets.rst:253
 msgid "Highlight Text in a Ticket"
@@ -4554,9 +4550,9 @@ msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
-"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad "
-"hinzufügen :docs:`in unserer System-Dokumentation </appendix/reporting-tools-"
-"thirdparty/grafana.html>` ."
+"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen "
+":docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
+"grafana.html>` ."
 
 #: ../basics/zammad-glossary.rst:337
 msgid "Groups"
@@ -5217,8 +5213,8 @@ msgstr ""
 "Der Scheduler ist eine der Automatisierungsfunktionen von Zammad. Ein "
 "Administrator kann spezifische Bedingungen und Aktionen definieren, die auf "
 "Tickets mit übereinstimmenden Bedingungen zeitbasiert angewendet werden. "
-"Weitere Informationen finden Sie in der Admin-Dokumentation im "
-"Abschnitt :admin-docs:`Automatisierung </manage/scheduler.html>`."
+"Weitere Informationen finden Sie in der Admin-Dokumentation im Abschnitt "
+":admin-docs:`Automatisierung </manage/scheduler.html>`."
 
 #: ../basics/zammad-glossary.rst:619 ../basics/zammad-ui.rst:85
 msgid "Sidebar"
@@ -5290,8 +5286,8 @@ msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
-"Sie kann von Ihrem Admin angepasst werden. Weitere Informationen finden "
-"Sie :admin-docs:`hier </channels/email/signatures.html>`."
+"Sie kann von Ihrem Admin angepasst werden. Weitere Informationen finden Sie "
+":admin-docs:`hier </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:638
 msgid "Sipgate"
@@ -5316,8 +5312,8 @@ msgid ""
 "can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
 "Administratoren erfahren mehr über die `Sipgate CTI`-Integrationsseite. "
-"Agenten erfahren mehr über diese Funktionalität auf der folgenden "
-"Seite: :doc:`/extras/caller-log`"
+"Agenten erfahren mehr über diese Funktionalität auf der folgenden Seite: "
+":doc:`/extras/caller-log`"
 
 #: ../basics/zammad-glossary.rst:653
 msgid "SLA"
@@ -5388,8 +5384,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:666
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
-msgstr ""
-"🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
+msgstr "🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
 
 #: ../basics/zammad-glossary.rst:668
 msgid ""
@@ -5413,8 +5408,8 @@ msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Erfahren Sie auf dieser Seite mehr über Status und deren "
-"Farbkodierung: :ref:`ticket-attributes`"
+"Erfahren Sie auf dieser Seite mehr über Status und deren Farbkodierung: "
+":ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:677
 msgid ""
@@ -6603,7 +6598,8 @@ msgstr ""
 #| "modules.html>`."
 msgid "You can use :doc:`text modules </advanced/text-modules>`."
 msgstr ""
-"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules.html>`."
+"⌨️ Live-Chat unterstützt :admin-docs:`Textmodule </manage-text-modules.html>"
+"`."
 
 #: ../extras/chat.rst:51
 msgid "Chats can be renamed or tagged"
@@ -6830,9 +6826,9 @@ msgid ""
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 "Sie können ein weiteres Ticket als Element der Checkliste hinzufügen, indem "
-"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. "
-"``Ticket#423456``). Dieses Element kann nicht manuell abgehakt werden, es "
-"spiegelt den Status des referenzierten Tickets wider."
+"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. ``Ticket#423456``)"
+". Dieses Element kann nicht manuell abgehakt werden, es spiegelt den Status "
+"des referenzierten Tickets wider."
 
 #: ../extras/checklist.rst:63
 msgid "**Copying ticket hook and number**"
@@ -6882,8 +6878,7 @@ msgstr "Kunden"
 msgid ""
 "Use the customer tab in the ticket sidebar to view and manage customer "
 "profiles."
-msgstr ""
-"Nutzen Sie die **Ticket-Seitenleiste**, um Kundenprofile zu bearbeiten."
+msgstr "Nutzen Sie die **Ticket-Seitenleiste**, um Kundenprofile zu bearbeiten."
 
 #: ../extras/customers.rst:13
 #, fuzzy
@@ -6893,8 +6888,7 @@ msgstr "Ticket-Fenster (Kundenansicht)"
 
 #: ../extras/customers.rst:13
 msgid "Click the 👨 tab in the ticket sidebar to see the customer's profile."
-msgstr ""
-"Wählen Sie den 👨 Tab in der Seitenleiste, um das Kundenprofil zu sehen."
+msgstr "Wählen Sie den 👨 Tab in der Seitenleiste, um das Kundenprofil zu sehen."
 
 #: ../extras/customers.rst:15
 msgid ""
@@ -7014,8 +7008,8 @@ msgid ""
 msgstr ""
 "Wie die Ticket-Priorität hat auch der **VIP-Status** keine wirkliche "
 "Auswirkung. Aber ein Administrator *kann* auf der Grundlage dieses Wertes "
-"Automatisierungsregeln einrichten oder ihn als Filter für "
-"benutzerdefinierte :ref:`Übersichten <overviews>` verwenden."
+"Automatisierungsregeln einrichten oder ihn als Filter für benutzerdefinierte "
+":ref:`Übersichten <overviews>` verwenden."
 
 #: ../extras/dashboard.rst:4
 msgid ""
@@ -7354,8 +7348,7 @@ msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:58
 msgid "In i-doit: List & Create Tickets For a Given Asset"
-msgstr ""
-"In i-doit: Auflisten und erstellen von Tickets für das betroffene Asset"
+msgstr "In i-doit: Auflisten und erstellen von Tickets für das betroffene Asset"
 
 #: ../extras/i-doit-track-company-property.rst:60
 msgid ""
@@ -7367,8 +7360,7 @@ msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:67
 msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr ""
-"(Screencast) Sehen Sie eine Liste aller Tickets für das Asset in i-doit"
+msgstr "(Screencast) Sehen Sie eine Liste aller Tickets für das Asset in i-doit"
 
 #: ../extras/i-doit-track-company-property.rst:67
 msgid ""
@@ -9367,8 +9359,8 @@ msgid ""
 "Choose a method of your choice, and then follow its :ref:`setup guide <setup "
 "guide>`."
 msgstr ""
-"Wählen Sie die von Ihnen bevorzugte Methode und folgen Sie "
-"der :ref:`Einrichtungsanleitung <setup guide>`."
+"Wählen Sie die von Ihnen bevorzugte Methode und folgen Sie der "
+":ref:`Einrichtungsanleitung <setup guide>`."
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:2
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:None
@@ -9417,8 +9409,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
-"billing/download-and-install-the-microsoft-authenticator-"
-"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
+"billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-"
+"45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -10151,9 +10143,9 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
-"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
-"außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
-"Dokumentationen </index.html>` verfügbar."
+"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem "
+":docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </"
+"index.html>` verfügbar."
 
 #~ msgid "Split ticket button"
 #~ msgstr "Ticket abspalten Schaltfläche"
