@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 13:18+0200\n"
-"PO-Revision-Date: 2025-05-08 10:00+0000\n"
-"Last-Translator: Nikita <nyakovlev@iko.tech>\n"
+"PO-Revision-Date: 2026-06-17 10:18+0000\n"
+"Last-Translator: ElectroKos <kosapashennyh@gmail.com>\n"
 "Language-Team: Russian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -400,8 +400,7 @@ msgstr "Как"
 
 #: ../advanced/keyboard-shortcuts.rst:132
 msgid "You can apply a text format *before* typing or *after* typing. Example:"
-msgstr ""
-"Вы можете применить формат текста *до* ввода или *после* ввода. Пример:"
+msgstr "Вы можете применить формат текста *до* ввода или *после* ввода. Пример:"
 
 #: ../advanced/keyboard-shortcuts.rst:134
 msgid "Before typing:"
@@ -665,9 +664,9 @@ msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
 msgstr ""
-"☝️ **Есть только одно отличие...** При запуске макроса из заявки Zammad может "
-"автоматически открыть следующую заявку (или закрыть текущую, или просто "
-"остаться на ней), в зависимости от того, как был настроен макрос."
+"☝️ **Есть только одно отличие...** При запуске макроса из заявки Zammad "
+"может автоматически открыть следующую заявку (или закрыть текущую, или "
+"просто остаться на ней), в зависимости от того, как был настроен макрос."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -840,8 +839,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
-"\\*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
+"*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 #, fuzzy
@@ -883,8 +882,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
-"n(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
+"(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 #, fuzzy
@@ -1182,8 +1181,8 @@ msgid ""
 "in two </advanced/ticket-actions/split>`, then assign each ticket to its "
 "respective “group” (department)."
 msgstr ""
-"Если заявка действительно касается двух разных проблем, вы "
-"можете :doc:`разделить её на две </advanced/ticket-actions/split>`, а затем "
+"Если заявка действительно касается двух разных проблем, вы можете "
+":doc:`разделить её на две </advanced/ticket-actions/split>`, а затем "
 "назначить каждую заявку соответствующей \"группе\" (отделу)."
 
 #: ../advanced/suggested-workflows.rst:16
@@ -1804,10 +1803,10 @@ msgid ""
 "links and normal links. The first pair is used for split and merged tickets. "
 "The normal link is useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Существуют различные типы связей между заявками, как Вы уже могли видеть "
-"в :doc:`merge` или :doc:`plit`: родитель/потомок и обычные связи. Первая "
-"пара используется для разделенных и объединенных заявок. Обычная ссылка "
-"полезна, когда между заявками нет логической иерархии."
+"Существуют различные типы связей между заявками, как Вы уже могли видеть в "
+":doc:`merge` или :doc:`plit`: родитель/потомок и обычные связи. Первая пара "
+"используется для разделенных и объединенных заявок. Обычная ссылка полезна, "
+"когда между заявками нет логической иерархии."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
@@ -3198,8 +3197,8 @@ msgid ""
 "one ticket about a single customer issue. See :doc:`merge tickets page </"
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
-"Перенести все сообщения/заметки в другую заявку (подробнее см. "
-"в :doc:`Объединение заявок </advanced/ticket-actions/merge>`)."
+"Перенести все сообщения/заметки в другую заявку (подробнее см. в "
+":doc:`Объединение заявок </advanced/ticket-actions/merge>`)."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
