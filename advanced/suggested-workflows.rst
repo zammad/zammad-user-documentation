@@ -24,7 +24,7 @@ Reassigning Tickets
 ^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/advanced/suggested-workflows/sharing-work.png
-   :alt: Reassigning tickets in the ticket pane
+   :alt: Reassigning tickets in the ticket sidebar
    :align: center
 
    Reassign a ticket (via the *Group* and *Owner* settings)
@@ -58,33 +58,21 @@ but maybe this is a really important contract,
 and you want to make sure they have an A+ experience from start to finish.
 
 To enable notifications for a ticket that doesn't belong to you,
-simply click the **Subscribe** button at the bottom of the ticket pane:
+simply click the ``Subscribe`` button at the bottom of the ticket sidebar:
 
-.. figure:: /images/advanced/suggested-workflows/mention-subscribe-yourself-to-a-ticket.gif
-   :alt: Screencast of the Subscribe button feature
-   :width: 90%
+.. figure:: /images/advanced/suggested-workflows/subscribe.png
+   :alt: Screenshot shows subscribe button in the ticket sidebar tab
    :align: center
 
-   A list of all tickets you're subscribed to
-   can be found in the **My Subscribed Tickets** overview.
-
-Or, suppose you *don't* want to reassign the ticket to customer service—you
+Or, suppose you don't want to reassign the ticket to customer service, you
 just have one quick question for them, and then you can take it from there.
-
 To start sending someone else notifications for your own ticket,
-type ``@@`` in the message composer and select their name from the pop-up menu:
-
-.. figure:: /images/advanced/suggested-workflows/mention-other-agents.gif
-   :alt: Screencast of the @mention feature
-   :width: 90%
-   :align: center
-
-   @mentioning a colleague in a message
-   will automatically subscribe them to your ticket.
+type :kbd:`@@` in the message editor and select their name from the pop-up menu.
+This will automatically subscribe them to your ticket.
 
 .. hint:: ⚙️ **Notification settings**
 
-   Check your :doc:`/extras/profile-and-settings`
+   Check your :doc:`/extras/user-menu-profile-settings`
    to customize how you receive notifications.
 
    **Can't see a ticket, in which a colleague @mentioned you?**
@@ -99,19 +87,20 @@ Quickly Assign in Ticket Listings
 Within overviews and detailed searches you can run bulk operations on tickets.
 This means you can adjust the following ticket information:
 
-   * group
-   * owner
-   * state (with pending time if applicable)
-   * priority
+- Group
+- Owner
+- State (with pending time, if applicable)
+- Priority
 
-After pressing "Confirm", Zammad also allows you to provide an internal or
-public note of why you adjusted the settings.
+After pressing ``Confirmation``, Zammad also allows you to provide an internal
+or public note in the **Comment** field which gets added to each of the selected
+tickets.
 
-Zammad *will not* ask for
+Zammad doesn't ask for
 :doc:`time accounting values </advanced/time-accounting>` in bulk actions.
 
-Bulk action via drop-downs:
-   .. figure:: /images/advanced/suggested-workflows/bulk-operations-on-ticket-lists.gif
+Bulk action via drop-downs
+   .. figure:: /images/advanced/suggested-workflows/bulk-operations-on-ticket-lists.png
       :alt: Bulk operations in overviews and detailed searches
       :align: center
 
@@ -119,17 +108,23 @@ Bulk action via drop-downs:
       Now use below drop-downs to change ticket settings, press confirm and
       provide a note if you'd like.
 
-Bulk action via drag and drop:
-   **🤓 You can change owners and groups even faster 🚀**
+Bulk action via drag and drop
+   You can change owners and groups even faster. Instead of using the drop-downs
+   on the bottom of Zammad, you can drag tickets by pressing and holding
+   your mouse button. Doing so triggers an overlay and allows you to drop your
+   selection on your desired action or entity. You can select a group, assign
+   an owner or run a macro. This functionality is only available in overviews
+   and the detailed search page.
 
-   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.gif
-      :alt: Drag selected tickets and drop then on a group or agent to change
-            ticket group / owner
+   Initial overlay when you start dragging:
+
+   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation.png
+      :alt: Screenshot shows initial drag & drop overlay.
       :align: center
 
-   Instead of using the drop-downs on the bottom of Zammad, you can also
-   drag tickets. A new modal will appear and allow you to drop your
-   selection on either just a group or agents. This operation allows you to
-   quickly change the group and owner without further hassle!
+   Move the mouse to the ``Assign Tickets`` action at the bottom and you will
+   see groups and agents for ticket assignment:
 
-   This functionality is only available in ticket overviews.
+   .. figure:: /images/advanced/suggested-workflows/drag-bulk-operation_assign-owner.png
+      :alt: Screenshot shows drag & drop overlay in "Assign Tickets" mode.
+      :align: center

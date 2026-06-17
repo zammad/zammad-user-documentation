@@ -15,13 +15,12 @@ The reporting screen consists of various sections:
 
 .. figure:: /images/extras/reporting/reporting-sections.png
     :alt: Screenshot showing different sections in the reporting screen
-    :scale: 80%
 
 1. **Additional filtering** based on the selected profile (see 2). You can
    filter by status ("Ticket Count"), "Creation Channels" and "Communication"
    types based on your channels.
 2. **Profile switcher**: here you can easily switch between the different
-   profiles, which were created in the admin panel under "Report Profiles".
+   profiles, which were created in the admin settings under "Report Profiles".
    The shown tickets and numbers are always limited to the current profile
    you have selected here.
 3. **Time interval/period switcher** and **graph** area: here you can define
@@ -31,9 +30,7 @@ The reporting screen consists of various sections:
    a download button based on the report profile and your filtering. The
    download feature provides the tickets in a ``.xlsx`` spreadsheet.
 
-   .. note:: The ticket preview and download button are only displayed if you
-    selected a filter based on "Ticket Count" (see 1).
-
-    Due to technical reasons, the download is limited to 6.000 entries.
-
-.. https://github.com/zammad/zammad/issues/2433
+   .. note::
+      - The ticket preview and download button are only displayed if you
+        selected a filter based on ``Ticket Count`` (see 1).
+      - Due to technical reasons, the download is limited to 6.000 entries.

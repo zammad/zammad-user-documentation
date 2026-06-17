@@ -1,15 +1,9 @@
 ﻿Mobile View
 ===========
 
-The need for a dedicated mobile view of Zammad arose from the ever-changing life
-on the go. Even though the desktop application might be responsive enough for
-small screens, it proved to be too cluttered and was simply not designed
-primarily for mobile devices.
-
-By limiting the amount of information to only the most important, the mobile
-view strives to provide you, the user, with a more focused window into your
-daily tasks. All packaged in a touch-friendly and modern design with great user
-experience, of course!
+Zammad provides a dedicated mobile view for working on the go. The mobile
+view offers a focused, touch-friendly interface for your daily tasks,
+with a modern design and improved accessibility.
 
 .. tabs::
 
@@ -104,9 +98,8 @@ experience, of course!
 
 .. hint::
 
-   We intentionally do not provide specific instructions and comprehensive
-   documentation for the mobile view! The overall UX should be intuitive and
-   self-explanatory in most cases.
+   We intentionally do not provide specific instructions for the mobile view.
+   The overall UX should be intuitive and self-explanatory in most cases.
 
 Features
 --------
@@ -114,20 +107,20 @@ Features
 Mobile view provides you with a way to do your common Zammad daily tasks while
 on the go:
 
-   * Manage & use your ticket overviews
-   * Search for existing records
-   * Create a new ticket
-   * Reply in an already existing ticket
-   * Modify ticket attributes
-   * Modify customer attributes
-   * Modify organization attributes
+- Manage & use your ticket overviews
+- Search for existing records
+- Create a new ticket
+- Reply in an already existing ticket
+- Modify ticket attributes
+- Modify customer attributes
+- Modify organization attributes
 
 Mobile view also has some exclusive features:
 
-   * Innovative Zammad UX
-   * Next-level accessibility
-   * Ready for multi-device usage
-   * Progressive web app (PWA) support
+- Innovative Zammad UX
+- Next-level accessibility
+- Ready for multi-device usage
+- Progressive web app (PWA) support
 
 Limitations
 -----------
@@ -135,22 +128,22 @@ Limitations
 Mobile view is also currently missing some features which are provided by the
 desktop view:
 
-   * Ticket Article Time Accounting
-   * Ticket Article **Split** Action
-   * Linked Tickets & Ticket **Link** Action
-   * Ticket Macros
-   * Ticket History
-   * Ticket Create Templates & Shared Drafts
+- Ticket Article Time Accounting
+- Ticket Article **Split** Action
+- Linked Tickets & Ticket **Link** Action
+- Ticket Macros
+- Ticket History
+- Ticket Create Templates & Shared Drafts
 
 Additionally, certain features were intentionally omitted in order to improve
 the focus on important information:
 
-   * Most Management Features (except ticket user and organization management)
-   * Most Knowledge Base Features (except ticket integration)
-   * Most User Profile Functions (except avatar and language preferences)
-   * Reports
-   * Caller Log
-   * Live Chat
+- Most Management Features (except ticket user and organization management)
+- Most Knowledge Base Features (except ticket integration)
+- Most User Profile Functions (except avatar and language preferences)
+- Reports
+- Caller Log
+- Live Chat
 
 Access
 ------

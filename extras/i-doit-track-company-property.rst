@@ -1,16 +1,14 @@
 i-doit: Track Company Property
 ==============================
 
-With `i-doit <https://www.i-doit.com/>`_ integration,
-you can list which pieces of your company's property
-are related to any given ticket.
-That includes both physical and digital infrastructure,
-from servers to meeting rooms to virtual machines to software licenses.
+With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which
+pieces of your company's property are related to any given ticket. That includes
+both physical and digital infrastructure, from servers to meeting rooms to
+virtual machines to software licenses.
 
-This feature is **optional**; if you don't see it in the ticket view, that
-means your administrator hasn't enabled it yet. Administrators can learn more
-:admin-docs:`here </system/integrations/i-doit.html>`.
-
+This feature is optional. If you don't see it in the ticket view, that means
+your administrator hasn't enabled it yet. Administrators can learn more in the
+:admin-docs:`i-doit integration in the admin documentation </system/integrations/i-doit.html>`.
 If your company is using i-doit, ask your administrator / IT personnel to give
 you a tour. If your organization isn't already using i-doit, this guide is
 not for you.
@@ -26,8 +24,8 @@ not for you.
 Why?
 ----
 
-i-doit can help you keep track of troublesome equipment
-and find previous tickets from the last time something went wrong with it.
+i-doit can help you keep track of troublesome equipment and find previous
+tickets from the last time something went wrong with it.
 
 It's also a great way to document quirks in the company's belongings:
 Why haven't we upgraded this system from Windows Vista yet?
@@ -40,13 +38,13 @@ So How Does It Work?
 In Zammad: Link i-doit Assets To Tickets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First, add i-doit assets to a ticket in the ticket pane:
+First, add i-doit assets to a ticket in the ticket sidebar:
 
 .. figure:: /images/extras/i-doit-track-company-property/add-ticket-with-idoit-asset_via-zammad.gif
    :alt: (Screencast) Create a new ticket and link it to an i-doit asset
    :align: center
 
-   Select **🖨 > i-doit > Change Objects**, then filter by category and/or name.
+   Select *🖨 > i-doit > Change Objects*, then filter by category and/or name.
 
 Once assets have been linked to a ticket, they can be accessed directly from the ticket view:
 
@@ -54,7 +52,7 @@ Once assets have been linked to a ticket, they can be accessed directly from the
    :alt: (Screencast) Access an i-doit asset directly from the Zammad ticket view
    :align: center
 
-   Click on a linked asset in the ticket pane to open its page in i-doit.
+   Click on a linked asset in the ticket sidebar to open its page in i-doit.
 
 In i-doit: List & Create Tickets For a Given Asset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,7 +65,7 @@ a list of all the tickets associated with each asset:
    :align: center
 
    Click the 💬 in the toolbar to list an asset's tickets.
-   Use the **🔗 Open in ticketsystem** button to open the ticket in Zammad.
+   Use the **🔗 Open in ticket system** button to open the ticket in Zammad.
 
 You can even launch Zammad's new ticket dialog directly from i-doit,
 with the asset already linked for you:

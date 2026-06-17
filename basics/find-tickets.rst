@@ -12,11 +12,11 @@ If you search for new tickets to work on, your first look should be in the
 overview section. This section gives you a rough overview. More details are
 covered in a separate overview page.
 
-You can either open it by clicking the **Overviews** button
+You can either open it by clicking the ``Overviews`` button
 in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of
 overviews as some kind of ticket lists.
 By default, there are some built in overviews. For example, there is
-an overview called "Unassigned & Open Tickets" which might be a good starting
+an overview called **Unassigned & Open Tickets** which might be a good starting
 point.
 
 - My Assigned Tickets: open tickets in which you are set as owner.
@@ -37,14 +37,14 @@ overview.
    :alt: Sample view of Overviews
    :align: center
 
-   Click **Overviews** in the main menu to browse tickets.
+   Click ``Overviews`` in the main menu to browse tickets.
 
 You can adjust the overviews in some aspects:
 
 - Click on a column heading to change the sorting.
 - Click and drag column dividers to adjust the column's width.
 - Adjust the order of the overviews in your
-  :doc:`user profile </extras/profile-and-settings>`.
+  :doc:`user profile </extras/user-menu-profile-settings>`.
 
 The need for action is color coded and reflects mainly the
 ticket states:
@@ -92,7 +92,7 @@ results. These results are separated by type to make sure you won't get lost in
 the results. Selecting one of those results will open a new navigation tab
 (if not already opened) with the item.
 
-If you press :kbd:`enter` or click on **Show Search Details**, Zammad displays
+If you press :kbd:`enter` or click on ``Show Search Details``, Zammad displays
 a page with the search results:
 
 .. figure:: /images/basics/find-ticket/search-details.png

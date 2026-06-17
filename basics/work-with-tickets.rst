@@ -16,7 +16,7 @@ problem to create a new ticket while editing an existing one. Simply switch back
 to the other tab.
 
 For the most changes (except tags or rename title, for example), an explicit
-update of the ticket is needed. So make sure to click the **Update** button
+update of the ticket is needed. So make sure to click the ``Update`` button
 on the right side of the footer bar when you are happy with your changes.
 
 Changing Ticket Attributes
@@ -68,7 +68,7 @@ an article (1). This opens additional meta information (2):
 
 You might wonder how to delete articles. The answer is you can only delete
 articles that you have created yourself and which are not older than 10 minutes.
-To see the **delete** button in articles of a communication type (emails, calls),
+To see the ``delete`` button in articles of a communication type (emails, calls),
 their visibility has to be switched to internal first.
 
 .. figure:: /images/basics/work-with-tickets/delete-article.png
@@ -93,18 +93,18 @@ Respond to an Article
 To forward or reply to an article, use one of the response buttons under an
 article. The behavior is similar to an email client.
 
-- **Reply**: Allows you to answer the article. The recipient is automatically
+- ``Reply``: Allows you to answer the article. The recipient is automatically
   pre-filled. The reply is sent via the same channel as the original message.
   This lets you easily send an answer to a customer or third party, if involved.
-- **Reply all**: Same as above but uses all recipient addresses from the
+- ``Reply all``: Same as above but uses all recipient addresses from the
   original message as recipients for your new article. Only available for email
   channels.
-- **Forward**: This means you can forward the original message to a third party
+- ``Forward``: This means you can forward the original message to a third party
   or anybody else. The original message and attachments are included in your
   new article.
 
 .. figure:: /images/basics/work-with-tickets/follow-up-reply-button.png
-   :alt: Screenshots shows response buttons below an article.
+   :alt: Screenshot shows response buttons below an article.
    :width: 70%
    :align: center
 
@@ -113,8 +113,8 @@ especially helpful if an answer refers to different parts of the original
 message or the text is pretty long. This feature is limited to communication
 type articles like email where the response buttons are available.
 
-To quote text, simply select the text you want to quote (1) and use the **Reply**
-or **Reply all** function (2):
+To quote text, simply select the text you want to quote (1) and use the ``Reply``
+or ``Reply all`` function (2):
 
 .. figure:: /images/basics/work-with-tickets/quote-mark-text.png
    :align: center
@@ -194,7 +194,7 @@ Ticket Actions
 .. _ticket-submenu:
 
 Additional actions are available in the ticket submenu. You can find it in the
-ticket sidebar. To open it, click the **Ticket ▾** heading to access additional
+ticket sidebar. To open it, click the ``Ticket ▾`` heading to access additional
 actions.
 
 .. figure:: /images/basics/work-with-tickets/settings-ticket-submenu.png
@@ -209,7 +209,7 @@ History
 Merge
    Migrate all messages/notes to another ticket. Useful if you have more than
    one ticket about a single customer issue. See
-   :doc:`Merging Tickets </advanced/ticket-actions/merge>` for details.
+   :doc:`merge tickets page </advanced/ticket-actions/merge>` for details.
 
 Change Customer
    Reassign the ticket to another customer.
@@ -223,10 +223,11 @@ eight hours - with optional custom deadlines for specific customers. When such
 a deadline is passed, the ticket escalates.
 
 Zammad notifies you by default when tickets approach or exceed their deadlines.
-Configure these notifications in your :doc:`profile settings </extras/profile-and-settings>`.
-Zammad also ships a default overview called "Escalated Tickets". This overview
-includes already escalated tickets and tickets which are expected to escalate
-within the next 10 minutes.
+Configure these notifications in your
+:doc:`profile settings </extras/user-menu-profile-settings>`. Zammad also ships
+a default overview called "Escalated Tickets". This overview includes already
+escalated tickets and tickets which are expected to escalate within the next
+10 minutes.
 
 SLA-relevant tickets display a timestamp in the ticket detail header. Hover
 over this timestamp to see all escalation stages and deadlines in a popup.

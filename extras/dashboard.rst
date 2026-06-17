@@ -1,5 +1,5 @@
-Checking Your Stats
-===================
+Dashboard
+=========
 
 The **dashboard** is the first thing you'll see after logging in. Monitor your
 productivity at a glance, compare your stats to the company average (in gray

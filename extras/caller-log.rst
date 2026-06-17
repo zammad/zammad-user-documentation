@@ -23,12 +23,12 @@ The caller log offers a lot more than just the last call entries.
 If your administrator configured "Phone Extension to Agent Mapping", Zammad
 will also help you during answering calls.
 
-   New Ticket dialog
-      Zammad will open a new ticket dialogue if:
+   New ticket dialog
+      Zammad will open a new ticket dialog if:
 
-         * it's able to either guess a single user (see `maybe entries`_)
-         * the callers number belongs to a user known to Zammad
-         * the callers number is yet unknown
+      - it's able to either guess a single user (see `maybe entries`_)
+      - the callers number belongs to a user known to Zammad
+      - the callers number is yet unknown
 
       If the user is known to Zammad it will automatically set the ticket
       customer for you. You can correct this at any time if needed.
@@ -50,7 +50,7 @@ will also help you during answering calls.
 
 .. note:: **😕 What are these "maybe" entries?**
 
-   During your day by day communication you may also stumble over new customers.
+   During your day-to-day communication you may also stumble over new customers.
    Usually business users send their phone numbers in their signature.
 
    Zammad collects and aggregates these information and tries to guess the
@@ -65,7 +65,7 @@ will also help you during answering calls.
    entries to **update an existing customer**.
 
    Unrecognized phone numbers cannot be added to existing customers in
-   this way. Copy and pasting is required.
+   this way. You'll need to copy and paste the number.
 
    Existing caller log entries *are not* updated when you update an existing
    customer.
