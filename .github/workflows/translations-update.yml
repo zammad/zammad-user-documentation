@@ -8,16 +8,11 @@ jobs:
   merge-fast-forward:
     if: github.event.pull_request.user.login == 'zammad-sync'
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      # We appear to need write permission for both pull-requests and
-      #   issues in order to post a comment to a pull request.
-      pull-requests: write
-      issues: write
     steps:
       - name: Fast forward merge
         uses: sequoia-pgp/fast-forward@v1
         with:
+          github_token: ${{ secrets.ZAMMAD_SYNC_PAT }}
           merge: true
           # To reduce the workflow's verbosity, we use 'on-error'
           #   to only post a comment when an error occurs.
