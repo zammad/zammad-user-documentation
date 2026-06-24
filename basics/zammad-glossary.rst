@@ -536,7 +536,8 @@ Placetel
    Callers are identified directly by their caller ID - a key function that
    saves agents a lot of time when assigning callers.
 
-   Administrators can learn more on the `placetel CTI` integration page.
+   Administrators can learn more on the :admin-docs:`Placetel CTI
+   </system/integrations/cti/placetel.html>` integration page.
    Agents can learn more about this function on this page:
    :doc:`/extras/caller-log`
 
@@ -633,7 +634,8 @@ Sipgate
    overview. If you have a customer that wants to get connected to a certain
    agent, the caller log will tell you if this colleague is currently available.
 
-   Administrators can learn more on the `sipgate CTI` integration page.
+   Administrators can learn more on the :admin-docs:`Sipgate CTI
+   </system/integrations/cti/sipgate.html>` integration page.
    Agents can learn more about this function on this page:
    :doc:`/extras/caller-log`
 
