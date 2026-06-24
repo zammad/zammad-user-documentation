@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad User Documentation pre-release\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 11:02+0200\n"
+"POT-Creation-Date: 2026-06-24 10:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Zammad supports a wide array of keyboard shortcuts to expedite your workf
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:8
-#: ../basics/zammad-glossary.rst:500
+#: ../basics/zammad-glossary.rst:507
 #: ../basics/zammad-ui.rst:15
 #: ../extras/chat.rst:12
 #: ../extras/customers.rst:7
@@ -38,8 +38,8 @@ msgstr ""
 msgid "Click on your avatar at the bottom of the main menu and select ``Keyboard Shortcuts`` or just press :kbd:`?` to open the keyboard shortcut overview."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:14
-#: ../extras/user-menu-profile-settings.rst:51
+#: ../advanced/keyboard-shortcuts.rst:None
+#: ../extras/user-menu-profile-settings.rst:0
 msgid "User submenu"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgstr ""
 msgid "This will open an overview of available keyboard-shortcuts as in the following screenshot:"
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:22
+#: ../advanced/keyboard-shortcuts.rst:27
 msgid "Keyboard shortcut cheat sheet"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "These settings are currently only saved in the browser and not in your user profile. If you need to deactivate it or switch to the old layout, you should make sure to not delete your browser cache / session cookies for your Zammad instance."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:49
+#: ../advanced/keyboard-shortcuts.rst:54
 msgid "Keyboard shortcut settings"
 msgstr ""
 
@@ -358,13 +358,14 @@ msgstr ""
 msgid "The most important formatting options are also available in the bubble menu. It automatically appears when you select text in the editor."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:128
-#: ../snippets/editor-features.rst:9
-#: ../snippets/editor-features.rst:9
+#: ../advanced/keyboard-shortcuts.rst:0
+#: ../snippets/editor-features.rst:0
+#: ../snippets/editor-features.rst:0
+#: ../snippets/editor-features.rst:0
 msgid "Screenshot shows editor bubble menu to format text."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:131
+#: ../advanced/keyboard-shortcuts.rst:144
 msgid "How"
 msgstr ""
 
@@ -404,7 +405,7 @@ msgstr ""
 msgid "press :kbd:`ctrl` :kbd:`i` to set the text in *italics*."
 msgstr ""
 
-#: ../advanced/keyboard-shortcuts.rst:146
+#: ../advanced/keyboard-shortcuts.rst:165
 msgid "Key Combinations"
 msgstr ""
 
@@ -548,7 +549,7 @@ msgstr ""
 msgid "The simplest way to apply a macro is to select it from the ``Update`` submenu in the ticket detail view:"
 msgstr ""
 
-#: ../advanced/macros.rst:18
+#: ../advanced/macros.rst:None
 msgid "Screenshot shows the ticket update menu to run a macro."
 msgstr ""
 
@@ -585,8 +586,8 @@ msgstr ""
 msgid "Initial overlay when you start dragging:"
 msgstr ""
 
-#: ../advanced/macros.rst:40
-#: ../advanced/suggested-workflows.rst:121
+#: ../advanced/macros.rst:None
+#: ../advanced/suggested-workflows.rst:0
 msgid "Screenshot shows initial drag & drop overlay."
 msgstr ""
 
@@ -594,7 +595,7 @@ msgstr ""
 msgid "Move the mouse to the ``Run Macro`` action at the top and you will see the available macros:"
 msgstr ""
 
-#: ../advanced/macros.rst:47
+#: ../advanced/macros.rst:None
 msgid "Screenshot shows drag & drop overlay in \"Run Macro\" mode."
 msgstr ""
 
@@ -646,6 +647,7 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
+#: ../advanced/search.rst:1
 #: ../advanced/search.rst:1
 msgid "Description"
 msgstr ""
@@ -1000,7 +1002,7 @@ msgstr ""
 msgid "Reassigning Tickets"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:26
+#: ../advanced/suggested-workflows.rst:30
 msgid "Reassigning tickets in the ticket sidebar"
 msgstr ""
 
@@ -1032,7 +1034,7 @@ msgstr ""
 msgid "To enable notifications for a ticket that doesn't belong to you, simply click the ``Subscribe`` button at the bottom of the ticket sidebar:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:63
+#: ../advanced/suggested-workflows.rst:None
 msgid "Screenshot shows subscribe button in the ticket sidebar tab"
 msgstr ""
 
@@ -1071,7 +1073,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:91
 #: ../basics/ticket-basics.rst:143
-#: ../basics/zammad-glossary.rst:509
+#: ../basics/zammad-glossary.rst:514
 msgid "Owner"
 msgstr ""
 
@@ -1081,7 +1083,7 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:93
 #: ../basics/ticket-basics.rst:88
-#: ../basics/zammad-glossary.rst:544
+#: ../basics/zammad-glossary.rst:551
 msgid "Priority"
 msgstr ""
 
@@ -1093,11 +1095,11 @@ msgstr ""
 msgid "Zammad doesn't ask for :doc:`time accounting values </advanced/time-accounting>` in bulk actions."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:102
+#: ../advanced/suggested-workflows.rst:109
 msgid "Bulk action via drop-downs"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:103
+#: ../advanced/suggested-workflows.rst:0
 msgid "Bulk operations in overviews and detailed searches"
 msgstr ""
 
@@ -1105,7 +1107,7 @@ msgstr ""
 msgid "Use the check boxes in ticket listings to select a bunch of tickets. Now use below drop-downs to change ticket settings, press confirm and provide a note if you'd like."
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:111
+#: ../advanced/suggested-workflows.rst:129
 msgid "Bulk action via drag and drop"
 msgstr ""
 
@@ -1117,7 +1119,7 @@ msgstr ""
 msgid "Move the mouse to the ``Assign Tickets`` action at the bottom and you will see groups and agents for ticket assignment:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:128
+#: ../advanced/suggested-workflows.rst:0
 msgid "Screenshot shows drag & drop overlay in \"Assign Tickets\" mode."
 msgstr ""
 
@@ -1129,7 +1131,7 @@ msgstr ""
 msgid "As you click through Zammad, you will see a list of entries appear in the navigation sidebar on the left side. These are your open tabs. You can freely switch between open tabs without losing your work - all unsaved changes are automatically backed up to the server."
 msgstr ""
 
-#: ../advanced/tabs.rst:11
+#: ../advanced/tabs.rst:0
 msgid "Screenshot shows tabs with highlighting in Zammad's navigation sidebar."
 msgstr ""
 
@@ -1137,7 +1139,7 @@ msgstr ""
 msgid "The following items get opened in a new tab. If you have the item already open, Zammad switches to this tab instead of opening a duplicate."
 msgstr ""
 
-#: ../advanced/tabs.rst:19
+#: ../advanced/tabs.rst:21
 msgid "\\1 Existing tickets"
 msgstr ""
 
@@ -1145,7 +1147,7 @@ msgstr ""
 msgid "When you open an existing ticket from an overview or the search."
 msgstr ""
 
-#: ../advanced/tabs.rst:23
+#: ../advanced/tabs.rst:25
 msgid "\\2 New tickets"
 msgstr ""
 
@@ -1153,7 +1155,7 @@ msgstr ""
 msgid "When you create a new ticket via the button at the bottom of the navigation sidebar."
 msgstr ""
 
-#: ../advanced/tabs.rst:27
+#: ../advanced/tabs.rst:29
 msgid "\\3 User Details"
 msgstr ""
 
@@ -1161,7 +1163,7 @@ msgstr ""
 msgid "When you click on a user name or avatar in a ticket to open the user detail page."
 msgstr ""
 
-#: ../advanced/tabs.rst:31
+#: ../advanced/tabs.rst:33
 msgid "\\4 Organization Details"
 msgstr ""
 
@@ -1169,7 +1171,7 @@ msgstr ""
 msgid "When you click on an organization name or avatar in a ticket to open the organization detail page."
 msgstr ""
 
-#: ../advanced/tabs.rst:35
+#: ../advanced/tabs.rst:36
 msgid "\\5 Detailed search"
 msgstr ""
 
@@ -1199,9 +1201,13 @@ msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:4
 #: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:4
+#: ../snippets/ticket-state-type-circles.rst:4
 msgid "|ylw|"
 msgstr ""
 
+#: ../snippets/ticket-state-type-circles.rst:5
+#: ../snippets/ticket-state-type-circles.rst:5
 #: ../snippets/ticket-state-type-circles.rst:5
 #: ../snippets/ticket-state-type-circles.rst:5
 msgid "**Action needed** (e.g. new, open, pending reached)"
@@ -1209,20 +1215,28 @@ msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:6
 #: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:6
+#: ../snippets/ticket-state-type-circles.rst:6
 msgid "|blk|"
 msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:7
 #: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:7
+#: ../snippets/ticket-state-type-circles.rst:7
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:204
 #: ../snippets/ticket-state-type-circles.rst:8
+#: ../snippets/ticket-state-type-circles.rst:8
+#: ../snippets/ticket-state-type-circles.rst:8
+#: ../extras/knowledge-base.rst:204
 #: ../snippets/ticket-state-type-circles.rst:8
 msgid "|grn|"
 msgstr ""
 
+#: ../snippets/ticket-state-type-circles.rst:9
+#: ../snippets/ticket-state-type-circles.rst:9
 #: ../snippets/ticket-state-type-circles.rst:9
 #: ../snippets/ticket-state-type-circles.rst:9
 msgid "**No action needed any more** (e.g. closed, merged)"
@@ -1230,9 +1244,13 @@ msgstr ""
 
 #: ../snippets/ticket-state-type-circles.rst:10
 #: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:10
+#: ../snippets/ticket-state-type-circles.rst:10
 msgid "|red|"
 msgstr ""
 
+#: ../snippets/ticket-state-type-circles.rst:11
+#: ../snippets/ticket-state-type-circles.rst:11
 #: ../snippets/ticket-state-type-circles.rst:11
 #: ../snippets/ticket-state-type-circles.rst:11
 msgid "**Immediate action needed** (ticket escalated due to an SLA violation)"
@@ -1254,7 +1272,7 @@ msgstr ""
 msgid "You may have noticed the ``Stay on tab`` button next to ``Update`` on the lower right already. This behavior of a tab can be configured by your administrator globally. You can overrule this setting based on your personal preference."
 msgstr ""
 
-#: ../advanced/tabs.rst:62
+#: ../advanced/tabs.rst:None
 msgid "Tab behavior can be adjusted in tickets manually"
 msgstr ""
 
@@ -1262,7 +1280,7 @@ msgstr ""
 msgid "To overrule your administrator's settings, simply choose the action you prefer. Zammad will remember this preference until you change its setting."
 msgstr ""
 
-#: ../advanced/tabs.rst:69
+#: ../advanced/tabs.rst:71
 msgid "Close tab"
 msgstr ""
 
@@ -1270,7 +1288,7 @@ msgstr ""
 msgid "Upon updating the ticket, Zammad will automatically close the tab. You'll be returned to the last view that was open."
 msgstr ""
 
-#: ../advanced/tabs.rst:73
+#: ../advanced/tabs.rst:76
 msgid "Close tab on ticket close"
 msgstr ""
 
@@ -1278,7 +1296,7 @@ msgstr ""
 msgid "Ticket tabs will be closed only if you change the state to \"closed\" upon ticket update. This does not apply for pending states that end in closed states."
 msgstr ""
 
-#: ../advanced/tabs.rst:78
+#: ../advanced/tabs.rst:84
 msgid "Next in overview"
 msgstr ""
 
@@ -1290,7 +1308,7 @@ msgstr ""
 msgid "This option is only available if you open the ticket from an overview. Zammad will ignore the setting if you opened the ticket directly and fall back to ``Stay on tab``."
 msgstr ""
 
-#: ../advanced/tabs.rst:86
+#: ../advanced/tabs.rst:88
 msgid "Stay on tab"
 msgstr ""
 
@@ -1310,7 +1328,7 @@ msgstr ""
 msgid "Zammad offers so-called text modules. Text modules will help you to improve your workflow, as you don't have to type your answer on every ticket by hand. You can simply choose a fitting text module and insert it into the email. To access available text modules, simply type :kbd:`::` within an article body. If you found the right text module, just press enter or click with your left mouse button and Zammad will insert the module's text at the place your cursor is."
 msgstr ""
 
-#: ../advanced/text-modules.rst:11
+#: ../advanced/text-modules.rst:None
 msgid "Screenshot shows text module selection menu in editor after typing \"::\" followed by \"tf\"."
 msgstr ""
 
@@ -1359,7 +1377,7 @@ msgstr ""
 msgid "When tickets about related issues arise, they can be linked to each other for easier reference. For example this could be useful if you have multiple customer complaints about the same shipment. :doc:`Merged <merge>` and :doc:`split <split>` tickets are automatically linked."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:9
+#: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
 msgstr ""
 
@@ -1371,7 +1389,7 @@ msgstr ""
 msgid "However, if you have a main issue and want to create sub tasks, you could link to the main one as a parent of the sub tickets."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:18
+#: ../advanced/ticket-actions/link.rst:26
 msgid "How to link"
 msgstr ""
 
@@ -1379,7 +1397,7 @@ msgstr ""
 msgid "Make sure to have the ticket sidebar open. Under the **Tags** section you can find the **Related tickets** section:"
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:22
+#: ../advanced/ticket-actions/link.rst:0
 msgid "Ticket sidebar: Links"
 msgstr ""
 
@@ -1387,8 +1405,8 @@ msgstr ""
 msgid "Click the ``+ Link`` button to access the link dialog."
 msgstr ""
 
-#: ../advanced/ticket-actions/link.rst:28
-#: ../advanced/ticket-actions/link.rst:36
+#: ../advanced/ticket-actions/link.rst:41
+#: ../advanced/ticket-actions/link.rst:0
 msgid "Link dialog"
 msgstr ""
 
@@ -1412,7 +1430,7 @@ msgstr ""
 msgid "This might be the case if a customer sends you a new email which can't be assigned to the existing ticket (e.g. the ticket reference is missing because the customer sends you a completely new email instead of answering in the existing thread)."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:12
+#: ../advanced/ticket-actions/merge.rst:21
 msgid "What is merged where?"
 msgstr ""
 
@@ -1424,7 +1442,7 @@ msgstr ""
 msgid "Let's assume you already worked on a ticket and you get another ticket about the same issue and want to merge them. Let's call the ticket you already worked on the *original* or *target* ticket and the new one *duplicate* or *source* ticket. Then the way to go is to open the duplicate ticket and execute the merging from there so it will be merged into the original ticket."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:23
+#: ../advanced/ticket-actions/merge.rst:29
 msgid "How to merge tickets?"
 msgstr ""
 
@@ -1432,11 +1450,11 @@ msgstr ""
 msgid "To merge a ticket, access the ``Ticket ▾`` submenu in the ticket sidebar and choose ``Merge``."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:27
+#: ../advanced/ticket-actions/merge.rst:0
 msgid "Ticket menu with highlighted \"merge\""
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:31
+#: ../advanced/ticket-actions/merge.rst:38
 msgid "Merge dialog"
 msgstr ""
 
@@ -1444,11 +1462,11 @@ msgstr ""
 msgid "You can either enter the ticket number of the ticket you want to merge the current one into (see 1), or choose from the list below (see 2). If the customer has an existing ticket, it will show up under **Recent customer tickets**. You can see your last viewed tickets under **Recently viewed tickets** anyway. After entering a ticket number or choosing one of the offered tickets from the list, click on the submit button and the tickets will be merged."
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:40
+#: ../advanced/ticket-actions/merge.rst:None
 msgid "Merge ticket dialog"
 msgstr ""
 
-#: ../advanced/ticket-actions/merge.rst:45
+#: ../advanced/ticket-actions/merge.rst:56
 msgid "Result after merging"
 msgstr ""
 
@@ -1488,7 +1506,7 @@ msgstr ""
 msgid "To split a ticket, simply click on the ``split`` button under the article you want to split off:"
 msgstr ""
 
-#: ../advanced/ticket-actions/split.rst:11
+#: ../advanced/ticket-actions/split.rst:None
 msgid "Screenshot shows \"split\" button in the ticket detail view next to an article"
 msgstr ""
 
@@ -1496,7 +1514,7 @@ msgstr ""
 msgid "After clicking on the ``split`` button, a dialog for creating a new ticket is presented to you:"
 msgstr ""
 
-#: ../advanced/ticket-actions/split.rst:18
+#: ../advanced/ticket-actions/split.rst:None
 msgid "Screenshot shows split ticket dialog"
 msgstr ""
 
@@ -1512,7 +1530,7 @@ msgstr ""
 msgid "If you find yourself creating lots of tickets with the same basic attributes, use **ticket templates** to apply them with a single click. Templates can be used to pre-fill not only the article text. It is also possible to pre-fill ticket attributes like title, customer, organization, group, owner, state, priority and tags. Ask your administrator if you think such a template makes sense for your workflow."
 msgstr ""
 
-#: ../advanced/ticket-templates.rst:13
+#: ../advanced/ticket-templates.rst:None
 msgid "Ticket template selection in new ticket dialog"
 msgstr ""
 
@@ -1520,7 +1538,7 @@ msgstr ""
 msgid "In any **New Ticket** dialog, the right sidebar will display the **Templates** tab if the feature is enabled and a template present. You can choose from a drop down list to select the desired template. Select a fitting template and click ``Apply``. The configured ticket fields will be populated with the data from the template."
 msgstr ""
 
-#: ../advanced/ticket-templates.rst:23
+#: ../advanced/ticket-templates.rst:26
 msgid "Field collisions"
 msgstr ""
 
@@ -1528,7 +1546,7 @@ msgstr ""
 msgid "Zammad detects field collisions. This means: If you already filled in data in a field that would be filled by the template, Zammad will not overwrite the data present."
 msgstr ""
 
-#: ../advanced/ticket-templates.rst:28
+#: ../advanced/ticket-templates.rst:33
 msgid "Can't add or adjust templates?"
 msgstr ""
 
@@ -1560,7 +1578,7 @@ msgstr ""
 msgid "The Accounted time is always recorded as unitless numbers. However, your administrator may decide to show an optional label next to the field to hint you and your colleagues which unit is assumed."
 msgstr ""
 
-#: ../advanced/time-accounting.rst:22
+#: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Unit"
 msgstr ""
 
@@ -1572,7 +1590,7 @@ msgstr ""
 msgid "**Activity Types** are used for grouping accounted time entries together. This is an optional feature which shows a list of activities as a selectable list."
 msgstr ""
 
-#: ../advanced/time-accounting.rst:33
+#: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Activity Type"
 msgstr ""
 
@@ -1588,7 +1606,7 @@ msgstr ""
 msgid "If a ticket already has accounted time(s), you can see it in the ticket sidebar at the bottom. You can find the calculated sums of each activity type as well as the total sum of accounted times for all activity types."
 msgstr ""
 
-#: ../advanced/time-accounting.rst:49
+#: ../advanced/time-accounting.rst:53
 msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr ""
 
@@ -1624,7 +1642,7 @@ msgstr ""
 msgid "In situations like these, you need to create a new ticket manually and click the ``+`` button at the bottom of the navigation bar. This shows a ticket create screen where you can add all needed information."
 msgstr ""
 
-#: ../basics/create-tickets.rst:18
+#: ../basics/create-tickets.rst:None
 msgid "Screenshot shows the new ticket dialog."
 msgstr ""
 
@@ -1653,7 +1671,7 @@ msgid "When choosing **Send Email**, the customer receives an email with the tit
 msgstr ""
 
 #: ../basics/create-tickets.rst:35
-#: ../basics/zammad-glossary.rst:729
+#: ../basics/zammad-glossary.rst:733
 msgid "Title"
 msgstr ""
 
@@ -1662,7 +1680,7 @@ msgid "This is the title of a ticket which is shown in many places in Zammad. Fo
 msgstr ""
 
 #: ../basics/create-tickets.rst:43
-#: ../basics/zammad-glossary.rst:173
+#: ../basics/zammad-glossary.rst:182
 msgid "Customer"
 msgstr ""
 
@@ -1670,7 +1688,7 @@ msgstr ""
 msgid "Enter a name or email address of a customer to search for existing accounts. You can even search for organizations and their members. Select an option from the autocomplete menu or create a new customer by clicking the ``+ Create new Customer`` button. This opens a dialog where you can provide all relevant information of the customer. A ticket can only have one customer."
 msgstr ""
 
-#: ../basics/create-tickets.rst:51
+#: ../basics/create-tickets.rst:56
 msgid "Screenshot showing customer search while creating a new ticket"
 msgstr ""
 
@@ -1682,7 +1700,7 @@ msgstr ""
 msgid "After setting a customer in the ticket create dialog, the customer sidebar automatically opens. You can see additional customer information including a hint about the currently opened tickets of the customer."
 msgstr ""
 
-#: ../basics/create-tickets.rst:62
+#: ../basics/create-tickets.rst:None
 msgid "Screenshot shows \"Customer\" sidebar after setting a customer."
 msgstr ""
 
@@ -1696,9 +1714,11 @@ msgstr ""
 
 #: ../snippets/editor-features.rst:1
 #: ../snippets/editor-features.rst:1
+#: ../snippets/editor-features.rst:1
 msgid "The article editor is a rich text editor. This means you can:"
 msgstr ""
 
+#: ../snippets/editor-features.rst:3
 #: ../snippets/editor-features.rst:3
 #: ../snippets/editor-features.rst:3
 msgid "Copy and paste (or drag and drop) formatted text, images and file attachments."
@@ -1706,14 +1726,17 @@ msgstr ""
 
 #: ../snippets/editor-features.rst:4
 #: ../snippets/editor-features.rst:4
+#: ../snippets/editor-features.rst:4
 msgid "Apply formatting by using the built-in :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` or by selecting text and choose from the formatting options in the bubble menu. This menu automatically appears when selecting text and looks like this:"
 msgstr ""
 
 #: ../snippets/editor-features.rst:11
 #: ../snippets/editor-features.rst:11
+#: ../snippets/editor-features.rst:11
 msgid "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` which can be a huge time saver."
 msgstr ""
 
+#: ../snippets/editor-features.rst:13
 #: ../snippets/editor-features.rst:13
 #: ../snippets/editor-features.rst:13
 msgid ":ref:`Mention colleagues <mentions>` by typing :kbd:`@` :kbd:`@` followed by their name to ask a question or notify them."
@@ -1776,7 +1799,7 @@ msgstr ""
 msgid "Your Zammad admin may have created additional overviews. These are based on conditions, which are basically rules, to define which ticket appears in which overview."
 msgstr ""
 
-#: ../basics/find-tickets.rst:36
+#: ../basics/find-tickets.rst:40
 msgid "Sample view of Overviews"
 msgstr ""
 
@@ -1812,8 +1835,8 @@ msgstr ""
 msgid "Ticket priorities are color-coded as well and help you to distinguish between the different priorities:"
 msgstr ""
 
-#: ../basics/find-tickets.rst:61
-#: ../basics/ticket-basics.rst:103
+#: ../basics/find-tickets.rst:None
+#: ../basics/ticket-basics.rst:None
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
@@ -1825,7 +1848,7 @@ msgstr ""
 msgid "If you are looking for a specific ticket, you can use the search. Either click on the search bar at the top of the left navigation sidebar or use the keyboard shortcut :kbd:`s`."
 msgstr ""
 
-#: ../basics/find-tickets.rst:75
+#: ../basics/find-tickets.rst:None
 msgid "Screenshot shows the Zammad search with search results in the navigation sidebar."
 msgstr ""
 
@@ -1861,7 +1884,7 @@ msgstr ""
 msgid "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad displays a page with the search results:"
 msgstr ""
 
-#: ../basics/find-tickets.rst:98
+#: ../basics/find-tickets.rst:None
 msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
 msgstr ""
 
@@ -1886,7 +1909,7 @@ msgstr ""
 msgid "In Zammad, **tickets** are used to track customer service requests. The first time a customer contacts you about something, Zammad creates a new ticket. Each message sent between you and the customer is added to that ticket until the issue is resolved, the customer is happy and the ticket is finally closed. Such a single message in a ticket is called **article**. Basically, you can think of a **ticket** as a **conversation** between you and a customer about a single issue."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:15
+#: ../basics/ticket-basics.rst:None
 msgid "Zammad UI with opened ticket detail view"
 msgstr ""
 
@@ -1926,7 +1949,7 @@ msgstr ""
 msgid "In addition to articles, tickets have some additional meta information which are called attributes. Use the **ticket sidebar** to view and change ticket attributes."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:47
+#: ../basics/ticket-basics.rst:None
 msgid "Screenshot shows ticket sidebar."
 msgstr ""
 
@@ -1939,7 +1962,7 @@ msgid "It is even possible to create custom fields for tickets (for groups and u
 msgstr ""
 
 #: ../basics/ticket-basics.rst:61
-#: ../basics/zammad-glossary.rst:672
+#: ../basics/zammad-glossary.rst:680
 msgid "State"
 msgstr ""
 
@@ -2000,7 +2023,7 @@ msgid "Be aware that customers can't set a priority for their own tickets. Other
 msgstr ""
 
 #: ../basics/ticket-basics.rst:117
-#: ../basics/zammad-glossary.rst:695
+#: ../basics/zammad-glossary.rst:706
 msgid "Tags"
 msgstr ""
 
@@ -2008,7 +2031,7 @@ msgstr ""
 msgid "Tags are custom labels that can be attached to tickets to make it easier to find them in the future. You find the tag section under the attribute fields."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:122
+#: ../basics/ticket-basics.rst:None
 msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
 msgstr ""
 
@@ -2076,7 +2099,7 @@ msgstr ""
 msgid "To choose another article type, click the note icon and choose a different type:"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:45
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article type switcher."
 msgstr ""
 
@@ -2084,7 +2107,7 @@ msgstr ""
 msgid "Click the lock button 🔒 to change an article's visibility. Internal visibility appears as a dashed border in a pale red color."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:53
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article editor with highlighted lock button to change visibility of article."
 msgstr ""
 
@@ -2092,7 +2115,7 @@ msgstr ""
 msgid "Every new article appears at the end of the conversation, which means below the existing articles. To see detailed information of a message, just click on an article (1). This opens additional meta information (2):"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:64
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article detail view."
 msgstr ""
 
@@ -2100,7 +2123,7 @@ msgstr ""
 msgid "You might wonder how to delete articles. The answer is you can only delete articles that you have created yourself and which are not older than 10 minutes. To see the ``delete`` button in articles of a communication type (emails, calls), their visibility has to be switched to internal first."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:74
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows an internal article with highlighted delete button."
 msgstr ""
 
@@ -2132,7 +2155,7 @@ msgstr ""
 msgid "``Forward``: This means you can forward the original message to a third party or anybody else. The original message and attachments are included in your new article."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:106
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows response buttons below an article."
 msgstr ""
 
@@ -2144,8 +2167,8 @@ msgstr ""
 msgid "To quote text, simply select the text you want to quote (1) and use the ``Reply`` or ``Reply all`` function (2):"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:119
-#: ../basics/work-with-tickets.rst:127
+#: ../basics/work-with-tickets.rst:None
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot shows article with marked text and highlighted reply actions."
 msgstr ""
 
@@ -2201,7 +2224,7 @@ msgstr ""
 msgid "Avatar with pencil icon: Another agent is currently actively working on this ticket."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:186
+#: ../basics/work-with-tickets.rst:None
 msgid "Ticket conflict alert"
 msgstr ""
 
@@ -2209,11 +2232,11 @@ msgstr ""
 msgid "Additional actions are available in the ticket submenu. You can find it in the ticket sidebar. To open it, click the ``Ticket ▾`` heading to access additional actions."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:200
+#: ../basics/work-with-tickets.rst:None
 msgid "Ticket submenu"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:205
+#: ../basics/work-with-tickets.rst:207
 msgid "History"
 msgstr ""
 
@@ -2221,7 +2244,7 @@ msgstr ""
 msgid "See a comprehensive list of updates to the ticket, performed by any user, since its creation. Useful to check who did what and when."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:209
+#: ../basics/work-with-tickets.rst:212
 msgid "Merge"
 msgstr ""
 
@@ -2229,7 +2252,7 @@ msgstr ""
 msgid "Migrate all messages/notes to another ticket. Useful if you have more than one ticket about a single customer issue. See :doc:`merge tickets page </advanced/ticket-actions/merge>` for details."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:214
+#: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
 msgstr ""
 
@@ -2253,7 +2276,7 @@ msgstr ""
 msgid "SLA-relevant tickets display a timestamp in the ticket detail header. Hover over this timestamp to see all escalation stages and deadlines in a popup. It shows all upcoming or reached escalation times based on your SLA configuration:"
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:237
+#: ../basics/work-with-tickets.rst:None
 msgid "Screenshot showing hovering over escalation note and getting more detailed escalation information."
 msgstr ""
 
@@ -2277,7 +2300,7 @@ msgstr ""
 msgid "First select the text you want to highlight, then click on the highlighter button with the pencil. In case you want to use a different color, open the color menu by clicking on the down arrow in the split button. To remove the highlighting, click on the button again with the selected text."
 msgstr ""
 
-#: ../basics/work-with-tickets.rst:264
+#: ../basics/work-with-tickets.rst:None
 msgid "Ticket highlighter"
 msgstr ""
 
@@ -2297,7 +2320,7 @@ msgstr ""
 msgid "Due to translation alphabetical sorting may be off in non English versions of this page."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:12
+#: ../basics/zammad-glossary.rst:14
 msgid "Quickly jump to..."
 msgstr ""
 
@@ -2309,7 +2332,7 @@ msgstr ""
 msgid "A"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:21
+#: ../basics/zammad-glossary.rst:27
 msgid "Admin"
 msgstr ""
 
@@ -2317,7 +2340,7 @@ msgstr ""
 msgid "An admin(istrator) is a user in Zammad who has special rights. Admins can configure user accesses, time recording settings, templates, and text modules and, on a higher level, integrations, reporting, etc. So if you're looking to make a change within your Zammad and you find that it doesn't work, find an admin in your organization and ask them - chances are, they can help."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:29
+#: ../basics/zammad-glossary.rst:33
 msgid "Agent"
 msgstr ""
 
@@ -2325,7 +2348,7 @@ msgstr ""
 msgid "An agent is what we call a user in Zammad who processes tickets/inquiries. There are usually several or many agents who use Zammad regularly and sometimes even consider it their main tool. Some of them are admins, meaning that they can change settings, user rights, and so on (see above)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:35
+#: ../basics/zammad-glossary.rst:43
 msgid "API"
 msgstr ""
 
@@ -2337,7 +2360,7 @@ msgstr ""
 msgid "You can learn more on our `API landing page <https://zammad.com/en/product/features/rest-api>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:45
+#: ../basics/zammad-glossary.rst:48
 msgid "Article"
 msgstr ""
 
@@ -2345,7 +2368,7 @@ msgstr ""
 msgid "Each correspondence within a ticket is called an article. Ticket articles can be internal (so only agents can see them) or public (e.g. emails to your customers, which they receive, too)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:50
+#: ../basics/zammad-glossary.rst:54
 msgid "Auto Response"
 msgstr ""
 
@@ -2353,7 +2376,7 @@ msgstr ""
 msgid "Zammad can send automatically generated responses to customers. By default, this is configured for newly created tickets (to confirm that the email was received and to provide the ticket number to the customer). Your admin may change this or even add more auto generated messages."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:56
+#: ../basics/zammad-glossary.rst:60
 msgid "Automation"
 msgstr ""
 
@@ -2361,7 +2384,7 @@ msgstr ""
 msgid "There are many processes that can be automated with Zammad. This means that certain steps or actions take place automatically, hence no further action is required from the agents. One example would be the weekly deletion of tickets at a pre-defined time."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:62
+#: ../basics/zammad-glossary.rst:68
 msgid "Autosave"
 msgstr ""
 
@@ -2373,7 +2396,7 @@ msgstr ""
 msgid "You can learn more on our `Autosave landing page <https://zammad.com/en/product/features/autosave>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:72
+#: ../basics/zammad-glossary.rst:80
 #: ../basics/zammad-glossary.rst:617
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Avatar"
@@ -2391,7 +2414,7 @@ msgstr ""
 msgid "B"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:85
+#: ../basics/zammad-glossary.rst:91
 msgid "Branding"
 msgstr ""
 
@@ -2407,7 +2430,7 @@ msgstr ""
 msgid "C"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:96
+#: ../basics/zammad-glossary.rst:100
 msgid "Changelog"
 msgstr ""
 
@@ -2419,7 +2442,7 @@ msgstr ""
 msgid "You can find them all on our `GitHub <https://github.com/zammad/zammad/blob/stable/CHANGELOG.md>`_!"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:102
+#: ../basics/zammad-glossary.rst:104
 msgid "Channel"
 msgstr ""
 
@@ -2427,7 +2450,7 @@ msgstr ""
 msgid "A channel is a way how customers can get in touch with you. Standard channels are email and phone. Additional channels can be configured by your admin."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:106
+#: ../basics/zammad-glossary.rst:113
 msgid "Checkmk"
 msgstr ""
 
@@ -2439,7 +2462,7 @@ msgstr ""
 msgid "Learn more about checkmk integration :admin-docs:`in the admin documentation </system/integrations/checkmk/index.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:115
+#: ../basics/zammad-glossary.rst:122
 msgid "Clearbit"
 msgstr ""
 
@@ -2451,7 +2474,7 @@ msgstr ""
 msgid "Learn more about clearbit integration :admin-docs:`in the admin documentation </system/integrations/clearbit.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:124
+#: ../basics/zammad-glossary.rst:131
 msgid "Conflict Warning"
 msgstr ""
 
@@ -2463,7 +2486,7 @@ msgstr ""
 msgid "Learn more on our :ref:`following up page <caution-im-working-here>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:133
+#: ../basics/zammad-glossary.rst:141
 msgid "Core Workflows"
 msgstr ""
 
@@ -2475,7 +2498,7 @@ msgstr ""
 msgid "Learn more about Core Workflows :admin-docs:`in the admin documentation </system/core-workflows.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:143
+#: ../basics/zammad-glossary.rst:155
 msgid "CTI"
 msgstr ""
 
@@ -2503,7 +2526,7 @@ msgstr ""
 msgid ":admin-docs:`sipgate CTI </system/integrations/cti/sipgate.html>`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:157
+#: ../basics/zammad-glossary.rst:164
 msgid "Custom Development (CD)"
 msgstr ""
 
@@ -2511,7 +2534,7 @@ msgstr ""
 msgid "We are constantly working on improving Zammad, and we keep adding new features with every single release. However, sometimes our customers might require a very specific new feature, addition, or adjustment that is either very urgent or very particular to their individual use case. This is when a custom development can take place: We offer the customer to develop the desired feature at a price that we agree upon previously (which is based on the expected hours needed for completion)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:166
+#: ../basics/zammad-glossary.rst:171
 msgid "Custom Object Attributes"
 msgstr ""
 
@@ -2531,7 +2554,7 @@ msgstr ""
 msgid "D"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:187
+#: ../basics/zammad-glossary.rst:195
 #: ../basics/zammad-glossary.rst:609
 #: ../extras/dashboard.rst:2
 msgid "Dashboard"
@@ -2545,7 +2568,7 @@ msgstr ""
 msgid "Learn more on :doc:`/extras/dashboard`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:197
+#: ../basics/zammad-glossary.rst:205
 msgid "Documentation"
 msgstr ""
 
@@ -2561,7 +2584,7 @@ msgstr ""
 msgid "E"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:210
+#: ../basics/zammad-glossary.rst:226
 msgid "Elasticsearch"
 msgstr ""
 
@@ -2581,7 +2604,7 @@ msgstr ""
 msgid "Via a read-only user in Elasticsearch, you can also integrate your favorite reporting tool (e.g. like Grafana)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:228
+#: ../basics/zammad-glossary.rst:234
 msgid "Escalation"
 msgstr ""
 
@@ -2589,7 +2612,7 @@ msgstr ""
 msgid "An escalation is what happens after the deadline for a ticket has passed and, for example, no update to the customer has been created. The ticket is marked in red in your taskbar and the overviews and everyone else who is involved in its process gets very sad. So don't let tickets escalate! Also, in order to prevent escalations, you can use our SLAs (see :ref:`SLAs <glossary-sla>`)."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:236
+#: ../basics/zammad-glossary.rst:243
 msgid "Exchange Integration"
 msgstr ""
 
@@ -2601,7 +2624,7 @@ msgstr ""
 msgid "Learn more about the exchange integration :admin-docs:`in our admin documentation </system/integrations/exchange.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:245
+#: ../basics/zammad-glossary.rst:253
 msgid "External Authentication"
 msgstr ""
 
@@ -2617,7 +2640,7 @@ msgstr ""
 msgid "F"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:258
+#: ../basics/zammad-glossary.rst:261
 msgid "Feature"
 msgstr ""
 
@@ -2625,7 +2648,7 @@ msgstr ""
 msgid "A feature is what we call the different functionalities of Zammad, such as our integrations, productivity tools, or time-saving aspects. We keep adding new features with every release."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:263
+#: ../basics/zammad-glossary.rst:269
 msgid "Feature request"
 msgstr ""
 
@@ -2633,7 +2656,7 @@ msgstr ""
 msgid "Users can let us know if they are missing a particular feature in Zammad. We collect all of their wishes `in our Community in the Feature Request category <https://community.zammad.org/c/stuff-you-like-zammad-to-have-feel-free-to-discuss-and-add-proposals/6>`_. If a request comes in regularly and we feel that it would be a great addition, we'll put it on our roadmap and start working on it."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:271
+#: ../basics/zammad-glossary.rst:274
 msgid "Feature sponsoring"
 msgstr ""
 
@@ -2645,7 +2668,7 @@ msgstr ""
 msgid "G"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:279
+#: ../basics/zammad-glossary.rst:296
 msgid "GitHub"
 msgstr ""
 
@@ -2669,7 +2692,7 @@ msgstr ""
 msgid "Administrators can learn more about GitHub :admin-docs:`in the admin documentation </system/integrations/github.html>`, if you're an agent you can learn more about the functionality on this page: :doc:`/extras/github-gitlab-integration`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:298
+#: ../basics/zammad-glossary.rst:309
 msgid "GitLab"
 msgstr ""
 
@@ -2685,7 +2708,7 @@ msgstr ""
 msgid "Administrators can learn more about GitLab :admin-docs:`in the admin documentation </system/integrations/gitlab.html>`, if you're an agent you can learn more about the functionality on this page: :doc:`/extras/github-gitlab-integration`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:311
+#: ../basics/zammad-glossary.rst:322
 msgid "Grafana"
 msgstr ""
 
@@ -2705,7 +2728,7 @@ msgstr ""
 msgid "Learn more on how to add Grafana dashboards for Zammad :docs:`in our documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:324
+#: ../basics/zammad-glossary.rst:337
 msgid "Groups"
 msgstr ""
 
@@ -2729,7 +2752,7 @@ msgstr ""
 msgid "I"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:347
+#: ../basics/zammad-glossary.rst:353
 msgid "Icinga"
 msgstr ""
 
@@ -2741,7 +2764,7 @@ msgstr ""
 msgid "You can learn more on our `Icinga landing page <https://zammad.com/en/product/features/icinga-integration>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:355
+#: ../basics/zammad-glossary.rst:361
 msgid "Issue-tracking system"
 msgstr ""
 
@@ -2753,7 +2776,7 @@ msgstr ""
 msgid "Zammad is also often referred to as an issue-tracking system. However, as a helpdesk, it focuses on communication at the customer level rather than the technical level."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:363
+#: ../basics/zammad-glossary.rst:374
 msgid "i-doit"
 msgstr ""
 
@@ -2773,7 +2796,7 @@ msgstr ""
 msgid "K"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:384
+#: ../basics/zammad-glossary.rst:394
 msgid "Kibana"
 msgstr ""
 
@@ -2793,7 +2816,7 @@ msgstr ""
 msgid "You can learn more on our `Kibana landing page <https://zammad.com/en/product/features/kibana-integration>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:396
+#: ../basics/zammad-glossary.rst:409
 #: ../basics/zammad-glossary.rst:611
 #: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
@@ -2815,7 +2838,7 @@ msgstr ""
 msgid "L"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:414
+#: ../basics/zammad-glossary.rst:420
 msgid "LDAP"
 msgstr ""
 
@@ -2831,7 +2854,7 @@ msgstr ""
 msgid "M"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:425
+#: ../basics/zammad-glossary.rst:440
 msgid "Macro"
 msgstr ""
 
@@ -2847,7 +2870,7 @@ msgstr ""
 msgid "Administrators can learn more about Macros :admin-docs:`in the admin documentation </manage/macros.html>`, if you're an agent you can learn more about the functionality on this page: :doc:`/advanced/macros`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:442
+#: ../basics/zammad-glossary.rst:447
 msgid "Mentions"
 msgstr ""
 
@@ -2859,7 +2882,7 @@ msgstr ""
 msgid "Learn more on this page: :ref:`mentions`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:449
+#: ../basics/zammad-glossary.rst:457
 msgid "Merging Tickets"
 msgstr ""
 
@@ -2871,7 +2894,7 @@ msgstr ""
 msgid "See :doc:`/advanced/ticket-actions` for further information."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:459
+#: ../basics/zammad-glossary.rst:463
 msgid "Migrator / Migration Wizard"
 msgstr ""
 
@@ -2879,7 +2902,7 @@ msgstr ""
 msgid "If a company wants to switch from another helpdesk software to Zammad, they often have one concern: What about their existing data? That's why we have built our migration wizards that help with migrating all data at the touch of a button."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:465
+#: ../basics/zammad-glossary.rst:470
 msgid "Monit"
 msgstr ""
 
@@ -2895,7 +2918,7 @@ msgstr ""
 msgid "N"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:475
+#: ../basics/zammad-glossary.rst:481
 msgid "Nagios"
 msgstr ""
 
@@ -2907,10 +2930,10 @@ msgstr ""
 msgid "You can learn more on our `Nagios landing page <https://zammad.com/en/product/features/nagios-integration>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:483
+#: ../basics/zammad-glossary.rst:489
 #: ../extras/mobile-view.rst:85
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:103
+#: ../extras/user-menu-profile-settings.rst:115
 msgid "Notifications"
 msgstr ""
 
@@ -2926,7 +2949,7 @@ msgstr ""
 msgid "O"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:494
+#: ../basics/zammad-glossary.rst:498
 #: ../extras/customers.rst:0
 msgid "Organization"
 msgstr ""
@@ -2951,7 +2974,7 @@ msgstr ""
 msgid "P"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:519
+#: ../basics/zammad-glossary.rst:526
 msgid "Parent/Child Relationship"
 msgstr ""
 
@@ -2963,7 +2986,7 @@ msgstr ""
 msgid "Learn more about this function on this page: :doc:`/advanced/ticket-actions/link`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:528
+#: ../basics/zammad-glossary.rst:542
 msgid "Placetel"
 msgstr ""
 
@@ -2995,7 +3018,7 @@ msgstr ""
 msgid "R"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:561
+#: ../basics/zammad-glossary.rst:569
 msgid "Release"
 msgstr ""
 
@@ -3007,7 +3030,7 @@ msgstr ""
 msgid "Every release adds new features to our software. There are major and minor releases: major releases (such as Zammad 1.0, 2.0, etc.) bring major changes. Minor releases are installed on top of them (such as 1.1, 2.1, etc.) and bring smaller updates."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:571
+#: ../basics/zammad-glossary.rst:577
 #: ../basics/zammad-glossary.rst:618
 #: ../extras/reporting.rst:2
 msgid "Reporting"
@@ -3021,7 +3044,7 @@ msgstr ""
 msgid "Admins can find further information :admin-docs:`here </manage/report-profiles.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:579
+#: ../basics/zammad-glossary.rst:590
 msgid "Role"
 msgstr ""
 
@@ -3045,7 +3068,7 @@ msgstr ""
 msgid "S"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:595
+#: ../basics/zammad-glossary.rst:600
 msgid "Scheduler"
 msgstr ""
 
@@ -3053,7 +3076,7 @@ msgstr ""
 msgid "The scheduler is one of Zammad's automation features. An admin can define specific conditions and actions which are applied to tickets with matching conditions in a time based manner. More information in the admin documentation in the :admin-docs:`scheduler section </manage/scheduler.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:602
+#: ../basics/zammad-glossary.rst:620
 #: ../basics/zammad-ui.rst:85
 msgid "Sidebar"
 msgstr ""
@@ -3099,7 +3122,7 @@ msgstr ""
 msgid "Button for ticket creation"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:622
+#: ../basics/zammad-glossary.rst:629
 msgid "Signature"
 msgstr ""
 
@@ -3111,7 +3134,7 @@ msgstr ""
 msgid "It can be customized by your admin. Further information can be found :admin-docs:`here </channels/email/signatures.html>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:631
+#: ../basics/zammad-glossary.rst:640
 msgid "Sipgate"
 msgstr ""
 
@@ -3123,7 +3146,7 @@ msgstr ""
 msgid "Administrators can learn more on the :admin-docs:`Sipgate CTI </system/integrations/cti/sipgate.html>` integration page. Agents can learn more about this function on this page: :doc:`/extras/caller-log`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:644
+#: ../basics/zammad-glossary.rst:655
 msgid "SLA"
 msgstr ""
 
@@ -3139,7 +3162,7 @@ msgstr ""
 msgid "You can learn more on our `SLA landing page <https://zammad.com/en/product/features/sla>`_."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:657
+#: ../basics/zammad-glossary.rst:661
 msgid "Splitting tickets"
 msgstr ""
 
@@ -3147,7 +3170,7 @@ msgstr ""
 msgid "In case a ticket contains more than one issue and you want to handle it in a separate ticket, you can split the ticket. Zammad creates a new ticket then based on the selected article for splitting. See :doc:`/advanced/ticket-actions` for more information."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:663
+#: ../basics/zammad-glossary.rst:670
 msgid "SSO"
 msgstr ""
 
@@ -3175,7 +3198,7 @@ msgstr ""
 msgid "The available states can be changed or extended. Your admin can find further information :admin-docs:`here </system/objects.html#system-attributes>`."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:682
+#: ../basics/zammad-glossary.rst:690
 msgid "S/MIME"
 msgstr ""
 
@@ -3199,7 +3222,7 @@ msgstr ""
 msgid "Administrators can learn more about tags :admin-docs:`here </manage/tags.html>`. Agents can learn more about this function on this page: :ref:`ticket-attributes`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:708
+#: ../basics/zammad-glossary.rst:720
 msgid "Text module"
 msgstr ""
 
@@ -3215,7 +3238,7 @@ msgstr ""
 msgid "Administrators can learn more about text modules :admin-docs:`here </manage/text-modules.html>`. Agents can learn more about this function on this page: :doc:`/advanced/text-modules`"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:722
+#: ../basics/zammad-glossary.rst:727
 msgid "(Ticket) Template"
 msgstr ""
 
@@ -3231,7 +3254,7 @@ msgstr ""
 msgid "The title of a ticket is different based on the channel it came in. You can find the title in the sidebar and in the top area in the ticket view. If the title is not very meaningful, you can change it by clicking on the title in a ticket view."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:735
+#: ../basics/zammad-glossary.rst:739
 msgid "Ticket hook"
 msgstr ""
 
@@ -3239,7 +3262,7 @@ msgstr ""
 msgid "The ticket hook is the identifier of a ticket. By default, it is ``Ticket#`` with an appended number (e.g. ``Ticket#904627``). It can be changed by an admin. See :admin-docs:`here </settings/ticket.html>` for further information."
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:741
+#: ../basics/zammad-glossary.rst:746
 msgid "Trigger"
 msgstr ""
 
@@ -3251,7 +3274,7 @@ msgstr ""
 msgid "U"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:751
+#: ../basics/zammad-glossary.rst:755
 msgid "User"
 msgstr ""
 
@@ -3267,7 +3290,7 @@ msgstr ""
 msgid "W"
 msgstr ""
 
-#: ../basics/zammad-glossary.rst:765
+#: ../basics/zammad-glossary.rst:772
 msgid "Webhooks"
 msgstr ""
 
@@ -3315,11 +3338,11 @@ msgstr ""
 msgid "The screenshot below shows the Zammad UI with the ticket detail view opened. Read on for a description of the different main elements of Zammad."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:20
+#: ../basics/zammad-ui.rst:None
 msgid "Screenshot shows the Zammad UI with an opened ticket detail view."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:23
+#: ../basics/zammad-ui.rst:25
 msgid "Navigation sidebar (1)"
 msgstr ""
 
@@ -3327,7 +3350,7 @@ msgstr ""
 msgid "This is the left sidebar which includes the search, notifications, overviews, ticket tabs, your avatar and the ticket create button."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:27
+#: ../basics/zammad-ui.rst:30
 msgid "Navigation tab (2)"
 msgstr ""
 
@@ -3335,7 +3358,7 @@ msgstr ""
 msgid "Each item of the navigation sidebar is called navigation tab. Depending on the content, it can be a ticket tab (with the ticket detail view) or the overview tab which opens the list of available overviews."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:32
+#: ../basics/zammad-ui.rst:34
 msgid "Ticket detail view (3)"
 msgstr ""
 
@@ -3343,7 +3366,7 @@ msgstr ""
 msgid "This is where you handle your customer requests. It is located in the middle of the screen if a ticket tab is selected in the navigation sidebar."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:36
+#: ../basics/zammad-ui.rst:38
 msgid "Sidebar (4)"
 msgstr ""
 
@@ -3351,7 +3374,7 @@ msgstr ""
 msgid "This is the right sidebar in the ticket detail view. It contains sidebar tabs like customers and checklists and displays the currently selected tab."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:40
+#: ../basics/zammad-ui.rst:44
 msgid "Sidebar tabs (5)"
 msgstr ""
 
@@ -3367,11 +3390,11 @@ msgstr ""
 msgid "The navigation sidebar displays different areas. You might not see all of them because some depend on the configuration of your Zammad. The navigation sidebar is always visible. That means if you don't know where you are, you can always go back to the dashboard, your overviews or an opened ticket, for example."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:56
+#: ../basics/zammad-ui.rst:0
 msgid "Screenshot shows Zammad's navigation bar with highlighted areas."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:63
+#: ../basics/zammad-ui.rst:67
 msgid "Search and notification area (1)"
 msgstr ""
 
@@ -3379,7 +3402,7 @@ msgstr ""
 msgid "Includes the search where you can search for users, organizations, tickets and basically every in Zammad available information. Next to the search you can find the Zammad logo. In case there is a notification, it shows you a badge with a count about how many notifications you got."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:69
+#: ../basics/zammad-ui.rst:71
 msgid "Navigation (2)"
 msgstr ""
 
@@ -3387,7 +3410,7 @@ msgstr ""
 msgid "Allows you to switch to different Zammad screens like the dashboard, overviews, knowledge base or phone screen."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:73
+#: ../basics/zammad-ui.rst:74
 msgid "Content tabs (3)"
 msgstr ""
 
@@ -3395,7 +3418,7 @@ msgstr ""
 msgid "You can find tabs for your opened tickets, users and organizations."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:76
+#: ../basics/zammad-ui.rst:77
 msgid "Bottom bar (4)"
 msgstr ""
 
@@ -3407,7 +3430,7 @@ msgstr ""
 msgid "The sidebar on the right side displays all ticket relevant information and includes additional functionality. The most important one is the ticket sidebar. Switch between the different sidebars by clicking the desired tab on the left side of the sidebar. The available tabs are depending on the ticket and the configured features of your Zammad."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:93
+#: ../basics/zammad-ui.rst:102
 msgid "Ticket tab"
 msgstr ""
 
@@ -3427,7 +3450,7 @@ msgstr ""
 msgid "Change customer: set another customer for the ticket."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:104
+#: ../basics/zammad-ui.rst:107
 msgid "Customer tab"
 msgstr ""
 
@@ -3435,7 +3458,7 @@ msgstr ""
 msgid "View customer details including a reference to the customer's other tickets. You can change the ticket customer here as well by clicking on the **Customer** header and choose **Change customer**."
 msgstr ""
 
-#: ../basics/zammad-ui.rst:109
+#: ../basics/zammad-ui.rst:113
 msgid "Organization tab"
 msgstr ""
 
@@ -3483,7 +3506,7 @@ msgstr ""
 msgid "If there is a new summary, you can see a small pulsing indicator on the summary sidebar tab. This indicator is only displayed if the changes were not made by you (as you already know what the ticket is about)."
 msgstr ""
 
-#: ../extras/ai-features.rst:39
+#: ../extras/ai-features.rst:None
 msgid "Screenshot shows Zammad's ticket detail view with highlighted ticket summary banner and summary sidebar"
 msgstr ""
 
@@ -3519,7 +3542,7 @@ msgstr ""
 msgid "The AI-powered writing assistant tools are designed to simplify and enhance your ticket response workflow while you create an article. To use such a tool, select the text you want to apply the changes to. This opens a bubble menu in which you can open the list of available tools by clicking the writing assistant tools button."
 msgstr ""
 
-#: ../extras/ai-features.rst:60
+#: ../extras/ai-features.rst:None
 msgid "Screenshots shows selected text in editor with opened writing assistant tools menu"
 msgstr ""
 
@@ -3547,7 +3570,7 @@ msgstr ""
 msgid "After selecting a tool, Zammad shows a dialog where you can compare the original text and the AI suggestion:"
 msgstr ""
 
-#: ../extras/ai-features.rst:83
+#: ../extras/ai-features.rst:None
 msgid "Screenshots shows AI suggestion dialog"
 msgstr ""
 
@@ -3563,7 +3586,7 @@ msgstr ""
 msgid "AI agents can be configured to work on certain types of routine tasks. In general, this feature operates behind the scenes but if configured, you may notice it in some situations (see examples below). In case your admin created a macro with an AI agent action, you can even run it manually. Ask your admin for details and have a look at the :doc:`macro page </advanced/macros>` how to use it."
 msgstr ""
 
-#: ../extras/ai-features.rst:103
+#: ../extras/ai-features.rst:111
 msgid "Ticket history"
 msgstr ""
 
@@ -3575,11 +3598,11 @@ msgstr ""
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
-#: ../extras/ai-features.rst:110
+#: ../extras/ai-features.rst:0
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:113
+#: ../extras/ai-features.rst:122
 msgid "Simultaneous work detection"
 msgstr ""
 
@@ -3591,11 +3614,11 @@ msgstr ""
 msgid "Avatar of AI agent:"
 msgstr ""
 
-#: ../extras/ai-features.rst:121
+#: ../extras/ai-features.rst:0
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:124
+#: ../extras/ai-features.rst:128
 msgid "Overview indicator"
 msgstr ""
 
@@ -3603,7 +3626,7 @@ msgstr ""
 msgid "A running AI agent is indicated in the status column in overviews. The status circle changes to a blue/pink gradient circle:"
 msgstr ""
 
-#: ../extras/ai-features.rst:128
+#: ../extras/ai-features.rst:0
 msgid "Screenshot shows a status circle in overviews indicating an AI agent is currently working on it"
 msgstr ""
 
@@ -3620,7 +3643,7 @@ msgstr ""
 msgid "This feature is **optional**; if you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more on our :admin-docs:`admin documentation </system/integrations.html#integrations-for-phone-systems>`."
 msgstr ""
 
-#: ../extras/caller-log.rst:10
+#: ../extras/caller-log.rst:14
 msgid "Sample view of Caller Log"
 msgstr ""
 
@@ -3636,7 +3659,7 @@ msgstr ""
 msgid "The caller log offers a lot more than just the last call entries. If your administrator configured \"Phone Extension to Agent Mapping\", Zammad will also help you during answering calls."
 msgstr ""
 
-#: ../extras/caller-log.rst:26
+#: ../extras/caller-log.rst:34
 msgid "New ticket dialog"
 msgstr ""
 
@@ -3660,7 +3683,7 @@ msgstr ""
 msgid "If the user is known to Zammad it will automatically set the ticket customer for you. You can correct this at any time if needed."
 msgstr ""
 
-#: ../extras/caller-log.rst:36
+#: ../extras/caller-log.rst:40
 msgid "User profile"
 msgstr ""
 
@@ -3668,7 +3691,7 @@ msgstr ""
 msgid "Zammad will open the users profile if your user had a customer ticket that has been updated within the last 30 days. This also applies for calling users that Zammad guesses are a specific user (only if it's one guessed user)."
 msgstr ""
 
-#: ../extras/caller-log.rst:42
+#: ../extras/caller-log.rst:47
 msgid "Quick dial"
 msgstr ""
 
@@ -3692,7 +3715,7 @@ msgstr ""
 msgid "Zammad collects and aggregates these information and tries to guess the customer in case it receives a call from an unknown number."
 msgstr ""
 
-#: ../extras/caller-log.rst:59
+#: ../extras/caller-log.rst:0
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
 
@@ -3721,7 +3744,7 @@ msgstr ""
 msgid "This feature is optional. If you don't see it in the main menu, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`chat channel admin documentation </channels/chat.html>`."
 msgstr ""
 
-#: ../extras/chat.rst:14
+#: ../extras/chat.rst:None
 msgid "Screenshot shows chat UI with labeled elements."
 msgstr ""
 
@@ -3789,7 +3812,7 @@ msgstr ""
 msgid "If all agents have the chat panel disabled, customers will **not** be able to initiate a chat."
 msgstr ""
 
-#: ../extras/chat.rst:46
+#: ../extras/chat.rst:59
 msgid "Usage tips"
 msgstr ""
 
@@ -3813,7 +3836,7 @@ msgstr ""
 msgid "Chats record technical details about the customer's connection."
 msgstr ""
 
-#: ../extras/chat.rst:54
+#: ../extras/chat.rst:0
 msgid "Screenshot shows chat details of an opened chat."
 msgstr ""
 
@@ -3829,7 +3852,7 @@ msgstr ""
 msgid "Once your chat is over, you can create a ticket for it with a single click:"
 msgstr ""
 
-#: ../extras/chat.rst:66
+#: ../extras/chat.rst:70
 msgid "Completed chat window"
 msgstr ""
 
@@ -3837,7 +3860,7 @@ msgstr ""
 msgid "The ``Turn chat into ticket`` button appears as soon as the chat is finished."
 msgstr ""
 
-#: ../extras/chat.rst:72
+#: ../extras/chat.rst:76
 msgid "New ticket view"
 msgstr ""
 
@@ -3853,7 +3876,7 @@ msgstr ""
 msgid "Use a checklist in tickets to keep track of the tasks to be completed. You can find the checklist feature in the right sidebar in the **Checklist** tab (unless your admin has deactivated it). Please note that you can only add or edit a checklist, if you have the permission to edit the ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:9
+#: ../extras/checklist.rst:12
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
 
@@ -3867,6 +3890,7 @@ msgstr ""
 
 #: ../extras/checklist.rst:18
 #: ../index.rst:9
+#: ../index.rst:9
 msgid "Basics"
 msgstr ""
 
@@ -3874,7 +3898,7 @@ msgstr ""
 msgid "If you want to add a checklist to a ticket, go to the **Checklist** tab and click either on ``Add empty checklist`` (1) or ``Add from template`` (2) after selecting a template. If you can't see the ``Add from template`` area, there is no template available."
 msgstr ""
 
-#: ../extras/checklist.rst:25
+#: ../extras/checklist.rst:30
 msgid "Checklist creation dialog"
 msgstr ""
 
@@ -3934,7 +3958,7 @@ msgstr ""
 msgid "Additional Features"
 msgstr ""
 
-#: ../extras/checklist.rst:58
+#: ../extras/checklist.rst:66
 msgid "Refer to other tickets in the checklist"
 msgstr ""
 
@@ -3950,7 +3974,7 @@ msgstr ""
 msgid "To copy the ticket hook and number from another ticket, click on the copy button at the top or use the keyboard shortcut :kbd:`.` in that ticket."
 msgstr ""
 
-#: ../extras/checklist.rst:68
+#: ../extras/checklist.rst:76
 msgid "Check of completed checklist"
 msgstr ""
 
@@ -3970,7 +3994,7 @@ msgstr ""
 msgid "Use the customer tab in the ticket sidebar to view and manage customer profiles."
 msgstr ""
 
-#: ../extras/customers.rst:9
+#: ../extras/customers.rst:13
 msgid "Ticket sidebar (customer view)"
 msgstr ""
 
@@ -3982,7 +4006,7 @@ msgstr ""
 msgid "If the customer has other tickets too, you can see a summary when you hover over the **open/closed** labels:"
 msgstr ""
 
-#: ../extras/customers.rst:18
+#: ../extras/customers.rst:23
 msgid "Customer ticket summary (mouseover)"
 msgstr ""
 
@@ -3998,8 +4022,8 @@ msgstr ""
 msgid "To edit the customer's profile, use the ``Customer`` submenu and select ``Edit Customer``:"
 msgstr ""
 
-#: ../extras/customers.rst:32
-#: ../extras/customers.rst:33
+#: ../extras/customers.rst:38
+#: ../extras/customers.rst:0
 msgid "Customer submenu"
 msgstr ""
 
@@ -4007,11 +4031,11 @@ msgstr ""
 msgid "Click the ``Customer ▾`` heading to access additional actions."
 msgstr ""
 
-#: ../extras/customers.rst:40
+#: ../extras/customers.rst:46
 msgid "Customer edit dialog"
 msgstr ""
 
-#: ../extras/customers.rst:41
+#: ../extras/customers.rst:0
 msgid "Edit customer dialog"
 msgstr ""
 
@@ -4047,7 +4071,7 @@ msgstr ""
 msgid "The **dashboard** is the first thing you'll see after logging in. Monitor your productivity at a glance, compare your stats to the company average (in gray below your own), and see what everyone else is up to."
 msgstr ""
 
-#: ../extras/dashboard.rst:8
+#: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr ""
 
@@ -4123,7 +4147,7 @@ msgstr ""
 msgid "With the issue tracker integration, you can monitor GitHub / GitLab issues right from within a Zammad ticket. This feature is optional. If you don't see it in the ticket sidebar, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`issue tracker integration in the admin documentation </system/integrations#integrations-for-issue-trackers>`."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:10
+#: ../extras/github-gitlab-integration.rst:14
 msgid "Ticket detail view showing activated GitHub & GitLab function"
 msgstr ""
 
@@ -4132,9 +4156,13 @@ msgid "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview 
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:39
+#: ../extras/github-gitlab-integration.rst:39
+#: ../extras/github-gitlab-integration.rst:39
 msgid "GitHub logo"
 msgstr ""
 
+#: ../extras/github-gitlab-integration.rst:43
+#: ../extras/github-gitlab-integration.rst:43
 #: ../extras/github-gitlab-integration.rst:43
 msgid "GitLab logo"
 msgstr ""
@@ -4143,7 +4171,7 @@ msgstr ""
 msgid "What Can It Do?"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:20
+#: ../extras/github-gitlab-integration.rst:24
 msgid "View related issues"
 msgstr ""
 
@@ -4151,7 +4179,7 @@ msgstr ""
 msgid "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab. A badge on the tab icon indicates how many issues are linked to this ticket."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:26
+#: ../extras/github-gitlab-integration.rst:34
 msgid "Link a new issue"
 msgstr ""
 
@@ -4159,11 +4187,11 @@ msgstr ""
 msgid "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:31
+#: ../extras/github-gitlab-integration.rst:0
 msgid "Screencast showing how to list and add new issues to a ticket"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:36
+#: ../extras/github-gitlab-integration.rst:37
 msgid "Remove an issue"
 msgstr ""
 
@@ -4183,7 +4211,7 @@ msgstr ""
 msgid "This feature is optional. If you don't see it in the ticket view, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`i-doit integration in the admin documentation </system/integrations/i-doit.html>`. If your company is using i-doit, ask your administrator / IT personnel to give you a tour. If your organization isn't already using i-doit, this guide is not for you."
 msgstr ""
 
-#: ../extras/i-doit-track-company-property.rst:16
+#: ../extras/i-doit-track-company-property.rst:21
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr ""
 
@@ -4215,7 +4243,7 @@ msgstr ""
 msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
 msgstr ""
 
-#: ../extras/i-doit-track-company-property.rst:43
+#: ../extras/i-doit-track-company-property.rst:47
 msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
 msgstr ""
 
@@ -4227,7 +4255,7 @@ msgstr ""
 msgid "Once assets have been linked to a ticket, they can be accessed directly from the ticket view:"
 msgstr ""
 
-#: ../extras/i-doit-track-company-property.rst:51
+#: ../extras/i-doit-track-company-property.rst:55
 msgid "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
 msgstr ""
 
@@ -4243,7 +4271,7 @@ msgstr ""
 msgid "Your i-doit control panel should contain a list of all the tickets associated with each asset:"
 msgstr ""
 
-#: ../extras/i-doit-track-company-property.rst:63
+#: ../extras/i-doit-track-company-property.rst:67
 msgid "(Screencast) See a list of all tickets for an asset in i-doit"
 msgstr ""
 
@@ -4255,7 +4283,7 @@ msgstr ""
 msgid "You can even launch Zammad's new ticket dialog directly from i-doit, with the asset already linked for you:"
 msgstr ""
 
-#: ../extras/i-doit-track-company-property.rst:73
+#: ../extras/i-doit-track-company-property.rst:77
 msgid "(Screencast) Launch the new ticket dialog from within i-doit"
 msgstr ""
 
@@ -4287,7 +4315,7 @@ msgstr ""
 msgid "Manage, edit and organize your knowledge base content by opening the ``Knowledge Base`` tab in the navigation sidebar. This feature is optional. If you don't see it in the navigation side bar, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`knowledge base admin documentation </manage/knowledge-base.html>`."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:11
+#: ../extras/knowledge-base.rst:15
 msgid "Knowledge Base Preview Mode"
 msgstr ""
 
@@ -4299,7 +4327,7 @@ msgstr ""
 msgid "Getting Started"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:21
+#: ../extras/knowledge-base.rst:None
 msgid "Knowledge Base Link to published knowledge base"
 msgstr ""
 
@@ -4307,7 +4335,7 @@ msgstr ""
 msgid "Use the ↗️ button in the top toolbar to see the published knowledge base."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:27
+#: ../extras/knowledge-base.rst:31
 msgid "Knowledge Base Edit Mode"
 msgstr ""
 
@@ -4323,7 +4351,7 @@ msgstr ""
 msgid "Switching Languages"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:42
+#: ../extras/knowledge-base.rst:None
 msgid "Switch languages"
 msgstr ""
 
@@ -4335,7 +4363,7 @@ msgstr ""
 msgid "If you select a language, in which the page hasn't been translated into yet, the behavior depends on the state of the page:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:51
+#: ../extras/knowledge-base.rst:56
 msgid "In edit mode"
 msgstr ""
 
@@ -4343,13 +4371,13 @@ msgstr ""
 msgid "Untranslated pages are marked with a ⚠️ **warning sign**:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:54
-#: ../extras/knowledge-base.rst:62
-#: ../extras/knowledge-base.rst:69
+#: ../extras/knowledge-base.rst:0
+#: ../extras/knowledge-base.rst:0
+#: ../extras/knowledge-base.rst:0
 msgid "Missing translation warning"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:58
+#: ../extras/knowledge-base.rst:64
 msgid "In preview mode"
 msgstr ""
 
@@ -4357,7 +4385,7 @@ msgstr ""
 msgid "Untranslated pages are only visible to users with edit permissions:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:66
+#: ../extras/knowledge-base.rst:71
 msgid "In the published knowledge base"
 msgstr ""
 
@@ -4381,7 +4409,7 @@ msgstr ""
 msgid "The RSS button of the public knowledge base page is located at the bottom of each page. If enabled, the button will be available to anybody visiting the page."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:89
+#: ../extras/knowledge-base.rst:0
 msgid "Screenshot showing the context menu of the RSS button"
 msgstr ""
 
@@ -4397,7 +4425,7 @@ msgstr ""
 msgid "Pressing the RSS button will provide up to two RSS feeds to subscribe to."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:101
+#: ../extras/knowledge-base.rst:0
 msgid "Screenshot showing the modal for of the RSS button"
 msgstr ""
 
@@ -4409,7 +4437,7 @@ msgstr ""
 msgid "If you want to revoke the access and renew your token, you can do so in the RSS modal."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:113
+#: ../extras/knowledge-base.rst:0
 msgid "Screenshot showing the access token reset link on the lower\n"
 "end of the RSS feed modal (internal knowledge base)"
 msgstr ""
@@ -4418,7 +4446,7 @@ msgstr ""
 msgid "Editing Categories"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:121
+#: ../extras/knowledge-base.rst:None
 msgid "Edit category"
 msgstr ""
 
@@ -4446,7 +4474,7 @@ msgstr ""
 msgid "The roles require ``knowledge_base.reader`` permission. Your administrator has to provide the relevant groups with reader permissions for the knowledge base. If you're unsure, please ask your administrator to configure the :admin-docs:`role permissions </manage/roles/agent-permissions.html>` accordingly."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:149
+#: ../extras/knowledge-base.rst:None
 msgid "Screencast showing the visibility option for categories for granular access permissions"
 msgstr ""
 
@@ -4466,7 +4494,7 @@ msgstr ""
 msgid "Editing Answers"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:172
+#: ../extras/knowledge-base.rst:None
 msgid "Edit answer"
 msgstr ""
 
@@ -4474,11 +4502,11 @@ msgstr ""
 msgid "The knowledge base editor comes equipped with the same **rich text editing capabilities** available in the Zammad ticket composer. That means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted text, bullet lists, and more. You can even add file attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:182
+#: ../extras/knowledge-base.rst:196
 msgid "Different link types"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:183
+#: ../extras/knowledge-base.rst:184
 msgid "**Web link**"
 msgstr ""
 
@@ -4486,7 +4514,7 @@ msgstr ""
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:186
+#: ../extras/knowledge-base.rst:188
 msgid "**Link Answer**"
 msgstr ""
 
@@ -4494,7 +4522,7 @@ msgstr ""
 msgid "Internal references to other knowledge base answers (will not break if destination URL changes)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:190
+#: ../extras/knowledge-base.rst:192
 msgid "**Linked Tickets**"
 msgstr ""
 
@@ -4502,7 +4530,7 @@ msgstr ""
 msgid "Internal references to Zammad tickets (visible only in preview and edit mode)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:194
+#: ../extras/knowledge-base.rst:196
 msgid "**Tags**"
 msgstr ""
 
@@ -4510,7 +4538,7 @@ msgstr ""
 msgid "Can help to categorize or label answers for better search results. Please note that tags are visible publicly and can be the same like those in your tickets."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:198
+#: ../extras/knowledge-base.rst:221
 msgid "Visibility"
 msgstr ""
 
@@ -4558,7 +4586,7 @@ msgstr ""
 msgid "Login & Home"
 msgstr ""
 
-#: ../extras/mobile-view.rst:14
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Login Screen"
 msgstr ""
 
@@ -4568,7 +4596,7 @@ msgstr ""
 msgid "Login Screen"
 msgstr ""
 
-#: ../extras/mobile-view.rst:23
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Home Page"
 msgstr ""
 
@@ -4580,7 +4608,7 @@ msgstr ""
 msgid "Search & Overview"
 msgstr ""
 
-#: ../extras/mobile-view.rst:37
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Search Results"
 msgstr ""
 
@@ -4588,7 +4616,7 @@ msgstr ""
 msgid "Search Results"
 msgstr ""
 
-#: ../extras/mobile-view.rst:45
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Ticket Overview"
 msgstr ""
 
@@ -4600,7 +4628,7 @@ msgstr ""
 msgid "Ticket Details"
 msgstr ""
 
-#: ../extras/mobile-view.rst:59
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Ticket Detail View"
 msgstr ""
 
@@ -4608,7 +4636,7 @@ msgstr ""
 msgid "Ticket Detail View"
 msgstr ""
 
-#: ../extras/mobile-view.rst:67
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Ticket Information"
 msgstr ""
 
@@ -4620,11 +4648,11 @@ msgstr ""
 msgid "Notifications & Account"
 msgstr ""
 
-#: ../extras/mobile-view.rst:81
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Notifications"
 msgstr ""
 
-#: ../extras/mobile-view.rst:89
+#: ../extras/mobile-view.rst:0
 msgid "Mobile View Account Overview"
 msgstr ""
 
@@ -4748,15 +4776,15 @@ msgstr ""
 msgid "Zammad now implements a mobile device detection, which results in automatic redirection to mobile view. Even with this mechanism in place it's possible to explicitly switch between the views by using app links:"
 msgstr ""
 
-#: ../extras/mobile-view.rst:155
+#: ../extras/mobile-view.rst:174
 msgid "Continue to desktop link in mobile view"
 msgstr ""
 
-#: ../extras/mobile-view.rst:158
+#: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
 msgstr ""
 
-#: ../extras/mobile-view.rst:166
+#: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link in User Account Overview"
 msgstr ""
 
@@ -4764,15 +4792,15 @@ msgstr ""
 msgid "User Account Overview"
 msgstr ""
 
-#: ../extras/mobile-view.rst:176
+#: ../extras/mobile-view.rst:195
 msgid "Continue to mobile link in desktop view"
 msgstr ""
 
-#: ../extras/mobile-view.rst:179
+#: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
 msgstr ""
 
-#: ../extras/mobile-view.rst:187
+#: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop User Menu"
 msgstr ""
 
@@ -4800,8 +4828,8 @@ msgstr ""
 msgid "Use the ticket sidebar to view and manage organization profiles."
 msgstr ""
 
-#: ../extras/organizations.rst:13
-#: ../extras/organizations.rst:45
+#: ../extras/organizations.rst:17
+#: ../extras/organizations.rst:50
 msgid "Ticket sidebar (organization view)"
 msgstr ""
 
@@ -4813,8 +4841,8 @@ msgstr ""
 msgid "To edit the organization's profile, use the ``Organization`` submenu:"
 msgstr ""
 
-#: ../extras/organizations.rst:21
-#: ../extras/organizations.rst:22
+#: ../extras/organizations.rst:26
+#: ../extras/organizations.rst:0
 msgid "Organization submenu"
 msgstr ""
 
@@ -4822,11 +4850,11 @@ msgstr ""
 msgid "Click the ``Organization ▾`` heading to access additional actions."
 msgstr ""
 
-#: ../extras/organizations.rst:28
+#: ../extras/organizations.rst:34
 msgid "Organization edit dialog"
 msgstr ""
 
-#: ../extras/organizations.rst:29
+#: ../extras/organizations.rst:0
 msgid "Edit organization dialog"
 msgstr ""
 
@@ -4862,7 +4890,7 @@ msgstr ""
 msgid "The reporting is useful to view statistics, get an overview of the number of tickets (e.g. tickets of a specific customer) and to download ticket data from Zammad. You can find the reporting section in the bottom left corner in Zammad next to the avatar icon or your initials:"
 msgstr ""
 
-#: ../extras/reporting.rst:9
+#: ../extras/reporting.rst:None
 msgid "Menu bar with highlighted reporting"
 msgstr ""
 
@@ -4874,7 +4902,7 @@ msgstr ""
 msgid "The reporting screen consists of various sections:"
 msgstr ""
 
-#: ../extras/reporting.rst:16
+#: ../extras/reporting.rst:None
 msgid "Screenshot showing different sections in the reporting screen"
 msgstr ""
 
@@ -4918,7 +4946,7 @@ msgstr ""
 msgid "Secure/Multipurpose Internet Mail Extensions (S/MIME)."
 msgstr ""
 
-#: ../extras/secure-email.rst:9
+#: ../extras/secure-email.rst:14
 msgid "Screencast demo of S/MIME features for both new tickets and replies"
 msgstr ""
 
@@ -4958,7 +4986,7 @@ msgstr ""
 msgid "In special cases it is possible that both systems are configured in your system *and* a customer is using both, as well. In this case, you have an additional button to switch between PGP and S/MIME security types. Otherwise, you just see the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons."
 msgstr ""
 
-#: ../extras/secure-email.rst:43
+#: ../extras/secure-email.rst:48
 msgid "Screenshot of ticket creation with configured PGP and S/MIME"
 msgstr ""
 
@@ -4966,7 +4994,7 @@ msgstr ""
 msgid "Ticket creation with configured PGP *and* S/MIME and available certificates/keys."
 msgstr ""
 
-#: ../extras/secure-email.rst:51
+#: ../extras/secure-email.rst:54
 msgid "Signing"
 msgstr ""
 
@@ -4978,7 +5006,7 @@ msgstr ""
 msgid "In other words, it guarantees message **integrity** and **authenticity**."
 msgstr ""
 
-#: ../extras/secure-email.rst:56
+#: ../extras/secure-email.rst:63
 msgid "Encryption"
 msgstr ""
 
@@ -5003,7 +5031,7 @@ msgstr ""
 msgid "The 🔒 and ✅ icons at the top of a message indicate its encryption and signing status."
 msgstr ""
 
-#: ../extras/secure-email.rst:71
+#: ../extras/secure-email.rst:76
 msgid "Screencast showing details of encryption and signing status"
 msgstr ""
 
@@ -5021,6 +5049,8 @@ msgid "|lock|"
 msgstr ""
 
 #: ../extras/secure-email.rst:138
+#: ../extras/secure-email.rst:138
+#: ../extras/secure-email.rst:138
 msgid "lock"
 msgstr ""
 
@@ -5037,6 +5067,7 @@ msgid "|encryption-error|"
 msgstr ""
 
 #: ../extras/secure-email.rst:151
+#: ../extras/secure-email.rst:151
 msgid "encryption-error"
 msgstr ""
 
@@ -5049,6 +5080,8 @@ msgstr ""
 msgid "|signed|"
 msgstr ""
 
+#: ../extras/secure-email.rst:145
+#: ../extras/secure-email.rst:145
 #: ../extras/secure-email.rst:145
 msgid "signed"
 msgstr ""
@@ -5066,6 +5099,8 @@ msgstr ""
 msgid "|not-signed|"
 msgstr ""
 
+#: ../extras/secure-email.rst:148
+#: ../extras/secure-email.rst:148
 #: ../extras/secure-email.rst:148
 msgid "not-signed"
 msgstr ""
@@ -5087,7 +5122,7 @@ msgstr ""
 msgid "Outgoing emails can only be encrypted for *a single recipient*."
 msgstr ""
 
-#: ../extras/secure-email.rst:109
+#: ../extras/secure-email.rst:114
 msgid "Screencast showing encryption and signing status for both new tickets and replies"
 msgstr ""
 
@@ -5112,6 +5147,7 @@ msgid "|open-lock|"
 msgstr ""
 
 #: ../extras/secure-email.rst:142
+#: ../extras/secure-email.rst:142
 msgid "open-lock"
 msgstr ""
 
@@ -5135,12 +5171,12 @@ msgstr ""
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../extras/secure-email.rst:161
+#: ../extras/secure-email.rst:174
 msgid "“Sign: Unable to find certificate for validation”"
 msgstr ""
 
-#: ../extras/secure-email.rst:162
-#: ../extras/secure-email.rst:177
+#: ../extras/secure-email.rst:0
+#: ../extras/secure-email.rst:0
 msgid "Ticket article shows a warning for failed verification of a signed message"
 msgstr ""
 
@@ -5160,7 +5196,7 @@ msgstr ""
 msgid "The whole point of signature verification is to alert you when someone is trying to pretend to be someone they're not. Never accept a certificate from someone online without verifying it first."
 msgstr ""
 
-#: ../extras/secure-email.rst:176
+#: ../extras/secure-email.rst:190
 msgid "“Encryption: Unable to find private key to decrypt”"
 msgstr ""
 
@@ -5180,7 +5216,7 @@ msgstr ""
 msgid "(But if they're smart, they'll take extra precautions to make sure it really belongs to you.)"
 msgstr ""
 
-#: ../extras/secure-email.rst:195
+#: ../extras/secure-email.rst:196
 msgid "The 🔒 ``Encrypt`` button is disabled"
 msgstr ""
 
@@ -5224,12 +5260,12 @@ msgstr ""
 msgid "Handling Drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:27
+#: ../extras/shared-drafts.rst:43
 msgid "Load a draft"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:28
-#: ../extras/shared-drafts.rst:73
+#: ../extras/shared-drafts.rst:35
+#: ../extras/shared-drafts.rst:83
 msgid "Existing ticket"
 msgstr ""
 
@@ -5237,12 +5273,12 @@ msgstr ""
 msgid "In the ticket detail view, a button ``📝 Draft available`` is shown if a draft is available from you or another agent (see first screenshot on this page). Hovering over the button tells you who created or changed the draft."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:34
+#: ../extras/shared-drafts.rst:0
 msgid "Screenshot shows highlighted \"Draft available\" button and preview dialog of the shared draft."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:37
-#: ../extras/shared-drafts.rst:52
+#: ../extras/shared-drafts.rst:43
+#: ../extras/shared-drafts.rst:71
 msgid "New ticket"
 msgstr ""
 
@@ -5250,11 +5286,11 @@ msgstr ""
 msgid "If you're creating a new ticket and already selected a group, the shared draft sidebar tab on the right side shows up. The shared drafts tab is always hidden if no group is selected!"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:42
+#: ../extras/shared-drafts.rst:0
 msgid "Screenshot shows the ticket creation dialog with highlighted shared draft after group selection."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:45
+#: ../extras/shared-drafts.rst:49
 msgid "Remove draft"
 msgstr ""
 
@@ -5262,11 +5298,11 @@ msgstr ""
 msgid "You can remove any draft (no matter if for new or existing tickets) from within the draft preview screen. Use the ``Delete`` link on the lower end of the dialog. This has no effect on local drafts, agents may have loaded already."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:51
+#: ../extras/shared-drafts.rst:83
 msgid "Saving drafts"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:53
+#: ../extras/shared-drafts.rst:61
 msgid "Adding new drafts"
 msgstr ""
 
@@ -5274,11 +5310,11 @@ msgstr ""
 msgid "To save a new shared draft, set the ticket settings, customer, ticket title and article as desired. Make sure to select a group that supports shared drafts. When you're ready to save the draft, click on shared draft sidebar tab on the right side, enter a meaningful name and click on the ``Create`` button."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:60
+#: ../extras/shared-drafts.rst:0
 msgid "Screenshot shows the new ticket dialog with the highlighted \"create draft\" section."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:63
+#: ../extras/shared-drafts.rst:71
 msgid "Update existing drafts"
 msgstr ""
 
@@ -5286,7 +5322,7 @@ msgstr ""
 msgid "In order to update or rename existing shared drafts for new tickets, simply load the draft in question. Change the information (e.g. ticket settings or content) needed and, if needed, update the drafts name on the right side of the ticket. This way you can not just update existing drafts, but also use existing drafts to create another copy!"
 msgstr ""
 
-#: ../extras/shared-drafts.rst:70
+#: ../extras/shared-drafts.rst:0
 msgid "Screenshot shows shared draft sidebar of the ticket creation dialog."
 msgstr ""
 
@@ -5298,7 +5334,7 @@ msgstr ""
 msgid "When saving was successful, the button ``📝 Draft available`` is show as you can see in the screenshot about loading a draft."
 msgstr ""
 
-#: ../extras/shared-drafts.rst:82
+#: ../extras/shared-drafts.rst:0
 msgid "Screenshot shows highlighted ticket update menu with save draft option in ticket detail view."
 msgstr ""
 
@@ -5326,7 +5362,7 @@ msgstr ""
 msgid "To set up a two-factor method, use the ⋮ **Actions** menu next to it and choose ``Set Up``."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:27
+#: ../extras/two-factor-authentication.rst:None
 msgid "Set Up Two-Factor Method in Password & Authentication"
 msgstr ""
 
@@ -5334,7 +5370,7 @@ msgstr ""
 msgid "In a modal dialog, you will be asked to confirm your current password."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:33
+#: ../extras/two-factor-authentication.rst:None
 msgid "Password Check Modal Dialog"
 msgstr ""
 
@@ -5366,7 +5402,7 @@ msgstr ""
 msgid "Look for ``Try another method`` link below the sign in box. In case you don't see this link, you probably have no other available two-factor methods set up, or your admin has disabled this feature."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:75
+#: ../extras/two-factor-authentication.rst:None
 msgid "Try Another Method Link"
 msgstr ""
 
@@ -5374,8 +5410,8 @@ msgstr ""
 msgid "In the new screen, choose another two-factor authentication method and complete your sign-in."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:82
-#: ../extras/two-factor-authentication.rst:91
+#: ../extras/two-factor-authentication.rst:None
+#: ../extras/two-factor-authentication.rst:None
 msgid "Try Another Method"
 msgstr ""
 
@@ -5395,7 +5431,7 @@ msgstr ""
 msgid "Recovery codes are one-time use security codes that can be used to sign in if you lose access to your other two-factor authentication methods. They can only be used as a **backup method**. If the feature is enabled by your admin, recovery codes will be automatically generated for you during the setup of your initial two-factor authentication method. You will be asked to print out or save the generated recovery codes in a safe place. Once used, a recovery code cannot be reused."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:110
+#: ../extras/two-factor-authentication.rst:None
 msgid "Recovery Codes Modal Dialog"
 msgstr ""
 
@@ -5411,8 +5447,8 @@ msgstr ""
 msgid "To set an already set up two-factor method as default, use the ⋮ **Actions** menu next to it in *Avatar > Profile > Password & Authentication* and choose ``Set as default``."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:126
-#: ../extras/two-factor-authentication.rst:142
+#: ../extras/two-factor-authentication.rst:None
+#: ../extras/two-factor-authentication.rst:None
 msgid "Edit Two-Factor Method in Password & Authentication"
 msgstr ""
 
@@ -5440,7 +5476,7 @@ msgstr ""
 msgid "To remove an already set up two-factor method, use the ⋮ **Actions** menu next to it in *Avatar > Profile > Password & Authentication* and choose ``Remove``."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:159
+#: ../extras/two-factor-authentication.rst:None
 msgid "Remove Two-Factor Method in Password & Authentication"
 msgstr ""
 
@@ -5456,7 +5492,7 @@ msgstr ""
 msgid "Your system admin may choose to require you to set up at least one two-factor method for your account. In this case, if you haven't already set up a method, you will be asked to do so at your next sign-in or application reload."
 msgstr ""
 
-#: ../extras/two-factor-authentication.rst:173
+#: ../extras/two-factor-authentication.rst:None
 msgid "Prompt to set up two-factor authentication"
 msgstr ""
 
@@ -5465,7 +5501,7 @@ msgid "Choose a method of your choice, and then follow its :ref:`setup guide <se
 msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:2
-#: ../extras/two-factor-authentication/authenticator-app-setup.rst:9
+#: ../extras/two-factor-authentication/authenticator-app-setup.rst:None
 msgid "Authenticator App Setup"
 msgstr ""
 
@@ -5509,7 +5545,7 @@ msgstr ""
 msgid "To sign-in with authenticator app two-factor method, first enter your username and password and click ``Sign in``. Then, open the authenticator app on your device, and get the 6-digit code next to your Zammad account."
 msgstr ""
 
-#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:8
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
 msgid "Security Code in Google Authenticator App"
 msgstr ""
 
@@ -5517,7 +5553,7 @@ msgstr ""
 msgid "Back in Zammad, enter the provided code to the **Security Code** field and click on ``Sign in``."
 msgstr ""
 
-#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:16
+#: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
 msgid "Authenticator App Security Code during Sign-in"
 msgstr ""
 
@@ -5526,7 +5562,7 @@ msgid "Entering security codes from your authenticator app is a time-sensitive o
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:2
-#: ../extras/two-factor-authentication/security-keys-setup.rst:12
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Security Keys Setup"
 msgstr ""
 
@@ -5542,7 +5578,7 @@ msgstr ""
 msgid "First, enter a descriptive **Name for this security key** you will be registering with your account, so you could later identify it in the list. Then, click on ``Next``."
 msgstr ""
 
-#: ../extras/two-factor-authentication/security-keys-setup.rst:20
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Security Key Name"
 msgstr ""
 
@@ -5550,11 +5586,11 @@ msgstr ""
 msgid "Next, depending you your browser, you will be presented with different options. Select one that refers to your chosen security key and follow the instructions on the screen."
 msgstr ""
 
-#: ../extras/two-factor-authentication/security-keys-setup.rst:28
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Security Key Registration"
 msgstr ""
 
-#: ../extras/two-factor-authentication/security-keys-setup.rst:32
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Security Key Setup dialog in Safari on macOS"
 msgstr ""
 
@@ -5572,7 +5608,7 @@ msgid "If the registration was successful, the modal dialog will close and you a
 msgstr ""
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:49
-#: ../extras/two-factor-authentication/security-keys-setup.rst:57
+#: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Editing Security Keys"
 msgstr ""
 
@@ -5592,7 +5628,7 @@ msgstr ""
 msgid "To sign-in with security keys two-factor method, first enter your username and password and click ``Sign in``."
 msgstr ""
 
-#: ../extras/two-factor-authentication/security-keys-sign-in.rst:7
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:None
 msgid "Using Security Key during Sign-in"
 msgstr ""
 
@@ -5600,7 +5636,7 @@ msgstr ""
 msgid "Then, when asked by the browser, present your security key as instructed."
 msgstr ""
 
-#: ../extras/two-factor-authentication/security-keys-sign-in.rst:13
+#: ../extras/two-factor-authentication/security-keys-sign-in.rst:None
 msgid "Security Key Sign-in dialog in Safari on macOS"
 msgstr ""
 
@@ -5628,7 +5664,7 @@ msgstr ""
 msgid "Clicking on your avatar picture provides the following sections in the user menu:"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:16
+#: ../extras/user-menu-profile-settings.rst:18
 msgid "Documentation links"
 msgstr ""
 
@@ -5636,7 +5672,7 @@ msgstr ""
 msgid "Find a link to this documentation at the top of the menu. In case you also have admin permissions, there is a link to the admin documentation as well."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:20
+#: ../extras/user-menu-profile-settings.rst:24
 msgid "Recently viewed"
 msgstr ""
 
@@ -5644,11 +5680,11 @@ msgstr ""
 msgid "All information you've viewed previously (tickets, users, organizations). Helps you to easily access items without searching or scrolling through your overviews. Since this list is limited, old items will automatically disappear."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:26
+#: ../extras/user-menu-profile-settings.rst:42
 msgid "Further actions"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:27
+#: ../extras/user-menu-profile-settings.rst:28
 msgid "Dark mode"
 msgstr ""
 
@@ -5656,7 +5692,7 @@ msgstr ""
 msgid "Quickly toggle dark and light mode without using a keyboard shortcut."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:30
+#: ../extras/user-menu-profile-settings.rst:33
 msgid "Continue to mobile"
 msgstr ""
 
@@ -5664,7 +5700,7 @@ msgstr ""
 msgid "Opens the :doc:`mobile view <mobile-view>` of Zammad. Use this if you are on a device with limited display size and the automatic forwarding didn't work."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:35
+#: ../extras/user-menu-profile-settings.rst:36
 msgid "Keyboard shortcuts"
 msgstr ""
 
@@ -5672,7 +5708,7 @@ msgstr ""
 msgid ":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:38
+#: ../extras/user-menu-profile-settings.rst:42
 msgid "Profile"
 msgstr ""
 
@@ -5680,7 +5716,7 @@ msgstr ""
 msgid "Opens your :ref:`profile settings <user-profile-settings>` which provide further options regarding your account. Customers do not have access to all areas, even if your administrator added the permissions to them."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:44
+#: ../extras/user-menu-profile-settings.rst:46
 msgid "Sign out"
 msgstr ""
 
@@ -5752,7 +5788,7 @@ msgstr ""
 msgid "Use the first four columns to choose when to receive **internal notifications**. The right column enables email notification as well."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:117
+#: ../extras/user-menu-profile-settings.rst:134
 msgid "Limit Groups"
 msgstr ""
 
@@ -5800,7 +5836,7 @@ msgstr ""
 msgid "If it is activated, the order does not change, even if your admin renames or reorders the overviews. The overview order is stored in your profile and thus applies to any device you use with your account."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:167
+#: ../extras/user-menu-profile-settings.rst:0
 msgid "Screencast showing how to drag & drop overviews order and reset the\n"
 "order back to default"
 msgstr ""
@@ -5842,9 +5878,11 @@ msgid "See a list of third party services (e.g. Facebook or Google) linked to yo
 msgstr ""
 
 #: ../index.rst:22
+#: ../index.rst:22
 msgid "Advanced Topics"
 msgstr ""
 
+#: ../index.rst:38
 #: ../index.rst:38
 msgid "Extras"
 msgstr ""
