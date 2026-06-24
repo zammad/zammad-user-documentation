@@ -18,8 +18,8 @@ Basics
 ^^^^^^
 
 If you want to add a checklist to a ticket, go to the **Checklist** tab and
-click either on ``Add empty checklist`` (1) or ``Add from template`` (2) after
-selecting a template. If you can't see the ``Add from template`` area, there is
+click either on ``Add empty checklist`` (1) or ``Add from a template`` (2) after
+selecting a template. If you can't see the ``Add from a template`` area, there is
 no template available.
 
 .. figure:: /images/extras/checklist/checklist-creation.png
