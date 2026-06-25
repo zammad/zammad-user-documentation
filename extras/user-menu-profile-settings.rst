@@ -136,7 +136,7 @@ account.
    .. hint:: The contents of these email notifications
       can be customized on self-hosted installations. Administrators can learn
       more in the
-      :admin-docs:`system notification configuration </manage/trigger/system-notifications.html>`.
+      :admin-docs:`system notification configuration </misc/system-notifications.html>`.
 
 :Out of Office:
 
