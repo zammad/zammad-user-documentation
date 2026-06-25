@@ -1,144 +1,97 @@
 ﻿Secure Email
-============
+=============
 
-Zammad supports two systems of high-security email communication:
+Zammad supports two systems for secure email communication:
 
-   * Pretty Good Privacy (PGP)
-   * Secure/Multipurpose Internet Mail Extensions (S/MIME).
+- **PGP** (Pretty Good Privacy)
+- **S/MIME** (Secure/Multipurpose Internet Mail Extensions)
 
-.. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
-   :alt: Screencast demo of S/MIME features for both new tickets and replies
-   :scale: 60%
-   :align: center
-
-   Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons to turn on encryption and
-   signing of outgoing emails.
+Both systems allow you to exchange **signed** and **encrypted** messages
+with others.
 
 Prerequisites
 -------------
 
-Both features are **optional**; if you don't see the
-🔒 ``Encrypt`` and ✅ ``Sign`` buttons in the ticket composer,
-that means your administrator hasn't activated any of them yet.
+- Both features are optional. If you don't see the ``Encrypt`` and ``Sign``
+  buttons in the email article editor, your administrator hasn't activated them
+  yet.
+- PGP and S/MIME only work if the other party is using them too.
+- Your administrator is responsible for adding all necessary certificates
+  and keys in Zammad's admin settings.
 
-Administrators can learn more here:
+.. hint::
+   Administrators can find configuration details in the admin documentation:
 
-* :admin-docs:`PGP </system/integrations/pgp/index.html>`
-* :admin-docs:`S/MIME </system/integrations/smime/index.html>`
+   - :admin-docs:`PGP </system/integrations/pgp/index.html>`
+   - :admin-docs:`S/MIME </system/integrations/smime/index.html>`
 
-PGP and S/MIME are only working if the other party is using them too.
+If these requirements are met, the feature should work out of the box and
+Zammad encrypts, decrypts, signs and verifies signatures of emails if possible.
+Your admin can define a default behavior for each group. However, you can
+override the default for each outgoing email article on your own by switching
+encryption and signing on or off (see example in screenshot below with turned
+off encryption and activated signing). Read on to learn more about it and to
+find common errors.
 
-Overview
---------
-
-PGP and S/MIME are the most widely-supported methods for secure email
-communication. With each of the systems, you can exchange **signed** and
-**encrypted** messages with others.
-
-.. note:: In special cases it is possible that both systems are configured in
-   your system *and* a customer is using both, as well. In this case, you have
-   an additional button to switch between PGP and S/MIME security types.
-   Otherwise, you just see the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons.
-
-.. figure:: /images/extras/secure-email/pgp_and_smime.png
-   :alt: Screenshot of ticket creation with configured PGP and S/MIME
-   :scale: 80%
+.. figure:: /images/extras/secure-email/editor-buttons.png
+   :alt: Screenshot shows editor for outgoing email with disabled encryption and enabled signing.
    :align: center
 
-   Ticket creation with configured PGP *and* S/MIME and available
-   certificates/keys.
+Signing & Encryption
+--------------------
 
 Signing
-   is a proof that a message hasn't been manipulated on its way.
-
-   In other words, it guarantees message **integrity** and **authenticity**.
+   Signing is a proof that a message hasn't been manipulated on its way. It
+   guarantees message **integrity** and **authenticity**.
 
 Encryption
-   scrambles a message so that it can only be unscrambled by the intended
-   recipient.
+   Encryption scrambles a message so that it can only be unscrambled by the
+   intended recipient. It guarantees message **privacy** and **data security**.
 
-   In other words, it guarantees message **privacy** and **data security**.
+Incoming Email
+--------------
 
-   Your administrator is responsible for adding all the necessary certificates
-   and keys in Zammad's admin settings.
+The lock and check icons at the top of a message indicate its encryption
+and signing status. Click on an incoming message article to expand its details.
+In the details, you can hover over the security status to see more information.
 
-📬 Incoming
-^^^^^^^^^^^
-
-The 🔒 and ✅ icons at the top of a message indicate its encryption and signing
-status.
-
-.. figure:: /images/extras/secure-email/checking-security-metadata.gif
-   :alt: Screencast showing details of encryption and signing status
-   :scale: 50%
-   :align: center
-
-   Click on an incoming message to expand its details.
-   Hover over the security status to show more information.
-
-.. list-table:: Status Icons (Incoming)
-   :widths: 5 45
+.. list-table:: Status Icons for Incoming Emails
+   :widths: 20 80
 
    * - |lock|
-     - This message was **encrypted for you**.
-
-       Even if it was intercepted by a third party (hacker, gov't agency, etc.),
-       they won't be able to read it.
-
+     - **Encrypted for you.** Even if intercepted by a third party, they won't be able to read it.
    * - |encryption-error|
-     - This message can **not be decrypted**.
-
+     - **Cannot be decrypted.** Zammad lacks the required key to decrypt this message.
    * - |signed|
-     - This message's signature has been **successfully verified**.
-
-       You can be confident that it's authentic and that the content has not
-       been modified.
-
+     - **Successfully verified.** You can be confident it's authentic and the content has not been modified.
    * - |not-signed|
-     - The verification of the signature of this message has **failed**. You
-       can find more information by hovering over the icon.
+     - **Signature verification failed.** Hover over the icon for more information.
 
-📮 Outgoing
-^^^^^^^^^^^
+Outgoing Email
+--------------
 
-Use the 🔒 ``Encrypt`` and ✅ ``Sign`` buttons
-to turn on encryption and signing for outgoing emails.
+Use the ``Encrypt`` and ``Sign`` buttons to turn on encryption and signing
+for outgoing emails. They are available for new tickets and replies. Hover over
+the buttons to show details.
 
-.. note:: Outgoing emails can only be encrypted for *a single recipient*.
+.. note::
+   Outgoing emails can only be encrypted for *a single recipient*.
 
-.. figure:: /images/extras/secure-email/creating-articles_signed-and-encrypted.gif
-   :alt: Screencast showing encryption and signing status for both new tickets and replies
-   :scale: 50%
-   :align: center
-
-   🔒 ``Encrypt`` and ✅ ``Sign`` buttons are present on both new tickets and replies.
-   Hover over the buttons to show details.
-
-.. list-table:: Status Icons (Outgoing)
-   :widths: 5 45
+.. list-table:: Status Icons for Outgoing Emails
+   :widths: 20 80
 
    * - |lock|
-     - This message **will be encrypted**.
-
-       Even if it's intercepted by a third party (hacker, gov't agency, etc.),
-       they won't be able to read it.
-
+     - **Will be encrypted.** Even if intercepted by a third party, they won't be able to read it.
    * - |open-lock|
-     - This message **will not be encrypted**.
-
+     - **Will not be encrypted.**
    * - |signed|
-     - This message **will be signed**.
-
-       Recipients can verify that it came from you and that the content has
-       not been modified.
-
+     - **Will be signed.** Recipients can verify that it came from you and that the content has not been modified.
    * - |not-signed|
-     - This message **will not be signed**.
+     - **Will not be signed.**
 
 .. |lock| image:: /images/extras/secure-email/icon_lock.png
    :width: 24px
    :height: 24px
-   :align: top
 .. |open-lock| image:: /images/extras/secure-email/icon_open-lock.png
    :width: 24px
    :height: 24px
@@ -155,45 +108,47 @@ to turn on encryption and signing for outgoing emails.
 Troubleshooting
 ---------------
 
-📬 Incoming
-^^^^^^^^^^^
+Incoming Email
+^^^^^^^^^^^^^^
 
-“Sign: Unable to find certificate for validation”
+Sign: Unable to find certificate for validation
    .. figure:: /images/extras/secure-email/verification-not-possible-due-to-missing-certificates.png
       :alt: Ticket article shows a warning for failed verification of a signed message
       :align: center
 
    Without the sender's certificate, Zammad cannot verify the message signature.
+   Ask your administrator to add the sender's certificate to Zammad's
+   certificate store.
 
-   Ask your administrator to add the sender's certificate to Zammad's certificate store.
+   .. warning:: Always verify certificates in-person or over the phone!
+      The whole point of signature verification is to alert you when someone is
+      trying to pretend to be someone they're not. Never accept a certificate
+      from someone online without verifying it first.
 
-   .. warning:: 🕵️ **ALWAYS verify certificates in-person or over the phone!**
-
-      The whole point of signature verification is to alert you
-      when someone is trying to pretend to be someone they're not.
-      Never accept a certificate from someone online without verifying it first.
-
-“Encryption: Unable to find private key to decrypt”
+Encryption: Unable to find private key to decrypt
    .. figure:: /images/extras/secure-email/decryption-not-possible-due-to-missing-certificates.png
-      :alt: Ticket article shows a warning for failed verification of a signed message
+      :alt: Ticket article shows a warning for failed decryption of an encrypted message
       :align: center
 
-   This message was encrypted with a certificate that does not match any on file.
-   Without a matching private key, Zammad cannot decrypt the message.
+   This message was encrypted with a certificate that does not match any on
+   file. Without a matching private key, Zammad cannot decrypt the message.
+   Ask your administrator to verify your organization's private key in Zammad's
+   certificate store, and ask the sender to double-check the public key they
+   used to encrypt the message.
 
-   Ask your administrator to verify your organization's private key in Zammad's certificate store,
-   and ask the sender to double-check the public key they used to encrypt the message.
+Outgoing Email
+^^^^^^^^^^^^^^
 
-   .. hint:: 📢 **Your public key can be safely shared with anyone.**
+The ``Encrypt`` button is disabled
+   Ask your administrator to add the recipient's certificate to Zammad's
+   certificate store.
 
-      (But if they're smart, they'll take extra precautions
-      to make sure it really belongs to you.)
+The ``Sign`` button is disabled
+   Ask your administrator to verify your organization's private key in Zammad's
+   certificate store.
 
-📮 Outgoing
-^^^^^^^^^^^
-
-The 🔒 ``Encrypt`` button is disabled
-   Ask your administrator to add the recipient's certificate to Zammad's certificate store.
-
-The ✅ ``Sign`` button is disabled
-   Ask your administrator to verify your organization's private key in Zammad's certificate store.
+I can see a ``PGP`` and ``S/MIME`` button. What should I do?
+   In special cases, both systems may be configured in your system and a
+   customer may be using both as well. In this case, you have an additional
+   button to switch between PGP and S/MIME security types. Just pick one,
+   make sure encryption and signing is enabled and send your email.
