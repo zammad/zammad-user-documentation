@@ -21,7 +21,7 @@ click on ``Next``.
    :alt: Security Key Name
    :align: center
 
-Next, depending you your browser, you will be presented with different options.
+Next, depending on your browser, you will be presented with different options.
 Select one that refers to your chosen security key and follow the instructions
 on the screen.
 
