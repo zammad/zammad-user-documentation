@@ -188,14 +188,14 @@ Different link types
       destination URL changes).
 
    Image
-      Include an image from your computer in the answer. Unless attached images,
-      it gets embedded in the answer itself.
+      Include an image from your computer in the answer. Unlike file
+      attachments, these images are embedded directly in the answer.
 
    Video
       Include a video to embed in the answer. By default, you can embed videos
       from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and
-      PeerTube instances can be enabled by your admin as well. Find a hint
-      about the supported video services in the video dialog below the URL
+      PeerTube instances can be enabled by your admin as well. A list of
+      supported video services is displayed in the video dialog below the URL
       field.
 
    Linked Tickets
@@ -203,13 +203,14 @@ Different link types
       mode).
 
    Attachments
-      Add any file as attachment to your answer. Such an attachment isn't
+      Add any file as an attachment to your answer. Such an attachment isn't
       embedded in the body of the answer. Readers can download it by clicking
       on it in the attachment section.
 
    Tags
-      Can help to categorize or label answers for better search results. Please note
-      that tags are visible publicly and can be the same like those in your tickets.
+      Can help to categorize or label answers for better search results. Please
+      note that tags are visible publicly and can be the same as those in your
+      tickets.
 
 Visibility
    Set the visibility of an answer to control who can see an article,
