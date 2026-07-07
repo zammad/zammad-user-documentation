@@ -99,8 +99,8 @@ talk to your administrator about enabling the function.
       to.
 
       .. figure:: /images/extras/knowledge-base/knowledge-base-internal-rss-function.png
-         :alt: Screenshot showing the modal for of the RSS button
-         :width: 99%
+         :alt: Screenshot shows the modal for of the RSS button
+         :align: center
 
       .. warning::
 
@@ -108,7 +108,7 @@ talk to your administrator about enabling the function.
          Never share these URLs with anyone else!
 
          If you want to revoke the access and renew your token, you can do so
-         in the RSS modal.
+         in the RSS dialog.
 
          .. figure:: /images/extras/knowledge-base/knowledge-base-reset-rss-access-token.png
             :alt: Screenshot showing the access token reset link on the lower
@@ -146,8 +146,8 @@ If you're unsure, please ask your administrator to configure the
 :admin-docs:`role permissions </manage/roles/agent-permissions.html>`
 accordingly.
 
-.. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.gif
-   :alt: Screencast showing the visibility option for categories for granular access permissions
+.. figure:: /images/extras/knowledge-base/knowledge-base-granular-category-permissions.png
+   :alt: Screenshot shows the granular category permissions for knowledge base
    :align: center
 
 In general, permissions of a parent category are inherited! If you want to
@@ -177,23 +177,40 @@ The knowledge base editor comes equipped with the same
 **rich text editing capabilities** available in the Zammad ticket composer.
 That means you can use the same
 :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to insert formatted
-text, bullet lists, and more. You can even add file attachments and links!
+text, bullet lists and more. You can even add file attachments and links!
 
 Different link types
-   **Web link**
-      URLs pointing to other websites.
+   Web link
+     URLs pointing to other websites.
 
-   **Link Answer**
+   Link Answer
       Internal references to other knowledge base answers (will not break if
       destination URL changes).
 
-   **Linked Tickets**
+   Image
+      Include an image from your computer in the answer. Unlike file
+      attachments, these images are embedded directly in the answer.
+
+   Video
+      Include a video to embed in the answer. By default, you can embed videos
+      from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and
+      PeerTube instances can be enabled by your admin as well. A list of
+      supported video services is displayed in the video dialog below the URL
+      field.
+
+   Linked Tickets
       Internal references to Zammad tickets (visible only in preview and edit
       mode).
 
-   **Tags**
-      Can help to categorize or label answers for better search results. Please note
-      that tags are visible publicly and can be the same like those in your tickets.
+   Attachments
+      Add any file as an attachment to your answer. Such an attachment isn't
+      embedded in the body of the answer. Readers can download it by clicking
+      on it in the attachment section.
+
+   Tags
+      Can help to categorize or label answers for better search results. Please
+      note that tags are visible publicly and can be the same as those in your
+      tickets.
 
 Visibility
    Set the visibility of an answer to control who can see an article,
