@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 08:43+0200\n"
+"POT-Creation-Date: 2026-07-07 14:22+0200\n"
 "PO-Revision-Date: 2026-07-02 16:02+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
@@ -1586,7 +1586,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**Pausiert, im Moment keine Aktion erforderlich** (z.B. warten auf)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -3024,6 +3024,7 @@ msgstr ""
 "auf eine sofortige Eskalation hoffen."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../extras/knowledge-base.rst:213
 msgid "Tags"
 msgstr "Tags"
 
@@ -7381,7 +7382,9 @@ msgstr ""
 "Abonnieren an."
 
 #: ../extras/knowledge-base.rst:0
-msgid "Screenshot showing the modal for of the RSS button"
+#, fuzzy
+#| msgid "Screenshot showing the modal for of the RSS button"
+msgid "Screenshot shows the modal for of the RSS button"
 msgstr "Bildschirmaufnahme zeigt den Dialog für den RSS-Knopf"
 
 #: ../extras/knowledge-base.rst:107
@@ -7393,9 +7396,13 @@ msgstr ""
 "enthalten**. Geben Sie diese URLs niemals weiter!"
 
 #: ../extras/knowledge-base.rst:110
+#, fuzzy
+#| msgid ""
+#| "If you want to revoke the access and renew your token, you can do so in "
+#| "the RSS modal."
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
-"RSS modal."
+"RSS dialog."
 msgstr ""
 "Falls Sie den Zugriff für den Token entziehen und ihn erneuenten möchte, "
 "können Sie das im RSS-Dialog tun."
@@ -7475,12 +7482,14 @@ msgstr ""
 "permissions.html>` entsprechend zu konfigurieren."
 
 #: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
+#, fuzzy
+#| msgid ""
+#| "Your administrator has to provide the relevant groups with reader "
+#| "permissions for the knowledge base."
+msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
-"Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
-"für differenzierte Kategorieberechtigungen"
+"Ihr Administrator muss die relevanten Gruppen mit Reader-Rechten für die "
+"Wissensdatenbank versehen."
 
 #: ../extras/knowledge-base.rst:153
 msgid ""
@@ -7531,11 +7540,18 @@ msgid "Edit answer"
 msgstr "Antwort editieren"
 
 #: ../extras/knowledge-base.rst:176
+#, fuzzy
+#| msgid ""
+#| "The knowledge base editor comes equipped with the same **rich text "
+#| "editing capabilities** available in the Zammad ticket composer. That "
+#| "means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-"
+#| "shortcuts>` to insert formatted text, bullet lists, and more. You can "
+#| "even add file attachments and links!"
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
 "use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"insert formatted text, bullet lists, and more. You can even add file "
+"insert formatted text, bullet lists and more. You can even add file "
 "attachments and links!"
 msgstr ""
 "Der Knowledge Base-Editor ist mit den gleichen **Bearbeitungsfunktionen** "
@@ -7544,12 +7560,14 @@ msgstr ""
 "shortcuts>` verwenden können, um Text-Formatierungen, Aufzählungszeichen und "
 "mehr zu nutzen. Es können sogar Dateianhänge und Links hinzugefügt werden!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:213
 msgid "Different link types"
 msgstr "Verschiedene Link-Typen"
 
 #: ../extras/knowledge-base.rst:184
-msgid "**Web link**"
+#, fuzzy
+#| msgid "**Web link**"
+msgid "Web link"
 msgstr "**Web-Link**"
 
 #: ../extras/knowledge-base.rst:184
@@ -7557,7 +7575,9 @@ msgid "URLs pointing to other websites."
 msgstr "URLs, die auf andere Websites verweisen."
 
 #: ../extras/knowledge-base.rst:188
-msgid "**Link Answer**"
+#, fuzzy
+#| msgid "**Link Answer**"
+msgid "Link Answer"
 msgstr "**Antwort verknüpfen**"
 
 #: ../extras/knowledge-base.rst:187
@@ -7569,10 +7589,34 @@ msgstr ""
 "funktionslos, wenn sich die Ziel-URL ändert)."
 
 #: ../extras/knowledge-base.rst:192
-msgid "**Linked Tickets**"
-msgstr "**Verknüpfte Tickets**"
+msgid "Image"
+msgstr ""
 
 #: ../extras/knowledge-base.rst:191
+msgid ""
+"Include an image from your computer in the answer. Unlike file attachments, "
+"these images are embedded directly in the answer."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:199
+msgid "Video"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:195
+msgid ""
+"Include a video to embed in the answer. By default, you can embed videos "
+"from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
+"PeerTube instances can be enabled by your admin as well. A list of supported "
+"video services is displayed in the video dialog below the URL field."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:203
+#, fuzzy
+#| msgid "Link Tickets"
+msgid "Linked Tickets"
+msgstr "Tickets verknüpfen"
+
+#: ../extras/knowledge-base.rst:202
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7580,25 +7624,37 @@ msgstr ""
 "Interne Verweise auf Zammad Tickets (nur in der Vorschau und im "
 "Bearbeitungsmodus sichtbar)."
 
-#: ../extras/knowledge-base.rst:196
-msgid "**Tags**"
-msgstr "**Tags**"
+#: ../extras/knowledge-base.rst:208
+msgid "Attachments"
+msgstr ""
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:206
+msgid ""
+"Add any file as an attachment to your answer. Such an attachment isn't "
+"embedded in the body of the answer. Readers can download it by clicking on "
+"it in the attachment section."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:211
+#, fuzzy
+#| msgid ""
+#| "Can help to categorize or label answers for better search results. Please "
+#| "note that tags are visible publicly and can be the same like those in "
+#| "your tickets."
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
-"note that tags are visible publicly and can be the same like those in your "
+"note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
 "Dies kann dabei helfen, Antworten zu kategorisieren oder mit Tags zu "
 "versehen, um bessere Suchergebnisse zu erzielen. Bitte beachten Sie, dass "
 "Tags öffentlich sichtbar sind und dieselben wie in Ihren Tickets sind."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:238
 msgid "Visibility"
 msgstr "Sichtbarkeit"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:216
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7609,31 +7665,31 @@ msgstr ""
 "späteren Zeitpunkt. Artikel sind entsprechend ihrer Sichtbarkeit farblich "
 "gekennzeichnet:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:221
 msgid "**Public** (visible to everyone)"
 msgstr "**Öffentlich** (für jeden sichtbar)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Intern** (nur sichtbar für Agenten und Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Entwurf / geplant / archiviert** (sichtbar nur für Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:241
 msgid "Using Answers In Ticket Articles"
 msgstr "Antworten in Ticket-Artikeln benutzen"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:243
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9170,8 +9226,13 @@ msgid "Security Key Name"
 msgstr "Name Sicherheits-Schlüssel"
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:24
+#, fuzzy
+#| msgid ""
+#| "Next, depending you your browser, you will be presented with different "
+#| "options. Select one that refers to your chosen security key and follow "
+#| "the instructions on the screen."
 msgid ""
-"Next, depending you your browser, you will be presented with different "
+"Next, depending on your browser, you will be presented with different "
 "options. Select one that refers to your chosen security key and follow the "
 "instructions on the screen."
 msgstr ""
@@ -9718,6 +9779,19 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
 "außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
 "Dokumentationen </index.html>` verfügbar."
+
+#~ msgid ""
+#~ "Screencast showing the visibility option for categories for granular "
+#~ "access permissions"
+#~ msgstr ""
+#~ "Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für "
+#~ "Kategorien für differenzierte Kategorieberechtigungen"
+
+#~ msgid "**Linked Tickets**"
+#~ msgstr "**Verknüpfte Tickets**"
+
+#~ msgid "**Tags**"
+#~ msgstr "**Tags**"
 
 #~ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 #~ msgstr ""
@@ -12139,13 +12213,6 @@ msgstr ""
 
 #~ msgid "**⚙️ Roles require knowledge base reader permission**"
 #~ msgstr "**⚙️ Rollen erfordern Wissensdatenbank-Reader-Rechte**"
-
-#~ msgid ""
-#~ "Your administrator has to provide the relevant groups with reader "
-#~ "permissions for the knowledge base."
-#~ msgstr ""
-#~ "Ihr Administrator muss die relevanten Gruppen mit Reader-Rechten für die "
-#~ "Wissensdatenbank versehen."
 
 #~ msgid "**🥵 Beware of visibility levels**"
 #~ msgstr "**🥵 Beachten Sie Sichtbarkeitsebenen**"
