@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 08:43+0200\n"
-"PO-Revision-Date: 2026-07-02 16:02+0000\n"
+"POT-Creation-Date: 2026-07-07 14:22+0200\n"
+"PO-Revision-Date: 2026-07-09 16:07+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -1542,7 +1542,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**На паузи, не захтева обраду** (нпр. на чекању)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2916,6 +2916,7 @@ msgstr ""
 "моменталној ескалацији."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../extras/knowledge-base.rst:213
 msgid "Tags"
 msgstr "Ознаке"
 
@@ -7118,7 +7119,7 @@ msgstr ""
 "претплатити."
 
 #: ../extras/knowledge-base.rst:0
-msgid "Screenshot showing the modal for of the RSS button"
+msgid "Screenshot shows the modal for of the RSS button"
 msgstr "Снимак екрана који приказује дијалог RSS дугмета"
 
 #: ../extras/knowledge-base.rst:107
@@ -7132,7 +7133,7 @@ msgstr ""
 #: ../extras/knowledge-base.rst:110
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
-"RSS modal."
+"RSS dialog."
 msgstr ""
 "Ако желите да опозовете приступ и обновите свој токен, то можете учинити у "
 "RSS дијалогу."
@@ -7209,12 +7210,8 @@ msgstr ""
 "docs:`дозволе улоге </manage/roles/agent-permissions.html>`."
 
 #: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
-msgstr ""
-"Снимак екрана који приказује опцију видљивости за ограничене дозволе "
-"категорије"
+msgid "Screenshot shows the granular category permissions for knowledge base"
+msgstr "Снимак екрана који приказује грануларне дозволе категорије базе знања"
 
 #: ../extras/knowledge-base.rst:153
 msgid ""
@@ -7265,7 +7262,7 @@ msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
 "use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"insert formatted text, bullet lists, and more. You can even add file "
+"insert formatted text, bullet lists and more. You can even add file "
 "attachments and links!"
 msgstr ""
 "Уредник базе знања је опремљен истим **могућностима за уређивање богатог "
@@ -7274,21 +7271,21 @@ msgstr ""
 "бисте уметнули форматирани текст, листе са ознакама и још много тога. Можете "
 "чак додати датотеке прилога и везе!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:213
 msgid "Different link types"
 msgstr "Различите врсте веза"
 
 #: ../extras/knowledge-base.rst:184
-msgid "**Web link**"
-msgstr "**Интернет линк**"
+msgid "Web link"
+msgstr "Интернет линк"
 
 #: ../extras/knowledge-base.rst:184
 msgid "URLs pointing to other websites."
 msgstr "URL адресе које упућују на друге интернет локације."
 
 #: ../extras/knowledge-base.rst:188
-msgid "**Link Answer**"
-msgstr "**Веза ка чланку**"
+msgid "Link Answer"
+msgstr "Веза ка чланку"
 
 #: ../extras/knowledge-base.rst:187
 msgid ""
@@ -7299,10 +7296,39 @@ msgstr ""
 "се циљна URL путања промени)."
 
 #: ../extras/knowledge-base.rst:192
-msgid "**Linked Tickets**"
-msgstr "**Повезани тикети**"
+msgid "Image"
+msgstr "Слика"
 
 #: ../extras/knowledge-base.rst:191
+msgid ""
+"Include an image from your computer in the answer. Unlike file attachments, "
+"these images are embedded directly in the answer."
+msgstr ""
+"Убаците слику у чланак отпремањем са вашег рачунара. За разлику од датотека "
+"прилога, ове слике ће бити интегрисане директно у чланак."
+
+#: ../extras/knowledge-base.rst:199
+msgid "Video"
+msgstr "Видео"
+
+#: ../extras/knowledge-base.rst:195
+msgid ""
+"Include a video to embed in the answer. By default, you can embed videos "
+"from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
+"PeerTube instances can be enabled by your admin as well. A list of supported "
+"video services is displayed in the video dialog below the URL field."
+msgstr ""
+"Убаците интегрисани видео у чланак. Подразумевано, можете убацити видео са "
+"Vimeo и YouTube сервиса. У зависности од ваших Zammad подешавања, и MediaCMS "
+"и PeerTube инстанце могу бити укључене од стране вашег администратора. Листа "
+"подржаних видео сервиса ће бити приказана у видео дијалогу испод поља URL "
+"адресе."
+
+#: ../extras/knowledge-base.rst:203
+msgid "Linked Tickets"
+msgstr "Повезани тикети"
+
+#: ../extras/knowledge-base.rst:202
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7310,25 +7336,35 @@ msgstr ""
 "Интерне референце на Zammad тикете (видљиве само у режиму приказа и "
 "уређивања)."
 
-#: ../extras/knowledge-base.rst:196
-msgid "**Tags**"
-msgstr "**Ознаке**"
+#: ../extras/knowledge-base.rst:208
+msgid "Attachments"
+msgstr "Прилози"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:206
+msgid ""
+"Add any file as an attachment to your answer. Such an attachment isn't "
+"embedded in the body of the answer. Readers can download it by clicking on "
+"it in the attachment section."
+msgstr ""
+"Додајте било коју датотеку као прилог вашем чланку. Овакви прилози неће бити "
+"интегрисани у тело чланка. Читаоци ће моћи да их преузму кликом унутар "
+"одељка прилога."
+
+#: ../extras/knowledge-base.rst:211
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
-"note that tags are visible publicly and can be the same like those in your "
+"note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
 "Може помоћи приликом категоризације или обележавања чланака за бољу "
 "претрагу. Имајте на уму да су ознаке јавно видљиве и да могу бити исте као и "
 "оне у вашим тикетима."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:238
 msgid "Visibility"
 msgstr "Видљивост"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:216
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7338,31 +7374,31 @@ msgstr ""
 "закажите његово објављивање за касније. Чланци су означени бојама према "
 "њиховој видљивости:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:221
 msgid "**Public** (visible to everyone)"
 msgstr "**Јавно** (видљиво свима)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Интерно** (видљиво само оператерима и уредницима)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Нацрт/Заказано/Архивирано** (видљиво само уредницима)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:241
 msgid "Using Answers In Ticket Articles"
 msgstr "Коришћење чланака у тикетима"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:243
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -8856,7 +8892,7 @@ msgstr "Назив безбедносног кључа"
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:24
 msgid ""
-"Next, depending you your browser, you will be presented with different "
+"Next, depending on your browser, you will be presented with different "
 "options. Select one that refers to your chosen security key and follow the "
 "instructions on the screen."
 msgstr ""
@@ -9389,6 +9425,19 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid ""
+#~ "Screencast showing the visibility option for categories for granular "
+#~ "access permissions"
+#~ msgstr ""
+#~ "Снимак екрана који приказује опцију видљивости за ограничене дозволе "
+#~ "категорије"
+
+#~ msgid "**Linked Tickets**"
+#~ msgstr "**Повезани тикети**"
+
+#~ msgid "**Tags**"
+#~ msgstr "**Ознаке**"
 
 #~ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 #~ msgstr "Снимак екрана са S/MIME функцијом за нове тикете и одговоре"
@@ -11665,13 +11714,6 @@ msgstr ""
 
 #~ msgid "**⚙️ Roles require knowledge base reader permission**"
 #~ msgstr "**⚙️ Улоге захтевају дозволу за читање базе знања**"
-
-#~ msgid ""
-#~ "Your administrator has to provide the relevant groups with reader "
-#~ "permissions for the knowledge base."
-#~ msgstr ""
-#~ "Ваш администратор мора да обезбеди релевантним групама дозволе за читање "
-#~ "за базу знања."
 
 #~ msgid "**🥵 Beware of visibility levels**"
 #~ msgstr "**🥵 Пазите на нивое видљивости**"

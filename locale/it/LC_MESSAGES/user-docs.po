@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 08:43+0200\n"
-"PO-Revision-Date: 2026-07-02 16:02+0000\n"
+"POT-Creation-Date: 2026-07-07 14:22+0200\n"
+"PO-Revision-Date: 2026-07-09 16:07+0000\n"
 "Last-Translator: albanobattistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/it/>\n"
@@ -1572,7 +1572,7 @@ msgstr ""
 "**In pausa, al momento non è necessaria alcuna azione.** (ad esempio in "
 "sospeso)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2999,6 +2999,7 @@ msgstr ""
 "sperare in una escalation immediata."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../extras/knowledge-base.rst:213
 msgid "Tags"
 msgstr "Etichette"
 
@@ -7301,8 +7302,8 @@ msgstr ""
 "iscriversi."
 
 #: ../extras/knowledge-base.rst:0
-msgid "Screenshot showing the modal for of the RSS button"
-msgstr "Screenshot che mostra il modale del pulsante RSS"
+msgid "Screenshot shows the modal for of the RSS button"
+msgstr "Lo screenshot mostra la finestra modale del pulsante RSS"
 
 #: ../extras/knowledge-base.rst:107
 msgid ""
@@ -7315,10 +7316,10 @@ msgstr ""
 #: ../extras/knowledge-base.rst:110
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
-"RSS modal."
+"RSS dialog."
 msgstr ""
-"Se vuoi revocare l'accesso e rinnovare il tuo token, puoi farlo nel modale "
-"RSS."
+"Se desideri revocare l'accesso e rinnovare il tuo token, puoi farlo nella "
+"finestra di dialogo RSS."
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
@@ -7395,12 +7396,10 @@ msgstr ""
 "ruoli :admin-docs:`</manage/roles/agent-permissions.html>`."
 
 #: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
+msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
-"Screencast che mostra l'opzione di visibilità per categorie per permessi di "
-"accesso granulari"
+"Lo screenshot mostra le autorizzazioni di categoria granulari per la "
+"knowledge base"
 
 #: ../extras/knowledge-base.rst:153
 msgid ""
@@ -7454,30 +7453,30 @@ msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
 "use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"insert formatted text, bullet lists, and more. You can even add file "
+"insert formatted text, bullet lists and more. You can even add file "
 "attachments and links!"
 msgstr ""
 "L'editor della knowledge base è dotato delle stesse **funzionalità di "
-"modifica testo ricco** disponibili nel compositore ticket di Zammad. Ciò "
-"significa che puoi usare le stesse :doc:`scorciatoie da tastiera </advanced/"
-"keyboard-shortcuts>` per inserire testo formattato, elenchi puntati e altro. "
-"Puoi persino aggiungere allegati file e link!"
+"modifica del testo avanzato** disponibili nel compositore di ticket di "
+"Zammad. Ciò significa che puoi utilizzare le stesse :doc:`scorciatoie da "
+"tastiera </advanced/keyboard-shortcuts>` per inserire testo formattato, "
+"elenchi puntati e altro ancora. Puoi persino aggiungere allegati e link!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:213
 msgid "Different link types"
 msgstr "Diversi tipi di link"
 
 #: ../extras/knowledge-base.rst:184
-msgid "**Web link**"
-msgstr "**Link web**"
+msgid "Web link"
+msgstr "Link web"
 
 #: ../extras/knowledge-base.rst:184
 msgid "URLs pointing to other websites."
 msgstr "URL che puntano ad altri siti web."
 
 #: ../extras/knowledge-base.rst:188
-msgid "**Link Answer**"
-msgstr "**Collega risposta**"
+msgid "Link Answer"
+msgstr "Link di risposta"
 
 #: ../extras/knowledge-base.rst:187
 msgid ""
@@ -7486,34 +7485,74 @@ msgid ""
 msgstr "Riferimenti interni ad altre risposte della knowledge base."
 
 #: ../extras/knowledge-base.rst:192
-msgid "**Linked Tickets**"
-msgstr "**Ticket collegati**"
+msgid "Image"
+msgstr "Immagine"
 
 #: ../extras/knowledge-base.rst:191
+msgid ""
+"Include an image from your computer in the answer. Unlike file attachments, "
+"these images are embedded directly in the answer."
+msgstr ""
+"Includi un'immagine dal tuo computer nella risposta. A differenza degli "
+"allegati, queste immagini vengono incorporate direttamente nella risposta."
+
+#: ../extras/knowledge-base.rst:199
+msgid "Video"
+msgstr "Video"
+
+#: ../extras/knowledge-base.rst:195
+msgid ""
+"Include a video to embed in the answer. By default, you can embed videos "
+"from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
+"PeerTube instances can be enabled by your admin as well. A list of supported "
+"video services is displayed in the video dialog below the URL field."
+msgstr ""
+"Includi un video da incorporare nella risposta. Per impostazione "
+"predefinita, puoi incorporare video da Vimeo e YouTube. A seconda delle "
+"impostazioni di Zammad, l'amministratore potrebbe anche abilitare le istanze "
+"di MediaCMS e PeerTube. Un elenco dei servizi video supportati viene "
+"visualizzato nella finestra di dialogo del video sotto il campo URL."
+
+#: ../extras/knowledge-base.rst:203
+msgid "Linked Tickets"
+msgstr "Ticket collegati"
+
+#: ../extras/knowledge-base.rst:202
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
 msgstr "Riferimenti interni ai ticket di Zammad."
 
-#: ../extras/knowledge-base.rst:196
-msgid "**Tags**"
-msgstr "**Tag**"
+#: ../extras/knowledge-base.rst:208
+msgid "Attachments"
+msgstr "Allegati"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:206
+msgid ""
+"Add any file as an attachment to your answer. Such an attachment isn't "
+"embedded in the body of the answer. Readers can download it by clicking on "
+"it in the attachment section."
+msgstr ""
+"È possibile allegare un file alla risposta. L'allegato non verrà incorporato "
+"nel corpo della risposta. I lettori potranno scaricarlo cliccandoci sopra "
+"nella sezione allegati."
+
+#: ../extras/knowledge-base.rst:211
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
-"note that tags are visible publicly and can be the same like those in your "
+"note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
-"Possono aiutare a categorizzare o etichettare le risposte per ottenere "
-"risultati di ricerca migliori. Tieni presente che i tag sono visibili "
-"pubblicamente e possono essere gli stessi presenti nei tuoi ticket."
+"Può essere utile per categorizzare o etichettare le risposte al fine di "
+"ottenere risultati di ricerca migliori. Si prega di notare che i tag sono "
+"visibili pubblicamente e possono essere gli stessi utilizzati nei ticket di "
+"assistenza."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:238
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:216
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7524,31 +7563,31 @@ msgstr ""
 "una data successiva. Gli articoli sono **contrassegnati da colori** diversi "
 "in base alla loro visibilità:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:221
 msgid "**Public** (visible to everyone)"
 msgstr "**Pubblico** (visibile a tutti)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Interno** (visibile solo ad agenti e editor)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Bozza/Programmato/Archiviato** (visibile solo agli editor)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:241
 msgid "Using Answers In Ticket Articles"
 msgstr "Usare le Risposte negli Articoli Ticket"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:243
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9075,12 +9114,12 @@ msgstr "Nome chiave di sicurezza"
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:24
 msgid ""
-"Next, depending you your browser, you will be presented with different "
+"Next, depending on your browser, you will be presented with different "
 "options. Select one that refers to your chosen security key and follow the "
 "instructions on the screen."
 msgstr ""
-"Successivamente, a seconda del tuo browser, ti verranno presentate diverse "
-"opzioni. Seleziona quella che fa riferimento alla tua chiave di sicurezza "
+"Successivamente, a seconda del browser utilizzato, verranno visualizzate "
+"diverse opzioni. Seleziona quella corrispondente alla chiave di sicurezza "
 "scelta e segui le istruzioni sullo schermo."
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:None
@@ -9619,6 +9658,19 @@ msgstr ""
 "Stai leggendo la documentazione utente di Zammad. Sono anche disponibili i "
 "manuali :docs:`di sistema </index.html>` e :admin-docs:`di amministrazione </"
 "index.html>`."
+
+#~ msgid ""
+#~ "Screencast showing the visibility option for categories for granular "
+#~ "access permissions"
+#~ msgstr ""
+#~ "Screencast che mostra l'opzione di visibilità per categorie per permessi "
+#~ "di accesso granulari"
+
+#~ msgid "**Linked Tickets**"
+#~ msgstr "**Ticket collegati**"
+
+#~ msgid "**Tags**"
+#~ msgstr "**Tag**"
 
 #~ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 #~ msgstr ""

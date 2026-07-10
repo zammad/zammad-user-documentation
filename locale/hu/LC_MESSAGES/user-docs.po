@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 08:43+0200\n"
-"PO-Revision-Date: 2026-07-02 16:02+0000\n"
+"POT-Creation-Date: 2026-07-07 14:22+0200\n"
+"PO-Revision-Date: 2026-07-08 05:07+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/hu/>\n"
@@ -581,8 +581,8 @@ msgid ""
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
 "Ha Ön Mac felhasználó, akkor használja a :kbd:`cmd` billentyűt a :kbd:`ctrl` "
-"billentyű helyett és a :kbd:`ctrl` :kbd:`option` billentyűkombinációt a "
-":kbd:`shift` :kbd:`ctrl` billentyűkombináció helyett."
+"billentyű helyett és a :kbd:`ctrl` :kbd:`option` billentyűkombinációt "
+"a :kbd:`shift` :kbd:`ctrl` billentyűkombináció helyett."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -604,9 +604,9 @@ msgstr ""
 "kattintással alkalmazhat. Például a Zammad alapértelmezetten biztosít egy "
 "**Lezárás és levélszemétként címkézés** makrót. Ha alkalmazásra kerül, akkor "
 "a makrót futtató felhasználó tulajdonosként lesz hozzárendelve, egy "
-"``levélszemét`` címke lesz hozzáadva, és a jegy lezárásra kerül. Még egy "
-":ref:`MI-ügyintéző <ai-agents>` futtatása is lehetséges egy makróban igény "
-"szerint. Olvasson tovább, hogy megtudja, hogyan futtathat makrókat két "
+"``levélszemét`` címke lesz hozzáadva, és a jegy lezárásra kerül. Még "
+"egy :ref:`MI-ügyintéző <ai-agents>` futtatása is lehetséges egy makróban "
+"igény szerint. Olvasson tovább, hogy megtudja, hogyan futtathat makrókat két "
 "különböző módon."
 
 #: ../advanced/macros.rst:13
@@ -657,7 +657,8 @@ msgstr "Válassza ki a kívánt jegyeket"
 
 #: ../advanced/macros.rst:35
 msgid "Drag the tickets to the top and hover over the ``Run Macro`` action"
-msgstr "Húzza a jegyeket felülre, majd húzza rá a ``Makró futtatása`` műveletre"
+msgstr ""
+"Húzza a jegyeket felülre, majd húzza rá a ``Makró futtatása`` műveletre"
 
 #: ../advanced/macros.rst:36
 msgid "Drop the tickets on your target macro."
@@ -863,8 +864,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -907,8 +908,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
-"(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1220,8 +1221,8 @@ msgid ""
 "in two </advanced/ticket-actions/split>`, then assign each ticket to its "
 "respective “group” (department)."
 msgstr ""
-"Ha egy jegy valójában két különböző problémát érint, akkor "
-":doc:`feloszthatja két részre </advanced/ticket-actions/split>`, majd "
+"Ha egy jegy valójában két különböző problémát érint, "
+"akkor :doc:`feloszthatja két részre </advanced/ticket-actions/split>`, majd "
 "mindkét jegyet a megfelelő „csoporthoz” (osztályhoz) rendelheti."
 
 #: ../advanced/suggested-workflows.rst:16
@@ -1586,7 +1587,7 @@ msgstr ""
 "**Szüneteltetve, jelenleg nincs szükség intézkedésre** (például "
 "felfüggesztve)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1787,8 +1788,8 @@ msgid ""
 "You can use text modules on ticket creation as well. On ticket creation, "
 "our :ref:`ticket_templates` might get handy too."
 msgstr ""
-"Szövegmodulokat a jegy létrehozásakor is használhat. A jegy létrehozásakor a "
-":ref:`ticket_templates` is hasznosak lehetnek."
+"Szövegmodulokat a jegy létrehozásakor is használhat. A jegy létrehozásakor "
+"a :ref:`ticket_templates` is hasznosak lehetnek."
 
 #: ../advanced/text-modules.rst:36
 msgid "Customizing Text Modules"
@@ -1828,9 +1829,9 @@ msgid ""
 msgstr ""
 "Ha kapcsolódó ügyekkel kapcsolatos jegyek merülnek fel, akkor azok egymáshoz "
 "kapcsolhatók az egyszerűbb hivatkozáshoz. Ez például akkor lehet hasznos, ha "
-"több ügyfélpanasz érkezik ugyanazon szállítmánnyal kapcsolatban. Az "
-":doc:`egyesített <merge>` és :doc:`felosztott <split>` jegyek automatikusan "
-"összekapcsolásra kerülnek."
+"több ügyfélpanasz érkezik ugyanazon szállítmánnyal kapcsolatban. "
+"Az :doc:`egyesített <merge>` és :doc:`felosztott <split>` jegyek "
+"automatikusan összekapcsolásra kerülnek."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -2068,8 +2069,8 @@ msgid ""
 "Screenshot shows \"split\" button in the ticket detail view next to an "
 "article"
 msgstr ""
-"A képernyőkép a jegy részletes nézetében egy bejegyzés mellett lévő „"
-"felosztás” gombot jeleníti meg"
+"A képernyőkép a jegy részletes nézetében egy bejegyzés mellett lévő "
+"„felosztás” gombot jeleníti meg"
 
 #: ../advanced/ticket-actions/split.rst:15
 msgid ""
@@ -2478,8 +2479,8 @@ msgid ""
 "basics` yet, check it out to learn more."
 msgstr ""
 "Mint azt talán tudja, vannak további beállítható jegyattribútumok is, mint "
-"például csoport, prioritás és tulajdonos. Ha még nem olvasta el a "
-":doc:`ticket-basics` fejezetet, akkor olvassa el, hogy többet tudjon meg "
+"például csoport, prioritás és tulajdonos. Ha még nem olvasta el "
+"a :doc:`ticket-basics` fejezetet, akkor olvassa el, hogy többet tudjon meg "
 "erről."
 
 #: ../basics/create-tickets.rst:84
@@ -2624,8 +2625,8 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
-"Ha kék-rózsaszín színátmenetes kört lát, az azt jelzi, hogy jelenleg egy "
-":doc:`MI-ügyintéző </extras/ai-features>` dolgozik az jegyen."
+"Ha kék-rózsaszín színátmenetes kört lát, az azt jelzi, hogy jelenleg "
+"egy :doc:`MI-ügyintéző </extras/ai-features>` dolgozik az jegyen."
 
 #: ../basics/find-tickets.rst:57
 msgid ""
@@ -2650,8 +2651,8 @@ msgid ""
 "keyboard shortcut :kbd:`s`."
 msgstr ""
 "Ha egy bizonyos jegyet keres, akkor használhatja a keresőt. Kattintson a bal "
-"oldali navigációs oldalsáv tetején lévő keresősávra, vagy használja az "
-":kbd:`s` gyorsbillentyűt."
+"oldali navigációs oldalsáv tetején lévő keresősávra, vagy használja "
+"az :kbd:`s` gyorsbillentyűt."
 
 #: ../basics/find-tickets.rst:None
 msgid ""
@@ -2730,14 +2731,14 @@ msgid ""
 "learn how to search for specific attributes like creation date or the ticket "
 "owner's email address."
 msgstr ""
-"A keresést úgy szűkítheti, hogy kiválaszt egy adott objektumtípust (például „"
-"Felhasználó”) a keresősáv alatti lapsávon. A találatok oszlopértékek alapján "
-"történő rendezéséhez kattintson egy oszlopfejlécre. A rendezést egy nyíl "
-"jelzi. Kattintson újra az oszlopra, hogy megváltoztassa a rendezés irányát "
-"növekvőről csökkenőre vagy fordítva. Ha még mindig nem találja, amit keres, "
-"akkor nézze meg a :doc:`speciális keresés oldalt </advanced/search>`, ahol "
-"megtudhatja, hogyan kell bizonyos attribútumokra keresni, mint például a "
-"létrehozás dátumára vagy a jegy tulajdonosának e-mail-címére."
+"A keresést úgy szűkítheti, hogy kiválaszt egy adott objektumtípust (például "
+"„Felhasználó”) a keresősáv alatti lapsávon. A találatok oszlopértékek "
+"alapján történő rendezéséhez kattintson egy oszlopfejlécre. A rendezést egy "
+"nyíl jelzi. Kattintson újra az oszlopra, hogy megváltoztassa a rendezés "
+"irányát növekvőről csökkenőre vagy fordítva. Ha még mindig nem találja, amit "
+"keres, akkor nézze meg a :doc:`speciális keresés oldalt </advanced/search>`, "
+"ahol megtudhatja, hogyan kell bizonyos attribútumokra keresni, mint például "
+"a létrehozás dátumára vagy a jegy tulajdonosának e-mail-címére."
 
 #: ../basics/find-tickets.rst:113
 msgid ""
@@ -2985,10 +2986,11 @@ msgid ""
 "coded:"
 msgstr ""
 "Abban az esetben, ha ezek a prioritások nem lennének elegendőek, kérje meg a "
-"Zammad adminisztrátorát, hogy hozzon létre továbbiakat. Az adminisztrátorok "
-":admin-docs:`itt találhatnak </system/objects.html#ticket-priority>` további "
-"információkat. Az alapértelmezett prioritások lehetővé teszik, hogy azonnal "
-"felismerje a jegyek fontosságát, mivel azok színkóddal vannak jelölve:"
+"Zammad adminisztrátorát, hogy hozzon létre továbbiakat. Az "
+"adminisztrátorok :admin-docs:`itt találhatnak </system/objects.html#ticket-"
+"priority>` további információkat. Az alapértelmezett prioritások lehetővé "
+"teszik, hogy azonnal felismerje a jegyek fontosságát, mivel azok színkóddal "
+"vannak jelölve:"
 
 #: ../basics/ticket-basics.rst:108
 msgid ""
@@ -3013,6 +3015,7 @@ msgstr ""
 "állítanák be, és azonnali eszkalációban bíznának."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../extras/knowledge-base.rst:213
 msgid "Tags"
 msgstr "Címkék"
 
@@ -3093,9 +3096,9 @@ msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
 msgstr ""
-"Most, hogy már tudja az alapokat, olvassa el, hogyan kell jegyeket "
-":doc:`létrehozni <create-tickets>` vagy :doc:`dolgozni velük <work-with-"
-"tickets>`."
+"Most, hogy már tudja az alapokat, olvassa el, hogyan kell "
+"jegyeket :doc:`létrehozni <create-tickets>` vagy :doc:`dolgozni velük <work-"
+"with-tickets>`."
 
 #: ../basics/work-with-tickets.rst:2
 msgid "Work with Tickets"
@@ -3407,11 +3410,11 @@ msgid ""
 "to your clipboard. To include the ticket title as well, press :kbd:`.` "
 "twice. Example: ``Ticket#50071: Coffee grinder broken``."
 msgstr ""
-"De várjon csak, erre még :doc:`gyorsbillentyű </advanced/keyboard-shortcuts>"
-"` is van! Egyszerűen nyomja meg a :kbd:`.` billentyűt, és a jegyszám a "
-"vágólapra lesz másolva. Ahhoz, hogy a jegy címét is tartalmazza, nyomja meg "
-"a :kbd:`.` billentyűt kétszer. Példa: ``Jegy#50071: Meghibásodott a "
-"kávédaráló``."
+"De várjon csak, erre még :doc:`gyorsbillentyű </advanced/keyboard-"
+"shortcuts>` is van! Egyszerűen nyomja meg a :kbd:`.` billentyűt, és a "
+"jegyszám a vágólapra lesz másolva. Ahhoz, hogy a jegy címét is tartalmazza, "
+"nyomja meg a :kbd:`.` billentyűt kétszer. Példa: ``Jegy#50071: Meghibásodott "
+"a kávédaráló``."
 
 #: ../basics/work-with-tickets.rst:167
 msgid "Simultaneous Ticket Processing"
@@ -3543,8 +3546,8 @@ msgid ""
 msgstr ""
 "A Zammad alapértelmezetten értesíti Önt, ha a jegyek megközelítik vagy "
 "túllépik a határidőket. Ezeket az értesítéseket a :doc:`profilbeállításokban "
-"</extras/user-menu-profile-settings>` állíthatja be. A Zammad emellett egy „"
-"Eszkalált jegyek” nevű alapértelmezett áttekintést is biztosít. Ez az "
+"</extras/user-menu-profile-settings>` állíthatja be. A Zammad emellett egy "
+"„Eszkalált jegyek” nevű alapértelmezett áttekintést is biztosít. Ez az "
 "áttekintés tartalmazza a már eszkalált jegyeket, valamint azokat a jegyeket, "
 "amelyek várhatóan eszkalálódnak a következő 10 percen belül."
 
@@ -3772,9 +3775,9 @@ msgid ""
 msgstr ""
 "A Zammad képes automatikusan előállított válaszokat küldeni az ügyfeleknek. "
 "Alapértelmezetten ez az újonnan létrehozott jegyeknél van beállítva (hogy "
-"visszaigazolja az e-mail beérkezését, és megadja az ügyfélnek a jegy számát)"
-". Az adminisztrátor megváltoztathatja ezt, vagy akár további automatikusan "
-"előállított üzeneteket is hozzáadhat."
+"visszaigazolja az e-mail beérkezését, és megadja az ügyfélnek a jegy "
+"számát). Az adminisztrátor megváltoztathatja ezt, vagy akár további "
+"automatikusan előállított üzeneteket is hozzáadhat."
 
 #: ../basics/zammad-glossary.rst:60
 msgid "Automation"
@@ -3829,8 +3832,8 @@ msgid ""
 msgstr ""
 "A profilkép alapvetően egy felhasználó grafikus ábrázolása. "
 "Alapértelmezetten a felhasználó profilképe a felhasználó nevének "
-"kezdőbetűiből áll. De lehet egy kép is. A személyre szabásához menjen a "
-":doc:`felhasználói profiljában </extras/user-menu-profile-settings>` lévő "
+"kezdőbetűiből áll. De lehet egy kép is. A személyre szabásához menjen "
+"a :doc:`felhasználói profiljában </extras/user-menu-profile-settings>` lévő "
 "profilkép szakaszhoz."
 
 #: ../basics/zammad-glossary.rst:78
@@ -4161,8 +4164,8 @@ msgid ""
 "Documentation </>`, and the :docs:`Zammad System Documentation </>`."
 msgstr ""
 "Három különböző dokumentációnk van: :doc:`/index`, :admin-docs:`Zammad "
-"adminisztrátori dokumentáció </>` és a :docs:`Zammad rendszer-dokumentáció "
-"</>`."
+"adminisztrátori dokumentáció </>` és a :docs:`Zammad rendszer-dokumentáció </"
+">`."
 
 #: ../basics/zammad-glossary.rst:208
 msgid "E"
@@ -4473,8 +4476,8 @@ msgstr ""
 "jegyek ezekhez kerülnek hozzárendelésre. A megfelelő csoport felel a "
 "feldolgozásért. A csoporton belül meghatározható egy felelős, aki ezután "
 "felel a jegyért. A jegyekhez való hozzáférési jogosultságok is a csoportokon "
-"keresztül vannak szabályozva. A lehetséges jogosultságok a „teljes hozzáférés"
-"”, a „csak olvasás” és a „nincs hozzáférés”."
+"keresztül vannak szabályozva. A lehetséges jogosultságok a „teljes "
+"hozzáférés”, a „csak olvasás” és a „nincs hozzáférés”."
 
 #: ../basics/zammad-glossary.rst:332
 msgid ""
@@ -4482,8 +4485,8 @@ msgid ""
 "principle of \"queues\". The groups in Zammad are the same as the queues in "
 "OTRS."
 msgstr ""
-"Ha korábban már dolgozott az OTRS rendszerrel, akkor talán emlékszik a „"
-"várólisták” alapelvére. A Zammadban lévő csoportok ugyanazok, mint az OTRS-"
+"Ha korábban már dolgozott az OTRS rendszerrel, akkor talán emlékszik a "
+"„várólisták” alapelvére. A Zammadban lévő csoportok ugyanazok, mint az OTRS-"
 "ben a várólisták."
 
 #: ../basics/zammad-glossary.rst:336
@@ -4645,9 +4648,9 @@ msgid ""
 "processes or team info)."
 msgstr ""
 "A tudásbázis-bejegyzések lehetnek belsők vagy külsők, így akár megmutathatja "
-"azokat az egész világnak (ez például jó a termékénél vagy a szolgáltatásánál)"
-", vagy megtarthatja a csapatának (például belső folyamatokat vagy csapaton "
-"belüli információkat)."
+"azokat az egész világnak (ez például jó a termékénél vagy a "
+"szolgáltatásánál), vagy megtarthatja a csapatának (például belső "
+"folyamatokat vagy csapaton belüli információkat)."
 
 #: ../basics/zammad-glossary.rst:406
 msgid ""
@@ -5036,8 +5039,8 @@ msgid ""
 msgstr ""
 "Minden kiadás új funkciókat ad a szoftverünkhöz. Vannak nagyobb és kisebb "
 "kiadások: a nagyobb kiadások (például a Zammad 1.0, 2.0 stb.) jelentős "
-"változásokat hoznak. A kisebb kiadások ezekre épülnek (például 1.1, 2.1 stb.)"
-", és kisebb frissítéseket tartalmaznak."
+"változásokat hoznak. A kisebb kiadások ezekre épülnek (például 1.1, 2.1 "
+"stb.), és kisebb frissítéseket tartalmaznak."
 
 #: ../basics/zammad-glossary.rst:577 ../basics/zammad-glossary.rst:618
 #: ../extras/reporting.rst:2
@@ -5185,16 +5188,16 @@ msgid ""
 "contain your :ref:`avatar image <glossary-avatar>`."
 msgstr ""
 "Az aláírás a kimenő üzenetekben lévő lábléc. Az ügyfelek itt találhatják meg "
-"kapcsolatfelvételi adatokat és a vállalat vagy osztály nevét. Akár a "
-":ref:`profilképét <glossary-avatar>` is tartalmazhatja."
+"kapcsolatfelvételi adatokat és a vállalat vagy osztály nevét. Akár "
+"a :ref:`profilképét <glossary-avatar>` is tartalmazhatja."
 
 #: ../basics/zammad-glossary.rst:628
 msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
-"Az aláírást az adminisztrátor tudja személyre szabni. További információk "
-":admin-docs:`itt találhatók </channels/email/signatures.html>`."
+"Az aláírást az adminisztrátor tudja személyre szabni. További "
+"információk :admin-docs:`itt találhatók </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:640
 msgid "Sipgate"
@@ -5350,9 +5353,9 @@ msgid ""
 "secure-email`."
 msgstr ""
 "Az adminisztrátorok többet is megtudhatnak az S/MIME-ról az :admin-"
-"docs:`adminisztrátori dokumentációban </system/integrations/smime/index.html>"
-"`. Ha Ön ügyintéző, akkor a funkcionalitásról a :doc:`/extras/secure-email` "
-"oldalon tudhat meg többet."
+"docs:`adminisztrátori dokumentációban </system/integrations/smime/"
+"index.html>`. Ha Ön ügyintéző, akkor a funkcionalitásról a :doc:`/extras/"
+"secure-email` oldalon tudhat meg többet."
 
 #: ../basics/zammad-glossary.rst:693
 msgid "T"
@@ -5379,9 +5382,9 @@ msgid ""
 "tags.html>`. Agents can learn more about this function on this "
 "page: :ref:`ticket-attributes`"
 msgstr ""
-"Az adminisztrátorok :admin-docs:`itt tudhatnak meg többet </manage/tags.html>"
-"` a címkékről. Az ügyintézők a :ref:`ticket-attributes` szakaszban tudhatnak "
-"meg többet erről a funkcióról."
+"Az adminisztrátorok :admin-docs:`itt tudhatnak meg többet </manage/"
+"tags.html>` a címkékről. Az ügyintézők a :ref:`ticket-attributes` szakaszban "
+"tudhatnak meg többet erről a funkcióról."
 
 #: ../basics/zammad-glossary.rst:720
 msgid "Text module"
@@ -6642,9 +6645,9 @@ msgid ""
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 "Hozzáadhat egy másik jegyet ellenőrzőlista-elemként úgy, hogy beírja vagy "
-"beilleszti a horgát és a számát az elem címkéjébe (például ``Ticket#423456``)"
-". Ez az elem nem jelölhető be kézzel, hanem a hivatkozott jegy állapotát "
-"tükrözi."
+"beilleszti a horgát és a számát az elem címkéjébe (például "
+"``Ticket#423456``). Ez az elem nem jelölhető be kézzel, hanem a hivatkozott "
+"jegy állapotát tükrözi."
 
 #: ../extras/checklist.rst:63
 msgid "**Copying ticket hook and number**"
@@ -6771,8 +6774,8 @@ msgid ""
 "Customers can optionally belong to organizations. Head over to "
 "the :doc:`organization page <organizations>` to learn more."
 msgstr ""
-"Az ügyfelek választhatóan szervezetekhez tartozhatnak. Olvassa el a "
-":doc:`szervezeti oldalt <organizations>`, hogy többet tudjon meg."
+"Az ügyfelek választhatóan szervezetekhez tartozhatnak. Olvassa el "
+"a :doc:`szervezeti oldalt <organizations>`, hogy többet tudjon meg."
 
 #: ../extras/customers.rst:0
 msgid "Secondary Organizations"
@@ -7082,7 +7085,8 @@ msgstr "A Zammadban: i-doit eszközök hozzákapcsolása a jegyekhez"
 
 #: ../extras/i-doit-track-company-property.rst:41
 msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr "Először adja hozzá az i-doit-eszközöket egy jegyhez a jegy oldalsávján:"
+msgstr ""
+"Először adja hozzá az i-doit-eszközöket egy jegyhez a jegy oldalsávján:"
 
 #: ../extras/i-doit-track-company-property.rst:47
 msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
@@ -7374,7 +7378,9 @@ msgstr ""
 "amelyekre feliratkozhat."
 
 #: ../extras/knowledge-base.rst:0
-msgid "Screenshot showing the modal for of the RSS button"
+#, fuzzy
+#| msgid "Screenshot showing the modal for of the RSS button"
+msgid "Screenshot shows the modal for of the RSS button"
 msgstr "A képernyőkép az RSS-gomb kizárólagos párbeszédablakát jeleníti meg"
 
 #: ../extras/knowledge-base.rst:107
@@ -7386,9 +7392,13 @@ msgstr ""
 "tokeneket** tartalmaznak. Soha ne ossza meg ezeket az URL-eket senki mással!"
 
 #: ../extras/knowledge-base.rst:110
+#, fuzzy
+#| msgid ""
+#| "If you want to revoke the access and renew your token, you can do so in "
+#| "the RSS modal."
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
-"RSS modal."
+"RSS dialog."
 msgstr ""
 "Ha vissza szeretné vonni a hozzáférést és megújítani a tokent, akkor ezt az "
 "RSS kizárólagos párbeszédablakban teheti meg."
@@ -7467,12 +7477,8 @@ msgstr ""
 "manage/roles/agent-permissions.html>` ennek megfelelően."
 
 #: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
+msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
-"A képernyőfelvétel a kategóriák láthatósági lehetőségeit jeleníti meg a "
-"részletes hozzáférési jogosultságokhoz"
 
 #: ../extras/knowledge-base.rst:153
 msgid ""
@@ -7494,10 +7500,11 @@ msgstr ""
 "jogosultságok megadására is, ami gyakorlatilag elrejti az adott "
 "alkategóriát. Fordított irányban ez nem lehetséges. A „szerkesztő” "
 "jogosultsággal rendelkező szerep teljes hozzáféréssel rendelkezik az "
-"alkategóriáihoz, ezért értelmetlen a jogosultságainak a korlátozása. A „nincs"
-"” jogosultságok szintén nem változtathatók meg a fa alacsonyabb szintjein, "
-"mivel így nem lenne útvonal a megengedett alkategóriák eléréséhez. Ha nem "
-"tudja kiválasztani a jogosultságokat a táblázatban, annak ez lehet az oka."
+"alkategóriáihoz, ezért értelmetlen a jogosultságainak a korlátozása. A "
+"„nincs” jogosultságok szintén nem változtathatók meg a fa alacsonyabb "
+"szintjein, mivel így nem lenne útvonal a megengedett alkategóriák "
+"eléréséhez. Ha nem tudja kiválasztani a jogosultságokat a táblázatban, annak "
+"ez lehet az oka."
 
 #: ../extras/knowledge-base.rst:164
 msgid "Be aware that public answers are always available!"
@@ -7522,11 +7529,18 @@ msgid "Edit answer"
 msgstr "Válasz szerkesztése"
 
 #: ../extras/knowledge-base.rst:176
+#, fuzzy
+#| msgid ""
+#| "The knowledge base editor comes equipped with the same **rich text "
+#| "editing capabilities** available in the Zammad ticket composer. That "
+#| "means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-"
+#| "shortcuts>` to insert formatted text, bullet lists, and more. You can "
+#| "even add file attachments and links!"
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
 "use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"insert formatted text, bullet lists, and more. You can even add file "
+"insert formatted text, bullet lists and more. You can even add file "
 "attachments and links!"
 msgstr ""
 "A tudásbázis-szerkesztő ugyanazokkal a **formázottszöveg-szerkesztési "
@@ -7536,12 +7550,14 @@ msgstr ""
 "és egyéb elemek beszúrásához. Akár fájlmellékleteket és hivatkozásokat is "
 "hozzáadhat!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:213
 msgid "Different link types"
 msgstr "Különböző hivatkozástípusok"
 
 #: ../extras/knowledge-base.rst:184
-msgid "**Web link**"
+#, fuzzy
+#| msgid "**Web link**"
+msgid "Web link"
 msgstr "**Webhivatkozás**"
 
 #: ../extras/knowledge-base.rst:184
@@ -7549,7 +7565,9 @@ msgid "URLs pointing to other websites."
 msgstr "Más webhelyekre mutató URL-ek."
 
 #: ../extras/knowledge-base.rst:188
-msgid "**Link Answer**"
+#, fuzzy
+#| msgid "**Link Answer**"
+msgid "Link Answer"
 msgstr "**Válasz hozzákapcsolása**"
 
 #: ../extras/knowledge-base.rst:187
@@ -7561,10 +7579,34 @@ msgstr ""
 "cél-URL megváltozik)."
 
 #: ../extras/knowledge-base.rst:192
-msgid "**Linked Tickets**"
-msgstr "**Kapcsolt jegyek**"
+msgid "Image"
+msgstr ""
 
 #: ../extras/knowledge-base.rst:191
+msgid ""
+"Include an image from your computer in the answer. Unlike file attachments, "
+"these images are embedded directly in the answer."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:199
+msgid "Video"
+msgstr ""
+
+#: ../extras/knowledge-base.rst:195
+msgid ""
+"Include a video to embed in the answer. By default, you can embed videos "
+"from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
+"PeerTube instances can be enabled by your admin as well. A list of supported "
+"video services is displayed in the video dialog below the URL field."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:203
+#, fuzzy
+#| msgid "Link Tickets"
+msgid "Linked Tickets"
+msgstr "Jegyek összekapcsolása"
+
+#: ../extras/knowledge-base.rst:202
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7572,25 +7614,37 @@ msgstr ""
 "Zammad-jegyekre mutató belső hivatkozások (csak előnézeti és szerkesztési "
 "módban látható)."
 
-#: ../extras/knowledge-base.rst:196
-msgid "**Tags**"
-msgstr "**Címkék**"
+#: ../extras/knowledge-base.rst:208
+msgid "Attachments"
+msgstr ""
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:206
+msgid ""
+"Add any file as an attachment to your answer. Such an attachment isn't "
+"embedded in the body of the answer. Readers can download it by clicking on "
+"it in the attachment section."
+msgstr ""
+
+#: ../extras/knowledge-base.rst:211
+#, fuzzy
+#| msgid ""
+#| "Can help to categorize or label answers for better search results. Please "
+#| "note that tags are visible publicly and can be the same like those in "
+#| "your tickets."
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
-"note that tags are visible publicly and can be the same like those in your "
+"note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
 "Segíthet a válaszok kategorizálásában vagy címkézésében a jobb keresési "
 "eredményekért. Ne feledje, hogy a címkék nyilvánosan láthatók, és "
 "megegyezhetnek a jegyekben lévőkkel."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:238
 msgid "Visibility"
 msgstr "Láthatóság"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:216
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7600,31 +7654,31 @@ msgstr ""
 "egy bejegyzést, vagy ütemezze, hogy egy későbbi időpontban legyen közzétéve. "
 "A bejegyzések színkóddal vannak jelölve a láthatóságuk szerint:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:221
 msgid "**Public** (visible to everyone)"
 msgstr "**Nyilvános** (mindenkinek látható)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:223
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Belső** (csak ügyintézőknek és szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:225
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Piszkozat/ütemezett/archivált** (csak szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:241
 msgid "Using Answers In Ticket Articles"
 msgstr "Válaszok használata a jegy bejegyzéseiben"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:243
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7890,7 +7944,8 @@ msgstr "„Folytatás asztali gépen” hivatkozás a bejelentkezési képernyő
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link in User Account Overview"
-msgstr "„Folytatás asztali gépen” hivatkozás a felhasználói fiók áttekintésében"
+msgstr ""
+"„Folytatás asztali gépen” hivatkozás a felhasználói fiók áttekintésében"
 
 #: ../extras/mobile-view.rst:170
 msgid "User Account Overview"
@@ -8031,7 +8086,8 @@ msgstr "Menüsáv kiemelt jelentéskészítéssel"
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
-msgstr "Ha nem látja a jelentéskészítés gombot, akkor nincs jogosultsága hozzá."
+msgstr ""
+"Ha nem látja a jelentéskészítés gombot, akkor nincs jogosultsága hozzá."
 
 #: ../extras/reporting.rst:14
 msgid "The reporting screen consists of various sections:"
@@ -8490,7 +8546,8 @@ msgstr "A Zammad műszakilag két piszkozatfunkcióval rendelkezik:"
 
 #: ../extras/shared-drafts.rst:15
 msgid "Shared drafts (allow others to load the draft)"
-msgstr "Megosztott piszkozatok (lehetővé teszi másoknak a piszkozat betöltését)"
+msgstr ""
+"Megosztott piszkozatok (lehetővé teszi másoknak a piszkozat betöltését)"
 
 #: ../extras/shared-drafts.rst:16
 msgid "User drafts"
@@ -9029,8 +9086,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Hitelesítő <https://support.microsoft.com/en-us/account-billing/"
-"download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-"
-"27e523b8702a>`_"
+"download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-"
+"b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -9150,7 +9207,7 @@ msgstr "Biztonsági kulcs neve"
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:24
 msgid ""
-"Next, depending you your browser, you will be presented with different "
+"Next, depending on your browser, you will be presented with different "
 "options. Select one that refers to your chosen security key and follow the "
 "instructions on the screen."
 msgstr ""
@@ -9322,10 +9379,11 @@ msgid ""
 "overviews. Since this list is limited, old items will automatically "
 "disappear."
 msgstr ""
-"A korábban megtekintett összes információ (jegyek, felhasználók, szervezetek)"
-". Segít abban, hogy egyszerűen hozzáférhessen az elemekhez anélkül, hogy "
-"keresnie kellene vagy végig kellene görgetnie az áttekintéseket. Mivel ez a "
-"lista korlátozott, a régebbi elemek automatikusan eltűnnek."
+"A korábban megtekintett összes információ (jegyek, felhasználók, "
+"szervezetek). Segít abban, hogy egyszerűen hozzáférhessen az elemekhez "
+"anélkül, hogy keresnie kellene vagy végig kellene görgetnie az "
+"áttekintéseket. Mivel ez a lista korlátozott, a régebbi elemek automatikusan "
+"eltűnnek."
 
 #: ../extras/user-menu-profile-settings.rst:42
 msgid "Further actions"
@@ -9697,6 +9755,19 @@ msgstr ""
 "Jelenleg a Zammad felhasználói dokumentációját olvassa. :docs:`Rendszer- </"
 "index.html>` és :admin-docs:`adminisztrátori kézikönyvek</index.html>` is "
 "elérhetők."
+
+#~ msgid ""
+#~ "Screencast showing the visibility option for categories for granular "
+#~ "access permissions"
+#~ msgstr ""
+#~ "A képernyőfelvétel a kategóriák láthatósági lehetőségeit jeleníti meg a "
+#~ "részletes hozzáférési jogosultságokhoz"
+
+#~ msgid "**Linked Tickets**"
+#~ msgstr "**Kapcsolt jegyek**"
+
+#~ msgid "**Tags**"
+#~ msgstr "**Címkék**"
 
 #~ msgid "General"
 #~ msgstr "Általános"
