@@ -180,7 +180,7 @@ That means you can use the same
 text, bullet lists and more. You can even add file attachments and links!
 
 Different link types
-   Web link
+   Weblink
      URLs pointing to other websites.
 
    Link Answer
@@ -198,7 +198,7 @@ Different link types
       supported video services is displayed in the video dialog below the URL
       field.
 
-   Linked Tickets
+   Related Tickets
       Internal references to Zammad tickets (visible only in preview and edit
       mode).
 
