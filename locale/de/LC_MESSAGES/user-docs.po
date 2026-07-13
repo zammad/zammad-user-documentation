@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 14:22+0200\n"
-"PO-Revision-Date: 2026-07-02 16:02+0000\n"
+"POT-Creation-Date: 2026-07-10 15:28+0200\n"
+"PO-Revision-Date: 2026-07-11 05:07+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -7382,10 +7382,8 @@ msgstr ""
 "Abonnieren an."
 
 #: ../extras/knowledge-base.rst:0
-#, fuzzy
-#| msgid "Screenshot showing the modal for of the RSS button"
 msgid "Screenshot shows the modal for of the RSS button"
-msgstr "Bildschirmaufnahme zeigt den Dialog für den RSS-Knopf"
+msgstr "Der Screenshot zeigt den Dialog der RSS-Schaltfläche"
 
 #: ../extras/knowledge-base.rst:107
 msgid ""
@@ -7396,15 +7394,11 @@ msgstr ""
 "enthalten**. Geben Sie diese URLs niemals weiter!"
 
 #: ../extras/knowledge-base.rst:110
-#, fuzzy
-#| msgid ""
-#| "If you want to revoke the access and renew your token, you can do so in "
-#| "the RSS modal."
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
 "RSS dialog."
 msgstr ""
-"Falls Sie den Zugriff für den Token entziehen und ihn erneuenten möchte, "
+"Falls Sie den Zugriff für das Token entziehen und es erneuern möchten, "
 "können Sie das im RSS-Dialog tun."
 
 #: ../extras/knowledge-base.rst:0
@@ -7482,14 +7476,10 @@ msgstr ""
 "permissions.html>` entsprechend zu konfigurieren."
 
 #: ../extras/knowledge-base.rst:None
-#, fuzzy
-#| msgid ""
-#| "Your administrator has to provide the relevant groups with reader "
-#| "permissions for the knowledge base."
 msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
-"Ihr Administrator muss die relevanten Gruppen mit Reader-Rechten für die "
-"Wissensdatenbank versehen."
+"Der Screenshot zeigt die detaillierten Berechtigungen für die Kategorien der "
+"Knowledge Base"
 
 #: ../extras/knowledge-base.rst:153
 msgid ""
@@ -7540,13 +7530,6 @@ msgid "Edit answer"
 msgstr "Antwort editieren"
 
 #: ../extras/knowledge-base.rst:176
-#, fuzzy
-#| msgid ""
-#| "The knowledge base editor comes equipped with the same **rich text "
-#| "editing capabilities** available in the Zammad ticket composer. That "
-#| "means you can use the same :doc:`keyboard shortcuts </advanced/keyboard-"
-#| "shortcuts>` to insert formatted text, bullet lists, and more. You can "
-#| "even add file attachments and links!"
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7566,19 +7549,17 @@ msgstr "Verschiedene Link-Typen"
 
 #: ../extras/knowledge-base.rst:184
 #, fuzzy
-#| msgid "**Web link**"
-msgid "Web link"
-msgstr "**Web-Link**"
+#| msgid "Web link"
+msgid "Weblink"
+msgstr "Link"
 
 #: ../extras/knowledge-base.rst:184
 msgid "URLs pointing to other websites."
 msgstr "URLs, die auf andere Websites verweisen."
 
 #: ../extras/knowledge-base.rst:188
-#, fuzzy
-#| msgid "**Link Answer**"
 msgid "Link Answer"
-msgstr "**Antwort verknüpfen**"
+msgstr "Antwort verknüpfen"
 
 #: ../extras/knowledge-base.rst:187
 msgid ""
@@ -7590,17 +7571,19 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:192
 msgid "Image"
-msgstr ""
+msgstr "Bild"
 
 #: ../extras/knowledge-base.rst:191
 msgid ""
 "Include an image from your computer in the answer. Unlike file attachments, "
 "these images are embedded directly in the answer."
 msgstr ""
+"Fügen Sie der Antwort ein Bild von Ihrem Computer hinzu. Im Gegensatz zu "
+"Anhängen werden diese Bilder direkt in die Antwort eingebettet."
 
 #: ../extras/knowledge-base.rst:199
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: ../extras/knowledge-base.rst:195
 msgid ""
@@ -7609,12 +7592,17 @@ msgid ""
 "PeerTube instances can be enabled by your admin as well. A list of supported "
 "video services is displayed in the video dialog below the URL field."
 msgstr ""
+"Fügen Sie ein Video ein, das in die Antwort eingebettet werden soll. "
+"Standardmäßig können Sie Videos von Vimeo und YouTube einbetten. Je nach "
+"Ihren Zammad-Einstellungen können MediaCMS- und PeerTube-Instanzen ebenfalls "
+"von Ihrem Administrator aktiviert werden. Eine Liste der unterstützten "
+"Videodienste wird im Videodialogfeld unterhalb des URL-Feldes angezeigt."
 
 #: ../extras/knowledge-base.rst:203
 #, fuzzy
-#| msgid "Link Tickets"
-msgid "Linked Tickets"
-msgstr "Tickets verknüpfen"
+#| msgid "Create Tickets"
+msgid "Related Tickets"
+msgstr "Tickets erstellen"
 
 #: ../extras/knowledge-base.rst:202
 msgid ""
@@ -7626,7 +7614,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:208
 msgid "Attachments"
-msgstr ""
+msgstr "Anhänge"
 
 #: ../extras/knowledge-base.rst:206
 msgid ""
@@ -7634,21 +7622,20 @@ msgid ""
 "embedded in the body of the answer. Readers can download it by clicking on "
 "it in the attachment section."
 msgstr ""
+"Fügen Sie Ihrer Antwort eine beliebige Datei als Anhang hinzu. Ein solcher "
+"Anhang wird nicht im Text der Antwort eingebettet. Leser können ihn "
+"herunterladen, indem sie im Anhangsbereich darauf klicken."
 
 #: ../extras/knowledge-base.rst:211
-#, fuzzy
-#| msgid ""
-#| "Can help to categorize or label answers for better search results. Please "
-#| "note that tags are visible publicly and can be the same like those in "
-#| "your tickets."
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
-"Dies kann dabei helfen, Antworten zu kategorisieren oder mit Tags zu "
+"Dies kann dabei helfen, Antworten zu kategorisieren oder mit Labels zu "
 "versehen, um bessere Suchergebnisse zu erzielen. Bitte beachten Sie, dass "
-"Tags öffentlich sichtbar sind und dieselben wie in Ihren Tickets sind."
+"Tags öffentlich sichtbar sind und mit denen in Ihren Tickets übereinstimmen "
+"können."
 
 #: ../extras/knowledge-base.rst:238
 msgid "Visibility"
@@ -8174,7 +8161,7 @@ msgstr "Sichere E-Mail"
 
 #: ../extras/secure-email.rst:4
 msgid "Zammad supports two systems for secure email communication:"
-msgstr "Zammad unterstützt zwei Systeme für die sichere E-Mail-Kommunikation:"
+msgstr "Zammad unterstützt zwei Systeme für sichere E-Mail-Kommunikation:"
 
 #: ../extras/secure-email.rst:6
 msgid "**PGP** (Pretty Good Privacy)"
@@ -8265,7 +8252,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:41
 msgid "Signing & Encryption"
-msgstr "Signierung und Verschlüsselung"
+msgstr "Signatur & Verschlüsselung"
 
 #: ../extras/secure-email.rst:45
 msgid "Signing"
@@ -8296,7 +8283,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:52 ../extras/secure-email.rst:112
 msgid "Incoming Email"
-msgstr "Eingehende E-Mails"
+msgstr "Eingehende E-Mail"
 
 #: ../extras/secure-email.rst:54
 msgid ""
@@ -8509,7 +8496,7 @@ msgid ""
 "Ask your administrator to add the recipient's certificate to Zammad's "
 "certificate store."
 msgstr ""
-"Bitten Sie Ihren Administrator, das Zertifikat des Empfängers dem "
+"Bitten Sie Ihren Administrator, das Zertifikat des Empfängers zum "
 "Zertifikatsspeicher von Zammad hinzuzufügen."
 
 #: ../extras/secure-email.rst:148
@@ -9226,19 +9213,14 @@ msgid "Security Key Name"
 msgstr "Name Sicherheits-Schlüssel"
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:24
-#, fuzzy
-#| msgid ""
-#| "Next, depending you your browser, you will be presented with different "
-#| "options. Select one that refers to your chosen security key and follow "
-#| "the instructions on the screen."
 msgid ""
 "Next, depending on your browser, you will be presented with different "
 "options. Select one that refers to your chosen security key and follow the "
 "instructions on the screen."
 msgstr ""
-"Abhängig von Ihrem Browser können Ihnen verschiedene Optionen angeboten "
-"werden. Wählen Sie die, die der Ihres angegebenen Sicherheits-Schlüssels "
-"entspricht und folgen den weiteren Anweisungen."
+"Anschließend werden Ihnen je nach Browser verschiedene Optionen angezeigt. "
+"Wählen Sie die Option aus, die zu Ihrem gewählten Sicherheits-Schlüssel "
+"passt, und befolgen Sie die weiteren Anweisungen."
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:None
 msgid "Security Key Registration"
@@ -9779,6 +9761,9 @@ msgstr ""
 "Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
 "außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
 "Dokumentationen </index.html>` verfügbar."
+
+#~ msgid "Linked Tickets"
+#~ msgstr "Verknüpfte Tickets"
 
 #~ msgid ""
 #~ "Screencast showing the visibility option for categories for granular "
