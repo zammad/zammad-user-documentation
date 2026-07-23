@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-10 15:28+0200\n"
-"PO-Revision-Date: 2026-07-22 04:10+0000\n"
+"PO-Revision-Date: 2026-07-23 12:10+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -749,7 +749,7 @@ msgstr "Exemplo"
 
 #: ../advanced/search.rst:1
 msgid "Description"
-msgstr "Descriçã"
+msgstr "Descrição"
 
 #: ../advanced/search.rst:1
 msgid "number"
@@ -1362,7 +1362,7 @@ msgstr "Grupo"
 #: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
 #: ../basics/zammad-glossary.rst:514
 msgid "Owner"
-msgstr "Proprietário"
+msgstr "Responsável"
 
 #: ../advanced/suggested-workflows.rst:92
 msgid "State (with pending time, if applicable)"
@@ -1777,7 +1777,7 @@ msgstr ""
 
 #: ../advanced/ticket-actions.rst:2 ../basics/work-with-tickets.rst:192
 msgid "Ticket Actions"
-msgstr "Ações dos Chamados"
+msgstr "Ações do ticket"
 
 #: ../advanced/ticket-actions.rst:4
 msgid ""
@@ -1911,7 +1911,7 @@ msgid ""
 "you select the merging into the selected one."
 msgstr ""
 "Mesclar um ticket migra todas as mensagens e notas do ticket de onde você "
-"inicia a mesclagem para o ticket selecionado."
+"seleciona a mesclagem para o ticket selecionado."
 
 #: ../advanced/ticket-actions/merge.rst:16
 msgid ""
@@ -1982,11 +1982,11 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:49
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr "Os artigos foram substituídos por um rótulo \"mesclado\""
+msgstr "Os artigos foram substituídos por um rótulo \"merged\""
 
 #: ../advanced/ticket-actions/merge.rst:50
 msgid "The state has changed to \"merged\""
-msgstr "O estado mudou para \"mesclado\""
+msgstr "O estado mudou para \"merged\""
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: ../advanced/ticket-templates.rst:4
 msgid "Ticket Templates"
-msgstr "Modelos de chamados"
+msgstr "Modelos de ticket"
 
 #: ../advanced/ticket-templates.rst:6
 msgid ""
@@ -2136,7 +2136,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
-msgstr "Gestão de Tempo"
+msgstr "Contabilização de tempo"
 
 #: ../advanced/time-accounting.rst:4
 msgid ""
@@ -2266,7 +2266,7 @@ msgstr "Um cliente vai até um balcão de atendimento físico."
 
 #: ../basics/create-tickets.rst:12
 msgid "You proactively have to inform a customer by sending out a message."
-msgstr "Você precisa informar um cliente proativamente enviando uma mensagem."
+msgstr "Você precisa informar proativamente um cliente enviando uma mensagem."
 
 #: ../basics/create-tickets.rst:14
 msgid ""
@@ -2290,8 +2290,8 @@ msgstr "Tipo"
 msgid ""
 "In the ticket create dialog, you can choose from different article types:"
 msgstr ""
-"No diálogo de criação de ticket, você pode escolher entre diferentes tipos "
-"de artigo:"
+"Na caixa de diálogo de criação de ticket, você pode escolher entre "
+"diferentes tipos de artigo:"
 
 #: ../basics/create-tickets.rst:27
 msgid "Received Call: for issues initiated by a customer over the phone."
@@ -2310,12 +2310,12 @@ msgid ""
 "When choosing **Send Email**, the customer receives an email with the title "
 "as subject and the text as email content."
 msgstr ""
-"Ao escolher **Enviar email**, o cliente recebe um email com o título como "
-"assunto e o texto como conteúdo."
+"Ao escolher **Send Email**, o cliente recebe um email com o título como "
+"assunto e o texto como conteúdo do email."
 
 #: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:733
 msgid "Title"
-msgstr "Títul"
+msgstr "Título"
 
 #: ../basics/create-tickets.rst:37
 msgid ""
@@ -2449,16 +2449,16 @@ msgstr ""
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
-msgstr "Localizar tickets"
+msgstr "Encontrar tickets"
 
 #: ../basics/find-tickets.rst:4
 msgid "There are different ways to find tickets, depending on your use case."
 msgstr ""
-"Há diferentes maneiras de localizar tickets, dependendo do seu caso de uso."
+"Há diferentes formas de encontrar tickets, dependendo do seu caso de uso."
 
 #: ../basics/find-tickets.rst:9
 msgid "Via Overviews"
-msgstr "Pelas visões gerais"
+msgstr "Via visões gerais"
 
 #: ../basics/find-tickets.rst:11
 msgid ""
@@ -2592,7 +2592,7 @@ msgstr "Visão geral mostrando 3 tickets com prioridades diferentes"
 
 #: ../basics/find-tickets.rst:69
 msgid "Via Search"
-msgstr "Pela pesquisa"
+msgstr "Via pesquisa"
 
 #: ../basics/find-tickets.rst:71
 msgid ""
@@ -2632,11 +2632,11 @@ msgstr "Nomes e endereços de email"
 
 #: ../basics/find-tickets.rst:86
 msgid "Text in file attachments"
-msgstr "Texto em arquivos anexos"
+msgstr "Texto em anexos de arquivo"
 
 #: ../basics/find-tickets.rst:87
 msgid "User and organizations details (like notes, names, etc.)"
-msgstr "Detalhes de usuários e organizações (como notas, nomes etc.)"
+msgstr "Detalhes de usuários e organizações (como notas, nomes, etc.)"
 
 #: ../basics/find-tickets.rst:88
 msgid "Knowledge base articles"
@@ -2734,16 +2734,16 @@ msgid ""
 "requests with an email client so far, you might think that a ticket system "
 "is complicated. But the opposite is true:"
 msgstr ""
-"Se você nunca usou um sistema de tickets e até agora tratava as solicitações "
-"dos clientes com um cliente de email, pode achar que um sistema de tickets é "
-"complicado. Mas é justamente o contrário:"
+"Se você é completamente novo em um sistema de tickets e até agora tratava as "
+"solicitações dos clientes com um cliente de email, pode achar que um sistema "
+"de tickets é complicado. Mas é justamente o contrário:"
 
 #: ../basics/ticket-basics.rst:23
 msgid ""
 "All emails are now collected in Zammad (and requests from other channels "
 "might be as well)."
 msgstr ""
-"Todos os emails agora são reunidos no Zammad (e solicitações de outros "
+"Todos os emails agora são coletados no Zammad (e solicitações de outros "
 "canais também podem ser)."
 
 #: ../basics/ticket-basics.rst:25
@@ -2779,7 +2779,7 @@ msgid ""
 "customer issues and answer customer questions."
 msgstr ""
 "Com a interface intuitiva do Zammad, você pode focar no que importa: "
-"resolver os problemas e responder às perguntas dos clientes."
+"resolver os problemas dos clientes e responder às perguntas deles."
 
 #: ../basics/ticket-basics.rst:35
 msgid ""
@@ -2788,8 +2788,8 @@ msgid ""
 "more."
 msgstr ""
 "Isso significa que você pode trabalhar com o Zammad de forma semelhante ao "
-"seu cliente de email. Com a diferença de que um ticket tem atributos "
-"adicionais. Continue lendo para saber mais."
+"seu cliente de email. Exceto que um ticket tem atributos adicionais. "
+"Continue lendo para saber mais."
 
 #: ../basics/ticket-basics.rst:43
 msgid ""
@@ -2797,7 +2797,7 @@ msgid ""
 "are called attributes. Use the **ticket sidebar** to view and change ticket "
 "attributes."
 msgstr ""
-"Além dos artigos, os tickets têm metainformações adicionais chamadas "
+"Além dos artigos, os tickets têm algumas metainformações adicionais chamadas "
 "atributos. Use a **barra lateral do ticket** para visualizar e alterar os "
 "atributos do ticket."
 
@@ -2837,10 +2837,10 @@ msgid ""
 "request is resolved or not). Think of it as a representation of progress "
 "towards completion. By default, there are the following states:"
 msgstr ""
-"O estado reflete a situação atual de um ticket (principalmente se a "
-"solicitação do cliente está resolvida ou não). Pense nele como uma "
-"representação do progresso rumo à conclusão. Por padrão, existem os "
-"seguintes estados:"
+"O estado reflete a situação atual de um ticket (principalmente se uma "
+"solicitação do cliente está resolvida ou não). Pense nisso como uma "
+"representação do progresso rumo à conclusão. Por padrão, há os seguintes "
+"estados:"
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
@@ -2855,8 +2855,8 @@ msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
 msgstr ""
-"**Aberto**: estado para tickets que ainda não foram resolvidos e exigem "
-"algum trabalho."
+"**Open**: estado para tickets que ainda não foram resolvidos e algum "
+"trabalho precisa ser feito."
 
 #: ../basics/ticket-basics.rst:71
 msgid ""
@@ -2864,9 +2864,9 @@ msgid ""
 "don't want to close immediately. This state requires you to enter a date and "
 "time at which the ticket automatically switches to closed."
 msgstr ""
-"**Fechamento pendente**: estado para tickets essencialmente resolvidos, mas "
-"que você não quer fechar imediatamente. Esse estado exige que você informe "
-"data e hora em que o ticket muda automaticamente para fechado."
+"**Pending Close**: estado para tickets que basicamente já estão resolvidos, "
+"mas você não quer fechá-los imediatamente. Esse estado exige que você "
+"informe uma data e hora em que o ticket muda automaticamente para fechado."
 
 #: ../basics/ticket-basics.rst:74
 msgid ""
@@ -2939,9 +2939,10 @@ msgid ""
 "administrators can set up all sorts of automation and analytics based on the "
 "priority."
 msgstr ""
-"Você pode se perguntar para que serve a prioridade do ticket. De fábrica, "
-"ela não faz nada além do destaque visual. Porém, administradores do Zammad "
-"podem configurar todo tipo de automação e análise baseadas na prioridade."
+"Você deve estar se perguntando para que serve essa prioridade de ticket. Por "
+"padrão, ela não faz nada além do destaque visual. No entanto, os "
+"administradores do Zammad podem configurar todo tipo de automação e análise "
+"com base na prioridade."
 
 #: ../basics/ticket-basics.rst:112
 msgid ""
@@ -2999,9 +3000,10 @@ msgid ""
 msgstr ""
 "Esse atributo de ticket é útil para organizações com mais de uma equipe. Um "
 "uso comum é ter um grupo por departamento da empresa. Dependendo das "
-"permissões, você pode não ver mais o ticket após trocar o grupo e salvar. Se "
-"o campo de grupo não aparece, ou há apenas um grupo no seu Zammad, ou você "
-"não tem permissão para criar tickets em outros grupos."
+"permissões, você pode não ver mais o ticket após trocar o grupo e salvar as "
+"alterações. Se o campo de grupo não aparece, ou há apenas um grupo no seu "
+"sistema Zammad, ou você não tem permissão para criar um ticket em outros "
+"grupos."
 
 #: ../basics/ticket-basics.rst:145
 msgid ""
@@ -3022,8 +3024,8 @@ msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
 msgstr ""
-"Para mudar o responsável para alguém que só tem acesso aos tickets de outro "
-"grupo, primeiro é preciso trocar o grupo adequadamente."
+"Para mudar o responsável para uma pessoa que só tem acesso aos tickets de "
+"outro grupo, primeiro é preciso trocar o grupo adequadamente."
 
 #: ../basics/ticket-basics.rst:157
 msgid ""
@@ -3042,8 +3044,8 @@ msgid ""
 "You found your way into an existing ticket, congratulations! Now let's have "
 "a look what you can do and how to do it."
 msgstr ""
-"Você chegou a um ticket existente, parabéns! Agora vamos ver o que você pode "
-"fazer e como."
+"Você encontrou o caminho até um ticket existente, parabéns! Agora vamos ver "
+"o que você pode fazer e como fazê-lo."
 
 #: ../basics/work-with-tickets.rst:7
 msgid ""
@@ -3092,7 +3094,7 @@ msgid ""
 "No matter if you create a new article from scratch or respond to a customer "
 "article, you can choose from different article types:"
 msgstr ""
-"Não importa se você cria um artigo do zero ou responde a um artigo do "
+"Não importa se você cria um novo artigo do zero ou responde a um artigo do "
 "cliente, você pode escolher entre diferentes tipos de artigo:"
 
 #: ../basics/work-with-tickets.rst:35
@@ -3102,15 +3104,16 @@ msgid ""
 "default visibility is \"internal\", which means the customer can't see the "
 "note."
 msgstr ""
-"**Nota**: escreva um lembrete para você e outros agentes, faça uma pergunta "
-"a um colega mencionando o usuário ou adicione novas informações ao ticket. A "
-"visibilidade padrão é \"interna\", ou seja, o cliente não vê a nota."
+"**Note**: escreva um lembrete para você e outros agentes, faça uma pergunta "
+"a um colega mencionando um usuário ou adicione novas informações ao ticket. "
+"A visibilidade padrão é \"interna\", o que significa que o cliente não pode "
+"ver a nota."
 
 #: ../basics/work-with-tickets.rst:38
 msgid ""
 "**Call**: Note down a summary of a phone call you had with the customer."
 msgstr ""
-"**Chamada**: anote um resumo de uma ligação telefônica que você teve com o "
+"**Call**: registre um resumo de uma chamada telefônica que você teve com o "
 "cliente."
 
 #: ../basics/work-with-tickets.rst:39
@@ -3342,7 +3345,7 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:167
 msgid "Simultaneous Ticket Processing"
-msgstr "Processamento simultâneo de tickets"
+msgstr "Processamento simultâneo de ticket"
 
 #: ../basics/work-with-tickets.rst:171
 msgid ""
@@ -3374,16 +3377,16 @@ msgid ""
 "Faded avatar: Another agent opened the ticket but is currently not actively "
 "viewing it."
 msgstr ""
-"Avatar esmaecido: outro agente abriu o ticket, mas não o está visualizando "
-"ativamente no momento."
+"Avatar esmaecido: outro agente abriu o ticket, mas atualmente não está "
+"visualizando-o ativamente."
 
 #: ../basics/work-with-tickets.rst:183
 msgid ""
 "Avatar with pencil icon: Another agent is currently actively working on this "
 "ticket."
 msgstr ""
-"Avatar com ícone de lápis: outro agente está trabalhando ativamente neste "
-"ticket agora."
+"Avatar com ícone de lápis: outro agente está atualmente trabalhando "
+"ativamente neste ticket."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket conflict alert"
@@ -3439,7 +3442,7 @@ msgstr "Reatribui o chamado a outro cliente."
 
 #: ../basics/work-with-tickets.rst:218
 msgid "Monitoring Ticket Escalations"
-msgstr "Monitorando escalonamentos de tickets"
+msgstr "Monitorando escalonamentos de ticket"
 
 #: ../basics/work-with-tickets.rst:220
 msgid ""
@@ -3476,10 +3479,11 @@ msgid ""
 "It shows all upcoming or reached escalation times based on your SLA "
 "configuration:"
 msgstr ""
-"Tickets com SLA exibem um carimbo de hora no cabeçalho da visualização de "
-"detalhes. Passe o mouse sobre ele para ver todas as etapas e prazos de "
-"escalonamento em um popup, com todos os escalonamentos futuros ou atingidos "
-"conforme a configuração do seu SLA:"
+"Tickets relevantes para SLA exibem um carimbo de hora no cabeçalho da "
+"visualização de detalhes. Passe o mouse sobre esse carimbo de hora para ver "
+"todas as etapas e prazos de escalonamento em um popup. Ele mostra todos os "
+"horários de escalonamento futuros ou atingidos com base na configuração do "
+"seu SLA:"
 
 #: ../basics/work-with-tickets.rst:None
 msgid ""
@@ -3564,7 +3568,7 @@ msgid ""
 "most relevant terms below for your insight."
 msgstr ""
 "Já se perguntou o que queremos dizer com um termo específico? Reunimos "
-"abaixo os termos mais relevantes para sua consulta."
+"abaixo os termos mais relevantes para você."
 
 #: ../basics/zammad-glossary.rst:9
 msgid ""
@@ -3657,7 +3661,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:48
 msgid "Article"
-msgstr "Artigo"
+msgstr "Article"
 
 #: ../basics/zammad-glossary.rst:46
 msgid ""
@@ -3890,7 +3894,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:141
 msgid "Core Workflows"
-msgstr "Fluxos de Trabalho"
+msgstr "Fluxos de trabalho"
 
 #: ../basics/zammad-glossary.rst:134
 msgid ""
@@ -4760,7 +4764,7 @@ msgstr "O"
 
 #: ../basics/zammad-glossary.rst:498 ../extras/customers.rst:0
 msgid "Organization"
-msgstr "Organização"
+msgstr "Organization"
 
 #: ../basics/zammad-glossary.rst:495
 msgid ""
@@ -4944,7 +4948,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:590
 msgid "Role"
-msgstr "Função"
+msgstr "Função (Role)"
 
 #: ../basics/zammad-glossary.rst:580
 msgid ""
@@ -5353,7 +5357,7 @@ msgstr "U"
 
 #: ../basics/zammad-glossary.rst:755
 msgid "User"
-msgstr "Usuário"
+msgstr "User"
 
 #: ../basics/zammad-glossary.rst:752
 msgid ""
@@ -5419,7 +5423,7 @@ msgstr "O Zammad é o melhor helpdesk do mundo. Ponto final."
 
 #: ../basics/zammad-ui.rst:2
 msgid "Zammad UI"
-msgstr "Zammad UI"
+msgstr "Interface do Zammad"
 
 #: ../basics/zammad-ui.rst:4
 msgid ""
@@ -5428,10 +5432,10 @@ msgid ""
 "and accessibility and is based on common software design principles which "
 "should make the UI pretty self explanatory."
 msgstr ""
-"A interface de usuário (UI) do Zammad foi projetada para oferecer uma "
-"experiência intuitiva. É construída em torno dos conceitos de simplicidade, "
-"clareza e acessibilidade, com base em princípios comuns de design de "
-"software — o que deve tornar a interface bem autoexplicativa."
+"A interface do usuário (UI) do Zammad foi projetada para oferecer uma "
+"experiência intuitiva aos usuários. Ela é construída em torno do conceito de "
+"simplicidade, clareza e acessibilidade, e é baseada em princípios comuns de "
+"design de software, o que deve tornar a UI bastante autoexplicativa."
 
 #: ../basics/zammad-ui.rst:9
 msgid ""
@@ -5440,10 +5444,10 @@ msgid ""
 "on the currently opened screen, there are interactive components, such as "
 "tooltips and a contextual help. Use them wherever needed."
 msgstr ""
-"Há componentes modulares básicos para diferentes recursos, para manter a "
-"interface consistente. Esses componentes são descritos nas seções abaixo. "
-"Dependendo da tela aberta, há componentes interativos, como dicas e ajuda "
-"contextual. Use-os sempre que precisar."
+"Há componentes modulares básicos para diferentes recursos, para manter a UI "
+"consistente. Esses componentes são descritos nas seções abaixo. Dependendo "
+"da tela atualmente aberta, há componentes interativos, como dicas de "
+"ferramentas e ajuda contextual. Use-os sempre que necessário."
 
 #: ../basics/zammad-ui.rst:17
 msgid ""
@@ -5633,20 +5637,20 @@ msgid ""
 "History: shows a dialog with the history in the current ticket. This is "
 "where you can find when and what actions was performed and by whom."
 msgstr ""
-"Histórico: mostra um diálogo com o histórico do ticket atual. É onde você "
-"encontra quando e quais ações foram realizadas e por quem."
+"History: mostra uma caixa de diálogo com o histórico do ticket atual. É aqui "
+"que você pode encontrar quando e quais ações foram realizadas e por quem."
 
 #: ../basics/zammad-ui.rst:100
 msgid ""
 "Merge: merge the ticket with another one in case a customer emailed you "
 "multiple times about the same issue."
 msgstr ""
-"Mesclar: mescle o ticket com outro caso um cliente tenha enviado vários "
-"emails sobre a mesma questão."
+"Merge: mescla o ticket com outro, caso um cliente tenha enviado vários "
+"emails sobre o mesmo assunto."
 
 #: ../basics/zammad-ui.rst:102
 msgid "Change customer: set another customer for the ticket."
-msgstr "Alterar cliente: defina outro cliente para o ticket."
+msgstr "Change customer: define outro cliente para o ticket."
 
 #: ../basics/zammad-ui.rst:107
 msgid "Customer tab"
@@ -5744,8 +5748,8 @@ msgid ""
 "or many hand-overs between agents."
 msgstr ""
 "O recurso de resumo do ticket faz o que o nome diz: resume o conteúdo do "
-"ticket. Pode ser uma grande economia de tempo em tickets extensos e/ou com "
-"muitas passagens de bastão entre agentes."
+"ticket. Isso pode economizar muito tempo ao lidar com tickets grandes e/ou "
+"muitas transferências entre agentes."
 
 #: ../extras/ai-features.rst:31
 msgid ""
@@ -5795,11 +5799,11 @@ msgstr "Resumo da conversa"
 
 #: ../extras/ai-features.rst:48
 msgid "Open questions (optional)"
-msgstr "Questões em aberto (opcional)"
+msgstr "Perguntas em aberto (opcional)"
 
 #: ../extras/ai-features.rst:49
 msgid "Upcoming events (optional)"
-msgstr "Próximos eventos (opcional)"
+msgstr "Eventos futuros (opcional)"
 
 #: ../extras/ai-features.rst:50
 msgid "Customer sentiment (optional)"
@@ -5807,7 +5811,7 @@ msgstr "Sentimento do cliente (opcional)"
 
 #: ../extras/ai-features.rst:53
 msgid "Writing Assistant Tools"
-msgstr "Ferramentas de assistente de escrita"
+msgstr "Ferramentas do assistente de escrita"
 
 #: ../extras/ai-features.rst:55
 msgid ""
@@ -5837,9 +5841,10 @@ msgid ""
 "the configuration of your Zammad instance. You might even have additional "
 "custom tools in case your admin added them."
 msgstr ""
-"O Zammad traz ferramentas de assistente de escrita padrão. A disponibilidade "
-"depende da configuração da sua instância. Você pode até ter ferramentas "
-"personalizadas adicionais, caso o administrador as tenha criado."
+"O Zammad vem com ferramentas de assistente de escrita padrão. A "
+"disponibilidade depende da configuração da sua instância do Zammad. Você "
+"pode até ter ferramentas personalizadas adicionais, caso seu administrador "
+"as tenha adicionado."
 
 #: ../extras/ai-features.rst:69
 msgid ""
@@ -5849,34 +5854,34 @@ msgid ""
 "errors. You can even use it by providing only basic information (e.g. via "
 "bullet points) and let the AI write the answer."
 msgstr ""
-"**Expandir rascunho em seção bem escrita**: usa seu rascunho como base e "
-"tenta elaborar um texto adequado. Procura adicionar estrutura, melhorar "
-"clareza e concisão e remover erros de ortografia e gramática. Você pode até "
-"usá-lo fornecendo apenas informações básicas (ex.: em tópicos) e deixar a IA "
-"escrever a resposta."
+"**Expand draft into well-written section**: usa seu rascunho como base e "
+"tenta elaborar um texto adequado. Tenta adicionar uma estrutura e melhorar a "
+"clareza e concisão, além de remover erros de ortografia e gramática. Você "
+"pode até usá-lo fornecendo apenas informações básicas (por exemplo, em "
+"tópicos) e deixar a IA escrever a resposta."
 
 #: ../extras/ai-features.rst:74
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
 msgstr ""
-"**Corrigir ortografia e gramática**: revisa seu texto e remove erros de "
-"ortografia e gramática."
+"**Fix spelling and grammar**: revisa seu texto e remove erros de ortografia "
+"e gramática."
 
 #: ../extras/ai-features.rst:76
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
 msgstr ""
-"**Resumir a seção para cerca de metade do tamanho atual**: encolhe seu texto "
-"mantendo a mensagem e o tom."
+"**Summarize section to about half its current size**: reduz seu texto para "
+"cerca de metade do tamanho atual, mantendo a mensagem e o tom do texto."
 
 #: ../extras/ai-features.rst:78
 msgid ""
 "**Rewrite complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
-"**Reescrever seção complexa e torná-la fácil de entender**: remove partes "
+"**Rewrite complex section and make it easy to understand**: remove partes "
 "desnecessárias e reescreve seu texto de forma clara e compreensível."
 
 #: ../extras/ai-features.rst:81
@@ -5954,14 +5959,15 @@ msgid ""
 "duplicate work as well as losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
-"Agentes de IA que estão trabalhando em um ticket são exibidos como os demais "
-"agentes na seção de usuários ao vivo da barra inferior. Isso ajuda a evitar "
-"trabalho duplicado e perda de mudanças não salvas. Se você vê o avatar de um "
-"agente de IA, aguarde um momento ou vá para outro ticket."
+"Agentes de IA que estão trabalhando atualmente em um ticket são exibidos "
+"como outros agentes na seção de usuários ao vivo na barra inferior. Isso "
+"ajuda a evitar trabalho duplicado, assim como a perda de alterações não "
+"salvas. Se você vir um avatar de agente de IA, aguarde um momento ou vá para "
+"outro ticket."
 
 #: ../extras/ai-features.rst:120
 msgid "Avatar of AI agent:"
-msgstr "Avatar do agente de IA:"
+msgstr "Avatar de agente de IA:"
 
 #: ../extras/ai-features.rst:0
 msgid "Screenshot shows avatar of an AI agent"
@@ -5976,8 +5982,8 @@ msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
 msgstr ""
-"Um agente de IA em execução é indicado na coluna de status das visões "
-"gerais. O círculo de status muda para um gradiente azul/rosa:"
+"Um agente de IA em execução é indicado na coluna de status nas visões "
+"gerais. O círculo de status muda para um círculo gradiente azul/rosa:"
 
 #: ../extras/ai-features.rst:0
 msgid ""
@@ -6331,7 +6337,7 @@ msgstr ""
 
 #: ../extras/checklist.rst:2
 msgid "Checklist"
-msgstr "Lista de verificação"
+msgstr "Checklist"
 
 #: ../extras/checklist.rst:4
 msgid ""
@@ -7036,7 +7042,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:19
 msgid "Getting Started"
-msgstr "Primeiros passos"
+msgstr "Começando"
 
 #: ../extras/knowledge-base.rst:None
 msgid "Knowledge Base Link to published knowledge base"
@@ -7590,8 +7596,8 @@ msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
 msgstr ""
-"A visualização móvel oferece uma forma de realizar suas tarefas diárias "
-"comuns do Zammad em movimento:"
+"A visualização mobile oferece uma forma de realizar suas tarefas diárias "
+"comuns do Zammad enquanto está em movimento:"
 
 #: ../extras/mobile-view.rst:110
 msgid "Manage & use your ticket overviews"
@@ -7678,8 +7684,8 @@ msgid ""
 "Additionally, certain features were intentionally omitted in order to "
 "improve the focus on important information:"
 msgstr ""
-"Além disso, certos recursos foram omitidos intencionalmente para melhorar o "
-"foco nas informações importantes:"
+"Além disso, certos recursos foram intencionalmente omitidos para melhorar o "
+"foco em informações importantes:"
 
 #: ../extras/mobile-view.rst:141
 msgid ""
@@ -7950,7 +7956,7 @@ msgid ""
 "Both systems allow you to exchange **signed** and **encrypted** messages "
 "with others."
 msgstr ""
-"Ambos os sistemas permitem trocar mensagens **assinadas** e "
+"Ambos os sistemas permitem que você troque mensagens **assinadas** e "
 "**criptografadas** com outras pessoas."
 
 #: ../extras/secure-email.rst:13
@@ -8004,13 +8010,14 @@ msgid ""
 "with turned off encryption and activated signing). Read on to learn more "
 "about it and to find common errors."
 msgstr ""
-"Se esses requisitos forem atendidos, o recurso deve funcionar de imediato e "
-"o Zammad criptografa, descriptografa, assina e verifica assinaturas de "
-"emails sempre que possível. O admin pode definir um comportamento padrão por "
-"grupo. Porém, você pode sobrepor o padrão em cada artigo de email de saída, "
-"ligando ou desligando criptografia e assinatura (veja o exemplo na captura "
-"de tela abaixo, com criptografia desligada e assinatura ativada). Continue "
-"lendo para saber mais e conhecer os erros comuns."
+"Se esses requisitos forem atendidos, o recurso deve funcionar imediatamente, "
+"e o Zammad criptografa, descriptografa, assina e verifica assinaturas de "
+"emails quando possível. Seu administrador pode definir um comportamento "
+"padrão para cada grupo. No entanto, você pode substituir o padrão para cada "
+"artigo de email de saída por conta própria, ativando ou desativando a "
+"criptografia e a assinatura (veja o exemplo na captura de tela abaixo, com "
+"criptografia desativada e assinatura ativada). Continue lendo para saber "
+"mais sobre isso e encontrar erros comuns."
 
 #: ../extras/secure-email.rst:None
 msgid ""
@@ -8060,14 +8067,14 @@ msgid ""
 "In the details, you can hover over the security status to see more "
 "information."
 msgstr ""
-"Os ícones de cadeado e verificação no topo de uma mensagem indicam o status "
-"de criptografia e assinatura dela. Clique em um artigo de mensagem recebida "
-"para expandir os detalhes. Neles, passe o mouse sobre o status de segurança "
-"para mais informações."
+"Os ícones de cadeado e verificação no topo de uma mensagem indicam seu "
+"estado de criptografia e assinatura. Clique em um artigo de email recebido "
+"para expandir seus detalhes. Nos detalhes, você pode passar o mouse sobre o "
+"status de segurança para ver mais informações."
 
 #: ../extras/secure-email.rst:58
 msgid "Status Icons for Incoming Emails"
-msgstr "Ícones de status para emails de entrada"
+msgstr "Ícones de status para emails recebidos"
 
 #: ../extras/secure-email.rst:61 ../extras/secure-email.rst:83
 msgid "|lock|"
@@ -8193,7 +8200,7 @@ msgstr "Solução de problemas"
 
 #: ../extras/secure-email.rst:126
 msgid "Sign: Unable to find certificate for validation"
-msgstr "Assinatura: não foi possível encontrar o certificado para validação"
+msgstr "Sign: não é possível encontrar o certificado para validação"
 
 #: ../extras/secure-email.rst:0
 msgid ""
@@ -8208,9 +8215,9 @@ msgid ""
 "signature. Ask your administrator to add the sender's certificate to "
 "Zammad's certificate store."
 msgstr ""
-"Sem o certificado do remetente, o Zammad não consegue verificar a assinatura "
-"da mensagem. Peça ao administrador para adicionar o certificado do remetente "
-"ao repositório de certificados do Zammad."
+"Sem o certificado do remetente, o Zammad não pode verificar a assinatura da "
+"mensagem. Peça ao seu administrador para adicionar o certificado do "
+"remetente ao armazenamento de certificados do Zammad."
 
 #: ../extras/secure-email.rst:123
 msgid ""
@@ -8226,7 +8233,7 @@ msgstr ""
 #: ../extras/secure-email.rst:137
 msgid "Encryption: Unable to find private key to decrypt"
 msgstr ""
-"Criptografia: não foi possível encontrar a chave privada para descriptografar"
+"Encryption: não é possível encontrar a chave privada para descriptografar"
 
 #: ../extras/secure-email.rst:0
 msgid ""
@@ -8258,8 +8265,8 @@ msgid ""
 "Ask your administrator to add the recipient's certificate to Zammad's "
 "certificate store."
 msgstr ""
-"Peça ao administrador para adicionar o certificado do destinatário ao "
-"repositório de certificados do Zammad."
+"Peça ao seu administrador para adicionar o certificado do destinatário ao "
+"armazenamento de certificados do Zammad."
 
 #: ../extras/secure-email.rst:148
 msgid "The ``Sign`` button is disabled"
@@ -8270,8 +8277,8 @@ msgid ""
 "Ask your administrator to verify your organization's private key in Zammad's "
 "certificate store."
 msgstr ""
-"Peça ao administrador para verificar a chave privada da sua organização no "
-"repositório de certificados do Zammad."
+"Peça ao seu administrador para verificar a chave privada da sua organização "
+"no armazenamento de certificados do Zammad."
 
 #: ../extras/secure-email.rst:153
 msgid "I can see a ``PGP`` and ``S/MIME`` button. What should I do?"
@@ -8544,7 +8551,9 @@ msgstr "Configurar método de dois fatores em Senha e autenticação"
 
 #: ../extras/two-factor-authentication.rst:31
 msgid "In a modal dialog, you will be asked to confirm your current password."
-msgstr "Em um diálogo modal, será solicitado que você confirme sua senha atual."
+msgstr ""
+"Em uma caixa de diálogo modal, você será solicitado a confirmar sua senha "
+"atual."
 
 #: ../extras/two-factor-authentication.rst:None
 msgid "Password Check Modal Dialog"
@@ -8590,9 +8599,9 @@ msgid ""
 "authentication method, you can switch to another one, provided you have set "
 "it up previously."
 msgstr ""
-"Caso tenha problemas ao fazer login com seu método preferido de autenticação "
-"de dois fatores, você pode alternar para outro, desde que o tenha "
-"configurado previamente."
+"Caso você tenha problemas durante o login com seu método preferido de "
+"autenticação de dois fatores, você pode mudar para outro, desde que já o "
+"tenha configurado anteriormente."
 
 #: ../extras/two-factor-authentication.rst:71
 msgid ""
@@ -8805,8 +8814,8 @@ msgid ""
 msgstr ""
 "O método de aplicativo autenticador é um tipo de autenticação de dois "
 "fatores que usa um aplicativo móvel para gerar códigos de uso único para "
-"verificação da conta. Após configurar o aplicativo no dispositivo, você o "
-"vinculará à sua conta do Zammad."
+"verificação da conta. Depois de configurar o aplicativo autenticador no seu "
+"dispositivo, você o vinculará à sua conta do Zammad."
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:13
 msgid ""
@@ -8980,7 +8989,8 @@ msgid ""
 "it)."
 msgstr ""
 "O navegador pode pedir que você interaja com uma chave ou dispositivo para "
-"provar que o possui fisicamente (ex.: digitar o PIN para desbloqueá-lo)."
+"provar que você está fisicamente de posse dele (por exemplo, informar o PIN "
+"para desbloqueá-lo)."
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:41
 msgid ""
