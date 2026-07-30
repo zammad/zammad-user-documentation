@@ -111,8 +111,7 @@ talk to your administrator about enabling the function.
          in the RSS dialog.
 
          .. figure:: /images/extras/knowledge-base/knowledge-base-reset-rss-access-token.png
-            :alt: Screenshot showing the access token reset link on the lower
-                  end of the RSS feed modal (internal knowledge base)
+            :alt: Screenshot showing the access token reset link on the lower end of the RSS feed modal (internal knowledge base)
             :align: center
 
 Editing Categories
