@@ -165,8 +165,7 @@ account.
 
 
    .. figure:: /images/extras/user-menu-profile-settings/custom-overview-order-users.gif
-      :alt: Screencast showing how to drag & drop overviews order and reset the
-            order back to default
+      :alt: Screencast showing how to drag & drop overviews order and reset the order back to default
 
 :Calendar:
 
