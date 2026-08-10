@@ -134,9 +134,10 @@ Knowledge Base Answer Suggestion
 This feature uses the ticket's content and compares it with the available
 knowledge base answers. If there is a matching answer above a configurable
 relevance score, it is shown under **Suggested by AI**. Each suggestion shows
-the title of the answer and more details on hover. Click on the title to open
-the answer in the knowledge base. Click the ``+`` on the right side to link it
-to the ticket.
+the title of the answer and more details on hover. An additional relevance score
+is only shown to users with the corresponding admin permissions. Click on the
+title to open the answer in the knowledge base. Click the ``+`` on the right
+side to link it to the ticket. 
 
 If no suggestions are available, the message "No suggestions." is displayed
 instead.
