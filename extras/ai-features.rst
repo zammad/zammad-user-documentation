@@ -141,20 +141,14 @@ ticket content and use an embedding-based search to find relevant articles.
 
 Each suggestion shows:
 
-- The title of the article, linking to its full text.
-- The relevance score as a percentage (for administrators who have enabled AI
-  feature feedback).
-- Knowledge base category name.
-- A ``+`` button to link the answer in the **Related knowledge** section below.
+- The title of the article, linking to its full text in a popover.
 
 If no suggestions are available the message ``No related knowledge base answers
 found`` will be displayed instead. If the AI service fails you will get an error
 message with a **Retry** button to try again.
 
-To use this feature, your administrator needs to have configured an active AI
-provider and enabled it for knowledge base suggestions. Your KB editor permission
-is not required for viewing or linking suggested answers, but is needed for the
-``+ AI draft`` button described above.
+To use this feature, your administrator needs to have configured and enabled an
+active AI provider for knowledge base answer suggestions on your site.
 
 .. _ai-agents:
 
