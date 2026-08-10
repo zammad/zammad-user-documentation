@@ -89,6 +89,73 @@ Click on the ``Approve`` button to accept the changes and to insert it in the
 article. After accepting the suggestion, you can still edit the text in the
 article editor.
 
+Knowledge Base Answer Generation
+--------------------------------
+
+This feature allows you to trigger an AI-based generation of a
+:doc:`knowledge base <knowledge-base>` answer out of a ticket. This can be
+useful if you often get similar tickets and want to quickly create a knowledge
+base article for such cases. Doing so helps you and your colleagues to solve
+similar tickets more efficiently in the future and might even reduce the ticket
+volume in the long run when customers can resolve their issues directly from
+the published knowledge base.
+
+This feature is available in the **Related knowledge** section of the ticket
+detail view sidebar. Your KB editor permissions are required for the ``+ AI
+draft`` button to show here.
+
+Important information:
+
+- You need knowledge base editor permission (``knowledge_base.editor``) as well
+  as an active AI provider configured by your administrator.
+- The knowledge base answer is generated as draft and doesn't get published
+  automatically. The user who triggered the generation is set as the author of
+  the new answer.
+- The answer is generated in the configured default language of your knowledge
+  base.
+- The answer includes a note in the content and a tag (``ai-generated``) about
+  the AI generation.
+- A link to the answer is added to the ticket from which the answer was
+  triggered.
+- The AI request includes a list of the knowledge base categories in which you
+  have editor permissions. The AI then chooses one of these categories.
+
+To trigger a generation, click the ``+ AI draft`` button in the **Related
+knowledge** section:
+
+.. figure:: /images/extras/ai/kb-answer-ticket-tab.png
+   :alt: KB answer generation in ticket tab
+   :align: center
+
+Always make sure to check the generated answer. This is especially important if
+you want to publish the article. Even though the AI is instructed to remove
+personal and/or company-specific information, it can't be guaranteed that this
+is the case.
+
+Suggested by AI
+~~~~~~~~~~~~~~~
+
+Alongside **Related knowledge**, you will see a list of existing knowledge base
+articles suggested by AI for this ticket. These suggestions are based on the
+ticket content and use an embedding-based search to find relevant articles.
+
+Each suggestion shows:
+
+- The title of the article, linking to its full text.
+- The relevance score as a percentage (for administrators who have enabled AI
+  feature feedback).
+- Knowledge base category name.
+- A ``+`` button to link the answer in the **Related knowledge** section below.
+
+If no suggestions are available the message ``No related knowledge base answers
+found`` will be displayed instead. If the AI service fails you will get an error
+message with a **Retry** button to try again.
+
+To use this feature, your administrator needs to have configured an active AI
+provider and enabled it for knowledge base suggestions. Your KB editor permission
+is not required for viewing or linking suggested answers, but is needed for the
+``+ AI draft`` button described above.
+
 .. _ai-agents:
 
 AI Agents
