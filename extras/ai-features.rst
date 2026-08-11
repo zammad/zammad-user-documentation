@@ -4,17 +4,18 @@ AI Features
 Introduction
 ------------
 
-Zammad offers AI-powered features to help you manage support tickets more efficiently.
+Zammad offers AI-powered features to help you manage support tickets more
+efficiently.
 
 .. note:: The AI features have to be configured and activated by your
-   administrator. If you can't see it, it is not configured. More information
-   about how to configure and activate it can be found in the
+   administrator. If you can't see these features, they are not configured. More
+   information about how to configure and activate them can be found in the
    :admin-docs:`AI section </ai/provider.html>` of the admin documentation.
 
 Many AI features in Zammad include a feedback mechanism. If you notice issues or
 are unsatisfied with the results, please use the feedback option to let your
-Zammad admin know. You can like (thumb up) or dislike (thumb down) the AI
-generated content. The dislike option allows you to leave an optional comment.
+Zammad admin know. You can like (thumbs up) or dislike (thumbs down) the
+AI-generated content. The dislike option allows you to leave an optional comment.
 
 .. warning::
    Always double-check the AI responses. Although the features were developed
@@ -59,7 +60,7 @@ opens a bubble menu in which you can open the list of available tools by
 clicking the writing assistant tools button.
 
 .. figure:: /images/extras/ai/ticket-text-tools.png
-   :alt: Screenshots shows selected text in editor with opened writing assistant tools menu
+   :alt: Screenshot shows selected text in editor with opened writing assistant tools menu
    :align: center
 
 Zammad ships default writing assistant tools. The availability depends on the
@@ -67,27 +68,78 @@ configuration of your Zammad instance. You might even have additional custom
 tools in case your admin added them.
 
 - **Expand draft into well-written section**: Uses your draft as a base and
-  tries to elaborate a proper text. It tries to add a structure and to enhance
-  clarity and conciseness and as well as removing misspellings and grammar
-  errors. You can even use it by providing only basic information (e.g. via
-  bullet points) and let the AI write the answer.
+  produces a well-written response. It adds structure and enhances clarity and
+  conciseness, as well as removing misspellings and grammar errors. You can even
+  use it by providing only basic information (e.g. via bullet points) and let
+  the AI write the answer.
 - **Fix spelling and grammar**: Proofreads your text and removes spelling
   and grammar mistakes.
 - **Summarize section to about half its current size**: Shrinks your text while
   keeping the message and the tone of the text.
-- **Rewrite complex section and make it easy to understand**: Removes
+- **Rewrite a complex section and make it easy to understand**: Removes
   unnecessary parts and rewrites your text in a clear and understandable way.
 
 After selecting a tool, Zammad shows a dialog where you can compare the
 original text and the AI suggestion:
 
 .. figure:: /images/extras/ai/text-tools-approval-dialog.png
-   :alt: Screenshots shows AI suggestion dialog
+   :alt: Screenshot shows AI suggestion dialog
    :align: center
 
-Click on the ``Approve`` button to accept the changes and to insert it in the
+Click on the ``Approve`` button to accept the suggestion and insert it in the
 article. After accepting the suggestion, you can still edit the text in the
 article editor.
+
+Knowledge Base Assistant
+------------------------
+
+.. figure:: /images/extras/ai/related-knowledge-ticket-sidebar.png
+   :alt: Related knowledge section of the ticket sidebar with "+ AI draft" button and AI-suggested answer.
+   :align: center
+
+Knowledge Base Answer Generation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This feature allows you to trigger an AI-based generation of a
+:doc:`knowledge base <knowledge-base>` answer from a ticket. This is
+useful if you often get similar tickets and want to quickly create a knowledge
+base article for such cases. Doing so helps you and your colleagues solve
+similar tickets more efficiently in the future. It might even reduce incoming
+ticket volume when customers can resolve their issues directly from the
+published knowledge base.
+
+This feature is available in the **Related knowledge** section of the ticket
+sidebar. Click the ``+ AI draft`` button to trigger the answer generation.
+
+Things to consider:
+
+- The knowledge base answer is generated as draft and not published
+  automatically.
+- You are set as the answer's author.
+- The answer is generated in the default language of your knowledge base.
+- The answer includes a note in the content and a tag (``ai-generated``) about
+  the AI generation.
+- A link to the answer is added to the ticket from which you triggered the
+  answer generation.
+- The answer is created in a knowledge base category for which you have editor
+  permissions. The AI chooses one of these categories.
+
+If a similar knowledge base answer already exists, Zammad shows it in a dialog
+before creating a new one. This gives you the chance to review existing related
+answers to prevent duplicate submissions.
+
+Knowledge Base Answer Suggestion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This feature compares the ticket content against the knowledge base and shows
+relevant answers under **Suggested by AI** if they meet the admin-configured
+score threshold. Each suggestion shows the title of the answer and more details
+on hover. An additional relevance score is only shown to users with the
+corresponding admin permissions. Click on the title to open the answer in the
+knowledge base. Click the ``+`` on the right side to link it to the ticket. 
+
+If no suggestions are available, the message "No suggestions." is displayed
+instead.
 
 .. _ai-agents:
 
@@ -95,11 +147,11 @@ AI Agents
 ---------
 
 AI agents can be configured to work on certain types of routine tasks.
-In general, this feature operates behind the scenes but if configured, you may
+In general, this feature operates behind the scenes, but if configured, you may
 notice it in some situations (see examples below).
-In case your admin created a macro with an AI agent action, you can even run it
+If your admin has created a macro with an AI agent action, you can even run it
 manually. Ask your admin for details and have a look at the
-:doc:`macro page </advanced/macros>` how to use it.
+:doc:`macro page </advanced/macros>` to see how to use it.
 
 Ticket history
    If an AI agent applied changes, you can see a ticket history entry telling
@@ -114,7 +166,7 @@ Ticket history
 Simultaneous work detection
    AI agents which are currently working on a ticket are displayed like other
    agents in the live user section in the bottom bar. This helps to avoid
-   duplicate work as well as losing unsaved changes. If you see an AI agent
+   duplicate work and prevent losing unsaved changes. If you see an AI agent
    avatar, wait for a moment or head over to another ticket.
 
    Avatar of AI agent:
