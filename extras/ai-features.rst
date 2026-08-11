@@ -125,19 +125,18 @@ Things to consider:
   permissions. The AI chooses one of these categories.
 
 If a similar knowledge base answer already exists, Zammad shows it in a dialog
-before creating a new one. This gives you the chance to check whether the answer
-matches and to prevent duplicate answers.
+before creating a new one. This gives you the chance to review existing related
+answers to prevent duplicate submissions.
 
 Knowledge Base Answer Suggestion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This feature uses the ticket's content and compares it with the available
-knowledge base answers. If there is a matching answer above a configurable
-relevance score, it is shown under **Suggested by AI**. Each suggestion shows
-the title of the answer and more details on hover. An additional relevance score
-is only shown to users with the corresponding admin permissions. Click on the
-title to open the answer in the knowledge base. Click the ``+`` on the right
-side to link it to the ticket. 
+This feature compares the ticket content against the knowledge base and shows
+relevant answers under **Suggested by AI** if they meet the admin-configured
+score threshold. Each suggestion shows the title of the answer and more details
+on hover. An additional relevance score is only shown to users with the
+corresponding admin permissions. Click on the title to open the answer in the
+knowledge base. Click the ``+`` on the right side to link it to the ticket. 
 
 If no suggestions are available, the message "No suggestions." is displayed
 instead.
