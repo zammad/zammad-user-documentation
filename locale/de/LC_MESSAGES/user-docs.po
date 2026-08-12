@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 10:29+0200\n"
-"PO-Revision-Date: 2026-07-18 08:10+0000\n"
+"POT-Creation-Date: 2026-07-30 15:51+0200\n"
+"PO-Revision-Date: 2026-08-12 07:12+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -784,7 +784,7 @@ msgstr "Nach einer Ticketnummer suchen."
 
 #: ../advanced/search.rst:1
 msgid "title"
-msgstr "title"
+msgstr "Titel"
 
 #: ../advanced/search.rst:1
 msgid "some title"
@@ -1586,7 +1586,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**Pausiert, im Moment keine Aktion erforderlich** (z.B. warten auf)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -7400,14 +7400,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
-"Die Bildschirmaufnahme zeigt den Link zum Zurücksetzen des Zugriffstoken am "
-"unteren\n"
+"Der Screenshot zeigt den Link zum Zurücksetzen des Zugriffstokens am unteren "
 "Ende des RSS-Feed-Dialogs (interne Knowledge Base)"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Kategorien bearbeiten"
 
@@ -7415,7 +7414,7 @@ msgstr "Kategorien bearbeiten"
 msgid "Edit category"
 msgstr "Kategorie editieren"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7424,7 +7423,7 @@ msgstr ""
 "**Eltern** verwenden. Dabei werden alle Artikel und Unterkategorien der "
 "Kategorie mit verschoben."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7434,11 +7433,11 @@ msgstr ""
 "klicken. Kategorien können erst gelöscht werden, wenn alle ihre Artikel und "
 "Unterkategorien gelöscht oder verschoben wurden."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Differenzierte Kategorieberechtigungen"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7450,7 +7449,7 @@ msgstr ""
 "deaktivieren die Standardsichtbarkeit und ersetzt sie stattdessen durch die "
 "gewählten Rechte."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7458,7 +7457,7 @@ msgstr ""
 "Das erlaubt Ihnen beispielsweise Benutzergruppen nach Vertragstyp zu trennen "
 "um die Informationsflut auf das Relevante zu beschränken."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7480,7 +7479,7 @@ msgstr ""
 "Bildschirmaufzeichnung zeigt die Sichtbarkeitseinstellungen für Kategorien "
 "für differenzierte Kategorieberechtigungen"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7506,11 +7505,11 @@ msgstr ""
 "erlaubte Unterkategorien gibt. Wenn Sie in der Tabelle keine Berechtigungen "
 "auswählen können, könnte dies der Grund sein."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Öffentliche Antworten sind immer verfügbar!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7520,7 +7519,7 @@ msgstr ""
 "Antworten**. Das ist ein mögliches Risiko falls Sie nicht umsichtig "
 "aufteilen!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Antworten bearbeiten"
 
@@ -7528,7 +7527,7 @@ msgstr "Antworten bearbeiten"
 msgid "Edit answer"
 msgstr "Antwort editieren"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7542,23 +7541,23 @@ msgstr ""
 "shortcuts>` verwenden können, um Text-Formatierungen, Aufzählungszeichen und "
 "mehr zu nutzen. Es können sogar Dateianhänge und Links hinzugefügt werden!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "Different link types"
 msgstr "Verschiedene Link-Typen"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "**Web link**"
 msgstr "**Web-Link**"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "URLs, die auf andere Websites verweisen."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "**Link Answer**"
 msgstr "**Antwort verknüpfen**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7566,11 +7565,11 @@ msgstr ""
 "Interne Verweise auf andere Antworten in der Knowledge Base (werden nicht "
 "funktionslos, wenn sich die Ziel-URL ändert)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "**Linked Tickets**"
 msgstr "**Verknüpfte Tickets**"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7578,11 +7577,11 @@ msgstr ""
 "Interne Verweise auf Zammad Tickets (nur in der Vorschau und im "
 "Bearbeitungsmodus sichtbar)."
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "**Tags**"
 msgstr "**Tags**"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same like those in your "
@@ -7592,11 +7591,11 @@ msgstr ""
 "versehen, um bessere Suchergebnisse zu erzielen. Bitte beachten Sie, dass "
 "Tags öffentlich sichtbar sind und dieselben wie in Ihren Tickets sind."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "Visibility"
 msgstr "Sichtbarkeit"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7607,31 +7606,31 @@ msgstr ""
 "späteren Zeitpunkt. Artikel sind entsprechend ihrer Sichtbarkeit farblich "
 "gekennzeichnet:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:203
 msgid "**Public** (visible to everyone)"
 msgstr "**Öffentlich** (für jeden sichtbar)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Intern** (nur sichtbar für Agenten und Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Entwurf / geplant / archiviert** (sichtbar nur für Bearbeiter)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:223
 msgid "Using Answers In Ticket Articles"
 msgstr "Antworten in Ticket-Artikeln benutzen"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:225
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7676,7 +7675,7 @@ msgstr "Mobile Ansicht Login-Bildschirm"
 #: ../extras/mobile-view.rst:18 ../extras/mobile-view.rst:162
 #: ../extras/mobile-view.rst:183
 msgid "Login Screen"
-msgstr "Login"
+msgstr "Anmelde-Ansicht"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Home Page"
@@ -9630,18 +9629,18 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
 "Dieser Screencast zeigt, wie mittels Drag & Drop die Reihenfolge der "
-"Übersichten angepasst werden kann und wie die Standardreihenfolge "
-"wiederhergestellt werden kann"
+"Übersichten angepasst und wieder auf die Standardreihenfolge zurückgesetzt "
+"werden kann"
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr "Kalender"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9653,7 +9652,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Geräte"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9665,7 +9664,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token-Zugriff"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9673,7 +9672,7 @@ msgstr ""
 "Generieren Sie einen persönlichen Zugangs-Token für jede Anwendung welche "
 "auf die Zammad API zugreifen soll."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9687,7 +9686,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
