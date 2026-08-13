@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-10 15:28+0200\n"
-"PO-Revision-Date: 2026-07-22 04:10+0000\n"
+"POT-Creation-Date: 2026-08-11 08:23+0200\n"
+"PO-Revision-Date: 2026-08-13 07:12+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1587,7 +1587,7 @@ msgstr ""
 "**Szüneteltetve, jelenleg nincs szükség intézkedésre** (például "
 "felfüggesztve)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:220
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -3015,7 +3015,7 @@ msgstr ""
 "állítanák be, és azonnali eszkalációban bíznának."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Címkék"
 
@@ -5847,24 +5847,24 @@ msgstr ""
 "A Zammad mesterséges intelligenciával támogatott funkciókat kínál, hogy "
 "segítsen Önnek a támogatási jegyek még hatékonyabb kezelésében."
 
-#: ../extras/ai-features.rst:9
+#: ../extras/ai-features.rst:10
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
-"If you can't see it, it is not configured. More information about how to "
-"configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider.html>` of the admin documentation."
+"If you can't see these features, they are not configured. More information "
+"about how to configure and activate them can be found in the :admin-docs:`AI "
+"section </ai/provider.html>` of the admin documentation."
 msgstr ""
 "Az MI-funkciókat be kell állítania és aktiválnia kell az adminisztrátorának. "
-"Ha nem látja azokat, akkor nincsenek beállítva. A beállításról és az "
-"aktiválásról további információkat az adminisztrátori dokumentáció :admin-"
-"docs:`MI szakaszában </ai/provider.html>` találhat."
+"Ha nem látja ezeket a funkciókat, akkor nincsenek beállítva. A "
+"beállításukról és az aktiválásukról további információkat az adminisztrátori "
+"dokumentáció :admin-docs:`MI szakaszában </ai/provider.html>` találhat."
 
-#: ../extras/ai-features.rst:14
+#: ../extras/ai-features.rst:15
 msgid ""
 "Many AI features in Zammad include a feedback mechanism. If you notice "
 "issues or are unsatisfied with the results, please use the feedback option "
-"to let your Zammad admin know. You can like (thumb up) or dislike (thumb "
-"down) the AI generated content. The dislike option allows you to leave an "
+"to let your Zammad admin know. You can like (thumbs up) or dislike (thumbs "
+"down) the AI-generated content. The dislike option allows you to leave an "
 "optional comment."
 msgstr ""
 "A Zammadban sok MI-funkció tartalmaz visszajelzési mechanizmust. Ha "
@@ -5875,7 +5875,7 @@ msgstr ""
 "hüvelykujj). Ha szeretné, a „nem tetszik” lehetőségnél megjegyzést is fűzhet "
 "hozzá."
 
-#: ../extras/ai-features.rst:20
+#: ../extras/ai-features.rst:21
 msgid ""
 "Always double-check the AI responses. Although the features were developed "
 "carefully, there still might be minor inaccuracies in individual cases due "
@@ -5885,11 +5885,11 @@ msgstr ""
 "fejlesztették ki, előfordulhatnak kisebb pontatlanságok egyes esetekben a "
 "neurális hálózatok jellegéből adódóan."
 
-#: ../extras/ai-features.rst:25
+#: ../extras/ai-features.rst:26
 msgid "Ticket Summary"
 msgstr "Jegyösszefoglaló"
 
-#: ../extras/ai-features.rst:27
+#: ../extras/ai-features.rst:28
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
@@ -5899,7 +5899,7 @@ msgstr ""
 "jegy tartalmát. Ez jelentős időmegtakarítást eredményezhet nagy jegyekkel "
 "való munkavégzéskor és/vagy az ügyintézők közötti gyakori átadások esetén."
 
-#: ../extras/ai-features.rst:31
+#: ../extras/ai-features.rst:32
 msgid ""
 "If the feature is activated, summaries are generated when tickets are "
 "updated and you either open the ticket or the summary sidebar tab, depending "
@@ -5912,7 +5912,7 @@ msgstr ""
 "olyan feltételeket is beállíthat, amelyek korlátozzák, hogy mely jegyek "
 "jelenítsenek meg összefoglalókat."
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:37
 msgid ""
 "When a summary is newly generated, a small pulsing indicator appears on the "
 "summary sidebar tab. This indicator only shows up if changes were made by "
@@ -5931,7 +5931,7 @@ msgstr ""
 "A képernyőkép a Zammad jegyének részletes nézetét jeleníti meg kiemelt "
 "jegyösszefoglaló-sávval és összefoglaló oldalsávval"
 
-#: ../extras/ai-features.rst:43
+#: ../extras/ai-features.rst:44
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5939,31 +5939,31 @@ msgstr ""
 "A Zammad-példány beállításaitól függően az összefoglaló a következő "
 "szakaszokat tartalmazza:"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:47
 msgid "Customer intent"
 msgstr "Ügyfél szándéka"
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:48
 msgid "Conversation summary"
 msgstr "Beszélgetés összefoglalója"
 
-#: ../extras/ai-features.rst:48
+#: ../extras/ai-features.rst:49
 msgid "Open questions (optional)"
 msgstr "Nyitott kérdések (elhagyható)"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:50
 msgid "Upcoming events (optional)"
 msgstr "Közelgő események (elhagyható)"
 
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:51
 msgid "Customer sentiment (optional)"
 msgstr "Ügyfél hangulata (elhagyható)"
 
-#: ../extras/ai-features.rst:53
+#: ../extras/ai-features.rst:54
 msgid "Writing Assistant Tools"
 msgstr "Írássegédeszközök"
 
-#: ../extras/ai-features.rst:55
+#: ../extras/ai-features.rst:56
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -5980,13 +5980,13 @@ msgstr ""
 
 #: ../extras/ai-features.rst:None
 msgid ""
-"Screenshots shows selected text in editor with opened writing assistant "
-"tools menu"
+"Screenshot shows selected text in editor with opened writing assistant tools "
+"menu"
 msgstr ""
 "A képernyőkép a szerkesztőben kijelölt szöveget jeleníti meg a megnyitott "
 "írássegédeszközök menüvel"
 
-#: ../extras/ai-features.rst:65
+#: ../extras/ai-features.rst:66
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
@@ -5996,22 +5996,22 @@ msgstr ""
 "Zammad-példány beállításaitól függ. Akár további egyéni eszközökkel is "
 "rendelkezhet, amennyiben az adminisztrátor hozzáadta azokat."
 
-#: ../extras/ai-features.rst:69
+#: ../extras/ai-features.rst:70
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
-"tries to elaborate a proper text. It tries to add a structure and to enhance "
-"clarity and conciseness and as well as removing misspellings and grammar "
-"errors. You can even use it by providing only basic information (e.g. via "
-"bullet points) and let the AI write the answer."
+"produces a well-written response. It adds structure and enhances clarity and "
+"conciseness, as well as removing misspellings and grammar errors. You can "
+"even use it by providing only basic information (e.g. via bullet points) and "
+"let the AI write the answer."
 msgstr ""
 "**Piszkozat kibővítése jól megírt szöveggé**: a piszkozatát veszi alapul, és "
-"megpróbálja megfelelő szöveggé kidolgozni. Megpróbálja felépíteni a "
-"szöveget, javítani az érthetőségen és a tömörségen, valamint kijavítani a "
-"helyesírási és nyelvtani hibákat. Akár úgy is használhatja, hogy csak az "
-"alapvető információkat adja meg (például listaként felsorolva), és rábízza a "
-"mesterséges intelligenciára a válasz megírását."
+"jól megírt szöveget állít elő. Megszerkeszti a szöveget, javítja az "
+"érthetőséget és a tömörséget, valamint kijavítja a helyesírási és nyelvtani "
+"hibákat. Akár úgy is használhatja, hogy csak az alapvető információkat adja "
+"meg (például listaként felsorolva), és rábízza a mesterséges intelligenciára "
+"a válasz megírását."
 
-#: ../extras/ai-features.rst:74
+#: ../extras/ai-features.rst:75
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
@@ -6019,7 +6019,7 @@ msgstr ""
 "**Helyesírási és nyelvtani hibák kijavítása**: korrektúrázza a szöveget, "
 "majd kijavítja a helyesírási és nyelvtani hibákat."
 
-#: ../extras/ai-features.rst:76
+#: ../extras/ai-features.rst:77
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
@@ -6028,15 +6028,15 @@ msgstr ""
 "lerövidíti a szöveget, miközben megőrzi a szöveg mondanivalóját és "
 "hangvételét."
 
-#: ../extras/ai-features.rst:78
+#: ../extras/ai-features.rst:79
 msgid ""
-"**Rewrite complex section and make it easy to understand**: Removes "
+"**Rewrite a complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
 "**Összetett szakaszok átírása és könnyen érthetővé tétele**: eltávolítja a "
 "felesleges részeket, majd átírja a szöveget világos és érthető módon."
 
-#: ../extras/ai-features.rst:81
+#: ../extras/ai-features.rst:82
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -6046,47 +6046,179 @@ msgstr ""
 "intelligencia javaslatát:"
 
 #: ../extras/ai-features.rst:None
-msgid "Screenshots shows AI suggestion dialog"
+msgid "Screenshot shows AI suggestion dialog"
 msgstr ""
 "A képernyőkép a mesterséges intelligencia javaslatának párbeszédablakát "
 "jeleníti meg"
 
-#: ../extras/ai-features.rst:88
+#: ../extras/ai-features.rst:89
 msgid ""
-"Click on the ``Approve`` button to accept the changes and to insert it in "
+"Click on the ``Approve`` button to accept the suggestion and insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
-"Kattintson a ``Jóváhagyás`` gombra a változtatások elfogadásához és a "
-"bejegyzésbe való beillesztéséhez. A javaslat elfogadása után továbbra is "
-"szerkesztheti a szöveget a bejegyzés szerkesztőjében."
+"Kattintson a ``Jóváhagyás`` gombra a javaslat elfogadásához és a bejegyzésbe "
+"való beillesztéséhez. A javaslat elfogadása után továbbra is szerkesztheti a "
+"szöveget a bejegyzés szerkesztőjében."
 
-#: ../extras/ai-features.rst:95
+#: ../extras/ai-features.rst:94
+msgid "Knowledge Base Assistant"
+msgstr "Tudásbázissegéd"
+
+#: ../extras/ai-features.rst:None
+msgid ""
+"Related knowledge section of the ticket sidebar with \"+ AI draft\" button "
+"and AI-suggested answer."
+msgstr ""
+"A jegy oldalsávjának kapcsolódó tudás szakasza „+ MI-piszkozat” gombbal és "
+"mesterséges intelligencia által javasolt válasszal."
+
+#: ../extras/ai-features.rst:101
+msgid "Knowledge Base Answer Generation"
+msgstr "Tudásbázisválasz előállítása"
+
+#: ../extras/ai-features.rst:103
+msgid ""
+"This feature allows you to trigger an AI-based generation of "
+"a :doc:`knowledge base <knowledge-base>` answer from a ticket. This is "
+"useful if you often get similar tickets and want to quickly create a "
+"knowledge base article for such cases. Doing so helps you and your "
+"colleagues solve similar tickets more efficiently in the future. It might "
+"even reduce incoming ticket volume when customers can resolve their issues "
+"directly from the published knowledge base."
+msgstr ""
+"Ez a funkció lehetővé teszi egy jegyből származó :doc:`tudásbázis-válasz "
+"<knowledge-base>` mesterséges intelligencián alapuló előállításának "
+"aktiválását. Ez akkor hasznos, ha gyakran érkeznek hasonló jegyek, és "
+"gyorsan szeretne tudásbázis-bejegyzést létrehozni ez ilyen esetekre. Ennek "
+"elvégzése segít Önnek és kollégáinak, hogy a jövőben hatékonyabban oldják "
+"meg a hasonló jegyeket. Akár még a bejövő jegyek mennyiségét is "
+"csökkentheti, ha az ügyfelek képesek megoldani a problémáikat közvetlenül a "
+"közzétett tudásbázisból."
+
+#: ../extras/ai-features.rst:111
+msgid ""
+"This feature is available in the **Related knowledge** section of the ticket "
+"sidebar. Click the ``+ AI draft`` button to trigger the answer generation."
+msgstr ""
+"Ez a funkció a jegy oldalsávjának a **Kapcsolódó tudás** szakaszában érhető "
+"el. Kattintson a ``+ MI-piszkozat`` gombra a válasz előállításának "
+"aktiválásához."
+
+#: ../extras/ai-features.rst:114
+msgid "Things to consider:"
+msgstr "Megfontolandó dolgok:"
+
+#: ../extras/ai-features.rst:116
+msgid ""
+"The knowledge base answer is generated as draft and not published "
+"automatically."
+msgstr ""
+"A tudásbázisválasz piszkozatként kerül előállításra, és nem kerül "
+"automatikusan közzétételre."
+
+#: ../extras/ai-features.rst:118
+msgid "You are set as the answer's author."
+msgstr "Ön lesz beállítva a válasz szerzőjeként."
+
+#: ../extras/ai-features.rst:119
+msgid "The answer is generated in the default language of your knowledge base."
+msgstr "A válasz a tudásbázis alapértelmezett nyelvén kerül előállításra."
+
+#: ../extras/ai-features.rst:120
+msgid ""
+"The answer includes a note in the content and a tag (``ai-generated``) about "
+"the AI generation."
+msgstr ""
+"A válasz tartalmaz egy jegyzetet a tartalomban, és egy címkét (``MI által "
+"előállítva``) az MI általi előállításról."
+
+#: ../extras/ai-features.rst:122
+msgid ""
+"A link to the answer is added to the ticket from which you triggered the "
+"answer generation."
+msgstr ""
+"A válaszra mutató hivatkozás hozzáadásra kerül ahhoz a jegyhez, amelyből a "
+"válasz előállítását indította."
+
+#: ../extras/ai-features.rst:124
+msgid ""
+"The answer is created in a knowledge base category for which you have editor "
+"permissions. The AI chooses one of these categories."
+msgstr ""
+"A válasz egy olyan tudásbázis-kategóriában lesz létrehozva, amelynél "
+"szerkesztői jogosultsággal rendelkezik. Az MI ezen kategóriák egyikét "
+"választja ki."
+
+#: ../extras/ai-features.rst:127
+msgid ""
+"If a similar knowledge base answer already exists, Zammad shows it in a "
+"dialog before creating a new one. This gives you the chance to review "
+"existing related answers to prevent duplicate submissions."
+msgstr ""
+"Ha már létezik hasonló tudásbázisválasz, akkor a Zammad megjeleníti azt egy "
+"párbeszédablakban, mielőtt új választ hozna létre. Ez lehetőséget ad arra, "
+"hogy áttekintse a meglévő, kapcsolódó válaszokat a kettőzött bejegyzések "
+"megakadályozásához."
+
+#: ../extras/ai-features.rst:132
+msgid "Knowledge Base Answer Suggestion"
+msgstr "Tudásbázisválasz-javaslat"
+
+#: ../extras/ai-features.rst:134
+msgid ""
+"This feature compares the ticket content against the knowledge base and "
+"shows relevant answers under **Suggested by AI** if they meet the admin-"
+"configured score threshold. Each suggestion shows the title of the answer "
+"and more details on hover. An additional relevance score is only shown to "
+"users with the corresponding admin permissions. Click on the title to open "
+"the answer in the knowledge base. Click the ``+`` on the right side to link "
+"it to the ticket."
+msgstr ""
+"Ez a funkció összehasonlítja a jegy tartalmát a tudásbázissal, és "
+"megjeleníti a kapcsolódó válaszokat az **MI által javasolt** szakasz alatt, "
+"ha azok megfelelnek az adminisztrátor által beállított pontszám "
+"küszöbszintjének. Minden javaslat megjeleníti a válasz címét és további "
+"részleteket, ha fölé húzza az egérmutatót. Egy további relevancia-pontszám "
+"csak azoknak a felhasználóknak jelenik meg, akik rendelkeznek megfelelő "
+"adminisztrátori jogosultságokkal. Kattintson a címre, hogy megnyissa a "
+"választ a tudásbázisban. Kattintson a jobb oldalon lévő ``+`` gombra, hogy "
+"összekapcsolja a jeggyel."
+
+#: ../extras/ai-features.rst:141
+msgid ""
+"If no suggestions are available, the message \"No suggestions.\" is "
+"displayed instead."
+msgstr ""
+"Ha nem érhetők el javaslatok, akkor a „Nincsenek javaslatok.” üzenet jelenik "
+"meg helyettük."
+
+#: ../extras/ai-features.rst:147
 msgid "AI Agents"
 msgstr "MI-ügyintézők"
 
-#: ../extras/ai-features.rst:97
+#: ../extras/ai-features.rst:149
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
-"general, this feature operates behind the scenes but if configured, you may "
-"notice it in some situations (see examples below). In case your admin "
-"created a macro with an AI agent action, you can even run it manually. Ask "
-"your admin for details and have a look at the :doc:`macro page </advanced/"
-"macros>` how to use it."
+"general, this feature operates behind the scenes, but if configured, you may "
+"notice it in some situations (see examples below). If your admin has created "
+"a macro with an AI agent action, you can even run it manually. Ask your "
+"admin for details and have a look at the :doc:`macro page </advanced/"
+"macros>` to see how to use it."
 msgstr ""
 "Az MI-ügyintézők beállíthatók úgy, hogy bizonyos típusú rutinfeladatokon "
 "dolgozzanak. Általában ez a funkció a színfalak mögött működik, de ha be van "
 "állítva, akkor bizonyos helyzetekben észreveheti (lásd az alábbi példákat). "
-"Abban az esetben, ha az adminisztrátor létrehozott egy MI-ügyintéző "
-"műveletét tartalmazó makrót, akkor azt akár kézzel is futtathatja. Kérdezze "
-"meg az adminisztrátort a részletekért, és nézze meg a :doc:`makró oldalt </"
-"advanced/macros>`, hogy hogyan kell használni."
+"Ha az adminisztrátor létrehozott egy MI-ügyintéző műveletét tartalmazó "
+"makrót, akkor azt akár kézzel is futtathatja. Kérdezze meg az "
+"adminisztrátort a részletekért, és nézze meg a :doc:`makró oldalt </advanced/"
+"macros>`, hogy lássa, hogyan kell használni."
 
-#: ../extras/ai-features.rst:112
+#: ../extras/ai-features.rst:164
 msgid "Ticket history"
 msgstr "Jegyelőzmények"
 
-#: ../extras/ai-features.rst:105
+#: ../extras/ai-features.rst:157
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6097,7 +6229,7 @@ msgstr ""
 "folyamatos problémákat észlel az MI-ügyintéző tevékenységével kapcsolatban, "
 "akkor értesítse a Zammad adminisztrátorát."
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:161
 msgid "Example of a history entry of an AI agent:"
 msgstr "Példa egy MI-ügyintéző előzménybejegyzésére:"
 
@@ -6105,24 +6237,24 @@ msgstr "Példa egy MI-ügyintéző előzménybejegyzésére:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "A képernyőkép az MI-ügyintéző jegyelőzmény-bejegyzését jeleníti meg"
 
-#: ../extras/ai-features.rst:123
+#: ../extras/ai-features.rst:175
 msgid "Simultaneous work detection"
 msgstr "Egyidejű munkavégzés észlelése"
 
-#: ../extras/ai-features.rst:115
+#: ../extras/ai-features.rst:167
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
-"duplicate work as well as losing unsaved changes. If you see an AI agent "
+"duplicate work and prevent losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 "A jegyen jelenleg dolgozó MI-ügyintézők ugyanúgy jelennek meg az alsó sávban "
 "lévő élő felhasználók szakaszban, mint a többi ügyintéző. Ez segít elkerülni "
-"a párhuzamos munkavégzést, valamint az elmentetlen változtatások "
+"a párhuzamos munkavégzést, és megakadályozza az elmentetlen változtatások "
 "elvesztését. Ha egy MI-ügyintéző profilképét látja, akkor várjon egy kicsit, "
 "vagy térjen át egy másik jegyre."
 
-#: ../extras/ai-features.rst:120
+#: ../extras/ai-features.rst:172
 msgid "Avatar of AI agent:"
 msgstr "Egy MI-ügyintéző profilképe:"
 
@@ -6130,11 +6262,11 @@ msgstr "Egy MI-ügyintéző profilképe:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "A képernyőkép egy MI-ügyintéző profilképét jeleníti meg"
 
-#: ../extras/ai-features.rst:129
+#: ../extras/ai-features.rst:181
 msgid "Overview indicator"
 msgstr "Áttekintésjelző"
 
-#: ../extras/ai-features.rst:126
+#: ../extras/ai-features.rst:178
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -7399,13 +7531,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
-"A képernyőkép a hozzáférési token visszaállítási hivatkozását jeleníti meg\n"
+"A képernyőkép a hozzáférési token visszaállítási hivatkozását jeleníti meg "
 "az RSS-hírforrás kizárólagos párbeszédablakának (belső tudásbázis) alsó végén"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Kategóriák szerkesztése"
 
@@ -7413,7 +7545,7 @@ msgstr "Kategóriák szerkesztése"
 msgid "Edit category"
 msgstr "Kategória szerkesztése"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7421,7 +7553,7 @@ msgstr ""
 "Áthelyezhet egy kategóriát a **Szülő** legördülő menü használatával. Ezzel a "
 "kategória összes bejegyzése és alkategóriája is átkerül vele együtt."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7431,11 +7563,11 @@ msgstr ""
 "azután lehet törölni, hogy az összes bejegyzésük és alkategóriájuk törölve "
 "lett vagy át lett helyezve."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Részletes kategóriajogosultságok"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7447,7 +7579,7 @@ msgstr ""
 "jogosultságainak használata kikapcsolja az alapértelmezett láthatósági "
 "viselkedést, és a kiválasztott jogosultságokat alkalmazza helyette."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7456,7 +7588,7 @@ msgstr ""
 "szint szerint, hogy csökkentse az információterhelést azoknál a "
 "felhasználóknál, akiknek nincs szükségük az információra."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7475,7 +7607,7 @@ msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
 "A képernyőkép a tudásbázis részletes kategóriajogosultságait jeleníti meg"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7501,11 +7633,11 @@ msgstr ""
 "eléréséhez. Ha nem tudja kiválasztani a jogosultságokat a táblázatban, annak "
 "ez lehet az oka."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Ne feledje, hogy a nyilvános válaszok mindig elérhetők!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7515,7 +7647,7 @@ msgstr ""
 "láthatják a **belső válaszokat**. Ez komoly probléma, ha nem gondosan ossza "
 "fel a jogosultságokat!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Válaszok szerkesztése"
 
@@ -7523,7 +7655,7 @@ msgstr "Válaszok szerkesztése"
 msgid "Edit answer"
 msgstr "Válasz szerkesztése"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7538,23 +7670,23 @@ msgstr ""
 "és egyéb elemek beszúrásához. Akár fájlmellékleteket és hivatkozásokat is "
 "hozzáadhat!"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:212
 msgid "Different link types"
 msgstr "Különböző hivatkozástípusok"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "Weblink"
 msgstr "Webhivatkozás"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "Más webhelyekre mutató URL-ek."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "Link Answer"
 msgstr "Válasz hozzákapcsolása"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7562,11 +7694,11 @@ msgstr ""
 "Más tudásbázisválaszokra mutató belső hivatkozások (nem fognak eltörni, ha a "
 "cél-URL megváltozik)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "Image"
 msgstr "Kép"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Include an image from your computer in the answer. Unlike file attachments, "
 "these images are embedded directly in the answer."
@@ -7574,11 +7706,11 @@ msgstr ""
 "Egy kép beszúrása a számítógépéről a válaszba. A fájlmellékletekkel "
 "ellentétben ezek a képek közvetlenül a válaszba lesznek beágyazva."
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid "Video"
 msgstr "Videó"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Include a video to embed in the answer. By default, you can embed videos "
 "from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
@@ -7591,11 +7723,11 @@ msgstr ""
 "példányokat is engedélyezheti. A támogatott videószolgáltatások listája a "
 "videó párbeszédablakában jelenik meg az URL mező alatt."
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:202
 msgid "Related Tickets"
 msgstr "Kapcsolódó jegyek"
 
-#: ../extras/knowledge-base.rst:202
+#: ../extras/knowledge-base.rst:201
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7603,11 +7735,11 @@ msgstr ""
 "Zammad-jegyekre mutató belső hivatkozások (csak előnézeti és szerkesztési "
 "módban látható)."
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "Attachments"
 msgstr "Mellékletek"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid ""
 "Add any file as an attachment to your answer. Such an attachment isn't "
 "embedded in the body of the answer. Readers can download it by clicking on "
@@ -7617,7 +7749,7 @@ msgstr ""
 "kerül beágyazásra a válasz törzsébe. Az olvasók letölthetik a mellékletet, "
 "ha rákattintanak a melléklet szakaszban."
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:210
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same as those in your "
@@ -7627,11 +7759,11 @@ msgstr ""
 "eredményekért. Ne feledje, hogy a címkék nyilvánosan láthatók, és "
 "megegyezhetnek a jegyekben lévőkkel."
 
-#: ../extras/knowledge-base.rst:238
+#: ../extras/knowledge-base.rst:237
 msgid "Visibility"
 msgstr "Láthatóság"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:215
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7641,31 +7773,31 @@ msgstr ""
 "egy bejegyzést, vagy ütemezze, hogy egy későbbi időpontban legyen közzétéve. "
 "A bejegyzések színkóddal vannak jelölve a láthatóságuk szerint:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "**Public** (visible to everyone)"
 msgstr "**Nyilvános** (mindenkinek látható)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:222
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:222
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Belső** (csak ügyintézőknek és szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:224
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:224
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Piszkozat/ütemezett/archivált** (csak szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:240
 msgid "Using Answers In Ticket Articles"
 msgstr "Válaszok használata a jegy bejegyzéseiben"
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:242
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9656,18 +9788,17 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
-"A képernyőfelvétel azt mutatja be, hogyan kell fogd és vidd módon "
-"átrendezni\n"
+"A képernyőfelvétel azt mutatja be, hogyan kell fogd és vidd módon átrendezni "
 "az áttekintések sorrendjét és visszaállítani a sorrendet az alapértelmezettre"
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr "Naptár"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9679,7 +9810,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Eszközök"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9691,7 +9822,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Tokenes hozzáférés"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9699,7 +9830,7 @@ msgstr ""
 "Személyes hozzáférési tokenek előállítása harmadik féltől származó "
 "alkalmazásokhoz, hogy használhassák a Zammad API-t."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9713,7 +9844,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Kapcsolt fiókok"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."

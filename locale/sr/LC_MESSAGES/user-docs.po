@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-10 15:28+0200\n"
-"PO-Revision-Date: 2026-07-11 05:07+0000\n"
+"POT-Creation-Date: 2026-08-11 08:23+0200\n"
+"PO-Revision-Date: 2026-08-13 07:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1542,7 +1542,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**На паузи, не захтева обраду** (нпр. на чекању)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:221
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:220
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2585,8 +2585,8 @@ msgid ""
 "is stored in Zammad and which got indexed by Elasticsearch, like:"
 msgstr ""
 "Међутим, претрага није само по тикетима. Zammad такође претражује по "
-"корисницима, организацијама и евиденцијама ћаскања. Једноставно, укључује "
-"све информације које су снимљене у Zammad-у и које су индексиране у "
+"корисницима, организацијама и дневнику ћаскања. Једноставно, укључује све "
+"информације које су снимљене у Zammad-у и које су индексиране у "
 "Elasticsearch сервису, нпр:"
 
 #: ../basics/find-tickets.rst:84
@@ -2916,7 +2916,7 @@ msgstr ""
 "моменталној ескалацији."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Ознаке"
 
@@ -3883,7 +3883,7 @@ msgid ""
 msgstr ""
 "CTI је скраћеница од Computer Telephony Integration и омогућава вам да "
 "прикупите детаљне информације о свим вашим долазним и одлазним позивима. Ово "
-"укључује, на пример, евиденцију позива, преглед оператера тренутно у позиву, "
+"укључује, на пример, дневник позива, преглед оператера тренутно у позиву, "
 "претрагу ID позиваоца, па чак и режим „не ометај”."
 
 #: ../basics/zammad-glossary.rst:149
@@ -4807,9 +4807,9 @@ msgid ""
 "identified directly by their caller ID - a key function that saves agents a "
 "lot of time when assigning callers."
 msgstr ""
-"Интеграција Placatel налога са Zammad-ом корисницима пружа евиденцију "
-"позива, чинећи историју њихове кореспонденције још тачнијом. Позиваоци се "
-"идентификују директно по ID-у позиваоца - кључној функцији која оператерима "
+"Интеграција Placetel налога са Zammad-ом корисницима пружа дневник позива, "
+"чинећи историју њихове кореспонденције још тачнијом. Позиваоци се "
+"идентификују директно по ID-у позиваоца – кључној функцији која оператерима "
 "штеди много времена приликом додељивања позива."
 
 #: ../basics/zammad-glossary.rst:539
@@ -5038,7 +5038,7 @@ msgid ""
 msgstr ""
 "Sipgate је SaaS решење за интернет телефонију. Zammad интеграција за Sipgate "
 "корисницима пружа детаљан преглед позива. Ако имате клијента који жели да се "
-"повеже са одређеним оператером, евиденција позива ће вам рећи да ли је овај "
+"повеже са одређеним оператером, дневник позива ће вам рећи да ли је овај "
 "колега тренутно доступан."
 
 #: ../basics/zammad-glossary.rst:637
@@ -5650,24 +5650,24 @@ msgid ""
 msgstr ""
 "Zammad нуди AI функције за помоћ при ефикаснијој обради тикета подршке."
 
-#: ../extras/ai-features.rst:9
+#: ../extras/ai-features.rst:10
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
-"If you can't see it, it is not configured. More information about how to "
-"configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider.html>` of the admin documentation."
+"If you can't see these features, they are not configured. More information "
+"about how to configure and activate them can be found in the :admin-docs:`AI "
+"section </ai/provider.html>` of the admin documentation."
 msgstr ""
 "AI функције морају бити подешене и укључене од стране вашег администратора. "
 "Уколико их не видите, нису подешене. Више информација о подешавању и "
 "укључивању се могу пронаћи у :admin-docs:`AI одељку </ai/provider.html>` "
 "администраторске документације."
 
-#: ../extras/ai-features.rst:14
+#: ../extras/ai-features.rst:15
 msgid ""
 "Many AI features in Zammad include a feedback mechanism. If you notice "
 "issues or are unsatisfied with the results, please use the feedback option "
-"to let your Zammad admin know. You can like (thumb up) or dislike (thumb "
-"down) the AI generated content. The dislike option allows you to leave an "
+"to let your Zammad admin know. You can like (thumbs up) or dislike (thumbs "
+"down) the AI-generated content. The dislike option allows you to leave an "
 "optional comment."
 msgstr ""
 "Многе AI функције у Zammad-у омогућавају прикупљање мишљења. Ако приметите "
@@ -5676,7 +5676,7 @@ msgstr ""
 "или негативно (палац надоле) мишљење на AI генерисани садржај. Негативно "
 "мишљење омогућава вам да оставите и додатни коментар."
 
-#: ../extras/ai-features.rst:20
+#: ../extras/ai-features.rst:21
 msgid ""
 "Always double-check the AI responses. Although the features were developed "
 "carefully, there still might be minor inaccuracies in individual cases due "
@@ -5686,11 +5686,11 @@ msgstr ""
 "функције пажљиво имплементиране, и даље могу довести до мањих нетачности у "
 "појединачним случајевима услед саме природе неуронских мрежа."
 
-#: ../extras/ai-features.rst:25
+#: ../extras/ai-features.rst:26
 msgid "Ticket Summary"
 msgstr "Сажети опис тикета"
 
-#: ../extras/ai-features.rst:27
+#: ../extras/ai-features.rst:28
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
@@ -5700,7 +5700,7 @@ msgstr ""
 "садржај тикета. Ово може бити велика уштеда времена при великих тикета и/или "
 "пуно примопредаја између оператера."
 
-#: ../extras/ai-features.rst:31
+#: ../extras/ai-features.rst:32
 msgid ""
 "If the feature is activated, summaries are generated when tickets are "
 "updated and you either open the ticket or the summary sidebar tab, depending "
@@ -5713,7 +5713,7 @@ msgstr ""
 "Ваш администратор такође може подесити услове који ће ограничити за које "
 "тикете ће бити приказани сажети описи."
 
-#: ../extras/ai-features.rst:36
+#: ../extras/ai-features.rst:37
 msgid ""
 "When a summary is newly generated, a small pulsing indicator appears on the "
 "summary sidebar tab. This indicator only shows up if changes were made by "
@@ -5731,7 +5731,7 @@ msgstr ""
 "Снимак екрана приказује детаљни приказ тикета у Zammad-у за означеним "
 "банером и траком сажетог описа"
 
-#: ../extras/ai-features.rst:43
+#: ../extras/ai-features.rst:44
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5739,31 +5739,31 @@ msgstr ""
 "У зависности од ваше Zammad конфигурације, сажети опис може садржати следеће "
 "одељке:"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:47
 msgid "Customer intent"
 msgstr "Намера клијента"
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:48
 msgid "Conversation summary"
 msgstr "Сажети опис конверзације"
 
-#: ../extras/ai-features.rst:48
+#: ../extras/ai-features.rst:49
 msgid "Open questions (optional)"
 msgstr "Отворена питања (опционо)"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:50
 msgid "Upcoming events (optional)"
 msgstr "Предстојећи догађаји (опционо)"
 
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:51
 msgid "Customer sentiment (optional)"
 msgstr "Расположење клијента (опционо)"
 
-#: ../extras/ai-features.rst:53
+#: ../extras/ai-features.rst:54
 msgid "Writing Assistant Tools"
 msgstr "Алатке помоћника писања"
 
-#: ../extras/ai-features.rst:55
+#: ../extras/ai-features.rst:56
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -5779,13 +5779,13 @@ msgstr ""
 
 #: ../extras/ai-features.rst:None
 msgid ""
-"Screenshots shows selected text in editor with opened writing assistant "
-"tools menu"
+"Screenshot shows selected text in editor with opened writing assistant tools "
+"menu"
 msgstr ""
-"Снимци екрана који приказују обележени у уреднику са отвореним менијем "
-"помоћника за писање"
+"Снимак екрана који приказује обележени текст у уређивачу са отвореним "
+"менијем помоћника за писање"
 
-#: ../extras/ai-features.rst:65
+#: ../extras/ai-features.rst:66
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
@@ -5795,22 +5795,21 @@ msgstr ""
 "зависи од конфигурације ваше Zammad инстанце. Можете чак добити приступ и "
 "прилагођеним алаткама у случају да их је ваш администратор дефинисао."
 
-#: ../extras/ai-features.rst:69
+#: ../extras/ai-features.rst:70
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
-"tries to elaborate a proper text. It tries to add a structure and to enhance "
-"clarity and conciseness and as well as removing misspellings and grammar "
-"errors. You can even use it by providing only basic information (e.g. via "
-"bullet points) and let the AI write the answer."
+"produces a well-written response. It adds structure and enhances clarity and "
+"conciseness, as well as removing misspellings and grammar errors. You can "
+"even use it by providing only basic information (e.g. via bullet points) and "
+"let the AI write the answer."
 msgstr ""
 "**Препиши сложени одељак и учини га лаким за разумевање**: Користи ваш нацрт "
-"као основу и покушава да га прошири у исполиран текст. Покушава да одреди "
-"структуру и побољша јасноћу и прецизност као и да уклони грешке у правопису "
-"и граматици. Могуће је искористити је прилагањем само основних информација "
-"(нпр. путем листе са тачкама) и пуштањем вештачке интелигенције да употпуни "
-"одговор."
+"као основу и производи исполиран текст. Одређује структуру и побољшава "
+"јасноћу и прецизност, и уклоња грешке у правопису и граматици. Могуће је "
+"искористити је прилагањем само основних информација (нпр. путем листе са "
+"тачкама) и пуштањем вештачке интелигенције да употпуни одговор."
 
-#: ../extras/ai-features.rst:74
+#: ../extras/ai-features.rst:75
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
@@ -5818,7 +5817,7 @@ msgstr ""
 "**Исправи правопис и граматику**: Лекторише ваш текст и отклања грешке у "
 "правопису и граматици."
 
-#: ../extras/ai-features.rst:76
+#: ../extras/ai-features.rst:77
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
@@ -5826,15 +5825,15 @@ msgstr ""
 "**Сажми одељак на отприлике половину његове тренутне величине**: Скраћује "
 "ваш текст уз задржавање поруке и тона оригиналног текста."
 
-#: ../extras/ai-features.rst:78
+#: ../extras/ai-features.rst:79
 msgid ""
-"**Rewrite complex section and make it easy to understand**: Removes "
+"**Rewrite a complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
 "**Препиши сложени одељак и учини га лаким за разумевање**: Уклања необавезне "
 "делове и преписује ваш текст у јасном и разумљивом стилу."
 
-#: ../extras/ai-features.rst:81
+#: ../extras/ai-features.rst:82
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -5843,44 +5842,168 @@ msgstr ""
 "оригинални текст и предложене измене:"
 
 #: ../extras/ai-features.rst:None
-msgid "Screenshots shows AI suggestion dialog"
-msgstr "Снимци екрана приказују AI дијалог предложених измена"
+msgid "Screenshot shows AI suggestion dialog"
+msgstr "Снимак екрана приказује AI дијалог предложених измена"
 
-#: ../extras/ai-features.rst:88
+#: ../extras/ai-features.rst:89
 msgid ""
-"Click on the ``Approve`` button to accept the changes and to insert it in "
+"Click on the ``Approve`` button to accept the suggestion and insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
-"Кликните на дугме ``Прихвати`` да бисте применили измене и убацили их у "
-"чланак. По прихватању предлога, и даље можете уредити текст чланка у "
-"уреднику."
+"Кликните на дугме ``Прихвати`` да бисте прихватили предложене измене и "
+"убацили их у чланак. По прихватању предлога, и даље можете уредити текст "
+"чланка у уређивачу."
 
-#: ../extras/ai-features.rst:95
+#: ../extras/ai-features.rst:94
+msgid "Knowledge Base Assistant"
+msgstr "Помоћник базе знања"
+
+#: ../extras/ai-features.rst:None
+msgid ""
+"Related knowledge section of the ticket sidebar with \"+ AI draft\" button "
+"and AI-suggested answer."
+msgstr ""
+"Одељак са повезаним знањем у бочној траци тикета са дугметом \"+ AI нацрт\" "
+"и предложеним одговором вештачке интелигенције."
+
+#: ../extras/ai-features.rst:101
+msgid "Knowledge Base Answer Generation"
+msgstr "Генерација чланка базе знања"
+
+#: ../extras/ai-features.rst:103
+msgid ""
+"This feature allows you to trigger an AI-based generation of "
+"a :doc:`knowledge base <knowledge-base>` answer from a ticket. This is "
+"useful if you often get similar tickets and want to quickly create a "
+"knowledge base article for such cases. Doing so helps you and your "
+"colleagues solve similar tickets more efficiently in the future. It might "
+"even reduce incoming ticket volume when customers can resolve their issues "
+"directly from the published knowledge base."
+msgstr ""
+"Ова функција вам омогућава да покренете AI генерацију чланка :doc:`базе "
+"знања <knowledge-base>` на основу тикета. Може бити од помоћи уколико често "
+"примате сличне тикете и желите да брзо додате чланак базе знања за такве "
+"случајеве. На овај начин помажете себи и својим колегама приликом решавања "
+"сличних тикета кроз ефикаснију обраду у будућности и можете чак и смањити "
+"број долазних тикета на дуге стазе јер клијенти могу и сами да реше своје "
+"проблеме уз помоћ објављене базе знања."
+
+#: ../extras/ai-features.rst:111
+msgid ""
+"This feature is available in the **Related knowledge** section of the ticket "
+"sidebar. Click the ``+ AI draft`` button to trigger the answer generation."
+msgstr ""
+"Ова функција је доступна у одељку **Повезано знање** у бочној траци тикета. "
+"Кликните на дугме ``+ AI нацрт`` да бисте покренили генерисање одговора."
+
+#: ../extras/ai-features.rst:114
+msgid "Things to consider:"
+msgstr "Ствари које треба узети у обзир:"
+
+#: ../extras/ai-features.rst:116
+msgid ""
+"The knowledge base answer is generated as draft and not published "
+"automatically."
+msgstr ""
+"Чланак базе знања се генерише као нацрт и неће бити аутоматски објављен."
+
+#: ../extras/ai-features.rst:118
+msgid "You are set as the answer's author."
+msgstr "Ви ћете бити постављени као аутор чланка."
+
+#: ../extras/ai-features.rst:119
+msgid "The answer is generated in the default language of your knowledge base."
+msgstr "Чланак је генерисан на подразумеваном језику ваше базе знања."
+
+#: ../extras/ai-features.rst:120
+msgid ""
+"The answer includes a note in the content and a tag (``ai-generated``) about "
+"the AI generation."
+msgstr ""
+"Чланак укључује напомену о AI генерацији у свом садржају и ознаку (``ai-"
+"generated``)."
+
+#: ../extras/ai-features.rst:122
+msgid ""
+"A link to the answer is added to the ticket from which you triggered the "
+"answer generation."
+msgstr ""
+"Веза на чланак ће бити додата у тикет из кога сте покренули генерацију "
+"чланка."
+
+#: ../extras/ai-features.rst:124
+msgid ""
+"The answer is created in a knowledge base category for which you have editor "
+"permissions. The AI chooses one of these categories."
+msgstr ""
+"AI захтев ће бити додат у категорију базе знања у којој имате приступ "
+"уредника. Вештачка интелигенција ће одабрати између једне од ових категорија."
+
+#: ../extras/ai-features.rst:127
+msgid ""
+"If a similar knowledge base answer already exists, Zammad shows it in a "
+"dialog before creating a new one. This gives you the chance to review "
+"existing related answers to prevent duplicate submissions."
+msgstr ""
+"Уколико већ постоји сличан чланак у бази знања, Zammad га приказује у "
+"дијалогу пре него што генерише нови. Ово вам даје прилику да прегледате "
+"постојеће чланке и спречите дупликате."
+
+#: ../extras/ai-features.rst:132
+msgid "Knowledge Base Answer Suggestion"
+msgstr "AI предлози чланака базе знања"
+
+#: ../extras/ai-features.rst:134
+msgid ""
+"This feature compares the ticket content against the knowledge base and "
+"shows relevant answers under **Suggested by AI** if they meet the admin-"
+"configured score threshold. Each suggestion shows the title of the answer "
+"and more details on hover. An additional relevance score is only shown to "
+"users with the corresponding admin permissions. Click on the title to open "
+"the answer in the knowledge base. Click the ``+`` on the right side to link "
+"it to the ticket."
+msgstr ""
+"Ова функција пореди садржај тикета са базом знања и приказује релевантне "
+"чланке под насловом **AI предлог** уколико достигну подешен праг "
+"релевантности. Сваки предлог приказује наслов чланка и више детаља кад "
+"пређете преко. Оцена релевантности ће бити приказана само корисницима са "
+"одговарајућим администраторским дозволама. Кликните на наслов да отворите "
+"овај чланак у бази знања. Кликните на ``+`` са десне стране да га повежете "
+"са тикетом."
+
+#: ../extras/ai-features.rst:141
+msgid ""
+"If no suggestions are available, the message \"No suggestions.\" is "
+"displayed instead."
+msgstr ""
+"Уколико нема релевантних предлога, биће приказана порука „Без предлога”."
+
+#: ../extras/ai-features.rst:147
 msgid "AI Agents"
 msgstr "AI агенти"
 
-#: ../extras/ai-features.rst:97
+#: ../extras/ai-features.rst:149
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
-"general, this feature operates behind the scenes but if configured, you may "
-"notice it in some situations (see examples below). In case your admin "
-"created a macro with an AI agent action, you can even run it manually. Ask "
-"your admin for details and have a look at the :doc:`macro page </advanced/"
-"macros>` how to use it."
+"general, this feature operates behind the scenes, but if configured, you may "
+"notice it in some situations (see examples below). If your admin has created "
+"a macro with an AI agent action, you can even run it manually. Ask your "
+"admin for details and have a look at the :doc:`macro page </advanced/"
+"macros>` to see how to use it."
 msgstr ""
 "AI агенти се могу подесити да раде на одређеним врстама рутинских задатака. "
 "Уопштено, ова функција ради „испод хаубе”, али уколико је подешена можете је "
-"приметити у неким ситуацијама (видите примере испод). У случају да је ваш "
+"приметити у неким ситуацијама (видите примере испод). Уколико је ваш "
 "администратор дефинисао макро са радњом AI агента, можете је чак и ручно "
 "покренути. Питајте вашег администратора за детаље и погледајте :doc:`одељак "
 "о макроима </advanced/macros>` за упутство за употребу."
 
-#: ../extras/ai-features.rst:112
+#: ../extras/ai-features.rst:164
 msgid "Ticket history"
 msgstr "Историјат тикета"
 
-#: ../extras/ai-features.rst:105
+#: ../extras/ai-features.rst:157
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -5890,7 +6013,7 @@ msgstr ""
 "тикета под називом AI агента. Уколико приметите проблеме са начином рада AI "
 "агента, обавестите о томе свог Zammad администратора."
 
-#: ../extras/ai-features.rst:109
+#: ../extras/ai-features.rst:161
 msgid "Example of a history entry of an AI agent:"
 msgstr "Пример евиденције историјата AI агента:"
 
@@ -5898,15 +6021,15 @@ msgstr "Пример евиденције историјата AI агента:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "Снимак екрана приказује евиденцију историјата AI агента"
 
-#: ../extras/ai-features.rst:123
+#: ../extras/ai-features.rst:175
 msgid "Simultaneous work detection"
-msgstr "Детекција истовременог рада"
+msgstr "Откривање истовремене обраде"
 
-#: ../extras/ai-features.rst:115
+#: ../extras/ai-features.rst:167
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
-"duplicate work as well as losing unsaved changes. If you see an AI agent "
+"duplicate work and prevent losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 "AI агенти који тренутно раде на тикету су приказани као и други оператери у "
@@ -5914,7 +6037,7 @@ msgstr ""
 "рад као и губитак несачуваних измена. Уколико приметите сличицу AI агента, "
 "сачекајте тренутак или пређите на други тикет."
 
-#: ../extras/ai-features.rst:120
+#: ../extras/ai-features.rst:172
 msgid "Avatar of AI agent:"
 msgstr "Сличица AI агента:"
 
@@ -5922,11 +6045,11 @@ msgstr "Сличица AI агента:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "Снимак екрана који приказује сличицу AI агента"
 
-#: ../extras/ai-features.rst:129
+#: ../extras/ai-features.rst:181
 msgid "Overview indicator"
 msgstr "Индикатор прегледа"
 
-#: ../extras/ai-features.rst:126
+#: ../extras/ai-features.rst:178
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -5948,7 +6071,7 @@ msgstr "Евиденција позива"
 
 #: ../extras/caller-log.rst:4
 msgid "View and manage call logs from the **phone** panel."
-msgstr "Прегледајте и управљајте евиденцијом позива из панела **Позив**."
+msgstr "Прегледајте и управљајте дневником позива из панела **Позив**."
 
 #: ../extras/caller-log.rst:6
 msgid ""
@@ -5976,7 +6099,7 @@ msgid ""
 "instance**. The number of entries shown depends on the configuration your "
 "admin chose."
 msgstr ""
-"🏢 Евиденција позива приказује све долазне и одлазне позиве **за целу "
+"🏢 Дневник позива приказује све долазне и одлазне позиве **за целу "
 "инстанцу**. Број приказаних уноса зависи од конфигурације коју је одабрао "
 "ваш администратор."
 
@@ -5986,9 +6109,9 @@ msgid ""
 "administrator configured \"Phone Extension to Agent Mapping\", Zammad will "
 "also help you during answering calls."
 msgstr ""
-"Евиденција позива нуди много више од само последњих позива. Ако је ваш "
-"администратор конфигурисао „Мапирање локала на оператере”, Zammad ће вам "
-"такође помоћи током одговарања на позиве."
+"Дневник позива нуди много више од само последњих позива. Ако је ваш "
+"администратор подесио „Мапирање локала на оператере”, Zammad ће вам такође "
+"помоћи током одговарања на позиве."
 
 #: ../extras/caller-log.rst:34
 msgid "New ticket dialog"
@@ -6043,7 +6166,7 @@ msgid ""
 "You can click on phone numbers (user profiles and caller log) to dial the "
 "number in question quickly."
 msgstr ""
-"Можете кликнути на бројеве телефона (у корисничким профилима и евиденцији "
+"Можете кликнути на бројеве телефона (у корисничким профилима и дневнику "
 "позива) да бисте брзо позвали дотични број."
 
 #: ../extras/caller-log.rst:46
@@ -6078,8 +6201,8 @@ msgstr ""
 #: ../extras/caller-log.rst:0
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
-"Снимак екрана који приказује унос у евиденцији позива који је класификован "
-"са „можда:”"
+"Снимак екрана који приказује унос у дневнику позива који је класификован са "
+"„можда:”"
 
 #: ../extras/caller-log.rst:64
 msgid ""
@@ -6102,7 +6225,7 @@ msgid ""
 "Existing caller log entries *are not* updated when you update an existing "
 "customer."
 msgstr ""
-"Постојећи уноси у евиденцији позива се *не* освежавају приликом освежавања "
+"Постојећи уноси у дневнику позива се *не* освежавају приликом освежавања "
 "постојећег клијента."
 
 #: ../extras/chat.rst:2 ../extras/mobile-view.rst:146
@@ -7140,13 +7263,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
-"Снимак екрана који приказује везу за поништавање токена приступа при дну\n"
+"Снимак екрана који приказује везу за поништавање токена приступа при дну "
 "дијалога RSS извора (интерна база знања)"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Уређивање категорија"
 
@@ -7154,7 +7277,7 @@ msgstr "Уређивање категорија"
 msgid "Edit category"
 msgstr "Уреди категорију"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7162,7 +7285,7 @@ msgstr ""
 "Можете преместити категорију преко падајућег менија **Надређени**. Сви њени "
 "чланци и подкатегорије ће бити премештени са њом."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7172,11 +7295,11 @@ msgstr ""
 "избрисати само када сви њихови чланци и подкатегорије буду избрисани или "
 "премештени."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Ограничене дозволе категорије"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7188,7 +7311,7 @@ msgstr ""
 "подразумевано понашање видљивости и уместо тога примењује грануларне дозволе "
 "које сте изабрали."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7196,7 +7319,7 @@ msgstr ""
 "Ово вам омогућава да поделите групе корисника на нпр. ниво претплате како "
 "бисте смањили оптерећење информацијама за кориснике којима нису потребне."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7213,7 +7336,7 @@ msgstr ""
 msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr "Снимак екрана који приказује грануларне дозволе категорије базе знања"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7236,11 +7359,11 @@ msgstr ""
 "путања за приступ дозвољеним подређеним категоријама. Уколико не можете да "
 "одаберете дозволе у табели, ово може бити разлог."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Будите свесни да су јавни чланци су увек доступни!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7249,7 +7372,7 @@ msgstr ""
 "Дозвола за читање базе знања значи да корисници могу да виде **интерне "
 "чланке**. Ово је потенцијални проблем ако не делите пажљиво!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Уређивање чланака"
 
@@ -7257,7 +7380,7 @@ msgstr "Уређивање чланака"
 msgid "Edit answer"
 msgstr "Уредите чланак"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7271,25 +7394,23 @@ msgstr ""
 "бисте уметнули форматирани текст, листе са ознакама и још много тога. Можете "
 "чак додати датотеке прилога и везе!"
 
-#: ../extras/knowledge-base.rst:213
+#: ../extras/knowledge-base.rst:212
 msgid "Different link types"
 msgstr "Различите врсте веза"
 
-#: ../extras/knowledge-base.rst:184
-#, fuzzy
-#| msgid "Web link"
+#: ../extras/knowledge-base.rst:183
 msgid "Weblink"
 msgstr "Интернет линк"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "URL адресе које упућују на друге интернет локације."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "Link Answer"
 msgstr "Веза ка чланку"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7297,11 +7418,11 @@ msgstr ""
 "Интерне референце на друге чланке базе знања (неће престати да раде уколико "
 "се циљна URL путања промени)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "Image"
 msgstr "Слика"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Include an image from your computer in the answer. Unlike file attachments, "
 "these images are embedded directly in the answer."
@@ -7309,11 +7430,11 @@ msgstr ""
 "Убаците слику у чланак отпремањем са вашег рачунара. За разлику од датотека "
 "прилога, ове слике ће бити интегрисане директно у чланак."
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid "Video"
 msgstr "Видео"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Include a video to embed in the answer. By default, you can embed videos "
 "from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
@@ -7326,13 +7447,11 @@ msgstr ""
 "подржаних видео сервиса ће бити приказана у видео дијалогу испод поља URL "
 "адресе."
 
-#: ../extras/knowledge-base.rst:203
-#, fuzzy
-#| msgid "Create Tickets"
-msgid "Related Tickets"
-msgstr "Отварање тикета"
-
 #: ../extras/knowledge-base.rst:202
+msgid "Related Tickets"
+msgstr "Повезани тикети"
+
+#: ../extras/knowledge-base.rst:201
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7340,11 +7459,11 @@ msgstr ""
 "Интерне референце на Zammad тикете (видљиве само у режиму приказа и "
 "уређивања)."
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "Attachments"
 msgstr "Прилози"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid ""
 "Add any file as an attachment to your answer. Such an attachment isn't "
 "embedded in the body of the answer. Readers can download it by clicking on "
@@ -7354,7 +7473,7 @@ msgstr ""
 "интегрисани у тело чланка. Читаоци ће моћи да их преузму кликом унутар "
 "одељка прилога."
 
-#: ../extras/knowledge-base.rst:211
+#: ../extras/knowledge-base.rst:210
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same as those in your "
@@ -7364,11 +7483,11 @@ msgstr ""
 "претрагу. Имајте на уму да су ознаке јавно видљиве и да могу бити исте као и "
 "оне у вашим тикетима."
 
-#: ../extras/knowledge-base.rst:238
+#: ../extras/knowledge-base.rst:237
 msgid "Visibility"
 msgstr "Видљивост"
 
-#: ../extras/knowledge-base.rst:216
+#: ../extras/knowledge-base.rst:215
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7378,31 +7497,31 @@ msgstr ""
 "закажите његово објављивање за касније. Чланци су означени бојама према "
 "њиховој видљивости:"
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "**Public** (visible to everyone)"
 msgstr "**Јавно** (видљиво свима)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:222
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:222
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Интерно** (видљиво само оператерима и уредницима)"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:224
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:224
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Нацрт/Заказано/Архивирано** (видљиво само уредницима)"
 
-#: ../extras/knowledge-base.rst:241
+#: ../extras/knowledge-base.rst:240
 msgid "Using Answers In Ticket Articles"
 msgstr "Коришћење чланака у тикетима"
 
-#: ../extras/knowledge-base.rst:243
+#: ../extras/knowledge-base.rst:242
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9343,18 +9462,17 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
 "Снимак екрана који показује како да превучете и пустите прегледе за избор "
-"редоследа\n"
-" и поништите га назад на подразумевану вредност"
+"редоследа и поништите га назад на подразумевану вредност"
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr "Календар"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9366,7 +9484,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Уређаји"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9378,7 +9496,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Приступ путем кључа"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9386,7 +9504,7 @@ msgstr ""
 "Генеришите личне кључеве приступа за апликације трећег лица да бисте "
 "користили Zammad API."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9400,7 +9518,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Повезани налози"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
@@ -10266,67 +10384,13 @@ msgstr ""
 #~ "Снимак екрана који показује како да сачувате заједнички нацрт у приказу "
 #~ "тикета"
 
-#~ msgid "Knowledge Base Answer Generation"
-#~ msgstr "Генерација чланка базе знања"
-
-#~ msgid ""
-#~ "This feature allows you to trigger an AI-based generation of "
-#~ "a :doc:`knowledge base <knowledge-base>` answer out of a ticket. This can "
-#~ "be useful if you often get similar tickets and want to quickly create a "
-#~ "knowledge base article for such cases. Doing so helps you and your "
-#~ "colleagues to solve similar tickets more efficiently in the future and "
-#~ "might even reduce the ticket volume in the long run when customers can "
-#~ "solve their issues by themselves."
-#~ msgstr ""
-#~ "Ова функција вам омогућава да покренете AI генерацију чланка :doc:`базе "
-#~ "знања <knowledge-base>` на основу тикета. Може бити од помоћи уколико "
-#~ "често примате сличне тикете и желите да брзо додате чланак базе знања за "
-#~ "такве случајеве. На овај начин помажете себи и својим колегама приликом "
-#~ "решавања сличних тикета кроз ефикаснију обраду у будућности и можете чак "
-#~ "и смањити број тикета на дуге стазе јер клијенти могу и сами да реше "
-#~ "своје проблеме."
-
 #~ msgid "Important information:"
 #~ msgstr "Важне информације:"
-
-#~ msgid ""
-#~ "The knowledge base answer is generated as draft and doesn't get published "
-#~ "automatically."
-#~ msgstr ""
-#~ "Чланак базе знања се генерише као нацрт и неће бити аутоматски објављен."
 
 #~ msgid ""
 #~ "The user who triggered the generation is set as the author of the answer."
 #~ msgstr ""
 #~ "Корисник који је покренуо генерацију ће бити постављен као аутор чланка."
-
-#~ msgid ""
-#~ "The answer is generated in the configured default language of your "
-#~ "knowledge base."
-#~ msgstr "Чланак је генерисан на подразумеваном језику ваше базе знања."
-
-#~ msgid ""
-#~ "The answer includes a note in the content and a tag (``ai-generated``) "
-#~ "about the AI generation."
-#~ msgstr ""
-#~ "Чланак укључује напомену о AI генерацији у свом садржају и ознаку (``ai-"
-#~ "generated``)."
-
-#~ msgid ""
-#~ "A link to the answer is added to the ticket from which the answer "
-#~ "generation was triggered."
-#~ msgstr ""
-#~ "Веза на чланак ће бити додата у тикет из кога је покренута генерација "
-#~ "чланка."
-
-#~ msgid ""
-#~ "The AI request includes a list of the knowledge base categories in which "
-#~ "the triggering user has editor permissions. The AI then chooses one of "
-#~ "these categories."
-#~ msgstr ""
-#~ "AI захтев ће укључивати листу категорија базе знања у којима корисник "
-#~ "који покреће генерацију има приступ уредника. Вештачка интелигенција ће "
-#~ "одабрати између једне од ових категорија."
 
 #~ msgid ""
 #~ "To trigger such a generation, click the ``+ AI generate`` button in the "
