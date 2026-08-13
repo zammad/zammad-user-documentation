@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 10:29+0200\n"
+"POT-Creation-Date: 2026-07-30 15:51+0200\n"
 "PO-Revision-Date: 2024-11-19 05:00+0000\n"
 "Last-Translator: sesoltani <se.soltani@hotmail.com>\n"
 "Language-Team: Persian <https://translations.zammad.org/projects/"
@@ -1365,7 +1365,7 @@ msgstr ""
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr ""
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
 msgid "|grn|"
 msgstr ""
 
@@ -5723,11 +5723,11 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr ""
 
@@ -5735,24 +5735,24 @@ msgstr ""
 msgid "Edit category"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
 "deleted or relocated."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -5760,13 +5760,13 @@ msgid ""
 "instead."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -5781,7 +5781,7 @@ msgid ""
 "permissions"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -5795,18 +5795,18 @@ msgid ""
 "the table, this could be the reason."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
 "carefully!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr ""
 
@@ -5814,7 +5814,7 @@ msgstr ""
 msgid "Edit answer"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -5823,85 +5823,85 @@ msgid ""
 "attachments and links!"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "Different link types"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "**Web link**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "**Link Answer**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "**Linked Tickets**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "**Tags**"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same like those in your "
 "tickets."
 msgstr ""
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "Visibility"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
 "according to their visibility:"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:203
 msgid "**Public** (visible to everyone)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "|blu|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "**Internal** (visible to agents & editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "|gry|"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:223
 msgid "Using Answers In Ticket Articles"
 msgstr ""
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:225
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7454,15 +7454,15 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -7472,7 +7472,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -7482,13 +7482,13 @@ msgstr ""
 msgid "Token Access"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -7499,7 +7499,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 10:29+0200\n"
-"PO-Revision-Date: 2026-07-08 12:07+0000\n"
+"POT-Creation-Date: 2026-07-30 15:51+0200\n"
+"PO-Revision-Date: 2026-08-04 16:10+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1587,7 +1587,7 @@ msgstr ""
 "**Szüneteltetve, jelenleg nincs szükség intézkedésre** (például "
 "felfüggesztve)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -7395,13 +7395,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
-"A képernyőkép a hozzáférési token visszaállítási hivatkozását jeleníti meg\n"
+"A képernyőkép a hozzáférési token visszaállítási hivatkozását jeleníti meg "
 "az RSS-hírforrás kizárólagos párbeszédablakának (belső tudásbázis) alsó végén"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Kategóriák szerkesztése"
 
@@ -7409,7 +7409,7 @@ msgstr "Kategóriák szerkesztése"
 msgid "Edit category"
 msgstr "Kategória szerkesztése"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7417,7 +7417,7 @@ msgstr ""
 "Áthelyezhet egy kategóriát a **Szülő** legördülő menü használatával. Ezzel a "
 "kategória összes bejegyzése és alkategóriája is átkerül vele együtt."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7427,11 +7427,11 @@ msgstr ""
 "azután lehet törölni, hogy az összes bejegyzésük és alkategóriájuk törölve "
 "lett vagy át lett helyezve."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Részletes kategóriajogosultságok"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7443,7 +7443,7 @@ msgstr ""
 "jogosultságainak használata kikapcsolja az alapértelmezett láthatósági "
 "viselkedést, és a kiválasztott jogosultságokat alkalmazza helyette."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7452,7 +7452,7 @@ msgstr ""
 "szint szerint, hogy csökkentse az információterhelést azoknál a "
 "felhasználóknál, akiknek nincs szükségük az információra."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7474,7 +7474,7 @@ msgstr ""
 "A képernyőfelvétel a kategóriák láthatósági lehetőségeit jeleníti meg a "
 "részletes hozzáférési jogosultságokhoz"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7500,11 +7500,11 @@ msgstr ""
 "eléréséhez. Ha nem tudja kiválasztani a jogosultságokat a táblázatban, annak "
 "ez lehet az oka."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Ne feledje, hogy a nyilvános válaszok mindig elérhetők!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7514,7 +7514,7 @@ msgstr ""
 "láthatják a **belső válaszokat**. Ez komoly probléma, ha nem gondosan ossza "
 "fel a jogosultságokat!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Válaszok szerkesztése"
 
@@ -7522,7 +7522,7 @@ msgstr "Válaszok szerkesztése"
 msgid "Edit answer"
 msgstr "Válasz szerkesztése"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7537,23 +7537,23 @@ msgstr ""
 "és egyéb elemek beszúrásához. Akár fájlmellékleteket és hivatkozásokat is "
 "hozzáadhat!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "Different link types"
 msgstr "Különböző hivatkozástípusok"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "**Web link**"
 msgstr "**Webhivatkozás**"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "Más webhelyekre mutató URL-ek."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "**Link Answer**"
 msgstr "**Válasz hozzákapcsolása**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7561,11 +7561,11 @@ msgstr ""
 "Más tudásbázisválaszokra mutató belső hivatkozások (nem fognak eltörni, ha a "
 "cél-URL megváltozik)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "**Linked Tickets**"
 msgstr "**Kapcsolt jegyek**"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7573,11 +7573,11 @@ msgstr ""
 "Zammad-jegyekre mutató belső hivatkozások (csak előnézeti és szerkesztési "
 "módban látható)."
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "**Tags**"
 msgstr "**Címkék**"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same like those in your "
@@ -7587,11 +7587,11 @@ msgstr ""
 "eredményekért. Ne feledje, hogy a címkék nyilvánosan láthatók, és "
 "megegyezhetnek a jegyekben lévőkkel."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "Visibility"
 msgstr "Láthatóság"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7601,31 +7601,31 @@ msgstr ""
 "egy bejegyzést, vagy ütemezze, hogy egy későbbi időpontban legyen közzétéve. "
 "A bejegyzések színkóddal vannak jelölve a láthatóságuk szerint:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:203
 msgid "**Public** (visible to everyone)"
 msgstr "**Nyilvános** (mindenkinek látható)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Belső** (csak ügyintézőknek és szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Piszkozat/ütemezett/archivált** (csak szerkesztőknek látható)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:223
 msgid "Using Answers In Ticket Articles"
 msgstr "Válaszok használata a jegy bejegyzéseiben"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:225
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9616,18 +9616,17 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
-"A képernyőfelvétel azt mutatja be, hogyan kell fogd és vidd módon "
-"átrendezni\n"
+"A képernyőfelvétel azt mutatja be, hogyan kell fogd és vidd módon átrendezni "
 "az áttekintések sorrendjét és visszaállítani a sorrendet az alapértelmezettre"
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr "Naptár"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9639,7 +9638,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Eszközök"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9651,7 +9650,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Tokenes hozzáférés"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9659,7 +9658,7 @@ msgstr ""
 "Személyes hozzáférési tokenek előállítása harmadik féltől származó "
 "alkalmazásokhoz, hogy használhassák a Zammad API-t."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9673,7 +9672,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Kapcsolt fiókok"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."

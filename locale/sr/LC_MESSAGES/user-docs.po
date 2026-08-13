@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 10:29+0200\n"
-"PO-Revision-Date: 2026-07-11 07:07+0000\n"
+"POT-Creation-Date: 2026-07-30 15:51+0200\n"
+"PO-Revision-Date: 2026-08-08 07:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1542,7 +1542,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**На паузи, не захтева обраду** (нпр. на чекању)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2585,8 +2585,8 @@ msgid ""
 "is stored in Zammad and which got indexed by Elasticsearch, like:"
 msgstr ""
 "Међутим, претрага није само по тикетима. Zammad такође претражује по "
-"корисницима, организацијама и евиденцијама ћаскања. Једноставно, укључује "
-"све информације које су снимљене у Zammad-у и које су индексиране у "
+"корисницима, организацијама и дневнику ћаскања. Једноставно, укључује све "
+"информације које су снимљене у Zammad-у и које су индексиране у "
 "Elasticsearch сервису, нпр:"
 
 #: ../basics/find-tickets.rst:84
@@ -3882,7 +3882,7 @@ msgid ""
 msgstr ""
 "CTI је скраћеница од Computer Telephony Integration и омогућава вам да "
 "прикупите детаљне информације о свим вашим долазним и одлазним позивима. Ово "
-"укључује, на пример, евиденцију позива, преглед оператера тренутно у позиву, "
+"укључује, на пример, дневник позива, преглед оператера тренутно у позиву, "
 "претрагу ID позиваоца, па чак и режим „не ометај”."
 
 #: ../basics/zammad-glossary.rst:149
@@ -4806,9 +4806,9 @@ msgid ""
 "identified directly by their caller ID - a key function that saves agents a "
 "lot of time when assigning callers."
 msgstr ""
-"Интеграција Placatel налога са Zammad-ом корисницима пружа евиденцију "
-"позива, чинећи историју њихове кореспонденције још тачнијом. Позиваоци се "
-"идентификују директно по ID-у позиваоца - кључној функцији која оператерима "
+"Интеграција Placetel налога са Zammad-ом корисницима пружа дневник позива, "
+"чинећи историју њихове кореспонденције још тачнијом. Позиваоци се "
+"идентификују директно по ID-у позиваоца – кључној функцији која оператерима "
 "штеди много времена приликом додељивања позива."
 
 #: ../basics/zammad-glossary.rst:539
@@ -5037,7 +5037,7 @@ msgid ""
 msgstr ""
 "Sipgate је SaaS решење за интернет телефонију. Zammad интеграција за Sipgate "
 "корисницима пружа детаљан преглед позива. Ако имате клијента који жели да се "
-"повеже са одређеним оператером, евиденција позива ће вам рећи да ли је овај "
+"повеже са одређеним оператером, дневник позива ће вам рећи да ли је овај "
 "колега тренутно доступан."
 
 #: ../basics/zammad-glossary.rst:637
@@ -5896,7 +5896,7 @@ msgstr "Снимак екрана приказује евиденцију ист
 
 #: ../extras/ai-features.rst:122
 msgid "Simultaneous work detection"
-msgstr "Детекција истовременог рада"
+msgstr "Откривање истовремене обраде"
 
 #: ../extras/ai-features.rst:114
 msgid ""
@@ -5944,7 +5944,7 @@ msgstr "Евиденција позива"
 
 #: ../extras/caller-log.rst:4
 msgid "View and manage call logs from the **phone** panel."
-msgstr "Прегледајте и управљајте евиденцијом позива из панела **Позив**."
+msgstr "Прегледајте и управљајте дневником позива из панела **Позив**."
 
 #: ../extras/caller-log.rst:6
 msgid ""
@@ -5972,7 +5972,7 @@ msgid ""
 "instance**. The number of entries shown depends on the configuration your "
 "admin chose."
 msgstr ""
-"🏢 Евиденција позива приказује све долазне и одлазне позиве **за целу "
+"🏢 Дневник позива приказује све долазне и одлазне позиве **за целу "
 "инстанцу**. Број приказаних уноса зависи од конфигурације коју је одабрао "
 "ваш администратор."
 
@@ -5982,9 +5982,9 @@ msgid ""
 "administrator configured \"Phone Extension to Agent Mapping\", Zammad will "
 "also help you during answering calls."
 msgstr ""
-"Евиденција позива нуди много више од само последњих позива. Ако је ваш "
-"администратор конфигурисао „Мапирање локала на оператере”, Zammad ће вам "
-"такође помоћи током одговарања на позиве."
+"Дневник позива нуди много више од само последњих позива. Ако је ваш "
+"администратор подесио „Мапирање локала на оператере”, Zammad ће вам такође "
+"помоћи током одговарања на позиве."
 
 #: ../extras/caller-log.rst:34
 msgid "New ticket dialog"
@@ -6039,7 +6039,7 @@ msgid ""
 "You can click on phone numbers (user profiles and caller log) to dial the "
 "number in question quickly."
 msgstr ""
-"Можете кликнути на бројеве телефона (у корисничким профилима и евиденцији "
+"Можете кликнути на бројеве телефона (у корисничким профилима и дневнику "
 "позива) да бисте брзо позвали дотични број."
 
 #: ../extras/caller-log.rst:46
@@ -6074,8 +6074,8 @@ msgstr ""
 #: ../extras/caller-log.rst:0
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
-"Снимак екрана који приказује унос у евиденцији позива који је класификован "
-"са „можда:”"
+"Снимак екрана који приказује унос у дневнику позива који је класификован са „"
+"можда:”"
 
 #: ../extras/caller-log.rst:64
 msgid ""
@@ -6098,7 +6098,7 @@ msgid ""
 "Existing caller log entries *are not* updated when you update an existing "
 "customer."
 msgstr ""
-"Постојећи уноси у евиденцији позива се *не* освежавају приликом освежавања "
+"Постојећи уноси у дневнику позива се *не* освежавају приликом освежавања "
 "постојећег клијента."
 
 #: ../extras/chat.rst:2 ../extras/mobile-view.rst:146
@@ -7136,13 +7136,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
-"Снимак екрана који приказује везу за поништавање токена приступа при дну\n"
+"Снимак екрана који приказује везу за поништавање токена приступа при дну "
 "дијалога RSS извора (интерна база знања)"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Уређивање категорија"
 
@@ -7150,7 +7150,7 @@ msgstr "Уређивање категорија"
 msgid "Edit category"
 msgstr "Уреди категорију"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7158,7 +7158,7 @@ msgstr ""
 "Можете преместити категорију преко падајућег менија **Надређени**. Сви њени "
 "чланци и подкатегорије ће бити премештени са њом."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7168,11 +7168,11 @@ msgstr ""
 "избрисати само када сви њихови чланци и подкатегорије буду избрисани или "
 "премештени."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Ограничене дозволе категорије"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7184,7 +7184,7 @@ msgstr ""
 "подразумевано понашање видљивости и уместо тога примењује грануларне дозволе "
 "које сте изабрали."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7192,7 +7192,7 @@ msgstr ""
 "Ово вам омогућава да поделите групе корисника на нпр. ниво претплате како "
 "бисте смањили оптерећење информацијама за кориснике којима нису потребне."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7213,7 +7213,7 @@ msgstr ""
 "Снимак екрана који приказује опцију видљивости за ограничене дозволе "
 "категорије"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7236,11 +7236,11 @@ msgstr ""
 "путања за приступ дозвољеним подређеним категоријама. Уколико не можете да "
 "одаберете дозволе у табели, ово може бити разлог."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Будите свесни да су јавни чланци су увек доступни!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7249,7 +7249,7 @@ msgstr ""
 "Дозвола за читање базе знања значи да корисници могу да виде **интерне "
 "чланке**. Ово је потенцијални проблем ако не делите пажљиво!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Уређивање чланака"
 
@@ -7257,7 +7257,7 @@ msgstr "Уређивање чланака"
 msgid "Edit answer"
 msgstr "Уредите чланак"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7271,23 +7271,23 @@ msgstr ""
 "бисте уметнули форматирани текст, листе са ознакама и још много тога. Можете "
 "чак додати датотеке прилога и везе!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "Different link types"
 msgstr "Различите врсте веза"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "**Web link**"
 msgstr "**Интернет линк**"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "URL адресе које упућују на друге интернет локације."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "**Link Answer**"
 msgstr "**Веза ка чланку**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7295,11 +7295,11 @@ msgstr ""
 "Интерне референце на друге чланке базе знања (неће престати да раде уколико "
 "се циљна URL путања промени)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "**Linked Tickets**"
 msgstr "**Повезани тикети**"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7307,11 +7307,11 @@ msgstr ""
 "Интерне референце на Zammad тикете (видљиве само у режиму приказа и "
 "уређивања)."
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "**Tags**"
 msgstr "**Ознаке**"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same like those in your "
@@ -7321,11 +7321,11 @@ msgstr ""
 "претрагу. Имајте на уму да су ознаке јавно видљиве и да могу бити исте као и "
 "оне у вашим тикетима."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "Visibility"
 msgstr "Видљивост"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7335,31 +7335,31 @@ msgstr ""
 "закажите његово објављивање за касније. Чланци су означени бојама према "
 "њиховој видљивости:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:203
 msgid "**Public** (visible to everyone)"
 msgstr "**Јавно** (видљиво свима)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Интерно** (видљиво само оператерима и уредницима)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Нацрт/Заказано/Архивирано** (видљиво само уредницима)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:223
 msgid "Using Answers In Ticket Articles"
 msgstr "Коришћење чланака у тикетима"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:225
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -9300,18 +9300,17 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
 "Снимак екрана који показује како да превучете и пустите прегледе за избор "
-"редоследа\n"
-" и поништите га назад на подразумевану вредност"
+"редоследа и поништите га назад на подразумевану вредност"
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
 msgstr "Календар"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9323,7 +9322,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Уређаји"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9335,7 +9334,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Приступ путем кључа"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9343,7 +9342,7 @@ msgstr ""
 "Генеришите личне кључеве приступа за апликације трећег лица да бисте "
 "користили Zammad API."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9357,7 +9356,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Повезани налози"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."

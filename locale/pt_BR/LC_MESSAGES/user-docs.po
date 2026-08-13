@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 10:29+0200\n"
-"PO-Revision-Date: 2026-07-27 02:10+0000\n"
+"POT-Creation-Date: 2026-07-30 15:51+0200\n"
+"PO-Revision-Date: 2026-08-01 09:10+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -570,8 +570,8 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Se você usa Mac, use :kbd:`cmd` em vez de :kbd:`ctrl` e :kbd:`ctrl` "
-":kbd:`option` em vez de :kbd:`shift` :kbd:`ctrl`."
+"Se você usa Mac, use :kbd:`cmd` em vez de :kbd:`ctrl` "
+"e :kbd:`ctrl` :kbd:`option` em vez de :kbd:`shift` :kbd:`ctrl`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -714,8 +714,8 @@ msgid ""
 "If you want to run a more complex search, you can use conditions with ``()`` "
 "and ``AND``/``OR`` options::"
 msgstr ""
-"Se quiser fazer uma pesquisa mais complexa, você pode usar condições com ``()"
-"`` e opções ``AND``/``OR``::"
+"Se quiser fazer uma pesquisa mais complexa, você pode usar condições com "
+"``()`` e opções ``AND``/``OR``::"
 
 #: ../advanced/search.rst:22
 msgid "Available Attributes"
@@ -727,9 +727,9 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"Para uma lista mais detalhada dos atributos disponíveis, consulte a nossa "
-":docs:`documentação de sistema do Zammad </install/elasticsearch/indexed-"
-"attributes.html>`."
+"Para uma lista mais detalhada dos atributos disponíveis, consulte a "
+"nossa :docs:`documentação de sistema do Zammad </install/elasticsearch/"
+"indexed-attributes.html>`."
 
 #: ../advanced/search.rst:33
 msgid "Attributes and their usage"
@@ -849,8 +849,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -890,8 +890,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:serviço |br|\\ article.body:servi~ |br|\\ article.body:/he?r"
-"(r[iy]que)/"
+"article.body:serviço |br|\\ article.body:servi~ |br|\\ article.body:/he?"
+"r(r[iy]que)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1204,9 +1204,9 @@ msgid ""
 "in two </advanced/ticket-actions/split>`, then assign each ticket to its "
 "respective “group” (department)."
 msgstr ""
-"Se um ticket trata de fato de dois problemas diferentes, você pode "
-":doc:`dividi-lo em dois </advanced/ticket-actions/split>` e então atribuir "
-"cada ticket ao seu respectivo \"grupo\" (departamento)."
+"Se um ticket trata de fato de dois problemas diferentes, você "
+"pode :doc:`dividi-lo em dois </advanced/ticket-actions/split>` e então "
+"atribuir cada ticket ao seu respectivo \"grupo\" (departamento)."
 
 #: ../advanced/suggested-workflows.rst:16
 msgid ""
@@ -1565,7 +1565,7 @@ msgstr "|blk|"
 msgid "**Paused, no action needed right now** (e.g. pending)"
 msgstr "**Pausado, nenhuma ação necessária no momento** (ex.: pendente)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:204
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -1708,10 +1708,10 @@ msgstr ""
 "O Zammad oferece os chamados módulos de texto. Os módulos de texto ajudam a "
 "melhorar seu fluxo de trabalho, pois você não precisa digitar a resposta "
 "manualmente em cada ticket. Basta escolher um módulo de texto adequado e "
-"inseri-lo no email. Para acessar os módulos de texto disponíveis, digite "
-":kbd:`::` no corpo de um artigo. Ao encontrar o módulo de texto certo, "
-"pressione enter ou clique com o botão esquerdo do mouse e o Zammad inserirá "
-"o texto do módulo na posição do cursor."
+"inseri-lo no email. Para acessar os módulos de texto disponíveis, "
+"digite :kbd:`::` no corpo de um artigo. Ao encontrar o módulo de texto "
+"certo, pressione enter ou clique com o botão esquerdo do mouse e o Zammad "
+"inserirá o texto do módulo na posição do cursor."
 
 #: ../advanced/text-modules.rst:None
 msgid ""
@@ -1772,8 +1772,9 @@ msgid ""
 "Administrators can learn more about customizing text modules :admin-docs:`in "
 "the admin documentation </manage/text-modules.html>`."
 msgstr ""
-"Administradores podem saber mais sobre a personalização de módulos de texto "
-":admin-docs:`na documentação de administração </manage/text-modules.html>`."
+"Administradores podem saber mais sobre a personalização de módulos de "
+"texto :admin-docs:`na documentação de administração </manage/text-"
+"modules.html>`."
 
 #: ../advanced/ticket-actions.rst:2 ../basics/work-with-tickets.rst:192
 msgid "Ticket Actions"
@@ -1800,8 +1801,8 @@ msgid ""
 msgstr ""
 "Quando surgem tickets sobre questões relacionadas, eles podem ser vinculados "
 "entre si para facilitar a referência. Isso é útil, por exemplo, quando há "
-"várias reclamações de clientes sobre a mesma remessa. Tickets "
-":doc:`mesclados <merge>` e :doc:`divididos <split>` são vinculados "
+"várias reclamações de clientes sobre a mesma remessa. "
+"Tickets :doc:`mesclados <merge>` e :doc:`divididos <split>` são vinculados "
 "automaticamente."
 
 #: ../advanced/ticket-actions/link.rst:16
@@ -2248,9 +2249,9 @@ msgid ""
 msgstr ""
 "Quando um cliente envia mensagem por um canal captado pelo Zammad, um ticket "
 "é criado automaticamente (exceto se o Zammad o reconhecer como "
-"acompanhamento — nesse caso, é adicionado como artigo a um ticket existente)"
-". Porém, pode haver casos em que você precise criar um ticket manualmente. "
-"Exemplos:"
+"acompanhamento — nesse caso, é adicionado como artigo a um ticket "
+"existente). Porém, pode haver casos em que você precise criar um ticket "
+"manualmente. Exemplos:"
 
 #: ../basics/create-tickets.rst:9
 msgid "A customer calls you by phone."
@@ -2416,8 +2417,8 @@ msgid ""
 "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` "
 "which can be a huge time saver."
 msgstr ""
-"Use :doc:`módulos de texto </advanced/text-modules>` digitando :kbd:`:` "
-":kbd:`:`, o que pode economizar muito tempo."
+"Use :doc:`módulos de texto </advanced/text-modules>` "
+"digitando :kbd:`:` :kbd:`:`, o que pode economizar muito tempo."
 
 #: ../snippets/editor-features.rst:13
 msgid ""
@@ -2434,8 +2435,8 @@ msgid ""
 "basics` yet, check it out to learn more."
 msgstr ""
 "Como você já deve saber, há atributos de ticket adicionais que podem ser "
-"definidos, como grupo, prioridade e responsável. Se ainda não leu "
-":doc:`ticket-basics`, confira para saber mais."
+"definidos, como grupo, prioridade e responsável. Se ainda não "
+"leu :doc:`ticket-basics`, confira para saber mais."
 
 #: ../basics/create-tickets.rst:84
 msgid ""
@@ -2444,8 +2445,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Após fornecer as informações relevantes, crie o ticket clicando no botão "
-"``Create``. Continue lendo sobre :doc:`como localizar tickets <find-tickets>"
-"` e :doc:`como trabalhar com eles <work-with-tickets>`."
+"``Create``. Continue lendo sobre :doc:`como localizar tickets <find-"
+"tickets>` e :doc:`como trabalhar com eles <work-with-tickets>`."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -2574,9 +2575,9 @@ msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
-"Se você notar um círculo com um degradê azul/rosa, isso indica que um "
-":doc:`agente de IA </extras/ai-features>` está trabalhando no ticket neste "
-"momento."
+"Se você notar um círculo com um degradê azul/rosa, isso indica que "
+"um :doc:`agente de IA </extras/ai-features>` está trabalhando no ticket "
+"neste momento."
 
 #: ../basics/find-tickets.rst:57
 msgid ""
@@ -2683,8 +2684,8 @@ msgstr ""
 "(ex.: \"Usuário\") na barra de abas abaixo da barra de pesquisa. Para "
 "ordenar os resultados pelos valores de uma coluna, clique no cabeçalho dela. "
 "A ordenação é indicada por uma seta. Clique novamente para alternar entre "
-"crescente e decrescente. Se ainda não encontrar o que procura, confira a "
-":doc:`página de pesquisa avançada </advanced/search>`, onde você aprende a "
+"crescente e decrescente. Se ainda não encontrar o que procura, confira "
+"a :doc:`página de pesquisa avançada </advanced/search>`, onde você aprende a "
 "pesquisar atributos específicos, como data de criação ou o email do "
 "responsável pelo ticket."
 
@@ -2886,9 +2887,9 @@ msgid ""
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
 "the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
-"**Mesclado**: estado de um ticket que foi mesclado em outro. Confira os "
-":doc:`tickets vinculados </advanced/ticket-actions/link>` ou o "
-":ref:`histórico do ticket <ticket-submenu>` para ver o ticket relacionado."
+"**Mesclado**: estado de um ticket que foi mesclado em outro. Confira "
+"os :doc:`tickets vinculados </advanced/ticket-actions/link>` ou "
+"o :ref:`histórico do ticket <ticket-submenu>` para ver o ticket relacionado."
 
 #: ../basics/ticket-basics.rst:82
 msgid ""
@@ -3031,8 +3032,8 @@ msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
 msgstr ""
-"Agora que você conhece o básico, veja como :doc:`criar <create-tickets>` ou "
-":doc:`trabalhar com <work-with-tickets>` tickets."
+"Agora que você conhece o básico, veja como :doc:`criar <create-tickets>` "
+"ou :doc:`trabalhar com <work-with-tickets>` tickets."
 
 #: ../basics/work-with-tickets.rst:2
 msgid "Work with Tickets"
@@ -3061,13 +3062,13 @@ msgid ""
 msgstr ""
 "Em geral, trabalhar com tickets existentes significa acompanhar a "
 "correspondência do cliente em uma conversa na visualização de detalhes do "
-"ticket. Sempre que você abre um ticket, uma nova aba aparece na sua "
-":doc:`barra de navegação </advanced/tabs>` à esquerda. Para fechar uma aba "
-"(no sentido de removê-la da barra, não de fechar o ticket), clique no botão "
-"``X`` da aba. O Zammad salva automaticamente suas mudanças nas abas abertas, "
-"quer você já as tenha aplicado ou apenas editado e mudado de tela. Ou seja: "
-"não há problema em criar um novo ticket enquanto edita um existente. Basta "
-"voltar para a outra aba."
+"ticket. Sempre que você abre um ticket, uma nova aba aparece na "
+"sua :doc:`barra de navegação </advanced/tabs>` à esquerda. Para fechar uma "
+"aba (no sentido de removê-la da barra, não de fechar o ticket), clique no "
+"botão ``X`` da aba. O Zammad salva automaticamente suas mudanças nas abas "
+"abertas, quer você já as tenha aplicado ou apenas editado e mudado de tela. "
+"Ou seja: não há problema em criar um novo ticket enquanto edita um "
+"existente. Basta voltar para a outra aba."
 
 #: ../basics/work-with-tickets.rst:18
 msgid ""
@@ -3294,8 +3295,8 @@ msgid ""
 msgstr ""
 "Você pode usar a citação várias vezes para citar diferentes partes do texto. "
 "Basta selecionar outro trecho, clicar na mesma ação de resposta e ele será "
-"adicionado como outra citação no editor. É possível separar citações usando "
-":kbd:`enter` ou :kbd:`shift` + :kbd:`enter` no editor."
+"adicionado como outra citação no editor. É possível separar citações "
+"usando :kbd:`enter` ou :kbd:`shift` + :kbd:`enter` no editor."
 
 #: ../basics/work-with-tickets.rst:141
 msgid "Rename a Ticket"
@@ -3365,7 +3366,8 @@ msgstr ""
 #: ../basics/work-with-tickets.rst:178
 msgid ""
 "Depending on the additional icon and if the avatar icon is faded, it means:"
-msgstr "Dependendo do ícone adicional e de o avatar estar esmaecido, significa:"
+msgstr ""
+"Dependendo do ícone adicional e de o avatar estar esmaecido, significa:"
 
 #: ../basics/work-with-tickets.rst:180
 msgid "Avatar: Another agent is viewing the ticket."
@@ -3888,8 +3890,8 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:131
 msgid "Learn more on our :ref:`following up page <caution-im-working-here>`."
 msgstr ""
-"Saiba mais na nossa :ref:`página de acompanhamento <caution-im-working-here>"
-"`."
+"Saiba mais na nossa :ref:`página de acompanhamento <caution-im-working-"
+"here>`."
 
 #: ../basics/zammad-glossary.rst:141
 msgid "Core Workflows"
@@ -4262,7 +4264,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:287
 msgid "You can find the repository `here <https://github.com/zammad/zammad>`_."
-msgstr "Você encontra o repositório `aqui <https://github.com/zammad/zammad>`_."
+msgstr ""
+"Você encontra o repositório `aqui <https://github.com/zammad/zammad>`_."
 
 #: ../basics/zammad-glossary.rst:289
 msgid ""
@@ -5190,8 +5193,8 @@ msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Saiba mais sobre estados e sua codificação por cores nesta página: "
-":ref:`ticket-attributes`"
+"Saiba mais sobre estados e sua codificação por cores nesta "
+"página: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:679
 msgid ""
@@ -5251,8 +5254,8 @@ msgid ""
 "page: :ref:`ticket-attributes`"
 msgstr ""
 "Administradores podem saber mais sobre tags :admin-docs:`aqui </manage/"
-"tags.html>`. Agentes podem saber mais sobre essa função nesta página: "
-":ref:`ticket-attributes`"
+"tags.html>`. Agentes podem saber mais sobre essa função nesta "
+"página: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:720
 msgid "Text module"
@@ -5331,8 +5334,8 @@ msgid ""
 msgstr ""
 "O prefixo do ticket é o identificador de um ticket. Por padrão, é "
 "``Ticket#`` seguido de um número (ex.: ``Ticket#904627``). Ele pode ser "
-"alterado por um administrador. Veja :admin-docs:`aqui </settings/ticket.html>"
-"` para mais informações."
+"alterado por um administrador. Veja :admin-docs:`aqui </settings/"
+"ticket.html>` para mais informações."
 
 #: ../basics/zammad-glossary.rst:746
 msgid "Trigger"
@@ -5972,7 +5975,7 @@ msgstr "A captura de tela mostra o avatar de um agente de IA"
 
 #: ../extras/ai-features.rst:128
 msgid "Overview indicator"
-msgstr "Indicador da visão geral"
+msgstr "Indicador na visão geral"
 
 #: ../extras/ai-features.rst:125
 msgid ""
@@ -6172,8 +6175,8 @@ msgid ""
 "the :admin-docs:`chat channel admin documentation </channels/chat.html>`."
 msgstr ""
 "Este recurso é opcional. Se você não o vê no menu principal, significa que "
-"seu administrador ainda não o habilitou. Administradores podem saber mais na "
-":admin-docs:`documentação de administração do canal de chat </channels/"
+"seu administrador ainda não o habilitou. Administradores podem saber mais "
+"na :admin-docs:`documentação de administração do canal de chat </channels/"
 "chat.html>`."
 
 #: ../extras/chat.rst:None
@@ -6319,7 +6322,8 @@ msgstr "Janela de chat concluído"
 #: ../extras/chat.rst:70
 msgid ""
 "The ``Turn chat into ticket`` button appears as soon as the chat is finished."
-msgstr "O botão ``Turn chat into ticket`` aparece assim que o chat é concluído."
+msgstr ""
+"O botão ``Turn chat into ticket`` aparece assim que o chat é concluído."
 
 #: ../extras/chat.rst:76
 msgid "New ticket view"
@@ -6598,8 +6602,8 @@ msgid ""
 "Customers can optionally belong to organizations. Head over to "
 "the :doc:`organization page <organizations>` to learn more."
 msgstr ""
-"Clientes podem, opcionalmente, pertencer a organizações. Acesse a "
-":doc:`página de organizações <organizations>` para saber mais."
+"Clientes podem, opcionalmente, pertencer a organizações. Acesse "
+"a :doc:`página de organizações <organizations>` para saber mais."
 
 #: ../extras/customers.rst:0
 msgid "Secondary Organizations"
@@ -6751,8 +6755,8 @@ msgstr ""
 "Com a integração de rastreadores de issues, você pode acompanhar issues do "
 "GitHub / GitLab diretamente de dentro de um ticket do Zammad. Este recurso é "
 "opcional. Se você não o vê na barra lateral do ticket, significa que seu "
-"administrador ainda não o habilitou. Administradores podem saber mais na "
-":admin-docs:`integração com rastreadores de issues na documentação de "
+"administrador ainda não o habilitou. Administradores podem saber mais "
+"na :admin-docs:`integração com rastreadores de issues na documentação de "
 "administração </system/integrations#integrations-for-issue-trackers>`."
 
 #: ../extras/github-gitlab-integration.rst:14
@@ -7021,9 +7025,9 @@ msgstr ""
 "Gerencie, edite e organize o conteúdo da sua base de conhecimento abrindo a "
 "aba ``Knowledge Base`` na barra lateral de navegação. Este recurso é "
 "opcional. Se você não o vê na barra lateral de navegação, significa que seu "
-"administrador ainda não o habilitou. Administradores podem saber mais na "
-":admin-docs:`documentação de administração da base de conhecimento </manage/"
-"knowledge-base.html>`."
+"administrador ainda não o habilitou. Administradores podem saber mais "
+"na :admin-docs:`documentação de administração da base de conhecimento </"
+"manage/knowledge-base.html>`."
 
 #: ../extras/knowledge-base.rst:15
 msgid "Knowledge Base Preview Mode"
@@ -7202,13 +7206,13 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
-"Screenshot showing the access token reset link on the lower\n"
-"end of the RSS feed modal (internal knowledge base)"
+"Screenshot showing the access token reset link on the lower end of the RSS "
+"feed modal (internal knowledge base)"
 msgstr ""
 "Captura de tela mostrando o link de redefinição do token de acesso na parte\n"
 "inferior do modal do feed RSS (base de conhecimento interna)"
 
-#: ../extras/knowledge-base.rst:119
+#: ../extras/knowledge-base.rst:118
 msgid "Editing Categories"
 msgstr "Editando categorias"
 
@@ -7216,7 +7220,7 @@ msgstr "Editando categorias"
 msgid "Edit category"
 msgstr "Editar categoria"
 
-#: ../extras/knowledge-base.rst:125
+#: ../extras/knowledge-base.rst:124
 msgid ""
 "You can relocate a category using the **Parent** dropdown. Doing so, all of "
 "its articles and sub-categories will be relocated with it."
@@ -7224,7 +7228,7 @@ msgstr ""
 "Você pode realocar uma categoria usando a lista suspensa **Pai**. Ao fazer "
 "isso, todos os artigos e subcategorias dela serão realocados junto."
 
-#: ../extras/knowledge-base.rst:128
+#: ../extras/knowledge-base.rst:127
 msgid ""
 "You can delete categories by clicking on the ``Delete`` button. Categories "
 "can only be deleted once all of their articles and sub-categories have been "
@@ -7234,11 +7238,11 @@ msgstr ""
 "podem ser excluídas depois que todos os seus artigos e subcategorias tiverem "
 "sido excluídos ou realocados."
 
-#: ../extras/knowledge-base.rst:133
+#: ../extras/knowledge-base.rst:132
 msgid "Granular Category Permissions"
 msgstr "Permissões granulares de categoria"
 
-#: ../extras/knowledge-base.rst:135
+#: ../extras/knowledge-base.rst:134
 msgid ""
 "Granular category permissions are great to have individual access levels on "
 "a role level. Using the granular permissions of a category deactivates the "
@@ -7250,7 +7254,7 @@ msgstr ""
 "desativa o comportamento padrão de visibilidade e aplica as permissões que "
 "você escolheu."
 
-#: ../extras/knowledge-base.rst:140
+#: ../extras/knowledge-base.rst:139
 msgid ""
 "This allows you to divide user groups on a e.g. subscription level to reduce "
 "the information load for users that don't need the information."
@@ -7259,7 +7263,7 @@ msgstr ""
 "assinatura, para reduzir a carga de informação para usuários que não "
 "precisam dela."
 
-#: ../extras/knowledge-base.rst:143
+#: ../extras/knowledge-base.rst:142
 msgid ""
 "The roles require ``knowledge_base.reader`` permission. Your administrator "
 "has to provide the relevant groups with reader permissions for the knowledge "
@@ -7269,8 +7273,8 @@ msgid ""
 msgstr ""
 "As funções exigem a permissão ``knowledge_base.reader``. Seu administrador "
 "precisa conceder aos grupos relevantes permissões de leitor da base de "
-"conhecimento. Em caso de dúvida, peça ao administrador para configurar as "
-":admin-docs:`permissões de função </manage/roles/agent-permissions.html>` "
+"conhecimento. Em caso de dúvida, peça ao administrador para configurar "
+"as :admin-docs:`permissões de função </manage/roles/agent-permissions.html>` "
 "adequadamente."
 
 #: ../extras/knowledge-base.rst:None
@@ -7281,7 +7285,7 @@ msgstr ""
 "Screencast mostrando a opção de visibilidade de categorias para permissões "
 "de acesso granulares"
 
-#: ../extras/knowledge-base.rst:153
+#: ../extras/knowledge-base.rst:152
 msgid ""
 "In general, permissions of a parent category are inherited! If you want to "
 "grant edit permissions for a sub-category for a specific role for example, "
@@ -7305,11 +7309,11 @@ msgstr ""
 "as subcategorias permitidas. Se você não consegue selecionar permissões na "
 "tabela, essa pode ser a razão."
 
-#: ../extras/knowledge-base.rst:164
+#: ../extras/knowledge-base.rst:163
 msgid "Be aware that public answers are always available!"
 msgstr "Atenção: respostas públicas ficam sempre disponíveis!"
 
-#: ../extras/knowledge-base.rst:165
+#: ../extras/knowledge-base.rst:164
 msgid ""
 "Knowledge base reader permission means that affected users can see "
 "**internal answers**. This is a potential issue if you're not dividing "
@@ -7319,7 +7323,7 @@ msgstr ""
 "afetados podem ver **respostas internas**. Isso é um problema em potencial "
 "se você não fizer a divisão com cuidado!"
 
-#: ../extras/knowledge-base.rst:170
+#: ../extras/knowledge-base.rst:169
 msgid "Editing Answers"
 msgstr "Editando respostas"
 
@@ -7327,7 +7331,7 @@ msgstr "Editando respostas"
 msgid "Edit answer"
 msgstr "Editar resposta"
 
-#: ../extras/knowledge-base.rst:176
+#: ../extras/knowledge-base.rst:175
 msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
@@ -7341,23 +7345,23 @@ msgstr ""
 "texto formatado, listas com marcadores e mais. Você pode até adicionar "
 "anexos e links!"
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "Different link types"
 msgstr "Diferentes tipos de link"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "**Web link**"
 msgstr "**Link web**"
 
-#: ../extras/knowledge-base.rst:184
+#: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "URLs apontando para outros sites."
 
-#: ../extras/knowledge-base.rst:188
+#: ../extras/knowledge-base.rst:187
 msgid "**Link Answer**"
 msgstr "**Vincular resposta**"
 
-#: ../extras/knowledge-base.rst:187
+#: ../extras/knowledge-base.rst:186
 msgid ""
 "Internal references to other knowledge base answers (will not break if "
 "destination URL changes)."
@@ -7365,11 +7369,11 @@ msgstr ""
 "Referências internas a outras respostas da base de conhecimento (não quebram "
 "se a URL de destino mudar)."
 
-#: ../extras/knowledge-base.rst:192
+#: ../extras/knowledge-base.rst:191
 msgid "**Linked Tickets**"
 msgstr "**Tickets vinculados**"
 
-#: ../extras/knowledge-base.rst:191
+#: ../extras/knowledge-base.rst:190
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
@@ -7377,11 +7381,11 @@ msgstr ""
 "Referências internas a tickets do Zammad (visíveis apenas nos modos de pré-"
 "visualização e edição)."
 
-#: ../extras/knowledge-base.rst:196
+#: ../extras/knowledge-base.rst:195
 msgid "**Tags**"
 msgstr "**Tags**"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:194
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
 "note that tags are visible publicly and can be the same like those in your "
@@ -7391,11 +7395,11 @@ msgstr ""
 "pesquisa. Observe que as tags são visíveis publicamente e podem ser as "
 "mesmas dos seus tickets."
 
-#: ../extras/knowledge-base.rst:221
+#: ../extras/knowledge-base.rst:220
 msgid "Visibility"
 msgstr "Visibilidade"
 
-#: ../extras/knowledge-base.rst:199
+#: ../extras/knowledge-base.rst:198
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7405,31 +7409,31 @@ msgstr ""
 "artigo, ou agende a publicação para uma data futura. Os artigos são "
 "codificados por cores conforme a visibilidade:"
 
-#: ../extras/knowledge-base.rst:204
+#: ../extras/knowledge-base.rst:203
 msgid "**Public** (visible to everyone)"
 msgstr "**Público** (visível para todos)"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:206
+#: ../extras/knowledge-base.rst:205
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Interno** (visível apenas para agentes e editores)"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:208
+#: ../extras/knowledge-base.rst:207
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Rascunho/Agendado/Arquivado** (visível apenas para editores)"
 
-#: ../extras/knowledge-base.rst:224
+#: ../extras/knowledge-base.rst:223
 msgid "Using Answers In Ticket Articles"
 msgstr "Usando respostas em artigos de ticket"
 
-#: ../extras/knowledge-base.rst:226
+#: ../extras/knowledge-base.rst:225
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7831,7 +7835,8 @@ msgstr "Barra de menu com relatórios em destaque"
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
-msgstr "Se você não vê o botão de relatórios, você não tem permissão para isso."
+msgstr ""
+"Se você não vê o botão de relatórios, você não tem permissão para isso."
 
 #: ../extras/reporting.rst:14
 msgid "The reporting screen consists of various sections:"
@@ -8469,9 +8474,9 @@ msgstr ""
 "dois tipos diferentes de fatores de autenticação — normalmente algo que você "
 "sabe (como uma senha) e algo que você possui (como um dispositivo móvel ou "
 "token de segurança) — para garantir que você é uma pessoa autorizada a "
-"acessar a conta. É um recurso opcional. Administradores podem saber mais na "
-":admin-docs:`documentação de administração de autenticação de dois fatores </"
-"settings/security/two-factor.html>`."
+"acessar a conta. É um recurso opcional. Administradores podem saber mais "
+"na :admin-docs:`documentação de administração de autenticação de dois "
+"fatores </settings/security/two-factor.html>`."
 
 #: ../extras/two-factor-authentication.rst:13
 msgid ""
@@ -8806,8 +8811,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
-"billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-"
-"45da-b7b6-27e523b8702a>`_"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -9373,8 +9378,8 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid ""
-"Screencast showing how to drag & drop overviews order and reset the\n"
-"order back to default"
+"Screencast showing how to drag & drop overviews order and reset the order "
+"back to default"
 msgstr ""
 "Screencast mostrando como arrastar e soltar a ordem das visões gerais e como "
 "redefinir a\n"
@@ -9384,7 +9389,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Calendário"
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:172
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9396,7 +9401,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: ../extras/user-menu-profile-settings.rst:178
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9408,7 +9413,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Acesso por token"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:182
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9416,7 +9421,7 @@ msgstr ""
 "Gere tokens de acesso pessoal para que aplicações de terceiros usem a API do "
 "Zammad."
 
-#: ../extras/user-menu-profile-settings.rst:187
+#: ../extras/user-menu-profile-settings.rst:186
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9430,7 +9435,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Contas vinculadas"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
