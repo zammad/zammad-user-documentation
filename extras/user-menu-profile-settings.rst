@@ -114,6 +114,17 @@ account.
          Use the first four columns to choose when to receive **internal
          notifications**. The right column enables email notification as well.
 
+      .. note::
+         Notifications you have already read are removed from the list
+         automatically. Ones you marked as read yourself disappear after about
+         ten minutes. Ones Zammad marked as read for you - which happens when
+         someone else changes the state of the ticket the notification belongs
+         to - remain for about eight hours. Independently of this, no
+         notification is kept for longer than nine months.
+
+         The clean-up runs every two hours, so a notification can stay visible
+         somewhat longer than the times given above.
+
    Limit Groups
       .. figure:: /images/extras/user-menu-profile-settings/profile-and-settings-notifications-limit-groups.png
          :align: center
