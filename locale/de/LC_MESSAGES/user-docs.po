@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 08:23+0200\n"
-"PO-Revision-Date: 2026-08-12 05:12+0000\n"
+"POT-Creation-Date: 2026-08-17 14:57+0200\n"
+"PO-Revision-Date: 2026-08-20 05:41+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -4845,7 +4845,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:115
+#: ../extras/user-menu-profile-settings.rst:126
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
@@ -5845,13 +5845,6 @@ msgstr ""
 "effizienter verwalten können."
 
 #: ../extras/ai-features.rst:10
-#, fuzzy
-#| msgid ""
-#| "The AI features have to be configured and activated by your "
-#| "administrator. If you can't see it, it is not configured. More "
-#| "information about how to configure and activate it can be found in "
-#| "the :admin-docs:`AI section </ai/provider.html>` of the admin "
-#| "documentation."
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see these features, they are not configured. More information "
@@ -5859,18 +5852,11 @@ msgid ""
 "section </ai/provider.html>` of the admin documentation."
 msgstr ""
 "Die KI-Funktionen müssen von Ihrem Administrator konfiguriert und aktiviert "
-"werden. Wenn Sie sie nicht sehen können, sind sie nicht konfiguriert. "
+"werden. Wenn Sie diese nicht sehen können, sind sie nicht konfiguriert. "
 "Weitere Informationen zur Konfiguration und Aktivierung finden Sie im :admin-"
-"docs:`KI-Bereich </ai/provider.html>` der Admin-Dokumentation."
+"docs:`KI-Bereich der Admin-Dokumentation </ai/provider.html>`."
 
 #: ../extras/ai-features.rst:15
-#, fuzzy
-#| msgid ""
-#| "Many AI features in Zammad include a feedback mechanism. If you notice "
-#| "issues or are unsatisfied with the results, please use the feedback "
-#| "option to let your Zammad admin know. You can like (thumb up) or dislike "
-#| "(thumb down) the AI generated content. The dislike option allows you to "
-#| "leave an optional comment."
 msgid ""
 "Many AI features in Zammad include a feedback mechanism. If you notice "
 "issues or are unsatisfied with the results, please use the feedback option "
@@ -5990,10 +5976,6 @@ msgstr ""
 "der verfügbaren Werkzeuge auswählen können."
 
 #: ../extras/ai-features.rst:None
-#, fuzzy
-#| msgid ""
-#| "Screenshots shows selected text in editor with opened writing assistant "
-#| "tools menu"
 msgid ""
 "Screenshot shows selected text in editor with opened writing assistant tools "
 "menu"
@@ -6013,13 +5995,6 @@ msgstr ""
 "Administrator welche hinzugefügt hat."
 
 #: ../extras/ai-features.rst:70
-#, fuzzy
-#| msgid ""
-#| "**Expand draft into well-written section**: Uses your draft as a base and "
-#| "tries to elaborate a proper text. It tries to add a structure and to "
-#| "enhance clarity and conciseness and as well as removing misspellings and "
-#| "grammar errors. You can even use it by providing only basic information "
-#| "(e.g. via bullet points) and let the AI write the answer."
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "produces a well-written response. It adds structure and enhances clarity and "
@@ -6027,13 +6002,12 @@ msgid ""
 "even use it by providing only basic information (e.g. via bullet points) and "
 "let the AI write the answer."
 msgstr ""
-"**Entwurf in wohlformulierten Abschnitt wandeln**: Verwendet Ihren Entwurf "
-"als Grundlage und versucht, einen ordentlichen Text auszuarbeiten. Das "
-"Werkzeug versucht, eine Struktur hinzuzufügen, die Klarheit und Prägnanz zu "
-"verbessern und Rechtschreib- sowie Grammatikfehler zu entfernen. Sie können "
-"diese Funktion auch nutzen, indem Sie nur grundlegende Informationen (z.B. "
-"in Form einer Auflistung) bereitstellen und die KI die Antwort schreiben "
-"lassen."
+"**Entwurf in wohlformulierten Abschnitt wandeln**: Nutzt Ihren Entwurf als "
+"Basis und erzeugt eine gut formulierte Antwort. Es fügt Struktur hinzu, "
+"verbessert die Klarheit und Prägnanz und entfernt Rechtschreib- und "
+"Grammatikfehler. Sie können diese Funktion auch nutzen, indem Sie nur "
+"grundlegende Informationen (z.B. in Form einer Auflistung) bereitstellen und "
+"die KI die Antwort schreiben lassen."
 
 #: ../extras/ai-features.rst:75
 msgid ""
@@ -6052,11 +6026,6 @@ msgstr ""
 "zusammen, wobei die Botschaft und der Ton des Textes erhalten bleiben."
 
 #: ../extras/ai-features.rst:79
-#, fuzzy
-#| msgid ""
-#| "**Rewrite complex section and make it easy to understand**: Removes "
-#| "unnecessary parts and rewrites your text in a clear and understandable "
-#| "way."
 msgid ""
 "**Rewrite a complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
@@ -6074,53 +6043,37 @@ msgstr ""
 "in dem Sie den Originaltext und den KI-Vorschlag vergleichen können:"
 
 #: ../extras/ai-features.rst:None
-#, fuzzy
-#| msgid "Screenshots shows AI suggestion dialog"
 msgid "Screenshot shows AI suggestion dialog"
 msgstr "Screenshot zeigt Dialog mit KI-Vorschlag"
 
 #: ../extras/ai-features.rst:89
-#, fuzzy
-#| msgid ""
-#| "Click on the ``Approve`` button to accept the changes and to insert it in "
-#| "the article. After accepting the suggestion, you can still edit the text "
-#| "in the article editor."
 msgid ""
 "Click on the ``Approve`` button to accept the suggestion and insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
-"Klicken Sie auf die Schaltfläche ``Übernehmen``, um die Änderungen zu "
+"Klicken Sie auf die Schaltfläche ``Übernehmen``, um den Vorschlag zu "
 "akzeptieren und in den Artikel einzufügen. Nachdem Sie den Vorschlag "
 "akzeptiert haben, können Sie den Text immer noch im Artikel-Editor "
 "bearbeiten."
 
 #: ../extras/ai-features.rst:94
-#, fuzzy
-#| msgid "Knowledge Base"
 msgid "Knowledge Base Assistant"
-msgstr "Knowledge Base"
+msgstr "Knowledge Base Assistent"
 
 #: ../extras/ai-features.rst:None
 msgid ""
 "Related knowledge section of the ticket sidebar with \"+ AI draft\" button "
 "and AI-suggested answer."
 msgstr ""
+"Abschnitt \"Verwandtes Wissen\" in der Seitenleiste des Tickets mit der "
+"Schaltfläche \"+ KI-Entwurf\" und einer von der KI vorgeschlagenen Antwort."
 
 #: ../extras/ai-features.rst:101
 msgid "Knowledge Base Answer Generation"
 msgstr "Knowledge Base Antworterstellung"
 
 #: ../extras/ai-features.rst:103
-#, fuzzy
-#| msgid ""
-#| "This feature allows you to trigger an AI-based generation of "
-#| "a :doc:`knowledge base <knowledge-base>` answer out of a ticket. This can "
-#| "be useful if you often get similar tickets and want to quickly create a "
-#| "knowledge base article for such cases. Doing so helps you and your "
-#| "colleagues to solve similar tickets more efficiently in the future and "
-#| "might even reduce the ticket volume in the long run when customers can "
-#| "solve their issues by themselves."
 msgid ""
 "This feature allows you to trigger an AI-based generation of "
 "a :doc:`knowledge base <knowledge-base>` answer from a ticket. This is "
@@ -6130,29 +6083,29 @@ msgid ""
 "even reduce incoming ticket volume when customers can resolve their issues "
 "directly from the published knowledge base."
 msgstr ""
-"Mit dieser Funktion können Sie eine KI-basierte Generierung "
-"einer :doc:`Knowledge Base <knowledge-base>` Antwort aus einem Ticket heraus "
-"auslösen. Dies kann nützlich sein, wenn Sie häufig ähnliche Tickets erhalten "
-"und für solche Fälle schnell einen Artikel in der Knowledge Base erstellen "
+"Mit dieser Funktion können Sie aus einem Ticket heraus die KI-gestützte "
+"Erstellung einer Antwort in der :doc:`Knowledge Base <knowledge-base>` "
+"auslösen. Dies ist nützlich, wenn Sie häufig ähnliche Tickets erhalten und "
+"für solche Fälle schnell einen Artikel in der Knowledge Base erstellen "
 "möchten. Auf diese Weise können Sie und Ihre Kollegen ähnliche Tickets in "
-"Zukunft effizienter lösen und langfristig vielleicht sogar das Ticket-"
-"Volumen reduzieren, wenn Kunden ihre Probleme selbst lösen können."
+"Zukunft effizienter bearbeiten. Es könnte sogar dazu beitragen, das Volumen "
+"der eingehenden Tickets zu verringern, wenn Kunden ihre Probleme direkt über "
+"die veröffentlichte Knowledge Base lösen können."
 
 #: ../extras/ai-features.rst:111
 msgid ""
 "This feature is available in the **Related knowledge** section of the ticket "
 "sidebar. Click the ``+ AI draft`` button to trigger the answer generation."
 msgstr ""
+"Diese Funktion ist im Abschnitt **Verwandtes Wissen** in der Ticket-"
+"Seitenleiste verfügbar. Klicken Sie auf die Schaltfläche ``+ KI-Entwurf``, "
+"um die Erstellung einer Antwort auszulösen."
 
 #: ../extras/ai-features.rst:114
 msgid "Things to consider:"
-msgstr ""
+msgstr "Zu beachtende Punkte:"
 
 #: ../extras/ai-features.rst:116
-#, fuzzy
-#| msgid ""
-#| "The knowledge base answer is generated as draft and doesn't get published "
-#| "automatically."
 msgid ""
 "The knowledge base answer is generated as draft and not published "
 "automatically."
@@ -6162,17 +6115,11 @@ msgstr ""
 
 #: ../extras/ai-features.rst:118
 msgid "You are set as the answer's author."
-msgstr ""
+msgstr "Sie sind als Verfasser der Antwort angegeben."
 
 #: ../extras/ai-features.rst:119
-#, fuzzy
-#| msgid ""
-#| "The answer is generated in the configured default language of your "
-#| "knowledge base."
 msgid "The answer is generated in the default language of your knowledge base."
-msgstr ""
-"Die Antwort wird in der konfigurierten Standardsprache Ihrer Knowledge Base "
-"erstellt."
+msgstr "Die Antwort wird in der Standardsprache Ihrer Knowledge Base erstellt."
 
 #: ../extras/ai-features.rst:120
 msgid ""
@@ -6183,30 +6130,20 @@ msgstr ""
 "generated``) über die KI-Generation."
 
 #: ../extras/ai-features.rst:122
-#, fuzzy
-#| msgid ""
-#| "A link to the answer is added to the ticket from which the answer "
-#| "generation was triggered."
 msgid ""
 "A link to the answer is added to the ticket from which you triggered the "
 "answer generation."
 msgstr ""
-"Ein Link zu der Antwort wird dem Ticket hinzugefügt, von dem aus die "
-"Generierung ausgelöst wurde."
+"Dem Ticket, über das Sie die Antwortgenerierung ausgelöst haben, wird ein "
+"Link zur Antwort hinzugefügt."
 
 #: ../extras/ai-features.rst:124
-#, fuzzy
-#| msgid ""
-#| "The AI request includes a list of the knowledge base categories in which "
-#| "the triggering user has editor permissions. The AI then chooses one of "
-#| "these categories."
 msgid ""
 "The answer is created in a knowledge base category for which you have editor "
 "permissions. The AI chooses one of these categories."
 msgstr ""
-"Die KI-Anfrage enthält eine Liste der Knowledge Base-Kategorien, für die der "
-"auslösende Benutzer Bearbeitungsrechte besitzt. Die KI wählt dann eine "
-"dieser Kategorien aus."
+"Die Antwort wird in einer Kategorie der Knowledge Base erstellt, für die Sie "
+"Bearbeitungsrechte besitzen. Die KI wählt eine dieser Kategorien aus."
 
 #: ../extras/ai-features.rst:127
 msgid ""
@@ -6214,12 +6151,14 @@ msgid ""
 "dialog before creating a new one. This gives you the chance to review "
 "existing related answers to prevent duplicate submissions."
 msgstr ""
+"Falls bereits eine ähnliche Antwort in der Knowledge Base vorhanden ist, "
+"zeigt Zammad diese in einem Dialogfeld an, bevor eine neue Antwort erstellt "
+"wird. So haben Sie die Möglichkeit, bereits vorhandene, themenverwandte "
+"Antworten zu prüfen, um doppelte Einträge zu vermeiden."
 
 #: ../extras/ai-features.rst:132
-#, fuzzy
-#| msgid "Knowledge Base Answer Generation"
 msgid "Knowledge Base Answer Suggestion"
-msgstr "Knowledge Base Antworterstellung"
+msgstr "Knowledge Base-Antwortvorschläge"
 
 #: ../extras/ai-features.rst:134
 msgid ""
@@ -6231,26 +6170,29 @@ msgid ""
 "the answer in the knowledge base. Click the ``+`` on the right side to link "
 "it to the ticket."
 msgstr ""
+"Diese Funktion vergleicht den Inhalt des Tickets mit der Knowledge Base und "
+"zeigt unter **Vorgeschlagen von KI** relevante Antworten an, sofern sie den "
+"vom Administrator festgelegten Schwellenwert für die Relevanzbewertung "
+"erreichen. Jeder Vorschlag zeigt den Titel der Antwort an; weitere Details "
+"werden beim Überfahren mit der Maus angezeigt. Eine zusätzliche "
+"Relevanzbewertung wird nur Benutzern mit den entsprechenden "
+"Administratorrechten angezeigt. Klicken Sie auf den Titel, um die Antwort in "
+"der Knowledge Base zu öffnen. Klicken Sie rechts auf die Schaltfläche ``+``, "
+"um sie mit dem Ticket zu verknüpfen."
 
 #: ../extras/ai-features.rst:141
 msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
 msgstr ""
+"Sind keine Vorschläge verfügbar, wird stattdessen die Meldung \"Keine "
+"Vorschläge.\" angezeigt."
 
 #: ../extras/ai-features.rst:147
 msgid "AI Agents"
 msgstr "KI-Agenten"
 
 #: ../extras/ai-features.rst:149
-#, fuzzy
-#| msgid ""
-#| "AI agents can be configured to work on certain types of routine tasks. In "
-#| "general, this feature operates behind the scenes but if configured, you "
-#| "may notice it in some situations (see examples below). In case your admin "
-#| "created a macro with an AI agent action, you can even run it manually. "
-#| "Ask your admin for details and have a look at the :doc:`macro page </"
-#| "advanced/macros>` how to use it."
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes, but if configured, you may "
@@ -6265,8 +6207,8 @@ msgstr ""
 "Situationen bemerken (siehe Beispiele unten). Falls Ihr Administrator ein "
 "Makro mit einer KI-Agent-Aktion erstellt hat, können Sie es auch manuell "
 "ausführen. Erkundigen Sie sich bei Ihrem Administrator nach den Einzelheiten "
-"und sehen Sie sich auf der Seite :doc:`Makro </advanced/macros>` die "
-"Verwendung von Makros an."
+"und sehen Sie sich auf der Seite :doc:`Makro </advanced/macros>` deren "
+"Verwendung an."
 
 #: ../extras/ai-features.rst:164
 msgid "Ticket history"
@@ -6296,12 +6238,6 @@ msgid "Simultaneous work detection"
 msgstr "Erkennung gleichzeitige Ticketbearbeitung"
 
 #: ../extras/ai-features.rst:167
-#, fuzzy
-#| msgid ""
-#| "AI agents which are currently working on a ticket are displayed like "
-#| "other agents in the live user section in the bottom bar. This helps to "
-#| "avoid duplicate work as well as losing unsaved changes. If you see an AI "
-#| "agent avatar, wait for a moment or head over to another ticket."
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -9756,11 +9692,37 @@ msgstr ""
 "Benachrichtigungen** erhalten möchten. Die rechte Spalte ermöglicht auch "
 "eine Benachrichtigung per E-Mail."
 
-#: ../extras/user-menu-profile-settings.rst:134
+#: ../extras/user-menu-profile-settings.rst:118
+msgid ""
+"Notifications you have already read are removed from the list automatically. "
+"Ones you marked as read yourself disappear after about ten minutes. Ones "
+"Zammad marked as read for you - which happens when someone else changes the "
+"state of the ticket the notification belongs to - remain for about eight "
+"hours. Independently of this, no notification is kept for longer than nine "
+"months."
+msgstr ""
+"Benachrichtigungen, die Sie bereits gelesen haben, werden automatisch aus "
+"der Liste entfernt. Diejenigen, die Sie selbst als gelesen markiert haben, "
+"verschwinden nach etwa zehn Minuten. Diejenigen, die Zammad für Sie als "
+"gelesen markiert hat – was geschieht, wenn jemand anderes den Status des "
+"Tickets ändert, zu dem die Benachrichtigung gehört –, bleiben etwa acht "
+"Stunden lang sichtbar. Unabhängig davon wird keine Benachrichtigung länger "
+"als neun Monate aufbewahrt."
+
+#: ../extras/user-menu-profile-settings.rst:125
+msgid ""
+"The clean-up runs every two hours, so a notification can stay visible "
+"somewhat longer than the times given above."
+msgstr ""
+"Die Bereinigung wird alle zwei Stunden durchgeführt, sodass eine "
+"Benachrichtigung etwas länger sichtbar bleiben kann als in den oben "
+"genannten Zeiträumen angegeben."
+
+#: ../extras/user-menu-profile-settings.rst:145
 msgid "Limit Groups"
 msgstr "Einschränkung auf Gruppen"
 
-#: ../extras/user-menu-profile-settings.rst:121
+#: ../extras/user-menu-profile-settings.rst:132
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9775,7 +9737,7 @@ msgstr ""
 "deaktivieren. Sie werden weiterhin Benachrichtigungen für Ihre eigenen "
 "Tickets erhalten."
 
-#: ../extras/user-menu-profile-settings.rst:127
+#: ../extras/user-menu-profile-settings.rst:138
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9784,7 +9746,7 @@ msgstr ""
 "Benachrichtigungen für alle Gruppen deaktivieren, bekommen Sie folgende "
 "Warnung angezeigt."
 
-#: ../extras/user-menu-profile-settings.rst:133
+#: ../extras/user-menu-profile-settings.rst:144
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9792,7 +9754,7 @@ msgstr ""
 "In diesem Fall wird beim Speichern die Funktion **Einschränkung auf "
 "Gruppen** deaktiviert, da keine Einschränkung mehr übrig bleibt."
 
-#: ../extras/user-menu-profile-settings.rst:136
+#: ../extras/user-menu-profile-settings.rst:147
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9807,7 +9769,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Abwesenheit"
 
-#: ../extras/user-menu-profile-settings.rst:143
+#: ../extras/user-menu-profile-settings.rst:154
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9815,7 +9777,7 @@ msgstr ""
 "Planen Sie Abwesenheiten im Voraus und benennen Sie einen Vertreter, der "
 "Ihre Tickets bearbeitet, während Sie nicht anwesend sind."
 
-#: ../extras/user-menu-profile-settings.rst:146
+#: ../extras/user-menu-profile-settings.rst:157
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9826,7 +9788,7 @@ msgstr ""
 "<overviews>`, die dabei hilft, den Überblick über Ihre Tickets zu behalten. "
 "Sie erhalten während Ihrer Abwesenheit weiterhin Benachrichtigungen."
 
-#: ../extras/user-menu-profile-settings.rst:151
+#: ../extras/user-menu-profile-settings.rst:162
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9835,7 +9797,7 @@ msgstr ""
 "bereitgestellt hat? Dieser Bereich erlaubt ihnen eine eigene Sortierung "
 "vorzunehmen."
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:165
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9843,7 +9805,7 @@ msgstr ""
 "Sie können die Standardsortierung jederzeit wiederherstellen, wenn Sie oben "
 "rechts ``Reihenfolge der Übersichten zurücksetzen`` wählen."
 
-#: ../extras/user-menu-profile-settings.rst:159
+#: ../extras/user-menu-profile-settings.rst:170
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9851,7 +9813,7 @@ msgstr ""
 "Diese Einstellung ist standardmäßig nur für Agenten sichtbar. Sie kann von "
 "Ihrem Administrator vollständig deaktiviert werden."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:173
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9875,7 +9837,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Kalender"
 
-#: ../extras/user-menu-profile-settings.rst:172
+#: ../extras/user-menu-profile-settings.rst:183
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9887,7 +9849,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Geräte"
 
-#: ../extras/user-menu-profile-settings.rst:177
+#: ../extras/user-menu-profile-settings.rst:188
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9899,7 +9861,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token-Zugriff"
 
-#: ../extras/user-menu-profile-settings.rst:182
+#: ../extras/user-menu-profile-settings.rst:193
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9907,7 +9869,7 @@ msgstr ""
 "Generieren Sie einen persönlichen Zugangs-Token für jede Anwendung welche "
 "auf die Zammad API zugreifen soll."
 
-#: ../extras/user-menu-profile-settings.rst:186
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9921,7 +9883,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
-#: ../extras/user-menu-profile-settings.rst:192
+#: ../extras/user-menu-profile-settings.rst:203
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
