@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-30 15:51+0200\n"
+"POT-Creation-Date: 2026-08-17 14:57+0200\n"
 "PO-Revision-Date: 2026-08-01 09:10+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
@@ -4738,7 +4738,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:115
+#: ../extras/user-menu-profile-settings.rst:126
 msgid "Notifications"
 msgstr "Notificações"
 
@@ -9274,11 +9274,27 @@ msgstr ""
 "Use as quatro primeiras colunas para escolher quando receber **notificações "
 "internas**. A coluna da direita habilita também a notificação por email."
 
-#: ../extras/user-menu-profile-settings.rst:134
+#: ../extras/user-menu-profile-settings.rst:118
+msgid ""
+"Notifications you have already read are removed from the list automatically. "
+"Ones you marked as read yourself disappear after about ten minutes. Ones "
+"Zammad marked as read for you - which happens when someone else changes the "
+"state of the ticket the notification belongs to - remain for about eight "
+"hours. Independently of this, no notification is kept for longer than nine "
+"months."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:125
+msgid ""
+"The clean-up runs every two hours, so a notification can stay visible "
+"somewhat longer than the times given above."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:145
 msgid "Limit Groups"
 msgstr "Limitar grupos"
 
-#: ../extras/user-menu-profile-settings.rst:121
+#: ../extras/user-menu-profile-settings.rst:132
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9292,7 +9308,7 @@ msgstr ""
 "desabilitar essas notificações por grupo. Você continuará recebendo "
 "notificações dos seus próprios tickets."
 
-#: ../extras/user-menu-profile-settings.rst:127
+#: ../extras/user-menu-profile-settings.rst:138
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9300,7 +9316,7 @@ msgstr ""
 "Se você ativar o recurso **Limitar grupos**, mas desabilitar as notificações "
 "de todos os grupos, poderá receber o seguinte aviso."
 
-#: ../extras/user-menu-profile-settings.rst:133
+#: ../extras/user-menu-profile-settings.rst:144
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9308,7 +9324,7 @@ msgstr ""
 "Nesse caso, salvar suas configurações desligará implicitamente o recurso "
 "**Limitar grupos**, já que nenhum limite continuará em vigor."
 
-#: ../extras/user-menu-profile-settings.rst:136
+#: ../extras/user-menu-profile-settings.rst:147
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9323,7 +9339,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Fora do escritório"
 
-#: ../extras/user-menu-profile-settings.rst:143
+#: ../extras/user-menu-profile-settings.rst:154
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9331,7 +9347,7 @@ msgstr ""
 "Agende períodos de ausência com antecedência e designe um substituto para "
 "cuidar dos seus tickets enquanto você estiver fora."
 
-#: ../extras/user-menu-profile-settings.rst:146
+#: ../extras/user-menu-profile-settings.rst:157
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9342,7 +9358,7 @@ msgstr ""
 "ajudar a acompanhar seus tickets. Você continuará recebendo notificações "
 "enquanto estiver ausente."
 
-#: ../extras/user-menu-profile-settings.rst:151
+#: ../extras/user-menu-profile-settings.rst:162
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9350,7 +9366,7 @@ msgstr ""
 "Cansado da ordem de visões gerais que seu administrador definiu? Esta seção "
 "permite escolher a ordem que melhor se encaixa para você."
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:165
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9358,7 +9374,7 @@ msgstr ""
 "Você pode voltar à ordenação padrão da instância a qualquer momento usando o "
 "botão superior direito ``Reset overview order``."
 
-#: ../extras/user-menu-profile-settings.rst:159
+#: ../extras/user-menu-profile-settings.rst:170
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9366,7 +9382,7 @@ msgstr ""
 "Por padrão, essa opção é visível apenas para agentes. Ela pode ser "
 "completamente desativada pelo administrador."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:173
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9389,7 +9405,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Calendário"
 
-#: ../extras/user-menu-profile-settings.rst:172
+#: ../extras/user-menu-profile-settings.rst:183
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9401,7 +9417,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: ../extras/user-menu-profile-settings.rst:177
+#: ../extras/user-menu-profile-settings.rst:188
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9413,7 +9429,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Acesso por token"
 
-#: ../extras/user-menu-profile-settings.rst:182
+#: ../extras/user-menu-profile-settings.rst:193
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9421,7 +9437,7 @@ msgstr ""
 "Gere tokens de acesso pessoal para que aplicações de terceiros usem a API do "
 "Zammad."
 
-#: ../extras/user-menu-profile-settings.rst:186
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9435,7 +9451,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Contas vinculadas"
 
-#: ../extras/user-menu-profile-settings.rst:192
+#: ../extras/user-menu-profile-settings.rst:203
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
