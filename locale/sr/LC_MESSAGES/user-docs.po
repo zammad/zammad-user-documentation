@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-30 15:51+0200\n"
-"PO-Revision-Date: 2026-08-08 07:12+0000\n"
+"POT-Creation-Date: 2026-08-17 14:57+0200\n"
+"PO-Revision-Date: 2026-08-14 11:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -390,7 +390,7 @@ msgid ""
 "It automatically appears when you select text in the editor."
 msgstr ""
 "Најважније опције форматирања текста су такође доступне преко менија у "
-"облачићу. Биће аутоматски приказан приликом селекције текста у уреднику."
+"облачићу. Биће аутоматски приказан приликом селекције текста у уређивачу."
 
 #: ../advanced/keyboard-shortcuts.rst:0 ../snippets/editor-features.rst:0
 msgid "Screenshot shows editor bubble menu to format text."
@@ -1300,7 +1300,7 @@ msgstr ""
 "Или, претпоставимо да не желите да преусмерите тикет на корисничку подршку, "
 "већ имате само једно брзо питање за њих, а затим можете сами да наставите. "
 "Да бисте некоме другом почели да шаљете обавештења за свој тикет, у "
-"текстуалном едитору поруке унесите :kbd:`@@` и изаберите њихово име из "
+"текстуалном уређивачу поруке унесите :kbd:`@@` и изаберите њихово име из "
 "падајућег менија. Ово ће их аутоматски претплатити на ваш тикет."
 
 #: ../advanced/suggested-workflows.rst:73
@@ -1697,8 +1697,8 @@ msgid ""
 "Screenshot shows text module selection menu in editor after typing \"::\" "
 "followed by \"tf\"."
 msgstr ""
-"Снимак екрана приказује мени текстуалног исечка у текстуалном едитору након "
-"уноса „::” а затим „tf”."
+"Снимак екрана приказује мени текстуалног исечка у текстуалном уређивачу "
+"након уноса „::” а затим „tf”."
 
 #: ../advanced/text-modules.rst:15
 msgid ""
@@ -2359,7 +2359,7 @@ msgstr ""
 
 #: ../snippets/editor-features.rst:1
 msgid "The article editor is a rich text editor. This means you can:"
-msgstr "Уредник чланка подржава богати текст. Ово значи да можете:"
+msgstr "Уређивач чланка подржава богати текст. Ово значи да можете:"
 
 #: ../snippets/editor-features.rst:3
 msgid ""
@@ -3105,8 +3105,8 @@ msgid ""
 "Screenshot shows article editor with highlighted lock button to change "
 "visibility of article."
 msgstr ""
-"Снимак екрана који приказује уредник са назначеним дугметом за закључавање "
-"за промену видљивости чланка."
+"Снимак екрана који приказује уређивач чланка са назначеним дугметом за "
+"закључавање за промену видљивости чланка."
 
 #: ../basics/work-with-tickets.rst:60
 msgid ""
@@ -3235,7 +3235,7 @@ msgid ""
 "This adds the marked text with a timestamp in your article editor where you "
 "can answer it. Example:"
 msgstr ""
-"Ово ће укључити обележени текст за временском ознаком у уреднику вашег "
+"Ово ће укључити обележени текст за временском ознаком у уређивачу вашег "
 "чланка где можете одговорити на исти. Пример:"
 
 #: ../basics/work-with-tickets.rst:132
@@ -3248,9 +3248,9 @@ msgid ""
 msgstr ""
 "Цитирање можете користити чак и више пута ради уноса цитата различитих "
 "делова текста. Само обележите још неки део текста, кликните на исту акцију "
-"одговора као и претходни пут и цитат ће бити додат у ваш уредник текста. "
+"одговора као и претходни пут и цитат ће бити додат у ваш уређивач текста. "
 "Можете одвојити цитате коришћењем :kbd:`enter` или :kbd:`shift` "
-"+ :kbd:`enter` у уреднику текста."
+"+ :kbd:`enter` у уређивачу текста."
 
 #: ../basics/work-with-tickets.rst:141
 msgid "Rename a Ticket"
@@ -3479,7 +3479,7 @@ msgid ""
 "to customers. It is just about highlighting important parts for other agents."
 msgstr ""
 "Користите алатку за означавање у горњем десном углу да бисте означили важан "
-"текст. Ова функција нема везе са обележавањем у уреднику текста пре слања "
+"текст. Ова функција нема везе са обележавањем у уређивачу текста пре слања "
 "клијентима. Ради се искључиво о означавање важних делова другим оператерима."
 
 #: ../basics/work-with-tickets.rst:259
@@ -4685,7 +4685,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:115
+#: ../extras/user-menu-profile-settings.rst:126
 msgid "Notifications"
 msgstr "Обавештења"
 
@@ -6074,8 +6074,8 @@ msgstr ""
 #: ../extras/caller-log.rst:0
 msgid "Screenshot showing a caller log entry that's classified with \"maybe:\""
 msgstr ""
-"Снимак екрана који приказује унос у дневнику позива који је класификован са „"
-"можда:”"
+"Снимак екрана који приказује унос у дневнику позива који је класификован са "
+"„можда:”"
 
 #: ../extras/caller-log.rst:64
 msgid ""
@@ -7853,7 +7853,7 @@ msgid ""
 "them yet."
 msgstr ""
 "Обе фунцкије су опционе. Уколико не видите дугмиће ``Шифровање`` и "
-"``Потписивање`` изнад уредника имејл чланка, то значи да их ваш "
+"``Потписивање`` изнад уређивача имејл чланка, то значи да их ваш "
 "администратор још није укључио."
 
 #: ../extras/secure-email.rst:18
@@ -7907,7 +7907,7 @@ msgid ""
 "Screenshot shows editor for outgoing email with disabled encryption and "
 "enabled signing."
 msgstr ""
-"Снима екрана који приказује уредник одлазних имејл порука са искљученим "
+"Снима екрана који приказује уређивач одлазних имејл порука са искљученим "
 "шифровањем и укљученим потписивањем."
 
 #: ../extras/secure-email.rst:41
@@ -9198,11 +9198,27 @@ msgstr ""
 "Користите прве четири колоне да бисте изабрали када ћете примати **интерна "
 "обавештења**. Десна колона такође омогућава обавештења путем имејла."
 
-#: ../extras/user-menu-profile-settings.rst:134
+#: ../extras/user-menu-profile-settings.rst:118
+msgid ""
+"Notifications you have already read are removed from the list automatically. "
+"Ones you marked as read yourself disappear after about ten minutes. Ones "
+"Zammad marked as read for you - which happens when someone else changes the "
+"state of the ticket the notification belongs to - remain for about eight "
+"hours. Independently of this, no notification is kept for longer than nine "
+"months."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:125
+msgid ""
+"The clean-up runs every two hours, so a notification can stay visible "
+"somewhat longer than the times given above."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:145
 msgid "Limit Groups"
 msgstr "Ограничавање група"
 
-#: ../extras/user-menu-profile-settings.rst:121
+#: ../extras/user-menu-profile-settings.rst:132
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9215,7 +9231,7 @@ msgstr ""
 "дугме **Ограничи групе** и подешавања испод њега да бисте искључили ова "
 "обавештења по групама. Наставићете да примате обавештења за сопствене тикете."
 
-#: ../extras/user-menu-profile-settings.rst:127
+#: ../extras/user-menu-profile-settings.rst:138
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9223,7 +9239,7 @@ msgstr ""
 "Ако укључите функцију **Ограничи групе**, али онемогућите обавештења из свих "
 "група, могуће је да ћете добити следеће упозорење."
 
-#: ../extras/user-menu-profile-settings.rst:133
+#: ../extras/user-menu-profile-settings.rst:144
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9231,7 +9247,7 @@ msgstr ""
 "У овом случају, чување ваших подешавања ће имплицитно искључити функцију "
 "**Ограничи групе**, пошто ограничења неће остати на снази."
 
-#: ../extras/user-menu-profile-settings.rst:136
+#: ../extras/user-menu-profile-settings.rst:147
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9245,7 +9261,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Ван канцеларије"
 
-#: ../extras/user-menu-profile-settings.rst:143
+#: ../extras/user-menu-profile-settings.rst:154
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9253,7 +9269,7 @@ msgstr ""
 "Закажите периоде одсуства унапред и одредите замену за ваше тикете док вас "
 "нема."
 
-#: ../extras/user-menu-profile-settings.rst:146
+#: ../extras/user-menu-profile-settings.rst:157
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9263,7 +9279,7 @@ msgstr ""
 "прилагођени :ref:`преглед <overviews>` који ће им помоћи да прате ваше "
 "тикете. Ви ћете примати обавештења чак и док сте одсутни."
 
-#: ../extras/user-menu-profile-settings.rst:151
+#: ../extras/user-menu-profile-settings.rst:162
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9272,7 +9288,7 @@ msgstr ""
 "одељак вам омогућава да изаберете редослед прегледа који вам највише "
 "одговара."
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:165
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9280,7 +9296,7 @@ msgstr ""
 "Можете да се вратите на подразумевани редослед у било ком тренутку "
 "коришћењем дугмета горе десно ``Поништи редослед прегледа``."
 
-#: ../extras/user-menu-profile-settings.rst:159
+#: ../extras/user-menu-profile-settings.rst:170
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9288,7 +9304,7 @@ msgstr ""
 "Ово подешавање је подразумевано видљиво само оператерима. Администратори "
 "такође могу у потпуности да га искључе."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:173
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9310,7 +9326,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Календар"
 
-#: ../extras/user-menu-profile-settings.rst:172
+#: ../extras/user-menu-profile-settings.rst:183
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9322,7 +9338,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Уређаји"
 
-#: ../extras/user-menu-profile-settings.rst:177
+#: ../extras/user-menu-profile-settings.rst:188
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9334,7 +9350,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Приступ путем кључа"
 
-#: ../extras/user-menu-profile-settings.rst:182
+#: ../extras/user-menu-profile-settings.rst:193
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API."
@@ -9342,7 +9358,7 @@ msgstr ""
 "Генеришите личне кључеве приступа за апликације трећег лица да бисте "
 "користили Zammad API."
 
-#: ../extras/user-menu-profile-settings.rst:186
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9356,7 +9372,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Повезани налози"
 
-#: ../extras/user-menu-profile-settings.rst:192
+#: ../extras/user-menu-profile-settings.rst:203
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
