@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 08:23+0200\n"
+"POT-Creation-Date: 2026-08-17 14:57+0200\n"
 "PO-Revision-Date: 2026-06-17 10:17+0000\n"
 "Last-Translator: Suat VARLIKLI <suatvarlikli89@gmail.com>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
@@ -4096,7 +4096,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:115
+#: ../extras/user-menu-profile-settings.rst:126
 msgid "Notifications"
 msgstr "Bildirimler"
 
@@ -8289,12 +8289,28 @@ msgstr ""
 "**Dahili bildirimleri** (aşağıda) ne zaman alacağınızı seçmek için ilk üç "
 "sütunu kullanın. En sağdaki sütun e-posta bildirimini de etkinleştirir."
 
-#: ../extras/user-menu-profile-settings.rst:134
+#: ../extras/user-menu-profile-settings.rst:118
+msgid ""
+"Notifications you have already read are removed from the list automatically. "
+"Ones you marked as read yourself disappear after about ten minutes. Ones "
+"Zammad marked as read for you - which happens when someone else changes the "
+"state of the ticket the notification belongs to - remain for about eight "
+"hours. Independently of this, no notification is kept for longer than nine "
+"months."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:125
+msgid ""
+"The clean-up runs every two hours, so a notification can stay visible "
+"somewhat longer than the times given above."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:145
 #, fuzzy
 msgid "Limit Groups"
 msgstr "Grup"
 
-#: ../extras/user-menu-profile-settings.rst:121
+#: ../extras/user-menu-profile-settings.rst:132
 #, fuzzy
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
@@ -8309,19 +8325,19 @@ msgstr ""
 "kutusunu kullanın. (Kendi biletleriniz için bildirim almaya devam "
 "edeceksiniz.)"
 
-#: ../extras/user-menu-profile-settings.rst:127
+#: ../extras/user-menu-profile-settings.rst:138
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:133
+#: ../extras/user-menu-profile-settings.rst:144
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:136
+#: ../extras/user-menu-profile-settings.rst:147
 #, fuzzy
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
@@ -8335,7 +8351,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Ofis Dışında"
 
-#: ../extras/user-menu-profile-settings.rst:143
+#: ../extras/user-menu-profile-settings.rst:154
 #, fuzzy
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
@@ -8344,7 +8360,7 @@ msgstr ""
 "Ofis dışı dönemleri önceden planlayın ve siz yokken biletlerinizi halletmek "
 "için bir yedek atayın."
 
-#: ../extras/user-menu-profile-settings.rst:146
+#: ../extras/user-menu-profile-settings.rst:157
 #, fuzzy
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
@@ -8355,25 +8371,25 @@ msgstr ""
 "biletlerinizi takip etmenize yardımcı olmak için özel bir :doc:`genel bakış "
 "</basics/find-ticket/browse>` oluşturacaktır."
 
-#: ../extras/user-menu-profile-settings.rst:151
+#: ../extras/user-menu-profile-settings.rst:162
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:165
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:159
+#: ../extras/user-menu-profile-settings.rst:170
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:173
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -8390,7 +8406,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Takvim"
 
-#: ../extras/user-menu-profile-settings.rst:172
+#: ../extras/user-menu-profile-settings.rst:183
 #, fuzzy
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
@@ -8403,7 +8419,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Cihazlar"
 
-#: ../extras/user-menu-profile-settings.rst:177
+#: ../extras/user-menu-profile-settings.rst:188
 #, fuzzy
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
@@ -8416,7 +8432,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Jeton Erişimi"
 
-#: ../extras/user-menu-profile-settings.rst:182
+#: ../extras/user-menu-profile-settings.rst:193
 #, fuzzy
 msgid ""
 "Generate personal access tokens for third party applications to use the "
@@ -8425,7 +8441,7 @@ msgstr ""
 "Üçüncü taraf uygulamaların Zammad API'sini kullanması için kişisel erişim "
 "jetonları oluşturun."
 
-#: ../extras/user-menu-profile-settings.rst:186
+#: ../extras/user-menu-profile-settings.rst:197
 #, fuzzy
 #| msgid ""
 #| "Always generate a new token for each application you connect to Zammad! "
@@ -8444,7 +8460,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Bağlı Hesaplar"
 
-#: ../extras/user-menu-profile-settings.rst:192
+#: ../extras/user-menu-profile-settings.rst:203
 #, fuzzy
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
