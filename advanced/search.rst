@@ -107,7 +107,7 @@ Article Attributes
   .. hint::
 
      - If a search for a file type doesn't work, you have to provide the
-       `MIME type <https://docs.w3cub.com/http/basics_of_http/mime_types/complete_list_of_mime_types.html>`_.
+       `MIME type <https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types>`_.
      - Make sure to escape the ``/`` with a prefixed ``\``.
      - Examples:
 
