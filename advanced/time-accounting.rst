@@ -45,6 +45,8 @@ Accounted Time in Ticket
 If a ticket already has accounted time(s), you can see it in the ticket sidebar
 at the bottom. You can find the calculated sums of each activity type as well
 as the total sum of accounted times for all activity types.
+Additionally, the accounted time is shown in the article meta information, if
+present.
 
 .. figure:: /images/advanced/time-accounting/ticket-pane-accounted-time.png
    :alt: Screenshot showing accounted times in ticket sidebar
