@@ -94,7 +94,7 @@ Knowledge Base Assistant
 ------------------------
 
 .. figure:: /images/extras/ai/related-knowledge-ticket-sidebar.png
-   :alt: Related knowledge section of the ticket sidebar with "+ AI draft" button and AI-suggested answer.
+   :alt: Related knowledge section of the ticket sidebar with the + AI draft button and a suggested knowledge base answer.
    :align: center
 
 Knowledge Base Answer Generation
@@ -132,7 +132,7 @@ Knowledge Base Answer Suggestion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This feature compares the ticket content against the knowledge base and shows
-relevant answers under **Suggested by AI** if they meet the admin-configured
+relevant answers under **Suggested knowledge** if they meet the admin-configured
 score threshold. Each suggestion shows the title of the answer and more details
 on hover. An additional relevance score is only shown to users with the
 corresponding admin permissions. Click on the title to open the answer in the
