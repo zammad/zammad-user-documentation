@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 15:55+0200\n"
+"POT-Creation-Date: 2026-08-28 15:08+0200\n"
 "PO-Revision-Date: 2026-08-13 07:12+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
@@ -2264,21 +2264,28 @@ msgid "Accounted Time in Ticket"
 msgstr "Elszámolt idő a jegyben"
 
 #: ../advanced/time-accounting.rst:45
+#, fuzzy
+#| msgid ""
+#| "If a ticket already has accounted time(s), you can see it in the ticket "
+#| "sidebar at the bottom. You can find the calculated sums of each activity "
+#| "type as well as the total sum of accounted times for all activity types."
 msgid ""
 "If a ticket already has accounted time(s), you can see it in the ticket "
 "sidebar at the bottom. You can find the calculated sums of each activity "
-"type as well as the total sum of accounted times for all activity types."
+"type as well as the total sum of accounted times for all activity types. "
+"Additionally, the accounted time is shown in the article meta information, "
+"if present."
 msgstr ""
 "Ha egy jegy már rendelkezik elszámolt időkkel, akkor azt a jegy "
 "oldalsávjának alján láthatja. Megtalálhatja az egyes tevékenységtípusokra "
 "vonatkozó összegeket, valamint az összes tevékenységtípusra vonatkozó "
 "elszámolt idők összegét is."
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr "A képernyőkép az elszámolt időket jeleníti meg a jegy oldalsávjában"
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 msgid "Accounted times in the ticket view"
 msgstr "Elszámolt idők a jegynézetben"
 
@@ -6071,9 +6078,13 @@ msgid "Knowledge Base Assistant"
 msgstr "Tudásbázissegéd"
 
 #: ../extras/ai-features.rst:None
+#, fuzzy
+#| msgid ""
+#| "Related knowledge section of the ticket sidebar with \"+ AI draft\" "
+#| "button and AI-suggested answer."
 msgid ""
-"Related knowledge section of the ticket sidebar with \"+ AI draft\" button "
-"and AI-suggested answer."
+"Related knowledge section of the ticket sidebar with the + AI draft button "
+"and a suggested knowledge base answer."
 msgstr ""
 "A jegy oldalsávjának kapcsolódó tudás szakasza „+ MI-piszkozat” gombbal és "
 "mesterséges intelligencia által javasolt válasszal."
@@ -6171,9 +6182,18 @@ msgid "Knowledge Base Answer Suggestion"
 msgstr "Tudásbázisválasz-javaslat"
 
 #: ../extras/ai-features.rst:134
+#, fuzzy
+#| msgid ""
+#| "This feature compares the ticket content against the knowledge base and "
+#| "shows relevant answers under **Suggested by AI** if they meet the admin-"
+#| "configured score threshold. Each suggestion shows the title of the answer "
+#| "and more details on hover. An additional relevance score is only shown to "
+#| "users with the corresponding admin permissions. Click on the title to "
+#| "open the answer in the knowledge base. Click the ``+`` on the right side "
+#| "to link it to the ticket."
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested by AI** if they meet the admin-"
+"shows relevant answers under **Suggested knowledge** if they meet the admin-"
 "configured score threshold. Each suggestion shows the title of the answer "
 "and more details on hover. An additional relevance score is only shown to "
 "users with the corresponding admin permissions. Click on the title to open "

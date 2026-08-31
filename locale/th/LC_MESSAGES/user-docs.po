@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 15:55+0200\n"
+"POT-Creation-Date: 2026-08-28 15:08+0200\n"
 "PO-Revision-Date: 2026-06-17 10:18+0000\n"
 "Last-Translator: Sumonchai Wongphithak <sumonchai@gmail.com>\n"
 "Language-Team: Thai <https://translations.zammad.org/projects/documentations/"
@@ -1902,15 +1902,17 @@ msgstr ""
 msgid ""
 "If a ticket already has accounted time(s), you can see it in the ticket "
 "sidebar at the bottom. You can find the calculated sums of each activity "
-"type as well as the total sum of accounted times for all activity types."
+"type as well as the total sum of accounted times for all activity types. "
+"Additionally, the accounted time is shown in the article meta information, "
+"if present."
 msgstr ""
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 #, fuzzy
 msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr "สร้างใบแจ้งซ่อม"
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 msgid "Accounted times in the ticket view"
 msgstr ""
 
@@ -4741,8 +4743,8 @@ msgstr "ฐานความรู้"
 
 #: ../extras/ai-features.rst:None
 msgid ""
-"Related knowledge section of the ticket sidebar with \"+ AI draft\" button "
-"and AI-suggested answer."
+"Related knowledge section of the ticket sidebar with the + AI draft button "
+"and a suggested knowledge base answer."
 msgstr ""
 
 #: ../extras/ai-features.rst:101
@@ -4818,7 +4820,7 @@ msgstr "ฐานความรู้"
 #: ../extras/ai-features.rst:134
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested by AI** if they meet the admin-"
+"shows relevant answers under **Suggested knowledge** if they meet the admin-"
 "configured score threshold. Each suggestion shows the title of the answer "
 "and more details on hover. An additional relevance score is only shown to "
 "users with the corresponding admin permissions. Click on the title to open "
