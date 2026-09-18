@@ -25,6 +25,11 @@ Field collisions
    in a field that would be filled by the template, Zammad will not overwrite
    the data present.
 
+   Templates can be applied as often as you like, but Zammad protects all
+   fields that already contain values, no matter how they were filled.
+   Empty fields are filled from the template. To apply a template value to
+   a filled field, clear the field first and apply the template again.
+
 Can't add or adjust templates?
    Managing templates requires additional permissions.
    Please ask your administrator to provide you with the needed permission or
