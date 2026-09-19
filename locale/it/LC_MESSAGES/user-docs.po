@@ -2120,7 +2120,7 @@ msgstr ""
 "`Applica``. I campi del ticket configurati verranno popolati con i dati del "
 "modello."
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Collisioni di campi"
 
@@ -2134,11 +2134,19 @@ msgstr ""
 "compilato un campo che verrebbe popolato dal template, Zammad non "
 "sovrascriverà i dati presenti."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Non riesci ad aggiungere o modificare template?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission or to create or "
@@ -2148,7 +2156,7 @@ msgstr ""
 "amministratore di fornirti le autorizzazioni necessarie oppure di creare o "
 "modificare un modello per te."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
 "admin docs </manage/templates.html>`."
