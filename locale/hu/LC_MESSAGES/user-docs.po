@@ -2137,7 +2137,7 @@ msgstr ""
 "egy megfelelő sablont, majd kattintson az ``Alkalmaz`` gombra. A beállított "
 "jegymezők kitöltésre kerülnek a sablonból származó adatokkal."
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Mezőütközések"
 
@@ -2151,11 +2151,19 @@ msgstr ""
 "adatokat egy olyan mezőben, amelyet a sablon is kitöltene, akkor a Zammad "
 "nem fogja felülírni a meglévő adatokat."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Nem tud sablonokat hozzáadni vagy módosítani?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission or to create or "
@@ -2165,7 +2173,7 @@ msgstr ""
 "adminisztrátort, hogy adja meg Önnek a szükséges jogosultságot, illetve "
 "hozzon létre vagy módosítson egy sablont Önnek."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
 "admin docs </manage/templates.html>`."
