@@ -114,6 +114,7 @@ on the go:
 - Modify ticket attributes
 - Modify customer attributes
 - Modify organization attributes
+- Track time on ticket articles
 
 Mobile view also has some exclusive features:
 
@@ -128,7 +129,6 @@ Limitations
 Mobile view is also currently missing some features which are provided by the
 desktop view:
 
-- Ticket Article Time Accounting
 - Ticket Article **Split** Action
 - Linked Tickets & Ticket **Link** Action
 - Ticket Macros
