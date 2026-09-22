@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-09-18 06:48+0000\n"
+"PO-Revision-Date: 2026-09-22 07:56+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -2076,7 +2076,7 @@ msgstr ""
 "одговарајући шаблон и кликните на ``Примени``. Након тога подешена поља "
 "тикета биће попуњена подацима из шаблона."
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Конфликти поља"
 
@@ -2090,11 +2090,23 @@ msgstr ""
 "податке у поље које би иначе било попуњено шаблоном, Zammad неће преиначити "
 "постојеће податке."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+"Шаблоне можете примењивати онолико пута колико желите, али Zammad штити сва "
+"поља која већ садрже вредности, без обзира на то како су попуњена. Празна "
+"поља се попуњавају из шаблона. Да бисте применили вредност шаблона на "
+"попуњено поље, претходно га обришите и поново примените шаблон."
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Не можете да додате или подесите шаблоне?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission or to create or "
@@ -2103,7 +2115,7 @@ msgstr ""
 "Управљање шаблонима захтева додатне дозволе. Замолите свог администратора да "
 "вам пружи потребну дозволу или да дода или подеси шаблон за вас."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
 "admin docs </manage/templates.html>`."
@@ -7677,41 +7689,43 @@ msgstr "Измените атрибуте клијента"
 msgid "Modify organization attributes"
 msgstr "Измените атрибуте организације"
 
-#: ../extras/mobile-view.rst:118
+#: ../extras/mobile-view.rst:117
+#, fuzzy
+#| msgid "Create a new note article"
+msgid "Track time on ticket articles"
+msgstr "Отвори нови тикет са напоменом"
+
+#: ../extras/mobile-view.rst:119
 msgid "Mobile view also has some exclusive features:"
 msgstr "Мобилни приказ такође има неке ексклузивне функције:"
 
-#: ../extras/mobile-view.rst:120
+#: ../extras/mobile-view.rst:121
 msgid "Innovative Zammad UX"
 msgstr "Иновативни Zammad кориснички доживљај"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:122
 msgid "Next-level accessibility"
 msgstr "Приступачност на вишем нивоу"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:123
 msgid "Ready for multi-device usage"
 msgstr "Спреман за употребу на више уређаја"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:124
 msgid "Progressive web app (PWA) support"
 msgstr "Подршка за прогресивне веб апликације (PWA)"
 
-#: ../extras/mobile-view.rst:126
+#: ../extras/mobile-view.rst:127
 msgid "Limitations"
 msgstr "Ограничења"
 
-#: ../extras/mobile-view.rst:128
+#: ../extras/mobile-view.rst:129
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
 msgstr ""
 "Мобилном приказу такође тренутно недостају неке функције које пружа основни "
 "приказ:"
-
-#: ../extras/mobile-view.rst:131
-msgid "Ticket Article Time Accounting"
-msgstr "Обрачун времена за чланке тикета"
 
 #: ../extras/mobile-view.rst:132
 msgid "Ticket Article **Split** Action"
@@ -9573,6 +9587,9 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid "Ticket Article Time Accounting"
+#~ msgstr "Обрачун времена за чланке тикета"
 
 #~ msgid "Linked Tickets"
 #~ msgstr "Повезани тикети"

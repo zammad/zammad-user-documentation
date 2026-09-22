@@ -2075,7 +2075,7 @@ msgid ""
 "populated with the data from the template."
 msgstr ""
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Конфликты полей"
 
@@ -2090,11 +2090,19 @@ msgstr ""
 "означает: если Вы ранее ввели данные в поле, которое должно быть заполнено "
 "шаблоном, Zammad *не перезапишет* это поле данными шаблона."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Не можете добавить или настроить шаблоны?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 #, fuzzy
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
@@ -2104,7 +2112,7 @@ msgstr ""
 "Для управления шаблонами требуются дополнительные разрешения. Обратитесь к "
 "своему администратору, чтобы он предоставил Вам необходимые разрешения."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 #, fuzzy
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
@@ -6659,38 +6667,40 @@ msgstr ""
 msgid "Modify organization attributes"
 msgstr ""
 
-#: ../extras/mobile-view.rst:118
+#: ../extras/mobile-view.rst:117
+#, fuzzy
+#| msgid "Create a new note article"
+msgid "Track time on ticket articles"
+msgstr "Создайте новую статью в заявке"
+
+#: ../extras/mobile-view.rst:119
 msgid "Mobile view also has some exclusive features:"
 msgstr ""
 
-#: ../extras/mobile-view.rst:120
+#: ../extras/mobile-view.rst:121
 msgid "Innovative Zammad UX"
 msgstr ""
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:122
 msgid "Next-level accessibility"
 msgstr ""
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:123
 msgid "Ready for multi-device usage"
 msgstr ""
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:124
 msgid "Progressive web app (PWA) support"
 msgstr ""
 
-#: ../extras/mobile-view.rst:126
+#: ../extras/mobile-view.rst:127
 msgid "Limitations"
 msgstr ""
 
-#: ../extras/mobile-view.rst:128
+#: ../extras/mobile-view.rst:129
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
-msgstr ""
-
-#: ../extras/mobile-view.rst:131
-msgid "Ticket Article Time Accounting"
 msgstr ""
 
 #: ../extras/mobile-view.rst:132
