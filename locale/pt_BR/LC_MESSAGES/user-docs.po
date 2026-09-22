@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-09-18 06:45+0000\n"
+"PO-Revision-Date: 2026-09-20 07:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -2101,7 +2101,7 @@ msgstr ""
 "clique em ``Apply``. Os campos configurados do ticket serão preenchidos com "
 "os dados do modelo."
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Colisões de campos"
 
@@ -2114,11 +2114,24 @@ msgstr ""
 "O Zammad detecta colisões de campos. Ou seja: se você já preencheu um campo "
 "que seria preenchido pelo modelo, o Zammad não sobrescreverá o dado presente."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+"Os modelos podem ser aplicados quantas vezes você quiser, mas o Zammad "
+"protege todos os campos que já contêm valores, não importa como foram "
+"preenchidos. Campos vazios são preenchidos a partir do modelo. Para aplicar "
+"o valor de um modelo a um campo já preenchido, limpe o campo primeiro e "
+"aplique o modelo novamente."
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Não consegue adicionar ou ajustar modelos?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission or to create or "
@@ -2127,7 +2140,7 @@ msgstr ""
 "Gerenciar modelos exige permissões adicionais. Peça ao administrador a "
 "permissão necessária, ou que ele crie ou ajuste um modelo para você."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
 "admin docs </manage/templates.html>`."
@@ -7760,41 +7773,43 @@ msgstr "Modificar atributos do cliente"
 msgid "Modify organization attributes"
 msgstr "Modificar atributos da organização"
 
-#: ../extras/mobile-view.rst:118
+#: ../extras/mobile-view.rst:117
+#, fuzzy
+#| msgid "Create a new note article"
+msgid "Track time on ticket articles"
+msgstr "Criar um novo artigo de nota"
+
+#: ../extras/mobile-view.rst:119
 msgid "Mobile view also has some exclusive features:"
 msgstr "A visualização móvel também tem alguns recursos exclusivos:"
 
-#: ../extras/mobile-view.rst:120
+#: ../extras/mobile-view.rst:121
 msgid "Innovative Zammad UX"
 msgstr "UX inovadora do Zammad"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:122
 msgid "Next-level accessibility"
 msgstr "Acessibilidade de outro nível"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:123
 msgid "Ready for multi-device usage"
 msgstr "Pronto para uso em múltiplos dispositivos"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:124
 msgid "Progressive web app (PWA) support"
 msgstr "Suporte a progressive web app (PWA)"
 
-#: ../extras/mobile-view.rst:126
+#: ../extras/mobile-view.rst:127
 msgid "Limitations"
 msgstr "Limitações"
 
-#: ../extras/mobile-view.rst:128
+#: ../extras/mobile-view.rst:129
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
 msgstr ""
 "A visualização móvel também ainda não tem alguns recursos oferecidos pela "
 "visualização desktop:"
-
-#: ../extras/mobile-view.rst:131
-msgid "Ticket Article Time Accounting"
-msgstr "Contabilização de tempo por artigo do ticket"
 
 #: ../extras/mobile-view.rst:132
 msgid "Ticket Article **Split** Action"
@@ -9661,6 +9676,9 @@ msgstr ""
 "Você está lendo a documentação do usuário do Zammad. Também estão "
 "disponíveis os manuais de :docs:`sistema </index.html>` e de :admin-"
 "docs:`administração </index.html>`."
+
+#~ msgid "Ticket Article Time Accounting"
+#~ msgstr "Contabilização de tempo por artigo do ticket"
 
 #, fuzzy
 #~| msgid "Linking Tickets"
