@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-09-18 06:46+0000\n"
+"PO-Revision-Date: 2026-09-23 06:45+0000\n"
 "Last-Translator: Silke Jänichen <silke.jaenichen@posteo.de>\n"
 "Language-Team: Turkish <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/tr/>\n"
@@ -775,8 +775,7 @@ msgstr "örnek başlık"
 
 #: ../advanced/search.rst:1
 msgid "title:\"some title\" |br|\\ title:Printer |br|\\ title: \"some ti*\""
-msgstr ""
-"title:\"örnek başlık\" |br|\\ title:Printer |br|\\ title: \"örnek ba*\""
+msgstr "title:\"örnek başlık\" |br|\\ title:Printer |br|\\ title: \"örnek ba*\""
 
 #: ../advanced/search.rst:1
 #, fuzzy
@@ -850,8 +849,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
-"\\*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
+"*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 #, fuzzy
@@ -894,8 +893,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
-"n(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
+"(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 #, fuzzy
@@ -1327,8 +1326,8 @@ msgid ""
 "Check your :doc:`/extras/user-menu-profile-settings` to customize how you "
 "receive notifications."
 msgstr ""
-"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-and-"
-"settings` sayfasına göz atın."
+"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-"
+"and-settings` sayfasına göz atın."
 
 #: ../advanced/suggested-workflows.rst:78
 msgid "**Can't see a ticket, in which a colleague @mentioned you?**"
@@ -1910,8 +1909,8 @@ msgstr ""
 #, fuzzy
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
 msgstr ""
-"Orijinal bilet, bilet panelinde görüldüğü gibi yenisine :doc:`bağlıdır "
-"<link>`."
+"Orijinal bilet, bilet panelinde görüldüğü gibi yenisine :doc:`bağlıdır <link>"
+"`."
 
 #: ../advanced/ticket-actions/merge.rst:53
 msgid ""
@@ -2396,8 +2395,7 @@ msgstr "Görüntüleme sırasını değiştirmek için sütun başlıklarına t�
 #: ../basics/find-tickets.rst:45
 #, fuzzy
 msgid "Click and drag column dividers to adjust the column's width."
-msgstr ""
-"Genişliklerini ayarlamak için sütun ayırıcılara tıklayın ve sürükleyin."
+msgstr "Genişliklerini ayarlamak için sütun ayırıcılara tıklayın ve sürükleyin."
 
 #: ../basics/find-tickets.rst:46
 #, fuzzy
@@ -3089,8 +3087,8 @@ msgid ""
 "one ticket about a single customer issue. See :doc:`merge tickets page </"
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
-"Tüm mesajları/notları başka bir bilete taşıyın (ayrıntılar için "
-"bkz. :doc:`Biletleri Birleştirme </advanced/ticket-actions/merge>`)."
+"Tüm mesajları/notları başka bir bilete taşıyın (ayrıntılar için bkz. "
+":doc:`Biletleri Birleştirme </advanced/ticket-actions/merge>`)."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
@@ -4122,8 +4120,8 @@ msgstr ""
 #, fuzzy
 msgid "See :doc:`/extras/user-menu-profile-settings` for more information."
 msgstr ""
-"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-and-"
-"settings` sayfasına göz atın."
+"⚙️ Bildirimleri nasıl aldığınızı özelleştirmek için :doc:`/extras/profile-"
+"and-settings` sayfasına göz atın."
 
 #: ../basics/zammad-glossary.rst:492
 msgid "O"
@@ -5774,8 +5772,7 @@ msgstr "Müşteriyi Düzenlemek"
 msgid ""
 "To edit the customer's profile, use the ``Customer`` submenu and select "
 "``Edit Customer``:"
-msgstr ""
-"Müşterinin profilini düzenlemek için, **müşteri altmenüsü**nü kullanın:"
+msgstr "Müşterinin profilini düzenlemek için, **müşteri altmenüsü**nü kullanın:"
 
 #: ../extras/customers.rst:38 ../extras/customers.rst:0
 msgid "Customer submenu"
@@ -6020,8 +6017,8 @@ msgid ""
 "badge on the tab icon indicates how many issues are linked to this ticket."
 msgstr ""
 "Metadata durumları (açık/kapalı), atamalar, etkiletler ve daha fazlası ile "
-"birlikte bağlantılı sorunları görmek için bilet panelindeki |github| ve |"
-"gitlab| sekmelerini kullanın. Veya sorunu GitHub / GitLab'da görüntülemek "
+"birlikte bağlantılı sorunları görmek için bilet panelindeki |github| ve "
+"|gitlab| sekmelerini kullanın. Veya sorunu GitHub / GitLab'da görüntülemek "
 "için başlığa tıklayın."
 
 #: ../extras/github-gitlab-integration.rst:34
