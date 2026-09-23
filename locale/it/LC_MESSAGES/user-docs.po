@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 16:01+0200\n"
-"PO-Revision-Date: 2026-09-18 06:39+0000\n"
-"Last-Translator: Cap6991 <an_96_drea@hotmail.it>\n"
+"POT-Creation-Date: 2026-08-28 15:08+0200\n"
+"PO-Revision-Date: 2026-09-18 06:45+0000\n"
+"Last-Translator: Silke Jänichen <silke.jaenichen@posteo.de>\n"
 "Language-Team: Italian <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/it/>\n"
+"documentations/user-documentation-pre-release/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1572,7 +1572,7 @@ msgstr ""
 "**In pausa, al momento non è necessaria alcuna azione.** (ad esempio in "
 "sospeso)"
 
-#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:203
+#: ../snippets/ticket-state-type-circles.rst:8 ../extras/knowledge-base.rst:220
 msgid "|grn|"
 msgstr "|grn|"
 
@@ -2120,7 +2120,7 @@ msgstr ""
 "`Applica``. I campi del ticket configurati verranno popolati con i dati del "
 "modello."
 
-#: ../advanced/ticket-templates.rst:26
+#: ../advanced/ticket-templates.rst:31
 msgid "Field collisions"
 msgstr "Collisioni di campi"
 
@@ -2134,11 +2134,19 @@ msgstr ""
 "compilato un campo che verrebbe popolato dal template, Zammad non "
 "sovrascriverà i dati presenti."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:28
+msgid ""
+"Templates can be applied as often as you like, but Zammad protects all "
+"fields that already contain values, no matter how they were filled. Empty "
+"fields are filled from the template. To apply a template value to a filled "
+"field, clear the field first and apply the template again."
+msgstr ""
+
+#: ../advanced/ticket-templates.rst:38
 msgid "Can't add or adjust templates?"
 msgstr "Non riesci ad aggiungere o modificare template?"
 
-#: ../advanced/ticket-templates.rst:29
+#: ../advanced/ticket-templates.rst:34
 msgid ""
 "Managing templates requires additional permissions. Please ask your "
 "administrator to provide you with the needed permission or to create or "
@@ -2148,7 +2156,7 @@ msgstr ""
 "amministratore di fornirti le autorizzazioni necessarie oppure di creare o "
 "modificare un modello per te."
 
-#: ../advanced/ticket-templates.rst:33
+#: ../advanced/ticket-templates.rst:38
 msgid ""
 "Admins can learn more in the :admin-docs:`ticket templates section of the "
 "admin docs </manage/templates.html>`."
@@ -2245,17 +2253,21 @@ msgstr "Tempo conteggiato nel ticket"
 msgid ""
 "If a ticket already has accounted time(s), you can see it in the ticket "
 "sidebar at the bottom. You can find the calculated sums of each activity "
-"type as well as the total sum of accounted times for all activity types."
+"type as well as the total sum of accounted times for all activity types. "
+"Additionally, the accounted time is shown in the article meta information, "
+"if present."
 msgstr ""
-"Se un ticket ha già tempo conteggiato, puoi vederlo nel pannello ticket in "
-"basso. Puoi trovare le somme calcolate di ogni tipo di attività così come la "
-"somma totale dei tempi conteggiati per tutti i tipi di attività."
+"Se un ticket ha già del tempo contabilizzato, puoi visualizzarlo nella barra "
+"laterale del ticket in basso. Puoi trovare le somme calcolate per ogni tipo "
+"di attività, nonché la somma totale del tempo contabilizzato per tutti i "
+"tipi di attività. Inoltre, il tempo contabilizzato viene mostrato nelle "
+"informazioni meta dell'articolo, se presenti."
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 msgid "Screenshot showing accounted times in ticket sidebar"
 msgstr "Screenshot che mostra i tempi conteggiati nel pannello ticket"
 
-#: ../advanced/time-accounting.rst:53
+#: ../advanced/time-accounting.rst:55
 msgid "Accounted times in the ticket view"
 msgstr "Tempi conteggiati nella vista del ticket"
 
@@ -2999,6 +3011,7 @@ msgstr ""
 "sperare in una escalation immediata."
 
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Etichette"
 
@@ -5798,34 +5811,35 @@ msgstr ""
 "Zammad offre funzionalità basate sull'IA per aiutarti a gestire i ticket di "
 "supporto in modo più efficiente."
 
-#: ../extras/ai-features.rst:9
+#: ../extras/ai-features.rst:10
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
-"If you can't see it, it is not configured. More information about how to "
-"configure and activate it can be found in the :admin-docs:`AI section </ai/"
-"provider.html>` of the admin documentation."
+"If you can't see these features, they are not configured. More information "
+"about how to configure and activate them can be found in the :admin-docs:`AI "
+"section </ai/provider.html>` of the admin documentation."
 msgstr ""
-"Le funzionalità AI devono essere configurate e attivate dal tuo "
-"amministratore. Se non le vedi, non sono configurate. Maggiori informazioni "
-"su come configurarle e attivarle si possono trovare nella :admin-"
-"docs:`sezione AI </ai/provider.html>` della documentazione amministratore."
+"Le funzionalità IA devono essere configurate e attivate dal tuo "
+"amministratore. Se non riesci a vedere queste funzionalità, significa che "
+"non sono configurate. Ulteriori informazioni su come configurarle e "
+"attivarle sono disponibili nella :admin-docs:`<sezione IA </ai/"
+"provider.html>` della documentazione per amministratori."
 
-#: ../extras/ai-features.rst:14
+#: ../extras/ai-features.rst:15
 msgid ""
 "Many AI features in Zammad include a feedback mechanism. If you notice "
 "issues or are unsatisfied with the results, please use the feedback option "
-"to let your Zammad admin know. You can like (thumb up) or dislike (thumb "
-"down) the AI generated content. The dislike option allows you to leave an "
+"to let your Zammad admin know. You can like (thumbs up) or dislike (thumbs "
+"down) the AI-generated content. The dislike option allows you to leave an "
 "optional comment."
 msgstr ""
-"Molte funzionalità di IA di Zammad includono un meccanismo di feedback. Se "
-"riscontri problemi o non sei soddisfatto dei risultati, utilizza l'opzione "
-"di feedback per informare l'amministratore di Zammad. Puoi esprimere un "
-"giudizio positivo (pollice in su) o negativo (pollice in giù) sul contenuto "
-"generato dall'IA. L'opzione \"non mi piace\" ti consente di lasciare un "
-"commento facoltativo."
+"Molte funzionalità di intelligenza artificiale in Zammad includono un "
+"meccanismo di feedback. Se noti problemi o non sei soddisfatto dei "
+"risultati, utilizza l'opzione di feedback per informare il tuo "
+"amministratore Zammad. Puoi mettere mi piace (pollice in su) o non mi piace "
+"(pollice in giù) al contenuto generato dall'intelligenza artificiale. "
+"L'opzione Non mi piace ti consente di lasciare un commento facoltativo."
 
-#: ../extras/ai-features.rst:20
+#: ../extras/ai-features.rst:21
 msgid ""
 "Always double-check the AI responses. Although the features were developed "
 "carefully, there still might be minor inaccuracies in individual cases due "
@@ -5835,11 +5849,11 @@ msgstr ""
 "sviluppate con cura, potrebbero comunque verificarsi piccole imprecisioni in "
 "singoli casi, dovute alla natura stessa delle reti neurali."
 
-#: ../extras/ai-features.rst:25
+#: ../extras/ai-features.rst:26
 msgid "Ticket Summary"
 msgstr "Riepilogo Ticket"
 
-#: ../extras/ai-features.rst:27
+#: ../extras/ai-features.rst:28
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
@@ -5849,26 +5863,29 @@ msgstr ""
 "contenuto del ticket. Questo può far risparmiare un sacco di tempo quando si "
 "tratta di ticket grandi e/o molti passaggi di consegna tra agenti."
 
-#: ../extras/ai-features.rst:31
+#: ../extras/ai-features.rst:32
 msgid ""
-"If the feature is activated, a summary of the ticket is generated when the "
-"ticket got updated and you either open the ticket or open the summary "
-"sidebar tab of the ticket, depending on the configuration."
+"If the feature is activated, summaries are generated when tickets are "
+"updated and you either open the ticket or the summary sidebar tab, depending "
+"on your administrator's configuration. Your admin can also set conditions "
+"that restrict which tickets display summaries."
 msgstr ""
-"Se la funzionalità è attivata, un riepilogo del ticket viene generato quando "
-"il ticket viene aggiornato e tu apri il ticket o apri la scheda riepilogo "
-"della sidebar del ticket, a seconda della configurazione."
+"Se la funzione è attivata, i riepiloghi vengono generati quando i ticket "
+"vengono aggiornati e si apre il ticket stesso o la scheda laterale dei "
+"riepiloghi, a seconda della configurazione dell'amministratore. "
+"L'amministratore può anche impostare delle condizioni che limitano la "
+"visualizzazione dei riepiloghi per i ticket in questione."
 
-#: ../extras/ai-features.rst:35
+#: ../extras/ai-features.rst:37
 msgid ""
-"If there is a new summary, you can see a small pulsing indicator on the "
-"summary sidebar tab. This indicator is only displayed if the changes were "
-"not made by you (as you already know what the ticket is about)."
+"When a summary is newly generated, a small pulsing indicator appears on the "
+"summary sidebar tab. This indicator only shows up if changes were made by "
+"someone other than you (since you already know the updated state)."
 msgstr ""
-"Se c'è un nuovo riepilogo, puoi vedere un piccolo indicatore pulsante sulla "
-"scheda riepilogo della sidebar. Questo indicatore viene mostrato solo se le "
-"modifiche non sono state fatte da te (poiché già sai di cosa tratta il "
-"ticket)."
+"Quando viene generato un nuovo riepilogo, un piccolo indicatore lampeggiante "
+"appare nella scheda della barra laterale del riepilogo. Questo indicatore "
+"viene visualizzato solo se le modifiche sono state apportate da qualcuno "
+"diverso da te (dato che conosci già lo stato aggiornato)."
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -5878,7 +5895,7 @@ msgstr ""
 "Screenshot che mostra la vista dettaglio ticket di Zammad con il banner "
 "riepilogo ticket evidenziato e la sidebar riepilogo"
 
-#: ../extras/ai-features.rst:42
+#: ../extras/ai-features.rst:44
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5886,31 +5903,31 @@ msgstr ""
 "A seconda della configurazione della tua istanza Zammad, il riepilogo "
 "include le seguenti sezioni:"
 
-#: ../extras/ai-features.rst:45
+#: ../extras/ai-features.rst:47
 msgid "Customer intent"
 msgstr "Intenzione cliente"
 
-#: ../extras/ai-features.rst:46
+#: ../extras/ai-features.rst:48
 msgid "Conversation summary"
 msgstr "Riepilogo conversazione"
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:49
 msgid "Open questions (optional)"
 msgstr "Domande aperte (opzionale)"
 
-#: ../extras/ai-features.rst:48
+#: ../extras/ai-features.rst:50
 msgid "Upcoming events (optional)"
 msgstr "Eventi imminenti (opzionale)"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:51
 msgid "Customer sentiment (optional)"
 msgstr "Sentiment cliente (opzionale)"
 
-#: ../extras/ai-features.rst:52
+#: ../extras/ai-features.rst:54
 msgid "Writing Assistant Tools"
 msgstr "Strumenti Assistente di Scrittura"
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:56
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -5927,13 +5944,13 @@ msgstr ""
 
 #: ../extras/ai-features.rst:None
 msgid ""
-"Screenshots shows selected text in editor with opened writing assistant "
-"tools menu"
+"Screenshot shows selected text in editor with opened writing assistant tools "
+"menu"
 msgstr ""
 "Screenshot che mostra testo selezionato nell'editor con menu strumenti "
 "assistente di scrittura aperto"
 
-#: ../extras/ai-features.rst:64
+#: ../extras/ai-features.rst:66
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
@@ -5944,22 +5961,21 @@ msgstr ""
 "Potresti anche avere strumenti personalizzati aggiuntivi nel caso in cui il "
 "tuo amministratore li abbia aggiunti."
 
-#: ../extras/ai-features.rst:68
+#: ../extras/ai-features.rst:70
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
-"tries to elaborate a proper text. It tries to add a structure and to enhance "
-"clarity and conciseness and as well as removing misspellings and grammar "
-"errors. You can even use it by providing only basic information (e.g. via "
-"bullet points) and let the AI write the answer."
+"produces a well-written response. It adds structure and enhances clarity and "
+"conciseness, as well as removing misspellings and grammar errors. You can "
+"even use it by providing only basic information (e.g. via bullet points) and "
+"let the AI write the answer."
 msgstr ""
-"**Espandi bozza in sezione ben scritta**: Usa la tua bozza come base e cerca "
-"di elaborare un testo appropriato. Cerca di aggiungere una struttura e di "
-"migliorare la chiarezza e la concisione oltre a rimuovere errori di "
-"ortografia e grammatica. Puoi anche usarla fornendo solo informazioni di "
-"base (ad esempio tramite punti elenco) e lasciando che l'AI scriva la "
-"risposta."
+"**Espandi la bozza in una sezione ben scritta**: Utilizza la tua bozza come "
+"base e produce una risposta ben scritta. Aggiunge struttura e migliora la "
+"chiarezza e la concisione, oltre a rimuovere errori di ortografia e "
+"grammatica. Puoi persino utilizzarlo fornendo solo informazioni di base (ad "
+"esempio tramite elenchi puntati) e lasciare che l'IA scriva la risposta."
 
-#: ../extras/ai-features.rst:73
+#: ../extras/ai-features.rst:75
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
@@ -5967,7 +5983,7 @@ msgstr ""
 "**Correggi ortografia e grammatica**: Rilegge il tuo testo e rimuove errori "
 "di ortografia e grammatica."
 
-#: ../extras/ai-features.rst:75
+#: ../extras/ai-features.rst:77
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
@@ -5975,15 +5991,15 @@ msgstr ""
 "**Riassumi sezione a circa metà della dimensione attuale**: Riduce il tuo "
 "testo mantenendo il messaggio e il tono del testo."
 
-#: ../extras/ai-features.rst:77
+#: ../extras/ai-features.rst:79
 msgid ""
-"**Rewrite complex section and make it easy to understand**: Removes "
+"**Rewrite a complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
 msgstr ""
-"**Riscrivi sezione complessa e rendila facile da capire**: Rimuove parti non "
-"necessarie e riscrivi il tuo testo in modo chiaro e comprensibile."
+"**Riscrivi una sezione complessa e rendila facile da capire**: Rimuove parti "
+"non necessarie e riscrivi il tuo testo in modo chiaro e comprensibile."
 
-#: ../extras/ai-features.rst:80
+#: ../extras/ai-features.rst:82
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -5992,45 +6008,176 @@ msgstr ""
 "dove puoi confrontare il testo originale e il suggerimento AI:"
 
 #: ../extras/ai-features.rst:None
-msgid "Screenshots shows AI suggestion dialog"
-msgstr "Screenshot che mostra la finestra di dialogo suggerimento AI"
+msgid "Screenshot shows AI suggestion dialog"
+msgstr "Screenshot che mostra la finestra di dialogo di suggerimento IA"
 
-#: ../extras/ai-features.rst:87
+#: ../extras/ai-features.rst:89
 msgid ""
-"Click on the ``Approve`` button to accept the changes and to insert it in "
+"Click on the ``Approve`` button to accept the suggestion and insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
 "the article editor."
 msgstr ""
-"Clicca sul pulsante **Approva** per accettare le modifiche e inserirle "
-"nell'articolo. Dopo aver accettato il suggerimento, puoi ancora modificare "
+"Fai clic sul pulsante ``Approva`` per accettare il suggerimento e inserirlo "
+"nell'articolo. Dopo aver accettato il suggerimento, puoi comunque modificare "
 "il testo nell'editor dell'articolo."
 
 #: ../extras/ai-features.rst:94
+msgid "Knowledge Base Assistant"
+msgstr "Assistente alla Knowledge Base"
+
+#: ../extras/ai-features.rst:None
+msgid ""
+"Related knowledge section of the ticket sidebar with the + AI draft button "
+"and a suggested knowledge base answer."
+msgstr ""
+"Sezione di informazioni correlate nella barra laterale del ticket con il "
+"pulsante + Bozza IA e una risposta suggerita dalla knowledge base."
+
+#: ../extras/ai-features.rst:101
+msgid "Knowledge Base Answer Generation"
+msgstr "Generazione di Risposte dalla Conoscenza di base"
+
+#: ../extras/ai-features.rst:103
+msgid ""
+"This feature allows you to trigger an AI-based generation of "
+"a :doc:`knowledge base <knowledge-base>` answer from a ticket. This is "
+"useful if you often get similar tickets and want to quickly create a "
+"knowledge base article for such cases. Doing so helps you and your "
+"colleagues solve similar tickets more efficiently in the future. It might "
+"even reduce incoming ticket volume when customers can resolve their issues "
+"directly from the published knowledge base."
+msgstr ""
+"Questa funzionalità consente di attivare la generazione automatica, tramite "
+"IA di una risposta nella :doc:`knowledge base <knowledge-base>` a partire da "
+"un ticket. È utile se si ricevono spesso ticket simili e si desidera creare "
+"rapidamente un articolo nella knowledge base per questi casi. In questo "
+"modo, voi e i vostri colleghi potrete risolvere ticket simili in modo più "
+"efficiente in futuro. Potrebbe persino ridurre il volume dei ticket in "
+"arrivo, poiché i clienti potranno risolvere i loro problemi direttamente "
+"dalla knowledge base pubblicata."
+
+#: ../extras/ai-features.rst:111
+msgid ""
+"This feature is available in the **Related knowledge** section of the ticket "
+"sidebar. Click the ``+ AI draft`` button to trigger the answer generation."
+msgstr ""
+"Questa funzione è disponibile nella sezione **Conoscenze correlate** della "
+"barra laterale del ticket. Fai clic sul pulsante ``+ Bozza IA`` per avviare "
+"la generazione della risposta."
+
+#: ../extras/ai-features.rst:114
+msgid "Things to consider:"
+msgstr "Aspetti da considerare:"
+
+#: ../extras/ai-features.rst:116
+msgid ""
+"The knowledge base answer is generated as draft and not published "
+"automatically."
+msgstr ""
+"La risposta nella knowledge base viene generata come bozza e non viene "
+"pubblicata automaticamente."
+
+#: ../extras/ai-features.rst:118
+msgid "You are set as the answer's author."
+msgstr "Sei stato impostato come autore della risposta."
+
+#: ../extras/ai-features.rst:119
+msgid "The answer is generated in the default language of your knowledge base."
+msgstr ""
+"La risposta viene generata nella lingua predefinita della tua Knowledge base."
+
+#: ../extras/ai-features.rst:120
+msgid ""
+"The answer includes a note in the content and a tag (``ai-generated``) about "
+"the AI generation."
+msgstr ""
+"La risposta include una nota nel contenuto e un tag (``ai-generated``) "
+"riguardo alla generazione tramite IA."
+
+#: ../extras/ai-features.rst:122
+msgid ""
+"A link to the answer is added to the ticket from which you triggered the "
+"answer generation."
+msgstr ""
+"Al ticket da cui è stata avviata la generazione della risposta viene "
+"aggiunto un link alla risposta."
+
+#: ../extras/ai-features.rst:124
+msgid ""
+"The answer is created in a knowledge base category for which you have editor "
+"permissions. The AI chooses one of these categories."
+msgstr ""
+"La risposta viene creata in una categoria della knowledge base per la quale "
+"si dispone dei permessi di modifica. L'IA sceglie una di queste categorie."
+
+#: ../extras/ai-features.rst:127
+msgid ""
+"If a similar knowledge base answer already exists, Zammad shows it in a "
+"dialog before creating a new one. This gives you the chance to review "
+"existing related answers to prevent duplicate submissions."
+msgstr ""
+"Se esiste già una risposta simile nella knowledge base, Zammad la visualizza "
+"in una finestra di dialogo prima di crearne una nuova. Questo ti dà la "
+"possibilità di esaminare le risposte correlate esistenti ed evitare l'invio "
+"di duplicati."
+
+#: ../extras/ai-features.rst:132
+msgid "Knowledge Base Answer Suggestion"
+msgstr "Suggerimento risposta della Knowledge Base"
+
+#: ../extras/ai-features.rst:134
+msgid ""
+"This feature compares the ticket content against the knowledge base and "
+"shows relevant answers under **Suggested knowledge** if they meet the admin-"
+"configured score threshold. Each suggestion shows the title of the answer "
+"and more details on hover. An additional relevance score is only shown to "
+"users with the corresponding admin permissions. Click on the title to open "
+"the answer in the knowledge base. Click the ``+`` on the right side to link "
+"it to the ticket."
+msgstr ""
+"Questa funzione confronta il contenuto del ticket con la knowledge base e "
+"mostra le risposte pertinenti nella sezione **Conoscenza suggerita** se "
+"soddisfano la soglia di punteggio configurata dall'amministratore. Ogni "
+"suggerimento mostra il titolo della risposta e ulteriori dettagli al "
+"passaggio del mouse. Un punteggio di pertinenza aggiuntivo viene mostrato "
+"solo agli utenti con le autorizzazioni di amministratore corrispondenti. "
+"Clicca sul titolo per aprire la risposta nella knowledge base. Clicca sul "
+"simbolo ``+`` a destra per collegarla al ticket."
+
+#: ../extras/ai-features.rst:141
+msgid ""
+"If no suggestions are available, the message \"No suggestions.\" is "
+"displayed instead."
+msgstr ""
+"Se non sono disponibili suggerimenti, viene visualizzato il messaggio "
+"\"Nessun suggerimento\"."
+
+#: ../extras/ai-features.rst:147
 msgid "AI Agents"
 msgstr "Agenti AI"
 
-#: ../extras/ai-features.rst:96
+#: ../extras/ai-features.rst:149
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
-"general, this feature operates behind the scenes but if configured, you may "
-"notice it in some situations (see examples below). In case your admin "
-"created a macro with an AI agent action, you can even run it manually. Ask "
-"your admin for details and have a look at the :doc:`macro page </advanced/"
-"macros>` how to use it."
+"general, this feature operates behind the scenes, but if configured, you may "
+"notice it in some situations (see examples below). If your admin has created "
+"a macro with an AI agent action, you can even run it manually. Ask your "
+"admin for details and have a look at the :doc:`macro page </advanced/"
+"macros>` to see how to use it."
 msgstr ""
-"Gli agenti AI possono essere configurati per lavorare su certi tipi di "
-"compiti di routine. In generale, questa funzionalità opera dietro le quinte "
-"ma se configurata, puoi notarla in alcune situazioni (vedi esempi qui "
-"sotto). Nel caso in cui il tuo amministratore abbia creato una macro con "
-"un'azione agente AI, puoi anche eseguirla manualmente. Chiedi al tuo "
-"amministratore per i dettagli e dai un'occhiata alla :doc:`pagina macro </"
-"advanced/macros>` come usarla."
+"Gli agenti IA possono essere configurati per eseguire determinati tipi di "
+"attività di routine. In genere, questa funzionalità opera in background, ma "
+"se configurata, potresti notarla in alcune situazioni (vedi esempi di "
+"seguito). Se il tuo amministratore ha creato una macro con un'azione "
+"dell'agente IA, puoi anche eseguirla manualmente. Chiedi maggiori dettagli "
+"al tuo amministratore e consulta la pagina :doc:`macro </advanced/macros>` "
+"per scoprire come utilizzarla."
 
-#: ../extras/ai-features.rst:111
+#: ../extras/ai-features.rst:164
 msgid "Ticket history"
 msgstr "Cronologia ticket"
 
-#: ../extras/ai-features.rst:104
+#: ../extras/ai-features.rst:157
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6041,7 +6188,7 @@ msgstr ""
 "continui con ciò che l'agente AI ha fatto, informa il tuo amministratore "
 "Zammad."
 
-#: ../extras/ai-features.rst:108
+#: ../extras/ai-features.rst:161
 msgid "Example of a history entry of an AI agent:"
 msgstr "Esempio di una voce di cronologia di un agente AI:"
 
@@ -6049,23 +6196,24 @@ msgstr "Esempio di una voce di cronologia di un agente AI:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "Screenshot che mostra la voce di cronologia ticket agente AI"
 
-#: ../extras/ai-features.rst:122
+#: ../extras/ai-features.rst:175
 msgid "Simultaneous work detection"
 msgstr "Rilevamento lavoro simultaneo"
 
-#: ../extras/ai-features.rst:114
+#: ../extras/ai-features.rst:167
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
-"duplicate work as well as losing unsaved changes. If you see an AI agent "
+"duplicate work and prevent losing unsaved changes. If you see an AI agent "
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
-"Gli agenti AI che stanno attualmente lavorando su un ticket sono mostrati "
-"come altri agenti nella sezione utenti live nella barra inferiore. Questo "
-"aiuta ad evitare lavoro duplicato oltre a perdere modifiche non salvate. Se "
-"vedi un avatar agente AI, aspetta un momento o passa a un altro ticket."
+"Gli agenti IA che stanno attualmente lavorando su un ticket vengono "
+"visualizzati come gli altri agenti nella sezione utenti attivi nella barra "
+"inferiore. Questo aiuta a evitare duplicazioni di lavoro e a non perdere le "
+"modifiche non salvate. Se vedi l'avatar di un agente IA, attendi qualche "
+"istante o passa a un altro ticket."
 
-#: ../extras/ai-features.rst:119
+#: ../extras/ai-features.rst:172
 msgid "Avatar of AI agent:"
 msgstr "Avatar agente AI:"
 
@@ -6073,11 +6221,11 @@ msgstr "Avatar agente AI:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "Screenshot che mostra l'avatar di un agente AI"
 
-#: ../extras/ai-features.rst:128
+#: ../extras/ai-features.rst:181
 msgid "Overview indicator"
 msgstr "Indicatore panoramica"
 
-#: ../extras/ai-features.rst:125
+#: ../extras/ai-features.rst:178
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -7298,8 +7446,8 @@ msgstr ""
 "iscriversi."
 
 #: ../extras/knowledge-base.rst:0
-msgid "Screenshot showing the modal for of the RSS button"
-msgstr "Screenshot che mostra il modale del pulsante RSS"
+msgid "Screenshot shows the modal for of the RSS button"
+msgstr "Lo screenshot mostra la finestra modale del pulsante RSS"
 
 #: ../extras/knowledge-base.rst:107
 msgid ""
@@ -7312,10 +7460,10 @@ msgstr ""
 #: ../extras/knowledge-base.rst:110
 msgid ""
 "If you want to revoke the access and renew your token, you can do so in the "
-"RSS modal."
+"RSS dialog."
 msgstr ""
-"Se vuoi revocare l'accesso e rinnovare il tuo token, puoi farlo nel modale "
-"RSS."
+"Se desideri revocare l'accesso e rinnovare il tuo token, puoi farlo nella "
+"finestra di dialogo RSS."
 
 #: ../extras/knowledge-base.rst:0
 msgid ""
@@ -7392,12 +7540,10 @@ msgstr ""
 "ruoli :admin-docs:`</manage/roles/agent-permissions.html>`."
 
 #: ../extras/knowledge-base.rst:None
-msgid ""
-"Screencast showing the visibility option for categories for granular access "
-"permissions"
+msgid "Screenshot shows the granular category permissions for knowledge base"
 msgstr ""
-"Screencast che mostra l'opzione di visibilità per categorie per permessi di "
-"accesso granulari"
+"Lo screenshot mostra le autorizzazioni di categoria granulari per la "
+"knowledge base"
 
 #: ../extras/knowledge-base.rst:152
 msgid ""
@@ -7451,30 +7597,30 @@ msgid ""
 "The knowledge base editor comes equipped with the same **rich text editing "
 "capabilities** available in the Zammad ticket composer. That means you can "
 "use the same :doc:`keyboard shortcuts </advanced/keyboard-shortcuts>` to "
-"insert formatted text, bullet lists, and more. You can even add file "
+"insert formatted text, bullet lists and more. You can even add file "
 "attachments and links!"
 msgstr ""
 "L'editor della knowledge base è dotato delle stesse **funzionalità di "
-"modifica testo ricco** disponibili nel compositore ticket di Zammad. Ciò "
-"significa che puoi usare le stesse :doc:`scorciatoie da tastiera </advanced/"
-"keyboard-shortcuts>` per inserire testo formattato, elenchi puntati e altro. "
-"Puoi persino aggiungere allegati file e link!"
+"modifica del testo avanzato** disponibili nel compositore di ticket di "
+"Zammad. Ciò significa che puoi utilizzare le stesse :doc:`scorciatoie da "
+"tastiera </advanced/keyboard-shortcuts>` per inserire testo formattato, "
+"elenchi puntati e altro ancora. Puoi persino aggiungere allegati e link!"
 
-#: ../extras/knowledge-base.rst:195
+#: ../extras/knowledge-base.rst:212
 msgid "Different link types"
 msgstr "Diversi tipi di link"
 
 #: ../extras/knowledge-base.rst:183
-msgid "**Web link**"
-msgstr "**Link web**"
+msgid "Weblink"
+msgstr "Link web"
 
 #: ../extras/knowledge-base.rst:183
 msgid "URLs pointing to other websites."
 msgstr "URL che puntano ad altri siti web."
 
 #: ../extras/knowledge-base.rst:187
-msgid "**Link Answer**"
-msgstr "**Collega risposta**"
+msgid "Link Answer"
+msgstr "Link di risposta"
 
 #: ../extras/knowledge-base.rst:186
 msgid ""
@@ -7483,34 +7629,74 @@ msgid ""
 msgstr "Riferimenti interni ad altre risposte della knowledge base."
 
 #: ../extras/knowledge-base.rst:191
-msgid "**Linked Tickets**"
-msgstr "**Ticket collegati**"
+msgid "Image"
+msgstr "Immagine"
 
 #: ../extras/knowledge-base.rst:190
+msgid ""
+"Include an image from your computer in the answer. Unlike file attachments, "
+"these images are embedded directly in the answer."
+msgstr ""
+"Includi un'immagine dal tuo computer nella risposta. A differenza degli "
+"allegati, queste immagini vengono incorporate direttamente nella risposta."
+
+#: ../extras/knowledge-base.rst:198
+msgid "Video"
+msgstr "Video"
+
+#: ../extras/knowledge-base.rst:194
+msgid ""
+"Include a video to embed in the answer. By default, you can embed videos "
+"from Vimeo and YouTube. Depending on your Zammad settings, MediaCMS and "
+"PeerTube instances can be enabled by your admin as well. A list of supported "
+"video services is displayed in the video dialog below the URL field."
+msgstr ""
+"Includi un video da incorporare nella risposta. Per impostazione "
+"predefinita, puoi incorporare video da Vimeo e YouTube. A seconda delle "
+"impostazioni di Zammad, l'amministratore potrebbe anche abilitare le istanze "
+"di MediaCMS e PeerTube. Un elenco dei servizi video supportati viene "
+"visualizzato nella finestra di dialogo del video sotto il campo URL."
+
+#: ../extras/knowledge-base.rst:202
+msgid "Related Tickets"
+msgstr "Ticket correlati"
+
+#: ../extras/knowledge-base.rst:201
 msgid ""
 "Internal references to Zammad tickets (visible only in preview and edit "
 "mode)."
 msgstr "Riferimenti interni ai ticket di Zammad."
 
-#: ../extras/knowledge-base.rst:195
-msgid "**Tags**"
-msgstr "**Tag**"
+#: ../extras/knowledge-base.rst:207
+msgid "Attachments"
+msgstr "Allegati"
 
-#: ../extras/knowledge-base.rst:194
+#: ../extras/knowledge-base.rst:205
+msgid ""
+"Add any file as an attachment to your answer. Such an attachment isn't "
+"embedded in the body of the answer. Readers can download it by clicking on "
+"it in the attachment section."
+msgstr ""
+"È possibile allegare un file alla risposta. L'allegato non verrà incorporato "
+"nel corpo della risposta. I lettori potranno scaricarlo cliccandoci sopra "
+"nella sezione allegati."
+
+#: ../extras/knowledge-base.rst:210
 msgid ""
 "Can help to categorize or label answers for better search results. Please "
-"note that tags are visible publicly and can be the same like those in your "
+"note that tags are visible publicly and can be the same as those in your "
 "tickets."
 msgstr ""
-"Possono aiutare a categorizzare o etichettare le risposte per ottenere "
-"risultati di ricerca migliori. Tieni presente che i tag sono visibili "
-"pubblicamente e possono essere gli stessi presenti nei tuoi ticket."
+"Può essere utile per categorizzare o etichettare le risposte al fine di "
+"ottenere risultati di ricerca migliori. Si prega di notare che i tag sono "
+"visibili pubblicamente e possono essere gli stessi utilizzati nei ticket di "
+"assistenza."
 
-#: ../extras/knowledge-base.rst:220
+#: ../extras/knowledge-base.rst:237
 msgid "Visibility"
 msgstr "Visibilità"
 
-#: ../extras/knowledge-base.rst:198
+#: ../extras/knowledge-base.rst:215
 msgid ""
 "Set the visibility of an answer to control who can see an article, or "
 "schedule it to be published at a later date. Articles are color-coded "
@@ -7521,31 +7707,31 @@ msgstr ""
 "una data successiva. Gli articoli sono **contrassegnati da colori** diversi "
 "in base alla loro visibilità:"
 
-#: ../extras/knowledge-base.rst:203
+#: ../extras/knowledge-base.rst:220
 msgid "**Public** (visible to everyone)"
 msgstr "**Pubblico** (visibile a tutti)"
 
-#: ../extras/knowledge-base.rst:205
+#: ../extras/knowledge-base.rst:222
 msgid "|blu|"
 msgstr "|blu|"
 
-#: ../extras/knowledge-base.rst:205
+#: ../extras/knowledge-base.rst:222
 msgid "**Internal** (visible to agents & editors only)"
 msgstr "**Interno** (visibile solo ad agenti e editor)"
 
-#: ../extras/knowledge-base.rst:207
+#: ../extras/knowledge-base.rst:224
 msgid "|gry|"
 msgstr "|gry|"
 
-#: ../extras/knowledge-base.rst:207
+#: ../extras/knowledge-base.rst:224
 msgid "**Draft/Scheduled/Archived** (visible to editors only)"
 msgstr "**Bozza/Programmato/Archiviato** (visibile solo agli editor)"
 
-#: ../extras/knowledge-base.rst:223
+#: ../extras/knowledge-base.rst:240
 msgid "Using Answers In Ticket Articles"
 msgstr "Usare le Risposte negli Articoli Ticket"
 
-#: ../extras/knowledge-base.rst:225
+#: ../extras/knowledge-base.rst:242
 msgid ""
 "As soon as the knowledge base contains one or more answers, you can use "
 "these just like text modules. Instead of :kbd:`:`:kbd:`:` just use :kbd:`?"
@@ -7700,41 +7886,43 @@ msgstr "Modificare attributi cliente"
 msgid "Modify organization attributes"
 msgstr "Modificare attributi organizzazione"
 
-#: ../extras/mobile-view.rst:118
+#: ../extras/mobile-view.rst:117
+#, fuzzy
+#| msgid "Create a new note article"
+msgid "Track time on ticket articles"
+msgstr "Crea un nuovo articolo nota"
+
+#: ../extras/mobile-view.rst:119
 msgid "Mobile view also has some exclusive features:"
 msgstr "La vista mobile ha anche alcune funzionalità esclusive:"
 
-#: ../extras/mobile-view.rst:120
+#: ../extras/mobile-view.rst:121
 msgid "Innovative Zammad UX"
 msgstr "UX Zammad Innovativa"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:122
 msgid "Next-level accessibility"
 msgstr "Accessibilità di livello superiore"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:123
 msgid "Ready for multi-device usage"
 msgstr "Pronta per l'uso multi-dispositivo"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:124
 msgid "Progressive web app (PWA) support"
 msgstr "Supporto Progressive Web App (PWA)"
 
-#: ../extras/mobile-view.rst:126
+#: ../extras/mobile-view.rst:127
 msgid "Limitations"
 msgstr "Limitazioni"
 
-#: ../extras/mobile-view.rst:128
+#: ../extras/mobile-view.rst:129
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
 msgstr ""
 "La vista mobile attualmente non include alcune funzionalità presenti nella "
 "vista desktop:"
-
-#: ../extras/mobile-view.rst:131
-msgid "Ticket Article Time Accounting"
-msgstr "Gestione del tempo degli articoli del ticket"
 
 #: ../extras/mobile-view.rst:132
 msgid "Ticket Article **Split** Action"
@@ -9642,6 +9830,25 @@ msgstr ""
 "manuali :docs:`di sistema </index.html>` e :admin-docs:`di amministrazione </"
 "index.html>`."
 
+#~ msgid "Ticket Article Time Accounting"
+#~ msgstr "Gestione del tempo degli articoli del ticket"
+
+#~ msgid "Linked Tickets"
+#~ msgstr "Ticket collegati"
+
+#~ msgid ""
+#~ "Screencast showing the visibility option for categories for granular "
+#~ "access permissions"
+#~ msgstr ""
+#~ "Screencast che mostra l'opzione di visibilità per categorie per permessi "
+#~ "di accesso granulari"
+
+#~ msgid "**Linked Tickets**"
+#~ msgstr "**Ticket collegati**"
+
+#~ msgid "**Tags**"
+#~ msgstr "**Tag**"
+
 #~ msgid "Screencast demo of S/MIME features for both new tickets and replies"
 #~ msgstr ""
 #~ "Demo screencast delle funzionalità S/MIME sia per nuovi ticket che per "
@@ -10494,72 +10701,14 @@ msgstr ""
 #~ "Screencast che mostra come salvare una bozza condivisa all'interno dello "
 #~ "zoom ticket"
 
-#~ msgid "Knowledge Base Answer Generation"
-#~ msgstr "Generazione di Risposte dalla Conoscenza di base"
-
-#~ msgid ""
-#~ "This feature allows you to trigger an AI-based generation of "
-#~ "a :doc:`knowledge base <knowledge-base>` answer out of a ticket. This can "
-#~ "be useful if you often get similar tickets and want to quickly create a "
-#~ "knowledge base article for such cases. Doing so helps you and your "
-#~ "colleagues to solve similar tickets more efficiently in the future and "
-#~ "might even reduce the ticket volume in the long run when customers can "
-#~ "solve their issues by themselves."
-#~ msgstr ""
-#~ "Questa funzionalità consente di attivare la generazione automatica "
-#~ "tramite IA, di una risposta nella :doc:`knowledge base <knowledge-base>` "
-#~ "a partire da un ticket. Può essere utile se ricevi spesso ticket simili e "
-#~ "desideri creare rapidamente un articolo nella knowledge base per questi "
-#~ "casi. In questo modo, tu e i tuoi colleghi potrete risolvere ticket "
-#~ "simili in modo più efficiente in futuro e, a lungo termine, potreste "
-#~ "persino ridurre il volume dei ticket, poiché i clienti saranno in grado "
-#~ "di risolvere i problemi autonomamente."
-
 #~ msgid "Important information:"
 #~ msgstr "Informazione importante:"
-
-#~ msgid ""
-#~ "The knowledge base answer is generated as draft and doesn't get published "
-#~ "automatically."
-#~ msgstr ""
-#~ "La risposta della knowledge base viene generata come bozza e non viene "
-#~ "pubblicata automaticamente."
 
 #~ msgid ""
 #~ "The user who triggered the generation is set as the author of the answer."
 #~ msgstr ""
 #~ "L'utente che ha avviato la generazione viene impostato come autore della "
 #~ "risposta."
-
-#~ msgid ""
-#~ "The answer is generated in the configured default language of your "
-#~ "knowledge base."
-#~ msgstr ""
-#~ "La risposta viene generata nella lingua predefinita configurata nella tua "
-#~ "knowledge base."
-
-#~ msgid ""
-#~ "The answer includes a note in the content and a tag (``ai-generated``) "
-#~ "about the AI generation."
-#~ msgstr ""
-#~ "La risposta include una nota nel contenuto e un tag (``ai-generated``) "
-#~ "riguardo alla generazione tramite IA."
-
-#~ msgid ""
-#~ "A link to the answer is added to the ticket from which the answer "
-#~ "generation was triggered."
-#~ msgstr ""
-#~ "Al ticket da cui è stata avviata la generazione della risposta viene "
-#~ "aggiunto un link alla risposta stessa."
-
-#~ msgid ""
-#~ "The AI request includes a list of the knowledge base categories in which "
-#~ "the triggering user has editor permissions. The AI then chooses one of "
-#~ "these categories."
-#~ msgstr ""
-#~ "La richiesta all'IA include un elenco delle categorie della knowledge "
-#~ "base in cui l'utente che l'ha attivata dispone dei permessi di modifica. "
-#~ "L'IA sceglie quindi una di queste categorie."
 
 #~ msgid ""
 #~ "To trigger such a generation, click the ``+ AI generate`` button in the "
