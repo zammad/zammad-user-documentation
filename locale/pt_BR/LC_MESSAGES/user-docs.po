@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-24 16:01+0200\n"
-"PO-Revision-Date: 2026-09-18 06:39+0000\n"
+"PO-Revision-Date: 2026-09-23 06:06+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/pt_BR/>\n"
@@ -5515,8 +5515,7 @@ msgid ""
 "tabs like customers and checklists and displays the currently selected tab."
 msgstr ""
 "Esta é a barra lateral direita na visualização de detalhes do ticket. Ela "
-"contém abas como clientes e listas de verificação e exibe a aba selecionada "
-"no momento."
+"contém abas como clientes e checklists e exibe a aba selecionada no momento."
 
 #: ../basics/zammad-ui.rst:44
 msgid "Sidebar tabs (5)"
@@ -6338,7 +6337,7 @@ msgstr ""
 
 #: ../extras/checklist.rst:2
 msgid "Checklist"
-msgstr "Lista de verificação"
+msgstr "Checklist"
 
 #: ../extras/checklist.rst:4
 msgid ""
@@ -6347,23 +6346,22 @@ msgid ""
 "(unless your admin has deactivated it). Please note that you can only add or "
 "edit a checklist, if you have the permission to edit the ticket."
 msgstr ""
-"Use uma lista de verificação nos tickets para acompanhar as tarefas a "
-"concluir. O recurso fica na barra lateral direita, na aba **Lista de "
-"verificação** (a menos que o administrador o tenha desativado). Note que "
-"você só pode adicionar ou editar uma lista se tiver permissão para editar o "
-"ticket."
+"Use um checklist nos tickets para acompanhar as tarefas a concluir. O "
+"recurso fica na barra lateral direita, na aba **Checklist** (a menos que o "
+"administrador o tenha desativado). Note que você só pode adicionar ou editar "
+"um checklist se tiver permissão para editar o ticket."
 
 #: ../extras/checklist.rst:12
 msgid "Screenshot showing right sidebar with highlighted \"Checklist\" tab"
 msgstr ""
-"Captura de tela mostrando a barra lateral direita com a aba \"Lista de "
-"verificação\" em destaque"
+"Captura de tela mostrando a barra lateral direita com a aba \"Checklist\" em "
+"destaque"
 
 #: ../extras/checklist.rst:12
 msgid "Screenshot of ticket view with highlighted checklist sidebar."
 msgstr ""
-"Captura de tela da visualização do ticket com a barra lateral da lista de "
-"verificação em destaque."
+"Captura de tela da visualização do ticket com a barra lateral do checklist "
+"em destaque."
 
 #: ../extras/checklist.rst:15
 msgid "Usage"
@@ -6380,45 +6378,42 @@ msgid ""
 "after selecting a template. If you can't see the ``Add from a template`` "
 "area, there is no template available."
 msgstr ""
-"Para adicionar uma lista de verificação a um ticket, vá até a aba **Lista de "
-"verificação** e clique em ``Add empty checklist`` (1) ou em ``Add from a "
-"template`` (2) após selecionar um modelo. Se a área ``Add from a template`` "
-"não aparece, não há modelo disponível."
+"Para adicionar um checklist a um ticket, vá até a aba **Checklist** e clique "
+"em ``Add empty checklist`` (1) ou em ``Add from a template`` (2) após "
+"selecionar um modelo. Se a área ``Add from a template`` não aparece, não há "
+"modelo disponível."
 
 #: ../extras/checklist.rst:30
 msgid "Checklist creation dialog"
-msgstr "Diálogo de criação de lista de verificação"
+msgstr "Diálogo de criação de checklist"
 
 #: ../extras/checklist.rst:30
 msgid "Screenshot of adding template or new checklist."
-msgstr ""
-"Captura de tela da adição de um modelo ou de uma nova lista de verificação."
+msgstr "Captura de tela da adição de um modelo ou de um novo checklist."
 
 #: ../extras/checklist.rst:32
 msgid ""
 "Depending on your choice, you can create your own new checklist or use a "
 "predefined template. In both cases, you can:"
 msgstr ""
-"Dependendo da sua escolha, você pode criar sua própria lista de verificação "
-"ou usar um modelo predefinido. Nos dois casos, você pode:"
+"Dependendo da sua escolha, você pode criar seu próprio checklist ou usar um "
+"modelo predefinido. Nos dois casos, você pode:"
 
 #: ../extras/checklist.rst:35
 msgid "Edit the checklist title"
-msgstr "Editar o título da lista de verificação"
+msgstr "Editar o título do checklist"
 
 #: ../extras/checklist.rst:36
 msgid "Edit the checklist items (reorder, rename, add, delete)"
-msgstr ""
-"Editar os itens da lista de verificação (reordenar, renomear, adicionar, "
-"excluir)"
+msgstr "Editar os itens do checklist (reordenar, renomear, adicionar, excluir)"
 
 #: ../extras/checklist.rst:37
 msgid "Remove the complete checklist"
-msgstr "Remover a lista de verificação completa"
+msgstr "Remover o checklist completo"
 
 #: ../extras/checklist.rst:38
 msgid "Add a checklist, if there is no existing one"
-msgstr "Adicionar uma lista de verificação, se ainda não existir"
+msgstr "Adicionar um checklist, se ainda não existir"
 
 #: ../extras/checklist.rst:40
 msgid ""
@@ -6430,8 +6425,8 @@ msgstr ""
 #: ../extras/checklist.rst:42
 msgid "Click on the item text (checklist title or checklist item) to edit it"
 msgstr ""
-"Clique no texto do item (título da lista de verificação ou item da lista) "
-"para editá-lo"
+"Clique no texto do item (título do checklist ou item do checklist) para "
+"editá-lo"
 
 #: ../extras/checklist.rst:43
 msgid "Click on the checkbox to check an item"
@@ -6440,9 +6435,7 @@ msgstr "Clique na caixa de seleção para marcar um item"
 #: ../extras/checklist.rst:44
 msgid ""
 "Click on the ︙ or on the checklist title to select actions from the menu"
-msgstr ""
-"Clique no ︙ ou no título da lista de verificação para selecionar ações no "
-"menu"
+msgstr "Clique no ︙ ou no título do checklist para selecionar ações no menu"
 
 #: ../extras/checklist.rst:45
 msgid "To add an item, click on the \"+ Add\" button"
@@ -6466,7 +6459,7 @@ msgstr "Recursos adicionais"
 
 #: ../extras/checklist.rst:66
 msgid "Refer to other tickets in the checklist"
-msgstr "Referencie outros tickets na lista de verificação"
+msgstr "Referencie outros tickets no checklist"
 
 #: ../extras/checklist.rst:59
 msgid ""
@@ -6474,10 +6467,9 @@ msgid ""
 "and number into the item label (e.g. ``Ticket#423456``). This item is not "
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
-"Você pode adicionar outro ticket como item da lista de verificação digitando "
-"ou colando o prefixo e o número dele no rótulo do item (ex.: "
-"``Ticket#423456``). Esse item não é marcável manualmente: ele reflete o "
-"estado do ticket referenciado."
+"Você pode adicionar outro ticket como item do checklist digitando ou colando "
+"o prefixo e o número dele no rótulo do item (ex.: ``Ticket#423456``). Esse "
+"item não é marcável manualmente: ele reflete o estado do ticket referenciado."
 
 #: ../extras/checklist.rst:63
 msgid "**Copying ticket hook and number**"
@@ -6493,7 +6485,7 @@ msgstr ""
 
 #: ../extras/checklist.rst:76
 msgid "Check of completed checklist"
-msgstr "Verificação de lista de verificação concluída"
+msgstr "Verificação de checklist concluído"
 
 #: ../extras/checklist.rst:69
 msgid ""
@@ -6502,19 +6494,19 @@ msgid ""
 "all items are completed, Zammad will prompt you to either work on the "
 "remaining tasks and keep the ticket open or to close it anyway."
 msgstr ""
-"O Zammad inclui um recurso que verifica automaticamente se todos os itens da "
-"lista de verificação foram concluídos. A verificação ocorre quando você "
-"define um ticket como fechado. Se nem todos os itens estiverem concluídos, o "
-"Zammad perguntará se você quer trabalhar nas tarefas restantes e manter o "
-"ticket aberto, ou fechá-lo mesmo assim."
+"O Zammad inclui um recurso que verifica automaticamente se todos os itens do "
+"checklist foram concluídos. A verificação ocorre quando você define um "
+"ticket como fechado. Se nem todos os itens estiverem concluídos, o Zammad "
+"perguntará se você quer trabalhar nas tarefas restantes e manter o ticket "
+"aberto, ou fechá-lo mesmo assim."
 
 #: ../extras/checklist.rst:74
 msgid ""
 "When referencing other tickets in your checklist, only those which are "
 "closed (with a green circle) are considered as completed."
 msgstr ""
-"Ao referenciar outros tickets na sua lista de verificação, apenas os "
-"fechados (com círculo verde) são considerados concluídos."
+"Ao referenciar outros tickets no seu checklist, apenas os fechados (com "
+"círculo verde) são considerados concluídos."
 
 #: ../extras/customers.rst:2
 msgid "Customers"
