@@ -191,7 +191,10 @@ account.
 :Token Access:
 
    Generate personal access tokens for third party applications to use the
-   Zammad API.
+   Zammad API. Send a token as HTTP header with your API calls, either as
+   ``Authorization: Token token={your token}`` or as
+   ``Authorization: Bearer {your token}``. Both formats work for the same
+   token. The API documentation shows both variants.
 
    .. tip::
       Always generate a new token for each application you connect to Zammad!
