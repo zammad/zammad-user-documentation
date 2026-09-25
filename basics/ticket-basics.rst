@@ -55,7 +55,7 @@ privileges and the configuration of your system.
 It is even possible to create custom fields for tickets (for groups and users
 too). You think such a custom field makes sense? Talk with your Zammad admin,
 it can be set up easily
-(:admin-docs:`admins can read more here </system/object/types.html>`).
+(:admin-docs:`admins can read more here </system/objects/types.html>`).
 
 State
 ^^^^^
