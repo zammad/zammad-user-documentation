@@ -5898,10 +5898,10 @@ msgid "Token Access"
 msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:193
-msgid "Generate personal access tokens for third party applications to use the Zammad API."
+msgid "Generate personal access tokens for third party applications to use the Zammad API. Send a token as HTTP header with your API calls, either as ``Authorization: Token token={your token}`` or as ``Authorization: Bearer {your token}``. Both formats work for the same token. The API documentation shows both variants."
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:197
+#: ../extras/user-menu-profile-settings.rst:200
 msgid "Always generate a new token for each application you connect to Zammad! This makes it possible to revoke access for individual applications if a token is ever compromised."
 msgstr ""
 
@@ -5909,7 +5909,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr ""
 
-#: ../extras/user-menu-profile-settings.rst:203
+#: ../extras/user-menu-profile-settings.rst:206
 msgid "See a list of third party services (e.g. Facebook or Google) linked to your Zammad account."
 msgstr ""
 
