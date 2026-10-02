@@ -8443,15 +8443,15 @@ msgid "Token Access"
 msgstr "Jeton Erişimi"
 
 #: ../extras/user-menu-profile-settings.rst:193
-#, fuzzy
 msgid ""
 "Generate personal access tokens for third party applications to use the "
-"Zammad API."
+"Zammad API. Send a token as HTTP header with your API calls, either as "
+"``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
+"{your token}``. Both formats work for the same token. The API documentation "
+"shows both variants."
 msgstr ""
-"Üçüncü taraf uygulamaların Zammad API'sini kullanması için kişisel erişim "
-"jetonları oluşturun."
 
-#: ../extras/user-menu-profile-settings.rst:197
+#: ../extras/user-menu-profile-settings.rst:200
 #, fuzzy
 #| msgid ""
 #| "Always generate a new token for each application you connect to Zammad! "
@@ -8470,7 +8470,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Bağlı Hesaplar"
 
-#: ../extras/user-menu-profile-settings.rst:203
+#: ../extras/user-menu-profile-settings.rst:206
 #, fuzzy
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
@@ -8501,6 +8501,14 @@ msgstr ""
 "Şu anda Zammad kullanıcı belgelerini okumaktasınız. Ayrıca :docs:`system </"
 "index.html>` ve :admin-docs:`administration manuals </index.html>` da "
 "mevcuttur."
+
+#, fuzzy
+#~ msgid ""
+#~ "Generate personal access tokens for third party applications to use the "
+#~ "Zammad API."
+#~ msgstr ""
+#~ "Üçüncü taraf uygulamaların Zammad API'sini kullanması için kişisel erişim "
+#~ "jetonları oluşturun."
 
 #, fuzzy
 #~ msgid "Ticket Article Time Accounting"
