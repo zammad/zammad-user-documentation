@@ -9871,12 +9871,13 @@ msgstr "Tokenes hozzáférés"
 #: ../extras/user-menu-profile-settings.rst:193
 msgid ""
 "Generate personal access tokens for third party applications to use the "
-"Zammad API."
+"Zammad API. Send a token as HTTP header with your API calls, either as "
+"``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
+"{your token}``. Both formats work for the same token. The API documentation "
+"shows both variants."
 msgstr ""
-"Személyes hozzáférési tokenek előállítása harmadik féltől származó "
-"alkalmazásokhoz, hogy használhassák a Zammad API-t."
 
-#: ../extras/user-menu-profile-settings.rst:197
+#: ../extras/user-menu-profile-settings.rst:200
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9890,7 +9891,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Kapcsolt fiókok"
 
-#: ../extras/user-menu-profile-settings.rst:203
+#: ../extras/user-menu-profile-settings.rst:206
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
@@ -9919,6 +9920,13 @@ msgstr ""
 "Jelenleg a Zammad felhasználói dokumentációját olvassa. :docs:`Rendszer- </"
 "index.html>` és :admin-docs:`adminisztrátori kézikönyvek</index.html>` is "
 "elérhetők."
+
+#~ msgid ""
+#~ "Generate personal access tokens for third party applications to use the "
+#~ "Zammad API."
+#~ msgstr ""
+#~ "Személyes hozzáférési tokenek előállítása harmadik féltől származó "
+#~ "alkalmazásokhoz, hogy használhassák a Zammad API-t."
 
 #~ msgid "Ticket Article Time Accounting"
 #~ msgstr "Jegy bejegyzésének időelszámolása"
