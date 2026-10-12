@@ -14,6 +14,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-login.png
            :alt: Mobile View Login Screen
            :align: center
+           :width: 80%
 
            Login Screen
 
@@ -23,6 +24,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-home.png
            :alt: Mobile View Home Page
            :align: center
+           :width: 80%
 
            Home Page
 
@@ -37,6 +39,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-search.png
            :alt: Mobile View Search Results
            :align: center
+           :width: 80%
 
            Search Results
 
@@ -45,6 +48,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-ticket-overview.png
            :alt: Mobile View Ticket Overview
            :align: center
+           :width: 80%
 
            Ticket Overview
 
@@ -59,6 +63,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-ticket-detail-view.png
            :alt: Mobile View Ticket Detail View
            :align: center
+           :width: 80%
 
            Ticket Detail View
 
@@ -67,6 +72,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-ticket-information.png
            :alt: Mobile View Ticket Information
            :align: center
+           :width: 80%
 
            Ticket Information
 
@@ -81,6 +87,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-notifications.png
            :alt: Mobile View Notifications
            :align: center
+           :width: 80%
 
            Notifications
 
@@ -89,6 +96,7 @@ with a modern design and improved accessibility.
         .. figure:: /images/extras/mobile-view/mobile-view-account-overview.png
            :alt: Mobile View Account Overview
            :align: center
+           :width: 80%
 
            Account Overview
 
@@ -152,7 +160,7 @@ the switch off again to stop receiving them; signing out removes the device as
 well.
 
 Push notifications are delivered by the push service of your browser and not by
-Zammad, so they can be delayed, for example by battery optimisation on Android
+Zammad, so they can be delayed, for example by battery optimization on Android
 devices. While you are working in the desktop view, Zammad does not send push
 notifications to your devices.
 
@@ -185,47 +193,64 @@ Zammad now implements a mobile device detection, which results in automatic
 redirection to mobile view. Even with this mechanism in place it's possible to
 explicitly switch between the views by using app links:
 
-   Continue to desktop link in mobile view
-     .. container:: cfloat-left
+Continue to Desktop Link in Mobile View
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-        .. figure:: /images/extras/mobile-view/mobile-view-login-continue-to-desktop.png
-           :alt: Continue to Desktop Link on Login Screen
-           :align: center
+On the login screen, use the **Continue to desktop** link below the ``Sign in``
+button. While you are signed in, open your account page with the avatar in the
+bottom navigation and use the **Continue to desktop** entry there.
 
-           Login Screen
+.. container:: cfloat-left
 
-     .. container:: cfloat-right
+   .. figure:: /images/extras/mobile-view/mobile-view-login.png
+      :alt: Continue to Desktop Link on Login Screen
+      :align: center
+      :width: 80%
 
-        .. figure:: /images/extras/mobile-view/mobile-view-account-continue-to-desktop.png
-           :alt: Continue to Desktop Link in User Account Overview
-           :align: center
+      Login Screen
 
-           User Account Overview
+.. container:: cfloat-right
 
-     .. container:: cfloat-clear
+   .. figure:: /images/extras/mobile-view/mobile-view-account-overview.png
+      :alt: Continue to Desktop Link in User Account Overview
+      :align: center
+      :width: 80%
 
-        x
+      User Account Overview
 
-   Continue to mobile link in desktop view
-     .. container:: cfloat-left
+.. container:: cfloat-clear
 
-        .. figure:: /images/extras/mobile-view/mobile-view-desktop-login-continue-to-mobile.png
-           :alt: Continue to Mobile Link in Desktop Login Screen
-           :align: center
+   x
 
-           Login Screen
+Continue to Mobile Link in Desktop View
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-     .. container:: cfloat-right
+On the login screen of the desktop view, use the **Continue to mobile** link
+below the ``Sign in`` button. While you are signed in, use the
+**Continue to mobile** entry in the user menu, which your avatar at the bottom
+of the navigation sidebar opens.
 
-        .. figure:: /images/extras/mobile-view/mobile-view-desktop-user-menu-continue-to-mobile.png
-           :alt: Continue to Mobile Link in Desktop User Menu
-           :align: center
+.. container:: cfloat-left
 
-           User Avatar Menu
+   .. figure:: /images/extras/mobile-view/mobile-view-desktop-login-continue-to-mobile.png
+      :alt: Continue to Mobile Link in Desktop Login Screen
+      :align: center
+      :width: 80%
 
-     .. container:: cfloat-clear
+      Login Screen
 
-        x
+.. container:: cfloat-right
+
+   .. figure:: /images/extras/mobile-view/mobile-view-desktop-user-menu-continue-to-mobile.png
+      :alt: Continue to Mobile Link in Desktop User Menu
+      :align: center
+      :width: 80%
+
+      User Avatar Menu
+
+.. container:: cfloat-clear
+
+   x
 
 Whenever an app link is used, the choice will be remembered by the user's device
 and the next time the automatic redirection will behave accordingly.
