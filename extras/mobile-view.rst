@@ -123,6 +123,39 @@ Mobile view also has some exclusive features:
 - Ready for multi-device usage
 - Progressive web app (PWA) support
 
+Push Notifications
+------------------
+
+The mobile view can notify you about your tickets on your mobile device, even
+when the app is not open. Push notifications are turned on per device, not for
+your account as a whole: you can have them on your phone and leave them off on
+a tablet.
+
+Turn them on with the **Push notifications on this device** switch in the
+**Notifications** section of your account page. If the switch is locked, the
+text below it tells you what is missing.
+
+Every notification Zammad creates for you is also sent to your device, for
+example about new tickets, ticket updates, reached reminders or escalations.
+A push shows the same text as the entry in the notification list, and tapping
+it opens the ticket in the app.
+
+On iPhone and iPad, push notifications are only available in the app added to
+the home screen with iOS or iPadOS 16.4 or later. Open the mobile view in
+Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the
+installed app and the browser can both receive them.
+
+If you turned notifications off for the app in the settings of your device, the
+switch stays locked until you allow them there again. A browser whose push
+service Zammad does not support cannot enable push notifications at all. Turn
+the switch off again to stop receiving them; signing out removes the device as
+well.
+
+Push notifications are delivered by the push service of your browser and not by
+Zammad, so they can be delayed, for example by battery optimisation on Android
+devices. While you are working in the desktop view, Zammad does not send push
+notifications to your devices.
+
 Limitations
 -----------
 

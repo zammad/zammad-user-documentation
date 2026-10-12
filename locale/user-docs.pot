@@ -1183,8 +1183,8 @@ msgstr ""
 #: ../extras/mobile-view.rst:53
 #: ../extras/mobile-view.rst:75
 #: ../extras/mobile-view.rst:97
-#: ../extras/mobile-view.rst:174
-#: ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:207
+#: ../extras/mobile-view.rst:228
 #: ../extras/user-menu-profile-settings.rst:57
 msgid "x"
 msgstr ""
@@ -3698,7 +3698,7 @@ msgid "Screenshot shows a status circle in overviews indicating an AI agent is c
 msgstr ""
 
 #: ../extras/caller-log.rst:2
-#: ../extras/mobile-view.rst:145
+#: ../extras/mobile-view.rst:178
 msgid "Caller Log"
 msgstr ""
 
@@ -3799,7 +3799,7 @@ msgid "Existing caller log entries *are not* updated when you update an existing
 msgstr ""
 
 #: ../extras/chat.rst:2
-#: ../extras/mobile-view.rst:146
+#: ../extras/mobile-view.rst:179
 msgid "Live Chat"
 msgstr ""
 
@@ -4677,8 +4677,8 @@ msgid "Mobile View Login Screen"
 msgstr ""
 
 #: ../extras/mobile-view.rst:18
-#: ../extras/mobile-view.rst:162
-#: ../extras/mobile-view.rst:183
+#: ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:216
 msgid "Login Screen"
 msgstr ""
 
@@ -4807,62 +4807,90 @@ msgid "Progressive web app (PWA) support"
 msgstr ""
 
 #: ../extras/mobile-view.rst:127
-msgid "Limitations"
+msgid "Push Notifications"
 msgstr ""
 
 #: ../extras/mobile-view.rst:129
-msgid "Mobile view is also currently missing some features which are provided by the desktop view:"
-msgstr ""
-
-#: ../extras/mobile-view.rst:132
-msgid "Ticket Article **Split** Action"
-msgstr ""
-
-#: ../extras/mobile-view.rst:133
-msgid "Linked Tickets & Ticket **Link** Action"
+msgid "The mobile view can notify you about your tickets on your mobile device, even when the app is not open. Push notifications are turned on per device, not for your account as a whole: you can have them on your phone and leave them off on a tablet."
 msgstr ""
 
 #: ../extras/mobile-view.rst:134
-msgid "Ticket Macros"
-msgstr ""
-
-#: ../extras/mobile-view.rst:135
-msgid "Ticket History"
-msgstr ""
-
-#: ../extras/mobile-view.rst:136
-msgid "Ticket Create Templates & Shared Drafts"
+msgid "Turn them on with the **Push notifications on this device** switch in the **Notifications** section of your account page. If the switch is locked, the text below it tells you what is missing."
 msgstr ""
 
 #: ../extras/mobile-view.rst:138
-msgid "Additionally, certain features were intentionally omitted in order to improve the focus on important information:"
-msgstr ""
-
-#: ../extras/mobile-view.rst:141
-msgid "Most Management Features (except ticket user and organization management)"
-msgstr ""
-
-#: ../extras/mobile-view.rst:142
-msgid "Most Knowledge Base Features (except ticket integration)"
+msgid "Every notification Zammad creates for you is also sent to your device, for example about new tickets, ticket updates, reached reminders or escalations. A push shows the same text as the entry in the notification list, and tapping it opens the ticket in the app."
 msgstr ""
 
 #: ../extras/mobile-view.rst:143
-msgid "Most User Profile Functions (except avatar and language preferences)"
+msgid "On iPhone and iPad, push notifications are only available in the app added to the home screen with iOS or iPadOS 16.4 or later. Open the mobile view in Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the installed app and the browser can both receive them."
 msgstr ""
 
-#: ../extras/mobile-view.rst:144
-msgid "Reports"
+#: ../extras/mobile-view.rst:148
+msgid "If you turned notifications off for the app in the settings of your device, the switch stays locked until you allow them there again. A browser whose push service Zammad does not support cannot enable push notifications at all. Turn the switch off again to stop receiving them; signing out removes the device as well."
 msgstr ""
 
-#: ../extras/mobile-view.rst:149
-msgid "Access"
+#: ../extras/mobile-view.rst:154
+msgid "Push notifications are delivered by the push service of your browser and not by Zammad, so they can be delayed, for example by battery optimisation on Android devices. While you are working in the desktop view, Zammad does not send push notifications to your devices."
 msgstr ""
 
-#: ../extras/mobile-view.rst:151
-msgid "Zammad now implements a mobile device detection, which results in automatic redirection to mobile view. Even with this mechanism in place it's possible to explicitly switch between the views by using app links:"
+#: ../extras/mobile-view.rst:160
+msgid "Limitations"
+msgstr ""
+
+#: ../extras/mobile-view.rst:162
+msgid "Mobile view is also currently missing some features which are provided by the desktop view:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:165
+msgid "Ticket Article **Split** Action"
+msgstr ""
+
+#: ../extras/mobile-view.rst:166
+msgid "Linked Tickets & Ticket **Link** Action"
+msgstr ""
+
+#: ../extras/mobile-view.rst:167
+msgid "Ticket Macros"
+msgstr ""
+
+#: ../extras/mobile-view.rst:168
+msgid "Ticket History"
+msgstr ""
+
+#: ../extras/mobile-view.rst:169
+msgid "Ticket Create Templates & Shared Drafts"
+msgstr ""
+
+#: ../extras/mobile-view.rst:171
+msgid "Additionally, certain features were intentionally omitted in order to improve the focus on important information:"
 msgstr ""
 
 #: ../extras/mobile-view.rst:174
+msgid "Most Management Features (except ticket user and organization management)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:175
+msgid "Most Knowledge Base Features (except ticket integration)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:176
+msgid "Most User Profile Functions (except avatar and language preferences)"
+msgstr ""
+
+#: ../extras/mobile-view.rst:177
+msgid "Reports"
+msgstr ""
+
+#: ../extras/mobile-view.rst:182
+msgid "Access"
+msgstr ""
+
+#: ../extras/mobile-view.rst:184
+msgid "Zammad now implements a mobile device detection, which results in automatic redirection to mobile view. Even with this mechanism in place it's possible to explicitly switch between the views by using app links:"
+msgstr ""
+
+#: ../extras/mobile-view.rst:207
 msgid "Continue to desktop link in mobile view"
 msgstr ""
 
@@ -4874,11 +4902,11 @@ msgstr ""
 msgid "Continue to Desktop Link in User Account Overview"
 msgstr ""
 
-#: ../extras/mobile-view.rst:170
+#: ../extras/mobile-view.rst:203
 msgid "User Account Overview"
 msgstr ""
 
-#: ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:228
 msgid "Continue to mobile link in desktop view"
 msgstr ""
 
@@ -4890,11 +4918,11 @@ msgstr ""
 msgid "Continue to Mobile Link in Desktop User Menu"
 msgstr ""
 
-#: ../extras/mobile-view.rst:191
+#: ../extras/mobile-view.rst:224
 msgid "User Avatar Menu"
 msgstr ""
 
-#: ../extras/mobile-view.rst:197
+#: ../extras/mobile-view.rst:230
 msgid "Whenever an app link is used, the choice will be remembered by the user's device and the next time the automatic redirection will behave accordingly."
 msgstr ""
 
