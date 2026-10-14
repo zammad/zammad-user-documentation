@@ -162,7 +162,7 @@ well.
 Push notifications are delivered by the push service of your browser and not by
 Zammad, so they can be delayed, for example by battery optimization on Android
 devices. While you are working in the desktop view, Zammad does not send push
-notifications to your devices.
+notifications to your mobile devices.
 
 Limitations
 -----------
