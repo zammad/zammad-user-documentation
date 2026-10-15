@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-09-18 06:47+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-10-13 07:12+0000\n"
+"Last-Translator: Mixer <mixer@mixercz.cz>\n"
 "Language-Team: Czech <https://translations.zammad.org/projects/"
-"documentations/user-documentation-pre-release/cs/>\n"
+"documentations/user-documentation-latest/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -34,7 +34,7 @@ msgstr ""
 #: ../basics/zammad-ui.rst:15 ../extras/chat.rst:12 ../extras/customers.rst:7
 #: ../extras/shared-drafts.rst:5
 msgid "Overview"
-msgstr ""
+msgstr "Přehled"
 
 #: ../advanced/keyboard-shortcuts.rst:10
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:30
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: ../advanced/keyboard-shortcuts.rst:32
 msgid "At the top of the dialog, you can:"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:112
 msgid "Create a new ticket"
-msgstr ""
+msgstr "Vytvoření nového tiketu"
 
 #: ../advanced/keyboard-shortcuts.rst:70
 msgid ":kbd:`u`"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:87
 msgid "Translations"
-msgstr ""
+msgstr "Překlady"
 
 #: ../advanced/keyboard-shortcuts.rst:88
 msgid "Note: you need to have admin permissions to use this."
@@ -289,7 +289,7 @@ msgstr ""
 #: ../advanced/keyboard-shortcuts.rst:98
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Appearance"
-msgstr ""
+msgstr "Vzhled"
 
 #: ../advanced/keyboard-shortcuts.rst:103
 msgid ":kbd:`d`"
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
-msgstr ""
+msgstr "Makra"
 
 #: ../advanced/macros.rst:4
 msgid ""
@@ -685,11 +685,11 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "Example"
-msgstr ""
+msgstr "Příklad"
 
 #: ../advanced/search.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: ../advanced/search.rst:1
 msgid "number"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../advanced/search.rst:1
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../advanced/search.rst:1
 msgid "some title"
@@ -898,7 +898,7 @@ msgstr ""
 #: ../advanced/search.rst:70 ../basics/create-tickets.rst:76
 #: ../basics/ticket-basics.rst:41
 msgid "Ticket Attributes"
-msgstr ""
+msgstr "Atributy tiketu"
 
 #: ../advanced/search.rst:72
 msgid "number: string"
@@ -983,7 +983,7 @@ msgstr ""
 
 #: ../advanced/search.rst:95
 msgid "Article Attributes"
-msgstr ""
+msgstr "Atributy článku"
 
 #: ../advanced/search.rst:97
 msgid "article.from: string"
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: ../advanced/search.rst:112
 msgid "Examples:"
-msgstr ""
+msgstr "Příklady:"
 
 #: ../advanced/search.rst:114
 msgid ""
@@ -1195,12 +1195,12 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
 msgid "Group"
-msgstr ""
+msgstr "Skupina"
 
 #: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
 #: ../basics/zammad-glossary.rst:514
 msgid "Owner"
-msgstr ""
+msgstr "Vlastník"
 
 #: ../advanced/suggested-workflows.rst:92
 msgid "State (with pending time, if applicable)"
@@ -1209,7 +1209,7 @@ msgstr ""
 #: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
 #: ../basics/zammad-glossary.rst:551
 msgid "Priority"
-msgstr ""
+msgstr "Priorita"
 
 #: ../advanced/suggested-workflows.rst:95
 msgid ""
@@ -1339,7 +1339,7 @@ msgstr ""
 #: ../extras/mobile-view.rst:174 ../extras/mobile-view.rst:195
 #: ../extras/user-menu-profile-settings.rst:57
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../advanced/tabs.rst:43
 msgid "**🖱️ UI Protip**"
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #: ../advanced/text-modules.rst:2
 msgid "Text Modules"
-msgstr ""
+msgstr "Textové moduly"
 
 #: ../advanced/text-modules.rst:4
 msgid ""
@@ -1635,6 +1635,8 @@ msgid ""
 "Merging a ticket migrates all messages and notes of the ticket from where "
 "you select the merging into the selected one."
 msgstr ""
+"Sloučením tiketu se všechny zprávy a poznámky z tiketu, ve kterém sloučení "
+"spouštíte, přesunou do vybraného tiketu."
 
 #: ../advanced/ticket-actions/merge.rst:16
 msgid ""
@@ -1690,11 +1692,11 @@ msgstr ""
 
 #: ../advanced/ticket-actions/merge.rst:49
 msgid "The articles have been replaced by a \"merged\" label"
-msgstr ""
+msgstr "Články byly nahrazeny popiskem \"sloučeno\""
 
 #: ../advanced/ticket-actions/merge.rst:50
 msgid "The state has changed to \"merged\""
-msgstr ""
+msgstr "Stav se změnil na \"sloučený\""
 
 #: ../advanced/ticket-actions/merge.rst:51
 msgid "The ticket is :doc:`linked <link>` to its \"parent\" ticket"
@@ -1818,7 +1820,7 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:2
 msgid "Time Accounting"
-msgstr ""
+msgstr "Počítání času"
 
 #: ../advanced/time-accounting.rst:4
 msgid ""
@@ -1850,11 +1852,11 @@ msgstr ""
 
 #: ../advanced/time-accounting.rst:None
 msgid "Time Accounting Unit"
-msgstr ""
+msgstr "Jednotka počítání času"
 
 #: ../advanced/time-accounting.rst:27
 msgid "Activity Types"
-msgstr ""
+msgstr "Typy aktivit"
 
 #: ../advanced/time-accounting.rst:29
 msgid ""
@@ -1910,19 +1912,19 @@ msgstr ""
 
 #: ../basics/create-tickets.rst:9
 msgid "A customer calls you by phone."
-msgstr ""
+msgstr "Zákazník vám zavolá."
 
 #: ../basics/create-tickets.rst:10
 msgid "You receive a paper letter from a customer."
-msgstr ""
+msgstr "Dostanete od zákazníka papírový dopis."
 
 #: ../basics/create-tickets.rst:11
 msgid "A customer comes to a physical service desk."
-msgstr ""
+msgstr "Zákazník přijde osobně na zákaznické pracoviště."
 
 #: ../basics/create-tickets.rst:12
 msgid "You proactively have to inform a customer by sending out a message."
-msgstr ""
+msgstr "Potřebujete zákazníka proaktivně informovat zasláním zprávy."
 
 #: ../basics/create-tickets.rst:14
 msgid ""
@@ -1937,12 +1939,12 @@ msgstr ""
 
 #: ../basics/create-tickets.rst:23
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: ../basics/create-tickets.rst:25
 msgid ""
 "In the ticket create dialog, you can choose from different article types:"
-msgstr ""
+msgstr "V dialogu vytvoření tiketu můžete volit z různých typů článků:"
 
 #: ../basics/create-tickets.rst:27
 msgid "Received Call: for issues initiated by a customer over the phone."
@@ -1961,10 +1963,12 @@ msgid ""
 "When choosing **Send Email**, the customer receives an email with the title "
 "as subject and the text as email content."
 msgstr ""
+"Když zvolíte **Odeslat e-mail**, zákazník obdrží e-mail, jehož předmětem je "
+"název tiketu a obsahem jeho text."
 
 #: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:733
 msgid "Title"
-msgstr ""
+msgstr "Název"
 
 #: ../basics/create-tickets.rst:37
 msgid ""
@@ -1976,7 +1980,7 @@ msgstr ""
 
 #: ../basics/create-tickets.rst:43 ../basics/zammad-glossary.rst:182
 msgid "Customer"
-msgstr ""
+msgstr "Zákazník"
 
 #: ../basics/create-tickets.rst:45
 msgid ""
@@ -2008,7 +2012,7 @@ msgstr ""
 
 #: ../basics/create-tickets.rst:67
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../basics/create-tickets.rst:69
 msgid ""
@@ -2067,7 +2071,7 @@ msgstr ""
 
 #: ../basics/find-tickets.rst:4
 msgid "There are different ways to find tickets, depending on your use case."
-msgstr ""
+msgstr "Tikety lze hledat několika způsoby podle toho, co zrovna potřebujete."
 
 #: ../basics/find-tickets.rst:9
 msgid "Via Overviews"
@@ -2199,15 +2203,15 @@ msgstr ""
 
 #: ../basics/find-tickets.rst:84
 msgid "Message subject and text"
-msgstr ""
+msgstr "Předmět a text zprávy"
 
 #: ../basics/find-tickets.rst:85
 msgid "Names and email addresses"
-msgstr ""
+msgstr "Jména a e-mailové adresy"
 
 #: ../basics/find-tickets.rst:86
 msgid "Text in file attachments"
-msgstr ""
+msgstr "Text v přílohách"
 
 #: ../basics/find-tickets.rst:87
 msgid "User and organizations details (like notes, names, etc.)"
@@ -2259,7 +2263,7 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:5 ../extras/ai-features.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "Úvod"
 
 #: ../basics/ticket-basics.rst:7
 msgid ""
@@ -2282,18 +2286,25 @@ msgid ""
 "requests with an email client so far, you might think that a ticket system "
 "is complicated. But the opposite is true:"
 msgstr ""
+"Pokud s tiketovacím systémem začínáte a dosud jste požadavky zákazníků "
+"vyřizovali v e-mailovém klientovi, můžete si myslet, že je tiketovací systém "
+"složitý. Opak je ale pravdou:"
 
 #: ../basics/ticket-basics.rst:23
 msgid ""
 "All emails are now collected in Zammad (and requests from other channels "
 "might be as well)."
 msgstr ""
+"Všechny e-maily se nyní shromažďují v Zammadu (a případně i požadavky z "
+"dalších kanálů)."
 
 #: ../basics/ticket-basics.rst:25
 msgid ""
 "You and your colleagues can see who is working on which customer request "
 "(\"ticket\")."
 msgstr ""
+"Vy i vaši kolegové vidíte, kdo pracuje na kterém požadavku zákazníka "
+"(\"tiketu\")."
 
 #: ../basics/ticket-basics.rst:27
 msgid ""
@@ -2303,19 +2314,21 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:29
 msgid "There is no duplicate work and nothing gets overlooked."
-msgstr ""
+msgstr "Nedochází k duplicitní práci a nic nezapadne."
 
 #: ../basics/ticket-basics.rst:30
 msgid ""
 "You can ask your colleagues directly in the ticket for help in difficult "
 "cases."
-msgstr ""
+msgstr "Ve složitých případech můžete kolegy požádat o pomoc přímo v tiketu."
 
 #: ../basics/ticket-basics.rst:32
 msgid ""
 "With Zammad's intuitive UI, you can focus on what matters: to resolve "
 "customer issues and answer customer questions."
 msgstr ""
+"Díky intuitivnímu rozhraní Zammadu se můžete soustředit na to podstatné: "
+"řešit problémy zákazníků a odpovídat na jejich dotazy."
 
 #: ../basics/ticket-basics.rst:35
 msgid ""
@@ -2323,6 +2336,8 @@ msgid ""
 "client. Except that a ticket has additional attributes. Read on to learn "
 "more."
 msgstr ""
+"Se Zammadem tedy můžete pracovat podobně jako s e-mailovým klientem. Jen s "
+"tím rozdílem, že tiket má další atributy. Čtěte dál a dozvíte se více."
 
 #: ../basics/ticket-basics.rst:43
 msgid ""
@@ -2330,6 +2345,8 @@ msgid ""
 "are called attributes. Use the **ticket sidebar** to view and change ticket "
 "attributes."
 msgstr ""
+"Kromě článků mají tikety ještě další metainformace, kterým se říká atributy. "
+"K zobrazení a změně atributů tiketu slouží **postranní panel tiketu**."
 
 #: ../basics/ticket-basics.rst:None
 msgid "Screenshot shows ticket sidebar."
@@ -2352,7 +2369,7 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:680
 msgid "State"
-msgstr ""
+msgstr "Stav"
 
 #: ../basics/ticket-basics.rst:63
 msgid ""
@@ -2360,6 +2377,9 @@ msgid ""
 "request is resolved or not). Think of it as a representation of progress "
 "towards completion. By default, there are the following states:"
 msgstr ""
+"Stav vyjadřuje aktuální situaci tiketu (hlavně to, zda je požadavek "
+"zákazníka vyřešen, nebo ne). Představte si ho jako ukazatel postupu k "
+"dokončení. Ve výchozím nastavení existují tyto stavy:"
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
@@ -2372,6 +2392,8 @@ msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
 msgstr ""
+"**Otevřený**: stav pro tikety, které ještě nejsou vyřešené a je na nich "
+"potřeba pracovat."
 
 #: ../basics/ticket-basics.rst:71
 msgid ""
@@ -2379,6 +2401,9 @@ msgid ""
 "don't want to close immediately. This state requires you to enter a date and "
 "time at which the ticket automatically switches to closed."
 msgstr ""
+"**Čeká na uzavření**: stav pro tikety, které jsou v podstatě vyřešené, ale "
+"nechcete je uzavřít hned. U tohoto stavu musíte zadat datum a čas, kdy se "
+"tiket automaticky přepne na uzavřený."
 
 #: ../basics/ticket-basics.rst:74
 msgid ""
@@ -2406,18 +2431,20 @@ msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
 msgstr ""
+"Priorita tiketu je jednoduše pořadí (od 1 do 3) vyjadřující, jak je tiket "
+"naléhavý nebo důležitý. Tři výchozí priority jsou:"
 
 #: ../basics/ticket-basics.rst:93
 msgid "1 low"
-msgstr ""
+msgstr "1 nízká"
 
 #: ../basics/ticket-basics.rst:94
 msgid "2 normal"
-msgstr ""
+msgstr "2 normální"
 
 #: ../basics/ticket-basics.rst:95
 msgid "3 high"
-msgstr ""
+msgstr "3 vysoká"
 
 #: ../basics/ticket-basics.rst:97
 msgid ""
@@ -2435,6 +2462,9 @@ msgid ""
 "administrators can set up all sorts of automation and analytics based on the "
 "priority."
 msgstr ""
+"Možná se ptáte, k čemu taková priorita tiketu je. Ve výchozím stavu nedělá "
+"kromě zvýraznění vlastně nic. Správci Zammadu však na jejím základě mohou "
+"nastavit nejrůznější automatizace a analýzy."
 
 #: ../basics/ticket-basics.rst:112
 msgid ""
@@ -2446,7 +2476,7 @@ msgstr ""
 #: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
-msgstr ""
+msgstr "Štítky"
 
 #: ../basics/ticket-basics.rst:119
 msgid ""
@@ -2476,6 +2506,11 @@ msgid ""
 "either there is only one group in your Zammad system or you don't have the "
 "permission to create a ticket in other groups."
 msgstr ""
+"Tento atribut tiketu se hodí organizacím s více než jedním týmem. Běžně se "
+"skupiny používají tak, že má každé oddělení firmy vlastní skupinu. V "
+"závislosti na oprávněních se může stát, že po změně skupiny a uložení změn "
+"tiket už neuvidíte. Pokud pole skupiny nevidíte, je ve vašem Zammadu buď jen "
+"jedna skupina, nebo nemáte oprávnění vytvářet tikety v jiných skupinách."
 
 #: ../basics/ticket-basics.rst:145
 msgid ""
@@ -2491,6 +2526,8 @@ msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
 msgstr ""
+"Chcete-li změnit vlastníka na osobu, která má přístup jen k tiketům jiné "
+"skupiny, musíte nejprve odpovídajícím způsobem změnit skupinu."
 
 #: ../basics/ticket-basics.rst:157
 msgid ""
@@ -2507,6 +2544,8 @@ msgid ""
 "You found your way into an existing ticket, congratulations! Now let's have "
 "a look what you can do and how to do it."
 msgstr ""
+"Našli jste cestu do existujícího tiketu, gratulujeme! Teď se podívejme, co v "
+"něm můžete dělat a jak."
 
 #: ../basics/work-with-tickets.rst:7
 msgid ""
@@ -2542,6 +2581,8 @@ msgid ""
 "No matter if you create a new article from scratch or respond to a customer "
 "article, you can choose from different article types:"
 msgstr ""
+"Ať už vytváříte nový článek od začátku, nebo odpovídáte na článek zákazníka, "
+"můžete vybírat z několika typů článku:"
 
 #: ../basics/work-with-tickets.rst:35
 msgid ""
@@ -2550,11 +2591,14 @@ msgid ""
 "default visibility is \"internal\", which means the customer can't see the "
 "note."
 msgstr ""
+"**Poznámka**: napište připomínku pro sebe a ostatní agenty, zeptejte se "
+"kolegy zmínkou uživatele nebo do tiketu přidejte nové informace. Výchozí "
+"viditelnost je \"interní\", což znamená, že zákazník poznámku nevidí."
 
 #: ../basics/work-with-tickets.rst:38
 msgid ""
 "**Call**: Note down a summary of a phone call you had with the customer."
-msgstr ""
+msgstr "**Hovor**: zaznamenejte shrnutí telefonického hovoru se zákazníkem."
 
 #: ../basics/work-with-tickets.rst:39
 msgid ""
@@ -2743,19 +2787,21 @@ msgstr ""
 
 #: ../basics/work-with-tickets.rst:180
 msgid "Avatar: Another agent is viewing the ticket."
-msgstr ""
+msgstr "Avatar: tiket si prohlíží jiný agent."
 
 #: ../basics/work-with-tickets.rst:181
 msgid ""
 "Faded avatar: Another agent opened the ticket but is currently not actively "
 "viewing it."
 msgstr ""
+"Vybledlý avatar: jiný agent tiket otevřel, ale momentálně si ho aktivně "
+"neprohlíží."
 
 #: ../basics/work-with-tickets.rst:183
 msgid ""
 "Avatar with pencil icon: Another agent is currently actively working on this "
 "ticket."
-msgstr ""
+msgstr "Avatar s ikonou tužky: jiný agent na tiketu momentálně aktivně pracuje."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket conflict alert"
@@ -2830,6 +2876,10 @@ msgid ""
 "It shows all upcoming or reached escalation times based on your SLA "
 "configuration:"
 msgstr ""
+"Tikety, na které se vztahuje SLA, zobrazují v záhlaví detailu tiketu časový "
+"údaj. Když na něj najedete myší, zobrazí se ve vyskakovacím okně všechny "
+"fáze eskalace a lhůty. Uvidíte všechny nadcházející nebo dosažené časy "
+"eskalace podle vaší konfigurace SLA:"
 
 #: ../basics/work-with-tickets.rst:None
 msgid ""
@@ -2892,6 +2942,8 @@ msgid ""
 "Ever wondered what we mean by a specific term? We've been collecting the "
 "most relevant terms below for your insight."
 msgstr ""
+"Přemýšleli jste někdy, co přesně myslíme určitým pojmem? Níže jsme pro vás "
+"shromáždili ty nejdůležitější."
 
 #: ../basics/zammad-glossary.rst:9
 msgid ""
@@ -2915,7 +2967,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:27
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: ../basics/zammad-glossary.rst:22
 msgid ""
@@ -2929,7 +2981,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:33
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #: ../basics/zammad-glossary.rst:30
 msgid ""
@@ -2941,7 +2993,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:43
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../basics/zammad-glossary.rst:36
 msgid ""
@@ -2961,7 +3013,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:48
 msgid "Article"
-msgstr ""
+msgstr "Článek"
 
 #: ../basics/zammad-glossary.rst:46
 msgid ""
@@ -3014,7 +3066,7 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:80 ../basics/zammad-glossary.rst:617
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: ../basics/zammad-glossary.rst:73
 msgid ""
@@ -3037,7 +3089,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:91
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #: ../basics/zammad-glossary.rst:86
 msgid ""
@@ -3074,7 +3126,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:104
 msgid "Channel"
-msgstr ""
+msgstr "Kanál"
 
 #: ../basics/zammad-glossary.rst:103
 msgid ""
@@ -3085,7 +3137,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:113
 msgid "Checkmk"
-msgstr ""
+msgstr "Checkmk"
 
 #: ../basics/zammad-glossary.rst:107
 msgid ""
@@ -3103,7 +3155,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:122
 msgid "Clearbit"
-msgstr ""
+msgstr "Clearbit"
 
 #: ../basics/zammad-glossary.rst:116
 msgid ""
@@ -3138,7 +3190,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:141
 msgid "Core Workflows"
-msgstr ""
+msgstr "Core Workflow"
 
 #: ../basics/zammad-glossary.rst:134
 msgid ""
@@ -3157,7 +3209,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:155
 msgid "CTI"
-msgstr ""
+msgstr "CTI"
 
 #: ../basics/zammad-glossary.rst:144
 msgid ""
@@ -3256,7 +3308,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:205
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentace"
 
 #: ../basics/zammad-glossary.rst:198
 msgid ""
@@ -3278,7 +3330,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:226
 msgid "Elasticsearch"
-msgstr ""
+msgstr "Elasticsearch"
 
 #: ../basics/zammad-glossary.rst:211
 msgid ""
@@ -3400,7 +3452,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:296
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../basics/zammad-glossary.rst:280
 msgid ""
@@ -3437,7 +3489,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:309
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../basics/zammad-glossary.rst:299
 msgid ""
@@ -3489,7 +3541,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:337
 msgid "Groups"
-msgstr ""
+msgstr "Skupiny"
 
 #: ../basics/zammad-glossary.rst:325
 msgid ""
@@ -3524,7 +3576,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:353
 msgid "Icinga"
-msgstr ""
+msgstr "Icinga"
 
 #: ../basics/zammad-glossary.rst:348
 msgid ""
@@ -3558,7 +3610,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:374
 msgid "i-doit"
-msgstr ""
+msgstr "i-doit"
 
 #: ../basics/zammad-glossary.rst:364
 msgid ""
@@ -3616,7 +3668,7 @@ msgstr ""
 #: ../basics/zammad-glossary.rst:409 ../basics/zammad-glossary.rst:611
 #: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
-msgstr ""
+msgstr "Znalostní báze"
 
 #: ../basics/zammad-glossary.rst:397
 msgid ""
@@ -3695,7 +3747,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:447
 msgid "Mentions"
-msgstr ""
+msgstr "Zmínky"
 
 #: ../basics/zammad-glossary.rst:443
 msgid ""
@@ -3740,7 +3792,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:470
 msgid "Monit"
-msgstr ""
+msgstr "Monit"
 
 #: ../basics/zammad-glossary.rst:466
 msgid ""
@@ -3761,7 +3813,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:481
 msgid "Nagios"
-msgstr ""
+msgstr "Nagios"
 
 #: ../basics/zammad-glossary.rst:476
 msgid ""
@@ -3781,7 +3833,7 @@ msgstr ""
 #: ../extras/user-menu-profile-settings.rst:0
 #: ../extras/user-menu-profile-settings.rst:126
 msgid "Notifications"
-msgstr ""
+msgstr "Oznámení"
 
 #: ../basics/zammad-glossary.rst:484
 msgid ""
@@ -3801,7 +3853,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:498 ../extras/customers.rst:0
 msgid "Organization"
-msgstr ""
+msgstr "Organizace"
 
 #: ../basics/zammad-glossary.rst:495
 msgid ""
@@ -3940,7 +3992,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:590
 msgid "Role"
-msgstr ""
+msgstr "Role"
 
 #: ../basics/zammad-glossary.rst:580
 msgid ""
@@ -3972,7 +4024,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:600
 msgid "Scheduler"
-msgstr ""
+msgstr "Plánovač"
 
 #: ../basics/zammad-glossary.rst:596
 msgid ""
@@ -3985,7 +4037,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:620 ../basics/zammad-ui.rst:85
 msgid "Sidebar"
-msgstr ""
+msgstr "Postranní panel"
 
 #: ../basics/zammad-glossary.rst:603
 msgid ""
@@ -4004,7 +4056,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:610 ../extras/user-menu-profile-settings.rst:0
 msgid "Overviews"
-msgstr ""
+msgstr "Přehledy"
 
 #: ../basics/zammad-glossary.rst:612
 msgid "Customer Chat"
@@ -4012,7 +4064,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:613
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: ../basics/zammad-glossary.rst:614
 msgid "One or more open tickets"
@@ -4032,7 +4084,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:629
 msgid "Signature"
-msgstr ""
+msgstr "Podpis"
 
 #: ../basics/zammad-glossary.rst:623
 msgid ""
@@ -4068,7 +4120,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:655
 msgid "SLA"
-msgstr ""
+msgstr "SLA"
 
 #: ../basics/zammad-glossary.rst:645
 msgid ""
@@ -4105,7 +4157,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:670
 msgid "SSO"
-msgstr ""
+msgstr "SSO"
 
 #: ../basics/zammad-glossary.rst:664
 msgid ""
@@ -4144,7 +4196,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:690
 msgid "S/MIME"
-msgstr ""
+msgstr "S/MIME"
 
 #: ../basics/zammad-glossary.rst:683
 msgid ""
@@ -4183,7 +4235,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:720
 msgid "Text module"
-msgstr ""
+msgstr "Textové moduly"
 
 #: ../basics/zammad-glossary.rst:709
 msgid ""
@@ -4243,7 +4295,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:746
 msgid "Trigger"
-msgstr ""
+msgstr "Spouštěč"
 
 #: ../basics/zammad-glossary.rst:742
 msgid ""
@@ -4259,7 +4311,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:755
 msgid "User"
-msgstr ""
+msgstr "Uživatel"
 
 #: ../basics/zammad-glossary.rst:752
 msgid ""
@@ -4296,7 +4348,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:775
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../basics/zammad-glossary.rst:780
 msgid "Y"
@@ -4308,7 +4360,7 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:787
 msgid "Zammad"
-msgstr ""
+msgstr "Zammad"
 
 #: ../basics/zammad-glossary.rst:788
 msgid "Zammad is the greatest helpdesk in the world. Period."
@@ -4316,7 +4368,7 @@ msgstr ""
 
 #: ../basics/zammad-ui.rst:2
 msgid "Zammad UI"
-msgstr ""
+msgstr "Rozhraní Zammadu"
 
 #: ../basics/zammad-ui.rst:4
 msgid ""
@@ -4325,6 +4377,10 @@ msgid ""
 "and accessibility and is based on common software design principles which "
 "should make the UI pretty self explanatory."
 msgstr ""
+"Uživatelské rozhraní (UI) Zammadu je navrženo tak, aby se s ním uživatelům "
+"pracovalo intuitivně. Je postavené na jednoduchosti, přehlednosti a "
+"přístupnosti a vychází z běžných principů návrhu softwaru, takže by mělo být "
+"v podstatě samovysvětlující."
 
 #: ../basics/zammad-ui.rst:9
 msgid ""
@@ -4333,6 +4389,11 @@ msgid ""
 "on the currently opened screen, there are interactive components, such as "
 "tooltips and a contextual help. Use them wherever needed."
 msgstr ""
+"Pro různé funkce existují základní modulární komponenty, které udržují "
+"rozhraní jednotné. Tyto komponenty jsou popsány v následujících částech. "
+"Podle aktuálně otevřené obrazovky jsou k dispozici interaktivní prvky, "
+"například popisky a kontextová nápověda. Využívejte je, kdykoli je "
+"potřebujete."
 
 #: ../basics/zammad-ui.rst:17
 msgid ""
@@ -4479,16 +4540,20 @@ msgid ""
 "History: shows a dialog with the history in the current ticket. This is "
 "where you can find when and what actions was performed and by whom."
 msgstr ""
+"Historie: zobrazí dialog s historií aktuálního tiketu. Zde zjistíte, kdy, "
+"jaké akce a kým byly provedeny."
 
 #: ../basics/zammad-ui.rst:100
 msgid ""
 "Merge: merge the ticket with another one in case a customer emailed you "
 "multiple times about the same issue."
 msgstr ""
+"Sloučit: sloučí tiket s jiným, pokud vám zákazník k jednomu problému napsal "
+"vícekrát."
 
 #: ../basics/zammad-ui.rst:102
 msgid "Change customer: set another customer for the ticket."
-msgstr ""
+msgstr "Změnit zákazníka: nastaví pro tiket jiného zákazníka."
 
 #: ../basics/zammad-ui.rst:107
 msgid "Customer tab"
@@ -4555,7 +4620,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:26
 msgid "Ticket Summary"
-msgstr ""
+msgstr "Shrnutí tiketu"
 
 #: ../extras/ai-features.rst:28
 msgid ""
@@ -4563,6 +4628,9 @@ msgid ""
 "content. This can be a huge time saver when dealing with large tickets and/"
 "or many hand-overs between agents."
 msgstr ""
+"Funkce shrnutí tiketu dělá přesně to, co říká její název: shrne obsah "
+"tiketu. To může ušetřit spoustu času při práci s velkými tikety a/nebo při "
+"častém předávání mezi agenty."
 
 #: ../extras/ai-features.rst:32
 msgid ""
@@ -4590,26 +4658,28 @@ msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
 msgstr ""
+"V závislosti na konfiguraci vaší instance Zammadu obsahuje shrnutí tyto "
+"části:"
 
 #: ../extras/ai-features.rst:47
 msgid "Customer intent"
-msgstr ""
+msgstr "Záměr zákazníka"
 
 #: ../extras/ai-features.rst:48
 msgid "Conversation summary"
-msgstr ""
+msgstr "Shrnutí konverzace"
 
 #: ../extras/ai-features.rst:49
 msgid "Open questions (optional)"
-msgstr ""
+msgstr "Otevřené otázky (volitelné)"
 
 #: ../extras/ai-features.rst:50
 msgid "Upcoming events (optional)"
-msgstr ""
+msgstr "Nadcházející události (volitelné)"
 
 #: ../extras/ai-features.rst:51
 msgid "Customer sentiment (optional)"
-msgstr ""
+msgstr "Nálada zákazníka (volitelné)"
 
 #: ../extras/ai-features.rst:54
 msgid "Writing Assistant Tools"
@@ -4636,6 +4706,9 @@ msgid ""
 "the configuration of your Zammad instance. You might even have additional "
 "custom tools in case your admin added them."
 msgstr ""
+"Zammad obsahuje výchozí nástroje asistenta psaní. Jejich dostupnost závisí "
+"na konfiguraci vaší instance Zammadu. Pokud je váš správce přidal, můžete "
+"mít k dispozici i další vlastní nástroje."
 
 #: ../extras/ai-features.rst:70
 msgid ""
@@ -4651,12 +4724,16 @@ msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
 msgstr ""
+"**Opravit pravopis a gramatiku**: zkontroluje váš text a odstraní pravopisné "
+"a gramatické chyby."
 
 #: ../extras/ai-features.rst:77
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
 msgstr ""
+"**Zkrátit část zhruba na polovinu současné délky**: zkrátí váš text a "
+"zachová jeho sdělení i tón."
 
 #: ../extras/ai-features.rst:79
 msgid ""
@@ -4683,7 +4760,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:94
 msgid "Knowledge Base Assistant"
-msgstr ""
+msgstr "Asistent znalostní báze"
 
 #: ../extras/ai-features.rst:None
 msgid ""
@@ -4693,7 +4770,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:101
 msgid "Knowledge Base Answer Generation"
-msgstr ""
+msgstr "Generování odpovědí znalostní báze"
 
 #: ../extras/ai-features.rst:103
 msgid ""
@@ -4714,39 +4791,47 @@ msgstr ""
 
 #: ../extras/ai-features.rst:114
 msgid "Things to consider:"
-msgstr ""
+msgstr "Na co pamatovat:"
 
 #: ../extras/ai-features.rst:116
 msgid ""
 "The knowledge base answer is generated as draft and not published "
 "automatically."
 msgstr ""
+"Odpověď znalostní báze se vygeneruje jako koncept a automaticky se "
+"nezveřejní."
 
 #: ../extras/ai-features.rst:118
 msgid "You are set as the answer's author."
-msgstr ""
+msgstr "Jako autor odpovědi jste nastaveni vy."
 
 #: ../extras/ai-features.rst:119
 msgid "The answer is generated in the default language of your knowledge base."
-msgstr ""
+msgstr "Odpověď se vygeneruje ve výchozím jazyce vaší znalostní báze."
 
 #: ../extras/ai-features.rst:120
 msgid ""
 "The answer includes a note in the content and a tag (``ai-generated``) about "
 "the AI generation."
 msgstr ""
+"Odpověď obsahuje v textu poznámku a štítek (``ai-generated``) o tom, že ji "
+"vygenerovala AI."
 
 #: ../extras/ai-features.rst:122
 msgid ""
 "A link to the answer is added to the ticket from which you triggered the "
 "answer generation."
 msgstr ""
+"Do tiketu, ze kterého jste generování odpovědi spustili, se přidá odkaz na "
+"odpověď."
 
 #: ../extras/ai-features.rst:124
 msgid ""
 "The answer is created in a knowledge base category for which you have editor "
 "permissions. The AI chooses one of these categories."
 msgstr ""
+"Odpověď se vytvoří v kategorii znalostní báze, ke které máte oprávnění "
+"editora. Jednu z těchto kategorií vybere AI."
 
 #: ../extras/ai-features.rst:127
 msgid ""
@@ -4754,6 +4839,9 @@ msgid ""
 "dialog before creating a new one. This gives you the chance to review "
 "existing related answers to prevent duplicate submissions."
 msgstr ""
+"Pokud podobná odpověď znalostní báze již existuje, Zammad ji před vytvořením "
+"nové zobrazí v dialogu. Máte tak možnost projít existující související "
+"odpovědi a předejít duplicitám."
 
 #: ../extras/ai-features.rst:132
 msgid "Knowledge Base Answer Suggestion"
@@ -4775,10 +4863,12 @@ msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
 msgstr ""
+"Pokud nejsou k dispozici žádné návrhy, zobrazí se místo nich zpráva \"Žádné "
+"návrhy.\""
 
 #: ../extras/ai-features.rst:147
 msgid "AI Agents"
-msgstr ""
+msgstr "AI agenti"
 
 #: ../extras/ai-features.rst:149
 msgid ""
@@ -4792,7 +4882,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:164
 msgid "Ticket history"
-msgstr ""
+msgstr "Historie tiketu"
 
 #: ../extras/ai-features.rst:157
 msgid ""
@@ -4811,7 +4901,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:175
 msgid "Simultaneous work detection"
-msgstr ""
+msgstr "Detekce současné práce"
 
 #: ../extras/ai-features.rst:167
 msgid ""
@@ -4823,7 +4913,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:172
 msgid "Avatar of AI agent:"
-msgstr ""
+msgstr "Avatar AI agenta:"
 
 #: ../extras/ai-features.rst:0
 msgid "Screenshot shows avatar of an AI agent"
@@ -4831,13 +4921,15 @@ msgstr ""
 
 #: ../extras/ai-features.rst:181
 msgid "Overview indicator"
-msgstr ""
+msgstr "Indikátor v přehledu"
 
 #: ../extras/ai-features.rst:178
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
 msgstr ""
+"Běžící AI agent je v přehledech vyznačen ve sloupci stavu. Stavové kolečko "
+"se změní na kolečko s modro-růžovým přechodem:"
 
 #: ../extras/ai-features.rst:0
 msgid ""
@@ -5131,7 +5223,7 @@ msgstr ""
 
 #: ../extras/checklist.rst:2
 msgid "Checklist"
-msgstr ""
+msgstr "Kontrolní seznam"
 
 #: ../extras/checklist.rst:4
 msgid ""
@@ -5151,11 +5243,11 @@ msgstr ""
 
 #: ../extras/checklist.rst:15
 msgid "Usage"
-msgstr ""
+msgstr "Použití"
 
 #: ../extras/checklist.rst:18 ../index.rst:9
 msgid "Basics"
-msgstr ""
+msgstr "Základy"
 
 #: ../extras/checklist.rst:20
 msgid ""
@@ -5359,7 +5451,7 @@ msgstr ""
 
 #: ../extras/customers.rst:0
 msgid "VIP"
-msgstr ""
+msgstr "VIP"
 
 #: ../extras/customers.rst:64
 msgid ""
@@ -6002,7 +6094,7 @@ msgstr ""
 
 #: ../extras/knowledge-base.rst:237
 msgid "Visibility"
-msgstr ""
+msgstr "Viditelnost"
 
 #: ../extras/knowledge-base.rst:215
 msgid ""
@@ -6068,7 +6160,7 @@ msgstr ""
 #: ../extras/mobile-view.rst:18 ../extras/mobile-view.rst:162
 #: ../extras/mobile-view.rst:183
 msgid "Login Screen"
-msgstr ""
+msgstr "Přihlašovací obrazovka"
 
 #: ../extras/mobile-view.rst:0
 msgid "Mobile View Home Page"
@@ -6142,41 +6234,43 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:105
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
 #: ../extras/mobile-view.rst:107
 msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
 msgstr ""
+"Mobilní zobrazení vám umožňuje vyřizovat běžné každodenní úkoly v Zammadu i "
+"na cestách:"
 
 #: ../extras/mobile-view.rst:110
 msgid "Manage & use your ticket overviews"
-msgstr ""
+msgstr "Správa a používání přehledů tiketů"
 
 #: ../extras/mobile-view.rst:111
 msgid "Search for existing records"
-msgstr ""
+msgstr "Hledání existujících záznamů"
 
 #: ../extras/mobile-view.rst:113
 msgid "Reply in an already existing ticket"
-msgstr ""
+msgstr "Odpověď v existujícím tiketu"
 
 #: ../extras/mobile-view.rst:114
 msgid "Modify ticket attributes"
-msgstr ""
+msgstr "Úprava atributů tiketu"
 
 #: ../extras/mobile-view.rst:115
 msgid "Modify customer attributes"
-msgstr ""
+msgstr "Úprava atributů zákazníka"
 
 #: ../extras/mobile-view.rst:116
 msgid "Modify organization attributes"
-msgstr ""
+msgstr "Úprava atributů organizace"
 
 #: ../extras/mobile-view.rst:117
 msgid "Track time on ticket articles"
-msgstr ""
+msgstr "Vykazování času u článků tiketu"
 
 #: ../extras/mobile-view.rst:119
 msgid "Mobile view also has some exclusive features:"
@@ -6200,13 +6294,15 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:127
 msgid "Limitations"
-msgstr ""
+msgstr "Omezení"
 
 #: ../extras/mobile-view.rst:129
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
 msgstr ""
+"V mobilním zobrazení zatím chybí také některé funkce, které nabízí "
+"desktopové zobrazení:"
 
 #: ../extras/mobile-view.rst:132
 msgid "Ticket Article **Split** Action"
@@ -6218,7 +6314,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:134
 msgid "Ticket Macros"
-msgstr ""
+msgstr "Maker tiketů"
 
 #: ../extras/mobile-view.rst:135
 msgid "Ticket History"
@@ -6249,7 +6345,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:144
 msgid "Reports"
-msgstr ""
+msgstr "Reporty"
 
 #: ../extras/mobile-view.rst:149
 msgid "Access"
@@ -6302,7 +6398,7 @@ msgstr ""
 
 #: ../extras/organizations.rst:2
 msgid "Organizations"
-msgstr ""
+msgstr "Organizace"
 
 #: ../extras/organizations.rst:4
 msgid ""
@@ -6389,7 +6485,7 @@ msgstr ""
 
 #: ../extras/reporting.rst:None
 msgid "Menu bar with highlighted reporting"
-msgstr ""
+msgstr "Panel nabídky se zvýrazněnými reporty"
 
 #: ../extras/reporting.rst:12
 msgid "If you can't see the reporting button, you have no permission for it."
@@ -6448,25 +6544,27 @@ msgstr ""
 
 #: ../extras/secure-email.rst:4
 msgid "Zammad supports two systems for secure email communication:"
-msgstr ""
+msgstr "Zammad podporuje dva systémy pro zabezpečenou e-mailovou komunikaci:"
 
 #: ../extras/secure-email.rst:6
 msgid "**PGP** (Pretty Good Privacy)"
-msgstr ""
+msgstr "**PGP** (Pretty Good Privacy)"
 
 #: ../extras/secure-email.rst:7
 msgid "**S/MIME** (Secure/Multipurpose Internet Mail Extensions)"
-msgstr ""
+msgstr "**S/MIME** (Secure/Multipurpose Internet Mail Extensions)"
 
 #: ../extras/secure-email.rst:9
 msgid ""
 "Both systems allow you to exchange **signed** and **encrypted** messages "
 "with others."
 msgstr ""
+"Oba systémy umožňují vyměňovat si s ostatními **podepsané** a "
+"**zašifrované** zprávy."
 
 #: ../extras/secure-email.rst:13
 msgid "Prerequisites"
-msgstr ""
+msgstr "Předpoklady"
 
 #: ../extras/secure-email.rst:15
 msgid ""
@@ -6477,13 +6575,15 @@ msgstr ""
 
 #: ../extras/secure-email.rst:18
 msgid "PGP and S/MIME only work if the other party is using them too."
-msgstr ""
+msgstr "PGP a S/MIME fungují jen tehdy, pokud je používá i druhá strana."
 
 #: ../extras/secure-email.rst:19
 msgid ""
 "Your administrator is responsible for adding all necessary certificates and "
 "keys in Zammad's admin settings."
 msgstr ""
+"Za přidání všech potřebných certifikátů a klíčů v administraci Zammadu "
+"odpovídá váš administrátor."
 
 #: ../extras/secure-email.rst:23
 msgid ""
@@ -6508,6 +6608,13 @@ msgid ""
 "with turned off encryption and activated signing). Read on to learn more "
 "about it and to find common errors."
 msgstr ""
+"Pokud jsou tyto požadavky splněny, funkce by měla fungovat hned a Zammad "
+"bude e-maily podle možností šifrovat, dešifrovat, podepisovat a ověřovat "
+"jejich podpisy. Váš administrátor může pro každou skupinu nastavit výchozí "
+"chování. U každého odchozího e-mailového článku ale můžete výchozí nastavení "
+"sami změnit tím, že šifrování a podepisování zapnete nebo vypnete (viz "
+"příklad na snímku obrazovky níže s vypnutým šifrováním a zapnutým "
+"podepisováním). V dalším textu se dozvíte více a najdete i časté chyby."
 
 #: ../extras/secure-email.rst:None
 msgid ""
@@ -6521,7 +6628,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:45
 msgid "Signing"
-msgstr ""
+msgstr "Podepisování"
 
 #: ../extras/secure-email.rst:44
 msgid ""
@@ -6531,7 +6638,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:49
 msgid "Encryption"
-msgstr ""
+msgstr "Šifrování"
 
 #: ../extras/secure-email.rst:48
 msgid ""
@@ -6550,6 +6657,10 @@ msgid ""
 "In the details, you can hover over the security status to see more "
 "information."
 msgstr ""
+"Ikony zámku a zaškrtnutí v horní části zprávy ukazují stav jejího šifrování "
+"a podpisu. Kliknutím na příchozí článek zprávy rozbalíte jeho podrobnosti. V "
+"podrobnostech můžete najet myší na stav zabezpečení a zobrazit další "
+"informace."
 
 #: ../extras/secure-email.rst:58
 msgid "Status Icons for Incoming Emails"
@@ -6659,11 +6770,11 @@ msgstr ""
 
 #: ../extras/secure-email.rst:109
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Řešení problémů"
 
 #: ../extras/secure-email.rst:126
 msgid "Sign: Unable to find certificate for validation"
-msgstr ""
+msgstr "Podpis: Certifikát pro ověření nebyl nalezen"
 
 #: ../extras/secure-email.rst:0
 msgid ""
@@ -6676,6 +6787,9 @@ msgid ""
 "signature. Ask your administrator to add the sender's certificate to "
 "Zammad's certificate store."
 msgstr ""
+"Bez certifikátu odesílatele nemůže Zammad ověřit podpis zprávy. Požádejte "
+"svého administrátora, aby certifikát odesílatele přidal do úložiště "
+"certifikátů v Zammadu."
 
 #: ../extras/secure-email.rst:123
 msgid ""
@@ -6687,7 +6801,7 @@ msgstr ""
 
 #: ../extras/secure-email.rst:137
 msgid "Encryption: Unable to find private key to decrypt"
-msgstr ""
+msgstr "Šifrování: Soukromý klíč pro dešifrování nebyl nalezen"
 
 #: ../extras/secure-email.rst:0
 msgid ""
@@ -6705,23 +6819,27 @@ msgstr ""
 
 #: ../extras/secure-email.rst:144
 msgid "The ``Encrypt`` button is disabled"
-msgstr ""
+msgstr "Tlačítko ``Šifrovat`` je neaktivní"
 
 #: ../extras/secure-email.rst:143
 msgid ""
 "Ask your administrator to add the recipient's certificate to Zammad's "
 "certificate store."
 msgstr ""
+"Požádejte svého administrátora, aby certifikát příjemce přidal do úložiště "
+"certifikátů v Zammadu."
 
 #: ../extras/secure-email.rst:148
 msgid "The ``Sign`` button is disabled"
-msgstr ""
+msgstr "Tlačítko ``Podepsat`` je neaktivní"
 
 #: ../extras/secure-email.rst:147
 msgid ""
 "Ask your administrator to verify your organization's private key in Zammad's "
 "certificate store."
 msgstr ""
+"Požádejte svého administrátora, aby v úložišti certifikátů v Zammadu ověřil "
+"soukromý klíč vaší organizace."
 
 #: ../extras/secure-email.rst:153
 msgid "I can see a ``PGP`` and ``S/MIME`` button. What should I do?"
@@ -6737,7 +6855,7 @@ msgstr ""
 
 #: ../extras/shared-drafts.rst:2
 msgid "Shared Drafts"
-msgstr ""
+msgstr "Sdílené koncepty"
 
 #: ../extras/shared-drafts.rst:7
 msgid ""
@@ -6884,7 +7002,7 @@ msgstr ""
 
 #: ../extras/two-factor-authentication.rst:2
 msgid "Two-Factor Authentication"
-msgstr ""
+msgstr "Dvoufaktorové ověřování"
 
 #: ../extras/two-factor-authentication.rst:4
 msgid ""
@@ -6928,7 +7046,7 @@ msgstr ""
 
 #: ../extras/two-factor-authentication.rst:31
 msgid "In a modal dialog, you will be asked to confirm your current password."
-msgstr ""
+msgstr "V modálním dialogu budete požádáni o potvrzení aktuálního hesla."
 
 #: ../extras/two-factor-authentication.rst:None
 msgid "Password Check Modal Dialog"
@@ -6967,6 +7085,8 @@ msgid ""
 "authentication method, you can switch to another one, provided you have set "
 "it up previously."
 msgstr ""
+"Pokud máte při přihlašování potíže s preferovanou metodou dvoufaktorového "
+"ověřování, můžete přepnout na jinou, pokud jste ji předtím nastavili."
 
 #: ../extras/two-factor-authentication.rst:71
 msgid ""
@@ -7129,12 +7249,18 @@ msgid ""
 "verification. After setting up the authenticator app on your device, you "
 "will link it to your Zammad account."
 msgstr ""
+"Metoda autentizační aplikace je typ dvoufaktorového ověřování, který k "
+"ověření účtu používá mobilní aplikaci generující jednorázové kódy. Po "
+"nastavení autentizační aplikace ve svém zařízení ji propojíte se svým účtem "
+"v Zammadu."
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:13
 msgid ""
 "First, make sure you have installed an authenticator app on your mobile "
 "device. Recommended apps are:"
 msgstr ""
+"Nejprve se ujistěte, že máte v mobilním zařízení nainstalovanou autentizační "
+"aplikaci. Doporučené aplikace:"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:16
 msgid ""
@@ -7189,7 +7315,7 @@ msgstr ""
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:None
 msgid "Security Code in Google Authenticator App"
-msgstr ""
+msgstr "Bezpečnostní kód v aplikaci Google Authenticator"
 
 #: ../extras/two-factor-authentication/authenticator-app-sign-in.rst:13
 msgid ""
@@ -7261,6 +7387,8 @@ msgid ""
 "can prove you are in physical possession of it (e.g. enter its PIN to unlock "
 "it)."
 msgstr ""
+"Prohlížeč vás může požádat o interakci s klíčem nebo zařízením, abyste "
+"prokázali, že ho fyzicky vlastníte (např. zadáním PIN kódu k jeho odemčení)."
 
 #: ../extras/two-factor-authentication/security-keys-setup.rst:41
 msgid ""
@@ -7379,7 +7507,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:28
 msgid "Dark mode"
-msgstr ""
+msgstr "Tmavý režim"
 
 #: ../extras/user-menu-profile-settings.rst:28
 msgid "Quickly toggle dark and light mode without using a keyboard shortcut."
@@ -7466,7 +7594,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: ../extras/user-menu-profile-settings.rst:85
 msgid "Set the system display language."
@@ -7610,7 +7738,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Calendar"
-msgstr ""
+msgstr "Kalendář"
 
 #: ../extras/user-menu-profile-settings.rst:183
 msgid ""
@@ -7620,7 +7748,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Devices"
-msgstr ""
+msgstr "Zařízení"
 
 #: ../extras/user-menu-profile-settings.rst:188
 msgid ""
@@ -7630,7 +7758,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Token Access"
-msgstr ""
+msgstr "Přístup přes token"
 
 #: ../extras/user-menu-profile-settings.rst:193
 msgid ""
