@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-02 23:12+0000\n"
+"PO-Revision-Date: 2026-10-15 09:23+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -182,7 +182,7 @@ msgstr "Öffnet Benachrichtigungen"
 msgid ":kbd:`n`"
 msgstr ":kbd:`n`"
 
-#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:112
+#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:120
 msgid "Create a new ticket"
 msgstr "Erstellen eines neuen Tickets"
 
@@ -1555,9 +1555,9 @@ msgstr ""
 "``Suchdetails anzeigen`` klicken."
 
 #: ../advanced/tabs.rst:41 ../basics/zammad-ui.rst:82
-#: ../extras/mobile-view.rst:31 ../extras/mobile-view.rst:53
-#: ../extras/mobile-view.rst:75 ../extras/mobile-view.rst:97
-#: ../extras/mobile-view.rst:174 ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:33 ../extras/mobile-view.rst:57
+#: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:223 ../extras/mobile-view.rst:253
 #: ../extras/user-menu-profile-settings.rst:57
 msgid "x"
 msgstr "x"
@@ -4861,9 +4861,9 @@ msgstr ""
 "Weitere Informationen finden Sie auf unserer `Nagios-Funktionsseite <https://"
 "zammad.com/en/product/features/nagios-integration>`_."
 
-#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
+#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:92
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:126
+#: ../extras/user-menu-profile-settings.rst:130
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
@@ -6298,7 +6298,7 @@ msgstr ""
 "Screenshot zeigt einen Kreis für den Ticketstatus aus einer Übersicht, der "
 "signalisiert, dass ein KI-Agent gerade daran arbeitet"
 
-#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:145
+#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:186
 msgid "Caller Log"
 msgstr "Anrufprotokoll"
 
@@ -6470,7 +6470,7 @@ msgstr ""
 "Bestehende Anrufprotokolleinträge werden *nicht* aktualisiert, wenn Sie "
 "einen bestehenden Kunden aktualisieren."
 
-#: ../extras/chat.rst:2 ../extras/mobile-view.rst:146
+#: ../extras/chat.rst:2 ../extras/mobile-view.rst:187
 msgid "Live Chat"
 msgstr "Live-Chat"
 
@@ -7862,8 +7862,8 @@ msgstr "Login & Start"
 msgid "Mobile View Login Screen"
 msgstr "Mobile Ansicht Login-Bildschirm"
 
-#: ../extras/mobile-view.rst:18 ../extras/mobile-view.rst:162
-#: ../extras/mobile-view.rst:183
+#: ../extras/mobile-view.rst:19 ../extras/mobile-view.rst:210
+#: ../extras/mobile-view.rst:240
 msgid "Login Screen"
 msgstr "Anmelde-Ansicht"
 
@@ -7871,11 +7871,11 @@ msgstr "Anmelde-Ansicht"
 msgid "Mobile View Home Page"
 msgstr "Mobile Ansicht Start"
 
-#: ../extras/mobile-view.rst:27
+#: ../extras/mobile-view.rst:29
 msgid "Home Page"
 msgstr "Startseite"
 
-#: ../extras/mobile-view.rst:33
+#: ../extras/mobile-view.rst:35
 msgid "Search & Overview"
 msgstr "Suche & Übersicht"
 
@@ -7883,7 +7883,7 @@ msgstr "Suche & Übersicht"
 msgid "Mobile View Search Results"
 msgstr "Mobile Ansicht Suchergebnisse"
 
-#: ../extras/mobile-view.rst:41
+#: ../extras/mobile-view.rst:44
 msgid "Search Results"
 msgstr "Suchergebnisse"
 
@@ -7891,11 +7891,11 @@ msgstr "Suchergebnisse"
 msgid "Mobile View Ticket Overview"
 msgstr "Öffnen Sie eine Ticket-Übersicht"
 
-#: ../extras/mobile-view.rst:49
+#: ../extras/mobile-view.rst:53
 msgid "Ticket Overview"
 msgstr "Ansicht Ticketverlauf"
 
-#: ../extras/mobile-view.rst:55
+#: ../extras/mobile-view.rst:59
 msgid "Ticket Details"
 msgstr "Ticketdetails"
 
@@ -7903,7 +7903,7 @@ msgstr "Ticketdetails"
 msgid "Mobile View Ticket Detail View"
 msgstr "Mobile Ticketdetailansicht"
 
-#: ../extras/mobile-view.rst:63
+#: ../extras/mobile-view.rst:68
 msgid "Ticket Detail View"
 msgstr "Ticket Detailansicht"
 
@@ -7911,11 +7911,11 @@ msgstr "Ticket Detailansicht"
 msgid "Mobile View Ticket Information"
 msgstr "Mobile Ansicht Ticketinformation"
 
-#: ../extras/mobile-view.rst:71
+#: ../extras/mobile-view.rst:77
 msgid "Ticket Information"
 msgstr "Ticket-Informationen"
 
-#: ../extras/mobile-view.rst:77
+#: ../extras/mobile-view.rst:83
 msgid "Notifications & Account"
 msgstr "Benachrichtigungen & Konto"
 
@@ -7927,11 +7927,11 @@ msgstr "Benachrichtigungen mobile Ansicht"
 msgid "Mobile View Account Overview"
 msgstr "Mobile Ansicht Kontoübersicht"
 
-#: ../extras/mobile-view.rst:93
+#: ../extras/mobile-view.rst:101
 msgid "Account Overview"
 msgstr "Konto-Übersicht"
 
-#: ../extras/mobile-view.rst:101
+#: ../extras/mobile-view.rst:109
 msgid ""
 "We intentionally do not provide specific instructions for the mobile view. "
 "The overall UX should be intuitive and self-explanatory in most cases."
@@ -7940,11 +7940,11 @@ msgstr ""
 "geben. Die Benutzererfahrung sollte in den meisten Fällen intuitiv und "
 "selbsterklärend sein."
 
-#: ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:113
 msgid "Features"
 msgstr "Features"
 
-#: ../extras/mobile-view.rst:107
+#: ../extras/mobile-view.rst:115
 msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
@@ -7952,59 +7952,140 @@ msgstr ""
 "Die Mobilansicht bietet Ihnen die Möglichkeit, Ihre täglichen Aufgaben mit "
 "Zammad auch unterwegs zu erledigen:"
 
-#: ../extras/mobile-view.rst:110
+#: ../extras/mobile-view.rst:118
 msgid "Manage & use your ticket overviews"
 msgstr "Verwalten und nutzen Sie Ihre Ticket-Übersichten"
 
-#: ../extras/mobile-view.rst:111
+#: ../extras/mobile-view.rst:119
 msgid "Search for existing records"
 msgstr "Suche nach vorhandenen Datensätzen"
 
-#: ../extras/mobile-view.rst:113
+#: ../extras/mobile-view.rst:121
 msgid "Reply in an already existing ticket"
 msgstr "Antworten in einem existierenden Ticket"
 
-#: ../extras/mobile-view.rst:114
+#: ../extras/mobile-view.rst:122
 msgid "Modify ticket attributes"
 msgstr "Ändern von Ticketattributen"
 
-#: ../extras/mobile-view.rst:115
+#: ../extras/mobile-view.rst:123
 msgid "Modify customer attributes"
 msgstr "Ändern von Kundenattributen"
 
-#: ../extras/mobile-view.rst:116
+#: ../extras/mobile-view.rst:124
 msgid "Modify organization attributes"
 msgstr "Ändern von Organisations-Attributen"
 
-#: ../extras/mobile-view.rst:117
+#: ../extras/mobile-view.rst:125
 msgid "Track time on ticket articles"
 msgstr "Zeiterfassung für Ticket-Artikel"
 
-#: ../extras/mobile-view.rst:119
+#: ../extras/mobile-view.rst:127
 msgid "Mobile view also has some exclusive features:"
 msgstr "Die mobile Ansicht hat sogar exklusive Features:"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:129
 msgid "Innovative Zammad UX"
 msgstr "Innovative Benutzererfahrung in Zammad"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:130
 msgid "Next-level accessibility"
 msgstr "Barrierefreiheit auf einem anderen Niveau"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:131
 msgid "Ready for multi-device usage"
 msgstr "Nutzung mit mehreren Geräten gleichzeitig"
 
-#: ../extras/mobile-view.rst:124
+#: ../extras/mobile-view.rst:132
 msgid "Progressive web app (PWA) support"
 msgstr "Unterstützung für Progressive Web App (PWA)"
 
-#: ../extras/mobile-view.rst:127
+#: ../extras/mobile-view.rst:135
+msgid "Push Notifications"
+msgstr "Push-Benachrichtigungen"
+
+#: ../extras/mobile-view.rst:137
+msgid ""
+"The mobile view can notify you about your tickets on your mobile device, "
+"even when the app is not open. Push notifications are turned on per device, "
+"not for your account as a whole: you can have them on your phone and leave "
+"them off on a tablet."
+msgstr ""
+"Die Mobilansicht kann Sie über Ihre Tickets auf Ihrem mobilen Gerät "
+"benachrichtigen, auch wenn die App nicht geöffnet ist. Push-"
+"Benachrichtigungen werden pro Gerät aktiviert, nicht für Ihr Konto als "
+"Ganzes: Sie können sie zum Beispiel auf Ihrem Telefon aktivieren und auf "
+"einem Tablet deaktivieren."
+
+#: ../extras/mobile-view.rst:142
+msgid ""
+"Turn them on with the **Push notifications on this device** switch in the "
+"**Notifications** section of your account page. If the switch is locked, the "
+"text below it tells you what is missing."
+msgstr ""
+"Aktivieren Sie die Funktion mit dem Schalter **Push-Benachrichtigungen auf "
+"diesem Gerät** im Bereich **Benachrichtigungen** auf Ihrer Konto-Seite. Wenn "
+"der Schalter gesperrt ist wird unterhalb davon angezeigt, woran es liegt."
+
+#: ../extras/mobile-view.rst:146
+msgid ""
+"Every notification Zammad creates for you is also sent to your device, for "
+"example about new tickets, ticket updates, reached reminders or escalations. "
+"A push shows the same text as the entry in the notification list, and "
+"tapping it opens the ticket in the app."
+msgstr ""
+"Jede Benachrichtigung von Zammad wird ebenfalls an Ihr Gerät gesendet, zum "
+"Beispiel über neue Tickets, Ticket-Updates, erreichte Erinnerungen oder "
+"Eskalationen. Eine Push-Benachrichtigung zeigt denselben Text wie der "
+"Eintrag in der Benachrichtigungsliste, und beim Antippen wird das Ticket in "
+"der App geöffnet."
+
+#: ../extras/mobile-view.rst:151
+msgid ""
+"On iPhone and iPad, push notifications are only available in the app added "
+"to the home screen with iOS or iPadOS 16.4 or later. Open the mobile view in "
+"Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
+"installed app and the browser can both receive them."
+msgstr ""
+"Auf iPhone und iPad sind Push-Benachrichtigungen nur in einer App verfügbar, "
+"die mit iOS oder iPadOS 16.4 oder neuer zum Home-Bildschirm hinzugefügt "
+"wurde. Öffnen Sie die Mobilansicht in Safari, tippen Sie auf ``Teilen`` und "
+"dann auf ``Zu Home-Bildschirm hinzufügen``. Unter Android können sowohl "
+"installierte Apps als auch der Browser Push-Benachrichtigungen empfangen."
+
+#: ../extras/mobile-view.rst:156
+msgid ""
+"If you turned notifications off for the app in the settings of your device, "
+"the switch stays locked until you allow them there again. A browser whose "
+"push service Zammad does not support cannot enable push notifications at "
+"all. Turn the switch off again to stop receiving them; signing out removes "
+"the device as well."
+msgstr ""
+"Falls Sie die Benachrichtigungen für die App in den Einstellungen Ihres "
+"Geräts deaktiviert haben, bleibt der Schalter gesperrt, bis Sie sie dort "
+"wieder aktivieren. In einem Browser, dessen Push-Dienst von Zammad nicht "
+"unterstützt wird, können Push-Benachrichtigungen überhaupt nicht aktiviert "
+"werden. Schalten Sie den Schalter wieder aus, um den Empfang zu beenden. "
+"Durch ein Abmelden wird das Gerät ebenfalls entfernt."
+
+#: ../extras/mobile-view.rst:162
+msgid ""
+"Push notifications are delivered by the push service of your browser and not "
+"by Zammad, so they can be delayed, for example by battery optimization on "
+"Android devices. While you are working in the desktop view, Zammad does not "
+"send push notifications to your mobile devices."
+msgstr ""
+"Push-Benachrichtigungen werden über den Push-Dienst Ihres Browsers und nicht "
+"von Zammad übermittelt. Daher kann es zu Verzögerungen kommen, "
+"beispielsweise aufgrund der Akkuoptimierung auf Android-Geräten. Solange Sie "
+"in der Desktop-Ansicht arbeiten, sendet Zammad keine Push-Benachrichtigungen "
+"an Ihre Mobilgeräte."
+
+#: ../extras/mobile-view.rst:168
 msgid "Limitations"
 msgstr "Einschränkungen"
 
-#: ../extras/mobile-view.rst:129
+#: ../extras/mobile-view.rst:170
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
@@ -8012,28 +8093,28 @@ msgstr ""
 "Der mobilen Ansicht fehlen aktuell Features, die in der Desktop-Oberfläche "
 "vorhanden sind:"
 
-#: ../extras/mobile-view.rst:132
+#: ../extras/mobile-view.rst:173
 msgid "Ticket Article **Split** Action"
 msgstr "Artikel **abspalten**"
 
-#: ../extras/mobile-view.rst:133
+#: ../extras/mobile-view.rst:174
 msgid "Linked Tickets & Ticket **Link** Action"
 msgstr ""
 "Tickets **zusammenfassen** und die Anzeige von zusammengefassten Tickets"
 
-#: ../extras/mobile-view.rst:134
+#: ../extras/mobile-view.rst:175
 msgid "Ticket Macros"
 msgstr "Ticket-Makros"
 
-#: ../extras/mobile-view.rst:135
+#: ../extras/mobile-view.rst:176
 msgid "Ticket History"
 msgstr "Ticket-Historie"
 
-#: ../extras/mobile-view.rst:136
+#: ../extras/mobile-view.rst:177
 msgid "Ticket Create Templates & Shared Drafts"
 msgstr "Ticket-Vorlagen erstellen und geteilte Entwürfe"
 
-#: ../extras/mobile-view.rst:138
+#: ../extras/mobile-view.rst:179
 msgid ""
 "Additionally, certain features were intentionally omitted in order to "
 "improve the focus on important information:"
@@ -8041,32 +8122,32 @@ msgstr ""
 "Außerdem wurden bestimmte Features weggelassen, um Ihren Fokus auf die "
 "wichtigsten Informationen zu richten:"
 
-#: ../extras/mobile-view.rst:141
+#: ../extras/mobile-view.rst:182
 msgid ""
 "Most Management Features (except ticket user and organization management)"
 msgstr ""
 "Die meisten Verwaltungs-Funktionen (außer Benutzer- und Organisations-"
 "Verwaltung)"
 
-#: ../extras/mobile-view.rst:142
+#: ../extras/mobile-view.rst:183
 msgid "Most Knowledge Base Features (except ticket integration)"
 msgstr "Ein Großteil der Knowledge Base Features (außer Ticketintegration)"
 
-#: ../extras/mobile-view.rst:143
+#: ../extras/mobile-view.rst:184
 msgid "Most User Profile Functions (except avatar and language preferences)"
 msgstr ""
 "Die meisten Profilfunktionen für Benutzer (außer Avatar- und "
 "Spracheinstellungen)"
 
-#: ../extras/mobile-view.rst:144
+#: ../extras/mobile-view.rst:185
 msgid "Reports"
 msgstr "Berichte"
 
-#: ../extras/mobile-view.rst:149
+#: ../extras/mobile-view.rst:190
 msgid "Access"
 msgstr "Zugriff"
 
-#: ../extras/mobile-view.rst:151
+#: ../extras/mobile-view.rst:192
 msgid ""
 "Zammad now implements a mobile device detection, which results in automatic "
 "redirection to mobile view. Even with this mechanism in place it's possible "
@@ -8076,9 +8157,20 @@ msgstr ""
 "auf die mobile Ansicht um. Sie können allerdings weiterhin zwischen den "
 "Ansichten wechseln, indem Sie die entsprechenden Links aufrufen:"
 
-#: ../extras/mobile-view.rst:174
-msgid "Continue to desktop link in mobile view"
-msgstr "Link \"Weiter zur Desktop-Ansicht\" in der mobilen Ansicht"
+#: ../extras/mobile-view.rst:197
+msgid "Continue to Desktop Link in Mobile View"
+msgstr "Link \"Weiter mit Desktop\" in der Mobilansicht"
+
+#: ../extras/mobile-view.rst:199
+msgid ""
+"On the login screen, use the **Continue to desktop** link below the ``Sign "
+"in`` button. While you are signed in, open your account page with the avatar "
+"in the bottom navigation and use the **Continue to desktop** entry there."
+msgstr ""
+"Auf dem Anmeldebildschirm verwenden Sie den Link **Weiter mit Desktop** "
+"unterhalb der Schaltfläche ``Anmelden``. Wenn Sie angemeldet sind, öffnen "
+"Sie Ihre Kontoseite mit dem Avatar in der unteren Navigation und verwenden "
+"Sie dort den Eintrag **Weiter mit Desktop**."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -8088,13 +8180,26 @@ msgstr "Weiter zur Desktop-Ansicht im Anmeldebildschirm"
 msgid "Continue to Desktop Link in User Account Overview"
 msgstr "Link \"Weiter zur Desktop-Ansicht\" in der Benutzerkonto-Übersicht"
 
-#: ../extras/mobile-view.rst:170
+#: ../extras/mobile-view.rst:219
 msgid "User Account Overview"
 msgstr "Benutzerkonto-Übersicht"
 
-#: ../extras/mobile-view.rst:195
-msgid "Continue to mobile link in desktop view"
-msgstr "Weiter zur mobilen Ansicht in der Desktop Ansicht"
+#: ../extras/mobile-view.rst:226
+msgid "Continue to Mobile Link in Desktop View"
+msgstr "Weiter mit mobil in der Desktop Ansicht"
+
+#: ../extras/mobile-view.rst:228
+msgid ""
+"On the login screen of the desktop view, use the **Continue to mobile** link "
+"below the ``Sign in`` button. While you are signed in, use the **Continue to "
+"mobile** entry in the user menu, which your avatar at the bottom of the "
+"navigation sidebar opens."
+msgstr ""
+"Auf dem Anmeldebildschirm in der Desktop-Ansicht verwenden Sie den Link "
+"**Weiter zu Mobil** unterhalb der Schaltfläche ``Anmelden``. Wenn Sie "
+"angemeldet sind, verwenden Sie den Eintrag **Weiter zu Mobil** im "
+"Benutzermenü, welches Sie über Ihren Avatar in der Navigations-Seitenleiste "
+"öffnen können."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -8104,11 +8209,11 @@ msgstr "Weiter zur mobilen Ansicht im Desktop Anmeldebildschirm"
 msgid "Continue to Mobile Link in Desktop User Menu"
 msgstr "Link \"Weiter zur mobilen Ansicht\" im Desktop Benutzer-Menü"
 
-#: ../extras/mobile-view.rst:191
+#: ../extras/mobile-view.rst:249
 msgid "User Avatar Menu"
 msgstr "Benutzer Avatar Menü"
 
-#: ../extras/mobile-view.rst:197
+#: ../extras/mobile-view.rst:255
 msgid ""
 "Whenever an app link is used, the choice will be remembered by the user's "
 "device and the next time the automatic redirection will behave accordingly."
@@ -9711,7 +9816,18 @@ msgstr ""
 "Benachrichtigungen** erhalten möchten. Die rechte Spalte ermöglicht auch "
 "eine Benachrichtigung per E-Mail."
 
-#: ../extras/user-menu-profile-settings.rst:118
+#: ../extras/user-menu-profile-settings.rst:117
+msgid ""
+"Push notifications on a mobile device follow these internal notifications "
+"and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
+"view>` page to turn them on for a device."
+msgstr ""
+"Push-Benachrichtigungen für Mobilgeräte unterliegen denselben "
+"Benachrichtigungsregeln und können nicht separat konfiguriert werden. Auf "
+"der Seite :doc:`Mobilansicht </extras/mobile-view>` erfahren Sie, wie Sie "
+"diese für ein Gerät aktivieren können."
+
+#: ../extras/user-menu-profile-settings.rst:122
 msgid ""
 "Notifications you have already read are removed from the list automatically. "
 "Ones you marked as read yourself disappear after about ten minutes. Ones "
@@ -9728,7 +9844,7 @@ msgstr ""
 "Stunden lang sichtbar. Unabhängig davon wird keine Benachrichtigung länger "
 "als neun Monate aufbewahrt."
 
-#: ../extras/user-menu-profile-settings.rst:125
+#: ../extras/user-menu-profile-settings.rst:129
 msgid ""
 "The clean-up runs every two hours, so a notification can stay visible "
 "somewhat longer than the times given above."
@@ -9737,11 +9853,11 @@ msgstr ""
 "Benachrichtigung etwas länger sichtbar bleiben kann als in den oben "
 "genannten Zeiträumen angegeben."
 
-#: ../extras/user-menu-profile-settings.rst:145
+#: ../extras/user-menu-profile-settings.rst:149
 msgid "Limit Groups"
 msgstr "Einschränkung auf Gruppen"
 
-#: ../extras/user-menu-profile-settings.rst:132
+#: ../extras/user-menu-profile-settings.rst:136
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9756,7 +9872,7 @@ msgstr ""
 "deaktivieren. Sie werden weiterhin Benachrichtigungen für Ihre eigenen "
 "Tickets erhalten."
 
-#: ../extras/user-menu-profile-settings.rst:138
+#: ../extras/user-menu-profile-settings.rst:142
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9765,7 +9881,7 @@ msgstr ""
 "Benachrichtigungen für alle Gruppen deaktivieren, bekommen Sie folgende "
 "Warnung angezeigt."
 
-#: ../extras/user-menu-profile-settings.rst:144
+#: ../extras/user-menu-profile-settings.rst:148
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9773,7 +9889,7 @@ msgstr ""
 "In diesem Fall wird beim Speichern die Funktion **Einschränkung auf "
 "Gruppen** deaktiviert, da keine Einschränkung mehr übrig bleibt."
 
-#: ../extras/user-menu-profile-settings.rst:147
+#: ../extras/user-menu-profile-settings.rst:151
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9788,7 +9904,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Abwesenheit"
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:158
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9796,7 +9912,7 @@ msgstr ""
 "Planen Sie Abwesenheiten im Voraus und benennen Sie einen Vertreter, der "
 "Ihre Tickets bearbeitet, während Sie nicht anwesend sind."
 
-#: ../extras/user-menu-profile-settings.rst:157
+#: ../extras/user-menu-profile-settings.rst:161
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9807,7 +9923,7 @@ msgstr ""
 "<overviews>`, die dabei hilft, den Überblick über Ihre Tickets zu behalten. "
 "Sie erhalten während Ihrer Abwesenheit weiterhin Benachrichtigungen."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:166
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9816,7 +9932,7 @@ msgstr ""
 "bereitgestellt hat? Dieser Bereich erlaubt ihnen eine eigene Sortierung "
 "vorzunehmen."
 
-#: ../extras/user-menu-profile-settings.rst:165
+#: ../extras/user-menu-profile-settings.rst:169
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9824,7 +9940,7 @@ msgstr ""
 "Sie können die Standardsortierung jederzeit wiederherstellen, wenn Sie oben "
 "rechts ``Reihenfolge der Übersichten zurücksetzen`` wählen."
 
-#: ../extras/user-menu-profile-settings.rst:170
+#: ../extras/user-menu-profile-settings.rst:174
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9832,7 +9948,7 @@ msgstr ""
 "Diese Einstellung ist standardmäßig nur für Agenten sichtbar. Sie kann von "
 "Ihrem Administrator vollständig deaktiviert werden."
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9856,7 +9972,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Kalender"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:187
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9868,7 +9984,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Geräte"
 
-#: ../extras/user-menu-profile-settings.rst:188
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9880,7 +9996,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token-Zugriff"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -9895,7 +10011,7 @@ msgstr ""
 "funktionieren für dasselbe Token. In der API-Dokumentation werden beide "
 "Varianten aufgeführt."
 
-#: ../extras/user-menu-profile-settings.rst:200
+#: ../extras/user-menu-profile-settings.rst:204
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9909,7 +10025,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Verknüpfte Accounts"
 
-#: ../extras/user-menu-profile-settings.rst:206
+#: ../extras/user-menu-profile-settings.rst:210
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
