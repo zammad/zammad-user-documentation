@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-02 23:12+0000\n"
+"PO-Revision-Date: 2026-10-15 09:23+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -177,7 +177,7 @@ msgstr "Отвори обавештења"
 msgid ":kbd:`n`"
 msgstr ":kbd:`n`"
 
-#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:112
+#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:120
 msgid "Create a new ticket"
 msgstr "Отворите нови тикет"
 
@@ -1511,9 +1511,9 @@ msgstr ""
 "``Прикажи детаље претраге``."
 
 #: ../advanced/tabs.rst:41 ../basics/zammad-ui.rst:82
-#: ../extras/mobile-view.rst:31 ../extras/mobile-view.rst:53
-#: ../extras/mobile-view.rst:75 ../extras/mobile-view.rst:97
-#: ../extras/mobile-view.rst:174 ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:33 ../extras/mobile-view.rst:57
+#: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:223 ../extras/mobile-view.rst:253
 #: ../extras/user-menu-profile-settings.rst:57
 msgid "x"
 msgstr "x"
@@ -4699,9 +4699,9 @@ msgstr ""
 "Можете сазнати више на нашој `страници о Nagios-у <https://zammad.com/en/"
 "product/features/nagios-integration>`_."
 
-#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
+#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:92
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:126
+#: ../extras/user-menu-profile-settings.rst:130
 msgid "Notifications"
 msgstr "Обавештења"
 
@@ -6080,7 +6080,7 @@ msgstr ""
 "Снимак екрана приказује кружић стања у прегледима који указује на чињеницу "
 "да AI агент ради на тикету"
 
-#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:145
+#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:186
 msgid "Caller Log"
 msgstr "Евиденција позива"
 
@@ -6243,7 +6243,7 @@ msgstr ""
 "Постојећи уноси у дневнику позива се *не* освежавају приликом освежавања "
 "постојећег клијента."
 
-#: ../extras/chat.rst:2 ../extras/mobile-view.rst:146
+#: ../extras/chat.rst:2 ../extras/mobile-view.rst:187
 msgid "Live Chat"
 msgstr "Ћаскање уживо"
 
@@ -7576,8 +7576,8 @@ msgstr "Пријава и почетна"
 msgid "Mobile View Login Screen"
 msgstr "Екран пријаве мобилног приказа"
 
-#: ../extras/mobile-view.rst:18 ../extras/mobile-view.rst:162
-#: ../extras/mobile-view.rst:183
+#: ../extras/mobile-view.rst:19 ../extras/mobile-view.rst:210
+#: ../extras/mobile-view.rst:240
 msgid "Login Screen"
 msgstr "Страна за пријављивање"
 
@@ -7585,11 +7585,11 @@ msgstr "Страна за пријављивање"
 msgid "Mobile View Home Page"
 msgstr "Почетна страница мобилног приказа"
 
-#: ../extras/mobile-view.rst:27
+#: ../extras/mobile-view.rst:29
 msgid "Home Page"
 msgstr "Почетна страна"
 
-#: ../extras/mobile-view.rst:33
+#: ../extras/mobile-view.rst:35
 msgid "Search & Overview"
 msgstr "Претрага и преглед"
 
@@ -7597,7 +7597,7 @@ msgstr "Претрага и преглед"
 msgid "Mobile View Search Results"
 msgstr "Резултати претраге у мобилном приказу"
 
-#: ../extras/mobile-view.rst:41
+#: ../extras/mobile-view.rst:44
 msgid "Search Results"
 msgstr "Резултат претраге"
 
@@ -7605,11 +7605,11 @@ msgstr "Резултат претраге"
 msgid "Mobile View Ticket Overview"
 msgstr "Преглед тикета у мобилном приказу"
 
-#: ../extras/mobile-view.rst:49
+#: ../extras/mobile-view.rst:53
 msgid "Ticket Overview"
 msgstr "Преглед тикета"
 
-#: ../extras/mobile-view.rst:55
+#: ../extras/mobile-view.rst:59
 msgid "Ticket Details"
 msgstr "Детаљи тикета"
 
@@ -7617,7 +7617,7 @@ msgstr "Детаљи тикета"
 msgid "Mobile View Ticket Detail View"
 msgstr "Детаљи приказ тикета у мобилном приказу"
 
-#: ../extras/mobile-view.rst:63
+#: ../extras/mobile-view.rst:68
 msgid "Ticket Detail View"
 msgstr "Детаљни приказ тикета"
 
@@ -7625,11 +7625,11 @@ msgstr "Детаљни приказ тикета"
 msgid "Mobile View Ticket Information"
 msgstr "Информације о тикету у мобилном приказу"
 
-#: ../extras/mobile-view.rst:71
+#: ../extras/mobile-view.rst:77
 msgid "Ticket Information"
 msgstr "Информације о тикету"
 
-#: ../extras/mobile-view.rst:77
+#: ../extras/mobile-view.rst:83
 msgid "Notifications & Account"
 msgstr "Обавештења и налог"
 
@@ -7641,11 +7641,11 @@ msgstr "Обавештења у мобилном приказу"
 msgid "Mobile View Account Overview"
 msgstr "Преглед налога у мобилном приказу"
 
-#: ../extras/mobile-view.rst:93
+#: ../extras/mobile-view.rst:101
 msgid "Account Overview"
 msgstr "Преглед налога"
 
-#: ../extras/mobile-view.rst:101
+#: ../extras/mobile-view.rst:109
 msgid ""
 "We intentionally do not provide specific instructions for the mobile view. "
 "The overall UX should be intuitive and self-explanatory in most cases."
@@ -7653,11 +7653,11 @@ msgstr ""
 "Намерно не дајемо конкретна упутства за мобилни приказ. Укупан кориснички "
 "доживљај би у већини случајева требао бити интуитиван и разумљив сам по себи."
 
-#: ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:113
 msgid "Features"
 msgstr "Функције"
 
-#: ../extras/mobile-view.rst:107
+#: ../extras/mobile-view.rst:115
 msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
@@ -7665,59 +7665,111 @@ msgstr ""
 "Мобилни приказ вам пружа начин да обављате уобичајене дневне Zammad задатке "
 "док сте у покрету:"
 
-#: ../extras/mobile-view.rst:110
+#: ../extras/mobile-view.rst:118
 msgid "Manage & use your ticket overviews"
 msgstr "Управљајте и користите прегледе тикета"
 
-#: ../extras/mobile-view.rst:111
+#: ../extras/mobile-view.rst:119
 msgid "Search for existing records"
 msgstr "Потражите постојеће уносе"
 
-#: ../extras/mobile-view.rst:113
+#: ../extras/mobile-view.rst:121
 msgid "Reply in an already existing ticket"
 msgstr "Одговорите на већ постојећи тикет"
 
-#: ../extras/mobile-view.rst:114
+#: ../extras/mobile-view.rst:122
 msgid "Modify ticket attributes"
 msgstr "Измените атрибуте тикета"
 
-#: ../extras/mobile-view.rst:115
+#: ../extras/mobile-view.rst:123
 msgid "Modify customer attributes"
 msgstr "Измените атрибуте клијента"
 
-#: ../extras/mobile-view.rst:116
+#: ../extras/mobile-view.rst:124
 msgid "Modify organization attributes"
 msgstr "Измените атрибуте организације"
 
-#: ../extras/mobile-view.rst:117
+#: ../extras/mobile-view.rst:125
 msgid "Track time on ticket articles"
 msgstr "Пратите време на чланцима тикета"
 
-#: ../extras/mobile-view.rst:119
+#: ../extras/mobile-view.rst:127
 msgid "Mobile view also has some exclusive features:"
 msgstr "Мобилни приказ такође има неке ексклузивне функције:"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:129
 msgid "Innovative Zammad UX"
 msgstr "Иновативни Zammad кориснички доживљај"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:130
 msgid "Next-level accessibility"
 msgstr "Приступачност на вишем нивоу"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:131
 msgid "Ready for multi-device usage"
 msgstr "Спреман за употребу на више уређаја"
 
-#: ../extras/mobile-view.rst:124
+#: ../extras/mobile-view.rst:132
 msgid "Progressive web app (PWA) support"
 msgstr "Подршка за прогресивне веб апликације (PWA)"
 
-#: ../extras/mobile-view.rst:127
+#: ../extras/mobile-view.rst:135
+msgid "Push Notifications"
+msgstr "Пуш обавештења"
+
+#: ../extras/mobile-view.rst:137
+msgid ""
+"The mobile view can notify you about your tickets on your mobile device, "
+"even when the app is not open. Push notifications are turned on per device, "
+"not for your account as a whole: you can have them on your phone and leave "
+"them off on a tablet."
+msgstr ""
+
+#: ../extras/mobile-view.rst:142
+msgid ""
+"Turn them on with the **Push notifications on this device** switch in the "
+"**Notifications** section of your account page. If the switch is locked, the "
+"text below it tells you what is missing."
+msgstr ""
+
+#: ../extras/mobile-view.rst:146
+msgid ""
+"Every notification Zammad creates for you is also sent to your device, for "
+"example about new tickets, ticket updates, reached reminders or escalations. "
+"A push shows the same text as the entry in the notification list, and "
+"tapping it opens the ticket in the app."
+msgstr ""
+
+#: ../extras/mobile-view.rst:151
+msgid ""
+"On iPhone and iPad, push notifications are only available in the app added "
+"to the home screen with iOS or iPadOS 16.4 or later. Open the mobile view in "
+"Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
+"installed app and the browser can both receive them."
+msgstr ""
+
+#: ../extras/mobile-view.rst:156
+msgid ""
+"If you turned notifications off for the app in the settings of your device, "
+"the switch stays locked until you allow them there again. A browser whose "
+"push service Zammad does not support cannot enable push notifications at "
+"all. Turn the switch off again to stop receiving them; signing out removes "
+"the device as well."
+msgstr ""
+
+#: ../extras/mobile-view.rst:162
+msgid ""
+"Push notifications are delivered by the push service of your browser and not "
+"by Zammad, so they can be delayed, for example by battery optimization on "
+"Android devices. While you are working in the desktop view, Zammad does not "
+"send push notifications to your mobile devices."
+msgstr ""
+
+#: ../extras/mobile-view.rst:168
 msgid "Limitations"
 msgstr "Ограничења"
 
-#: ../extras/mobile-view.rst:129
+#: ../extras/mobile-view.rst:170
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
@@ -7725,27 +7777,27 @@ msgstr ""
 "Мобилном приказу такође тренутно недостају неке функције које пружа основни "
 "приказ:"
 
-#: ../extras/mobile-view.rst:132
+#: ../extras/mobile-view.rst:173
 msgid "Ticket Article **Split** Action"
 msgstr "Тикет радња **Подели**"
 
-#: ../extras/mobile-view.rst:133
+#: ../extras/mobile-view.rst:174
 msgid "Linked Tickets & Ticket **Link** Action"
 msgstr "Повезани тикети и тикет радња **Повежи**"
 
-#: ../extras/mobile-view.rst:134
+#: ../extras/mobile-view.rst:175
 msgid "Ticket Macros"
 msgstr "Макрои тикета"
 
-#: ../extras/mobile-view.rst:135
+#: ../extras/mobile-view.rst:176
 msgid "Ticket History"
 msgstr "Историјат тикета"
 
-#: ../extras/mobile-view.rst:136
+#: ../extras/mobile-view.rst:177
 msgid "Ticket Create Templates & Shared Drafts"
 msgstr "Шаблони нових тикета и заједнички нацрти"
 
-#: ../extras/mobile-view.rst:138
+#: ../extras/mobile-view.rst:179
 msgid ""
 "Additionally, certain features were intentionally omitted in order to "
 "improve the focus on important information:"
@@ -7753,29 +7805,29 @@ msgstr ""
 "Додатно, одређене функције су намерно изостављене да би се побољшао фокус на "
 "важне информације:"
 
-#: ../extras/mobile-view.rst:141
+#: ../extras/mobile-view.rst:182
 msgid ""
 "Most Management Features (except ticket user and organization management)"
 msgstr ""
 "Већина функција управљања (осим управљања корисником и организацијом тикета)"
 
-#: ../extras/mobile-view.rst:142
+#: ../extras/mobile-view.rst:183
 msgid "Most Knowledge Base Features (except ticket integration)"
 msgstr "Већина функција базе знања (осим интеграције у тикетима)"
 
-#: ../extras/mobile-view.rst:143
+#: ../extras/mobile-view.rst:184
 msgid "Most User Profile Functions (except avatar and language preferences)"
 msgstr "Већина функција корисничког профила (осим подешавања аватара и језика)"
 
-#: ../extras/mobile-view.rst:144
+#: ../extras/mobile-view.rst:185
 msgid "Reports"
 msgstr "Извештаји"
 
-#: ../extras/mobile-view.rst:149
+#: ../extras/mobile-view.rst:190
 msgid "Access"
 msgstr "Приступ"
 
-#: ../extras/mobile-view.rst:151
+#: ../extras/mobile-view.rst:192
 msgid ""
 "Zammad now implements a mobile device detection, which results in automatic "
 "redirection to mobile view. Even with this mechanism in place it's possible "
@@ -7785,9 +7837,18 @@ msgstr ""
 "преусмеравањем на мобилни приказ. Чак и са овим механизмом на месту, могуће "
 "је експлицитно се пребацивати између приказа коришћењем веза:"
 
-#: ../extras/mobile-view.rst:174
-msgid "Continue to desktop link in mobile view"
+#: ../extras/mobile-view.rst:197
+#, fuzzy
+#| msgid "Continue to desktop link in mobile view"
+msgid "Continue to Desktop Link in Mobile View"
 msgstr "Веза за наставак на основни у мобилном приказу"
+
+#: ../extras/mobile-view.rst:199
+msgid ""
+"On the login screen, use the **Continue to desktop** link below the ``Sign "
+"in`` button. While you are signed in, open your account page with the avatar "
+"in the bottom navigation and use the **Continue to desktop** entry there."
+msgstr ""
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -7797,13 +7858,23 @@ msgstr "Веза за наставак на основни приказ у ек�
 msgid "Continue to Desktop Link in User Account Overview"
 msgstr "Веза за наставак на основни приказ у прегледу корисничког налога"
 
-#: ../extras/mobile-view.rst:170
+#: ../extras/mobile-view.rst:219
 msgid "User Account Overview"
 msgstr "Преглед корисничког налога"
 
-#: ../extras/mobile-view.rst:195
-msgid "Continue to mobile link in desktop view"
+#: ../extras/mobile-view.rst:226
+#, fuzzy
+#| msgid "Continue to mobile link in desktop view"
+msgid "Continue to Mobile Link in Desktop View"
 msgstr "Веза за наставак на мобилни у основном приказу"
+
+#: ../extras/mobile-view.rst:228
+msgid ""
+"On the login screen of the desktop view, use the **Continue to mobile** link "
+"below the ``Sign in`` button. While you are signed in, use the **Continue to "
+"mobile** entry in the user menu, which your avatar at the bottom of the "
+"navigation sidebar opens."
+msgstr ""
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -7813,11 +7884,11 @@ msgstr "Веза за наставак на мобилни приказ у ос�
 msgid "Continue to Mobile Link in Desktop User Menu"
 msgstr "Веза за наставак на мобилни приказ у основном корисничком менију"
 
-#: ../extras/mobile-view.rst:191
+#: ../extras/mobile-view.rst:249
 msgid "User Avatar Menu"
 msgstr "Кориснички мени"
 
-#: ../extras/mobile-view.rst:197
+#: ../extras/mobile-view.rst:255
 msgid ""
 "Whenever an app link is used, the choice will be remembered by the user's "
 "device and the next time the automatic redirection will behave accordingly."
@@ -9375,7 +9446,14 @@ msgstr ""
 "Користите прве четири колоне да бисте изабрали када ћете примати **интерна "
 "обавештења**. Десна колона такође омогућава обавештења путем имејла."
 
-#: ../extras/user-menu-profile-settings.rst:118
+#: ../extras/user-menu-profile-settings.rst:117
+msgid ""
+"Push notifications on a mobile device follow these internal notifications "
+"and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
+"view>` page to turn them on for a device."
+msgstr ""
+
+#: ../extras/user-menu-profile-settings.rst:122
 msgid ""
 "Notifications you have already read are removed from the list automatically. "
 "Ones you marked as read yourself disappear after about ten minutes. Ones "
@@ -9390,7 +9468,7 @@ msgstr ""
 "који припада обевештењу – остају у листи око осам сати. Независно од свега "
 "овога, ниједно обавештење неће бити сачувано дуже од девет месеци."
 
-#: ../extras/user-menu-profile-settings.rst:125
+#: ../extras/user-menu-profile-settings.rst:129
 msgid ""
 "The clean-up runs every two hours, so a notification can stay visible "
 "somewhat longer than the times given above."
@@ -9398,11 +9476,11 @@ msgstr ""
 "Брисање се извршава свака два сата, тако да понекад обавештење може остати "
 "видљиво нешто дуже од времена изложених изнад."
 
-#: ../extras/user-menu-profile-settings.rst:145
+#: ../extras/user-menu-profile-settings.rst:149
 msgid "Limit Groups"
 msgstr "Ограничавање група"
 
-#: ../extras/user-menu-profile-settings.rst:132
+#: ../extras/user-menu-profile-settings.rst:136
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9415,7 +9493,7 @@ msgstr ""
 "дугме **Ограничи групе** и подешавања испод њега да бисте искључили ова "
 "обавештења по групама. Наставићете да примате обавештења за сопствене тикете."
 
-#: ../extras/user-menu-profile-settings.rst:138
+#: ../extras/user-menu-profile-settings.rst:142
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9423,7 +9501,7 @@ msgstr ""
 "Ако укључите функцију **Ограничи групе**, али онемогућите обавештења из свих "
 "група, могуће је да ћете добити следеће упозорење."
 
-#: ../extras/user-menu-profile-settings.rst:144
+#: ../extras/user-menu-profile-settings.rst:148
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9431,7 +9509,7 @@ msgstr ""
 "У овом случају, чување ваших подешавања ће имплицитно искључити функцију "
 "**Ограничи групе**, пошто ограничења неће остати на снази."
 
-#: ../extras/user-menu-profile-settings.rst:147
+#: ../extras/user-menu-profile-settings.rst:151
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9445,7 +9523,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Ван канцеларије"
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:158
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9453,7 +9531,7 @@ msgstr ""
 "Закажите периоде одсуства унапред и одредите замену за ваше тикете док вас "
 "нема."
 
-#: ../extras/user-menu-profile-settings.rst:157
+#: ../extras/user-menu-profile-settings.rst:161
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9463,7 +9541,7 @@ msgstr ""
 "прилагођени :ref:`преглед <overviews>` који ће им помоћи да прате ваше "
 "тикете. Ви ћете примати обавештења чак и док сте одсутни."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:166
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9472,7 +9550,7 @@ msgstr ""
 "одељак вам омогућава да изаберете редослед прегледа који вам највише "
 "одговара."
 
-#: ../extras/user-menu-profile-settings.rst:165
+#: ../extras/user-menu-profile-settings.rst:169
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9480,7 +9558,7 @@ msgstr ""
 "Можете да се вратите на подразумевани редослед у било ком тренутку "
 "коришћењем дугмета горе десно ``Поништи редослед прегледа``."
 
-#: ../extras/user-menu-profile-settings.rst:170
+#: ../extras/user-menu-profile-settings.rst:174
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9488,7 +9566,7 @@ msgstr ""
 "Ово подешавање је подразумевано видљиво само оператерима. Администратори "
 "такође могу у потпуности да га искључе."
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9510,7 +9588,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Календар"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:187
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9522,7 +9600,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Уређаји"
 
-#: ../extras/user-menu-profile-settings.rst:188
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9534,7 +9612,7 @@ msgstr ""
 msgid "Token Access"
 msgstr "Приступ путем кључа"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -9548,7 +9626,7 @@ msgstr ""
 "{ваш кључ}``. Оба формата раде за исти кључ. API документација приказује обе "
 "варијанте."
 
-#: ../extras/user-menu-profile-settings.rst:200
+#: ../extras/user-menu-profile-settings.rst:204
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9562,7 +9640,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Повезани налози"
 
-#: ../extras/user-menu-profile-settings.rst:206
+#: ../extras/user-menu-profile-settings.rst:210
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
