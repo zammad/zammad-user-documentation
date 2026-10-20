@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-15 09:23+0000\n"
+"PO-Revision-Date: 2026-10-16 10:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -7724,6 +7724,10 @@ msgid ""
 "not for your account as a whole: you can have them on your phone and leave "
 "them off on a tablet."
 msgstr ""
+"Мобилни приказ може да вас обавештава о вашим тикетима на вашем мобилном "
+"уређају, чак и када апликација није отворена. Пуш обавештења се укључују за "
+"сваки уређај, а не за ваш налог свуда: можете их укључити на телефону и "
+"оставити искључене на таблету."
 
 #: ../extras/mobile-view.rst:142
 msgid ""
@@ -7731,6 +7735,9 @@ msgid ""
 "**Notifications** section of your account page. If the switch is locked, the "
 "text below it tells you what is missing."
 msgstr ""
+"Укључите их путем прекидача **Пуш обавештења на овом уређају** у оквиру "
+"одељка **Обавештења** вашег профила. Уколико је прекидач закључан, текст "
+"испод ће вам објаснити шта тачно недостаје."
 
 #: ../extras/mobile-view.rst:146
 msgid ""
@@ -7739,6 +7746,10 @@ msgid ""
 "A push shows the same text as the entry in the notification list, and "
 "tapping it opens the ticket in the app."
 msgstr ""
+"Свако обавештење Zammad генерише за вас ће бити послато и на ваш уређај, на "
+"пример у вези нових тикета, освежавања тикета, достигнутих подсетника или "
+"ескалација. Пуш обавештење садржи исти текст као и унос у листи обавештења, "
+"а додиром на исто отвара одговарајући тикет у апликацији."
 
 #: ../extras/mobile-view.rst:151
 msgid ""
@@ -7747,6 +7758,11 @@ msgid ""
 "Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
 "installed app and the browser can both receive them."
 msgstr ""
+"На iPhone и iPad уређајима, пуш обавештења су достуна само уколико је "
+"апликација додата на почетни екран са iOS или iPadOS 16.4 или новијим. "
+"Отворите мобилни приказ у Safari-ју, одаберите ``Share`` а након тога ``Add "
+"to Home Screen``. На Аndroid-у, и инсталирана апликација и претраживач могу "
+"примати пуш обавештења."
 
 #: ../extras/mobile-view.rst:156
 msgid ""
@@ -7756,6 +7772,11 @@ msgid ""
 "all. Turn the switch off again to stop receiving them; signing out removes "
 "the device as well."
 msgstr ""
+"Уколико искључите обавештења апликације у подешавањима вашег уређаја, "
+"прекидач ће остати закључан док их поново не одобрите. Претраживач чији пуш "
+"сервис Zammad не подржава вам неће дозволити укључивање пуш обавештења. "
+"Искључите прекидач за престанак добијања обавештења; одјава такође уклања "
+"претплату на уређају."
 
 #: ../extras/mobile-view.rst:162
 msgid ""
@@ -7764,6 +7785,10 @@ msgid ""
 "Android devices. While you are working in the desktop view, Zammad does not "
 "send push notifications to your mobile devices."
 msgstr ""
+"Пуш обавештења се испоручују пуш сервисом вашег претраживача а не Zammad-а, "
+"тако да могу бити одложена, на пример због оптимизације батерије на Android "
+"уређајима. Док радите у основном приказ, Zammad ће прескочити слање пуш "
+"обавештења на ваш мобилни уређај."
 
 #: ../extras/mobile-view.rst:168
 msgid "Limitations"
@@ -7838,8 +7863,6 @@ msgstr ""
 "је експлицитно се пребацивати између приказа коришћењем веза:"
 
 #: ../extras/mobile-view.rst:197
-#, fuzzy
-#| msgid "Continue to desktop link in mobile view"
 msgid "Continue to Desktop Link in Mobile View"
 msgstr "Веза за наставак на основни у мобилном приказу"
 
@@ -7849,6 +7872,9 @@ msgid ""
 "in`` button. While you are signed in, open your account page with the avatar "
 "in the bottom navigation and use the **Continue to desktop** entry there."
 msgstr ""
+"На екрану пријаве, користите линк **Настави на основни приказ** испод "
+"дугмета ``Пријави се``. Док сте пријављени, отворите профил преко аватар "
+"сличице у доњој навигацији и користите дугме **Настави на основни приказ**."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -7863,8 +7889,6 @@ msgid "User Account Overview"
 msgstr "Преглед корисничког налога"
 
 #: ../extras/mobile-view.rst:226
-#, fuzzy
-#| msgid "Continue to mobile link in desktop view"
 msgid "Continue to Mobile Link in Desktop View"
 msgstr "Веза за наставак на мобилни у основном приказу"
 
@@ -7875,6 +7899,10 @@ msgid ""
 "mobile** entry in the user menu, which your avatar at the bottom of the "
 "navigation sidebar opens."
 msgstr ""
+"На екрану пријаве основног приказа, користите линк **Настави на мобилни "
+"приказ** испод дугмета ``Пријави се``. Док сте пријављени, користите ставку "
+"**Настави на мобилни приказ** унутар корисничког менија, који можете "
+"отворити преко аватар сличице у доњој навигационој траци."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -9452,6 +9480,9 @@ msgid ""
 "and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
 "view>` page to turn them on for a device."
 msgstr ""
+"Пуш обавештења на мобилном уређају прате ова интерна обавештења и немају "
+"своја подешавања. Погледајте страницу о :doc:`мобилном приказу </extras/"
+"mobile-view>` како да их укључите за уређај."
 
 #: ../extras/user-menu-profile-settings.rst:122
 msgid ""

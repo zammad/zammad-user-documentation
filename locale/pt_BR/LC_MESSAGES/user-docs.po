@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-09 16:12+0000\n"
+"PO-Revision-Date: 2026-10-20 20:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -7790,10 +7790,8 @@ msgid "Progressive web app (PWA) support"
 msgstr "Suporte a progressive web app (PWA)"
 
 #: ../extras/mobile-view.rst:135
-#, fuzzy
-#| msgid "Notifications"
 msgid "Push Notifications"
-msgstr "Notificações"
+msgstr "Notificações push"
 
 #: ../extras/mobile-view.rst:137
 msgid ""
@@ -7802,6 +7800,10 @@ msgid ""
 "not for your account as a whole: you can have them on your phone and leave "
 "them off on a tablet."
 msgstr ""
+"A visualização mobile pode notificar você sobre seus tickets no seu "
+"dispositivo móvel, mesmo quando o app não está aberto. As notificações push "
+"são ativadas por dispositivo, e não para a sua conta como um todo: você pode "
+"ativá-las no celular e deixá-las desativadas em um tablet."
 
 #: ../extras/mobile-view.rst:142
 msgid ""
@@ -7809,6 +7811,9 @@ msgid ""
 "**Notifications** section of your account page. If the switch is locked, the "
 "text below it tells you what is missing."
 msgstr ""
+"Ative-as com a chave **Push notifications on this device** na seção "
+"**Notifications** da página da sua conta. Se a chave estiver bloqueada, o "
+"texto abaixo dela informa o que está faltando."
 
 #: ../extras/mobile-view.rst:146
 msgid ""
@@ -7817,6 +7822,10 @@ msgid ""
 "A push shows the same text as the entry in the notification list, and "
 "tapping it opens the ticket in the app."
 msgstr ""
+"Toda notificação que o Zammad cria para você também é enviada ao seu "
+"dispositivo, por exemplo sobre novos tickets, atualizações de tickets, "
+"lembretes atingidos ou escalonamentos. Uma notificação push mostra o mesmo "
+"texto da entrada na lista de notificações, e tocá-la abre o ticket no app."
 
 #: ../extras/mobile-view.rst:151
 msgid ""
@@ -7825,6 +7834,11 @@ msgid ""
 "Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
 "installed app and the browser can both receive them."
 msgstr ""
+"No iPhone e no iPad, as notificações push só estão disponíveis no app "
+"adicionado à tela inicial, com iOS ou iPadOS 16.4 ou posterior. Abra a "
+"visualização mobile no Safari, toque em ``Share`` e depois em ``Add to Home "
+"Screen``. No Android, tanto o app instalado quanto o navegador podem recebê-"
+"las."
 
 #: ../extras/mobile-view.rst:156
 msgid ""
@@ -7834,6 +7848,11 @@ msgid ""
 "all. Turn the switch off again to stop receiving them; signing out removes "
 "the device as well."
 msgstr ""
+"Se você desativou as notificações do app nas configurações do seu "
+"dispositivo, a chave fica bloqueada até que você as permita novamente lá. Um "
+"navegador cujo serviço de push o Zammad não suporta não consegue ativar "
+"notificações push. Desative a chave para parar de recebê-las; sair da conta "
+"também remove o dispositivo."
 
 #: ../extras/mobile-view.rst:162
 msgid ""
@@ -7842,6 +7861,11 @@ msgid ""
 "Android devices. While you are working in the desktop view, Zammad does not "
 "send push notifications to your mobile devices."
 msgstr ""
+"As notificações push são entregues pelo serviço de push do seu navegador, e "
+"não pelo Zammad, então podem atrasar, por exemplo por causa da otimização de "
+"bateria em dispositivos Android. Enquanto você está trabalhando na "
+"visualização desktop, o Zammad não envia notificações push para os seus "
+"dispositivos móveis."
 
 #: ../extras/mobile-view.rst:168
 msgid "Limitations"
@@ -7922,10 +7946,8 @@ msgstr ""
 "os links de aplicativo:"
 
 #: ../extras/mobile-view.rst:197
-#, fuzzy
-#| msgid "Continue to desktop link in mobile view"
 msgid "Continue to Desktop Link in Mobile View"
-msgstr "Link \"Continuar para desktop\" na visualização móvel"
+msgstr "Link \"Continuar para desktop\" na visualização mobile"
 
 #: ../extras/mobile-view.rst:199
 msgid ""
@@ -7933,6 +7955,9 @@ msgid ""
 "in`` button. While you are signed in, open your account page with the avatar "
 "in the bottom navigation and use the **Continue to desktop** entry there."
 msgstr ""
+"Na tela de login, use o link **Continue to desktop** abaixo do botão ``Sign "
+"in``. Com a sessão iniciada, abra a página da sua conta pelo avatar na "
+"navegação inferior e use a opção **Continue to desktop** ali."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -7947,10 +7972,8 @@ msgid "User Account Overview"
 msgstr "Visão geral da conta do usuário"
 
 #: ../extras/mobile-view.rst:226
-#, fuzzy
-#| msgid "Continue to mobile link in desktop view"
 msgid "Continue to Mobile Link in Desktop View"
-msgstr "Link \"Continuar para a versão móvel\" na visualização desktop"
+msgstr "Link \"Continuar para mobile\" na visualização desktop"
 
 #: ../extras/mobile-view.rst:228
 msgid ""
@@ -7959,6 +7982,10 @@ msgid ""
 "mobile** entry in the user menu, which your avatar at the bottom of the "
 "navigation sidebar opens."
 msgstr ""
+"Na tela de login da visualização desktop, use o link **Continue to mobile** "
+"abaixo do botão ``Sign in``. Com a sessão iniciada, use a opção **Continue "
+"to mobile** no menu do usuário, que é aberto pelo seu avatar na parte "
+"inferior da barra lateral de navegação."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -9531,6 +9558,10 @@ msgid ""
 "and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
 "view>` page to turn them on for a device."
 msgstr ""
+"As notificações push em um dispositivo móvel seguem estas notificações "
+"internas e não têm configurações próprias. Veja a página da "
+":doc:`visualização mobile </extras/mobile-view>` para ativá-las em um "
+"dispositivo."
 
 #: ../extras/user-menu-profile-settings.rst:122
 msgid ""
