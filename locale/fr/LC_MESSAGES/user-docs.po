@@ -143,8 +143,8 @@ msgid ":kbd:`h`"
 msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:65
-msgid "Show dashboard"
-msgstr "Afficher le tableau de bord"
+msgid "Show dashboard (unless turned off by your admin)"
+msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -5934,11 +5934,19 @@ msgstr ""
 "la moyenne de votre société (en gris en bas de chaque panneau), et voyez où "
 "en sont les autres."
 
+#: ../extras/dashboard.rst:8
+msgid ""
+"Your admin can turn off the whole dashboard or some of its parts. If the "
+"dashboard is turned off, it doesn't appear in the main menu and you land on "
+"your ticket overviews after logging in. The activity stream may also be "
+"hidden or limited to your own activities."
+msgstr ""
+
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr ""
 
-#: ../extras/dashboard.rst:11
+#: ../extras/dashboard.rst:16
 msgid ""
 "Check the dashboard for a quick summary of your stats (updated every 30 "
 "minutes)."
@@ -5946,16 +5954,16 @@ msgstr ""
 "Vérifiez le tableau de bord pour un résumé rapide de vos stats (mis à jour "
 "toutes les 30 minutes)."
 
-#: ../extras/dashboard.rst:14
+#: ../extras/dashboard.rst:19
 msgid "Legend"
 msgstr "Légende"
 
-#: ../extras/dashboard.rst:18
+#: ../extras/dashboard.rst:23
 #, fuzzy
 msgid "**1. ∅ Waiting Time Today**"
 msgstr "**1. Temps d'attente aujourd'hui**"
 
-#: ../extras/dashboard.rst:19
+#: ../extras/dashboard.rst:24
 msgid ""
 "How long has each customer had to wait, on average, to get a response from "
 "you today?"
@@ -5963,11 +5971,11 @@ msgstr ""
 "Combien de temps a dû attendre chaque client, en moyenne, pour obtenir une "
 "réponse de votre part aujourd'hui ?"
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:26
 msgid "**2. Mood**"
 msgstr "**2. Humeur**"
 
-#: ../extras/dashboard.rst:22
+#: ../extras/dashboard.rst:27
 msgid ""
 "How many escalated tickets do you have open right now? (Mr. Bubbles gets "
 "grumpy if you have too many...)"
@@ -5975,11 +5983,11 @@ msgstr ""
 "Combien de tickets escaladés avez-vous d'ouverts ? (Mr. Bubbles devient "
 "grincheux si vous en avez trop...)"
 
-#: ../extras/dashboard.rst:24
+#: ../extras/dashboard.rst:29
 msgid "**3. Channel Distribution**"
 msgstr "**3. Distribution par canal**"
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:30
 msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
@@ -5987,11 +5995,11 @@ msgstr ""
 "D'où proviennent vos tickets ? (Tickets des sept derniers jours, "
 "**entrants** et **sortants**)"
 
-#: ../extras/dashboard.rst:27
+#: ../extras/dashboard.rst:32
 msgid "**4. Assigned**"
 msgstr "**4. Assignés**"
 
-#: ../extras/dashboard.rst:28
+#: ../extras/dashboard.rst:33
 msgid ""
 "Out of all open tickets (company-wide), how many are currently assigned to "
 "you?"
@@ -5999,12 +6007,12 @@ msgstr ""
 "Sur tous les tickets ouverts (sur l'ensemble de la société), combien vous "
 "sont assignés ?"
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:35
 #, fuzzy
 msgid "**5. My Tickets in Process**"
 msgstr "**5. Vos tickets en cours**"
 
-#: ../extras/dashboard.rst:31
+#: ../extras/dashboard.rst:36
 msgid ""
 "What percentage of your tickets have you responded to or updated in the last "
 "24 hours?"
@@ -6012,21 +6020,21 @@ msgstr ""
 "Quel est le pourcentage de vos tickets que vous avez traité (répondu ou mise "
 "à jour) ces 24 dernières heures ?"
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:38
 msgid "**6. Reopening Rate**"
 msgstr "**6. Taux de réouverture**"
 
-#: ../extras/dashboard.rst:34
+#: ../extras/dashboard.rst:39
 msgid ""
 "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 "Combien de vos tickets fermés ont été rouverts sur les 7 derniers jours ?"
 
-#: ../extras/dashboard.rst:36
+#: ../extras/dashboard.rst:41
 msgid "**7. Activity Stream**"
 msgstr "**7. Flux d'activité**"
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:42
 msgid "What's everyone else on your team up to?"
 msgstr "Que s'est-il passé dernièrement dans mon équipe ?"
 
@@ -8493,6 +8501,9 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
+
+#~ msgid "Show dashboard"
+#~ msgstr "Afficher le tableau de bord"
 
 #, fuzzy
 #~ msgid ""

@@ -148,8 +148,8 @@ msgid ":kbd:`h`"
 msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
-msgid "Show dashboard"
-msgstr "Zobrazit nástěnku"
+msgid "Show dashboard (unless turned off by your admin)"
+msgstr ""
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -567,8 +567,8 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Pokud používáte Mac, použijte :kbd:`cmd` místo :kbd:`ctrl` a :kbd:`ctrl` "
-":kbd:`option` místo :kbd:`shift` :kbd:`ctrl`."
+"Pokud používáte Mac, použijte :kbd:`cmd` místo :kbd:`ctrl` "
+"a :kbd:`ctrl` :kbd:`option` místo :kbd:`shift` :kbd:`ctrl`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -589,9 +589,9 @@ msgstr ""
 "které pak použijete jediným kliknutím. Zammad například ve výchozím stavu "
 "obsahuje makro **Zavřít a Oštítkovat jako Spam**. Po jeho použití se "
 "uživatel, který makro spustil, nastaví jako vlastník, přidá se štítek "
-"``spam`` a tiket se uzavře. V makru je dokonce možné na požádání spustit "
-":ref:`AI agenta <ai-agents>`. Čtěte dál a dozvíte se, jak makra spouštět "
-"dvěma různými způsoby."
+"``spam`` a tiket se uzavře. V makru je dokonce možné na požádání "
+"spustit :ref:`AI agenta <ai-agents>`. Čtěte dál a dozvíte se, jak makra "
+"spouštět dvěma různými způsoby."
 
 #: ../advanced/macros.rst:13
 msgid "On a Single Ticket"
@@ -659,7 +659,8 @@ msgstr ""
 msgid ""
 "Move the mouse to the ``Run Macro`` action at the top and you will see the "
 "available macros:"
-msgstr "Přesuňte myš na akci ``Spustit makro`` nahoře a uvidíte dostupná makra:"
+msgstr ""
+"Přesuňte myš na akci ``Spustit makro`` nahoře a uvidíte dostupná makra:"
 
 #: ../advanced/macros.rst:None
 msgid "Screenshot shows drag & drop overlay in \"Run Macro\" mode."
@@ -675,10 +676,10 @@ msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
 msgstr ""
-"☝️ **Je tu jen jeden rozdíl...** Když makro spustíte z detailu tiketu, "
-"Zammad může podle nastavení makra automaticky otevřít další tiket (nebo "
-"aktuální zavřít, případně na něm zůstat). Když ho spustíte ze stránky "
-"přehledů, Zammad na stránce přehledů vždy zůstane."
+"☝️ **Je tu jen jeden rozdíl...** Když makro spustíte z detailu tiketu, Zammad "
+"může podle nastavení makra automaticky otevřít další tiket (nebo aktuální "
+"zavřít, případně na něm zůstat). Když ho spustíte ze stránky přehledů, "
+"Zammad na stránce přehledů vždy zůstane."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -840,8 +841,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -881,8 +882,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
-"(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1026,7 +1027,8 @@ msgstr "first_response_at: timestamp"
 
 #: ../advanced/search.rst:82
 msgid "first_response_in_min: integer (business min till first response)"
-msgstr "first_response_in_min: integer (minuty pracovní doby do první odpovědi)"
+msgstr ""
+"first_response_in_min: integer (minuty pracovní doby do první odpovědi)"
 
 #: ../advanced/search.rst:83
 msgid "close_at: timestamp"
@@ -1115,8 +1117,8 @@ msgid ""
 "Common_types>`_."
 msgstr ""
 "Pokud vyhledávání podle typu souboru nefunguje, musíte zadat `typ MIME "
-"<https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types>"
-"`_."
+"<https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/"
+"Common_types>`_."
 
 #: ../advanced/search.rst:111
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
@@ -1290,9 +1292,9 @@ msgid ""
 msgstr ""
 "Nebo předpokládejme, že tiket nechcete přeřadit zákaznickému servisu, máte "
 "na ně jen jednu rychlou otázku a pak už to zvládnete sami. Chcete-li někomu "
-"jinému začít posílat oznámení k vlastnímu tiketu, napište v editoru zprávy "
-":kbd:`@@` a ve vyskakovací nabídce vyberte jeho jméno. Tím se k odběru "
-"vašeho tiketu automaticky přihlásí."
+"jinému začít posílat oznámení k vlastnímu tiketu, napište v editoru "
+"zprávy :kbd:`@@` a ve vyskakovací nabídce vyberte jeho jméno. Tím se k "
+"odběru vašeho tiketu automaticky přihlásí."
 
 #: ../advanced/suggested-workflows.rst:73
 msgid "⚙️ **Notification settings**"
@@ -1769,8 +1771,8 @@ msgid ""
 msgstr ""
 "Když se objeví tikety týkající se souvisejících problémů, můžete je pro "
 "snazší orientaci vzájemně propojit. To se může hodit například tehdy, když "
-"máte více reklamací zákazníků k téže zásilce. :doc:`Sloučené <merge>` a "
-":doc:`rozdělené <split>` tikety se propojují automaticky."
+"máte více reklamací zákazníků k téže zásilce. :doc:`Sloučené <merge>` "
+"a :doc:`rozdělené <split>` tikety se propojují automaticky."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -1783,11 +1785,11 @@ msgid ""
 "links and normal links. The first pair is used for split and merged tickets. "
 "The normal link is useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Mezi tikety existují různé typy propojení, jak jste už možná viděli u "
-":doc:`sloučených <merge>` nebo :doc:`rozdělených <split>` tiketů: propojení "
-"rodič/potomek a běžná propojení. První dvojice se používá u rozdělených a "
-"sloučených tiketů. Běžné propojení se hodí, když mezi tikety není žádná "
-"logická hierarchie."
+"Mezi tikety existují různé typy propojení, jak jste už možná viděli "
+"u :doc:`sloučených <merge>` nebo :doc:`rozdělených <split>` tiketů: "
+"propojení rodič/potomek a běžná propojení. První dvojice se používá u "
+"rozdělených a sloučených tiketů. Běžné propojení se hodí, když mezi tikety "
+"není žádná logická hierarchie."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
@@ -2391,8 +2393,8 @@ msgid ""
 "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` "
 "which can be a huge time saver."
 msgstr ""
-"Používat :doc:`textové moduly </advanced/text-modules>` napsáním :kbd:`:` "
-":kbd:`:`, což může ušetřit spoustu času."
+"Používat :doc:`textové moduly </advanced/text-modules>` "
+"napsáním :kbd:`:` :kbd:`:`, což může ušetřit spoustu času."
 
 #: ../snippets/editor-features.rst:13
 msgid ""
@@ -2419,8 +2421,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Po zadání relevantních informací tiket nakonec vytvořte kliknutím na "
-"tlačítko ``Vytvořit``. Čtěte dál, :doc:`jak tikety najít <find-tickets>` a "
-":doc:`jak s nimi pracovat <work-with-tickets>`."
+"tlačítko ``Vytvořit``. Čtěte dál, :doc:`jak tikety najít <find-tickets>` "
+"a :doc:`jak s nimi pracovat <work-with-tickets>`."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -3021,8 +3023,8 @@ msgid ""
 "other tab."
 msgstr ""
 "Práce s existujícími tikety obecně znamená vést korespondenci se zákazníkem "
-"ve vlákně/konverzaci v detailu tiketu. Kdykoli otevřete tiket, objeví se v "
-":doc:`navigačním panelu </advanced/tabs>` na levé straně nová záložka. "
+"ve vlákně/konverzaci v detailu tiketu. Kdykoli otevřete tiket, objeví se "
+"v :doc:`navigačním panelu </advanced/tabs>` na levé straně nová záložka. "
 "Chcete-li záložku zavřít (ve smyslu odebrat ji z navigačního panelu, nikoli "
 "nastavit stav tiketu na uzavřený), stačí kliknout na tlačítko ``X`` v "
 "záložce. Zammad automaticky ukládá vaše změny v otevřených záložkách tiketů "
@@ -3383,8 +3385,8 @@ msgid ""
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
 "Přesune všechny zprávy/poznámky do jiného tiketu. Hodí se, pokud máte k "
-"jednomu problému zákazníka více než jeden tiket. Podrobnosti najdete na "
-":doc:`stránce o slučování tiketů </advanced/ticket-actions/merge>`."
+"jednomu problému zákazníka více než jeden tiket. Podrobnosti najdete "
+"na :doc:`stránce o slučování tiketů </advanced/ticket-actions/merge>`."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
@@ -4028,9 +4030,9 @@ msgid ""
 "that makes the search process within Zammad super fast (even for data sets "
 "of several terra bytes!)."
 msgstr ""
-"Zammad nabízí integraci Elasticsearch (bezplatného a otevřeného vyhledávače)"
-", díky které je vyhledávání v Zammadu bleskově rychlé (i u datových sad o "
-"velikosti několika terabajtů!)."
+"Zammad nabízí integraci Elasticsearch (bezplatného a otevřeného "
+"vyhledávače), díky které je vyhledávání v Zammadu bleskově rychlé (i u "
+"datových sad o velikosti několika terabajtů!)."
 
 #: ../basics/zammad-glossary.rst:215
 msgid ""
@@ -4234,7 +4236,8 @@ msgstr "GitLab"
 msgid ""
 "GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
 "development."
-msgstr "GitLab je podobný GitHubu. My v Zammadu ho používáme pro interní vývoj."
+msgstr ""
+"GitLab je podobný GitHubu. My v Zammadu ho používáme pro interní vývoj."
 
 #: ../basics/zammad-glossary.rst:302
 msgid ""
@@ -4751,10 +4754,10 @@ msgid ""
 "ticket and the tickets with related subtopics are children. By the way: in "
 "the same way, you can also merge two tickets into one."
 msgstr ""
-"Pokud z jednoho tiketu vzniknou další dílčí úkoly (nebo další korespondence)"
-", můžete ho rozdělit na více tiketů. Hlavní tiket pak bude rodičovským "
-"tiketem a tikety se souvisejícími dílčími tématy jeho potomky. Mimochodem: "
-"stejným způsobem můžete také sloučit dva tikety do jednoho."
+"Pokud z jednoho tiketu vzniknou další dílčí úkoly (nebo další "
+"korespondence), můžete ho rozdělit na více tiketů. Hlavní tiket pak bude "
+"rodičovským tiketem a tikety se souvisejícími dílčími tématy jeho potomky. "
+"Mimochodem: stejným způsobem můžete také sloučit dva tikety do jednoho."
 
 #: ../basics/zammad-glossary.rst:525
 msgid ""
@@ -5096,7 +5099,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:668
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
-msgstr "🤓 Uživatelé s vlastním hostingem mohou použít také ověřování Kerberos."
+msgstr ""
+"🤓 Uživatelé s vlastním hostingem mohou použít také ověřování Kerberos."
 
 #: ../basics/zammad-glossary.rst:670
 msgid ""
@@ -5119,8 +5123,8 @@ msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Více o stavech a jejich barevném odlišení se dozvíte na této stránce: "
-":ref:`ticket-attributes`"
+"Více o stavech a jejich barevném odlišení se dozvíte na této "
+"stránce: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:679
 msgid ""
@@ -5181,8 +5185,8 @@ msgid ""
 "page: :ref:`ticket-attributes`"
 msgstr ""
 "Administrátoři se o štítcích mohou dozvědět více :admin-docs:`zde </manage/"
-"tags.html>`. Agenti se o této funkci dozvědí více na této stránce: "
-":ref:`ticket-attributes`"
+"tags.html>`. Agenti se o této funkci dozvědí více na této "
+"stránce: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:720
 msgid "Text module"
@@ -5275,8 +5279,8 @@ msgid ""
 msgstr ""
 "Spouštěče jsou jednou z automatizačních funkcí Zammadu. Administrátor může "
 "definovat konkrétní podmínky a akce, které se použijí na tikety splňující "
-"tyto podmínky. Více informací najdete v dokumentaci pro administrátory v "
-":admin-docs:`části o spouštěčích </manage/trigger.html>`."
+"tyto podmínky. Více informací najdete v dokumentaci pro administrátory "
+"v :admin-docs:`části o spouštěčích </manage/trigger.html>`."
 
 #: ../basics/zammad-glossary.rst:749
 msgid "U"
@@ -6218,8 +6222,8 @@ msgid ""
 "the :admin-docs:`chat channel admin documentation </channels/chat.html>`."
 msgstr ""
 "Tato funkce je volitelná. Pokud ji v hlavní nabídce nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`dokumentaci pro administrátory ke kanálu chatu </channels/"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`dokumentaci pro administrátory ke kanálu chatu </channels/"
 "chat.html>`."
 
 #: ../extras/chat.rst:None
@@ -6345,7 +6349,8 @@ msgstr "Snímek obrazovky zobrazující podrobnosti otevřeného chatu."
 
 #: ../extras/chat.rst:59
 msgid "Click on the title at the top of the chat window to edit chat details."
-msgstr "Kliknutím na název v horní části okna chatu upravíte podrobnosti chatu."
+msgstr ""
+"Kliknutím na název v horní části okna chatu upravíte podrobnosti chatu."
 
 #: ../extras/chat.rst:62
 msgid "Creating a Ticket from a Chat"
@@ -6637,8 +6642,8 @@ msgid ""
 "Customers can optionally belong to organizations. Head over to "
 "the :doc:`organization page <organizations>` to learn more."
 msgstr ""
-"Zákazníci mohou volitelně patřit k organizacím. Více se dozvíte na "
-":doc:`stránce o organizacích <organizations>`."
+"Zákazníci mohou volitelně patřit k organizacím. Více se dozvíte "
+"na :doc:`stránce o organizacích <organizations>`."
 
 #: ../extras/customers.rst:0
 msgid "Secondary Organizations"
@@ -6667,8 +6672,9 @@ msgid ""
 msgstr ""
 "Stejně jako priorita tiketu nedělá stav VIP ve výchozím stavu vlastně nic. "
 "Administrátoři však na základě této hodnoty mohou nastavit pravidla "
-"automatizace nebo ji použít jako filtr pro vlastní :ref:`přehledy <overviews>"
-"`. Na to, jak tento atribut používat, se zeptejte svého administrátora."
+"automatizace nebo ji použít jako filtr pro vlastní :ref:`přehledy "
+"<overviews>`. Na to, jak tento atribut používat, se zeptejte svého "
+"administrátora."
 
 #: ../extras/dashboard.rst:4
 msgid ""
@@ -6680,11 +6686,19 @@ msgstr ""
 "sledujte svou produktivitu, porovnejte své statistiky s průměrem firmy (šedě "
 "pod vašimi) a podívejte se, co dělají ostatní."
 
+#: ../extras/dashboard.rst:8
+msgid ""
+"Your admin can turn off the whole dashboard or some of its parts. If the "
+"dashboard is turned off, it doesn't appear in the main menu and you land on "
+"your ticket overviews after logging in. The activity stream may also be "
+"hidden or limited to your own activities."
+msgstr ""
+
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr "Ukázkové zobrazení nástěnky"
 
-#: ../extras/dashboard.rst:11
+#: ../extras/dashboard.rst:16
 msgid ""
 "Check the dashboard for a quick summary of your stats (updated every 30 "
 "minutes)."
@@ -6692,25 +6706,25 @@ msgstr ""
 "Na nástěnce najdete rychlé shrnutí svých statistik (aktualizuje se každých "
 "30 minut)."
 
-#: ../extras/dashboard.rst:14
+#: ../extras/dashboard.rst:19
 msgid "Legend"
 msgstr "Legenda"
 
-#: ../extras/dashboard.rst:18
+#: ../extras/dashboard.rst:23
 msgid "**1. ∅ Waiting Time Today**"
 msgstr "**1. ∅ Doba čekání dnes**"
 
-#: ../extras/dashboard.rst:19
+#: ../extras/dashboard.rst:24
 msgid ""
 "How long has each customer had to wait, on average, to get a response from "
 "you today?"
 msgstr "Jak dlouho musel dnes každý zákazník v průměru čekat na vaši odpověď?"
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:26
 msgid "**2. Mood**"
 msgstr "**2. Nálada**"
 
-#: ../extras/dashboard.rst:22
+#: ../extras/dashboard.rst:27
 msgid ""
 "How many escalated tickets do you have open right now? (Mr. Bubbles gets "
 "grumpy if you have too many...)"
@@ -6718,11 +6732,11 @@ msgstr ""
 "Kolik eskalovaných tiketů máte právě otevřených? (Pan Bublinka se mračí, "
 "když jich máte příliš mnoho...)"
 
-#: ../extras/dashboard.rst:24
+#: ../extras/dashboard.rst:29
 msgid "**3. Channel Distribution**"
 msgstr "**3. Rozložení kanálů**"
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:30
 msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
@@ -6730,22 +6744,22 @@ msgstr ""
 "Odkud všechny vaše tikety přicházejí? (Zobrazuje tikety vytvořené za "
 "posledních sedm dní, rozdělené také na **příchozí** a **odchozí**.)"
 
-#: ../extras/dashboard.rst:27
+#: ../extras/dashboard.rst:32
 msgid "**4. Assigned**"
 msgstr "**4. Přiřazené**"
 
-#: ../extras/dashboard.rst:28
+#: ../extras/dashboard.rst:33
 msgid ""
 "Out of all open tickets (company-wide), how many are currently assigned to "
 "you?"
 msgstr ""
 "Kolik ze všech otevřených tiketů (v celé firmě) je aktuálně přiřazeno vám?"
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:35
 msgid "**5. My Tickets in Process**"
 msgstr "**5. Mé rozpracované tikety**"
 
-#: ../extras/dashboard.rst:31
+#: ../extras/dashboard.rst:36
 msgid ""
 "What percentage of your tickets have you responded to or updated in the last "
 "24 hours?"
@@ -6753,21 +6767,21 @@ msgstr ""
 "Na kolik procent svých tiketů jste za posledních 24 hodin odpověděli nebo je "
 "aktualizovali?"
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:38
 msgid "**6. Reopening Rate**"
 msgstr "**6. Poměr opětovného otevření**"
 
-#: ../extras/dashboard.rst:34
+#: ../extras/dashboard.rst:39
 msgid ""
 "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 "Kolik z vašich uzavřených tiketů bylo za posledních sedm dní znovu otevřeno?"
 
-#: ../extras/dashboard.rst:36
+#: ../extras/dashboard.rst:41
 msgid "**7. Activity Stream**"
 msgstr "**7. Tok aktivit**"
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:42
 msgid "What's everyone else on your team up to?"
 msgstr "Co dělají ostatní členové vašeho týmu?"
 
@@ -6885,8 +6899,8 @@ msgid ""
 "already using i-doit, this guide is not for you."
 msgstr ""
 "Tato funkce je volitelná. Pokud ji v zobrazení tiketu nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`části o integraci i-doit v dokumentaci pro administrátory </"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`části o integraci i-doit v dokumentaci pro administrátory </"
 "system/integrations/i-doit.html>`. Pokud vaše firma i-doit používá, "
 "požádejte svého administrátora / pracovníky IT, aby vám ho ukázali. Pokud "
 "vaše organizace i-doit nepoužívá, tento návod pro vás není."
@@ -7059,8 +7073,8 @@ msgstr ""
 "Obsah znalostní báze můžete spravovat, upravovat a organizovat po otevření "
 "záložky ``Znalostní báze`` v navigačním postranním panelu. Tato funkce je "
 "volitelná. Pokud ji v navigačním postranním panelu nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`dokumentaci pro administrátory ke znalostní bázi </manage/"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`dokumentaci pro administrátory ke znalostní bázi </manage/"
 "knowledge-base.html>`."
 
 #: ../extras/knowledge-base.rst:15
@@ -7505,11 +7519,11 @@ msgid ""
 "content but is inserted at the cursor's position."
 msgstr ""
 "Jakmile znalostní báze obsahuje jednu nebo více odpovědí, můžete je používat "
-"stejně jako textové moduly. Místo :kbd:`:`:kbd:`:` stačí použít "
-":kbd:`?`:kbd:`?` a otevře se vyhledávací okno. Vyhledává se fulltextově v "
-"textu i názvu odpovědí ve všech dostupných jazycích. Když najdete, co jste "
-"hledali, stačí stisknout :kbd:`Enter` a odpověď se načte do článku tiketu. "
-"Vložený obsah nenahradí obsah článku, ale vloží se na pozici kurzoru."
+"stejně jako textové moduly. Místo :kbd:`:`:kbd:`:` stačí použít :kbd:`?"
+"`:kbd:`?` a otevře se vyhledávací okno. Vyhledává se fulltextově v textu i "
+"názvu odpovědí ve všech dostupných jazycích. Když najdete, co jste hledali, "
+"stačí stisknout :kbd:`Enter` a odpověď se načte do článku tiketu. Vložený "
+"obsah nenahradí obsah článku, ale vloží se na pozici kurzoru."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -8618,9 +8632,9 @@ msgid ""
 "Profile > Password & Authentication* to set it up. Depending on the enabled "
 "two-factor methods, you may see one or more options in the table."
 msgstr ""
-"Pokud správce systému tuto funkci zapnul, můžete ji nastavit v části "
-"*Avatar > Profil > Heslo a autentizace*. V závislosti na zapnutých "
-"dvoufaktorových metodách můžete v tabulce vidět jednu nebo více možností."
+"Pokud správce systému tuto funkci zapnul, můžete ji nastavit v části *Avatar "
+"> Profil > Heslo a autentizace*. V závislosti na zapnutých dvoufaktorových "
+"metodách můžete v tabulce vidět jednu nebo více možností."
 
 #: ../extras/two-factor-authentication.rst:24
 msgid ""
@@ -8767,8 +8781,8 @@ msgid ""
 msgstr ""
 "Obnovovací kódy můžete také kdykoli vygenerovat znovu – tím se stávající "
 "obnovovací kódy zneplatní a dostanete seznam nových kódů. Uděláte to "
-"kliknutím na tlačítko ``Znovu vygenerovat obnovovací kódy`` v části "
-"*Avatar > Profil > Heslo a autentizace*."
+"kliknutím na tlačítko ``Znovu vygenerovat obnovovací kódy`` v části *Avatar "
+"> Profil > Heslo a autentizace*."
 
 #: ../extras/two-factor-authentication.rst:120
 msgid "Set a Two-Factor Method as Default"
@@ -8928,8 +8942,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
-"billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-"
-"45da-b7b6-27e523b8702a>`_"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -9244,7 +9258,8 @@ msgstr "Klávesové zkratky"
 #: ../extras/user-menu-profile-settings.rst:36
 msgid ""
 ":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
-msgstr ":doc:`Otevře sekci klávesových zkratek </advanced/keyboard-shortcuts>`."
+msgstr ""
+":doc:`Otevře sekci klávesových zkratek </advanced/keyboard-shortcuts>`."
 
 #: ../extras/user-menu-profile-settings.rst:42
 msgid "Profile"
@@ -9602,6 +9617,9 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
-"Právě čtete uživatelskou dokumentaci Zammadu. K dispozici je také "
-":docs:`systémová </index.html>` a :admin-docs:`administrátorská příručka </"
-"index.html>`."
+"Právě čtete uživatelskou dokumentaci Zammadu. K dispozici je "
+"také :docs:`systémová </index.html>` a :admin-docs:`administrátorská "
+"příručka </index.html>`."
+
+#~ msgid "Show dashboard"
+#~ msgstr "Zobrazit nástěnku"
