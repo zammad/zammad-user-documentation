@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-20 20:12+0000\n"
+"PO-Revision-Date: 2026-10-24 08:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -149,8 +149,9 @@ msgid ":kbd:`h`"
 msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
-msgid "Show dashboard"
-msgstr "Mostrar painel"
+msgid "Show dashboard (unless turned off by your admin)"
+msgstr ""
+"Mostrar o painel (a menos que tenha sido desativado pelo seu administrador)"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -6786,11 +6787,23 @@ msgstr ""
 "produtividade de relance, compare suas estatísticas com a média da empresa "
 "(em cinza, abaixo das suas) e veja o que o resto da equipe está fazendo."
 
+#: ../extras/dashboard.rst:8
+msgid ""
+"Your admin can turn off the whole dashboard or some of its parts. If the "
+"dashboard is turned off, it doesn't appear in the main menu and you land on "
+"your ticket overviews after logging in. The activity stream may also be "
+"hidden or limited to your own activities."
+msgstr ""
+"Seu administrador pode desativar o painel inteiro ou algumas de suas partes. "
+"Se o painel estiver desativado, ele não aparece no menu principal e você cai "
+"nas suas visões gerais de tickets depois de fazer login. O fluxo de "
+"atividades também pode estar oculto ou limitado às suas próprias atividades."
+
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr "Exemplo de visualização do painel"
 
-#: ../extras/dashboard.rst:11
+#: ../extras/dashboard.rst:16
 msgid ""
 "Check the dashboard for a quick summary of your stats (updated every 30 "
 "minutes)."
@@ -6798,15 +6811,15 @@ msgstr ""
 "Confira no painel um resumo rápido das suas estatísticas (atualizadas a cada "
 "30 minutos)."
 
-#: ../extras/dashboard.rst:14
+#: ../extras/dashboard.rst:19
 msgid "Legend"
 msgstr "Legenda"
 
-#: ../extras/dashboard.rst:18
+#: ../extras/dashboard.rst:23
 msgid "**1. ∅ Waiting Time Today**"
 msgstr "**1. ∅ Tempo de espera hoje**"
 
-#: ../extras/dashboard.rst:19
+#: ../extras/dashboard.rst:24
 msgid ""
 "How long has each customer had to wait, on average, to get a response from "
 "you today?"
@@ -6814,11 +6827,11 @@ msgstr ""
 "Quanto cada cliente tem que esperar, na média, para obter uma resposta sua "
 "hoje?"
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:26
 msgid "**2. Mood**"
 msgstr "**2. Humor**"
 
-#: ../extras/dashboard.rst:22
+#: ../extras/dashboard.rst:27
 msgid ""
 "How many escalated tickets do you have open right now? (Mr. Bubbles gets "
 "grumpy if you have too many...)"
@@ -6826,11 +6839,11 @@ msgstr ""
 "Quantos tickets escalonados você tem abertos agora? (O Sr. Bubbles fica "
 "rabugento se forem muitos...)"
 
-#: ../extras/dashboard.rst:24
+#: ../extras/dashboard.rst:29
 msgid "**3. Channel Distribution**"
 msgstr "**3. Distribuição por canal**"
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:30
 msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
@@ -6838,11 +6851,11 @@ msgstr ""
 "De onde vêm todos os seus tickets? (Mostra os tickets criados nos últimos "
 "sete dias, também ordenados por **entrada** vs. **saída**.)"
 
-#: ../extras/dashboard.rst:27
+#: ../extras/dashboard.rst:32
 msgid "**4. Assigned**"
 msgstr "**4. Atribuídos**"
 
-#: ../extras/dashboard.rst:28
+#: ../extras/dashboard.rst:33
 msgid ""
 "Out of all open tickets (company-wide), how many are currently assigned to "
 "you?"
@@ -6850,11 +6863,11 @@ msgstr ""
 "De todos os tickets abertos (na empresa inteira), quantos estão atribuídos a "
 "você no momento?"
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:35
 msgid "**5. My Tickets in Process**"
 msgstr "**5. Meus tickets em andamento**"
 
-#: ../extras/dashboard.rst:31
+#: ../extras/dashboard.rst:36
 msgid ""
 "What percentage of your tickets have you responded to or updated in the last "
 "24 hours?"
@@ -6862,21 +6875,21 @@ msgstr ""
 "Qual porcentagem dos seus tickets você respondeu ou atualizou nas últimas 24 "
 "horas?"
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:38
 msgid "**6. Reopening Rate**"
 msgstr "**6. Taxa de reabertura**"
 
-#: ../extras/dashboard.rst:34
+#: ../extras/dashboard.rst:39
 msgid ""
 "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 "Quantos dos seus tickets fechados foram reabertos nos últimos sete dias?"
 
-#: ../extras/dashboard.rst:36
+#: ../extras/dashboard.rst:41
 msgid "**7. Activity Stream**"
 msgstr "**7. Fluxo de atividades**"
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:42
 msgid "What's everyone else on your team up to?"
 msgstr "O que o resto da sua equipe está fazendo?"
 
@@ -9559,8 +9572,8 @@ msgid ""
 "view>` page to turn them on for a device."
 msgstr ""
 "As notificações push em um dispositivo móvel seguem estas notificações "
-"internas e não têm configurações próprias. Veja a página da "
-":doc:`visualização mobile </extras/mobile-view>` para ativá-las em um "
+"internas e não têm configurações próprias. Veja a página "
+"da :doc:`visualização mobile </extras/mobile-view>` para ativá-las em um "
 "dispositivo."
 
 #: ../extras/user-menu-profile-settings.rst:122
@@ -9783,6 +9796,9 @@ msgstr ""
 "Você está lendo a documentação do usuário do Zammad. Também estão "
 "disponíveis os manuais de :docs:`sistema </index.html>` e de :admin-"
 "docs:`administração </index.html>`."
+
+#~ msgid "Show dashboard"
+#~ msgstr "Mostrar painel"
 
 #~ msgid ""
 #~ "Generate personal access tokens for third party applications to use the "
