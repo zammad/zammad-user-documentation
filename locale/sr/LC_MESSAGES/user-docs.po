@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-16 10:12+0000\n"
+"PO-Revision-Date: 2026-10-24 08:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -146,8 +146,8 @@ msgid ":kbd:`h`"
 msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
-msgid "Show dashboard"
-msgstr "Прикажи контролну таблу"
+msgid "Show dashboard (unless turned off by your admin)"
+msgstr "Прикажи контролну таблу (осим уколико је искључена)"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -6719,11 +6719,23 @@ msgstr ""
 "статистику са просеком компаније (сивом бојом испод ваше) и погледате на "
 "чему све друге колеге раде."
 
+#: ../extras/dashboard.rst:8
+msgid ""
+"Your admin can turn off the whole dashboard or some of its parts. If the "
+"dashboard is turned off, it doesn't appear in the main menu and you land on "
+"your ticket overviews after logging in. The activity stream may also be "
+"hidden or limited to your own activities."
+msgstr ""
+"Ваш администратор може да искључи комплетну контролну таблу или неке њене "
+"делове. Уколико је контролна табле искључена, не приказује се у навигационом "
+"менију и бићете преусмерени на прегледе тикета по пријави. Ток активности "
+"такође може бити сакривен или ограничен само на ваше активности."
+
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr "Пример приказа контролне табле"
 
-#: ../extras/dashboard.rst:11
+#: ../extras/dashboard.rst:16
 msgid ""
 "Check the dashboard for a quick summary of your stats (updated every 30 "
 "minutes)."
@@ -6731,15 +6743,15 @@ msgstr ""
 "Проверите контролну таблу за сажет опис ваших статистика (ажурира се сваких "
 "30 минута)."
 
-#: ../extras/dashboard.rst:14
+#: ../extras/dashboard.rst:19
 msgid "Legend"
 msgstr "Легенда"
 
-#: ../extras/dashboard.rst:18
+#: ../extras/dashboard.rst:23
 msgid "**1. ∅ Waiting Time Today**"
 msgstr "**1. ∅ Време чекања данас**"
 
-#: ../extras/dashboard.rst:19
+#: ../extras/dashboard.rst:24
 msgid ""
 "How long has each customer had to wait, on average, to get a response from "
 "you today?"
@@ -6747,11 +6759,11 @@ msgstr ""
 "Колико дуго је сваки клијент морао да чека, у просеку, да добије одговор од "
 "вас данас?"
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:26
 msgid "**2. Mood**"
 msgstr "**2. Расположење**"
 
-#: ../extras/dashboard.rst:22
+#: ../extras/dashboard.rst:27
 msgid ""
 "How many escalated tickets do you have open right now? (Mr. Bubbles gets "
 "grumpy if you have too many...)"
@@ -6759,11 +6771,11 @@ msgstr ""
 "Колико ескалираних тикета тренутно имате отворених? (Господин Баблс постаје "
 "мрзовољан ако их имате превише...)"
 
-#: ../extras/dashboard.rst:24
+#: ../extras/dashboard.rst:29
 msgid "**3. Channel Distribution**"
 msgstr "**3. Дистрибуција канала**"
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:30
 msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
@@ -6771,11 +6783,11 @@ msgstr ""
 "Одакле вам долазе сви тикети? (Приказује тикете направљене у последњих седам "
 "дана, поређане према **долазним** у односу на **одлазне**.)"
 
-#: ../extras/dashboard.rst:27
+#: ../extras/dashboard.rst:32
 msgid "**4. Assigned**"
 msgstr "**4. Додељено**"
 
-#: ../extras/dashboard.rst:28
+#: ../extras/dashboard.rst:33
 msgid ""
 "Out of all open tickets (company-wide), how many are currently assigned to "
 "you?"
@@ -6783,11 +6795,11 @@ msgstr ""
 "Од свих отворених тикета (у целој компанији), колико вам је тренутно "
 "додељено?"
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:35
 msgid "**5. My Tickets in Process**"
 msgstr "**5. Моји тикети у обради**"
 
-#: ../extras/dashboard.rst:31
+#: ../extras/dashboard.rst:36
 msgid ""
 "What percentage of your tickets have you responded to or updated in the last "
 "24 hours?"
@@ -6795,21 +6807,21 @@ msgstr ""
 "На који проценат својих тикета сте одговорили или сте их освежили у последња "
 "24 сата?"
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:38
 msgid "**6. Reopening Rate**"
 msgstr "**6. Стопа поново отворених**"
 
-#: ../extras/dashboard.rst:34
+#: ../extras/dashboard.rst:39
 msgid ""
 "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 "Колико је ваших затворених тикета поново отворено у последњих седам дана?"
 
-#: ../extras/dashboard.rst:36
+#: ../extras/dashboard.rst:41
 msgid "**7. Activity Stream**"
 msgstr "**7. Ток активности**"
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:42
 msgid "What's everyone else on your team up to?"
 msgstr "Шта раде остали у твом тиму?"
 
@@ -9700,6 +9712,9 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid "Show dashboard"
+#~ msgstr "Прикажи контролну таблу"
 
 #~ msgid ""
 #~ "Generate personal access tokens for third party applications to use the "
