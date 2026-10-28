@@ -4215,59 +4215,43 @@ msgid "GitHub / GitLab Integration"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:4
-msgid "With the issue tracker integration, you can monitor GitHub / GitLab issues right from within a Zammad ticket. This feature is optional. If you don't see it in the ticket sidebar, that means your administrator hasn't enabled it yet. Administrators can learn more in the :admin-docs:`issue tracker integration in the admin documentation </system/integrations#integrations-for-issue-trackers>`."
+msgid "With the issue tracker integration, you can link GitHub and GitLab issues to a ticket and follow their state while you work on it. Zammad stores only the issue URLs on the ticket. Title, state, type, milestone, assignees and labels are read from GitHub or GitLab each time you open the panel. Nothing is written back to the tracker. Issues only: pull requests and merge requests cannot be linked."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Ticket detail view showing activated GitHub & GitLab function"
+#: ../extras/github-gitlab-integration.rst:11
+msgid "The panels are optional. If you don't see them in the ticket sidebar, your administrator hasn't enabled the integration yet. Customers don't see the links either. Administrators can learn more in the :admin-docs:`GitHub </system/integrations/github.html>` and :admin-docs:`GitLab </system/integrations/gitlab.html>` integration pages."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of issues related to the ticket."
+#: ../extras/github-gitlab-integration.rst:None
+msgid "Sidebar with opened GitHub panel and linked issue."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:39
-#: ../extras/github-gitlab-integration.rst:39
-#: ../extras/github-gitlab-integration.rst:39
-msgid "GitHub logo"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:43
-#: ../extras/github-gitlab-integration.rst:43
-#: ../extras/github-gitlab-integration.rst:43
-msgid "GitLab logo"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:18
-msgid "What Can It Do?"
+#: ../extras/github-gitlab-integration.rst:22
+msgid "View Linked Issues"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:24
-msgid "View related issues"
+msgid "Open the **GitHub** or **GitLab** tab in the ticket sidebar of a ticket that already has issues linked. Each entry starts with an icon for the issue state, followed by the issue number and title. Click the title to open the issue on GitHub or GitLab. Each entry also shows the issue's **Milestone**, **Assignees** and **Labels**. GitHub issues show a **Type** as well. A field appears only when the issue has one. The badge on the tab counts all linked issues, not only the open ones. Zammad reads the state when the panel loads and doesn't watch the issues, so no notification is sent when an issue changes. If the panel shows ``Loading failed.`` instead of the issues, ask your administrator to check the token."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:21
-msgid "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked issues, along with metadata like status (open/closed), assignee, labels, and more. Or, simply click the title to view the issue on GitHub / GitLab. A badge on the tab icon indicates how many issues are linked to this ticket."
+#: ../extras/github-gitlab-integration.rst:36
+msgid "Link an Issue"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:34
-msgid "Link a new issue"
+#: ../extras/github-gitlab-integration.rst:38
+msgid "Select **Link issue** from the menu next to the panel title, then enter the URL of a single issue and confirm. Zammad accepts links like ``https://github.com/organization/repository/issues/42`` or ``https://git.example.com/group1/project1/-/issues/1``. While you create a ticket, you can link issues too. They are saved with the new ticket."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:27
-msgid "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, then enter a valid issue URL. Please note that linking a new issue can be slow sometimes."
+#: ../extras/github-gitlab-integration.rst:44
+msgid "Zammad ignores a URL that is already linked to the ticket. It also rejects a URL it cannot resolve, usually because the issue doesn't exist or because the API token cannot read its repository or project. Ask your administrator to check the token in that case."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:0
-msgid "Screencast showing how to list and add new issues to a ticket"
+#: ../extras/github-gitlab-integration.rst:50
+msgid "Unlink an Issue"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Remove an issue"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Click the ✕ button next to an issue title to unlink it."
+#: ../extras/github-gitlab-integration.rst:52
+msgid "Click the ``X`` button next to an issue title. Unlinking removes the reference from the ticket and leaves the issue untouched in GitHub or GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:2
