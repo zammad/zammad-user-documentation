@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-16 10:12+0000\n"
+"PO-Revision-Date: 2026-10-27 09:12+0000\n"
 "Last-Translator: Mixer <mixer@mixercz.cz>\n"
 "Language-Team: Czech <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/cs/>\n"
@@ -149,7 +149,7 @@ msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
 msgid "Show dashboard (unless turned off by your admin)"
-msgstr ""
+msgstr "Zobrazit nástěnku (pokud ji administrátor nevypnul)"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -6693,6 +6693,10 @@ msgid ""
 "your ticket overviews after logging in. The activity stream may also be "
 "hidden or limited to your own activities."
 msgstr ""
+"Administrátor může vypnout celou nástěnku nebo některé její části. Pokud je "
+"nástěnka vypnutá, nezobrazuje se v hlavní nabídce a po přihlášení se "
+"dostanete na své přehledy tiketů. Tok aktivit může být také skrytý nebo "
+"omezený jen na vaše vlastní aktivity."
 
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
@@ -6791,108 +6795,131 @@ msgstr "Integrace GitHub / GitLab"
 
 #: ../extras/github-gitlab-integration.rst:4
 msgid ""
-"With the issue tracker integration, you can monitor GitHub / GitLab issues "
-"right from within a Zammad ticket. This feature is optional. If you don't "
-"see it in the ticket sidebar, that means your administrator hasn't enabled "
-"it yet. Administrators can learn more in the :admin-docs:`issue tracker "
-"integration in the admin documentation </system/integrations#integrations-"
-"for-issue-trackers>`."
+"With the issue tracker integration, you can link GitHub and GitLab issues to "
+"a ticket and follow their state while you work on it. Zammad stores only the "
+"issue URLs on the ticket. Title, state, type, milestone, assignees and "
+"labels are read from GitHub or GitLab each time you open the panel. Nothing "
+"is written back to the tracker. Issues only: pull requests and merge "
+"requests cannot be linked."
 msgstr ""
-"Díky integraci issue trackerů můžete sledovat issues z GitHubu / GitLabu "
-"přímo v tiketu Zammadu. Tato funkce je volitelná. Pokud ji v postranním "
-"panelu tiketu nevidíte, váš administrátor ji ještě nezapnul. Administrátoři "
-"se mohou dozvědět více v :admin-docs:`části o integraci issue trackerů v "
-"dokumentaci pro administrátory </system/integrations#integrations-for-issue-"
-"trackers>`."
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Ticket detail view showing activated GitHub & GitLab function"
-msgstr "Detail tiketu se zapnutou funkcí GitHub a GitLab"
-
-#: ../extras/github-gitlab-integration.rst:14
+#: ../extras/github-gitlab-integration.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don't see it in the main menu, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more on our :admin-docs:`admin documentation </system/"
+#| "integrations.html#integrations-for-phone-systems>`."
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of "
-"issues related to the ticket."
+"The panels are optional. If you don't see them in the ticket sidebar, your "
+"administrator hasn't enabled the integration yet. Customers don't see the "
+"links either. Administrators can learn more in the :admin-docs:`GitHub </"
+"system/integrations/github.html>` and :admin-docs:`GitLab </system/"
+"integrations/gitlab.html>` integration pages."
 msgstr ""
-"Pomocí karet |github| a |gitlab| v postranním panelu tiketu získáte přehled "
-"o issues souvisejících s tiketem."
+"Tato funkce je **volitelná**; pokud ji v hlavní nabídce nevidíte, váš "
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
+"naší :admin-docs:`dokumentaci pro administrátory </system/"
+"integrations.html#integrations-for-phone-systems>`."
 
-#: ../extras/github-gitlab-integration.rst:39
-msgid "GitHub logo"
-msgstr "Logo GitHubu"
+#: ../extras/github-gitlab-integration.rst:None
+msgid "Sidebar with opened GitHub panel and linked issue."
+msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:43
-msgid "GitLab logo"
-msgstr "Logo GitLabu"
-
-#: ../extras/github-gitlab-integration.rst:18
-msgid "What Can It Do?"
-msgstr "Co to umí?"
-
-#: ../extras/github-gitlab-integration.rst:24
-msgid "View related issues"
+#: ../extras/github-gitlab-integration.rst:22
+#, fuzzy
+#| msgid "View related issues"
+msgid "View Linked Issues"
 msgstr "Zobrazení souvisejících issues"
 
-#: ../extras/github-gitlab-integration.rst:21
+#: ../extras/github-gitlab-integration.rst:24
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
-"issues, along with metadata like status (open/closed), assignee, labels, and "
-"more. Or, simply click the title to view the issue on GitHub / GitLab. A "
-"badge on the tab icon indicates how many issues are linked to this ticket."
+"Open the **GitHub** or **GitLab** tab in the ticket sidebar of a ticket that "
+"already has issues linked. Each entry starts with an icon for the issue "
+"state, followed by the issue number and title. Click the title to open the "
+"issue on GitHub or GitLab. Each entry also shows the issue's **Milestone**, "
+"**Assignees** and **Labels**. GitHub issues show a **Type** as well. A field "
+"appears only when the issue has one. The badge on the tab counts all linked "
+"issues, not only the open ones. Zammad reads the state when the panel loads "
+"and doesn't watch the issues, so no notification is sent when an issue "
+"changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
+"your administrator to check the token."
 msgstr ""
-"Pomocí karet |github| a |gitlab| v postranním panelu tiketu zobrazíte "
-"propojené issues spolu s metadaty, jako je stav (otevřené/uzavřené), "
-"řešitel, popisky a další. Nebo jednoduše kliknutím na název zobrazíte issue "
-"na GitHubu / GitLabu. Odznak na ikoně karty ukazuje, kolik issues je s tímto "
-"tiketem propojeno."
 
-#: ../extras/github-gitlab-integration.rst:34
-msgid "Link a new issue"
+#: ../extras/github-gitlab-integration.rst:36
+#, fuzzy
+#| msgid "Link a new issue"
+msgid "Link an Issue"
 msgstr "Propojení nového issue"
 
-#: ../extras/github-gitlab-integration.rst:27
+#: ../extras/github-gitlab-integration.rst:38
 msgid ""
-"At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
-"then enter a valid issue URL. Please note that linking a new issue can be "
-"slow sometimes."
+"Select **Link issue** from the menu next to the panel title, then enter the "
+"URL of a single issue and confirm. Zammad accepts links like ``https://"
+"github.com/organization/repository/issues/42`` or ``https://git.example.com/"
+"group1/project1/-/issues/1``. While you create a ticket, you can link issues "
+"too. They are saved with the new ticket."
 msgstr ""
-"V horní části postranního panelu tiketu vyberte *GitHub / GitLab > Připojit "
-"problém* a zadejte platnou URL adresu issue. Upozorňujeme, že propojení "
-"nového issue může někdy trvat déle."
 
-#: ../extras/github-gitlab-integration.rst:0
-msgid "Screencast showing how to list and add new issues to a ticket"
+#: ../extras/github-gitlab-integration.rst:44
+msgid ""
+"Zammad ignores a URL that is already linked to the ticket. It also rejects a "
+"URL it cannot resolve, usually because the issue doesn't exist or because "
+"the API token cannot read its repository or project. Ask your administrator "
+"to check the token in that case."
 msgstr ""
-"Videozáznam obrazovky ukazující, jak zobrazit a přidat nové issues k tiketu"
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Remove an issue"
-msgstr "Odebrání issue"
+#: ../extras/github-gitlab-integration.rst:50
+#, fuzzy
+#| msgid "Link a new issue"
+msgid "Unlink an Issue"
+msgstr "Propojení nového issue"
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Click the ✕ button next to an issue title to unlink it."
-msgstr "Kliknutím na tlačítko ✕ vedle názvu issue ho odpojíte."
+#: ../extras/github-gitlab-integration.rst:52
+msgid ""
+"Click the ``X`` button next to an issue title. Unlinking removes the "
+"reference from the ticket and leaves the issue untouched in GitHub or "
+"GitLab. Other tickets that link the same issue keep their own reference."
+msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
 msgstr "i-doit: sledování firemního majetku"
 
 #: ../extras/i-doit-track-company-property.rst:4
+#, fuzzy
+#| msgid ""
+#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
+#| "which pieces of your company's property are related to any given ticket. "
+#| "That includes both physical and digital infrastructure, from servers to "
+#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
 "includes both physical and digital infrastructure, from servers to meeting "
-"rooms to virtual machines to software licenses."
+"rooms to virtual machines to software licenses. It can help you keep track "
+"of troublesome equipment and find previous tickets about the last time an "
+"object caused problems."
 msgstr ""
 "Díky integraci `i-doit <https://www.i-doit.com/>`_ můžete zobrazit, které "
 "části firemního majetku souvisejí s daným tiketem. Zahrnuje to fyzickou i "
 "digitální infrastrukturu, od serverů přes zasedací místnosti a virtuální "
 "počítače až po softwarové licence."
 
-#: ../extras/i-doit-track-company-property.rst:9
+#: ../extras/i-doit-track-company-property.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is optional. If you don't see it in the ticket view, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
+#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
+#| "your administrator / IT personnel to give you a tour. If your "
+#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
-"your administrator hasn't enabled it yet. Administrators can learn more in "
+"your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
+"ticket list in i-doit are set up separately, so your administrator may "
+"enable one of them without the other. Administrators can learn more in "
 "the :admin-docs:`i-doit integration in the admin documentation </system/"
 "integrations/i-doit.html>`. If your company is using i-doit, ask your "
 "administrator / IT personnel to give you a tour. If your organization isn't "
@@ -6905,132 +6932,65 @@ msgstr ""
 "požádejte svého administrátora / pracovníky IT, aby vám ho ukázali. Pokud "
 "vaše organizace i-doit nepoužívá, tento návod pro vás není."
 
-#: ../extras/i-doit-track-company-property.rst:21
+#: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr "(Snímek obrazovky) Nabídka integrace i-doit v zobrazení tiketu"
 
-#: ../extras/i-doit-track-company-property.rst:21
-msgid ""
-"Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
-msgstr ""
-"Pomocí karty 🖨 **tiskárna** zobrazíte nebo spravujete majetek tiketu z i-"
-"doit."
-
 #: ../extras/i-doit-track-company-property.rst:25
-msgid "Why?"
-msgstr "Proč?"
-
-#: ../extras/i-doit-track-company-property.rst:27
 msgid ""
-"i-doit can help you keep track of troublesome equipment and find previous "
-"tickets from the last time something went wrong with it."
+"The **i-doit** panel in the ticket sidebar lists the objects linked to a "
+"ticket."
 msgstr ""
-"i-doit vám pomůže mít přehled o problematickém vybavení a najít předchozí "
-"tikety z doby, kdy se s ním naposledy něco pokazilo."
 
-#: ../extras/i-doit-track-company-property.rst:30
-msgid ""
-"It's also a great way to document quirks in the company's belongings: Why "
-"haven't we upgraded this system from Windows Vista yet? What did we decide "
-"to do about that faulty network switch? And why does the coffee maker keep "
-"shutting off before it's finished? 🤬"
-msgstr ""
-"Je to také skvělý způsob, jak dokumentovat zvláštnosti firemního majetku: "
-"Proč jsme tento systém ještě neaktualizovali z Windows Vista? Co jsme se "
-"rozhodli udělat s tím vadným síťovým přepínačem? A proč se kávovar pořád "
-"vypíná dřív, než dodělá kávu? 🤬"
-
-#: ../extras/i-doit-track-company-property.rst:36
-msgid "So How Does It Work?"
-msgstr "Jak to tedy funguje?"
-
-#: ../extras/i-doit-track-company-property.rst:39
-msgid "In Zammad: Link i-doit Assets To Tickets"
+#: ../extras/i-doit-track-company-property.rst:29
+#, fuzzy
+#| msgid "In Zammad: Link i-doit Assets To Tickets"
+msgid "Link i-doit Objects to Tickets in Zammad"
 msgstr "V Zammadu: propojení majetku z i-doit s tikety"
 
-#: ../extras/i-doit-track-company-property.rst:41
-msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr "Nejprve v postranním panelu tiketu přidejte k tiketu majetek z i-doit:"
-
-#: ../extras/i-doit-track-company-property.rst:47
-msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
-msgstr ""
-"(Videozáznam obrazovky) Vytvoření nového tiketu a jeho propojení s majetkem "
-"z i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:47
+#: ../extras/i-doit-track-company-property.rst:31
 msgid ""
-"Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+"First, add i-doit objects to a ticket in the ticket sidebar. In the printer "
+"tab, select **Change Objects** in the **i-doit** panel, then filter by type "
+"and name. The search matches object names only and returns at most 10 "
+"results, so pick a type to narrow it down."
 msgstr ""
-"Vyberte *🖨 > i-doit > Upravit objekty* a poté filtrujte podle kategorie a/"
-"nebo názvu."
 
-#: ../extras/i-doit-track-company-property.rst:49
+#: ../extras/i-doit-track-company-property.rst:40
+#, fuzzy
+#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
+msgid "(Screenshot) The i-doit object picker with type filter and search field"
+msgstr "(Snímek obrazovky) Nabídka integrace i-doit v zobrazení tiketu"
+
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "Select the objects to link, then use the ``Submit`` button."
+msgstr ""
+
+#: ../extras/i-doit-track-company-property.rst:42
 msgid ""
-"Once assets have been linked to a ticket, they can be accessed directly from "
-"the ticket view:"
+"Once objects have been linked to a ticket, click an object in the ticket "
+"sidebar to open its page in i-doit. The sidebar always shows the current "
+"data from i-doit: a renamed object appears under its new name, and an object "
+"deleted there drops off the list. Use the **Unlink object** icon next to an "
+"entry, which unlinks it from the ticket in Zammad and doesn't delete "
+"anything in i-doit."
 msgstr ""
-"Jakmile je majetek s tiketem propojen, můžete k němu přistupovat přímo ze "
-"zobrazení tiketu:"
 
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"(Screencast) Access an i-doit asset directly from the Zammad ticket view"
-msgstr ""
-"(Videozáznam obrazovky) Přístup k majetku z i-doit přímo ze zobrazení tiketu "
-"v Zammadu"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"Click on a linked asset in the ticket sidebar to open its page in i-doit."
-msgstr ""
-"Kliknutím na propojený majetek v postranním panelu tiketu otevřete jeho "
-"stránku v i-doit."
-
-#: ../extras/i-doit-track-company-property.rst:58
-msgid "In i-doit: List & Create Tickets For a Given Asset"
+#: ../extras/i-doit-track-company-property.rst:50
+#, fuzzy
+#| msgid "In i-doit: List & Create Tickets For a Given Asset"
+msgid "List & Create Tickets in i-doit"
 msgstr "V i-doit: zobrazení a vytváření tiketů pro daný majetek"
 
-#: ../extras/i-doit-track-company-property.rst:60
+#: ../extras/i-doit-track-company-property.rst:52
 msgid ""
-"Your i-doit control panel should contain a list of all the tickets "
-"associated with each asset:"
+"In i-doit, an object's page should contain a list of all the tickets "
+"associated with it. Click **All Tickets** in the object toolbar to list "
+"them, then use the **Open in ticketsystem** link in a ticket row to open the "
+"ticket in Zammad. You can even launch Zammad's new ticket dialog directly "
+"from i-doit, with the object already linked. Use **Create ticket** in the "
+"**All Tickets** panel to start it."
 msgstr ""
-"Váš ovládací panel i-doit by měl obsahovat seznam všech tiketů souvisejících "
-"s jednotlivými položkami majetku:"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr ""
-"(Videozáznam obrazovky) Zobrazení seznamu všech tiketů k majetku v i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid ""
-"Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in "
-"ticket system** button to open the ticket in Zammad."
-msgstr ""
-"Kliknutím na 💬 na panelu nástrojů zobrazíte seznam tiketů k majetku. "
-"Tlačítkem **🔗 Open in ticket system** otevřete tiket v Zammadu."
-
-#: ../extras/i-doit-track-company-property.rst:70
-msgid ""
-"You can even launch Zammad's new ticket dialog directly from i-doit, with "
-"the asset already linked for you:"
-msgstr ""
-"Z i-doit můžete dokonce přímo spustit dialog nového tiketu Zammadu, ve "
-"kterém už bude majetek propojený:"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid "(Screencast) Launch the new ticket dialog from within i-doit"
-msgstr "(Videozáznam obrazovky) Spuštění dialogu nového tiketu z i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid ""
-"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
-"pre-linked ticket dialog."
-msgstr ""
-"Tlačítkem **📄 Create ticket** v seznamu tiketů k majetku otevřete dialog "
-"nového tiketu s předem propojeným majetkem."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -7686,10 +7646,8 @@ msgid "Progressive web app (PWA) support"
 msgstr "Podpora progresivní webové aplikace (PWA)"
 
 #: ../extras/mobile-view.rst:135
-#, fuzzy
-#| msgid "Notifications"
 msgid "Push Notifications"
-msgstr "Oznámení"
+msgstr "Push oznámení"
 
 #: ../extras/mobile-view.rst:137
 msgid ""
@@ -7698,6 +7656,10 @@ msgid ""
 "not for your account as a whole: you can have them on your phone and leave "
 "them off on a tablet."
 msgstr ""
+"Mobilní zobrazení vás může informovat o vašich tiketech na mobilním "
+"zařízení, i když aplikace není otevřená. Push oznámení se zapínají pro každé "
+"zařízení zvlášť, ne pro celý účet: můžete je mít zapnutá v telefonu a v "
+"tabletu vypnutá."
 
 #: ../extras/mobile-view.rst:142
 msgid ""
@@ -7705,6 +7667,9 @@ msgid ""
 "**Notifications** section of your account page. If the switch is locked, the "
 "text below it tells you what is missing."
 msgstr ""
+"Zapnete je přepínačem **Push oznámení na tomto zařízení** v sekci "
+"**Oznámení** na stránce svého účtu. Pokud je přepínač uzamčený, text pod ním "
+"vám řekne, co chybí."
 
 #: ../extras/mobile-view.rst:146
 msgid ""
@@ -7713,6 +7678,10 @@ msgid ""
 "A push shows the same text as the entry in the notification list, and "
 "tapping it opens the ticket in the app."
 msgstr ""
+"Každé oznámení, které pro vás Zammad vytvoří, se odešle také do vašeho "
+"zařízení, například o nových tiketech, aktualizacích tiketů, nastalém čase "
+"připomenutí nebo eskalacích. Push oznámení zobrazuje stejný text jako "
+"položka v seznamu oznámení a klepnutím na něj otevřete tiket v aplikaci."
 
 #: ../extras/mobile-view.rst:151
 msgid ""
@@ -7721,6 +7690,10 @@ msgid ""
 "Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
 "installed app and the browser can both receive them."
 msgstr ""
+"Na iPhonu a iPadu jsou push oznámení k dispozici jen v aplikaci přidané na "
+"plochu v systému iOS nebo iPadOS 16.4 či novějším. Otevřete mobilní "
+"zobrazení v Safari, klepněte na ``Share`` a poté na ``Add to Home Screen``. "
+"V Androidu je může přijímat nainstalovaná aplikace i prohlížeč."
 
 #: ../extras/mobile-view.rst:156
 msgid ""
@@ -7730,6 +7703,11 @@ msgid ""
 "all. Turn the switch off again to stop receiving them; signing out removes "
 "the device as well."
 msgstr ""
+"Pokud jste oznámení pro aplikaci vypnuli v nastavení zařízení, zůstane "
+"přepínač uzamčený, dokud je tam znovu nepovolíte. V prohlížeči, jehož push "
+"službu Zammad nepodporuje, push oznámení zapnout vůbec nelze. Chcete-li je "
+"přestat dostávat, přepínač znovu vypněte; zařízení se odebere i při "
+"odhlášení."
 
 #: ../extras/mobile-view.rst:162
 msgid ""
@@ -7738,6 +7716,10 @@ msgid ""
 "Android devices. While you are working in the desktop view, Zammad does not "
 "send push notifications to your mobile devices."
 msgstr ""
+"Push oznámení doručuje push služba vašeho prohlížeče, nikoli Zammad, takže "
+"se mohou zpozdit, například kvůli optimalizaci baterie na zařízeních s "
+"Androidem. Dokud pracujete v desktopovém zobrazení, Zammad na vaše mobilní "
+"zařízení push oznámení neposílá."
 
 #: ../extras/mobile-view.rst:168
 msgid "Limitations"
@@ -7813,7 +7795,7 @@ msgstr ""
 
 #: ../extras/mobile-view.rst:197
 msgid "Continue to Desktop Link in Mobile View"
-msgstr ""
+msgstr "Odkaz Pokračovat na desktopovou verzi v mobilním zobrazení"
 
 #: ../extras/mobile-view.rst:199
 msgid ""
@@ -7821,6 +7803,10 @@ msgid ""
 "in`` button. While you are signed in, open your account page with the avatar "
 "in the bottom navigation and use the **Continue to desktop** entry there."
 msgstr ""
+"Na přihlašovací obrazovce použijte odkaz **Pokračovat na desktopovou verzi** "
+"pod tlačítkem ``Přihlásit se``. Pokud jste přihlášení, otevřete stránku "
+"svého účtu avatarem v dolní navigaci a použijte tam položku **Pokračovat na "
+"desktopovou verzi**."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -7836,7 +7822,7 @@ msgstr "Přehled uživatelského účtu"
 
 #: ../extras/mobile-view.rst:226
 msgid "Continue to Mobile Link in Desktop View"
-msgstr ""
+msgstr "Odkaz Pokračovat na mobilní verzi v desktopovém zobrazení"
 
 #: ../extras/mobile-view.rst:228
 msgid ""
@@ -7845,6 +7831,10 @@ msgid ""
 "mobile** entry in the user menu, which your avatar at the bottom of the "
 "navigation sidebar opens."
 msgstr ""
+"Na přihlašovací obrazovce desktopového zobrazení použijte odkaz **Pokračovat "
+"na mobilní verzi** pod tlačítkem ``Přihlásit se``. Pokud jste přihlášení, "
+"použijte položku **Pokračovat na mobilní verzi** v uživatelské nabídce, "
+"kterou otevřete svým avatarem v dolní části navigačního postranního panelu."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -9402,6 +9392,9 @@ msgid ""
 "and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
 "view>` page to turn them on for a device."
 msgstr ""
+"Push oznámení na mobilním zařízení se řídí těmito interními oznámeními a "
+"vlastní nastavení nemají. Jak je pro zařízení zapnout, najdete na "
+"stránce :doc:`mobilní zobrazení </extras/mobile-view>`."
 
 #: ../extras/user-menu-profile-settings.rst:122
 msgid ""
@@ -9620,6 +9613,172 @@ msgstr ""
 "Právě čtete uživatelskou dokumentaci Zammadu. K dispozici je "
 "také :docs:`systémová </index.html>` a :admin-docs:`administrátorská "
 "příručka </index.html>`."
+
+#~ msgid ""
+#~ "With the issue tracker integration, you can monitor GitHub / GitLab "
+#~ "issues right from within a Zammad ticket. This feature is optional. If "
+#~ "you don't see it in the ticket sidebar, that means your administrator "
+#~ "hasn't enabled it yet. Administrators can learn more in the :admin-"
+#~ "docs:`issue tracker integration in the admin documentation </system/"
+#~ "integrations#integrations-for-issue-trackers>`."
+#~ msgstr ""
+#~ "Díky integraci issue trackerů můžete sledovat issues z GitHubu / GitLabu "
+#~ "přímo v tiketu Zammadu. Tato funkce je volitelná. Pokud ji v postranním "
+#~ "panelu tiketu nevidíte, váš administrátor ji ještě nezapnul. "
+#~ "Administrátoři se mohou dozvědět více v :admin-docs:`části o integraci "
+#~ "issue trackerů v dokumentaci pro administrátory </system/"
+#~ "integrations#integrations-for-issue-trackers>`."
+
+#~ msgid "Ticket detail view showing activated GitHub & GitLab function"
+#~ msgstr "Detail tiketu se zapnutou funkcí GitHub a GitLab"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview "
+#~ "of issues related to the ticket."
+#~ msgstr ""
+#~ "Pomocí karet |github| a |gitlab| v postranním panelu tiketu získáte "
+#~ "přehled o issues souvisejících s tiketem."
+
+#~ msgid "GitHub logo"
+#~ msgstr "Logo GitHubu"
+
+#~ msgid "GitLab logo"
+#~ msgstr "Logo GitLabu"
+
+#~ msgid "What Can It Do?"
+#~ msgstr "Co to umí?"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
+#~ "issues, along with metadata like status (open/closed), assignee, labels, "
+#~ "and more. Or, simply click the title to view the issue on GitHub / "
+#~ "GitLab. A badge on the tab icon indicates how many issues are linked to "
+#~ "this ticket."
+#~ msgstr ""
+#~ "Pomocí karet |github| a |gitlab| v postranním panelu tiketu zobrazíte "
+#~ "propojené issues spolu s metadaty, jako je stav (otevřené/uzavřené), "
+#~ "řešitel, popisky a další. Nebo jednoduše kliknutím na název zobrazíte "
+#~ "issue na GitHubu / GitLabu. Odznak na ikoně karty ukazuje, kolik issues "
+#~ "je s tímto tiketem propojeno."
+
+#~ msgid ""
+#~ "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
+#~ "then enter a valid issue URL. Please note that linking a new issue can be "
+#~ "slow sometimes."
+#~ msgstr ""
+#~ "V horní části postranního panelu tiketu vyberte *GitHub / GitLab > "
+#~ "Připojit problém* a zadejte platnou URL adresu issue. Upozorňujeme, že "
+#~ "propojení nového issue může někdy trvat déle."
+
+#~ msgid "Screencast showing how to list and add new issues to a ticket"
+#~ msgstr ""
+#~ "Videozáznam obrazovky ukazující, jak zobrazit a přidat nové issues k "
+#~ "tiketu"
+
+#~ msgid "Remove an issue"
+#~ msgstr "Odebrání issue"
+
+#~ msgid "Click the ✕ button next to an issue title to unlink it."
+#~ msgstr "Kliknutím na tlačítko ✕ vedle názvu issue ho odpojíte."
+
+#~ msgid ""
+#~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
+#~ msgstr ""
+#~ "Pomocí karty 🖨 **tiskárna** zobrazíte nebo spravujete majetek tiketu z i-"
+#~ "doit."
+
+#~ msgid "Why?"
+#~ msgstr "Proč?"
+
+#~ msgid ""
+#~ "i-doit can help you keep track of troublesome equipment and find previous "
+#~ "tickets from the last time something went wrong with it."
+#~ msgstr ""
+#~ "i-doit vám pomůže mít přehled o problematickém vybavení a najít předchozí "
+#~ "tikety z doby, kdy se s ním naposledy něco pokazilo."
+
+#~ msgid ""
+#~ "It's also a great way to document quirks in the company's belongings: Why "
+#~ "haven't we upgraded this system from Windows Vista yet? What did we "
+#~ "decide to do about that faulty network switch? And why does the coffee "
+#~ "maker keep shutting off before it's finished? 🤬"
+#~ msgstr ""
+#~ "Je to také skvělý způsob, jak dokumentovat zvláštnosti firemního majetku: "
+#~ "Proč jsme tento systém ještě neaktualizovali z Windows Vista? Co jsme se "
+#~ "rozhodli udělat s tím vadným síťovým přepínačem? A proč se kávovar pořád "
+#~ "vypíná dřív, než dodělá kávu? 🤬"
+
+#~ msgid "So How Does It Work?"
+#~ msgstr "Jak to tedy funguje?"
+
+#~ msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
+#~ msgstr ""
+#~ "Nejprve v postranním panelu tiketu přidejte k tiketu majetek z i-doit:"
+
+#~ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Vytvoření nového tiketu a jeho propojení s "
+#~ "majetkem z i-doit"
+
+#~ msgid ""
+#~ "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+#~ msgstr ""
+#~ "Vyberte *🖨 > i-doit > Upravit objekty* a poté filtrujte podle kategorie a/"
+#~ "nebo názvu."
+
+#~ msgid ""
+#~ "Once assets have been linked to a ticket, they can be accessed directly "
+#~ "from the ticket view:"
+#~ msgstr ""
+#~ "Jakmile je majetek s tiketem propojen, můžete k němu přistupovat přímo ze "
+#~ "zobrazení tiketu:"
+
+#~ msgid ""
+#~ "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Přístup k majetku z i-doit přímo ze zobrazení "
+#~ "tiketu v Zammadu"
+
+#~ msgid ""
+#~ "Click on a linked asset in the ticket sidebar to open its page in i-doit."
+#~ msgstr ""
+#~ "Kliknutím na propojený majetek v postranním panelu tiketu otevřete jeho "
+#~ "stránku v i-doit."
+
+#~ msgid ""
+#~ "Your i-doit control panel should contain a list of all the tickets "
+#~ "associated with each asset:"
+#~ msgstr ""
+#~ "Váš ovládací panel i-doit by měl obsahovat seznam všech tiketů "
+#~ "souvisejících s jednotlivými položkami majetku:"
+
+#~ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Zobrazení seznamu všech tiketů k majetku v i-doit"
+
+#~ msgid ""
+#~ "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open "
+#~ "in ticket system** button to open the ticket in Zammad."
+#~ msgstr ""
+#~ "Kliknutím na 💬 na panelu nástrojů zobrazíte seznam tiketů k majetku. "
+#~ "Tlačítkem **🔗 Open in ticket system** otevřete tiket v Zammadu."
+
+#~ msgid ""
+#~ "You can even launch Zammad's new ticket dialog directly from i-doit, with "
+#~ "the asset already linked for you:"
+#~ msgstr ""
+#~ "Z i-doit můžete dokonce přímo spustit dialog nového tiketu Zammadu, ve "
+#~ "kterém už bude majetek propojený:"
+
+#~ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
+#~ msgstr "(Videozáznam obrazovky) Spuštění dialogu nového tiketu z i-doit"
+
+#~ msgid ""
+#~ "Use the **📄 Create ticket** button in the asset ticket list to start a "
+#~ "new, pre-linked ticket dialog."
+#~ msgstr ""
+#~ "Tlačítkem **📄 Create ticket** v seznamu tiketů k majetku otevřete dialog "
+#~ "nového tiketu s předem propojeným majetkem."
 
 #~ msgid "Show dashboard"
 #~ msgstr "Zobrazit nástěnku"
