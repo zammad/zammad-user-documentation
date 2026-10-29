@@ -6909,21 +6909,39 @@ msgid "i-doit: Track Company Property"
 msgstr "i-doit: Праћење имовине компаније"
 
 #: ../extras/i-doit-track-company-property.rst:4
+#, fuzzy
+#| msgid ""
+#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
+#| "which pieces of your company's property are related to any given ticket. "
+#| "That includes both physical and digital infrastructure, from servers to "
+#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
 "includes both physical and digital infrastructure, from servers to meeting "
-"rooms to virtual machines to software licenses."
+"rooms to virtual machines to software licenses. It can help you keep track "
+"of troublesome equipment and find previous tickets about the last time an "
+"object caused problems."
 msgstr ""
 "Уз помоћ `i-doit <https://www.i-doit.com/>`_ интеграције, можете да "
 "излистате који делови имовине ваше компаније су сродни одређеном тикету. То "
 "укључује и физичку и дигиталну инфраструктуру, све од сервера преко соба за "
 "састанке и виртуелних машина до софтверских лиценци."
 
-#: ../extras/i-doit-track-company-property.rst:9
+#: ../extras/i-doit-track-company-property.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is optional. If you don't see it in the ticket view, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
+#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
+#| "your administrator / IT personnel to give you a tour. If your "
+#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
-"your administrator hasn't enabled it yet. Administrators can learn more in "
+"your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
+"ticket list in i-doit are set up separately, so your administrator may "
+"enable one of them without the other. Administrators can learn more in "
 "the :admin-docs:`i-doit integration in the admin documentation </system/"
 "integrations/i-doit.html>`. If your company is using i-doit, ask your "
 "administrator / IT personnel to give you a tour. If your organization isn't "
@@ -6936,129 +6954,65 @@ msgstr ""
 "администратора / IT особље за кратак увод. Уколико ваша организација још "
 "увек не користи i-doit, овај водич није за вас."
 
-#: ../extras/i-doit-track-company-property.rst:21
+#: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr "Мени i-doit интеграције у приказу тикета"
 
-#: ../extras/i-doit-track-company-property.rst:21
-msgid ""
-"Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
-msgstr ""
-"Користите језичак 🖨 **штампача** да бисте видели или управљали i-doit "
-"објектима тикета."
-
 #: ../extras/i-doit-track-company-property.rst:25
-msgid "Why?"
-msgstr "Зашто?"
-
-#: ../extras/i-doit-track-company-property.rst:27
 msgid ""
-"i-doit can help you keep track of troublesome equipment and find previous "
-"tickets from the last time something went wrong with it."
+"The **i-doit** panel in the ticket sidebar lists the objects linked to a "
+"ticket."
 msgstr ""
-"i-doit вам може помоћи да испратите проблематичну опрему и пронађете "
-"претходне тикете од последњег пута када је нешто пошло по злу."
 
-#: ../extras/i-doit-track-company-property.rst:30
-msgid ""
-"It's also a great way to document quirks in the company's belongings: Why "
-"haven't we upgraded this system from Windows Vista yet? What did we decide "
-"to do about that faulty network switch? And why does the coffee maker keep "
-"shutting off before it's finished? 🤬"
-msgstr ""
-"То је такође одличан начин да документујете недостатке у имовини компаније: "
-"зашто још нисмо надоградили овај систем са Windows Vista-е? Шта смо одлучили "
-"да урадимо у вези са тим неисправним мрежним свичем? И зашто се апарат за "
-"кафу гаси пре него што заврши? 🤬"
-
-#: ../extras/i-doit-track-company-property.rst:36
-msgid "So How Does It Work?"
-msgstr "Како то уствари функционише?"
-
-#: ../extras/i-doit-track-company-property.rst:39
-msgid "In Zammad: Link i-doit Assets To Tickets"
+#: ../extras/i-doit-track-company-property.rst:29
+#, fuzzy
+#| msgid "In Zammad: Link i-doit Assets To Tickets"
+msgid "Link i-doit Objects to Tickets in Zammad"
 msgstr "У Zammad-у: Повежите i-doit објекте са тикетима"
 
-#: ../extras/i-doit-track-company-property.rst:41
-msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr "Прво додајте i-doit објекте у тикет из бпчне траке тикета:"
-
-#: ../extras/i-doit-track-company-property.rst:47
-msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
-msgstr "(Снимак екрана) Направите нов тикет и повежите га са i-doit објектом"
-
-#: ../extras/i-doit-track-company-property.rst:47
+#: ../extras/i-doit-track-company-property.rst:31
 msgid ""
-"Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+"First, add i-doit objects to a ticket in the ticket sidebar. In the printer "
+"tab, select **Change Objects** in the **i-doit** panel, then filter by type "
+"and name. The search matches object names only and returns at most 10 "
+"results, so pick a type to narrow it down."
 msgstr ""
-"Изаберите *🖨 > i-doit > Измени објекте*, а затим филтрирајте по категорији и/"
-"или називу."
 
-#: ../extras/i-doit-track-company-property.rst:49
+#: ../extras/i-doit-track-company-property.rst:40
+#, fuzzy
+#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
+msgid "(Screenshot) The i-doit object picker with type filter and search field"
+msgstr "Мени i-doit интеграције у приказу тикета"
+
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "Select the objects to link, then use the ``Submit`` button."
+msgstr ""
+
+#: ../extras/i-doit-track-company-property.rst:42
 msgid ""
-"Once assets have been linked to a ticket, they can be accessed directly from "
-"the ticket view:"
+"Once objects have been linked to a ticket, click an object in the ticket "
+"sidebar to open its page in i-doit. The sidebar always shows the current "
+"data from i-doit: a renamed object appears under its new name, and an object "
+"deleted there drops off the list. Use the **Unlink object** icon next to an "
+"entry, which unlinks it from the ticket in Zammad and doesn't delete "
+"anything in i-doit."
 msgstr ""
-"Када су објекти повезани са тикетом, њима се може приступити директно из "
-"приказа тикета:"
 
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"(Screencast) Access an i-doit asset directly from the Zammad ticket view"
-msgstr ""
-"(Снимак екрана) Приступите i-doit објекту директно из приказа Zammad тикета"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"Click on a linked asset in the ticket sidebar to open its page in i-doit."
-msgstr ""
-"Кликните на повезан објекат у бочној траци тикета да бисте га отворили у i-"
-"doit."
-
-#: ../extras/i-doit-track-company-property.rst:58
-msgid "In i-doit: List & Create Tickets For a Given Asset"
+#: ../extras/i-doit-track-company-property.rst:50
+#, fuzzy
+#| msgid "In i-doit: List & Create Tickets For a Given Asset"
+msgid "List & Create Tickets in i-doit"
 msgstr "У i-doit: Излистајте и отворите тикете за дат објекат"
 
-#: ../extras/i-doit-track-company-property.rst:60
+#: ../extras/i-doit-track-company-property.rst:52
 msgid ""
-"Your i-doit control panel should contain a list of all the tickets "
-"associated with each asset:"
+"In i-doit, an object's page should contain a list of all the tickets "
+"associated with it. Click **All Tickets** in the object toolbar to list "
+"them, then use the **Open in ticketsystem** link in a ticket row to open the "
+"ticket in Zammad. You can even launch Zammad's new ticket dialog directly "
+"from i-doit, with the object already linked. Use **Create ticket** in the "
+"**All Tickets** panel to start it."
 msgstr ""
-"Ваша i-doit контролна табла би требало да садржи листу свих тикета повезаних "
-"са сваким објектом:"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr "(Снимак екрана) Погледајте листу свих тикета за објекат у i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid ""
-"Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in "
-"ticket system** button to open the ticket in Zammad."
-msgstr ""
-"Кликните на 💬 на траци са алаткама да бисте излистали тикете за објекат. "
-"Користите дугме **🔗 Отвори у тикет систему** да бисте отворили тикет у "
-"Zammad-у."
-
-#: ../extras/i-doit-track-company-property.rst:70
-msgid ""
-"You can even launch Zammad's new ticket dialog directly from i-doit, with "
-"the asset already linked for you:"
-msgstr ""
-"Можете чак и покренути Zammad дијалог новог тикета директно из i-doit, са "
-"објектом које ће већ бити повезано за вас:"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid "(Screencast) Launch the new ticket dialog from within i-doit"
-msgstr "(Снимак екрана) Покрените дијалог новог тикета из i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid ""
-"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
-"pre-linked ticket dialog."
-msgstr ""
-"Користите дугме **📄 Отвори тикет** на листи тикета за објекат да бисте "
-"отворили нови, унапред повезани дијалог тикета."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -9591,6 +9545,103 @@ msgstr ""
 "Тренутно читате Zammad корисничку документацију. Такође су "
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
+
+#~ msgid ""
+#~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
+#~ msgstr ""
+#~ "Користите језичак 🖨 **штампача** да бисте видели или управљали i-doit "
+#~ "објектима тикета."
+
+#~ msgid "Why?"
+#~ msgstr "Зашто?"
+
+#~ msgid ""
+#~ "i-doit can help you keep track of troublesome equipment and find previous "
+#~ "tickets from the last time something went wrong with it."
+#~ msgstr ""
+#~ "i-doit вам може помоћи да испратите проблематичну опрему и пронађете "
+#~ "претходне тикете од последњег пута када је нешто пошло по злу."
+
+#~ msgid ""
+#~ "It's also a great way to document quirks in the company's belongings: Why "
+#~ "haven't we upgraded this system from Windows Vista yet? What did we "
+#~ "decide to do about that faulty network switch? And why does the coffee "
+#~ "maker keep shutting off before it's finished? 🤬"
+#~ msgstr ""
+#~ "То је такође одличан начин да документујете недостатке у имовини "
+#~ "компаније: зашто још нисмо надоградили овај систем са Windows Vista-е? "
+#~ "Шта смо одлучили да урадимо у вези са тим неисправним мрежним свичем? И "
+#~ "зашто се апарат за кафу гаси пре него што заврши? 🤬"
+
+#~ msgid "So How Does It Work?"
+#~ msgstr "Како то уствари функционише?"
+
+#~ msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
+#~ msgstr "Прво додајте i-doit објекте у тикет из бпчне траке тикета:"
+
+#~ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
+#~ msgstr ""
+#~ "(Снимак екрана) Направите нов тикет и повежите га са i-doit објектом"
+
+#~ msgid ""
+#~ "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+#~ msgstr ""
+#~ "Изаберите *🖨 > i-doit > Измени објекте*, а затим филтрирајте по "
+#~ "категорији и/или називу."
+
+#~ msgid ""
+#~ "Once assets have been linked to a ticket, they can be accessed directly "
+#~ "from the ticket view:"
+#~ msgstr ""
+#~ "Када су објекти повезани са тикетом, њима се може приступити директно из "
+#~ "приказа тикета:"
+
+#~ msgid ""
+#~ "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
+#~ msgstr ""
+#~ "(Снимак екрана) Приступите i-doit објекту директно из приказа Zammad "
+#~ "тикета"
+
+#~ msgid ""
+#~ "Click on a linked asset in the ticket sidebar to open its page in i-doit."
+#~ msgstr ""
+#~ "Кликните на повезан објекат у бочној траци тикета да бисте га отворили у "
+#~ "i-doit."
+
+#~ msgid ""
+#~ "Your i-doit control panel should contain a list of all the tickets "
+#~ "associated with each asset:"
+#~ msgstr ""
+#~ "Ваша i-doit контролна табла би требало да садржи листу свих тикета "
+#~ "повезаних са сваким објектом:"
+
+#~ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
+#~ msgstr "(Снимак екрана) Погледајте листу свих тикета за објекат у i-doit"
+
+#~ msgid ""
+#~ "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open "
+#~ "in ticket system** button to open the ticket in Zammad."
+#~ msgstr ""
+#~ "Кликните на 💬 на траци са алаткама да бисте излистали тикете за објекат. "
+#~ "Користите дугме **🔗 Отвори у тикет систему** да бисте отворили тикет у "
+#~ "Zammad-у."
+
+#~ msgid ""
+#~ "You can even launch Zammad's new ticket dialog directly from i-doit, with "
+#~ "the asset already linked for you:"
+#~ msgstr ""
+#~ "Можете чак и покренути Zammad дијалог новог тикета директно из i-doit, са "
+#~ "објектом које ће већ бити повезано за вас:"
+
+#~ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
+#~ msgstr "(Снимак екрана) Покрените дијалог новог тикета из i-doit"
+
+#~ msgid ""
+#~ "Use the **📄 Create ticket** button in the asset ticket list to start a "
+#~ "new, pre-linked ticket dialog."
+#~ msgstr ""
+#~ "Користите дугме **📄 Отвори тикет** на листи тикета за објекат да бисте "
+#~ "отворили нови, унапред повезани дијалог тикета."
 
 #~ msgid ""
 #~ "Generate personal access tokens for third party applications to use the "

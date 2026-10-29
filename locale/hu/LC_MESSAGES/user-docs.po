@@ -7164,11 +7164,19 @@ msgid "i-doit: Track Company Property"
 msgstr "i-doit: vállalati vagyontárgyak nyomon követése"
 
 #: ../extras/i-doit-track-company-property.rst:4
+#, fuzzy
+#| msgid ""
+#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
+#| "which pieces of your company's property are related to any given ticket. "
+#| "That includes both physical and digital infrastructure, from servers to "
+#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
 "includes both physical and digital infrastructure, from servers to meeting "
-"rooms to virtual machines to software licenses."
+"rooms to virtual machines to software licenses. It can help you keep track "
+"of troublesome equipment and find previous tickets about the last time an "
+"object caused problems."
 msgstr ""
 "Az `i-doit <https://www.i-doit.com/>`_-integrációval felsorolhatja, hogy a "
 "vállalata vagyontárgyainak mely elemei kapcsolódnak egy adott jegyhez. Ez "
@@ -7176,10 +7184,20 @@ msgstr ""
 "kiszolgálóktól kezdve a tárgyalótermeken át a virtuális gépekig és a "
 "szoftverlicencekig."
 
-#: ../extras/i-doit-track-company-property.rst:9
+#: ../extras/i-doit-track-company-property.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is optional. If you don't see it in the ticket view, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
+#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
+#| "your administrator / IT personnel to give you a tour. If your "
+#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
-"your administrator hasn't enabled it yet. Administrators can learn more in "
+"your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
+"ticket list in i-doit are set up separately, so your administrator may "
+"enable one of them without the other. Administrators can learn more in "
 "the :admin-docs:`i-doit integration in the admin documentation </system/"
 "integrations/i-doit.html>`. If your company is using i-doit, ask your "
 "administrator / IT personnel to give you a tour. If your organization isn't "
@@ -7193,138 +7211,66 @@ msgstr ""
 "informatikai szakembereket, hogy tartsanak egy bemutatót. Ha a szervezete "
 "még nem használja az i-doit rendszert, akkor ez az útmutató nem Önnek szól."
 
-#: ../extras/i-doit-track-company-property.rst:21
+#: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr "(Képernyőkép) Az i-doit-integráció menüje a jegy nézetében"
 
-#: ../extras/i-doit-track-company-property.rst:21
-msgid ""
-"Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
-msgstr ""
-"Használja a 🖨 **nyomtató** lapot a jegy i-doit rendszerből származó "
-"eszközeinek megtekintéséhez vagy kezeléséhez."
-
 #: ../extras/i-doit-track-company-property.rst:25
-msgid "Why?"
-msgstr "Miért?"
-
-#: ../extras/i-doit-track-company-property.rst:27
 msgid ""
-"i-doit can help you keep track of troublesome equipment and find previous "
-"tickets from the last time something went wrong with it."
+"The **i-doit** panel in the ticket sidebar lists the objects linked to a "
+"ticket."
 msgstr ""
-"Az i-doit segíthet nyomon követni a problémás berendezéseket, és megtalálni "
-"a korábbi jegyeket, amikor legutóbb valami probléma történt velük."
 
-#: ../extras/i-doit-track-company-property.rst:30
-msgid ""
-"It's also a great way to document quirks in the company's belongings: Why "
-"haven't we upgraded this system from Windows Vista yet? What did we decide "
-"to do about that faulty network switch? And why does the coffee maker keep "
-"shutting off before it's finished? 🤬"
-msgstr ""
-"Ez egyben remek módszer is arra, hogy dokumentálja a vállalata eszközeivel "
-"kapcsolatos furcsaságokat. Miért nem frissítettük még ezt a rendszert a "
-"Windows Vistáról? Milyen döntést hoztunk azzal a hibás hálózati kapcsolóval "
-"kapcsolatban? És miért kapcsol ki folyton a kávéfőző, mielőtt befejezné a "
-"főzést? 🤬"
-
-#: ../extras/i-doit-track-company-property.rst:36
-msgid "So How Does It Work?"
-msgstr "Szóval, hogyan működik ez?"
-
-#: ../extras/i-doit-track-company-property.rst:39
-msgid "In Zammad: Link i-doit Assets To Tickets"
+#: ../extras/i-doit-track-company-property.rst:29
+#, fuzzy
+#| msgid "In Zammad: Link i-doit Assets To Tickets"
+msgid "Link i-doit Objects to Tickets in Zammad"
 msgstr "A Zammadban: i-doit eszközök hozzákapcsolása a jegyekhez"
 
-#: ../extras/i-doit-track-company-property.rst:41
-msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr ""
-"Először adja hozzá az i-doit-eszközöket egy jegyhez a jegy oldalsávján:"
-
-#: ../extras/i-doit-track-company-property.rst:47
-msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
-msgstr ""
-"(Képernyőfelvétel) Új jegy létrehozása és hozzákapcsolása egy i-doit-"
-"eszközhöz"
-
-#: ../extras/i-doit-track-company-property.rst:47
+#: ../extras/i-doit-track-company-property.rst:31
 msgid ""
-"Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+"First, add i-doit objects to a ticket in the ticket sidebar. In the printer "
+"tab, select **Change Objects** in the **i-doit** panel, then filter by type "
+"and name. The search matches object names only and returns at most 10 "
+"results, so pick a type to narrow it down."
 msgstr ""
-"Válassza a *🖨 > i-doit > Objektumok megváltoztatása* menüpontot, majd "
-"szűrjön kategória és/vagy név szerint."
 
-#: ../extras/i-doit-track-company-property.rst:49
+#: ../extras/i-doit-track-company-property.rst:40
+#, fuzzy
+#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
+msgid "(Screenshot) The i-doit object picker with type filter and search field"
+msgstr "(Képernyőkép) Az i-doit-integráció menüje a jegy nézetében"
+
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "Select the objects to link, then use the ``Submit`` button."
+msgstr ""
+
+#: ../extras/i-doit-track-company-property.rst:42
 msgid ""
-"Once assets have been linked to a ticket, they can be accessed directly from "
-"the ticket view:"
+"Once objects have been linked to a ticket, click an object in the ticket "
+"sidebar to open its page in i-doit. The sidebar always shows the current "
+"data from i-doit: a renamed object appears under its new name, and an object "
+"deleted there drops off the list. Use the **Unlink object** icon next to an "
+"entry, which unlinks it from the ticket in Zammad and doesn't delete "
+"anything in i-doit."
 msgstr ""
-"Miután az eszközök hozzá lettek kapcsolva egy jegyhez, azok közvetlenül a "
-"jegy nézetéből érhetők el:"
 
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"(Screencast) Access an i-doit asset directly from the Zammad ticket view"
-msgstr ""
-"(Képernyőfelvétel) Egy i-doit-eszköz elérése közvetlenül a Zammad-jegy "
-"nézetéből"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"Click on a linked asset in the ticket sidebar to open its page in i-doit."
-msgstr ""
-"Kattintson egy kapcsolt eszközre a jegy oldalsávján, hogy megnyissa az "
-"oldalát az i-doit rendszerben."
-
-#: ../extras/i-doit-track-company-property.rst:58
-msgid "In i-doit: List & Create Tickets For a Given Asset"
+#: ../extras/i-doit-track-company-property.rst:50
+#, fuzzy
+#| msgid "In i-doit: List & Create Tickets For a Given Asset"
+msgid "List & Create Tickets in i-doit"
 msgstr ""
 "Az i-doit-ban: egy adott eszközhöz tartozó jegyek felsorolása és létrehozása"
 
-#: ../extras/i-doit-track-company-property.rst:60
+#: ../extras/i-doit-track-company-property.rst:52
 msgid ""
-"Your i-doit control panel should contain a list of all the tickets "
-"associated with each asset:"
+"In i-doit, an object's page should contain a list of all the tickets "
+"associated with it. Click **All Tickets** in the object toolbar to list "
+"them, then use the **Open in ticketsystem** link in a ticket row to open the "
+"ticket in Zammad. You can even launch Zammad's new ticket dialog directly "
+"from i-doit, with the object already linked. Use **Create ticket** in the "
+"**All Tickets** panel to start it."
 msgstr ""
-"Az i-doit vezérlőpultján szerepelnie kell az egyes eszközökhöz hozzárendelt "
-"összes jegy listájának:"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr ""
-"(Képernyőfelvétel) Az összes jegy listájának megtekintése egy i-doit "
-"rendszerben lévő eszköznél"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid ""
-"Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in "
-"ticket system** button to open the ticket in Zammad."
-msgstr ""
-"Kattintson a 💬 ikonra az eszköztáron egy eszköz jegyeinek felsorolásához. "
-"Használja a **🔗 Megnyitás a jegykezelő rendszerben** gombot a jegy "
-"Zammadban történő megnyitásához."
-
-#: ../extras/i-doit-track-company-property.rst:70
-msgid ""
-"You can even launch Zammad's new ticket dialog directly from i-doit, with "
-"the asset already linked for you:"
-msgstr ""
-"Akár a Zammad új jegy ablakát is elindíthatja közvetlenül az i-doit "
-"rendszerből úgy, hogy az eszköz már hozzá van kapcsolva:"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid "(Screencast) Launch the new ticket dialog from within i-doit"
-msgstr ""
-"(Képernyőfelvétel) Az új jegy párbeszédablak indítása az i-doit rendszerből"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid ""
-"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
-"pre-linked ticket dialog."
-msgstr ""
-"Használja az eszköz jegylistájában lévő **📄 Jegy létrehozása** gombot egy "
-"új, előre hozzákapcsolt jegy párbeszédablakának indításához."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -9920,6 +9866,111 @@ msgstr ""
 "Jelenleg a Zammad felhasználói dokumentációját olvassa. :docs:`Rendszer- </"
 "index.html>` és :admin-docs:`adminisztrátori kézikönyvek</index.html>` is "
 "elérhetők."
+
+#~ msgid ""
+#~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
+#~ msgstr ""
+#~ "Használja a 🖨 **nyomtató** lapot a jegy i-doit rendszerből származó "
+#~ "eszközeinek megtekintéséhez vagy kezeléséhez."
+
+#~ msgid "Why?"
+#~ msgstr "Miért?"
+
+#~ msgid ""
+#~ "i-doit can help you keep track of troublesome equipment and find previous "
+#~ "tickets from the last time something went wrong with it."
+#~ msgstr ""
+#~ "Az i-doit segíthet nyomon követni a problémás berendezéseket, és "
+#~ "megtalálni a korábbi jegyeket, amikor legutóbb valami probléma történt "
+#~ "velük."
+
+#~ msgid ""
+#~ "It's also a great way to document quirks in the company's belongings: Why "
+#~ "haven't we upgraded this system from Windows Vista yet? What did we "
+#~ "decide to do about that faulty network switch? And why does the coffee "
+#~ "maker keep shutting off before it's finished? 🤬"
+#~ msgstr ""
+#~ "Ez egyben remek módszer is arra, hogy dokumentálja a vállalata "
+#~ "eszközeivel kapcsolatos furcsaságokat. Miért nem frissítettük még ezt a "
+#~ "rendszert a Windows Vistáról? Milyen döntést hoztunk azzal a hibás "
+#~ "hálózati kapcsolóval kapcsolatban? És miért kapcsol ki folyton a "
+#~ "kávéfőző, mielőtt befejezné a főzést? 🤬"
+
+#~ msgid "So How Does It Work?"
+#~ msgstr "Szóval, hogyan működik ez?"
+
+#~ msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
+#~ msgstr ""
+#~ "Először adja hozzá az i-doit-eszközöket egy jegyhez a jegy oldalsávján:"
+
+#~ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
+#~ msgstr ""
+#~ "(Képernyőfelvétel) Új jegy létrehozása és hozzákapcsolása egy i-doit-"
+#~ "eszközhöz"
+
+#~ msgid ""
+#~ "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+#~ msgstr ""
+#~ "Válassza a *🖨 > i-doit > Objektumok megváltoztatása* menüpontot, majd "
+#~ "szűrjön kategória és/vagy név szerint."
+
+#~ msgid ""
+#~ "Once assets have been linked to a ticket, they can be accessed directly "
+#~ "from the ticket view:"
+#~ msgstr ""
+#~ "Miután az eszközök hozzá lettek kapcsolva egy jegyhez, azok közvetlenül a "
+#~ "jegy nézetéből érhetők el:"
+
+#~ msgid ""
+#~ "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
+#~ msgstr ""
+#~ "(Képernyőfelvétel) Egy i-doit-eszköz elérése közvetlenül a Zammad-jegy "
+#~ "nézetéből"
+
+#~ msgid ""
+#~ "Click on a linked asset in the ticket sidebar to open its page in i-doit."
+#~ msgstr ""
+#~ "Kattintson egy kapcsolt eszközre a jegy oldalsávján, hogy megnyissa az "
+#~ "oldalát az i-doit rendszerben."
+
+#~ msgid ""
+#~ "Your i-doit control panel should contain a list of all the tickets "
+#~ "associated with each asset:"
+#~ msgstr ""
+#~ "Az i-doit vezérlőpultján szerepelnie kell az egyes eszközökhöz "
+#~ "hozzárendelt összes jegy listájának:"
+
+#~ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
+#~ msgstr ""
+#~ "(Képernyőfelvétel) Az összes jegy listájának megtekintése egy i-doit "
+#~ "rendszerben lévő eszköznél"
+
+#~ msgid ""
+#~ "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open "
+#~ "in ticket system** button to open the ticket in Zammad."
+#~ msgstr ""
+#~ "Kattintson a 💬 ikonra az eszköztáron egy eszköz jegyeinek "
+#~ "felsorolásához. Használja a **🔗 Megnyitás a jegykezelő rendszerben** "
+#~ "gombot a jegy Zammadban történő megnyitásához."
+
+#~ msgid ""
+#~ "You can even launch Zammad's new ticket dialog directly from i-doit, with "
+#~ "the asset already linked for you:"
+#~ msgstr ""
+#~ "Akár a Zammad új jegy ablakát is elindíthatja közvetlenül az i-doit "
+#~ "rendszerből úgy, hogy az eszköz már hozzá van kapcsolva:"
+
+#~ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
+#~ msgstr ""
+#~ "(Képernyőfelvétel) Az új jegy párbeszédablak indítása az i-doit "
+#~ "rendszerből"
+
+#~ msgid ""
+#~ "Use the **📄 Create ticket** button in the asset ticket list to start a "
+#~ "new, pre-linked ticket dialog."
+#~ msgstr ""
+#~ "Használja az eszköz jegylistájában lévő **📄 Jegy létrehozása** gombot "
+#~ "egy új, előre hozzákapcsolt jegy párbeszédablakának indításához."
 
 #~ msgid ""
 #~ "Generate personal access tokens for third party applications to use the "

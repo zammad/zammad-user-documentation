@@ -567,8 +567,8 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Pokud používáte Mac, použijte :kbd:`cmd` místo :kbd:`ctrl` a :kbd:`ctrl` "
-":kbd:`option` místo :kbd:`shift` :kbd:`ctrl`."
+"Pokud používáte Mac, použijte :kbd:`cmd` místo :kbd:`ctrl` "
+"a :kbd:`ctrl` :kbd:`option` místo :kbd:`shift` :kbd:`ctrl`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -589,9 +589,9 @@ msgstr ""
 "které pak použijete jediným kliknutím. Zammad například ve výchozím stavu "
 "obsahuje makro **Zavřít a Oštítkovat jako Spam**. Po jeho použití se "
 "uživatel, který makro spustil, nastaví jako vlastník, přidá se štítek "
-"``spam`` a tiket se uzavře. V makru je dokonce možné na požádání spustit "
-":ref:`AI agenta <ai-agents>`. Čtěte dál a dozvíte se, jak makra spouštět "
-"dvěma různými způsoby."
+"``spam`` a tiket se uzavře. V makru je dokonce možné na požádání "
+"spustit :ref:`AI agenta <ai-agents>`. Čtěte dál a dozvíte se, jak makra "
+"spouštět dvěma různými způsoby."
 
 #: ../advanced/macros.rst:13
 msgid "On a Single Ticket"
@@ -659,7 +659,8 @@ msgstr ""
 msgid ""
 "Move the mouse to the ``Run Macro`` action at the top and you will see the "
 "available macros:"
-msgstr "Přesuňte myš na akci ``Spustit makro`` nahoře a uvidíte dostupná makra:"
+msgstr ""
+"Přesuňte myš na akci ``Spustit makro`` nahoře a uvidíte dostupná makra:"
 
 #: ../advanced/macros.rst:None
 msgid "Screenshot shows drag & drop overlay in \"Run Macro\" mode."
@@ -675,10 +676,10 @@ msgid ""
 "When running it from the overviews page, Zammad will always stay on the "
 "overviews page."
 msgstr ""
-"☝️ **Je tu jen jeden rozdíl...** Když makro spustíte z detailu tiketu, "
-"Zammad může podle nastavení makra automaticky otevřít další tiket (nebo "
-"aktuální zavřít, případně na něm zůstat). Když ho spustíte ze stránky "
-"přehledů, Zammad na stránce přehledů vždy zůstane."
+"☝️ **Je tu jen jeden rozdíl...** Když makro spustíte z detailu tiketu, Zammad "
+"může podle nastavení makra automaticky otevřít další tiket (nebo aktuální "
+"zavřít, případně na něm zůstat). Když ho spustíte ze stránky přehledů, "
+"Zammad na stránce přehledů vždy zůstane."
 
 #: ../advanced/search.rst:2
 msgid "Advanced Search"
@@ -840,8 +841,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -881,8 +882,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
-"(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -1026,7 +1027,8 @@ msgstr "first_response_at: timestamp"
 
 #: ../advanced/search.rst:82
 msgid "first_response_in_min: integer (business min till first response)"
-msgstr "first_response_in_min: integer (minuty pracovní doby do první odpovědi)"
+msgstr ""
+"first_response_in_min: integer (minuty pracovní doby do první odpovědi)"
 
 #: ../advanced/search.rst:83
 msgid "close_at: timestamp"
@@ -1115,8 +1117,8 @@ msgid ""
 "Common_types>`_."
 msgstr ""
 "Pokud vyhledávání podle typu souboru nefunguje, musíte zadat `typ MIME "
-"<https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types>"
-"`_."
+"<https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/"
+"Common_types>`_."
 
 #: ../advanced/search.rst:111
 msgid "Make sure to escape the ``/`` with a prefixed ``\\``."
@@ -1290,9 +1292,9 @@ msgid ""
 msgstr ""
 "Nebo předpokládejme, že tiket nechcete přeřadit zákaznickému servisu, máte "
 "na ně jen jednu rychlou otázku a pak už to zvládnete sami. Chcete-li někomu "
-"jinému začít posílat oznámení k vlastnímu tiketu, napište v editoru zprávy "
-":kbd:`@@` a ve vyskakovací nabídce vyberte jeho jméno. Tím se k odběru "
-"vašeho tiketu automaticky přihlásí."
+"jinému začít posílat oznámení k vlastnímu tiketu, napište v editoru "
+"zprávy :kbd:`@@` a ve vyskakovací nabídce vyberte jeho jméno. Tím se k "
+"odběru vašeho tiketu automaticky přihlásí."
 
 #: ../advanced/suggested-workflows.rst:73
 msgid "⚙️ **Notification settings**"
@@ -1769,8 +1771,8 @@ msgid ""
 msgstr ""
 "Když se objeví tikety týkající se souvisejících problémů, můžete je pro "
 "snazší orientaci vzájemně propojit. To se může hodit například tehdy, když "
-"máte více reklamací zákazníků k téže zásilce. :doc:`Sloučené <merge>` a "
-":doc:`rozdělené <split>` tikety se propojují automaticky."
+"máte více reklamací zákazníků k téže zásilce. :doc:`Sloučené <merge>` "
+"a :doc:`rozdělené <split>` tikety se propojují automaticky."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -1783,11 +1785,11 @@ msgid ""
 "links and normal links. The first pair is used for split and merged tickets. "
 "The normal link is useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Mezi tikety existují různé typy propojení, jak jste už možná viděli u "
-":doc:`sloučených <merge>` nebo :doc:`rozdělených <split>` tiketů: propojení "
-"rodič/potomek a běžná propojení. První dvojice se používá u rozdělených a "
-"sloučených tiketů. Běžné propojení se hodí, když mezi tikety není žádná "
-"logická hierarchie."
+"Mezi tikety existují různé typy propojení, jak jste už možná viděli "
+"u :doc:`sloučených <merge>` nebo :doc:`rozdělených <split>` tiketů: "
+"propojení rodič/potomek a běžná propojení. První dvojice se používá u "
+"rozdělených a sloučených tiketů. Běžné propojení se hodí, když mezi tikety "
+"není žádná logická hierarchie."
 
 #: ../advanced/ticket-actions/link.rst:15
 msgid ""
@@ -2391,8 +2393,8 @@ msgid ""
 "Use :doc:`text modules </advanced/text-modules>` by typing :kbd:`:` :kbd:`:` "
 "which can be a huge time saver."
 msgstr ""
-"Používat :doc:`textové moduly </advanced/text-modules>` napsáním :kbd:`:` "
-":kbd:`:`, což může ušetřit spoustu času."
+"Používat :doc:`textové moduly </advanced/text-modules>` "
+"napsáním :kbd:`:` :kbd:`:`, což může ušetřit spoustu času."
 
 #: ../snippets/editor-features.rst:13
 msgid ""
@@ -2419,8 +2421,8 @@ msgid ""
 "tickets>` and :doc:`how to work with them <work-with-tickets>`."
 msgstr ""
 "Po zadání relevantních informací tiket nakonec vytvořte kliknutím na "
-"tlačítko ``Vytvořit``. Čtěte dál, :doc:`jak tikety najít <find-tickets>` a "
-":doc:`jak s nimi pracovat <work-with-tickets>`."
+"tlačítko ``Vytvořit``. Čtěte dál, :doc:`jak tikety najít <find-tickets>` "
+"a :doc:`jak s nimi pracovat <work-with-tickets>`."
 
 #: ../basics/find-tickets.rst:2
 msgid "Find Tickets"
@@ -3021,8 +3023,8 @@ msgid ""
 "other tab."
 msgstr ""
 "Práce s existujícími tikety obecně znamená vést korespondenci se zákazníkem "
-"ve vlákně/konverzaci v detailu tiketu. Kdykoli otevřete tiket, objeví se v "
-":doc:`navigačním panelu </advanced/tabs>` na levé straně nová záložka. "
+"ve vlákně/konverzaci v detailu tiketu. Kdykoli otevřete tiket, objeví se "
+"v :doc:`navigačním panelu </advanced/tabs>` na levé straně nová záložka. "
 "Chcete-li záložku zavřít (ve smyslu odebrat ji z navigačního panelu, nikoli "
 "nastavit stav tiketu na uzavřený), stačí kliknout na tlačítko ``X`` v "
 "záložce. Zammad automaticky ukládá vaše změny v otevřených záložkách tiketů "
@@ -3339,7 +3341,8 @@ msgstr ""
 msgid ""
 "Avatar with pencil icon: Another agent is currently actively working on this "
 "ticket."
-msgstr "Avatar s ikonou tužky: jiný agent na tiketu momentálně aktivně pracuje."
+msgstr ""
+"Avatar s ikonou tužky: jiný agent na tiketu momentálně aktivně pracuje."
 
 #: ../basics/work-with-tickets.rst:None
 msgid "Ticket conflict alert"
@@ -3382,8 +3385,8 @@ msgid ""
 "advanced/ticket-actions/merge>` for details."
 msgstr ""
 "Přesune všechny zprávy/poznámky do jiného tiketu. Hodí se, pokud máte k "
-"jednomu problému zákazníka více než jeden tiket. Podrobnosti najdete na "
-":doc:`stránce o slučování tiketů </advanced/ticket-actions/merge>`."
+"jednomu problému zákazníka více než jeden tiket. Podrobnosti najdete "
+"na :doc:`stránce o slučování tiketů </advanced/ticket-actions/merge>`."
 
 #: ../basics/work-with-tickets.rst:215
 msgid "Change Customer"
@@ -4027,9 +4030,9 @@ msgid ""
 "that makes the search process within Zammad super fast (even for data sets "
 "of several terra bytes!)."
 msgstr ""
-"Zammad nabízí integraci Elasticsearch (bezplatného a otevřeného vyhledávače)"
-", díky které je vyhledávání v Zammadu bleskově rychlé (i u datových sad o "
-"velikosti několika terabajtů!)."
+"Zammad nabízí integraci Elasticsearch (bezplatného a otevřeného "
+"vyhledávače), díky které je vyhledávání v Zammadu bleskově rychlé (i u "
+"datových sad o velikosti několika terabajtů!)."
 
 #: ../basics/zammad-glossary.rst:215
 msgid ""
@@ -4233,7 +4236,8 @@ msgstr "GitLab"
 msgid ""
 "GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
 "development."
-msgstr "GitLab je podobný GitHubu. My v Zammadu ho používáme pro interní vývoj."
+msgstr ""
+"GitLab je podobný GitHubu. My v Zammadu ho používáme pro interní vývoj."
 
 #: ../basics/zammad-glossary.rst:302
 msgid ""
@@ -4750,10 +4754,10 @@ msgid ""
 "ticket and the tickets with related subtopics are children. By the way: in "
 "the same way, you can also merge two tickets into one."
 msgstr ""
-"Pokud z jednoho tiketu vzniknou další dílčí úkoly (nebo další korespondence)"
-", můžete ho rozdělit na více tiketů. Hlavní tiket pak bude rodičovským "
-"tiketem a tikety se souvisejícími dílčími tématy jeho potomky. Mimochodem: "
-"stejným způsobem můžete také sloučit dva tikety do jednoho."
+"Pokud z jednoho tiketu vzniknou další dílčí úkoly (nebo další "
+"korespondence), můžete ho rozdělit na více tiketů. Hlavní tiket pak bude "
+"rodičovským tiketem a tikety se souvisejícími dílčími tématy jeho potomky. "
+"Mimochodem: stejným způsobem můžete také sloučit dva tikety do jednoho."
 
 #: ../basics/zammad-glossary.rst:525
 msgid ""
@@ -5095,7 +5099,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:668
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
-msgstr "🤓 Uživatelé s vlastním hostingem mohou použít také ověřování Kerberos."
+msgstr ""
+"🤓 Uživatelé s vlastním hostingem mohou použít také ověřování Kerberos."
 
 #: ../basics/zammad-glossary.rst:670
 msgid ""
@@ -5118,8 +5123,8 @@ msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Více o stavech a jejich barevném odlišení se dozvíte na této stránce: "
-":ref:`ticket-attributes`"
+"Více o stavech a jejich barevném odlišení se dozvíte na této "
+"stránce: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:679
 msgid ""
@@ -5180,8 +5185,8 @@ msgid ""
 "page: :ref:`ticket-attributes`"
 msgstr ""
 "Administrátoři se o štítcích mohou dozvědět více :admin-docs:`zde </manage/"
-"tags.html>`. Agenti se o této funkci dozvědí více na této stránce: "
-":ref:`ticket-attributes`"
+"tags.html>`. Agenti se o této funkci dozvědí více na této "
+"stránce: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:720
 msgid "Text module"
@@ -5274,8 +5279,8 @@ msgid ""
 msgstr ""
 "Spouštěče jsou jednou z automatizačních funkcí Zammadu. Administrátor může "
 "definovat konkrétní podmínky a akce, které se použijí na tikety splňující "
-"tyto podmínky. Více informací najdete v dokumentaci pro administrátory v "
-":admin-docs:`části o spouštěčích </manage/trigger.html>`."
+"tyto podmínky. Více informací najdete v dokumentaci pro administrátory "
+"v :admin-docs:`části o spouštěčích </manage/trigger.html>`."
 
 #: ../basics/zammad-glossary.rst:749
 msgid "U"
@@ -6217,8 +6222,8 @@ msgid ""
 "the :admin-docs:`chat channel admin documentation </channels/chat.html>`."
 msgstr ""
 "Tato funkce je volitelná. Pokud ji v hlavní nabídce nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`dokumentaci pro administrátory ke kanálu chatu </channels/"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`dokumentaci pro administrátory ke kanálu chatu </channels/"
 "chat.html>`."
 
 #: ../extras/chat.rst:None
@@ -6344,7 +6349,8 @@ msgstr "Snímek obrazovky zobrazující podrobnosti otevřeného chatu."
 
 #: ../extras/chat.rst:59
 msgid "Click on the title at the top of the chat window to edit chat details."
-msgstr "Kliknutím na název v horní části okna chatu upravíte podrobnosti chatu."
+msgstr ""
+"Kliknutím na název v horní části okna chatu upravíte podrobnosti chatu."
 
 #: ../extras/chat.rst:62
 msgid "Creating a Ticket from a Chat"
@@ -6636,8 +6642,8 @@ msgid ""
 "Customers can optionally belong to organizations. Head over to "
 "the :doc:`organization page <organizations>` to learn more."
 msgstr ""
-"Zákazníci mohou volitelně patřit k organizacím. Více se dozvíte na "
-":doc:`stránce o organizacích <organizations>`."
+"Zákazníci mohou volitelně patřit k organizacím. Více se dozvíte "
+"na :doc:`stránce o organizacích <organizations>`."
 
 #: ../extras/customers.rst:0
 msgid "Secondary Organizations"
@@ -6666,8 +6672,9 @@ msgid ""
 msgstr ""
 "Stejně jako priorita tiketu nedělá stav VIP ve výchozím stavu vlastně nic. "
 "Administrátoři však na základě této hodnoty mohou nastavit pravidla "
-"automatizace nebo ji použít jako filtr pro vlastní :ref:`přehledy <overviews>"
-"`. Na to, jak tento atribut používat, se zeptejte svého administrátora."
+"automatizace nebo ji použít jako filtr pro vlastní :ref:`přehledy "
+"<overviews>`. Na to, jak tento atribut používat, se zeptejte svého "
+"administrátora."
 
 #: ../extras/dashboard.rst:4
 msgid ""
@@ -6863,159 +6870,110 @@ msgid "i-doit: Track Company Property"
 msgstr "i-doit: sledování firemního majetku"
 
 #: ../extras/i-doit-track-company-property.rst:4
+#, fuzzy
+#| msgid ""
+#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
+#| "which pieces of your company's property are related to any given ticket. "
+#| "That includes both physical and digital infrastructure, from servers to "
+#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
 "includes both physical and digital infrastructure, from servers to meeting "
-"rooms to virtual machines to software licenses."
+"rooms to virtual machines to software licenses. It can help you keep track "
+"of troublesome equipment and find previous tickets about the last time an "
+"object caused problems."
 msgstr ""
 "Díky integraci `i-doit <https://www.i-doit.com/>`_ můžete zobrazit, které "
 "části firemního majetku souvisejí s daným tiketem. Zahrnuje to fyzickou i "
 "digitální infrastrukturu, od serverů přes zasedací místnosti a virtuální "
 "počítače až po softwarové licence."
 
-#: ../extras/i-doit-track-company-property.rst:9
+#: ../extras/i-doit-track-company-property.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is optional. If you don't see it in the ticket view, that "
+#| "means your administrator hasn't enabled it yet. Administrators can learn "
+#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
+#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
+#| "your administrator / IT personnel to give you a tour. If your "
+#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
-"your administrator hasn't enabled it yet. Administrators can learn more in "
+"your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
+"ticket list in i-doit are set up separately, so your administrator may "
+"enable one of them without the other. Administrators can learn more in "
 "the :admin-docs:`i-doit integration in the admin documentation </system/"
 "integrations/i-doit.html>`. If your company is using i-doit, ask your "
 "administrator / IT personnel to give you a tour. If your organization isn't "
 "already using i-doit, this guide is not for you."
 msgstr ""
 "Tato funkce je volitelná. Pokud ji v zobrazení tiketu nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`části o integraci i-doit v dokumentaci pro administrátory </"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`části o integraci i-doit v dokumentaci pro administrátory </"
 "system/integrations/i-doit.html>`. Pokud vaše firma i-doit používá, "
 "požádejte svého administrátora / pracovníky IT, aby vám ho ukázali. Pokud "
 "vaše organizace i-doit nepoužívá, tento návod pro vás není."
 
-#: ../extras/i-doit-track-company-property.rst:21
+#: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr "(Snímek obrazovky) Nabídka integrace i-doit v zobrazení tiketu"
 
-#: ../extras/i-doit-track-company-property.rst:21
-msgid ""
-"Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
-msgstr ""
-"Pomocí karty 🖨 **tiskárna** zobrazíte nebo spravujete majetek tiketu z i-"
-"doit."
-
 #: ../extras/i-doit-track-company-property.rst:25
-msgid "Why?"
-msgstr "Proč?"
-
-#: ../extras/i-doit-track-company-property.rst:27
 msgid ""
-"i-doit can help you keep track of troublesome equipment and find previous "
-"tickets from the last time something went wrong with it."
+"The **i-doit** panel in the ticket sidebar lists the objects linked to a "
+"ticket."
 msgstr ""
-"i-doit vám pomůže mít přehled o problematickém vybavení a najít předchozí "
-"tikety z doby, kdy se s ním naposledy něco pokazilo."
 
-#: ../extras/i-doit-track-company-property.rst:30
-msgid ""
-"It's also a great way to document quirks in the company's belongings: Why "
-"haven't we upgraded this system from Windows Vista yet? What did we decide "
-"to do about that faulty network switch? And why does the coffee maker keep "
-"shutting off before it's finished? 🤬"
-msgstr ""
-"Je to také skvělý způsob, jak dokumentovat zvláštnosti firemního majetku: "
-"Proč jsme tento systém ještě neaktualizovali z Windows Vista? Co jsme se "
-"rozhodli udělat s tím vadným síťovým přepínačem? A proč se kávovar pořád "
-"vypíná dřív, než dodělá kávu? 🤬"
-
-#: ../extras/i-doit-track-company-property.rst:36
-msgid "So How Does It Work?"
-msgstr "Jak to tedy funguje?"
-
-#: ../extras/i-doit-track-company-property.rst:39
-msgid "In Zammad: Link i-doit Assets To Tickets"
+#: ../extras/i-doit-track-company-property.rst:29
+#, fuzzy
+#| msgid "In Zammad: Link i-doit Assets To Tickets"
+msgid "Link i-doit Objects to Tickets in Zammad"
 msgstr "V Zammadu: propojení majetku z i-doit s tikety"
 
-#: ../extras/i-doit-track-company-property.rst:41
-msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr "Nejprve v postranním panelu tiketu přidejte k tiketu majetek z i-doit:"
-
-#: ../extras/i-doit-track-company-property.rst:47
-msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
-msgstr ""
-"(Videozáznam obrazovky) Vytvoření nového tiketu a jeho propojení s majetkem "
-"z i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:47
+#: ../extras/i-doit-track-company-property.rst:31
 msgid ""
-"Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+"First, add i-doit objects to a ticket in the ticket sidebar. In the printer "
+"tab, select **Change Objects** in the **i-doit** panel, then filter by type "
+"and name. The search matches object names only and returns at most 10 "
+"results, so pick a type to narrow it down."
 msgstr ""
-"Vyberte *🖨 > i-doit > Upravit objekty* a poté filtrujte podle kategorie a/"
-"nebo názvu."
 
-#: ../extras/i-doit-track-company-property.rst:49
+#: ../extras/i-doit-track-company-property.rst:40
+#, fuzzy
+#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
+msgid "(Screenshot) The i-doit object picker with type filter and search field"
+msgstr "(Snímek obrazovky) Nabídka integrace i-doit v zobrazení tiketu"
+
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "Select the objects to link, then use the ``Submit`` button."
+msgstr ""
+
+#: ../extras/i-doit-track-company-property.rst:42
 msgid ""
-"Once assets have been linked to a ticket, they can be accessed directly from "
-"the ticket view:"
+"Once objects have been linked to a ticket, click an object in the ticket "
+"sidebar to open its page in i-doit. The sidebar always shows the current "
+"data from i-doit: a renamed object appears under its new name, and an object "
+"deleted there drops off the list. Use the **Unlink object** icon next to an "
+"entry, which unlinks it from the ticket in Zammad and doesn't delete "
+"anything in i-doit."
 msgstr ""
-"Jakmile je majetek s tiketem propojen, můžete k němu přistupovat přímo ze "
-"zobrazení tiketu:"
 
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"(Screencast) Access an i-doit asset directly from the Zammad ticket view"
-msgstr ""
-"(Videozáznam obrazovky) Přístup k majetku z i-doit přímo ze zobrazení tiketu "
-"v Zammadu"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"Click on a linked asset in the ticket sidebar to open its page in i-doit."
-msgstr ""
-"Kliknutím na propojený majetek v postranním panelu tiketu otevřete jeho "
-"stránku v i-doit."
-
-#: ../extras/i-doit-track-company-property.rst:58
-msgid "In i-doit: List & Create Tickets For a Given Asset"
+#: ../extras/i-doit-track-company-property.rst:50
+#, fuzzy
+#| msgid "In i-doit: List & Create Tickets For a Given Asset"
+msgid "List & Create Tickets in i-doit"
 msgstr "V i-doit: zobrazení a vytváření tiketů pro daný majetek"
 
-#: ../extras/i-doit-track-company-property.rst:60
+#: ../extras/i-doit-track-company-property.rst:52
 msgid ""
-"Your i-doit control panel should contain a list of all the tickets "
-"associated with each asset:"
+"In i-doit, an object's page should contain a list of all the tickets "
+"associated with it. Click **All Tickets** in the object toolbar to list "
+"them, then use the **Open in ticketsystem** link in a ticket row to open the "
+"ticket in Zammad. You can even launch Zammad's new ticket dialog directly "
+"from i-doit, with the object already linked. Use **Create ticket** in the "
+"**All Tickets** panel to start it."
 msgstr ""
-"Váš ovládací panel i-doit by měl obsahovat seznam všech tiketů souvisejících "
-"s jednotlivými položkami majetku:"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr ""
-"(Videozáznam obrazovky) Zobrazení seznamu všech tiketů k majetku v i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid ""
-"Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in "
-"ticket system** button to open the ticket in Zammad."
-msgstr ""
-"Kliknutím na 💬 na panelu nástrojů zobrazíte seznam tiketů k majetku. "
-"Tlačítkem **🔗 Open in ticket system** otevřete tiket v Zammadu."
-
-#: ../extras/i-doit-track-company-property.rst:70
-msgid ""
-"You can even launch Zammad's new ticket dialog directly from i-doit, with "
-"the asset already linked for you:"
-msgstr ""
-"Z i-doit můžete dokonce přímo spustit dialog nového tiketu Zammadu, ve "
-"kterém už bude majetek propojený:"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid "(Screencast) Launch the new ticket dialog from within i-doit"
-msgstr "(Videozáznam obrazovky) Spuštění dialogu nového tiketu z i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid ""
-"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
-"pre-linked ticket dialog."
-msgstr ""
-"Tlačítkem **📄 Create ticket** v seznamu tiketů k majetku otevřete dialog "
-"nového tiketu s předem propojeným majetkem."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -7058,8 +7016,8 @@ msgstr ""
 "Obsah znalostní báze můžete spravovat, upravovat a organizovat po otevření "
 "záložky ``Znalostní báze`` v navigačním postranním panelu. Tato funkce je "
 "volitelná. Pokud ji v navigačním postranním panelu nevidíte, váš "
-"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více v "
-":admin-docs:`dokumentaci pro administrátory ke znalostní bázi </manage/"
+"administrátor ji ještě nezapnul. Administrátoři se mohou dozvědět více "
+"v :admin-docs:`dokumentaci pro administrátory ke znalostní bázi </manage/"
 "knowledge-base.html>`."
 
 #: ../extras/knowledge-base.rst:15
@@ -7504,11 +7462,11 @@ msgid ""
 "content but is inserted at the cursor's position."
 msgstr ""
 "Jakmile znalostní báze obsahuje jednu nebo více odpovědí, můžete je používat "
-"stejně jako textové moduly. Místo :kbd:`:`:kbd:`:` stačí použít "
-":kbd:`?`:kbd:`?` a otevře se vyhledávací okno. Vyhledává se fulltextově v "
-"textu i názvu odpovědí ve všech dostupných jazycích. Když najdete, co jste "
-"hledali, stačí stisknout :kbd:`Enter` a odpověď se načte do článku tiketu. "
-"Vložený obsah nenahradí obsah článku, ale vloží se na pozici kurzoru."
+"stejně jako textové moduly. Místo :kbd:`:`:kbd:`:` stačí použít :kbd:`?"
+"`:kbd:`?` a otevře se vyhledávací okno. Vyhledává se fulltextově v textu i "
+"názvu odpovědí ve všech dostupných jazycích. Když najdete, co jste hledali, "
+"stačí stisknout :kbd:`Enter` a odpověď se načte do článku tiketu. Vložený "
+"obsah nenahradí obsah článku, ale vloží se na pozici kurzoru."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -8548,9 +8506,9 @@ msgid ""
 "Profile > Password & Authentication* to set it up. Depending on the enabled "
 "two-factor methods, you may see one or more options in the table."
 msgstr ""
-"Pokud správce systému tuto funkci zapnul, můžete ji nastavit v části "
-"*Avatar > Profil > Heslo a autentizace*. V závislosti na zapnutých "
-"dvoufaktorových metodách můžete v tabulce vidět jednu nebo více možností."
+"Pokud správce systému tuto funkci zapnul, můžete ji nastavit v části *Avatar "
+"> Profil > Heslo a autentizace*. V závislosti na zapnutých dvoufaktorových "
+"metodách můžete v tabulce vidět jednu nebo více možností."
 
 #: ../extras/two-factor-authentication.rst:24
 msgid ""
@@ -8697,8 +8655,8 @@ msgid ""
 msgstr ""
 "Obnovovací kódy můžete také kdykoli vygenerovat znovu – tím se stávající "
 "obnovovací kódy zneplatní a dostanete seznam nových kódů. Uděláte to "
-"kliknutím na tlačítko ``Znovu vygenerovat obnovovací kódy`` v části "
-"*Avatar > Profil > Heslo a autentizace*."
+"kliknutím na tlačítko ``Znovu vygenerovat obnovovací kódy`` v části *Avatar "
+"> Profil > Heslo a autentizace*."
 
 #: ../extras/two-factor-authentication.rst:120
 msgid "Set a Two-Factor Method as Default"
@@ -8858,8 +8816,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
-"billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-"
-"45da-b7b6-27e523b8702a>`_"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -9174,7 +9132,8 @@ msgstr "Klávesové zkratky"
 #: ../extras/user-menu-profile-settings.rst:36
 msgid ""
 ":doc:`Opens the keyboard shortcut section </advanced/keyboard-shortcuts>`."
-msgstr ":doc:`Otevře sekci klávesových zkratek </advanced/keyboard-shortcuts>`."
+msgstr ""
+":doc:`Otevře sekci klávesových zkratek </advanced/keyboard-shortcuts>`."
 
 #: ../extras/user-menu-profile-settings.rst:42
 msgid "Profile"
@@ -9525,6 +9484,105 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
-"Právě čtete uživatelskou dokumentaci Zammadu. K dispozici je také "
-":docs:`systémová </index.html>` a :admin-docs:`administrátorská příručka </"
-"index.html>`."
+"Právě čtete uživatelskou dokumentaci Zammadu. K dispozici je "
+"také :docs:`systémová </index.html>` a :admin-docs:`administrátorská "
+"příručka </index.html>`."
+
+#~ msgid ""
+#~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
+#~ msgstr ""
+#~ "Pomocí karty 🖨 **tiskárna** zobrazíte nebo spravujete majetek tiketu z i-"
+#~ "doit."
+
+#~ msgid "Why?"
+#~ msgstr "Proč?"
+
+#~ msgid ""
+#~ "i-doit can help you keep track of troublesome equipment and find previous "
+#~ "tickets from the last time something went wrong with it."
+#~ msgstr ""
+#~ "i-doit vám pomůže mít přehled o problematickém vybavení a najít předchozí "
+#~ "tikety z doby, kdy se s ním naposledy něco pokazilo."
+
+#~ msgid ""
+#~ "It's also a great way to document quirks in the company's belongings: Why "
+#~ "haven't we upgraded this system from Windows Vista yet? What did we "
+#~ "decide to do about that faulty network switch? And why does the coffee "
+#~ "maker keep shutting off before it's finished? 🤬"
+#~ msgstr ""
+#~ "Je to také skvělý způsob, jak dokumentovat zvláštnosti firemního majetku: "
+#~ "Proč jsme tento systém ještě neaktualizovali z Windows Vista? Co jsme se "
+#~ "rozhodli udělat s tím vadným síťovým přepínačem? A proč se kávovar pořád "
+#~ "vypíná dřív, než dodělá kávu? 🤬"
+
+#~ msgid "So How Does It Work?"
+#~ msgstr "Jak to tedy funguje?"
+
+#~ msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
+#~ msgstr ""
+#~ "Nejprve v postranním panelu tiketu přidejte k tiketu majetek z i-doit:"
+
+#~ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Vytvoření nového tiketu a jeho propojení s "
+#~ "majetkem z i-doit"
+
+#~ msgid ""
+#~ "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+#~ msgstr ""
+#~ "Vyberte *🖨 > i-doit > Upravit objekty* a poté filtrujte podle kategorie a/"
+#~ "nebo názvu."
+
+#~ msgid ""
+#~ "Once assets have been linked to a ticket, they can be accessed directly "
+#~ "from the ticket view:"
+#~ msgstr ""
+#~ "Jakmile je majetek s tiketem propojen, můžete k němu přistupovat přímo ze "
+#~ "zobrazení tiketu:"
+
+#~ msgid ""
+#~ "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Přístup k majetku z i-doit přímo ze zobrazení "
+#~ "tiketu v Zammadu"
+
+#~ msgid ""
+#~ "Click on a linked asset in the ticket sidebar to open its page in i-doit."
+#~ msgstr ""
+#~ "Kliknutím na propojený majetek v postranním panelu tiketu otevřete jeho "
+#~ "stránku v i-doit."
+
+#~ msgid ""
+#~ "Your i-doit control panel should contain a list of all the tickets "
+#~ "associated with each asset:"
+#~ msgstr ""
+#~ "Váš ovládací panel i-doit by měl obsahovat seznam všech tiketů "
+#~ "souvisejících s jednotlivými položkami majetku:"
+
+#~ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
+#~ msgstr ""
+#~ "(Videozáznam obrazovky) Zobrazení seznamu všech tiketů k majetku v i-doit"
+
+#~ msgid ""
+#~ "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open "
+#~ "in ticket system** button to open the ticket in Zammad."
+#~ msgstr ""
+#~ "Kliknutím na 💬 na panelu nástrojů zobrazíte seznam tiketů k majetku. "
+#~ "Tlačítkem **🔗 Open in ticket system** otevřete tiket v Zammadu."
+
+#~ msgid ""
+#~ "You can even launch Zammad's new ticket dialog directly from i-doit, with "
+#~ "the asset already linked for you:"
+#~ msgstr ""
+#~ "Z i-doit můžete dokonce přímo spustit dialog nového tiketu Zammadu, ve "
+#~ "kterém už bude majetek propojený:"
+
+#~ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
+#~ msgstr "(Videozáznam obrazovky) Spuštění dialogu nového tiketu z i-doit"
+
+#~ msgid ""
+#~ "Use the **📄 Create ticket** button in the asset ticket list to start a "
+#~ "new, pre-linked ticket dialog."
+#~ msgstr ""
+#~ "Tlačítkem **📄 Create ticket** v seznamu tiketů k majetku otevřete dialog "
+#~ "nového tiketu s předem propojeným majetkem."
