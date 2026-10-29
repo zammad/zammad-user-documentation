@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-24 08:12+0000\n"
+"PO-Revision-Date: 2026-10-29 11:10+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -5914,7 +5914,7 @@ msgstr ""
 
 #: ../extras/ai-features.rst:114
 msgid "Things to consider:"
-msgstr "Ствари које треба узети у обзир:"
+msgstr "Ствари за разматрање:"
 
 #: ../extras/ai-features.rst:116
 msgid ""
@@ -5929,7 +5929,7 @@ msgstr "Ви ћете бити постављени као аутор чланк
 
 #: ../extras/ai-features.rst:119
 msgid "The answer is generated in the default language of your knowledge base."
-msgstr "Чланак је генерисан на подразумеваном језику ваше базе знања."
+msgstr "Чланак се генерише на подразумеваном језику ваше базе знања."
 
 #: ../extras/ai-features.rst:120
 msgid ""
@@ -5944,16 +5944,15 @@ msgid ""
 "A link to the answer is added to the ticket from which you triggered the "
 "answer generation."
 msgstr ""
-"Веза на чланак ће бити додата у тикет из кога сте покренули генерацију "
-"чланка."
+"Веза ка чланку се додаје у тикет из ког сте покренули генерисање чланка."
 
 #: ../extras/ai-features.rst:124
 msgid ""
 "The answer is created in a knowledge base category for which you have editor "
 "permissions. The AI chooses one of these categories."
 msgstr ""
-"AI захтев ће бити додат у категорију базе знања у којој имате приступ "
-"уредника. Вештачка интелигенција ће одабрати између једне од ових категорија."
+"Чланак се прави у категорији базе знања за коју имате дозволу уредника. AI "
+"бира једну од тих категорија."
 
 #: ../extras/ai-features.rst:127
 msgid ""
@@ -6831,90 +6830,109 @@ msgstr "Github / Gitlab интеграција"
 
 #: ../extras/github-gitlab-integration.rst:4
 msgid ""
-"With the issue tracker integration, you can monitor GitHub / GitLab issues "
-"right from within a Zammad ticket. This feature is optional. If you don't "
-"see it in the ticket sidebar, that means your administrator hasn't enabled "
-"it yet. Administrators can learn more in the :admin-docs:`issue tracker "
-"integration in the admin documentation </system/integrations#integrations-"
-"for-issue-trackers>`."
+"With the issue tracker integration, you can link GitHub and GitLab issues to "
+"a ticket and follow their state while you work on it. Zammad stores only the "
+"issue URLs on the ticket. Title, state, type, milestone, assignees and "
+"labels are read from GitHub or GitLab each time you open the panel. Nothing "
+"is written back to the tracker. Issues only: pull requests and merge "
+"requests cannot be linked."
 msgstr ""
-"Са интеграцијом праћења проблема, можете надгледати GitHub / GitLab "
-"извештаје у оквиру Zammad тикета. Ова функција је опциона. Уколико је не "
-"видите у бочној траци тикета, то значи да је ваш администратор још није "
-"укључио. Администратори могу да сазнају више у :admin-docs:`администраторкој "
-"документацији интеграција за праћење проблема </system/"
-"integrations#integrations-for-issue-trackers>`."
+"Уз интеграцију са системима за праћење проблема можете да повежете GitHub и "
+"GitLab извештаје са тикетом и пратите њихово стање док радите на њему. "
+"Zammad на тикету чува само URL адресе извештаја. Наслов, стање, тип, кључни "
+"тренутак, одговорни и ознаке учитавају се из GitHub-а или GitLab-а сваки пут "
+"када отворите панел. Ништа се не уписује назад у систем за праћење. Само "
+"извештаји: pull request-ови и merge request-ови не могу да се повежу."
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Ticket detail view showing activated GitHub & GitLab function"
-msgstr ""
-"Детаљни приказ тикета који приказује активирану функцију Github & Gitlab"
-
-#: ../extras/github-gitlab-integration.rst:14
+#: ../extras/github-gitlab-integration.rst:11
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of "
-"issues related to the ticket."
+"The panels are optional. If you don't see them in the ticket sidebar, your "
+"administrator hasn't enabled the integration yet. Customers don't see the "
+"links either. Administrators can learn more in the :admin-docs:`GitHub </"
+"system/integrations/github.html>` and :admin-docs:`GitLab </system/"
+"integrations/gitlab.html>` integration pages."
 msgstr ""
-"Користите |github| и |gitlab| језичке у бочној траци тикета за преглед "
-"сродних проблема."
+"Панели су опциони. Уколико их не видите у бочној страни тикета, то значи да "
+"ваш администратор још није укључио интеграцију. Клијенти такође не виде "
+"везе. Администратори могу да сазнају више у :admin-docs:`GitHub </system/"
+"integrations/github.html>` и :admin-docs:`GitLab </system/integrations/"
+"gitlab.html>` интеграцијама."
 
-#: ../extras/github-gitlab-integration.rst:39
-msgid "GitHub logo"
-msgstr "Github лого"
+#: ../extras/github-gitlab-integration.rst:None
+msgid "Sidebar with opened GitHub panel and linked issue."
+msgstr "Бочна трака са отвореним GitHub панелом и повезаним извештајем."
 
-#: ../extras/github-gitlab-integration.rst:43
-msgid "GitLab logo"
-msgstr "GitLab лого"
-
-#: ../extras/github-gitlab-integration.rst:18
-msgid "What Can It Do?"
-msgstr "Чему служи?"
-
-#: ../extras/github-gitlab-integration.rst:24
-msgid "View related issues"
+#: ../extras/github-gitlab-integration.rst:22
+msgid "View Linked Issues"
 msgstr "Погледајте сродне проблеме"
 
-#: ../extras/github-gitlab-integration.rst:21
+#: ../extras/github-gitlab-integration.rst:24
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
-"issues, along with metadata like status (open/closed), assignee, labels, and "
-"more. Or, simply click the title to view the issue on GitHub / GitLab. A "
-"badge on the tab icon indicates how many issues are linked to this ticket."
+"Open the **GitHub** or **GitLab** tab in the ticket sidebar of a ticket that "
+"already has issues linked. Each entry starts with an icon for the issue "
+"state, followed by the issue number and title. Click the title to open the "
+"issue on GitHub or GitLab. Each entry also shows the issue's **Milestone**, "
+"**Assignees** and **Labels**. GitHub issues show a **Type** as well. A field "
+"appears only when the issue has one. The badge on the tab counts all linked "
+"issues, not only the open ones. Zammad reads the state when the panel loads "
+"and doesn't watch the issues, so no notification is sent when an issue "
+"changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
+"your administrator to check the token."
 msgstr ""
-"Користите |github| и |gitlab| језичке у бочној траци тикета да бисте видели "
-"повезане проблеме, заједно са мета подацима као што су статус (отворен/"
-"затворен), одговорни, ознаке и још много тога. Или једноставно кликните на "
-"наслов да бисте видели проблем на Github / Gitlab. Ознака на иконици језичка "
-"индикује колико проблема је повезано са овим тикетом."
+"Отворите језичак **GitHub** или **GitLab** у бочној траци тикета који већ "
+"има повезане извештаје. Сваки унос почиње иконицом стања извештаја, након "
+"које следе број и наслов извештаја. Кликните на наслов да бисте отворили "
+"извештај на GitHub-у или GitLab-у. Сваки унос приказује и поља **Кључни "
+"тренутак**, **Одговорни** и **Ознаке** извештаја. GitHub извештаји приказују "
+"и поље **Тип**. Поље се појављује само када га извештај има. Значка на "
+"језичку броји све повезане извештаје, не само отворене. Zammad учитава стање "
+"приликом учитавања панела и не прати извештаје, па се обавештење не шаље "
+"када се извештај промени. Ако панел уместо извештаја прикаже ``Неуспешно "
+"учитавање.``, замолите администратора да провери кључ."
 
-#: ../extras/github-gitlab-integration.rst:34
-msgid "Link a new issue"
-msgstr "Повежите нови проблем"
+#: ../extras/github-gitlab-integration.rst:36
+msgid "Link an Issue"
+msgstr "Повежите проблем"
 
-#: ../extras/github-gitlab-integration.rst:27
+#: ../extras/github-gitlab-integration.rst:38
 msgid ""
-"At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
-"then enter a valid issue URL. Please note that linking a new issue can be "
-"slow sometimes."
+"Select **Link issue** from the menu next to the panel title, then enter the "
+"URL of a single issue and confirm. Zammad accepts links like ``https://"
+"github.com/organization/repository/issues/42`` or ``https://git.example.com/"
+"group1/project1/-/issues/1``. While you create a ticket, you can link issues "
+"too. They are saved with the new ticket."
 msgstr ""
-"При врху бочне траке тикета изаберите *Github / Gitlab > Повежи проблем*, а "
-"затим унесите исправан URL проблема. Имајте на уму да повезивање нових "
-"проблема може понекад бити спорије."
+"Изаберите **Повежи извештај** у менију поред наслова панела, затим унесите "
+"URL једног извештаја и потврдите. Zammad прихвата линкове као што су "
+"``https://github.com/organization/repository/issues/42`` или ``https://"
+"git.example.com/group1/project1/-/issues/1``. Извештаје можете да повежете и "
+"док отварате тикет. Они се чувају заједно са новим тикетом."
 
-#: ../extras/github-gitlab-integration.rst:0
-msgid "Screencast showing how to list and add new issues to a ticket"
+#: ../extras/github-gitlab-integration.rst:44
+msgid ""
+"Zammad ignores a URL that is already linked to the ticket. It also rejects a "
+"URL it cannot resolve, usually because the issue doesn't exist or because "
+"the API token cannot read its repository or project. Ask your administrator "
+"to check the token in that case."
 msgstr ""
-"Снимак екрана који показује како да излистате и повежете нове проблеме са "
-"тикетом"
+"Zammad занемарује URL који је већ повезан са тикетом. Такође одбија URL који "
+"не може да разреши, обично зато што извештај не постоји или зато што API "
+"кључ нема право читања његовог репозиторијума или пројекта. У том случају "
+"замолите администратора да провери кључ."
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Remove an issue"
-msgstr "Уклоните проблем"
+#: ../extras/github-gitlab-integration.rst:50
+msgid "Unlink an Issue"
+msgstr "Развежите проблем"
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Click the ✕ button next to an issue title to unlink it."
+#: ../extras/github-gitlab-integration.rst:52
+msgid ""
+"Click the ``X`` button next to an issue title. Unlinking removes the "
+"reference from the ticket and leaves the issue untouched in GitHub or "
+"GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
-"Кликните на дугме ✕ поред наслова проблема да бисте прекинули везу са њим."
+"Кликните на дугме ``X`` поред наслова извештаја. Развезивање уклања "
+"референцу са тикета, а извештај на GitHub-у или GitLab-у остаје нетакнут. "
+"Други тикети који су повезани са истим извештајем задржавају своју референцу."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
@@ -6925,152 +6943,107 @@ msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
 "includes both physical and digital infrastructure, from servers to meeting "
-"rooms to virtual machines to software licenses."
+"rooms to virtual machines to software licenses. It can help you keep track "
+"of troublesome equipment and find previous tickets about the last time an "
+"object caused problems."
 msgstr ""
 "Уз помоћ `i-doit <https://www.i-doit.com/>`_ интеграције, можете да "
 "излистате који делови имовине ваше компаније су сродни одређеном тикету. То "
 "укључује и физичку и дигиталну инфраструктуру, све од сервера преко соба за "
 "састанке и виртуелних машина до софтверских лиценци."
 
-#: ../extras/i-doit-track-company-property.rst:9
+#: ../extras/i-doit-track-company-property.rst:11
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
-"your administrator hasn't enabled it yet. Administrators can learn more in "
+"your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
+"ticket list in i-doit are set up separately, so your administrator may "
+"enable one of them without the other. Administrators can learn more in "
 "the :admin-docs:`i-doit integration in the admin documentation </system/"
 "integrations/i-doit.html>`. If your company is using i-doit, ask your "
 "administrator / IT personnel to give you a tour. If your organization isn't "
 "already using i-doit, this guide is not for you."
 msgstr ""
-"Ова функција је опциона. Уколико је не видите у прикази тикета, то значи да "
-"је ваш администратор још није укључио. Администратори могу да сазнају више "
-"у :admin-docs:`администраторкој документацији i-doit интеграције </system/"
-"integrations/i-doit.html>`. Уколико ваша фирма користи i-доит, питајте вашег "
-"администратора / IT особље за кратак увод. Уколико ваша организација још "
-"увек не користи i-doit, овај водич није за вас."
+"Ова функција је опциона. Уколико је не видите у приказу тикета, то значи да "
+"је ваш администратор још није укључио. Zammad-ова бочна трака тикета и листа "
+"тикета у i-doit апликацији се подешавају одвојено, тако да ваш администратор "
+"може ускључити једну незавнисно од друге. Администратори могу да сазнају "
+"више у :admin-docs:`администраторкој документацији i-doit интеграције </"
+"system/integrations/i-doit.html>`. Уколико ваша фирма користи i-doit, "
+"питајте вашег администратора / IT особље за кратак увод. Уколико ваша "
+"организација још увек не користи i-doit, овај водич није за вас."
 
-#: ../extras/i-doit-track-company-property.rst:21
+#: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgstr "Мени i-doit интеграције у приказу тикета"
 
-#: ../extras/i-doit-track-company-property.rst:21
-msgid ""
-"Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
-msgstr ""
-"Користите језичак 🖨 **штампача** да бисте видели или управљали i-doit "
-"објектима тикета."
-
 #: ../extras/i-doit-track-company-property.rst:25
-msgid "Why?"
-msgstr "Зашто?"
-
-#: ../extras/i-doit-track-company-property.rst:27
 msgid ""
-"i-doit can help you keep track of troublesome equipment and find previous "
-"tickets from the last time something went wrong with it."
+"The **i-doit** panel in the ticket sidebar lists the objects linked to a "
+"ticket."
 msgstr ""
-"i-doit вам може помоћи да испратите проблематичну опрему и пронађете "
-"претходне тикете од последњег пута када је нешто пошло по злу."
+"Панел **i-doit** у бочној траци тикета приказује објекте повезане са тикетом."
 
-#: ../extras/i-doit-track-company-property.rst:30
+#: ../extras/i-doit-track-company-property.rst:29
+msgid "Link i-doit Objects to Tickets in Zammad"
+msgstr "Повежите i-doit објекте са тикетима у Zammad-у"
+
+#: ../extras/i-doit-track-company-property.rst:31
 msgid ""
-"It's also a great way to document quirks in the company's belongings: Why "
-"haven't we upgraded this system from Windows Vista yet? What did we decide "
-"to do about that faulty network switch? And why does the coffee maker keep "
-"shutting off before it's finished? 🤬"
+"First, add i-doit objects to a ticket in the ticket sidebar. In the printer "
+"tab, select **Change Objects** in the **i-doit** panel, then filter by type "
+"and name. The search matches object names only and returns at most 10 "
+"results, so pick a type to narrow it down."
 msgstr ""
-"То је такође одличан начин да документујете недостатке у имовини компаније: "
-"зашто још нисмо надоградили овај систем са Windows Vista-е? Шта смо одлучили "
-"да урадимо у вези са тим неисправним мрежним свичем? И зашто се апарат за "
-"кафу гаси пре него што заврши? 🤬"
+"Најпре додајте i-doit објекте тикету у бочној траци тикета. У траци са "
+"иконицом штампача изаберите **Измени објекте** у панелу **i-doit**, затим "
+"филтрирајте по типу и називу. Претрага проналази само називе објеката и "
+"враћа највише 10 резултата, зато изаберите врсту да бисте сузили избор."
 
-#: ../extras/i-doit-track-company-property.rst:36
-msgid "So How Does It Work?"
-msgstr "Како то уствари функционише?"
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "(Screenshot) The i-doit object picker with type filter and search field"
+msgstr ""
+"(Снимак екрана) Одабир i-doit објекта са филтером врсте и пољем за претрагу"
 
-#: ../extras/i-doit-track-company-property.rst:39
-msgid "In Zammad: Link i-doit Assets To Tickets"
-msgstr "У Zammad-у: Повежите i-doit објекте са тикетима"
+#: ../extras/i-doit-track-company-property.rst:40
+msgid "Select the objects to link, then use the ``Submit`` button."
+msgstr ""
+"Изаберите објекте које желите да повежете, затим употребите дугме ``Пошаљи``."
 
-#: ../extras/i-doit-track-company-property.rst:41
-msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
-msgstr "Прво додајте i-doit објекте у тикет из бпчне траке тикета:"
-
-#: ../extras/i-doit-track-company-property.rst:47
-msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
-msgstr "(Снимак екрана) Направите нов тикет и повежите га са i-doit објектом"
-
-#: ../extras/i-doit-track-company-property.rst:47
+#: ../extras/i-doit-track-company-property.rst:42
 msgid ""
-"Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+"Once objects have been linked to a ticket, click an object in the ticket "
+"sidebar to open its page in i-doit. The sidebar always shows the current "
+"data from i-doit: a renamed object appears under its new name, and an object "
+"deleted there drops off the list. Use the **Unlink object** icon next to an "
+"entry, which unlinks it from the ticket in Zammad and doesn't delete "
+"anything in i-doit."
 msgstr ""
-"Изаберите *🖨 > i-doit > Измени објекте*, а затим филтрирајте по категорији и/"
-"или називу."
+"Када су објекти повезани са тикетом, кликните на објекат у бочној траци "
+"тикета да бисте отворили његову страну у i-doit-у. Бочна трака увек "
+"приказује актуелне податке из i-doit-а: преименовани објекат појављује се "
+"под новим називом, а објекат који је тамо обрисан нестаје са списка. "
+"Употребите иконицу **Развежи објекат** поред уноса, која га развезује од "
+"тикета у Zammad-у и ништа не брише у i-doit-у."
 
-#: ../extras/i-doit-track-company-property.rst:49
+#: ../extras/i-doit-track-company-property.rst:50
+msgid "List & Create Tickets in i-doit"
+msgstr "Листање и отварање тикета у i-doit апликацији"
+
+#: ../extras/i-doit-track-company-property.rst:52
 msgid ""
-"Once assets have been linked to a ticket, they can be accessed directly from "
-"the ticket view:"
+"In i-doit, an object's page should contain a list of all the tickets "
+"associated with it. Click **All Tickets** in the object toolbar to list "
+"them, then use the **Open in ticketsystem** link in a ticket row to open the "
+"ticket in Zammad. You can even launch Zammad's new ticket dialog directly "
+"from i-doit, with the object already linked. Use **Create ticket** in the "
+"**All Tickets** panel to start it."
 msgstr ""
-"Када су објекти повезани са тикетом, њима се може приступити директно из "
-"приказа тикета:"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"(Screencast) Access an i-doit asset directly from the Zammad ticket view"
-msgstr ""
-"(Снимак екрана) Приступите i-doit објекту директно из приказа Zammad тикета"
-
-#: ../extras/i-doit-track-company-property.rst:55
-msgid ""
-"Click on a linked asset in the ticket sidebar to open its page in i-doit."
-msgstr ""
-"Кликните на повезан објекат у бочној траци тикета да бисте га отворили у i-"
-"doit."
-
-#: ../extras/i-doit-track-company-property.rst:58
-msgid "In i-doit: List & Create Tickets For a Given Asset"
-msgstr "У i-doit: Излистајте и отворите тикете за дат објекат"
-
-#: ../extras/i-doit-track-company-property.rst:60
-msgid ""
-"Your i-doit control panel should contain a list of all the tickets "
-"associated with each asset:"
-msgstr ""
-"Ваша i-doit контролна табла би требало да садржи листу свих тикета повезаних "
-"са сваким објектом:"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid "(Screencast) See a list of all tickets for an asset in i-doit"
-msgstr "(Снимак екрана) Погледајте листу свих тикета за објекат у i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:67
-msgid ""
-"Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open in "
-"ticket system** button to open the ticket in Zammad."
-msgstr ""
-"Кликните на 💬 на траци са алаткама да бисте излистали тикете за објекат. "
-"Користите дугме **🔗 Отвори у тикет систему** да бисте отворили тикет у "
-"Zammad-у."
-
-#: ../extras/i-doit-track-company-property.rst:70
-msgid ""
-"You can even launch Zammad's new ticket dialog directly from i-doit, with "
-"the asset already linked for you:"
-msgstr ""
-"Можете чак и покренути Zammad дијалог новог тикета директно из i-doit, са "
-"објектом које ће већ бити повезано за вас:"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid "(Screencast) Launch the new ticket dialog from within i-doit"
-msgstr "(Снимак екрана) Покрените дијалог новог тикета из i-doit"
-
-#: ../extras/i-doit-track-company-property.rst:77
-msgid ""
-"Use the **📄 Create ticket** button in the asset ticket list to start a new, "
-"pre-linked ticket dialog."
-msgstr ""
-"Користите дугме **📄 Отвори тикет** на листи тикета за објекат да бисте "
-"отворили нови, унапред повезани дијалог тикета."
+"У i-doit-у, страна објекта треба да садржи списак свих тикета који су са њим "
+"повезани. Кликните на **All Tickets** у траци са алаткама објекта да бисте "
+"их излистали, затим употребите линк **Open in ticketsystem** у реду тикета "
+"да бисте отворили тикет у Zammad-у. Дијалог за нови тикет у Zammad-у можете "
+"да покренете и директно из i-doit-а, са већ повезаним објектом. Употребите "
+"**Create ticket** у панелу **All Tickets** да бисте га покренули."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -7747,9 +7720,9 @@ msgid ""
 "**Notifications** section of your account page. If the switch is locked, the "
 "text below it tells you what is missing."
 msgstr ""
-"Укључите их путем прекидача **Пуш обавештења на овом уређају** у оквиру "
-"одељка **Обавештења** вашег профила. Уколико је прекидач закључан, текст "
-"испод ће вам објаснити шта тачно недостаје."
+"Укључите их прекидачем **Пуш обавештења на овом уређају** у одељку "
+"**Обавештења** на страници вашег налога. Ако је прекидач закључан, текст "
+"испод њега вам објашњава шта недостаје."
 
 #: ../extras/mobile-view.rst:146
 msgid ""
@@ -7758,10 +7731,10 @@ msgid ""
 "A push shows the same text as the entry in the notification list, and "
 "tapping it opens the ticket in the app."
 msgstr ""
-"Свако обавештење Zammad генерише за вас ће бити послато и на ваш уређај, на "
-"пример у вези нових тикета, освежавања тикета, достигнутих подсетника или "
-"ескалација. Пуш обавештење садржи исти текст као и унос у листи обавештења, "
-"а додиром на исто отвара одговарајући тикет у апликацији."
+"Свако обавештење које Zammad направи за вас шаље се и на ваш уређај, на "
+"пример о новим тикетима, освежењима тикета, достигнутим подсетницима или "
+"ескалацијама. Пуш обавештење приказује исти текст као ставка на листи "
+"обавештења, а додир на њега отвара тикет у апликацији."
 
 #: ../extras/mobile-view.rst:151
 msgid ""
@@ -7797,10 +7770,10 @@ msgid ""
 "Android devices. While you are working in the desktop view, Zammad does not "
 "send push notifications to your mobile devices."
 msgstr ""
-"Пуш обавештења се испоручују пуш сервисом вашег претраживача а не Zammad-а, "
-"тако да могу бити одложена, на пример због оптимизације батерије на Android "
-"уређајима. Док радите у основном приказ, Zammad ће прескочити слање пуш "
-"обавештења на ваш мобилни уређај."
+"Пуш обавештења испоручује пуш сервис вашег претраживача, а не Zammad, тако "
+"да могу каснити, на пример због оптимизације батерије на Android уређајима. "
+"Док радите у основном приказу, Zammad не шаље пуш обавештења на ваше мобилне "
+"уређаје."
 
 #: ../extras/mobile-view.rst:168
 msgid "Limitations"
@@ -9713,6 +9686,172 @@ msgstr ""
 "доступни :docs:`системски </index.html>` и :admin-docs:`администраторски </"
 "index.html>` приручници."
 
+#~ msgid ""
+#~ "With the issue tracker integration, you can monitor GitHub / GitLab "
+#~ "issues right from within a Zammad ticket. This feature is optional. If "
+#~ "you don't see it in the ticket sidebar, that means your administrator "
+#~ "hasn't enabled it yet. Administrators can learn more in the :admin-"
+#~ "docs:`issue tracker integration in the admin documentation </system/"
+#~ "integrations#integrations-for-issue-trackers>`."
+#~ msgstr ""
+#~ "Са интеграцијом праћења проблема, можете надгледати GitHub / GitLab "
+#~ "извештаје у оквиру Zammad тикета. Ова функција је опциона. Уколико је не "
+#~ "видите у бочној траци тикета, то значи да је ваш администратор још није "
+#~ "укључио. Администратори могу да сазнају више у :admin-"
+#~ "docs:`администраторкој документацији интеграција за праћење проблема </"
+#~ "system/integrations#integrations-for-issue-trackers>`."
+
+#~ msgid "Ticket detail view showing activated GitHub & GitLab function"
+#~ msgstr ""
+#~ "Детаљни приказ тикета који приказује активирану функцију Github & Gitlab"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview "
+#~ "of issues related to the ticket."
+#~ msgstr ""
+#~ "Користите |github| и |gitlab| језичке у бочној траци тикета за преглед "
+#~ "сродних проблема."
+
+#~ msgid "GitHub logo"
+#~ msgstr "Github лого"
+
+#~ msgid "GitLab logo"
+#~ msgstr "GitLab лого"
+
+#~ msgid "What Can It Do?"
+#~ msgstr "Чему служи?"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
+#~ "issues, along with metadata like status (open/closed), assignee, labels, "
+#~ "and more. Or, simply click the title to view the issue on GitHub / "
+#~ "GitLab. A badge on the tab icon indicates how many issues are linked to "
+#~ "this ticket."
+#~ msgstr ""
+#~ "Користите |github| и |gitlab| језичке у бочној траци тикета да бисте "
+#~ "видели повезане проблеме, заједно са мета подацима као што су статус "
+#~ "(отворен/затворен), одговорни, ознаке и још много тога. Или једноставно "
+#~ "кликните на наслов да бисте видели проблем на Github / Gitlab. Ознака на "
+#~ "иконици језичка индикује колико проблема је повезано са овим тикетом."
+
+#~ msgid ""
+#~ "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
+#~ "then enter a valid issue URL. Please note that linking a new issue can be "
+#~ "slow sometimes."
+#~ msgstr ""
+#~ "При врху бочне траке тикета изаберите *Github / Gitlab > Повежи проблем*, "
+#~ "а затим унесите исправан URL проблема. Имајте на уму да повезивање нових "
+#~ "проблема може понекад бити спорије."
+
+#~ msgid "Screencast showing how to list and add new issues to a ticket"
+#~ msgstr ""
+#~ "Снимак екрана који показује како да излистате и повежете нове проблеме са "
+#~ "тикетом"
+
+#~ msgid "Remove an issue"
+#~ msgstr "Уклоните проблем"
+
+#~ msgid "Click the ✕ button next to an issue title to unlink it."
+#~ msgstr ""
+#~ "Кликните на дугме ✕ поред наслова проблема да бисте прекинули везу са њим."
+
+#~ msgid ""
+#~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
+#~ msgstr ""
+#~ "Користите језичак 🖨 **штампача** да бисте видели или управљали i-doit "
+#~ "објектима тикета."
+
+#~ msgid "Why?"
+#~ msgstr "Зашто?"
+
+#~ msgid ""
+#~ "i-doit can help you keep track of troublesome equipment and find previous "
+#~ "tickets from the last time something went wrong with it."
+#~ msgstr ""
+#~ "i-doit вам може помоћи да испратите проблематичну опрему и пронађете "
+#~ "претходне тикете од последњег пута када је нешто пошло по злу."
+
+#~ msgid ""
+#~ "It's also a great way to document quirks in the company's belongings: Why "
+#~ "haven't we upgraded this system from Windows Vista yet? What did we "
+#~ "decide to do about that faulty network switch? And why does the coffee "
+#~ "maker keep shutting off before it's finished? 🤬"
+#~ msgstr ""
+#~ "То је такође одличан начин да документујете недостатке у имовини "
+#~ "компаније: зашто још нисмо надоградили овај систем са Windows Vista-е? "
+#~ "Шта смо одлучили да урадимо у вези са тим неисправним мрежним свичем? И "
+#~ "зашто се апарат за кафу гаси пре него што заврши? 🤬"
+
+#~ msgid "So How Does It Work?"
+#~ msgstr "Како то уствари функционише?"
+
+#~ msgid "First, add i-doit assets to a ticket in the ticket sidebar:"
+#~ msgstr "Прво додајте i-doit објекте у тикет из бпчне траке тикета:"
+
+#~ msgid "(Screencast) Create a new ticket and link it to an i-doit asset"
+#~ msgstr ""
+#~ "(Снимак екрана) Направите нов тикет и повежите га са i-doit објектом"
+
+#~ msgid ""
+#~ "Select *🖨 > i-doit > Change Objects*, then filter by category and/or name."
+#~ msgstr ""
+#~ "Изаберите *🖨 > i-doit > Измени објекте*, а затим филтрирајте по "
+#~ "категорији и/или називу."
+
+#~ msgid ""
+#~ "Once assets have been linked to a ticket, they can be accessed directly "
+#~ "from the ticket view:"
+#~ msgstr ""
+#~ "Када су објекти повезани са тикетом, њима се може приступити директно из "
+#~ "приказа тикета:"
+
+#~ msgid ""
+#~ "(Screencast) Access an i-doit asset directly from the Zammad ticket view"
+#~ msgstr ""
+#~ "(Снимак екрана) Приступите i-doit објекту директно из приказа Zammad "
+#~ "тикета"
+
+#~ msgid ""
+#~ "Click on a linked asset in the ticket sidebar to open its page in i-doit."
+#~ msgstr ""
+#~ "Кликните на повезан објекат у бочној траци тикета да бисте га отворили у "
+#~ "i-doit."
+
+#~ msgid ""
+#~ "Your i-doit control panel should contain a list of all the tickets "
+#~ "associated with each asset:"
+#~ msgstr ""
+#~ "Ваша i-doit контролна табла би требало да садржи листу свих тикета "
+#~ "повезаних са сваким објектом:"
+
+#~ msgid "(Screencast) See a list of all tickets for an asset in i-doit"
+#~ msgstr "(Снимак екрана) Погледајте листу свих тикета за објекат у i-doit"
+
+#~ msgid ""
+#~ "Click the 💬 in the toolbar to list an asset's tickets. Use the **🔗 Open "
+#~ "in ticket system** button to open the ticket in Zammad."
+#~ msgstr ""
+#~ "Кликните на 💬 на траци са алаткама да бисте излистали тикете за објекат. "
+#~ "Користите дугме **🔗 Отвори у тикет систему** да бисте отворили тикет у "
+#~ "Zammad-у."
+
+#~ msgid ""
+#~ "You can even launch Zammad's new ticket dialog directly from i-doit, with "
+#~ "the asset already linked for you:"
+#~ msgstr ""
+#~ "Можете чак и покренути Zammad дијалог новог тикета директно из i-doit, са "
+#~ "објектом које ће већ бити повезано за вас:"
+
+#~ msgid "(Screencast) Launch the new ticket dialog from within i-doit"
+#~ msgstr "(Снимак екрана) Покрените дијалог новог тикета из i-doit"
+
+#~ msgid ""
+#~ "Use the **📄 Create ticket** button in the asset ticket list to start a "
+#~ "new, pre-linked ticket dialog."
+#~ msgstr ""
+#~ "Користите дугме **📄 Отвори тикет** на листи тикета за објекат да бисте "
+#~ "отворили нови, унапред повезани дијалог тикета."
+
 #~ msgid "Show dashboard"
 #~ msgstr "Прикажи контролну таблу"
 
@@ -10050,15 +10189,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Значка на иконици језичка приказује колико проблема је повезано са овим "
 #~ "тикетом."
-
-#~ msgid ""
-#~ "This feature is **optional**; if you don't see it in the ticket view, "
-#~ "that means your administrator hasn't enabled it yet. Administrators can "
-#~ "learn more :admin-docs:`here </system/integrations/i-doit.html>`."
-#~ msgstr ""
-#~ "Ова функција је **опциона**; ако је не видите у приказу тикета, то значи "
-#~ "да је ваш администратор још није омогућио. Администратори могу да сазнају "
-#~ "више :admin-docs:`овде </system/integrations/i-doit.html>`."
 
 #~ msgid ""
 #~ "If your company is using i-doit, ask your administrator / IT personnel to "
