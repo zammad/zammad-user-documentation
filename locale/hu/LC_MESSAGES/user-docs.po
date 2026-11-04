@@ -33,7 +33,7 @@ msgstr ""
 "munkamenetét, ha Ön tapasztalt felhasználó. De ne aggódjon, nem kell mindet "
 "megjegyeznie."
 
-#: ../advanced/keyboard-shortcuts.rst:8 ../basics/zammad-glossary.rst:507
+#: ../advanced/keyboard-shortcuts.rst:8 ../basics/zammad-glossary.rst:511
 #: ../basics/zammad-ui.rst:15 ../extras/chat.rst:12 ../extras/customers.rst:7
 #: ../extras/shared-drafts.rst:5
 msgid "Overview"
@@ -1381,7 +1381,7 @@ msgid "Group"
 msgstr "Csoport"
 
 #: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
-#: ../basics/zammad-glossary.rst:514
+#: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr "Tulajdonos"
 
@@ -1390,7 +1390,7 @@ msgid "State (with pending time, if applicable)"
 msgstr "Állapot (várakozási idővel, ha alkalmazható)"
 
 #: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
-#: ../basics/zammad-glossary.rst:551
+#: ../basics/zammad-glossary.rst:555
 msgid "Priority"
 msgstr "Prioritás"
 
@@ -2371,7 +2371,7 @@ msgstr ""
 "Az **E-mail küldése** választásakor az ügyfél olyan e-mailt kap, amelynek a "
 "tárgya a cím, a tartalma pedig a szöveg."
 
-#: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:733
+#: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:737
 msgid "Title"
 msgstr "Cím"
 
@@ -2903,7 +2903,7 @@ msgstr ""
 "(:admin-docs:`az adminisztrátorok itt olvashatnak erről többet </system/"
 "object/types.html>`)."
 
-#: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:680
+#: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:684
 msgid "State"
 msgstr "Állapot"
 
@@ -3036,7 +3036,7 @@ msgstr ""
 "jegyeikhez. Ellenkező esetben egyesek mindig a legmagasabb prioritást "
 "állítanák be, és azonnali eszkalációban bíznának."
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:710
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Címkék"
@@ -3840,7 +3840,7 @@ msgstr ""
 "Többet tudhat meg az `automatikus mentés nyitóoldalunkon <https://zammad.com/"
 "en/product/features/autosave>`_."
 
-#: ../basics/zammad-glossary.rst:80 ../basics/zammad-glossary.rst:617
+#: ../basics/zammad-glossary.rst:80 ../basics/zammad-glossary.rst:621
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Avatar"
 msgstr "Profilkép"
@@ -4140,7 +4140,7 @@ msgstr ""
 msgid "D"
 msgstr "D"
 
-#: ../basics/zammad-glossary.rst:195 ../basics/zammad-glossary.rst:609
+#: ../basics/zammad-glossary.rst:195 ../basics/zammad-glossary.rst:613
 #: ../extras/dashboard.rst:2
 msgid "Dashboard"
 msgstr "Vezérlőpult"
@@ -4275,17 +4275,27 @@ msgstr ""
 "Tudjon meg többet az Exchange-integrációról az :admin-docs:`adminisztrátori "
 "dokumentációban </system/integrations/exchange.html>`."
 
-#: ../basics/zammad-glossary.rst:253
+#: ../basics/zammad-glossary.rst:257
 msgid "External Authentication"
 msgstr "Külső hitelesítés"
 
 #: ../basics/zammad-glossary.rst:246
+#, fuzzy
+#| msgid ""
+#| "External authentication is an easy, one-click option for your users to "
+#| "log into Zammad. It has various benefits: not only is it faster but it "
+#| "also means that your users will have to remember fewer passwords. Zammad "
+#| "currently supports more than ten login providers, such as Facebook, "
+#| "GitHub, GitLab, Google, or Microsoft / Office365."
 msgid ""
 "External authentication is an easy, one-click option for your users to log "
 "into Zammad. It has various benefits: not only is it faster but it also "
 "means that your users will have to remember fewer passwords. Zammad "
 "currently supports more than ten login providers, such as Facebook, GitHub, "
-"GitLab, Google, or Microsoft / Office365."
+"GitLab, Google, or Microsoft / Office365. If your Zammad signs you in "
+"through one provider only, administrators can enable Zammad to send you "
+"straight to that provider's sign-in page without a click on the login screen "
+"first."
 msgstr ""
 "A külső hitelesítés egy egyszerű, egykattintásos lehetőség a felhasználók "
 "számára a Zammadba való bejelentkezéshez. Számos előnnyel jár: nemcsak "
@@ -4294,24 +4304,29 @@ msgstr ""
 "támogat, mint például Facebook, GitHub, GitLab, Google vagy Microsoft / "
 "Office365."
 
-#: ../basics/zammad-glossary.rst:252
+#: ../basics/zammad-glossary.rst:255
+#, fuzzy
+#| msgid ""
+#| "See our :admin-docs:`admin documentation </settings/security/third-"
+#| "party.html>` for all third party authentication providers."
 msgid ""
 "See our :admin-docs:`admin documentation </settings/security/third-"
-"party.html>` for all third party authentication providers."
+"party.html>` for all third party authentication providers and the :admin-"
+"docs:`automatic third-party login </settings/security/base.html>`."
 msgstr ""
 "Nézze meg az :admin-docs:`adminisztrátori dokumentációnkat </settings/"
 "security/third-party.html>` az összes harmadik fél hitelesítési "
 "szolgáltatóért."
 
-#: ../basics/zammad-glossary.rst:256
+#: ../basics/zammad-glossary.rst:260
 msgid "F"
 msgstr "F"
 
-#: ../basics/zammad-glossary.rst:261
+#: ../basics/zammad-glossary.rst:265
 msgid "Feature"
 msgstr "Funkció"
 
-#: ../basics/zammad-glossary.rst:259
+#: ../basics/zammad-glossary.rst:263
 msgid ""
 "A feature is what we call the different functionalities of Zammad, such as "
 "our integrations, productivity tools, or time-saving aspects. We keep adding "
@@ -4321,11 +4336,11 @@ msgstr ""
 "integrációkat, a termelékenységi eszközöket vagy az időmegtakarítási "
 "szempontokat. Minden egyes kiadással új funkciókat adunk hozzá."
 
-#: ../basics/zammad-glossary.rst:269
+#: ../basics/zammad-glossary.rst:273
 msgid "Feature request"
 msgstr "Funkciókérés"
 
-#: ../basics/zammad-glossary.rst:264
+#: ../basics/zammad-glossary.rst:268
 msgid ""
 "Users can let us know if they are missing a particular feature in Zammad. We "
 "collect all of their wishes `in our Community in the Feature Request "
@@ -4341,11 +4356,11 @@ msgstr ""
 "rendszeresen felmerül, és úgy véljük, hogy kiváló kiegészítés lenne, akkor "
 "felvesszük az ütemtervünkbe, és elkezdünk dolgozni rajta."
 
-#: ../basics/zammad-glossary.rst:274
+#: ../basics/zammad-glossary.rst:278
 msgid "Feature sponsoring"
 msgstr "Funkciótámogatás"
 
-#: ../basics/zammad-glossary.rst:272
+#: ../basics/zammad-glossary.rst:276
 msgid ""
 "If an organization urgently requires one of the features on the list, they "
 "can fast-forward the development and put it on top of the list by sponsoring "
@@ -4356,15 +4371,15 @@ msgstr ""
 "lista elejére helyezheti, ami azt jelenti, hogy fedezi a fejlesztés "
 "költségeit."
 
-#: ../basics/zammad-glossary.rst:277
+#: ../basics/zammad-glossary.rst:281
 msgid "G"
 msgstr "G"
 
-#: ../basics/zammad-glossary.rst:296
+#: ../basics/zammad-glossary.rst:300
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../basics/zammad-glossary.rst:280
+#: ../basics/zammad-glossary.rst:284
 msgid ""
 "GitHub is a service for the version management of software development "
 "projects. It uses Git, a software that tracks changes in file sets. Here at "
@@ -4375,7 +4390,7 @@ msgstr ""
 "követi nyomon. Mi itt, a Zammadnál a saját tárolónk karbantartására "
 "használjuk."
 
-#: ../basics/zammad-glossary.rst:284
+#: ../basics/zammad-glossary.rst:288
 msgid ""
 "As Zammad in an open-source project, many developers and tech-lovers from "
 "all over the world contribute to it. GitHub is where we coordinate all of "
@@ -4385,11 +4400,11 @@ msgstr ""
 "technológia iránt érdeklődő személy közreműködik benne. A GitHub az a hely, "
 "ahol mindezt koordináljuk."
 
-#: ../basics/zammad-glossary.rst:287
+#: ../basics/zammad-glossary.rst:291
 msgid "You can find the repository `here <https://github.com/zammad/zammad>`_."
 msgstr "A tárolót `itt találhatja meg <https://github.com/zammad/zammad>`_."
 
-#: ../basics/zammad-glossary.rst:289
+#: ../basics/zammad-glossary.rst:293
 msgid ""
 "Besides our own repo, Zammad also has an integration for GitHub. It creates "
 "a data exchange that shows you all relevant information about your issues "
@@ -4400,7 +4415,7 @@ msgstr ""
 "információt közvetlenül az ügyfélszolgálati rendszerben jeleníti meg, mint "
 "például az állapotot vagy a kijelölt felelősöket."
 
-#: ../basics/zammad-glossary.rst:293
+#: ../basics/zammad-glossary.rst:297
 msgid ""
 "Administrators can learn more about GitHub :admin-docs:`in the admin "
 "documentation </system/integrations/github.html>`, if you're an agent you "
@@ -4412,11 +4427,11 @@ msgstr ""
 "Ha Ön ügyintéző, akkor a funkcionalitásról a :doc:`/extras/github-gitlab-"
 "integration` oldalon tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:309
+#: ../basics/zammad-glossary.rst:313
 msgid "GitLab"
 msgstr "GitLab"
 
-#: ../basics/zammad-glossary.rst:299
+#: ../basics/zammad-glossary.rst:303
 msgid ""
 "GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
 "development."
@@ -4424,7 +4439,7 @@ msgstr ""
 "A GitLab hasonló, mint a GitHub. Mi itt, a Zammadnál a belső "
 "fejlesztéseinkhez használjuk."
 
-#: ../basics/zammad-glossary.rst:302
+#: ../basics/zammad-glossary.rst:306
 msgid ""
 "There is also an integration that allows users to connect GitLab to Zammad "
 "so that all their issues and their corresponding changes are reflected in "
@@ -4434,7 +4449,7 @@ msgstr ""
 "hogy összekapcsolják a GitLabot a Zammaddal, azért hogy az összes ügyük és a "
 "hozzájuk tartozó változtatások mindkét rendszerben megjelenjenek."
 
-#: ../basics/zammad-glossary.rst:306
+#: ../basics/zammad-glossary.rst:310
 msgid ""
 "Administrators can learn more about GitLab :admin-docs:`in the admin "
 "documentation </system/integrations/gitlab.html>`, if you're an agent you "
@@ -4446,11 +4461,11 @@ msgstr ""
 "Ha Ön ügyintéző, akkor a funkcionalitásról a :doc:`/extras/github-gitlab-"
 "integration` oldalon tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:322
+#: ../basics/zammad-glossary.rst:326
 msgid "Grafana"
 msgstr "Grafana"
 
-#: ../basics/zammad-glossary.rst:312
+#: ../basics/zammad-glossary.rst:316
 msgid ""
 "Grafana is an open-source reporting tool. Zammad users on the Plus plan can "
 "integrate it into their instance and receive detailed analytics on their "
@@ -4460,11 +4475,11 @@ msgstr ""
 "használó Zammad-felhasználók integrálhatják azt a saját példányukba, és "
 "részletes elemzéseket kaphatnak a teljesítményükről."
 
-#: ../basics/zammad-glossary.rst:316
+#: ../basics/zammad-glossary.rst:320
 msgid "**🤓 Self Hosted users**"
 msgstr "**🤓 Saját kiszolgálású felhasználók**"
 
-#: ../basics/zammad-glossary.rst:318
+#: ../basics/zammad-glossary.rst:322
 msgid ""
 "Hooking up Grafana to Elasticsearch is a possibility you can do on your own "
 "as well."
@@ -4472,7 +4487,7 @@ msgstr ""
 "A Grafana és az Elasticsearch összekapcsolása olyan lehetőség, amelyet saját "
 "maga is elvégezhet."
 
-#: ../basics/zammad-glossary.rst:321
+#: ../basics/zammad-glossary.rst:325
 msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
@@ -4481,11 +4496,11 @@ msgstr ""
 "thirdparty/grafana.html>` arról, hogy hogyan kell hozzáadni a Grafana "
 "vezérlőpultjait a Zammadhoz."
 
-#: ../basics/zammad-glossary.rst:337
+#: ../basics/zammad-glossary.rst:341
 msgid "Groups"
 msgstr "Csoportok"
 
-#: ../basics/zammad-glossary.rst:325
+#: ../basics/zammad-glossary.rst:329
 msgid ""
 "Groups are a synonym for departments or processing groups. The incoming "
 "tickets are assigned to them. The corresponding group is responsible for the "
@@ -4501,7 +4516,7 @@ msgstr ""
 "keresztül vannak szabályozva. A lehetséges jogosultságok a „teljes "
 "hozzáférés”, a „csak olvasás” és a „nincs hozzáférés”."
 
-#: ../basics/zammad-glossary.rst:332
+#: ../basics/zammad-glossary.rst:336
 msgid ""
 "If you have worked with the OTRS system in the past, you might remember the "
 "principle of \"queues\". The groups in Zammad are the same as the queues in "
@@ -4511,7 +4526,7 @@ msgstr ""
 "„várólisták” alapelvére. A Zammadban lévő csoportok ugyanazok, mint az OTRS-"
 "ben a várólisták."
 
-#: ../basics/zammad-glossary.rst:336
+#: ../basics/zammad-glossary.rst:340
 msgid ""
 "You can learn more on our `group landing page <https://zammad.com/en/product/"
 "features/groups>`_."
@@ -4519,19 +4534,19 @@ msgstr ""
 "Többet tudhat meg a `csoport nyitóoldalunkon <https://zammad.com/en/product/"
 "features/groups>`_."
 
-#: ../basics/zammad-glossary.rst:340
+#: ../basics/zammad-glossary.rst:344
 msgid "H"
 msgstr "H"
 
-#: ../basics/zammad-glossary.rst:345
+#: ../basics/zammad-glossary.rst:349
 msgid "I"
 msgstr "I"
 
-#: ../basics/zammad-glossary.rst:353
+#: ../basics/zammad-glossary.rst:357
 msgid "Icinga"
 msgstr "Icinga"
 
-#: ../basics/zammad-glossary.rst:348
+#: ../basics/zammad-glossary.rst:352
 msgid ""
 "Icinga is a monitoring system that supervises the availability of an "
 "organization's entire system infrastructure. It can be integrated into "
@@ -4541,7 +4556,7 @@ msgstr ""
 "rendszer-infrastruktúrájának rendelkezésre állását felügyeli. Integrálható a "
 "Zammadba, hogy figyelmeztetési helyzet esetén aktiváljon egy jegyet."
 
-#: ../basics/zammad-glossary.rst:353
+#: ../basics/zammad-glossary.rst:357
 msgid ""
 "You can learn more on our `Icinga landing page <https://zammad.com/en/"
 "product/features/icinga-integration>`_."
@@ -4549,11 +4564,11 @@ msgstr ""
 "Többet tudhat meg az `Icinga nyitóoldalunkon <https://zammad.com/en/product/"
 "features/icinga-integration>`_."
 
-#: ../basics/zammad-glossary.rst:361
+#: ../basics/zammad-glossary.rst:365
 msgid "Issue-tracking system"
 msgstr "Problémakövető rendszer"
 
-#: ../basics/zammad-glossary.rst:356
+#: ../basics/zammad-glossary.rst:360
 msgid ""
 "Issue trackers are usually systems that track processes on a technical "
 "level. Two of the best-known examples are GitHub and GitLab."
@@ -4561,7 +4576,7 @@ msgstr ""
 "A problémakövetők általában olyan rendszerek, amelyek műszaki szinten "
 "követik nyomon a folyamatokat. A két legismertebb példa a GitHub és a GitLab."
 
-#: ../basics/zammad-glossary.rst:359
+#: ../basics/zammad-glossary.rst:363
 msgid ""
 "Zammad is also often referred to as an issue-tracking system. However, as a "
 "helpdesk, it focuses on communication at the customer level rather than the "
@@ -4571,11 +4586,11 @@ msgstr ""
 "ügyfélszolgálati rendszerként inkább az ügyfélszintű kommunikációra helyezi "
 "a hangsúlyt, nem pedig a műszaki szintre."
 
-#: ../basics/zammad-glossary.rst:374
+#: ../basics/zammad-glossary.rst:378
 msgid "i-doit"
 msgstr "i-doit"
 
-#: ../basics/zammad-glossary.rst:364
+#: ../basics/zammad-glossary.rst:368
 msgid ""
 "i-doit is a CMDB (Configuration Management Data Base). It helps you to keep "
 "an eye on every piece of the physical and digital infrastructure. A "
@@ -4592,7 +4607,7 @@ msgstr ""
 "Lehetővé teszi azt is, hogy Zammad-jegyeket hozzon létre az i-doit "
 "rendszerben."
 
-#: ../basics/zammad-glossary.rst:371
+#: ../basics/zammad-glossary.rst:375
 msgid ""
 "Administrators can learn more about i-doit :admin-docs:`in the admin "
 "documentation </system/integrations/i-doit.html>`, if you're an agent you "
@@ -4604,19 +4619,19 @@ msgstr ""
 "Ha Ön ügyintéző, akkor a funkcionalitásról az :doc:`/extras/i-doit-track-"
 "company-property` oldalon tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:377
+#: ../basics/zammad-glossary.rst:381
 msgid "J"
 msgstr "J"
 
-#: ../basics/zammad-glossary.rst:382
+#: ../basics/zammad-glossary.rst:386
 msgid "K"
 msgstr "K"
 
-#: ../basics/zammad-glossary.rst:394
+#: ../basics/zammad-glossary.rst:398
 msgid "Kibana"
 msgstr "Kibana"
 
-#: ../basics/zammad-glossary.rst:385
+#: ../basics/zammad-glossary.rst:389
 msgid ""
 "Kibana is a browser-based, open-source reporting tool that focuses on data "
 "evaluation. It was developed by Elastic, which is why it is not a surprise "
@@ -4627,7 +4642,7 @@ msgstr ""
 "meglepő, hogy az Elasticsearchből származó adatokat használja az "
 "elemzéseihez."
 
-#: ../basics/zammad-glossary.rst:389
+#: ../basics/zammad-glossary.rst:393
 msgid ""
 "Kibana can be integrated with Zammad, allowing for helpdesk data to be "
 "mapped in the reporting tool."
@@ -4635,11 +4650,11 @@ msgstr ""
 "A Kibana integrálható a Zammad rendszerrel, lehetővé téve a ügyfélszolgálati "
 "adatok leképezését a jelentéskészítő eszközben."
 
-#: ../basics/zammad-glossary.rst:392
+#: ../basics/zammad-glossary.rst:396
 msgid "**🤓 This does not apply to SaaS Zammad instances.**"
 msgstr "**🤓 Ez nem vonatkozik a SaaS-alapú Zammad-példányokra.**"
 
-#: ../basics/zammad-glossary.rst:394
+#: ../basics/zammad-glossary.rst:398
 msgid ""
 "You can learn more on our `Kibana landing page <https://zammad.com/en/"
 "product/features/kibana-integration>`_."
@@ -4647,12 +4662,12 @@ msgstr ""
 "Többet tudhat meg a `Kibana nyitóoldalunkon <https://zammad.com/en/product/"
 "features/kibana-integration>`_."
 
-#: ../basics/zammad-glossary.rst:409 ../basics/zammad-glossary.rst:611
+#: ../basics/zammad-glossary.rst:413 ../basics/zammad-glossary.rst:615
 #: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
 msgstr "Tudásbázis"
 
-#: ../basics/zammad-glossary.rst:397
+#: ../basics/zammad-glossary.rst:401
 msgid ""
 "Think of a very extensive set of FAQs - that's exactly what the Zammad "
 "knowledge base is. It collects all important information: definitions, "
@@ -4662,7 +4677,7 @@ msgstr ""
 "a Zammad tudásbázisa. Összegyűjti az összes fontos információt: "
 "fogalommeghatározásokat, folyamatokat, útmutatókat, szervezeti ábrákat stb."
 
-#: ../basics/zammad-glossary.rst:401
+#: ../basics/zammad-glossary.rst:405
 msgid ""
 "Knowledge base articles can be either internal or external, so you can "
 "either show them to the world (good for information on your product or "
@@ -4674,7 +4689,7 @@ msgstr ""
 "szolgáltatásánál), vagy megtarthatja a csapatának (például belső "
 "folyamatokat vagy csapaton belüli információkat)."
 
-#: ../basics/zammad-glossary.rst:406
+#: ../basics/zammad-glossary.rst:410
 msgid ""
 "Administrators can learn more about the Knowledge Base :admin-docs:`in the "
 "admin documentation </manage/knowledge-base.html>`, if you're an agent you "
@@ -4686,15 +4701,15 @@ msgstr ""
 "ügyintéző, akkor a funkcionalitásról a :doc:`/extras/knowledge-base` oldalon "
 "tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:412
+#: ../basics/zammad-glossary.rst:416
 msgid "L"
 msgstr "L"
 
-#: ../basics/zammad-glossary.rst:420
+#: ../basics/zammad-glossary.rst:424
 msgid "LDAP"
 msgstr "LDAP"
 
-#: ../basics/zammad-glossary.rst:415
+#: ../basics/zammad-glossary.rst:419
 msgid ""
 "A Lightweight Directory Access Protocol (LDAP) helps provide information "
 "about your users within Zammad. Authentication of users against the LDAP and "
@@ -4705,7 +4720,7 @@ msgstr ""
 "a Zammad rendszeren belül. A felhasználók LDAP-alapú hitelesítése, valamint "
 "az LDAP-szerepek Zammad-szerepekre való leképezése is lehetséges."
 
-#: ../basics/zammad-glossary.rst:419
+#: ../basics/zammad-glossary.rst:423
 msgid ""
 "Learn more about LDAP integration :admin-docs:`in the admin documentation </"
 "system/integrations/ldap/index.html>`."
@@ -4713,15 +4728,15 @@ msgstr ""
 "Tudjon meg többet az LDAP-integrációról az :admin-docs:`adminisztrátori "
 "dokumentációban </system/integrations/ldap/index.html>`."
 
-#: ../basics/zammad-glossary.rst:423
+#: ../basics/zammad-glossary.rst:427
 msgid "M"
 msgstr "M"
 
-#: ../basics/zammad-glossary.rst:440
+#: ../basics/zammad-glossary.rst:444
 msgid "Macro"
 msgstr "Makró"
 
-#: ../basics/zammad-glossary.rst:426
+#: ../basics/zammad-glossary.rst:430
 msgid ""
 "A macro is a series of actions. By starting the macro, the actions are also "
 "triggered (like a domino effect), so users don't have to work through each "
@@ -4733,7 +4748,7 @@ msgstr ""
 "lépéseket külön-külön végrehajtaniuk. Ez hatalmas időmegtakarítást jelent, "
 "és biztosítja, hogy egyetlen lépés se legyen elfeledve."
 
-#: ../basics/zammad-glossary.rst:431
+#: ../basics/zammad-glossary.rst:435
 msgid ""
 "An example of this is declaring a ticket as \"spam\". The manual way here "
 "would be to assign an owner, set a status, and add the tag \"spam\". Using a "
@@ -4747,7 +4762,7 @@ msgstr ""
 "részletes nézetében használhatók, illetve egy áttekintésben tömeges "
 "műveletként."
 
-#: ../basics/zammad-glossary.rst:437
+#: ../basics/zammad-glossary.rst:441
 msgid ""
 "Administrators can learn more about Macros :admin-docs:`in the admin "
 "documentation </manage/macros.html>`, if you're an agent you can learn more "
@@ -4758,11 +4773,11 @@ msgstr ""
 "ügyintéző, akkor a funkcionalitásról a :doc:`/advanced/macros` oldalon "
 "tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:447
+#: ../basics/zammad-glossary.rst:451
 msgid "Mentions"
 msgstr "Említések"
 
-#: ../basics/zammad-glossary.rst:443
+#: ../basics/zammad-glossary.rst:447
 msgid ""
 "Mentions are a Zammad feature that allows you to tag another agent in a "
 "ticket. Just type :kbd:`@@` and the name. The selected person will be "
@@ -4773,15 +4788,15 @@ msgstr ""
 "karaktereket, majd a nevet. A kiválasztott személy értesítést fog kapni, és "
 "ettől kezdve figyelni fogja a jegyet."
 
-#: ../basics/zammad-glossary.rst:447
+#: ../basics/zammad-glossary.rst:451
 msgid "Learn more on this page: :ref:`mentions`."
 msgstr "Tudjon meg többet az :ref:`mentions` oldalon."
 
-#: ../basics/zammad-glossary.rst:457
+#: ../basics/zammad-glossary.rst:461
 msgid "Merging Tickets"
 msgstr "Jegyek egyesítése"
 
-#: ../basics/zammad-glossary.rst:450
+#: ../basics/zammad-glossary.rst:454
 msgid ""
 "If you have two (or more) tickets about the same issue, you can merge one of "
 "them into the other. By default, Zammad performs checks if a message from an "
@@ -4797,16 +4812,16 @@ msgstr ""
 "az automatikus válasz megválaszolása helyett, akkor a Zammad nem tudja "
 "hozzárendelni az üzenetet a meglévő jegyhez, hanem újat hoz létre."
 
-#: ../basics/zammad-glossary.rst:457
+#: ../basics/zammad-glossary.rst:461
 msgid "See :doc:`/advanced/ticket-actions` for further information."
 msgstr ""
 "További információkért nézze meg a :doc:`/advanced/ticket-actions` szakaszt."
 
-#: ../basics/zammad-glossary.rst:463
+#: ../basics/zammad-glossary.rst:467
 msgid "Migrator / Migration Wizard"
 msgstr "Költöztető, költöztetési varázsló"
 
-#: ../basics/zammad-glossary.rst:460
+#: ../basics/zammad-glossary.rst:464
 msgid ""
 "If a company wants to switch from another helpdesk software to Zammad, they "
 "often have one concern: What about their existing data? That's why we have "
@@ -4818,11 +4833,11 @@ msgstr ""
 "Éppen ezért készítettük el a költöztetési varázslóinkat, amelyek egyetlen "
 "gombnyomással segítenek átköltöztetni az összes adatot."
 
-#: ../basics/zammad-glossary.rst:470
+#: ../basics/zammad-glossary.rst:474
 msgid "Monit"
 msgstr "Monit"
 
-#: ../basics/zammad-glossary.rst:466
+#: ../basics/zammad-glossary.rst:470
 msgid ""
 "Monit is an open-source monitoring tool that relies on a simple setup and a "
 "strong community. You can integrate it with Zammad - this way, a ticket is "
@@ -4832,7 +4847,7 @@ msgstr ""
 "és erős közösségen alapul. Integrálhatja a Zammad rendszerrel, így minden "
 "alkalommal létrejön egy jegy, amikor e-mailt kap a Monitban."
 
-#: ../basics/zammad-glossary.rst:470
+#: ../basics/zammad-glossary.rst:474
 msgid ""
 "You can learn more on our `Monit landing page <https://zammad.com/en/product/"
 "features/monit-integration>`_."
@@ -4840,15 +4855,15 @@ msgstr ""
 "Többet tudhat meg a `Monit nyitóoldalunkon <https://zammad.com/en/product/"
 "features/monit-integration>`_."
 
-#: ../basics/zammad-glossary.rst:473
+#: ../basics/zammad-glossary.rst:477
 msgid "N"
 msgstr "N"
 
-#: ../basics/zammad-glossary.rst:481
+#: ../basics/zammad-glossary.rst:485
 msgid "Nagios"
 msgstr "Nagios"
 
-#: ../basics/zammad-glossary.rst:476
+#: ../basics/zammad-glossary.rst:480
 msgid ""
 "Nagios is another monitoring tool that alerts IT teams when, for example, a "
 "server is no longer accessible or a hard disk is about to be exhausted. "
@@ -4860,7 +4875,7 @@ msgstr ""
 "merevlemez tárhelye hamarosan elfogy. A Nagios integrálható a Zammad "
 "rendszerrel, így riasztás esetén egy jegy jön létre."
 
-#: ../basics/zammad-glossary.rst:481
+#: ../basics/zammad-glossary.rst:485
 msgid ""
 "You can learn more on our `Nagios landing page <https://zammad.com/en/"
 "product/features/nagios-integration>`_."
@@ -4868,13 +4883,13 @@ msgstr ""
 "Többet tudhat meg a `Nagios nyitóoldalunkon <https://zammad.com/en/product/"
 "features/nagios-integration>`_."
 
-#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:92
+#: ../basics/zammad-glossary.rst:493 ../extras/mobile-view.rst:92
 #: ../extras/user-menu-profile-settings.rst:0
 #: ../extras/user-menu-profile-settings.rst:130
 msgid "Notifications"
 msgstr "Értesítések"
 
-#: ../basics/zammad-glossary.rst:484
+#: ../basics/zammad-glossary.rst:488
 msgid ""
 "To avoid overlooking new messages (e.g. from a customer) Zammad notifies you "
 "about every relevant change by default. You can adjust your general "
@@ -4887,21 +4902,21 @@ msgstr ""
 "Akár más felhasználókat is megemlíthet, vagy feliratkozhat egy adott jegyre, "
 "ha érdekli a folyamat alakulása."
 
-#: ../basics/zammad-glossary.rst:489
+#: ../basics/zammad-glossary.rst:493
 msgid "See :doc:`/extras/user-menu-profile-settings` for more information."
 msgstr ""
 "További információkért nézze meg a :doc:`/extras/user-menu-profile-settings` "
 "szakaszt."
 
-#: ../basics/zammad-glossary.rst:492
+#: ../basics/zammad-glossary.rst:496
 msgid "O"
 msgstr "O"
 
-#: ../basics/zammad-glossary.rst:498 ../extras/customers.rst:0
+#: ../basics/zammad-glossary.rst:502 ../extras/customers.rst:0
 msgid "Organization"
 msgstr "Szervezet"
 
-#: ../basics/zammad-glossary.rst:495
+#: ../basics/zammad-glossary.rst:499
 msgid ""
 "An organization identifies a grouping of customers that operate under the "
 "same roof or within the same customer group. If a customer whose "
@@ -4913,7 +4928,7 @@ msgstr ""
 "az ügyfélfelületre, akinek a szervezete „megosztott”, akkor ennek a "
 "felhasználónak hozzáférése van a szervezetéhez tartozó összes jegyhez."
 
-#: ../basics/zammad-glossary.rst:501
+#: ../basics/zammad-glossary.rst:505
 msgid ""
 "Overviews are your starting point to work on tickets. You can think of "
 "overviews as a kind of filter for existing tickets. Some basic overviews are "
@@ -4926,12 +4941,12 @@ msgstr ""
 "Zammad rendszerrel. Ha egyéni áttekintést szeretne, akkor kérje meg az "
 "adminisztrátort, hogy hozza létre."
 
-#: ../basics/zammad-glossary.rst:506
+#: ../basics/zammad-glossary.rst:510
 msgid "For more information please have a look in :doc:`/basics/find-tickets`."
 msgstr ""
 "További információkért nézze meg a :doc:`/basics/find-tickets` szakaszt."
 
-#: ../basics/zammad-glossary.rst:510
+#: ../basics/zammad-glossary.rst:514
 msgid ""
 "The owner of a ticket is the person responsible for it and ensures that it "
 "is processed in the best possible way. Of course, ownership can be "
@@ -4945,15 +4960,15 @@ msgstr ""
 "átadási jegyzetet hagyni a jegyben, hogy az új tulajdonos tisztában legyen "
 "azzal, hogy mit várnak el tőle."
 
-#: ../basics/zammad-glossary.rst:517
+#: ../basics/zammad-glossary.rst:521
 msgid "P"
 msgstr "P"
 
-#: ../basics/zammad-glossary.rst:526
+#: ../basics/zammad-glossary.rst:530
 msgid "Parent/Child Relationship"
 msgstr "Szülő- és gyermekkapcsolat"
 
-#: ../basics/zammad-glossary.rst:520
+#: ../basics/zammad-glossary.rst:524
 msgid ""
 "If one ticket results in other subtasks (or additional correspondences), you "
 "can split it into several tickets. The main one will then be the parent "
@@ -4965,7 +4980,7 @@ msgstr ""
 "kapcsolódó altémákat tartalmazó jegyek pedig a gyermekjegyek. Egyébként "
 "azonos módon két jegyet is egyesíthet egybe."
 
-#: ../basics/zammad-glossary.rst:525
+#: ../basics/zammad-glossary.rst:529
 msgid ""
 "Learn more about this function on this page: :doc:`/advanced/ticket-actions/"
 "link`."
@@ -4973,11 +4988,11 @@ msgstr ""
 "Tudjon meg többet erről a funkcióról a :doc:`/advanced/ticket-actions/link` "
 "szakaszban."
 
-#: ../basics/zammad-glossary.rst:542
+#: ../basics/zammad-glossary.rst:546
 msgid "Placetel"
 msgstr "Placetel"
 
-#: ../basics/zammad-glossary.rst:529
+#: ../basics/zammad-glossary.rst:533
 msgid ""
 "Placetel is a Cloud Telephone System that allows users to make phone calls "
 "via VoIP. Use your regular phone number and call someone directly on their "
@@ -4990,7 +5005,7 @@ msgstr ""
 "közvetlenül a mobiltelefonján vagy vezetékes vonalán, miközben az összes "
 "kommunikáció egy helyen marad (azaz a Zammadban)."
 
-#: ../basics/zammad-glossary.rst:534
+#: ../basics/zammad-glossary.rst:538
 msgid ""
 "Integrating a Placetel account with Zammad provides users with a call log, "
 "making the history of their correspondences even more accurate. Callers are "
@@ -5003,7 +5018,7 @@ msgstr ""
 "kulcsfontosságú funkció, amely jelentős időt takarít meg az ügyintézőknek a "
 "hívók hozzárendelésekor."
 
-#: ../basics/zammad-glossary.rst:539
+#: ../basics/zammad-glossary.rst:543
 msgid ""
 "Administrators can learn more on the :admin-docs:`Placetel CTI </system/"
 "integrations/cti/placetel.html>` integration page. Agents can learn more "
@@ -5013,7 +5028,7 @@ msgstr ""
 "system/integrations/cti/placetel.html>` integrációs oldalon. Az ügyintézők "
 "többet tudhatnak meg erről a funkcióról a :doc:`/extras/caller-log` oldalon."
 
-#: ../basics/zammad-glossary.rst:545
+#: ../basics/zammad-glossary.rst:549
 msgid ""
 "Every ticket gets assigned a priority. By default, the priority is 2 "
 "(normal). But it can be changed to either 1 (low) or 3 (high)."
@@ -5022,7 +5037,7 @@ msgstr ""
 "prioritás 2 (normál). De ez megváltoztatható 1 (alacsony) vagy 3 (magas) "
 "értékre."
 
-#: ../basics/zammad-glossary.rst:549
+#: ../basics/zammad-glossary.rst:553
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
 "administrator can find more information :admin-docs:`here </system/"
@@ -5032,19 +5047,19 @@ msgstr ""
 "megfelelően. Az adminisztrátor :admin-docs:`itt találhat </system/"
 "objects.html#system-attributes>` további információkat."
 
-#: ../basics/zammad-glossary.rst:554
+#: ../basics/zammad-glossary.rst:558
 msgid "Q"
 msgstr "Q"
 
-#: ../basics/zammad-glossary.rst:559
+#: ../basics/zammad-glossary.rst:563
 msgid "R"
 msgstr "R"
 
-#: ../basics/zammad-glossary.rst:569
+#: ../basics/zammad-glossary.rst:573
 msgid "Release"
 msgstr "Kiadás"
 
-#: ../basics/zammad-glossary.rst:562
+#: ../basics/zammad-glossary.rst:566
 msgid ""
 "Every few months, we bring a new version of Zammad into the world, which is "
 "called a release. It all started with Zammad 1.0."
@@ -5052,7 +5067,7 @@ msgstr ""
 "Néhány havonta meglepjük a világot a Zammad új verziójával, amit kiadásnak "
 "nevezünk. Az egész a Zammad 1.0-val kezdődött."
 
-#: ../basics/zammad-glossary.rst:565
+#: ../basics/zammad-glossary.rst:569
 msgid ""
 "Every release adds new features to our software. There are major and minor "
 "releases: major releases (such as Zammad 1.0, 2.0, etc.) bring major "
@@ -5064,12 +5079,12 @@ msgstr ""
 "változásokat hoznak. A kisebb kiadások ezekre épülnek (például 1.1, 2.1 "
 "stb.), és kisebb frissítéseket tartalmaznak."
 
-#: ../basics/zammad-glossary.rst:577 ../basics/zammad-glossary.rst:618
+#: ../basics/zammad-glossary.rst:581 ../basics/zammad-glossary.rst:622
 #: ../extras/reporting.rst:2
 msgid "Reporting"
 msgstr "Jelentéskészítés"
 
-#: ../basics/zammad-glossary.rst:572
+#: ../basics/zammad-glossary.rst:576
 msgid ""
 "The reporting helps keeping an overview over stats and numbers (e.g. created "
 "tickets per month). There are two types of reporting: the reporting "
@@ -5080,7 +5095,7 @@ msgstr ""
 "létezik: a Zammadba integrált jelentéskészítési funkció és a külső "
 "eszközökkel történő jelentéskészítés."
 
-#: ../basics/zammad-glossary.rst:576
+#: ../basics/zammad-glossary.rst:580
 msgid ""
 "Admins can find further information :admin-docs:`here </manage/report-"
 "profiles.html>`."
@@ -5088,11 +5103,11 @@ msgstr ""
 "Az adminisztrátorok :admin-docs:`itt találhatnak </manage/report-"
 "profiles.html>` további információkat."
 
-#: ../basics/zammad-glossary.rst:590
+#: ../basics/zammad-glossary.rst:594
 msgid "Role"
 msgstr "Szerep"
 
-#: ../basics/zammad-glossary.rst:580
+#: ../basics/zammad-glossary.rst:584
 msgid ""
 "Everyone who logs into Zammad has a predefined role. There are three types: "
 "admin, agent, and customer."
@@ -5100,7 +5115,7 @@ msgstr ""
 "Mindenki, aki bejelentkezik a Zammadba, előre meghatározott szereppel "
 "rendelkezik. Három típus létezik: adminisztrátor, ügyintéző és ügyfél."
 
-#: ../basics/zammad-glossary.rst:583
+#: ../basics/zammad-glossary.rst:587
 msgid ""
 "Admins have the most rights: they can define roles, permissions, and "
 "settings for the entire team and instance."
@@ -5109,7 +5124,7 @@ msgstr ""
 "jogosultságokat és beállításokat határozhatnak meg az egész csapat és a "
 "példány számára."
 
-#: ../basics/zammad-glossary.rst:586
+#: ../basics/zammad-glossary.rst:590
 msgid ""
 "Agents can view and edit tickets, but not change any settings other than "
 "those of their own profiles."
@@ -5118,7 +5133,7 @@ msgstr ""
 "változtathatnak meg semmilyen beállítást, kivéve a saját profiljukban "
 "lévőket."
 
-#: ../basics/zammad-glossary.rst:589
+#: ../basics/zammad-glossary.rst:593
 msgid ""
 "Customers can view their tickets' processing status in their individual "
 "Customer Interface."
@@ -5126,15 +5141,15 @@ msgstr ""
 "Az ügyfelek megtekinthetik a saját jegyeik feldolgozási állapotát az egyéni "
 "ügyfélfelületükön."
 
-#: ../basics/zammad-glossary.rst:593
+#: ../basics/zammad-glossary.rst:597
 msgid "S"
 msgstr "S"
 
-#: ../basics/zammad-glossary.rst:600
+#: ../basics/zammad-glossary.rst:604
 msgid "Scheduler"
 msgstr "Ütemező"
 
-#: ../basics/zammad-glossary.rst:596
+#: ../basics/zammad-glossary.rst:600
 msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
@@ -5148,11 +5163,11 @@ msgstr ""
 "találhatók az adminisztrátori dokumentációban lévő :admin-docs:`ütemező "
 "szakaszban </manage/scheduler.html>`."
 
-#: ../basics/zammad-glossary.rst:620 ../basics/zammad-ui.rst:85
+#: ../basics/zammad-glossary.rst:624 ../basics/zammad-ui.rst:85
 msgid "Sidebar"
 msgstr "Oldalsáv"
 
-#: ../basics/zammad-glossary.rst:603
+#: ../basics/zammad-glossary.rst:607
 msgid ""
 "The sidebar on the left side contains all relevant places and object you "
 "might need. Depending on the configured channels and your permissions, it "
@@ -5163,47 +5178,47 @@ msgstr ""
 "jogosultságaitól függően előfordulhat, hogy nem tartalmazza az alábbiakban "
 "felsorolt összes szakaszt:"
 
-#: ../basics/zammad-glossary.rst:607
+#: ../basics/zammad-glossary.rst:611
 msgid "Search bar"
 msgstr "Keresősáv"
 
-#: ../basics/zammad-glossary.rst:608
+#: ../basics/zammad-glossary.rst:612
 msgid "Notification section"
 msgstr "Értesítési szakasz"
 
-#: ../basics/zammad-glossary.rst:610 ../extras/user-menu-profile-settings.rst:0
+#: ../basics/zammad-glossary.rst:614 ../extras/user-menu-profile-settings.rst:0
 msgid "Overviews"
 msgstr "Áttekintések"
 
-#: ../basics/zammad-glossary.rst:612
+#: ../basics/zammad-glossary.rst:616
 msgid "Customer Chat"
 msgstr "Ügyfélcsevegés"
 
-#: ../basics/zammad-glossary.rst:613
+#: ../basics/zammad-glossary.rst:617
 msgid "Phone"
 msgstr "Telefon"
 
-#: ../basics/zammad-glossary.rst:614
+#: ../basics/zammad-glossary.rst:618
 msgid "One or more open tickets"
 msgstr "Egy vagy több nyitott jegy"
 
-#: ../basics/zammad-glossary.rst:615
+#: ../basics/zammad-glossary.rst:619
 msgid "Bottom section:"
 msgstr "Alsó szakasz:"
 
-#: ../basics/zammad-glossary.rst:619
+#: ../basics/zammad-glossary.rst:623
 msgid "Admin settings"
 msgstr "Adminisztrátori beállítások"
 
-#: ../basics/zammad-glossary.rst:620
+#: ../basics/zammad-glossary.rst:624
 msgid "Button for ticket creation"
 msgstr "Gomb a jegy létrehozásához"
 
-#: ../basics/zammad-glossary.rst:629
+#: ../basics/zammad-glossary.rst:633
 msgid "Signature"
 msgstr "Aláírás"
 
-#: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-glossary.rst:627
 msgid ""
 "The signature is your footer in an outgoing message. Your customers may find "
 "contact details and the name of your company/department there. It can even "
@@ -5213,7 +5228,7 @@ msgstr ""
 "kapcsolatfelvételi adatokat és a vállalat vagy osztály nevét. Akár "
 "a :ref:`profilképét <glossary-avatar>` is tartalmazhatja."
 
-#: ../basics/zammad-glossary.rst:628
+#: ../basics/zammad-glossary.rst:632
 msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
@@ -5221,11 +5236,11 @@ msgstr ""
 "Az aláírást az adminisztrátor tudja személyre szabni. További "
 "információk :admin-docs:`itt találhatók </channels/email/signatures.html>`."
 
-#: ../basics/zammad-glossary.rst:640
+#: ../basics/zammad-glossary.rst:644
 msgid "Sipgate"
 msgstr "Sipgate"
 
-#: ../basics/zammad-glossary.rst:632
+#: ../basics/zammad-glossary.rst:636
 msgid ""
 "Sipgate is a SaaS solution for internet telephony. The Zammad integration "
 "for Sipgate provides users with a detailed call overview. If you have a "
@@ -5238,7 +5253,7 @@ msgstr ""
 "kapcsolatba lépni, akkor a hívásnaplóból megtudhatja, hogy az adott "
 "munkatárs jelenleg elérhető-e."
 
-#: ../basics/zammad-glossary.rst:637
+#: ../basics/zammad-glossary.rst:641
 msgid ""
 "Administrators can learn more on the :admin-docs:`Sipgate CTI </system/"
 "integrations/cti/sipgate.html>` integration page. Agents can learn more "
@@ -5248,11 +5263,11 @@ msgstr ""
 "integrations/cti/sipgate.html>` integrációs oldalon. Az ügyintézők többet "
 "tudhatnak meg erről a funkcióról a :doc:`/extras/caller-log` oldalon."
 
-#: ../basics/zammad-glossary.rst:655
+#: ../basics/zammad-glossary.rst:659
 msgid "SLA"
 msgstr "SLA"
 
-#: ../basics/zammad-glossary.rst:645
+#: ../basics/zammad-glossary.rst:649
 msgid ""
 "A Service Level Agreement (SLA) is a contract between an end-user and a "
 "company that defines the minimum expected service requirements including "
@@ -5265,7 +5280,7 @@ msgstr ""
 "Ezeket arra használják, hogy meghatározzák az elvárásokat, és a vállalatokat "
 "elszámoltathatóvá tegyék az ígéreteik betartása tekintetében."
 
-#: ../basics/zammad-glossary.rst:651
+#: ../basics/zammad-glossary.rst:655
 msgid ""
 "You can easily set up SLAs in Zammad and define parameters such as the time "
 "for the first response, an update, and a solution. Once the deadline has "
@@ -5276,7 +5291,7 @@ msgstr ""
 "frissítés és a megoldás ideje. A határidő lejárta után a jegy eszkalálódni "
 "fog."
 
-#: ../basics/zammad-glossary.rst:655
+#: ../basics/zammad-glossary.rst:659
 msgid ""
 "You can learn more on our `SLA landing page <https://zammad.com/en/product/"
 "features/sla>`_."
@@ -5284,11 +5299,11 @@ msgstr ""
 "Többet tudhat meg az `SLA nyitóoldalunkon <https://zammad.com/en/product/"
 "features/sla>`_."
 
-#: ../basics/zammad-glossary.rst:661
+#: ../basics/zammad-glossary.rst:665
 msgid "Splitting tickets"
 msgstr "Jegyek felosztása"
 
-#: ../basics/zammad-glossary.rst:658
+#: ../basics/zammad-glossary.rst:662
 msgid ""
 "In case a ticket contains more than one issue and you want to handle it in a "
 "separate ticket, you can split the ticket. Zammad creates a new ticket then "
@@ -5300,11 +5315,11 @@ msgstr ""
 "ekkor új jegyet hoz létre a felosztáshoz kiválasztott bejegyzés alapján. "
 "További információkért nézze meg a :doc:`/advanced/ticket-actions` szakaszt."
 
-#: ../basics/zammad-glossary.rst:670
+#: ../basics/zammad-glossary.rst:674
 msgid "SSO"
 msgstr "SSO"
 
-#: ../basics/zammad-glossary.rst:664
+#: ../basics/zammad-glossary.rst:668
 msgid ""
 "Single-sign-on (SSO) allows you to access all your systems and devices with "
 "just one login. There are various providers that make this process easy and "
@@ -5315,12 +5330,12 @@ msgstr ""
 "létezik, amely egyszerűvé és biztonságossá teszi ezt a folyamatot. A Zammad "
 "jelenleg SAML és Shibboleth protokollon keresztül támogatja az SSO-t."
 
-#: ../basics/zammad-glossary.rst:668
+#: ../basics/zammad-glossary.rst:672
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
 msgstr ""
 "🤓 Saját kiszolgálású felhasználók Kerberos hitelesítést is használhatnak."
 
-#: ../basics/zammad-glossary.rst:670
+#: ../basics/zammad-glossary.rst:674
 msgid ""
 "You can learn more on our `SSO landing page <https://zammad.com/en/product/"
 "features/sso>`_."
@@ -5328,7 +5343,7 @@ msgstr ""
 "Többet tudhat meg az `SSO nyitóoldalunkon <https://zammad.com/en/product/"
 "features/sso>`_."
 
-#: ../basics/zammad-glossary.rst:673
+#: ../basics/zammad-glossary.rst:677
 msgid ""
 "Every ticket has a state. You can change it once you've updated the ticket. "
 "There are four types of states, and they are all color-coded."
@@ -5336,7 +5351,7 @@ msgstr ""
 "Minden jegynek van állapota. Megváltoztathatja, miután frissítette a jegyet. "
 "Négyféle típusú állapot létezik, és mindegyik színkóddal van jelölve."
 
-#: ../basics/zammad-glossary.rst:676
+#: ../basics/zammad-glossary.rst:680
 msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
@@ -5344,7 +5359,7 @@ msgstr ""
 "Tudjon meg többet az állapotokról és a színkódolásukról a :ref:`ticket-"
 "attributes` szakaszban."
 
-#: ../basics/zammad-glossary.rst:679
+#: ../basics/zammad-glossary.rst:683
 msgid ""
 "The available states can be changed or extended. Your admin can find further "
 "information :admin-docs:`here </system/objects.html#system-attributes>`."
@@ -5353,11 +5368,11 @@ msgstr ""
 "adminisztrátora :admin-docs:`itt találhat </system/objects.html#system-"
 "attributes>` további információkat."
 
-#: ../basics/zammad-glossary.rst:690
+#: ../basics/zammad-glossary.rst:694
 msgid "S/MIME"
 msgstr "S/MIME"
 
-#: ../basics/zammad-glossary.rst:683
+#: ../basics/zammad-glossary.rst:687
 msgid ""
 "S/MIME is the most widely-supported method for secure email communication. "
 "By activating it in Zammad, all messages sent from Zammad will be signed and "
@@ -5367,7 +5382,7 @@ msgstr ""
 "kommunikációhoz. Ha ezt aktiválja a Zammadban, akkor a Zammadból elküldött "
 "összes üzenet aláírásra és titkosításra kerül."
 
-#: ../basics/zammad-glossary.rst:687
+#: ../basics/zammad-glossary.rst:691
 msgid ""
 "Administrators can learn more about S/MIME :admin-docs:`in the admin "
 "documentation </system/integrations/smime/index.html>`, if you're an agent "
@@ -5379,11 +5394,11 @@ msgstr ""
 "index.html>`. Ha Ön ügyintéző, akkor a funkcionalitásról a :doc:`/extras/"
 "secure-email` oldalon tudhat meg többet."
 
-#: ../basics/zammad-glossary.rst:693
+#: ../basics/zammad-glossary.rst:697
 msgid "T"
 msgstr "T"
 
-#: ../basics/zammad-glossary.rst:696
+#: ../basics/zammad-glossary.rst:700
 msgid ""
 "Tags help you to categorize tickets. You can define them based on your use "
 "case. For example, if you're a retail business, your tags could be based on "
@@ -5398,7 +5413,7 @@ msgstr ""
 "létrehozhatók a kérés típusa alapján is, például visszatérítés, szállítási "
 "probléma, hiányzó termék…"
 
-#: ../basics/zammad-glossary.rst:703
+#: ../basics/zammad-glossary.rst:707
 msgid ""
 "Administrators can learn more about tags :admin-docs:`here </manage/"
 "tags.html>`. Agents can learn more about this function on this "
@@ -5408,11 +5423,11 @@ msgstr ""
 "tags.html>` a címkékről. Az ügyintézők a :ref:`ticket-attributes` szakaszban "
 "tudhatnak meg többet erről a funkcióról."
 
-#: ../basics/zammad-glossary.rst:720
+#: ../basics/zammad-glossary.rst:724
 msgid "Text module"
 msgstr "Szövegmodul"
 
-#: ../basics/zammad-glossary.rst:709
+#: ../basics/zammad-glossary.rst:713
 msgid ""
 "If you find that you send the same answers / text bits over and over again, "
 "you can save yourself a bunch of work and create a text module. This way, "
@@ -5425,7 +5440,7 @@ msgstr ""
 "gyorsbillentyűt, és az előre meghatározott bekezdés automatikusan megjelenik "
 "a bejegyzésben."
 
-#: ../basics/zammad-glossary.rst:714
+#: ../basics/zammad-glossary.rst:718
 msgid ""
 "For example, here at Zammad, we have a text module with the shortcut "
 "``::ilff``, which turns into ``I look forward to your feedback``."
@@ -5434,7 +5449,7 @@ msgstr ""
 "szövegmodulunk, amely az ``I look forward to your feedback`` (magyarul várom "
 "a visszajelzését) szöveggé alakul."
 
-#: ../basics/zammad-glossary.rst:717
+#: ../basics/zammad-glossary.rst:721
 msgid ""
 "Administrators can learn more about text modules :admin-docs:`here </manage/"
 "text-modules.html>`. Agents can learn more about this function on this "
@@ -5444,11 +5459,11 @@ msgstr ""
 "modules.html>` a szövegmodulokról. Az ügyintézők a :doc:`/advanced/text-"
 "modules` szakaszban tudhatnak meg többet erről a funkcióról."
 
-#: ../basics/zammad-glossary.rst:727
+#: ../basics/zammad-glossary.rst:731
 msgid "(Ticket) Template"
 msgstr "Jegysablon"
 
-#: ../basics/zammad-glossary.rst:723
+#: ../basics/zammad-glossary.rst:727
 msgid ""
 "If you create many similar tickets or write many similar texts, you can "
 "create a template for them. This is helpful for introductions to your "
@@ -5459,11 +5474,11 @@ msgstr ""
 "szolgáltatás bemutatásához, illetve az ajánlatok elkészítéséhez. Ez valódi "
 "időmegtakarítást jelent!"
 
-#: ../basics/zammad-glossary.rst:727
+#: ../basics/zammad-glossary.rst:731
 msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
 msgstr "Többet tudhat meg a :doc:`/advanced/ticket-templates` oldalon."
 
-#: ../basics/zammad-glossary.rst:730
+#: ../basics/zammad-glossary.rst:734
 msgid ""
 "The title of a ticket is different based on the channel it came in. You can "
 "find the title in the sidebar and in the top area in the ticket view. If the "
@@ -5475,11 +5490,11 @@ msgstr ""
 "a cím nem túl értelmes, akkor megváltoztathatja úgy, hogy rákattint a címre "
 "egy jegy nézetében."
 
-#: ../basics/zammad-glossary.rst:739
+#: ../basics/zammad-glossary.rst:743
 msgid "Ticket hook"
 msgstr "Jegyhorog"
 
-#: ../basics/zammad-glossary.rst:736
+#: ../basics/zammad-glossary.rst:740
 msgid ""
 "The ticket hook is the identifier of a ticket. By default, it is ``Ticket#`` "
 "with an appended number (e.g. ``Ticket#904627``). It can be changed by an "
@@ -5491,11 +5506,11 @@ msgstr ""
 "megváltoztathatja. További információkért :admin-docs:`nézze meg ezt </"
 "settings/ticket.html>`."
 
-#: ../basics/zammad-glossary.rst:746
+#: ../basics/zammad-glossary.rst:750
 msgid "Trigger"
 msgstr "Eseményindító"
 
-#: ../basics/zammad-glossary.rst:742
+#: ../basics/zammad-glossary.rst:746
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
@@ -5508,15 +5523,15 @@ msgstr ""
 "találhatók az adminisztrátori dokumentációban lévő :admin-"
 "docs:`eseményindító szakaszban </manage/trigger.html>`."
 
-#: ../basics/zammad-glossary.rst:749
+#: ../basics/zammad-glossary.rst:753
 msgid "U"
 msgstr "U"
 
-#: ../basics/zammad-glossary.rst:755
+#: ../basics/zammad-glossary.rst:759
 msgid "User"
 msgstr "Felhasználó"
 
-#: ../basics/zammad-glossary.rst:752
+#: ../basics/zammad-glossary.rst:756
 msgid ""
 "A user is any user of the ticket system. Each user is assigned certain "
 "permissions, which allow them to access certain areas and information. Users "
@@ -5529,19 +5544,19 @@ msgstr ""
 "felhasználók különféle szerepekkel rendelkezhetnek. A szabványos lehetőségek "
 "az ügyintéző, az adminisztrátor és az ügyfél."
 
-#: ../basics/zammad-glossary.rst:758
+#: ../basics/zammad-glossary.rst:762
 msgid "V"
 msgstr "V"
 
-#: ../basics/zammad-glossary.rst:763
+#: ../basics/zammad-glossary.rst:767
 msgid "W"
 msgstr "W"
 
-#: ../basics/zammad-glossary.rst:772
+#: ../basics/zammad-glossary.rst:776
 msgid "Webhooks"
 msgstr "Webhorgok"
 
-#: ../basics/zammad-glossary.rst:766
+#: ../basics/zammad-glossary.rst:770
 msgid ""
 "In a nutshell, webhooks are an easy way for systems to communicate with each "
 "other and allow you to send real-time data to any other application. We use "
@@ -5554,30 +5569,30 @@ msgstr ""
 "tegyük a felhasználóink számára azt, hogy egy harmadik féltől származó "
 "rendszert tájékoztassanak a Zammadban lévő új információkkal kapcsolatban."
 
-#: ../basics/zammad-glossary.rst:771
+#: ../basics/zammad-glossary.rst:775
 msgid ""
 "Learn more about webhooks on :admin-docs:`this page </manage/webhook.html>`."
 msgstr ""
 "Tudjon meg többet a webhorgokról :admin-docs:`ezen az oldalon </manage/"
 "webhook.html>`."
 
-#: ../basics/zammad-glossary.rst:775
+#: ../basics/zammad-glossary.rst:779
 msgid "X"
 msgstr "X"
 
-#: ../basics/zammad-glossary.rst:780
+#: ../basics/zammad-glossary.rst:784
 msgid "Y"
 msgstr "Y"
 
-#: ../basics/zammad-glossary.rst:785
+#: ../basics/zammad-glossary.rst:789
 msgid "Z"
 msgstr "Z"
 
-#: ../basics/zammad-glossary.rst:787
+#: ../basics/zammad-glossary.rst:791
 msgid "Zammad"
 msgstr "Zammad"
 
-#: ../basics/zammad-glossary.rst:788
+#: ../basics/zammad-glossary.rst:792
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr "A Zammad a világ legjobb ügyfélszolgálati rendszere. Pont."
 
