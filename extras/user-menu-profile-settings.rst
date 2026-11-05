@@ -198,7 +198,9 @@ account.
    Zammad API. Send a token as HTTP header with your API calls, either as
    ``Authorization: Token token={your token}`` or as
    ``Authorization: Bearer {your token}``. Both formats work for the same
-   token. The API documentation shows both variants.
+   token. The API documentation shows both variants. One application you
+   connect this way is an AI client, which works on your tickets through the
+   :doc:`MCP server </extras/mcp-server>`.
 
    .. tip::
       Always generate a new token for each application you connect to Zammad!
