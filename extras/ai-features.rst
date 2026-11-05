@@ -5,7 +5,9 @@ Introduction
 ------------
 
 Zammad offers AI-powered features to help you manage support tickets more
-efficiently.
+efficiently. To work on your tickets from an AI application you already use,
+such as a chat application or a coding tool, see :doc:`MCP Server
+</extras/mcp-server>`.
 
 .. note:: The AI features have to be configured and activated by your
    administrator. If you can't see these features, they are not configured. More
