@@ -76,22 +76,23 @@ tools from the server.
 - Create tickets and write messages.
 
 Messages, notes and drafts can be written as plain text or as HTML, Zammad
-removes unsafe markup from the latter. Where a ticket requires time
-accounting, the client records the time you name. Without it, Zammad refuses
-the message from the client, so the client has to ask you first. In Zammad
-itself you can still skip the accounting.
+removes unsafe markup from the latter. Where a ticket asks for time accounting,
+the client asks you for the time and records it. You can also tell it that you
+account no time, and Zammad then records the message without accounted time.
 
 Approval of Outgoing Messages
 -----------------------------
 
-Where the client supports it, Zammad asks you to approve a message before it
+Where the client can show it, Zammad asks you to approve a message before it
 reaches a customer. The approval request shows the complete text of the
-message, the recipients and the visibility, and Zammad sends nothing without
-your approval.
+message, the recipients and the visibility, and Zammad sends only after you
+accept.
 
 If you decline, Zammad sends nothing and changes nothing on the ticket. The
-same happens where a client does not show the approval form, for example
-because it does not support it: Zammad tells the client that nothing was
-changed, and the client can then offer to save the text as the ticket's shared
-draft, where the group allows shared drafts, for you to send it from Zammad
-itself.
+client can then offer to save the text as the ticket's shared draft, where the
+group allows shared drafts, for you to send it from Zammad itself.
+
+A client that cannot show the approval form relies on its own approval of the
+tool call, as it does for every change, and Zammad does not ask a second time.
+Zammad still wants your yes for two changes: replacing a shared draft that is
+already saved and closing a ticket whose checklist is incomplete.
