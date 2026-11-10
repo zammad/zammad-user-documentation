@@ -13,8 +13,8 @@ Whether the server accepts connections is a decision of your admin, see the
 Connect an AI Client
 --------------------
 
-Connecting takes a personal access token and two entries in your client: the
-address of the server and the token itself.
+Connecting takes a personal access token and the address of the server in your
+client.
 
 Create a Personal Access Token
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -29,19 +29,20 @@ shows you when the token is created.
 Add Zammad to Your Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add Zammad to the client as an MCP server with:
+Add Zammad to the client as an MCP server. Any client that speaks the MCP
+transport *Streamable HTTP* works, and its configuration asks for the same
+three entries:
 
-- the server address, ``https://<fqdn>/mcp``, where ``<fqdn>`` is the domain
-  you open Zammad with
+Server address
+   ``https://<fqdn>/mcp``, where ``<fqdn>`` is the domain you open Zammad
+   with.
 
-- the token, sent as an HTTP header with every request:
-  ``Authorization: Bearer <token>``
+Transport
+   Streamable HTTP.
 
-For the Claude Code client, the connection is one command:
-
-.. code-block:: console
-
-   $ claude mcp add --transport http zammad https://<fqdn>/mcp --header "Authorization: Bearer <token>"
+Token
+   ``Authorization: Bearer <token>``, sent as an HTTP header with every
+   request.
 
 Zammad answers only under the address it is configured for, the one you open
 Zammad with. If the connection fails, check that the client uses exactly that
