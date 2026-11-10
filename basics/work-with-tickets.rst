@@ -134,7 +134,6 @@ text. Just select another part of the text, click on the same response action
 as before and it gets added as another quote to your editor. You can split
 quotations by using :kbd:`enter` or :kbd:`shift` + :kbd:`enter` in the editor.
 
-
 .. _rename-ticket:
 
 Rename a Ticket
@@ -265,6 +264,30 @@ To remove the highlighting, click on the button again with the selected text.
    :alt: Ticket highlighter
    :width: 70%
    :align: center
+
+Unprocessable Email Tickets
+---------------------------
+
+Zammad turns incoming email into tickets. When an email could not be processed
+at all, the ticket does not show the email as an article. Instead, a warning
+above the conversation states that the ticket was created because the email
+could not be processed. Two buttons let you look at what arrived:
+
+- ``Download raw email``: the email as the sender sent it.
+- ``Download processing log``: the technical details Zammad logged when
+  processing failed.
+
+The ticket may show no customer at all or a customer without an email address,
+because Zammad could not read a usable sender address. What you do next depends
+on what the raw email reveals:
+
+- **Broken sender address**: the raw email shows who wrote. Correct the missing
+  address via **Edit customer**, or use **Change customer** to pick the customer
+  you want to answer.
+- **No sender at all**: the ticket has no customer. Look up who wrote in the raw
+  email and use **Change customer** to pick them.
+- **Nothing readable**: check the processing log, close the ticket and hand the
+  raw email and the processing log to your administrator.
 
 -----
 
