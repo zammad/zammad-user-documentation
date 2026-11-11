@@ -55,6 +55,7 @@ domain you open Zammad with and ``{your token}`` with the token you copied:
    {
      "mcpServers": {
        "zammad": {
+         "type": "http",
          "url": "https://zammad.example.com/mcp",
          "headers": {
            "Authorization": "Bearer {your token}"
