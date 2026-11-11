@@ -63,6 +63,11 @@ domain you open Zammad with and ``{your token}`` with the token you copied:
      }
    }
 
+.. warning::
+   The token works like your password. Do not put it in a configuration file
+   that others can read or that ends up in a repository. Keep the file private,
+   or use the reference to a stored secret where your client supports one.
+
 Other clients ask for the same three entries in their own form. Once the
 connection works, a first request such as "Show my assigned tickets" shows
 whether the client reaches Zammad.
