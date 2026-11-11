@@ -268,7 +268,7 @@ To remove the highlighting, click on the button again with the selected text.
 Unprocessable Email Tickets
 ---------------------------
 
-Zammad turns incoming email into tickets. When an email could not be processed
+Zammad turns incoming emails into tickets. When an email could not be processed
 at all, the ticket does not show the email as an article. Instead, a warning
 above the conversation states that the ticket was created because the email
 could not be processed. Two buttons let you look at what arrived:
