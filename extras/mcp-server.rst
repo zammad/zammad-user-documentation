@@ -8,7 +8,8 @@ every installation, you do not install or run anything in addition.
 
 Whether the server accepts connections is a decision of your admin, see the
 :admin-docs:`API settings </system/api.html>`. If a connection to
-``https://<fqdn>/mcp`` fails, ask your admin whether the server is enabled.
+``https://zammad.example.com/mcp`` fails, ask your admin whether the server is
+enabled.
 
 Connect an AI Client
 --------------------
@@ -35,28 +36,28 @@ header with every request. Supporting the transport alone is not enough. Such a
 client asks for the same three entries:
 
 Server address
-   ``https://<fqdn>/mcp``, where ``<fqdn>`` is the domain you open Zammad
-   with.
+   The domain you open Zammad with, with ``/mcp`` after it:
+   ``https://zammad.example.com/mcp``.
 
 Transport
    Streamable HTTP.
 
 Token
-   ``Authorization: Bearer <token>``, sent as an HTTP header with every
+   ``Authorization: Bearer {your token}``, sent as an HTTP header with every
    request.
 
 Clients that read a JSON configuration, as many do, take Zammad as a server
-with the address and the header. Replace ``<fqdn>`` with the domain you open
-Zammad with and ``<token>`` with the token you copied:
+with the address and the header. Replace ``zammad.example.com`` with the
+domain you open Zammad with and ``{your token}`` with the token you copied:
 
 .. code-block:: json
 
    {
      "mcpServers": {
        "zammad": {
-         "url": "https://<fqdn>/mcp",
+         "url": "https://zammad.example.com/mcp",
          "headers": {
-           "Authorization": "Bearer <token>"
+           "Authorization": "Bearer {your token}"
          }
        }
      }
