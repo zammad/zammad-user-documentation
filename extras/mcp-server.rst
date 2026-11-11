@@ -29,9 +29,10 @@ shows you when the token is created.
 Add Zammad to Your Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Add Zammad to the client as an MCP server. Any client that speaks the MCP
-transport *Streamable HTTP* works, and its configuration asks for the same
-three entries:
+Add Zammad to the client as an MCP server. The client needs the MCP transport
+*Streamable HTTP* and the ability to send a fixed ``Authorization: Bearer``
+header with every request. Supporting the transport alone is not enough. Such a
+client asks for the same three entries:
 
 Server address
    ``https://<fqdn>/mcp``, where ``<fqdn>`` is the domain you open Zammad
@@ -44,6 +45,27 @@ Token
    ``Authorization: Bearer <token>``, sent as an HTTP header with every
    request.
 
+Clients that read a JSON configuration, as many do, take Zammad as a server
+with the address and the header. Replace ``<fqdn>`` with the domain you open
+Zammad with and ``<token>`` with the token you copied:
+
+.. code-block:: json
+
+   {
+     "mcpServers": {
+       "zammad": {
+         "url": "https://<fqdn>/mcp",
+         "headers": {
+           "Authorization": "Bearer <token>"
+         }
+       }
+     }
+   }
+
+Other clients ask for the same three entries in their own form. Once the
+connection works, a first request such as "Show my assigned tickets" shows
+whether the client reaches Zammad.
+
 Zammad answers only under the address it is configured for, the one you open
 Zammad with. If the connection fails, check that the client uses exactly that
 address.
@@ -54,7 +76,8 @@ What the Client Can Do
 The connected client works with your permissions: it can do exactly what the
 token and your account may do, nothing more, and it records its changes as
 made by you. A user without agent permissions, such as a customer, gets no
-tools from the server.
+tools from the server. The complete list of the tools, with the access of each
+and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`.
 
 - Open a ticket by its number, its ID or a pasted link, and read its messages,
   internal notes, attachments, history and shared draft.
@@ -70,16 +93,23 @@ tools from the server.
 
 - Search users, organizations and the knowledge base.
 
+- Read the text of files attached to a message: text files up to 10 MB, other
+  files come back as a link to download them.
+
 - Change ticket attributes, set tags and add internal notes.
 
 - Save and send shared drafts, and link tickets and knowledge base answers.
 
 - Create tickets and write messages.
 
-Messages, notes and drafts can be written as plain text or as HTML, Zammad
-removes unsafe markup from the latter. Where a ticket asks for time accounting,
-the client asks you for the time and records it. You can also tell it that you
-account no time, and Zammad then records the message without accounted time.
+Messages, notes and drafts can be written as plain text or as HTML. Zammad
+removes unsafe markup from the latter. SMS, Telegram, WhatsApp and Facebook
+accept plain text only, HTML is refused there. Files cannot be sent through the
+client: if you want to send one, add it to the message in Zammad itself.
+
+Where a ticket asks for time accounting, the client asks you for the time and
+records it. You can also tell it that you account no time, and Zammad then
+records the message without accounted time.
 
 Approval of Outgoing Messages
 -----------------------------
@@ -96,4 +126,6 @@ group allows shared drafts, for you to send it from Zammad itself.
 A client that cannot show the approval form relies on its own approval of the
 tool call, as it does for every change, and Zammad does not ask a second time.
 Zammad still wants your yes for two changes: replacing a shared draft that is
-already saved and closing a ticket whose checklist is incomplete.
+already saved and closing a ticket whose checklist is incomplete. Keep the
+approval of tool calls enabled in your client, because a client that runs them
+without a prompt sends a message without any further question.

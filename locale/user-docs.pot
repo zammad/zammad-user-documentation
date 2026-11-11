@@ -4637,95 +4637,111 @@ msgid "Add Zammad to Your Client"
 msgstr ""
 
 #: ../extras/mcp-server.rst:32
-msgid "Add Zammad to the client as an MCP server. Any client that speaks the MCP transport *Streamable HTTP* works, and its configuration asks for the same three entries:"
+msgid "Add Zammad to the client as an MCP server. The client needs the MCP transport *Streamable HTTP* and the ability to send a fixed ``Authorization: Bearer`` header with every request. Supporting the transport alone is not enough. Such a client asks for the same three entries:"
 msgstr ""
 
-#: ../extras/mcp-server.rst:38
+#: ../extras/mcp-server.rst:39
 msgid "Server address"
 msgstr ""
 
-#: ../extras/mcp-server.rst:37
+#: ../extras/mcp-server.rst:38
 msgid "``https://<fqdn>/mcp``, where ``<fqdn>`` is the domain you open Zammad with."
 msgstr ""
 
-#: ../extras/mcp-server.rst:41
+#: ../extras/mcp-server.rst:42
 msgid "Transport"
 msgstr ""
 
-#: ../extras/mcp-server.rst:41
+#: ../extras/mcp-server.rst:42
 msgid "Streamable HTTP."
 msgstr ""
 
-#: ../extras/mcp-server.rst:45
+#: ../extras/mcp-server.rst:46
 msgid "Token"
 msgstr ""
 
-#: ../extras/mcp-server.rst:44
+#: ../extras/mcp-server.rst:45
 msgid "``Authorization: Bearer <token>``, sent as an HTTP header with every request."
 msgstr ""
 
-#: ../extras/mcp-server.rst:47
+#: ../extras/mcp-server.rst:48
+msgid "Clients that read a JSON configuration, as many do, take Zammad as a server with the address and the header. Replace ``<fqdn>`` with the domain you open Zammad with and ``<token>`` with the token you copied:"
+msgstr ""
+
+#: ../extras/mcp-server.rst:65
+msgid "Other clients ask for the same three entries in their own form. Once the connection works, a first request such as \"Show my assigned tickets\" shows whether the client reaches Zammad."
+msgstr ""
+
+#: ../extras/mcp-server.rst:69
 msgid "Zammad answers only under the address it is configured for, the one you open Zammad with. If the connection fails, check that the client uses exactly that address."
 msgstr ""
 
-#: ../extras/mcp-server.rst:52
+#: ../extras/mcp-server.rst:74
 msgid "What the Client Can Do"
 msgstr ""
 
-#: ../extras/mcp-server.rst:54
-msgid "The connected client works with your permissions: it can do exactly what the token and your account may do, nothing more, and it records its changes as made by you. A user without agent permissions, such as a customer, gets no tools from the server."
+#: ../extras/mcp-server.rst:76
+msgid "The connected client works with your permissions: it can do exactly what the token and your account may do, nothing more, and it records its changes as made by you. A user without agent permissions, such as a customer, gets no tools from the server. The complete list of the tools, with the access of each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
 
-#: ../extras/mcp-server.rst:59
+#: ../extras/mcp-server.rst:82
 msgid "Open a ticket by its number, its ID or a pasted link, and read its messages, internal notes, attachments, history and shared draft."
 msgstr ""
 
-#: ../extras/mcp-server.rst:62
+#: ../extras/mcp-server.rst:85
 msgid "Read a ticket's customer and organization."
 msgstr ""
 
-#: ../extras/mcp-server.rst:64
+#: ../extras/mcp-server.rst:87
 msgid "Find tickets by words and by names, such as the customer, organization, state, owner, group or priority of a ticket."
 msgstr ""
 
-#: ../extras/mcp-server.rst:67
+#: ../extras/mcp-server.rst:90
 msgid "List your own overviews and their tickets, and sort the lists, for example by creation or last update, so that the client can start at the oldest ticket."
 msgstr ""
 
-#: ../extras/mcp-server.rst:71
+#: ../extras/mcp-server.rst:94
 msgid "Search users, organizations and the knowledge base."
 msgstr ""
 
-#: ../extras/mcp-server.rst:73
+#: ../extras/mcp-server.rst:96
+msgid "Read the text of files attached to a message: text files up to 10 MB, other files come back as a link to download them."
+msgstr ""
+
+#: ../extras/mcp-server.rst:99
 msgid "Change ticket attributes, set tags and add internal notes."
 msgstr ""
 
-#: ../extras/mcp-server.rst:75
+#: ../extras/mcp-server.rst:101
 msgid "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
 
-#: ../extras/mcp-server.rst:77
+#: ../extras/mcp-server.rst:103
 msgid "Create tickets and write messages."
 msgstr ""
 
-#: ../extras/mcp-server.rst:79
-msgid "Messages, notes and drafts can be written as plain text or as HTML, Zammad removes unsafe markup from the latter. Where a ticket asks for time accounting, the client asks you for the time and records it. You can also tell it that you account no time, and Zammad then records the message without accounted time."
+#: ../extras/mcp-server.rst:105
+msgid "Messages, notes and drafts can be written as plain text or as HTML. Zammad removes unsafe markup from the latter. SMS, Telegram, WhatsApp and Facebook accept plain text only, HTML is refused there. Files cannot be sent through the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
 
-#: ../extras/mcp-server.rst:85
+#: ../extras/mcp-server.rst:110
+msgid "Where a ticket asks for time accounting, the client asks you for the time and records it. You can also tell it that you account no time, and Zammad then records the message without accounted time."
+msgstr ""
+
+#: ../extras/mcp-server.rst:115
 msgid "Approval of Outgoing Messages"
 msgstr ""
 
-#: ../extras/mcp-server.rst:87
+#: ../extras/mcp-server.rst:117
 msgid "Where the client can show it, Zammad asks you to approve a message before it reaches a customer. The approval request shows the complete text of the message, the recipients and the visibility, and Zammad sends only after you accept."
 msgstr ""
 
-#: ../extras/mcp-server.rst:92
+#: ../extras/mcp-server.rst:122
 msgid "If you decline, Zammad sends nothing and changes nothing on the ticket. The client can then offer to save the text as the ticket's shared draft, where the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
 
-#: ../extras/mcp-server.rst:96
-msgid "A client that cannot show the approval form relies on its own approval of the tool call, as it does for every change, and Zammad does not ask a second time. Zammad still wants your yes for two changes: replacing a shared draft that is already saved and closing a ticket whose checklist is incomplete."
+#: ../extras/mcp-server.rst:126
+msgid "A client that cannot show the approval form relies on its own approval of the tool call, as it does for every change, and Zammad does not ask a second time. Zammad still wants your yes for two changes: replacing a shared draft that is already saved and closing a ticket whose checklist is incomplete. Keep the approval of tool calls enabled in your client, because a client that runs them without a prompt sends a message without any further question."
 msgstr ""
 
 #: ../extras/mobile-view.rst:2
