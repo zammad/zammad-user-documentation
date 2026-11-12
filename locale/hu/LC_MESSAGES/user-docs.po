@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-29 11:16+0000\n"
-"Last-Translator: Background update <noreply-weblate-update@weblate.org>\n"
+"PO-Revision-Date: 2026-11-12 11:12+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -2884,12 +2884,6 @@ msgstr ""
 "lehetőségek a jogosultságaitól és a rendszer beállításaitól függenek."
 
 #: ../basics/ticket-basics.rst:55
-#, fuzzy
-#| msgid ""
-#| "It is even possible to create custom fields for tickets (for groups and "
-#| "users too). You think such a custom field makes sense? Talk with your "
-#| "Zammad admin, it can be set up easily (:admin-docs:`admins can read more "
-#| "here </system/object/types.html>`)."
 msgid ""
 "It is even possible to create custom fields for tickets (for groups and "
 "users too). You think such a custom field makes sense? Talk with your Zammad "
@@ -2900,7 +2894,7 @@ msgstr ""
 "felhasználókhoz is). Úgy gondolja, hogy egy ilyen egyéni mezőnek lenne "
 "értelme? Beszéljen a Zammad adminisztrátorával, ez egyszerűen beállítható "
 "(:admin-docs:`az adminisztrátorok itt olvashatnak erről többet </system/"
-"object/types.html>`)."
+"objects/types.html>`)."
 
 #: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:680
 msgid "State"
@@ -7162,12 +7156,6 @@ msgid "i-doit: Track Company Property"
 msgstr "i-doit: vállalati vagyontárgyak nyomon követése"
 
 #: ../extras/i-doit-track-company-property.rst:4
-#, fuzzy
-#| msgid ""
-#| "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list "
-#| "which pieces of your company's property are related to any given ticket. "
-#| "That includes both physical and digital infrastructure, from servers to "
-#| "meeting rooms to virtual machines to software licenses."
 msgid ""
 "With the `i-doit <https://www.i-doit.com/>`_ integration, you can list which "
 "pieces of your company's property are related to any given ticket. That "
@@ -7180,17 +7168,11 @@ msgstr ""
 "vállalata vagyontárgyainak mely elemei kapcsolódnak egy adott jegyhez. Ez "
 "magában foglalja mind a fizikai, mind a digitális infrastruktúrát, a "
 "kiszolgálóktól kezdve a tárgyalótermeken át a virtuális gépekig és a "
-"szoftverlicencekig."
+"szoftverlicencekig. Segíthet nyomon követni a problémás eszközöket, és "
+"megtalálni a korábbi jegyeket azzal kapcsolatban, hogy mikor okozott "
+"utoljára problémákat egy adott tárgy."
 
 #: ../extras/i-doit-track-company-property.rst:11
-#, fuzzy
-#| msgid ""
-#| "This feature is optional. If you don't see it in the ticket view, that "
-#| "means your administrator hasn't enabled it yet. Administrators can learn "
-#| "more in the :admin-docs:`i-doit integration in the admin documentation </"
-#| "system/integrations/i-doit.html>`. If your company is using i-doit, ask "
-#| "your administrator / IT personnel to give you a tour. If your "
-#| "organization isn't already using i-doit, this guide is not for you."
 msgid ""
 "This feature is optional. If you don't see it in the ticket view, that means "
 "your administrator hasn't enabled it yet. Zammad's ticket sidebar and the "
@@ -7202,12 +7184,15 @@ msgid ""
 "already using i-doit, this guide is not for you."
 msgstr ""
 "Ez a funkció választható. Ha nem látja a jegy nézetén, akkor az azt jelenti, "
-"hogy az adminisztrátor még nem engedélyezte. Az adminisztrátorok többet "
-"tudhatnak meg az adminisztrátori dokumentációban lévő :admin-docs:`i-doit-"
-"integráció </system/integrations/i-doit.html>` szakaszban. Ha a vállalata "
-"használja az i-doit rendszert, akkor kérje meg az adminisztrátort vagy az "
-"informatikai szakembereket, hogy tartsanak egy bemutatót. Ha a szervezete "
-"még nem használja az i-doit rendszert, akkor ez az útmutató nem Önnek szól."
+"hogy az adminisztrátor még nem engedélyezte. A Zammad jegyoldalsávja és az i-"
+"doit rendszerben lévő jegylista külön van beállítva, ezért előfordulhat, "
+"hogy az adminisztrátor csak az egyiket engedélyezi a másik nélkül. Az "
+"adminisztrátorok többet tudhatnak meg az adminisztrátori dokumentációban "
+"lévő :admin-docs:`i-doit-integráció </system/integrations/i-doit.html>` "
+"szakaszban. Ha a vállalata használja az i-doit rendszert, akkor kérje meg az "
+"adminisztrátort vagy az informatikai szakembereket, hogy tartsanak egy "
+"bemutatót. Ha a szervezete még nem használja az i-doit rendszert, akkor ez "
+"az útmutató nem Önnek szól."
 
 #: ../extras/i-doit-track-company-property.rst:25
 msgid "(Screenshot) The i-doit integration menu in the ticket view"
@@ -7218,12 +7203,12 @@ msgid ""
 "The **i-doit** panel in the ticket sidebar lists the objects linked to a "
 "ticket."
 msgstr ""
+"A jegy oldalsávján lévő **i-doit** panel felsorolja a jegyhez kapcsolt "
+"objektumokat."
 
 #: ../extras/i-doit-track-company-property.rst:29
-#, fuzzy
-#| msgid "In Zammad: Link i-doit Assets To Tickets"
 msgid "Link i-doit Objects to Tickets in Zammad"
-msgstr "A Zammadban: i-doit eszközök hozzákapcsolása a jegyekhez"
+msgstr "Az i-doit-objektumok hozzákapcsolása a Zammadban lévő jegyekhez"
 
 #: ../extras/i-doit-track-company-property.rst:31
 msgid ""
@@ -7232,16 +7217,21 @@ msgid ""
 "and name. The search matches object names only and returns at most 10 "
 "results, so pick a type to narrow it down."
 msgstr ""
+"Először adjon hozzá i-doit-objektumokat egy jegyhez a jegy oldalsávján. A "
+"nyomtató lapon válassza az **i-doit** panelen lévő **Objektumok "
+"megváltoztatása** lehetőséget, majd szűrjön típus és név szerint. A keresés "
+"csak az objektumnevekre vonatkozik, és legfeljebb 10 találatot ad vissza, "
+"ezért válasszon ki egy típust a találatok szűkítéséhez."
 
 #: ../extras/i-doit-track-company-property.rst:40
-#, fuzzy
-#| msgid "(Screenshot) The i-doit integration menu in the ticket view"
 msgid "(Screenshot) The i-doit object picker with type filter and search field"
-msgstr "(Képernyőkép) Az i-doit-integráció menüje a jegy nézetében"
+msgstr "(Képernyőkép) Az i-doit objektumválasztó típusszűrővel és keresőmezővel"
 
 #: ../extras/i-doit-track-company-property.rst:40
 msgid "Select the objects to link, then use the ``Submit`` button."
 msgstr ""
+"Válassza ki az összekapcsolandó objektumokat, majd használja a ``Küldés`` "
+"gombot."
 
 #: ../extras/i-doit-track-company-property.rst:42
 msgid ""
@@ -7252,13 +7242,17 @@ msgid ""
 "entry, which unlinks it from the ticket in Zammad and doesn't delete "
 "anything in i-doit."
 msgstr ""
+"Miután az objektumok hozzá lettek kapcsolva egy jegyhez, kattintson egy "
+"objektumra a jegy oldalsávján, hogy megnyissa az i-doit rendszerben lévő "
+"oldalát. Az oldalsáv mindig az i-doit rendszerből származó aktuális adatokat "
+"jeleníti meg: az átnevezett objektum az új neve alatt jelenik meg, és az ott "
+"törölt objektum eltűnik a listából. Használja a bejegyzés mellett lévő "
+"**Objektum kapcsolatának törlése** ikont, amely leválasztja a Zammadban lévő "
+"jegyről, de nem töröl semmit az i-doit rendszerben."
 
 #: ../extras/i-doit-track-company-property.rst:50
-#, fuzzy
-#| msgid "In i-doit: List & Create Tickets For a Given Asset"
 msgid "List & Create Tickets in i-doit"
-msgstr ""
-"Az i-doit-ban: egy adott eszközhöz tartozó jegyek felsorolása és létrehozása"
+msgstr "Jegyek felsorolása és létrehozása az i-doit rendszerben"
 
 #: ../extras/i-doit-track-company-property.rst:52
 msgid ""
@@ -7269,6 +7263,14 @@ msgid ""
 "from i-doit, with the object already linked. Use **Create ticket** in the "
 "**All Tickets** panel to start it."
 msgstr ""
+"Az i-doit rendszerben egy objektum oldalának tartalmaznia kell a "
+"hozzárendelt összes jegy listáját. Kattintson az objektum eszköztárán lévő "
+"**Összes jegy** gombra a jegyek felsorolásához, majd használja a jegysorban "
+"lévő **Megnyitás a jegykezelő rendszerben** hivatkozást, hogy megnyissa a "
+"jegyet a Zammadban. Akár a Zammad új jegy párbeszédablakát is elindíthatja "
+"közvetlenül az i-doit rendszerből úgy, hogy az objektum már hozzá van "
+"kapcsolva. Használja az **Összes jegy** panelen lévő **Jegy létrehozása** "
+"gombot az indításához."
 
 #: ../extras/includes/shared-drafts-overwriting-drafts-warning.include.rst:1
 msgid "**☠️ Overwriting drafts is final**"
@@ -8024,11 +8026,12 @@ msgstr "„Folytatás asztali gépen” hivatkozás a mobil nézetben"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
-msgstr "„Folytatás asztali gépen” hivatkozás a bejelentkezési képernyőn"
+msgstr "„Folytatás asztali nézeten” hivatkozás a bejelentkezési képernyőn"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link in User Account Overview"
-msgstr "„Folytatás asztali gépen” hivatkozás a felhasználói fiók áttekintésében"
+msgstr ""
+"„Folytatás asztali nézeten” hivatkozás a felhasználói fiók áttekintésében"
 
 #: ../extras/mobile-view.rst:170
 msgid "User Account Overview"
@@ -8040,11 +8043,12 @@ msgstr "„Folytatás mobilon” hivatkozás az asztali nézetben"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
-msgstr "„Folytatás mobilon” hivatkozás az asztali bejelentkezési képernyőn"
+msgstr ""
+"„Folytatás mobil nézeten” hivatkozás az asztali bejelentkezési képernyőn"
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop User Menu"
-msgstr "„Folytatás mobilon” hivatkozás az asztali felhasználói menüben"
+msgstr "„Folytatás mobil nézeten” hivatkozás az asztali felhasználói menüben"
 
 #: ../extras/mobile-view.rst:191
 msgid "User Avatar Menu"
@@ -9480,7 +9484,7 @@ msgstr ""
 
 #: ../extras/user-menu-profile-settings.rst:33
 msgid "Continue to mobile"
-msgstr "Folytatás mobilon"
+msgstr "Folytatás mobil nézeten"
 
 #: ../extras/user-menu-profile-settings.rst:31
 msgid ""
@@ -9815,6 +9819,12 @@ msgid ""
 "{your token}``. Both formats work for the same token. The API documentation "
 "shows both variants."
 msgstr ""
+"Személyes hozzáférési tokenek előállítása harmadik féltől származó "
+"alkalmazások számára a Zammad API használatához. Küldjön egy tokent HTTP-"
+"fejlécként az API-hívásokkal, akár ``Authorization: Token token={az Ön "
+"tokenje}``, akár ``Authorization: Bearer {az Ön tokenje}`` formában. Mindkét "
+"formátum működik ugyanazon token esetében. Az API-dokumentáció mindkét "
+"változatot bemutatja."
 
 #: ../extras/user-menu-profile-settings.rst:200
 msgid ""
