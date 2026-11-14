@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-04 13:12+0000\n"
+"PO-Revision-Date: 2026-11-14 16:12+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -3516,7 +3516,7 @@ msgstr "Означавање тикета"
 
 #: ../basics/work-with-tickets.rst:269
 msgid "Unprocessable Email Tickets"
-msgstr ""
+msgstr "Тикети из имејлова који се не могу обрадити"
 
 #: ../basics/work-with-tickets.rst:271
 msgid ""
@@ -3525,16 +3525,22 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
+"Zammad претвара долазне имејлове у тикете. Када имејл уопште није могао да "
+"буде обрађен, тикет не приказује имејл као чланак. Уместо тога, упозорење "
+"изнад преписке наводи да је тикет креиран зато што имејл није могао да буде "
+"обрађен. Два дугмета вам омогућавају да погледате шта је стигло:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
-msgstr ""
+msgstr "``Преузми изворни имејл``: имејл онако како га је пошиљалац послао."
 
 #: ../basics/work-with-tickets.rst:277
 msgid ""
 "``Download processing log``: the technical details Zammad logged when "
 "processing failed."
 msgstr ""
+"``Преузми дневник обраде``: технички детаљи које је Zammad забележио када "
+"обрада није успела."
 
 #: ../basics/work-with-tickets.rst:280
 msgid ""
@@ -3542,6 +3548,9 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
+"Тикет можда уопште нема клијента или има клијента без имејл адресе, јер "
+"Zammad није могао да прочита употребљиву адресу пошиљаоца. Шта даље радите "
+"зависи од тога шта открива изворни имејл:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3549,18 +3558,26 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
+"**Неисправна адреса пошиљаоца**: изворни имејл показује ко је писао. Унесите "
+"адресу која недостаје преко **Измени клијента** (уређивање података "
+"клијента) или одаберите клијента коме желите да одговорите преко **Измени "
+"клијента** (замена клијента тикета)."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
+"**Нема пошиљаоца**: тикет нема клијента. У изворном имејлу пронађите ко је "
+"писао и одаберите га преко **Измени клијента** (замена клијента тикета)."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
+"**Ништа није читљиво**: проверите дневник обраде, затворите тикет и "
+"проследите изворни имејл и дневник обраде свом администратору."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -5721,6 +5738,10 @@ msgid ""
 "such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
 "mcp-server>`."
 msgstr ""
+"Zammad нуди AI функције које вам помажу да ефикасније управљате тикетима "
+"подршке. Да бисте радили на својим тикетима из AI апликације коју већ "
+"користите, као што је апликација за ћаскање или алат за програмирање, "
+"погледајте :doc:`MCP сервер </extras/mcp-server>`."
 
 #: ../extras/ai-features.rst:12
 msgid ""
@@ -7598,7 +7619,7 @@ msgstr ""
 
 #: ../extras/mcp-server.rst:2
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP сервер"
 
 #: ../extras/mcp-server.rst:4
 msgid ""
@@ -7607,6 +7628,11 @@ msgid ""
 "tool, and read, find and update your tickets from there. The server is part "
 "of every installation, you do not install or run anything in addition."
 msgstr ""
+"Zammad има сопствени сервер за *Model Context Protocol* (MCP). Повежите са "
+"њим AI клијент који већ користите, на пример апликацију за ћаскање или алат "
+"за програмирање, и одатле читајте, проналазите и освежавајте своје тикете. "
+"Сервер је део сваке инсталације, не морате ништа додатно да инсталирате нити "
+"да покрећете."
 
 #: ../extras/mcp-server.rst:9
 msgid ""
@@ -7615,20 +7641,25 @@ msgid ""
 "``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
 "is enabled."
 msgstr ""
+"Да ли сервер прихвата везе одлучује ваш администратор, погледајте :admin-"
+"docs:`API подешавања </system/api.html>`. Ако повезивање са ``https://"
+"zammad.example.com/mcp`` не успе, питајте администратора да ли је сервер "
+"укључен."
 
 #: ../extras/mcp-server.rst:15
 msgid "Connect an AI Client"
-msgstr ""
+msgstr "Повезивање AI клијента"
 
 #: ../extras/mcp-server.rst:17
 msgid ""
 "Connecting takes a personal access token and the address of the server in "
 "your client."
 msgstr ""
+"За повезивање у AI клијент уносите лични приступни кључ и адресу сервера."
 
 #: ../extras/mcp-server.rst:21
 msgid "Create a Personal Access Token"
-msgstr ""
+msgstr "Додавање личног приступног кључа"
 
 #: ../extras/mcp-server.rst:23
 msgid ""
@@ -7639,10 +7670,16 @@ msgid ""
 "can give the token an expiration date. Copy the token that Zammad shows you "
 "when the token is created."
 msgstr ""
+"AI клијент се повезује помоћу личног приступног кључа вашег налога. Отворите "
+"свој профил (*Аватар > Профил > Приступ путем кључа*, погледајте :doc:`Лична "
+"подешавања </extras/user-menu-profile-settings>`) и додајте кључ са дозволом "
+"``ticket.agent``, како би AI клијент могао да ради са тикетима. Кључу можете "
+"доделити датум истека. Ископирајте кључ који вам Zammad прикаже након што га "
+"додате."
 
 #: ../extras/mcp-server.rst:31
 msgid "Add Zammad to Your Client"
-msgstr ""
+msgstr "Додавање Zammad-а у AI клијент"
 
 #: ../extras/mcp-server.rst:33
 msgid ""
@@ -7651,34 +7688,42 @@ msgid ""
 "Bearer`` header with every request. Supporting the transport alone is not "
 "enough. Such a client asks for the same three entries:"
 msgstr ""
+"Додајте Zammad у AI клијент као MCP сервер. AI клијент мора да подржава MCP "
+"транспорт *Streamable HTTP* и да може да шаље фиксно заглавље "
+"``Authorization: Bearer`` уз сваки захтев. Сама подршка за транспорт није "
+"довољна. Сваки такав клијент тражи иста три податка:"
 
 #: ../extras/mcp-server.rst:40
 msgid "Server address"
-msgstr ""
+msgstr "Адреса сервера"
 
 #: ../extras/mcp-server.rst:39
 msgid ""
 "The domain you open Zammad with, with ``/mcp`` after it: ``https://"
 "zammad.example.com/mcp``."
 msgstr ""
+"Домен преко ког отварате Zammad, са ``/mcp`` на крају: ``https://"
+"zammad.example.com/mcp``."
 
 #: ../extras/mcp-server.rst:43
 msgid "Transport"
-msgstr ""
+msgstr "Транспорт"
 
 #: ../extras/mcp-server.rst:43
 msgid "Streamable HTTP."
-msgstr ""
+msgstr "Streamable HTTP."
 
 #: ../extras/mcp-server.rst:47
 msgid "Token"
-msgstr ""
+msgstr "Кључ"
 
 #: ../extras/mcp-server.rst:46
 msgid ""
 "``Authorization: Bearer {your token}``, sent as an HTTP header with every "
 "request."
 msgstr ""
+"``Authorization: Bearer {your token}``, шаље се као HTTP заглавље уз сваки "
+"захтев."
 
 #: ../extras/mcp-server.rst:49
 msgid ""
@@ -7686,6 +7731,10 @@ msgid ""
 "with the address and the header. Replace ``zammad.example.com`` with the "
 "domain you open Zammad with and ``{your token}`` with the token you copied:"
 msgstr ""
+"AI клијенти који читају подешавања из JSON датотеке, а таквих је много, "
+"наводе Zammad као сервер са адресом и заглављем. Замените "
+"``zammad.example.com`` доменом преко ког отварате Zammad, а ``{your token}`` "
+"кључем који сте ископирали:"
 
 #: ../extras/mcp-server.rst:68
 msgid ""
@@ -7693,6 +7742,10 @@ msgid ""
 "that others can read or that ends up in a repository. Keep the file private, "
 "or use the reference to a stored secret where your client supports one."
 msgstr ""
+"Кључ функционише као ваша лозинка. Не стављајте га у датотеку подешавања "
+"коју други могу да прочитају или која заврши у репозиторијуму. Држите "
+"датотеку приватном или користите референцу на сачувану тајну тамо где ваш AI "
+"клијент то подржава."
 
 #: ../extras/mcp-server.rst:72
 msgid ""
@@ -7700,6 +7753,9 @@ msgid ""
 "connection works, a first request such as \"Show my assigned tickets\" shows "
 "whether the client reaches Zammad."
 msgstr ""
+"Други AI клијенти траже иста три податка у сопственом облику. Када веза "
+"проради, први захтев као што је „Прикажи моје додељене тикете” показује да "
+"ли AI клијент успоставља везу са Zammad-ом."
 
 #: ../extras/mcp-server.rst:76
 msgid ""
@@ -7707,10 +7763,13 @@ msgid ""
 "Zammad with. If the connection fails, check that the client uses exactly "
 "that address."
 msgstr ""
+"Zammad одговара само на адреси за коју је подешен, оној преко које отварате "
+"Zammad. Ако повезивање не успе, проверите да ли AI клијент користи тачно ту "
+"адресу."
 
 #: ../extras/mcp-server.rst:81
 msgid "What the Client Can Do"
-msgstr ""
+msgstr "Могућности AI клијента"
 
 #: ../extras/mcp-server.rst:83
 msgid ""
@@ -7720,25 +7779,31 @@ msgid ""
 "tools from the server. The complete list of the tools, with the access of "
 "each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
+"Повезани AI клијент ради са вашим дозволама: може да ради тачно оно што "
+"смеју кључ и ваш налог, ништа више, а своје измене бележи на ваше име. "
+"Корисник без оператерских дозвола, као што је клијент, не добија алатке од "
+"сервера. Комплетан списак алатки, са приступом и ограничењима сваке од њих, "
+"налази се у :docs:`референци MCP алатки </api/mcp.html>`."
 
 #: ../extras/mcp-server.rst:89
 msgid ""
 "Open a ticket by its number, its ID or a pasted link, and read its messages, "
 "internal notes, attachments, history and shared draft."
 msgstr ""
+"Отварање тикета по броју, ID или налепљеној вези, и читање његових порука, "
+"интерних напомена, прилога, историјата и заједничког нацрта."
 
 #: ../extras/mcp-server.rst:92
-#, fuzzy
-#| msgid "You can find tabs for your opened tickets, users and organizations."
 msgid "Read a ticket's customer and organization."
-msgstr ""
-"Овде можете пронаћи прозоре ваших отворених тикета, корисника и организација."
+msgstr "Читање клијента и организације тикета."
 
 #: ../extras/mcp-server.rst:94
 msgid ""
 "Find tickets by words and by names, such as the customer, organization, "
 "state, owner, group or priority of a ticket."
 msgstr ""
+"Проналажење тикета по речима и називима, као што су клијент, организација, "
+"стање, власник, група или приоритет тикета."
 
 #: ../extras/mcp-server.rst:97
 msgid ""
@@ -7746,29 +7811,35 @@ msgid ""
 "by creation or last update, so that the client can start at the oldest "
 "ticket."
 msgstr ""
+"Излиставање ваших сопствених прегледа и њихових тикета, и сортирање листа, "
+"на пример по времену креирања или последњег освежавања, како би AI клијент "
+"могао да почне од најстаријег тикета."
 
 #: ../extras/mcp-server.rst:101
 msgid "Search users, organizations and the knowledge base."
-msgstr ""
+msgstr "Претраживање корисника, организација и базе знања."
 
 #: ../extras/mcp-server.rst:103
 msgid ""
 "Read the text of files attached to a message: text files up to 10 MB, other "
 "files come back as a link to download them."
 msgstr ""
+"Читање текста датотека приложених уз поруку: текстуалне датотеке до 10 MB, а "
+"остале датотеке се враћају као веза за преузимање."
 
 #: ../extras/mcp-server.rst:106
 msgid "Change ticket attributes, set tags and add internal notes."
-msgstr ""
+msgstr "Измена атрибута тикета, постављање ознака и додавање интерних напомена."
 
 #: ../extras/mcp-server.rst:108
 msgid ""
 "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
+"Чување и слање заједничких нацрта, и повезивање тикета и одговора базе знања."
 
 #: ../extras/mcp-server.rst:110
 msgid "Create tickets and write messages."
-msgstr ""
+msgstr "Креирање тикета и писање порука."
 
 #: ../extras/mcp-server.rst:112
 msgid ""
@@ -7777,6 +7848,11 @@ msgid ""
 "accept plain text only, HTML is refused there. Files cannot be sent through "
 "the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
+"Поруке, напомене и нацрти могу бити написани као обичан текст или као HTML. "
+"Zammad из HTML-а уклања небезбедне елементе. SMS, Telegram, WhatsApp и "
+"Facebook прихватају само обичан текст, HTML се тамо одбија. Датотеке се не "
+"могу слати преко AI клијента: ако желите да пошаљете датотеку, додајте је "
+"поруци у самом Zammad-у."
 
 #: ../extras/mcp-server.rst:117
 msgid ""
@@ -7784,10 +7860,13 @@ msgid ""
 "and records it. You can also tell it that you account no time, and Zammad "
 "then records the message without accounted time."
 msgstr ""
+"Тамо где тикет захтева обрачун времена, AI клијент од вас тражи време и "
+"бележи га. Можете му рећи и да не обрачунавате време, и Zammad ће тада "
+"сачувати поруку без обрачунатог времена."
 
 #: ../extras/mcp-server.rst:122
 msgid "Approval of Outgoing Messages"
-msgstr ""
+msgstr "Одобравање одлазних порука"
 
 #: ../extras/mcp-server.rst:124
 msgid ""
@@ -7796,6 +7875,10 @@ msgid ""
 "message, the recipients and the visibility, and Zammad sends only after you "
 "accept."
 msgstr ""
+"Тамо где AI клијент то може да прикаже, Zammad од вас тражи да одобрите "
+"поруку пре него што она стигне до клијента. Захтев за одобрење приказује "
+"комплетан текст поруке, примаоце и видљивост, а Zammad шаље поруку тек када "
+"је прихватите."
 
 #: ../extras/mcp-server.rst:129
 msgid ""
@@ -7803,6 +7886,9 @@ msgid ""
 "client can then offer to save the text as the ticket's shared draft, where "
 "the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
+"Ако одбијете, Zammad ништа не шаље и ништа не мења на тикету. AI клијент "
+"тада може да понуди да сачува текст као заједнички нацрт тикета, тамо где "
+"група дозвољава заједничке нацрте, како бисте га послали из самог Zammad-а."
 
 #: ../extras/mcp-server.rst:133
 msgid ""
@@ -7813,6 +7899,13 @@ msgid ""
 "Keep the approval of tool calls enabled in your client, because a client "
 "that runs them without a prompt sends a message without any further question."
 msgstr ""
+"AI клијент који не може да прикаже образац за одобрење ослања се на "
+"сопствено одобрење позива алатке, као и за сваку другу измену, и Zammad не "
+"пита по други пут. Zammad ипак тражи ваше „да” за две измене: замену "
+"заједничког нацрта који је већ сачуван и затварање тикета чији списак "
+"задатака није комплетан. Оставите одобравање позива алатки укључено у свом "
+"AI клијенту, јер AI клијент који их извршава без потврде шаље поруку без "
+"икаквог даљег питања."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -9904,13 +9997,6 @@ msgid "Token Access"
 msgstr "Приступ путем кључа"
 
 #: ../extras/user-menu-profile-settings.rst:197
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third party applications to use the "
-#| "Zammad API. Send a token as HTTP header with your API calls, either as "
-#| "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
-#| "{your token}``. Both formats work for the same token. The API "
-#| "documentation shows both variants."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -9924,7 +10010,9 @@ msgstr ""
 "Zammad API. Пошаљите кључ као HTTP заглавље у сваком API захтеву, било као "
 "``Authorization: Token token={ваш кључ}`` или као ``Authorization: Bearer "
 "{ваш кључ}``. Оба формата раде за исти кључ. API документација приказује обе "
-"варијанте."
+"варијанте. Једна од апликација које на овај начин можете повезати је AI "
+"клијент, који ради са вашим тикетима преко :doc:`MCP сервера </extras/mcp-"
+"server>`."
 
 #: ../extras/user-menu-profile-settings.rst:206
 msgid ""
