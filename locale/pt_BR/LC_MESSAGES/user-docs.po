@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-04 13:12+0000\n"
+"PO-Revision-Date: 2026-11-14 16:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -3568,7 +3568,7 @@ msgstr "Marca-texto do ticket"
 
 #: ../basics/work-with-tickets.rst:269
 msgid "Unprocessable Email Tickets"
-msgstr ""
+msgstr "Tickets de email não processável"
 
 #: ../basics/work-with-tickets.rst:271
 msgid ""
@@ -3577,16 +3577,22 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
+"O Zammad transforma os emails recebidos em tickets. Quando um email não pôde "
+"ser processado de forma alguma, o ticket não mostra o email como artigo. Em "
+"vez disso, um aviso acima da conversa informa que o ticket foi criado porque "
+"o email não pôde ser processado. Dois botões permitem ver o que chegou:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
-msgstr ""
+msgstr "``Download raw email``: o email como o remetente o enviou."
 
 #: ../basics/work-with-tickets.rst:277
 msgid ""
 "``Download processing log``: the technical details Zammad logged when "
 "processing failed."
 msgstr ""
+"``Download processing log``: os detalhes técnicos que o Zammad registrou "
+"quando o processamento falhou."
 
 #: ../basics/work-with-tickets.rst:280
 msgid ""
@@ -3594,6 +3600,9 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
+"O ticket pode aparecer sem nenhum cliente ou com um cliente sem endereço de "
+"email, porque o Zammad não conseguiu ler um endereço de remetente "
+"utilizável. O que fazer em seguida depende do que o email original revela:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3601,18 +3610,25 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
+"**Endereço de remetente com problema**: o email original mostra quem "
+"escreveu. Corrija o endereço que falta via **Edit customer** ou use **Change "
+"customer** para escolher o cliente a quem você quer responder."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
+"**Nenhum remetente**: o ticket não tem cliente. Veja quem escreveu no email "
+"original e use **Change customer** para escolhê-lo."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
+"**Nada legível**: confira o log de processamento, feche o ticket e entregue "
+"o email original e o log de processamento ao seu administrador."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -5775,6 +5791,10 @@ msgid ""
 "such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
 "mcp-server>`."
 msgstr ""
+"O Zammad oferece recursos com IA para ajudar você a gerenciar tickets de "
+"suporte com mais eficiência. Para trabalhar nos seus tickets a partir de um "
+"aplicativo de IA que você já usa, como um aplicativo de chat ou uma "
+"ferramenta de programação, veja :doc:`Servidor MCP </extras/mcp-server>`."
 
 #: ../extras/ai-features.rst:12
 msgid ""
@@ -7681,7 +7701,7 @@ msgstr ""
 
 #: ../extras/mcp-server.rst:2
 msgid "MCP Server"
-msgstr ""
+msgstr "Servidor MCP"
 
 #: ../extras/mcp-server.rst:4
 msgid ""
@@ -7690,6 +7710,11 @@ msgid ""
 "tool, and read, find and update your tickets from there. The server is part "
 "of every installation, you do not install or run anything in addition."
 msgstr ""
+"O Zammad tem seu próprio servidor para o *Model Context Protocol* (MCP). "
+"Conecte a ele um cliente de IA que você já usa, por exemplo um aplicativo de "
+"chat ou uma ferramenta de programação, e leia, encontre e atualize seus "
+"tickets a partir dali. O servidor faz parte de toda instalação: você não "
+"instala nem executa nada além disso."
 
 #: ../extras/mcp-server.rst:9
 msgid ""
@@ -7698,20 +7723,26 @@ msgid ""
 "``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
 "is enabled."
 msgstr ""
+"Se o servidor aceita conexões é uma decisão do seu administrador; veja as "
+":admin-docs:`configurações de API </system/api.html>`. Se uma conexão com "
+"``https://zammad.example.com/mcp`` falhar, pergunte ao seu administrador se "
+"o servidor está ativado."
 
 #: ../extras/mcp-server.rst:15
 msgid "Connect an AI Client"
-msgstr ""
+msgstr "Conectar um cliente de IA"
 
 #: ../extras/mcp-server.rst:17
 msgid ""
 "Connecting takes a personal access token and the address of the server in "
 "your client."
 msgstr ""
+"A conexão exige um token de acesso pessoal e o endereço do servidor no seu "
+"cliente."
 
 #: ../extras/mcp-server.rst:21
 msgid "Create a Personal Access Token"
-msgstr ""
+msgstr "Criar um token de acesso pessoal"
 
 #: ../extras/mcp-server.rst:23
 msgid ""
@@ -7722,10 +7753,16 @@ msgid ""
 "can give the token an expiration date. Copy the token that Zammad shows you "
 "when the token is created."
 msgstr ""
+"O cliente se conecta com um token de acesso pessoal da sua conta. Abra seu "
+"perfil (*Avatar > Profile > Token Access*, veja :doc:`Configurações pessoais "
+"</extras/user-menu-profile-settings>`) e crie um token com a permissão "
+"``ticket.agent``, para que o cliente possa trabalhar com tickets. Você pode "
+"dar uma data de expiração ao token. Copie o token que o Zammad mostra quando "
+"o token é criado."
 
 #: ../extras/mcp-server.rst:31
 msgid "Add Zammad to Your Client"
-msgstr ""
+msgstr "Adicionar o Zammad ao seu cliente"
 
 #: ../extras/mcp-server.rst:33
 msgid ""
@@ -7734,34 +7771,42 @@ msgid ""
 "Bearer`` header with every request. Supporting the transport alone is not "
 "enough. Such a client asks for the same three entries:"
 msgstr ""
+"Adicione o Zammad ao cliente como servidor MCP. O cliente precisa do "
+"transporte MCP *Streamable HTTP* e da capacidade de enviar um cabeçalho fixo "
+"``Authorization: Bearer`` em toda requisição. Suportar só o transporte não "
+"basta. Um cliente assim pede as mesmas três informações:"
 
 #: ../extras/mcp-server.rst:40
 msgid "Server address"
-msgstr ""
+msgstr "Endereço do servidor"
 
 #: ../extras/mcp-server.rst:39
 msgid ""
 "The domain you open Zammad with, with ``/mcp`` after it: ``https://"
 "zammad.example.com/mcp``."
 msgstr ""
+"O domínio pelo qual você abre o Zammad, seguido de ``/mcp``: ``https://"
+"zammad.example.com/mcp``."
 
 #: ../extras/mcp-server.rst:43
 msgid "Transport"
-msgstr ""
+msgstr "Transporte"
 
 #: ../extras/mcp-server.rst:43
 msgid "Streamable HTTP."
-msgstr ""
+msgstr "Streamable HTTP."
 
 #: ../extras/mcp-server.rst:47
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ../extras/mcp-server.rst:46
 msgid ""
 "``Authorization: Bearer {your token}``, sent as an HTTP header with every "
 "request."
 msgstr ""
+"``Authorization: Bearer {your token}``, enviado como cabeçalho HTTP em toda "
+"requisição."
 
 #: ../extras/mcp-server.rst:49
 msgid ""
@@ -7769,6 +7814,10 @@ msgid ""
 "with the address and the header. Replace ``zammad.example.com`` with the "
 "domain you open Zammad with and ``{your token}`` with the token you copied:"
 msgstr ""
+"Clientes que leem uma configuração JSON, como muitos fazem, recebem o Zammad "
+"como servidor com o endereço e o cabeçalho. Substitua ``zammad.example.com`` "
+"pelo domínio com que você abre o Zammad e ``{your token}`` pelo token que "
+"você copiou:"
 
 #: ../extras/mcp-server.rst:68
 msgid ""
@@ -7776,6 +7825,10 @@ msgid ""
 "that others can read or that ends up in a repository. Keep the file private, "
 "or use the reference to a stored secret where your client supports one."
 msgstr ""
+"O token funciona como a sua senha. Não o coloque em um arquivo de "
+"configuração que outras pessoas possam ler ou que acabe em um repositório. "
+"Mantenha o arquivo privado, ou use a referência a um segredo armazenado, se "
+"o seu cliente oferecer suporte."
 
 #: ../extras/mcp-server.rst:72
 msgid ""
@@ -7783,6 +7836,9 @@ msgid ""
 "connection works, a first request such as \"Show my assigned tickets\" shows "
 "whether the client reaches Zammad."
 msgstr ""
+"Outros clientes pedem as mesmas três informações em seu próprio formato. "
+"Quando a conexão funcionar, um primeiro pedido como \"Mostre meus tickets "
+"atribuídos\" mostra se o cliente alcança o Zammad."
 
 #: ../extras/mcp-server.rst:76
 msgid ""
@@ -7790,10 +7846,13 @@ msgid ""
 "Zammad with. If the connection fails, check that the client uses exactly "
 "that address."
 msgstr ""
+"O Zammad só responde no endereço para o qual está configurado, aquele com "
+"que você abre o Zammad. Se a conexão falhar, confira se o cliente usa "
+"exatamente esse endereço."
 
 #: ../extras/mcp-server.rst:81
 msgid "What the Client Can Do"
-msgstr ""
+msgstr "O que o cliente pode fazer"
 
 #: ../extras/mcp-server.rst:83
 msgid ""
@@ -7803,24 +7862,32 @@ msgid ""
 "tools from the server. The complete list of the tools, with the access of "
 "each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
+"O cliente conectado trabalha com as suas permissões: ele pode fazer "
+"exatamente o que o token e a sua conta podem fazer, nada além disso, e "
+"registra as alterações dele como feitas por você. Um usuário sem permissão "
+"de agente, como um cliente, não recebe nenhuma ferramenta do servidor. A "
+"lista completa das ferramentas, com o acesso e os limites de cada uma, está "
+"na :docs:`referência de ferramentas MCP </api/mcp.html>`."
 
 #: ../extras/mcp-server.rst:89
 msgid ""
 "Open a ticket by its number, its ID or a pasted link, and read its messages, "
 "internal notes, attachments, history and shared draft."
 msgstr ""
+"Abrir um ticket pelo número, pelo ID ou por um link colado, e ler as "
+"mensagens, notas internas, anexos, histórico e rascunho compartilhado dele."
 
 #: ../extras/mcp-server.rst:92
-#, fuzzy
-#| msgid "You can find tabs for your opened tickets, users and organizations."
 msgid "Read a ticket's customer and organization."
-msgstr "Você encontra abas dos seus tickets, usuários e organizações abertos."
+msgstr "Ler o cliente e a organização de um ticket."
 
 #: ../extras/mcp-server.rst:94
 msgid ""
 "Find tickets by words and by names, such as the customer, organization, "
 "state, owner, group or priority of a ticket."
 msgstr ""
+"Encontrar tickets por palavras e por nomes, como o cliente, a organização, o "
+"estado, o responsável, o grupo ou a prioridade de um ticket."
 
 #: ../extras/mcp-server.rst:97
 msgid ""
@@ -7828,29 +7895,36 @@ msgid ""
 "by creation or last update, so that the client can start at the oldest "
 "ticket."
 msgstr ""
+"Listar suas próprias visões gerais e os tickets delas, e ordenar as listas, "
+"por exemplo por criação ou última atualização, para que o cliente possa "
+"começar pelo ticket mais antigo."
 
 #: ../extras/mcp-server.rst:101
 msgid "Search users, organizations and the knowledge base."
-msgstr ""
+msgstr "Pesquisar usuários, organizações e a base de conhecimento."
 
 #: ../extras/mcp-server.rst:103
 msgid ""
 "Read the text of files attached to a message: text files up to 10 MB, other "
 "files come back as a link to download them."
 msgstr ""
+"Ler o texto de arquivos anexados a uma mensagem: arquivos de texto de até 10 "
+"MB; os demais arquivos voltam como um link para download."
 
 #: ../extras/mcp-server.rst:106
 msgid "Change ticket attributes, set tags and add internal notes."
-msgstr ""
+msgstr "Alterar atributos de ticket, definir tags e adicionar notas internas."
 
 #: ../extras/mcp-server.rst:108
 msgid ""
 "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
+"Salvar e enviar rascunhos compartilhados, e vincular tickets e respostas da "
+"base de conhecimento."
 
 #: ../extras/mcp-server.rst:110
 msgid "Create tickets and write messages."
-msgstr ""
+msgstr "Criar tickets e escrever mensagens."
 
 #: ../extras/mcp-server.rst:112
 msgid ""
@@ -7859,6 +7933,11 @@ msgid ""
 "accept plain text only, HTML is refused there. Files cannot be sent through "
 "the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
+"Mensagens, notas e rascunhos podem ser escritos em texto simples ou em HTML. "
+"O Zammad remove do HTML a marcação insegura. SMS, Telegram, WhatsApp e "
+"Facebook aceitam apenas texto simples; HTML é recusado nesses canais. Não é "
+"possível enviar arquivos pelo cliente: se quiser enviar um, adicione-o à "
+"mensagem no próprio Zammad."
 
 #: ../extras/mcp-server.rst:117
 msgid ""
@@ -7866,10 +7945,13 @@ msgid ""
 "and records it. You can also tell it that you account no time, and Zammad "
 "then records the message without accounted time."
 msgstr ""
+"Quando um ticket pede contabilização de tempo, o cliente pergunta o tempo a "
+"você e o registra. Você também pode dizer que não vai contabilizar tempo, e "
+"o Zammad então registra a mensagem sem tempo contabilizado."
 
 #: ../extras/mcp-server.rst:122
 msgid "Approval of Outgoing Messages"
-msgstr ""
+msgstr "Aprovação de mensagens enviadas"
 
 #: ../extras/mcp-server.rst:124
 msgid ""
@@ -7878,6 +7960,10 @@ msgid ""
 "message, the recipients and the visibility, and Zammad sends only after you "
 "accept."
 msgstr ""
+"Quando o cliente consegue exibir, o Zammad pede que você aprove uma mensagem "
+"antes que ela chegue a um cliente. O pedido de aprovação mostra o texto "
+"completo da mensagem, os destinatários e a visibilidade, e o Zammad só envia "
+"depois que você aceita."
 
 #: ../extras/mcp-server.rst:129
 msgid ""
@@ -7885,6 +7971,10 @@ msgid ""
 "client can then offer to save the text as the ticket's shared draft, where "
 "the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
+"Se você recusar, o Zammad não envia nada e não altera nada no ticket. O "
+"cliente pode então oferecer salvar o texto como rascunho compartilhado do "
+"ticket, onde o grupo permitir rascunhos compartilhados, para que você o "
+"envie pelo próprio Zammad."
 
 #: ../extras/mcp-server.rst:133
 msgid ""
@@ -7895,6 +7985,13 @@ msgid ""
 "Keep the approval of tool calls enabled in your client, because a client "
 "that runs them without a prompt sends a message without any further question."
 msgstr ""
+"Um cliente que não consegue exibir o formulário de aprovação depende da sua "
+"própria aprovação da chamada de ferramenta, como faz para toda alteração, e "
+"o Zammad não pergunta uma segunda vez. O Zammad ainda quer o seu \"sim\" "
+"para duas alterações: substituir um rascunho compartilhado já salvo e fechar "
+"um ticket cujo checklist está incompleto. Mantenha ativada no seu cliente a "
+"aprovação de chamadas de ferramenta, porque um cliente que as executa sem "
+"perguntar envia uma mensagem sem nenhuma confirmação adicional."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -9994,13 +10091,6 @@ msgid "Token Access"
 msgstr "Token Access"
 
 #: ../extras/user-menu-profile-settings.rst:197
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third party applications to use the "
-#| "Zammad API. Send a token as HTTP header with your API calls, either as "
-#| "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
-#| "{your token}``. Both formats work for the same token. The API "
-#| "documentation shows both variants."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -10014,7 +10104,9 @@ msgstr ""
 "do Zammad. Envie o token como cabeçalho HTTP nas suas chamadas à API, seja "
 "como ``Authorization: Token token={your token}`` ou como ``Authorization: "
 "Bearer {your token}``. Os dois formatos funcionam para o mesmo token. A "
-"documentação da API mostra as duas variantes."
+"documentação da API mostra as duas variantes. Um aplicativo que você conecta "
+"dessa forma é um cliente de IA, que trabalha nos seus tickets pelo "
+":doc:`servidor MCP </extras/mcp-server>`."
 
 #: ../extras/user-menu-profile-settings.rst:206
 msgid ""
