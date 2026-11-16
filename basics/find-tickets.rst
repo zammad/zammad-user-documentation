@@ -9,8 +9,7 @@ Via Overviews
 -------------
 
 If you search for new tickets to work on, your first look should be in the
-overview section. This section gives you a rough overview. More details are
-covered in a separate overview page.
+overview section. This section gives you a rough overview.
 
 You can either open it by clicking the ``Overviews`` button
 in the navigation bar or use the keyboard shortcut :kbd:`o`. You can think of
@@ -62,6 +61,25 @@ priorities:
    :alt: Overview showing 3 tickets with different priorities
    :width: 60%
    :align: center
+
+Hover over the title or the ticket number of a ticket in an overview to see
+its details without opening it. A click on the title or on the ticket number
+opens the ticket as usual.
+
+Besides the title, the number and a button that copies the number, the popover
+shows the following if available:
+
+- A **Checked** badge with the number of completed and total checklist items.
+  It opens the checklist of the ticket.
+- A **Customer sentiment** badge with the customer mood detected by AI. It
+  opens the AI summary of the ticket.
+- The customer intent from the AI summary.
+- The first and the latest article, each with a short preview of its text. If
+  the AI summary contains a customer intent, only the latest article is shown.
+
+The badges and the AI text require the matching feature. The checklist badge
+appears only while the ticket has an open checklist, the AI parts only if the
+AI summary feature is enabled and a summary already exists for the ticket.
 
 .. _search-tickets:
 
