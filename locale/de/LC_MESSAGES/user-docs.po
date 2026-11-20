@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-13 11:57+0000\n"
+"PO-Revision-Date: 2026-11-19 10:12+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/de/>\n"
@@ -2539,15 +2539,13 @@ msgstr "Per Übersichten"
 #: ../basics/find-tickets.rst:11
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
 "Wenn Sie nach neuen Tickets suchen, an denen Sie arbeiten möchten, sollten "
-"Sie zuerst in den Übersichten schauen. Diese Seite hier umfasst nur eine "
-"grobe Übersicht. Weitere Details sind auf einer separaten Seite zu "
-"Übersichten zu finden."
+"Sie zuerst in den Übersichten schauen. Diese Seite gibt Ihnen eine erste "
+"Übersicht darüber."
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2562,19 +2560,19 @@ msgstr ""
 "Übersicht namens **Nicht zugewiesene & offene Tickets**, die ein guter "
 "Ausgangspunkt sein könnte."
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 "Meine zugewiesenen Tickets: offene Tickets, bei denen Sie als Besitzer "
 "hinterlegt sind."
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 "Nicht zugewiesene & offene Tickets: offene Tickets, für die noch kein "
 "Besitzer gesetzt wurde."
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
@@ -2582,11 +2580,11 @@ msgstr ""
 "Meine \"Warten erreicht\" Tickets: Tickets, deren Besitzer Sie sind, die "
 "einen *Warten auf* Status haben und deren gesetzte Zeit erreicht ist."
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr "Offene Tickets: Offene Tickets."
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
@@ -2594,7 +2592,7 @@ msgstr ""
 "\"Warten erreicht\" Tickets: Tickets, die einen *Warten auf* Status haben "
 "und bei denen die gesetzte Zeit erreicht ist."
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
@@ -2602,7 +2600,7 @@ msgstr ""
 "Eskalierte Tickets: Tickets, die eskaliert sind oder in den nächsten 10 "
 "Minuten eskalieren werden."
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
@@ -2612,29 +2610,29 @@ msgstr ""
 "erstellt. Diese basieren auf Bedingungen/Regeln, um zu definieren, welches "
 "Ticket in welcher Übersicht erscheint."
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr "Beispiel von Übersichten"
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr "Klicken Sie auf ``Übersichten`` im Hauptmenü, um Tickets durchzusehen."
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr "Sie können die Übersichten in einigen Punkten anpassen:"
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr "Klicken Sie auf einen Spaltennamen, um die Sortierung zu ändern."
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 "Klicken Sie auf eine Spaltentrennlinie und ziehen Sie sie, um die Breite der "
 "Spalte anzupassen."
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
@@ -2642,14 +2640,14 @@ msgstr ""
 "Passen Sie die Reihenfolge der Übersichten in Ihrem :doc:`Benutzerprofil </"
 "extras/user-menu-profile-settings>` an."
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 "Der Handlungsbedarf ist farblich gekennzeichnet und spiegelt hauptsächlich "
 "den Status des Tickets wider:"
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
@@ -2657,7 +2655,7 @@ msgstr ""
 "Wenn Sie einen Kreis mit einem blau/pinken Farbverlauf sehen, bedeutet dies, "
 "dass ein :doc:`KI-Agent </extras/ai-features>` gerade an dem Ticket arbeitet."
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2669,11 +2667,70 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "Übersicht die 3 Tickets mit verschiedenen Prioritäten zeigt"
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+"Bewegen Sie den Mauszeiger über den Titel oder die Ticketnummer eines "
+"Tickets in einer Übersicht, um dessen Details anzuzeigen, ohne es zu öffnen. "
+"Ein Klick auf den Titel oder die Ticketnummer öffnet das Ticket wie gewohnt."
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+"Neben dem Titel, der Nummer und einer Schaltfläche zum Kopieren der Nummer "
+"werden im Kontextfenster, sofern vorhanden, folgende Informationen angezeigt:"
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+"Ein **Haken** Symbol mit der Anzahl der abgeschlossenen und gesamten "
+"Checklisten-Elemente. Es öffnet die Checkliste des Tickets."
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+"Ein **Stimmung des Kunden**-Symbol mit der von KI erkannten Kundenstimmung. "
+"Es öffnet die KI-Zusammenfassung des Tickets."
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr "Das Anliegen des Kunden aus der KI-Zusammenfassung."
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+"Der erste und der letzte Artikel, jeder mit einer kurzen Vorschau seines "
+"Textes. Wenn die KI-Zusammenfassung ein Kundenanliegen enthält, wird nur der "
+"letzte Artikel angezeigt."
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+"Die Symbole und der KI-Text erfordern die passende Funktion. Das Checklisten-"
+"Symbol erscheint nur, wenn das Ticket eine offene Checkliste hat, die KI-"
+"Komponenten nur, wenn die KI-Zusammenfassung aktiviert ist und eine "
+"Zusammenfassung für das Ticket bereits existiert."
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr "Per Suche"
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2691,7 +2748,7 @@ msgstr ""
 "Der Screenshot zeigt die Zammad-Suche mit Suchergebnissen in der Navigations-"
 "Seitenleiste."
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
@@ -2702,27 +2759,27 @@ msgstr ""
 "allen Informationen, die in Zammad gespeichert sind und von Elasticsearch "
 "indiziert wurden, wie z.B.:"
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr "Betreff und Text der Nachricht"
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr "Namen und E-Mail-Adressen"
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr "Text in Dateianhängen"
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr "Benutzer- und Organisationsdetails (wie Notizen, Namen, etc.)"
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr "Knowledge Base Artikel"
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2735,7 +2792,7 @@ msgstr ""
 "auswählen, wird ein neuer Tab mit dem entsprechenden Element geöffnet (falls "
 "nicht bereits geöffnet)."
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2747,7 +2804,7 @@ msgstr ""
 msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
 msgstr "Der Screenshot zeigt die Suchdetailseite mit aktiviertem Ticket-Tab."
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2769,7 +2826,7 @@ msgstr ""
 "Erstellungsdatum oder der E-Mail-Adresse des Besitzers des Tickets suchen "
 "können."
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
@@ -3669,12 +3726,11 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
-"Zammad wandelt eingehende E-Mails in Tickets um. Wenn eine E-Mail überhaupt "
-"nicht verarbeitet werden konnte, wird die E-Mail im Ticket nicht als Artikel "
-"angezeigt. Stattdessen weist ein Warnhinweis oberhalb der Konversation "
-"darauf hin, dass das Ticket erstellt wurde, weil die E-Mail nicht "
-"verarbeitet werden konnte. Über zwei Schaltflächen können Sie einsehen, was "
-"eingegangen ist:"
+"Zammad wandelt eingehende E-Mails in Tickets um. Konnte eine E-Mail gar "
+"nicht verarbeitet werden, zeigt das Ticket die E-Mail nicht als Artikel an. "
+"Stattdessen weist ein Hinweis oberhalb der Konversation darauf hin, dass das "
+"Ticket erstellt wurde, weil die E-Mail nicht verarbeitet werden konnte. Zwei "
+"Schaltflächen zeigen Ihnen, was angekommen ist:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
@@ -3696,10 +3752,9 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
-"Möglicherweise wird in dem Ticket gar kein Kunde oder ein Kunde ohne E-Mail-"
-"Adresse angezeigt, da Zammad keine brauchbare Absenderadresse auslesen "
-"konnte. Wie Sie nun vorgehen, hängt davon ab, was aus dem E-Mail-Rohformat "
-"hervorgeht:"
+"Das Ticket zeigt unter Umständen gar keinen Kunden oder einen Kunden ohne E-"
+"Mail-Adresse an, weil Zammad keine brauchbare Absenderadresse lesen konnte. "
+"Wie Sie weiter vorgehen, hängt davon ab, was die Roh-E-Mail zeigt:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3707,28 +3762,27 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
-"**Fehlerhafte Absenderadresse**: Im Rohformat der E-Mail ist ersichtlich, "
-"wer den Text verfasst hat. Korrigieren Sie die fehlende Adresse über "
-"**Kunden bearbeiten** oder verwenden Sie **Kunden ändern**, um den Kunden "
-"auszuwählen, dem Sie antworten möchten."
+"**Defekte Absenderadresse**: die Roh-E-Mail zeigt, wer geschrieben hat. "
+"Ergänzen Sie die fehlende Adresse über **Kunden bearbeiten**, oder wählen "
+"Sie mit **Kunden ändern** den Kunden aus, dem Sie antworten möchten."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
-"**Kein Absender angegeben**: Das Ticket hat keinen Kunden. Ermitteln Sie, "
-"wer die E-Mail verfasst hat, und verwenden Sie **Kunden ändern**, um die "
-"entsprechende Person auszuwählen."
+"**Gar kein Absender**: das Ticket hat keinen Kunden. Suchen Sie in der Roh-E-"
+"Mail, wer geschrieben hat, und wählen Sie diese Person mit **Kunden ändern** "
+"aus."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
-"**Nichts Lesbares**: Überprüfen Sie das Verarbeitungsprotokoll, schließen "
-"Sie das Ticket und leiten Sie die Rohformat-E-Mail sowie das "
-"Verarbeitungsprotokoll an Ihren Administrator weiter."
+"**Nichts lesbar**: prüfen Sie das Verarbeitungsprotokoll, schließen Sie das "
+"Ticket und übergeben Sie die Roh-E-Mail sowie das Verarbeitungsprotokoll an "
+"Ihren Administrator."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -7972,9 +8026,9 @@ msgid ""
 "when the token is created."
 msgstr ""
 "Der Client stellt eine Verbindung mit einem persönlichen Zugangs-Token Ihres "
-"Kontos her. Öffnen Sie Ihr Profil (*Avatar > Profil > Token-Zugriff*, siehe "
-":doc:`Persönliche Einstellungen </extras/user-menu-profile-settings>`) und "
-"erstellen Sie ein Token mit der Berechtigung ``ticket.agent``, damit der "
+"Kontos her. Öffnen Sie Ihr Profil (*Avatar > Profil > Token-Zugriff*, "
+"siehe :doc:`Persönliche Einstellungen </extras/user-menu-profile-settings>`) "
+"und erstellen Sie ein Token mit der Berechtigung ``ticket.agent``, damit der "
 "Client mit Tickets arbeiten kann. Sie können dem Token ein Ablaufdatum "
 "zuweisen. Kopieren Sie das Token, das Zammad Ihnen bei der Erstellung "
 "anzeigt."

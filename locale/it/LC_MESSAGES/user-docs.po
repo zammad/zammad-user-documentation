@@ -2513,16 +2513,20 @@ msgid "Via Overviews"
 msgstr "Tramite Panoramiche"
 
 #: ../basics/find-tickets.rst:11
+#, fuzzy
+#| msgid ""
+#| "If you search for new tickets to work on, your first look should be in "
+#| "the overview section. This section gives you a rough overview. More "
+#| "details are covered in a separate overview page."
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
 "Se cerchi nuovi ticket su cui lavorare, il tuo primo sguardo dovrebbe essere "
 "nella sezione panoramiche. Questa sezione ti dà una panoramica generale. Più "
 "dettagli sono trattati in una pagina di panoramica separata."
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2537,18 +2541,18 @@ msgstr ""
 "una panoramica chiamata **Ticket non assegnati e aperti** che potrebbe "
 "essere un buon punto di partenza."
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 "Miei Ticket Assegnati: ticket aperti in cui sei impostato come proprietario."
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 "Ticket Non Assegnati e Aperti: ticket aperti che non hanno un proprietario "
 "impostato."
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
@@ -2557,11 +2561,11 @@ msgstr ""
 "stato *promemoria in attesa* e il tempo del promemoria in attesa è stato "
 "raggiunto."
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr "Ticket Aperti: ticket aperti."
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
@@ -2569,7 +2573,7 @@ msgstr ""
 "Ticket In Attesa Raggiunti: ticket che hanno lo stato *promemoria in attesa* "
 "e il tempo del promemoria in attesa è stato raggiunto."
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
@@ -2577,7 +2581,7 @@ msgstr ""
 "Ticket Escalati: ticket che sono scaltati o scalleranno nei prossimi 10 "
 "minuti."
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
@@ -2587,31 +2591,31 @@ msgstr ""
 "Queste sono basate su condizioni, che sono fondamentalmente regole, per "
 "definire quale ticket appare in quale panoramica."
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr "Visualizzazione d'esempio delle Panoramiche"
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr ""
 "Fai clic su ``Panoramiche`` nel menu principale per visualizzare i ticket."
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr "Puoi regolare le panoramiche in alcuni aspetti:"
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr ""
 "Fai clic sull'intestazione di una colonna per modificarne l'ordinamento."
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 "Fai clic e trascina i divisori di colonna per regolare la larghezza della "
 "colonna."
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
@@ -2619,14 +2623,14 @@ msgstr ""
 "Regola l'ordine delle panoramiche nel tuo :doc:`profilo utente </extras/user-"
 "menu-profile-settings>`."
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 "La necessità di azione è codificata a colori e riflette principalmente gli "
 "stati dei ticket:"
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
@@ -2634,7 +2638,7 @@ msgstr ""
 "Se noti un cerchio con una sfumatura blu/rosa, indica che un :doc:`agente AI "
 "</extras/ai-features>` sta attualmente lavorando sul ticket."
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2646,11 +2650,54 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "Panoramica che mostra 3 ticket con diverse priorità"
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr ""
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr "Tramite ricerca"
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2668,7 +2715,7 @@ msgstr ""
 "Screenshot che mostra la ricerca Zammad con i risultati di ricerca nella "
 "barra laterale di navigazione."
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
@@ -2679,27 +2726,27 @@ msgstr ""
 "informazioni che sono memorizzate in Zammad e che sono state indicizzate da "
 "Elasticsearch, come:"
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr "Oggetto e testo del messaggio"
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr "Nomi e indirizzi email"
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr "Testo negli allegati di file"
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr "Dettagli di utenti e organizzazioni (come note, nomi, etc.)"
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr "Articoli della knowledge base"
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2712,7 +2759,7 @@ msgstr ""
 "risultati si aprirà una nuova scheda di navigazione (se non già aperta) con "
 "l'elemento."
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2726,7 +2773,7 @@ msgstr ""
 "Screenshot che mostra la pagina dei dettagli di ricerca con la scheda "
 "\"Ticket\" attivata."
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2747,7 +2794,7 @@ msgstr ""
 "puoi imparare come cercare attributi specifici come la data di creazione o "
 "l'indirizzo email del proprietario del ticket."
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
