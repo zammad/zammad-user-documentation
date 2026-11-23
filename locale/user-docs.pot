@@ -3698,30 +3698,30 @@ msgid "Knowledge Base Answer Suggestion"
 msgstr ""
 
 #: ../extras/ai-features.rst:136
-msgid "This feature compares the ticket content against the knowledge base and shows relevant answers under **Suggested knowledge** if they meet the admin-configured score threshold. Each suggestion shows the title of the answer and more details on hover. An additional relevance score is only shown to users with the corresponding admin permissions. Click on the title to open the answer in the knowledge base. Click the ``+`` on the right side to link it to the ticket."
+msgid "This feature compares the ticket content against the knowledge base and shows relevant answers under **Suggested** if they meet the admin-configured score threshold. Each suggestion shows the title of the answer and more details on hover. An additional relevance score is only shown to users with the corresponding admin permissions. Click on the title to open the answer in the knowledge base. Click the ``+`` on the right side to link it to the ticket. Linked answers are listed above under **Linked**."
 msgstr ""
 
-#: ../extras/ai-features.rst:143
+#: ../extras/ai-features.rst:144
 msgid "If no suggestions are available, the message \"No suggestions.\" is displayed instead."
 msgstr ""
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:150
 msgid "AI Agents"
 msgstr ""
 
-#: ../extras/ai-features.rst:151
+#: ../extras/ai-features.rst:152
 msgid "AI agents can be configured to work on certain types of routine tasks. In general, this feature operates behind the scenes, but if configured, you may notice it in some situations (see examples below). If your admin has created a macro with an AI agent action, you can even run it manually. Ask your admin for details and have a look at the :doc:`macro page </advanced/macros>` to see how to use it."
 msgstr ""
 
-#: ../extras/ai-features.rst:166
+#: ../extras/ai-features.rst:167
 msgid "Ticket history"
 msgstr ""
 
-#: ../extras/ai-features.rst:159
+#: ../extras/ai-features.rst:160
 msgid "If an AI agent applied changes, you can see a ticket history entry telling you the name of the AI agent. If you notice ongoing issues with what the AI agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:163
+#: ../extras/ai-features.rst:164
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -3729,15 +3729,15 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:177
+#: ../extras/ai-features.rst:178
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:169
+#: ../extras/ai-features.rst:170
 msgid "AI agents which are currently working on a ticket are displayed like other agents in the live user section in the bottom bar. This helps to avoid duplicate work and prevent losing unsaved changes. If you see an AI agent avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:174
+#: ../extras/ai-features.rst:175
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -3745,11 +3745,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:183
+#: ../extras/ai-features.rst:184
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:180
+#: ../extras/ai-features.rst:181
 msgid "A running AI agent is indicated in the status column in overviews. The status circle changes to a blue/pink gradient circle:"
 msgstr ""
 

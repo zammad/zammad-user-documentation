@@ -134,11 +134,12 @@ Knowledge Base Answer Suggestion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This feature compares the ticket content against the knowledge base and shows
-relevant answers under **Suggested knowledge** if they meet the admin-configured
-score threshold. Each suggestion shows the title of the answer and more details
-on hover. An additional relevance score is only shown to users with the
+relevant answers under **Suggested** if they meet the admin-configured score
+threshold. Each suggestion shows the title of the answer and more details on
+hover. An additional relevance score is only shown to users with the
 corresponding admin permissions. Click on the title to open the answer in the
-knowledge base. Click the ``+`` on the right side to link it to the ticket. 
+knowledge base. Click the ``+`` on the right side to link it to the ticket.
+Linked answers are listed above under **Linked**.
 
 If no suggestions are available, the message "No suggestions." is displayed
 instead.
