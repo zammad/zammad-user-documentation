@@ -64,8 +64,8 @@ The state reflects the current status of a ticket (mainly if a customer
 request is resolved or not). Think of it as a representation of progress towards
 completion. By default, there are the following states:
 
-- **New**: State for new tickets on which no one has worked on. When updating a
-  ticket the first time, it automatically switches to open.
+- **New**: State for new tickets on which no one has worked on. It switches
+  to open automatically as soon as an agent sends the first public reply.
 - **Open**: State for tickets which aren't resolved yet and some work needs to be
   done.
 - **Pending Close**: State for tickets which are basically resolved but you don't
