@@ -1065,12 +1065,12 @@ msgid "Within overviews and detailed searches you can run bulk operations on tic
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:90
-#: ../basics/ticket-basics.rst:133
+#: ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:91
-#: ../basics/ticket-basics.rst:143
+#: ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:514
 msgid "Owner"
 msgstr ""
@@ -1080,7 +1080,7 @@ msgid "State (with pending time, if applicable)"
 msgstr ""
 
 #: ../advanced/suggested-workflows.rst:93
-#: ../basics/ticket-basics.rst:88
+#: ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:551
 msgid "Priority"
 msgstr ""
@@ -1973,64 +1973,64 @@ msgid "The state reflects the current status of a ticket (mainly if a customer r
 msgstr ""
 
 #: ../basics/ticket-basics.rst:67
-msgid "**New**: State for new tickets on which no one has worked on. When updating a ticket the first time, it automatically switches to open."
-msgstr ""
-
-#: ../basics/ticket-basics.rst:69
-msgid "**Open**: State for tickets which aren't resolved yet and some work needs to be done."
+msgid "**New**: State for new tickets on which an agent has not sent a public reply yet. Adding an internal note or changing other ticket attributes does not change the state. The ticket switches to open automatically as soon as an agent sends the first public reply."
 msgstr ""
 
 #: ../basics/ticket-basics.rst:71
+msgid "**Open**: State for tickets which aren't resolved yet and some work needs to be done."
+msgstr ""
+
+#: ../basics/ticket-basics.rst:73
 msgid "**Pending Close**: State for tickets which are basically resolved but you don't want to close immediately. This state requires you to enter a date and time at which the ticket automatically switches to closed."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid "**Pending Reminder**: State for open tickets which you want to get reminded to a certain date and time. Requires you to enter a date and time at which you want to get notified. For example useful if you had a question to a third party and want to make sure that this issue won't be forgotten."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid "**Merged**: State for a ticket which was merged into another ticket. Check the :doc:`linked tickets </advanced/ticket-actions/link>` or the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid "Zammad's states are color coded. This helps you to understanding the state of the ticket much faster in general - without having a look into details."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or important it is. The three default priorities are:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid "In case these priorities aren't enough, ask your Zammad admin to create additional ones. Admins can find more information :admin-docs:`here </system/objects.html#ticket-priority>`. The default priorities allow you to immediately recognize the importance of your tickets because they are color coded:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid "You might wonder what such a ticket priority is for. Out of the box, it doesn't actually do anything except the highlighting. However, Zammad administrators can set up all sorts of automation and analytics based on the priority."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid "Be aware that customers can't set a priority for their own tickets. Otherwise some might set their tickets always to high and hope for an immediate escalation."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:117
+#: ../basics/ticket-basics.rst:119
 #: ../basics/zammad-glossary.rst:706
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid "Tags are custom labels that can be attached to tickets to make it easier to find them in the future. You find the tag section under the attribute fields."
 msgstr ""
 
@@ -2038,23 +2038,23 @@ msgstr ""
 msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's configuration, you can create new tags by simply type and confirm them with :kbd:`enter` or :kbd:`tab`. In any case, you can choose from already available tags. Start typing and you see a list with matching suggestions. To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid "This ticket attribute is useful for organizations with more than one team. A common way to use groups is to have one for each department of the company. Depending on the permissions, you might not see the ticket after changing the group and saving the changes. In case you can't see the group field, either there is only one group in your Zammad system or you don't have the permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid "This is the person who is currently responsible for the ticket. In case you need information from another colleague, you can either change the owner to this person or mention the person in an article by typing :kbd:`@` :kbd:`@` and selecting the user. In the latter case, the user gets notified and is automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid "To change the owner to a person which has only access to another group's tickets, you first have to switch the group accordingly."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid "Now that you know the basics, check how to :doc:`create <create-tickets>` or :doc:`work with <work-with-tickets>` tickets."
 msgstr ""
 
