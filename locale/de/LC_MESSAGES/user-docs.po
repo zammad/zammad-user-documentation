@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-24 07:07+0000\n"
+"PO-Revision-Date: 2026-11-24 07:35+0000\n"
 "Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
@@ -7088,11 +7088,6 @@ msgstr ""
 "Requests können nicht verknüpft werden."
 
 #: ../extras/github-gitlab-integration.rst:11
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don't see it in the ticket view, "
-#| "that means your administrator hasn't enabled it yet. Administrators can "
-#| "learn more :admin-docs:`here </system/integrations/i-doit.html>`."
 msgid ""
 "The panels are optional. If you don't see them in the ticket sidebar, your "
 "administrator hasn't enabled the integration yet. Customers don't see the "
@@ -7100,20 +7095,20 @@ msgid ""
 "system/integrations/github.html>` and :admin-docs:`GitLab </system/"
 "integrations/gitlab.html>` integration pages."
 msgstr ""
-"Diese Funktion ist **optional**; wenn Sie sie nicht in der Ticketansicht "
-"sehen bedeutet das, dass Ihr Administrator sie noch nicht aktiviert hat. "
-"Administratoren können mehr darüber :admin-docs:`hier </system/integrations/"
-"i-doit.html>` erfahren."
+"Die Bereiche sind optional. Falls Sie diese nicht in der Ticket-Seitenleiste "
+"sehen, hat Ihr Administrator die Integration nicht aktiviert. Auch für "
+"Kunden sind die Links nicht sichtbar. Administratoren finden weitere "
+"Informationen auf den Integrationsseiten :admin-docs:`GitHub </system/"
+"integrations/github.html>` und :admin-docs:`GitLab </system/integrations/"
+"gitlab.html>` in der Admin-Dokumentation."
 
 #: ../extras/github-gitlab-integration.rst:None
 msgid "Sidebar with opened GitHub panel and linked issue."
-msgstr ""
+msgstr "Seitenleiste mit geöffnetem GitHub-Bereich und verknüpftem Issue."
 
 #: ../extras/github-gitlab-integration.rst:22
-#, fuzzy
-#| msgid "View related issues"
 msgid "View Linked Issues"
-msgstr "Ansehen relevanter Issues"
+msgstr "Verknüpfte Issues ansehen"
 
 #: ../extras/github-gitlab-integration.rst:24
 msgid ""
@@ -7128,12 +7123,22 @@ msgid ""
 "changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
 "your administrator to check the token."
 msgstr ""
+"Öffnen Sie den **GitHub** oder **GitLab** Seitenleisten-Tab eines Tickets, "
+"dem bereits Issues zugeordnet sind. Jeder Eintrag beginnt mit einem Symbol "
+"für den Status des Issues, gefolgt von der Issue-Nummer und dem Titel. "
+"Klicken Sie auf den Titel, um das Issue auf GitHub oder GitLab zu öffnen. "
+"Jeder Eintrag zeigt außerdem den **Meilenstein**, **Zugewiesen an** und die "
+"**Labels** an. GitHub-Issues zeigen zudem den **Typ** an. Ein Feld wird nur "
+"angezeigt, wenn das Issue über ein solches verfügt. Der Zähler auf dem Tab "
+"zählt alle verknüpften Issues, nicht nur die offenen. Zammad ruft den Status "
+"beim Laden des Bereichs ab und überwacht die Issues nicht; daher wird keine "
+"Benachrichtigung gesendet, wenn sich ein Issue ändert. Falls der Bereich "
+"anstelle von Issues ``Laden fehlgeschlagen.`` anzeigt, bitten Sie Ihren "
+"Administrator, das Token zu überprüfen."
 
 #: ../extras/github-gitlab-integration.rst:36
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Link an Issue"
-msgstr "Neues Issue verlinken"
+msgstr "Issue verknüpfen"
 
 #: ../extras/github-gitlab-integration.rst:38
 msgid ""
@@ -7143,6 +7148,12 @@ msgid ""
 "group1/project1/-/issues/1``. While you create a ticket, you can link issues "
 "too. They are saved with the new ticket."
 msgstr ""
+"Wählen Sie **Issue verknüpfen** aus dem Menü neben dem Titel, geben Sie dann "
+"die URL eines einzelnen Issues ein und bestätigen Sie. Zammad akzeptiert "
+"Links wie ``https://github.com/organization/repository/issues/42`` oder "
+"``https://git.example.com/group1/project1/-/issues/1``. Sie können auch beim "
+"Erstellen eines Tickets Issues verlinken. Sie werden mit dem neuen Ticket "
+"gespeichert."
 
 #: ../extras/github-gitlab-integration.rst:44
 msgid ""
@@ -7151,12 +7162,15 @@ msgid ""
 "the API token cannot read its repository or project. Ask your administrator "
 "to check the token in that case."
 msgstr ""
+"Zammad ignoriert eine URL, die bereits mit dem Ticket verknüpft ist. Es "
+"lehnt zudem eine URL ab, die es nicht auflösen kann – in der Regel, weil das "
+"Issue nicht existiert oder weil das API-Token keinen Zugriff auf das "
+"entsprechende Repository oder das Projekt hat. Bitten Sie in diesem Fall "
+"Ihren Administrator, das Token zu überprüfen."
 
 #: ../extras/github-gitlab-integration.rst:50
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Unlink an Issue"
-msgstr "Neues Issue verlinken"
+msgstr "Issue-Verknüpfung entfernen"
 
 #: ../extras/github-gitlab-integration.rst:52
 msgid ""
@@ -7164,6 +7178,10 @@ msgid ""
 "reference from the ticket and leaves the issue untouched in GitHub or "
 "GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
+"Klicken Sie neben dem Titel eines Issues auf die Schaltfläche ``X``. Durch "
+"das Aufheben der Verknüpfung wird der Verweis aus dem Ticket entfernt, "
+"während das Issue in GitHub oder GitLab unverändert bleibt. Andere Tickets, "
+"die auf dasselbe Issue verweisen, behalten ihre eigene Verknüpfung bei."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
