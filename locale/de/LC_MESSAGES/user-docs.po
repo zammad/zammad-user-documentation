@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-29 11:14+0000\n"
-"Last-Translator: Martin Gruner <mg@zammad.com>\n"
+"PO-Revision-Date: 2026-11-24 07:07+0000\n"
+"Last-Translator: Ralf Schmid <rsc@zammad.com>\n"
 "Language-Team: German <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -577,9 +577,9 @@ msgid ""
 "If you are a Mac user, use :kbd:`cmd` instead of :kbd:`ctrl` "
 "and :kbd:`ctrl` :kbd:`option` instead of :kbd:`shift` :kbd:`ctrl`."
 msgstr ""
-"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle von "
-":kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle von :kbd:`shift` "
-":kbd:`strg`."
+"Wenn Sie ein Mac Benutzer sind, verwenden Sie :kbd:`cmd` anstelle "
+"von :kbd:`strg` und :kbd:`strg` :kbd:`option` anstelle "
+"von :kbd:`shift` :kbd:`strg`."
 
 #: ../advanced/macros.rst:2
 msgid "Macros"
@@ -742,8 +742,8 @@ msgid ""
 "our :docs:`Zammad System Documentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 msgstr ""
-"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in unserer "
-":docs:`Zammad System Dokumentation </install/elasticsearch/indexed-"
+"Eine ausführlichere Liste der verfügbaren Attribute finden Sie in "
+"unserer :docs:`Zammad System Dokumentation </install/elasticsearch/indexed-"
 "attributes.html>`."
 
 #: ../advanced/search.rst:33
@@ -867,8 +867,8 @@ msgid ""
 "article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
 "\\*] |br|\\ article_count:[\\* TO 5]"
 msgstr ""
-"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO \\"
-"*] |br|\\ article_count:[\\* TO 5]"
+"article_count:5 |br|\\ article_count: [5 TO 10] |br|\\ article_count:[5 TO "
+"\\*] |br|\\ article_count:[\\* TO 5]"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -909,8 +909,8 @@ msgid ""
 "article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
 "n(ath[oa]n)/"
 msgstr ""
-"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?n"
-"(ath[oa]n)/"
+"article.body:heat |br|\\ article.body:heat~ |br|\\ articlebody:/joh?"
+"n(ath[oa]n)/"
 
 #: ../advanced/search.rst:1
 msgid ""
@@ -989,7 +989,8 @@ msgstr "owner.email:bob@example.net AND state.name:(open OR new)"
 
 #: ../advanced/search.rst:1
 msgid "Show tickets from bob@example.net that are either open or new."
-msgstr "Zeigt Tickets von bob@example.net an, die entweder offen oder neu sind."
+msgstr ""
+"Zeigt Tickets von bob@example.net an, die entweder offen oder neu sind."
 
 #: ../advanced/search.rst:1
 msgid "state.name:pending* AND article_count:[1 TO 5]"
@@ -1066,7 +1067,8 @@ msgstr "close_at: Zeitstempel"
 
 #: ../advanced/search.rst:84
 msgid "close_in_min: integer (business min till close)"
-msgstr "close_in_min: ganze Zahl (Geschäfts-Minuten bis Schließung des Tickets)"
+msgstr ""
+"close_in_min: ganze Zahl (Geschäfts-Minuten bis Schließung des Tickets)"
 
 #: ../advanced/search.rst:85
 msgid "last_contact_at: timestamp (last contact by customer or agent)"
@@ -1254,8 +1256,8 @@ msgid ""
 "Reassign a ticket (via the *Group* and *Owner* settings) to let colleagues "
 "know you're done with your part."
 msgstr ""
-"Ordnen Sie ein Ticket neu zu (über die Einstellungen *Gruppe* und *Besitzer*)"
-", um die Kollegen zu informieren, was Sie bereits erledigt haben."
+"Ordnen Sie ein Ticket neu zu (über die Einstellungen *Gruppe* und "
+"*Besitzer*), um die Kollegen zu informieren, was Sie bereits erledigt haben."
 
 #: ../advanced/suggested-workflows.rst:33
 msgid ""
@@ -1317,7 +1319,8 @@ msgstr ""
 
 #: ../advanced/suggested-workflows.rst:None
 msgid "Screenshot shows subscribe button in the ticket sidebar tab"
-msgstr "Screenshot zeigt die Schaltfläche Abonnieren in der Ticket-Seitenleiste"
+msgstr ""
+"Screenshot zeigt die Schaltfläche Abonnieren in der Ticket-Seitenleiste"
 
 #: ../advanced/suggested-workflows.rst:67
 msgid ""
@@ -1372,11 +1375,11 @@ msgstr ""
 "Tickets anwenden. Das bedeutet, dass Sie folgende Ticket-Informationen "
 "bearbeiten können:"
 
-#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
+#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr "Gruppe"
 
-#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
+#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:514
 msgid "Owner"
 msgstr "Besitzer"
@@ -1385,7 +1388,7 @@ msgstr "Besitzer"
 msgid "State (with pending time, if applicable)"
 msgstr "Status (mit *warten bis* Zeit, sofern zutreffend)"
 
-#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
+#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:551
 msgid "Priority"
 msgstr "Priorität"
@@ -1829,9 +1832,9 @@ msgid ""
 msgstr ""
 "Wenn Tickets zu verwandten Themen auftauchen, können sie miteinander "
 "verknüpft werden, um den Bezug zu erleichtern. Dies kann zum Beispiel "
-"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung haben. "
-":doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` Tickets "
-"werden automatisch verknüpft."
+"nützlich sein, wenn Sie mehrere Kundenbeschwerden zur selben Sendung "
+"haben. :doc:`Zusammengefasste <merge>` und :doc:`abgespaltete <split>` "
+"Tickets werden automatisch verknüpft."
 
 #: ../advanced/ticket-actions/link.rst:16
 msgid "Link types"
@@ -1844,8 +1847,8 @@ msgid ""
 "links and normal links. The first pair is used for split and merged tickets. "
 "The normal link is useful when there is no logical hierarchy between tickets."
 msgstr ""
-"Wie Sie vielleicht bereits unter :doc:`zusammenfassen <merge>` oder "
-":doc:`abspalten <split>` gesehen haben, gibt es verschiedene Arten von "
+"Wie Sie vielleicht bereits unter :doc:`zusammenfassen <merge>` "
+"oder :doc:`abspalten <split>` gesehen haben, gibt es verschiedene Arten von "
 "Verknüpfungen zwischen Tickets: über- und untergeordnete Verknüpfungen sowie "
 "normale Verknüpfungen. Die erstgenannten werden für abgespaltene und "
 "zusammengefasste Tickets verwendet. Die normale Verknüpfung ist nützlich, "
@@ -2097,8 +2100,8 @@ msgid ""
 "sidebar tab under **Related tickets**."
 msgstr ""
 "Es ist bereits mit dem Inhalt des vorhandenen Artikels ausgefüllt. Denken "
-"Sie daran, den Typ (Anruf/E-Mail) auszuwählen. Das ursprüngliche Ticket ist "
-":doc:`verlinkt <link>` im neuen Ticket und umgekehrt. Sie finden die "
+"Sie daran, den Typ (Anruf/E-Mail) auszuwählen. Das ursprüngliche Ticket "
+"ist :doc:`verlinkt <link>` im neuen Ticket und umgekehrt. Sie finden die "
 "verknüpften Tickets auf dem Seitenleisten-Tab unter **Verwandte Tickets**."
 
 #: ../advanced/ticket-templates.rst:4
@@ -2771,9 +2774,9 @@ msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
 msgstr ""
-"Da Sie nun wissen, wie Sie Tickets finden können, möchten Sie vielleicht "
-":doc:`neue Tickets erstellen <create-tickets>` oder :doc:`an bestehenden "
-"Tickets arbeiten <work-with-tickets>`."
+"Da Sie nun wissen, wie Sie Tickets finden können, möchten Sie "
+"vielleicht :doc:`neue Tickets erstellen <create-tickets>` oder :doc:`an "
+"bestehenden Tickets arbeiten <work-with-tickets>`."
 
 #: ../basics/ticket-basics.rst:2
 msgid "Ticket Basics"
@@ -2924,14 +2927,18 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
-"**New**: State for new tickets on which no one has worked on. When updating "
-"a ticket the first time, it automatically switches to open."
+"**New**: State for new tickets on which an agent has not sent a public reply "
+"yet. Adding an internal note or changing other ticket attributes does not "
+"change the state. The ticket switches to open automatically as soon as an "
+"agent sends the first public reply."
 msgstr ""
-"**Neu**: Status für neue Tickets, an denen noch niemand gearbeitet hat. Wenn "
-"ein Ticket zum ersten Mal aktualisiert wird, wechselt es automatisch zu "
-"offen."
+"**Neu**: Status für neue Tickets, in denen ein Agent noch keine öffentliche "
+"Antwort gesendet hat. Das Hinzufügen einer internen Notiz oder das Ändern "
+"anderer Ticket-Attribute hat keinen Einfluss auf den Status. Das Ticket "
+"wechselt automatisch in den Status \"Offen\", sobald ein Agent die erste "
+"öffentliche Antwort sendet."
 
-#: ../basics/ticket-basics.rst:69
+#: ../basics/ticket-basics.rst:71
 msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
@@ -2939,7 +2946,7 @@ msgstr ""
 "**Offen**: Status für Tickets, die noch nicht gelöst sind und an denen noch "
 "gearbeitet werden muss."
 
-#: ../basics/ticket-basics.rst:71
+#: ../basics/ticket-basics.rst:73
 msgid ""
 "**Pending Close**: State for tickets which are basically resolved but you "
 "don't want to close immediately. This state requires you to enter a date and "
@@ -2950,7 +2957,7 @@ msgstr ""
 "ein Datum und eine Uhrzeit eingeben, zu der das Ticket automatisch auf "
 "geschlossen wechselt."
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid ""
 "**Pending Reminder**: State for open tickets which you want to get reminded "
 "to a certain date and time. Requires you to enter a date and time at which "
@@ -2963,7 +2970,7 @@ msgstr ""
 "werden möchten. Dies ist z.B. nützlich, wenn Sie eine Frage an einen Dritten "
 "hatten und sicherstellen möchten, dass dieses Problem nicht vergessen wird."
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid ""
 "**Merged**: State for a ticket which was merged into another ticket. Check "
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
@@ -2974,7 +2981,7 @@ msgstr ""
 "advanced/ticket-actions/link>` oder in die :ref:`Historie <ticket-submenu>`, "
 "um das zugehörige Ticket zu sehen."
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid ""
 "Zammad's states are color coded. This helps you to understanding the state "
 "of the ticket much faster in general - without having a look into details."
@@ -2982,7 +2989,7 @@ msgstr ""
 "Zammad Status sind farbkodiert. Das hilft Ihnen den Zustand eines Tickets "
 "viel schneller zu verstehen - ohne einen Blick in den Verlauf zu werfen."
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
@@ -2990,19 +2997,19 @@ msgstr ""
 "Die Priorität eines Tickets ist einfach eine Einstufung (von 1 bis 3), wie "
 "dringend oder wichtig es ist. Die drei Standardprioritäten sind:"
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr "1 niedrig"
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr "2 normal"
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr "3 hoch"
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid ""
 "In case these priorities aren't enough, ask your Zammad admin to create "
 "additional ones. Admins can find more information :admin-docs:`here </system/"
@@ -3016,7 +3023,7 @@ msgstr ""
 "finden. Die Standardprioritäten ermöglichen es Ihnen, die Wichtigkeit Ihrer "
 "Tickets sofort zu erkennen, da sie farblich gekennzeichnet sind:"
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid ""
 "You might wonder what such a ticket priority is for. Out of the box, it "
 "doesn't actually do anything except the highlighting. However, Zammad "
@@ -3028,7 +3035,7 @@ msgstr ""
 "Administratoren können jedoch alle Arten von Automatisierungen und Prüfungen "
 "auf der Grundlage der Priorität einrichten."
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid ""
 "Be aware that customers can't set a priority for their own tickets. "
 "Otherwise some might set their tickets always to high and hope for an "
@@ -3038,12 +3045,12 @@ msgstr ""
 "können. Andernfalls könnten einige ihre Tickets immer auf hoch setzen und "
 "auf eine sofortige Eskalation hoffen."
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:706
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Tags"
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid ""
 "Tags are custom labels that can be attached to tickets to make it easier to "
 "find them in the future. You find the tag section under the attribute fields."
@@ -3058,7 +3065,7 @@ msgstr ""
 "Der Screenshot zeigt den hervorgehobenen Tag-Bereich in der Ticket-"
 "Seitenleiste"
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid ""
 "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
@@ -3074,7 +3081,7 @@ msgstr ""
 "entfernen, klicken Sie auf die Schaltfläche ``X`` auf der rechten Seite des "
 "Tabs."
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -3091,7 +3098,7 @@ msgstr ""
 "entweder nur eine Gruppe in Ihrem Zammad-System oder Sie haben nicht die "
 "Berechtigung, ein Ticket in einer anderen Gruppe zu erstellen."
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -3106,7 +3113,7 @@ msgstr ""
 "letzteren Fall wird der Benutzer benachrichtigt und erhält automatisch "
 "Benachrichtigungen über Aktualisierungen des Tickets."
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
@@ -3114,7 +3121,7 @@ msgstr ""
 "Um den Besitzer auf eine Person zu ändern, die nur Zugriff auf die Tickets "
 "einer anderen Gruppe hat, müssen Sie zunächst die Gruppe entsprechend ändern."
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -3395,8 +3402,8 @@ msgstr ""
 "Sie können die Zitierfunktion sogar mehrfach verwenden, um verschiedene "
 "Teile des Textes zu zitieren. Wählen Sie einfach einen anderen Teil des "
 "Textes aus, klicken Sie auf die gleiche Antwortaktion wie zuvor und er wird "
-"als weiteres Zitat in Ihren Editor eingefügt. Sie können Zitate mit "
-":kbd:`enter` oder :kbd:`shift` + :kbd:`enter` im Editor trennen."
+"als weiteres Zitat in Ihren Editor eingefügt. Sie können Zitate "
+"mit :kbd:`enter` oder :kbd:`shift` + :kbd:`enter` im Editor trennen."
 
 #: ../basics/work-with-tickets.rst:141
 msgid "Rename a Ticket"
@@ -3619,8 +3626,9 @@ msgid ""
 msgstr ""
 "Die SLA-Funktion erfordert eine Konfiguration durch Ihren Administrator. "
 "Falls Sie keine Eskalations-Zeitstempel sehen, ist entweder das Ticket nicht "
-"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in der "
-":admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr Informationen."
+"SLA-relevant oder die Funktion ist nicht konfiguriert. Admins finden in "
+"der :admin-docs:`Admin-SLA-Dokumentation </manage/slas.html>` mehr "
+"Informationen."
 
 #: ../basics/work-with-tickets.rst:253
 msgid "Highlight Text in a Ticket"
@@ -4469,9 +4477,9 @@ msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
 msgstr ""
-"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad hinzufügen "
-":docs:`in unserer System-Dokumentation </appendix/reporting-tools-thirdparty/"
-"grafana.html>` ."
+"Erfahren Sie mehr darüber, wie Sie Grafana-Dashboards für Zammad "
+"hinzufügen :docs:`in unserer System-Dokumentation </appendix/reporting-tools-"
+"thirdparty/grafana.html>` ."
 
 #: ../basics/zammad-glossary.rst:337
 msgid "Groups"
@@ -5128,8 +5136,8 @@ msgstr ""
 "Der Scheduler ist eine der Automatisierungsfunktionen von Zammad. Ein "
 "Administrator kann spezifische Bedingungen und Aktionen definieren, die auf "
 "Tickets mit übereinstimmenden Bedingungen zeitbasiert angewendet werden. "
-"Weitere Informationen finden Sie in der Admin-Dokumentation im Abschnitt "
-":admin-docs:`Automatisierung </manage/scheduler.html>`."
+"Weitere Informationen finden Sie in der Admin-Dokumentation im "
+"Abschnitt :admin-docs:`Automatisierung </manage/scheduler.html>`."
 
 #: ../basics/zammad-glossary.rst:620 ../basics/zammad-ui.rst:85
 msgid "Sidebar"
@@ -5201,8 +5209,8 @@ msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
 msgstr ""
-"Sie kann von Ihrem Admin angepasst werden. Weitere Informationen finden Sie "
-":admin-docs:`hier </channels/email/signatures.html>`."
+"Sie kann von Ihrem Admin angepasst werden. Weitere Informationen finden "
+"Sie :admin-docs:`hier </channels/email/signatures.html>`."
 
 #: ../basics/zammad-glossary.rst:640
 msgid "Sipgate"
@@ -5229,8 +5237,8 @@ msgid ""
 msgstr ""
 "Administratoren finden weitere Informationen im Bereich :admin-docs:`Sipgate "
 "CTI der Admin-Dokumentation </system/integrations/cti/sipgate.html>`. "
-"Agenten können sich auf dieser Seite näher über diese Funktion informieren: "
-":doc:`/extras/caller-log`"
+"Agenten können sich auf dieser Seite näher über diese Funktion "
+"informieren: :doc:`/extras/caller-log`"
 
 #: ../basics/zammad-glossary.rst:655
 msgid "SLA"
@@ -5301,7 +5309,8 @@ msgstr ""
 
 #: ../basics/zammad-glossary.rst:668
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
-msgstr "🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
+msgstr ""
+"🤓 Self-Hosted-Nutzer können außerdem Kerberos-Authentifizierung nutzen."
 
 #: ../basics/zammad-glossary.rst:670
 msgid ""
@@ -5325,8 +5334,8 @@ msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
 msgstr ""
-"Erfahren Sie auf dieser Seite mehr über Status und deren Farbkodierung: "
-":ref:`ticket-attributes`"
+"Erfahren Sie auf dieser Seite mehr über Status und deren "
+"Farbkodierung: :ref:`ticket-attributes`"
 
 #: ../basics/zammad-glossary.rst:679
 msgid ""
@@ -6787,9 +6796,9 @@ msgid ""
 "manually checkable but reflects the state of the referenced ticket."
 msgstr ""
 "Sie können ein weiteres Ticket als Element der Checkliste hinzufügen, indem "
-"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. ``Ticket#423456``)"
-". Dieses Element kann nicht manuell abgehakt werden, es spiegelt den Status "
-"des referenzierten Tickets wider."
+"Sie dessen Hook und Nummer in eingeben oder einfügen (z.B. "
+"``Ticket#423456``). Dieses Element kann nicht manuell abgehakt werden, es "
+"spiegelt den Status des referenzierten Tickets wider."
 
 #: ../extras/checklist.rst:63
 msgid "**Copying ticket hook and number**"
@@ -6847,7 +6856,8 @@ msgstr "Ticket-Seitenleiste (Kunden-Ansicht)"
 
 #: ../extras/customers.rst:13
 msgid "Click the 👨 tab in the ticket sidebar to see the customer's profile."
-msgstr "Wählen Sie den 👨 Tab in der Seitenleiste, um das Kundenprofil zu sehen."
+msgstr ""
+"Wählen Sie den 👨 Tab in der Seitenleiste, um das Kundenprofil zu sehen."
 
 #: ../extras/customers.rst:15
 msgid ""
@@ -6946,9 +6956,9 @@ msgid ""
 msgstr ""
 "Ähnlich wie bei der Ticketpriorität hat der VIP-Status standardmäßig keine "
 "Auswirkungen. Administratoren können jedoch auf der Grundlage dieses Werts "
-"Automatisierungsregeln einrichten oder ihn als Filter für benutzerdefinierte "
-":ref:`Übersichten <overviews>` verwenden. Fragen Sie Ihren Administrator, "
-"wie Sie dieses Attribut nutzen sollten."
+"Automatisierungsregeln einrichten oder ihn als Filter für "
+"benutzerdefinierte :ref:`Übersichten <overviews>` verwenden. Fragen Sie "
+"Ihren Administrator, wie Sie dieses Attribut nutzen sollten."
 
 #: ../extras/dashboard.rst:4
 msgid ""
@@ -7062,93 +7072,98 @@ msgstr "GitHub- / GitLab-Integration"
 
 #: ../extras/github-gitlab-integration.rst:4
 msgid ""
-"With the issue tracker integration, you can monitor GitHub / GitLab issues "
-"right from within a Zammad ticket. This feature is optional. If you don't "
-"see it in the ticket sidebar, that means your administrator hasn't enabled "
-"it yet. Administrators can learn more in the :admin-docs:`issue tracker "
-"integration in the admin documentation </system/integrations#integrations-"
-"for-issue-trackers>`."
+"With the issue tracker integration, you can link GitHub and GitLab issues to "
+"a ticket and follow their state while you work on it. Zammad stores only the "
+"issue URLs on the ticket. Title, state, type, milestone, assignees and "
+"labels are read from GitHub or GitLab each time you open the panel. Nothing "
+"is written back to the tracker. Issues only: pull requests and merge "
+"requests cannot be linked."
 msgstr ""
-"Dank der Integration von Issue-Trackern können Sie GitHub-/GitLab-Issues "
-"direkt aus einem Zammad-Ticket heraus überwachen. Diese Funktion ist "
-"optional. Wenn sie in der Seitenleiste des Tickets nicht angezeigt wird, "
-"bedeutet dies, dass Ihr Administrator sie noch nicht aktiviert hat. "
-"Administratoren finden weitere Informationen im Abschnitt :admin-"
-"docs:`Integrationen für Issue-Tracker der Admin-Dokumentation </system/"
-"integrations#integrations-for-issue-trackers>`."
+"Dank der Integration eines Issue-Trackers können Sie GitHub- und GitLab-"
+"Issues mit einem Ticket verknüpfen und deren Status verfolgen, während Sie "
+"daran arbeiten. Zammad speichert lediglich die URLs der Issues im Ticket. "
+"Titel, Status, Typ, Meilenstein, Zuweisungen und Labels werden bei jedem "
+"Öffnen des Bereichs aus GitHub oder GitLab abgerufen. Es werden keine Daten "
+"an den Tracker zurückgeschrieben. Nur Issues: Pull-Requests und Merge-"
+"Requests können nicht verknüpft werden."
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Ticket detail view showing activated GitHub & GitLab function"
-msgstr ""
-"Die Detailansicht im Ticket zeigt die aktivierte GitHub- & GitLab-Funktion"
-
-#: ../extras/github-gitlab-integration.rst:14
+#: ../extras/github-gitlab-integration.rst:11
+#, fuzzy
+#| msgid ""
+#| "This feature is **optional**; if you don't see it in the ticket view, "
+#| "that means your administrator hasn't enabled it yet. Administrators can "
+#| "learn more :admin-docs:`here </system/integrations/i-doit.html>`."
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of "
-"issues related to the ticket."
+"The panels are optional. If you don't see them in the ticket sidebar, your "
+"administrator hasn't enabled the integration yet. Customers don't see the "
+"links either. Administrators can learn more in the :admin-docs:`GitHub </"
+"system/integrations/github.html>` and :admin-docs:`GitLab </system/"
+"integrations/gitlab.html>` integration pages."
 msgstr ""
-"Benutzen Sie die |github| und |gitlab| Tabs in der Ticket-Seitenleiste, um "
-"eine Übersicht der verwandten Issues zum Ticket zu erhalten."
+"Diese Funktion ist **optional**; wenn Sie sie nicht in der Ticketansicht "
+"sehen bedeutet das, dass Ihr Administrator sie noch nicht aktiviert hat. "
+"Administratoren können mehr darüber :admin-docs:`hier </system/integrations/"
+"i-doit.html>` erfahren."
 
-#: ../extras/github-gitlab-integration.rst:39
-msgid "GitHub logo"
-msgstr "GitHub Logo"
+#: ../extras/github-gitlab-integration.rst:None
+msgid "Sidebar with opened GitHub panel and linked issue."
+msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:43
-msgid "GitLab logo"
-msgstr "GitLab-Logo"
-
-#: ../extras/github-gitlab-integration.rst:18
-msgid "What Can It Do?"
-msgstr "Was die Funktion kann?"
-
-#: ../extras/github-gitlab-integration.rst:24
-msgid "View related issues"
+#: ../extras/github-gitlab-integration.rst:22
+#, fuzzy
+#| msgid "View related issues"
+msgid "View Linked Issues"
 msgstr "Ansehen relevanter Issues"
 
-#: ../extras/github-gitlab-integration.rst:21
+#: ../extras/github-gitlab-integration.rst:24
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
-"issues, along with metadata like status (open/closed), assignee, labels, and "
-"more. Or, simply click the title to view the issue on GitHub / GitLab. A "
-"badge on the tab icon indicates how many issues are linked to this ticket."
+"Open the **GitHub** or **GitLab** tab in the ticket sidebar of a ticket that "
+"already has issues linked. Each entry starts with an icon for the issue "
+"state, followed by the issue number and title. Click the title to open the "
+"issue on GitHub or GitLab. Each entry also shows the issue's **Milestone**, "
+"**Assignees** and **Labels**. GitHub issues show a **Type** as well. A field "
+"appears only when the issue has one. The badge on the tab counts all linked "
+"issues, not only the open ones. Zammad reads the state when the panel loads "
+"and doesn't watch the issues, so no notification is sent when an issue "
+"changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
+"your administrator to check the token."
 msgstr ""
-"Verwenden Sie die |github| und |gitlab| Tabs in der Seitenleiste des "
-"Tickets, um verknüpfte Issues sowie Metadaten wie Status (offen/"
-"geschlossen), Verantwortlicher, Labels und mehr anzuzeigen. Oder klicken Sie "
-"einfach auf den Titel, um das Issue auf GitHub bzw. GitLab anzuzeigen. Ein "
-"Symbol auf dem Tab-Symbol zeigt an, wie viele Issues mit diesem Ticket "
-"verknüpft sind."
 
-#: ../extras/github-gitlab-integration.rst:34
-msgid "Link a new issue"
+#: ../extras/github-gitlab-integration.rst:36
+#, fuzzy
+#| msgid "Link a new issue"
+msgid "Link an Issue"
 msgstr "Neues Issue verlinken"
 
-#: ../extras/github-gitlab-integration.rst:27
+#: ../extras/github-gitlab-integration.rst:38
 msgid ""
-"At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
-"then enter a valid issue URL. Please note that linking a new issue can be "
-"slow sometimes."
+"Select **Link issue** from the menu next to the panel title, then enter the "
+"URL of a single issue and confirm. Zammad accepts links like ``https://"
+"github.com/organization/repository/issues/42`` or ``https://git.example.com/"
+"group1/project1/-/issues/1``. While you create a ticket, you can link issues "
+"too. They are saved with the new ticket."
 msgstr ""
-"Nutzen Sie *GitHub / GitLab > Issue verlinken* oben in den Ticket-"
-"Einstellungen und geben Sie dann eine korrekte Issue-URL an. Bitte beachten "
-"Sie, dass das Verknüpfen eines neuen Issues manchmal langsam sein kann."
 
-#: ../extras/github-gitlab-integration.rst:0
-msgid "Screencast showing how to list and add new issues to a ticket"
+#: ../extras/github-gitlab-integration.rst:44
+msgid ""
+"Zammad ignores a URL that is already linked to the ticket. It also rejects a "
+"URL it cannot resolve, usually because the issue doesn't exist or because "
+"the API token cannot read its repository or project. Ask your administrator "
+"to check the token in that case."
 msgstr ""
-"Screencast zeigt wie Issues aufgelistet und zu Tickets hinzugefügt werden "
-"können"
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Remove an issue"
-msgstr "Ein Issue entfernen"
+#: ../extras/github-gitlab-integration.rst:50
+#, fuzzy
+#| msgid "Link a new issue"
+msgid "Unlink an Issue"
+msgstr "Neues Issue verlinken"
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Click the ✕ button next to an issue title to unlink it."
+#: ../extras/github-gitlab-integration.rst:52
+msgid ""
+"Click the ``X`` button next to an issue title. Unlinking removes the "
+"reference from the ticket and leaves the issue untouched in GitHub or "
+"GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
-"Nutzen Sie die ✕ Schaltfläche neben einem Issue, um die Verlinkung zu "
-"entfernen."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
@@ -7312,9 +7327,9 @@ msgstr ""
 "indem Sie in der Navigations-Seitenleiste den Tab ``Knowledge Base`` öffnen. "
 "Diese Funktion ist optional. Wenn sie in der Navigations-Seitenleiste nicht "
 "angezeigt wird, bedeutet dies, dass Ihr Administrator sie noch nicht "
-"aktiviert hat. Administratoren finden weitere Informationen im Abschnitt "
-":admin-docs:`Knowledge Base der Admin-Dokumentation </manage/knowledge-"
-"base.html>`."
+"aktiviert hat. Administratoren finden weitere Informationen im "
+"Abschnitt :admin-docs:`Knowledge Base der Admin-Dokumentation </manage/"
+"knowledge-base.html>`."
 
 #: ../extras/knowledge-base.rst:15
 msgid "Knowledge Base Preview Mode"
@@ -8841,8 +8856,8 @@ msgstr ""
 "sicherzustellen, dass Sie berechtigt sind, auf das Konto zuzugreifen. "
 "Typischerweise ist das etwas, was Sie wissen (wie ein Passwort) und etwas, "
 "das Sie besitzen (wie ein Mobilgerät oder ein Security-Token). Dies ist eine "
-"optionale Funktion. Administratoren finden weitere Informationen im Bereich "
-":admin-docs:`Zwei-Faktor-Authentifizierung der Admin-Dokumentation </"
+"optionale Funktion. Administratoren finden weitere Informationen im "
+"Bereich :admin-docs:`Zwei-Faktor-Authentifizierung der Admin-Dokumentation </"
 "settings/security/two-factor.html>`."
 
 #: ../extras/two-factor-authentication.rst:13
@@ -9139,8 +9154,8 @@ msgid ""
 "Choose a method of your choice, and then follow its :ref:`setup guide <setup "
 "guide>`."
 msgstr ""
-"Wählen Sie die von Ihnen bevorzugte Methode und folgen Sie der "
-":ref:`Einrichtungsanleitung <setup guide>`."
+"Wählen Sie die von Ihnen bevorzugte Methode und folgen Sie "
+"der :ref:`Einrichtungsanleitung <setup guide>`."
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:2
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:None
@@ -9189,8 +9204,8 @@ msgid ""
 "app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 msgstr ""
 "`Microsoft Authenticator <https://support.microsoft.com/en-us/account-"
-"billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-"
-"45da-b7b6-27e523b8702a>`_"
+"billing/download-and-install-the-microsoft-authenticator-"
+"app-351498fc-850a-45da-b7b6-27e523b8702a>`_"
 
 #: ../extras/two-factor-authentication/authenticator-app-setup.rst:20
 msgid ""
@@ -9883,9 +9898,90 @@ msgid ""
 "also :docs:`system </index.html>` and :admin-docs:`administration manuals </"
 "index.html>` available."
 msgstr ""
-"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind außerdem "
-":docs:`System- </index.html>` und :admin-docs:`Admin-Dokumentationen </"
-"index.html>` verfügbar."
+"Sie lesen gerade die Benutzerdokumentation von Zammad. Es sind "
+"außerdem :docs:`System- </index.html>` und :admin-docs:`Admin-"
+"Dokumentationen </index.html>` verfügbar."
+
+#~ msgid ""
+#~ "**New**: State for new tickets on which no one has worked on. When "
+#~ "updating a ticket the first time, it automatically switches to open."
+#~ msgstr ""
+#~ "**Neu**: Status für neue Tickets, an denen noch niemand gearbeitet hat. "
+#~ "Wenn ein Ticket zum ersten Mal aktualisiert wird, wechselt es automatisch "
+#~ "zu offen."
+
+#~ msgid ""
+#~ "With the issue tracker integration, you can monitor GitHub / GitLab "
+#~ "issues right from within a Zammad ticket. This feature is optional. If "
+#~ "you don't see it in the ticket sidebar, that means your administrator "
+#~ "hasn't enabled it yet. Administrators can learn more in the :admin-"
+#~ "docs:`issue tracker integration in the admin documentation </system/"
+#~ "integrations#integrations-for-issue-trackers>`."
+#~ msgstr ""
+#~ "Dank der Integration von Issue-Trackern können Sie GitHub-/GitLab-Issues "
+#~ "direkt aus einem Zammad-Ticket heraus überwachen. Diese Funktion ist "
+#~ "optional. Wenn sie in der Seitenleiste des Tickets nicht angezeigt wird, "
+#~ "bedeutet dies, dass Ihr Administrator sie noch nicht aktiviert hat. "
+#~ "Administratoren finden weitere Informationen im Abschnitt :admin-"
+#~ "docs:`Integrationen für Issue-Tracker der Admin-Dokumentation </system/"
+#~ "integrations#integrations-for-issue-trackers>`."
+
+#~ msgid "Ticket detail view showing activated GitHub & GitLab function"
+#~ msgstr ""
+#~ "Die Detailansicht im Ticket zeigt die aktivierte GitHub- & GitLab-Funktion"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar for an overview "
+#~ "of issues related to the ticket."
+#~ msgstr ""
+#~ "Benutzen Sie die |github| und |gitlab| Tabs in der Ticket-Seitenleiste, "
+#~ "um eine Übersicht der verwandten Issues zum Ticket zu erhalten."
+
+#~ msgid "GitHub logo"
+#~ msgstr "GitHub Logo"
+
+#~ msgid "GitLab logo"
+#~ msgstr "GitLab-Logo"
+
+#~ msgid "What Can It Do?"
+#~ msgstr "Was die Funktion kann?"
+
+#~ msgid ""
+#~ "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
+#~ "issues, along with metadata like status (open/closed), assignee, labels, "
+#~ "and more. Or, simply click the title to view the issue on GitHub / "
+#~ "GitLab. A badge on the tab icon indicates how many issues are linked to "
+#~ "this ticket."
+#~ msgstr ""
+#~ "Verwenden Sie die |github| und |gitlab| Tabs in der Seitenleiste des "
+#~ "Tickets, um verknüpfte Issues sowie Metadaten wie Status (offen/"
+#~ "geschlossen), Verantwortlicher, Labels und mehr anzuzeigen. Oder klicken "
+#~ "Sie einfach auf den Titel, um das Issue auf GitHub bzw. GitLab "
+#~ "anzuzeigen. Ein Symbol auf dem Tab-Symbol zeigt an, wie viele Issues mit "
+#~ "diesem Ticket verknüpft sind."
+
+#~ msgid ""
+#~ "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
+#~ "then enter a valid issue URL. Please note that linking a new issue can be "
+#~ "slow sometimes."
+#~ msgstr ""
+#~ "Nutzen Sie *GitHub / GitLab > Issue verlinken* oben in den Ticket-"
+#~ "Einstellungen und geben Sie dann eine korrekte Issue-URL an. Bitte "
+#~ "beachten Sie, dass das Verknüpfen eines neuen Issues manchmal langsam "
+#~ "sein kann."
+
+#~ msgid "Screencast showing how to list and add new issues to a ticket"
+#~ msgstr ""
+#~ "Screencast zeigt wie Issues aufgelistet und zu Tickets hinzugefügt werden "
+#~ "können"
+
+#~ msgid "Remove an issue"
+#~ msgstr "Ein Issue entfernen"
+
+#~ msgid "Click the ✕ button next to an issue title to unlink it."
+#~ msgstr ""
+#~ "Nutzen Sie die ✕ Schaltfläche neben einem Issue, um die Verlinkung zu "
+#~ "entfernen."
 
 #~ msgid ""
 #~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
@@ -10344,16 +10440,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Ein Zähler auf dem Tab-Icon zeigt an, wie viele Issues mit dem Ticket "
 #~ "verlinkt wurden."
-
-#~ msgid ""
-#~ "This feature is **optional**; if you don't see it in the ticket view, "
-#~ "that means your administrator hasn't enabled it yet. Administrators can "
-#~ "learn more :admin-docs:`here </system/integrations/i-doit.html>`."
-#~ msgstr ""
-#~ "Diese Funktion ist **optional**; wenn Sie sie nicht in der Ticketansicht "
-#~ "sehen bedeutet das, dass Ihr Administrator sie noch nicht aktiviert hat. "
-#~ "Administratoren können mehr darüber :admin-docs:`hier </system/"
-#~ "integrations/i-doit.html>` erfahren."
 
 #~ msgid ""
 #~ "If your company is using i-doit, ask your administrator / IT personnel to "
