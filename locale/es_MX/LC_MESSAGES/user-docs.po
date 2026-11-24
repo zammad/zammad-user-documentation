@@ -1202,11 +1202,11 @@ msgid ""
 "tickets. This means you can adjust the following ticket information:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
+#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
+#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:514
 msgid "Owner"
 msgstr ""
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "State (with pending time, if applicable)"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
+#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:551
 msgid "Priority"
 msgstr ""
@@ -2373,24 +2373,26 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
-"**New**: State for new tickets on which no one has worked on. When updating "
-"a ticket the first time, it automatically switches to open."
+"**New**: State for new tickets on which an agent has not sent a public reply "
+"yet. Adding an internal note or changing other ticket attributes does not "
+"change the state. The ticket switches to open automatically as soon as an "
+"agent sends the first public reply."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:69
+#: ../basics/ticket-basics.rst:71
 msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:71
+#: ../basics/ticket-basics.rst:73
 msgid ""
 "**Pending Close**: State for tickets which are basically resolved but you "
 "don't want to close immediately. This state requires you to enter a date and "
 "time at which the ticket automatically switches to closed."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid ""
 "**Pending Reminder**: State for open tickets which you want to get reminded "
 "to a certain date and time. Requires you to enter a date and time at which "
@@ -2398,38 +2400,38 @@ msgid ""
 "third party and want to make sure that this issue won't be forgotten."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid ""
 "**Merged**: State for a ticket which was merged into another ticket. Check "
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
 "the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid ""
 "Zammad's states are color coded. This helps you to understanding the state "
 "of the ticket much faster in general - without having a look into details."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid ""
 "In case these priorities aren't enough, ask your Zammad admin to create "
 "additional ones. Admins can find more information :admin-docs:`here </system/"
@@ -2438,7 +2440,7 @@ msgid ""
 "coded:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid ""
 "You might wonder what such a ticket priority is for. Out of the box, it "
 "doesn't actually do anything except the highlighting. However, Zammad "
@@ -2446,19 +2448,19 @@ msgid ""
 "priority."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid ""
 "Be aware that customers can't set a priority for their own tickets. "
 "Otherwise some might set their tickets always to high and hope for an "
 "immediate escalation."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:706
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:706
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid ""
 "Tags are custom labels that can be attached to tickets to make it easier to "
 "find them in the future. You find the tag section under the attribute fields."
@@ -2468,7 +2470,7 @@ msgstr ""
 msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid ""
 "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
@@ -2477,7 +2479,7 @@ msgid ""
 "To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -2487,7 +2489,7 @@ msgid ""
 "permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -2496,13 +2498,13 @@ msgid ""
 "automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -5473,69 +5475,75 @@ msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:4
 msgid ""
-"With the issue tracker integration, you can monitor GitHub / GitLab issues "
-"right from within a Zammad ticket. This feature is optional. If you don't "
-"see it in the ticket sidebar, that means your administrator hasn't enabled "
-"it yet. Administrators can learn more in the :admin-docs:`issue tracker "
-"integration in the admin documentation </system/integrations#integrations-"
-"for-issue-trackers>`."
+"With the issue tracker integration, you can link GitHub and GitLab issues to "
+"a ticket and follow their state while you work on it. Zammad stores only the "
+"issue URLs on the ticket. Title, state, type, milestone, assignees and "
+"labels are read from GitHub or GitLab each time you open the panel. Nothing "
+"is written back to the tracker. Issues only: pull requests and merge "
+"requests cannot be linked."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:14
-msgid "Ticket detail view showing activated GitHub & GitLab function"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:14
+#: ../extras/github-gitlab-integration.rst:11
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar for an overview of "
-"issues related to the ticket."
+"The panels are optional. If you don't see them in the ticket sidebar, your "
+"administrator hasn't enabled the integration yet. Customers don't see the "
+"links either. Administrators can learn more in the :admin-docs:`GitHub </"
+"system/integrations/github.html>` and :admin-docs:`GitLab </system/"
+"integrations/gitlab.html>` integration pages."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:39
-msgid "GitHub logo"
+#: ../extras/github-gitlab-integration.rst:None
+msgid "Sidebar with opened GitHub panel and linked issue."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:43
-msgid "GitLab logo"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:18
-msgid "What Can It Do?"
+#: ../extras/github-gitlab-integration.rst:22
+msgid "View Linked Issues"
 msgstr ""
 
 #: ../extras/github-gitlab-integration.rst:24
-msgid "View related issues"
-msgstr ""
-
-#: ../extras/github-gitlab-integration.rst:21
 msgid ""
-"Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
-"issues, along with metadata like status (open/closed), assignee, labels, and "
-"more. Or, simply click the title to view the issue on GitHub / GitLab. A "
-"badge on the tab icon indicates how many issues are linked to this ticket."
+"Open the **GitHub** or **GitLab** tab in the ticket sidebar of a ticket that "
+"already has issues linked. Each entry starts with an icon for the issue "
+"state, followed by the issue number and title. Click the title to open the "
+"issue on GitHub or GitLab. Each entry also shows the issue's **Milestone**, "
+"**Assignees** and **Labels**. GitHub issues show a **Type** as well. A field "
+"appears only when the issue has one. The badge on the tab counts all linked "
+"issues, not only the open ones. Zammad reads the state when the panel loads "
+"and doesn't watch the issues, so no notification is sent when an issue "
+"changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
+"your administrator to check the token."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:34
-msgid "Link a new issue"
+#: ../extras/github-gitlab-integration.rst:36
+msgid "Link an Issue"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:27
+#: ../extras/github-gitlab-integration.rst:38
 msgid ""
-"At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
-"then enter a valid issue URL. Please note that linking a new issue can be "
-"slow sometimes."
+"Select **Link issue** from the menu next to the panel title, then enter the "
+"URL of a single issue and confirm. Zammad accepts links like ``https://"
+"github.com/organization/repository/issues/42`` or ``https://git.example.com/"
+"group1/project1/-/issues/1``. While you create a ticket, you can link issues "
+"too. They are saved with the new ticket."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:0
-msgid "Screencast showing how to list and add new issues to a ticket"
+#: ../extras/github-gitlab-integration.rst:44
+msgid ""
+"Zammad ignores a URL that is already linked to the ticket. It also rejects a "
+"URL it cannot resolve, usually because the issue doesn't exist or because "
+"the API token cannot read its repository or project. Ask your administrator "
+"to check the token in that case."
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Remove an issue"
+#: ../extras/github-gitlab-integration.rst:50
+msgid "Unlink an Issue"
 msgstr ""
 
-#: ../extras/github-gitlab-integration.rst:37
-msgid "Click the ✕ button next to an issue title to unlink it."
+#: ../extras/github-gitlab-integration.rst:52
+msgid ""
+"Click the ``X`` button next to an issue title. Unlinking removes the "
+"reference from the ticket and leaves the issue untouched in GitHub or "
+"GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
 
 #: ../extras/i-doit-track-company-property.rst:2
