@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-12 05:12+0000\n"
+"PO-Revision-Date: 2026-11-19 10:12+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/hu/>\n"
@@ -1376,11 +1376,11 @@ msgstr ""
 "hajthat végre a jegyeken. Ez azt jelenti, hogy a következő jegyinformációkat "
 "módosíthatja:"
 
-#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
+#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr "Csoport"
 
-#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
+#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr "Tulajdonos"
@@ -1389,7 +1389,7 @@ msgstr "Tulajdonos"
 msgid "State (with pending time, if applicable)"
 msgstr "Állapot (várakozási idővel, ha alkalmazható)"
 
-#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
+#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:555
 msgid "Priority"
 msgstr "Prioritás"
@@ -2525,14 +2525,12 @@ msgstr "Áttekintéseken keresztül"
 #: ../basics/find-tickets.rst:11
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
-"Ha olyan új jegyeket keres, amelyeken dolgozhat, akkor először az áttekintés "
-"szakaszt érdemes megnéznie. Ez a szakasz egy rövid és tömör áttekintést "
-"nyújt. A további részleteket egy külön áttekintő oldal tartalmazza."
+"Ha új jegyeket keres, amelyeken dolgozhat, akkor először az áttekintés "
+"szakaszra érdemes ránéznie. Ez a szakasz gyors áttekintést ad Önnek."
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2546,19 +2544,19 @@ msgstr ""
 "áttekintés. Például van egy **Hozzárendelés nélküli és nyitott jegyek** nevű "
 "áttekintés, amely jó kiindulási pont lehet."
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 "Saját hozzárendelt jegyek: olyan nyitott jegyek, amelyekben Ön "
 "tulajdonosként van beállítva."
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 "Hozzárendelés nélküli és nyitott jegyek: olyan nyitott jegyek, amelyeknek "
 "még nincs tulajdonosuk beállítva."
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
@@ -2567,11 +2565,11 @@ msgstr ""
 "tulajdonos, *emlékeztető függőben* állapotban vannak, és a függőben lévő "
 "emlékeztető idejüket elérték."
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr "Nyitott jegyek: nyitott jegyek."
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
@@ -2579,7 +2577,7 @@ msgstr ""
 "Várakozási időt elért jegyek: olyan jegyek, amelyek *emlékeztető függőben* "
 "állapotban vannak, és a függőben lévő emlékeztető idejüket elérték."
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
@@ -2587,7 +2585,7 @@ msgstr ""
 "Eszkalált jegyek: olyan jegyek, amelyek eszkalálódtak vagy eszkalálódni "
 "fognak a következő 10 percben."
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
@@ -2597,31 +2595,31 @@ msgstr ""
 "Ezek feltételeken alapulnak, amelyek lényegében szabályok, és meghatározzák, "
 "hogy melyik jegy melyik áttekintésben jelenjen meg."
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr "Példa az áttekintések megjelenítésére"
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr ""
 "Kattintson a főmenüben lévő ``Áttekintések`` menüpontra a jegyek "
 "böngészéséhez."
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr "Bizonyos szempontok szerint módosíthatja az áttekintéseket:"
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr "Kattintson egy oszlopfejlécre a rendezés megváltoztatásához."
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 "Kattintson és húzza az oszlopelválasztókat az oszlop szélességének "
 "módosításához."
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
@@ -2629,14 +2627,14 @@ msgstr ""
 "Módosítsa az áttekintések sorrendjét a :doc:`felhasználói profiljában </"
 "extras/user-menu-profile-settings>`."
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 "Az intézkedés szükségessége színkóddal van jelölve, amely elsősorban a "
 "jegyállapotokat tükrözi:"
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
@@ -2644,7 +2642,7 @@ msgstr ""
 "Ha kék-rózsaszín színátmenetes kört lát, az azt jelzi, hogy jelenleg "
 "egy :doc:`MI-ügyintéző </extras/ai-features>` dolgozik az jegyen."
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2656,11 +2654,70 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "3 különböző prioritással rendelkező jegyet megjelenítő áttekintés"
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+"Húzza az egérmutatót az áttekintésben lévő jegy címe vagy jegyszáma fölé, "
+"hogy megnyitás nélkül megtekintse a részleteit. A címre vagy a jegyszámra "
+"való kattintás megnyitja a jegyet a szokásos módon."
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+"A cím, a szám és a számot lemásoló gomb mellett a felugró ablak a "
+"következőket jeleníti meg, ha elérhető:"
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+"Egy **kipipált** jelvény a befejezett és az összes ellenőrzőlista-elem "
+"számával. A jegy ellenőrzőlistáját nyitja meg."
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+"Egy **ügyfél hangulata** jelvény az ügyfél MI által felismert hangulatával. "
+"A jegy MI-összefoglalóját nyitja meg."
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr "Az ügyfél szándéka az MI-összefoglalóból."
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+"Az első és a legújabb bejegyzés, mindkettő a szövegének rövid előnézetével. "
+"Ha az MI-összefoglaló tartalmazza az ügyfél szándékát, akkor csak a legújabb "
+"bejegyzés jelenik meg."
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+"A jelvények és az MI-szöveg a megfelelő funkciót igényli. Az ellenőrzőlista-"
+"jelvény csak akkor jelenik meg, ha a jegy nyitott ellenőrzőlistával "
+"rendelkezik, az MI-részek pedig csak akkor, ha az MI-összefoglaló funkció "
+"engedélyezve van, és már létezik összefoglaló a jegyhez."
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr "Keresésen keresztül"
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2678,7 +2735,7 @@ msgstr ""
 "A képernyőkép a navigációs oldalsávon lévő Zammad-keresőt jeleníti meg "
 "keresési eredményekkel."
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
@@ -2689,27 +2746,27 @@ msgstr ""
 "információt keres, amely a Zammadban van tárolva és amelyet az Elasticsearch "
 "indexelt, például:"
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr "Üzenet tárgya és szövege"
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr "Nevek és e-mail-címek"
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr "Fájlmellékletekben lévő szöveg"
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr "Felhasználók és szervezetek adatai (például jegyzetek, nevek stb.)"
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr "Tudásbázis-bejegyzések"
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2722,7 +2779,7 @@ msgstr ""
 "kiválasztása új navigációs lapot fog nyitni (ha még nincs megnyitva) az "
 "elemmel."
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2736,7 +2793,7 @@ msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
 msgstr ""
 "A képernyőkép a keresés részletei oldalt jeleníti meg aktivált „Jegy” lappal."
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2756,7 +2813,7 @@ msgstr ""
 "ahol megtudhatja, hogyan kell bizonyos attribútumokra keresni, mint például "
 "a létrehozás dátumára vagy a jegy tulajdonosának e-mail-címére."
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
@@ -2914,14 +2971,13 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
-"**New**: State for new tickets on which no one has worked on. When updating "
-"a ticket the first time, it automatically switches to open."
+"**New**: State for new tickets on which an agent has not sent a public reply "
+"yet. Adding an internal note or changing other ticket attributes does not "
+"change the state. The ticket switches to open automatically as soon as an "
+"agent sends the first public reply."
 msgstr ""
-"**Új**: az olyan új jegyek állapota, amelyeken még senki sem dolgozott. Egy "
-"jegy első alkalommal történő frissítésekor automatikusan nyitott állapotra "
-"vált."
 
-#: ../basics/ticket-basics.rst:69
+#: ../basics/ticket-basics.rst:71
 msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
@@ -2929,7 +2985,7 @@ msgstr ""
 "**Nyitott**: az olyan jegyek állapota, amelyek még nem lettek megoldva, és "
 "még némi munka szükséges ahhoz, hogy készen legyenek."
 
-#: ../basics/ticket-basics.rst:71
+#: ../basics/ticket-basics.rst:73
 msgid ""
 "**Pending Close**: State for tickets which are basically resolved but you "
 "don't want to close immediately. This state requires you to enter a date and "
@@ -2940,7 +2996,7 @@ msgstr ""
 "meg kell adnia egy dátumot és időpontot, amikor a jegy automatikusan lezárt "
 "állapotba vált."
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid ""
 "**Pending Reminder**: State for open tickets which you want to get reminded "
 "to a certain date and time. Requires you to enter a date and time at which "
@@ -2953,7 +3009,7 @@ msgstr ""
 "például akkor hasznos, ha kérdése van egy harmadik félhez, és biztos akar "
 "lenni abban, hogy az ügy ne legyen elfelejtve."
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid ""
 "**Merged**: State for a ticket which was merged into another ticket. Check "
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
@@ -2964,7 +3020,7 @@ msgstr ""
 "vagy a :ref:`jegyelőzményeket <ticket-submenu>` a kapcsolódó jegy "
 "megtekintéséhez."
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid ""
 "Zammad's states are color coded. This helps you to understanding the state "
 "of the ticket much faster in general - without having a look into details."
@@ -2972,7 +3028,7 @@ msgstr ""
 "A Zammad állapotai színkóddal vannak jelölve. Általában ez segít gyorsabban "
 "megérteni a jegy állapotát, anélkül hogy betekintene a részletekbe."
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
@@ -2981,19 +3037,19 @@ msgstr ""
 "hogy mennyire sürgős vagy fontos a jegy. A három alapértelmezett prioritás a "
 "következő:"
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr "1 alacsony"
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr "2 normál"
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr "3 magas"
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid ""
 "In case these priorities aren't enough, ask your Zammad admin to create "
 "additional ones. Admins can find more information :admin-docs:`here </system/"
@@ -3008,7 +3064,7 @@ msgstr ""
 "teszik, hogy azonnal felismerje a jegyek fontosságát, mivel azok színkóddal "
 "vannak jelölve:"
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid ""
 "You might wonder what such a ticket priority is for. Out of the box, it "
 "doesn't actually do anything except the highlighting. However, Zammad "
@@ -3020,7 +3076,7 @@ msgstr ""
 "jegyet. Azonban a Zammad adminisztrátorai beállíthatnak mindenféle "
 "automatizálást és elemzést a prioritás alapján."
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid ""
 "Be aware that customers can't set a priority for their own tickets. "
 "Otherwise some might set their tickets always to high and hope for an "
@@ -3030,12 +3086,12 @@ msgstr ""
 "jegyeikhez. Ellenkező esetben egyesek mindig a legmagasabb prioritást "
 "állítanák be, és azonnali eszkalációban bíznának."
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:710
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:710
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Címkék"
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid ""
 "Tags are custom labels that can be attached to tickets to make it easier to "
 "find them in the future. You find the tag section under the attribute fields."
@@ -3050,7 +3106,7 @@ msgstr ""
 "A képernyőkép a kiemelt címkeszakaszt jeleníti meg a jegy oldalsávjának "
 "lapján"
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid ""
 "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
@@ -3065,7 +3121,7 @@ msgstr ""
 "a megfelelő javaslatokat tartalmazó listát. A címke eltávolításához "
 "kattintson a lap jobb oldalán lévő ``X`` gombra."
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -3082,7 +3138,7 @@ msgstr ""
 "egyetlen csoport van a Zammad rendszerben, vagy nincs jogosultsága jegyet "
 "létrehozni más csoportokban."
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -3098,7 +3154,7 @@ msgstr ""
 "és automatikusan fel lesz iratkoztatva a jegy frissítéseiről szóló "
 "értesítések fogadásához."
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
@@ -3107,7 +3163,7 @@ msgstr ""
 "egy másik csoport jegyeihez van hozzáférése, először át kell állítania a "
 "csoportot ennek megfelelően."
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -3646,7 +3702,7 @@ msgstr "Jegykiemelő"
 
 #: ../basics/work-with-tickets.rst:269
 msgid "Unprocessable Email Tickets"
-msgstr ""
+msgstr "Feldolgozhatatlan e-mail jegyek"
 
 #: ../basics/work-with-tickets.rst:271
 msgid ""
@@ -3655,16 +3711,23 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
+"A Zammad a beérkező e-maileket jegyekké alakítja. Ha egy e-mailt egyáltalán "
+"nem sikerült feldolgozni, akkor a jegy nem jeleníti meg az e-mailt "
+"bejegyzésként. Ehelyett a beszélgetés fölött egy figyelmeztetés jelzi, hogy "
+"a jegy azért jött létre, mert az e-mailt nem sikerült feldolgozni. Két gomb "
+"teszi lehetővé annak megnézését, hogy mi érkezett:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
-msgstr ""
+msgstr "``Nyers e-mail letöltése``: az e-mail, ahogy a küldő elküldte azt."
 
 #: ../basics/work-with-tickets.rst:277
 msgid ""
 "``Download processing log``: the technical details Zammad logged when "
 "processing failed."
 msgstr ""
+"``Feldolgozási napló letöltése``: a műszaki részletek, amelyeket a Zammad "
+"akkor naplózott, amikor a feldolgozás nem sikerült."
 
 #: ../basics/work-with-tickets.rst:280
 msgid ""
@@ -3672,6 +3735,10 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
+"Előfordulhat, hogy a jegy egyáltalán nem jelenít meg ügyfelet, vagy e-mail-"
+"cím nélküli ügyfelet jelenít meg, mert a Zammad nem tudott kiolvasni "
+"használható küldőcímet. A további teendő attól függ, hogy mit árul el a "
+"nyers e-mail:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3679,18 +3746,27 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
+"**Sérült küldőcím**: a nyers e-mail megjeleníti, hogy ki írt. Javítsa ki a "
+"hiányzó címet az **Ügyfél szerkesztése** gombbal, vagy használja az **Ügyfél "
+"megváltoztatása** gombot annak az ügyfélnek a kiválasztásához, akinek "
+"válaszolni szeretne."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
+"**Egyáltalán nincs küldő**: a jegynek nincs ügyfele. Keresse meg a nyers e-"
+"mailben, hogy ki írta, majd használja az **Ügyfél megváltoztatása** gombot a "
+"kiválasztásához."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
+"**Semmi nem olvasható**: nézze meg a feldolgozási naplót, zárja le a jegyet, "
+"majd adja át a nyers e-mailt és a feldolgozási naplót az adminisztrátorának."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -5918,6 +5994,11 @@ msgid ""
 "such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
 "mcp-server>`."
 msgstr ""
+"A Zammad mesterséges intelligenciával támogatott funkciókat kínál, hogy "
+"segítsen Önnek a támogatási jegyek hatékonyabb kezelésében. Ahhoz, hogy az "
+"Ön által már használt MI-alkalmazásból, például csevegőalkalmazásból vagy "
+"programozó eszközből dolgozzon a jegyein, nézze meg az :doc:`MCP-kiszolgálót "
+"</extras/mcp-server>`."
 
 #: ../extras/ai-features.rst:12
 msgid ""
@@ -6238,14 +6319,23 @@ msgid "Knowledge Base Answer Suggestion"
 msgstr "Tudásbázisválasz-javaslat"
 
 #: ../extras/ai-features.rst:136
+#, fuzzy
+#| msgid ""
+#| "This feature compares the ticket content against the knowledge base and "
+#| "shows relevant answers under **Suggested knowledge** if they meet the "
+#| "admin-configured score threshold. Each suggestion shows the title of the "
+#| "answer and more details on hover. An additional relevance score is only "
+#| "shown to users with the corresponding admin permissions. Click on the "
+#| "title to open the answer in the knowledge base. Click the ``+`` on the "
+#| "right side to link it to the ticket."
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested knowledge** if they meet the admin-"
-"configured score threshold. Each suggestion shows the title of the answer "
-"and more details on hover. An additional relevance score is only shown to "
-"users with the corresponding admin permissions. Click on the title to open "
-"the answer in the knowledge base. Click the ``+`` on the right side to link "
-"it to the ticket."
+"shows relevant answers under **Suggested** if they meet the admin-configured "
+"score threshold. Each suggestion shows the title of the answer and more "
+"details on hover. An additional relevance score is only shown to users with "
+"the corresponding admin permissions. Click on the title to open the answer "
+"in the knowledge base. Click the ``+`` on the right side to link it to the "
+"ticket. Linked answers are listed above under **Linked**."
 msgstr ""
 "Ez a funkció összehasonlítja a jegy tartalmát a tudásbázissal, és "
 "megjeleníti a kapcsolódó válaszokat a **Javasolt tudás** szakasz alatt, ha "
@@ -6257,7 +6347,7 @@ msgstr ""
 "választ a tudásbázisban. Kattintson a jobb oldalon lévő ``+`` gombra, hogy "
 "összekapcsolja a jeggyel."
 
-#: ../extras/ai-features.rst:143
+#: ../extras/ai-features.rst:144
 msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
@@ -6265,11 +6355,11 @@ msgstr ""
 "Ha nem érhetők el javaslatok, akkor a „Nincsenek javaslatok.” üzenet jelenik "
 "meg helyettük."
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:150
 msgid "AI Agents"
 msgstr "MI-ügyintézők"
 
-#: ../extras/ai-features.rst:151
+#: ../extras/ai-features.rst:152
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes, but if configured, you may "
@@ -6286,11 +6376,11 @@ msgstr ""
 "adminisztrátort a részletekért, és nézze meg a :doc:`makró oldalt </advanced/"
 "macros>`, hogy lássa, hogyan kell használni."
 
-#: ../extras/ai-features.rst:166
+#: ../extras/ai-features.rst:167
 msgid "Ticket history"
 msgstr "Jegyelőzmények"
 
-#: ../extras/ai-features.rst:159
+#: ../extras/ai-features.rst:160
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6301,7 +6391,7 @@ msgstr ""
 "folyamatos problémákat észlel az MI-ügyintéző tevékenységével kapcsolatban, "
 "akkor értesítse a Zammad adminisztrátorát."
 
-#: ../extras/ai-features.rst:163
+#: ../extras/ai-features.rst:164
 msgid "Example of a history entry of an AI agent:"
 msgstr "Példa egy MI-ügyintéző előzménybejegyzésére:"
 
@@ -6309,11 +6399,11 @@ msgstr "Példa egy MI-ügyintéző előzménybejegyzésére:"
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr "A képernyőkép az MI-ügyintéző jegyelőzmény-bejegyzését jeleníti meg"
 
-#: ../extras/ai-features.rst:177
+#: ../extras/ai-features.rst:178
 msgid "Simultaneous work detection"
 msgstr "Egyidejű munkavégzés észlelése"
 
-#: ../extras/ai-features.rst:169
+#: ../extras/ai-features.rst:170
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -6326,7 +6416,7 @@ msgstr ""
 "elvesztését. Ha egy MI-ügyintéző profilképét látja, akkor várjon egy kicsit, "
 "vagy térjen át egy másik jegyre."
 
-#: ../extras/ai-features.rst:174
+#: ../extras/ai-features.rst:175
 msgid "Avatar of AI agent:"
 msgstr "Egy MI-ügyintéző profilképe:"
 
@@ -6334,11 +6424,11 @@ msgstr "Egy MI-ügyintéző profilképe:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "A képernyőkép egy MI-ügyintéző profilképét jeleníti meg"
 
-#: ../extras/ai-features.rst:183
+#: ../extras/ai-features.rst:184
 msgid "Overview indicator"
 msgstr "Áttekintésjelző"
 
-#: ../extras/ai-features.rst:180
+#: ../extras/ai-features.rst:181
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -7883,7 +7973,7 @@ msgstr ""
 
 #: ../extras/mcp-server.rst:2
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP-kiszolgáló"
 
 #: ../extras/mcp-server.rst:4
 msgid ""
@@ -7892,6 +7982,12 @@ msgid ""
 "tool, and read, find and update your tickets from there. The server is part "
 "of every installation, you do not install or run anything in addition."
 msgstr ""
+"A Zammad saját kiszolgálóval rendelkezik a *Model Context Protocol* (MCP, "
+"magyarul modellkörnyezet-protokoll) használatához. Csatlakoztasson egy Ön "
+"által már használt MI-ügyfélprogramot hozzá, például egy csevegőalkalmazást "
+"vagy egy programozó eszközt, és olvassa, keresse és frissítse a jegyeit "
+"onnan. A kiszolgáló minden telepítés része, nem kell semmit külön "
+"telepítenie vagy futtatnia."
 
 #: ../extras/mcp-server.rst:9
 msgid ""
@@ -7900,20 +7996,26 @@ msgid ""
 "``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
 "is enabled."
 msgstr ""
+"Az adminisztrátor döntése, hogy a kiszolgáló elfogad-e a kapcsolatokat, "
+"nézze meg az :admin-docs:`API-beállításokat </system/api.html>`. Ha a "
+"``https://zammad.example.com/mcp`` címmel való kapcsolat sikertelen, akkor "
+"kérdezze meg az adminisztrátort, hogy a kiszolgáló engedélyezve van-e."
 
 #: ../extras/mcp-server.rst:15
 msgid "Connect an AI Client"
-msgstr ""
+msgstr "MI-ügyfélprogram csatlakoztatása"
 
 #: ../extras/mcp-server.rst:17
 msgid ""
 "Connecting takes a personal access token and the address of the server in "
 "your client."
 msgstr ""
+"A kapcsolódáshoz egy személyes hozzáférési tokenre és a kiszolgáló címére "
+"van szükség az ügyfélprogramjában."
 
 #: ../extras/mcp-server.rst:21
 msgid "Create a Personal Access Token"
-msgstr ""
+msgstr "Személyes hozzáférési token létrehozása"
 
 #: ../extras/mcp-server.rst:23
 msgid ""
@@ -7924,10 +8026,17 @@ msgid ""
 "can give the token an expiration date. Copy the token that Zammad shows you "
 "when the token is created."
 msgstr ""
+"Az ügyfélprogram a fiókja személyes hozzáférési tokenjével kapcsolódik. "
+"Nyissa meg a profilját (*Profilkép > Profil > Tokenes hozzáférés*, nézze meg "
+"a :doc:`személyes beállításokat </extras/user-menu-profile-settings>`), és "
+"hozzon létre egy ``ticket.agent`` jogosultsággal rendelkező tokent, hogy az "
+"ügyfélprogram dolgozhasson a jegyekkel. Adhat lejárati dátumot is a "
+"tokenhez. Másolja le a tokent, amelyet a Zammad megjeleníti a token "
+"létrehozásakor."
 
 #: ../extras/mcp-server.rst:31
 msgid "Add Zammad to Your Client"
-msgstr ""
+msgstr "A Zammad hozzáadása az ügyfélprogramhoz"
 
 #: ../extras/mcp-server.rst:33
 msgid ""
@@ -7936,34 +8045,43 @@ msgid ""
 "Bearer`` header with every request. Supporting the transport alone is not "
 "enough. Such a client asks for the same three entries:"
 msgstr ""
+"Adja hozzá a Zammadot az ügyfélprogramhoz MCP-kiszolgálóként. Az "
+"ügyfélprogramnak *streamelhető HTTP* MCP-átvitelre van szüksége, valamint "
+"arra a képességre, hogy egy rögzített ``Authorization: Bearer`` fejlécet "
+"tudjon küldeni minden kéréssel. Az átvitel támogatása önmagában nem "
+"elegendő. Egy ilyen ügyfélprogram ugyanazt a három bejegyzést kéri:"
 
 #: ../extras/mcp-server.rst:40
 msgid "Server address"
-msgstr ""
+msgstr "Kiszolgáló címe"
 
 #: ../extras/mcp-server.rst:39
 msgid ""
 "The domain you open Zammad with, with ``/mcp`` after it: ``https://"
 "zammad.example.com/mcp``."
 msgstr ""
+"Az a tartomány, amelyen a Zammadot megnyitja, majd utána a ``/mcp`` végpont: "
+"``https://zammad.example.com/mcp``."
 
 #: ../extras/mcp-server.rst:43
 msgid "Transport"
-msgstr ""
+msgstr "Átvitel"
 
 #: ../extras/mcp-server.rst:43
 msgid "Streamable HTTP."
-msgstr ""
+msgstr "Streamelhető HTTP."
 
 #: ../extras/mcp-server.rst:47
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ../extras/mcp-server.rst:46
 msgid ""
 "``Authorization: Bearer {your token}``, sent as an HTTP header with every "
 "request."
 msgstr ""
+"``Authorization: Bearer {az Ön tokenje}``, amely HTTP-fejlécként kerül "
+"elküldésre minden kéréssel."
 
 #: ../extras/mcp-server.rst:49
 msgid ""
@@ -7971,6 +8089,11 @@ msgid ""
 "with the address and the header. Replace ``zammad.example.com`` with the "
 "domain you open Zammad with and ``{your token}`` with the token you copied:"
 msgstr ""
+"Azok az ügyfélprogramok, amelyek JSON-beállítást olvasnak be – ahogyan sokan "
+"teszik –, a Zammadot a megadott címmel és fejléccel rendelkező "
+"kiszolgálóként használják. Cserélje ki a ``zammad.example.com`` tartományt "
+"arra a tartományra, amelyen a Zammadot megnyitja, ``{az Ön tokenje}`` "
+"helyett pedig a lemásolt tokent illessze be:"
 
 #: ../extras/mcp-server.rst:68
 msgid ""
@@ -7978,6 +8101,10 @@ msgid ""
 "that others can read or that ends up in a repository. Keep the file private, "
 "or use the reference to a stored secret where your client supports one."
 msgstr ""
+"A token a jelszóhoz hasonlóan működik. Ne tegye be olyan beállítófájlba, "
+"amelyet mások olvashatnak, vagy amely végül egy tárolóba kerül. Tartsa a "
+"fájlt bizalmasan, vagy használjon egy tárolt titokra mutató hivatkozást, "
+"ahol az ügyfélprogramja támogatja ezt."
 
 #: ../extras/mcp-server.rst:72
 msgid ""
@@ -7985,6 +8112,9 @@ msgid ""
 "connection works, a first request such as \"Show my assigned tickets\" shows "
 "whether the client reaches Zammad."
 msgstr ""
+"Más ügyfélprogramok is ugyanezt a három bejegyzést kérik a saját űrlapjukon. "
+"Amint a kapcsolat működik, az első kérés, például „Mutasd a hozzám rendelt "
+"jegyeket” megmutatja, hogy az ügyfélprogram eléri-e a Zammadot."
 
 #: ../extras/mcp-server.rst:76
 msgid ""
@@ -7992,10 +8122,13 @@ msgid ""
 "Zammad with. If the connection fails, check that the client uses exactly "
 "that address."
 msgstr ""
+"A Zammad csak azon a címen válaszol, amelyre be van állítva, vagyis azon, "
+"amelyen a Zammadot megnyitja. Ha a kapcsolat sikertelen, akkor ellenőrizze, "
+"hogy az ügyfélprogram pontosan azt a címet használja-e."
 
 #: ../extras/mcp-server.rst:81
 msgid "What the Client Can Do"
-msgstr ""
+msgstr "Mit tehet az ügyfélprogram"
 
 #: ../extras/mcp-server.rst:83
 msgid ""
@@ -8005,26 +8138,34 @@ msgid ""
 "tools from the server. The complete list of the tools, with the access of "
 "each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
+"A csatlakoztatott ügyfélprogram az Ön jogosultságaival működik: pontosan azt "
+"teheti, amit a token és az Ön fiókja tehet, semmi többet, és úgy rögzíti a "
+"változtatásait, mintha azokat Ön végezte volna el. Egy ügyintézői "
+"jogosultságok nélküli felhasználó, például egy ügyfél, nem kap eszközöket a "
+"kiszolgálótól. Az eszközök teljes listája, az egyes eszközök hozzáférésével "
+"és korlátaival együtt megtalálható az :docs:`MCP-eszközhivatkozásban </api/"
+"mcp.html>`."
 
 #: ../extras/mcp-server.rst:89
 msgid ""
 "Open a ticket by its number, its ID or a pasted link, and read its messages, "
 "internal notes, attachments, history and shared draft."
 msgstr ""
+"Jegy megnyitása a száma, az azonosítója vagy egy beillesztett hivatkozás "
+"alapján, valamint az üzenetei, a belső jegyzetei, a mellékletei, az "
+"előzményei és a megosztott piszkozatai olvasása."
 
 #: ../extras/mcp-server.rst:92
-#, fuzzy
-#| msgid "You can find tabs for your opened tickets, users and organizations."
 msgid "Read a ticket's customer and organization."
-msgstr ""
-"Lapokat találhat a megnyitott jegyeihez, a felhasználókhoz és a "
-"szervezetekhez."
+msgstr "Egy jegy ügyfelének és szervezetének olvasása."
 
 #: ../extras/mcp-server.rst:94
 msgid ""
 "Find tickets by words and by names, such as the customer, organization, "
 "state, owner, group or priority of a ticket."
 msgstr ""
+"Jegyek keresése szavak és nevek alapján, mint például egy jegy ügyfele, "
+"szervezete, állapota, tulajdonosa, csoportja vagy prioritása."
 
 #: ../extras/mcp-server.rst:97
 msgid ""
@@ -8032,29 +8173,39 @@ msgid ""
 "by creation or last update, so that the client can start at the oldest "
 "ticket."
 msgstr ""
+"Saját áttekintések és az azok jegyeinek felsorolása, valamint a listák "
+"rendezése, például a létrehozás vagy az utolsó frissítés szerint, hogy az "
+"ügyfélprogram a legrégebbi jeggyel kezdhesse."
 
 #: ../extras/mcp-server.rst:101
 msgid "Search users, organizations and the knowledge base."
-msgstr ""
+msgstr "Felhasználók, szervezetek és a tudásbázis keresése."
 
 #: ../extras/mcp-server.rst:103
 msgid ""
 "Read the text of files attached to a message: text files up to 10 MB, other "
 "files come back as a link to download them."
 msgstr ""
+"Egy üzenethez csatolt fájlok szövegének olvasása: legfeljebb 10 MB méretű "
+"szövegfájlok, az egyéb fájlok a letöltésükre mutató hivatkozásként jelennek "
+"meg."
 
 #: ../extras/mcp-server.rst:106
 msgid "Change ticket attributes, set tags and add internal notes."
 msgstr ""
+"Jegyattribútumok megváltoztatása, címkék beállítása és belső jegyzetek "
+"hozzáadása."
 
 #: ../extras/mcp-server.rst:108
 msgid ""
 "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
+"Megosztott piszkozatok mentése és küldése, valamint jegyek és "
+"tudásbázisválaszok hozzákapcsolása."
 
 #: ../extras/mcp-server.rst:110
 msgid "Create tickets and write messages."
-msgstr ""
+msgstr "Jegyek létrehozása és üzenetek írása."
 
 #: ../extras/mcp-server.rst:112
 msgid ""
@@ -8063,6 +8214,12 @@ msgid ""
 "accept plain text only, HTML is refused there. Files cannot be sent through "
 "the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
+"Az üzenetek, a jegyzetek és a piszkozatok egyszerű szövegként vagy HTML-"
+"formátumban is írhatók. A Zammad az utóbbiból eltávolítja a nem biztonságos "
+"jelöléseket. Az SMS, a Telegram, a WhatsApp és a Facebook csak egyszerű "
+"szöveget fogad el, a HTML ott elutasításra kerül. Fájlokat nem lehet az "
+"ügyfélprogramon keresztül küldeni: ha szeretne fájlt küldeni, akkor adja "
+"hozzá az üzenethez magában a Zammadban."
 
 #: ../extras/mcp-server.rst:117
 msgid ""
@@ -8070,10 +8227,13 @@ msgid ""
 "and records it. You can also tell it that you account no time, and Zammad "
 "then records the message without accounted time."
 msgstr ""
+"Ahol egy jegy időelszámolást kér, az ügyfélprogram megkérdezi Öntől az időt, "
+"és rögzíti azt. Azt is megmondhatja, hogy nem számol el időt, és a Zammad "
+"ekkor elszámolt idő nélkül rögzíti az üzenetet."
 
 #: ../extras/mcp-server.rst:122
 msgid "Approval of Outgoing Messages"
-msgstr ""
+msgstr "Kimenő üzenetek jóváhagyása"
 
 #: ../extras/mcp-server.rst:124
 msgid ""
@@ -8082,6 +8242,10 @@ msgid ""
 "message, the recipients and the visibility, and Zammad sends only after you "
 "accept."
 msgstr ""
+"Ahol az ügyfélprogram meg tudja jeleníteni, a Zammad megkéri Önt, hogy "
+"hagyjon jóvá egy üzenetet, mielőtt az eljutna egy ügyfélhez. A jóváhagyási "
+"kérés megjeleníti az üzenet teljes szövegét, a címzetteket és a "
+"láthatóságot, és a Zammad csak azután küldi el, ha Ön jóváhagyta."
 
 #: ../extras/mcp-server.rst:129
 msgid ""
@@ -8089,6 +8253,10 @@ msgid ""
 "client can then offer to save the text as the ticket's shared draft, where "
 "the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
+"Ha elutasítja, akkor a Zammad nem küld el semmit, és semmit sem változtat a "
+"jegyen. Az ügyfélprogram ekkor felajánlhatja, hogy elmenti a szöveget a jegy "
+"megosztott piszkozataként Önnek, ahol a csoport engedélyezi a megosztott "
+"piszkozatokat, hogy magából a Zammadból küldje el."
 
 #: ../extras/mcp-server.rst:133
 msgid ""
@@ -8099,6 +8267,15 @@ msgid ""
 "Keep the approval of tool calls enabled in your client, because a client "
 "that runs them without a prompt sends a message without any further question."
 msgstr ""
+"Egy olyan ügyfélprogram, amely nem tudja megjeleníteni a jóváhagyási "
+"űrlapot, az eszközhívás saját jóváhagyására támaszkodik, ahogyan minden "
+"változtatás esetén, és a Zammad nem kérdezi meg másodszor. A Zammad továbbra "
+"is kéri az Ön jóváhagyását két változtatás esetén: egy már elmentett, "
+"megosztott piszkozat cseréjénél, valamint egy olyan jegy lezárásánál, "
+"amelynek ellenőrzőlistája hiányos. Folyamatosan engedélyezze az "
+"eszközhívások jóváhagyását az ügyfélprogramban, mert egy olyan "
+"ügyfélprogram, amely kérés nélkül futtatja azokat, további kérdés nélkül "
+"küld el egy üzenetet."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -10247,13 +10424,6 @@ msgid "Token Access"
 msgstr "Tokenes hozzáférés"
 
 #: ../extras/user-menu-profile-settings.rst:197
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third party applications to use the "
-#| "Zammad API. Send a token as HTTP header with your API calls, either as "
-#| "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
-#| "{your token}``. Both formats work for the same token. The API "
-#| "documentation shows both variants."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -10268,7 +10438,9 @@ msgstr ""
 "fejlécként az API-hívásokkal, akár ``Authorization: Token token={az Ön "
 "tokenje}``, akár ``Authorization: Bearer {az Ön tokenje}`` formában. Mindkét "
 "formátum működik ugyanazon token esetében. Az API-dokumentáció mindkét "
-"változatot bemutatja."
+"változatot bemutatja. Az ilyen módon csatlakoztatható egyik alkalmazás egy "
+"MI-ügyfélprogram, amely az :doc:`MCP-kiszolgálón </extras/mcp-server>` "
+"keresztül dolgozik a jegyein."
 
 #: ../extras/user-menu-profile-settings.rst:206
 msgid ""
@@ -10313,6 +10485,14 @@ msgstr ""
 "Jelenleg a Zammad felhasználói dokumentációját olvassa. :docs:`Rendszer- </"
 "index.html>` és :admin-docs:`adminisztrátori kézikönyvek</index.html>` is "
 "elérhetők."
+
+#~ msgid ""
+#~ "**New**: State for new tickets on which no one has worked on. When "
+#~ "updating a ticket the first time, it automatically switches to open."
+#~ msgstr ""
+#~ "**Új**: az olyan új jegyek állapota, amelyeken még senki sem dolgozott. "
+#~ "Egy jegy első alkalommal történő frissítésekor automatikusan nyitott "
+#~ "állapotra vált."
 
 #~ msgid ""
 #~ "Zammad offers AI-powered features to help you manage support tickets more "
