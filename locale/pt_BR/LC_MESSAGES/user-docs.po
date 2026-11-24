@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-04 13:12+0000\n"
+"PO-Revision-Date: 2026-11-20 16:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -1356,11 +1356,11 @@ msgstr ""
 "em massa nos tickets. Isso significa que você pode ajustar as seguintes "
 "informações do ticket:"
 
-#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
+#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr "Grupo"
 
-#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
+#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr "Responsável"
@@ -1369,7 +1369,7 @@ msgstr "Responsável"
 msgid "State (with pending time, if applicable)"
 msgstr "Estado (com tempo de pendência, se aplicável)"
 
-#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
+#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:555
 msgid "Priority"
 msgstr "Prioridade"
@@ -2482,14 +2482,12 @@ msgstr "Via visões gerais"
 #: ../basics/find-tickets.rst:11
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
 "Se você procura novos tickets para trabalhar, seu primeiro olhar deve ser a "
-"seção de visões gerais. Ela dá um panorama geral. Mais detalhes são tratados "
-"em uma página própria sobre visões gerais."
+"seção de visões gerais. Ela dá um panorama geral."
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2503,18 +2501,18 @@ msgstr ""
 "a visão geral **Tickets abertos e sem responsável** pode ser um bom ponto de "
 "partida."
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 "Meus tickets atribuídos: tickets abertos nos quais você é o responsável."
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 "Tickets abertos e sem responsável: tickets abertos que não têm responsável "
 "definido."
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
@@ -2522,11 +2520,11 @@ msgstr ""
 "Meus tickets pendentes: tickets nos quais você é o responsável, que têm o "
 "estado de *lembrete pendente* e cujo tempo do lembrete pendente foi atingido."
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr "Tickets abertos: tickets em aberto."
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
@@ -2534,7 +2532,7 @@ msgstr ""
 "Tickets com pendência atingida: tickets no estado *lembrete pendente* cujo "
 "tempo do lembrete foi atingido."
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
@@ -2542,7 +2540,7 @@ msgstr ""
 "Tickets escalonados: tickets que estão escalonados ou escalonarão nos "
 "próximos 10 minutos."
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
@@ -2552,28 +2550,28 @@ msgstr ""
 "são baseadas em condições — basicamente regras — que definem qual ticket "
 "aparece em qual visão geral."
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr "Exemplo de visualização das visões gerais"
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr "Clique em ``Overviews`` no menu principal para navegar pelos tickets."
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr "Você pode ajustar as visões gerais em alguns aspectos:"
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr "Clique no cabeçalho de uma coluna para alterar a ordenação."
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 "Clique e arraste os divisores de coluna para ajustar a largura da coluna."
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
@@ -2581,14 +2579,14 @@ msgstr ""
 "Ajuste a ordem das visões gerais no seu :doc:`perfil de usuário </extras/"
 "user-menu-profile-settings>`."
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 "A necessidade de ação é codificada por cores e reflete principalmente os "
 "estados do ticket:"
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
@@ -2597,7 +2595,7 @@ msgstr ""
 "um :doc:`agente de IA </extras/ai-features>` está trabalhando no ticket "
 "neste momento."
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2609,11 +2607,69 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "Visão geral mostrando 3 tickets com prioridades diferentes"
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+"Passe o mouse sobre o título ou o número de um ticket em uma visão geral "
+"para ver os detalhes dele sem abri-lo. Um clique no título ou no número do "
+"ticket abre o ticket normalmente."
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+"Além do título, do número e de um botão que copia o número, o popover mostra "
+"o seguinte, se disponível:"
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+"Um selo **Checked** com o número de itens concluídos e o total de itens do "
+"checklist. Ele abre o checklist do ticket."
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+"Um selo **Customer sentiment** com o humor do cliente detectado por IA. Ele "
+"abre o resumo de IA do ticket."
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr "A intenção do cliente, tirada do resumo de IA."
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+"O primeiro e o último artigo, cada um com uma breve prévia do texto. Se o "
+"resumo de IA contiver uma intenção do cliente, só o último artigo é mostrado."
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+"Os selos e o texto de IA dependem do recurso correspondente. O selo do "
+"checklist só aparece enquanto o ticket tem um checklist em aberto; as partes "
+"de IA, só se o recurso de resumo de IA estiver ativado e já existir um "
+"resumo para o ticket."
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr "Via pesquisa"
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2631,7 +2687,7 @@ msgstr ""
 "A captura de tela mostra a pesquisa do Zammad com resultados na barra "
 "lateral de navegação."
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
@@ -2641,27 +2697,27 @@ msgstr ""
 "organizações e registros de chat. Basicamente, ele pesquisa todas as "
 "informações armazenadas no Zammad e indexadas pelo Elasticsearch, como:"
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr "Assunto e texto da mensagem"
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr "Nomes e endereços de email"
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr "Texto em anexos de arquivo"
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr "Detalhes de usuários e organizações (como notas, nomes, etc.)"
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr "Artigos da base de conhecimento"
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2673,7 +2729,7 @@ msgstr ""
 "um resultado abre uma nova aba de navegação (se ainda não estiver aberta) "
 "com o item."
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2687,7 +2743,7 @@ msgstr ""
 "A captura de tela mostra a página de detalhes da pesquisa com a aba "
 "\"Ticket\" ativada."
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2707,7 +2763,7 @@ msgstr ""
 "pesquisar atributos específicos, como data de criação ou o email do "
 "responsável pelo ticket."
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
@@ -2863,13 +2919,13 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
-"**New**: State for new tickets on which no one has worked on. When updating "
-"a ticket the first time, it automatically switches to open."
+"**New**: State for new tickets on which an agent has not sent a public reply "
+"yet. Adding an internal note or changing other ticket attributes does not "
+"change the state. The ticket switches to open automatically as soon as an "
+"agent sends the first public reply."
 msgstr ""
-"**Novo**: estado para tickets novos nos quais ninguém trabalhou. Ao "
-"atualizar o ticket pela primeira vez, ele muda automaticamente para aberto."
 
-#: ../basics/ticket-basics.rst:69
+#: ../basics/ticket-basics.rst:71
 msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
@@ -2877,7 +2933,7 @@ msgstr ""
 "**Open**: estado para tickets que ainda não foram resolvidos e algum "
 "trabalho precisa ser feito."
 
-#: ../basics/ticket-basics.rst:71
+#: ../basics/ticket-basics.rst:73
 msgid ""
 "**Pending Close**: State for tickets which are basically resolved but you "
 "don't want to close immediately. This state requires you to enter a date and "
@@ -2887,7 +2943,7 @@ msgstr ""
 "mas você não quer fechá-los imediatamente. Esse estado exige que você "
 "informe uma data e hora em que o ticket muda automaticamente para fechado."
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid ""
 "**Pending Reminder**: State for open tickets which you want to get reminded "
 "to a certain date and time. Requires you to enter a date and time at which "
@@ -2899,7 +2955,7 @@ msgstr ""
 "da notificação. Útil, por exemplo, quando você fez uma pergunta a um "
 "terceiro e quer garantir que a questão não seja esquecida."
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid ""
 "**Merged**: State for a ticket which was merged into another ticket. Check "
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
@@ -2909,7 +2965,7 @@ msgstr ""
 "os :doc:`tickets vinculados </advanced/ticket-actions/link>` ou "
 "o :ref:`histórico do ticket <ticket-submenu>` para ver o ticket relacionado."
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid ""
 "Zammad's states are color coded. This helps you to understanding the state "
 "of the ticket much faster in general - without having a look into details."
@@ -2917,7 +2973,7 @@ msgstr ""
 "Os estados do Zammad são codificados por cores. Isso ajuda a entender o "
 "estado do ticket muito mais rápido em geral — sem precisar olhar os detalhes."
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
@@ -2925,19 +2981,19 @@ msgstr ""
 "A prioridade de um ticket é simplesmente uma classificação (de 1 a 3) de "
 "quão urgente ou importante ele é. As três prioridades padrão são:"
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr "1 baixa"
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr "2 normal"
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr "3 alta"
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid ""
 "In case these priorities aren't enough, ask your Zammad admin to create "
 "additional ones. Admins can find more information :admin-docs:`here </system/"
@@ -2951,7 +3007,7 @@ msgstr ""
 "reconhecer imediatamente a importância dos tickets, pois são codificadas por "
 "cores:"
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid ""
 "You might wonder what such a ticket priority is for. Out of the box, it "
 "doesn't actually do anything except the highlighting. However, Zammad "
@@ -2963,7 +3019,7 @@ msgstr ""
 "administradores do Zammad podem configurar todo tipo de automação e análise "
 "com base na prioridade."
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid ""
 "Be aware that customers can't set a priority for their own tickets. "
 "Otherwise some might set their tickets always to high and hope for an "
@@ -2973,12 +3029,12 @@ msgstr ""
 "contrário, alguns sempre marcariam seus tickets como alta esperando um "
 "escalonamento imediato."
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:710
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:710
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Tags"
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid ""
 "Tags are custom labels that can be attached to tickets to make it easier to "
 "find them in the future. You find the tag section under the attribute fields."
@@ -2993,7 +3049,7 @@ msgstr ""
 "A captura de tela mostra a seção de tags em destaque na aba da barra lateral "
 "do ticket"
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid ""
 "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
@@ -3008,7 +3064,7 @@ msgstr ""
 "lista de sugestões correspondentes. Para remover, clique no botão ``X`` do "
 "lado direito da tag."
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -3024,7 +3080,7 @@ msgstr ""
 "sistema Zammad, ou você não tem permissão para criar um ticket em outros "
 "grupos."
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -3038,7 +3094,7 @@ msgstr ""
 "usuário. Neste último caso, o usuário é notificado e inscrito "
 "automaticamente para receber notificações das atualizações do ticket."
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
@@ -3046,7 +3102,7 @@ msgstr ""
 "Para mudar o responsável para uma pessoa que só tem acesso aos tickets de "
 "outro grupo, primeiro é preciso trocar o grupo adequadamente."
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -3568,7 +3624,7 @@ msgstr "Marca-texto do ticket"
 
 #: ../basics/work-with-tickets.rst:269
 msgid "Unprocessable Email Tickets"
-msgstr ""
+msgstr "Tickets de email não processável"
 
 #: ../basics/work-with-tickets.rst:271
 msgid ""
@@ -3577,16 +3633,22 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
+"O Zammad transforma os emails recebidos em tickets. Quando um email não pôde "
+"ser processado de forma alguma, o ticket não mostra o email como artigo. Em "
+"vez disso, um aviso acima da conversa informa que o ticket foi criado porque "
+"o email não pôde ser processado. Dois botões permitem ver o que chegou:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
-msgstr ""
+msgstr "``Download raw email``: o email como o remetente o enviou."
 
 #: ../basics/work-with-tickets.rst:277
 msgid ""
 "``Download processing log``: the technical details Zammad logged when "
 "processing failed."
 msgstr ""
+"``Download processing log``: os detalhes técnicos que o Zammad registrou "
+"quando o processamento falhou."
 
 #: ../basics/work-with-tickets.rst:280
 msgid ""
@@ -3594,6 +3656,9 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
+"O ticket pode aparecer sem nenhum cliente ou com um cliente sem endereço de "
+"email, porque o Zammad não conseguiu ler um endereço de remetente "
+"utilizável. O que fazer em seguida depende do que o email original revela:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3601,18 +3666,25 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
+"**Endereço de remetente com problema**: o email original mostra quem "
+"escreveu. Corrija o endereço que falta via **Edit customer** ou use **Change "
+"customer** para escolher o cliente a quem você quer responder."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
+"**Nenhum remetente**: o ticket não tem cliente. Veja quem escreveu no email "
+"original e use **Change customer** para escolhê-lo."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
+"**Nada legível**: confira o log de processamento, feche o ticket e entregue "
+"o email original e o log de processamento ao seu administrador."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -5775,6 +5847,10 @@ msgid ""
 "such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
 "mcp-server>`."
 msgstr ""
+"O Zammad oferece recursos com IA para ajudar você a gerenciar tickets de "
+"suporte com mais eficiência. Para trabalhar nos seus tickets a partir de um "
+"aplicativo de IA que você já usa, como um aplicativo de chat ou uma "
+"ferramenta de programação, veja :doc:`Servidor MCP </extras/mcp-server>`."
 
 #: ../extras/ai-features.rst:12
 msgid ""
@@ -6083,14 +6159,23 @@ msgid "Knowledge Base Answer Suggestion"
 msgstr "Sugestão de resposta da base de conhecimento"
 
 #: ../extras/ai-features.rst:136
+#, fuzzy
+#| msgid ""
+#| "This feature compares the ticket content against the knowledge base and "
+#| "shows relevant answers under **Suggested knowledge** if they meet the "
+#| "admin-configured score threshold. Each suggestion shows the title of the "
+#| "answer and more details on hover. An additional relevance score is only "
+#| "shown to users with the corresponding admin permissions. Click on the "
+#| "title to open the answer in the knowledge base. Click the ``+`` on the "
+#| "right side to link it to the ticket."
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested knowledge** if they meet the admin-"
-"configured score threshold. Each suggestion shows the title of the answer "
-"and more details on hover. An additional relevance score is only shown to "
-"users with the corresponding admin permissions. Click on the title to open "
-"the answer in the knowledge base. Click the ``+`` on the right side to link "
-"it to the ticket."
+"shows relevant answers under **Suggested** if they meet the admin-configured "
+"score threshold. Each suggestion shows the title of the answer and more "
+"details on hover. An additional relevance score is only shown to users with "
+"the corresponding admin permissions. Click on the title to open the answer "
+"in the knowledge base. Click the ``+`` on the right side to link it to the "
+"ticket. Linked answers are listed above under **Linked**."
 msgstr ""
 "Este recurso compara o conteúdo do ticket com a base de conhecimento e "
 "mostra respostas relevantes em **Suggested knowledge** se elas atingirem o "
@@ -6101,7 +6186,7 @@ msgstr ""
 "base de conhecimento. Clique no ``+`` do lado direito para vinculá-la ao "
 "ticket."
 
-#: ../extras/ai-features.rst:143
+#: ../extras/ai-features.rst:144
 msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
@@ -6109,11 +6194,11 @@ msgstr ""
 "Se não houver sugestões disponíveis, a mensagem \"No suggestions.\" é "
 "exibida em seu lugar."
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:150
 msgid "AI Agents"
 msgstr "Agentes de IA"
 
-#: ../extras/ai-features.rst:151
+#: ../extras/ai-features.rst:152
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes, but if configured, you may "
@@ -6129,11 +6214,11 @@ msgstr ""
 "até executá-la manualmente. Pergunte ao admin e confira na :doc:`página de "
 "macros </advanced/macros>` como usá-la."
 
-#: ../extras/ai-features.rst:166
+#: ../extras/ai-features.rst:167
 msgid "Ticket history"
 msgstr "Histórico do ticket"
 
-#: ../extras/ai-features.rst:159
+#: ../extras/ai-features.rst:160
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6143,7 +6228,7 @@ msgstr ""
 "ticket com o nome do agente de IA. Se notar problemas recorrentes no que o "
 "agente de IA fez, informe seu administrador do Zammad."
 
-#: ../extras/ai-features.rst:163
+#: ../extras/ai-features.rst:164
 msgid "Example of a history entry of an AI agent:"
 msgstr "Exemplo de uma entrada de histórico de um agente de IA:"
 
@@ -6152,11 +6237,11 @@ msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 "A captura de tela mostra a entrada de histórico do agente de IA no ticket"
 
-#: ../extras/ai-features.rst:177
+#: ../extras/ai-features.rst:178
 msgid "Simultaneous work detection"
 msgstr "Detecção de trabalho simultâneo"
 
-#: ../extras/ai-features.rst:169
+#: ../extras/ai-features.rst:170
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -6169,7 +6254,7 @@ msgstr ""
 "salvas. Se você vir um avatar de agente de IA, aguarde um momento ou vá para "
 "outro ticket."
 
-#: ../extras/ai-features.rst:174
+#: ../extras/ai-features.rst:175
 msgid "Avatar of AI agent:"
 msgstr "Avatar de agente de IA:"
 
@@ -6177,11 +6262,11 @@ msgstr "Avatar de agente de IA:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "A captura de tela mostra o avatar de um agente de IA"
 
-#: ../extras/ai-features.rst:183
+#: ../extras/ai-features.rst:184
 msgid "Overview indicator"
 msgstr "Indicador na visão geral"
 
-#: ../extras/ai-features.rst:180
+#: ../extras/ai-features.rst:181
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -7681,7 +7766,7 @@ msgstr ""
 
 #: ../extras/mcp-server.rst:2
 msgid "MCP Server"
-msgstr ""
+msgstr "Servidor MCP"
 
 #: ../extras/mcp-server.rst:4
 msgid ""
@@ -7690,6 +7775,11 @@ msgid ""
 "tool, and read, find and update your tickets from there. The server is part "
 "of every installation, you do not install or run anything in addition."
 msgstr ""
+"O Zammad tem seu próprio servidor para o *Model Context Protocol* (MCP). "
+"Conecte a ele um cliente de IA que você já usa, por exemplo um aplicativo de "
+"chat ou uma ferramenta de programação, e leia, encontre e atualize seus "
+"tickets a partir dali. O servidor faz parte de toda instalação: você não "
+"instala nem executa nada além disso."
 
 #: ../extras/mcp-server.rst:9
 msgid ""
@@ -7698,20 +7788,26 @@ msgid ""
 "``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
 "is enabled."
 msgstr ""
+"Se o servidor aceita conexões é uma decisão do seu administrador; veja "
+"as :admin-docs:`configurações de API </system/api.html>`. Se uma conexão com "
+"``https://zammad.example.com/mcp`` falhar, pergunte ao seu administrador se "
+"o servidor está ativado."
 
 #: ../extras/mcp-server.rst:15
 msgid "Connect an AI Client"
-msgstr ""
+msgstr "Conectar um cliente de IA"
 
 #: ../extras/mcp-server.rst:17
 msgid ""
 "Connecting takes a personal access token and the address of the server in "
 "your client."
 msgstr ""
+"A conexão exige um token de acesso pessoal e o endereço do servidor no seu "
+"cliente."
 
 #: ../extras/mcp-server.rst:21
 msgid "Create a Personal Access Token"
-msgstr ""
+msgstr "Criar um token de acesso pessoal"
 
 #: ../extras/mcp-server.rst:23
 msgid ""
@@ -7722,10 +7818,16 @@ msgid ""
 "can give the token an expiration date. Copy the token that Zammad shows you "
 "when the token is created."
 msgstr ""
+"O cliente se conecta com um token de acesso pessoal da sua conta. Abra seu "
+"perfil (*Avatar > Profile > Token Access*, veja :doc:`Configurações pessoais "
+"</extras/user-menu-profile-settings>`) e crie um token com a permissão "
+"``ticket.agent``, para que o cliente possa trabalhar com tickets. Você pode "
+"dar uma data de expiração ao token. Copie o token que o Zammad mostra quando "
+"o token é criado."
 
 #: ../extras/mcp-server.rst:31
 msgid "Add Zammad to Your Client"
-msgstr ""
+msgstr "Adicionar o Zammad ao seu cliente"
 
 #: ../extras/mcp-server.rst:33
 msgid ""
@@ -7734,34 +7836,42 @@ msgid ""
 "Bearer`` header with every request. Supporting the transport alone is not "
 "enough. Such a client asks for the same three entries:"
 msgstr ""
+"Adicione o Zammad ao cliente como servidor MCP. O cliente precisa do "
+"transporte MCP *Streamable HTTP* e da capacidade de enviar um cabeçalho fixo "
+"``Authorization: Bearer`` em toda requisição. Suportar só o transporte não "
+"basta. Um cliente assim pede as mesmas três informações:"
 
 #: ../extras/mcp-server.rst:40
 msgid "Server address"
-msgstr ""
+msgstr "Endereço do servidor"
 
 #: ../extras/mcp-server.rst:39
 msgid ""
 "The domain you open Zammad with, with ``/mcp`` after it: ``https://"
 "zammad.example.com/mcp``."
 msgstr ""
+"O domínio pelo qual você abre o Zammad, seguido de ``/mcp``: ``https://"
+"zammad.example.com/mcp``."
 
 #: ../extras/mcp-server.rst:43
 msgid "Transport"
-msgstr ""
+msgstr "Transporte"
 
 #: ../extras/mcp-server.rst:43
 msgid "Streamable HTTP."
-msgstr ""
+msgstr "Streamable HTTP."
 
 #: ../extras/mcp-server.rst:47
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ../extras/mcp-server.rst:46
 msgid ""
 "``Authorization: Bearer {your token}``, sent as an HTTP header with every "
 "request."
 msgstr ""
+"``Authorization: Bearer {your token}``, enviado como cabeçalho HTTP em toda "
+"requisição."
 
 #: ../extras/mcp-server.rst:49
 msgid ""
@@ -7769,6 +7879,10 @@ msgid ""
 "with the address and the header. Replace ``zammad.example.com`` with the "
 "domain you open Zammad with and ``{your token}`` with the token you copied:"
 msgstr ""
+"Clientes que leem uma configuração JSON, como muitos fazem, recebem o Zammad "
+"como servidor com o endereço e o cabeçalho. Substitua ``zammad.example.com`` "
+"pelo domínio com que você abre o Zammad e ``{your token}`` pelo token que "
+"você copiou:"
 
 #: ../extras/mcp-server.rst:68
 msgid ""
@@ -7776,6 +7890,10 @@ msgid ""
 "that others can read or that ends up in a repository. Keep the file private, "
 "or use the reference to a stored secret where your client supports one."
 msgstr ""
+"O token funciona como a sua senha. Não o coloque em um arquivo de "
+"configuração que outras pessoas possam ler ou que acabe em um repositório. "
+"Mantenha o arquivo privado, ou use a referência a um segredo armazenado, se "
+"o seu cliente oferecer suporte."
 
 #: ../extras/mcp-server.rst:72
 msgid ""
@@ -7783,6 +7901,9 @@ msgid ""
 "connection works, a first request such as \"Show my assigned tickets\" shows "
 "whether the client reaches Zammad."
 msgstr ""
+"Outros clientes pedem as mesmas três informações em seu próprio formato. "
+"Quando a conexão funcionar, um primeiro pedido como \"Mostre meus tickets "
+"atribuídos\" mostra se o cliente alcança o Zammad."
 
 #: ../extras/mcp-server.rst:76
 msgid ""
@@ -7790,10 +7911,13 @@ msgid ""
 "Zammad with. If the connection fails, check that the client uses exactly "
 "that address."
 msgstr ""
+"O Zammad só responde no endereço para o qual está configurado, aquele com "
+"que você abre o Zammad. Se a conexão falhar, confira se o cliente usa "
+"exatamente esse endereço."
 
 #: ../extras/mcp-server.rst:81
 msgid "What the Client Can Do"
-msgstr ""
+msgstr "O que o cliente pode fazer"
 
 #: ../extras/mcp-server.rst:83
 msgid ""
@@ -7803,24 +7927,32 @@ msgid ""
 "tools from the server. The complete list of the tools, with the access of "
 "each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
+"O cliente conectado trabalha com as suas permissões: ele pode fazer "
+"exatamente o que o token e a sua conta podem fazer, nada além disso, e "
+"registra as alterações dele como feitas por você. Um usuário sem permissão "
+"de agente, como um cliente, não recebe nenhuma ferramenta do servidor. A "
+"lista completa das ferramentas, com o acesso e os limites de cada uma, está "
+"na :docs:`referência de ferramentas MCP </api/mcp.html>`."
 
 #: ../extras/mcp-server.rst:89
 msgid ""
 "Open a ticket by its number, its ID or a pasted link, and read its messages, "
 "internal notes, attachments, history and shared draft."
 msgstr ""
+"Abrir um ticket pelo número, pelo ID ou por um link colado, e ler as "
+"mensagens, notas internas, anexos, histórico e rascunho compartilhado dele."
 
 #: ../extras/mcp-server.rst:92
-#, fuzzy
-#| msgid "You can find tabs for your opened tickets, users and organizations."
 msgid "Read a ticket's customer and organization."
-msgstr "Você encontra abas dos seus tickets, usuários e organizações abertos."
+msgstr "Ler o cliente e a organização de um ticket."
 
 #: ../extras/mcp-server.rst:94
 msgid ""
 "Find tickets by words and by names, such as the customer, organization, "
 "state, owner, group or priority of a ticket."
 msgstr ""
+"Encontrar tickets por palavras e por nomes, como o cliente, a organização, o "
+"estado, o responsável, o grupo ou a prioridade de um ticket."
 
 #: ../extras/mcp-server.rst:97
 msgid ""
@@ -7828,29 +7960,36 @@ msgid ""
 "by creation or last update, so that the client can start at the oldest "
 "ticket."
 msgstr ""
+"Listar suas próprias visões gerais e os tickets delas, e ordenar as listas, "
+"por exemplo por criação ou última atualização, para que o cliente possa "
+"começar pelo ticket mais antigo."
 
 #: ../extras/mcp-server.rst:101
 msgid "Search users, organizations and the knowledge base."
-msgstr ""
+msgstr "Pesquisar usuários, organizações e a base de conhecimento."
 
 #: ../extras/mcp-server.rst:103
 msgid ""
 "Read the text of files attached to a message: text files up to 10 MB, other "
 "files come back as a link to download them."
 msgstr ""
+"Ler o texto de arquivos anexados a uma mensagem: arquivos de texto de até 10 "
+"MB; os demais arquivos voltam como um link para download."
 
 #: ../extras/mcp-server.rst:106
 msgid "Change ticket attributes, set tags and add internal notes."
-msgstr ""
+msgstr "Alterar atributos de ticket, definir tags e adicionar notas internas."
 
 #: ../extras/mcp-server.rst:108
 msgid ""
 "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
+"Salvar e enviar rascunhos compartilhados, e vincular tickets e respostas da "
+"base de conhecimento."
 
 #: ../extras/mcp-server.rst:110
 msgid "Create tickets and write messages."
-msgstr ""
+msgstr "Criar tickets e escrever mensagens."
 
 #: ../extras/mcp-server.rst:112
 msgid ""
@@ -7859,6 +7998,11 @@ msgid ""
 "accept plain text only, HTML is refused there. Files cannot be sent through "
 "the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
+"Mensagens, notas e rascunhos podem ser escritos em texto simples ou em HTML. "
+"O Zammad remove do HTML a marcação insegura. SMS, Telegram, WhatsApp e "
+"Facebook aceitam apenas texto simples; HTML é recusado nesses canais. Não é "
+"possível enviar arquivos pelo cliente: se quiser enviar um, adicione-o à "
+"mensagem no próprio Zammad."
 
 #: ../extras/mcp-server.rst:117
 msgid ""
@@ -7866,10 +8010,13 @@ msgid ""
 "and records it. You can also tell it that you account no time, and Zammad "
 "then records the message without accounted time."
 msgstr ""
+"Quando um ticket pede contabilização de tempo, o cliente pergunta o tempo a "
+"você e o registra. Você também pode dizer que não vai contabilizar tempo, e "
+"o Zammad então registra a mensagem sem tempo contabilizado."
 
 #: ../extras/mcp-server.rst:122
 msgid "Approval of Outgoing Messages"
-msgstr ""
+msgstr "Aprovação de mensagens enviadas"
 
 #: ../extras/mcp-server.rst:124
 msgid ""
@@ -7878,6 +8025,10 @@ msgid ""
 "message, the recipients and the visibility, and Zammad sends only after you "
 "accept."
 msgstr ""
+"Quando o cliente consegue exibir, o Zammad pede que você aprove uma mensagem "
+"antes que ela chegue a um cliente. O pedido de aprovação mostra o texto "
+"completo da mensagem, os destinatários e a visibilidade, e o Zammad só envia "
+"depois que você aceita."
 
 #: ../extras/mcp-server.rst:129
 msgid ""
@@ -7885,6 +8036,10 @@ msgid ""
 "client can then offer to save the text as the ticket's shared draft, where "
 "the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
+"Se você recusar, o Zammad não envia nada e não altera nada no ticket. O "
+"cliente pode então oferecer salvar o texto como rascunho compartilhado do "
+"ticket, onde o grupo permitir rascunhos compartilhados, para que você o "
+"envie pelo próprio Zammad."
 
 #: ../extras/mcp-server.rst:133
 msgid ""
@@ -7895,6 +8050,13 @@ msgid ""
 "Keep the approval of tool calls enabled in your client, because a client "
 "that runs them without a prompt sends a message without any further question."
 msgstr ""
+"Um cliente que não consegue exibir o formulário de aprovação depende da sua "
+"própria aprovação da chamada de ferramenta, como faz para toda alteração, e "
+"o Zammad não pergunta uma segunda vez. O Zammad ainda quer o seu \"sim\" "
+"para duas alterações: substituir um rascunho compartilhado já salvo e fechar "
+"um ticket cujo checklist está incompleto. Mantenha ativada no seu cliente a "
+"aprovação de chamadas de ferramenta, porque um cliente que as executa sem "
+"perguntar envia uma mensagem sem nenhuma confirmação adicional."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -9994,13 +10156,6 @@ msgid "Token Access"
 msgstr "Token Access"
 
 #: ../extras/user-menu-profile-settings.rst:197
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third party applications to use the "
-#| "Zammad API. Send a token as HTTP header with your API calls, either as "
-#| "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
-#| "{your token}``. Both formats work for the same token. The API "
-#| "documentation shows both variants."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -10014,7 +10169,9 @@ msgstr ""
 "do Zammad. Envie o token como cabeçalho HTTP nas suas chamadas à API, seja "
 "como ``Authorization: Token token={your token}`` ou como ``Authorization: "
 "Bearer {your token}``. Os dois formatos funcionam para o mesmo token. A "
-"documentação da API mostra as duas variantes."
+"documentação da API mostra as duas variantes. Um aplicativo que você conecta "
+"dessa forma é um cliente de IA, que trabalha nos seus tickets "
+"pelo :doc:`servidor MCP </extras/mcp-server>`."
 
 #: ../extras/user-menu-profile-settings.rst:206
 msgid ""
@@ -10059,6 +10216,14 @@ msgstr ""
 "Você está lendo a documentação do usuário do Zammad. Também estão "
 "disponíveis os manuais de :docs:`sistema </index.html>` e de :admin-"
 "docs:`administração </index.html>`."
+
+#~ msgid ""
+#~ "**New**: State for new tickets on which no one has worked on. When "
+#~ "updating a ticket the first time, it automatically switches to open."
+#~ msgstr ""
+#~ "**Novo**: estado para tickets novos nos quais ninguém trabalhou. Ao "
+#~ "atualizar o ticket pela primeira vez, ele muda automaticamente para "
+#~ "aberto."
 
 #~ msgid ""
 #~ "Zammad offers AI-powered features to help you manage support tickets more "

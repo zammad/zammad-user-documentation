@@ -1193,11 +1193,11 @@ msgid ""
 "tickets. This means you can adjust the following ticket information:"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:133
+#: ../advanced/suggested-workflows.rst:90 ../basics/ticket-basics.rst:135
 msgid "Group"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:143
+#: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
 #: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr ""
@@ -1206,7 +1206,7 @@ msgstr ""
 msgid "State (with pending time, if applicable)"
 msgstr ""
 
-#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:88
+#: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
 #: ../basics/zammad-glossary.rst:555
 msgid "Priority"
 msgstr ""
@@ -2076,11 +2076,10 @@ msgstr ""
 #: ../basics/find-tickets.rst:11
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2089,81 +2088,81 @@ msgid ""
 "Tickets** which might be a good starting point."
 msgstr ""
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
 msgstr ""
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr ""
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
 msgstr ""
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
 msgstr ""
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
 "which overview."
 msgstr ""
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr ""
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr ""
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr ""
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr ""
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
 msgstr ""
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
 msgstr ""
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2173,11 +2172,54 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr ""
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr ""
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr ""
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2190,34 +2232,34 @@ msgid ""
 "sidebar."
 msgstr ""
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
 "is stored in Zammad and which got indexed by Elasticsearch, like:"
 msgstr ""
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr ""
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr ""
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr ""
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr ""
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr ""
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2225,7 +2267,7 @@ msgid ""
 "tab (if not already opened) with the item."
 msgstr ""
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2235,7 +2277,7 @@ msgstr ""
 msgid "Screenshot shows the search details page with activated \"Ticket\" tab."
 msgstr ""
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2247,7 +2289,7 @@ msgid ""
 "owner's email address."
 msgstr ""
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
@@ -2363,24 +2405,26 @@ msgstr ""
 
 #: ../basics/ticket-basics.rst:67
 msgid ""
-"**New**: State for new tickets on which no one has worked on. When updating "
-"a ticket the first time, it automatically switches to open."
+"**New**: State for new tickets on which an agent has not sent a public reply "
+"yet. Adding an internal note or changing other ticket attributes does not "
+"change the state. The ticket switches to open automatically as soon as an "
+"agent sends the first public reply."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:69
+#: ../basics/ticket-basics.rst:71
 msgid ""
 "**Open**: State for tickets which aren't resolved yet and some work needs to "
 "be done."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:71
+#: ../basics/ticket-basics.rst:73
 msgid ""
 "**Pending Close**: State for tickets which are basically resolved but you "
 "don't want to close immediately. This state requires you to enter a date and "
 "time at which the ticket automatically switches to closed."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:74
+#: ../basics/ticket-basics.rst:76
 msgid ""
 "**Pending Reminder**: State for open tickets which you want to get reminded "
 "to a certain date and time. Requires you to enter a date and time at which "
@@ -2388,38 +2432,38 @@ msgid ""
 "third party and want to make sure that this issue won't be forgotten."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:78
+#: ../basics/ticket-basics.rst:80
 msgid ""
 "**Merged**: State for a ticket which was merged into another ticket. Check "
 "the :doc:`linked tickets </advanced/ticket-actions/link>` or "
 "the :ref:`ticket history <ticket-submenu>` to see the related ticket."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:82
+#: ../basics/ticket-basics.rst:84
 msgid ""
 "Zammad's states are color coded. This helps you to understanding the state "
 "of the ticket much faster in general - without having a look into details."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:90
+#: ../basics/ticket-basics.rst:92
 msgid ""
 "A ticket's priority is simply a ranking (from 1 to 3) of how urgent or "
 "important it is. The three default priorities are:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:93
+#: ../basics/ticket-basics.rst:95
 msgid "1 low"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:94
+#: ../basics/ticket-basics.rst:96
 msgid "2 normal"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:95
+#: ../basics/ticket-basics.rst:97
 msgid "3 high"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:97
+#: ../basics/ticket-basics.rst:99
 msgid ""
 "In case these priorities aren't enough, ask your Zammad admin to create "
 "additional ones. Admins can find more information :admin-docs:`here </system/"
@@ -2428,7 +2472,7 @@ msgid ""
 "coded:"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:108
+#: ../basics/ticket-basics.rst:110
 msgid ""
 "You might wonder what such a ticket priority is for. Out of the box, it "
 "doesn't actually do anything except the highlighting. However, Zammad "
@@ -2436,19 +2480,19 @@ msgid ""
 "priority."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:112
+#: ../basics/ticket-basics.rst:114
 msgid ""
 "Be aware that customers can't set a priority for their own tickets. "
 "Otherwise some might set their tickets always to high and hope for an "
 "immediate escalation."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:117 ../basics/zammad-glossary.rst:710
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:710
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:119
+#: ../basics/ticket-basics.rst:121
 msgid ""
 "Tags are custom labels that can be attached to tickets to make it easier to "
 "find them in the future. You find the tag section under the attribute fields."
@@ -2458,7 +2502,7 @@ msgstr ""
 msgid "Screenshot shows highlighted tag section in the ticket sidebar tab"
 msgstr ""
 
-#: ../basics/ticket-basics.rst:126
+#: ../basics/ticket-basics.rst:128
 msgid ""
 "To add a tag, click the ``+ Tag`` button. Depending on your Zammad's "
 "configuration, you can create new tags by simply type and confirm them "
@@ -2467,7 +2511,7 @@ msgid ""
 "To remove it, click the ``X`` button on the right side of the tab."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:135
+#: ../basics/ticket-basics.rst:137
 msgid ""
 "This ticket attribute is useful for organizations with more than one team. A "
 "common way to use groups is to have one for each department of the company. "
@@ -2477,7 +2521,7 @@ msgid ""
 "permission to create a ticket in other groups."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:145
+#: ../basics/ticket-basics.rst:147
 msgid ""
 "This is the person who is currently responsible for the ticket. In case you "
 "need information from another colleague, you can either change the owner to "
@@ -2486,13 +2530,13 @@ msgid ""
 "automatically subscribed to receive notifications on ticket updates."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:152
+#: ../basics/ticket-basics.rst:154
 msgid ""
 "To change the owner to a person which has only access to another group's "
 "tickets, you first have to switch the group accordingly."
 msgstr ""
 
-#: ../basics/ticket-basics.rst:157
+#: ../basics/ticket-basics.rst:159
 msgid ""
 "Now that you know the basics, check how to :doc:`create <create-tickets>` "
 "or :doc:`work with <work-with-tickets>` tickets."
@@ -4816,25 +4860,25 @@ msgstr ""
 #: ../extras/ai-features.rst:136
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested knowledge** if they meet the admin-"
-"configured score threshold. Each suggestion shows the title of the answer "
-"and more details on hover. An additional relevance score is only shown to "
-"users with the corresponding admin permissions. Click on the title to open "
-"the answer in the knowledge base. Click the ``+`` on the right side to link "
-"it to the ticket."
+"shows relevant answers under **Suggested** if they meet the admin-configured "
+"score threshold. Each suggestion shows the title of the answer and more "
+"details on hover. An additional relevance score is only shown to users with "
+"the corresponding admin permissions. Click on the title to open the answer "
+"in the knowledge base. Click the ``+`` on the right side to link it to the "
+"ticket. Linked answers are listed above under **Linked**."
 msgstr ""
 
-#: ../extras/ai-features.rst:143
+#: ../extras/ai-features.rst:144
 msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
 msgstr ""
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:150
 msgid "AI Agents"
 msgstr ""
 
-#: ../extras/ai-features.rst:151
+#: ../extras/ai-features.rst:152
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes, but if configured, you may "
@@ -4844,18 +4888,18 @@ msgid ""
 "macros>` to see how to use it."
 msgstr ""
 
-#: ../extras/ai-features.rst:166
+#: ../extras/ai-features.rst:167
 msgid "Ticket history"
 msgstr ""
 
-#: ../extras/ai-features.rst:159
+#: ../extras/ai-features.rst:160
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
 "agent did, inform your Zammad admin."
 msgstr ""
 
-#: ../extras/ai-features.rst:163
+#: ../extras/ai-features.rst:164
 msgid "Example of a history entry of an AI agent:"
 msgstr ""
 
@@ -4863,11 +4907,11 @@ msgstr ""
 msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 
-#: ../extras/ai-features.rst:177
+#: ../extras/ai-features.rst:178
 msgid "Simultaneous work detection"
 msgstr ""
 
-#: ../extras/ai-features.rst:169
+#: ../extras/ai-features.rst:170
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -4875,7 +4919,7 @@ msgid ""
 "avatar, wait for a moment or head over to another ticket."
 msgstr ""
 
-#: ../extras/ai-features.rst:174
+#: ../extras/ai-features.rst:175
 msgid "Avatar of AI agent:"
 msgstr ""
 
@@ -4883,11 +4927,11 @@ msgstr ""
 msgid "Screenshot shows avatar of an AI agent"
 msgstr ""
 
-#: ../extras/ai-features.rst:183
+#: ../extras/ai-features.rst:184
 msgid "Overview indicator"
 msgstr ""
 
-#: ../extras/ai-features.rst:180
+#: ../extras/ai-features.rst:181
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
