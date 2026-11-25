@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-31 16:12+0000\n"
+"PO-Revision-Date: 2026-11-25 07:10+0000\n"
 "Last-Translator: Dusan Vuckovic <dv@zammad.com>\n"
 "Language-Team: Serbian <https://translations.zammad.org/projects/"
 "documentations/user-documentation-latest/sr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -2828,6 +2828,10 @@ msgid ""
 "change the state. The ticket switches to open automatically as soon as an "
 "agent sends the first public reply."
 msgstr ""
+"**Ново**: Стање новоотворених тикета за које оператер још увек није послао "
+"видљив одговор. Додавање интерних. напомена или промена других атрибута "
+"тикета не мењају стање. Тикет ће аутоматски прећи у отворено стање чим "
+"оператер пошаље први одговор клијенту."
 
 #: ../basics/ticket-basics.rst:71
 msgid ""
@@ -6825,13 +6829,14 @@ msgid ""
 "is written back to the tracker. Issues only: pull requests and merge "
 "requests cannot be linked."
 msgstr ""
+"Уз интеграцију са системима за праћење проблема можете да повежете GitHub и "
+"GitLab извештаје са тикетом и пратите њихово стање док радите на њему. "
+"Zammad на тикету чува само URL адресе извештаја. Наслов, стање, тип, време "
+"закључења, одговорни и ознаке учитавају се из GitHub-а или GitLab-а сваки "
+"пут када отворите панел. Ништа се не уписује назад у систем за праћење. Само "
+"извештаји: pull request-ови и merge request-ови не могу да се повежу."
 
 #: ../extras/github-gitlab-integration.rst:11
-#, fuzzy
-#| msgid ""
-#| "This feature is **optional**; if you don't see it in the ticket view, "
-#| "that means your administrator hasn't enabled it yet. Administrators can "
-#| "learn more :admin-docs:`here </system/integrations/i-doit.html>`."
 msgid ""
 "The panels are optional. If you don't see them in the ticket sidebar, your "
 "administrator hasn't enabled the integration yet. Customers don't see the "
@@ -6839,17 +6844,17 @@ msgid ""
 "system/integrations/github.html>` and :admin-docs:`GitLab </system/"
 "integrations/gitlab.html>` integration pages."
 msgstr ""
-"Ова функција је **опциона**; ако је не видите у приказу тикета, то значи да "
-"је ваш администратор још није омогућио. Администратори могу да сазнају "
-"више :admin-docs:`овде </system/integrations/i-doit.html>`."
+"Панели су опциони. Уколико их не видите у бочној страни тикета, то значи да "
+"ваш администратор још није укључио интеграцију. Клијенти такође не виде "
+"везе. Администратори могу да сазнају више у :admin-docs:`GitHub </system/"
+"integrations/github.html>` и :admin-docs:`GitLab </system/integrations/"
+"gitlab.html>` интеграцијама."
 
 #: ../extras/github-gitlab-integration.rst:None
 msgid "Sidebar with opened GitHub panel and linked issue."
-msgstr ""
+msgstr "Бочна трака са отвореним GitHub панелом и повезаним извештајем."
 
 #: ../extras/github-gitlab-integration.rst:22
-#, fuzzy
-#| msgid "View related issues"
 msgid "View Linked Issues"
 msgstr "Погледајте сродне проблеме"
 
@@ -6866,10 +6871,18 @@ msgid ""
 "changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
 "your administrator to check the token."
 msgstr ""
+"Отворите језичак **GitHub** или **GitLab** у бочној траци тикета који већ "
+"има повезане извештаје. Сваки унос почиње иконицом стања извештаја, након "
+"које следе број и наслов извештаја. Кликните на наслов да бисте отворили "
+"извештај на GitHub-у или GitLab-у. Сваки унос приказује и поља **Кључни "
+"тренутак**, **Одговорни** и **Ознаке** извештаја. GitHub извештаји приказују "
+"и поље **Тип**. Поље се појављује само када га извештај има. Значка на "
+"језичку броји све повезане извештаје, не само отворене. Zammad учитава стање "
+"приликом учитавања панела и не прати извештаје, па се обавештење не шаље "
+"када се извештај промени. Ако панел уместо извештаја прикаже ``Неуспешно "
+"учитавање.``, замолите администратора да провери кључ."
 
 #: ../extras/github-gitlab-integration.rst:36
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Link an Issue"
 msgstr "Повежите нови проблем"
 
@@ -6881,6 +6894,11 @@ msgid ""
 "group1/project1/-/issues/1``. While you create a ticket, you can link issues "
 "too. They are saved with the new ticket."
 msgstr ""
+"Изаберите **Повежи извештај** у менију поред наслова панела, затим унесите "
+"URL једног извештаја и потврдите. Zammad прихвата линкове као што су "
+"``https://github.com/organization/repository/issues/42`` или ``https://"
+"git.example.com/group1/project1/-/issues/1``. Извештаје можете да повежете и "
+"док отварате тикет. Они се чувају заједно са новим тикетом."
 
 #: ../extras/github-gitlab-integration.rst:44
 msgid ""
@@ -6889,12 +6907,14 @@ msgid ""
 "the API token cannot read its repository or project. Ask your administrator "
 "to check the token in that case."
 msgstr ""
+"Zammad занемарује URL који је већ повезан са тикетом. Такође одбија URL који "
+"не може да разреши, обично зато што извештај не постоји или зато што API "
+"кључ нема право читања његовог репозиторијума или пројекта. У том случају "
+"замолите администратора да провери кључ."
 
 #: ../extras/github-gitlab-integration.rst:50
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Unlink an Issue"
-msgstr "Повежите нови проблем"
+msgstr "Развежите проблем"
 
 #: ../extras/github-gitlab-integration.rst:52
 msgid ""
@@ -6902,6 +6922,9 @@ msgid ""
 "reference from the ticket and leaves the issue untouched in GitHub or "
 "GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
+"Кликните на дугме ``X`` поред наслова извештаја. Развезивање уклања "
+"референцу са тикета, а извештај на GitHub-у или GitLab-у остаје нетакнут. "
+"Други тикети који су повезани са истим извештајем задржавају своју референцу."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
