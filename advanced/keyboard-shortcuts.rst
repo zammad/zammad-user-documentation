@@ -62,7 +62,7 @@ Navigation
 ========================================   =================================================
 Key / key combination                      Function
 ========================================   =================================================
-:kbd:`h`                                   Show dashboard
+:kbd:`h`                                   Show dashboard (unless turned off by your admin)
 :kbd:`o`                                   Show overviews
 :kbd:`s`                                   Open the search
 :kbd:`a`                                   Open notifications

@@ -50,6 +50,7 @@ Zammad User Documentation
    /extras/github-gitlab-integration
    /extras/i-doit-track-company-property
    /extras/knowledge-base
+   /extras/mcp-server
    /extras/mobile-view
    /extras/organizations
    /extras/user-menu-profile-settings

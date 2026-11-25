@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-10-31 16:12+0000\n"
+"PO-Revision-Date: 2026-11-20 16:12+0000\n"
 "Last-Translator: Igor Costa <igor_sfx@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.zammad.org/projects/"
-"documentations/user-documentation-latest/pt_BR/>\n"
+"documentations/user-documentation-pre-release/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -33,7 +33,7 @@ msgstr ""
 "fluxo de trabalho como usuário avançado. Mas não se preocupe: você não "
 "precisa memorizar todos."
 
-#: ../advanced/keyboard-shortcuts.rst:8 ../basics/zammad-glossary.rst:507
+#: ../advanced/keyboard-shortcuts.rst:8 ../basics/zammad-glossary.rst:511
 #: ../basics/zammad-ui.rst:15 ../extras/chat.rst:12 ../extras/customers.rst:7
 #: ../extras/shared-drafts.rst:5
 msgid "Overview"
@@ -149,8 +149,9 @@ msgid ":kbd:`h`"
 msgstr ":kbd:`h`"
 
 #: ../advanced/keyboard-shortcuts.rst:65
-msgid "Show dashboard"
-msgstr "Mostrar painel"
+msgid "Show dashboard (unless turned off by your admin)"
+msgstr ""
+"Mostrar o painel (a menos que tenha sido desativado pelo seu administrador)"
 
 #: ../advanced/keyboard-shortcuts.rst:66
 msgid ":kbd:`o`"
@@ -180,7 +181,7 @@ msgstr "Abrir notificações"
 msgid ":kbd:`n`"
 msgstr ":kbd:`n`"
 
-#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:112
+#: ../advanced/keyboard-shortcuts.rst:69 ../extras/mobile-view.rst:120
 msgid "Create a new ticket"
 msgstr "Criar um novo ticket"
 
@@ -1360,7 +1361,7 @@ msgid "Group"
 msgstr "Grupo"
 
 #: ../advanced/suggested-workflows.rst:91 ../basics/ticket-basics.rst:145
-#: ../basics/zammad-glossary.rst:514
+#: ../basics/zammad-glossary.rst:518
 msgid "Owner"
 msgstr "Responsável"
 
@@ -1369,7 +1370,7 @@ msgid "State (with pending time, if applicable)"
 msgstr "Estado (com tempo de pendência, se aplicável)"
 
 #: ../advanced/suggested-workflows.rst:93 ../basics/ticket-basics.rst:90
-#: ../basics/zammad-glossary.rst:551
+#: ../basics/zammad-glossary.rst:555
 msgid "Priority"
 msgstr "Prioridade"
 
@@ -1532,9 +1533,9 @@ msgstr ""
 "Search Details``."
 
 #: ../advanced/tabs.rst:41 ../basics/zammad-ui.rst:82
-#: ../extras/mobile-view.rst:31 ../extras/mobile-view.rst:53
-#: ../extras/mobile-view.rst:75 ../extras/mobile-view.rst:97
-#: ../extras/mobile-view.rst:174 ../extras/mobile-view.rst:195
+#: ../extras/mobile-view.rst:33 ../extras/mobile-view.rst:57
+#: ../extras/mobile-view.rst:81 ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:223 ../extras/mobile-view.rst:253
 #: ../extras/user-menu-profile-settings.rst:57
 msgid "x"
 msgstr "x"
@@ -1776,7 +1777,7 @@ msgstr ""
 "texto :admin-docs:`na documentação de administração </manage/text-"
 "modules.html>`."
 
-#: ../advanced/ticket-actions.rst:2 ../basics/work-with-tickets.rst:192
+#: ../advanced/ticket-actions.rst:2 ../basics/work-with-tickets.rst:191
 msgid "Ticket Actions"
 msgstr "Ações do ticket"
 
@@ -2331,7 +2332,7 @@ msgstr ""
 "Ao escolher **Send Email**, o cliente recebe um email com o título como "
 "assunto e o texto como conteúdo do email."
 
-#: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:733
+#: ../basics/create-tickets.rst:35 ../basics/zammad-glossary.rst:737
 msgid "Title"
 msgstr "Título"
 
@@ -2481,14 +2482,12 @@ msgstr "Via visões gerais"
 #: ../basics/find-tickets.rst:11
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
-"overview section. This section gives you a rough overview. More details are "
-"covered in a separate overview page."
+"overview section. This section gives you a rough overview."
 msgstr ""
 "Se você procura novos tickets para trabalhar, seu primeiro olhar deve ser a "
-"seção de visões gerais. Ela dá um panorama geral. Mais detalhes são tratados "
-"em uma página própria sobre visões gerais."
+"seção de visões gerais. Ela dá um panorama geral."
 
-#: ../basics/find-tickets.rst:15
+#: ../basics/find-tickets.rst:14
 msgid ""
 "You can either open it by clicking the ``Overviews`` button in the "
 "navigation bar or use the keyboard shortcut :kbd:`o`. You can think of "
@@ -2502,18 +2501,18 @@ msgstr ""
 "a visão geral **Tickets abertos e sem responsável** pode ser um bom ponto de "
 "partida."
 
-#: ../basics/find-tickets.rst:22
+#: ../basics/find-tickets.rst:21
 msgid "My Assigned Tickets: open tickets in which you are set as owner."
 msgstr ""
 "Meus tickets atribuídos: tickets abertos nos quais você é o responsável."
 
-#: ../basics/find-tickets.rst:23
+#: ../basics/find-tickets.rst:22
 msgid "Unassigned & Open Tickets: open tickets which don't have an owner set."
 msgstr ""
 "Tickets abertos e sem responsável: tickets abertos que não têm responsável "
 "definido."
 
-#: ../basics/find-tickets.rst:24
+#: ../basics/find-tickets.rst:23
 msgid ""
 "My Pending Reached Tickets: tickets in which you are the owner, have the "
 "*pending reminder* state and the pending reminder time is reached."
@@ -2521,11 +2520,11 @@ msgstr ""
 "Meus tickets pendentes: tickets nos quais você é o responsável, que têm o "
 "estado de *lembrete pendente* e cujo tempo do lembrete pendente foi atingido."
 
-#: ../basics/find-tickets.rst:26
+#: ../basics/find-tickets.rst:25
 msgid "Open Tickets: open tickets."
 msgstr "Tickets abertos: tickets em aberto."
 
-#: ../basics/find-tickets.rst:27
+#: ../basics/find-tickets.rst:26
 msgid ""
 "Pending Reached Tickets: tickets which have the *pending reminder* state and "
 "the pending reminder time is reached."
@@ -2533,7 +2532,7 @@ msgstr ""
 "Tickets com pendência atingida: tickets no estado *lembrete pendente* cujo "
 "tempo do lembrete foi atingido."
 
-#: ../basics/find-tickets.rst:29
+#: ../basics/find-tickets.rst:28
 msgid ""
 "Escalated Tickets: tickets which are escalated or will escalate in the next "
 "10 minutes."
@@ -2541,7 +2540,7 @@ msgstr ""
 "Tickets escalonados: tickets que estão escalonados ou escalonarão nos "
 "próximos 10 minutos."
 
-#: ../basics/find-tickets.rst:32
+#: ../basics/find-tickets.rst:31
 msgid ""
 "Your Zammad admin may have created additional overviews. These are based on "
 "conditions, which are basically rules, to define which ticket appears in "
@@ -2551,28 +2550,28 @@ msgstr ""
 "são baseadas em condições — basicamente regras — que definem qual ticket "
 "aparece em qual visão geral."
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Sample view of Overviews"
 msgstr "Exemplo de visualização das visões gerais"
 
-#: ../basics/find-tickets.rst:40
+#: ../basics/find-tickets.rst:39
 msgid "Click ``Overviews`` in the main menu to browse tickets."
 msgstr "Clique em ``Overviews`` no menu principal para navegar pelos tickets."
 
-#: ../basics/find-tickets.rst:42
+#: ../basics/find-tickets.rst:41
 msgid "You can adjust the overviews in some aspects:"
 msgstr "Você pode ajustar as visões gerais em alguns aspectos:"
 
-#: ../basics/find-tickets.rst:44
+#: ../basics/find-tickets.rst:43
 msgid "Click on a column heading to change the sorting."
 msgstr "Clique no cabeçalho de uma coluna para alterar a ordenação."
 
-#: ../basics/find-tickets.rst:45
+#: ../basics/find-tickets.rst:44
 msgid "Click and drag column dividers to adjust the column's width."
 msgstr ""
 "Clique e arraste os divisores de coluna para ajustar a largura da coluna."
 
-#: ../basics/find-tickets.rst:46
+#: ../basics/find-tickets.rst:45
 msgid ""
 "Adjust the order of the overviews in your :doc:`user profile </extras/user-"
 "menu-profile-settings>`."
@@ -2580,14 +2579,14 @@ msgstr ""
 "Ajuste a ordem das visões gerais no seu :doc:`perfil de usuário </extras/"
 "user-menu-profile-settings>`."
 
-#: ../basics/find-tickets.rst:49
+#: ../basics/find-tickets.rst:48
 msgid ""
 "The need for action is color coded and reflects mainly the ticket states:"
 msgstr ""
 "A necessidade de ação é codificada por cores e reflete principalmente os "
 "estados do ticket:"
 
-#: ../basics/find-tickets.rst:54
+#: ../basics/find-tickets.rst:53
 msgid ""
 "If you spot a circle with a blue/pink gradient, it indicates that "
 "an :doc:`AI agent </extras/ai-features>` is currently working on the ticket."
@@ -2596,7 +2595,7 @@ msgstr ""
 "um :doc:`agente de IA </extras/ai-features>` está trabalhando no ticket "
 "neste momento."
 
-#: ../basics/find-tickets.rst:57
+#: ../basics/find-tickets.rst:56
 msgid ""
 "Ticket priorities are color-coded as well and help you to distinguish "
 "between the different priorities:"
@@ -2608,11 +2607,69 @@ msgstr ""
 msgid "Overview showing 3 tickets with different priorities"
 msgstr "Visão geral mostrando 3 tickets com prioridades diferentes"
 
+#: ../basics/find-tickets.rst:65
+msgid ""
+"Hover over the title or the ticket number of a ticket in an overview to see "
+"its details without opening it. A click on the title or on the ticket number "
+"opens the ticket as usual."
+msgstr ""
+"Passe o mouse sobre o título ou o número de um ticket em uma visão geral "
+"para ver os detalhes dele sem abri-lo. Um clique no título ou no número do "
+"ticket abre o ticket normalmente."
+
 #: ../basics/find-tickets.rst:69
+msgid ""
+"Besides the title, the number and a button that copies the number, the "
+"popover shows the following if available:"
+msgstr ""
+"Além do título, do número e de um botão que copia o número, o popover mostra "
+"o seguinte, se disponível:"
+
+#: ../basics/find-tickets.rst:72
+msgid ""
+"A **Checked** badge with the number of completed and total checklist items. "
+"It opens the checklist of the ticket."
+msgstr ""
+"Um selo **Checked** com o número de itens concluídos e o total de itens do "
+"checklist. Ele abre o checklist do ticket."
+
+#: ../basics/find-tickets.rst:74
+msgid ""
+"A **Customer sentiment** badge with the customer mood detected by AI. It "
+"opens the AI summary of the ticket."
+msgstr ""
+"Um selo **Customer sentiment** com o humor do cliente detectado por IA. Ele "
+"abre o resumo de IA do ticket."
+
+#: ../basics/find-tickets.rst:76
+msgid "The customer intent from the AI summary."
+msgstr "A intenção do cliente, tirada do resumo de IA."
+
+#: ../basics/find-tickets.rst:77
+msgid ""
+"The first and the latest article, each with a short preview of its text. If "
+"the AI summary contains a customer intent, only the latest article is shown."
+msgstr ""
+"O primeiro e o último artigo, cada um com uma breve prévia do texto. Se o "
+"resumo de IA contiver uma intenção do cliente, só o último artigo é mostrado."
+
+#: ../basics/find-tickets.rst:80
+msgid ""
+"The badges and the AI text require the matching feature. The checklist badge "
+"appears only while the ticket has an open checklist, the AI parts only if "
+"the AI summary feature is enabled and a summary already exists for the "
+"ticket."
+msgstr ""
+"Os selos e o texto de IA dependem do recurso correspondente. O selo do "
+"checklist só aparece enquanto o ticket tem um checklist em aberto; as partes "
+"de IA, só se o recurso de resumo de IA estiver ativado e já existir um "
+"resumo para o ticket."
+
+#: ../basics/find-tickets.rst:87
 msgid "Via Search"
 msgstr "Via pesquisa"
 
-#: ../basics/find-tickets.rst:71
+#: ../basics/find-tickets.rst:89
 msgid ""
 "If you are looking for a specific ticket, you can use the search. Either "
 "click on the search bar at the top of the left navigation sidebar or use the "
@@ -2630,7 +2687,7 @@ msgstr ""
 "A captura de tela mostra a pesquisa do Zammad com resultados na barra "
 "lateral de navegação."
 
-#: ../basics/find-tickets.rst:80
+#: ../basics/find-tickets.rst:98
 msgid ""
 "But the search is not only about tickets. Zammad also searches for users, "
 "organizations and chat logs. It basically searches for all information which "
@@ -2640,27 +2697,27 @@ msgstr ""
 "organizações e registros de chat. Basicamente, ele pesquisa todas as "
 "informações armazenadas no Zammad e indexadas pelo Elasticsearch, como:"
 
-#: ../basics/find-tickets.rst:84
+#: ../basics/find-tickets.rst:102
 msgid "Message subject and text"
 msgstr "Assunto e texto da mensagem"
 
-#: ../basics/find-tickets.rst:85
+#: ../basics/find-tickets.rst:103
 msgid "Names and email addresses"
 msgstr "Nomes e endereços de email"
 
-#: ../basics/find-tickets.rst:86
+#: ../basics/find-tickets.rst:104
 msgid "Text in file attachments"
 msgstr "Texto em anexos de arquivo"
 
-#: ../basics/find-tickets.rst:87
+#: ../basics/find-tickets.rst:105
 msgid "User and organizations details (like notes, names, etc.)"
 msgstr "Detalhes de usuários e organizações (como notas, nomes, etc.)"
 
-#: ../basics/find-tickets.rst:88
+#: ../basics/find-tickets.rst:106
 msgid "Knowledge base articles"
 msgstr "Artigos da base de conhecimento"
 
-#: ../basics/find-tickets.rst:90
+#: ../basics/find-tickets.rst:108
 msgid ""
 "After entering a search term, you immediately see a preview of the search "
 "results. These results are separated by type to make sure you won't get lost "
@@ -2672,7 +2729,7 @@ msgstr ""
 "um resultado abre uma nova aba de navegação (se ainda não estiver aberta) "
 "com o item."
 
-#: ../basics/find-tickets.rst:95
+#: ../basics/find-tickets.rst:113
 msgid ""
 "If you press :kbd:`enter` or click on ``Show Search Details``, Zammad "
 "displays a page with the search results:"
@@ -2686,7 +2743,7 @@ msgstr ""
 "A captura de tela mostra a página de detalhes da pesquisa com a aba "
 "\"Ticket\" ativada."
 
-#: ../basics/find-tickets.rst:102
+#: ../basics/find-tickets.rst:120
 msgid ""
 "You can narrow down your search by selecting a specific object type (e.g. "
 "\"User\") in the tab bar below the search bar. To sort the results based on "
@@ -2706,7 +2763,7 @@ msgstr ""
 "pesquisar atributos específicos, como data de criação ou o email do "
 "responsável pelo ticket."
 
-#: ../basics/find-tickets.rst:113
+#: ../basics/find-tickets.rst:131
 msgid ""
 "Now that you know how to find tickets, you may want to :doc:`create new "
 "<create-tickets>` or :doc:`work with existing <work-with-tickets>` tickets."
@@ -2845,7 +2902,7 @@ msgstr ""
 "administrador do Zammad, é fácil de configurar (:admin-docs:`administradores "
 "podem ler mais aqui </system/objects/types.html>`)."
 
-#: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:680
+#: ../basics/ticket-basics.rst:61 ../basics/zammad-glossary.rst:684
 msgid "State"
 msgstr "Estado"
 
@@ -2972,7 +3029,7 @@ msgstr ""
 "contrário, alguns sempre marcariam seus tickets como alta esperando um "
 "escalonamento imediato."
 
-#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:706
+#: ../basics/ticket-basics.rst:119 ../basics/zammad-glossary.rst:710
 #: ../extras/knowledge-base.rst:212
 msgid "Tags"
 msgstr "Tags"
@@ -3316,11 +3373,11 @@ msgstr ""
 "adicionado como outra citação no editor. É possível separar citações "
 "usando :kbd:`enter` ou :kbd:`shift` + :kbd:`enter` no editor."
 
-#: ../basics/work-with-tickets.rst:141
+#: ../basics/work-with-tickets.rst:140
 msgid "Rename a Ticket"
 msgstr "Renomear um ticket"
 
-#: ../basics/work-with-tickets.rst:143
+#: ../basics/work-with-tickets.rst:142
 msgid ""
 "To rename a ticket, simply click on the title in the header bar and start "
 "typing. This title is used as subject in email communication and shows up in "
@@ -3330,11 +3387,11 @@ msgstr ""
 "começar a digitar. Esse título é usado como assunto na comunicação por email "
 "e aparece em vários lugares, como nas visões gerais."
 
-#: ../basics/work-with-tickets.rst:152
+#: ../basics/work-with-tickets.rst:151
 msgid "Copy Ticket Number"
 msgstr "Copiar número do ticket"
 
-#: ../basics/work-with-tickets.rst:154
+#: ../basics/work-with-tickets.rst:153
 msgid ""
 "If you often need the ticket number (e.g. to paste it in a third party chat "
 "app), use the 🗊 icon next to the ticket title to copy the ticket number to "
@@ -3348,7 +3405,7 @@ msgstr ""
 "com o prefixo, ex.: ``Ticket#50071``. Se você rolou a página do ticket, o "
 "botão fica do lado esquerdo da barra de cabeçalho."
 
-#: ../basics/work-with-tickets.rst:160
+#: ../basics/work-with-tickets.rst:159
 msgid ""
 "But wait, there is even a :doc:`keyboard shortcut </advanced/keyboard-"
 "shortcuts>` for that. Simply press :kbd:`.` and the ticket number is copied "
@@ -3361,11 +3418,11 @@ msgstr ""
 "pressione :kbd:`.` duas vezes. Exemplo: ``Ticket#50071: Coffee grinder "
 "broken``."
 
-#: ../basics/work-with-tickets.rst:167
+#: ../basics/work-with-tickets.rst:166
 msgid "Simultaneous Ticket Processing"
 msgstr "Processamento simultâneo de ticket"
 
-#: ../basics/work-with-tickets.rst:171
+#: ../basics/work-with-tickets.rst:170
 msgid ""
 "It can happen that two or more agents open a ticket at the same time. To "
 "prevent edit conflicts and customers receiving contradictory answers, Zammad "
@@ -3381,17 +3438,17 @@ msgstr ""
 "todos os agentes são exibidos. Comunique-se com os colegas para evitar esses "
 "problemas antes que aconteçam."
 
-#: ../basics/work-with-tickets.rst:178
+#: ../basics/work-with-tickets.rst:177
 msgid ""
 "Depending on the additional icon and if the avatar icon is faded, it means:"
 msgstr ""
 "Dependendo do ícone adicional e de o avatar estar esmaecido, significa:"
 
-#: ../basics/work-with-tickets.rst:180
+#: ../basics/work-with-tickets.rst:179
 msgid "Avatar: Another agent is viewing the ticket."
 msgstr "Avatar: outro agente está visualizando o ticket."
 
-#: ../basics/work-with-tickets.rst:181
+#: ../basics/work-with-tickets.rst:180
 msgid ""
 "Faded avatar: Another agent opened the ticket but is currently not actively "
 "viewing it."
@@ -3399,7 +3456,7 @@ msgstr ""
 "Avatar esmaecido: outro agente abriu o ticket, mas atualmente não está "
 "visualizando-o ativamente."
 
-#: ../basics/work-with-tickets.rst:183
+#: ../basics/work-with-tickets.rst:182
 msgid ""
 "Avatar with pencil icon: Another agent is currently actively working on this "
 "ticket."
@@ -3411,7 +3468,7 @@ msgstr ""
 msgid "Ticket conflict alert"
 msgstr "Alerta de conflito no ticket"
 
-#: ../basics/work-with-tickets.rst:196
+#: ../basics/work-with-tickets.rst:195
 msgid ""
 "Additional actions are available in the ticket submenu. You can find it in "
 "the ticket sidebar. To open it, click the ``Ticket ▾`` heading to access "
@@ -3425,11 +3482,11 @@ msgstr ""
 msgid "Ticket submenu"
 msgstr "Submenu do ticket"
 
-#: ../basics/work-with-tickets.rst:207
+#: ../basics/work-with-tickets.rst:206
 msgid "History"
 msgstr "Histórico"
 
-#: ../basics/work-with-tickets.rst:206
+#: ../basics/work-with-tickets.rst:205
 msgid ""
 "See a comprehensive list of updates to the ticket, performed by any user, "
 "since its creation. Useful to check who did what and when."
@@ -3437,11 +3494,11 @@ msgstr ""
 "Veja a lista completa de atualizações do ticket, feitas por qualquer "
 "usuário, desde a criação. Útil para verificar quem fez o quê e quando."
 
-#: ../basics/work-with-tickets.rst:212
+#: ../basics/work-with-tickets.rst:211
 msgid "Merge"
 msgstr "Mesclar"
 
-#: ../basics/work-with-tickets.rst:210
+#: ../basics/work-with-tickets.rst:209
 msgid ""
 "Migrate all messages/notes to another ticket. Useful if you have more than "
 "one ticket about a single customer issue. See :doc:`merge tickets page </"
@@ -3451,19 +3508,19 @@ msgstr ""
 "de um ticket sobre a mesma questão do cliente. Consulte a :doc:`página de "
 "mesclagem de tickets </advanced/ticket-actions/merge>` para detalhes."
 
-#: ../basics/work-with-tickets.rst:215
+#: ../basics/work-with-tickets.rst:214
 msgid "Change Customer"
 msgstr "Alterar cliente"
 
-#: ../basics/work-with-tickets.rst:215
+#: ../basics/work-with-tickets.rst:214
 msgid "Reassign the ticket to another customer."
 msgstr "Reatribui o ticket a outro cliente."
 
-#: ../basics/work-with-tickets.rst:218
+#: ../basics/work-with-tickets.rst:217
 msgid "Monitoring Ticket Escalations"
 msgstr "Monitorando escalonamentos de ticket"
 
-#: ../basics/work-with-tickets.rst:220
+#: ../basics/work-with-tickets.rst:219
 msgid ""
 "Service Level Agreements (SLAs) ensure timely responses to customer "
 "requests. Your administrator sets these goals - such as responding to all "
@@ -3476,7 +3533,7 @@ msgstr ""
 "opcionais para clientes específicos. Quando um prazo é ultrapassado, o "
 "ticket escala."
 
-#: ../basics/work-with-tickets.rst:225
+#: ../basics/work-with-tickets.rst:224
 msgid ""
 "Zammad notifies you by default when tickets approach or exceed their "
 "deadlines. Configure these notifications in your :doc:`profile settings </"
@@ -3491,7 +3548,7 @@ msgstr ""
 "geral padrão chamada \"Tickets escalonados\", que inclui tickets já "
 "escalonados e os que devem escalonar nos próximos 10 minutos."
 
-#: ../basics/work-with-tickets.rst:232
+#: ../basics/work-with-tickets.rst:231
 msgid ""
 "SLA-relevant tickets display a timestamp in the ticket detail header. Hover "
 "over this timestamp to see all escalation stages and deadlines in a popup. "
@@ -3512,7 +3569,7 @@ msgstr ""
 "Captura de tela mostrando o mouse sobre a nota de escalonamento, exibindo "
 "informações mais detalhadas."
 
-#: ../basics/work-with-tickets.rst:242
+#: ../basics/work-with-tickets.rst:241
 msgid ""
 "The escalation times are calculated based on your business hours. This means "
 "when your business hours start at 9:00, a ticket is created at 7:00 and you "
@@ -3522,7 +3579,7 @@ msgstr ""
 "Ou seja: se o expediente começa às 9:00, um ticket é criado às 7:00 e há um "
 "prazo de 1 hora, ele escalonará às 10:00, a menos que seja resolvido antes."
 
-#: ../basics/work-with-tickets.rst:247
+#: ../basics/work-with-tickets.rst:246
 msgid ""
 "The SLA feature requires a configuration from your admin. In case you don't "
 "see escalation timestamps, either the ticket is not SLA-relevant or the "
@@ -3534,11 +3591,11 @@ msgstr ""
 "recurso não está configurado. Administradores podem consultar a :admin-"
 "docs:`documentação de configuração de SLA </manage/slas.html>`."
 
-#: ../basics/work-with-tickets.rst:253
+#: ../basics/work-with-tickets.rst:252
 msgid "Highlight Text in a Ticket"
 msgstr "Destacar texto em um ticket"
 
-#: ../basics/work-with-tickets.rst:255
+#: ../basics/work-with-tickets.rst:254
 msgid ""
 "Use the highlighter tool in the upper right corner to mark up important "
 "text. This feature is not about highlighting text in the editor to send it "
@@ -3549,7 +3606,7 @@ msgstr ""
 "enviá-lo a clientes — é apenas para destacar partes importantes para outros "
 "agentes."
 
-#: ../basics/work-with-tickets.rst:259
+#: ../basics/work-with-tickets.rst:258
 msgid ""
 "First select the text you want to highlight, then click on the highlighter "
 "button with the pencil. In case you want to use a different color, open the "
@@ -3565,7 +3622,71 @@ msgstr ""
 msgid "Ticket highlighter"
 msgstr "Marca-texto do ticket"
 
+#: ../basics/work-with-tickets.rst:269
+msgid "Unprocessable Email Tickets"
+msgstr "Tickets de email não processável"
+
 #: ../basics/work-with-tickets.rst:271
+msgid ""
+"Zammad turns incoming emails into tickets. When an email could not be "
+"processed at all, the ticket does not show the email as an article. Instead, "
+"a warning above the conversation states that the ticket was created because "
+"the email could not be processed. Two buttons let you look at what arrived:"
+msgstr ""
+"O Zammad transforma os emails recebidos em tickets. Quando um email não pôde "
+"ser processado de forma alguma, o ticket não mostra o email como artigo. Em "
+"vez disso, um aviso acima da conversa informa que o ticket foi criado porque "
+"o email não pôde ser processado. Dois botões permitem ver o que chegou:"
+
+#: ../basics/work-with-tickets.rst:276
+msgid "``Download raw email``: the email as the sender sent it."
+msgstr "``Download raw email``: o email como o remetente o enviou."
+
+#: ../basics/work-with-tickets.rst:277
+msgid ""
+"``Download processing log``: the technical details Zammad logged when "
+"processing failed."
+msgstr ""
+"``Download processing log``: os detalhes técnicos que o Zammad registrou "
+"quando o processamento falhou."
+
+#: ../basics/work-with-tickets.rst:280
+msgid ""
+"The ticket may show no customer at all or a customer without an email "
+"address, because Zammad could not read a usable sender address. What you do "
+"next depends on what the raw email reveals:"
+msgstr ""
+"O ticket pode aparecer sem nenhum cliente ou com um cliente sem endereço de "
+"email, porque o Zammad não conseguiu ler um endereço de remetente "
+"utilizável. O que fazer em seguida depende do que o email original revela:"
+
+#: ../basics/work-with-tickets.rst:284
+msgid ""
+"**Broken sender address**: the raw email shows who wrote. Correct the "
+"missing address via **Edit customer**, or use **Change customer** to pick "
+"the customer you want to answer."
+msgstr ""
+"**Endereço de remetente com problema**: o email original mostra quem "
+"escreveu. Corrija o endereço que falta via **Edit customer** ou use **Change "
+"customer** para escolher o cliente a quem você quer responder."
+
+#: ../basics/work-with-tickets.rst:287
+msgid ""
+"**No sender at all**: the ticket has no customer. Look up who wrote in the "
+"raw email and use **Change customer** to pick them."
+msgstr ""
+"**Nenhum remetente**: o ticket não tem cliente. Veja quem escreveu no email "
+"original e use **Change customer** para escolhê-lo."
+
+#: ../basics/work-with-tickets.rst:289
+msgid ""
+"**Nothing readable**: check the processing log, close the ticket and hand "
+"the raw email and the processing log to your administrator."
+msgstr ""
+"**Nada legível**: confira o log de processamento, feche o ticket e entregue "
+"o email original e o log de processamento ao seu administrador."
+
+#: ../basics/work-with-tickets.rst:294
 msgid ""
 "You now know the basics and how to work with tickets in general. However, "
 "there are many more features in Zammad which can be very useful in your "
@@ -3747,7 +3868,7 @@ msgstr ""
 "Saiba mais na nossa `página sobre salvamento automático <https://zammad.com/"
 "en/product/features/autosave>`_."
 
-#: ../basics/zammad-glossary.rst:80 ../basics/zammad-glossary.rst:617
+#: ../basics/zammad-glossary.rst:80 ../basics/zammad-glossary.rst:621
 #: ../extras/user-menu-profile-settings.rst:0
 msgid "Avatar"
 msgstr "Avatar"
@@ -4043,7 +4164,7 @@ msgstr ""
 msgid "D"
 msgstr "D"
 
-#: ../basics/zammad-glossary.rst:195 ../basics/zammad-glossary.rst:609
+#: ../basics/zammad-glossary.rst:195 ../basics/zammad-glossary.rst:613
 #: ../extras/dashboard.rst:2
 msgid "Dashboard"
 msgstr "Painel"
@@ -4172,7 +4293,7 @@ msgstr ""
 "Saiba mais sobre a integração com o Exchange :admin-docs:`na nossa "
 "documentação de administração </system/integrations/exchange.html>`."
 
-#: ../basics/zammad-glossary.rst:253
+#: ../basics/zammad-glossary.rst:257
 msgid "External Authentication"
 msgstr "Autenticação externa"
 
@@ -4182,32 +4303,39 @@ msgid ""
 "into Zammad. It has various benefits: not only is it faster but it also "
 "means that your users will have to remember fewer passwords. Zammad "
 "currently supports more than ten login providers, such as Facebook, GitHub, "
-"GitLab, Google, or Microsoft / Office365."
+"GitLab, Google, or Microsoft / Office365. If your Zammad signs you in "
+"through one provider only, administrators can enable Zammad to send you "
+"straight to that provider's sign-in page without a click on the login screen "
+"first."
 msgstr ""
 "A autenticação externa é uma opção fácil, de um clique, para seus usuários "
 "entrarem no Zammad. Tem várias vantagens: além de mais rápida, significa que "
 "os usuários precisam lembrar de menos senhas. O Zammad atualmente suporta "
 "mais de dez provedores de login, como Facebook, GitHub, GitLab, Google ou "
-"Microsoft / Office365."
+"Microsoft / Office365. Se o seu Zammad faz login por um único provedor, os "
+"administradores podem fazer o Zammad enviar você direto para a página de "
+"login desse provedor, sem precisar clicar antes na tela de login."
 
-#: ../basics/zammad-glossary.rst:252
+#: ../basics/zammad-glossary.rst:255
 msgid ""
 "See our :admin-docs:`admin documentation </settings/security/third-"
-"party.html>` for all third party authentication providers."
+"party.html>` for all third party authentication providers and the :admin-"
+"docs:`automatic third-party login </settings/security/base.html>`."
 msgstr ""
 "Consulte nossa :admin-docs:`documentação de administração </settings/"
 "security/third-party.html>` para todos os provedores de autenticação de "
-"terceiros."
+"terceiros e para o :admin-docs:`login automático de terceiros </settings/"
+"security/base.html>`."
 
-#: ../basics/zammad-glossary.rst:256
+#: ../basics/zammad-glossary.rst:260
 msgid "F"
 msgstr "F"
 
-#: ../basics/zammad-glossary.rst:261
+#: ../basics/zammad-glossary.rst:265
 msgid "Feature"
 msgstr "Recurso"
 
-#: ../basics/zammad-glossary.rst:259
+#: ../basics/zammad-glossary.rst:263
 msgid ""
 "A feature is what we call the different functionalities of Zammad, such as "
 "our integrations, productivity tools, or time-saving aspects. We keep adding "
@@ -4217,11 +4345,11 @@ msgstr ""
 "integrações, ferramentas de produtividade ou funções que economizam tempo. "
 "Adicionamos novos recursos a cada versão."
 
-#: ../basics/zammad-glossary.rst:269
+#: ../basics/zammad-glossary.rst:273
 msgid "Feature request"
 msgstr "Solicitação de recurso"
 
-#: ../basics/zammad-glossary.rst:264
+#: ../basics/zammad-glossary.rst:268
 msgid ""
 "Users can let us know if they are missing a particular feature in Zammad. We "
 "collect all of their wishes `in our Community in the Feature Request "
@@ -4237,11 +4365,11 @@ msgstr ""
 "acreditamos que seria uma ótima adição, ele entra no nosso roadmap e "
 "começamos a trabalhar nele."
 
-#: ../basics/zammad-glossary.rst:274
+#: ../basics/zammad-glossary.rst:278
 msgid "Feature sponsoring"
 msgstr "Patrocínio de recursos"
 
-#: ../basics/zammad-glossary.rst:272
+#: ../basics/zammad-glossary.rst:276
 msgid ""
 "If an organization urgently requires one of the features on the list, they "
 "can fast-forward the development and put it on top of the list by sponsoring "
@@ -4251,15 +4379,15 @@ msgstr ""
 "pode acelerar o desenvolvimento e colocá-lo no topo da lista patrocinando-o, "
 "ou seja, cobrindo os custos do desenvolvimento."
 
-#: ../basics/zammad-glossary.rst:277
+#: ../basics/zammad-glossary.rst:281
 msgid "G"
 msgstr "G"
 
-#: ../basics/zammad-glossary.rst:296
+#: ../basics/zammad-glossary.rst:300
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../basics/zammad-glossary.rst:280
+#: ../basics/zammad-glossary.rst:284
 msgid ""
 "GitHub is a service for the version management of software development "
 "projects. It uses Git, a software that tracks changes in file sets. Here at "
@@ -4270,7 +4398,7 @@ msgstr ""
 "mudanças em conjuntos de arquivos. Aqui no Zammad, nós o usamos para manter "
 "nosso repositório."
 
-#: ../basics/zammad-glossary.rst:284
+#: ../basics/zammad-glossary.rst:288
 msgid ""
 "As Zammad in an open-source project, many developers and tech-lovers from "
 "all over the world contribute to it. GitHub is where we coordinate all of "
@@ -4280,12 +4408,12 @@ msgstr ""
 "entusiastas de tecnologia do mundo todo contribuem com ele. O GitHub é onde "
 "coordenamos tudo isso."
 
-#: ../basics/zammad-glossary.rst:287
+#: ../basics/zammad-glossary.rst:291
 msgid "You can find the repository `here <https://github.com/zammad/zammad>`_."
 msgstr ""
 "Você encontra o repositório `aqui <https://github.com/zammad/zammad>`_."
 
-#: ../basics/zammad-glossary.rst:289
+#: ../basics/zammad-glossary.rst:293
 msgid ""
 "Besides our own repo, Zammad also has an integration for GitHub. It creates "
 "a data exchange that shows you all relevant information about your issues "
@@ -4296,7 +4424,7 @@ msgstr ""
 "relevantes sobre suas issues diretamente no helpdesk, como status ou "
 "atribuídos."
 
-#: ../basics/zammad-glossary.rst:293
+#: ../basics/zammad-glossary.rst:297
 msgid ""
 "Administrators can learn more about GitHub :admin-docs:`in the admin "
 "documentation </system/integrations/github.html>`, if you're an agent you "
@@ -4308,11 +4436,11 @@ msgstr ""
 "saiba mais sobre a funcionalidade nesta página: :doc:`/extras/github-gitlab-"
 "integration`."
 
-#: ../basics/zammad-glossary.rst:309
+#: ../basics/zammad-glossary.rst:313
 msgid "GitLab"
 msgstr "GitLab"
 
-#: ../basics/zammad-glossary.rst:299
+#: ../basics/zammad-glossary.rst:303
 msgid ""
 "GitLab is similar to GitHub. Here at Zammad, we use it for our internal "
 "development."
@@ -4320,7 +4448,7 @@ msgstr ""
 "O GitLab é semelhante ao GitHub. Aqui no Zammad, nós o usamos para o "
 "desenvolvimento interno."
 
-#: ../basics/zammad-glossary.rst:302
+#: ../basics/zammad-glossary.rst:306
 msgid ""
 "There is also an integration that allows users to connect GitLab to Zammad "
 "so that all their issues and their corresponding changes are reflected in "
@@ -4330,7 +4458,7 @@ msgstr ""
 "que todas as issues e suas respectivas mudanças sejam refletidas em ambos os "
 "sistemas."
 
-#: ../basics/zammad-glossary.rst:306
+#: ../basics/zammad-glossary.rst:310
 msgid ""
 "Administrators can learn more about GitLab :admin-docs:`in the admin "
 "documentation </system/integrations/gitlab.html>`, if you're an agent you "
@@ -4342,11 +4470,11 @@ msgstr ""
 "saiba mais sobre a funcionalidade nesta página: :doc:`/extras/github-gitlab-"
 "integration`."
 
-#: ../basics/zammad-glossary.rst:322
+#: ../basics/zammad-glossary.rst:326
 msgid "Grafana"
 msgstr "Grafana"
 
-#: ../basics/zammad-glossary.rst:312
+#: ../basics/zammad-glossary.rst:316
 msgid ""
 "Grafana is an open-source reporting tool. Zammad users on the Plus plan can "
 "integrate it into their instance and receive detailed analytics on their "
@@ -4356,11 +4484,11 @@ msgstr ""
 "Zammad no plano Plus podem integrá-lo à sua instância e receber análises "
 "detalhadas de desempenho."
 
-#: ../basics/zammad-glossary.rst:316
+#: ../basics/zammad-glossary.rst:320
 msgid "**🤓 Self Hosted users**"
 msgstr "**🤓 Usuários self-hosted**"
 
-#: ../basics/zammad-glossary.rst:318
+#: ../basics/zammad-glossary.rst:322
 msgid ""
 "Hooking up Grafana to Elasticsearch is a possibility you can do on your own "
 "as well."
@@ -4368,7 +4496,7 @@ msgstr ""
 "Conectar o Grafana ao Elasticsearch também é uma possibilidade que você pode "
 "explorar por conta própria."
 
-#: ../basics/zammad-glossary.rst:321
+#: ../basics/zammad-glossary.rst:325
 msgid ""
 "Learn more on how to add Grafana dashboards for Zammad :docs:`in our "
 "documentation </appendix/reporting-tools-thirdparty/grafana.html>`."
@@ -4376,11 +4504,11 @@ msgstr ""
 "Saiba mais sobre como adicionar painéis do Grafana para o Zammad :docs:`na "
 "nossa documentação </appendix/reporting-tools-thirdparty/grafana.html>`."
 
-#: ../basics/zammad-glossary.rst:337
+#: ../basics/zammad-glossary.rst:341
 msgid "Groups"
 msgstr "Grupos"
 
-#: ../basics/zammad-glossary.rst:325
+#: ../basics/zammad-glossary.rst:329
 msgid ""
 "Groups are a synonym for departments or processing groups. The incoming "
 "tickets are assigned to them. The corresponding group is responsible for the "
@@ -4396,7 +4524,7 @@ msgstr ""
 "tickets também são controlados pelos grupos. As permissões possíveis são "
 "\"acesso total\", \"somente leitura\" e \"sem acesso\"."
 
-#: ../basics/zammad-glossary.rst:332
+#: ../basics/zammad-glossary.rst:336
 msgid ""
 "If you have worked with the OTRS system in the past, you might remember the "
 "principle of \"queues\". The groups in Zammad are the same as the queues in "
@@ -4405,7 +4533,7 @@ msgstr ""
 "Se você já trabalhou com o sistema OTRS, deve se lembrar do princípio das "
 "\"filas\". Os grupos no Zammad são o equivalente às filas no OTRS."
 
-#: ../basics/zammad-glossary.rst:336
+#: ../basics/zammad-glossary.rst:340
 msgid ""
 "You can learn more on our `group landing page <https://zammad.com/en/product/"
 "features/groups>`_."
@@ -4413,19 +4541,19 @@ msgstr ""
 "Saiba mais na nossa `página sobre grupos <https://zammad.com/en/product/"
 "features/groups>`_."
 
-#: ../basics/zammad-glossary.rst:340
+#: ../basics/zammad-glossary.rst:344
 msgid "H"
 msgstr "H"
 
-#: ../basics/zammad-glossary.rst:345
+#: ../basics/zammad-glossary.rst:349
 msgid "I"
 msgstr "I"
 
-#: ../basics/zammad-glossary.rst:353
+#: ../basics/zammad-glossary.rst:357
 msgid "Icinga"
 msgstr "Icinga"
 
-#: ../basics/zammad-glossary.rst:348
+#: ../basics/zammad-glossary.rst:352
 msgid ""
 "Icinga is a monitoring system that supervises the availability of an "
 "organization's entire system infrastructure. It can be integrated into "
@@ -4435,7 +4563,7 @@ msgstr ""
 "toda a infraestrutura de uma organização. Ele pode ser integrado ao Zammad "
 "para disparar um ticket em caso de situação de alerta."
 
-#: ../basics/zammad-glossary.rst:353
+#: ../basics/zammad-glossary.rst:357
 msgid ""
 "You can learn more on our `Icinga landing page <https://zammad.com/en/"
 "product/features/icinga-integration>`_."
@@ -4443,11 +4571,11 @@ msgstr ""
 "Saiba mais na nossa `página sobre Icinga <https://zammad.com/en/product/"
 "features/icinga-integration>`_."
 
-#: ../basics/zammad-glossary.rst:361
+#: ../basics/zammad-glossary.rst:365
 msgid "Issue-tracking system"
 msgstr "Sistema de rastreamento de issues"
 
-#: ../basics/zammad-glossary.rst:356
+#: ../basics/zammad-glossary.rst:360
 msgid ""
 "Issue trackers are usually systems that track processes on a technical "
 "level. Two of the best-known examples are GitHub and GitLab."
@@ -4455,7 +4583,7 @@ msgstr ""
 "Rastreadores de issues geralmente são sistemas que acompanham processos em "
 "nível técnico. Dois dos exemplos mais conhecidos são GitHub e GitLab."
 
-#: ../basics/zammad-glossary.rst:359
+#: ../basics/zammad-glossary.rst:363
 msgid ""
 "Zammad is also often referred to as an issue-tracking system. However, as a "
 "helpdesk, it focuses on communication at the customer level rather than the "
@@ -4465,11 +4593,11 @@ msgstr ""
 "issues. Porém, como helpdesk, ele foca na comunicação no nível do cliente, e "
 "não no nível técnico."
 
-#: ../basics/zammad-glossary.rst:374
+#: ../basics/zammad-glossary.rst:378
 msgid "i-doit"
 msgstr "i-doit"
 
-#: ../basics/zammad-glossary.rst:364
+#: ../basics/zammad-glossary.rst:368
 msgid ""
 "i-doit is a CMDB (Configuration Management Data Base). It helps you to keep "
 "an eye on every piece of the physical and digital infrastructure. A "
@@ -4485,7 +4613,7 @@ msgstr ""
 "facilitar a referência. Também permite criar tickets do Zammad a partir do i-"
 "doit."
 
-#: ../basics/zammad-glossary.rst:371
+#: ../basics/zammad-glossary.rst:375
 msgid ""
 "Administrators can learn more about i-doit :admin-docs:`in the admin "
 "documentation </system/integrations/i-doit.html>`, if you're an agent you "
@@ -4497,19 +4625,19 @@ msgstr ""
 "saiba mais sobre a funcionalidade nesta página: :doc:`/extras/i-doit-track-"
 "company-property`."
 
-#: ../basics/zammad-glossary.rst:377
+#: ../basics/zammad-glossary.rst:381
 msgid "J"
 msgstr "J"
 
-#: ../basics/zammad-glossary.rst:382
+#: ../basics/zammad-glossary.rst:386
 msgid "K"
 msgstr "K"
 
-#: ../basics/zammad-glossary.rst:394
+#: ../basics/zammad-glossary.rst:398
 msgid "Kibana"
 msgstr "Kibana"
 
-#: ../basics/zammad-glossary.rst:385
+#: ../basics/zammad-glossary.rst:389
 msgid ""
 "Kibana is a browser-based, open-source reporting tool that focuses on data "
 "evaluation. It was developed by Elastic, which is why it is not a surprise "
@@ -4519,7 +4647,7 @@ msgstr ""
 "navegador, focada em avaliação de dados. Foi desenvolvido pela Elastic — não "
 "surpreende, portanto, que use dados do Elasticsearch para suas análises."
 
-#: ../basics/zammad-glossary.rst:389
+#: ../basics/zammad-glossary.rst:393
 msgid ""
 "Kibana can be integrated with Zammad, allowing for helpdesk data to be "
 "mapped in the reporting tool."
@@ -4527,11 +4655,11 @@ msgstr ""
 "O Kibana pode ser integrado ao Zammad, permitindo mapear os dados do "
 "helpdesk na ferramenta de relatórios."
 
-#: ../basics/zammad-glossary.rst:392
+#: ../basics/zammad-glossary.rst:396
 msgid "**🤓 This does not apply to SaaS Zammad instances.**"
 msgstr "**🤓 Isso não se aplica a instâncias SaaS do Zammad.**"
 
-#: ../basics/zammad-glossary.rst:394
+#: ../basics/zammad-glossary.rst:398
 msgid ""
 "You can learn more on our `Kibana landing page <https://zammad.com/en/"
 "product/features/kibana-integration>`_."
@@ -4539,12 +4667,12 @@ msgstr ""
 "Saiba mais na nossa `página sobre Kibana <https://zammad.com/en/product/"
 "features/kibana-integration>`_."
 
-#: ../basics/zammad-glossary.rst:409 ../basics/zammad-glossary.rst:611
+#: ../basics/zammad-glossary.rst:413 ../basics/zammad-glossary.rst:615
 #: ../extras/knowledge-base.rst:2
 msgid "Knowledge Base"
 msgstr "Base de conhecimento"
 
-#: ../basics/zammad-glossary.rst:397
+#: ../basics/zammad-glossary.rst:401
 msgid ""
 "Think of a very extensive set of FAQs - that's exactly what the Zammad "
 "knowledge base is. It collects all important information: definitions, "
@@ -4554,7 +4682,7 @@ msgstr ""
 "é exatamente isso. Ela reúne todas as informações importantes: definições, "
 "processos, tutoriais, organogramas etc."
 
-#: ../basics/zammad-glossary.rst:401
+#: ../basics/zammad-glossary.rst:405
 msgid ""
 "Knowledge base articles can be either internal or external, so you can "
 "either show them to the world (good for information on your product or "
@@ -4566,7 +4694,7 @@ msgstr ""
 "exemplo) ou mantê-los para a equipe (ex.: processos internos ou informações "
 "do time)."
 
-#: ../basics/zammad-glossary.rst:406
+#: ../basics/zammad-glossary.rst:410
 msgid ""
 "Administrators can learn more about the Knowledge Base :admin-docs:`in the "
 "admin documentation </manage/knowledge-base.html>`, if you're an agent you "
@@ -4578,15 +4706,15 @@ msgstr ""
 "você é agente, saiba mais sobre a funcionalidade nesta página: :doc:`/extras/"
 "knowledge-base`."
 
-#: ../basics/zammad-glossary.rst:412
+#: ../basics/zammad-glossary.rst:416
 msgid "L"
 msgstr "L"
 
-#: ../basics/zammad-glossary.rst:420
+#: ../basics/zammad-glossary.rst:424
 msgid "LDAP"
 msgstr "LDAP"
 
-#: ../basics/zammad-glossary.rst:415
+#: ../basics/zammad-glossary.rst:419
 msgid ""
 "A Lightweight Directory Access Protocol (LDAP) helps provide information "
 "about your users within Zammad. Authentication of users against the LDAP and "
@@ -4597,7 +4725,7 @@ msgstr ""
 "LDAP e o mapeamento de funções LDAP para funções do Zammad também são "
 "possíveis."
 
-#: ../basics/zammad-glossary.rst:419
+#: ../basics/zammad-glossary.rst:423
 msgid ""
 "Learn more about LDAP integration :admin-docs:`in the admin documentation </"
 "system/integrations/ldap/index.html>`."
@@ -4605,15 +4733,15 @@ msgstr ""
 "Saiba mais sobre a integração LDAP :admin-docs:`na documentação de "
 "administração </system/integrations/ldap/index.html>`."
 
-#: ../basics/zammad-glossary.rst:423
+#: ../basics/zammad-glossary.rst:427
 msgid "M"
 msgstr "M"
 
-#: ../basics/zammad-glossary.rst:440
+#: ../basics/zammad-glossary.rst:444
 msgid "Macro"
 msgstr "Macro"
 
-#: ../basics/zammad-glossary.rst:426
+#: ../basics/zammad-glossary.rst:430
 msgid ""
 "A macro is a series of actions. By starting the macro, the actions are also "
 "triggered (like a domino effect), so users don't have to work through each "
@@ -4625,7 +4753,7 @@ msgstr ""
 "separadamente. Economiza um tempo enorme e garante que nenhum passo seja "
 "esquecido."
 
-#: ../basics/zammad-glossary.rst:431
+#: ../basics/zammad-glossary.rst:435
 msgid ""
 "An example of this is declaring a ticket as \"spam\". The manual way here "
 "would be to assign an owner, set a status, and add the tag \"spam\". Using a "
@@ -4637,7 +4765,7 @@ msgstr ""
 "uma macro, tudo isso é feito em uma única ação. Macros podem ser usadas na "
 "visualização de detalhes do ticket ou em uma visão geral, como ação em massa."
 
-#: ../basics/zammad-glossary.rst:437
+#: ../basics/zammad-glossary.rst:441
 msgid ""
 "Administrators can learn more about Macros :admin-docs:`in the admin "
 "documentation </manage/macros.html>`, if you're an agent you can learn more "
@@ -4647,11 +4775,11 @@ msgstr ""
 "de administração </manage/macros.html>`; se você é agente, saiba mais sobre "
 "a funcionalidade nesta página: :doc:`/advanced/macros`."
 
-#: ../basics/zammad-glossary.rst:447
+#: ../basics/zammad-glossary.rst:451
 msgid "Mentions"
 msgstr "Menções"
 
-#: ../basics/zammad-glossary.rst:443
+#: ../basics/zammad-glossary.rst:447
 msgid ""
 "Mentions are a Zammad feature that allows you to tag another agent in a "
 "ticket. Just type :kbd:`@@` and the name. The selected person will be "
@@ -4661,15 +4789,15 @@ msgstr ""
 "ticket. Basta digitar :kbd:`@@` e o nome. A pessoa selecionada será "
 "notificada e passará a acompanhar o ticket a partir de então."
 
-#: ../basics/zammad-glossary.rst:447
+#: ../basics/zammad-glossary.rst:451
 msgid "Learn more on this page: :ref:`mentions`."
 msgstr "Saiba mais nesta página: :ref:`mentions`."
 
-#: ../basics/zammad-glossary.rst:457
+#: ../basics/zammad-glossary.rst:461
 msgid "Merging Tickets"
 msgstr "Mesclando tickets"
 
-#: ../basics/zammad-glossary.rst:450
+#: ../basics/zammad-glossary.rst:454
 msgid ""
 "If you have two (or more) tickets about the same issue, you can merge one of "
 "them into the other. By default, Zammad performs checks if a message from an "
@@ -4684,15 +4812,15 @@ msgstr ""
 "vez de responder à resposta automática, o Zammad não consegue associar a "
 "mensagem ao ticket existente e cria um novo."
 
-#: ../basics/zammad-glossary.rst:457
+#: ../basics/zammad-glossary.rst:461
 msgid "See :doc:`/advanced/ticket-actions` for further information."
 msgstr "Consulte :doc:`/advanced/ticket-actions` para mais informações."
 
-#: ../basics/zammad-glossary.rst:463
+#: ../basics/zammad-glossary.rst:467
 msgid "Migrator / Migration Wizard"
 msgstr "Migrador / Assistente de migração"
 
-#: ../basics/zammad-glossary.rst:460
+#: ../basics/zammad-glossary.rst:464
 msgid ""
 "If a company wants to switch from another helpdesk software to Zammad, they "
 "often have one concern: What about their existing data? That's why we have "
@@ -4704,11 +4832,11 @@ msgstr ""
 "nossos assistentes de migração, que ajudam a migrar todos os dados com um "
 "clique."
 
-#: ../basics/zammad-glossary.rst:470
+#: ../basics/zammad-glossary.rst:474
 msgid "Monit"
 msgstr "Monit"
 
-#: ../basics/zammad-glossary.rst:466
+#: ../basics/zammad-glossary.rst:470
 msgid ""
 "Monit is an open-source monitoring tool that relies on a simple setup and a "
 "strong community. You can integrate it with Zammad - this way, a ticket is "
@@ -4718,7 +4846,7 @@ msgstr ""
 "simples e uma comunidade forte. Você pode integrá-lo ao Zammad — assim, um "
 "ticket é criado toda vez que você recebe um email no Monit."
 
-#: ../basics/zammad-glossary.rst:470
+#: ../basics/zammad-glossary.rst:474
 msgid ""
 "You can learn more on our `Monit landing page <https://zammad.com/en/product/"
 "features/monit-integration>`_."
@@ -4726,15 +4854,15 @@ msgstr ""
 "Saiba mais na nossa `página sobre Monit <https://zammad.com/en/product/"
 "features/monit-integration>`_."
 
-#: ../basics/zammad-glossary.rst:473
+#: ../basics/zammad-glossary.rst:477
 msgid "N"
 msgstr "N"
 
-#: ../basics/zammad-glossary.rst:481
+#: ../basics/zammad-glossary.rst:485
 msgid "Nagios"
 msgstr "Nagios"
 
-#: ../basics/zammad-glossary.rst:476
+#: ../basics/zammad-glossary.rst:480
 msgid ""
 "Nagios is another monitoring tool that alerts IT teams when, for example, a "
 "server is no longer accessible or a hard disk is about to be exhausted. "
@@ -4746,7 +4874,7 @@ msgstr ""
 "a lotar. O Nagios pode ser integrado ao Zammad para criar um ticket em caso "
 "de alerta."
 
-#: ../basics/zammad-glossary.rst:481
+#: ../basics/zammad-glossary.rst:485
 msgid ""
 "You can learn more on our `Nagios landing page <https://zammad.com/en/"
 "product/features/nagios-integration>`_."
@@ -4754,13 +4882,13 @@ msgstr ""
 "Saiba mais na nossa `página sobre Nagios <https://zammad.com/en/product/"
 "features/nagios-integration>`_."
 
-#: ../basics/zammad-glossary.rst:489 ../extras/mobile-view.rst:85
+#: ../basics/zammad-glossary.rst:493 ../extras/mobile-view.rst:92
 #: ../extras/user-menu-profile-settings.rst:0
-#: ../extras/user-menu-profile-settings.rst:126
+#: ../extras/user-menu-profile-settings.rst:130
 msgid "Notifications"
 msgstr "Notificações"
 
-#: ../basics/zammad-glossary.rst:484
+#: ../basics/zammad-glossary.rst:488
 msgid ""
 "To avoid overlooking new messages (e.g. from a customer) Zammad notifies you "
 "about every relevant change by default. You can adjust your general "
@@ -4773,20 +4901,20 @@ msgstr ""
 "usuários ou se inscrever em um ticket específico para acompanhar seu "
 "andamento."
 
-#: ../basics/zammad-glossary.rst:489
+#: ../basics/zammad-glossary.rst:493
 msgid "See :doc:`/extras/user-menu-profile-settings` for more information."
 msgstr ""
 "Consulte :doc:`/extras/user-menu-profile-settings` para mais informações."
 
-#: ../basics/zammad-glossary.rst:492
+#: ../basics/zammad-glossary.rst:496
 msgid "O"
 msgstr "O"
 
-#: ../basics/zammad-glossary.rst:498 ../extras/customers.rst:0
+#: ../basics/zammad-glossary.rst:502 ../extras/customers.rst:0
 msgid "Organization"
 msgstr "Organization"
 
-#: ../basics/zammad-glossary.rst:495
+#: ../basics/zammad-glossary.rst:499
 msgid ""
 "An organization identifies a grouping of customers that operate under the "
 "same roof or within the same customer group. If a customer whose "
@@ -4798,7 +4926,7 @@ msgstr ""
 "\"compartilhada\" faz login na interface do cliente, ele tem acesso a todos "
 "os tickets da organização."
 
-#: ../basics/zammad-glossary.rst:501
+#: ../basics/zammad-glossary.rst:505
 msgid ""
 "Overviews are your starting point to work on tickets. You can think of "
 "overviews as a kind of filter for existing tickets. Some basic overviews are "
@@ -4810,11 +4938,11 @@ msgstr ""
 "gerais básicas vêm com o Zammad por padrão. Se quiser uma visão geral "
 "personalizada, peça ao administrador."
 
-#: ../basics/zammad-glossary.rst:506
+#: ../basics/zammad-glossary.rst:510
 msgid "For more information please have a look in :doc:`/basics/find-tickets`."
 msgstr "Para mais informações, consulte :doc:`/basics/find-tickets`."
 
-#: ../basics/zammad-glossary.rst:510
+#: ../basics/zammad-glossary.rst:514
 msgid ""
 "The owner of a ticket is the person responsible for it and ensures that it "
 "is processed in the best possible way. Of course, ownership can be "
@@ -4827,15 +4955,15 @@ msgstr ""
 "transferida a outro agente. Nesse caso, recomenda-se deixar uma nota de "
 "passagem no ticket para que o novo responsável saiba o que se espera dele."
 
-#: ../basics/zammad-glossary.rst:517
+#: ../basics/zammad-glossary.rst:521
 msgid "P"
 msgstr "P"
 
-#: ../basics/zammad-glossary.rst:526
+#: ../basics/zammad-glossary.rst:530
 msgid "Parent/Child Relationship"
 msgstr "Relação pai/filho"
 
-#: ../basics/zammad-glossary.rst:520
+#: ../basics/zammad-glossary.rst:524
 msgid ""
 "If one ticket results in other subtasks (or additional correspondences), you "
 "can split it into several tickets. The main one will then be the parent "
@@ -4847,7 +4975,7 @@ msgstr ""
 "com subtemas relacionados serão os filhos. A propósito: da mesma forma, você "
 "também pode mesclar dois tickets em um."
 
-#: ../basics/zammad-glossary.rst:525
+#: ../basics/zammad-glossary.rst:529
 msgid ""
 "Learn more about this function on this page: :doc:`/advanced/ticket-actions/"
 "link`."
@@ -4855,11 +4983,11 @@ msgstr ""
 "Saiba mais sobre essa função nesta página: :doc:`/advanced/ticket-actions/"
 "link`."
 
-#: ../basics/zammad-glossary.rst:542
+#: ../basics/zammad-glossary.rst:546
 msgid "Placetel"
 msgstr "Placetel"
 
-#: ../basics/zammad-glossary.rst:529
+#: ../basics/zammad-glossary.rst:533
 msgid ""
 "Placetel is a Cloud Telephone System that allows users to make phone calls "
 "via VoIP. Use your regular phone number and call someone directly on their "
@@ -4871,7 +4999,7 @@ msgstr ""
 "ou fixo de alguém, mantendo toda a comunicação em um só lugar (ou seja, o "
 "Zammad)."
 
-#: ../basics/zammad-glossary.rst:534
+#: ../basics/zammad-glossary.rst:538
 msgid ""
 "Integrating a Placetel account with Zammad provides users with a call log, "
 "making the history of their correspondences even more accurate. Callers are "
@@ -4883,7 +5011,7 @@ msgstr ""
 "Chamadores são identificados diretamente pelo identificador de chamadas — "
 "função essencial que poupa muito tempo dos agentes ao atribuir chamadores."
 
-#: ../basics/zammad-glossary.rst:539
+#: ../basics/zammad-glossary.rst:543
 msgid ""
 "Administrators can learn more on the :admin-docs:`Placetel CTI </system/"
 "integrations/cti/placetel.html>` integration page. Agents can learn more "
@@ -4893,7 +5021,7 @@ msgstr ""
 "docs:`Placetel CTI </system/integrations/cti/placetel.html>`. Agentes podem "
 "saber mais sobre essa função nesta página: :doc:`/extras/caller-log`"
 
-#: ../basics/zammad-glossary.rst:545
+#: ../basics/zammad-glossary.rst:549
 msgid ""
 "Every ticket gets assigned a priority. By default, the priority is 2 "
 "(normal). But it can be changed to either 1 (low) or 3 (high)."
@@ -4901,7 +5029,7 @@ msgstr ""
 "Todo ticket recebe uma prioridade. Por padrão, a prioridade é 2 (normal). "
 "Mas ela pode ser alterada para 1 (baixa) ou 3 (alta)."
 
-#: ../basics/zammad-glossary.rst:549
+#: ../basics/zammad-glossary.rst:553
 msgid ""
 "Priorities can even be adjusted or extended to fit your needs. Your "
 "administrator can find more information :admin-docs:`here </system/"
@@ -4911,19 +5039,19 @@ msgstr ""
 "Seu administrador encontra mais informações :admin-docs:`aqui </system/"
 "objects.html#system-attributes>`."
 
-#: ../basics/zammad-glossary.rst:554
+#: ../basics/zammad-glossary.rst:558
 msgid "Q"
 msgstr "Q"
 
-#: ../basics/zammad-glossary.rst:559
+#: ../basics/zammad-glossary.rst:563
 msgid "R"
 msgstr "R"
 
-#: ../basics/zammad-glossary.rst:569
+#: ../basics/zammad-glossary.rst:573
 msgid "Release"
 msgstr "Versão"
 
-#: ../basics/zammad-glossary.rst:562
+#: ../basics/zammad-glossary.rst:566
 msgid ""
 "Every few months, we bring a new version of Zammad into the world, which is "
 "called a release. It all started with Zammad 1.0."
@@ -4931,7 +5059,7 @@ msgstr ""
 "A cada poucos meses, trazemos uma nova versão do Zammad ao mundo, chamada de "
 "release. Tudo começou com o Zammad 1.0."
 
-#: ../basics/zammad-glossary.rst:565
+#: ../basics/zammad-glossary.rst:569
 msgid ""
 "Every release adds new features to our software. There are major and minor "
 "releases: major releases (such as Zammad 1.0, 2.0, etc.) bring major "
@@ -4943,12 +5071,12 @@ msgstr ""
 "mudanças. Versões menores são instaladas sobre elas (como 1.1, 2.1 etc.) e "
 "trazem atualizações menores."
 
-#: ../basics/zammad-glossary.rst:577 ../basics/zammad-glossary.rst:618
+#: ../basics/zammad-glossary.rst:581 ../basics/zammad-glossary.rst:622
 #: ../extras/reporting.rst:2
 msgid "Reporting"
 msgstr "Relatórios"
 
-#: ../basics/zammad-glossary.rst:572
+#: ../basics/zammad-glossary.rst:576
 msgid ""
 "The reporting helps keeping an overview over stats and numbers (e.g. created "
 "tickets per month). There are two types of reporting: the reporting "
@@ -4958,7 +5086,7 @@ msgstr ""
 "(ex.: tickets criados por mês). Há dois tipos: a funcionalidade de "
 "relatórios integrada ao Zammad e os relatórios com ferramentas externas."
 
-#: ../basics/zammad-glossary.rst:576
+#: ../basics/zammad-glossary.rst:580
 msgid ""
 "Admins can find further information :admin-docs:`here </manage/report-"
 "profiles.html>`."
@@ -4966,11 +5094,11 @@ msgstr ""
 "Administradores encontram mais informações :admin-docs:`aqui </manage/report-"
 "profiles.html>`."
 
-#: ../basics/zammad-glossary.rst:590
+#: ../basics/zammad-glossary.rst:594
 msgid "Role"
 msgstr "Função (Role)"
 
-#: ../basics/zammad-glossary.rst:580
+#: ../basics/zammad-glossary.rst:584
 msgid ""
 "Everyone who logs into Zammad has a predefined role. There are three types: "
 "admin, agent, and customer."
@@ -4978,7 +5106,7 @@ msgstr ""
 "Todos que fazem login no Zammad têm uma função predefinida. Há três tipos: "
 "administrador, agente e cliente."
 
-#: ../basics/zammad-glossary.rst:583
+#: ../basics/zammad-glossary.rst:587
 msgid ""
 "Admins have the most rights: they can define roles, permissions, and "
 "settings for the entire team and instance."
@@ -4986,7 +5114,7 @@ msgstr ""
 "Administradores têm mais direitos: podem definir funções, permissões e "
 "configurações para toda a equipe e a instância."
 
-#: ../basics/zammad-glossary.rst:586
+#: ../basics/zammad-glossary.rst:590
 msgid ""
 "Agents can view and edit tickets, but not change any settings other than "
 "those of their own profiles."
@@ -4994,7 +5122,7 @@ msgstr ""
 "Agentes podem visualizar e editar tickets, mas não alterar configurações "
 "além das dos próprios perfis."
 
-#: ../basics/zammad-glossary.rst:589
+#: ../basics/zammad-glossary.rst:593
 msgid ""
 "Customers can view their tickets' processing status in their individual "
 "Customer Interface."
@@ -5002,15 +5130,15 @@ msgstr ""
 "Os clientes podem acompanhar o status de processamento de seus tickets na "
 "interface individual do cliente."
 
-#: ../basics/zammad-glossary.rst:593
+#: ../basics/zammad-glossary.rst:597
 msgid "S"
 msgstr "S"
 
-#: ../basics/zammad-glossary.rst:600
+#: ../basics/zammad-glossary.rst:604
 msgid "Scheduler"
 msgstr "Agendador"
 
-#: ../basics/zammad-glossary.rst:596
+#: ../basics/zammad-glossary.rst:600
 msgid ""
 "The scheduler is one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
@@ -5023,11 +5151,11 @@ msgstr ""
 "tickets que atendem às condições. Mais informações na documentação de "
 "administração, na :admin-docs:`seção do agendador </manage/scheduler.html>`."
 
-#: ../basics/zammad-glossary.rst:620 ../basics/zammad-ui.rst:85
+#: ../basics/zammad-glossary.rst:624 ../basics/zammad-ui.rst:85
 msgid "Sidebar"
 msgstr "Barra lateral"
 
-#: ../basics/zammad-glossary.rst:603
+#: ../basics/zammad-glossary.rst:607
 msgid ""
 "The sidebar on the left side contains all relevant places and object you "
 "might need. Depending on the configured channels and your permissions, it "
@@ -5037,47 +5165,47 @@ msgstr ""
 "você pode precisar. Dependendo dos canais configurados e das suas "
 "permissões, ela pode não incluir todas as seções listadas abaixo:"
 
-#: ../basics/zammad-glossary.rst:607
+#: ../basics/zammad-glossary.rst:611
 msgid "Search bar"
 msgstr "Barra de pesquisa"
 
-#: ../basics/zammad-glossary.rst:608
+#: ../basics/zammad-glossary.rst:612
 msgid "Notification section"
 msgstr "Seção de notificações"
 
-#: ../basics/zammad-glossary.rst:610 ../extras/user-menu-profile-settings.rst:0
+#: ../basics/zammad-glossary.rst:614 ../extras/user-menu-profile-settings.rst:0
 msgid "Overviews"
 msgstr "Visões gerais"
 
-#: ../basics/zammad-glossary.rst:612
+#: ../basics/zammad-glossary.rst:616
 msgid "Customer Chat"
 msgstr "Chat com o cliente"
 
-#: ../basics/zammad-glossary.rst:613
+#: ../basics/zammad-glossary.rst:617
 msgid "Phone"
 msgstr "Telefone"
 
-#: ../basics/zammad-glossary.rst:614
+#: ../basics/zammad-glossary.rst:618
 msgid "One or more open tickets"
 msgstr "Um ou mais tickets abertos"
 
-#: ../basics/zammad-glossary.rst:615
+#: ../basics/zammad-glossary.rst:619
 msgid "Bottom section:"
 msgstr "Seção inferior:"
 
-#: ../basics/zammad-glossary.rst:619
+#: ../basics/zammad-glossary.rst:623
 msgid "Admin settings"
 msgstr "Configurações de administrador"
 
-#: ../basics/zammad-glossary.rst:620
+#: ../basics/zammad-glossary.rst:624
 msgid "Button for ticket creation"
 msgstr "Botão de criação de ticket"
 
-#: ../basics/zammad-glossary.rst:629
+#: ../basics/zammad-glossary.rst:633
 msgid "Signature"
 msgstr "Assinatura"
 
-#: ../basics/zammad-glossary.rst:623
+#: ../basics/zammad-glossary.rst:627
 msgid ""
 "The signature is your footer in an outgoing message. Your customers may find "
 "contact details and the name of your company/department there. It can even "
@@ -5087,7 +5215,7 @@ msgstr ""
 "encontrar ali dados de contato e o nome da sua empresa/departamento. Ela "
 "pode até conter a sua :ref:`imagem de avatar <glossary-avatar>`."
 
-#: ../basics/zammad-glossary.rst:628
+#: ../basics/zammad-glossary.rst:632
 msgid ""
 "It can be customized by your admin. Further information can be found :admin-"
 "docs:`here </channels/email/signatures.html>`."
@@ -5095,11 +5223,11 @@ msgstr ""
 "Ela pode ser personalizada pelo administrador. Mais informações :admin-"
 "docs:`aqui </channels/email/signatures.html>`."
 
-#: ../basics/zammad-glossary.rst:640
+#: ../basics/zammad-glossary.rst:644
 msgid "Sipgate"
 msgstr "Sipgate"
 
-#: ../basics/zammad-glossary.rst:632
+#: ../basics/zammad-glossary.rst:636
 msgid ""
 "Sipgate is a SaaS solution for internet telephony. The Zammad integration "
 "for Sipgate provides users with a detailed call overview. If you have a "
@@ -5111,7 +5239,7 @@ msgstr ""
 "quer falar com um agente específico, o registro de chamadas mostra se esse "
 "colega está disponível no momento."
 
-#: ../basics/zammad-glossary.rst:637
+#: ../basics/zammad-glossary.rst:641
 msgid ""
 "Administrators can learn more on the :admin-docs:`Sipgate CTI </system/"
 "integrations/cti/sipgate.html>` integration page. Agents can learn more "
@@ -5121,11 +5249,11 @@ msgstr ""
 "docs:`Sipgate CTI </system/integrations/cti/sipgate.html>`. Agentes podem "
 "saber mais sobre essa função nesta página: :doc:`/extras/caller-log`"
 
-#: ../basics/zammad-glossary.rst:655
+#: ../basics/zammad-glossary.rst:659
 msgid "SLA"
 msgstr "SLA"
 
-#: ../basics/zammad-glossary.rst:645
+#: ../basics/zammad-glossary.rst:649
 msgid ""
 "A Service Level Agreement (SLA) is a contract between an end-user and a "
 "company that defines the minimum expected service requirements including "
@@ -5138,7 +5266,7 @@ msgstr ""
 "expectativas e responsabilizar as empresas pelo cumprimento de suas "
 "promessas."
 
-#: ../basics/zammad-glossary.rst:651
+#: ../basics/zammad-glossary.rst:655
 msgid ""
 "You can easily set up SLAs in Zammad and define parameters such as the time "
 "for the first response, an update, and a solution. Once the deadline has "
@@ -5148,7 +5276,7 @@ msgstr ""
 "tempo para a primeira resposta, uma atualização e a solução. Quando o prazo "
 "é atingido, o ticket escala."
 
-#: ../basics/zammad-glossary.rst:655
+#: ../basics/zammad-glossary.rst:659
 msgid ""
 "You can learn more on our `SLA landing page <https://zammad.com/en/product/"
 "features/sla>`_."
@@ -5156,11 +5284,11 @@ msgstr ""
 "Saiba mais na nossa `página sobre SLA <https://zammad.com/en/product/"
 "features/sla>`_."
 
-#: ../basics/zammad-glossary.rst:661
+#: ../basics/zammad-glossary.rst:665
 msgid "Splitting tickets"
 msgstr "Dividindo tickets"
 
-#: ../basics/zammad-glossary.rst:658
+#: ../basics/zammad-glossary.rst:662
 msgid ""
 "In case a ticket contains more than one issue and you want to handle it in a "
 "separate ticket, you can split the ticket. Zammad creates a new ticket then "
@@ -5172,11 +5300,11 @@ msgstr ""
 "ticket com base no artigo selecionado para a divisão. Veja :doc:`/advanced/"
 "ticket-actions` para mais informações."
 
-#: ../basics/zammad-glossary.rst:670
+#: ../basics/zammad-glossary.rst:674
 msgid "SSO"
 msgstr "SSO"
 
-#: ../basics/zammad-glossary.rst:664
+#: ../basics/zammad-glossary.rst:668
 msgid ""
 "Single-sign-on (SSO) allows you to access all your systems and devices with "
 "just one login. There are various providers that make this process easy and "
@@ -5186,11 +5314,11 @@ msgstr ""
 "com um único login. Há vários provedores que tornam esse processo fácil e "
 "seguro. O Zammad atualmente suporta SSO via SAML e Shibboleth."
 
-#: ../basics/zammad-glossary.rst:668
+#: ../basics/zammad-glossary.rst:672
 msgid "🤓 Self Hosted users can also use Kerberos authentication."
 msgstr "🤓 Usuários self-hosted também podem usar autenticação Kerberos."
 
-#: ../basics/zammad-glossary.rst:670
+#: ../basics/zammad-glossary.rst:674
 msgid ""
 "You can learn more on our `SSO landing page <https://zammad.com/en/product/"
 "features/sso>`_."
@@ -5198,7 +5326,7 @@ msgstr ""
 "Saiba mais na nossa `página sobre SSO <https://zammad.com/en/product/"
 "features/sso>`_."
 
-#: ../basics/zammad-glossary.rst:673
+#: ../basics/zammad-glossary.rst:677
 msgid ""
 "Every ticket has a state. You can change it once you've updated the ticket. "
 "There are four types of states, and they are all color-coded."
@@ -5206,7 +5334,7 @@ msgstr ""
 "Todo ticket tem um estado. Você pode alterá-lo ao atualizar o ticket. Há "
 "quatro tipos de estado, todos codificados por cores."
 
-#: ../basics/zammad-glossary.rst:676
+#: ../basics/zammad-glossary.rst:680
 msgid ""
 "Learn more about states and their color coding on this page: :ref:`ticket-"
 "attributes`"
@@ -5214,7 +5342,7 @@ msgstr ""
 "Saiba mais sobre estados e sua codificação por cores nesta "
 "página: :ref:`ticket-attributes`"
 
-#: ../basics/zammad-glossary.rst:679
+#: ../basics/zammad-glossary.rst:683
 msgid ""
 "The available states can be changed or extended. Your admin can find further "
 "information :admin-docs:`here </system/objects.html#system-attributes>`."
@@ -5223,11 +5351,11 @@ msgstr ""
 "encontra mais informações :admin-docs:`aqui </system/objects.html#system-"
 "attributes>`."
 
-#: ../basics/zammad-glossary.rst:690
+#: ../basics/zammad-glossary.rst:694
 msgid "S/MIME"
 msgstr "S/MIME"
 
-#: ../basics/zammad-glossary.rst:683
+#: ../basics/zammad-glossary.rst:687
 msgid ""
 "S/MIME is the most widely-supported method for secure email communication. "
 "By activating it in Zammad, all messages sent from Zammad will be signed and "
@@ -5237,7 +5365,7 @@ msgstr ""
 "email. Ao ativá-lo no Zammad, todas as mensagens enviadas pelo Zammad serão "
 "assinadas e criptografadas."
 
-#: ../basics/zammad-glossary.rst:687
+#: ../basics/zammad-glossary.rst:691
 msgid ""
 "Administrators can learn more about S/MIME :admin-docs:`in the admin "
 "documentation </system/integrations/smime/index.html>`, if you're an agent "
@@ -5248,11 +5376,11 @@ msgstr ""
 "de administração </system/integrations/smime/index.html>`; se você é agente, "
 "saiba mais sobre a funcionalidade nesta página: :doc:`/extras/secure-email`."
 
-#: ../basics/zammad-glossary.rst:693
+#: ../basics/zammad-glossary.rst:697
 msgid "T"
 msgstr "T"
 
-#: ../basics/zammad-glossary.rst:696
+#: ../basics/zammad-glossary.rst:700
 msgid ""
 "Tags help you to categorize tickets. You can define them based on your use "
 "case. For example, if you're a retail business, your tags could be based on "
@@ -5265,7 +5393,7 @@ msgstr ""
 "para organizar os tickets pelo tipo de produto. Mas também podem se basear "
 "no tipo de solicitação, ex.: reembolso, problema de entrega, item faltando…"
 
-#: ../basics/zammad-glossary.rst:703
+#: ../basics/zammad-glossary.rst:707
 msgid ""
 "Administrators can learn more about tags :admin-docs:`here </manage/"
 "tags.html>`. Agents can learn more about this function on this "
@@ -5275,11 +5403,11 @@ msgstr ""
 "tags.html>`. Agentes podem saber mais sobre essa função nesta "
 "página: :ref:`ticket-attributes`"
 
-#: ../basics/zammad-glossary.rst:720
+#: ../basics/zammad-glossary.rst:724
 msgid "Text module"
 msgstr "Módulo de texto"
 
-#: ../basics/zammad-glossary.rst:709
+#: ../basics/zammad-glossary.rst:713
 msgid ""
 "If you find that you send the same answers / text bits over and over again, "
 "you can save yourself a bunch of work and create a text module. This way, "
@@ -5291,7 +5419,7 @@ msgstr ""
 "Assim, basta digitar o atalho :kbd:`::` e o parágrafo predefinido aparecerá "
 "automaticamente no seu artigo."
 
-#: ../basics/zammad-glossary.rst:714
+#: ../basics/zammad-glossary.rst:718
 msgid ""
 "For example, here at Zammad, we have a text module with the shortcut "
 "``::ilff``, which turns into ``I look forward to your feedback``."
@@ -5299,7 +5427,7 @@ msgstr ""
 "Por exemplo, aqui no Zammad temos um módulo de texto com o atalho "
 "``::ilff``, que vira ``I look forward to your feedback``."
 
-#: ../basics/zammad-glossary.rst:717
+#: ../basics/zammad-glossary.rst:721
 msgid ""
 "Administrators can learn more about text modules :admin-docs:`here </manage/"
 "text-modules.html>`. Agents can learn more about this function on this "
@@ -5309,11 +5437,11 @@ msgstr ""
 "manage/text-modules.html>`. Agentes podem saber mais sobre essa função nesta "
 "página: :doc:`/advanced/text-modules`"
 
-#: ../basics/zammad-glossary.rst:727
+#: ../basics/zammad-glossary.rst:731
 msgid "(Ticket) Template"
 msgstr "Modelo (de ticket)"
 
-#: ../basics/zammad-glossary.rst:723
+#: ../basics/zammad-glossary.rst:727
 msgid ""
 "If you create many similar tickets or write many similar texts, you can "
 "create a template for them. This is helpful for introductions to your "
@@ -5323,11 +5451,11 @@ msgstr ""
 "pode criar um modelo para eles. É útil para apresentações do seu produto/"
 "serviço ou para elaborar uma proposta. Uma verdadeira economia de tempo!"
 
-#: ../basics/zammad-glossary.rst:727
+#: ../basics/zammad-glossary.rst:731
 msgid "You can learn more on this page: :doc:`/advanced/ticket-templates`."
 msgstr "Saiba mais nesta página: :doc:`/advanced/ticket-templates`."
 
-#: ../basics/zammad-glossary.rst:730
+#: ../basics/zammad-glossary.rst:734
 msgid ""
 "The title of a ticket is different based on the channel it came in. You can "
 "find the title in the sidebar and in the top area in the ticket view. If the "
@@ -5339,11 +5467,11 @@ msgstr ""
 "título não for muito significativo, você pode alterá-lo clicando nele na "
 "visualização do ticket."
 
-#: ../basics/zammad-glossary.rst:739
+#: ../basics/zammad-glossary.rst:743
 msgid "Ticket hook"
 msgstr "Prefixo do ticket"
 
-#: ../basics/zammad-glossary.rst:736
+#: ../basics/zammad-glossary.rst:740
 msgid ""
 "The ticket hook is the identifier of a ticket. By default, it is ``Ticket#`` "
 "with an appended number (e.g. ``Ticket#904627``). It can be changed by an "
@@ -5355,11 +5483,11 @@ msgstr ""
 "alterado por um administrador. Veja :admin-docs:`aqui </settings/"
 "ticket.html>` para mais informações."
 
-#: ../basics/zammad-glossary.rst:746
+#: ../basics/zammad-glossary.rst:750
 msgid "Trigger"
 msgstr "Gatilho"
 
-#: ../basics/zammad-glossary.rst:742
+#: ../basics/zammad-glossary.rst:746
 msgid ""
 "Triggers are one of Zammad's automation features. An admin can define "
 "specific conditions and actions which are applied to tickets with matching "
@@ -5371,15 +5499,15 @@ msgstr ""
 "condições. Mais informações na documentação de administração, na :admin-"
 "docs:`seção de gatilhos </manage/trigger.html>`."
 
-#: ../basics/zammad-glossary.rst:749
+#: ../basics/zammad-glossary.rst:753
 msgid "U"
 msgstr "U"
 
-#: ../basics/zammad-glossary.rst:755
+#: ../basics/zammad-glossary.rst:759
 msgid "User"
 msgstr "User"
 
-#: ../basics/zammad-glossary.rst:752
+#: ../basics/zammad-glossary.rst:756
 msgid ""
 "A user is any user of the ticket system. Each user is assigned certain "
 "permissions, which allow them to access certain areas and information. Users "
@@ -5391,19 +5519,19 @@ msgstr ""
 "Usuários podem ter várias funções, sendo as opções padrão agente, "
 "administrador e cliente."
 
-#: ../basics/zammad-glossary.rst:758
+#: ../basics/zammad-glossary.rst:762
 msgid "V"
 msgstr "V"
 
-#: ../basics/zammad-glossary.rst:763
+#: ../basics/zammad-glossary.rst:767
 msgid "W"
 msgstr "W"
 
-#: ../basics/zammad-glossary.rst:772
+#: ../basics/zammad-glossary.rst:776
 msgid "Webhooks"
 msgstr "Webhooks"
 
-#: ../basics/zammad-glossary.rst:766
+#: ../basics/zammad-glossary.rst:770
 msgid ""
 "In a nutshell, webhooks are an easy way for systems to communicate with each "
 "other and allow you to send real-time data to any other application. We use "
@@ -5415,29 +5543,29 @@ msgstr ""
 "usamos para permitir que nossos usuários informem um sistema de terceiros "
 "sobre novidades no Zammad."
 
-#: ../basics/zammad-glossary.rst:771
+#: ../basics/zammad-glossary.rst:775
 msgid ""
 "Learn more about webhooks on :admin-docs:`this page </manage/webhook.html>`."
 msgstr ""
 "Saiba mais sobre webhooks :admin-docs:`nesta página </manage/webhook.html>`."
 
-#: ../basics/zammad-glossary.rst:775
+#: ../basics/zammad-glossary.rst:779
 msgid "X"
 msgstr "X"
 
-#: ../basics/zammad-glossary.rst:780
+#: ../basics/zammad-glossary.rst:784
 msgid "Y"
 msgstr "Y"
 
-#: ../basics/zammad-glossary.rst:785
+#: ../basics/zammad-glossary.rst:789
 msgid "Z"
 msgstr "Z"
 
-#: ../basics/zammad-glossary.rst:787
+#: ../basics/zammad-glossary.rst:791
 msgid "Zammad"
 msgstr "Zammad"
 
-#: ../basics/zammad-glossary.rst:788
+#: ../basics/zammad-glossary.rst:792
 msgid "Zammad is the greatest helpdesk in the world. Period."
 msgstr "O Zammad é o melhor helpdesk do mundo. Ponto final."
 
@@ -5715,12 +5843,16 @@ msgstr "Recursos de IA"
 #: ../extras/ai-features.rst:7
 msgid ""
 "Zammad offers AI-powered features to help you manage support tickets more "
-"efficiently."
+"efficiently. To work on your tickets from an AI application you already use, "
+"such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
+"mcp-server>`."
 msgstr ""
 "O Zammad oferece recursos com IA para ajudar você a gerenciar tickets de "
-"suporte com mais eficiência."
+"suporte com mais eficiência. Para trabalhar nos seus tickets a partir de um "
+"aplicativo de IA que você já usa, como um aplicativo de chat ou uma "
+"ferramenta de programação, veja :doc:`Servidor MCP </extras/mcp-server>`."
 
-#: ../extras/ai-features.rst:10
+#: ../extras/ai-features.rst:12
 msgid ""
 "The AI features have to be configured and activated by your administrator. "
 "If you can't see these features, they are not configured. More information "
@@ -5732,7 +5864,7 @@ msgstr ""
 "configurar e ativar estão na :admin-docs:`seção de IA </ai/provider.html>` "
 "da documentação de administração."
 
-#: ../extras/ai-features.rst:15
+#: ../extras/ai-features.rst:17
 msgid ""
 "Many AI features in Zammad include a feedback mechanism. If you notice "
 "issues or are unsatisfied with the results, please use the feedback option "
@@ -5746,7 +5878,7 @@ msgstr ""
 "descurtir (polegar para baixo) o conteúdo gerado por IA. A opção de "
 "descurtir permite deixar um comentário opcional."
 
-#: ../extras/ai-features.rst:21
+#: ../extras/ai-features.rst:23
 msgid ""
 "Always double-check the AI responses. Although the features were developed "
 "carefully, there still might be minor inaccuracies in individual cases due "
@@ -5756,11 +5888,11 @@ msgstr ""
 "desenvolvidos com cuidado, ainda pode haver pequenas imprecisões em casos "
 "individuais, pela própria natureza das redes neurais."
 
-#: ../extras/ai-features.rst:26
+#: ../extras/ai-features.rst:28
 msgid "Ticket Summary"
 msgstr "Resumo do ticket"
 
-#: ../extras/ai-features.rst:28
+#: ../extras/ai-features.rst:30
 msgid ""
 "The ticket summary feature does what it says: it summarizes the ticket's "
 "content. This can be a huge time saver when dealing with large tickets and/"
@@ -5770,7 +5902,7 @@ msgstr ""
 "ticket. Isso pode economizar muito tempo ao lidar com tickets grandes e/ou "
 "muitas transferências entre agentes."
 
-#: ../extras/ai-features.rst:32
+#: ../extras/ai-features.rst:34
 msgid ""
 "If the feature is activated, summaries are generated when tickets are "
 "updated and you either open the ticket or the summary sidebar tab, depending "
@@ -5782,7 +5914,7 @@ msgstr ""
 "dependendo da configuração do administrador. O administrador também pode "
 "definir condições que restringem quais tickets exibem resumos."
 
-#: ../extras/ai-features.rst:37
+#: ../extras/ai-features.rst:39
 msgid ""
 "When a summary is newly generated, a small pulsing indicator appears on the "
 "summary sidebar tab. This indicator only shows up if changes were made by "
@@ -5800,7 +5932,7 @@ msgstr ""
 "A captura de tela mostra a visualização de detalhes do ticket com o banner "
 "de resumo e a barra lateral de resumo em destaque"
 
-#: ../extras/ai-features.rst:44
+#: ../extras/ai-features.rst:46
 msgid ""
 "Depending on the configuration of your Zammad instance, the summary includes "
 "the following sections:"
@@ -5808,31 +5940,31 @@ msgstr ""
 "Dependendo da configuração da sua instância do Zammad, o resumo inclui as "
 "seguintes seções:"
 
-#: ../extras/ai-features.rst:47
+#: ../extras/ai-features.rst:49
 msgid "Customer intent"
 msgstr "Intenção do cliente"
 
-#: ../extras/ai-features.rst:48
+#: ../extras/ai-features.rst:50
 msgid "Conversation summary"
 msgstr "Resumo da conversa"
 
-#: ../extras/ai-features.rst:49
+#: ../extras/ai-features.rst:51
 msgid "Open questions (optional)"
 msgstr "Perguntas em aberto (opcional)"
 
-#: ../extras/ai-features.rst:50
+#: ../extras/ai-features.rst:52
 msgid "Upcoming events (optional)"
 msgstr "Eventos futuros (opcional)"
 
-#: ../extras/ai-features.rst:51
+#: ../extras/ai-features.rst:53
 msgid "Customer sentiment (optional)"
 msgstr "Sentimento do cliente (opcional)"
 
-#: ../extras/ai-features.rst:54
+#: ../extras/ai-features.rst:56
 msgid "Writing Assistant Tools"
 msgstr "Ferramentas do assistente de escrita"
 
-#: ../extras/ai-features.rst:56
+#: ../extras/ai-features.rst:58
 msgid ""
 "The AI-powered writing assistant tools are designed to simplify and enhance "
 "your ticket response workflow while you create an article. To use such a "
@@ -5854,7 +5986,7 @@ msgstr ""
 "A captura de tela mostra texto selecionado no editor com o menu de "
 "ferramentas do assistente de escrita aberto"
 
-#: ../extras/ai-features.rst:66
+#: ../extras/ai-features.rst:68
 msgid ""
 "Zammad ships default writing assistant tools. The availability depends on "
 "the configuration of your Zammad instance. You might even have additional "
@@ -5865,7 +5997,7 @@ msgstr ""
 "pode até ter ferramentas personalizadas adicionais, caso seu administrador "
 "as tenha adicionado."
 
-#: ../extras/ai-features.rst:70
+#: ../extras/ai-features.rst:72
 msgid ""
 "**Expand draft into well-written section**: Uses your draft as a base and "
 "produces a well-written response. It adds structure and enhances clarity and "
@@ -5879,7 +6011,7 @@ msgstr ""
 "lo fornecendo apenas informações básicas (por exemplo, em tópicos) e deixar "
 "a IA escrever a resposta."
 
-#: ../extras/ai-features.rst:75
+#: ../extras/ai-features.rst:77
 msgid ""
 "**Fix spelling and grammar**: Proofreads your text and removes spelling and "
 "grammar mistakes."
@@ -5887,7 +6019,7 @@ msgstr ""
 "**Fix spelling and grammar**: revisa seu texto e remove erros de ortografia "
 "e gramática."
 
-#: ../extras/ai-features.rst:77
+#: ../extras/ai-features.rst:79
 msgid ""
 "**Summarize section to about half its current size**: Shrinks your text "
 "while keeping the message and the tone of the text."
@@ -5895,7 +6027,7 @@ msgstr ""
 "**Summarize section to about half its current size**: reduz seu texto para "
 "cerca de metade do tamanho atual, mantendo a mensagem e o tom do texto."
 
-#: ../extras/ai-features.rst:79
+#: ../extras/ai-features.rst:81
 msgid ""
 "**Rewrite a complex section and make it easy to understand**: Removes "
 "unnecessary parts and rewrites your text in a clear and understandable way."
@@ -5903,7 +6035,7 @@ msgstr ""
 "**Rewrite a complex section and make it easy to understand**: remove partes "
 "desnecessárias e reescreve seu texto de forma clara e compreensível."
 
-#: ../extras/ai-features.rst:82
+#: ../extras/ai-features.rst:84
 msgid ""
 "After selecting a tool, Zammad shows a dialog where you can compare the "
 "original text and the AI suggestion:"
@@ -5915,7 +6047,7 @@ msgstr ""
 msgid "Screenshot shows AI suggestion dialog"
 msgstr "A captura de tela mostra o diálogo de sugestão de IA"
 
-#: ../extras/ai-features.rst:89
+#: ../extras/ai-features.rst:91
 msgid ""
 "Click on the ``Approve`` button to accept the suggestion and insert it in "
 "the article. After accepting the suggestion, you can still edit the text in "
@@ -5924,7 +6056,7 @@ msgstr ""
 "Clique no botão ``Approve`` para aceitar a sugestão e inseri-la no artigo. "
 "Após aceitar a sugestão, você ainda pode editar o texto no editor de artigos."
 
-#: ../extras/ai-features.rst:94
+#: ../extras/ai-features.rst:96
 msgid "Knowledge Base Assistant"
 msgstr "Assistente da base de conhecimento"
 
@@ -5936,11 +6068,11 @@ msgstr ""
 "Seção de conhecimento relacionado na barra lateral do ticket com o botão \"+ "
 "AI draft\" e uma resposta sugerida da base de conhecimento."
 
-#: ../extras/ai-features.rst:101
+#: ../extras/ai-features.rst:103
 msgid "Knowledge Base Answer Generation"
 msgstr "Geração de respostas da base de conhecimento"
 
-#: ../extras/ai-features.rst:103
+#: ../extras/ai-features.rst:105
 msgid ""
 "This feature allows you to trigger an AI-based generation of "
 "a :doc:`knowledge base <knowledge-base>` answer from a ticket. This is "
@@ -5959,7 +6091,7 @@ msgstr ""
 "conseguem resolver seus problemas diretamente pela base de conhecimento "
 "publicada."
 
-#: ../extras/ai-features.rst:111
+#: ../extras/ai-features.rst:113
 msgid ""
 "This feature is available in the **Related knowledge** section of the ticket "
 "sidebar. Click the ``+ AI draft`` button to trigger the answer generation."
@@ -5967,11 +6099,11 @@ msgstr ""
 "Este recurso está disponível na seção **Related knowledge** da barra lateral "
 "do ticket. Clique no botão ``+ AI draft`` para acionar a geração da resposta."
 
-#: ../extras/ai-features.rst:114
+#: ../extras/ai-features.rst:116
 msgid "Things to consider:"
 msgstr "Pontos a considerar:"
 
-#: ../extras/ai-features.rst:116
+#: ../extras/ai-features.rst:118
 msgid ""
 "The knowledge base answer is generated as draft and not published "
 "automatically."
@@ -5979,15 +6111,15 @@ msgstr ""
 "A resposta da base de conhecimento é gerada como rascunho e não é publicada "
 "automaticamente."
 
-#: ../extras/ai-features.rst:118
+#: ../extras/ai-features.rst:120
 msgid "You are set as the answer's author."
 msgstr "Você é definido como autor da resposta."
 
-#: ../extras/ai-features.rst:119
+#: ../extras/ai-features.rst:121
 msgid "The answer is generated in the default language of your knowledge base."
 msgstr "A resposta é gerada no idioma padrão da sua base de conhecimento."
 
-#: ../extras/ai-features.rst:120
+#: ../extras/ai-features.rst:122
 msgid ""
 "The answer includes a note in the content and a tag (``ai-generated``) about "
 "the AI generation."
@@ -5995,7 +6127,7 @@ msgstr ""
 "A resposta inclui uma nota no conteúdo e uma tag (``ai-generated``) sobre a "
 "geração por IA."
 
-#: ../extras/ai-features.rst:122
+#: ../extras/ai-features.rst:124
 msgid ""
 "A link to the answer is added to the ticket from which you triggered the "
 "answer generation."
@@ -6003,7 +6135,7 @@ msgstr ""
 "Um link para a resposta é adicionado ao ticket a partir do qual você acionou "
 "a geração da resposta."
 
-#: ../extras/ai-features.rst:124
+#: ../extras/ai-features.rst:126
 msgid ""
 "The answer is created in a knowledge base category for which you have editor "
 "permissions. The AI chooses one of these categories."
@@ -6011,7 +6143,7 @@ msgstr ""
 "A resposta é criada em uma categoria da base de conhecimento para a qual "
 "você tem permissões de editor. A IA escolhe uma dessas categorias."
 
-#: ../extras/ai-features.rst:127
+#: ../extras/ai-features.rst:129
 msgid ""
 "If a similar knowledge base answer already exists, Zammad shows it in a "
 "dialog before creating a new one. This gives you the chance to review "
@@ -6022,19 +6154,28 @@ msgstr ""
 "chance de revisar respostas relacionadas existentes para evitar envios "
 "duplicados."
 
-#: ../extras/ai-features.rst:132
+#: ../extras/ai-features.rst:134
 msgid "Knowledge Base Answer Suggestion"
 msgstr "Sugestão de resposta da base de conhecimento"
 
-#: ../extras/ai-features.rst:134
+#: ../extras/ai-features.rst:136
+#, fuzzy
+#| msgid ""
+#| "This feature compares the ticket content against the knowledge base and "
+#| "shows relevant answers under **Suggested knowledge** if they meet the "
+#| "admin-configured score threshold. Each suggestion shows the title of the "
+#| "answer and more details on hover. An additional relevance score is only "
+#| "shown to users with the corresponding admin permissions. Click on the "
+#| "title to open the answer in the knowledge base. Click the ``+`` on the "
+#| "right side to link it to the ticket."
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
-"shows relevant answers under **Suggested knowledge** if they meet the admin-"
-"configured score threshold. Each suggestion shows the title of the answer "
-"and more details on hover. An additional relevance score is only shown to "
-"users with the corresponding admin permissions. Click on the title to open "
-"the answer in the knowledge base. Click the ``+`` on the right side to link "
-"it to the ticket."
+"shows relevant answers under **Suggested** if they meet the admin-configured "
+"score threshold. Each suggestion shows the title of the answer and more "
+"details on hover. An additional relevance score is only shown to users with "
+"the corresponding admin permissions. Click on the title to open the answer "
+"in the knowledge base. Click the ``+`` on the right side to link it to the "
+"ticket. Linked answers are listed above under **Linked**."
 msgstr ""
 "Este recurso compara o conteúdo do ticket com a base de conhecimento e "
 "mostra respostas relevantes em **Suggested knowledge** se elas atingirem o "
@@ -6045,7 +6186,7 @@ msgstr ""
 "base de conhecimento. Clique no ``+`` do lado direito para vinculá-la ao "
 "ticket."
 
-#: ../extras/ai-features.rst:141
+#: ../extras/ai-features.rst:144
 msgid ""
 "If no suggestions are available, the message \"No suggestions.\" is "
 "displayed instead."
@@ -6053,11 +6194,11 @@ msgstr ""
 "Se não houver sugestões disponíveis, a mensagem \"No suggestions.\" é "
 "exibida em seu lugar."
 
-#: ../extras/ai-features.rst:147
+#: ../extras/ai-features.rst:150
 msgid "AI Agents"
 msgstr "Agentes de IA"
 
-#: ../extras/ai-features.rst:149
+#: ../extras/ai-features.rst:152
 msgid ""
 "AI agents can be configured to work on certain types of routine tasks. In "
 "general, this feature operates behind the scenes, but if configured, you may "
@@ -6073,11 +6214,11 @@ msgstr ""
 "até executá-la manualmente. Pergunte ao admin e confira na :doc:`página de "
 "macros </advanced/macros>` como usá-la."
 
-#: ../extras/ai-features.rst:164
+#: ../extras/ai-features.rst:167
 msgid "Ticket history"
 msgstr "Histórico do ticket"
 
-#: ../extras/ai-features.rst:157
+#: ../extras/ai-features.rst:160
 msgid ""
 "If an AI agent applied changes, you can see a ticket history entry telling "
 "you the name of the AI agent. If you notice ongoing issues with what the AI "
@@ -6087,7 +6228,7 @@ msgstr ""
 "ticket com o nome do agente de IA. Se notar problemas recorrentes no que o "
 "agente de IA fez, informe seu administrador do Zammad."
 
-#: ../extras/ai-features.rst:161
+#: ../extras/ai-features.rst:164
 msgid "Example of a history entry of an AI agent:"
 msgstr "Exemplo de uma entrada de histórico de um agente de IA:"
 
@@ -6096,11 +6237,11 @@ msgid "Screenshot shows AI agent ticket history entry"
 msgstr ""
 "A captura de tela mostra a entrada de histórico do agente de IA no ticket"
 
-#: ../extras/ai-features.rst:175
+#: ../extras/ai-features.rst:178
 msgid "Simultaneous work detection"
 msgstr "Detecção de trabalho simultâneo"
 
-#: ../extras/ai-features.rst:167
+#: ../extras/ai-features.rst:170
 msgid ""
 "AI agents which are currently working on a ticket are displayed like other "
 "agents in the live user section in the bottom bar. This helps to avoid "
@@ -6113,7 +6254,7 @@ msgstr ""
 "salvas. Se você vir um avatar de agente de IA, aguarde um momento ou vá para "
 "outro ticket."
 
-#: ../extras/ai-features.rst:172
+#: ../extras/ai-features.rst:175
 msgid "Avatar of AI agent:"
 msgstr "Avatar de agente de IA:"
 
@@ -6121,11 +6262,11 @@ msgstr "Avatar de agente de IA:"
 msgid "Screenshot shows avatar of an AI agent"
 msgstr "A captura de tela mostra o avatar de um agente de IA"
 
-#: ../extras/ai-features.rst:181
+#: ../extras/ai-features.rst:184
 msgid "Overview indicator"
 msgstr "Indicador na visão geral"
 
-#: ../extras/ai-features.rst:178
+#: ../extras/ai-features.rst:181
 msgid ""
 "A running AI agent is indicated in the status column in overviews. The "
 "status circle changes to a blue/pink gradient circle:"
@@ -6141,7 +6282,7 @@ msgstr ""
 "A captura de tela mostra um círculo de status nas visões gerais indicando "
 "que um agente de IA está trabalhando nele no momento"
 
-#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:145
+#: ../extras/caller-log.rst:2 ../extras/mobile-view.rst:186
 msgid "Caller Log"
 msgstr "Registro de Ligações"
 
@@ -6307,7 +6448,7 @@ msgstr ""
 "Entradas existentes do registro de chamadas *não são* atualizadas quando "
 "você atualiza um cliente existente."
 
-#: ../extras/chat.rst:2 ../extras/mobile-view.rst:146
+#: ../extras/chat.rst:2 ../extras/mobile-view.rst:187
 msgid "Live Chat"
 msgstr "Bate-papo"
 
@@ -6786,11 +6927,23 @@ msgstr ""
 "produtividade de relance, compare suas estatísticas com a média da empresa "
 "(em cinza, abaixo das suas) e veja o que o resto da equipe está fazendo."
 
+#: ../extras/dashboard.rst:8
+msgid ""
+"Your admin can turn off the whole dashboard or some of its parts. If the "
+"dashboard is turned off, it doesn't appear in the main menu and you land on "
+"your ticket overviews after logging in. The activity stream may also be "
+"hidden or limited to your own activities."
+msgstr ""
+"Seu administrador pode desativar o painel inteiro ou algumas de suas partes. "
+"Se o painel estiver desativado, ele não aparece no menu principal e você cai "
+"nas suas visões gerais de tickets depois de fazer login. O fluxo de "
+"atividades também pode estar oculto ou limitado às suas próprias atividades."
+
 #: ../extras/dashboard.rst:0
 msgid "Sample view of Dashboard"
 msgstr "Exemplo de visualização do painel"
 
-#: ../extras/dashboard.rst:11
+#: ../extras/dashboard.rst:16
 msgid ""
 "Check the dashboard for a quick summary of your stats (updated every 30 "
 "minutes)."
@@ -6798,15 +6951,15 @@ msgstr ""
 "Confira no painel um resumo rápido das suas estatísticas (atualizadas a cada "
 "30 minutos)."
 
-#: ../extras/dashboard.rst:14
+#: ../extras/dashboard.rst:19
 msgid "Legend"
 msgstr "Legenda"
 
-#: ../extras/dashboard.rst:18
+#: ../extras/dashboard.rst:23
 msgid "**1. ∅ Waiting Time Today**"
 msgstr "**1. ∅ Tempo de espera hoje**"
 
-#: ../extras/dashboard.rst:19
+#: ../extras/dashboard.rst:24
 msgid ""
 "How long has each customer had to wait, on average, to get a response from "
 "you today?"
@@ -6814,11 +6967,11 @@ msgstr ""
 "Quanto cada cliente tem que esperar, na média, para obter uma resposta sua "
 "hoje?"
 
-#: ../extras/dashboard.rst:21
+#: ../extras/dashboard.rst:26
 msgid "**2. Mood**"
 msgstr "**2. Humor**"
 
-#: ../extras/dashboard.rst:22
+#: ../extras/dashboard.rst:27
 msgid ""
 "How many escalated tickets do you have open right now? (Mr. Bubbles gets "
 "grumpy if you have too many...)"
@@ -6826,11 +6979,11 @@ msgstr ""
 "Quantos tickets escalonados você tem abertos agora? (O Sr. Bubbles fica "
 "rabugento se forem muitos...)"
 
-#: ../extras/dashboard.rst:24
+#: ../extras/dashboard.rst:29
 msgid "**3. Channel Distribution**"
 msgstr "**3. Distribuição por canal**"
 
-#: ../extras/dashboard.rst:25
+#: ../extras/dashboard.rst:30
 msgid ""
 "Where are all your tickets coming from? (Shows tickets created in the last "
 "seven days, also sorted by **inbound** vs. **outbound**.)"
@@ -6838,11 +6991,11 @@ msgstr ""
 "De onde vêm todos os seus tickets? (Mostra os tickets criados nos últimos "
 "sete dias, também ordenados por **entrada** vs. **saída**.)"
 
-#: ../extras/dashboard.rst:27
+#: ../extras/dashboard.rst:32
 msgid "**4. Assigned**"
 msgstr "**4. Atribuídos**"
 
-#: ../extras/dashboard.rst:28
+#: ../extras/dashboard.rst:33
 msgid ""
 "Out of all open tickets (company-wide), how many are currently assigned to "
 "you?"
@@ -6850,11 +7003,11 @@ msgstr ""
 "De todos os tickets abertos (na empresa inteira), quantos estão atribuídos a "
 "você no momento?"
 
-#: ../extras/dashboard.rst:30
+#: ../extras/dashboard.rst:35
 msgid "**5. My Tickets in Process**"
 msgstr "**5. Meus tickets em andamento**"
 
-#: ../extras/dashboard.rst:31
+#: ../extras/dashboard.rst:36
 msgid ""
 "What percentage of your tickets have you responded to or updated in the last "
 "24 hours?"
@@ -6862,21 +7015,21 @@ msgstr ""
 "Qual porcentagem dos seus tickets você respondeu ou atualizou nas últimas 24 "
 "horas?"
 
-#: ../extras/dashboard.rst:33
+#: ../extras/dashboard.rst:38
 msgid "**6. Reopening Rate**"
 msgstr "**6. Taxa de reabertura**"
 
-#: ../extras/dashboard.rst:34
+#: ../extras/dashboard.rst:39
 msgid ""
 "How many of your closed tickets have been re-opened in the last seven days?"
 msgstr ""
 "Quantos dos seus tickets fechados foram reabertos nos últimos sete dias?"
 
-#: ../extras/dashboard.rst:36
+#: ../extras/dashboard.rst:41
 msgid "**7. Activity Stream**"
 msgstr "**7. Fluxo de atividades**"
 
-#: ../extras/dashboard.rst:37
+#: ../extras/dashboard.rst:42
 msgid "What's everyone else on your team up to?"
 msgstr "O que o resto da sua equipe está fazendo?"
 
@@ -6893,9 +7046,14 @@ msgid ""
 "is written back to the tracker. Issues only: pull requests and merge "
 "requests cannot be linked."
 msgstr ""
+"Com a integração com rastreadores de issues, você pode vincular issues do "
+"GitHub e do GitLab a um ticket e acompanhar o estado delas enquanto trabalha "
+"nele. O Zammad armazena apenas as URLs das issues no ticket. Título, estado, "
+"tipo, milestone, responsáveis e etiquetas são lidos do GitHub ou do GitLab "
+"cada vez que você abre o painel. Nada é gravado de volta no rastreador. "
+"Apenas issues: pull requests e merge requests não podem ser vinculados."
 
 #: ../extras/github-gitlab-integration.rst:11
-#, fuzzy
 msgid ""
 "The panels are optional. If you don't see them in the ticket sidebar, your "
 "administrator hasn't enabled the integration yet. Customers don't see the "
@@ -6903,19 +7061,19 @@ msgid ""
 "system/integrations/github.html>` and :admin-docs:`GitLab </system/"
 "integrations/gitlab.html>` integration pages."
 msgstr ""
-"Este recurso é **opcional**; Se você não o vê no menu, significa que o "
-"administrador ainda não o ativou. Administradores podem saber mais `aqui "
-"<https://admin-docs.zammad.org/en/latest/channels-chat.html>`_."
+"Os painéis são opcionais. Se você não os vê na barra lateral do ticket, seu "
+"administrador ainda não ativou a integração. Os clientes também não veem os "
+"vínculos. Administradores podem saber mais nas páginas de integração com "
+"o :admin-docs:`GitHub </system/integrations/github.html>` e o :admin-"
+"docs:`GitLab </system/integrations/gitlab.html>`."
 
 #: ../extras/github-gitlab-integration.rst:None
 msgid "Sidebar with opened GitHub panel and linked issue."
-msgstr ""
+msgstr "Barra lateral com o painel do GitHub aberto e uma issue vinculada."
 
 #: ../extras/github-gitlab-integration.rst:22
-#, fuzzy
-#| msgid "View related issues"
 msgid "View Linked Issues"
-msgstr "Ver issues relacionadas"
+msgstr "Ver issues vinculadas"
 
 #: ../extras/github-gitlab-integration.rst:24
 msgid ""
@@ -6930,12 +7088,20 @@ msgid ""
 "changes. If the panel shows ``Loading failed.`` instead of the issues, ask "
 "your administrator to check the token."
 msgstr ""
+"Abra a aba **GitHub** ou **GitLab** na barra lateral de um ticket que já "
+"tenha issues vinculadas. Cada entrada começa com um ícone do estado da "
+"issue, seguido do número e do título. Clique no título para abrir a issue no "
+"GitHub ou no GitLab. Cada entrada também mostra **Milestone**, **Assignees** "
+"e **Labels** da issue. As issues do GitHub mostram também um **Type**. Um "
+"campo só aparece quando a issue o tem. O selo na aba conta todas as issues "
+"vinculadas, não apenas as abertas. O Zammad lê o estado quando o painel "
+"carrega e não monitora as issues, então nenhuma notificação é enviada quando "
+"uma issue muda. Se o painel mostrar ``Loading failed.`` em vez das issues, "
+"peça ao seu administrador que verifique o token."
 
 #: ../extras/github-gitlab-integration.rst:36
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Link an Issue"
-msgstr "Vincular uma nova issue"
+msgstr "Vincular uma issue"
 
 #: ../extras/github-gitlab-integration.rst:38
 msgid ""
@@ -6945,6 +7111,11 @@ msgid ""
 "group1/project1/-/issues/1``. While you create a ticket, you can link issues "
 "too. They are saved with the new ticket."
 msgstr ""
+"Selecione **Link issue** no menu ao lado do título do painel, informe a URL "
+"de uma única issue e confirme. O Zammad aceita links como ``https://"
+"github.com/organization/repository/issues/42`` ou ``https://git.example.com/"
+"group1/project1/-/issues/1``. Ao criar um ticket, você também pode vincular "
+"issues. Elas são salvas com o novo ticket."
 
 #: ../extras/github-gitlab-integration.rst:44
 msgid ""
@@ -6953,12 +7124,14 @@ msgid ""
 "the API token cannot read its repository or project. Ask your administrator "
 "to check the token in that case."
 msgstr ""
+"O Zammad ignora uma URL que já está vinculada ao ticket. Ele também rejeita "
+"uma URL que não consegue resolver, geralmente porque a issue não existe ou "
+"porque o token de API não consegue ler o repositório ou projeto dela. Nesse "
+"caso, peça ao seu administrador que verifique o token."
 
 #: ../extras/github-gitlab-integration.rst:50
-#, fuzzy
-#| msgid "Link a new issue"
 msgid "Unlink an Issue"
-msgstr "Vincular uma nova issue"
+msgstr "Desvincular uma issue"
 
 #: ../extras/github-gitlab-integration.rst:52
 msgid ""
@@ -6966,6 +7139,9 @@ msgid ""
 "reference from the ticket and leaves the issue untouched in GitHub or "
 "GitLab. Other tickets that link the same issue keep their own reference."
 msgstr ""
+"Clique no botão ``X`` ao lado do título de uma issue. Desvincular remove a "
+"referência do ticket e deixa a issue intacta no GitHub ou no GitLab. Outros "
+"tickets que vinculam a mesma issue mantêm a própria referência."
 
 #: ../extras/i-doit-track-company-property.rst:2
 msgid "i-doit: Track Company Property"
@@ -7588,6 +7764,300 @@ msgstr ""
 "no artigo do ticket. O conteúdo inserido não substitui o conteúdo do artigo "
 "— é inserido na posição do cursor."
 
+#: ../extras/mcp-server.rst:2
+msgid "MCP Server"
+msgstr "Servidor MCP"
+
+#: ../extras/mcp-server.rst:4
+msgid ""
+"Zammad has its own server for the *Model Context Protocol* (MCP). Connect an "
+"AI client you already use to it, for example a chat application or a coding "
+"tool, and read, find and update your tickets from there. The server is part "
+"of every installation, you do not install or run anything in addition."
+msgstr ""
+"O Zammad tem seu próprio servidor para o *Model Context Protocol* (MCP). "
+"Conecte a ele um cliente de IA que você já usa, por exemplo um aplicativo de "
+"chat ou uma ferramenta de programação, e leia, encontre e atualize seus "
+"tickets a partir dali. O servidor faz parte de toda instalação: você não "
+"instala nem executa nada além disso."
+
+#: ../extras/mcp-server.rst:9
+msgid ""
+"Whether the server accepts connections is a decision of your admin, see "
+"the :admin-docs:`API settings </system/api.html>`. If a connection to "
+"``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
+"is enabled."
+msgstr ""
+"Se o servidor aceita conexões é uma decisão do seu administrador; veja "
+"as :admin-docs:`configurações de API </system/api.html>`. Se uma conexão com "
+"``https://zammad.example.com/mcp`` falhar, pergunte ao seu administrador se "
+"o servidor está ativado."
+
+#: ../extras/mcp-server.rst:15
+msgid "Connect an AI Client"
+msgstr "Conectar um cliente de IA"
+
+#: ../extras/mcp-server.rst:17
+msgid ""
+"Connecting takes a personal access token and the address of the server in "
+"your client."
+msgstr ""
+"A conexão exige um token de acesso pessoal e o endereço do servidor no seu "
+"cliente."
+
+#: ../extras/mcp-server.rst:21
+msgid "Create a Personal Access Token"
+msgstr "Criar um token de acesso pessoal"
+
+#: ../extras/mcp-server.rst:23
+msgid ""
+"The client connects with a personal access token of your account. Open your "
+"profile (*Avatar > Profile > Token Access*, see :doc:`Personal settings </"
+"extras/user-menu-profile-settings>`) and create a token with the "
+"``ticket.agent`` permission, so that the client can work with tickets. You "
+"can give the token an expiration date. Copy the token that Zammad shows you "
+"when the token is created."
+msgstr ""
+"O cliente se conecta com um token de acesso pessoal da sua conta. Abra seu "
+"perfil (*Avatar > Profile > Token Access*, veja :doc:`Configurações pessoais "
+"</extras/user-menu-profile-settings>`) e crie um token com a permissão "
+"``ticket.agent``, para que o cliente possa trabalhar com tickets. Você pode "
+"dar uma data de expiração ao token. Copie o token que o Zammad mostra quando "
+"o token é criado."
+
+#: ../extras/mcp-server.rst:31
+msgid "Add Zammad to Your Client"
+msgstr "Adicionar o Zammad ao seu cliente"
+
+#: ../extras/mcp-server.rst:33
+msgid ""
+"Add Zammad to the client as an MCP server. The client needs the MCP "
+"transport *Streamable HTTP* and the ability to send a fixed ``Authorization: "
+"Bearer`` header with every request. Supporting the transport alone is not "
+"enough. Such a client asks for the same three entries:"
+msgstr ""
+"Adicione o Zammad ao cliente como servidor MCP. O cliente precisa do "
+"transporte MCP *Streamable HTTP* e da capacidade de enviar um cabeçalho fixo "
+"``Authorization: Bearer`` em toda requisição. Suportar só o transporte não "
+"basta. Um cliente assim pede as mesmas três informações:"
+
+#: ../extras/mcp-server.rst:40
+msgid "Server address"
+msgstr "Endereço do servidor"
+
+#: ../extras/mcp-server.rst:39
+msgid ""
+"The domain you open Zammad with, with ``/mcp`` after it: ``https://"
+"zammad.example.com/mcp``."
+msgstr ""
+"O domínio pelo qual você abre o Zammad, seguido de ``/mcp``: ``https://"
+"zammad.example.com/mcp``."
+
+#: ../extras/mcp-server.rst:43
+msgid "Transport"
+msgstr "Transporte"
+
+#: ../extras/mcp-server.rst:43
+msgid "Streamable HTTP."
+msgstr "Streamable HTTP."
+
+#: ../extras/mcp-server.rst:47
+msgid "Token"
+msgstr "Token"
+
+#: ../extras/mcp-server.rst:46
+msgid ""
+"``Authorization: Bearer {your token}``, sent as an HTTP header with every "
+"request."
+msgstr ""
+"``Authorization: Bearer {your token}``, enviado como cabeçalho HTTP em toda "
+"requisição."
+
+#: ../extras/mcp-server.rst:49
+msgid ""
+"Clients that read a JSON configuration, as many do, take Zammad as a server "
+"with the address and the header. Replace ``zammad.example.com`` with the "
+"domain you open Zammad with and ``{your token}`` with the token you copied:"
+msgstr ""
+"Clientes que leem uma configuração JSON, como muitos fazem, recebem o Zammad "
+"como servidor com o endereço e o cabeçalho. Substitua ``zammad.example.com`` "
+"pelo domínio com que você abre o Zammad e ``{your token}`` pelo token que "
+"você copiou:"
+
+#: ../extras/mcp-server.rst:68
+msgid ""
+"The token works like your password. Do not put it in a configuration file "
+"that others can read or that ends up in a repository. Keep the file private, "
+"or use the reference to a stored secret where your client supports one."
+msgstr ""
+"O token funciona como a sua senha. Não o coloque em um arquivo de "
+"configuração que outras pessoas possam ler ou que acabe em um repositório. "
+"Mantenha o arquivo privado, ou use a referência a um segredo armazenado, se "
+"o seu cliente oferecer suporte."
+
+#: ../extras/mcp-server.rst:72
+msgid ""
+"Other clients ask for the same three entries in their own form. Once the "
+"connection works, a first request such as \"Show my assigned tickets\" shows "
+"whether the client reaches Zammad."
+msgstr ""
+"Outros clientes pedem as mesmas três informações em seu próprio formato. "
+"Quando a conexão funcionar, um primeiro pedido como \"Mostre meus tickets "
+"atribuídos\" mostra se o cliente alcança o Zammad."
+
+#: ../extras/mcp-server.rst:76
+msgid ""
+"Zammad answers only under the address it is configured for, the one you open "
+"Zammad with. If the connection fails, check that the client uses exactly "
+"that address."
+msgstr ""
+"O Zammad só responde no endereço para o qual está configurado, aquele com "
+"que você abre o Zammad. Se a conexão falhar, confira se o cliente usa "
+"exatamente esse endereço."
+
+#: ../extras/mcp-server.rst:81
+msgid "What the Client Can Do"
+msgstr "O que o cliente pode fazer"
+
+#: ../extras/mcp-server.rst:83
+msgid ""
+"The connected client works with your permissions: it can do exactly what the "
+"token and your account may do, nothing more, and it records its changes as "
+"made by you. A user without agent permissions, such as a customer, gets no "
+"tools from the server. The complete list of the tools, with the access of "
+"each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
+msgstr ""
+"O cliente conectado trabalha com as suas permissões: ele pode fazer "
+"exatamente o que o token e a sua conta podem fazer, nada além disso, e "
+"registra as alterações dele como feitas por você. Um usuário sem permissão "
+"de agente, como um cliente, não recebe nenhuma ferramenta do servidor. A "
+"lista completa das ferramentas, com o acesso e os limites de cada uma, está "
+"na :docs:`referência de ferramentas MCP </api/mcp.html>`."
+
+#: ../extras/mcp-server.rst:89
+msgid ""
+"Open a ticket by its number, its ID or a pasted link, and read its messages, "
+"internal notes, attachments, history and shared draft."
+msgstr ""
+"Abrir um ticket pelo número, pelo ID ou por um link colado, e ler as "
+"mensagens, notas internas, anexos, histórico e rascunho compartilhado dele."
+
+#: ../extras/mcp-server.rst:92
+msgid "Read a ticket's customer and organization."
+msgstr "Ler o cliente e a organização de um ticket."
+
+#: ../extras/mcp-server.rst:94
+msgid ""
+"Find tickets by words and by names, such as the customer, organization, "
+"state, owner, group or priority of a ticket."
+msgstr ""
+"Encontrar tickets por palavras e por nomes, como o cliente, a organização, o "
+"estado, o responsável, o grupo ou a prioridade de um ticket."
+
+#: ../extras/mcp-server.rst:97
+msgid ""
+"List your own overviews and their tickets, and sort the lists, for example "
+"by creation or last update, so that the client can start at the oldest "
+"ticket."
+msgstr ""
+"Listar suas próprias visões gerais e os tickets delas, e ordenar as listas, "
+"por exemplo por criação ou última atualização, para que o cliente possa "
+"começar pelo ticket mais antigo."
+
+#: ../extras/mcp-server.rst:101
+msgid "Search users, organizations and the knowledge base."
+msgstr "Pesquisar usuários, organizações e a base de conhecimento."
+
+#: ../extras/mcp-server.rst:103
+msgid ""
+"Read the text of files attached to a message: text files up to 10 MB, other "
+"files come back as a link to download them."
+msgstr ""
+"Ler o texto de arquivos anexados a uma mensagem: arquivos de texto de até 10 "
+"MB; os demais arquivos voltam como um link para download."
+
+#: ../extras/mcp-server.rst:106
+msgid "Change ticket attributes, set tags and add internal notes."
+msgstr "Alterar atributos de ticket, definir tags e adicionar notas internas."
+
+#: ../extras/mcp-server.rst:108
+msgid ""
+"Save and send shared drafts, and link tickets and knowledge base answers."
+msgstr ""
+"Salvar e enviar rascunhos compartilhados, e vincular tickets e respostas da "
+"base de conhecimento."
+
+#: ../extras/mcp-server.rst:110
+msgid "Create tickets and write messages."
+msgstr "Criar tickets e escrever mensagens."
+
+#: ../extras/mcp-server.rst:112
+msgid ""
+"Messages, notes and drafts can be written as plain text or as HTML. Zammad "
+"removes unsafe markup from the latter. SMS, Telegram, WhatsApp and Facebook "
+"accept plain text only, HTML is refused there. Files cannot be sent through "
+"the client: if you want to send one, add it to the message in Zammad itself."
+msgstr ""
+"Mensagens, notas e rascunhos podem ser escritos em texto simples ou em HTML. "
+"O Zammad remove do HTML a marcação insegura. SMS, Telegram, WhatsApp e "
+"Facebook aceitam apenas texto simples; HTML é recusado nesses canais. Não é "
+"possível enviar arquivos pelo cliente: se quiser enviar um, adicione-o à "
+"mensagem no próprio Zammad."
+
+#: ../extras/mcp-server.rst:117
+msgid ""
+"Where a ticket asks for time accounting, the client asks you for the time "
+"and records it. You can also tell it that you account no time, and Zammad "
+"then records the message without accounted time."
+msgstr ""
+"Quando um ticket pede contabilização de tempo, o cliente pergunta o tempo a "
+"você e o registra. Você também pode dizer que não vai contabilizar tempo, e "
+"o Zammad então registra a mensagem sem tempo contabilizado."
+
+#: ../extras/mcp-server.rst:122
+msgid "Approval of Outgoing Messages"
+msgstr "Aprovação de mensagens enviadas"
+
+#: ../extras/mcp-server.rst:124
+msgid ""
+"Where the client can show it, Zammad asks you to approve a message before it "
+"reaches a customer. The approval request shows the complete text of the "
+"message, the recipients and the visibility, and Zammad sends only after you "
+"accept."
+msgstr ""
+"Quando o cliente consegue exibir, o Zammad pede que você aprove uma mensagem "
+"antes que ela chegue a um cliente. O pedido de aprovação mostra o texto "
+"completo da mensagem, os destinatários e a visibilidade, e o Zammad só envia "
+"depois que você aceita."
+
+#: ../extras/mcp-server.rst:129
+msgid ""
+"If you decline, Zammad sends nothing and changes nothing on the ticket. The "
+"client can then offer to save the text as the ticket's shared draft, where "
+"the group allows shared drafts, for you to send it from Zammad itself."
+msgstr ""
+"Se você recusar, o Zammad não envia nada e não altera nada no ticket. O "
+"cliente pode então oferecer salvar o texto como rascunho compartilhado do "
+"ticket, onde o grupo permitir rascunhos compartilhados, para que você o "
+"envie pelo próprio Zammad."
+
+#: ../extras/mcp-server.rst:133
+msgid ""
+"A client that cannot show the approval form relies on its own approval of "
+"the tool call, as it does for every change, and Zammad does not ask a second "
+"time. Zammad still wants your yes for two changes: replacing a shared draft "
+"that is already saved and closing a ticket whose checklist is incomplete. "
+"Keep the approval of tool calls enabled in your client, because a client "
+"that runs them without a prompt sends a message without any further question."
+msgstr ""
+"Um cliente que não consegue exibir o formulário de aprovação depende da sua "
+"própria aprovação da chamada de ferramenta, como faz para toda alteração, e "
+"o Zammad não pergunta uma segunda vez. O Zammad ainda quer o seu \"sim\" "
+"para duas alterações: substituir um rascunho compartilhado já salvo e fechar "
+"um ticket cujo checklist está incompleto. Mantenha ativada no seu cliente a "
+"aprovação de chamadas de ferramenta, porque um cliente que as executa sem "
+"perguntar envia uma mensagem sem nenhuma confirmação adicional."
+
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
 msgstr "Visualização móvel"
@@ -7610,8 +8080,8 @@ msgstr "Login e página inicial"
 msgid "Mobile View Login Screen"
 msgstr "Tela de login na visualização móvel"
 
-#: ../extras/mobile-view.rst:18 ../extras/mobile-view.rst:162
-#: ../extras/mobile-view.rst:183
+#: ../extras/mobile-view.rst:19 ../extras/mobile-view.rst:210
+#: ../extras/mobile-view.rst:240
 msgid "Login Screen"
 msgstr "Tela de login"
 
@@ -7619,11 +8089,11 @@ msgstr "Tela de login"
 msgid "Mobile View Home Page"
 msgstr "Página inicial na visualização móvel"
 
-#: ../extras/mobile-view.rst:27
+#: ../extras/mobile-view.rst:29
 msgid "Home Page"
 msgstr "Página inicial"
 
-#: ../extras/mobile-view.rst:33
+#: ../extras/mobile-view.rst:35
 msgid "Search & Overview"
 msgstr "Pesquisa e visão geral"
 
@@ -7631,7 +8101,7 @@ msgstr "Pesquisa e visão geral"
 msgid "Mobile View Search Results"
 msgstr "Resultados da pesquisa na visualização móvel"
 
-#: ../extras/mobile-view.rst:41
+#: ../extras/mobile-view.rst:44
 msgid "Search Results"
 msgstr "Resultados da pesquisa"
 
@@ -7639,11 +8109,11 @@ msgstr "Resultados da pesquisa"
 msgid "Mobile View Ticket Overview"
 msgstr "Visão geral de tickets na visualização móvel"
 
-#: ../extras/mobile-view.rst:49
+#: ../extras/mobile-view.rst:53
 msgid "Ticket Overview"
 msgstr "Visão geral de tickets"
 
-#: ../extras/mobile-view.rst:55
+#: ../extras/mobile-view.rst:59
 msgid "Ticket Details"
 msgstr "Detalhes do ticket"
 
@@ -7651,7 +8121,7 @@ msgstr "Detalhes do ticket"
 msgid "Mobile View Ticket Detail View"
 msgstr "Visualização de detalhes do ticket na visualização móvel"
 
-#: ../extras/mobile-view.rst:63
+#: ../extras/mobile-view.rst:68
 msgid "Ticket Detail View"
 msgstr "Visualização de detalhes do ticket"
 
@@ -7659,11 +8129,11 @@ msgstr "Visualização de detalhes do ticket"
 msgid "Mobile View Ticket Information"
 msgstr "Informações do ticket na visualização móvel"
 
-#: ../extras/mobile-view.rst:71
+#: ../extras/mobile-view.rst:77
 msgid "Ticket Information"
 msgstr "Informações do ticket"
 
-#: ../extras/mobile-view.rst:77
+#: ../extras/mobile-view.rst:83
 msgid "Notifications & Account"
 msgstr "Notificações e conta"
 
@@ -7675,11 +8145,11 @@ msgstr "Notificações na visualização móvel"
 msgid "Mobile View Account Overview"
 msgstr "Visão geral da conta na visualização móvel"
 
-#: ../extras/mobile-view.rst:93
+#: ../extras/mobile-view.rst:101
 msgid "Account Overview"
 msgstr "Visão geral da conta"
 
-#: ../extras/mobile-view.rst:101
+#: ../extras/mobile-view.rst:109
 msgid ""
 "We intentionally do not provide specific instructions for the mobile view. "
 "The overall UX should be intuitive and self-explanatory in most cases."
@@ -7688,11 +8158,11 @@ msgstr ""
 "móvel. A experiência geral deve ser intuitiva e autoexplicativa na maioria "
 "dos casos."
 
-#: ../extras/mobile-view.rst:105
+#: ../extras/mobile-view.rst:113
 msgid "Features"
 msgstr "Recursos"
 
-#: ../extras/mobile-view.rst:107
+#: ../extras/mobile-view.rst:115
 msgid ""
 "Mobile view provides you with a way to do your common Zammad daily tasks "
 "while on the go:"
@@ -7700,59 +8170,137 @@ msgstr ""
 "A visualização mobile oferece uma forma de realizar suas tarefas diárias "
 "comuns do Zammad enquanto está em movimento:"
 
-#: ../extras/mobile-view.rst:110
+#: ../extras/mobile-view.rst:118
 msgid "Manage & use your ticket overviews"
 msgstr "Gerencie e use suas visões gerais de tickets"
 
-#: ../extras/mobile-view.rst:111
+#: ../extras/mobile-view.rst:119
 msgid "Search for existing records"
 msgstr "Pesquisar registros existentes"
 
-#: ../extras/mobile-view.rst:113
+#: ../extras/mobile-view.rst:121
 msgid "Reply in an already existing ticket"
 msgstr "Responder em um ticket já existente"
 
-#: ../extras/mobile-view.rst:114
+#: ../extras/mobile-view.rst:122
 msgid "Modify ticket attributes"
 msgstr "Modificar atributos do ticket"
 
-#: ../extras/mobile-view.rst:115
+#: ../extras/mobile-view.rst:123
 msgid "Modify customer attributes"
 msgstr "Modificar atributos do cliente"
 
-#: ../extras/mobile-view.rst:116
+#: ../extras/mobile-view.rst:124
 msgid "Modify organization attributes"
 msgstr "Modificar atributos da organização"
 
-#: ../extras/mobile-view.rst:117
+#: ../extras/mobile-view.rst:125
 msgid "Track time on ticket articles"
 msgstr "Registrar tempo em artigos de ticket"
 
-#: ../extras/mobile-view.rst:119
+#: ../extras/mobile-view.rst:127
 msgid "Mobile view also has some exclusive features:"
 msgstr "A visualização móvel também tem alguns recursos exclusivos:"
 
-#: ../extras/mobile-view.rst:121
+#: ../extras/mobile-view.rst:129
 msgid "Innovative Zammad UX"
 msgstr "UX inovadora do Zammad"
 
-#: ../extras/mobile-view.rst:122
+#: ../extras/mobile-view.rst:130
 msgid "Next-level accessibility"
 msgstr "Acessibilidade de outro nível"
 
-#: ../extras/mobile-view.rst:123
+#: ../extras/mobile-view.rst:131
 msgid "Ready for multi-device usage"
 msgstr "Pronto para uso em múltiplos dispositivos"
 
-#: ../extras/mobile-view.rst:124
+#: ../extras/mobile-view.rst:132
 msgid "Progressive web app (PWA) support"
 msgstr "Suporte a progressive web app (PWA)"
 
-#: ../extras/mobile-view.rst:127
+#: ../extras/mobile-view.rst:135
+msgid "Push Notifications"
+msgstr "Notificações push"
+
+#: ../extras/mobile-view.rst:137
+msgid ""
+"The mobile view can notify you about your tickets on your mobile device, "
+"even when the app is not open. Push notifications are turned on per device, "
+"not for your account as a whole: you can have them on your phone and leave "
+"them off on a tablet."
+msgstr ""
+"A visualização mobile pode notificar você sobre seus tickets no seu "
+"dispositivo móvel, mesmo quando o app não está aberto. As notificações push "
+"são ativadas por dispositivo, e não para a sua conta como um todo: você pode "
+"ativá-las no celular e deixá-las desativadas em um tablet."
+
+#: ../extras/mobile-view.rst:142
+msgid ""
+"Turn them on with the **Push notifications on this device** switch in the "
+"**Notifications** section of your account page. If the switch is locked, the "
+"text below it tells you what is missing."
+msgstr ""
+"Ative-as com a chave **Push notifications on this device** na seção "
+"**Notifications** da página da sua conta. Se a chave estiver bloqueada, o "
+"texto abaixo dela informa o que está faltando."
+
+#: ../extras/mobile-view.rst:146
+msgid ""
+"Every notification Zammad creates for you is also sent to your device, for "
+"example about new tickets, ticket updates, reached reminders or escalations. "
+"A push shows the same text as the entry in the notification list, and "
+"tapping it opens the ticket in the app."
+msgstr ""
+"Toda notificação que o Zammad cria para você também é enviada ao seu "
+"dispositivo, por exemplo sobre novos tickets, atualizações de tickets, "
+"lembretes atingidos ou escalonamentos. Uma notificação push mostra o mesmo "
+"texto da entrada na lista de notificações, e tocá-la abre o ticket no app."
+
+#: ../extras/mobile-view.rst:151
+msgid ""
+"On iPhone and iPad, push notifications are only available in the app added "
+"to the home screen with iOS or iPadOS 16.4 or later. Open the mobile view in "
+"Safari, tap ``Share`` and then ``Add to Home Screen``. On Android, the "
+"installed app and the browser can both receive them."
+msgstr ""
+"No iPhone e no iPad, as notificações push só estão disponíveis no app "
+"adicionado à tela inicial, com iOS ou iPadOS 16.4 ou posterior. Abra a "
+"visualização mobile no Safari, toque em ``Share`` e depois em ``Add to Home "
+"Screen``. No Android, tanto o app instalado quanto o navegador podem recebê-"
+"las."
+
+#: ../extras/mobile-view.rst:156
+msgid ""
+"If you turned notifications off for the app in the settings of your device, "
+"the switch stays locked until you allow them there again. A browser whose "
+"push service Zammad does not support cannot enable push notifications at "
+"all. Turn the switch off again to stop receiving them; signing out removes "
+"the device as well."
+msgstr ""
+"Se você desativou as notificações do app nas configurações do seu "
+"dispositivo, a chave fica bloqueada até que você as permita novamente lá. Um "
+"navegador cujo serviço de push o Zammad não suporta não consegue ativar "
+"notificações push. Desative a chave para parar de recebê-las; sair da conta "
+"também remove o dispositivo."
+
+#: ../extras/mobile-view.rst:162
+msgid ""
+"Push notifications are delivered by the push service of your browser and not "
+"by Zammad, so they can be delayed, for example by battery optimization on "
+"Android devices. While you are working in the desktop view, Zammad does not "
+"send push notifications to your mobile devices."
+msgstr ""
+"As notificações push são entregues pelo serviço de push do seu navegador, e "
+"não pelo Zammad, então podem atrasar, por exemplo por causa da otimização de "
+"bateria em dispositivos Android. Enquanto você está trabalhando na "
+"visualização desktop, o Zammad não envia notificações push para os seus "
+"dispositivos móveis."
+
+#: ../extras/mobile-view.rst:168
 msgid "Limitations"
 msgstr "Limitações"
 
-#: ../extras/mobile-view.rst:129
+#: ../extras/mobile-view.rst:170
 msgid ""
 "Mobile view is also currently missing some features which are provided by "
 "the desktop view:"
@@ -7760,27 +8308,27 @@ msgstr ""
 "A visualização móvel também ainda não tem alguns recursos oferecidos pela "
 "visualização desktop:"
 
-#: ../extras/mobile-view.rst:132
+#: ../extras/mobile-view.rst:173
 msgid "Ticket Article **Split** Action"
 msgstr "Ação **Dividir** do artigo do ticket"
 
-#: ../extras/mobile-view.rst:133
+#: ../extras/mobile-view.rst:174
 msgid "Linked Tickets & Ticket **Link** Action"
 msgstr "Tickets vinculados e a ação **Vincular** do ticket"
 
-#: ../extras/mobile-view.rst:134
+#: ../extras/mobile-view.rst:175
 msgid "Ticket Macros"
 msgstr "Macros de ticket"
 
-#: ../extras/mobile-view.rst:135
+#: ../extras/mobile-view.rst:176
 msgid "Ticket History"
 msgstr "Histórico do ticket"
 
-#: ../extras/mobile-view.rst:136
+#: ../extras/mobile-view.rst:177
 msgid "Ticket Create Templates & Shared Drafts"
 msgstr "Modelos de criação de ticket e rascunhos compartilhados"
 
-#: ../extras/mobile-view.rst:138
+#: ../extras/mobile-view.rst:179
 msgid ""
 "Additionally, certain features were intentionally omitted in order to "
 "improve the focus on important information:"
@@ -7788,34 +8336,34 @@ msgstr ""
 "Além disso, certos recursos foram intencionalmente omitidos para melhorar o "
 "foco em informações importantes:"
 
-#: ../extras/mobile-view.rst:141
+#: ../extras/mobile-view.rst:182
 msgid ""
 "Most Management Features (except ticket user and organization management)"
 msgstr ""
 "A maioria dos recursos de gerenciamento (exceto o gerenciamento de usuários "
 "e organizações de tickets)"
 
-#: ../extras/mobile-view.rst:142
+#: ../extras/mobile-view.rst:183
 msgid "Most Knowledge Base Features (except ticket integration)"
 msgstr ""
 "A maioria dos recursos da base de conhecimento (exceto a integração com "
 "tickets)"
 
-#: ../extras/mobile-view.rst:143
+#: ../extras/mobile-view.rst:184
 msgid "Most User Profile Functions (except avatar and language preferences)"
 msgstr ""
 "A maioria das funções do perfil de usuário (exceto avatar e preferências de "
 "idioma)"
 
-#: ../extras/mobile-view.rst:144
+#: ../extras/mobile-view.rst:185
 msgid "Reports"
 msgstr "Relatórios"
 
-#: ../extras/mobile-view.rst:149
+#: ../extras/mobile-view.rst:190
 msgid "Access"
 msgstr "Acesso"
 
-#: ../extras/mobile-view.rst:151
+#: ../extras/mobile-view.rst:192
 msgid ""
 "Zammad now implements a mobile device detection, which results in automatic "
 "redirection to mobile view. Even with this mechanism in place it's possible "
@@ -7826,9 +8374,19 @@ msgstr ""
 "mecanismo, é possível alternar explicitamente entre as visualizações usando "
 "os links de aplicativo:"
 
-#: ../extras/mobile-view.rst:174
-msgid "Continue to desktop link in mobile view"
-msgstr "Link \"Continuar para desktop\" na visualização móvel"
+#: ../extras/mobile-view.rst:197
+msgid "Continue to Desktop Link in Mobile View"
+msgstr "Link \"Continuar para desktop\" na visualização mobile"
+
+#: ../extras/mobile-view.rst:199
+msgid ""
+"On the login screen, use the **Continue to desktop** link below the ``Sign "
+"in`` button. While you are signed in, open your account page with the avatar "
+"in the bottom navigation and use the **Continue to desktop** entry there."
+msgstr ""
+"Na tela de login, use o link **Continue to desktop** abaixo do botão ``Sign "
+"in``. Com a sessão iniciada, abra a página da sua conta pelo avatar na "
+"navegação inferior e use a opção **Continue to desktop** ali."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Desktop Link on Login Screen"
@@ -7838,13 +8396,25 @@ msgstr "Link \"Continuar para desktop\" na tela de login"
 msgid "Continue to Desktop Link in User Account Overview"
 msgstr "Link \"Continuar para desktop\" na visão geral da conta do usuário"
 
-#: ../extras/mobile-view.rst:170
+#: ../extras/mobile-view.rst:219
 msgid "User Account Overview"
 msgstr "Visão geral da conta do usuário"
 
-#: ../extras/mobile-view.rst:195
-msgid "Continue to mobile link in desktop view"
-msgstr "Link \"Continuar para a versão móvel\" na visualização desktop"
+#: ../extras/mobile-view.rst:226
+msgid "Continue to Mobile Link in Desktop View"
+msgstr "Link \"Continuar para mobile\" na visualização desktop"
+
+#: ../extras/mobile-view.rst:228
+msgid ""
+"On the login screen of the desktop view, use the **Continue to mobile** link "
+"below the ``Sign in`` button. While you are signed in, use the **Continue to "
+"mobile** entry in the user menu, which your avatar at the bottom of the "
+"navigation sidebar opens."
+msgstr ""
+"Na tela de login da visualização desktop, use o link **Continue to mobile** "
+"abaixo do botão ``Sign in``. Com a sessão iniciada, use a opção **Continue "
+"to mobile** no menu do usuário, que é aberto pelo seu avatar na parte "
+"inferior da barra lateral de navegação."
 
 #: ../extras/mobile-view.rst:0
 msgid "Continue to Mobile Link in Desktop Login Screen"
@@ -7854,11 +8424,11 @@ msgstr "Link \"Continuar para a versão móvel\" na tela de login do desktop"
 msgid "Continue to Mobile Link in Desktop User Menu"
 msgstr "Link \"Continuar para a versão móvel\" no menu do usuário do desktop"
 
-#: ../extras/mobile-view.rst:191
+#: ../extras/mobile-view.rst:249
 msgid "User Avatar Menu"
 msgstr "Menu do avatar do usuário"
 
-#: ../extras/mobile-view.rst:197
+#: ../extras/mobile-view.rst:255
 msgid ""
 "Whenever an app link is used, the choice will be remembered by the user's "
 "device and the next time the automatic redirection will behave accordingly."
@@ -9411,7 +9981,18 @@ msgstr ""
 "Use as quatro primeiras colunas para escolher quando receber **notificações "
 "internas**. A coluna da direita habilita também a notificação por email."
 
-#: ../extras/user-menu-profile-settings.rst:118
+#: ../extras/user-menu-profile-settings.rst:117
+msgid ""
+"Push notifications on a mobile device follow these internal notifications "
+"and have no settings of their own. See the :doc:`mobile view </extras/mobile-"
+"view>` page to turn them on for a device."
+msgstr ""
+"As notificações push em um dispositivo móvel seguem estas notificações "
+"internas e não têm configurações próprias. Veja a página "
+"da :doc:`visualização mobile </extras/mobile-view>` para ativá-las em um "
+"dispositivo."
+
+#: ../extras/user-menu-profile-settings.rst:122
 msgid ""
 "Notifications you have already read are removed from the list automatically. "
 "Ones you marked as read yourself disappear after about ten minutes. Ones "
@@ -9427,7 +10008,7 @@ msgstr ""
 "por cerca de oito horas. Independentemente disso, nenhuma notificação é "
 "mantida por mais de nove meses."
 
-#: ../extras/user-menu-profile-settings.rst:125
+#: ../extras/user-menu-profile-settings.rst:129
 msgid ""
 "The clean-up runs every two hours, so a notification can stay visible "
 "somewhat longer than the times given above."
@@ -9435,11 +10016,11 @@ msgstr ""
 "A limpeza é executada a cada duas horas, então uma notificação pode "
 "permanecer visível um pouco mais do que os tempos indicados acima."
 
-#: ../extras/user-menu-profile-settings.rst:145
+#: ../extras/user-menu-profile-settings.rst:149
 msgid "Limit Groups"
 msgstr "Limitar grupos"
 
-#: ../extras/user-menu-profile-settings.rst:132
+#: ../extras/user-menu-profile-settings.rst:136
 msgid ""
 "By default, you will receive notifications for all tickets in every group "
 "you belong to - even for tickets that are assigned to other agents. Use the "
@@ -9453,7 +10034,7 @@ msgstr ""
 "desabilitar essas notificações por grupo. Você continuará recebendo "
 "notificações dos seus próprios tickets."
 
-#: ../extras/user-menu-profile-settings.rst:138
+#: ../extras/user-menu-profile-settings.rst:142
 msgid ""
 "If you turn on **Limit Groups** feature, but disable the notifications from "
 "all groups, you may receive the following warning."
@@ -9461,7 +10042,7 @@ msgstr ""
 "Se você ativar o recurso **Limitar grupos**, mas desabilitar as notificações "
 "de todos os grupos, poderá receber o seguinte aviso."
 
-#: ../extras/user-menu-profile-settings.rst:144
+#: ../extras/user-menu-profile-settings.rst:148
 msgid ""
 "In this case, saving your settings will implicitly turn off **Limit Groups** "
 "feature, since no limits will be left in effect."
@@ -9469,7 +10050,7 @@ msgstr ""
 "Nesse caso, salvar suas configurações desligará implicitamente o recurso "
 "**Limitar grupos**, já que nenhum limite continuará em vigor."
 
-#: ../extras/user-menu-profile-settings.rst:147
+#: ../extras/user-menu-profile-settings.rst:151
 msgid ""
 "The contents of these email notifications can be customized on self-hosted "
 "installations. Administrators can learn more in the :admin-docs:`system "
@@ -9484,7 +10065,7 @@ msgstr ""
 msgid "Out of Office"
 msgstr "Fora do escritório"
 
-#: ../extras/user-menu-profile-settings.rst:154
+#: ../extras/user-menu-profile-settings.rst:158
 msgid ""
 "Schedule absence periods in advance, and designate a substitute to handle "
 "your tickets while you're gone."
@@ -9492,7 +10073,7 @@ msgstr ""
 "Agende períodos de ausência com antecedência e designe um substituto para "
 "cuidar dos seus tickets enquanto você estiver fora."
 
-#: ../extras/user-menu-profile-settings.rst:157
+#: ../extras/user-menu-profile-settings.rst:161
 msgid ""
 "Your substitute will receive all your ticket notifications during your "
 "absence, and have a custom :ref:`overview <overviews>` created to help keep "
@@ -9503,7 +10084,7 @@ msgstr ""
 "ajudar a acompanhar seus tickets. Você continuará recebendo notificações "
 "enquanto estiver ausente."
 
-#: ../extras/user-menu-profile-settings.rst:162
+#: ../extras/user-menu-profile-settings.rst:166
 msgid ""
 "Tired of the overview order your admin decided on? This section allows you "
 "to choose an overview order that fits you the best."
@@ -9511,7 +10092,7 @@ msgstr ""
 "Cansado da ordem de visões gerais que seu administrador definiu? Esta seção "
 "permite escolher a ordem que melhor se encaixa para você."
 
-#: ../extras/user-menu-profile-settings.rst:165
+#: ../extras/user-menu-profile-settings.rst:169
 msgid ""
 "You can revert to the default instance ordering at any time by using the "
 "upper right button ``Reset overview order``."
@@ -9519,7 +10100,7 @@ msgstr ""
 "Você pode voltar à ordenação padrão da instância a qualquer momento usando o "
 "botão superior direito ``Reset overview order``."
 
-#: ../extras/user-menu-profile-settings.rst:170
+#: ../extras/user-menu-profile-settings.rst:174
 msgid ""
 "This option is only visible to agents by default. It can be completely "
 "deactivated by your admin."
@@ -9527,7 +10108,7 @@ msgstr ""
 "Por padrão, essa opção é visível apenas para agentes. Ela pode ser "
 "completamente desativada pelo administrador."
 
-#: ../extras/user-menu-profile-settings.rst:173
+#: ../extras/user-menu-profile-settings.rst:177
 msgid ""
 "If it is activated, the order does not change, even if your admin renames or "
 "reorders the overviews. The overview order is stored in your profile and "
@@ -9550,7 +10131,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Calendário"
 
-#: ../extras/user-menu-profile-settings.rst:183
+#: ../extras/user-menu-profile-settings.rst:187
 msgid ""
 "Add your ticket deadlines to your own favorite calendar app with the iCal "
 "link listed on this page."
@@ -9562,7 +10143,7 @@ msgstr ""
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: ../extras/user-menu-profile-settings.rst:188
+#: ../extras/user-menu-profile-settings.rst:192
 msgid ""
 "See a list of all devices logged into your Zammad account (and revoke "
 "access, if necessary)."
@@ -9574,21 +10155,25 @@ msgstr ""
 msgid "Token Access"
 msgstr "Token Access"
 
-#: ../extras/user-menu-profile-settings.rst:193
+#: ../extras/user-menu-profile-settings.rst:197
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
 "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
 "{your token}``. Both formats work for the same token. The API documentation "
-"shows both variants."
+"shows both variants. One application you connect this way is an AI client, "
+"which works on your tickets through the :doc:`MCP server </extras/mcp-"
+"server>`."
 msgstr ""
 "Gere tokens de acesso pessoal para que aplicativos de terceiros usem a API "
 "do Zammad. Envie o token como cabeçalho HTTP nas suas chamadas à API, seja "
 "como ``Authorization: Token token={your token}`` ou como ``Authorization: "
 "Bearer {your token}``. Os dois formatos funcionam para o mesmo token. A "
-"documentação da API mostra as duas variantes."
+"documentação da API mostra as duas variantes. Um aplicativo que você conecta "
+"dessa forma é um cliente de IA, que trabalha nos seus tickets "
+"pelo :doc:`servidor MCP </extras/mcp-server>`."
 
-#: ../extras/user-menu-profile-settings.rst:200
+#: ../extras/user-menu-profile-settings.rst:206
 msgid ""
 "Always generate a new token for each application you connect to Zammad! This "
 "makes it possible to revoke access for individual applications if a token is "
@@ -9602,7 +10187,7 @@ msgstr ""
 msgid "Linked Accounts"
 msgstr "Contas vinculadas"
 
-#: ../extras/user-menu-profile-settings.rst:206
+#: ../extras/user-menu-profile-settings.rst:212
 msgid ""
 "See a list of third party services (e.g. Facebook or Google) linked to your "
 "Zammad account."
@@ -9641,6 +10226,13 @@ msgstr ""
 #~ "aberto."
 
 #~ msgid ""
+#~ "Zammad offers AI-powered features to help you manage support tickets more "
+#~ "efficiently."
+#~ msgstr ""
+#~ "O Zammad oferece recursos com IA para ajudar você a gerenciar tickets de "
+#~ "suporte com mais eficiência."
+
+#~ msgid ""
 #~ "With the issue tracker integration, you can monitor GitHub / GitLab "
 #~ "issues right from within a Zammad ticket. This feature is optional. If "
 #~ "you don't see it in the ticket sidebar, that means your administrator "
@@ -9648,7 +10240,7 @@ msgstr ""
 #~ "docs:`issue tracker integration in the admin documentation </system/"
 #~ "integrations#integrations-for-issue-trackers>`."
 #~ msgstr ""
-#~ "Com a integração com rastreadores de issues, você pode acompanhar issues "
+#~ "Com a integração de rastreadores de issues, você pode acompanhar issues "
 #~ "do GitHub / GitLab diretamente de dentro de um ticket do Zammad. Este "
 #~ "recurso é opcional. Se você não o vê na barra lateral do ticket, "
 #~ "significa que seu administrador ainda não o habilitou. Administradores "
@@ -9669,13 +10261,13 @@ msgstr ""
 #~ "geral das issues relacionadas ao ticket."
 
 #~ msgid "GitHub logo"
-#~ msgstr "Logotipo do GitHub"
+#~ msgstr "GitHub logo"
 
 #~ msgid "GitLab logo"
-#~ msgstr "Logotipo do GitLab"
+#~ msgstr "GitLab logo"
 
 #~ msgid "What Can It Do?"
-#~ msgstr "O que ela pode fazer?"
+#~ msgstr "O que ele pode fazer?"
 
 #~ msgid ""
 #~ "Use the |github| and |gitlab| tabs on the ticket sidebar to see linked "
@@ -9685,10 +10277,9 @@ msgstr ""
 #~ "this ticket."
 #~ msgstr ""
 #~ "Use as abas |github| e |gitlab| na barra lateral do ticket para ver as "
-#~ "issues vinculadas, com metadados como estado (aberta/fechada), "
-#~ "responsável, etiquetas e mais. Ou clique no título para ver a issue no "
-#~ "GitHub / GitLab. Um selo no ícone da aba indica quantas issues estão "
-#~ "vinculadas ao ticket."
+#~ "issues vinculadas, com metadados como status (aberta/fechada), atribuído, "
+#~ "rótulos e mais. Ou clique no título para ver a issue no GitHub / GitLab. "
+#~ "Um selo no ícone da aba indica quantas issues estão vinculadas ao ticket."
 
 #~ msgid ""
 #~ "At the top of the ticket sidebar, select *GitHub / GitLab > Link Issue*, "
@@ -9704,11 +10295,11 @@ msgstr ""
 #~ "Screencast mostrando como listar e adicionar novas issues a um ticket"
 
 #~ msgid "Remove an issue"
-#~ msgstr "Remover uma issue"
+#~ msgstr "Remova um problema"
 
 #~ msgid "Click the ✕ button next to an issue title to unlink it."
 #~ msgstr ""
-#~ "Clique no botão ✕ ao lado do título de uma issue para desvinculá-la."
+#~ "Clique no botão ✕ próximo ao título de um problema para desvinculá-lo."
 
 #~ msgid ""
 #~ "Use the 🖨 **printer** tab to view or manage a ticket's assets from i-doit."
@@ -9805,6 +10396,9 @@ msgstr ""
 #~ msgstr ""
 #~ "Use o botão **📄 Create ticket** na lista de tickets do ativo para "
 #~ "iniciar um diálogo de novo ticket já pré-vinculado."
+
+#~ msgid "Show dashboard"
+#~ msgstr "Mostrar painel"
 
 #~ msgid ""
 #~ "Generate personal access tokens for third party applications to use the "

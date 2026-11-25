@@ -114,6 +114,10 @@ account.
          Use the first four columns to choose when to receive **internal
          notifications**. The right column enables email notification as well.
 
+      Push notifications on a mobile device follow these internal notifications
+      and have no settings of their own. See the :doc:`mobile view
+      </extras/mobile-view>` page to turn them on for a device.
+
       .. note::
          Notifications you have already read are removed from the list
          automatically. Ones you marked as read yourself disappear after about
@@ -194,7 +198,9 @@ account.
    Zammad API. Send a token as HTTP header with your API calls, either as
    ``Authorization: Token token={your token}`` or as
    ``Authorization: Bearer {your token}``. Both formats work for the same
-   token. The API documentation shows both variants.
+   token. The API documentation shows both variants. One application you
+   connect this way is an AI client, which works on your tickets through the
+   :doc:`MCP server </extras/mcp-server>`.
 
    .. tip::
       Always generate a new token for each application you connect to Zammad!

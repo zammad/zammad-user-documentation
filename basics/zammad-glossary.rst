@@ -248,9 +248,13 @@ External Authentication
    means that your users will have to remember fewer passwords.
    Zammad currently supports more than ten login providers, such as Facebook,
    GitHub, GitLab, Google, or Microsoft / Office365.
+   If your Zammad signs you in through one provider only, administrators can
+   enable Zammad to send you straight to that provider's sign-in page without
+   a click on the login screen first.
 
    See our :admin-docs:`admin documentation </settings/security/third-party.html>`
-   for all third party authentication providers.
+   for all third party authentication providers and the
+   :admin-docs:`automatic third-party login </settings/security/base.html>`.
 
 F
 -

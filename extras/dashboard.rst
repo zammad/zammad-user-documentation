@@ -5,6 +5,11 @@ The **dashboard** is the first thing you'll see after logging in. Monitor your
 productivity at a glance, compare your stats to the company average (in gray
 below your own), and see what everyone else is up to.
 
+Your admin can turn off the whole dashboard or some of its parts. If the
+dashboard is turned off, it doesn't appear in the main menu and you land on
+your ticket overviews after logging in. The activity stream may also be
+hidden or limited to your own activities.
+
 .. figure:: /images/extras/dashboard.png
    :alt: Sample view of Dashboard
 
