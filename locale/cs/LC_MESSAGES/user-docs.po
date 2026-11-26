@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Zammad (for Agents)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 15:08+0200\n"
-"PO-Revision-Date: 2026-11-04 13:12+0000\n"
+"PO-Revision-Date: 2026-11-26 17:12+0000\n"
 "Last-Translator: Mixer <mixer@mixercz.cz>\n"
 "Language-Team: Czech <https://translations.zammad.org/projects/"
 "documentations/user-documentation-pre-release/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: ../advanced/keyboard-shortcuts.rst:2
 msgid "Keyboard Shortcuts"
@@ -2437,18 +2437,12 @@ msgid "Via Overviews"
 msgstr "Pomocí přehledů"
 
 #: ../basics/find-tickets.rst:11
-#, fuzzy
-#| msgid ""
-#| "If you search for new tickets to work on, your first look should be in "
-#| "the overview section. This section gives you a rough overview. More "
-#| "details are covered in a separate overview page."
 msgid ""
 "If you search for new tickets to work on, your first look should be in the "
 "overview section. This section gives you a rough overview."
 msgstr ""
 "Pokud hledáte nové tikety, na kterých můžete pracovat, podívejte se nejprve "
-"do sekce přehledů. Tato sekce vám dá hrubý přehled. Další podrobnosti jsou "
-"popsány na samostatné stránce o přehledech."
+"do sekce přehledů. Tato sekce vám dá hrubý přehled."
 
 #: ../basics/find-tickets.rst:14
 msgid ""
@@ -2572,34 +2566,45 @@ msgid ""
 "its details without opening it. A click on the title or on the ticket number "
 "opens the ticket as usual."
 msgstr ""
+"Najeďte myší na název nebo číslo tiketu v přehledu a zobrazí se jeho "
+"podrobnosti, aniž byste ho otevírali. Kliknutím na název nebo číslo tiketu "
+"se tiket otevře jako obvykle."
 
 #: ../basics/find-tickets.rst:69
 msgid ""
 "Besides the title, the number and a button that copies the number, the "
 "popover shows the following if available:"
 msgstr ""
+"Kromě názvu, čísla a tlačítka, které číslo zkopíruje, zobrazí vyskakovací "
+"okno také následující údaje, pokud jsou k dispozici:"
 
 #: ../basics/find-tickets.rst:72
 msgid ""
 "A **Checked** badge with the number of completed and total checklist items. "
 "It opens the checklist of the ticket."
 msgstr ""
+"Odznak **Zaškrtnuto** s počtem dokončených a všech položek kontrolního "
+"seznamu. Otevře kontrolní seznam tiketu."
 
 #: ../basics/find-tickets.rst:74
 msgid ""
 "A **Customer sentiment** badge with the customer mood detected by AI. It "
 "opens the AI summary of the ticket."
 msgstr ""
+"Odznak **Nálada zákazníka** s náladou zákazníka zjištěnou pomocí AI. Otevře "
+"AI shrnutí tiketu."
 
 #: ../basics/find-tickets.rst:76
 msgid "The customer intent from the AI summary."
-msgstr ""
+msgstr "Záměr zákazníka z AI shrnutí."
 
 #: ../basics/find-tickets.rst:77
 msgid ""
 "The first and the latest article, each with a short preview of its text. If "
 "the AI summary contains a customer intent, only the latest article is shown."
 msgstr ""
+"První a poslední článek, každý s krátkým náhledem textu. Pokud AI shrnutí "
+"obsahuje záměr zákazníka, zobrazí se jen poslední článek."
 
 #: ../basics/find-tickets.rst:80
 msgid ""
@@ -2608,6 +2613,9 @@ msgid ""
 "the AI summary feature is enabled and a summary already exists for the "
 "ticket."
 msgstr ""
+"Odznaky a text z AI vyžadují příslušnou funkci. Odznak kontrolního seznamu "
+"se zobrazuje jen tehdy, když má tiket otevřený kontrolní seznam, části z AI "
+"jen tehdy, když je zapnutá funkce AI shrnutí a pro tiket už shrnutí existuje."
 
 #: ../basics/find-tickets.rst:87
 msgid "Via Search"
@@ -2862,6 +2870,10 @@ msgid ""
 "change the state. The ticket switches to open automatically as soon as an "
 "agent sends the first public reply."
 msgstr ""
+"**Nový**: stav nových tiketů, na které agent zatím neodeslal veřejnou "
+"odpověď. Přidání interní poznámky ani změna jiných atributů tiketu stav "
+"nezmění. Tiket se automaticky přepne do stavu otevřený, jakmile agent odešle "
+"první veřejnou odpověď."
 
 #: ../basics/ticket-basics.rst:71
 msgid ""
@@ -3548,7 +3560,7 @@ msgstr "Zvýrazňovač tiketů"
 
 #: ../basics/work-with-tickets.rst:269
 msgid "Unprocessable Email Tickets"
-msgstr ""
+msgstr "Tikety z nezpracovatelných e-mailů"
 
 #: ../basics/work-with-tickets.rst:271
 msgid ""
@@ -3557,16 +3569,23 @@ msgid ""
 "a warning above the conversation states that the ticket was created because "
 "the email could not be processed. Two buttons let you look at what arrived:"
 msgstr ""
+"Zammad z příchozích e-mailů vytváří tikety. Pokud e-mail vůbec nebylo možné "
+"zpracovat, tiket ho nezobrazuje jako článek. Místo toho je nad konverzací "
+"upozornění, že tiket vznikl, protože e-mail nebylo možné zpracovat. Pomocí "
+"dvou tlačítek se můžete podívat, co dorazilo:"
 
 #: ../basics/work-with-tickets.rst:276
 msgid "``Download raw email``: the email as the sender sent it."
 msgstr ""
+"``Stáhnout nezpracovaný e-mail``: e-mail tak, jak ho odesílatel odeslal."
 
 #: ../basics/work-with-tickets.rst:277
 msgid ""
 "``Download processing log``: the technical details Zammad logged when "
 "processing failed."
 msgstr ""
+"``Stáhnout log zpracování``: technické podrobnosti, které Zammad zaznamenal, "
+"když zpracování selhalo."
 
 #: ../basics/work-with-tickets.rst:280
 msgid ""
@@ -3574,6 +3593,9 @@ msgid ""
 "address, because Zammad could not read a usable sender address. What you do "
 "next depends on what the raw email reveals:"
 msgstr ""
+"Tiket nemusí mít žádného zákazníka, nebo může mít zákazníka bez e-mailové "
+"adresy, protože Zammad nedokázal přečíst použitelnou adresu odesílatele. "
+"Další postup závisí na tom, co prozradí nezpracovaný e-mail:"
 
 #: ../basics/work-with-tickets.rst:284
 msgid ""
@@ -3581,18 +3603,25 @@ msgid ""
 "missing address via **Edit customer**, or use **Change customer** to pick "
 "the customer you want to answer."
 msgstr ""
+"**Poškozená adresa odesílatele**: z nezpracovaného e-mailu je vidět, kdo "
+"psal. Doplňte chybějící adresu pomocí **Upravit zákazníka**, nebo pomocí "
+"**Změnit zákazníka** vyberte zákazníka, kterému chcete odpovědět."
 
 #: ../basics/work-with-tickets.rst:287
 msgid ""
 "**No sender at all**: the ticket has no customer. Look up who wrote in the "
 "raw email and use **Change customer** to pick them."
 msgstr ""
+"**Úplně chybí odesílatel**: tiket nemá žádného zákazníka. V nezpracovaném e-"
+"mailu zjistěte, kdo psal, a vyberte ho pomocí **Změnit zákazníka**."
 
 #: ../basics/work-with-tickets.rst:289
 msgid ""
 "**Nothing readable**: check the processing log, close the ticket and hand "
 "the raw email and the processing log to your administrator."
 msgstr ""
+"**Nic čitelného**: zkontrolujte log zpracování, uzavřete tiket a předejte "
+"nezpracovaný e-mail a log zpracování svému administrátorovi."
 
 #: ../basics/work-with-tickets.rst:294
 msgid ""
@@ -5733,6 +5762,10 @@ msgid ""
 "such as a chat application or a coding tool, see :doc:`MCP Server </extras/"
 "mcp-server>`."
 msgstr ""
+"Zammad nabízí funkce využívající AI, které vám pomohou spravovat tikety "
+"podpory efektivněji. Pokud chcete pracovat na svých tiketech z AI aplikace, "
+"kterou už používáte, například z chatovací aplikace nebo nástroje pro "
+"programování, přečtěte si :doc:`MCP server </extras/mcp-server>`."
 
 #: ../extras/ai-features.rst:12
 msgid ""
@@ -6037,15 +6070,6 @@ msgid "Knowledge Base Answer Suggestion"
 msgstr "Návrhy odpovědí znalostní báze"
 
 #: ../extras/ai-features.rst:136
-#, fuzzy
-#| msgid ""
-#| "This feature compares the ticket content against the knowledge base and "
-#| "shows relevant answers under **Suggested knowledge** if they meet the "
-#| "admin-configured score threshold. Each suggestion shows the title of the "
-#| "answer and more details on hover. An additional relevance score is only "
-#| "shown to users with the corresponding admin permissions. Click on the "
-#| "title to open the answer in the knowledge base. Click the ``+`` on the "
-#| "right side to link it to the ticket."
 msgid ""
 "This feature compares the ticket content against the knowledge base and "
 "shows relevant answers under **Suggested** if they meet the admin-configured "
@@ -6055,13 +6079,13 @@ msgid ""
 "in the knowledge base. Click the ``+`` on the right side to link it to the "
 "ticket. Linked answers are listed above under **Linked**."
 msgstr ""
-"Tato funkce porovná obsah tiketu se znalostní bází a v části **Navrhované "
-"znalosti** zobrazí relevantní odpovědi, pokud dosahují prahové hodnoty skóre "
-"nastavené administrátorem. Každý návrh zobrazuje název odpovědi a po najetí "
-"myší další podrobnosti. Doplňující skóre relevance se zobrazuje jen "
-"uživatelům s příslušnými administrátorskými oprávněními. Kliknutím na název "
-"otevřete odpověď ve znalostní bázi. Kliknutím na ``+`` na pravé straně ji "
-"propojíte s tiketem."
+"Tato funkce porovná obsah tiketu se znalostní bází a v části **Navrženo** "
+"zobrazí relevantní odpovědi, pokud dosahují prahové hodnoty skóre nastavené "
+"administrátorem. Každý návrh zobrazuje název odpovědi a po najetí myší další "
+"podrobnosti. Doplňující skóre relevance se zobrazuje jen uživatelům s "
+"příslušnými administrátorskými oprávněními. Kliknutím na název otevřete "
+"odpověď ve znalostní bázi. Kliknutím na ``+`` na pravé straně ji propojíte s "
+"tiketem. Propojené odpovědi jsou uvedeny výše v části **Propojeno**."
 
 #: ../extras/ai-features.rst:144
 msgid ""
@@ -7620,7 +7644,7 @@ msgstr ""
 
 #: ../extras/mcp-server.rst:2
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP server"
 
 #: ../extras/mcp-server.rst:4
 msgid ""
@@ -7629,6 +7653,11 @@ msgid ""
 "tool, and read, find and update your tickets from there. The server is part "
 "of every installation, you do not install or run anything in addition."
 msgstr ""
+"Zammad má vlastní server pro *Model Context Protocol* (MCP). Připojte k němu "
+"AI klienta, kterého už používáte, například chatovací aplikaci nebo nástroj "
+"pro programování, a čtěte, vyhledávejte a aktualizujte své tikety přímo "
+"odtamtud. Server je součástí každé instalace, nic dalšího neinstalujete ani "
+"nespouštíte."
 
 #: ../extras/mcp-server.rst:9
 msgid ""
@@ -7637,20 +7666,26 @@ msgid ""
 "``https://zammad.example.com/mcp`` fails, ask your admin whether the server "
 "is enabled."
 msgstr ""
+"Zda server přijímá připojení, rozhoduje váš administrátor, viz :admin-"
+"docs:`nastavení API </system/api.html>`. Pokud připojení k ``https://"
+"zammad.example.com/mcp`` selže, zeptejte se administrátora, zda je server "
+"zapnutý."
 
 #: ../extras/mcp-server.rst:15
 msgid "Connect an AI Client"
-msgstr ""
+msgstr "Připojení AI klienta"
 
 #: ../extras/mcp-server.rst:17
 msgid ""
 "Connecting takes a personal access token and the address of the server in "
 "your client."
 msgstr ""
+"K připojení potřebujete osobní přístupový token a adresu serveru zadanou v "
+"klientovi."
 
 #: ../extras/mcp-server.rst:21
 msgid "Create a Personal Access Token"
-msgstr ""
+msgstr "Vytvoření osobního přístupového tokenu"
 
 #: ../extras/mcp-server.rst:23
 msgid ""
@@ -7661,10 +7696,16 @@ msgid ""
 "can give the token an expiration date. Copy the token that Zammad shows you "
 "when the token is created."
 msgstr ""
+"Klient se připojuje pomocí osobního přístupového tokenu vašeho účtu. "
+"Otevřete svůj profil (*Avatar > Profil > Přístup přes token*, viz "
+":doc:`Osobní nastavení </extras/user-menu-profile-settings>`) a vytvořte "
+"token s oprávněním ``ticket.agent``, aby klient mohl pracovat s tikety. "
+"Tokenu můžete nastavit datum vypršení platnosti. Zkopírujte token, který vám "
+"Zammad při vytvoření zobrazí."
 
 #: ../extras/mcp-server.rst:31
 msgid "Add Zammad to Your Client"
-msgstr ""
+msgstr "Přidání Zammadu do klienta"
 
 #: ../extras/mcp-server.rst:33
 msgid ""
@@ -7673,34 +7714,42 @@ msgid ""
 "Bearer`` header with every request. Supporting the transport alone is not "
 "enough. Such a client asks for the same three entries:"
 msgstr ""
+"Přidejte Zammad do klienta jako MCP server. Klient musí podporovat transport "
+"MCP *Streamable HTTP* a umět s každým požadavkem posílat pevnou hlavičku "
+"``Authorization: Bearer``. Samotná podpora transportu nestačí. Takový klient "
+"se ptá na stejné tři údaje:"
 
 #: ../extras/mcp-server.rst:40
 msgid "Server address"
-msgstr ""
+msgstr "Adresa serveru"
 
 #: ../extras/mcp-server.rst:39
 msgid ""
 "The domain you open Zammad with, with ``/mcp`` after it: ``https://"
 "zammad.example.com/mcp``."
 msgstr ""
+"Doména, přes kterou Zammad otevíráte, a za ní ``/mcp``: ``https://"
+"zammad.example.com/mcp``."
 
 #: ../extras/mcp-server.rst:43
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #: ../extras/mcp-server.rst:43
 msgid "Streamable HTTP."
-msgstr ""
+msgstr "Streamable HTTP."
 
 #: ../extras/mcp-server.rst:47
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ../extras/mcp-server.rst:46
 msgid ""
 "``Authorization: Bearer {your token}``, sent as an HTTP header with every "
 "request."
 msgstr ""
+"``Authorization: Bearer {your token}``, posílaný jako hlavička HTTP s každým "
+"požadavkem."
 
 #: ../extras/mcp-server.rst:49
 msgid ""
@@ -7708,6 +7757,9 @@ msgid ""
 "with the address and the header. Replace ``zammad.example.com`` with the "
 "domain you open Zammad with and ``{your token}`` with the token you copied:"
 msgstr ""
+"Klienti, kteří načítají konfiguraci v JSON (a těch je mnoho), přidají Zammad "
+"jako server s adresou a hlavičkou. Nahraďte ``zammad.example.com`` doménou, "
+"přes kterou Zammad otevíráte, a ``{your token}`` zkopírovaným tokenem:"
 
 #: ../extras/mcp-server.rst:68
 msgid ""
@@ -7715,6 +7767,10 @@ msgid ""
 "that others can read or that ends up in a repository. Keep the file private, "
 "or use the reference to a stored secret where your client supports one."
 msgstr ""
+"Token funguje jako vaše heslo. Nevkládejte ho do konfiguračního souboru, "
+"který mohou číst ostatní nebo který skončí v repozitáři. Soubor si ponechte "
+"soukromý, nebo použijte odkaz na uložené tajemství, pokud ho váš klient "
+"podporuje."
 
 #: ../extras/mcp-server.rst:72
 msgid ""
@@ -7722,6 +7778,9 @@ msgid ""
 "connection works, a first request such as \"Show my assigned tickets\" shows "
 "whether the client reaches Zammad."
 msgstr ""
+"Ostatní klienti se ptají na tytéž tři údaje ve vlastním formuláři. Jakmile "
+"připojení funguje, první požadavek, například \"Zobraz moje přiřazené "
+"tikety\", ukáže, zda se klient k Zammadu dostane."
 
 #: ../extras/mcp-server.rst:76
 msgid ""
@@ -7729,10 +7788,13 @@ msgid ""
 "Zammad with. If the connection fails, check that the client uses exactly "
 "that address."
 msgstr ""
+"Zammad odpovídá jen na adrese, pro kterou je nakonfigurovaný, tedy na té, "
+"přes kterou Zammad otevíráte. Pokud připojení selže, zkontrolujte, zda "
+"klient používá přesně tuto adresu."
 
 #: ../extras/mcp-server.rst:81
 msgid "What the Client Can Do"
-msgstr ""
+msgstr "Co klient umí"
 
 #: ../extras/mcp-server.rst:83
 msgid ""
@@ -7742,24 +7804,31 @@ msgid ""
 "tools from the server. The complete list of the tools, with the access of "
 "each and its limits, is in the :docs:`MCP tool reference </api/mcp.html>`."
 msgstr ""
+"Připojený klient pracuje s vašimi oprávněními: může dělat přesně to, co smí "
+"token a váš účet, nic víc, a své změny zaznamenává jako provedené vámi. "
+"Uživatel bez oprávnění agenta, například zákazník, nedostane od serveru "
+"žádné nástroje. Úplný seznam nástrojů s přístupem jednotlivých nástrojů a "
+"jejich omezeními najdete v :docs:`referenci nástrojů MCP </api/mcp.html>`."
 
 #: ../extras/mcp-server.rst:89
 msgid ""
 "Open a ticket by its number, its ID or a pasted link, and read its messages, "
 "internal notes, attachments, history and shared draft."
 msgstr ""
+"Otevřít tiket podle čísla, ID nebo vloženého odkazu a číst jeho zprávy, "
+"interní poznámky, přílohy, historii a sdílený koncept."
 
 #: ../extras/mcp-server.rst:92
-#, fuzzy
-#| msgid "You can find tabs for your opened tickets, users and organizations."
 msgid "Read a ticket's customer and organization."
-msgstr "Najdete zde záložky otevřených tiketů, uživatelů a organizací."
+msgstr "Číst zákazníka a organizaci tiketu."
 
 #: ../extras/mcp-server.rst:94
 msgid ""
 "Find tickets by words and by names, such as the customer, organization, "
 "state, owner, group or priority of a ticket."
 msgstr ""
+"Hledat tikety podle slov a jmen, například podle zákazníka, organizace, "
+"stavu, vlastníka, skupiny nebo priority tiketu."
 
 #: ../extras/mcp-server.rst:97
 msgid ""
@@ -7767,29 +7836,36 @@ msgid ""
 "by creation or last update, so that the client can start at the oldest "
 "ticket."
 msgstr ""
+"Vypsat vaše vlastní přehledy a jejich tikety a seznamy řadit, například "
+"podle vytvoření nebo poslední aktualizace, aby klient mohl začít u "
+"nejstaršího tiketu."
 
 #: ../extras/mcp-server.rst:101
 msgid "Search users, organizations and the knowledge base."
-msgstr ""
+msgstr "Vyhledávat uživatele, organizace a ve znalostní bázi."
 
 #: ../extras/mcp-server.rst:103
 msgid ""
 "Read the text of files attached to a message: text files up to 10 MB, other "
 "files come back as a link to download them."
 msgstr ""
+"Číst text souborů přiložených ke zprávě: textové soubory do 10 MB, ostatní "
+"soubory se vrátí jako odkaz ke stažení."
 
 #: ../extras/mcp-server.rst:106
 msgid "Change ticket attributes, set tags and add internal notes."
-msgstr ""
+msgstr "Měnit atributy tiketu, nastavovat štítky a přidávat interní poznámky."
 
 #: ../extras/mcp-server.rst:108
 msgid ""
 "Save and send shared drafts, and link tickets and knowledge base answers."
 msgstr ""
+"Ukládat a odesílat sdílené koncepty a propojovat tikety a odpovědi znalostní "
+"báze."
 
 #: ../extras/mcp-server.rst:110
 msgid "Create tickets and write messages."
-msgstr ""
+msgstr "Vytvářet tikety a psát zprávy."
 
 #: ../extras/mcp-server.rst:112
 msgid ""
@@ -7798,6 +7874,10 @@ msgid ""
 "accept plain text only, HTML is refused there. Files cannot be sent through "
 "the client: if you want to send one, add it to the message in Zammad itself."
 msgstr ""
+"Zprávy, poznámky a koncepty lze psát jako prostý text nebo jako HTML. Z HTML "
+"Zammad odstraní nebezpečné značky. SMS, Telegram, WhatsApp a Facebook "
+"přijímají jen prostý text, HTML se tam odmítne. Soubory přes klienta odeslat "
+"nelze: pokud chcete nějaký odeslat, přidejte ho ke zprávě přímo v Zammadu."
 
 #: ../extras/mcp-server.rst:117
 msgid ""
@@ -7805,10 +7885,13 @@ msgid ""
 "and records it. You can also tell it that you account no time, and Zammad "
 "then records the message without accounted time."
 msgstr ""
+"Pokud tiket vyžaduje počítání času, klient se vás na čas zeptá a zaznamená "
+"ho. Můžete mu také říct, že žádný čas nevykazujete, a Zammad pak zprávu "
+"zaznamená bez započítaného času."
 
 #: ../extras/mcp-server.rst:122
 msgid "Approval of Outgoing Messages"
-msgstr ""
+msgstr "Schvalování odchozích zpráv"
 
 #: ../extras/mcp-server.rst:124
 msgid ""
@@ -7817,6 +7900,9 @@ msgid ""
 "message, the recipients and the visibility, and Zammad sends only after you "
 "accept."
 msgstr ""
+"Pokud to klient umí zobrazit, Zammad vás požádá o schválení zprávy dříve, "
+"než se dostane k zákazníkovi. Žádost o schválení zobrazí celý text zprávy, "
+"příjemce a viditelnost a Zammad zprávu odešle, až když ji schválíte."
 
 #: ../extras/mcp-server.rst:129
 msgid ""
@@ -7824,6 +7910,9 @@ msgid ""
 "client can then offer to save the text as the ticket's shared draft, where "
 "the group allows shared drafts, for you to send it from Zammad itself."
 msgstr ""
+"Pokud žádost zamítnete, Zammad nic neodešle a na tiketu nic nezmění. Klient "
+"pak může nabídnout uložení textu jako sdíleného konceptu tiketu (pokud "
+"skupina sdílené koncepty povoluje), abyste ho mohli odeslat přímo ze Zammadu."
 
 #: ../extras/mcp-server.rst:133
 msgid ""
@@ -7834,6 +7923,13 @@ msgid ""
 "Keep the approval of tool calls enabled in your client, because a client "
 "that runs them without a prompt sends a message without any further question."
 msgstr ""
+"Klient, který formulář pro schválení zobrazit neumí, se spolehne na vlastní "
+"schvalování volání nástrojů, stejně jako u každé jiné změny, a Zammad se "
+"podruhé neptá. U dvou změn Zammad i tak chce váš souhlas: nahrazení již "
+"uloženého sdíleného konceptu a uzavření tiketu s nedokončeným kontrolním "
+"seznamem. Schvalování volání nástrojů mějte v klientovi zapnuté, protože "
+"klient, který je spouští bez dotazu, odešle zprávu bez jakéhokoli dalšího "
+"potvrzení."
 
 #: ../extras/mobile-view.rst:2
 msgid "Mobile View"
@@ -9907,13 +10003,6 @@ msgid "Token Access"
 msgstr "Přístup přes token"
 
 #: ../extras/user-menu-profile-settings.rst:197
-#, fuzzy
-#| msgid ""
-#| "Generate personal access tokens for third party applications to use the "
-#| "Zammad API. Send a token as HTTP header with your API calls, either as "
-#| "``Authorization: Token token={your token}`` or as ``Authorization: Bearer "
-#| "{your token}``. Both formats work for the same token. The API "
-#| "documentation shows both variants."
 msgid ""
 "Generate personal access tokens for third party applications to use the "
 "Zammad API. Send a token as HTTP header with your API calls, either as "
@@ -9927,7 +10016,8 @@ msgstr ""
 "používat API Zammadu. Token posílejte ve volání API jako hlavičku HTTP, buď "
 "jako ``Authorization: Token token={your token}``, nebo jako ``Authorization: "
 "Bearer {your token}``. Oba formáty fungují pro stejný token. Dokumentace API "
-"uvádí obě varianty."
+"uvádí obě varianty. Jednou z aplikací, které takto připojíte, je AI klient, "
+"který pracuje s vašimi tikety přes :doc:`MCP server </extras/mcp-server>`."
 
 #: ../extras/user-menu-profile-settings.rst:206
 msgid ""
